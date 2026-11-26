@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Large model checkpoints and weights
+outputs/checkpoints/
+*.joblib
+*.pt
+*.bin
+*.safetensors
+*.onnx
+
+# Large serialized datasets and manifests
+outputs/processed_data/
+outputs/splits/*.jsonl
+outputs/test_splits/
+
+# Temporary and test artifacts
+outputs/test_metrics/
+.pytest_cache/
+.coverage
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
