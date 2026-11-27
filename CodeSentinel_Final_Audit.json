@@ -1,0 +1,98 @@
+{
+  "audit_date": "2026-11-27",
+  "repository": "https://github.com/srikarlab/codesentinal_details",
+  "dataset": {
+    "total_samples": 50532,
+    "human_samples": 14648,
+    "ai_samples": 35884,
+    "empty_files": 1,
+    "languages": {
+      "c": 10057,
+      "cpp": 9209,
+      "java": 10682,
+      "javascript": 9924,
+      "python": 10660
+    },
+    "generators": {
+      "chatgpt": 8354,
+      "deepseek": 9202,
+      "gemini": 9218,
+      "qwen": 9110
+    },
+    "unique_ai_problem_ids": 1843,
+    "ai_problem_id_range": "P000001-P001865"
+  },
+  "splits": {
+    "standard": {
+      "train": 35372,
+      "val": 7579,
+      "test": 7581,
+      "total": 50532,
+      "cross_split_leakage": 0
+    },
+    "heldout_deepseek": {
+      "train": 28970,
+      "val": 6333,
+      "test": 7581,
+      "total": 42884,
+      "deepseek_in_train_val": 0,
+      "deepseek_in_test": 1554,
+      "cross_split_leakage": 0
+    }
+  },
+  "duplicates": {
+    "exact_raw_groups": 1473,
+    "exact_raw_files": 3297,
+    "whitespace_norm_groups": 1652,
+    "whitespace_norm_files": 3791,
+    "cross_label_raw_collisions": 0,
+    "cross_label_norm_collisions": 0
+  },
+  "tests": {
+    "command": "py -3.10 -m unittest discover -s tests -v",
+    "passed": 10,
+    "failed": 0,
+    "duration_s": 0.161
+  },
+  "github_live_status": {
+    "code_available": true,
+    "dataset_uploaded": false,
+    "readme_present_on_remote": false,
+    "license_present_on_remote": false
+  },
+  "diagnostics": {
+    "source_confounding_human_codenet_vs_github": {
+      "n_train": 10429,
+      "n_test": 1481,
+      "accuracy": 0.98244,
+      "macro_f1": 0.96811
+    },
+    "leave_one_language_out_tfidf_svm": {
+      "c": {
+        "n": 1482,
+        "accuracy": 0.38192,
+        "macro_f1": 0.37886
+      },
+      "cpp": {
+        "n": 1509,
+        "accuracy": 0.6786,
+        "macro_f1": 0.63566
+      },
+      "java": {
+        "n": 1437,
+        "accuracy": 0.81768,
+        "macro_f1": 0.70545
+      },
+      "javascript": {
+        "n": 1625,
+        "accuracy": 0.61538,
+        "macro_f1": 0.57037
+      },
+      "python": {
+        "n": 1528,
+        "accuracy": 0.84162,
+        "macro_f1": 0.78344
+      }
+    }
+  }
+}
