@@ -1,0 +1,72 @@
+{
+  "random_seed": 42,
+  "held_out_generator": "deepseek",
+  "total_samples": 50532,
+  "total_clusters": 11063,
+  "train": {
+    "total_samples": 28970,
+    "human_count": 10429,
+    "human_pct": 36.0,
+    "ai_count": 18541,
+    "ai_pct": 64.0,
+    "language_distribution": {
+      "c": 6081,
+      "python": 5902,
+      "cpp": 5134,
+      "java": 6227,
+      "javascript": 5626
+    },
+    "generator_distribution": {
+      "human": 10429,
+      "chatgpt": 5768,
+      "gemini": 6413,
+      "qwen": 6360
+    }
+  },
+  "val": {
+    "total_samples": 6333,
+    "human_count": 2738,
+    "human_pct": 43.23,
+    "ai_count": 3595,
+    "ai_pct": 56.77,
+    "language_distribution": {
+      "cpp": 1038,
+      "java": 1490,
+      "python": 1700,
+      "c": 969,
+      "javascript": 1136
+    },
+    "generator_distribution": {
+      "human": 2738,
+      "chatgpt": 1118,
+      "gemini": 1245,
+      "qwen": 1232
+    }
+  },
+  "test": {
+    "total_samples": 7581,
+    "human_count": 1481,
+    "human_pct": 19.54,
+    "ai_count": 6100,
+    "ai_pct": 80.46,
+    "language_distribution": {
+      "c": 1482,
+      "cpp": 1509,
+      "java": 1437,
+      "javascript": 1625,
+      "python": 1528
+    },
+    "generator_distribution": {
+      "chatgpt": 1468,
+      "deepseek": 1554,
+      "gemini": 1560,
+      "qwen": 1518,
+      "human": 1481
+    }
+  },
+  "leakage_verification": {
+    "cross_split_sample_leakage": 0,
+    "cross_split_hash_duplicate_leakage": 0,
+    "problem_id_leakage_prevented": true
+  }
+}
