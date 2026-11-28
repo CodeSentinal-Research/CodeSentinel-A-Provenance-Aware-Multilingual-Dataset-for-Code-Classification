@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000842",
+  "problemId": "P000842",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000842",
+    "title": "Maximum Value at a Given Index in a Bounded Array",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Construct an array of length n consisting of positive integers such that: Adjacent elements differ by at most 1. The sum of all elements does not exceed maxSum. Return the maximum possible value at the given index.",
+    "input": "Integer n Integer index Integer maxSum",
+    "output": "The maximum possible value.",
+    "constraints": "1 <= n <= 10^9 0 <= index < n n <= maxSum <= 10^9"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/2300-2399/2341.Maximum Number of Pairs in Array/Solution.c",
+    "fileSHA": "2ddca1a35bba0d6dc50005ca2041362988484c5c",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/2300-2399/2341.Maximum Number of Pairs in Array/Solution.c",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/2300-2399/2341.Maximum Number of Pairs in Array/Solution.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f4c72ea533907d298879e2a2f0bb6fb69be5ae0adafbd0582b988f616b06da11",
+    "normalizedCodeHash": "f4c72ea533907d298879e2a2f0bb6fb69be5ae0adafbd0582b988f616b06da11",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:29.593073+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

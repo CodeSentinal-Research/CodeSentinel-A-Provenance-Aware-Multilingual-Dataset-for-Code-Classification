@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001068",
+  "problemId": "P001068",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001068",
+    "title": "Topological Sorting",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a Directed Acyclic Graph (DAG), produce one valid topological ordering of its vertices.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain directed edges.",
+    "output": "Print any valid topological ordering. If the graph is not a DAG, print IMPOSSIBLE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/graph_algorithms/src/topological_sort/topological_sort.js",
+    "fileSHA": "9cad36dfdcd7344aa42ea0ab73b8adf917c2e0ba",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/graph_algorithms/src/topological_sort/topological_sort.js",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/graph_algorithms/src/topological_sort/topological_sort.js"
+  },
+  "matching": {
+    "relevanceScore": 70.0
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "17aa512057de77de1a8c9ae7db3e172283c9d32ea92c29dadfd709e891ae9c2b",
+    "normalizedCodeHash": "17aa512057de77de1a8c9ae7db3e172283c9d32ea92c29dadfd709e891ae9c2b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:14:15.224172+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

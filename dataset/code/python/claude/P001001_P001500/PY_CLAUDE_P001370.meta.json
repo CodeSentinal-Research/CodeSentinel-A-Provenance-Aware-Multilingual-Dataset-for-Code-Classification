@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_CLAUDE_P001370",
+  "problemId": "P001370",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001370",
+    "title": "Maximum Number by Swapping Digits",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a numeric string and an integer K, perform at most K swaps between any two digits to obtain the largest possible number.",
+    "input": "• First line contains the numeric string. • Second line contains integer K.",
+    "output": "Print the maximum possible number after at most K swaps.",
+    "constraints": "• 1 ≤ Length ≤ 30 • 0 ≤ K ≤ 10"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P001370",
+    "fileSHA": "7cc9b6b373bc3ac0dd91b49766e100fe296cd7ee4b8cd76306e318e3bb4dcb14",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "21cff9ff6ec8da5d2cb2dd6c324a125abc1ac7e9fe4a1e7ae7db6f459f342f83",
+    "normalizedCodeHash": "7cc9b6b373bc3ac0dd91b49766e100fe296cd7ee4b8cd76306e318e3bb4dcb14",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

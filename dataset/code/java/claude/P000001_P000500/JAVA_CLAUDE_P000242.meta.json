@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000242",
+  "problemId": "P000242",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000242",
+    "title": "Count Zeros in a Sorted Matrix",
+    "category": "Arrays",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that counts the number of zeros in a matrix where each row is sorted.",
+    "input": "First line contains N. Next N lines contain the N x N matrix.",
+    "output": "Number of zeros.",
+    "constraints": "1 ≤ N ≤ 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000242",
+    "fileSHA": "5011942751ab5967a806a659082cda490cc1d0913988dd6617f16b1502fe8ff4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5011942751ab5967a806a659082cda490cc1d0913988dd6617f16b1502fe8ff4",
+    "normalizedCodeHash": "5011942751ab5967a806a659082cda490cc1d0913988dd6617f16b1502fe8ff4",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000242: Count Zeros in a Sorted Matrix"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

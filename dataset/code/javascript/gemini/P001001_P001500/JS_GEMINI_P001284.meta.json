@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001284",
+  "problemId": "P001284",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001284",
+    "title": "Minimum Domino Rotations",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given two arrays representing the top and bottom halves of dominoes, determine the minimum number of rotations required so that all values in either the top row or the bottom row become identical. If impossible, print -1.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing the top row. \u2022 Third line contains N integers representing the bottom row.",
+    "output": "Print the minimum number of rotations.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001284",
+    "fileSHA": "ef8b17ef374d11fa045d503086f0b69687ff0e3e6c2a33cbdf54d7fe4c121449",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:19:59.129028+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ef8b17ef374d11fa045d503086f0b69687ff0e3e6c2a33cbdf54d7fe4c121449",
+    "normalizedCodeHash": "ef8b17ef374d11fa045d503086f0b69687ff0e3e6c2a33cbdf54d7fe4c121449",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:19:59.129059+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

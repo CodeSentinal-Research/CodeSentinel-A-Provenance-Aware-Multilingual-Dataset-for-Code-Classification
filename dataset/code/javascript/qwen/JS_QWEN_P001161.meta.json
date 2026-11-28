@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_QWEN_P001161",
+  "problemId": "P001161",
+  "language": "javascript",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001161",
+    "title": "Wildcard Pattern Matching",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given a text string and a pattern containing the wildcard characters '?' and '*', determine whether the pattern matches the entire text. The character '?' matches any single character, while '*' matches any sequence of characters (including an empty sequence).",
+    "input": "\u2022 First line contains the text string. \u2022 Second line contains the pattern string.",
+    "output": "Print YES if the pattern matches; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 Length of text, pattern \u2264 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/JS_QWEN_P001161",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

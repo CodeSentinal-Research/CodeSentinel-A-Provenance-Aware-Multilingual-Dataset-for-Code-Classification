@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000609",
+  "problemId": "P000609",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000609",
+    "title": "Remove Zero Sum Consecutive Nodes from Linked List",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a singly linked list, repeatedly remove every consecutive sequence of nodes whose values sum to zero. Continue this process until no such sequence exists. Return the head of the resulting linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 1000 -1000 <= node.value <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000609",
+    "fileSHA": "bf56c5a1c394f2423bba375c44f7f27bad5e1161209d8a9788e85fd3a2bf2bb3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "bf56c5a1c394f2423bba375c44f7f27bad5e1161209d8a9788e85fd3a2bf2bb3",
+    "normalizedCodeHash": "bf56c5a1c394f2423bba375c44f7f27bad5e1161209d8a9788e85fd3a2bf2bb3",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000609"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000637",
+  "problemId": "P000637",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000637",
+    "title": "Delete Nodes Whose Values Occur More Than Once",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of an unsorted singly linked list, remove every node whose value appears more than once in the list. Only nodes with unique values should remain. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The linked list containing only unique-valued nodes.",
+    "constraints": "0 <= n <= 10^5 -10^9 <= node.value <= 10^9"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0200-0299/0237.Delete Node in a Linked List/Solution.ts",
+    "fileSHA": "794754f4a9c38d03815ac6de555cd4ec92b811e8",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0200-0299/0237.Delete Node in a Linked List/Solution.ts",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0200-0299/0237.Delete Node in a Linked List/Solution.ts"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8f0debee57dbffbbf923aa250c40db9669e24abacf6e157d7ac13572a443e27c",
+    "normalizedCodeHash": "8f0debee57dbffbbf923aa250c40db9669e24abacf6e157d7ac13572a443e27c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:45.312450+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

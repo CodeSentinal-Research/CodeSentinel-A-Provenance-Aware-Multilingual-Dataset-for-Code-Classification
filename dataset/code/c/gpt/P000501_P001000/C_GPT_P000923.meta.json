@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000923",
+  "problemId": "P000923",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000923",
+    "title": "Count Numbers with Unique Digits",
+    "category": "Mathematics - Digit Mathematics",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer N, count how many integers in the range [0, 10^N) have all unique digits.",
+    "input": "Integer N",
+    "output": "The count of numbers with unique digits.",
+    "constraints": "0 <= N <= 8"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000923.c",
+    "fileSHA": "a1f2067c26521f0ae560e739563bf3c3cbc4ace7b4aaef68a0e5c0d138145249",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a1f2067c26521f0ae560e739563bf3c3cbc4ace7b4aaef68a0e5c0d138145249",
+    "normalizedCodeHash": "a1f2067c26521f0ae560e739563bf3c3cbc4ace7b4aaef68a0e5c0d138145249",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000425",
+  "problemId": "P000425",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000425",
+    "title": "Search Inactive Bank Accounts",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Retrieve all bank accounts that have not recorded any transactions during the past specified number of months.",
+    "input": "Account records and the inactivity period.",
+    "output": "Inactive accounts.",
+    "constraints": "1 ≤ Number of Accounts ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000425.c",
+    "fileSHA": "9d6e47df41f0d73d3c63bb42538c6e42da6b951e3c28ca145ece60302a68914f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9d6e47df41f0d73d3c63bb42538c6e42da6b951e3c28ca145ece60302a68914f",
+    "normalizedCodeHash": "9d6e47df41f0d73d3c63bb42538c6e42da6b951e3c28ca145ece60302a68914f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

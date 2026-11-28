@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000588",
+  "problemId": "P000588",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000588",
+    "title": "Copy List with Random Pointer",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "A linked list consists of nodes containing: value next pointer random pointer, which may point to any node in the list or be null. Create a deep copy of the linked list and return the head of the copied list.",
+    "input": "A linked list with next and random pointers.",
+    "output": "The head of the deep-copied linked list.",
+    "constraints": "Number of nodes is in the range [0, 1000]."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000588.py",
+    "fileSHA": "590b7474b33f764b332f55c75c8d6d52e4a6c27ef969ceb77fc4e60e02a3c4c1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.332582+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "590b7474b33f764b332f55c75c8d6d52e4a6c27ef969ceb77fc4e60e02a3c4c1",
+    "normalizedCodeHash": "3c23261e7dcb81f20380f968eb84d2a3ee9a8450033725c2b018488985119de2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.332582+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P000525",
+  "problemId": "P000525",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000525",
+    "title": "Beautiful Towers II",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "You are given the maximum allowed heights of n towers. Construct the heights of all towers such that: Each height is at least 1. Each height does not exceed its maximum allowed height. Heights are non-increasing as you move away from a chosen peak. Return the maximum possible sum of all tower heights. Unlike the previous version, this problem requires an efficient solution for much larger input sizes.",
+    "input": "Integer n Array maxHeights",
+    "output": "A single integer.",
+    "constraints": "1 <= n <= 2 \u00d7 10^5 1 <= maxHeights[i] <= 10^9"
+  },
+  "repository": {
+    "name": "Annahcj/javascript-algorithms-and-data-structures",
+    "owner": "Annahcj",
+    "url": "https://github.com/Annahcj/javascript-algorithms-and-data-structures",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P000501_P001000/JS_H_P000525.js",
+    "fileSHA": "0774b6e84ba2cdab4eccef6faa39cdeb443a7238",
+    "url": "https://github.com/Annahcj/javascript-algorithms-and-data-structures/blob/c55b896d4296ae80d7d448fe3a571644d71e919c/Monotonic Stack/2866.beautiful-towers-II.js",
+    "rawUrl": "https://raw.githubusercontent.com/Annahcj/javascript-algorithms-and-data-structures/main/Monotonic Stack/2866.beautiful-towers-II.js"
+  },
+  "matching": {
+    "relevanceScore": 67.78
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2023-10-30T06:07:59Z",
+    "lastCommitDate": "2023-10-30T06:07:59Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Anna An"
+    ],
+    "firstKnownAuthor": "Anna An",
+    "latestKnownAuthor": "Anna An"
+  },
+  "deduplication": {
+    "rawCodeHash": "2c8f257f802df2bb9bc9e9cd550bd9a1395591593a45c53ae69cab193288bdee",
+    "normalizedCodeHash": "2c8f257f802df2bb9bc9e9cd550bd9a1395591593a45c53ae69cab193288bdee",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:10:32.757613+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

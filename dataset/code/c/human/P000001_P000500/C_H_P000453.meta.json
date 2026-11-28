@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000453",
+  "problemId": "P000453",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000453",
+    "title": "Find Fixed Point",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that finds a fixed point in an array (index where arr[i] == i) using binary search if possible.",
+    "input": "First line contains N. Second line contains N distinct sorted integers.",
+    "output": "Any fixed point or -1 if none exists.",
+    "constraints": "1 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "ACM-TOMS/CALGO",
+    "owner": "ACM-TOMS",
+    "url": "https://github.com/ACM-TOMS/CALGO",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0825/Original-Submission/C/Drivers/driver.c",
+    "fileSHA": "65e27b3b359d0dcdc583c4f45f03b02615579048",
+    "url": "https://github.com/ACM-TOMS/CALGO/blob/6dc0b4203cde921bbb64add3a82051dfe0a0843d/0825/Original-Submission/C/Drivers/driver.c",
+    "rawUrl": "https://raw.githubusercontent.com/ACM-TOMS/CALGO/main/0825/Original-Submission/C/Drivers/driver.c"
+  },
+  "matching": {
+    "relevanceScore": 80.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0117fecc8659b6a0917836923fc16999441f933a8f3f3a9f5721dbb9118d890a",
+    "normalizedCodeHash": "0117fecc8659b6a0917836923fc16999441f933a8f3f3a9f5721dbb9118d890a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T20:12:36.516839+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

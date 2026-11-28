@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001489",
+  "problemId": "P001489",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001489",
+    "title": "Number of Subsequences That Satisfy the Given Sum Condition",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer Target, count the number of non-empty subsequences such that the sum of the minimum and maximum element in the subsequence is less than or equal to Target.",
+    "input": "• First line contains integers N and Target. • Second line contains N integers.",
+    "output": "Print the number of valid subsequences modulo 10^9 + 7.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001489.js",
+    "fileSHA": "468c6dff8bb27a92f4ac250a9d13f9a8882ded794cbfd430bbd8e3e253caf130",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "468c6dff8bb27a92f4ac250a9d13f9a8882ded794cbfd430bbd8e3e253caf130",
+    "normalizedCodeHash": "468c6dff8bb27a92f4ac250a9d13f9a8882ded794cbfd430bbd8e3e253caf130",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

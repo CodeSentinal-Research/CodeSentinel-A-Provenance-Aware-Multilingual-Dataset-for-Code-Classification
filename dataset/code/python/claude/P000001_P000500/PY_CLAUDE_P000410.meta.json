@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000410",
+  "problemId": "P000410",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000410",
+    "title": "Search Products by Name Suffix",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Find all products whose names end with the specified suffix.",
+    "input": "Product records and a suffix.",
+    "output": "All matching products.",
+    "constraints": "1 ≤ Number of Products ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000410",
+    "fileSHA": "eb3d242adb66920956b0e9cf2163af29d26b2ccf048cfa5d5133e709da00593b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "eb3d242adb66920956b0e9cf2163af29d26b2ccf048cfa5d5133e709da00593b",
+    "normalizedCodeHash": "eb3d242adb66920956b0e9cf2163af29d26b2ccf048cfa5d5133e709da00593b",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000410: Search Products by Name Suffix"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

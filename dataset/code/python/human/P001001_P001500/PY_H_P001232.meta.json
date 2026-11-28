@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001232",
+  "problemId": "P001232",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001232",
+    "title": "Activity Selection",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Given the start and finish times of N activities, determine the maximum number of non-overlapping activities that can be selected by a single person.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain start time and finish time.",
+    "output": "Print the maximum number of activities.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/greedy_algorithms/src/activity_selection/activity_selection.py",
+    "fileSHA": "909fdb6ea296b1c3e8b36aa4df51a5b6b15117d3",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/greedy_algorithms/src/activity_selection/activity_selection.py",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/greedy_algorithms/src/activity_selection/activity_selection.py"
+  },
+  "matching": {
+    "relevanceScore": 76.36
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d3f9729250bd3f1a83ccc20e983f0e0fec27a043c9630305bd064b7bd1ace103",
+    "normalizedCodeHash": "d3f9729250bd3f1a83ccc20e983f0e0fec27a043c9630305bd064b7bd1ace103",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:14:21.229288+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

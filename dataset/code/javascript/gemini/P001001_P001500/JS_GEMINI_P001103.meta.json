@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001103",
+  "problemId": "P001103",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001103",
+    "title": "Critical Connections in a Network",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected network of servers, determine all critical connections whose removal disconnects the network.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print all critical connections in lexicographical order. If none exist, print NONE.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2\u00d710^5 \u2022 1 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001103",
+    "fileSHA": "6d3c1ecdaec06ca9e0b3d6af21e0b375f3c76da78f59f63c81289887c88c18b9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:45:01.348100+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6d3c1ecdaec06ca9e0b3d6af21e0b375f3c76da78f59f63c81289887c88c18b9",
+    "normalizedCodeHash": "6d3c1ecdaec06ca9e0b3d6af21e0b375f3c76da78f59f63c81289887c88c18b9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:45:01.348130+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000531",
+  "problemId": "P000531",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000531",
+    "title": "Number of Recent Calls",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Design a class RecentCounter that counts the number of requests received in the last 3000 milliseconds. For each incoming request at time t, return the number of requests that occurred in the inclusive range [t - 3000, t]. Process all requests in chronological order.",
+    "input": "Integer n n increasing timestamps.",
+    "output": "Print the number of recent requests after each timestamp.",
+    "constraints": "1 <= n <= 10^5 1 <= t <= 10^9 Timestamps are strictly increasing."
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0900-0999/0933.Number of Recent Calls/Solution.js",
+    "fileSHA": "80d20d0dabb2fab063ca1f5ace2ee133671ef446",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0900-0999/0933.Number of Recent Calls/Solution.js",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0900-0999/0933.Number of Recent Calls/Solution.js"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e5c1b2bfc4c9ef4c570e2921b1ed736efffa68ae5ec8cbcdda4969c4682c183a",
+    "normalizedCodeHash": "e5c1b2bfc4c9ef4c570e2921b1ed736efffa68ae5ec8cbcdda4969c4682c183a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T14:38:54.622275+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

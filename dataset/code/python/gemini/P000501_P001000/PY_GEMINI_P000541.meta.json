@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000541",
+  "problemId": "P000541",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000541",
+    "title": "Rotting Oranges",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an m \u00d7 n grid where: 0 represents an empty cell. 1 represents a fresh orange. 2 represents a rotten orange. Every minute, any fresh orange adjacent (up, down, left, or right) to a rotten orange also becomes rotten. Return the minimum number of minutes required until no fresh oranges remain. If it is impossible, return -1.",
+    "input": "Integers m and n An m \u00d7 n integer grid",
+    "output": "A single integer representing the required minutes.",
+    "constraints": "1 <= m, n <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000541",
+    "fileSHA": "8c35cda5b97ef384a174c1ae4084272043dbc0ffac913f6b08b70592aa47c6ff",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:43:27.324350+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8c35cda5b97ef384a174c1ae4084272043dbc0ffac913f6b08b70592aa47c6ff",
+    "normalizedCodeHash": "8c35cda5b97ef384a174c1ae4084272043dbc0ffac913f6b08b70592aa47c6ff",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:43:27.324382+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

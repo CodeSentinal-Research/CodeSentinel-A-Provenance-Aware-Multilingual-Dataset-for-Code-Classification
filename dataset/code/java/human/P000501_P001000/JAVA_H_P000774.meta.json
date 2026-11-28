@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000774",
+  "problemId": "P000774",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000774",
+    "title": "Recursive Word Search",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N \u00d7 M grid of characters and a target word, determine whether the word can be formed by traversing adjacent cells. Adjacent cells are horizontally or vertically neighboring. A cell may not be used more than once in a path. Solve the problem recursively.",
+    "input": "Integer N Integer M Character matrix board String word",
+    "output": "true if the word exists in the grid, otherwise false.",
+    "constraints": "1 <= N, M <= 10 1 <= |word| <= N \u00d7 M"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/backtracking/WordSearch.java",
+    "fileSHA": "452f17b6ace6b60c9bfcd938df6bc60b717ff3b0",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/backtracking/WordSearch.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/backtracking/WordSearch.java"
+  },
+  "matching": {
+    "relevanceScore": 83.77
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9c4758a4063c3255e5a2e6d029eb2369100917a86aaf2fd913e7b5f027ace97e",
+    "normalizedCodeHash": "9c4758a4063c3255e5a2e6d029eb2369100917a86aaf2fd913e7b5f027ace97e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T07:05:09.849758+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

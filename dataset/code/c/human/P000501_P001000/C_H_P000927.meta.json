@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000927",
+  "problemId": "P000927",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000927",
+    "title": "Convert Between Arbitrary Bases",
+    "category": "Mathematics - Base Conversion",
+    "difficulty": "Medium",
+    "problemStatement": "Given a number represented as a string in base A, convert it to its representation in base B. Bases range from 2 to 36, where digits beyond 9 are represented using uppercase English letters.",
+    "input": "String number Integer A Integer B",
+    "output": "The representation of the number in base B.",
+    "constraints": "2 <= A, B <= 36 1 <= |number| <= 100"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/2400-2499/2469.Convert the Temperature/Solution.c",
+    "fileSHA": "7c8de56d3060f92f01c54ce58f5b96a840b90bef",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/2400-2499/2469.Convert the Temperature/Solution.c",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/2400-2499/2469.Convert the Temperature/Solution.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "68cac822f603d3d14c3fe0a8978a946613abf83f6388652d58cdd9600f7a895b",
+    "normalizedCodeHash": "68cac822f603d3d14c3fe0a8978a946613abf83f6388652d58cdd9600f7a895b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:30.460924+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

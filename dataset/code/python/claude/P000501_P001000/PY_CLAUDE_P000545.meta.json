@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000545",
+  "problemId": "P000545",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000545",
+    "title": "Constrained Subsequence Sum",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array nums and an integer k, find the maximum sum of a non-empty subsequence such that for every two consecutive chosen elements, their indices differ by at most k. Return the maximum possible sum.",
+    "input": "Integer n Array nums Integer k",
+    "output": "A single integer representing the maximum subsequence sum.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= n -10^4 <= nums[i] <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000545",
+    "fileSHA": "06e20cd55579197e9c91f4882f414906e05dba2f737e4955eeca40f12634eda2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "06e20cd55579197e9c91f4882f414906e05dba2f737e4955eeca40f12634eda2",
+    "normalizedCodeHash": "06e20cd55579197e9c91f4882f414906e05dba2f737e4955eeca40f12634eda2",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000545: Constrained Subsequence Sum"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

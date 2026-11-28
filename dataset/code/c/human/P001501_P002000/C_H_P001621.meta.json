@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001621",
+  "problemId": "P001621",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001621",
+    "title": "Prefix Sum of a String's Character Values",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Assign each lowercase English letter its alphabetical position ('a' = 1, 'b' = 2, ..., 'z' = 26). Given a lowercase string, construct the prefix sum array of these character values.",
+    "input": "\u2022 First line contains string S.",
+    "output": "\u2022 Print the prefix sum array.",
+    "constraints": "\u2022 1 \u2264 |S| \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "bminor/glibc",
+    "owner": "bminor",
+    "url": "https://github.com/bminor/glibc",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "stdio-common/tst-scanf-format-character.h",
+    "fileSHA": "d13e539edc14adfa17cc69ffb15b59f0496b73e7",
+    "url": "https://github.com/bminor/glibc/blob/master/stdio-common/tst-scanf-format-character.h",
+    "rawUrl": "https://raw.githubusercontent.com/bminor/glibc/master/stdio-common/tst-scanf-format-character.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "71b7bb8874b3d6317bbdcded67d1d4d5f892a498ba458c0bd0948a0d47674b8a",
+    "normalizedCodeHash": "71b7bb8874b3d6317bbdcded67d1d4d5f892a498ba458c0bd0948a0d47674b8a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:43:41.734387+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001851",
+  "problemId": "P001851",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001851",
+    "title": "Construct the Lexicographically Smallest Insertion Sequence for a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a Binary Search Tree, construct the lexicographically smallest insertion sequence that recreates exactly the same Binary Search Tree.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST.",
+    "output": "• Print the lexicographically smallest valid insertion sequence.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001851.c",
+    "fileSHA": "497f200084711afb8a084d6ef1aecafb0e2bab1dcec36768ac7e026122b31f7b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:36.152Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "24190e89de74f00cb09984fcfbc43fdc68fdea6db8a6698da1886d9bc06481fd",
+    "normalizedCodeHash": "497f200084711afb8a084d6ef1aecafb0e2bab1dcec36768ac7e026122b31f7b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:36.152Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

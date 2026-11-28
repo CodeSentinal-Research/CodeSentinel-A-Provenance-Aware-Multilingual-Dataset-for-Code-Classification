@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000425",
+  "problemId": "P000425",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000425",
+    "title": "Search Inactive Bank Accounts",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Retrieve all bank accounts that have not recorded any transactions during the past specified number of months.",
+    "input": "Account records and the inactivity period.",
+    "output": "Inactive accounts.",
+    "constraints": "1 ≤ Number of Accounts ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000425",
+    "fileSHA": "7ac58c1f3952f895ae58e720268ee2ea6a4a85769eb4598ead805a0d5fee8bc0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7ac58c1f3952f895ae58e720268ee2ea6a4a85769eb4598ead805a0d5fee8bc0",
+    "normalizedCodeHash": "7ac58c1f3952f895ae58e720268ee2ea6a4a85769eb4598ead805a0d5fee8bc0",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000425: Search Inactive Bank Accounts"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

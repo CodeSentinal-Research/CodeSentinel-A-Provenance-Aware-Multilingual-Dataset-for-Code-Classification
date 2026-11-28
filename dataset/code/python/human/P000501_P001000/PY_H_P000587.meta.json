@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000587",
+  "problemId": "P000587",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000587",
+    "title": "Merge K Sorted Linked Lists",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "You are given the heads of k sorted linked lists. Merge all the linked lists into a single sorted linked list and return its head.",
+    "input": "Integer k For each list: o Integer size o Sorted linked list",
+    "output": "The merged sorted linked list.",
+    "constraints": "0 <= k <= 10^4 Total number of nodes across all lists does not exceed 10^5"
+  },
+  "repository": {
+    "name": "keon/algorithms",
+    "owner": "keon",
+    "url": "https://github.com/keon/algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/heap/merge_sorted_k_lists.py",
+    "fileSHA": "f3600c447af134f9eafc71d3a455d5ce8d2c8212",
+    "url": "https://github.com/keon/algorithms/blob/master/algorithms/heap/merge_sorted_k_lists.py",
+    "rawUrl": "https://raw.githubusercontent.com/keon/algorithms/master/algorithms/heap/merge_sorted_k_lists.py"
+  },
+  "matching": {
+    "relevanceScore": 87.5
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "69d450c240e99eeba876260269565c2bb31dd61a9998c75f78f6cb421c3e069e",
+    "normalizedCodeHash": "69d450c240e99eeba876260269565c2bb31dd61a9998c75f78f6cb421c3e069e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T01:56:07.174811+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

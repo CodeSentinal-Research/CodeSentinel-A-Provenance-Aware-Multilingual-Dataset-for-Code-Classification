@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001216",
+  "problemId": "P001216",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001216",
+    "title": "Minimum Cost Tree From Leaf Values",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given the inorder traversal of the leaf nodes of a binary tree, construct a binary tree such that every non-leaf node equals the product of the largest leaf values in its left and right subtrees. Determine the minimum possible sum of all non-leaf nodes.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the minimum possible sum.",
+    "constraints": "\u2022 2 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "gaohannk/Leetcode",
+    "owner": "gaohannk",
+    "url": "https://github.com/gaohannk/Leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/leetcode/algo/m/MinimumCostTreeFromLeafValues.java",
+    "fileSHA": "ebb21a5994c815fdf3d0c772dec10834fa01caba",
+    "url": "https://github.com/gaohannk/Leetcode/blob/e0e111835b0fae2e27d80ac9e012f5052c6bd1a2/src/leetcode/algo/m/MinimumCostTreeFromLeafValues.java",
+    "rawUrl": "https://raw.githubusercontent.com/gaohannk/Leetcode/main/src/leetcode/algo/m/MinimumCostTreeFromLeafValues.java"
+  },
+  "matching": {
+    "relevanceScore": 90.7
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b2e6e3c65e9066b96ca801c4e9adb298ca35539f314050005bec650834a4258a",
+    "normalizedCodeHash": "b2e6e3c65e9066b96ca801c4e9adb298ca35539f314050005bec650834a4258a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T15:34:17.296782+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

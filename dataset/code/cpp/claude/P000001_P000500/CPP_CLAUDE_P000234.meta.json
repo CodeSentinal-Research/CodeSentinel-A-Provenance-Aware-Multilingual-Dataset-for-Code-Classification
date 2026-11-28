@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000234",
+  "problemId": "P000234",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000234",
+    "title": "Boolean Matrix",
+    "category": "Arrays",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that modifies a boolean matrix such that if a matrix[i][j] is 1 then make all elements of i-th row and j-th column as 1.",
+    "input": "First line contains rows and cols. Next rows lines contain the matrix.",
+    "output": "The modified matrix.",
+    "constraints": "1 ≤ rows, cols ≤ 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000234",
+    "fileSHA": "2db667a8ae5ddec7080da3f064ccd7513d0ad6f5a36fa934b95bd6aa64ecb802",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2db667a8ae5ddec7080da3f064ccd7513d0ad6f5a36fa934b95bd6aa64ecb802",
+    "normalizedCodeHash": "2db667a8ae5ddec7080da3f064ccd7513d0ad6f5a36fa934b95bd6aa64ecb802",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000234: Boolean Matrix"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

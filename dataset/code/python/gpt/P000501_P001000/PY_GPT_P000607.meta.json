@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000607",
+  "problemId": "P000607",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000607",
+    "title": "LFU Cache",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design and implement an LFU (Least Frequently Used) cache. The cache supports: get(key) put(key, value) If the cache is full, remove the key with the lowest access frequency. If multiple keys have the same frequency, remove the least recently used among them. Both operations should run in O(1) average time.",
+    "input": "Integer capacity Integer q Next q operations",
+    "output": "Print the result of every get() operation.",
+    "constraints": "0 <= capacity <= 10^4 1 <= q <= 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000607.py",
+    "fileSHA": "3211024ca4e6ee6da5dc8e432ed75010639650465c446ac8cce69b1a7d7d59c9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.405219+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3211024ca4e6ee6da5dc8e432ed75010639650465c446ac8cce69b1a7d7d59c9",
+    "normalizedCodeHash": "32aad3902c0f51e321809fd87c750f4fa85c9925e045ba7cadb4df221e210fa7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.405219+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

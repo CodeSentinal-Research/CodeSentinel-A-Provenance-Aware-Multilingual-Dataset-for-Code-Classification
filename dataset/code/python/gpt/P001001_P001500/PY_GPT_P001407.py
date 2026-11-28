@@ -1,0 +1,22 @@
+# problem title : Find Original Array From Doubled Array
+# Solve the stated task using standard input and standard output.
+from typing import List
+from collections import Counter
+
+class Solution:
+    def findOriginalArray(self, changed: List[int]) -> List[int]:
+        if len(changed) % 2 != 0:
+            return []
+        count = Counter(changed)
+        res = []
+
+        for x in sorted(changed):
+            if count[x] == 0:
+                continue
+            if count[2 * x] == 0:
+                return []
+            res.append(x)
+            count[x] -= 1
+            count[2 * x] -= 1
+
+        return res

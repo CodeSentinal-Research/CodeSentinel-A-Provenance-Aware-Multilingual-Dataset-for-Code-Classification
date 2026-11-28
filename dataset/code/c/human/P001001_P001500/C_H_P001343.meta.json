@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001343",
+  "problemId": "P001343",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001343",
+    "title": "Generate Gray Code",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer N, generate the N-bit Gray code sequence such that adjacent numbers differ in exactly one bit.",
+    "input": "\u2022 First line contains integer N.",
+    "output": "Print the Gray code sequence.",
+    "constraints": "\u2022 1 \u2264 N \u2264 16"
+  },
+  "repository": {
+    "name": "lucain5959/randomgen",
+    "owner": "lucain5959",
+    "url": "https://github.com/lucain5959/randomgen",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": true,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "randomgen/src/mt19937/jump_mt19937.c",
+    "fileSHA": "f31b4e5a625e22124a69fc5e58aefd373d587b41",
+    "url": "https://github.com/lucain5959/randomgen/blob/6e20bd0a3b4022f6406e70b31bfb4f2ca87ef211/randomgen/src/mt19937/jump_mt19937.c",
+    "rawUrl": "https://raw.githubusercontent.com/lucain5959/randomgen/main/randomgen/src/mt19937/jump_mt19937.c"
+  },
+  "matching": {
+    "relevanceScore": 83.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "35839b70b685ffa46997d82e6bde7921129e91f74748ecb150af2a11248b6660",
+    "normalizedCodeHash": "35839b70b685ffa46997d82e6bde7921129e91f74748ecb150af2a11248b6660",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T19:25:52.618812+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

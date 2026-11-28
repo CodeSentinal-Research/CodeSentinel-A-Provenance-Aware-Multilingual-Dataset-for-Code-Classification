@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001440",
+  "problemId": "P001440",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001440",
+    "title": "Longest Word Through Deleting",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string and a dictionary of words, determine the longest dictionary word that can be obtained by deleting some characters from the string. If multiple answers exist, return the lexicographically smallest one.",
+    "input": "\u2022 First line contains the source string. \u2022 Second line contains integer N. \u2022 Next N lines contain dictionary words.",
+    "output": "Print the required word or an empty string if none exists.",
+    "constraints": "\u2022 1 \u2264 Length of source string \u2264 2\u00d710^5 \u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "cherryljr/LeetCode",
+    "owner": "cherryljr",
+    "url": "https://github.com/cherryljr/LeetCode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Longest Word in Dictionary through Deleting.java",
+    "fileSHA": "f37d342bd660c816a5fa8fad12c1dd90087241ca",
+    "url": "https://github.com/cherryljr/LeetCode/blob/master/Longest Word in Dictionary through Deleting.java",
+    "rawUrl": "https://raw.githubusercontent.com/cherryljr/LeetCode/master/Longest Word in Dictionary through Deleting.java"
+  },
+  "matching": {
+    "relevanceScore": 82.86
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d77600e26dca954ddf950a92871fe2d1d17831051d34380167a327677676725a",
+    "normalizedCodeHash": "d77600e26dca954ddf950a92871fe2d1d17831051d34380167a327677676725a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:25.142106+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000828",
+  "problemId": "P000828",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000828",
+    "title": "Find Right Interval",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given a list of intervals. For each interval, find another interval whose start point is the smallest value greater than or equal to the current interval's end point. If no such interval exists, return -1 for that interval.",
+    "input": "Integer n Array intervals, where each interval is represented as [start, end]",
+    "output": "An array of indices representing the right interval for every interval.",
+    "constraints": "1 <= n <= 2 \u00d7 10^5 All interval start values are unique."
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P000828",
+    "fileSHA": "63d663d5ebdac7a569bdc46a3919a17e95d4bfadb00f92169bdf3890c9acc4c1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:28:39.188016+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "63d663d5ebdac7a569bdc46a3919a17e95d4bfadb00f92169bdf3890c9acc4c1",
+    "normalizedCodeHash": "63d663d5ebdac7a569bdc46a3919a17e95d4bfadb00f92169bdf3890c9acc4c1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:28:39.188053+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

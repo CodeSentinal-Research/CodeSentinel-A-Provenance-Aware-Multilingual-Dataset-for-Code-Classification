@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000535",
+  "problemId": "P000535",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000535",
+    "title": "Reveal Cards in Increasing Order",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You are given a deck of unique integers. Arrange the deck so that when the following process is performed: 1. Reveal the top card. 2. Move the next top card to the bottom. 3. Repeat until the deck is empty. The revealed sequence is in strictly increasing order. Return the required initial ordering of the deck.",
+    "input": "Integer n Array deck",
+    "output": "An array representing the required initial ordering.",
+    "constraints": "1 <= n <= 1000 All card values are unique."
+  },
+  "repository": {
+    "name": "Henin-6024/Daily-DSA",
+    "owner": "Henin-6024",
+    "url": "https://github.com/Henin-6024/Daily-DSA",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "950. Reveal Cards In Increasing Order.py",
+    "fileSHA": "275820e83b75ed6ce7bd70456691cecf8ba1e17f",
+    "url": "https://github.com/Henin-6024/Daily-DSA/blob/b2ded1c46128a1a5525748940acddf661b7eec0a/950. Reveal Cards In Increasing Order.py",
+    "rawUrl": "https://raw.githubusercontent.com/Henin-6024/Daily-DSA/main/950. Reveal Cards In Increasing Order.py"
+  },
+  "matching": {
+    "relevanceScore": 74.26
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7b90218a46f2d9235cf722da9144df3e786a626c95ea122b8f99f09d4c1c25c5",
+    "normalizedCodeHash": "7b90218a46f2d9235cf722da9144df3e786a626c95ea122b8f99f09d4c1c25c5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:36:46.614709+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

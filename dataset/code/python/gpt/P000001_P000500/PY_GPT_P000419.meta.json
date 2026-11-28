@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000419",
+  "problemId": "P000419",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000419",
+    "title": "Search Online Devices",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find every device whose current status is marked as online.",
+    "input": "Device records.",
+    "output": "All online devices.",
+    "constraints": "1 ≤ Number of Devices ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000419.py",
+    "fileSHA": "e2473eca789dc6309f8340eb42ee0158aff18f1e912572c8c28da8b74e3585e1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:03.522795+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e2473eca789dc6309f8340eb42ee0158aff18f1e912572c8c28da8b74e3585e1",
+    "normalizedCodeHash": "ab781d65a8896cd9be5b17cee695bef91bdc919463990a840df0898323c8db5d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:03.522795+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

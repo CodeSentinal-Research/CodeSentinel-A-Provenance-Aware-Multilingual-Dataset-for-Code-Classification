@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000784",
+  "problemId": "P000784",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000784",
+    "title": "Count Odd Numbers in Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and multiple queries [L, R], determine how many odd numbers lie within each range. Use prefix sums to answer each query efficiently.",
+    "input": "Integer n Array nums Integer q Queries (L, R)",
+    "output": "For each query, print the count of odd numbers.",
+    "constraints": "1 <= n, q <= 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000784.js",
+    "fileSHA": "70a0c95fdb1a8c9a09f8b52f36935f965e2bea34bde1f9487116928aaacf17ba",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "70a0c95fdb1a8c9a09f8b52f36935f965e2bea34bde1f9487116928aaacf17ba",
+    "normalizedCodeHash": "70a0c95fdb1a8c9a09f8b52f36935f965e2bea34bde1f9487116928aaacf17ba",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

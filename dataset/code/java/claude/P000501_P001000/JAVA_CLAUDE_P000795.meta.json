@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000795",
+  "problemId": "P000795",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000795",
+    "title": "Count Subarrays Divisible by K",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array nums and an integer k, return the number of contiguous subarrays whose sum is divisible by k.",
+    "input": "Integer n Array nums Integer k",
+    "output": "The number of valid subarrays.",
+    "constraints": "1 <= n <= 3 × 10^4 -10^4 <= nums[i] <= 10^4 2 <= k <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000795",
+    "fileSHA": "e351c39ef2bc7d3249b85f795e12a5bdc1e706e94ef9235521c9f4da9e361e6c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e351c39ef2bc7d3249b85f795e12a5bdc1e706e94ef9235521c9f4da9e361e6c",
+    "normalizedCodeHash": "e351c39ef2bc7d3249b85f795e12a5bdc1e706e94ef9235521c9f4da9e361e6c",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000795: Count Subarrays Divisible by K"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

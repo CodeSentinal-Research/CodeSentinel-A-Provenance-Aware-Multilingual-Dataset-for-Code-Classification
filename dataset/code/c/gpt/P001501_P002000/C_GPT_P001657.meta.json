@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001657",
+  "problemId": "P001657",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001657",
+    "title": "Burn a Binary Tree from a Target Node",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree and a target node, determine the minimum time required to burn the entire tree if the fire spreads every second from a burning node to its parent and children simultaneously.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree. • The last line contains the target node value.",
+    "output": "• Print the minimum time required to burn the entire tree.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001657.c",
+    "fileSHA": "cd3ddca4b5f9118b8ae8bee301d58a1c932013c733973b3c5205b4f2d927d594",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.130Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "6012203e22764915d1b1d947c5a910427eaf91293468e05a23488d9bef465676",
+    "normalizedCodeHash": "cd3ddca4b5f9118b8ae8bee301d58a1c932013c733973b3c5205b4f2d927d594",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.130Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

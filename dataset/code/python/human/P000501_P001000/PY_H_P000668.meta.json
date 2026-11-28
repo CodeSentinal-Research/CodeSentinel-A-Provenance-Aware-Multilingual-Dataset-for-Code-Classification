@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000668",
+  "problemId": "P000668",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000668",
+    "title": "Skip M Nodes Delete N Nodes",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and two integers M and N, repeatedly skip the next M nodes and then delete the following N nodes until the end of the list is reached. Return the head of the modified linked list.",
+    "input": "Integer size Linked list Integer M Integer N",
+    "output": "The modified linked list.",
+    "constraints": "0 <= size <= 10^5 0 <= M, N <= 10^5"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/delete-tree-nodes.py",
+    "fileSHA": "63db0e291f201a5f5f7df0d5474e97b48a1632fb",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/delete-tree-nodes.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/delete-tree-nodes.py"
+  },
+  "matching": {
+    "relevanceScore": 61.64
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "df18353be97469a8b40ff0476cb00925c31113a0e08d2147e5d513a4eb138ca7",
+    "normalizedCodeHash": "df18353be97469a8b40ff0476cb00925c31113a0e08d2147e5d513a4eb138ca7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T10:33:10.543629+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

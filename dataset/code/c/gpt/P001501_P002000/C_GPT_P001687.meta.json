@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001687",
+  "problemId": "P001687",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001687",
+    "title": "Flip Equivalent Binary Trees",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the roots of two binary trees, determine whether one tree can be transformed into the other by repeatedly swapping the left and right children of any number of nodes.",
+    "input": "• The first line contains N₁. • The next N₁ lines describe the first binary tree. • The following line contains N₂. • The next N₂ lines describe the second binary tree.",
+    "output": "• Print YES if the two trees are flip equivalent; otherwise print NO.",
+    "constraints": "• 0 ≤ N₁, N₂ ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001687.c",
+    "fileSHA": "cda46676c2c59e3d242b55408d0a73280f75fe78bf073e2dfd069ade71deb971",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.345Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "f3bddf2f66163f5736806c1d5b6c85bf8124189a9d91ebc60d959661bc49728f",
+    "normalizedCodeHash": "cda46676c2c59e3d242b55408d0a73280f75fe78bf073e2dfd069ade71deb971",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.345Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

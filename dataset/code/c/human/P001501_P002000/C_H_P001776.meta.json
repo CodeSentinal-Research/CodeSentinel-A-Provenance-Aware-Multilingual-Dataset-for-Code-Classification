@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001776",
+  "problemId": "P001776",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001776",
+    "title": "Check Whether Every Level is Palindromic",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, determine whether the sequence of node values at every level forms a palindrome.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print YES if every level is palindromic; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0516_longest_palindromic_subsequence/lps.c",
+    "fileSHA": "9972a01f8d55404f78c1a50ffec68d4a34534061",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0516_longest_palindromic_subsequence/lps.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0516_longest_palindromic_subsequence/lps.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0cdff8cec22165ebcb08c139b22a947a0ea734a26251d5fce78a75b5ce83d139",
+    "normalizedCodeHash": "0cdff8cec22165ebcb08c139b22a947a0ea734a26251d5fce78a75b5ce83d139",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T16:06:26.865262+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001734",
+  "problemId": "P001734",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001734",
+    "title": "Convert a Binary Tree into a Sum Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, replace every node value with the sum of all values in its left and right subtrees. Leaf nodes become zero.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print the transformed tree.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001734.c",
+    "fileSHA": "1dbadb909d28eb0dcb65e406c7a24bc90b0412bb1d5a9f15cc8d9cb7a388777f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.487Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "affaaed1b82cf136d5c3b5420d4efe568713e72e5f42e27fc9311f9a9e3375b6",
+    "normalizedCodeHash": "1dbadb909d28eb0dcb65e406c7a24bc90b0412bb1d5a9f15cc8d9cb7a388777f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.488Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

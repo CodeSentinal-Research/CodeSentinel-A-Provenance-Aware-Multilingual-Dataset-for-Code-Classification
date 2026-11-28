@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_QWEN_P001443",
+  "problemId": "P001443",
+  "language": "c",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001443",
+    "title": "Count Words Obtained After Adding a Letter",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given two lists of lowercase words, determine how many words in the second list can be obtained by adding exactly one letter to any word in the first list and rearranging the characters.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next N lines contain the first list. \u2022 Next M lines contain the second list.",
+    "output": "Print the count of obtainable words.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 5\u00d710^4 \u2022 Word length \u2264 26"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/C_QWEN_P001443",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

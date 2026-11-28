@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001627",
+  "problemId": "P001627",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001627",
+    "title": "Count Prefixes Divisible by K",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and an integer K, determine how many prefixes have a sum divisible by K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the number of valid prefixes.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K \u2264 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001627",
+    "fileSHA": "ea382c9bc82e82afb1b6b0e1a79bb7056a9cdab468a235a6294b95d395ad604e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:57.623501+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ea382c9bc82e82afb1b6b0e1a79bb7056a9cdab468a235a6294b95d395ad604e",
+    "normalizedCodeHash": "ea382c9bc82e82afb1b6b0e1a79bb7056a9cdab468a235a6294b95d395ad604e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:57.623526+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

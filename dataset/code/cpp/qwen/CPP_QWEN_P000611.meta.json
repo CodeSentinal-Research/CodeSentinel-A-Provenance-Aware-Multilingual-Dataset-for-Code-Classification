@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000611",
+  "problemId": "P000611",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000611",
+    "title": "Maximum Twin Sum of a Linked List",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "A linked list of even length has twin nodes defined as follows: The first node is the twin of the last node. The second node is the twin of the second-last node. And so on. The twin sum of a pair is the sum of their values. Return the maximum twin sum among all twin pairs.",
+    "input": "Integer n (always even) Linked list",
+    "output": "A single integer representing the maximum twin sum.",
+    "constraints": "2 <= n <= 10^5 1 <= node.value <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000611",
+    "fileSHA": "de3979ab7e75b158801d31739f7cfa07b0f7855a74422a460cf9669e778c85b7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.322Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "11b816992a2403fceb0f204aa70115e383db0bcd68a683951f5eb203eddc28c7",
+    "normalizedCodeHash": "c99c3f8917ca563abcc99ceb39f92838e02e206bdfa28aa6a834b1323ff6e7d2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.322Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

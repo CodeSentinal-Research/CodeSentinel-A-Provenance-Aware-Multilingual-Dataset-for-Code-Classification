@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001800",
+  "problemId": "P001800",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001800",
+    "title": "Recover a Binary Search Tree with Two Swapped Nodes",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Two nodes in a Binary Search Tree have been accidentally swapped. Restore the original Binary Search Tree without changing its structure.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the corrupted BST.",
+    "output": "\u2022 Print the corrected BST.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0095_unique_binary_search_trees_ii/unique_bst.c",
+    "fileSHA": "bde57703c3690b404e5acf3d6bc97fe622031913",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0095_unique_binary_search_trees_ii/unique_bst.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0095_unique_binary_search_trees_ii/unique_bst.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "dfbc25fdd675af22e9c1856bedcc44f0761510402da7d2f1d964a0b5839bc3ae",
+    "normalizedCodeHash": "dfbc25fdd675af22e9c1856bedcc44f0761510402da7d2f1d964a0b5839bc3ae",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T16:12:18.462803+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

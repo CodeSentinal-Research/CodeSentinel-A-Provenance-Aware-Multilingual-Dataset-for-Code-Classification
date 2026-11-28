@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000909",
+  "problemId": "P000909",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000909",
+    "title": "Compute Binomial Coefficient (nCr)",
+    "category": "Mathematics - Combinatorics",
+    "difficulty": "Easy",
+    "problemStatement": "Given two integers n and r, compute the binomial coefficient nCr, representing the number of ways to choose r objects from n distinct objects.",
+    "input": "Integer n Integer r",
+    "output": "The value of nCr.",
+    "constraints": "0 <= r <= n <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000909.c",
+    "fileSHA": "d511f52ea3bd9085c7cbb66c500cfd0b2fcb8bd255c37f42f8bf418e0a72154d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d511f52ea3bd9085c7cbb66c500cfd0b2fcb8bd255c37f42f8bf418e0a72154d",
+    "normalizedCodeHash": "d511f52ea3bd9085c7cbb66c500cfd0b2fcb8bd255c37f42f8bf418e0a72154d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

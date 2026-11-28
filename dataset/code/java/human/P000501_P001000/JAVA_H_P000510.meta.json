@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000510",
+  "problemId": "P000510",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000510",
+    "title": "Final Prices With a Special Discount in a Shop",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an array where prices[i] is the price of the i-th item. For each item, find the first item to its right whose price is less than or equal to the current item's price. Use that value as a discount. If no such item exists, no discount is applied. Return the final price of every item after applying the discount.",
+    "input": "Integer n Array prices",
+    "output": "An array representing the final prices.",
+    "constraints": "1 <= n <= 500 1 <= prices[i] <= 1000"
+  },
+  "repository": {
+    "name": "K284/Leetcode",
+    "owner": "K284",
+    "url": "https://github.com/K284/Leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "1475. Final Prices With a Special Discount in a Shop.java",
+    "fileSHA": "d9d261624647855baf5b22116d0b90905301342c",
+    "url": "https://github.com/K284/Leetcode/blob/7e23bb499709842f26374f560a0b3f1539a902b7/1475. Final Prices With a Special Discount in a Shop.java",
+    "rawUrl": "https://raw.githubusercontent.com/K284/Leetcode/main/1475. Final Prices With a Special Discount in a Shop.java"
+  },
+  "matching": {
+    "relevanceScore": 79.42
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b9b528596b7e7722aee39410c3d0a8a56b93a4dbc3ace020e289a23c3410366e",
+    "normalizedCodeHash": "b9b528596b7e7722aee39410c3d0a8a56b93a4dbc3ace020e289a23c3410366e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:36:46.016393+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

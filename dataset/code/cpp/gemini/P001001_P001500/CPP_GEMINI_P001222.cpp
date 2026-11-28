@@ -1,0 +1,19 @@
+#include <iostream>
+#include <vector>
+
+int main() {
+    int n;
+    if (std::cin >> n) {
+        std::vector<long long> dp(n + 1, 0);
+        // Update dynamic programming state transition
+        dp[0] = 1;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 0; j < i; j++) {
+                // Update dynamic programming state transition
+                dp[i] += dp[j] * dp[i - 1 - j];
+            }
+        }
+        std::cout << dp[n] << "\n";
+    }
+    return 0;
+}

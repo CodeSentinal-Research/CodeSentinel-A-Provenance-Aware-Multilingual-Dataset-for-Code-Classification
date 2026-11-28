@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P001553",
+  "problemId": "P001553",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001553",
+    "title": "Longest Subarray With At Most K Distinct Integers",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and an integer K, determine the length of the longest contiguous subarray containing at most K distinct integers.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the required length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K \u2264 N \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "hansrajdas/algorithms",
+    "owner": "hansrajdas",
+    "url": "https://github.com/hansrajdas/algorithms",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P001501_P002000/C_H_P001553.c",
+    "fileSHA": "e196ad7a75e801a8675137fc5bd821dbf4e46c86",
+    "url": "https://github.com/hansrajdas/algorithms/blob/b5a159a9d7d0fb471f8221e29817e8062bf06514/Level-2/max_contiguous_subarray_len.c",
+    "rawUrl": "https://raw.githubusercontent.com/hansrajdas/algorithms/main/Level-2/max_contiguous_subarray_len.c"
+  },
+  "matching": {
+    "relevanceScore": 69.59
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2018-10-07T16:22:01Z",
+    "lastCommitDate": "2018-12-24T19:06:50Z",
+    "commitCount": 2,
+    "authorCount": 1,
+    "authors": [
+      "Hansraj Das"
+    ],
+    "firstKnownAuthor": "Hansraj Das",
+    "latestKnownAuthor": "Hansraj Das"
+  },
+  "deduplication": {
+    "rawCodeHash": "79de1b64b062b5db3c20fbc426d0285b0adf0947eca7251c3ffb0cbbf47b27b6",
+    "normalizedCodeHash": "79de1b64b062b5db3c20fbc426d0285b0adf0947eca7251c3ffb0cbbf47b27b6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T10:58:05.003207+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

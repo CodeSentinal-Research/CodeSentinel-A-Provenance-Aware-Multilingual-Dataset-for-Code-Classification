@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001402",
+  "problemId": "P001402",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001402",
+    "title": "Check If Array Pairs Are Divisible by K",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of even length and an integer K, determine whether the array can be partitioned into pairs such that the sum of every pair is divisible by K.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print YES if such a pairing exists; otherwise print NO.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2\u00d710^5 \u2022 N is even"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001402",
+    "fileSHA": "2c516623c1ee847ef54888549a9a76e419fde9e4f74400b2938c0e659f0aa0c7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:24:58.950574+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2c516623c1ee847ef54888549a9a76e419fde9e4f74400b2938c0e659f0aa0c7",
+    "normalizedCodeHash": "2c516623c1ee847ef54888549a9a76e419fde9e4f74400b2938c0e659f0aa0c7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:24:58.950601+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

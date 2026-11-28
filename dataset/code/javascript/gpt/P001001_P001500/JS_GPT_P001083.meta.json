@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001083",
+  "problemId": "P001083",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001083",
+    "title": "Hamiltonian Path",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph, determine whether it contains a Hamiltonian Path that visits every vertex exactly once.",
+    "input": "• First line contains integers N and M. • Next M lines contain graph edges.",
+    "output": "Print YES if a Hamiltonian Path exists; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 20 • 0 ≤ M ≤ N(N−1)/2"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001083.js",
+    "fileSHA": "f40ea6a1e4c6f390583d6ccc801b2423748a3065cc0b8d6b617d1b0cc99feeb9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T09:30:51.258473+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f40ea6a1e4c6f390583d6ccc801b2423748a3065cc0b8d6b617d1b0cc99feeb9",
+    "normalizedCodeHash": "f40ea6a1e4c6f390583d6ccc801b2423748a3065cc0b8d6b617d1b0cc99feeb9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T09:30:51.258473+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

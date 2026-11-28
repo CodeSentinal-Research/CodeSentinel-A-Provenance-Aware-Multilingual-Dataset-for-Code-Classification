@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001127",
+  "problemId": "P001127",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001127",
+    "title": "Number of Provinces",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given an N × N adjacency matrix representing direct connections between cities, determine the number of provinces (connected components).",
+    "input": "• First line contains integer N. • Next N lines each contain N integers (0 or 1).",
+    "output": "Print the number of provinces.",
+    "constraints": "• 1 ≤ N ≤ 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001127.c",
+    "fileSHA": "ecb65b8dec514a2ffa0504819872c6d0b8276b86a88fca2025e2265ce65a6752",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.075Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "352021dfd3750c1c26f1d1832047c07f44eb1c996ea0e7e9e3573ddddb50766e",
+    "normalizedCodeHash": "ecb65b8dec514a2ffa0504819872c6d0b8276b86a88fca2025e2265ce65a6752",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.075Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

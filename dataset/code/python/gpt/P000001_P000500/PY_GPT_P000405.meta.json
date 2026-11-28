@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000405",
+  "problemId": "P000405",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000405",
+    "title": "Search Courses by Instructor",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find all courses taught by the specified instructor.",
+    "input": "Course records and an instructor name.",
+    "output": "Matching course records.",
+    "constraints": "1 ≤ Number of Courses ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000405.py",
+    "fileSHA": "8d1e67a939d05a4d6948cdf0af840400f7ef2b585702953b11b62a6ce1191e48",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:02.461997+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8d1e67a939d05a4d6948cdf0af840400f7ef2b585702953b11b62a6ce1191e48",
+    "normalizedCodeHash": "c9d2e0cddeea765dc5043433efb448add249d602e360edd7f62337a40c2d7548",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:02.461997+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

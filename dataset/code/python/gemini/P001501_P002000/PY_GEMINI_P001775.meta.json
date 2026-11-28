@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001775",
+  "problemId": "P001775",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001775",
+    "title": "Find the Maximum Difference Between Adjacent Levels",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the maximum absolute difference between the sums of two consecutive levels.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the maximum difference.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 \u221210^9 \u2264 NodeValue \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001775",
+    "fileSHA": "98abf04dddac18e185865a181303d6997dfaff66988768e13eee083741a66bfa",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:09.460838+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "98abf04dddac18e185865a181303d6997dfaff66988768e13eee083741a66bfa",
+    "normalizedCodeHash": "98abf04dddac18e185865a181303d6997dfaff66988768e13eee083741a66bfa",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:09.460857+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

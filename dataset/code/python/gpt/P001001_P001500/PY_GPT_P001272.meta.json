@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001272",
+  "problemId": "P001272",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001272",
+    "title": "Jump Game VI",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array and an integer K, start at index 0 and reach the last index. From position i, you may jump to any index in the range [i+1, i+K]. Each visited element contributes to the score. Determine the maximum obtainable score.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print the maximum score.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001272.py",
+    "fileSHA": "bc80252a929f776eb29e32425d6fb73b8f2b8bd6b818d2aa8bc3968097b59409",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.039746+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "bc80252a929f776eb29e32425d6fb73b8f2b8bd6b818d2aa8bc3968097b59409",
+    "normalizedCodeHash": "aaf16beeb79383c81f100392bd5350b5d57759e8865b769a0c59619330f0c4a9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.039746+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

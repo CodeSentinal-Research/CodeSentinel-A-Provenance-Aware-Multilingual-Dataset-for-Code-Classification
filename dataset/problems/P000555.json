@@ -1,0 +1,10 @@
+{
+  "problemId": "P000555",
+  "title": "Minimum Reverse Operations",
+  "category": "Queue",
+  "difficulty": "Hard",
+  "problemStatement": "You are given: An integer n A starting index p A list of banned indices An integer k Initially, a token is placed at index p. In one operation, you may reverse any contiguous subarray of length k containing the token. The token moves to its new position after the reversal. Determine the minimum number of operations required to reach every index. Return -1 for unreachable indices or banned indices.",
+  "input": "Integer n Integer p Integer b Array banned Integer k",
+  "output": "An array of length n where the i-th element is the minimum number of operations required to reach index i.",
+  "constraints": "1 <= n <= 10^5 0 <= p < n 1 <= k <= n"
+}

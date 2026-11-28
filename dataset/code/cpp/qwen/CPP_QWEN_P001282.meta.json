@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001282",
+  "problemId": "P001282",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001282",
+    "title": "Create Maximum Number",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given two arrays of digits and an integer K, create the largest possible number of length K by selecting digits from both arrays while preserving the relative order within each array.",
+    "input": "\u2022 First line contains integers N, M, and K. \u2022 Second line contains N digits. \u2022 Third line contains M digits.",
+    "output": "Print the maximum possible number.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 500 \u2022 1 \u2264 K \u2264 N + M"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001282",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

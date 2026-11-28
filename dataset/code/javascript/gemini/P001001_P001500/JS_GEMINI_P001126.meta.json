@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001126",
+  "problemId": "P001126",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001126",
+    "title": "Path With Minimum Effort",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a grid of heights, determine a path from the top-left cell to the bottom-right cell such that the maximum absolute difference between adjacent cells along the path is minimized.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines each contain C integers representing cell heights.",
+    "output": "Print the minimum effort required.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001126",
+    "fileSHA": "d8eb0bdc878929df1ea32e464d3a3e458f0d52ba2e5f4b89aea18f717ac6c937",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:47:36.237430+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d8eb0bdc878929df1ea32e464d3a3e458f0d52ba2e5f4b89aea18f717ac6c937",
+    "normalizedCodeHash": "d8eb0bdc878929df1ea32e464d3a3e458f0d52ba2e5f4b89aea18f717ac6c937",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:47:36.237452+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

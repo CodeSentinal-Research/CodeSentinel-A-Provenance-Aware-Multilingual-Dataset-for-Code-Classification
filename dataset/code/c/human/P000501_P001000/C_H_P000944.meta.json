@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P000944",
+  "problemId": "P000944",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000944",
+    "title": "Divisor Game",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Easy",
+    "problemStatement": "Starting with an integer N, players alternate choosing a divisor x such that 0 < x < N and N % x == 0, then replacing N with N - x. The player unable to make a move loses. Determine whether the first player wins.",
+    "input": "Integer N",
+    "output": "Print true if the first player wins; otherwise, print false.",
+    "constraints": "1 <= N <= 1000"
+  },
+  "repository": {
+    "name": "josh24311/c_practice",
+    "owner": "josh24311",
+    "url": "https://github.com/josh24311/c_practice",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P000501_P001000/C_H_P000944.c",
+    "fileSHA": "70726be3fae5b774b16ace67c9f5b043c462aeba",
+    "url": "https://github.com/josh24311/c_practice/blob/9e25e7b4e38550a7bba051186674a342440d7f00/1025. Divisor Game.c",
+    "rawUrl": "https://raw.githubusercontent.com/josh24311/c_practice/main/1025. Divisor Game.c"
+  },
+  "matching": {
+    "relevanceScore": 76.79
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2023-11-02T12:43:29Z",
+    "lastCommitDate": "2023-11-02T12:43:29Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "JoshDeskPC"
+    ],
+    "firstKnownAuthor": "JoshDeskPC",
+    "latestKnownAuthor": "JoshDeskPC"
+  },
+  "deduplication": {
+    "rawCodeHash": "078bece964d0ad1a293ebb1ca93ec771f8c0781c2d1644d879119c7acc8f7e1d",
+    "normalizedCodeHash": "078bece964d0ad1a293ebb1ca93ec771f8c0781c2d1644d879119c7acc8f7e1d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T05:56:07.013966+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

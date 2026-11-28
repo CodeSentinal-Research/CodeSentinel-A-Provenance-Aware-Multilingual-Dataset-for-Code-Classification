@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000811",
+  "problemId": "P000811",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000811",
+    "title": "Guess Number Higher or Lower",
+    "category": "Binary Search",
+    "difficulty": "Easy",
+    "problemStatement": "A hidden number is chosen between 1 and n. You are provided with an API: guess(num) returns: o -1 if the hidden number is lower. o 1 if the hidden number is higher. o 0 if the guess is correct. Find the hidden number using binary search.",
+    "input": "Integer n",
+    "output": "The hidden number.",
+    "constraints": "1 <= n <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000811.js",
+    "fileSHA": "44675a3d45990df7f46bf370e4d224b02839f59fccc3a2451e4b0f3d85c19868",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "44675a3d45990df7f46bf370e4d224b02839f59fccc3a2451e4b0f3d85c19868",
+    "normalizedCodeHash": "44675a3d45990df7f46bf370e4d224b02839f59fccc3a2451e4b0f3d85c19868",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

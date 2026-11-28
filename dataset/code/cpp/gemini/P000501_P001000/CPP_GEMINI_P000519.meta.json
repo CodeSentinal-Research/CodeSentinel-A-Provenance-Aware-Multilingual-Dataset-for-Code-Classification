@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P000519",
+  "problemId": "P000519",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000519",
+    "title": "Queue Using Stacks",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "Design a queue using only two stacks. The queue must support the following operations: push(x) \u2014 Insert an element at the back. pop() \u2014 Remove and return the front element. peek() \u2014 Return the front element without removing it. empty() \u2014 Return whether the queue is empty. Process a sequence of operations and print the result of every pop(), peek(), and empty() operation.",
+    "input": "Integer q Next q lines each contain one operation.",
+    "output": "Print the output for every pop(), peek(), and empty() operation.",
+    "constraints": "1 <= q <= 10^5 All operations are valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "cpp/gemini/CPP_GEMINI_P000519",
+    "fileSHA": "d15c798933da84b579f192cf77acb52c15c6c84ff583cfbd8a9f268bd3b1f5d8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:42:17.514110+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d15c798933da84b579f192cf77acb52c15c6c84ff583cfbd8a9f268bd3b1f5d8",
+    "normalizedCodeHash": "d15c798933da84b579f192cf77acb52c15c6c84ff583cfbd8a9f268bd3b1f5d8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:42:17.514131+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

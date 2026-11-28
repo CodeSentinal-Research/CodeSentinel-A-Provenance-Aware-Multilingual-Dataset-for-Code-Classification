@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001442",
+  "problemId": "P001442",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001442",
+    "title": "Find Duplicate Files by Content",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "You are given file paths along with their contents. Group together all files that have identical contents.",
+    "input": "• First line contains integer N. • Next N lines each contain a file path followed by its content.",
+    "output": "Print each group of duplicate file paths.",
+    "constraints": "• 1 ≤ N ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001442.py",
+    "fileSHA": "724369a7d84b6dc077d37db280f43228f074acc8762438f1ae9ad6b336334cc6",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.898560+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "724369a7d84b6dc077d37db280f43228f074acc8762438f1ae9ad6b336334cc6",
+    "normalizedCodeHash": "8b74887972963a3b9fab116dd80e42fbb71116e2d72a38dca2d627fbea6f65aa",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.898560+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

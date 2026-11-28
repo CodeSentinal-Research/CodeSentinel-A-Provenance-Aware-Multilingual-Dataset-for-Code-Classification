@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001865",
+  "problemId": "P001865",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001865",
+    "title": "Construct a Binary Search Tree from Search Access Frequencies",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a set of distinct keys and their search access frequencies, construct a Binary Search Tree that minimizes the weighted search cost.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the keys. \u2022 The third line contains the corresponding search frequencies.",
+    "output": "\u2022 Print the constructed Binary Search Tree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000 Topic Start Problem ID End Problem ID Total Sliding Window P001656 P001705 50 Prefix Sum P001706 P001805 100 Trees P001806 P001955 150 Binary Search Trees (BST) P001956 P002035 80 Total P001656 P002035 380"
+  },
+  "repository": {
+    "name": "akgmage/data-structures-and-algorithms",
+    "owner": "akgmage",
+    "url": "https://github.com/akgmage/data-structures-and-algorithms",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Trees/Binary Search Trees/reconstruct_bst.py",
+    "fileSHA": "35b5ee6a361ec86a9046c23ee0684ad7d515bc80",
+    "url": "https://github.com/akgmage/data-structures-and-algorithms/blob/a9d5f0c556b70a787a0c834bf2b1ea40ec39858d/Trees/Binary Search Trees/reconstruct_bst.py",
+    "rawUrl": "https://raw.githubusercontent.com/akgmage/data-structures-and-algorithms/main/Trees/Binary Search Trees/reconstruct_bst.py"
+  },
+  "matching": {
+    "relevanceScore": 60.24
+  },
+  "provenance": {
+    "score": 85.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "610b70be15edf7433a3c1d8d27e1bd1e4e7df968201d27b4bc45f6b6af1a37f5",
+    "normalizedCodeHash": "610b70be15edf7433a3c1d8d27e1bd1e4e7df968201d27b4bc45f6b6af1a37f5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:00:22.607867+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

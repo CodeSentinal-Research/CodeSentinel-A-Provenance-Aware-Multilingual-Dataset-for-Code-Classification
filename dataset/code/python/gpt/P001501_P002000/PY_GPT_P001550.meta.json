@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_GPT_P001550",
+  "problemId": "P001550",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001550",
+    "title": "Sum of Absolute Differences in Each Window",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and a window size K, for every contiguous subarray of size K, compute the sum of absolute differences between consecutive elements.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the computed value for every window.",
+    "constraints": "• 2 ≤ K ≤ N ≤ 10^5 • -10^5 ≤ Ai ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001501_P002000/PY_GPT_P001550.py",
+    "fileSHA": "e394b7c88e64a97a9717e95c9d734da790adedca744d47b58eedfb2782e95ebe",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-26T13:09:02.841839+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e394b7c88e64a97a9717e95c9d734da790adedca744d47b58eedfb2782e95ebe",
+    "normalizedCodeHash": "7a2546a3618601b33214eae29eacfc26734c48c6a37b22850c71d1e6796ac60f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-26T13:09:02.841839+00:00",
+    "pipelineVersion": "1.0.0"
+  },
+  "sha256": "422e49afb0c0702894849e9fc2ebcd9493ac5a3dffd8bb3bf15911fbd6f6c478"
+}

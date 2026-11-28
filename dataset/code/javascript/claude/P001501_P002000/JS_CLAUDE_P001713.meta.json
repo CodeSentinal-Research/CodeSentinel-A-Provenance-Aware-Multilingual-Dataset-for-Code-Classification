@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_CLAUDE_P001713",
+  "problemId": "P001713",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001713",
+    "title": "Remove All Half Nodes from a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, remove every node having exactly one child by connecting its parent directly to its child.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the resulting tree.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P001713",
+    "fileSHA": "38454e1d016d81cb9c98dd2e2137cae35d2601f4e68d7620e67a8b03ac35860c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7ad3ef7e16baa6acba4bd7f339686f74b9920a275150aa84e0405f3966620e73",
+    "normalizedCodeHash": "38454e1d016d81cb9c98dd2e2137cae35d2601f4e68d7620e67a8b03ac35860c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

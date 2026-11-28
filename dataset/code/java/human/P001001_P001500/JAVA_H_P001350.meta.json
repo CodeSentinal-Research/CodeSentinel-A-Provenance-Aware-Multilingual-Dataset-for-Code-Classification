@@ -1,0 +1,74 @@
+{
+  "solutionId": "JAVA_H_P001350",
+  "problemId": "P001350",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001350",
+    "title": "K-th Lexicographical Happy String",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "A happy string consists only of the characters 'a', 'b', and 'c', with no two adjacent characters being equal. Given integers N and K, determine the K-th lexicographically smallest happy string of length N. If fewer than K happy strings exist, print an empty string.",
+    "input": "\u2022 First line contains integers N and K.",
+    "output": "Print the required happy string.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10 \u2022 1 \u2264 K \u2264 3 \u00d7 2^(N\u22121)"
+  },
+  "repository": {
+    "name": "kwontaekyoon/LeetCode",
+    "owner": "kwontaekyoon",
+    "url": "https://github.com/kwontaekyoon/LeetCode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "java/human/P001001_P001500/JAVA_H_P001350.java",
+    "fileSHA": "97d4e06335d6749e320c3c32fb64d42361fa65f8",
+    "url": "https://github.com/kwontaekyoon/LeetCode/blob/0b10a36be9c203c8dac11e8941dd97dcbc3e887f/Medium/1415. The k-th Lexicographical String of All Happy Strings of Length n.java",
+    "rawUrl": "https://raw.githubusercontent.com/kwontaekyoon/LeetCode/main/Medium/1415. The k-th Lexicographical String of All Happy Strings of Length n.java"
+  },
+  "matching": {
+    "relevanceScore": 72.16
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2026-03-14T16:43:10Z",
+    "lastCommitDate": "2026-03-14T16:43:10Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "kwontaekyoon"
+    ],
+    "firstKnownAuthor": "kwontaekyoon",
+    "latestKnownAuthor": "kwontaekyoon"
+  },
+  "deduplication": {
+    "rawCodeHash": "2b7cf343e5b31cd6d04b6ca38e7a154d6101beadfb202a0df5217e1b151af921",
+    "normalizedCodeHash": "2b7cf343e5b31cd6d04b6ca38e7a154d6101beadfb202a0df5217e1b151af921",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T09:37:36.346024+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

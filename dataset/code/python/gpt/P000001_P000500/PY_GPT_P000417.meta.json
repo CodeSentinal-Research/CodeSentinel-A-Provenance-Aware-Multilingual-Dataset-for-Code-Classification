@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000417",
+  "problemId": "P000417",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000417",
+    "title": "Search Books by Author and Genre",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Find all books written by the specified author that belong to the specified genre.",
+    "input": "Book records, author name, genre.",
+    "output": "Matching books.",
+    "constraints": "1 ≤ Number of Books ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000417.py",
+    "fileSHA": "32b077227257a610f04ba95ff9ea201fb57664d4c5bdc80b5550412835b344f4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:03.438220+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "32b077227257a610f04ba95ff9ea201fb57664d4c5bdc80b5550412835b344f4",
+    "normalizedCodeHash": "d5d98ce3999dc2971683a260a974692f7c7a7d606bd6a5f49fa8228f869864e6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:03.438220+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001161",
+  "problemId": "P001161",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001161",
+    "title": "Wildcard Pattern Matching",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given a text string and a pattern containing the wildcard characters '?' and '*', determine whether the pattern matches the entire text. The character '?' matches any single character, while '*' matches any sequence of characters (including an empty sequence).",
+    "input": "\u2022 First line contains the text string. \u2022 Second line contains the pattern string.",
+    "output": "Print YES if the pattern matches; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 Length of text, pattern \u2264 2000"
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/cpp/wildcardMatching/wildcardMatching.cpp",
+    "fileSHA": "e2b5222d4f90f0c579b4a74c0a876baead63796d",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/cpp/wildcardMatching/wildcardMatching.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/cpp/wildcardMatching/wildcardMatching.cpp"
+  },
+  "matching": {
+    "relevanceScore": 77.92
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3ae5859ef3dc16bece9963656ecdec4b01c2b560b398273ab51a12a139625fae",
+    "normalizedCodeHash": "3ae5859ef3dc16bece9963656ecdec4b01c2b560b398273ab51a12a139625fae",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:47:57.274201+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

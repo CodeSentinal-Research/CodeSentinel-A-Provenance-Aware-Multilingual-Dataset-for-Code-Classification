@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000738",
+  "problemId": "P000738",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000738",
+    "title": "Beautiful Arrangement",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Suppose you have the integers from 1 to N. A permutation is called a beautiful arrangement if for every position i (1-indexed), either: The number at position i is divisible by i, or i is divisible by the number. Return the total number of beautiful arrangements.",
+    "input": "Integer N",
+    "output": "The number of beautiful arrangements.",
+    "constraints": "1 <= N <= 15"
+  },
+  "repository": {
+    "name": "gaohannk/Leetcode",
+    "owner": "gaohannk",
+    "url": "https://github.com/gaohannk/Leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/leetcode/algo/b/BeautifulArrangement.java",
+    "fileSHA": "07e83705e21f8c64622d2974aabc37ce6235e487",
+    "url": "https://github.com/gaohannk/Leetcode/blob/e0e111835b0fae2e27d80ac9e012f5052c6bd1a2/src/leetcode/algo/b/BeautifulArrangement.java",
+    "rawUrl": "https://raw.githubusercontent.com/gaohannk/Leetcode/main/src/leetcode/algo/b/BeautifulArrangement.java"
+  },
+  "matching": {
+    "relevanceScore": 80.0
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d005e64ea049aa59d81ac273d2bca076bc1193bfc728226dcba600da11677fde",
+    "normalizedCodeHash": "d005e64ea049aa59d81ac273d2bca076bc1193bfc728226dcba600da11677fde",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:18:14.142562+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

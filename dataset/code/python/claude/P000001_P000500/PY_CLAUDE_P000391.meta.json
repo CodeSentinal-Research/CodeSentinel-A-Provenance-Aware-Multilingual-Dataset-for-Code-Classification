@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000391",
+  "problemId": "P000391",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000391",
+    "title": "Search Students Above Minimum GPA",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Display all students whose GPA is greater than or equal to the specified value.",
+    "input": "Student records and a GPA threshold.",
+    "output": "Matching student records.",
+    "constraints": "1 ≤ Number of Students ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000391",
+    "fileSHA": "dfefa2dda0b82fbf434459af51bc8b2b02e993df1c4820ea24d895412ab5872e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "dfefa2dda0b82fbf434459af51bc8b2b02e993df1c4820ea24d895412ab5872e",
+    "normalizedCodeHash": "dfefa2dda0b82fbf434459af51bc8b2b02e993df1c4820ea24d895412ab5872e",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000391: Search Students Above Minimum GPA"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

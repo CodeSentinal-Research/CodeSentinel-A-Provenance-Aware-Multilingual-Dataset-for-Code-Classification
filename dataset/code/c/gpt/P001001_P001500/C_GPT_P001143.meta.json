@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001143",
+  "problemId": "P001143",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001143",
+    "title": "Target Sum Expressions",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and a target value, determine the number of ways to assign either a '+' or '-' sign before every element such that the resulting expression equals the target.",
+    "input": "• First line contains integers N and Target. • Second line contains N integers.",
+    "output": "Print the number of valid expressions.",
+    "constraints": "• 1 ≤ N ≤ 20 • 0 ≤ Element ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001143.c",
+    "fileSHA": "be8b4f3ef391bc7b7708c4e4466899670d41332aaf7f9f020752303c290f882b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.114Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "133a2ef98f47235019aa8396650dcfae498f12bd429fb83510091b11b79cc950",
+    "normalizedCodeHash": "be8b4f3ef391bc7b7708c4e4466899670d41332aaf7f9f020752303c290f882b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.114Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

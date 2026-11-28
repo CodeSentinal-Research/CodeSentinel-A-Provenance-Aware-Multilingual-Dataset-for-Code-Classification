@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001653",
+  "problemId": "P001653",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001653",
+    "title": "Maximum Path Sum in a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree where each node contains an integer value, determine the maximum possible sum of values along any simple path in the tree. The path may begin and end at any two nodes.",
+    "input": "• The first line contains an integer N. • The second line contains the values of the nodes. • The next N lines describe the binary tree.",
+    "output": "• Print the maximum path sum.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • −10^9 ≤ NodeValue ≤ 10^9________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001653.c",
+    "fileSHA": "f1d3c2bbe1b46b1b51c0ca63d2e40e411655ba1869f570d6d63e1f8c3ee4fe55",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.118Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "7a8efe613dfaba9d5752cab0e0a946c3230f3c9b84e45c43e54aba724aa7ddc1",
+    "normalizedCodeHash": "f1d3c2bbe1b46b1b51c0ca63d2e40e411655ba1869f570d6d63e1f8c3ee4fe55",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.118Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

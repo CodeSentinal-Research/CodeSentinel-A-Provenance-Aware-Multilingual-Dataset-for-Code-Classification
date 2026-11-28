@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001358",
+  "problemId": "P001358",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001358",
+    "title": "Generate Generalized Abbreviations",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a word, generate all possible generalized abbreviations by replacing any number of non-adjacent character groups with their counts.",
+    "input": "\u2022 First line contains a word.",
+    "output": "Print all generalized abbreviations in lexicographical order.",
+    "constraints": "\u2022 1 \u2264 Length \u2264 15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001358",
+    "fileSHA": "dc72ce28e3338f3e51607aa59399851ae51e31ba8a218e60f39b99d53c6a0c9e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:22:55.655555+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "dc72ce28e3338f3e51607aa59399851ae51e31ba8a218e60f39b99d53c6a0c9e",
+    "normalizedCodeHash": "dc72ce28e3338f3e51607aa59399851ae51e31ba8a218e60f39b99d53c6a0c9e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:22:55.655583+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

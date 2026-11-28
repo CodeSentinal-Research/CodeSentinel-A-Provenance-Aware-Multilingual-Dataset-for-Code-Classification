@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000559",
+  "problemId": "P000559",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000559",
+    "title": "Reverse First K Elements of Queue",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Given a queue containing N integers and an integer K, reverse only the first K elements of the queue while keeping the remaining elements in the same relative order. Return the modified queue.",
+    "input": "Integer N Queue elements Integer K",
+    "output": "The queue after reversing the first K elements.",
+    "constraints": "1 <= K <= N <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000559.c",
+    "fileSHA": "b60a248a7043f4c6c30eee23de63cf9f7cf20c04e7453ac219dbe1aa73d5b5c5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b60a248a7043f4c6c30eee23de63cf9f7cf20c04e7453ac219dbe1aa73d5b5c5",
+    "normalizedCodeHash": "b60a248a7043f4c6c30eee23de63cf9f7cf20c04e7453ac219dbe1aa73d5b5c5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001551",
+  "problemId": "P001551",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001551",
+    "title": "Longest Subarray With Sum Less Than or Equal to K",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of non-negative integers and an integer K, determine the length of the longest contiguous subarray whose sum is less than or equal to K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N space-separated integers.",
+    "output": "\u2022 Print the length of the longest valid subarray.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 Ai \u2264 10^5 \u2022 0 \u2264 K \u2264 10^15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001551",
+    "fileSHA": "219a057b9cca59c0d66f940eaa0849425dea3ee43933e6423f40be3e56ce511f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:30:35.937174+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "219a057b9cca59c0d66f940eaa0849425dea3ee43933e6423f40be3e56ce511f",
+    "normalizedCodeHash": "219a057b9cca59c0d66f940eaa0849425dea3ee43933e6423f40be3e56ce511f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:30:35.937212+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

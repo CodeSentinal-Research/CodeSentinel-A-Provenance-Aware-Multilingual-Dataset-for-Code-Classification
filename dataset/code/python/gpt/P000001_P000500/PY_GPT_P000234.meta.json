@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000234",
+  "problemId": "P000234",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000234",
+    "title": "Boolean Matrix",
+    "category": "Arrays",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that modifies a boolean matrix such that if a matrix[i][j] is 1 then make all elements of i-th row and j-th column as 1.",
+    "input": "First line contains rows and cols. Next rows lines contain the matrix.",
+    "output": "The modified matrix.",
+    "constraints": "1 ≤ rows, cols ≤ 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000234.py",
+    "fileSHA": "3a4bb89238e91bbc9db4abcba25c3d3168f1e8b970b9092f09e2c3a88f60a5ac",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:22:58.871552+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3a4bb89238e91bbc9db4abcba25c3d3168f1e8b970b9092f09e2c3a88f60a5ac",
+    "normalizedCodeHash": "cbafee65d0618598acde6cd1e47fc3ddf304ff832ae78a31509cfc5223a0d458",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:22:58.871552+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

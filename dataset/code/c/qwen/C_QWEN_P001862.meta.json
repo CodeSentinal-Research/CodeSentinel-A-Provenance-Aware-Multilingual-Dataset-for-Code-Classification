@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_QWEN_P001862",
+  "problemId": "P001862",
+  "language": "c",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001862",
+    "title": "Determine the Optimal Root for Minimum Average Search Cost",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a sorted list of keys and their search frequencies, construct an Optimal Binary Search Tree that minimizes the expected search cost.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the sorted keys. \u2022 The third line contains the successful search frequencies.",
+    "output": "\u2022 Print the minimum expected search cost and the constructed Optimal BST.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/C_QWEN_P001862",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

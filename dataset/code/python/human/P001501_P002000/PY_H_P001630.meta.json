@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001630",
+  "problemId": "P001630",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001630",
+    "title": "Minimum Operations to Equalize Prefix Sums",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given two arrays of equal length, determine the minimum number of increment operations required so that the prefix sum at every index of the first array is at least the corresponding prefix sum of the second array. In one operation, you may increase any element of the first array by 1.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers representing the first array. \u2022 Third line contains N integers representing the second array.",
+    "output": "\u2022 Print the minimum number of operations.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 0 \u2264 Ai, Bi \u2264 10^9"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0200-0299/0208.Implement Trie (Prefix Tree)/Solution.py",
+    "fileSHA": "3a2d4a410f4cb8a6f787bb2cc16dd521470b16d3",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0200-0299/0208.Implement Trie (Prefix Tree)/Solution.py",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0200-0299/0208.Implement Trie (Prefix Tree)/Solution.py"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e1adc7b49e6c191d6e0276f02e10cd1dbaee6aa08dc7fb9efa83bf6e52a72314",
+    "normalizedCodeHash": "e1adc7b49e6c191d6e0276f02e10cd1dbaee6aa08dc7fb9efa83bf6e52a72314",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:43.217970+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

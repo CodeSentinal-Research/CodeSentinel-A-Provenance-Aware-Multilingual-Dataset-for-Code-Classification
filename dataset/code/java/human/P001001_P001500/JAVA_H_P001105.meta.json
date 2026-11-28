@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001105",
+  "problemId": "P001105",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001105",
+    "title": "Course Schedule",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "There are N courses labeled from 1 to N and a list of prerequisite pairs. Determine whether it is possible to complete all courses.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain prerequisite pairs u and v, indicating that u must be completed before v.",
+    "output": "Print YES if all courses can be completed; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "mission-peace/interview",
+    "owner": "mission-peace",
+    "url": "https://github.com/mission-peace/interview",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/com/interview/graph/CourseSchedule.java",
+    "fileSHA": "a847b58c717aaa729224ac347e8dc0a539cba912",
+    "url": "https://github.com/mission-peace/interview/blob/master/src/com/interview/graph/CourseSchedule.java",
+    "rawUrl": "https://raw.githubusercontent.com/mission-peace/interview/master/src/com/interview/graph/CourseSchedule.java"
+  },
+  "matching": {
+    "relevanceScore": 81.67
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ec27e37d9aad34bb7bb0c9c410b0de9c5599c8438ce99b3314dd819bf2ba64f2",
+    "normalizedCodeHash": "ec27e37d9aad34bb7bb0c9c410b0de9c5599c8438ce99b3314dd819bf2ba64f2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:47:30.179285+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

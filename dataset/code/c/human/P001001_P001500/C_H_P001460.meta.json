@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001460",
+  "problemId": "P001460",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001460",
+    "title": "Count Equal XOR Prefix Pairs",
+    "category": "Hashing",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array, count the number of pairs of indices (i, j) such that the XOR of the prefix ending at i is equal to the XOR of the prefix ending at j, where i < j.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the total number of valid pairs.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 0 \u2264 nums[i] \u2264 10^9"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/2100-2199/2185.Counting Words With a Given Prefix/Solution.c",
+    "fileSHA": "14e639ff5af0001165a12e67053c3f43b926a852",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/2100-2199/2185.Counting Words With a Given Prefix/Solution.c",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/2100-2199/2185.Counting Words With a Given Prefix/Solution.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d23bca383e498d60fe82b11e5e903dd53a7df8e608c20c459f8a19320a991f27",
+    "normalizedCodeHash": "d23bca383e498d60fe82b11e5e903dd53a7df8e608c20c459f8a19320a991f27",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:28.483128+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

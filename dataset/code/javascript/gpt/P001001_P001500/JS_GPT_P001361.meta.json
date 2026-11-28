@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001361",
+  "problemId": "P001361",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001361",
+    "title": "Stickers to Spell Word",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given a collection of stickers containing lowercase English letters and a target word, determine the minimum number of stickers required to form the target word. Each sticker may be used multiple times.",
+    "input": "• First line contains integer N. • Next N lines contain sticker strings. • Last line contains the target word.",
+    "output": "Print the minimum number of stickers required, or -1 if impossible.",
+    "constraints": "• 1 ≤ N ≤ 50 • Sticker length ≤ 15 • Target length ≤ 15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001361.js",
+    "fileSHA": "6ecb56f5b3c987c95ff7a70bfe6beea9e50fb6bce88b3db3a7c29042e76a28d1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T10:11:26.401164+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6ecb56f5b3c987c95ff7a70bfe6beea9e50fb6bce88b3db3a7c29042e76a28d1",
+    "normalizedCodeHash": "6ecb56f5b3c987c95ff7a70bfe6beea9e50fb6bce88b3db3a7c29042e76a28d1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T10:11:26.401164+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

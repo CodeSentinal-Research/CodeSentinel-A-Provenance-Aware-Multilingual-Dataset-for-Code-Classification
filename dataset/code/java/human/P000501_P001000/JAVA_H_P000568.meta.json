@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000568",
+  "problemId": "P000568",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000568",
+    "title": "Minimum Knight Moves",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "An infinite chessboard contains a knight initially positioned at (0, 0). Given the coordinates of a target cell (x, y), determine the minimum number of knight moves required to reach the target. The knight moves according to standard chess rules.",
+    "input": "Integer x Integer y",
+    "output": "A single integer representing the minimum number of moves.",
+    "constraints": "-300 <= x, y <= 300"
+  },
+  "repository": {
+    "name": "zhaoguanchen/leetcode",
+    "owner": "zhaoguanchen",
+    "url": "https://github.com/zhaoguanchen/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/leetcode/solution/BFS/MinimumKnightMoves.java",
+    "fileSHA": "7f88cb22db9b81b004cb5c7f019a157cea55a0a7",
+    "url": "https://github.com/zhaoguanchen/leetcode/blob/46faa0ec15559109fbe84d71023f5d6f0c5ac9d2/src/leetcode/solution/BFS/MinimumKnightMoves.java",
+    "rawUrl": "https://raw.githubusercontent.com/zhaoguanchen/leetcode/main/src/leetcode/solution/BFS/MinimumKnightMoves.java"
+  },
+  "matching": {
+    "relevanceScore": 82.14
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4b6a9709e73ac31522922b594226155de66e127b3f7fe4ced86c8f379df55062",
+    "normalizedCodeHash": "4b6a9709e73ac31522922b594226155de66e127b3f7fe4ced86c8f379df55062",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:36:50.826768+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

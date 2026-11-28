@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001082",
+  "problemId": "P001082",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001082",
+    "title": "Find Eulerian Path",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph, determine whether it contains an Eulerian Path. If one exists, print any valid path; otherwise print IMPOSSIBLE.",
+    "input": "• First line contains integers N and M. • Next M lines contain graph edges.",
+    "output": "Print one Eulerian Path or IMPOSSIBLE.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001082.py",
+    "fileSHA": "496a6af596a7a41a9bb470950061c259938eed29dcdce47e0fb562e7b8f507bd",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.285682+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "496a6af596a7a41a9bb470950061c259938eed29dcdce47e0fb562e7b8f507bd",
+    "normalizedCodeHash": "d6fc6bceec38de01d75fc43646884f6d1910583304eb9ef03fd9f1a783e66634",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.285682+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

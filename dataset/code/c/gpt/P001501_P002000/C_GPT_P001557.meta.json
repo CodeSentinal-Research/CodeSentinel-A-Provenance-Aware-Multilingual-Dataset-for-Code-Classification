@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001557",
+  "problemId": "P001557",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001557",
+    "title": "Longest Repeating Character Replacement",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string consisting of uppercase English letters and an integer K, you may replace at most K characters. Determine the length of the longest substring that can be made to contain only one distinct character.",
+    "input": "• First line contains string S. • Second line contains integer K.",
+    "output": "• Print the maximum possible length.",
+    "constraints": "• 1 ≤ |S| ≤ 2 × 10^5 • 0 ≤ K ≤ |S|"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001557.c",
+    "fileSHA": "2c2028850d3a1d205bc0b522049055d4c4f191524b1b1f7cdc7a5814ba8929af",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.762Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "6b6e7e03a3a14f770b216c20dec8c2a7d9f001a60c6e85943f98e25a01a51879",
+    "normalizedCodeHash": "2c2028850d3a1d205bc0b522049055d4c4f191524b1b1f7cdc7a5814ba8929af",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.762Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000740",
+  "problemId": "P000740",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000740",
+    "title": "Maze Paths with Diagonal Moves",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N × M grid, generate all possible paths from the top-left cell to the bottom-right cell. At each step, you may move: Right (H) Down (V) Diagonally Down-Right (D) Print all paths in lexicographical order.",
+    "input": "Integer N Integer M",
+    "output": "All valid paths.",
+    "constraints": "1 <= N, M <= 10"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000740",
+    "fileSHA": "47fd48abdc90024003b960238d85e48b87f7a2f1b54d2d20644b752625061df2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "47fd48abdc90024003b960238d85e48b87f7a2f1b54d2d20644b752625061df2",
+    "normalizedCodeHash": "47fd48abdc90024003b960238d85e48b87f7a2f1b54d2d20644b752625061df2",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000740"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

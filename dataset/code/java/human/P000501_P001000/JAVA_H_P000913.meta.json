@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000913",
+  "problemId": "P000913",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000913",
+    "title": "Binomial Coefficient Modulo Prime",
+    "category": "Mathematics - Combinatorics",
+    "difficulty": "Medium",
+    "problemStatement": "Given integers n, r, and a prime number P, compute nCr mod P.",
+    "input": "Integer n Integer r Prime integer P",
+    "output": "The value of nCr mod P.",
+    "constraints": "0 <= r <= n <= 10^6 2 <= P <= 10^9 + 7"
+  },
+  "repository": {
+    "name": "williamfiset/Algorithms",
+    "owner": "williamfiset",
+    "url": "https://github.com/williamfiset/Algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/test/java/com/williamfiset/algorithms/math/BinomialCoefficientModPrimeTest.java",
+    "fileSHA": "73893eceddedde6b877028ae8575b49b8f6d0e36",
+    "url": "https://github.com/williamfiset/Algorithms/blob/master/src/test/java/com/williamfiset/algorithms/math/BinomialCoefficientModPrimeTest.java",
+    "rawUrl": "https://raw.githubusercontent.com/williamfiset/Algorithms/master/src/test/java/com/williamfiset/algorithms/math/BinomialCoefficientModPrimeTest.java"
+  },
+  "matching": {
+    "relevanceScore": 73.75
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f8c1164eaa279e893f8877e47492c682deba023dfac25726caa042476a425421",
+    "normalizedCodeHash": "f8c1164eaa279e893f8877e47492c682deba023dfac25726caa042476a425421",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:54:47.724754+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000513",
+  "problemId": "P000513",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000513",
+    "title": "Flatten Nested List Iterator",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "A nested list contains integers or other nested lists. Design an iterator that supports the following operations: next() \u2014 returns the next integer. hasNext() \u2014 returns whether there are more integers remaining. Process a sequence of iterator operations on the given nested list.",
+    "input": "A nested list of integers. A sequence of iterator operations.",
+    "output": "For each next() operation, print the returned integer. For each hasNext() operation, print true or false.",
+    "constraints": "The total number of integers does not exceed 10^5."
+  },
+  "repository": {
+    "name": "mission-peace/interview",
+    "owner": "mission-peace",
+    "url": "https://github.com/mission-peace/interview",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/com/interview/misc/NestedIterator.java",
+    "fileSHA": "9a15729020649696b886a01d6c3d802d0b2290db",
+    "url": "https://github.com/mission-peace/interview/blob/master/src/com/interview/misc/NestedIterator.java",
+    "rawUrl": "https://raw.githubusercontent.com/mission-peace/interview/master/src/com/interview/misc/NestedIterator.java"
+  },
+  "matching": {
+    "relevanceScore": 75.6
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "691255b956919c335672bf89d1b93f4f9b45b208f27d1151150973cc3458534c",
+    "normalizedCodeHash": "691255b956919c335672bf89d1b93f4f9b45b208f27d1151150973cc3458534c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:43:33.422455+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000719",
+  "problemId": "P000719",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000719",
+    "title": "Restore IP Addresses",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string containing only digits, restore all possible valid IPv4 addresses by inserting three dots into the string. Each segment must be between 0 and 255 and cannot contain leading zeros unless the segment itself is 0. Return all valid IP addresses in lexicographical order.",
+    "input": "String s",
+    "output": "All valid IPv4 addresses.",
+    "constraints": "1 <= |s| <= 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000719",
+    "fileSHA": "00b8a499bd840f6e6254451cb645d75cc5610f0f165af047a1435c985f905404",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "00b8a499bd840f6e6254451cb645d75cc5610f0f165af047a1435c985f905404",
+    "normalizedCodeHash": "00b8a499bd840f6e6254451cb645d75cc5610f0f165af047a1435c985f905404",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000719"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001038",
+  "problemId": "P001038",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001038",
+    "title": "IPO Capital Maximization",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given a list of projects, where each project requires a minimum capital and yields a profit, determine the maximum capital that can be accumulated after completing at most K projects.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N capital requirements. \u2022 Third line contains N profits. \u2022 Fourth line contains the initial capital.",
+    "output": "Print the maximum achievable capital.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001038",
+    "fileSHA": "c83c949d3f7df81e0bbcfb46759c1b51cf1cccca9a473a7934c9c32dcf94188c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:38:23.635721+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c83c949d3f7df81e0bbcfb46759c1b51cf1cccca9a473a7934c9c32dcf94188c",
+    "normalizedCodeHash": "c83c949d3f7df81e0bbcfb46759c1b51cf1cccca9a473a7934c9c32dcf94188c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:38:23.635744+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

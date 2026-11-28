@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001452",
+  "problemId": "P001452",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001452",
+    "title": "Count Distinct Elements After Updates",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an initial array and a sequence of update queries, replace the value at the specified index after each query and report the number of distinct elements currently present.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Second line contains N integers. \u2022 Next Q lines contain Index and NewValue.",
+    "output": "Print the number of distinct elements after each update.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "tusharpatekar/java_dsa",
+    "owner": "tusharpatekar",
+    "url": "https://github.com/tusharpatekar/java_dsa",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "hashing/CountDistinctElements.java",
+    "fileSHA": "7d9be86aa408924383e587eb920348214d974777",
+    "url": "https://github.com/tusharpatekar/java_dsa/blob/9056d13138e6db2bf3a0db4655d30ddd91de39c9/hashing/CountDistinctElements.java",
+    "rawUrl": "https://raw.githubusercontent.com/tusharpatekar/java_dsa/main/hashing/CountDistinctElements.java"
+  },
+  "matching": {
+    "relevanceScore": 62.6
+  },
+  "provenance": {
+    "score": 85.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d0e9ca256969e390d3d266ba98da2b6a38c5abbc199d40b21e6a8d34ea0d3e1a",
+    "normalizedCodeHash": "d0e9ca256969e390d3d266ba98da2b6a38c5abbc199d40b21e6a8d34ea0d3e1a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:04:04.418703+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

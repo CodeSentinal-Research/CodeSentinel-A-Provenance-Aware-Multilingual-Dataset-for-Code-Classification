@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001058",
+  "problemId": "P001058",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001058",
+    "title": "Frequency Stack",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Design a stack-like data structure that supports push and pop operations. The pop operation must always remove the most frequently occurring element. If multiple elements have the same frequency, remove the one that was pushed most recently.",
+    "input": "\u2022 First line contains integer Q. \u2022 Next Q lines contain push or pop operations.",
+    "output": "Print the value removed for every pop operation.",
+    "constraints": "\u2022 1 \u2264 Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "mike22051995/DSA-SHEETS",
+    "owner": "mike22051995",
+    "url": "https://github.com/mike22051995/DSA-SHEETS",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "stack/29_maximum_frequency_stack.cpp",
+    "fileSHA": "c9f7d8681e9fa6f4c4cdeda8aeb9138287ac4050",
+    "url": "https://github.com/mike22051995/DSA-SHEETS/blob/e26775ad991f458d99380b0aea2b25931871f4e4/stack/29_maximum_frequency_stack.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/mike22051995/DSA-SHEETS/main/stack/29_maximum_frequency_stack.cpp"
+  },
+  "matching": {
+    "relevanceScore": 81.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "448d55a8a776c306f80fd195719cf022936cc51a7e1936dd3d96271b0698fb3d",
+    "normalizedCodeHash": "448d55a8a776c306f80fd195719cf022936cc51a7e1936dd3d96271b0698fb3d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:27:21.013824+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

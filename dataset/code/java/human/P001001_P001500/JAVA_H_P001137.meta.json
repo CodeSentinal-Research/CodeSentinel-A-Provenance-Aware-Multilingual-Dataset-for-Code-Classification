@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001137",
+  "problemId": "P001137",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001137",
+    "title": "Coin Change - Minimum Coins",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given coin denominations and a target amount, determine the minimum number of coins required to form the target amount. If impossible, print -1.",
+    "input": "\u2022 First line contains integers N and Amount. \u2022 Second line contains N coin denominations.",
+    "output": "Print the minimum number of coins.",
+    "constraints": "\u2022 1 \u2264 N \u2264 100 \u2022 1 \u2264 Amount \u2264 10^5"
+  },
+  "repository": {
+    "name": "mission-peace/interview",
+    "owner": "mission-peace",
+    "url": "https://github.com/mission-peace/interview",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/com/interview/dynamic/CoinChangingMinimumCoin.java",
+    "fileSHA": "111afc2d50d8b8cad8f5fda64c754936cf6d1814",
+    "url": "https://github.com/mission-peace/interview/blob/master/src/com/interview/dynamic/CoinChangingMinimumCoin.java",
+    "rawUrl": "https://raw.githubusercontent.com/mission-peace/interview/master/src/com/interview/dynamic/CoinChangingMinimumCoin.java"
+  },
+  "matching": {
+    "relevanceScore": 66.59
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b1ed5d9422e439aa42b7cd678efe01291df7a1e48bba19e12faba74ff89951a8",
+    "normalizedCodeHash": "b1ed5d9422e439aa42b7cd678efe01291df7a1e48bba19e12faba74ff89951a8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:47:49.243746+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

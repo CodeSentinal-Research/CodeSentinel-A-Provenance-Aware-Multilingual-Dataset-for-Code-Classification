@@ -1,0 +1,3 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){int n;cin>>n;vector<vector<int>>g(n,vector<int>(n));for(int i=0;i<n;i++)for(int j=0;j<n;j++)cin>>g[i][j];vector<vector<vector<int>>>dp(n,vector<vector<int>>(n,vector<int>(n,-1)));function<int(int,int,int)>dfs=[&](int r1,int c1,int r2)->int{if(r1==n-1&&c1==n-1)return g[r1][c1]==1?g[r1][c1]:-1;if(g[r1][c1]==-1)return -1;int res=-1;if(dp[r1][c1][r2]!=-1)return dp[r1][c1][r2];if(r1==r2&&c1==n-1){int v=dfs(r1,c1+1,r2);if(v!=-1)res=max(res,g[r1][c1]+v);}else{int v1=dfs(r1+1,c1,r2);if(v1!=-1)res=max(res,g[r1][c1]+v1);int v2=dfs(r1,c1+1,r2+1);if(v2!=-1)res=max(res,g[r1][c1]+v2);}return dp[r1][c1][r2]=res;};cout<<max(0,dfs(0,0,0))<<endl;return 0;}

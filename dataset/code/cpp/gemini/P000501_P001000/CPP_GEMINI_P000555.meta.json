@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P000555",
+  "problemId": "P000555",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000555",
+    "title": "Minimum Reverse Operations",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given: An integer n A starting index p A list of banned indices An integer k Initially, a token is placed at index p. In one operation, you may reverse any contiguous subarray of length k containing the token. The token moves to its new position after the reversal. Determine the minimum number of operations required to reach every index. Return -1 for unreachable indices or banned indices.",
+    "input": "Integer n Integer p Integer b Array banned Integer k",
+    "output": "An array of length n where the i-th element is the minimum number of operations required to reach index i.",
+    "constraints": "1 <= n <= 10^5 0 <= p < n 1 <= k <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "cpp/gemini/CPP_GEMINI_P000555",
+    "fileSHA": "f5cdcd84e98fa3de59ab2658d32b27b1d2b3de856546604423b1496673002833",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:44:53.557137+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f5cdcd84e98fa3de59ab2658d32b27b1d2b3de856546604423b1496673002833",
+    "normalizedCodeHash": "f5cdcd84e98fa3de59ab2658d32b27b1d2b3de856546604423b1496673002833",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:44:53.557166+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

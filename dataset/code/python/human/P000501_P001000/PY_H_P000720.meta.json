@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000720",
+  "problemId": "P000720",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000720",
+    "title": "Expression Add Operators",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string containing only digits and an integer target, insert the operators +, -, and * between the digits so that the resulting expression evaluates to the target. Return all valid expressions.",
+    "input": "String num Integer target",
+    "output": "All valid expressions in lexicographical order.",
+    "constraints": "1 <= |num| <= 10 -2^31 <= target <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "keon/algorithms",
+    "owner": "keon",
+    "url": "https://github.com/keon/algorithms",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/backtracking/add_operators.py",
+    "fileSHA": "67373ac95d42eb9ed70338886113653c5d268a1d",
+    "url": "https://github.com/keon/algorithms/blob/e46c1a5f543c1d71e687598a277df2e3d075583a/algorithms/backtracking/add_operators.py",
+    "rawUrl": "https://raw.githubusercontent.com/keon/algorithms/main/algorithms/backtracking/add_operators.py"
+  },
+  "matching": {
+    "relevanceScore": 87.5
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "376053102e03457951dec0b0fb4b9ebb7a74f90630a4d52e57658459e78d7b46",
+    "normalizedCodeHash": "376053102e03457951dec0b0fb4b9ebb7a74f90630a4d52e57658459e78d7b46",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:18:30.076221+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

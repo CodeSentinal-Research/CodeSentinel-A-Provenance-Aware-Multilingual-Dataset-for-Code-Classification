@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000830",
+  "problemId": "P000830",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000830",
+    "title": "Koko Eating Bananas",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Koko has several piles of bananas. She eats at a constant speed of k bananas per hour. Return the minimum integer eating speed such that she can finish all the bananas within h hours.",
+    "input": "Integer n Array piles Integer h",
+    "output": "The minimum eating speed.",
+    "constraints": "1 <= n <= 10^4 1 <= piles[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000830.c",
+    "fileSHA": "753cdd437ae439737b3ad49409f4b5aee968c7478e384f70b0686f33b6d9d9d1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "753cdd437ae439737b3ad49409f4b5aee968c7478e384f70b0686f33b6d9d9d1",
+    "normalizedCodeHash": "753cdd437ae439737b3ad49409f4b5aee968c7478e384f70b0686f33b6d9d9d1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

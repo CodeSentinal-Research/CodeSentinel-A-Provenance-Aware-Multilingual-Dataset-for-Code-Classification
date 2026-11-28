@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001695",
+  "problemId": "P001695",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001695",
+    "title": "Sum of Root-to-Leaf Binary Numbers",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Each node of a binary tree contains either 0 or 1. Every root-to-leaf path represents a binary number. Determine the sum of all such numbers.",
+    "input": "• The first line contains an integer N. • The second line contains the binary values. • The next N lines describe the binary tree.",
+    "output": "• Print the total sum.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001695.c",
+    "fileSHA": "f7ce63d6c95ee6fc2c8172892571a5d491dfc937da64d6ad1c442527f1b89b86",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.365Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "d0a1fa97e57e375f367bdcbbe632b5eb4903853b529b64504e484925a7688414",
+    "normalizedCodeHash": "f7ce63d6c95ee6fc2c8172892571a5d491dfc937da64d6ad1c442527f1b89b86",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.365Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

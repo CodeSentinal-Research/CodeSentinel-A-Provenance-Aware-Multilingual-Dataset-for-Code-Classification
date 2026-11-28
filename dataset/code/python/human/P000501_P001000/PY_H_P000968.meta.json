@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000968",
+  "problemId": "P000968",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000968",
+    "title": "Merge Two Congruence Equations",
+    "category": "Mathematics - Chinese Remainder Theorem",
+    "difficulty": "Medium",
+    "problemStatement": "Given two congruence equations: X \u2261 A (mod M) X \u2261 B (mod N) Determine whether they can be merged into a single congruence. If possible, output the merged congruence with the smallest non-negative solution.",
+    "input": "Integers A, M Integers B, N",
+    "output": "The merged congruence or -1 if no solution exists.",
+    "constraints": "1 <= M, N <= 10^18"
+  },
+  "repository": {
+    "name": "omegaestable/magma-ai",
+    "owner": "omegaestable",
+    "url": "https://github.com/omegaestable/magma-ai",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "stage2/experiments/egg_saturation.py",
+    "fileSHA": "7d168de4976a52d524999c0b14115547640f8750",
+    "url": "https://github.com/omegaestable/magma-ai/blob/714fd5a7950d06f6348a26caa121d42e8e34f0cd/stage2/experiments/egg_saturation.py",
+    "rawUrl": "https://raw.githubusercontent.com/omegaestable/magma-ai/main/stage2/experiments/egg_saturation.py"
+  },
+  "matching": {
+    "relevanceScore": 55.97
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "78147cb6405de6c8e4383446d1faedcf86527d07e825ea493f123ae2785c8ec6",
+    "normalizedCodeHash": "78147cb6405de6c8e4383446d1faedcf86527d07e825ea493f123ae2785c8ec6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T14:49:23.009229+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P001350",
+  "problemId": "P001350",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001350",
+    "title": "K-th Lexicographical Happy String",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "A happy string consists only of the characters 'a', 'b', and 'c', with no two adjacent characters being equal. Given integers N and K, determine the K-th lexicographically smallest happy string of length N. If fewer than K happy strings exist, print an empty string.",
+    "input": "\u2022 First line contains integers N and K.",
+    "output": "Print the required happy string.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10 \u2022 1 \u2264 K \u2264 3 \u00d7 2^(N\u22121)"
+  },
+  "repository": {
+    "name": "ProphetSunboy/leetcode-solutions-python",
+    "owner": "ProphetSunboy",
+    "url": "https://github.com/ProphetSunboy/leetcode-solutions-python",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P001001_P001500/PY_H_P001350.py",
+    "fileSHA": "2d5a57914eeb34071072da2f657379c867487a45",
+    "url": "https://github.com/ProphetSunboy/leetcode-solutions-python/blob/ecf1a2728c509d5c34f5f0bca4578321603e62d5/the_k_th_lexicographical_string_of_all_happy_strings_of_length_n.py",
+    "rawUrl": "https://raw.githubusercontent.com/ProphetSunboy/leetcode-solutions-python/main/the_k_th_lexicographical_string_of_all_happy_strings_of_length_n.py"
+  },
+  "matching": {
+    "relevanceScore": 78.36
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2025-11-27T19:55:34Z",
+    "lastCommitDate": "2025-11-27T19:55:34Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Vlad Kapitsa"
+    ],
+    "firstKnownAuthor": "Vlad Kapitsa",
+    "latestKnownAuthor": "Vlad Kapitsa"
+  },
+  "deduplication": {
+    "rawCodeHash": "d9eb0e7012fa74f1257328b75859e7ee59342e4da26b15db859be3ae2c6cc51b",
+    "normalizedCodeHash": "d9eb0e7012fa74f1257328b75859e7ee59342e4da26b15db859be3ae2c6cc51b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T09:37:17.308431+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

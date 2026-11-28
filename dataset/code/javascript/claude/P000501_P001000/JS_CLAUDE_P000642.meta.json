@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000642",
+  "problemId": "P000642",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000642",
+    "title": "Insert Node at a Given Position",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list, an integer position (0-indexed), and an integer value, insert a new node at the specified position. If the position equals the length of the list, insert the node at the end. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer position Integer value",
+    "output": "The modified linked list.",
+    "constraints": "0 <= n <= 10^5 0 <= position <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000642",
+    "fileSHA": "d57dce00dc662e7d4381ada5c10c706c99c16631c4cea5782d60bd518598915b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d57dce00dc662e7d4381ada5c10c706c99c16631c4cea5782d60bd518598915b",
+    "normalizedCodeHash": "d57dce00dc662e7d4381ada5c10c706c99c16631c4cea5782d60bd518598915b",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000642"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

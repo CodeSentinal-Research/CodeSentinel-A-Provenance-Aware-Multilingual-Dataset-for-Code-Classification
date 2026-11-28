@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000940",
+  "problemId": "P000940",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000940",
+    "title": "Misère Nim",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Medium",
+    "problemStatement": "Given multiple piles of stones, players take turns removing any positive number of stones from a single pile. The player who removes the last stone loses. Determine the winner assuming optimal play.",
+    "input": "Integer N Array piles",
+    "output": "Print \"First\" or \"Second\".",
+    "constraints": "1 <= N <= 2 × 10^5 1 <= piles[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000940.js",
+    "fileSHA": "813a3602df618e60792f1d2ad3144e73fa29a6803d9b1ac8df8a0f4c1289f411",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "813a3602df618e60792f1d2ad3144e73fa29a6803d9b1ac8df8a0f4c1289f411",
+    "normalizedCodeHash": "813a3602df618e60792f1d2ad3144e73fa29a6803d9b1ac8df8a0f4c1289f411",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

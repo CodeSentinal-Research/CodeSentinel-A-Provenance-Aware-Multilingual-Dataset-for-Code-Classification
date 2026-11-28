@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001695",
+  "problemId": "P001695",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001695",
+    "title": "Sum of Root-to-Leaf Binary Numbers",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Each node of a binary tree contains either 0 or 1. Every root-to-leaf path represents a binary number. Determine the sum of all such numbers.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the binary values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the total sum.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001695",
+    "fileSHA": "787164baf26b81e81ca75f5c02b4a47d107e8d8dd305036bb393e422184c7019",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:37:16.898057+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "787164baf26b81e81ca75f5c02b4a47d107e8d8dd305036bb393e422184c7019",
+    "normalizedCodeHash": "787164baf26b81e81ca75f5c02b4a47d107e8d8dd305036bb393e422184c7019",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:37:16.898077+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

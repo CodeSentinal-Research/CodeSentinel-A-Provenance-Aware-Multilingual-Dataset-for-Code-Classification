@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000727",
+  "problemId": "P000727",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000727",
+    "title": "Word Break II",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string s and a dictionary of valid words, return all possible sentences formed by inserting spaces into s such that every word belongs to the dictionary. Print the sentences in lexicographical order.",
+    "input": "String s Integer m Array dictionary",
+    "output": "All valid sentences.",
+    "constraints": "1 <= |s| <= 20 1 <= m <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000727.c",
+    "fileSHA": "7142e056ce33a0929cfe6eb1e5702b83359529ff4587d2fd12a696462c8120bc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7142e056ce33a0929cfe6eb1e5702b83359529ff4587d2fd12a696462c8120bc",
+    "normalizedCodeHash": "7142e056ce33a0929cfe6eb1e5702b83359529ff4587d2fd12a696462c8120bc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

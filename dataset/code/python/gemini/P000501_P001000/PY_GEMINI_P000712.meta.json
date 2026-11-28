@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000712",
+  "problemId": "P000712",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000712",
+    "title": "Combination Sum",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of distinct positive integers and a target value, return all unique combinations where the chosen numbers sum to the target. A number may be chosen multiple times. Print the combinations in lexicographical order.",
+    "input": "Integer n Array candidates Integer target",
+    "output": "All valid combinations.",
+    "constraints": "1 <= n <= 30 1 <= candidates[i] <= 40 1 <= target <= 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000712",
+    "fileSHA": "fcfb578a5d77d10869a5b024dfef2ae874a208171fc76e655ffa31afd83acfc0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:54:46.828033+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fcfb578a5d77d10869a5b024dfef2ae874a208171fc76e655ffa31afd83acfc0",
+    "normalizedCodeHash": "fcfb578a5d77d10869a5b024dfef2ae874a208171fc76e655ffa31afd83acfc0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:54:46.828052+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

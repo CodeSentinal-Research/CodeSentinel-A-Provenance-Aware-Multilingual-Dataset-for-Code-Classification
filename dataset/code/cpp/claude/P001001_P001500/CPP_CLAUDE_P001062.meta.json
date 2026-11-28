@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P001062",
+  "problemId": "P001062",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001062",
+    "title": "Count Vertices with Zero In-Degree",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given a directed graph, determine the number of vertices having an in-degree of zero.",
+    "input": "• First line contains two integers N and M. • The next M lines contain directed edges.",
+    "output": "Print the number of vertices with zero in-degree.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P001062",
+    "fileSHA": "30e6fcc165c85258c8d30dd8af23636db5d02bcac594cf134b16fa787fc9f90e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "30e6fcc165c85258c8d30dd8af23636db5d02bcac594cf134b16fa787fc9f90e",
+    "normalizedCodeHash": "30e6fcc165c85258c8d30dd8af23636db5d02bcac594cf134b16fa787fc9f90e",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P001062"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

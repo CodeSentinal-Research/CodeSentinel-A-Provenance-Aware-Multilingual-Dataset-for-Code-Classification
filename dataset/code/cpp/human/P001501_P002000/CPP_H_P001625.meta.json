@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001625",
+  "problemId": "P001625",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001625",
+    "title": "Construct a Two-Dimensional Prefix Sum Matrix",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an N \u00d7 M matrix of integers, construct its two-dimensional prefix sum matrix, where each cell contains the sum of all elements in the rectangle from (0,0) to the current cell.",
+    "input": "\u2022 First line contains N and M. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the two-dimensional prefix sum matrix.",
+    "constraints": "\u2022 1 \u2264 N,M \u2264 1000 \u2022 -10^5 \u2264 Aij \u2264 10^5"
+  },
+  "repository": {
+    "name": "XP-PY/algorithm_learning",
+    "owner": "XP-PY",
+    "url": "https://github.com/XP-PY/algorithm_learning",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/prefix_sum_difference.cpp",
+    "fileSHA": "9a30f104130fc717b99a55c44b7159c653ed85fa",
+    "url": "https://github.com/XP-PY/algorithm_learning/blob/761e87dadf1c977fe257f3465f4a43d10d953fef/src/prefix_sum_difference.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/XP-PY/algorithm_learning/main/src/prefix_sum_difference.cpp"
+  },
+  "matching": {
+    "relevanceScore": 85.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "58f4f5b135eaff7ad96cbd7bd636f1570939c7991aeadcd62c79cce0b62d168e",
+    "normalizedCodeHash": "58f4f5b135eaff7ad96cbd7bd636f1570939c7991aeadcd62c79cce0b62d168e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T03:57:57.458032+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

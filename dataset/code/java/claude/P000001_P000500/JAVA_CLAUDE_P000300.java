@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{static String[]keys={"","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};static List<String>res=new ArrayList<>();static void bt(String d,int i,String cur){if(i==d.length()){res.add(cur);return;}for(char c:keys[d.charAt(i)-'0'].toCharArray())bt(d,i+1,cur+c);}public static void main(String[]a){String d=new Scanner(System.in).next();if(d.isEmpty()){System.out.println();return;}bt(d,0,"");System.out.println(String.join(" ",res));}}

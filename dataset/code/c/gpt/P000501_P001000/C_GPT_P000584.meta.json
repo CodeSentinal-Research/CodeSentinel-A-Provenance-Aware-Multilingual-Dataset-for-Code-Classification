@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000584",
+  "problemId": "P000584",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000584",
+    "title": "Remove Nth Node From End of List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a linked list and an integer n, remove the n-th node from the end of the list and return the head of the modified list.",
+    "input": "Integer size Linked list Integer n",
+    "output": "The linked list after deletion.",
+    "constraints": "1 <= size <= 10^5 1 <= n <= size"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000584.c",
+    "fileSHA": "df07c5161800fb1bf13be4909121c146fb729980f86f586854d50925723e951d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "df07c5161800fb1bf13be4909121c146fb729980f86f586854d50925723e951d",
+    "normalizedCodeHash": "df07c5161800fb1bf13be4909121c146fb729980f86f586854d50925723e951d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

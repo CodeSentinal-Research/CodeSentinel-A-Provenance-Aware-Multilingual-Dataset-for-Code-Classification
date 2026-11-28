@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000907",
+  "problemId": "P000907",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000907",
+    "title": "Fast Modular Exponentiation",
+    "category": "Mathematics - Modular Arithmetic",
+    "difficulty": "Medium",
+    "problemStatement": "Given integers A, B, and M, compute (A^B) mod M efficiently.",
+    "input": "Integer A Integer B Integer M",
+    "output": "The value of (A^B) mod M.",
+    "constraints": "1 <= M <= 10^18 0 <= A <= 10^18 0 <= B <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P000907",
+    "fileSHA": "2abb35f5f3cbc9a81653a02e460c9c1849519c2982b8fa1e11a4fb9637fd6cee",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:32:18.634018+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2abb35f5f3cbc9a81653a02e460c9c1849519c2982b8fa1e11a4fb9637fd6cee",
+    "normalizedCodeHash": "2abb35f5f3cbc9a81653a02e460c9c1849519c2982b8fa1e11a4fb9637fd6cee",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:32:18.634042+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

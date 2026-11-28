@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000546",
+  "problemId": "P000546",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000546",
+    "title": "Jump Game VII",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a binary string s and two integers minJump and maxJump. Starting at index 0, determine whether it is possible to reach the last index. From index i, you may jump to any index j satisfying: i + minJump <= j <= min(i + maxJump, n - 1) s[j] == '0' Return true if the last index can be reached; otherwise return false.",
+    "input": "Binary string s Integer minJump Integer maxJump",
+    "output": "true if the last index is reachable, otherwise false.",
+    "constraints": "2 <= s.length <= 10^5 s[0] == s[n-1] == '0'"
+  },
+  "repository": {
+    "name": "StefanelStan/leetcode",
+    "owner": "StefanelStan",
+    "url": "https://github.com/StefanelStan/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/ss/leetcode/LC2024/january/JumpGameVII.java",
+    "fileSHA": "3157a67016937b2f6608ec28b9bdec0ab47bb82f",
+    "url": "https://github.com/StefanelStan/leetcode/blob/a0bc83b9264b6c1937c2802a839910021fca3885/src/main/java/com/ss/leetcode/LC2024/january/JumpGameVII.java",
+    "rawUrl": "https://raw.githubusercontent.com/StefanelStan/leetcode/main/src/main/java/com/ss/leetcode/LC2024/january/JumpGameVII.java"
+  },
+  "matching": {
+    "relevanceScore": 79.81
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "643947b434eb4464d22610e50075c3d9b22363d11478134100cc1cd7517fdb5c",
+    "normalizedCodeHash": "643947b434eb4464d22610e50075c3d9b22363d11478134100cc1cd7517fdb5c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:30:00.315268+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

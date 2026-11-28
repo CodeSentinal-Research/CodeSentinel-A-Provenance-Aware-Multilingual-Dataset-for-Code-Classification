@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001023",
+  "problemId": "P001023",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001023",
+    "title": "Parent of a Heap Node",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a heap represented as an array and the index of a node, determine the value of its parent. If the node is the root, print -1.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers. \u2022 Third line contains integer i.",
+    "output": "Print the parent value or -1.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 i < N"
+  },
+  "repository": {
+    "name": "bengottlieb/FireSpotter",
+    "owner": "bengottlieb",
+    "url": "https://github.com/bengottlieb/FireSpotter",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Frameworks/FirebaseFirestore/Libuv-gRPC.xcframework/ios-arm64/Libuv-gRPC.framework/Headers/heap-inl.h",
+    "fileSHA": "451666b2af9847004c465c324c81c27b61c71c09",
+    "url": "https://github.com/bengottlieb/FireSpotter/blob/086f7939650a1e1b7afefefaef249492c36a2bb0/Frameworks/FirebaseFirestore/Libuv-gRPC.xcframework/ios-arm64/Libuv-gRPC.framework/Headers/heap-inl.h",
+    "rawUrl": "https://raw.githubusercontent.com/bengottlieb/FireSpotter/main/Frameworks/FirebaseFirestore/Libuv-gRPC.xcframework/ios-arm64/Libuv-gRPC.framework/Headers/heap-inl.h"
+  },
+  "matching": {
+    "relevanceScore": 88.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e8dbafbe40150143a740e9b1aff03c4e623ebfe5d6b5e1834a09626a303ddbc2",
+    "normalizedCodeHash": "e8dbafbe40150143a740e9b1aff03c4e623ebfe5d6b5e1834a09626a303ddbc2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T01:00:32.981839+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,14 @@
+import sys
+def solve():
+    x = int(sys.stdin.read().split()[0])
+    l, r = 0, x
+    ans = 0
+    while l <= r:
+        mid = (l + r) // 2
+        if mid * mid <= x:
+            ans = mid
+            l = mid + 1
+        else:
+            r = mid - 1
+    print(ans)
+solve()

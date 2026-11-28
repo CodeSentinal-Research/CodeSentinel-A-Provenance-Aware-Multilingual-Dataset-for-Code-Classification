@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001793",
+  "problemId": "P001793",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001793",
+    "title": "Find the Inorder Predecessor of a Given Node",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree and a target node, determine its inorder predecessor. If no predecessor exists, print NONE.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST. • The last line contains the target key.",
+    "output": "• Print the inorder predecessor.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001793.c",
+    "fileSHA": "f3e23f879ca7d1fce995ceb9e5c23b4aff19b56b27df9fb2bbeab85311e9152e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.679Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "ece7d13741d0a3a871f932193d43355478c1045422543504fa7a3dd60af3ba9f",
+    "normalizedCodeHash": "f3e23f879ca7d1fce995ceb9e5c23b4aff19b56b27df9fb2bbeab85311e9152e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.679Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

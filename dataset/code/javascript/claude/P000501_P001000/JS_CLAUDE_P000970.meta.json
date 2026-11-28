@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000970",
+  "problemId": "P000970",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000970",
+    "title": "Tribonacci Sequence",
+    "category": "Mathematics - Recurrence Relations",
+    "difficulty": "Easy",
+    "problemStatement": "The Tribonacci sequence is defined as: T0 = 0 T1 = 1 T2 = 1 Tn = Tn-1 + Tn-2 + Tn-3 Given N, compute TN.",
+    "input": "Integer N",
+    "output": "The Nth Tribonacci number.",
+    "constraints": "0 <= N <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000970",
+    "fileSHA": "cc3148990980f32a127e4160a7d29dffb3935ba4ca61ec64f0c6eb5cfea2af99",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cc3148990980f32a127e4160a7d29dffb3935ba4ca61ec64f0c6eb5cfea2af99",
+    "normalizedCodeHash": "cc3148990980f32a127e4160a7d29dffb3935ba4ca61ec64f0c6eb5cfea2af99",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000970"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

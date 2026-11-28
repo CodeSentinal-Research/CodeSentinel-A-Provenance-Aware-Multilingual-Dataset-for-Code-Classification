@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000952",
+  "problemId": "P000952",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000952",
+    "title": "Count Coprime Numbers in Range",
+    "category": "Mathematics - Euler Totient Function",
+    "difficulty": "Medium",
+    "problemStatement": "Given integers N, L, and R, count how many integers in the range [L, R] are coprime with N.",
+    "input": "Integer N Integer L Integer R",
+    "output": "The count of integers coprime with N.",
+    "constraints": "1 <= N <= 10^12 1 <= L <= R <= 10^12"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P000952",
+    "fileSHA": "7daa93820ac9a0c6cccaac9e18a072ce93e999919ac7c31b5e5309dbd8c07257",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:36:07.537307+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7daa93820ac9a0c6cccaac9e18a072ce93e999919ac7c31b5e5309dbd8c07257",
+    "normalizedCodeHash": "7daa93820ac9a0c6cccaac9e18a072ce93e999919ac7c31b5e5309dbd8c07257",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:36:07.537335+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

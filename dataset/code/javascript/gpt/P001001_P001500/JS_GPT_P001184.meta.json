@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001184",
+  "problemId": "P001184",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001184",
+    "title": "Frog Jump with K Distance",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "A frog stands on the first stone and may jump forward up to K stones at a time. The energy cost of a jump is the absolute difference between the heights of the starting and destination stones. Determine the minimum total energy required to reach the last stone.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print the minimum energy required.",
+    "constraints": "• 2 ≤ N ≤ 10^5 • 1 ≤ K ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001184.js",
+    "fileSHA": "948aa7ea505bbc8be223483417faf6f9d06c1f04c71553f53de6d3f6b8373520",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T09:30:51.258473+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "948aa7ea505bbc8be223483417faf6f9d06c1f04c71553f53de6d3f6b8373520",
+    "normalizedCodeHash": "948aa7ea505bbc8be223483417faf6f9d06c1f04c71553f53de6d3f6b8373520",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T09:30:51.258473+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

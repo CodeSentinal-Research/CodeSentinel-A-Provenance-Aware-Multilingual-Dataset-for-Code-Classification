@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001235",
+  "problemId": "P001235",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001235",
+    "title": "Job Sequencing with Deadlines",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given jobs with deadlines and profits, schedule jobs such that each job takes one unit of time and the total profit is maximized.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain deadline and profit.",
+    "output": "Print the maximum obtainable profit.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001235",
+    "fileSHA": "55889fb6b2526a7c7dbf79f1f86916278c75b3ffb1c365e517ecb27677a9c03a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:16:22.168796+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "55889fb6b2526a7c7dbf79f1f86916278c75b3ffb1c365e517ecb27677a9c03a",
+    "normalizedCodeHash": "55889fb6b2526a7c7dbf79f1f86916278c75b3ffb1c365e517ecb27677a9c03a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:16:22.168842+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

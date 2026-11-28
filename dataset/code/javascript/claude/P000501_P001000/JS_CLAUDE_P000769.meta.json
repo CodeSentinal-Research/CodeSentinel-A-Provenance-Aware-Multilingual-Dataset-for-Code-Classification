@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000769",
+  "problemId": "P000769",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000769",
+    "title": "Scramble String",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given two strings s1 and s2 of equal length, determine whether s2 is a scrambled version of s1. A scrambled string is produced by recursively partitioning a string into two non-empty substrings and optionally swapping the left and right children at any partition. Return true if s2 is a scrambled string of s1; otherwise return false.",
+    "input": "String s1 String s2",
+    "output": "true if s2 is a scrambled string of s1, otherwise false.",
+    "constraints": "1 <= |s1|, |s2| <= 30"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000769",
+    "fileSHA": "7a3271a08035257e5959af417376aea3e53f9115b1ea14fda2734afdadad9881",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7a3271a08035257e5959af417376aea3e53f9115b1ea14fda2734afdadad9881",
+    "normalizedCodeHash": "7a3271a08035257e5959af417376aea3e53f9115b1ea14fda2734afdadad9881",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000769"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

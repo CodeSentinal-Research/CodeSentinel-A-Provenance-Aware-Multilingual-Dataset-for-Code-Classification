@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000503",
+  "problemId": "P000503",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000503",
+    "title": "Score of Parentheses",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "The score of a balanced parentheses string is defined as follows: \"()\" has score 1. \"AB\" has score A + B, where A and B are balanced parentheses strings. \"(A)\" has score 2 × A. Given a balanced parentheses string, compute its score.",
+    "input": "A balanced parentheses string.",
+    "output": "A single integer representing its score.",
+    "constraints": "2 <= s.length <= 50 s is balanced."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000503",
+    "fileSHA": "22127e6efea7b0a00469a021ffc9d64a1f24209911147bbf0cd4420ccc737331",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "22127e6efea7b0a00469a021ffc9d64a1f24209911147bbf0cd4420ccc737331",
+    "normalizedCodeHash": "22127e6efea7b0a00469a021ffc9d64a1f24209911147bbf0cd4420ccc737331",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000503: Score of Parentheses"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001535",
+  "problemId": "P001535",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001535",
+    "title": "Longest Substring After At Most K Replacements",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given an uppercase English string and an integer K, determine the length of the longest substring that can be converted into a string of identical characters after replacing at most K characters.",
+    "input": "\u2022 First line contains the string. \u2022 Second line contains integer K.",
+    "output": "Print the maximum possible length.",
+    "constraints": "\u2022 1 \u2264 Length \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0000-0099/0030.Substring with Concatenation of All Words/Solution.cpp",
+    "fileSHA": "bcadd9565442dcef37e936124a0d5ab11042d0e1",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0000-0099/0030.Substring with Concatenation of All Words/Solution.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0000-0099/0030.Substring with Concatenation of All Words/Solution.cpp"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "99cc65193f704871541de2cd29c19535c1a4f426ff406228c9788e62254a2b61",
+    "normalizedCodeHash": "99cc65193f704871541de2cd29c19535c1a4f426ff406228c9788e62254a2b61",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:30.172171+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

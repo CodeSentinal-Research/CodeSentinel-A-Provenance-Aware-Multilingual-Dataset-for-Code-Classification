@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001670",
+  "problemId": "P001670",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001670",
+    "title": "Recover a Binary Tree from Depth-Encoded Preorder Traversal",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a preorder traversal of a binary tree where the depth of each node is encoded in the traversal, reconstruct the original binary tree.",
+    "input": "• The first line contains the depth-encoded preorder traversal.",
+    "output": "• Print the reconstructed tree in the required traversal format.",
+    "constraints": "• The traversal contains at most 2 × 10^5 nodes.________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001670.c",
+    "fileSHA": "24612fb3807c7feaa6449cb51c71373b9355ed4b7966578d7c81f4196ae9942c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.185Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "5051fb6db610fa54fcab601820d73ed3624ef611025008b7c26e46ce10cd87a5",
+    "normalizedCodeHash": "24612fb3807c7feaa6449cb51c71373b9355ed4b7966578d7c81f4196ae9942c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.185Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

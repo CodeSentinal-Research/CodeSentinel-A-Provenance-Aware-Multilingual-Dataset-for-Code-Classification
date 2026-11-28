@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000562",
+  "problemId": "P000562",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000562",
+    "title": "Keys and Rooms",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "There are n rooms labeled from 0 to n-1. Initially, only room 0 is unlocked. Each room may contain keys to other rooms. Determine whether it is possible to visit every room.",
+    "input": "Integer n A list where the i-th list contains the keys found in room i.",
+    "output": "Print true if every room can be visited; otherwise print false.",
+    "constraints": "1 <= n <= 1000 Total number of keys does not exceed 3000."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000562",
+    "fileSHA": "6955f4efb94abd99d776525c3f3d733f2477e0bf7ced1a22df02a3e9dfe7cb72",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6955f4efb94abd99d776525c3f3d733f2477e0bf7ced1a22df02a3e9dfe7cb72",
+    "normalizedCodeHash": "6955f4efb94abd99d776525c3f3d733f2477e0bf7ced1a22df02a3e9dfe7cb72",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000562: Keys and Rooms"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

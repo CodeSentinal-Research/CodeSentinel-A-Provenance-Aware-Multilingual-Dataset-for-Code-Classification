@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001122",
+  "problemId": "P001122",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001122",
+    "title": "Eventual Safe States",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a directed graph, determine all vertices from which every possible path eventually terminates without entering a cycle.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain directed edges.",
+    "output": "Print all safe vertices in ascending order.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "sahanurmondal/log-analytics-platform",
+    "owner": "sahanurmondal",
+    "url": "https://github.com/sahanurmondal/log-analytics-platform",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "dsa/graphs/hard/StronglyConnectedComponents.java",
+    "fileSHA": "3987f41c8f93b4c6eb5d2d2446e48145ca301da5",
+    "url": "https://github.com/sahanurmondal/log-analytics-platform/blob/c1a4c86b1c918f4c77f665cba0eaa8368e3490f1/dsa/graphs/hard/StronglyConnectedComponents.java",
+    "rawUrl": "https://raw.githubusercontent.com/sahanurmondal/log-analytics-platform/main/dsa/graphs/hard/StronglyConnectedComponents.java"
+  },
+  "matching": {
+    "relevanceScore": 80.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "99130b320a0d1e6436142333c0e0db44a3aeaeb92f0c769a2d79da718a12ac6f",
+    "normalizedCodeHash": "99130b320a0d1e6436142333c0e0db44a3aeaeb92f0c769a2d79da718a12ac6f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:28:17.647283+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

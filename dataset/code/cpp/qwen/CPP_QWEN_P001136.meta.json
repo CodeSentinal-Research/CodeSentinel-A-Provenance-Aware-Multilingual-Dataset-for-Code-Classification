@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001136",
+  "problemId": "P001136",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001136",
+    "title": "Tribonacci Number",
+    "category": "Dynamic Programming",
+    "difficulty": "Easy",
+    "problemStatement": "The Tribonacci sequence is defined as: \u2022 T(0)=0 \u2022 T(1)=1 \u2022 T(2)=1 \u2022 T(n)=T(n\u22121)+T(n\u22122)+T(n\u22123) Given N, determine T(N).",
+    "input": "\u2022 First line contains integer N.",
+    "output": "Print T(N).",
+    "constraints": "\u2022 0 \u2264 N \u2264 37"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001136",
+    "fileSHA": "5ee4353ef1bdf4179190be5e510ad167bf0692f91d3e6fa263b8cb2c55d13ff2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.845Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "e7e15af2a30e3c20893af5cfd9bafc4fb039cda2102a72191f6b8c660d60b5a1",
+    "normalizedCodeHash": "6df16dad82402efcceb5115ec0cb63323d0b77c51549bd5736a7d944072da034",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.845Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

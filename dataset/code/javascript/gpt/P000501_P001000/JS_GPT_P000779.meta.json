@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000779",
+  "problemId": "P000779",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000779",
+    "title": "Range Sum Query - Immutable",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and multiple range sum queries, return the sum of elements between indices left and right (inclusive) for each query. Preprocess the array using a prefix sum array to answer each query efficiently.",
+    "input": "Integer n Array nums Integer q q queries (left, right)",
+    "output": "For each query, print the range sum.",
+    "constraints": "1 <= n, q <= 2 × 10^5 -10^9 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000779.js",
+    "fileSHA": "8a105751a5293a13fd4315d99504d37226acfa30f6d56199ae2d759c38412447",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8a105751a5293a13fd4315d99504d37226acfa30f6d56199ae2d759c38412447",
+    "normalizedCodeHash": "8a105751a5293a13fd4315d99504d37226acfa30f6d56199ae2d759c38412447",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

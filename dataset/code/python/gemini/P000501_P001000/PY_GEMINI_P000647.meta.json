@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000647",
+  "problemId": "P000647",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000647",
+    "title": "Dynamic Music Playlist Manager",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a music playlist manager using a doubly linked list. The playlist supports the following operations: addSong(title) removeSong(title) playNext() playPrevious() moveSong(title, position) currentSong() Initially, the playlist is empty. Process a sequence of operations and print the result for every playNext(), playPrevious(), and currentSong() operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for every query operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5 Song titles contain printable ASCII characters."
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000647",
+    "fileSHA": "0a113d198fa96def04c1d602098f2fbc09292d8ecab15146e23cd170fbfc035b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:50:59.992812+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0a113d198fa96def04c1d602098f2fbc09292d8ecab15146e23cd170fbfc035b",
+    "normalizedCodeHash": "0a113d198fa96def04c1d602098f2fbc09292d8ecab15146e23cd170fbfc035b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:50:59.992832+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

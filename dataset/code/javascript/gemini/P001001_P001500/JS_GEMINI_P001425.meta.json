@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001425",
+  "problemId": "P001425",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001425",
+    "title": "Destination City",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a list of direct travel paths represented as source and destination cities. Determine the city that has no outgoing path.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain two strings representing source and destination.",
+    "output": "Print the destination city.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001425",
+    "fileSHA": "6b9fdec303fdcff81058fc5d0ecb6755e366f0bc96622e7b2fe520bd3e250e64",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:25:34.317378+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6b9fdec303fdcff81058fc5d0ecb6755e366f0bc96622e7b2fe520bd3e250e64",
+    "normalizedCodeHash": "6b9fdec303fdcff81058fc5d0ecb6755e366f0bc96622e7b2fe520bd3e250e64",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:25:34.317400+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

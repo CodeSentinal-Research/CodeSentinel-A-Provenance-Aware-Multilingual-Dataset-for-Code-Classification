@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000374",
+  "problemId": "P000374",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000374",
+    "title": "Search Book by ISBN",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Locate a book using its ISBN number and display the book details.",
+    "input": "A collection of book records and an ISBN.",
+    "output": "Matching book details or \"Book Not Found\".",
+    "constraints": "1 ≤ Number of Books ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000374.py",
+    "fileSHA": "f8471544fce7c4aeb2b9ec59ef8719b7685ab9f5ebcf2d69e2286b1520c7d785",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:01.568414+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f8471544fce7c4aeb2b9ec59ef8719b7685ab9f5ebcf2d69e2286b1520c7d785",
+    "normalizedCodeHash": "eeea25d0c32bb346fe866ff5ca25ba55f3a1bcacefc0b8eda24b00e572af2e43",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:01.568414+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

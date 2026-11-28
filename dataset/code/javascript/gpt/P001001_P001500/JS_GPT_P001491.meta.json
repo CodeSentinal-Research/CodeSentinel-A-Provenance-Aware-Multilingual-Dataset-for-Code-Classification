@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001491",
+  "problemId": "P001491",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001491",
+    "title": "Minimum Difference Between Highest and Lowest of K Scores",
+    "category": "Two Pointers",
+    "difficulty": "Easy",
+    "problemStatement": "Given the scores of students and an integer K, select K students such that the difference between the highest and lowest score is minimized.",
+    "input": "• First line contains integers N and K. • Second line contains N integers representing the scores.",
+    "output": "Print the minimum possible difference.",
+    "constraints": "• 1 ≤ K ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001491.js",
+    "fileSHA": "3a3ff85c715a186731699120ef05cca5dd421173066c865ab2ecbfea2bec4579",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3a3ff85c715a186731699120ef05cca5dd421173066c865ab2ecbfea2bec4579",
+    "normalizedCodeHash": "3a3ff85c715a186731699120ef05cca5dd421173066c865ab2ecbfea2bec4579",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

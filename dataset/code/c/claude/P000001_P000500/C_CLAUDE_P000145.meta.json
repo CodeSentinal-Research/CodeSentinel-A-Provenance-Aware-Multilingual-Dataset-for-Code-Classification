@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P000145",
+  "problemId": "P000145",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000145",
+    "title": "Search a 2D Matrix",
+    "category": "Arrays",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that searches for a target in a matrix where each row is sorted and first element of each row is greater than last of previous.",
+    "input": "First line contains rows, cols and target. Next rows lines contain the matrix.",
+    "output": "Print \"Found\" or \"Not Found\".",
+    "constraints": "1 \u2264 rows, cols \u2264 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000145",
+    "fileSHA": "f08218ed4e3660c850e548b8e542ded63056641fa14748775c9944489a5871ab",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-3.7-sonnet",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T02:01:39.187276+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9a1d5f16a66ac405adf3182d4ab3065f42addb1f4d4fbce7d03135d5703a7b57",
+    "normalizedCodeHash": "f08218ed4e3660c850e548b8e542ded63056641fa14748775c9944489a5871ab",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T02:01:39.187303+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

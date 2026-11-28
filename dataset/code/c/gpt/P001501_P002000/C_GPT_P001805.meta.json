@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001805",
+  "problemId": "P001805",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001805",
+    "title": "Find the Median of a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a Binary Search Tree, determine the median of all stored keys using only O(1) auxiliary space whenever possible.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST.",
+    "output": "• Print the median value.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001805.c",
+    "fileSHA": "3f91dfb2f29ccb6dd016ea8a9233827fb53e81518d07d7741d233d91eb81517d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.710Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "5fc9ce0d61cd49eaaa811ef6a146f9a8a219fa0ccf0310ef788f1689409de287",
+    "normalizedCodeHash": "3f91dfb2f29ccb6dd016ea8a9233827fb53e81518d07d7741d233d91eb81517d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.710Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

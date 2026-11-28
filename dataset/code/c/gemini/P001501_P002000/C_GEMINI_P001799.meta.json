@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001799",
+  "problemId": "P001799",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001799",
+    "title": "Find the Kth Largest Element in a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree and an integer K, determine the Kth largest element in the tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The last line contains K.",
+    "output": "\u2022 Print the Kth largest element.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001799",
+    "fileSHA": "9b0ccdc08b5a1782d771d2f4123c224123902c6e2911baad179f1698e229695c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:16.738837+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9b0ccdc08b5a1782d771d2f4123c224123902c6e2911baad179f1698e229695c",
+    "normalizedCodeHash": "9b0ccdc08b5a1782d771d2f4123c224123902c6e2911baad179f1698e229695c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:16.738857+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001058",
+  "problemId": "P001058",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001058",
+    "title": "Frequency Stack",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Design a stack-like data structure that supports push and pop operations. The pop operation must always remove the most frequently occurring element. If multiple elements have the same frequency, remove the one that was pushed most recently.",
+    "input": "• First line contains integer Q. • Next Q lines contain push or pop operations.",
+    "output": "Print the value removed for every pop operation.",
+    "constraints": "• 1 ≤ Q ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001058.js",
+    "fileSHA": "f80e1ee4fe16148ce86b679f6d1c213261ae5065cca03821583f775525957f66",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T09:30:51.258473+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f80e1ee4fe16148ce86b679f6d1c213261ae5065cca03821583f775525957f66",
+    "normalizedCodeHash": "f80e1ee4fe16148ce86b679f6d1c213261ae5065cca03821583f775525957f66",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T09:30:51.258473+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001044",
+  "problemId": "P001044",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001044",
+    "title": "Level of a Heap Node",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a binary heap represented as an array and an index of a node, determine the level of the node where the root is at level 0.",
+    "input": "• First line contains integer N. • Second line contains N integers. • Third line contains integer i.",
+    "output": "Print the level of the node.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ i < N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001044.c",
+    "fileSHA": "2622c6fa4a5ae6c314265ebd5285db3fa9676b55bb89a11b6e966108fde9b08f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:32.864Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "3794bd6fa124070c78831fd8f6a9e45eafcfc7a76ff8fde93905e0fa4c320277",
+    "normalizedCodeHash": "2622c6fa4a5ae6c314265ebd5285db3fa9676b55bb89a11b6e966108fde9b08f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:32.864Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

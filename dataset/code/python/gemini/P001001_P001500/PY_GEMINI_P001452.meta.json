@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001452",
+  "problemId": "P001452",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001452",
+    "title": "Count Distinct Elements After Updates",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an initial array and a sequence of update queries, replace the value at the specified index after each query and report the number of distinct elements currently present.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Second line contains N integers. \u2022 Next Q lines contain Index and NewValue.",
+    "output": "Print the number of distinct elements after each update.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001452",
+    "fileSHA": "5d8943c08cc4ad188aeb220d0276c49d787461e3234551751d7c2e7389571b29",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:26:50.058125+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5d8943c08cc4ad188aeb220d0276c49d787461e3234551751d7c2e7389571b29",
+    "normalizedCodeHash": "5d8943c08cc4ad188aeb220d0276c49d787461e3234551751d7c2e7389571b29",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:26:50.058148+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

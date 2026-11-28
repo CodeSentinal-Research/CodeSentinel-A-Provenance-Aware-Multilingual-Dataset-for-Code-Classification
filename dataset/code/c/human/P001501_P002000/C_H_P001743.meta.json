@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001743",
+  "problemId": "P001743",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001743",
+    "title": "Find the First Non-Full Node in Level Order",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, determine the first node encountered in level order traversal that does not have exactly two children.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the value of the first non-full node. If every node is full, print NONE.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0102_binary_tree_level_order_traversal/bst_bfs.c",
+    "fileSHA": "9275ffe9fea7062fef43ca22982b83a9b8ddc858",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0102_binary_tree_level_order_traversal/bst_bfs.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0102_binary_tree_level_order_traversal/bst_bfs.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4cdeead2715ebe7301a4b074202780ceb87d287c1d0cf50e358daa63c65ccb8e",
+    "normalizedCodeHash": "4cdeead2715ebe7301a4b074202780ceb87d287c1d0cf50e358daa63c65ccb8e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T16:19:50.007366+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001836",
+  "problemId": "P001836",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001836",
+    "title": "Implement an Inorder Iterator for a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Design an iterator for a Binary Search Tree that supports retrieving the next smallest element in amortized O(1) time using O(h) auxiliary space, where h is the height of the tree.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST. • The following line contains Q operations. • Each operation is either NEXT or HASNEXT.",
+    "output": "• For each operation, print the corresponding result.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5 • 1 ≤ Q ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001836.c",
+    "fileSHA": "a88de3d6a5bcc5ef85b58c90a52a8eb07e45bc14b9d4fcf1ccaeb4bfd2e13b64",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.808Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "21b938bb97c63ab9d6d0ca82f3f69f6cab68e69be11f6ad77edffad0e6406fea",
+    "normalizedCodeHash": "a88de3d6a5bcc5ef85b58c90a52a8eb07e45bc14b9d4fcf1ccaeb4bfd2e13b64",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.808Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

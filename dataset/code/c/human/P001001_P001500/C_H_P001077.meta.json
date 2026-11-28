@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001077",
+  "problemId": "P001077",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001077",
+    "title": "Kruskal's Minimum Spanning Tree",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a connected weighted undirected graph, construct its Minimum Spanning Tree using Kruskal's algorithm and determine its total weight.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines each contain integers u, v, and w.",
+    "output": "Print the total weight of the Minimum Spanning Tree.",
+    "constraints": "\u2022 2 \u2264 N \u2264 10^5 \u2022 N\u22121 \u2264 M \u2264 2\u00d710^5 \u2022 \u221210^6 \u2264 w \u2264 10^6"
+  },
+  "repository": {
+    "name": "TheAlgorithms/C",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/C",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "data_structures/graphs/kruskal.c",
+    "fileSHA": "0f72c6b52fb1463ed497082b9d326410683bca8c",
+    "url": "https://github.com/TheAlgorithms/C/blob/master/data_structures/graphs/kruskal.c",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/C/master/data_structures/graphs/kruskal.c"
+  },
+  "matching": {
+    "relevanceScore": 69.33
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3b8861bff418b5dc3377521def816df9f9f261622c30e11f4d711d44efd134b7",
+    "normalizedCodeHash": "3b8861bff418b5dc3377521def816df9f9f261622c30e11f4d711d44efd134b7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T02:05:47.627745+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

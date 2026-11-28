@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001631",
+  "problemId": "P001631",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001631",
+    "title": "Number of Paths With Given Sum in a Grid",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M grid of integers and an integer Target, determine the number of paths from the top-left cell to the bottom-right cell such that the sum of values along the path is exactly Target. You may only move right or down.",
+    "input": "\u2022 First line contains N, M, and Target. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the number of valid paths.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 30 \u2022 -100 \u2264 Grid[i][j] \u2264 100"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/3500-3599/3546.Equal Sum Grid Partition I/Solution.ts",
+    "fileSHA": "16d044e55ec347f6bbc5ae65cb1310e58cbd6dce",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/3500-3599/3546.Equal Sum Grid Partition I/Solution.ts",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/3500-3599/3546.Equal Sum Grid Partition I/Solution.ts"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "46fa056ceacf67335b14f336fa00438c4fdbb8e40f61f7c3fe1028f94a62e967",
+    "normalizedCodeHash": "46fa056ceacf67335b14f336fa00438c4fdbb8e40f61f7c3fe1028f94a62e967",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:37.259733+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

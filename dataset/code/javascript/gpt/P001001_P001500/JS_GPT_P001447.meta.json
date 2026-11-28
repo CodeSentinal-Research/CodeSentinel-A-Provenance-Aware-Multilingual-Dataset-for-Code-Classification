@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001447",
+  "problemId": "P001447",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001447",
+    "title": "Sentence Similarity II",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given two sentences and a list of similar word pairs, where similarity is transitive, determine whether the sentences are similar.",
+    "input": "• First line contains the first sentence. • Second line contains the second sentence. • Third line contains integer P. • Next P lines contain pairs of similar words.",
+    "output": "Print YES if the sentences are similar; otherwise print NO.",
+    "constraints": "• Sentence length ≤ 10^5 • 1 ≤ P ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001447.js",
+    "fileSHA": "3abb4de6a1c08e40aafe4129734d01bf9ff489456f73539582ea8fc07d3d0ae3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3abb4de6a1c08e40aafe4129734d01bf9ff489456f73539582ea8fc07d3d0ae3",
+    "normalizedCodeHash": "3abb4de6a1c08e40aafe4129734d01bf9ff489456f73539582ea8fc07d3d0ae3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

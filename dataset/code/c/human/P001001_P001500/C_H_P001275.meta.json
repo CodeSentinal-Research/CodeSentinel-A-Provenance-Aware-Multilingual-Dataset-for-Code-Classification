@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001275",
+  "problemId": "P001275",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001275",
+    "title": "Minimum Cost to Hire K Workers",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Each worker has a quality and a minimum wage expectation. Determine the minimum total cost required to hire exactly K workers while satisfying proportional wage constraints.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers representing qualities. \u2022 Third line contains N integers representing minimum wages.",
+    "output": "Print the minimum hiring cost with appropriate precision.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "gurudev108/algorithms",
+    "owner": "gurudev108",
+    "url": "https://github.com/gurudev108/algorithms",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "heaps/M-857-Minimum-Cost-To-Hire-k-Workers.c",
+    "fileSHA": "2c27dca2376b37577869a4ca9636c32baeab1569",
+    "url": "https://github.com/gurudev108/algorithms/blob/949e2d388d24a88d458690a64734cfb01c05de86/heaps/M-857-Minimum-Cost-To-Hire-k-Workers.c",
+    "rawUrl": "https://raw.githubusercontent.com/gurudev108/algorithms/main/heaps/M-857-Minimum-Cost-To-Hire-k-Workers.c"
+  },
+  "matching": {
+    "relevanceScore": 92.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e445124ed0a1aea27c07cb46487afae1c119bfda5e4a4a5387a8569ba702afe0",
+    "normalizedCodeHash": "e445124ed0a1aea27c07cb46487afae1c119bfda5e4a4a5387a8569ba702afe0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T18:52:15.390568+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

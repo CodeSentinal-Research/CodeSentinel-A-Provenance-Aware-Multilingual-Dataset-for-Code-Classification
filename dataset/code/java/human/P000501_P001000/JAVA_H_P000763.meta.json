@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000763",
+  "problemId": "P000763",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000763",
+    "title": "Regular Expression Matching",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string s and a pattern p containing lowercase letters, '.', and '*': '.' matches any single character. '*' matches zero or more occurrences of the preceding element. Determine whether the entire string matches the pattern using recursion.",
+    "input": "String s String p",
+    "output": "true if the pattern matches the string, otherwise false.",
+    "constraints": "1 <= |s|, |p| <= 20"
+  },
+  "repository": {
+    "name": "elastic/elasticsearch",
+    "owner": "elastic",
+    "url": "https://github.com/elastic/elasticsearch",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "x-pack/plugin/esql/src/main/java/org/elasticsearch/xpack/esql/expression/function/scalar/string/JsonPath.java",
+    "fileSHA": "420bf685bf807bc431fb2a3c834bd9606a112005",
+    "url": "https://github.com/elastic/elasticsearch/blob/3bca3d4a913632e6f76c52d3b6170812f328c054/x-pack/plugin/esql/src/main/java/org/elasticsearch/xpack/esql/expression/function/scalar/string/JsonPath.java",
+    "rawUrl": "https://raw.githubusercontent.com/elastic/elasticsearch/main/x-pack/plugin/esql/src/main/java/org/elasticsearch/xpack/esql/expression/function/scalar/string/JsonPath.java"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e836a3939088d90e6759706fb4a6a7ad32151e8d3e40cc36e42baf8876642add",
+    "normalizedCodeHash": "e836a3939088d90e6759706fb4a6a7ad32151e8d3e40cc36e42baf8876642add",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T15:34:08.169331+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

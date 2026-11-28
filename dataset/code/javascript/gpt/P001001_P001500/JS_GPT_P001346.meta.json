@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001346",
+  "problemId": "P001346",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001346",
+    "title": "Crossword Puzzle Solver",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given a crossword grid and a list of words, fill the crossword so that every horizontal and vertical slot forms a valid word.",
+    "input": "• First line contains integers R and C. • Next R lines contain the crossword grid. • Next line contains integer N. • Next N lines contain the words.",
+    "output": "Print one valid completed crossword grid.",
+    "constraints": "• 1 ≤ R, C ≤ 20 • 1 ≤ N ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001346.js",
+    "fileSHA": "6dc00316542444d61dec09022887839829698f801348be912465a8eb9871b6e5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T10:11:26.401164+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6dc00316542444d61dec09022887839829698f801348be912465a8eb9871b6e5",
+    "normalizedCodeHash": "6dc00316542444d61dec09022887839829698f801348be912465a8eb9871b6e5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T10:11:26.401164+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

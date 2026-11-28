@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_CLAUDE_P001613",
+  "problemId": "P001613",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001613",
+    "title": "Matrix Block Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × M matrix of integers and an integer K, construct a matrix where each cell contains the sum of all elements within a distance of K rows and K columns from that cell.",
+    "input": "• First line contains N, M, and K. • Next N lines each contain M integers.",
+    "output": "• Print the resulting matrix.",
+    "constraints": "• 1 ≤ N, M ≤ 1000 • 0 ≤ K ≤ max(N, M)"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P001613",
+    "fileSHA": "4ddd5049fafa94725fe061093f33cd7943d26ccbb6365e0425eaf5554b6fbccc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "bc80184ccfcc2d0ab0dd5d860d6421940382431a5409fde411b5519cfdf25fd1",
+    "normalizedCodeHash": "4ddd5049fafa94725fe061093f33cd7943d26ccbb6365e0425eaf5554b6fbccc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

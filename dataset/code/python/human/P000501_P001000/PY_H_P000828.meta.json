@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000828",
+  "problemId": "P000828",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000828",
+    "title": "Find Right Interval",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given a list of intervals. For each interval, find another interval whose start point is the smallest value greater than or equal to the current interval's end point. If no such interval exists, return -1 for that interval.",
+    "input": "Integer n Array intervals, where each interval is represented as [start, end]",
+    "output": "An array of indices representing the right interval for every interval.",
+    "constraints": "1 <= n <= 2 \u00d7 10^5 All interval start values are unique."
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/find-right-interval.py",
+    "fileSHA": "28162a0ac79bf38dcf8dd32bac1c71815e99055b",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/find-right-interval.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/find-right-interval.py"
+  },
+  "matching": {
+    "relevanceScore": 77.5
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "eb97854d4196582a75831947c0ac24a708bfdd6a4a877a0f0428b0d3b0ce882c",
+    "normalizedCodeHash": "eb97854d4196582a75831947c0ac24a708bfdd6a4a877a0f0428b0d3b0ce882c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:12:50.144726+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

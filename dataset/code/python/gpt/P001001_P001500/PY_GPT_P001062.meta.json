@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001062",
+  "problemId": "P001062",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001062",
+    "title": "Count Vertices with Zero In-Degree",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given a directed graph, determine the number of vertices having an in-degree of zero.",
+    "input": "• First line contains two integers N and M. • The next M lines contain directed edges.",
+    "output": "Print the number of vertices with zero in-degree.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001062.py",
+    "fileSHA": "9a927bf0f5f0ec3b87cc34b57b85e14ffdf669e4e857235baed0462baf881981",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.216950+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9a927bf0f5f0ec3b87cc34b57b85e14ffdf669e4e857235baed0462baf881981",
+    "normalizedCodeHash": "a0ae2710bb2a84ed95fe8f0439bfdc81c4ec55c2129a94663297a41a3b199e9f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.216950+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

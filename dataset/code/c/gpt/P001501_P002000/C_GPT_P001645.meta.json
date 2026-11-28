@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001645",
+  "problemId": "P001645",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001645",
+    "title": "Vertical Order Traversal of a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, group the nodes according to their vertical columns from leftmost to rightmost. Nodes sharing the same row and column should follow the required ordering.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the vertical order traversal.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001645.c",
+    "fileSHA": "a46602219f3c412ca41d61018ec85f6b68b4674d98c0e4a295e27fdeda30bbe9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.087Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "fed7ab27d65fba33d07020d7fe5ef0262fd62987a1a7f1831c8f4b9e239382ac",
+    "normalizedCodeHash": "a46602219f3c412ca41d61018ec85f6b68b4674d98c0e4a295e27fdeda30bbe9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.087Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

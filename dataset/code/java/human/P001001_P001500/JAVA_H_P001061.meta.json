@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001061",
+  "problemId": "P001061",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001061",
+    "title": "Detect Cycle in a Directed Graph",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given a directed graph with N vertices and M directed edges, determine whether the graph contains at least one cycle.",
+    "input": "\u2022 First line contains two integers N and M. \u2022 The next M lines each contain two integers u and v, representing a directed edge from u to v.",
+    "output": "Print YES if the graph contains a cycle; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5 \u2022 1 \u2264 u, v \u2264 N"
+  },
+  "repository": {
+    "name": "rishabh02dev/DSAxGfg",
+    "owner": "rishabh02dev",
+    "url": "https://github.com/rishabh02dev/DSAxGfg",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Medium/Detect cycle in a directed graph/detect-cycle-in-a-directed-graph.java",
+    "fileSHA": "85691bc98ce807564c1e89172c6b56789afc3fbe",
+    "url": "https://github.com/rishabh02dev/DSAxGfg/blob/6d3b30b11570e761bc61bcbeef8b2283b7920c56/Medium/Detect cycle in a directed graph/detect-cycle-in-a-directed-graph.java",
+    "rawUrl": "https://raw.githubusercontent.com/rishabh02dev/DSAxGfg/main/Medium/Detect cycle in a directed graph/detect-cycle-in-a-directed-graph.java"
+  },
+  "matching": {
+    "relevanceScore": 80.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "27f88916743ab950d467137c481cd1c25e79ad2dcab9931989dcea0a74ecb85b",
+    "normalizedCodeHash": "27f88916743ab950d467137c481cd1c25e79ad2dcab9931989dcea0a74ecb85b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:40:31.631272+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001129",
+  "problemId": "P001129",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001129",
+    "title": "Remove Maximum Number of Edges While Keeping Graph Fully Traversable",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "A graph contains three types of edges: \u2022 Type 1: Usable only by Alice. \u2022 Type 2: Usable only by Bob. \u2022 Type 3: Usable by both Alice and Bob. Determine the maximum number of edges that can be removed while ensuring both Alice and Bob can still traverse the entire graph. If impossible, print -1.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines each contain type, u, and v.",
+    "output": "Print the maximum number of removable edges.",
+    "constraints": "\u2022 2 \u2264 N \u2264 10^5 \u2022 1 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001129",
+    "fileSHA": "086b84623d935dcd848ef94cb246732c65f338318957925360ac1423668b7580",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.838Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "0bc608334b4885b0cae21ad3c6953f37a74c3ae7e2e463f929814a5495259e95",
+    "normalizedCodeHash": "f0127b4d289803d03af69b6017fb730ab1860ee68fe5432e986836a469de9acb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.838Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

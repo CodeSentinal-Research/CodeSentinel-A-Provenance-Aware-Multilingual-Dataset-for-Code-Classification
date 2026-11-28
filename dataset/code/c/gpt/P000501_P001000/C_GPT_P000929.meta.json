@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000929",
+  "problemId": "P000929",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000929",
+    "title": "Matrix Addition",
+    "category": "Mathematics - Matrix Mathematics",
+    "difficulty": "Easy",
+    "problemStatement": "Given two matrices of the same dimensions, compute their sum.",
+    "input": "Integers N and M Matrix A Matrix B",
+    "output": "The resulting matrix after addition.",
+    "constraints": "1 <= N, M <= 200 -10^9 <= A[i][j], B[i][j] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000929.c",
+    "fileSHA": "422f5cb0d49624771863b54014ea952f41d3a8eebc0ff15ddd0dbdf42439c39d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "422f5cb0d49624771863b54014ea952f41d3a8eebc0ff15ddd0dbdf42439c39d",
+    "normalizedCodeHash": "422f5cb0d49624771863b54014ea952f41d3a8eebc0ff15ddd0dbdf42439c39d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

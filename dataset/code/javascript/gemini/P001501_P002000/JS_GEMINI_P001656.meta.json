@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001656",
+  "problemId": "P001656",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001656",
+    "title": "Flatten a Binary Tree into a Linked List",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree, transform it into a singly linked list in preorder traversal order using the existing tree nodes. Each node in the resulting list must have its left child set to null.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the nodes of the flattened linked list.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001656",
+    "fileSHA": "971a30fb2117cc9254534372ffc3071864f131990abb6b362a5018c068a35a13",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:34:05.779901+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "971a30fb2117cc9254534372ffc3071864f131990abb6b362a5018c068a35a13",
+    "normalizedCodeHash": "971a30fb2117cc9254534372ffc3071864f131990abb6b362a5018c068a35a13",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:34:05.779940+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

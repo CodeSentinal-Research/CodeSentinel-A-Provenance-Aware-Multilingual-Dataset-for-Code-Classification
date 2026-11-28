@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001536",
+  "problemId": "P001536",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001536",
+    "title": "Minimum Window Substring",
+    "category": "Two Pointers",
+    "difficulty": "Hard",
+    "problemStatement": "Given two strings S and T, determine the smallest substring of S containing every character of T, including duplicate occurrences.",
+    "input": "\u2022 First line contains string S. \u2022 Second line contains string T.",
+    "output": "Print the minimum window substring. If none exists, print an empty string.",
+    "constraints": "\u2022 1 \u2264 Length of S, T \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/slidingwindow/MinimumWindowSubstring.java",
+    "fileSHA": "c1a5ac067ab5846ce7773836083b4b7256c9b6b2",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/slidingwindow/MinimumWindowSubstring.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/slidingwindow/MinimumWindowSubstring.java"
+  },
+  "matching": {
+    "relevanceScore": 73.33
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c5fd0765f1f034e993d70f15b25108a9f0fe5629344ac8bc4d63bea85b9c5d5d",
+    "normalizedCodeHash": "c5fd0765f1f034e993d70f15b25108a9f0fe5629344ac8bc4d63bea85b9c5d5d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:32.547271+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

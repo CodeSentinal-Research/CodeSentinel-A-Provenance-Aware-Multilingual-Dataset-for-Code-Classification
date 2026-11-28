@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000615",
+  "problemId": "P000615",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000615",
+    "title": "Reverse Nodes in Even Length Groups",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "The nodes of a linked list are divided into groups of sizes 1, 2, 3, 4, .... If the final group has fewer nodes than expected, it forms the last group. Reverse only those groups whose actual length is even. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 0 <= node.value <= 10^5"
+  },
+  "repository": {
+    "name": "thedmvdevaustin/leetcode",
+    "owner": "thedmvdevaustin",
+    "url": "https://github.com/thedmvdevaustin/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "2074-reverseNodesInEvenLengthGroups.js",
+    "fileSHA": "f532551ccb62bc053ffaa2485d6b6c1bf7a1ce4b",
+    "url": "https://github.com/thedmvdevaustin/leetcode/blob/bfae1872f27ee770430d01497b7c5d085b6364d2/2074-reverseNodesInEvenLengthGroups.js",
+    "rawUrl": "https://raw.githubusercontent.com/thedmvdevaustin/leetcode/main/2074-reverseNodesInEvenLengthGroups.js"
+  },
+  "matching": {
+    "relevanceScore": 90.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "25c6cebdf7257c039c71985b2dad7ec7a90ab04c31f2e5e210c0075a75e8f474",
+    "normalizedCodeHash": "25c6cebdf7257c039c71985b2dad7ec7a90ab04c31f2e5e210c0075a75e8f474",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T16:10:28.593463+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000825",
+  "problemId": "P000825",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000825",
+    "title": "Search a 2D Matrix II",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N × M matrix where: Each row is sorted in ascending order. Each column is sorted in ascending order. Determine whether a target value exists in the matrix.",
+    "input": "Integer N Integer M Matrix matrix Integer target",
+    "output": "true if the target exists, otherwise false.",
+    "constraints": "1 <= N, M <= 300"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000825",
+    "fileSHA": "4857049f5c6e4d5943482d45a511ba5e10ce2b89b0da1a076b6835b7bc1e6b64",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4857049f5c6e4d5943482d45a511ba5e10ce2b89b0da1a076b6835b7bc1e6b64",
+    "normalizedCodeHash": "4857049f5c6e4d5943482d45a511ba5e10ce2b89b0da1a076b6835b7bc1e6b64",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000825"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

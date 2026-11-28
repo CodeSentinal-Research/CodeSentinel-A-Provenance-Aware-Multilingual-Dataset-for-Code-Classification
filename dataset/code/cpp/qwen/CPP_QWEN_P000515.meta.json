@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000515",
+  "problemId": "P000515",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000515",
+    "title": "Car Fleet II",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "There are n cars traveling in the same direction on a one-lane road. Each car has an initial position and speed. Whenever a faster car catches up to a slower car ahead, they collide and continue moving together at the slower speed. For every car, determine the time at which it collides with the next car ahead. If it never collides, return -1.",
+    "input": "Integer n n pairs representing (position, speed).",
+    "output": "An array of floating-point numbers where the i-th value is the collision time of the i-th car.",
+    "constraints": "1 <= n <= 10^5 Positions are strictly increasing. 1 <= speed <= 10^6"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000515",
+    "fileSHA": "efbff9855a4242b6b7809da038224456cbf8f48a4d79aa9992c9e0b9ab1c0fe8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.426Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c62ef6f32fc9cea229b5668b8f924ebdd5be0d61e0030d6f8130431051e36ef7",
+    "normalizedCodeHash": "b80925cc510087c3e21ad0897f3a7d087047362c94b0ea24b7336e5c3f3150b2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.426Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

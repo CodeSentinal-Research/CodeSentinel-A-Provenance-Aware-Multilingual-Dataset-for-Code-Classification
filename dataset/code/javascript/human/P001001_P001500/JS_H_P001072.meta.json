@@ -1,0 +1,78 @@
+{
+  "solutionId": "JS_H_P001072",
+  "problemId": "P001072",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001072",
+    "title": "Strongly Connected Components Count",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a directed graph, determine the number of strongly connected components.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain directed edges.",
+    "output": "Print the number of strongly connected components.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "tbo47/dagre-es",
+    "owner": "tbo47",
+    "url": "https://github.com/tbo47/dagre-es",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P001001_P001500/JS_H_P001072.js",
+    "fileSHA": "4d34f959a45f93cf4379fb47b3a9bd777ea931d5",
+    "url": "https://github.com/tbo47/dagre-es/blob/4b95ad0a0bca6ce4cfa4cb83dfa9be19ca740e8f/src/graphlib/alg/tarjan.js",
+    "rawUrl": "https://raw.githubusercontent.com/tbo47/dagre-es/main/src/graphlib/alg/tarjan.js"
+  },
+  "matching": {
+    "relevanceScore": 67.5
+  },
+  "provenance": {
+    "score": 86.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2022-01-06T16:31:12Z",
+    "lastCommitDate": "2025-12-03T16:15:00Z",
+    "commitCount": 5,
+    "authorCount": 5,
+    "authors": [
+      "Alois Klink",
+      "Teebo",
+      "Thibaut Lassalle",
+      "Sidharth Vinod",
+      "tbo"
+    ],
+    "firstKnownAuthor": "Thibaut Lassalle",
+    "latestKnownAuthor": "Alois Klink"
+  },
+  "deduplication": {
+    "rawCodeHash": "a6d8e61af7828276538acae238871550e666c783f5e7cb9eca0d6dab63c9b89d",
+    "normalizedCodeHash": "a6d8e61af7828276538acae238871550e666c783f5e7cb9eca0d6dab63c9b89d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T07:27:10.272805+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

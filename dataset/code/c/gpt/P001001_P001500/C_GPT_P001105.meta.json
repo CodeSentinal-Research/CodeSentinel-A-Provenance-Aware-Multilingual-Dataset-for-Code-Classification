@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001105",
+  "problemId": "P001105",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001105",
+    "title": "Course Schedule",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "There are N courses labeled from 1 to N and a list of prerequisite pairs. Determine whether it is possible to complete all courses.",
+    "input": "• First line contains integers N and M. • Next M lines contain prerequisite pairs u and v, indicating that u must be completed before v.",
+    "output": "Print YES if all courses can be completed; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001105.c",
+    "fileSHA": "f5e96ab929b83a5fba277d1cda9fd4b1dff2be7a2309de636701f7b73af0646e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.025Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "75d605cad0347f523b11adaac652c50d6850ed8b592f0e011c104f1cb96c9b45",
+    "normalizedCodeHash": "f5e96ab929b83a5fba277d1cda9fd4b1dff2be7a2309de636701f7b73af0646e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.025Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

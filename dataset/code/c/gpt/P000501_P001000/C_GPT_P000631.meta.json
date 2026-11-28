@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000631",
+  "problemId": "P000631",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000631",
+    "title": "Search an Element in Linked List",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a singly linked list and an integer target, determine whether the target value exists in the linked list. Return true if the value is found; otherwise return false.",
+    "input": "Integer n Linked list Integer target",
+    "output": "true if the target exists, otherwise false.",
+    "constraints": "0 <= n <= 10^5 -10^9 <= node.value <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000631.c",
+    "fileSHA": "cbe7ce61919039dbfa1bba992f2219bdf48b231701fac67aa8c2c19d881f3346",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cbe7ce61919039dbfa1bba992f2219bdf48b231701fac67aa8c2c19d881f3346",
+    "normalizedCodeHash": "cbe7ce61919039dbfa1bba992f2219bdf48b231701fac67aa8c2c19d881f3346",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000829",
+  "problemId": "P000829",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000829",
+    "title": "Capacity To Ship Packages Within D Days",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array weights where weights[i] is the weight of the i-th package and an integer days, determine the least weight capacity of a ship that will allow all packages to be shipped within exactly days days. Packages must be shipped in the given order.",
+    "input": "Integer n Array weights Integer days",
+    "output": "The minimum ship capacity.",
+    "constraints": "1 <= n <= 5 \u00d7 10^4 1 <= weights[i] <= 500 1 <= days <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P000829",
+    "fileSHA": "2068b8958607c8e34f8ff1291ca5129123b8d7ffd864348fda55642cb7a3b66d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:28:39.276643+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2068b8958607c8e34f8ff1291ca5129123b8d7ffd864348fda55642cb7a3b66d",
+    "normalizedCodeHash": "2068b8958607c8e34f8ff1291ca5129123b8d7ffd864348fda55642cb7a3b66d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:28:39.276666+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);int n=sc.nextInt();sc.nextLine();StringBuilder sa=new StringBuilder();for(int i=0;i<n;i++)sa.append(sc.nextLine().trim());int m=sc.nextInt();sc.nextLine();StringBuilder sb=new StringBuilder();for(int i=0;i<m;i++)sb.append(sc.nextLine().trim());System.out.println(sa.toString().equals(sb.toString())?"Yes":"No");}}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001137",
+  "problemId": "P001137",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001137",
+    "title": "Coin Change - Minimum Coins",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given coin denominations and a target amount, determine the minimum number of coins required to form the target amount. If impossible, print -1.",
+    "input": "• First line contains integers N and Amount. • Second line contains N coin denominations.",
+    "output": "Print the minimum number of coins.",
+    "constraints": "• 1 ≤ N ≤ 100 • 1 ≤ Amount ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001137.c",
+    "fileSHA": "ca539f85fcaa5c5ce732bc4d195b4677029de7be9cacb1e05ff07b3cdfecf449",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.102Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "aaed07d5bd20c6718c9f8808ecd622a55f5994b92f61391b955d2daf87b164d0",
+    "normalizedCodeHash": "ca539f85fcaa5c5ce732bc4d195b4677029de7be9cacb1e05ff07b3cdfecf449",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.102Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

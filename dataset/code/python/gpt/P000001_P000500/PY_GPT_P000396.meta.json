@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000396",
+  "problemId": "P000396",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000396",
+    "title": "Search Active User Accounts",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find all user accounts that are marked as active.",
+    "input": "User account records.",
+    "output": "List of active users.",
+    "constraints": "1 ≤ Number of Users ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000396.py",
+    "fileSHA": "b31edcb5899785b753e48c87573e8e615a7581b275cfa5604c9cbb647d57d737",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:02.141284+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b31edcb5899785b753e48c87573e8e615a7581b275cfa5604c9cbb647d57d737",
+    "normalizedCodeHash": "3497149e7064b1cb0c501a25b2adff312fc164943acee19cef499302914e8003",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:02.141284+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

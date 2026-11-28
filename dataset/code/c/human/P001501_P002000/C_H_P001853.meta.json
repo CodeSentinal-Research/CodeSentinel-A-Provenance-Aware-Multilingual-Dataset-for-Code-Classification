@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001853",
+  "problemId": "P001853",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001853",
+    "title": "Determine Whether Every Internal Node Has Exactly One Child from Preorder Traversal",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the preorder traversal of a Binary Search Tree with distinct keys, determine whether every internal node has exactly one child without reconstructing the tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the preorder traversal.",
+    "output": "\u2022 Print YES if every internal node has exactly one child; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "ettoremiglioranza1012/Q-Digest",
+    "owner": "ettoremiglioranza1012",
+    "url": "https://github.com/ettoremiglioranza1012/Q-Digest",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "include/qcore.h",
+    "fileSHA": "ab88b3c24d0c51e93997c3df6a5c565f69bc0878",
+    "url": "https://github.com/ettoremiglioranza1012/Q-Digest/blob/c663f21c6b52aeb20e6b03853e77cad902b2c046/include/qcore.h",
+    "rawUrl": "https://raw.githubusercontent.com/ettoremiglioranza1012/Q-Digest/main/include/qcore.h"
+  },
+  "matching": {
+    "relevanceScore": 84.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f3c10c99b32b7d98dacf9b545757a4e138485577010172277907bdcd52b7e32b",
+    "normalizedCodeHash": "f3c10c99b32b7d98dacf9b545757a4e138485577010172277907bdcd52b7e32b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T20:09:44.220089+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

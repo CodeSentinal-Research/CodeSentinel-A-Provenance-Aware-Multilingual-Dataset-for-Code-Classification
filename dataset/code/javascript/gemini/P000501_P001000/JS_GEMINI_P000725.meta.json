@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000725",
+  "problemId": "P000725",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000725",
+    "title": "Split String into Descending Consecutive Values",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string consisting of digits, determine whether it can be split into two or more non-empty substrings such that the numerical values are in strictly descending order and differ by exactly 1. Return true if possible; otherwise return false.",
+    "input": "String s",
+    "output": "true if such a split exists, otherwise false.",
+    "constraints": "1 <= |s| <= 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "javascript/gemini/JS_GEMINI_P000725",
+    "fileSHA": "cede55200e929db4f67f6a4c549d1e51b0e51e484e9cdcd2ba9874fe50ae0cb1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T17:08:23.191335+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cede55200e929db4f67f6a4c549d1e51b0e51e484e9cdcd2ba9874fe50ae0cb1",
+    "normalizedCodeHash": "cede55200e929db4f67f6a4c549d1e51b0e51e484e9cdcd2ba9874fe50ae0cb1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T17:08:23.191355+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);String s1=sc.next(),s2=sc.next();int m=s1.length(),n=s2.length(),best=0,end=0;int[][]dp=new int[m+1][n+1];for(int i=1;i<=m;i++)for(int j=1;j<=n;j++){if(s1.charAt(i-1)==s2.charAt(j-1)){dp[i][j]=dp[i-1][j-1]+1;if(dp[i][j]>best){best=dp[i][j];end=i;}}else dp[i][j]=0;}System.out.println(s1.substring(end-best,end));}}

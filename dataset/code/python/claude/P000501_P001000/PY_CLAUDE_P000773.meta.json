@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000773",
+  "problemId": "P000773",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000773",
+    "title": "Count Ways to Parenthesize Arithmetic Expression",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an arithmetic expression containing integers and the operators +, -, and *, compute the number of distinct parenthesizations that produce the maximum possible value.",
+    "input": "String expression",
+    "output": "The number of parenthesizations yielding the maximum value.",
+    "constraints": "1 <= |expression| <= 30"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000773",
+    "fileSHA": "cecce8f62deebd7fef42f7d7fae11c98d2c7d811c15685e18f2314b4df03cdf4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cecce8f62deebd7fef42f7d7fae11c98d2c7d811c15685e18f2314b4df03cdf4",
+    "normalizedCodeHash": "cecce8f62deebd7fef42f7d7fae11c98d2c7d811c15685e18f2314b4df03cdf4",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000773: Count Ways to Parenthesize Arithmetic Expression"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

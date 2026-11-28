@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);int r=sc.nextInt(),c=sc.nextInt(),x=sc.nextInt();int[][]mat=new int[r][c];for(int i=0;i<r;i++)for(int j=0;j<c;j++)mat[i][j]=sc.nextInt();int row=0,col=c-1;while(row<r&&col>=0){if(mat[row][col]==x){System.out.println("Found");return;}else if(mat[row][col]>x)col--;else row++;}System.out.println("Not Found");}}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001245",
+  "problemId": "P001245",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001245",
+    "title": "Queue Reconstruction by Height",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Each person is represented by two integers: height and the number of people in front having height greater than or equal to theirs. Reconstruct the original queue.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain height and count.",
+    "output": "Print the reconstructed queue.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "don1502/DSA-JAVA",
+    "owner": "don1502",
+    "url": "https://github.com/don1502/DSA-JAVA",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/Gready/HeightQueueReconstruction.java",
+    "fileSHA": "f366a11947d57c2062e02fccb010c7143604010c",
+    "url": "https://github.com/don1502/DSA-JAVA/blob/949ac83a2d4dc0c94bbbd16e013842bdfe77906c/src/Gready/HeightQueueReconstruction.java",
+    "rawUrl": "https://raw.githubusercontent.com/don1502/DSA-JAVA/main/src/Gready/HeightQueueReconstruction.java"
+  },
+  "matching": {
+    "relevanceScore": 80.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e6dc346234df7a0bca39f39b15c5d6b38c4aa9eeb6966692fe78cf4961f2fa03",
+    "normalizedCodeHash": "e6dc346234df7a0bca39f39b15c5d6b38c4aa9eeb6966692fe78cf4961f2fa03",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:31:23.637352+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

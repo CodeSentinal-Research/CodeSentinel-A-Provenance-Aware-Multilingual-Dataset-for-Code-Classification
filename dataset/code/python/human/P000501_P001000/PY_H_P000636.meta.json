@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000636",
+  "problemId": "P000636",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000636",
+    "title": "Design Browser Tabs Manager",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a browser tab manager supporting the following operations: open(url) \u2014 Open a new tab. close(index) \u2014 Close the specified tab. switch(index) \u2014 Make the specified tab active. moveLeft(index) \u2014 Move the specified tab one position to the left. moveRight(index) \u2014 Move the specified tab one position to the right. current() \u2014 Return the currently active tab. Implement all operations efficiently using an appropriate linked list structure.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result of every current() operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "Mdsalmancodes/INVEST_IQ",
+    "owner": "Mdsalmancodes",
+    "url": "https://github.com/Mdsalmancodes/INVEST_IQ",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "apps/core-api/src/infrastructure/realtime/connection_manager.py",
+    "fileSHA": "210cd7f7078fe8fb47375b4bbc43fbfb74fcbdde",
+    "url": "https://github.com/Mdsalmancodes/INVEST_IQ/blob/035e039293bbdb198b7866e61d09133dfb4ec904/apps/core-api/src/infrastructure/realtime/connection_manager.py",
+    "rawUrl": "https://raw.githubusercontent.com/Mdsalmancodes/INVEST_IQ/main/apps/core-api/src/infrastructure/realtime/connection_manager.py"
+  },
+  "matching": {
+    "relevanceScore": 80.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c984a7c0163478b60f61abeebd579b22ab6e61bb384e4848a1aaf2268c2f3f79",
+    "normalizedCodeHash": "c984a7c0163478b60f61abeebd579b22ab6e61bb384e4848a1aaf2268c2f3f79",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T23:56:56.245068+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

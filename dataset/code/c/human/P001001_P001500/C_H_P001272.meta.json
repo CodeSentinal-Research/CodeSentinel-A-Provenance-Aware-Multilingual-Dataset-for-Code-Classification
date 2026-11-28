@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001272",
+  "problemId": "P001272",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001272",
+    "title": "Jump Game VI",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array and an integer K, start at index 0 and reach the last index. From position i, you may jump to any index in the range [i+1, i+K]. Each visited element contributes to the score. Determine the maximum obtainable score.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the maximum score.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/0055-jump-game.c",
+    "fileSHA": "327b879672dc0bf09c22b0d87deeecb5b9981cb9",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/c/0055-jump-game.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/0055-jump-game.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "58259ba46a05ecc04cce824fea52dec6ad97d5b341395ebbc5655d44e20e1374",
+    "normalizedCodeHash": "58259ba46a05ecc04cce824fea52dec6ad97d5b341395ebbc5655d44e20e1374",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:06.033219+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

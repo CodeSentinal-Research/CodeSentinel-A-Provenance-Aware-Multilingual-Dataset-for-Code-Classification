@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001853",
+  "problemId": "P001853",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001853",
+    "title": "Determine Whether Every Internal Node Has Exactly One Child from Preorder Traversal",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the preorder traversal of a Binary Search Tree with distinct keys, determine whether every internal node has exactly one child without reconstructing the tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the preorder traversal.",
+    "output": "\u2022 Print YES if every internal node has exactly one child; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0500-0599/0590.N-ary Tree Postorder Traversal/Solution2.py",
+    "fileSHA": "307c627e359283d928d743a066996106862e7dec",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0500-0599/0590.N-ary Tree Postorder Traversal/Solution2.py",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0500-0599/0590.N-ary Tree Postorder Traversal/Solution2.py"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e4dcce2fbbbcf18081d1800d4e8b1069a088c55fdc4745a5c33c08ac2d0d3e54",
+    "normalizedCodeHash": "e4dcce2fbbbcf18081d1800d4e8b1069a088c55fdc4745a5c33c08ac2d0d3e54",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:00.457698+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001556",
+  "problemId": "P001556",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001556",
+    "title": "Count Anagram Occurrences",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given two strings Text and Pattern, count the number of substrings in Text that are an anagram of Pattern.",
+    "input": "• First line contains Text. • Second line contains Pattern.",
+    "output": "• Print the count.",
+    "constraints": "• 1 ≤ |Pattern| ≤ |Text| ≤ 2 × 10^5 • Strings contain lowercase English letters."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001556.c",
+    "fileSHA": "35f3b1ba6c3bd7b38b16210ad080902e5202c7730acf4556b5bca83fec3b22d4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.758Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "4f05988cf772b185ccb93098b72aa7d9bd22e5aea6ba885ee4e0fa3bf8c79a25",
+    "normalizedCodeHash": "35f3b1ba6c3bd7b38b16210ad080902e5202c7730acf4556b5bca83fec3b22d4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.758Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

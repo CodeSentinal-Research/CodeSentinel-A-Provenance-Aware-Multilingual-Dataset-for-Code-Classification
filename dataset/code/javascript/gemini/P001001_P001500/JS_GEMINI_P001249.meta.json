@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001249",
+  "problemId": "P001249",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001249",
+    "title": "Minimum Cost to Connect Ropes",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Given the lengths of N ropes, repeatedly connect two ropes at a time. The cost of connecting two ropes equals the sum of their lengths. Determine the minimum total cost.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing rope lengths.",
+    "output": "Print the minimum total cost.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001249",
+    "fileSHA": "e00ec338f7fc99d6bff4cb18be4fca76822452bf50a5b0a757eab1577dcf949e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:17:17.854325+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e00ec338f7fc99d6bff4cb18be4fca76822452bf50a5b0a757eab1577dcf949e",
+    "normalizedCodeHash": "e00ec338f7fc99d6bff4cb18be4fca76822452bf50a5b0a757eab1577dcf949e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:17:17.854358+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

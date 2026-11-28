@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000491",
+  "problemId": "P000491",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000491",
+    "title": "Build Array With Stack Operations",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "Given a strictly increasing target array and an integer n, construct the target array starting from an empty array by reading numbers from 1 to n. For each number read: You may perform a \"Push\" operation. If the number should not remain in the array, immediately perform a \"Pop\". Return the sequence of operations required to build the target array.",
+    "input": "Integer m Target array Integer n",
+    "output": "A list of operations (Push and Pop).",
+    "constraints": "1 <= m <= 100 1 <= target[i] <= n <= 100"
+  },
+  "repository": {
+    "name": "basaanithanaveenkumar/HaleBlocks",
+    "owner": "basaanithanaveenkumar",
+    "url": "https://github.com/basaanithanaveenkumar/HaleBlocks",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/haloblocks/core/builder.py",
+    "fileSHA": "5c3fab59fef7e1d314a143015f3bd295f1eed71d",
+    "url": "https://github.com/basaanithanaveenkumar/HaleBlocks/blob/1e34582c0f31339482eba5e3a1b2f53ed7aa1045/src/haloblocks/core/builder.py",
+    "rawUrl": "https://raw.githubusercontent.com/basaanithanaveenkumar/HaleBlocks/main/src/haloblocks/core/builder.py"
+  },
+  "matching": {
+    "relevanceScore": 81.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f2099ba652e80eea0dac8342cd7f9583910e772164861a6415c38342ecc31176",
+    "normalizedCodeHash": "f2099ba652e80eea0dac8342cd7f9583910e772164861a6415c38342ecc31176",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T05:53:14.523571+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

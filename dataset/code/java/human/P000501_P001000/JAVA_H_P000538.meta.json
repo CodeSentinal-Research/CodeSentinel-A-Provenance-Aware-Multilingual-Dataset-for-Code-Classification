@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000538",
+  "problemId": "P000538",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000538",
+    "title": "Shortest Subarray with Sum at Least K",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array nums and an integer k, find the length of the shortest non-empty contiguous subarray whose sum is at least k. If no such subarray exists, return -1.",
+    "input": "Integer n Array nums Integer k",
+    "output": "A single integer representing the minimum subarray length, or -1 if no valid subarray exists.",
+    "constraints": "1 <= n <= 10^5 -10^5 <= nums[i] <= 10^5 1 <= k <= 10^9"
+  },
+  "repository": {
+    "name": "DarshinK/CP_Lab",
+    "owner": "DarshinK",
+    "url": "https://github.com/DarshinK/CP_Lab",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "ShortestSubarraySumAtLeastK.java",
+    "fileSHA": "5a801373f35520adb846fb4eabceb249d9b2165c",
+    "url": "https://github.com/DarshinK/CP_Lab/blob/e53ec33dc84fdf856b88b0a550ca832c9cf4ac09/ShortestSubarraySumAtLeastK.java",
+    "rawUrl": "https://raw.githubusercontent.com/DarshinK/CP_Lab/main/ShortestSubarraySumAtLeastK.java"
+  },
+  "matching": {
+    "relevanceScore": 81.67
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "fe0209d9833111c35597afcbc683a65831abe255860710a7ab3ba39f227568a3",
+    "normalizedCodeHash": "fe0209d9833111c35597afcbc683a65831abe255860710a7ab3ba39f227568a3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:36:47.944507+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

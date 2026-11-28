@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P000799",
+  "problemId": "P000799",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000799",
+    "title": "2D Prefix Sum Matrix",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an N \u00d7 M integer matrix, construct its 2D prefix sum matrix. Each cell (i, j) in the prefix matrix should store the sum of all elements in the rectangle from (0,0) to (i,j).",
+    "input": "Integer N Integer M Matrix grid",
+    "output": "The 2D prefix sum matrix.",
+    "constraints": "1 <= N, M <= 1000"
+  },
+  "repository": {
+    "name": "lufftw/neetcode",
+    "owner": "lufftw",
+    "url": "https://github.com/lufftw/neetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000799.py",
+    "fileSHA": "73d1991a60e33c3d5dbb8bf8f10417e36881af2d",
+    "url": "https://github.com/lufftw/neetcode/blob/f3fa6a4050c3bc00be6e1836f8e5a5134408906e/solutions/0304_range_sum_query_2d_immutable.py",
+    "rawUrl": "https://raw.githubusercontent.com/lufftw/neetcode/main/solutions/0304_range_sum_query_2d_immutable.py"
+  },
+  "matching": {
+    "relevanceScore": 75.76
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2026-01-05T15:46:29Z",
+    "lastCommitDate": "2026-01-05T15:46:29Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "lufftw"
+    ],
+    "firstKnownAuthor": "lufftw",
+    "latestKnownAuthor": "lufftw"
+  },
+  "deduplication": {
+    "rawCodeHash": "a85025e1e146b0f95fa816a268e05f82f7b95855bae25aacb1632506f6e71d19",
+    "normalizedCodeHash": "a85025e1e146b0f95fa816a268e05f82f7b95855bae25aacb1632506f6e71d19",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T05:00:12.498541+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

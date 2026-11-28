@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000538",
+  "problemId": "P000538",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000538",
+    "title": "Shortest Subarray with Sum at Least K",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array nums and an integer k, find the length of the shortest non-empty contiguous subarray whose sum is at least k. If no such subarray exists, return -1.",
+    "input": "Integer n Array nums Integer k",
+    "output": "A single integer representing the minimum subarray length, or -1 if no valid subarray exists.",
+    "constraints": "1 <= n <= 10^5 -10^5 <= nums[i] <= 10^5 1 <= k <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "javascript/gemini/JS_GEMINI_P000538",
+    "fileSHA": "3c274b73821bd023e19342b39ccc37755be362c0503bc6480eccfac24fc42a2e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:43:27.146068+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3c274b73821bd023e19342b39ccc37755be362c0503bc6480eccfac24fc42a2e",
+    "normalizedCodeHash": "3c274b73821bd023e19342b39ccc37755be362c0503bc6480eccfac24fc42a2e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:43:27.146112+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

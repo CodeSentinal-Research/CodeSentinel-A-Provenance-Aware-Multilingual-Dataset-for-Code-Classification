@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001331",
+  "problemId": "P001331",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001331",
+    "title": "Restore IP Addresses",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string containing only digits, generate all possible valid IPv4 addresses by inserting three dots. Each segment must be between 0 and 255 and cannot contain leading zeros unless the segment is exactly 0.",
+    "input": "• First line contains a digit string.",
+    "output": "Print all valid IPv4 addresses in lexicographical order.",
+    "constraints": "• 1 ≤ Length ≤ 12"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001331.c",
+    "fileSHA": "32df993fe56c6f0448c8f8cc0c784d5a2759aa23eb30f5e39e01b7042ea576a1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.864Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "52cfddc832e9610842f8ceca76865ac38e80e9f33f5215ae3371a8df7c68e398",
+    "normalizedCodeHash": "32df993fe56c6f0448c8f8cc0c784d5a2759aa23eb30f5e39e01b7042ea576a1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.864Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

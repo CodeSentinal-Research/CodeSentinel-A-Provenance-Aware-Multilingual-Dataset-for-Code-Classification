@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000521",
+  "problemId": "P000521",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000521",
+    "title": "Increasing Order Removal",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an array of integers. Repeatedly remove elements from left to right while maintaining a strictly increasing sequence in the current pass. Elements that cannot be removed in the current pass remain for the next pass. Determine the minimum number of passes required to remove all elements.",
+    "input": "Integer n Array nums",
+    "output": "A single integer representing the minimum number of passes.",
+    "constraints": "1 <= n <= 2 \u00d7 10^5 1 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "pikax/verter",
+    "owner": "pikax",
+    "url": "https://github.com/pikax/verter",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "packages/framework-conformance-harness/src/assembled-map-rewrite.mjs",
+    "fileSHA": "6ba2ea5ed57d66f37dd7d8dba9c30a16e58e3b52",
+    "url": "https://github.com/pikax/verter/blob/4d92d368d2184f96ba6780d644355ea943fcf568/packages/framework-conformance-harness/src/assembled-map-rewrite.mjs",
+    "rawUrl": "https://raw.githubusercontent.com/pikax/verter/main/packages/framework-conformance-harness/src/assembled-map-rewrite.mjs"
+  },
+  "matching": {
+    "relevanceScore": 86.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8cad77c84090e04c62daab2f08c4d9ea6bbacfb3b4f5cdf2040af6e2f98570dc",
+    "normalizedCodeHash": "8cad77c84090e04c62daab2f08c4d9ea6bbacfb3b4f5cdf2040af6e2f98570dc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T18:26:27.019305+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001231",
+  "problemId": "P001231",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001231",
+    "title": "Assign Cookies",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Each child has a minimum cookie size requirement, and each cookie has a size. Assign at most one cookie to each child such that the maximum number of children are satisfied.",
+    "input": "• First line contains integers N and M. • Second line contains N integers representing children's requirements. • Third line contains M integers representing cookie sizes.",
+    "output": "Print the maximum number of satisfied children.",
+    "constraints": "• 1 ≤ N, M ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001231.c",
+    "fileSHA": "8f2bb90a0f015eef888249b44cb5d0a1ec4703d021b4da9a40279f04858192bc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.360Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "1ab27fa967f584f3202fbd8de23d1e5306a1f25211704289e1d786de67289771",
+    "normalizedCodeHash": "8f2bb90a0f015eef888249b44cb5d0a1ec4703d021b4da9a40279f04858192bc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.360Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

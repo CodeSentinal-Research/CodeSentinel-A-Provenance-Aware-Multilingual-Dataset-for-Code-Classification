@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001055",
+  "problemId": "P001055",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001055",
+    "title": "Minimum Refueling Stops",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "A vehicle starts with an initial amount of fuel and must reach a destination. Fuel stations are located along the route, each providing a specific amount of fuel. Determine the minimum number of refueling stops required to reach the destination.",
+    "input": "• Distance to destination. • Initial fuel. • Number of fuel stations. • Position and fuel available at each station.",
+    "output": "Print the minimum number of refueling stops, or -1 if the destination cannot be reached.",
+    "constraints": "• 1 ≤ Number of stations ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001055.py",
+    "fileSHA": "8f8ea701471266c7a50cf33e928bc6af05e70ee1b0e2905de2333349adeb9355",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.199514+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8f8ea701471266c7a50cf33e928bc6af05e70ee1b0e2905de2333349adeb9355",
+    "normalizedCodeHash": "4b852356c11962ada4d46395a5d87a6abbd3ff13af5e7c18ff3427b946dcbfa4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.199514+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

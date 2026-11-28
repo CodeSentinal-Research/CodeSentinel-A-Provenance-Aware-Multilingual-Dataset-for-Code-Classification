@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000839",
+  "problemId": "P000839",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000839",
+    "title": "Find the Smallest Divisor Given a Threshold",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array nums and an integer threshold, choose a positive integer divisor such that the sum of ceil(nums[i] / divisor) over all elements is less than or equal to threshold. Return the smallest possible divisor.",
+    "input": "Integer n Array nums Integer threshold",
+    "output": "The smallest valid divisor.",
+    "constraints": "1 <= n <= 5 \u00d7 10^4 1 <= nums[i] <= 10^6 n <= threshold <= 10^6"
+  },
+  "repository": {
+    "name": "wisdompeak/LeetCode",
+    "owner": "wisdompeak",
+    "url": "https://github.com/wisdompeak/LeetCode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Binary_Search/1283.Find-the-Smallest-Divisor-Given-a-Threshold/1283.Find-the-Smallest-Divisor-Given-a-Threshold.cpp",
+    "fileSHA": "3643979dd6f3301b741d18f0df7d6c4033f60c8c",
+    "url": "https://github.com/wisdompeak/LeetCode/blob/master/Binary_Search/1283.Find-the-Smallest-Divisor-Given-a-Threshold/1283.Find-the-Smallest-Divisor-Given-a-Threshold.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/wisdompeak/LeetCode/master/Binary_Search/1283.Find-the-Smallest-Divisor-Given-a-Threshold/1283.Find-the-Smallest-Divisor-Given-a-Threshold.cpp"
+  },
+  "matching": {
+    "relevanceScore": 79.06
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "517ee281b95e35a332141d0b40d603bde8fe931280633078b6925b0f2b1f75e0",
+    "normalizedCodeHash": "517ee281b95e35a332141d0b40d603bde8fe931280633078b6925b0f2b1f75e0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (C++ Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:54:43.911360+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001573",
+  "problemId": "P001573",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001573",
+    "title": "Count Windows With Sum Divisible by K",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and integers K and D, count the number of contiguous subarrays of size exactly K whose sum is divisible by D.",
+    "input": "\u2022 First line contains N, K, and D. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the required count.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K \u2264 N \u2022 1 \u2264 D \u2264 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/1000-1099/1015.Smallest Integer Divisible by K/Solution.ts",
+    "fileSHA": "74c05ad723614ad2a346cd75404e3be31355fe3d",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/1000-1099/1015.Smallest Integer Divisible by K/Solution.ts",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/1000-1099/1015.Smallest Integer Divisible by K/Solution.ts"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e5a0e638d0212120efb3644389fca26fe652b53c7baabdc9d94b25b500a587c1",
+    "normalizedCodeHash": "e5a0e638d0212120efb3644389fca26fe652b53c7baabdc9d94b25b500a587c1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:11.336879+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

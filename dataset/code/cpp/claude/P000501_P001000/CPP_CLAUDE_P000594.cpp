@@ -1,0 +1,7 @@
+#include<iostream>
+#include<vector>
+#include<algorithm>
+using namespace std;
+int main(){int n;cin>>n;vector<int>a(n);for(auto&v:a)cin>>v;int k;cin>>k;k%=n;
+reverse(a.begin(),a.end());reverse(a.begin(),a.begin()+k);reverse(a.begin()+k,a.end());
+for(int i=0;i<n;i++)cout<<a[i]<<" \n"[i==n-1];}

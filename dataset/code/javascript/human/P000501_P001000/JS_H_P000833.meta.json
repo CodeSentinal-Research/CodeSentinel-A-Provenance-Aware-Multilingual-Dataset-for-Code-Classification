@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000833",
+  "problemId": "P000833",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000833",
+    "title": "Allocate Minimum Number of Pages",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array where each element represents the number of pages in a book and an integer students, allocate books such that: Each student receives at least one book. Books assigned to a student must be contiguous. Minimize the maximum number of pages assigned to any student. Return the minimum possible maximum.",
+    "input": "Integer n Array pages Integer students",
+    "output": "The minimum possible maximum pages.",
+    "constraints": "1 <= n <= 10^5 1 <= pages[i] <= 10^9"
+  },
+  "repository": {
+    "name": "Jaynil1611/Problem-Solving",
+    "owner": "Jaynil1611",
+    "url": "https://github.com/Jaynil1611/Problem-Solving",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "data-structures/binarySearch/bookAllocationMinimumPages.js",
+    "fileSHA": "eaddc47a24a84d8b0ea1c875cfe791b28ebbf7c5",
+    "url": "https://github.com/Jaynil1611/Problem-Solving/blob/ca44444cdaa6b1da5cea0998a2cb8858247b4f20/data-structures/binarySearch/bookAllocationMinimumPages.js",
+    "rawUrl": "https://raw.githubusercontent.com/Jaynil1611/Problem-Solving/main/data-structures/binarySearch/bookAllocationMinimumPages.js"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "71c86707ec5f18941af37748059acf5a9559fb14d64daf60ef8ebceb17f0101d",
+    "normalizedCodeHash": "71c86707ec5f18941af37748059acf5a9559fb14d64daf60ef8ebceb17f0101d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:21:11.152394+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

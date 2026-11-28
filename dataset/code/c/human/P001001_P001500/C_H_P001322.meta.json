@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001322",
+  "problemId": "P001322",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001322",
+    "title": "Combination Sum",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a set of distinct positive integers and a target value, find all unique combinations where the selected numbers sum exactly to the target. Each number may be chosen an unlimited number of times.",
+    "input": "\u2022 First line contains integers N and Target. \u2022 Second line contains N distinct positive integers.",
+    "output": "Print all unique combinations in lexicographical order.",
+    "constraints": "\u2022 1 \u2264 N \u2264 30 \u2022 1 \u2264 Target \u2264 500"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0040_combination_sum_ii/combination_sum.c",
+    "fileSHA": "4623149ebf174a8eb00cd5c1e67011e94c8ec7de",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0040_combination_sum_ii/combination_sum.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0040_combination_sum_ii/combination_sum.c"
+  },
+  "matching": {
+    "relevanceScore": 72.14
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c2e5f574ffd095cce426d82247cc3db6cb0968b2652b27a0fa0d76f4049b4a58",
+    "normalizedCodeHash": "c2e5f574ffd095cce426d82247cc3db6cb0968b2652b27a0fa0d76f4049b4a58",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:43:38.943919+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

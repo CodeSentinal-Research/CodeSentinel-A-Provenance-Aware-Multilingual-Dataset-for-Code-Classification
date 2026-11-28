@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_QWEN_P001347",
+  "problemId": "P001347",
+  "language": "c",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001347",
+    "title": "Cryptarithmetic Puzzle",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given three uppercase words representing an equation of the form WORD1 + WORD2 = WORD3, assign distinct digits to letters so that the equation holds.",
+    "input": "\u2022 First line contains WORD1. \u2022 Second line contains WORD2. \u2022 Third line contains WORD3.",
+    "output": "Print one valid digit assignment or IMPOSSIBLE if none exists.",
+    "constraints": "\u2022 Total distinct letters \u2264 10"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/C_QWEN_P001347",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

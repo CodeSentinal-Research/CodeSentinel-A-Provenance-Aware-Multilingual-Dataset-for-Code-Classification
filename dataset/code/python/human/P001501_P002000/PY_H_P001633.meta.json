@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001633",
+  "problemId": "P001633",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001633",
+    "title": "Largest Rectangle With Sum Not Exceeding K",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M matrix of integers and an integer K, determine the maximum area of a rectangular submatrix whose sum does not exceed K.",
+    "input": "\u2022 First line contains N, M, and K. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the maximum rectangle area.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 300 \u2022 -10^4 \u2264 Aij \u2264 10^4"
+  },
+  "repository": {
+    "name": "rllm-org/rllm",
+    "owner": "rllm-org",
+    "url": "https://github.com/rllm-org/rllm",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "rllm/system_prompts.py",
+    "fileSHA": "81521fa167e344973cef3d76165baec57a6b3731",
+    "url": "https://github.com/rllm-org/rllm/blob/9beb6e0f676a46d38858991fd79ac5f8e0b16d4c/rllm/system_prompts.py",
+    "rawUrl": "https://raw.githubusercontent.com/rllm-org/rllm/main/rllm/system_prompts.py"
+  },
+  "matching": {
+    "relevanceScore": 84.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9a328ac676e17ef10399cb3827ece60c4b8e1ac071659e094413db5ae4e54c36",
+    "normalizedCodeHash": "9a328ac676e17ef10399cb3827ece60c4b8e1ac071659e094413db5ae4e54c36",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T13:14:11.835735+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

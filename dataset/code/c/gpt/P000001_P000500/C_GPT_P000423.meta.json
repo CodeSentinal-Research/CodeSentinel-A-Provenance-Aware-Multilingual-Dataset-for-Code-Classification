@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000423",
+  "problemId": "P000423",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000423",
+    "title": "Search Orders Pending for More Than N Days",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Find all customer orders that have remained pending for more than the specified number of days.",
+    "input": "Order records and N.",
+    "output": "Matching orders.",
+    "constraints": "1 ≤ Number of Orders ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000423.c",
+    "fileSHA": "b49ae99402543883ab08a0ecc0033c9632a19c409db5c540d0e13261bc8c6af2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b49ae99402543883ab08a0ecc0033c9632a19c409db5c540d0e13261bc8c6af2",
+    "normalizedCodeHash": "b49ae99402543883ab08a0ecc0033c9632a19c409db5c540d0e13261bc8c6af2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

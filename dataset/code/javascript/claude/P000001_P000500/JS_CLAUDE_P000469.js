@@ -1,0 +1,1 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const[n,x]=l[0].split(' ').map(Number);const a=l[1].split(' ').map(Number);let first=-1,last=-1;for(let i=0;i<n;i++)if(a[i]===x){if(first===-1)first=i;last=i;}console.log(first+' '+last);

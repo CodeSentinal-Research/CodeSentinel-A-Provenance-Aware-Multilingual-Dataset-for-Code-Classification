@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000833",
+  "problemId": "P000833",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000833",
+    "title": "Allocate Minimum Number of Pages",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array where each element represents the number of pages in a book and an integer students, allocate books such that: Each student receives at least one book. Books assigned to a student must be contiguous. Minimize the maximum number of pages assigned to any student. Return the minimum possible maximum.",
+    "input": "Integer n Array pages Integer students",
+    "output": "The minimum possible maximum pages.",
+    "constraints": "1 <= n <= 10^5 1 <= pages[i] <= 10^9"
+  },
+  "repository": {
+    "name": "anil-sn/InterviewPreparation",
+    "owner": "anil-sn",
+    "url": "https://github.com/anil-sn/InterviewPreparation",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "002.StriverSde/006.Binary_Search/007.Allocate_Minimum_Number_of_Pages.c",
+    "fileSHA": "cf3e7dae7aab2e6c535778f2efb2af68914afb4f",
+    "url": "https://github.com/anil-sn/InterviewPreparation/blob/4cc9354c27733ec59bd74bdb4fc5e69a1c3d2dcd/002.StriverSde/006.Binary_Search/007.Allocate_Minimum_Number_of_Pages.c",
+    "rawUrl": "https://raw.githubusercontent.com/anil-sn/InterviewPreparation/main/002.StriverSde/006.Binary_Search/007.Allocate_Minimum_Number_of_Pages.c"
+  },
+  "matching": {
+    "relevanceScore": 92.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "cc634c753116bbf63000f0788be6a672d01f02e707a187cd39bf261e7b8900ce",
+    "normalizedCodeHash": "cc634c753116bbf63000f0788be6a672d01f02e707a187cd39bf261e7b8900ce",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T16:15:34.436849+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

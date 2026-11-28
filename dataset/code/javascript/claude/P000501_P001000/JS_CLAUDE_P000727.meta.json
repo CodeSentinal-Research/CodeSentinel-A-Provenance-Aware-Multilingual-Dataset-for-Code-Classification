@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000727",
+  "problemId": "P000727",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000727",
+    "title": "Word Break II",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string s and a dictionary of valid words, return all possible sentences formed by inserting spaces into s such that every word belongs to the dictionary. Print the sentences in lexicographical order.",
+    "input": "String s Integer m Array dictionary",
+    "output": "All valid sentences.",
+    "constraints": "1 <= |s| <= 20 1 <= m <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000727",
+    "fileSHA": "44b61ccc9e1c75895388169a4eb2a8b110a3a4eb711382b50922f3abd3e7e59f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "44b61ccc9e1c75895388169a4eb2a8b110a3a4eb711382b50922f3abd3e7e59f",
+    "normalizedCodeHash": "44b61ccc9e1c75895388169a4eb2a8b110a3a4eb711382b50922f3abd3e7e59f",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000727"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

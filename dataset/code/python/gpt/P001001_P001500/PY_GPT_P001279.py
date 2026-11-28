@@ -1,0 +1,15 @@
+# problem title : Smallest String with Given Numeric Value
+# Solve the stated task using standard input and standard output.
+class Solution:
+    def getSmallestString(self, n: int, k: int) -> str:
+        res = ['a'] * n
+        k -= n
+
+        for i in range(n - 1, -1, -1):
+            add = min(25, k)
+            res[i] = chr(ord('a') + add)
+            k -= add
+            if k == 0:
+                break
+
+        return "".join(res)

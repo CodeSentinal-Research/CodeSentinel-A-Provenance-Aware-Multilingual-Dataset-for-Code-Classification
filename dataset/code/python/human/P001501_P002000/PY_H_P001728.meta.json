@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001728",
+  "problemId": "P001728",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001728",
+    "title": "Find the Kth Ancestor of a Node",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree, a target node, and an integer K, determine the Kth ancestor of the target node. If no such ancestor exists, print NONE.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains the target node value and K.",
+    "output": "\u2022 Print the Kth ancestor.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K < N"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/kth-ancestor-of-a-tree-node.py",
+    "fileSHA": "bc96a985f50409e0679adfea4e4e1f9cac187f25",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/kth-ancestor-of-a-tree-node.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/kth-ancestor-of-a-tree-node.py"
+  },
+  "matching": {
+    "relevanceScore": 80.91
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "39b767daf347d22159a80d5707f5fa615475ace055961917df0d10a0f52e5d2b",
+    "normalizedCodeHash": "39b767daf347d22159a80d5707f5fa615475ace055961917df0d10a0f52e5d2b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T15:57:31.283988+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

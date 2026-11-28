@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000676",
+  "problemId": "P000676",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000676",
+    "title": "Flatten Multi-Level Sorted Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a multi-level linked list where each node contains: next pointer child pointer Each child list is individually sorted. Flatten the entire structure into a single sorted linked list using only the child pointers. Return the head of the flattened list.",
+    "input": "A multi-level linked list.",
+    "output": "The head of the flattened sorted linked list.",
+    "constraints": "Total number of nodes is in the range [0, 10^5]"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000676.py",
+    "fileSHA": "ff226d6397f51802f9371c4438a5c14b714cabba5d71630b1cb0166429bb064c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.635581+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ff226d6397f51802f9371c4438a5c14b714cabba5d71630b1cb0166429bb064c",
+    "normalizedCodeHash": "1c129e86f9a8b064f75f8943e73d5f81b51a03b7da320fb3f926e0e00641ce6a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.635581+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

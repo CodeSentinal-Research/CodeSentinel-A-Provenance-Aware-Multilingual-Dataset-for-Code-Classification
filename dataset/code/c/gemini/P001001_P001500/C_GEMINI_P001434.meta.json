@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001434",
+  "problemId": "P001434",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001434",
+    "title": "Find Winner on a Tic-Tac-Toe Game",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given the sequence of moves played in a Tic-Tac-Toe game, determine the winner. If nobody wins and the board is full, print DRAW; otherwise print PENDING.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain row and column indices.",
+    "output": "Print the game result.",
+    "constraints": "\u2022 0 \u2264 N \u2264 9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001434",
+    "fileSHA": "c7c5f5227be54617f5dfc445e14121b13d50707fa08d2f2f521fcf0bec6c29cc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:26:13.096978+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c7c5f5227be54617f5dfc445e14121b13d50707fa08d2f2f521fcf0bec6c29cc",
+    "normalizedCodeHash": "c7c5f5227be54617f5dfc445e14121b13d50707fa08d2f2f521fcf0bec6c29cc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:26:13.097002+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

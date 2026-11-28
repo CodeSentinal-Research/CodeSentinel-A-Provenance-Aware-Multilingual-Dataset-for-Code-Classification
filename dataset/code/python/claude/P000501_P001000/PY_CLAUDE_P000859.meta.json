@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000859",
+  "problemId": "P000859",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000859",
+    "title": "Reverse Bits",
+    "category": "Bit Manipulation",
+    "difficulty": "Medium",
+    "problemStatement": "Given a 32-bit unsigned integer, reverse its bits and return the resulting integer.",
+    "input": "Integer N",
+    "output": "The reversed integer.",
+    "constraints": "0 <= N <= 2^32 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000859",
+    "fileSHA": "47520c049bb26a692aece08a60660c75074eead3d4467c5e39720db2f6241d54",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "47520c049bb26a692aece08a60660c75074eead3d4467c5e39720db2f6241d54",
+    "normalizedCodeHash": "47520c049bb26a692aece08a60660c75074eead3d4467c5e39720db2f6241d54",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique solution P000859: Reverse Bits"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

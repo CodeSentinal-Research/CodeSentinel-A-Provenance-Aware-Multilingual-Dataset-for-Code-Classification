@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001122",
+  "problemId": "P001122",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001122",
+    "title": "Eventual Safe States",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a directed graph, determine all vertices from which every possible path eventually terminates without entering a cycle.",
+    "input": "• First line contains integers N and M. • Next M lines contain directed edges.",
+    "output": "Print all safe vertices in ascending order.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001122.c",
+    "fileSHA": "62b5045bc909b43a7bd3a381f03b27276499f9a4a545ebbfe167c6c652e67587",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.063Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "2481c075c8b57a7c3c6e824082abfa672cd8e54c3ebd661acf2435336e3d9a45",
+    "normalizedCodeHash": "62b5045bc909b43a7bd3a381f03b27276499f9a4a545ebbfe167c6c652e67587",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.063Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

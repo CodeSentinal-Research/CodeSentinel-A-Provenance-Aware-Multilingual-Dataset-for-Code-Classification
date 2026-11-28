@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000722",
+  "problemId": "P000722",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000722",
+    "title": "Matchsticks to Square",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an array representing the lengths of matchsticks. Determine whether all matchsticks can be used exactly once to form a square. Return true if possible; otherwise return false.",
+    "input": "Integer n Array matchsticks",
+    "output": "true if a square can be formed, otherwise false.",
+    "constraints": "1 <= n <= 15 1 <= matchsticks[i] <= 10^8"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000722",
+    "fileSHA": "384eaab06ec38520baaa0afc395cdb034e748712756206fdb756620f280568d7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "384eaab06ec38520baaa0afc395cdb034e748712756206fdb756620f280568d7",
+    "normalizedCodeHash": "384eaab06ec38520baaa0afc395cdb034e748712756206fdb756620f280568d7",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000722"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

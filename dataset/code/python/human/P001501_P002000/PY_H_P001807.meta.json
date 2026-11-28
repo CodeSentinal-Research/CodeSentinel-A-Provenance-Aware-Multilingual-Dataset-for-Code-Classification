@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001807",
+  "problemId": "P001807",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001807",
+    "title": "Split a Binary Search Tree by a Key",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a Binary Search Tree and a key X, split the tree into two Binary Search Trees such that one contains all keys less than or equal to X and the other contains all keys greater than X.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The last line contains X.",
+    "output": "\u2022 Print both resulting BSTs.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0600-0699/0654.Maximum Binary Tree/Solution.py",
+    "fileSHA": "1e8e7cb775dbdf3eb0b9bf2ac9d3751bb7831dcd",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0600-0699/0654.Maximum Binary Tree/Solution.py",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0600-0699/0654.Maximum Binary Tree/Solution.py"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "62f085cadf8dea8bb9541844b3e5d83de74c04df434a03b0473caccddc77dbf0",
+    "normalizedCodeHash": "62f085cadf8dea8bb9541844b3e5d83de74c04df434a03b0473caccddc77dbf0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:01.905601+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000236",
+  "problemId": "P000236",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000236",
+    "title": "Find Specific Pair in Matrix",
+    "category": "Arrays",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that finds the maximum value of mat[c][d] - mat[a][b] such that c > a and d > b.",
+    "input": "First line contains N. Next N lines contain the N x N matrix.",
+    "output": "The maximum difference.",
+    "constraints": "2 ≤ N ≤ 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000236.py",
+    "fileSHA": "a2bcf25bc5eaadcf4847325ce739290fc144cb1805b089c6a80f9fb7c97d238e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:22:58.889888+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a2bcf25bc5eaadcf4847325ce739290fc144cb1805b089c6a80f9fb7c97d238e",
+    "normalizedCodeHash": "ace765b758f7b65b542601ad0489035bf2f3dad3d7b62c937238a03c7f3bab6e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:22:58.889888+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

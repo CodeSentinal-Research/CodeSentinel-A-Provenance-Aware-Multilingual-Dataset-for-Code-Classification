@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001566",
+  "problemId": "P001566",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001566",
+    "title": "Sliding Window Minimum",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and a window size K, determine the minimum element in every contiguous subarray of size K.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the minimum element for every window.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • 1 ≤ K ≤ N • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001566.c",
+    "fileSHA": "1835d21a147476b83aa37630c1752a4c220e2d69c3d57ae2d98a825a8d35e992",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.792Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "425e6a33cf62596b3f7bed1d105c3b87915c76492bc481fbfdf71a50d289e6d8",
+    "normalizedCodeHash": "1835d21a147476b83aa37630c1752a4c220e2d69c3d57ae2d98a825a8d35e992",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.792Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

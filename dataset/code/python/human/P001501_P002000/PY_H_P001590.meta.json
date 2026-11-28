@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001590",
+  "problemId": "P001590",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001590",
+    "title": "Maximum Robots Within Budget",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "You are given two arrays representing the charge times and running costs of robots, along with a budget. Determine the maximum number of consecutive robots that can be operated without exceeding the budget.",
+    "input": "\u2022 First line contains N and Budget. \u2022 Second line contains N integers representing charge times. \u2022 Third line contains N integers representing running costs.",
+    "output": "\u2022 Print the maximum number of consecutive robots that can be operated.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 Budget \u2264 10^18"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/maximum-number-of-robots-within-budget.py",
+    "fileSHA": "250489447febb72dd0322b3e23c09f5f02385c7f",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/maximum-number-of-robots-within-budget.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/maximum-number-of-robots-within-budget.py"
+  },
+  "matching": {
+    "relevanceScore": 79.71
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "657e2bf789ceb92407fff13d376e427a84dd46888cd81ad1750664d51f15d0ce",
+    "normalizedCodeHash": "657e2bf789ceb92407fff13d376e427a84dd46888cd81ad1750664d51f15d0ce",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T01:57:58.081598+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

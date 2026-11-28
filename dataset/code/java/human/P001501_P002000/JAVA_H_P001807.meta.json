@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001807",
+  "problemId": "P001807",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001807",
+    "title": "Split a Binary Search Tree by a Key",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a Binary Search Tree and a key X, split the tree into two Binary Search Trees such that one contains all keys less than or equal to X and the other contains all keys greater than X.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The last line contains X.",
+    "output": "\u2022 Print both resulting BSTs.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "codeChill26/SWT_Coverity",
+    "owner": "codeChill26",
+    "url": "https://github.com/codeChill26/SWT_Coverity",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/datastructures/trees/Treap.java",
+    "fileSHA": "209dbf66fcae89809c52fdf607f8a25eef20b520",
+    "url": "https://github.com/codeChill26/SWT_Coverity/blob/75d08911491ab3ef3233653deae6375413c60a26/src/main/java/com/thealgorithms/datastructures/trees/Treap.java",
+    "rawUrl": "https://raw.githubusercontent.com/codeChill26/SWT_Coverity/main/src/main/java/com/thealgorithms/datastructures/trees/Treap.java"
+  },
+  "matching": {
+    "relevanceScore": 86.7
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "fc1535701195ff80574fb9978c87292acc8df72f8b57d714843aad221f192c89",
+    "normalizedCodeHash": "fc1535701195ff80574fb9978c87292acc8df72f8b57d714843aad221f192c89",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T21:36:16.259177+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

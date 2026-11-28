@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P001080",
+  "problemId": "P001080",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001080",
+    "title": "Find All Articulation Points",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a connected undirected graph, determine all articulation points. An articulation point is a vertex whose removal increases the number of connected components.",
+    "input": "• First line contains integers N and M. • Next M lines contain graph edges.",
+    "output": "Print all articulation points in ascending order. If none exist, print NONE.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P001080",
+    "fileSHA": "28dd80ec9a5bfac40bb2800bf9257510e0543133f4d980dbed73f026363278e7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "28dd80ec9a5bfac40bb2800bf9257510e0543133f4d980dbed73f026363278e7",
+    "normalizedCodeHash": "28dd80ec9a5bfac40bb2800bf9257510e0543133f4d980dbed73f026363278e7",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P001080"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

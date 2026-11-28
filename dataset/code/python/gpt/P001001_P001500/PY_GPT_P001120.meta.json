@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001120",
+  "problemId": "P001120",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001120",
+    "title": "Reconstruct Itinerary",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a list of airline tickets represented by departure and arrival airports, reconstruct the itinerary that uses all tickets exactly once. If multiple valid itineraries exist, return the lexicographically smallest one.",
+    "input": "• First line contains integer N. • Next N lines contain departure and arrival airport codes.",
+    "output": "Print the reconstructed itinerary.",
+    "constraints": "• 1 ≤ N ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001120.py",
+    "fileSHA": "0729509ced8335a6c93977c044ecab419ed62ceaf4ea21bdeaa36f7416345087",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.428720+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0729509ced8335a6c93977c044ecab419ed62ceaf4ea21bdeaa36f7416345087",
+    "normalizedCodeHash": "0ed46f37f70e76fba0cb8dfaab5e279619535b1ba2f23c823364bdf2f36d1eb6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.428720+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

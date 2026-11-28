@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000598",
+  "problemId": "P000598",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000598",
+    "title": "Reverse Linked List II",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and two integers left and right, reverse the nodes from position left to position right (1-indexed). The remaining nodes outside this range must remain unchanged. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer left Integer right",
+    "output": "The linked list after reversing the specified sublist.",
+    "constraints": "1 <= n <= 500 1 <= left <= right <= n"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/languages/c/linear_search/linear_search_duplicates_linked_list.c",
+    "fileSHA": "4f59597c02d1dcd26372dc5efe61a0fe23a5163c",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/languages/c/linear_search/linear_search_duplicates_linked_list.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/languages/c/linear_search/linear_search_duplicates_linked_list.c"
+  },
+  "matching": {
+    "relevanceScore": 61.33
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4f48e9eb5da71fd8651ecb8fcc371b9060339f3b877ed47b5c22aec8ad5fa91d",
+    "normalizedCodeHash": "4f48e9eb5da71fd8651ecb8fcc371b9060339f3b877ed47b5c22aec8ad5fa91d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:13:50.030295+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

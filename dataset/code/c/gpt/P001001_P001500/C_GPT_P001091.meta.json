@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001091",
+  "problemId": "P001091",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001091",
+    "title": "Lowest Common Ancestor Queries",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a rooted tree and Q queries, determine the Lowest Common Ancestor (LCA) for each pair of queried vertices.",
+    "input": "• First line contains integers N and Q. • Next N−1 lines contain tree edges. • Next Q lines contain two vertices.",
+    "output": "Print the LCA for each query.",
+    "constraints": "• 1 ≤ N, Q ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001091.c",
+    "fileSHA": "9caf0801577e86797f7d2af7c8f1ea085aa3e72e5e7d4c4830cc7dc1fe35093f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:32.982Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "ea23060a86e66af8f6b2bc4fc1ecb4fbf860894882f857690045ad55efaab060",
+    "normalizedCodeHash": "9caf0801577e86797f7d2af7c8f1ea085aa3e72e5e7d4c4830cc7dc1fe35093f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:32.982Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

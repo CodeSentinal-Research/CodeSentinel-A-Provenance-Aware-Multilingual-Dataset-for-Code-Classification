@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_QWEN_P000606",
+  "problemId": "P000606",
+  "language": "c",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000606",
+    "title": "LRU Cache",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design and implement an LRU (Least Recently Used) cache that supports the following operations in O(1) average time: get(key) put(key, value) If the cache reaches its capacity, evict the least recently used item before inserting a new one. Process a sequence of operations and print the result of every get() operation.",
+    "input": "Integer capacity Integer q Next q operations",
+    "output": "Print the result of every get() operation.",
+    "constraints": "1 <= capacity <= 3000 1 <= q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/C_QWEN_P000606",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

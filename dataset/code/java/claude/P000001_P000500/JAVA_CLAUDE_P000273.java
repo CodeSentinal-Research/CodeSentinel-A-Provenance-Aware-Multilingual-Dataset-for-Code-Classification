@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){String s=new Scanner(System.in).next();Deque<Character>st=new ArrayDeque<>();boolean ok=true;for(char c:s.toCharArray()){if("([{".indexOf(c)>=0)st.push(c);else{if(st.isEmpty())ok=false;else{char o=st.pop();if((c==")"&&o!="(")||(c=="]"&&o!="[")||(c=="}"&&o!="{"))ok=false;}}}if(!st.isEmpty())ok=false;System.out.println(ok?"Valid":"Invalid");}}

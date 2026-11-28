@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000546",
+  "problemId": "P000546",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000546",
+    "title": "Jump Game VII",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a binary string s and two integers minJump and maxJump. Starting at index 0, determine whether it is possible to reach the last index. From index i, you may jump to any index j satisfying: i + minJump <= j <= min(i + maxJump, n - 1) s[j] == '0' Return true if the last index can be reached; otherwise return false.",
+    "input": "Binary string s Integer minJump Integer maxJump",
+    "output": "true if the last index is reachable, otherwise false.",
+    "constraints": "2 <= s.length <= 10^5 s[0] == s[n-1] == '0'"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000546",
+    "fileSHA": "2f751e28ee680494163ba4e1242a5cd3b7694df39de91ef086e1471781613009",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2f751e28ee680494163ba4e1242a5cd3b7694df39de91ef086e1471781613009",
+    "normalizedCodeHash": "2f751e28ee680494163ba4e1242a5cd3b7694df39de91ef086e1471781613009",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000546: Jump Game VII"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

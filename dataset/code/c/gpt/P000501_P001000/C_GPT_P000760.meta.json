@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000760",
+  "problemId": "P000760",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000760",
+    "title": "Generate All Increasing Numbers with N Digits",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer N, generate all N-digit numbers whose digits are strictly increasing from left to right. Print the numbers in increasing order.",
+    "input": "Integer N",
+    "output": "All valid numbers.",
+    "constraints": "1 <= N <= 9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000760.c",
+    "fileSHA": "08d017b7411de0e90c9763691aee296dcd3e8ed4de1183d56e666bfdd66984c5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "08d017b7411de0e90c9763691aee296dcd3e8ed4de1183d56e666bfdd66984c5",
+    "normalizedCodeHash": "08d017b7411de0e90c9763691aee296dcd3e8ed4de1183d56e666bfdd66984c5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

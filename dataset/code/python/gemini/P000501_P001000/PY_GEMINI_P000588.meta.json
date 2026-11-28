@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000588",
+  "problemId": "P000588",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000588",
+    "title": "Copy List with Random Pointer",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "A linked list consists of nodes containing: value next pointer random pointer, which may point to any node in the list or be null. Create a deep copy of the linked list and return the head of the copied list.",
+    "input": "A linked list with next and random pointers.",
+    "output": "The head of the deep-copied linked list.",
+    "constraints": "Number of nodes is in the range [0, 1000]."
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000588",
+    "fileSHA": "3fe4735487f2c05deb5c081ea2479d5e389a791910322ac95233ec4527d80420",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:46:49.142258+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3fe4735487f2c05deb5c081ea2479d5e389a791910322ac95233ec4527d80420",
+    "normalizedCodeHash": "3fe4735487f2c05deb5c081ea2479d5e389a791910322ac95233ec4527d80420",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:46:49.142287+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

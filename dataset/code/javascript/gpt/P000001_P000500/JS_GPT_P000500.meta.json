@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000500",
+  "problemId": "P000500",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000500",
+    "title": "Crawler Log Folder",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "A file system starts at the main folder. You are given a sequence of folder operations: \"../\" : Move to the parent folder (if already at the main folder, stay there). \"./\" : Stay in the current folder. \"x/\" : Move into a child folder named x. Determine the minimum number of operations needed to return to the main folder after performing all operations.",
+    "input": "Integer n Array of n folder operations.",
+    "output": "A single integer representing the required number of operations.",
+    "constraints": "1 <= n <= 10^3"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000001_P000500/JS_GPT_P000500.js",
+    "fileSHA": "89200231c2019ed780adc30c7b2834ff0b3821bad93a38c37f0a7940b040548c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "89200231c2019ed780adc30c7b2834ff0b3821bad93a38c37f0a7940b040548c",
+    "normalizedCodeHash": "89200231c2019ed780adc30c7b2834ff0b3821bad93a38c37f0a7940b040548c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

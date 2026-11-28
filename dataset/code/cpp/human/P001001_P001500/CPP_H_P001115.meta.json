@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001115",
+  "problemId": "P001115",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001115",
+    "title": "Shortest Path in a Binary Matrix",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 N binary matrix, determine the length of the shortest path from the top-left cell to the bottom-right cell by moving in all eight directions through cells containing 0.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain the binary matrix.",
+    "output": "Print the shortest path length, or -1 if no path exists.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "ERICSANDHU1/leetcode",
+    "owner": "ERICSANDHU1",
+    "url": "https://github.com/ERICSANDHU1/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "shortpathtodest.cpp",
+    "fileSHA": "505feb9d77fb4cf450836fb151ea13c2353766c4",
+    "url": "https://github.com/ERICSANDHU1/leetcode/blob/cde60f856c13cff3979a729b66a90fb4c9c523f0/shortpathtodest.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/ERICSANDHU1/leetcode/main/shortpathtodest.cpp"
+  },
+  "matching": {
+    "relevanceScore": 80.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "65c7021d47e7da6337df61a67dc491242de4851f143101007da8aacbf3175a49",
+    "normalizedCodeHash": "65c7021d47e7da6337df61a67dc491242de4851f143101007da8aacbf3175a49",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:29:49.021412+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

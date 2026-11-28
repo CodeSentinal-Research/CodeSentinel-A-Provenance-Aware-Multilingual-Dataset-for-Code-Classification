@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001450",
+  "problemId": "P001450",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001450",
+    "title": "Rank Teams by Votes",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Several voters rank teams from best to worst. Determine the final ranking by comparing vote frequencies at every position. Break remaining ties alphabetically.",
+    "input": "\u2022 First line contains integer V. \u2022 Next V lines contain one ranking string.",
+    "output": "Print the final ranking string.",
+    "constraints": "\u2022 1 \u2264 V \u2264 10^5 \u2022 Number of teams \u2264 26"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001450",
+    "fileSHA": "5c45470579917124aac815bc5258a516edfb2ea8479acbf3a7456e212c62b107",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:26:49.874681+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5c45470579917124aac815bc5258a516edfb2ea8479acbf3a7456e212c62b107",
+    "normalizedCodeHash": "5c45470579917124aac815bc5258a516edfb2ea8479acbf3a7456e212c62b107",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:26:49.874723+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

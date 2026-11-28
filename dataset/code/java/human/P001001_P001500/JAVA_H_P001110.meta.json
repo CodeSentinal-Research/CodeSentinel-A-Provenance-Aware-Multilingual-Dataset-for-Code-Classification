@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001110",
+  "problemId": "P001110",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001110",
+    "title": "M-Coloring Problem",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph and an integer M, determine whether the graph can be colored using at most M colors so that adjacent vertices have different colors.",
+    "input": "\u2022 First line contains integers N, E, and M. \u2022 Next E lines contain graph edges.",
+    "output": "Print YES if such a coloring exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 20 \u2022 0 \u2264 E \u2264 N(N\u22121)/2"
+  },
+  "repository": {
+    "name": "heyiamantara/patternwise-recursion-problems",
+    "owner": "heyiamantara",
+    "url": "https://github.com/heyiamantara/patternwise-recursion-problems",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "MColoringProblem.java",
+    "fileSHA": "015c4dd440cb22391c39c1b23b5673e28e103b6c",
+    "url": "https://github.com/heyiamantara/patternwise-recursion-problems/blob/a7ba423c68dc42960f96c840ad895c3a2ea029fc/MColoringProblem.java",
+    "rawUrl": "https://raw.githubusercontent.com/heyiamantara/patternwise-recursion-problems/main/MColoringProblem.java"
+  },
+  "matching": {
+    "relevanceScore": 75.23
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d4ff7566442738baf39df434d2baceba8725863092023583a22658168e234394",
+    "normalizedCodeHash": "d4ff7566442738baf39df434d2baceba8725863092023583a22658168e234394",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:33:29.753055+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

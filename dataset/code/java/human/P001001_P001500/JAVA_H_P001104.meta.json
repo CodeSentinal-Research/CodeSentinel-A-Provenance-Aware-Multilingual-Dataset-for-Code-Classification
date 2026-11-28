@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001104",
+  "problemId": "P001104",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001104",
+    "title": "Clone an Undirected Graph",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given the adjacency list representation of a connected undirected graph, create an exact deep copy of the graph while preserving all vertex labels and edge relationships.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines describe the adjacency list of each vertex.",
+    "output": "Print the adjacency list of the cloned graph.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^4"
+  },
+  "repository": {
+    "name": "mission-peace/interview",
+    "owner": "mission-peace",
+    "url": "https://github.com/mission-peace/interview",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/com/interview/graph/CloneGraph.java",
+    "fileSHA": "32f7797564c3d2c7318b7015a10fdb5f096232ce",
+    "url": "https://github.com/mission-peace/interview/blob/master/src/com/interview/graph/CloneGraph.java",
+    "rawUrl": "https://raw.githubusercontent.com/mission-peace/interview/master/src/com/interview/graph/CloneGraph.java"
+  },
+  "matching": {
+    "relevanceScore": 71.25
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0273ce8eb0875847c5266aa0d0b08d0c2f626a4ca059bd02874b2fef05f5eccd",
+    "normalizedCodeHash": "0273ce8eb0875847c5266aa0d0b08d0c2f626a4ca059bd02874b2fef05f5eccd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:47:31.592813+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

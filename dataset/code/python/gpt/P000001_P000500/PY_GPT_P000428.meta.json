@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000428",
+  "problemId": "P000428",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000428",
+    "title": "Search Events Happening Today",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find all events scheduled for the given date.",
+    "input": "Event records and a date.",
+    "output": "Events occurring on that date.",
+    "constraints": "1 ≤ Number of Events ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000428.py",
+    "fileSHA": "e47919b70df01795b7446eca499719a70de1efcab034424cb3c0ecb40face9d5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:03.740204+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e47919b70df01795b7446eca499719a70de1efcab034424cb3c0ecb40face9d5",
+    "normalizedCodeHash": "960b2712c287fb7c43397e48368176fc04a7cb648c5fff5dad3f0c40f105c165",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:03.740204+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

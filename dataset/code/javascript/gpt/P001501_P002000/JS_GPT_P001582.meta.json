@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001582",
+  "problemId": "P001582",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001582",
+    "title": "Longest Binary Subarray With At Most K Zeros",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary array and an integer K, determine the maximum length of a contiguous subarray containing at most K zeros.",
+    "input": "• First line contains N and K. • Second line contains N binary integers.",
+    "output": "• Print the maximum length.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • 0 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001501_P002000/JS_GPT_P001582.js",
+    "fileSHA": "e1e44c9ff013dac460deeb346c6939e5bf83b46da3dea4bbb1c506729c3b541a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e1e44c9ff013dac460deeb346c6939e5bf83b46da3dea4bbb1c506729c3b541a",
+    "normalizedCodeHash": "e1e44c9ff013dac460deeb346c6939e5bf83b46da3dea4bbb1c506729c3b541a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P001626",
+  "problemId": "P001626",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001626",
+    "title": "Maximum Side Length of Square With Sum Less Than Threshold",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M matrix of non-negative integers and an integer Threshold, determine the side length of the largest square submatrix whose sum is less than or equal to Threshold.",
+    "input": "\u2022 First line contains N, M, and Threshold. \u2022 Next N lines each contain M non-negative integers.",
+    "output": "\u2022 Print the maximum side length.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 1000 \u2022 0 \u2264 Aij \u2264 10^4 \u2022 0 \u2264 Threshold \u2264 10^15"
+  },
+  "repository": {
+    "name": "JoshCrozier/leetcode-javascript",
+    "owner": "JoshCrozier",
+    "url": "https://github.com/JoshCrozier/leetcode-javascript",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P001501_P002000/JS_H_P001626.js",
+    "fileSHA": "67723550e38710f02cd18aadcf19713711e98232",
+    "url": "https://github.com/JoshCrozier/leetcode-javascript/blob/399017ccbed8f4c7c1b10cb173336f670c8c25e1/solutions/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold.js",
+    "rawUrl": "https://raw.githubusercontent.com/JoshCrozier/leetcode-javascript/main/solutions/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold.js"
+  },
+  "matching": {
+    "relevanceScore": 70.69
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2019-12-18T04:45:57Z",
+    "lastCommitDate": "2019-12-18T04:45:57Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Josh Crozier"
+    ],
+    "firstKnownAuthor": "Josh Crozier",
+    "latestKnownAuthor": "Josh Crozier"
+  },
+  "deduplication": {
+    "rawCodeHash": "6083d70bb59827c642dac6072cd4c6979279b4ca90fb20eba853e9ebc2d13626",
+    "normalizedCodeHash": "6083d70bb59827c642dac6072cd4c6979279b4ca90fb20eba853e9ebc2d13626",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T11:28:46.128158+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

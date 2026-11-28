@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P000504",
+  "problemId": "P000504",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000504",
+    "title": "Exclusive Time of Functions",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "A single-threaded CPU executes n functions identified by IDs from 0 to n-1. Execution logs are provided in the format: function_id:start_or_end:timestamp A function may call another function before finishing. Return the exclusive execution time of each function, excluding the time spent executing child functions.",
+    "input": "Integer n Integer m Array of m log strings.",
+    "output": "An array of n integers representing the exclusive execution time of each function.",
+    "constraints": "1 <= n <= 100 1 <= m <= 500 Logs are valid and sorted by timestamp."
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "cpp/gemini/CPP_GEMINI_P000504",
+    "fileSHA": "b0378828333397cfd2b3a75844f0c9a766277d7998eee81ad54daf7e4794cf29",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:42:16.387071+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b0378828333397cfd2b3a75844f0c9a766277d7998eee81ad54daf7e4794cf29",
+    "normalizedCodeHash": "b0378828333397cfd2b3a75844f0c9a766277d7998eee81ad54daf7e4794cf29",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:42:16.387101+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

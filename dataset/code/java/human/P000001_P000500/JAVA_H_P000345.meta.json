@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000345",
+  "problemId": "P000345",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000345",
+    "title": "Check Whether Two Strings Contain Same Characters",
+    "category": "Strings",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that checks whether two strings contain the same characters with the same frequencies.",
+    "input": "Two strings S1 and S2.",
+    "output": "Print \"Yes\" or \"No\".",
+    "constraints": "1 \u2264 |S1|, |S2| \u2264 1000"
+  },
+  "repository": {
+    "name": "elastic/elasticsearch",
+    "owner": "elastic",
+    "url": "https://github.com/elastic/elasticsearch",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "x-pack/plugin/esql/src/main/java/org/elasticsearch/xpack/esql/datasources/spi/StoragePath.java",
+    "fileSHA": "f7bebd83d8dcf0535ebbc3333aff0a9117848e7a",
+    "url": "https://github.com/elastic/elasticsearch/blob/ce0eea6cec98d6128d805dcce3b769e124ba1ae8/x-pack/plugin/esql/src/main/java/org/elasticsearch/xpack/esql/datasources/spi/StoragePath.java",
+    "rawUrl": "https://raw.githubusercontent.com/elastic/elasticsearch/main/x-pack/plugin/esql/src/main/java/org/elasticsearch/xpack/esql/datasources/spi/StoragePath.java"
+  },
+  "matching": {
+    "relevanceScore": 86.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "882918823b9f57fa0ff7642a3a95bd698db1264fe2df007640401ca9a073e329",
+    "normalizedCodeHash": "882918823b9f57fa0ff7642a3a95bd698db1264fe2df007640401ca9a073e329",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T23:32:37.516885+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

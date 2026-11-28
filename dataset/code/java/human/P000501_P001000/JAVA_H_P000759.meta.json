@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000759",
+  "problemId": "P000759",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000759",
+    "title": "Count Good Numbers",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "A digit string of length N is called good if: Digits at even indices are even (0, 2, 4, 6, 8). Digits at odd indices are prime (2, 3, 5, 7). Return the total number of good digit strings of length N modulo 10^9 + 7. Solve the problem using recursive exponentiation.",
+    "input": "Integer N",
+    "output": "The total number of good strings modulo 10^9 + 7.",
+    "constraints": "1 <= N <= 10^15"
+  },
+  "repository": {
+    "name": "Sanjay3005v/leetcode",
+    "owner": "Sanjay3005v",
+    "url": "https://github.com/Sanjay3005v/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "1922. Count Good Numbers.java",
+    "fileSHA": "df518a441f51241461e11c4215a2aeb50e85ca5a",
+    "url": "https://github.com/Sanjay3005v/leetcode/blob/9eec187940f618a6ea8948bce090af4ba16efbc8/1922. Count Good Numbers.java",
+    "rawUrl": "https://raw.githubusercontent.com/Sanjay3005v/leetcode/main/1922. Count Good Numbers.java"
+  },
+  "matching": {
+    "relevanceScore": 67.27
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ba79d701ba318b2118a7818935099791315566d4c27f2d2b9c2114fedc87e80a",
+    "normalizedCodeHash": "ba79d701ba318b2118a7818935099791315566d4c27f2d2b9c2114fedc87e80a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:38:27.823451+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

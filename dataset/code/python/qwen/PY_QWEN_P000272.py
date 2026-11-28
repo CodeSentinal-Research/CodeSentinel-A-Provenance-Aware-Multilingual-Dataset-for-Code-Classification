@@ -1,0 +1,7 @@
+n = int(input())
+strs = [input().strip() for _ in range(n)]
+prefix = strs[0]
+for s in strs[1:]:
+    while not s.startswith(prefix):
+        prefix = prefix[:-1]
+print(prefix)

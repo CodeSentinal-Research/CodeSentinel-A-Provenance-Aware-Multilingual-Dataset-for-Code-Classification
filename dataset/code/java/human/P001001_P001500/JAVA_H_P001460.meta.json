@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001460",
+  "problemId": "P001460",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001460",
+    "title": "Count Equal XOR Prefix Pairs",
+    "category": "Hashing",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array, count the number of pairs of indices (i, j) such that the XOR of the prefix ending at i is equal to the XOR of the prefix ending at j, where i < j.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the total number of valid pairs.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 0 \u2264 nums[i] \u2264 10^9"
+  },
+  "repository": {
+    "name": "Venkatesan-M/DSA",
+    "owner": "Venkatesan-M",
+    "url": "https://github.com/Venkatesan-M/DSA",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Maths/Bitwise/Questions/XORQuestions.java",
+    "fileSHA": "2ec41c72b156ddf22e79910ef515b55c3fb5529b",
+    "url": "https://github.com/Venkatesan-M/DSA/blob/f982fbd581d1759142d10dcacf996bd5c7466911/Maths/Bitwise/Questions/XORQuestions.java",
+    "rawUrl": "https://raw.githubusercontent.com/Venkatesan-M/DSA/main/Maths/Bitwise/Questions/XORQuestions.java"
+  },
+  "matching": {
+    "relevanceScore": 89.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ab95d8b65654e08fa7cdeeab33892f9efdfc4504633f9c33e5aec99517ab5f11",
+    "normalizedCodeHash": "ab95d8b65654e08fa7cdeeab33892f9efdfc4504633f9c33e5aec99517ab5f11",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T01:21:33.293972+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

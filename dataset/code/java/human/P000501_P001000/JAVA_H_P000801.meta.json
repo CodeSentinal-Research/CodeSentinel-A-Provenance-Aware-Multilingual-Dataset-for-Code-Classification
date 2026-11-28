@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000801",
+  "problemId": "P000801",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000801",
+    "title": "Matrix Block Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N \u00d7 M matrix and an integer K, construct another matrix where each cell contains the sum of all elements whose row and column distances from the current cell are at most K. Use a 2D prefix sum to compute the result efficiently.",
+    "input": "Integer N Integer M Matrix grid Integer K",
+    "output": "The resulting matrix.",
+    "constraints": "1 <= N, M <= 1000"
+  },
+  "repository": {
+    "name": "ritheya/DSA",
+    "owner": "ritheya",
+    "url": "https://github.com/ritheya/DSA",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Day 9/Matrix block sum.java",
+    "fileSHA": "dd3e6f7840e586535b84dd761a3093b42948f744",
+    "url": "https://github.com/ritheya/DSA/blob/129b466c761e696929ae9ce66a63cf40f780b71b/Day 9/Matrix block sum.java",
+    "rawUrl": "https://raw.githubusercontent.com/ritheya/DSA/main/Day 9/Matrix block sum.java"
+  },
+  "matching": {
+    "relevanceScore": 76.25
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "103673ff0da9ab1395a86b30f0f4a462692b6dc23799bfa3d7ae24ed3fd4a52d",
+    "normalizedCodeHash": "103673ff0da9ab1395a86b30f0f4a462692b6dc23799bfa3d7ae24ed3fd4a52d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:49:00.427473+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

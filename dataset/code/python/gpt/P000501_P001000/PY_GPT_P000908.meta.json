@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000908",
+  "problemId": "P000908",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000908",
+    "title": "Modular Multiplicative Inverse",
+    "category": "Mathematics - Modular Arithmetic",
+    "difficulty": "Hard",
+    "problemStatement": "Given integers A and M, find the modular multiplicative inverse of A modulo M, if it exists. If no inverse exists, return -1.",
+    "input": "Integer A Integer M",
+    "output": "The modular inverse of A, or -1 if it does not exist.",
+    "constraints": "1 <= A, M <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000908.py",
+    "fileSHA": "a6cb398f58f0d89f5cd2f255a5cbc5ee70744fd541f9c6c6b6d96abf88207d42",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.492198+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a6cb398f58f0d89f5cd2f255a5cbc5ee70744fd541f9c6c6b6d96abf88207d42",
+    "normalizedCodeHash": "fa273168c64d2be6297687a7bea0ea704c8a9086b3c9074acd45406e8be5d805",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.492198+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001096",
+  "problemId": "P001096",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001096",
+    "title": "Minimum Cut",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a directed graph with edge capacities, determine the capacity of the minimum S-T cut.",
+    "input": "\u2022 First line contains integers N, M, S, and T. \u2022 Next M lines contain integers u, v, and capacity.",
+    "output": "Print the minimum cut capacity.",
+    "constraints": "\u2022 2 \u2264 N \u2264 500 \u2022 1 \u2264 M \u2264 10^4"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/graph_algorithms/src/karger_minimum_cut/karger_minimum_cut.java",
+    "fileSHA": "c7bb108517c1f4bb29e7df9ce0b2114ae4782d9f",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/graph_algorithms/src/karger_minimum_cut/karger_minimum_cut.java",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/graph_algorithms/src/karger_minimum_cut/karger_minimum_cut.java"
+  },
+  "matching": {
+    "relevanceScore": 72.14
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "bb29b6e3198975965e5d3bcd4cbb24f8a2240da42dab48b1f4ab92564d700f0f",
+    "normalizedCodeHash": "bb29b6e3198975965e5d3bcd4cbb24f8a2240da42dab48b1f4ab92564d700f0f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:14:18.041816+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,19 @@
+public class Solution {
+    // Sorts the input array into ordered sequence.
+    public int maxChunksToSorted(int[] arr) {
+        int n = arr.length;
+        int[] minRight = new int[n];
+        minRight[n - 1] = arr[n - 1];
+
+        for (int i = n - 2; i >= 0; i--) {
+            minRight[i] = Math.min(arr[i], minRight[i + 1]);
+        }
+
+        int maxLeft = 0, chunks = 1;
+        for (int i = 0; i < n - 1; i++) {
+            maxLeft = Math.max(maxLeft, arr[i]);
+            if (maxLeft <= minRight[i + 1]) chunks++;
+        }
+        return chunks;
+    }
+}

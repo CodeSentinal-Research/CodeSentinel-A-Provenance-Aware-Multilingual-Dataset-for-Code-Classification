@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000765",
+  "problemId": "P000765",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000765",
+    "title": "Recursive Heap Sort Verification",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers, recursively verify whether it satisfies the max-heap property. Return true if the array represents a valid max-heap; otherwise return false.",
+    "input": "Integer n Array nums",
+    "output": "true if the array is a max-heap, otherwise false.",
+    "constraints": "1 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000765.py",
+    "fileSHA": "37fa980846363f4d05c6f3c2ca89cc28badb80be1267d44cce624f57a484b902",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.938689+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "37fa980846363f4d05c6f3c2ca89cc28badb80be1267d44cce624f57a484b902",
+    "normalizedCodeHash": "c029cb5a253e41b40af08c978f2f5b1716bd635fdc31bf040aea5c40b28ed894",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.938689+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000636",
+  "problemId": "P000636",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000636",
+    "title": "Design Browser Tabs Manager",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a browser tab manager supporting the following operations: open(url) — Open a new tab. close(index) — Close the specified tab. switch(index) — Make the specified tab active. moveLeft(index) — Move the specified tab one position to the left. moveRight(index) — Move the specified tab one position to the right. current() — Return the currently active tab. Implement all operations efficiently using an appropriate linked list structure.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result of every current() operation.",
+    "constraints": "1 <= q <= 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000636",
+    "fileSHA": "4c00d5c1fc95a83171c747a8aed679e2dd7918f1c18e6fd723d85c3cf673c731",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4c00d5c1fc95a83171c747a8aed679e2dd7918f1c18e6fd723d85c3cf673c731",
+    "normalizedCodeHash": "4c00d5c1fc95a83171c747a8aed679e2dd7918f1c18e6fd723d85c3cf673c731",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000636"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

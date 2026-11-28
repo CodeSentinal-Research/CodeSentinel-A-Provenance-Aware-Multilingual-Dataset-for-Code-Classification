@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000612",
+  "problemId": "P000612",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000612",
+    "title": "Insert Greatest Common Divisors in Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a linked list of integers, insert a new node between every pair of adjacent nodes. The value of each inserted node should be the greatest common divisor (GCD) of the values of the adjacent nodes. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 5000 1 <= node.value <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000612",
+    "fileSHA": "b1cdc6a61ab45c68f53d723172777b8de980335d92ed8ff2a784b58fa9eac9b9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b1cdc6a61ab45c68f53d723172777b8de980335d92ed8ff2a784b58fa9eac9b9",
+    "normalizedCodeHash": "b1cdc6a61ab45c68f53d723172777b8de980335d92ed8ff2a784b58fa9eac9b9",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000612"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

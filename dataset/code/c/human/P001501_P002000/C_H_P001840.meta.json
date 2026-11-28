@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001840",
+  "problemId": "P001840",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001840",
+    "title": "Serialize and Deserialize a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Design algorithms to serialize a Binary Search Tree into a compact representation and reconstruct the identical BST from that representation without storing null markers.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST.",
+    "output": "\u2022 Print the serialized representation followed by the reconstructed BST.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "quanhua92/interview-prep",
+    "owner": "quanhua92",
+    "url": "https://github.com/quanhua92/interview-prep",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "tier1_foundation/bfs/problems/p449_serialize_and_deserialize_bst.c",
+    "fileSHA": "45aa38eb7c3efd6ca5d33eb7b52e22e574a15718",
+    "url": "https://github.com/quanhua92/interview-prep/blob/ec5eb413f91784736b372095b0d5b1c9fa8d066d/tier1_foundation/bfs/problems/p449_serialize_and_deserialize_bst.c",
+    "rawUrl": "https://raw.githubusercontent.com/quanhua92/interview-prep/main/tier1_foundation/bfs/problems/p449_serialize_and_deserialize_bst.c"
+  },
+  "matching": {
+    "relevanceScore": 85.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1ac7812b85a66ac0cece8d8e3db0c67d4d817d3f9e3fe4f2523bd9c2f8bdb5d4",
+    "normalizedCodeHash": "1ac7812b85a66ac0cece8d8e3db0c67d4d817d3f9e3fe4f2523bd9c2f8bdb5d4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T21:36:01.837295+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

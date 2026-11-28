@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001364",
+  "problemId": "P001364",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001364",
+    "title": "K-Partition Problem",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and an integer K, partition the array into exactly K non-empty subsets such that the maximum subset sum is minimized.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print the minimum possible maximum subset sum.",
+    "constraints": "• 1 ≤ N ≤ 20 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001364.py",
+    "fileSHA": "412d063ffafd891e65624e50b8b3bfae28089b59a13cb19a1ae9b994bc0ec78d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.447032+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "412d063ffafd891e65624e50b8b3bfae28089b59a13cb19a1ae9b994bc0ec78d",
+    "normalizedCodeHash": "69da4c6f745ed612c8a44d28794a87c51921ab329177fb69b68cc1698cc48067",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.447032+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

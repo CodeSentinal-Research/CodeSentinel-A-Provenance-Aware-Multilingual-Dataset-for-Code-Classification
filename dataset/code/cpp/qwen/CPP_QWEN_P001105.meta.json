@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001105",
+  "problemId": "P001105",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001105",
+    "title": "Course Schedule",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "There are N courses labeled from 1 to N and a list of prerequisite pairs. Determine whether it is possible to complete all courses.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain prerequisite pairs u and v, indicating that u must be completed before v.",
+    "output": "Print YES if all courses can be completed; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001105",
+    "fileSHA": "323120f60b9b392809efad40324670204f7759e954fb0591b17cf81ea1ca59c1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.823Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "8f830afd1ab9d6ed25b65399f761196ef5772ba607655b84b5c860927d5c6c0f",
+    "normalizedCodeHash": "4b01ff90b72ba0b02849cd2e09806139cb3ceffb8b67a537821aeb5b667c27b7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.823Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

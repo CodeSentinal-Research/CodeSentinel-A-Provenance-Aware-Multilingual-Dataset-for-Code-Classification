@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000749",
+  "problemId": "P000749",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000749",
+    "title": "Generate All Paths with Variable Length Jumps",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × M grid, generate all possible paths from the top-left cell to the bottom-right cell. From any cell, you may move: Horizontally right by any positive number of cells (Hk) Vertically down by any positive number of cells (Vk) Diagonally down-right by any positive number of cells (Dk) where k denotes the jump length. Print all valid paths in lexicographical order.",
+    "input": "Integer N Integer M",
+    "output": "All valid paths.",
+    "constraints": "1 <= N, M <= 10"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000749.c",
+    "fileSHA": "dee206254c99823d5117f28b0c63ec59e0e8cb8fb713dfb61f5d54d1f0ed6aed",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "dee206254c99823d5117f28b0c63ec59e0e8cb8fb713dfb61f5d54d1f0ed6aed",
+    "normalizedCodeHash": "dee206254c99823d5117f28b0c63ec59e0e8cb8fb713dfb61f5d54d1f0ed6aed",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

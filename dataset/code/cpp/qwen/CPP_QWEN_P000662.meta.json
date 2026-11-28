@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000662",
+  "problemId": "P000662",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000662",
+    "title": "Reverse First K Nodes of Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list and an integer k, reverse only the first k nodes of the list. The remaining nodes must remain unchanged. If k is greater than the length of the list, reverse the entire list. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer k",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000662",
+    "fileSHA": "516fe746d2f66abd1019ba679ab03b213abb9d603b8f52810b8ffd3c10ba83c4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.374Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c557caa4928148e261623e7e6898692e23741208a36e01f36386b0aa63053457",
+    "normalizedCodeHash": "af9e2bf0f2785b980941aca828ae252e3d2c3941e0a5c760488b45ae8dea6ab7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.374Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

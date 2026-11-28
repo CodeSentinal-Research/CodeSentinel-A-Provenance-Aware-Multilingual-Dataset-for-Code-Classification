@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000940",
+  "problemId": "P000940",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000940",
+    "title": "Misère Nim",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Medium",
+    "problemStatement": "Given multiple piles of stones, players take turns removing any positive number of stones from a single pile. The player who removes the last stone loses. Determine the winner assuming optimal play.",
+    "input": "Integer N Array piles",
+    "output": "Print \"First\" or \"Second\".",
+    "constraints": "1 <= N <= 2 × 10^5 1 <= piles[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000940",
+    "fileSHA": "1de3f83f6a7ce8ab122a0f19c982c1bb692acad187613b3a04fbbf0f802c63e1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1de3f83f6a7ce8ab122a0f19c982c1bb692acad187613b3a04fbbf0f802c63e1",
+    "normalizedCodeHash": "1de3f83f6a7ce8ab122a0f19c982c1bb692acad187613b3a04fbbf0f802c63e1",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000940"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

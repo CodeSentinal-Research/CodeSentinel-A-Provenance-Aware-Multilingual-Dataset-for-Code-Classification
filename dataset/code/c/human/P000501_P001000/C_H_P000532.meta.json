@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000532",
+  "problemId": "P000532",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000532",
+    "title": "Time Needed to Buy Tickets",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "There are n people standing in a queue to buy tickets. The i-th person initially needs tickets[i] tickets. Each second: The person at the front buys one ticket. If they still need more tickets, they move to the end of the queue. Otherwise, they leave the queue. Given the index k, determine how many seconds are required until person k finishes buying all of their tickets.",
+    "input": "Integer n Array tickets Integer k",
+    "output": "A single integer representing the required time.",
+    "constraints": "1 <= n <= 100 1 <= tickets[i] <= 100"
+  },
+  "repository": {
+    "name": "jnarin/lc_c_cplusplus",
+    "owner": "jnarin",
+    "url": "https://github.com/jnarin/lc_c_cplusplus",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "2073. Time Needed to Buy Tickets.c",
+    "fileSHA": "2bd3441f0dd16434cdd5766646c0a1a528fb4b0d",
+    "url": "https://github.com/jnarin/lc_c_cplusplus/blob/b1d267f3cde123ca2c0907bf72ebad097a42337a/2073. Time Needed to Buy Tickets.c",
+    "rawUrl": "https://raw.githubusercontent.com/jnarin/lc_c_cplusplus/main/2073. Time Needed to Buy Tickets.c"
+  },
+  "matching": {
+    "relevanceScore": 70.3
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "03c3e4b09d2fd17e0528f19d42f207c8fd751269d40a8394eed1238c98d4ec88",
+    "normalizedCodeHash": "03c3e4b09d2fd17e0528f19d42f207c8fd751269d40a8394eed1238c98d4ec88",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:24:05.687420+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

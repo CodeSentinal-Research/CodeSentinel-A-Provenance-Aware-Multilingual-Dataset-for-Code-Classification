@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000557",
+  "problemId": "P000557",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000557",
+    "title": "Race Car",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "A car starts at position 0 with speed 1. You are given a target position. The car supports two instructions: A (Accelerate): Position increases by current speed, then speed doubles. R (Reverse): Reverse direction. Speed becomes 1 if moving backward, or -1 if moving forward. Return the minimum number of instructions needed to reach the target position.",
+    "input": "A single integer target.",
+    "output": "A single integer representing the minimum number of instructions.",
+    "constraints": "1 <= target <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000557",
+    "fileSHA": "444d2fbe8a6e95848310cc4f8e6009ab1541f3817c9c2015c5b0b2749a98d39b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "444d2fbe8a6e95848310cc4f8e6009ab1541f3817c9c2015c5b0b2749a98d39b",
+    "normalizedCodeHash": "444d2fbe8a6e95848310cc4f8e6009ab1541f3817c9c2015c5b0b2749a98d39b",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000557: Race Car"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

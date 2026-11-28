@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001865",
+  "problemId": "P001865",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001865",
+    "title": "Construct a Binary Search Tree from Search Access Frequencies",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a set of distinct keys and their search access frequencies, construct a Binary Search Tree that minimizes the weighted search cost.",
+    "input": "• The first line contains an integer N. • The second line contains the keys. • The third line contains the corresponding search frequencies.",
+    "output": "• Print the constructed Binary Search Tree.",
+    "constraints": "• 1 ≤ N ≤ 1000 Topic Start Problem ID End Problem ID Total Sliding Window P001656 P001705 50 Prefix Sum P001706 P001805 100 Trees P001806 P001955 150 Binary Search Trees (BST) P001956 P002035 80 Total P001656 P002035 380"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001865.c",
+    "fileSHA": "d01da3faeec2df885b894f435e63bee45615eab0372bb83e092d6252f817a02a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:36.311Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "98fd11ad23ee05f736dd3932d67f45e8c7f459646b16094f820d999cef78963f",
+    "normalizedCodeHash": "d01da3faeec2df885b894f435e63bee45615eab0372bb83e092d6252f817a02a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:36.311Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

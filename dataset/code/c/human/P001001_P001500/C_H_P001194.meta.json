@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P001194",
+  "problemId": "P001194",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001194",
+    "title": "Partition Array for Maximum Sum",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array and an integer K, partition the array into contiguous subarrays of length at most K. Replace each subarray with its maximum element repeated throughout the partition. Determine the maximum possible total sum.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the maximum obtainable sum.",
+    "constraints": "\u2022 1 \u2264 N \u2264 500 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "waffle87/leetcode",
+    "owner": "waffle87",
+    "url": "https://github.com/waffle87/leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P001001_P001500/C_H_P001194.c",
+    "fileSHA": "8e37cc5f0a5ea474001ce5f883dcb0546d87ce46",
+    "url": "https://github.com/waffle87/leetcode/blob/e36b3d2fb70c49ec65bb225420f0977aaca97c55/partition_array_max_sum.c",
+    "rawUrl": "https://raw.githubusercontent.com/waffle87/leetcode/main/partition_array_max_sum.c"
+  },
+  "matching": {
+    "relevanceScore": 63.36
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2024-06-14T19:13:15Z",
+    "lastCommitDate": "2024-06-14T19:13:15Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "jack"
+    ],
+    "firstKnownAuthor": "jack",
+    "latestKnownAuthor": "jack"
+  },
+  "deduplication": {
+    "rawCodeHash": "5bd91df1bd0a7278e94c6e95e36f7d5a8ec7b1b8480b2800b0d1e83363a8d9d1",
+    "normalizedCodeHash": "5bd91df1bd0a7278e94c6e95e36f7d5a8ec7b1b8480b2800b0d1e83363a8d9d1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T08:35:31.744828+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

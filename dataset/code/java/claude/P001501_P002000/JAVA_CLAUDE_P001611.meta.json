@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_CLAUDE_P001611",
+  "problemId": "P001611",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001611",
+    "title": "Shortest Subarray With Sum At Least K",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and an integer K, determine the length of the shortest non-empty contiguous subarray whose sum is at least K. If no such subarray exists, print -1.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the minimum length.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P001611",
+    "fileSHA": "54381cbd50f2a88db74c11798a67bb7759ba77af658d145b85df3b15f5799fd8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "17d64c663f94f7f69e9af803b14e5d85a9294beea1af70c4a860549a5fcfc541",
+    "normalizedCodeHash": "54381cbd50f2a88db74c11798a67bb7759ba77af658d145b85df3b15f5799fd8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001037",
+  "problemId": "P001037",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001037",
+    "title": "Task Scheduler with Cooling Time",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given a list of tasks represented by uppercase letters and a non-negative cooling interval K, determine the minimum number of time units required to execute all tasks such that identical tasks are separated by at least K time units.",
+    "input": "• First line contains integer N. • Second line contains N uppercase letters. • Third line contains integer K.",
+    "output": "Print the minimum execution time.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001037.py",
+    "fileSHA": "c88e5565a884940aa25eab19cbebb99c7d4d1c5568e7222805f9f9a1ad0ee67a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.149277+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c88e5565a884940aa25eab19cbebb99c7d4d1c5568e7222805f9f9a1ad0ee67a",
+    "normalizedCodeHash": "d3716f0a6c277f1fc6ce222fab2be77b3f9ba1020fed57499a8c530f7f69390d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.149277+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

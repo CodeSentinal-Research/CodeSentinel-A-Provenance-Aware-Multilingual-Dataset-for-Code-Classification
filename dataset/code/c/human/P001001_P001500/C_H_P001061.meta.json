@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001061",
+  "problemId": "P001061",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001061",
+    "title": "Detect Cycle in a Directed Graph",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given a directed graph with N vertices and M directed edges, determine whether the graph contains at least one cycle.",
+    "input": "\u2022 First line contains two integers N and M. \u2022 The next M lines each contain two integers u and v, representing a directed edge from u to v.",
+    "output": "Print YES if the graph contains a cycle; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5 \u2022 1 \u2264 u, v \u2264 N"
+  },
+  "repository": {
+    "name": "aryanmahawar205/code-playground",
+    "owner": "aryanmahawar205",
+    "url": "https://github.com/aryanmahawar205/code-playground",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Graphs in C/cycle-detection-directed-graph.c",
+    "fileSHA": "35d1bfa3a6f0ac4162aee7a8c7028585933e20a1",
+    "url": "https://github.com/aryanmahawar205/code-playground/blob/f51d1e83d4fc1143dea4f9cec55df14d839af11b/Graphs in C/cycle-detection-directed-graph.c",
+    "rawUrl": "https://raw.githubusercontent.com/aryanmahawar205/code-playground/main/Graphs in C/cycle-detection-directed-graph.c"
+  },
+  "matching": {
+    "relevanceScore": 78.64
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c3013788973d81ee807cd7f8710f7c4debe3e240b513b0903e3a30b73c535044",
+    "normalizedCodeHash": "c3013788973d81ee807cd7f8710f7c4debe3e240b513b0903e3a30b73c535044",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:53:21.113066+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001098",
+  "problemId": "P001098",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001098",
+    "title": "Count Connected Components Using Union-Find",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given an undirected graph, determine the number of connected components using the Disjoint Set Union (Union-Find) data structure.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print the number of connected components.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001098",
+    "fileSHA": "4285068811a730e607b4144ef914e5e3399f19162dd6192a52e1a1b012d6014b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.604Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "d446fc6972e7f1d1299ac969e1be7bad8619df3144d18d5959cf2777a528788b",
+    "normalizedCodeHash": "26ab50aa68299eea1a02ce16b787227cb7641d48c4b106b0563671bc30505f3e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.604Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

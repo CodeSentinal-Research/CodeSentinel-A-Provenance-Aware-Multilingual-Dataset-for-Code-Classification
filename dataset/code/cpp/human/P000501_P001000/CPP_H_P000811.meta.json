@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000811",
+  "problemId": "P000811",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000811",
+    "title": "Guess Number Higher or Lower",
+    "category": "Binary Search",
+    "difficulty": "Easy",
+    "problemStatement": "A hidden number is chosen between 1 and n. You are provided with an API: guess(num) returns: o -1 if the hidden number is lower. o 1 if the hidden number is higher. o 0 if the guess is correct. Find the hidden number using binary search.",
+    "input": "Integer n",
+    "output": "The hidden number.",
+    "constraints": "1 <= n <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "C++/guess-number-higher-or-lower.cpp",
+    "fileSHA": "8e41a9ba7155cc2077db91f61119d3ff6889f1c0",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/guess-number-higher-or-lower.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/C++/guess-number-higher-or-lower.cpp"
+  },
+  "matching": {
+    "relevanceScore": 74.38
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "46f9270ebe5a52fad402fc5793f5c9f3130c00473e361390f9e5be102295ca8e",
+    "normalizedCodeHash": "46f9270ebe5a52fad402fc5793f5c9f3130c00473e361390f9e5be102295ca8e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T15:55:07.556603+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

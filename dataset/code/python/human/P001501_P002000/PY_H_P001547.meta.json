@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001547",
+  "problemId": "P001547",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001547",
+    "title": "Maximum Number of Odd Elements in a Window",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and a window size K, find the maximum number of odd integers in any contiguous subarray of size K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the answer.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "huggingface/transformers",
+    "owner": "huggingface",
+    "url": "https://github.com/huggingface/transformers",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/transformers/models/granite_speech/feature_extraction_granite_speech.py",
+    "fileSHA": "8d921871a8ef5849a5ec6b640ae7d906a4937f40",
+    "url": "https://github.com/huggingface/transformers/blob/42ca97014c85d71a88ad60d55f08cb9fb4d26e2c/src/transformers/models/granite_speech/feature_extraction_granite_speech.py",
+    "rawUrl": "https://raw.githubusercontent.com/huggingface/transformers/main/src/transformers/models/granite_speech/feature_extraction_granite_speech.py"
+  },
+  "matching": {
+    "relevanceScore": 86.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d939e2bf7ddc32eeced3d0216cedff7a2c3bacfa3fe587efa7319a81bde3c4e4",
+    "normalizedCodeHash": "d939e2bf7ddc32eeced3d0216cedff7a2c3bacfa3fe587efa7319a81bde3c4e4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T06:16:38.236760+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

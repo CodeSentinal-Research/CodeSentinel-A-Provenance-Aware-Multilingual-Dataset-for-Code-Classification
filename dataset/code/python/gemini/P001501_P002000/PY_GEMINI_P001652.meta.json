@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001652",
+  "problemId": "P001652",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001652",
+    "title": "Lowest Common Ancestor in a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree and two distinct nodes, determine their lowest common ancestor. The lowest common ancestor is the deepest node that has both given nodes as descendants.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains two node values.",
+    "output": "\u2022 Print the value of the lowest common ancestor.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001652",
+    "fileSHA": "ec52852146cbc6f80d85893dd48972cb3edf85974413526adb25bc76dee48c3b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:34:05.352580+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ec52852146cbc6f80d85893dd48972cb3edf85974413526adb25bc76dee48c3b",
+    "normalizedCodeHash": "ec52852146cbc6f80d85893dd48972cb3edf85974413526adb25bc76dee48c3b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:34:05.352611+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

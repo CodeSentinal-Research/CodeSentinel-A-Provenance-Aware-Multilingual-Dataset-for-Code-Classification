@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000769",
+  "problemId": "P000769",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000769",
+    "title": "Scramble String",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given two strings s1 and s2 of equal length, determine whether s2 is a scrambled version of s1. A scrambled string is produced by recursively partitioning a string into two non-empty substrings and optionally swapping the left and right children at any partition. Return true if s2 is a scrambled string of s1; otherwise return false.",
+    "input": "String s1 String s2",
+    "output": "true if s2 is a scrambled string of s1, otherwise false.",
+    "constraints": "1 <= |s1|, |s2| <= 30"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0000-0099/0087.Scramble String/Solution.java",
+    "fileSHA": "939a59d748ecfba0223c5981c1adfde8155c4d7a",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0000-0099/0087.Scramble String/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0000-0099/0087.Scramble String/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0b6910551514b550bc551b189bf5b94ac06b82f098c69aeabac77647b5aeae05",
+    "normalizedCodeHash": "0b6910551514b550bc551b189bf5b94ac06b82f098c69aeabac77647b5aeae05",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:35.233616+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001613",
+  "problemId": "P001613",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001613",
+    "title": "Matrix Block Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × M matrix of integers and an integer K, construct a matrix where each cell contains the sum of all elements within a distance of K rows and K columns from that cell.",
+    "input": "• First line contains N, M, and K. • Next N lines each contain M integers.",
+    "output": "• Print the resulting matrix.",
+    "constraints": "• 1 ≤ N, M ≤ 1000 • 0 ≤ K ≤ max(N, M)"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001613.c",
+    "fileSHA": "87c65068a8210ccec46ab59f904e3d511736c8e9c07b3eb36385ec9cc311811e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.999Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "3bfc88a147001ac918521f07795eab4609b29c395791ab52b1ac1bda7c14c042",
+    "normalizedCodeHash": "87c65068a8210ccec46ab59f904e3d511736c8e9c07b3eb36385ec9cc311811e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.999Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

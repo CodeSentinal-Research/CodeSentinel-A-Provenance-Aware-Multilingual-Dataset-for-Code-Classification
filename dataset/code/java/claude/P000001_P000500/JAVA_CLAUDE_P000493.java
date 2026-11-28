@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);String s=sc.next();int k=sc.nextInt();Deque<Character>stk=new ArrayDeque<>();for(char c:s.toCharArray()){while(k>0&&!stk.isEmpty()&&stk.peek()>c){stk.pop();k--;}stk.push(c);}while(k-->0&&!stk.isEmpty())stk.pop();StringBuilder sb=new StringBuilder();for(char c:stk)sb.append(c);sb.reverse();int start=0;while(start<sb.length()-1&&sb.charAt(start)=='0')start++;System.out.println(sb.substring(start));}}

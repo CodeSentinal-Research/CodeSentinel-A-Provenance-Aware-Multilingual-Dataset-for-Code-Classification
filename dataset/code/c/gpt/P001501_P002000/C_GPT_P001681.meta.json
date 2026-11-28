@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001681",
+  "problemId": "P001681",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001681",
+    "title": "Reverse Level Order Traversal",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given the root of a binary tree, perform a level order traversal starting from the deepest level and ending at the root. Within each level, nodes must appear from left to right.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the reverse level order traversal.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001681.c",
+    "fileSHA": "214239ae1899d692abea69c6ae5b8684519a7ea0b0c2d2cb2a30046a3b5fea78",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.310Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "62332877bc4c0315359e05c441aa9ceb8c96999a7e7fdba8f7edd78cbf8fdc86",
+    "normalizedCodeHash": "214239ae1899d692abea69c6ae5b8684519a7ea0b0c2d2cb2a30046a3b5fea78",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.310Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

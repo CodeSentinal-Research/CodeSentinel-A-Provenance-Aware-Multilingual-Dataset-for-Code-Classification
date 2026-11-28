@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_CLAUDE_P000762",
+  "problemId": "P000762",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000762",
+    "title": "Wildcard Pattern Matching",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string s and a pattern p containing lowercase letters, '?', and '*': '?' matches exactly one character. '*' matches any sequence of characters (including the empty sequence). Determine whether the entire string matches the pattern using recursion.",
+    "input": "String s String p",
+    "output": "true if the pattern matches the string, otherwise false.",
+    "constraints": "1 <= |s|, |p| <= 200"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000762",
+    "fileSHA": "3b72bf059b8ea9762240af6c9e0698dbfb27b048ebb3904f812b3c125e5e7a88",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b898e27bf7c27b2fbc534735713ae577ab2c95fb68f7255b635717bab72409ce",
+    "normalizedCodeHash": "3b72bf059b8ea9762240af6c9e0698dbfb27b048ebb3904f812b3c125e5e7a88",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

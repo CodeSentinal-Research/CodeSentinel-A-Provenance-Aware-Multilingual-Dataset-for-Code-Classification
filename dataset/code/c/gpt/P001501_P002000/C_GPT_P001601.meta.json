@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001601",
+  "problemId": "P001601",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001601",
+    "title": "Count Zeros in a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and multiple range queries, determine the number of elements equal to 0 in each specified range.",
+    "input": "• First line contains N. • Second line contains N integers. • Third line contains Q. • Next Q lines each contain L and R.",
+    "output": "• For each query, print the number of zeros in the specified range.",
+    "constraints": "• 1 ≤ N, Q ≤ 2 × 10^5 • -10^9 ≤ Ai ≤ 10^9 • 0 ≤ L ≤ R < N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001601.c",
+    "fileSHA": "beaa1066fcd4df2bddded679d12067cf23f7db605353ac5350c2122cff98eff4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.966Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c92e39a7ffb487f82dcd190761a32bda7dc6102c0c4161815ae746b07459b26a",
+    "normalizedCodeHash": "beaa1066fcd4df2bddded679d12067cf23f7db605353ac5350c2122cff98eff4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.966Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

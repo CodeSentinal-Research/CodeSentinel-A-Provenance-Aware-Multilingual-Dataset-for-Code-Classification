@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000837",
+  "problemId": "P000837",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000837",
+    "title": "Minimize Maximum Distance to Gas Station",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Given the positions of existing gas stations and an integer k, add exactly k new gas stations. Return the minimum possible value of the maximum distance between adjacent gas stations. Your answer should be accurate within 10^-6.",
+    "input": "Integer n Sorted array stations Integer k",
+    "output": "The minimized maximum distance.",
+    "constraints": "2 <= n <= 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000837.c",
+    "fileSHA": "eace7f7cd0ecfe1deda2c19ccb735680110f6b3654dd0bf19952d44d2ef56c1e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "eace7f7cd0ecfe1deda2c19ccb735680110f6b3654dd0bf19952d44d2ef56c1e",
+    "normalizedCodeHash": "eace7f7cd0ecfe1deda2c19ccb735680110f6b3654dd0bf19952d44d2ef56c1e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

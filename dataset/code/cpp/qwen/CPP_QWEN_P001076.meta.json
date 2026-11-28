@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001076",
+  "problemId": "P001076",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001076",
+    "title": "Floyd-Warshall All-Pairs Shortest Path",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a weighted graph, determine the shortest distance between every pair of vertices.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain weighted edges.",
+    "output": "Print the shortest distance matrix.",
+    "constraints": "\u2022 1 \u2264 N \u2264 500 \u2022 0 \u2264 M \u2264 N(N\u22121)/2"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001076",
+    "fileSHA": "1c77a528a4cb839f669afab26c3331485dd87282f66c60f0a3ccb44985d48f5b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.595Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "ac3b7a89bdf1be77d7cbc2b1f95871d564561e7166f95ea9067973445c821aa6",
+    "normalizedCodeHash": "f98788b4476c22146bfa9555474b6a389d8a37fae5ecbcd80bc376afecab1a79",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.595Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000658",
+  "problemId": "P000658",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000658",
+    "title": "Browser History with Multiple Windows",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a browser system that supports multiple independent browser windows. Each window maintains its own browsing history and supports: visit(windowId, url) back(windowId, steps) forward(windowId, steps) newWindow(homepage) closeWindow(windowId) currentPage(windowId) Process a sequence of operations and print the result for every currentPage(), back(), and forward() operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the required results after each query operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5 Total number of simultaneously open windows does not exceed 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000658",
+    "fileSHA": "94e435ce6f2393f068be2bcdccc6384c2d88e0f89f2cfc68a28565e59c95b5c1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.370Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "142a81af6fca0eef2b09d0b3cc55a17608b4959b84447cf9a9d00b9162f7d9fb",
+    "normalizedCodeHash": "1ca34b31b89841e786c87cadccb3a84a22e96d7dfd0dbb35d734dc7b4377285f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.370Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

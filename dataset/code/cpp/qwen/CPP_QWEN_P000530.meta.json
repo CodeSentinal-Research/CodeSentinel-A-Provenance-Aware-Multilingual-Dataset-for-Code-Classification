@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000530",
+  "problemId": "P000530",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000530",
+    "title": "Circular Queue Design",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Design a circular queue of fixed capacity. Support the following operations: enQueue(x) deQueue() Front() Rear() isEmpty() isFull() Process a sequence of operations and print the result for query operations.",
+    "input": "Integer capacity Integer q Next q operations.",
+    "output": "Print the result for every query operation.",
+    "constraints": "1 <= capacity <= 1000 1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000530",
+    "fileSHA": "c1e31912347958a75c78f6d1fd6437dffc3883ad40c663ca8e4b2845898f1d9c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.451Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "4ff648c8ff4cdbc1f6030686dfb90864d2f1f97876d0d2cc4a0ebea3bca91dc5",
+    "normalizedCodeHash": "aa8f4bd33204f8b85eefbc0100ebf737c51eeb413078845833ab4d515a4db328",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.451Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

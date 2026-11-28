@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000483",
+  "problemId": "P000483",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000483",
+    "title": "Implement Stack Using Queues",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Design a stack supporting the following operations: push(x) pop() top() empty() Implement the stack using only standard queue operations. Process a sequence of commands and print the result for every pop, top, and empty operation.",
+    "input": "Integer q q commands.",
+    "output": "Print the output for the required commands.",
+    "constraints": "1 <= q <= 10^5 All operations are valid."
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/stacks/StackUsingTwoQueues.java",
+    "fileSHA": "5b1ca5d1d5a5e7e2a4c683638f3c3bab4a59c897",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/stacks/StackUsingTwoQueues.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/stacks/StackUsingTwoQueues.java"
+  },
+  "matching": {
+    "relevanceScore": 71.25
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8864c46d0152d7ded56f59e00a2685aac39230c7e5eca16310d4310950f61f86",
+    "normalizedCodeHash": "8864c46d0152d7ded56f59e00a2685aac39230c7e5eca16310d4310950f61f86",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T15:44:56.615050+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

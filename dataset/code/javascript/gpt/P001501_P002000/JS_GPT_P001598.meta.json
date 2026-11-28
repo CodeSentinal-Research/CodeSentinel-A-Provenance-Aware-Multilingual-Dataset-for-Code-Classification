@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001598",
+  "problemId": "P001598",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001598",
+    "title": "Count Even Numbers in a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple range queries, determine how many even numbers lie within each specified range.",
+    "input": "• First line contains N. • Second line contains N integers. • Third line contains Q. • Next Q lines contain L and R.",
+    "output": "• Print the answer for each query.",
+    "constraints": "• 1 ≤ N, Q ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001501_P002000/JS_GPT_P001598.js",
+    "fileSHA": "1968ced993d4f044b059a794efeab655977f827d7b72d476a0fbf53102595474",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1968ced993d4f044b059a794efeab655977f827d7b72d476a0fbf53102595474",
+    "normalizedCodeHash": "1968ced993d4f044b059a794efeab655977f827d7b72d476a0fbf53102595474",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

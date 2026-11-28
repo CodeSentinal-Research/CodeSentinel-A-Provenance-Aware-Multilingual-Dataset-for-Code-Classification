@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000779",
+  "problemId": "P000779",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000779",
+    "title": "Range Sum Query - Immutable",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and multiple range sum queries, return the sum of elements between indices left and right (inclusive) for each query. Preprocess the array using a prefix sum array to answer each query efficiently.",
+    "input": "Integer n Array nums Integer q q queries (left, right)",
+    "output": "For each query, print the range sum.",
+    "constraints": "1 <= n, q <= 2 \u00d7 10^5 -10^9 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "williamfiset/Algorithms",
+    "owner": "williamfiset",
+    "url": "https://github.com/williamfiset/Algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/williamfiset/algorithms/datastructures/fenwicktree/FenwickTreeRangeQueryPointUpdate.java",
+    "fileSHA": "1925c4d400d29d4e33454ce4ab88267ba88ba52c",
+    "url": "https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/williamfiset/algorithms/datastructures/fenwicktree/FenwickTreeRangeQueryPointUpdate.java",
+    "rawUrl": "https://raw.githubusercontent.com/williamfiset/Algorithms/master/src/main/java/com/williamfiset/algorithms/datastructures/fenwicktree/FenwickTreeRangeQueryPointUpdate.java"
+  },
+  "matching": {
+    "relevanceScore": 74.03
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7d2ec7e16f1c4c9dc9eacf5687cef1003448dcad4aad62f43070c14471cf3618",
+    "normalizedCodeHash": "7d2ec7e16f1c4c9dc9eacf5687cef1003448dcad4aad62f43070c14471cf3618",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:45:50.103923+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

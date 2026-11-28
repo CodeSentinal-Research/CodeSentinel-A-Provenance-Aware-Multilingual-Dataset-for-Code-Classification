@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000957",
+  "problemId": "P000957",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000957",
+    "title": "Verify B\u00e9zout's Identity",
+    "category": "Mathematics - Extended Euclidean Algorithm",
+    "difficulty": "Easy",
+    "problemStatement": "Given integers A, B, X, and Y, determine whether the pair (X, Y) satisfies B\u00e9zout's Identity: AX + BY = gcd(A, B)",
+    "input": "Integer A Integer B Integer X Integer Y",
+    "output": "Print true if the identity holds; otherwise, print false.",
+    "constraints": "1 <= |A|, |B|, |X|, |Y| <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P000957",
+    "fileSHA": "0cbe4482e88413d81519f0024a281b1b0c046a7b795bb77bc3e801951c9753e2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:36:07.967768+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0cbe4482e88413d81519f0024a281b1b0c046a7b795bb77bc3e801951c9753e2",
+    "normalizedCodeHash": "0cbe4482e88413d81519f0024a281b1b0c046a7b795bb77bc3e801951c9753e2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:36:07.967800+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

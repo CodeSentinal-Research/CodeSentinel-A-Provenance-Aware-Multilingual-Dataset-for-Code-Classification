@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000718",
+  "problemId": "P000718",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000718",
+    "title": "Generate N-bit Gray Code",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer N, generate the 2^N Gray codes using the recursive Gray code construction. Print the Gray codes in order.",
+    "input": "Integer N",
+    "output": "All N-bit Gray codes.",
+    "constraints": "1 <= N <= 16"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000718.c",
+    "fileSHA": "a1c3781e6b25d06f3b698394a1c6a1ce15cb870b225d7be82f3ac017e798a1d1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a1c3781e6b25d06f3b698394a1c6a1ce15cb870b225d7be82f3ac017e798a1d1",
+    "normalizedCodeHash": "a1c3781e6b25d06f3b698394a1c6a1ce15cb870b225d7be82f3ac017e798a1d1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

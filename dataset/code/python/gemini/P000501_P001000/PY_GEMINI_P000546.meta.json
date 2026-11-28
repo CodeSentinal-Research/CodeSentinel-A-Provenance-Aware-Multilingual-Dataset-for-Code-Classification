@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000546",
+  "problemId": "P000546",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000546",
+    "title": "Jump Game VII",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a binary string s and two integers minJump and maxJump. Starting at index 0, determine whether it is possible to reach the last index. From index i, you may jump to any index j satisfying: i + minJump <= j <= min(i + maxJump, n - 1) s[j] == '0' Return true if the last index can be reached; otherwise return false.",
+    "input": "Binary string s Integer minJump Integer maxJump",
+    "output": "true if the last index is reachable, otherwise false.",
+    "constraints": "2 <= s.length <= 10^5 s[0] == s[n-1] == '0'"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000546",
+    "fileSHA": "20d21f2c93eb6ef678e58e409d17a4e9d0a3157b823290b73c549a5828ca841e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:44:52.807357+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "20d21f2c93eb6ef678e58e409d17a4e9d0a3157b823290b73c549a5828ca841e",
+    "normalizedCodeHash": "20d21f2c93eb6ef678e58e409d17a4e9d0a3157b823290b73c549a5828ca841e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:44:52.807380+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

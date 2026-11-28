@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000562",
+  "problemId": "P000562",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000562",
+    "title": "Keys and Rooms",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "There are n rooms labeled from 0 to n-1. Initially, only room 0 is unlocked. Each room may contain keys to other rooms. Determine whether it is possible to visit every room.",
+    "input": "Integer n A list where the i-th list contains the keys found in room i.",
+    "output": "Print true if every room can be visited; otherwise print false.",
+    "constraints": "1 <= n <= 1000 Total number of keys does not exceed 3000."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000562.js",
+    "fileSHA": "5c4719cb7220ab6a8479751b0de161079c056217ccfc32644fc48045475a8f47",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5c4719cb7220ab6a8479751b0de161079c056217ccfc32644fc48045475a8f47",
+    "normalizedCodeHash": "5c4719cb7220ab6a8479751b0de161079c056217ccfc32644fc48045475a8f47",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

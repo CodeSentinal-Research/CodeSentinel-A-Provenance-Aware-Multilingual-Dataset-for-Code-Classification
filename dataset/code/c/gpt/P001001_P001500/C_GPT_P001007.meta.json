@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001007",
+  "problemId": "P001007",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001007",
+    "title": "Replace Root in a Max Heap",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a valid Max Heap represented as an array and a new value, replace the root with the new value and restore the Max Heap property. Print the resulting heap.",
+    "input": "• First line contains integer N. • Second line contains N space-separated integers. • Third line contains the replacement value.",
+    "output": "Print the updated heap array.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001007.c",
+    "fileSHA": "39411b03c74bd712b01a10fbb6eed025b84a03df316eda42f83b81d9a7f7cc6a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:32.746Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "584bf82ba504dec9ae0a6b05e6eeb7490c5b5c9e9577e3eb2848f4d9f299faf3",
+    "normalizedCodeHash": "39411b03c74bd712b01a10fbb6eed025b84a03df316eda42f83b81d9a7f7cc6a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:32.746Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

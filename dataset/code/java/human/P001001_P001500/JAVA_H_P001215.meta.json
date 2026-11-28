@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001215",
+  "problemId": "P001215",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001215",
+    "title": "Remove Boxes",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given a sequence of colored boxes, repeatedly remove contiguous groups of boxes having the same color. Removing k adjacent boxes of the same color scores k\u00b2 points. Determine the maximum obtainable score.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing colors.",
+    "output": "Print the maximum obtainable score.",
+    "constraints": "\u2022 1 \u2264 N \u2264 200"
+  },
+  "repository": {
+    "name": "multiverse-exploration-kitten/dp-demo",
+    "owner": "multiverse-exploration-kitten",
+    "url": "https://github.com/multiverse-exploration-kitten/dp-demo",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "java/src/main/java/dp/l6/RemoveBoxes.java",
+    "fileSHA": "72552c257fd9baa80aeca7c28989e602a05fde80",
+    "url": "https://github.com/multiverse-exploration-kitten/dp-demo/blob/70ca95ac34a9b7862bc1d488d904c255a893bc61/java/src/main/java/dp/l6/RemoveBoxes.java",
+    "rawUrl": "https://raw.githubusercontent.com/multiverse-exploration-kitten/dp-demo/main/java/src/main/java/dp/l6/RemoveBoxes.java"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f4579dfb859a022255da8db222803fc196f96769df89516fe3699a8a8fdb70d1",
+    "normalizedCodeHash": "f4579dfb859a022255da8db222803fc196f96769df89516fe3699a8a8fdb70d1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:30:40.531827+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

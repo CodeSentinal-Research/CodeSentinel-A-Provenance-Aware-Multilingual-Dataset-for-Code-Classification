@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000409",
+  "problemId": "P000409",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000409",
+    "title": "Search Users by Username Prefix",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program to find all users whose usernames start with the given prefix.",
+    "input": "A collection of user records and a prefix string.",
+    "output": "All matching usernames in their original order.",
+    "constraints": "1 ≤ Number of Users ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000409.py",
+    "fileSHA": "674af3b74e1051d543491a85a7bd143aff7e84a48563fb45338e3cf103c4d0b7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:02.643803+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "674af3b74e1051d543491a85a7bd143aff7e84a48563fb45338e3cf103c4d0b7",
+    "normalizedCodeHash": "0afb2934046b50022ceb36cbb399b923f3bfc7c87d1b2b7c3ddc421119b2de82",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:02.643803+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

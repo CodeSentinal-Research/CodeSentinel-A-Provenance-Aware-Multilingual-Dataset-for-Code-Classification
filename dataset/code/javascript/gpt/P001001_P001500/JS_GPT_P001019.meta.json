@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001019",
+  "problemId": "P001019",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001019",
+    "title": "K Closest Points to the Origin",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given the coordinates of N points in a two-dimensional plane and an integer K, determine the K points closest to the origin based on Euclidean distance.",
+    "input": "• First line contains integers N and K. • Next N lines contain two integers representing the coordinates of a point.",
+    "output": "Print the K closest points in any order.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001019.js",
+    "fileSHA": "16d0ba4749a85554c6294238b6705c5c9e91b34e605a94d79e392b54b981c2f4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T09:30:51.258473+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "16d0ba4749a85554c6294238b6705c5c9e91b34e605a94d79e392b54b981c2f4",
+    "normalizedCodeHash": "16d0ba4749a85554c6294238b6705c5c9e91b34e605a94d79e392b54b981c2f4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T09:30:51.258473+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

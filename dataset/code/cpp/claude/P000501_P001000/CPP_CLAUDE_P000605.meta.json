@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000605",
+  "problemId": "P000605",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000605",
+    "title": "Delete Nodes Having Greater Value on Right",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list, delete every node that has a node with a greater value somewhere to its right. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= node.value <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000605",
+    "fileSHA": "d561da98113d8ce193f631312f5f006453f301ccdb95f58c21cf58f4bcd1a0b4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d561da98113d8ce193f631312f5f006453f301ccdb95f58c21cf58f4bcd1a0b4",
+    "normalizedCodeHash": "d561da98113d8ce193f631312f5f006453f301ccdb95f58c21cf58f4bcd1a0b4",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000605"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000601",
+  "problemId": "P000601",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000601",
+    "title": "Split Linked List into Parts",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a singly linked list and an integer k, split the linked list into k consecutive parts. The sizes of the parts should differ by at most one node, and earlier parts should not be smaller than later parts. Return the heads of the k parts.",
+    "input": "Integer n Linked list Integer k",
+    "output": "The k linked list parts.",
+    "constraints": "0 <= n <= 1000 1 <= k <= 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000601",
+    "fileSHA": "12fdd8fdb18d3577953e8ad08badd29855be04167dc556d10a0ffbbb8016fd54",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "12fdd8fdb18d3577953e8ad08badd29855be04167dc556d10a0ffbbb8016fd54",
+    "normalizedCodeHash": "12fdd8fdb18d3577953e8ad08badd29855be04167dc556d10a0ffbbb8016fd54",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000601: Split Linked List into Parts"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

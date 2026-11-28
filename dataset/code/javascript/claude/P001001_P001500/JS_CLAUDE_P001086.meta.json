@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P001086",
+  "problemId": "P001086",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001086",
+    "title": "Multi-Source Shortest Distance",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an unweighted graph and multiple source vertices, determine the shortest distance from the nearest source to every vertex.",
+    "input": "• First line contains integers N, M, and K. • Next M lines contain graph edges. • Last line contains K source vertices.",
+    "output": "Print the minimum distance to every vertex.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P001086",
+    "fileSHA": "4c8d179fd3c4b67238ad0d58596d6e95d8a15462fbdc05a70942c17efc3896e3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4c8d179fd3c4b67238ad0d58596d6e95d8a15462fbdc05a70942c17efc3896e3",
+    "normalizedCodeHash": "4c8d179fd3c4b67238ad0d58596d6e95d8a15462fbdc05a70942c17efc3896e3",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P001086"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

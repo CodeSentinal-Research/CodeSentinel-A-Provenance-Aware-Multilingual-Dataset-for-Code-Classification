@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000941",
+  "problemId": "P000941",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000941",
+    "title": "Standard Nim Game",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Easy",
+    "problemStatement": "Given multiple piles of stones, players may remove any positive number of stones from a single pile during each turn. Determine whether the first player has a winning strategy.",
+    "input": "Integer N Array piles",
+    "output": "Print \"First\" if the first player wins; otherwise, print \"Second\".",
+    "constraints": "1 <= N <= 2 \u00d7 10^5 1 <= piles[i] <= 10^9"
+  },
+  "repository": {
+    "name": "MetalTurtle18/Nim",
+    "owner": "MetalTurtle18",
+    "url": "https://github.com/MetalTurtle18/Nim",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "main.c",
+    "fileSHA": "da2df0efdb2e76f24479dd1dc869e546c928e3aa",
+    "url": "https://github.com/MetalTurtle18/Nim/blob/d21fc0c173f1c9bb7a83731b1771e842b4b4681d/main.c",
+    "rawUrl": "https://raw.githubusercontent.com/MetalTurtle18/Nim/main/main.c"
+  },
+  "matching": {
+    "relevanceScore": 85.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "eb5161fc8e2373f2d585521547a5befdf808c9d4eb8e136a7ad7095b62de759e",
+    "normalizedCodeHash": "eb5161fc8e2373f2d585521547a5befdf808c9d4eb8e136a7ad7095b62de759e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T22:28:41.408455+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

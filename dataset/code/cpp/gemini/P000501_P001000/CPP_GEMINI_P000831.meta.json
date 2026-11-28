@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P000831",
+  "problemId": "P000831",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000831",
+    "title": "Minimum Number of Days to Make m Bouquets",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an array bloomDay, where bloomDay[i] is the day the i-th flower blooms. Each bouquet requires k adjacent flowers. Return the minimum number of days required to make exactly m bouquets, or -1 if it is impossible.",
+    "input": "Integer n Array bloomDay Integer m Integer k",
+    "output": "The minimum required day.",
+    "constraints": "1 <= n <= 10^5 1 <= bloomDay[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P000831",
+    "fileSHA": "6b8db7643d1a25b3acf2d2f2af454ee3e5642824b212c2e0dcd3abe77d4cb30f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:28:39.526121+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6b8db7643d1a25b3acf2d2f2af454ee3e5642824b212c2e0dcd3abe77d4cb30f",
+    "normalizedCodeHash": "6b8db7643d1a25b3acf2d2f2af454ee3e5642824b212c2e0dcd3abe77d4cb30f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:28:39.526156+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

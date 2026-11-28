@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001630",
+  "problemId": "P001630",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001630",
+    "title": "Minimum Operations to Equalize Prefix Sums",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given two arrays of equal length, determine the minimum number of increment operations required so that the prefix sum at every index of the first array is at least the corresponding prefix sum of the second array. In one operation, you may increase any element of the first array by 1.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers representing the first array. \u2022 Third line contains N integers representing the second array.",
+    "output": "\u2022 Print the minimum number of operations.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 0 \u2264 Ai, Bi \u2264 10^9"
+  },
+  "repository": {
+    "name": "Vismayp/CodeBuzz-Revise",
+    "owner": "Vismayp",
+    "url": "https://github.com/Vismayp/CodeBuzz-Revise",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/data/dsa/trees_expanded.js",
+    "fileSHA": "9f173c911dac769f5e1192de128bf976fdf9f9c2",
+    "url": "https://github.com/Vismayp/CodeBuzz-Revise/blob/ffb76422c5617bf480237baff5b35f7b5d190e3a/src/data/dsa/trees_expanded.js",
+    "rawUrl": "https://raw.githubusercontent.com/Vismayp/CodeBuzz-Revise/main/src/data/dsa/trees_expanded.js"
+  },
+  "matching": {
+    "relevanceScore": 91.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c90b947a693a1aa9e21ba1071ba422dd13a94ea861bc655a026b86e08d90464b",
+    "normalizedCodeHash": "c90b947a693a1aa9e21ba1071ba422dd13a94ea861bc655a026b86e08d90464b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T17:52:14.816819+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

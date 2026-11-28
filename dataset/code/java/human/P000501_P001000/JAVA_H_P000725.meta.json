@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000725",
+  "problemId": "P000725",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000725",
+    "title": "Split String into Descending Consecutive Values",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string consisting of digits, determine whether it can be split into two or more non-empty substrings such that the numerical values are in strictly descending order and differ by exactly 1. Return true if possible; otherwise return false.",
+    "input": "String s",
+    "output": "true if such a split exists, otherwise false.",
+    "constraints": "1 <= |s| <= 20"
+  },
+  "repository": {
+    "name": "lrmsspace/LLM-CodeQualityEval",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Output/output_Tabnine/java/Medium/1393-splitting-a-string-into-descending-consecutive-values.java",
+    "fileSHA": "fb1a197d0990bd04b0939d52499e149dfa08fea5",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval/blob/a2817bbe913c51ab32afeb6f6d0ad97b92c45075/Output/output_Tabnine/java/Medium/1393-splitting-a-string-into-descending-consecutive-values.java",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/LLM-CodeQualityEval/main/Output/output_Tabnine/java/Medium/1393-splitting-a-string-into-descending-consecutive-values.java"
+  },
+  "matching": {
+    "relevanceScore": 90.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c55f8eda880efb1de0c9c4dfacea17762111fe613a995a89650e9131332409db",
+    "normalizedCodeHash": "c55f8eda880efb1de0c9c4dfacea17762111fe613a995a89650e9131332409db",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T16:59:39.383004+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

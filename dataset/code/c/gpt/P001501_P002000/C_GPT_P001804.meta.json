@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001804",
+  "problemId": "P001804",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001804",
+    "title": "Check Whether Two Insertion Sequences Produce the Same Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given two sequences of distinct keys inserted into initially empty Binary Search Trees, determine whether both insertion sequences produce identical Binary Search Trees without explicitly constructing both trees.",
+    "input": "• The first line contains an integer N. • The second line contains the first insertion sequence. • The third line contains the second insertion sequence.",
+    "output": "• Print YES if both sequences generate identical BSTs; otherwise print NO.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001804.c",
+    "fileSHA": "c44dd5e8f8a7aff6b9b2be3fddbc146d6f578e1f7242c98ecbe47b39a21e123e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.708Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "86c44ae7eb287dec74de2bf5db78846b8ea7f1b0ca3f40df77ccaed65628224d",
+    "normalizedCodeHash": "c44dd5e8f8a7aff6b9b2be3fddbc146d6f578e1f7242c98ecbe47b39a21e123e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.708Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

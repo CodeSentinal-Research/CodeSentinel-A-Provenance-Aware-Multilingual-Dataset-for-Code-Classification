@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001551",
+  "problemId": "P001551",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001551",
+    "title": "Longest Subarray With Sum Less Than or Equal to K",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of non-negative integers and an integer K, determine the length of the longest contiguous subarray whose sum is less than or equal to K.",
+    "input": "• First line contains N and K. • Second line contains N space-separated integers.",
+    "output": "• Print the length of the longest valid subarray.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ Ai ≤ 10^5 • 0 ≤ K ≤ 10^15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001551.c",
+    "fileSHA": "e74229f1e32f47a2cc0ce49144be766f133a8a9028ed36cb0ef79b10e13d3b88",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.745Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "488806720f8313701791a8c8eae1e9adc2cda4c91857ae342b8bfdabc150fb4b",
+    "normalizedCodeHash": "e74229f1e32f47a2cc0ce49144be766f133a8a9028ed36cb0ef79b10e13d3b88",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.745Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

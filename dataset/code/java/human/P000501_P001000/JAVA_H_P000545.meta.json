@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000545",
+  "problemId": "P000545",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000545",
+    "title": "Constrained Subsequence Sum",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array nums and an integer k, find the maximum sum of a non-empty subsequence such that for every two consecutive chosen elements, their indices differ by at most k. Return the maximum possible sum.",
+    "input": "Integer n Array nums Integer k",
+    "output": "A single integer representing the maximum subsequence sum.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= n -10^4 <= nums[i] <= 10^4"
+  },
+  "repository": {
+    "name": "maslynem/LeetCode",
+    "owner": "maslynem",
+    "url": "https://github.com/maslynem/LeetCode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/ConstrainedSubsequenceSum/Solution.java",
+    "fileSHA": "bb699244de247833c8639963728c87a3976f2dec",
+    "url": "https://github.com/maslynem/LeetCode/blob/973ef116102e41783abb50ee81e582a4684ad7d8/src/main/java/ConstrainedSubsequenceSum/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/maslynem/LeetCode/main/src/main/java/ConstrainedSubsequenceSum/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 90.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0d819641a9e4e85eeea7568cb7c5b9c5bb22526406b1926ae479308a2ccaf131",
+    "normalizedCodeHash": "0d819641a9e4e85eeea7568cb7c5b9c5bb22526406b1926ae479308a2ccaf131",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:12:01.300346+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

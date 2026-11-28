@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000410",
+  "problemId": "P000410",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000410",
+    "title": "Search Products by Name Suffix",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Find all products whose names end with the specified suffix.",
+    "input": "Product records and a suffix.",
+    "output": "All matching products.",
+    "constraints": "1 ≤ Number of Products ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000410.py",
+    "fileSHA": "cf30a82dc7709a4eac47fb30c1352a84924f1bb6b18e18dea63bd7b4524f07a6",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:02.669804+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cf30a82dc7709a4eac47fb30c1352a84924f1bb6b18e18dea63bd7b4524f07a6",
+    "normalizedCodeHash": "549f7abd83d583c563b849999dbb3649fda7554b9fe4344ddcdd0ddf9caab52a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:02.669804+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

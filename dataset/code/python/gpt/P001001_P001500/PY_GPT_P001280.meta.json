@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001280",
+  "problemId": "P001280",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001280",
+    "title": "Patch Array",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given a sorted array of positive integers and an integer N, determine the minimum number of additional numbers that must be inserted so that every number in the range [1, N] can be formed as the sum of some subset of the array.",
+    "input": "• First line contains integers M and N. • Second line contains M sorted positive integers.",
+    "output": "Print the minimum number of inserted elements.",
+    "constraints": "• 1 ≤ M ≤ 10^5 • 1 ≤ N ≤ 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001280.py",
+    "fileSHA": "5891c37db3772a48285ce9790e1113dc48574000bcf95c49974f65dddbee139d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.089627+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5891c37db3772a48285ce9790e1113dc48574000bcf95c49974f65dddbee139d",
+    "normalizedCodeHash": "4a14bbf3cfb36b1de008dd468519e9838695cd4137d8a171a927a6d76667a5d0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.089627+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

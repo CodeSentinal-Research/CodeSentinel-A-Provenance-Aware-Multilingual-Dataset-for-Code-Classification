@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_CLAUDE_P001632",
+  "problemId": "P001632",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001632",
+    "title": "Largest Square With Sum Not Exceeding K",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × M matrix of integers and an integer K, determine the side length of the largest square submatrix whose sum does not exceed K.",
+    "input": "• First line contains N, M, and K. • Next N lines each contain M integers.",
+    "output": "• Print the maximum possible side length.",
+    "constraints": "• 1 ≤ N, M ≤ 1000 • -10^4 ≤ Aij ≤ 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P001632",
+    "fileSHA": "54381cbd50f2a88db74c11798a67bb7759ba77af658d145b85df3b15f5799fd8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "17d64c663f94f7f69e9af803b14e5d85a9294beea1af70c4a860549a5fcfc541",
+    "normalizedCodeHash": "54381cbd50f2a88db74c11798a67bb7759ba77af658d145b85df3b15f5799fd8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

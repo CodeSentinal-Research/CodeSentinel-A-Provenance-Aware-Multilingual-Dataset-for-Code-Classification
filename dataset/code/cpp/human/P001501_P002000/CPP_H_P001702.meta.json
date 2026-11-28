@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001702",
+  "problemId": "P001702",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001702",
+    "title": "Count Good Nodes in a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, a node is considered good if no ancestor on the path from the root has a value greater than the node's value. Determine the total number of good nodes.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the number of good nodes.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "harshabangi/leetcode",
+    "owner": "harshabangi",
+    "url": "https://github.com/harshabangi/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "cpp/graph_and_trees/count_good_nodes_in_a_binary_tree.cpp",
+    "fileSHA": "013b9bedb6329bb5964e268583d1527fabec8f11",
+    "url": "https://github.com/harshabangi/leetcode/blob/b711e904658f77111102dba690e0fccb4e640707/cpp/graph_and_trees/count_good_nodes_in_a_binary_tree.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/harshabangi/leetcode/main/cpp/graph_and_trees/count_good_nodes_in_a_binary_tree.cpp"
+  },
+  "matching": {
+    "relevanceScore": 86.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "efb6aac0ee9289b1af4a433cddd998e32e69d07844ee0cf8ba7b4287acfb6ace",
+    "normalizedCodeHash": "efb6aac0ee9289b1af4a433cddd998e32e69d07844ee0cf8ba7b4287acfb6ace",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T15:51:49.261092+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

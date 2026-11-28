@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001740",
+  "problemId": "P001740",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001740",
+    "title": "Iteratively Remove Leaves Until the Tree Becomes Empty",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, repeatedly remove all leaf nodes in rounds until the tree becomes empty. Report the nodes removed during each round.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the nodes removed in each round.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0400-0499/0404.Sum of Left Leaves/Solution.c",
+    "fileSHA": "a3ad9b400ec390fe77653ec795b625e6ddf0635a",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0400-0499/0404.Sum of Left Leaves/Solution.c",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0400-0499/0404.Sum of Left Leaves/Solution.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f6024d2577881d6fea7b3ae679dca29fbfa4e58b106b13734802b4345ed06b48",
+    "normalizedCodeHash": "f6024d2577881d6fea7b3ae679dca29fbfa4e58b106b13734802b4345ed06b48",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:52.332539+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

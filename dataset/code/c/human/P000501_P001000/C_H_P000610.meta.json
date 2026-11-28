@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000610",
+  "problemId": "P000610",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000610",
+    "title": "Merge Nodes Between Zeros",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a linked list whose first and last nodes contain the value 0. Between every pair of consecutive zero-valued nodes, replace all nodes with a single node whose value is the sum of the values between those zeros. Return the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The transformed linked list.",
+    "constraints": "3 <= n <= 2 \u00d7 10^5 The first and last node values are 0."
+  },
+  "repository": {
+    "name": "sungwoopark95/QualExamCoding",
+    "owner": "sungwoopark95",
+    "url": "https://github.com/sungwoopark95/QualExamCoding",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "soungmunkim/C/LinkedList/218_MergeNodesBetweenZeros.c",
+    "fileSHA": "72bbaca949d66c073c8ace62f147d3077ab503a3",
+    "url": "https://github.com/sungwoopark95/QualExamCoding/blob/6bf20f0d683990ada96efe107cea776c929825ac/soungmunkim/C/LinkedList/218_MergeNodesBetweenZeros.c",
+    "rawUrl": "https://raw.githubusercontent.com/sungwoopark95/QualExamCoding/main/soungmunkim/C/LinkedList/218_MergeNodesBetweenZeros.c"
+  },
+  "matching": {
+    "relevanceScore": 90.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e3b8b20d74c78a31ba6e7aaaccfac824bf51b410d1526605492822915911c0b9",
+    "normalizedCodeHash": "e3b8b20d74c78a31ba6e7aaaccfac824bf51b410d1526605492822915911c0b9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T21:48:14.305842+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

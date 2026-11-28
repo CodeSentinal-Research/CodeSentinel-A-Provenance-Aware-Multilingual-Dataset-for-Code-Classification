@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001704",
+  "problemId": "P001704",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001704",
+    "title": "Check Whether Two Trees are Isomorphic",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given two binary trees, determine whether one tree can be transformed into the other by swapping the left and right children of any number of nodes.",
+    "input": "\u2022 The first line contains N\u2081. \u2022 The next N\u2081 lines describe the first tree. \u2022 The following line contains N\u2082. \u2022 The next N\u2082 lines describe the second tree.",
+    "output": "\u2022 Print YES if the trees are isomorphic; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N\u2081, N\u2082 \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001704",
+    "fileSHA": "3398ce70a29b6c1a6fe6c611538e41c920348e7a540fde7e34a40d6c60811478",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:37:17.567017+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3398ce70a29b6c1a6fe6c611538e41c920348e7a540fde7e34a40d6c60811478",
+    "normalizedCodeHash": "3398ce70a29b6c1a6fe6c611538e41c920348e7a540fde7e34a40d6c60811478",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:37:17.567037+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

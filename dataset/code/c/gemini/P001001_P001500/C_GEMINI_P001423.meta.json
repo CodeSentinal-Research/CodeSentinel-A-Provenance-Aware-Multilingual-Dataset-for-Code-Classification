@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001423",
+  "problemId": "P001423",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001423",
+    "title": "Find and Replace Pattern",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given a list of words and a pattern, return all words that match the pattern through a bijective character mapping.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain one word each. \u2022 Last line contains the pattern.",
+    "output": "Print all matching words in lexicographical order.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 Word length \u2264 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001423",
+    "fileSHA": "664fdf2dc3a55a5e32fcbfa6cf57f351485be0a89ad394208935aff7f4522098",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:25:34.124284+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "664fdf2dc3a55a5e32fcbfa6cf57f351485be0a89ad394208935aff7f4522098",
+    "normalizedCodeHash": "664fdf2dc3a55a5e32fcbfa6cf57f351485be0a89ad394208935aff7f4522098",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:25:34.124310+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

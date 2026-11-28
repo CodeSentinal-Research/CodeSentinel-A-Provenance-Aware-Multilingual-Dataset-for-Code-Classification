@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_GPT_P001561",
+  "problemId": "P001561",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001561",
+    "title": "Substring With Concatenation of All Words",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a string S and an array of words, where every word has the same length. Find all starting indices of substrings in S that are formed by concatenating every word exactly once and without any intervening characters. The words may appear in any order.",
+    "input": "• First line contains string S. • Second line contains integer M. • Third line contains M space-separated words.",
+    "output": "• Print all valid starting indices in increasing order. If none exist, print -1.",
+    "constraints": "• 1 ≤ |S| ≤ 2 × 10^5 • 1 ≤ M ≤ 5000 • All words have equal length."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001501_P002000/PY_GPT_P001561.py",
+    "fileSHA": "c25883297a74430eb4e8141020befb3d3d105c8a429cdfca3fc7b50684ce7e7b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-26T13:09:03.051547+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c25883297a74430eb4e8141020befb3d3d105c8a429cdfca3fc7b50684ce7e7b",
+    "normalizedCodeHash": "17a6f58b92a7ce082f98e92f02d627fad1878256d8840f26fd20983366efa06f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-26T13:09:03.051547+00:00",
+    "pipelineVersion": "1.0.0"
+  },
+  "sha256": "afc579e577c87d3d10cf0a77e6f108491f60ef37689978000ed263ea94992556"
+}

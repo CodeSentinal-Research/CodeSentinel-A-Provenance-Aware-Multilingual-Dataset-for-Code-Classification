@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001682",
+  "problemId": "P001682",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001682",
+    "title": "Check Whether All Leaf Nodes are at the Same Level",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given the root of a binary tree, determine whether all leaf nodes occur at the same depth.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print YES if all leaf nodes are at the same level; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "secretflow/secretflow",
+    "owner": "secretflow",
+    "url": "https://github.com/secretflow/secretflow",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "secretflow/ml/boost/sgb_v/factory/components/tree_trainer/leaf_wise_tree_trainer.py",
+    "fileSHA": "5237d984d828e63895a2888251bc9dde4bd03f0f",
+    "url": "https://github.com/secretflow/secretflow/blob/11425fa5282cf0898393cf881df09d210ef384e2/secretflow/ml/boost/sgb_v/factory/components/tree_trainer/leaf_wise_tree_trainer.py",
+    "rawUrl": "https://raw.githubusercontent.com/secretflow/secretflow/main/secretflow/ml/boost/sgb_v/factory/components/tree_trainer/leaf_wise_tree_trainer.py"
+  },
+  "matching": {
+    "relevanceScore": 83.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "63a3f6d476784b75d4187caa957ba35390a13e07ed51515fd6c9e9edc49fe838",
+    "normalizedCodeHash": "63a3f6d476784b75d4187caa957ba35390a13e07ed51515fd6c9e9edc49fe838",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T09:04:07.742223+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000508",
+  "problemId": "P000508",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000508",
+    "title": "Number of Visible People in a Queue",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "There are n people standing in a queue, each having a distinct height. For every person, determine how many people to their right are visible. A person j is visible to person i if: j > i Every person between i and j has a height smaller than both person i and person j. Return an array where the i-th element is the number of people visible to the right of person i.",
+    "input": "Integer n Array heights",
+    "output": "An array of n integers.",
+    "constraints": "1 <= n <= 10^5 1 <= heights[i] <= 10^5 All heights are distinct."
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000508",
+    "fileSHA": "90133d297b57b8c0c44e787eaa90f669c437ef4d8e23e35341720f0e9e7e9401",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:42:16.742950+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "90133d297b57b8c0c44e787eaa90f669c437ef4d8e23e35341720f0e9e7e9401",
+    "normalizedCodeHash": "90133d297b57b8c0c44e787eaa90f669c437ef4d8e23e35341720f0e9e7e9401",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:42:16.742973+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

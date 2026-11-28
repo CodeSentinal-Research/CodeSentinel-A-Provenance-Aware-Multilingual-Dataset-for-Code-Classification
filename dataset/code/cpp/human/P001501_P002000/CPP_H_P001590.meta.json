@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001590",
+  "problemId": "P001590",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001590",
+    "title": "Maximum Robots Within Budget",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "You are given two arrays representing the charge times and running costs of robots, along with a budget. Determine the maximum number of consecutive robots that can be operated without exceeding the budget.",
+    "input": "\u2022 First line contains N and Budget. \u2022 Second line contains N integers representing charge times. \u2022 Third line contains N integers representing running costs.",
+    "output": "\u2022 Print the maximum number of consecutive robots that can be operated.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 Budget \u2264 10^18"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "C++/maximum-number-of-robots-within-budget.cpp",
+    "fileSHA": "846d77f24f0f61ac2235bd3b613994fbf3e60640",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/maximum-number-of-robots-within-budget.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/C++/maximum-number-of-robots-within-budget.cpp"
+  },
+  "matching": {
+    "relevanceScore": 79.71
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c5add9a70fc232a2d8fc13bf73d821bdd6530d2918b16d3e2a76a5e030612642",
+    "normalizedCodeHash": "c5add9a70fc232a2d8fc13bf73d821bdd6530d2918b16d3e2a76a5e030612642",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (C++ Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:40.168875+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

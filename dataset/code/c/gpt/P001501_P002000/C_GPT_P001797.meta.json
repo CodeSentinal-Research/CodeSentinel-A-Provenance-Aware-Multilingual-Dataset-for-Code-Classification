@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001797",
+  "problemId": "P001797",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001797",
+    "title": "Construct a Binary Search Tree from its Postorder Traversal",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the postorder traversal of a Binary Search Tree containing distinct keys, reconstruct the original BST.",
+    "input": "• The first line contains an integer N. • The second line contains the postorder traversal.",
+    "output": "• Print the reconstructed BST.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5 • All keys are distinct."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001797.c",
+    "fileSHA": "17090c1c2e45daa0c51333d7a804ec2848e18f3e1ab451d3a5153ecf3a0b3e76",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.690Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "773f1e705cf30e566f839d10f83d41e99c554d3fc839a5917a6b1e42f1b1e8eb",
+    "normalizedCodeHash": "17090c1c2e45daa0c51333d7a804ec2848e18f3e1ab451d3a5153ecf3a0b3e76",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.690Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

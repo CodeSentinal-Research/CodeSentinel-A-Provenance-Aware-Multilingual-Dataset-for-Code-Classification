@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000496",
+  "problemId": "P000496",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000496",
+    "title": "Sum of Subarray Minimums",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array, find the sum of the minimum element of every contiguous subarray. Since the answer may be very large, return it modulo 10^9 + 7.",
+    "input": "Integer n Array arr",
+    "output": "A single integer representing the required sum.",
+    "constraints": "1 <= n <= 3 × 10^4 1 <= arr[i] <= 3 × 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000496.py",
+    "fileSHA": "c4199772a84b9139f1769045f37c5e642a1248b5758291df243318f746386be0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:05.113263+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c4199772a84b9139f1769045f37c5e642a1248b5758291df243318f746386be0",
+    "normalizedCodeHash": "2e35651f2520f7d602eaf90f397f71fa02aa4e26faa0b3615690f033bb66f416",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:05.113263+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

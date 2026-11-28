@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000145",
+  "problemId": "P000145",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000145",
+    "title": "Search a 2D Matrix",
+    "category": "Arrays",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that searches for a target in a matrix where each row is sorted and first element of each row is greater than last of previous.",
+    "input": "First line contains rows, cols and target. Next rows lines contain the matrix.",
+    "output": "Print \"Found\" or \"Not Found\".",
+    "constraints": "1 ≤ rows, cols ≤ 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000145.c",
+    "fileSHA": "2edcd38b86bb58f34b7a9dd1f6924fccac8acd0ff9aea267f54780743983e38e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:23:08.716982+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2edcd38b86bb58f34b7a9dd1f6924fccac8acd0ff9aea267f54780743983e38e",
+    "normalizedCodeHash": "2edcd38b86bb58f34b7a9dd1f6924fccac8acd0ff9aea267f54780743983e38e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:23:08.716982+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

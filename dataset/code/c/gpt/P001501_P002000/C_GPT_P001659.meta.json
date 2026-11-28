@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001659",
+  "problemId": "P001659",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001659",
+    "title": "Populate Next Right Pointers in Each Node",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, connect every node to its immediate neighbor on the same level using a next pointer. If no such neighbor exists, the next pointer must be set to null.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the value of the next pointer for every node in level order.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001659.c",
+    "fileSHA": "f6b8e23b48d03fad22142d0e264ce493873363ed9f37df446b9281a7f6a9aa38",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.136Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a5669f3f786e554837b426d57dc009b6ac9a100d1af7e1afcff91690d3408a08",
+    "normalizedCodeHash": "f6b8e23b48d03fad22142d0e264ce493873363ed9f37df446b9281a7f6a9aa38",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.137Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

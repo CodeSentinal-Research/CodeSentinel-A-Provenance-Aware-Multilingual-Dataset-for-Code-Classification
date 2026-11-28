@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001815",
+  "problemId": "P001815",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001815",
+    "title": "Count Pairs Across Two Binary Search Trees with a Given Sum",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given two Binary Search Trees and an integer K, determine the number of pairs formed by selecting one node from each tree such that the sum of their values equals K.",
+    "input": "\u2022 The first line contains N\u2081. \u2022 The next N\u2081 lines describe the first BST. \u2022 The following line contains N\u2082. \u2022 The next N\u2082 lines describe the second BST. \u2022 The last line contains K.",
+    "output": "\u2022 Print the number of qualifying pairs.",
+    "constraints": "\u2022 0 \u2264 N\u2081, N\u2082 \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0109_convert_sorted_list_to_binary_search_tree/bst_convert.c",
+    "fileSHA": "88434f09414daa090ab30c587f16d6c68512cf17",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0109_convert_sorted_list_to_binary_search_tree/bst_convert.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0109_convert_sorted_list_to_binary_search_tree/bst_convert.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3e7c2ebcb67515a4f5627574584dd15d916b6b6b9dd7123e9aafdc7ebaefd8b2",
+    "normalizedCodeHash": "3e7c2ebcb67515a4f5627574584dd15d916b6b6b9dd7123e9aafdc7ebaefd8b2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:00:52.733135+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

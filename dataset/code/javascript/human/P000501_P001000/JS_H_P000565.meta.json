@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P000565",
+  "problemId": "P000565",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000565",
+    "title": "Matrix Cells in Distance Order",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given the dimensions of a matrix and the coordinates of a starting cell, return all matrix cells ordered by their Manhattan distance from the starting cell. If multiple cells have the same distance, they may appear in any order.",
+    "input": "Integers rows and cols Integers rCenter and cCenter",
+    "output": "A list of all cell coordinates ordered by increasing Manhattan distance.",
+    "constraints": "1 <= rows, cols <= 100"
+  },
+  "repository": {
+    "name": "zhufuge/leetcode-js",
+    "owner": "zhufuge",
+    "url": "https://github.com/zhufuge/leetcode-js",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P000501_P001000/JS_H_P000565.js",
+    "fileSHA": "da10a3ddfdb5faa9d25366d333f328a268066972",
+    "url": "https://github.com/zhufuge/leetcode-js/blob/dc286c433edf6ce607d0f8a46046384ad72400de/problems/1030-matrix-cells-in-distance-order.js",
+    "rawUrl": "https://raw.githubusercontent.com/zhufuge/leetcode-js/main/problems/1030-matrix-cells-in-distance-order.js"
+  },
+  "matching": {
+    "relevanceScore": 72.86
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2020-03-11T09:24:17Z",
+    "lastCommitDate": "2020-03-11T09:24:17Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "zhufuge"
+    ],
+    "firstKnownAuthor": "zhufuge",
+    "latestKnownAuthor": "zhufuge"
+  },
+  "deduplication": {
+    "rawCodeHash": "41d2c681f5bee6b7e979a54b40bb3fcaae09a3e28ee3fad0b047edf207ce42f3",
+    "normalizedCodeHash": "41d2c681f5bee6b7e979a54b40bb3fcaae09a3e28ee3fad0b047edf207ce42f3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:26:22.476810+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

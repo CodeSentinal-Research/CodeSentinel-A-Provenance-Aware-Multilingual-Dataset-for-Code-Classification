@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001745",
+  "problemId": "P001745",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001745",
+    "title": "Find the Height of Every Node",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree, determine the height of every node, where the height of a node is the number of edges in the longest path from that node to any leaf.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the height of every node.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001745.c",
+    "fileSHA": "6b536ac84e336a2474daca343687ddc84ac4236a98c29fd1f45cb7d3ecdcfe36",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.519Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "dd06fa8041a9d8037332599bc7daa672bbbaf9d9fdefa71d3ef0af3ee871549b",
+    "normalizedCodeHash": "6b536ac84e336a2474daca343687ddc84ac4236a98c29fd1f45cb7d3ecdcfe36",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.519Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

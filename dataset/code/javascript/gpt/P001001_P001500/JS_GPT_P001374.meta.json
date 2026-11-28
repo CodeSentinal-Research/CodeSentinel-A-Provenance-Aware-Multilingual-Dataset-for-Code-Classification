@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001374",
+  "problemId": "P001374",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001374",
+    "title": "Happy Number",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Starting with a positive integer, repeatedly replace the number by the sum of the squares of its digits. Determine whether the process eventually reaches 1 or enters a cycle.",
+    "input": "• First line contains integer N.",
+    "output": "Print YES if N is a happy number; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 2^31−1"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001374.js",
+    "fileSHA": "a461c3a22510634d26fc7dd966729e8e4b81f923d8000b85a618e155bc300e66",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T10:11:26.401164+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a461c3a22510634d26fc7dd966729e8e4b81f923d8000b85a618e155bc300e66",
+    "normalizedCodeHash": "a461c3a22510634d26fc7dd966729e8e4b81f923d8000b85a618e155bc300e66",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T10:11:26.401164+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

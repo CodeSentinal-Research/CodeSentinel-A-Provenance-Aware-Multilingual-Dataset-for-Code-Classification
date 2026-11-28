@@ -1,0 +1,10 @@
+{
+  "problemId": "P001107",
+  "title": "Transitive Closure of a Directed Graph",
+  "category": "Graphs",
+  "difficulty": "Medium",
+  "problemStatement": "Given a directed graph with N vertices, determine whether every vertex is reachable from every other vertex. Output the complete reachability matrix.",
+  "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain directed edges.",
+  "output": "Print an N \u00d7 N matrix where the value at row i and column j is 1 if vertex j is reachable from i, otherwise 0.",
+  "constraints": "\u2022 1 \u2264 N \u2264 500 \u2022 0 \u2264 M \u2264 N(N\u22121)"
+}

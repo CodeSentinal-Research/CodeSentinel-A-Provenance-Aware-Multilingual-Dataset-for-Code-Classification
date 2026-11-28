@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000603",
+  "problemId": "P000603",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000603",
+    "title": "Partition Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a linked list and an integer x, partition the list so that all nodes with values less than x come before nodes with values greater than or equal to x. The original relative order of nodes in each partition must be preserved. Return the head of the partitioned linked list.",
+    "input": "Integer n Linked list Integer x",
+    "output": "The partitioned linked list.",
+    "constraints": "0 <= n <= 200 -100 <= node.value <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000603",
+    "fileSHA": "7af42b82845592613c7ae1a8415c6420e0bdc97afca4bc91858040871404bd22",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:48:55.001884+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7af42b82845592613c7ae1a8415c6420e0bdc97afca4bc91858040871404bd22",
+    "normalizedCodeHash": "7af42b82845592613c7ae1a8415c6420e0bdc97afca4bc91858040871404bd22",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:48:55.001908+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

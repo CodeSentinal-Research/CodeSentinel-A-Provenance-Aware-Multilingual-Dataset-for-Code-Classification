@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_QWEN_P000499",
+  "problemId": "P000499",
+  "language": "javascript",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000499",
+    "title": "Make The String Great",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "A string is considered good if it does not contain two adjacent characters that are the same letter but in different cases (for example, 'aA' or 'Bb'). Given a string s, repeatedly remove such adjacent pairs until no more can be removed. Return the final good string.",
+    "input": "A single string s.",
+    "output": "The resulting good string.",
+    "constraints": "1 <= s.length <= 10^5 s consists of uppercase and lowercase English letters."
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/JS_QWEN_P000499",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

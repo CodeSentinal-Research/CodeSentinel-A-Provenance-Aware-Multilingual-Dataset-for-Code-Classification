@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001390",
+  "problemId": "P001390",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001390",
+    "title": "Longest Zero Sum Subarray",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array, determine the length of the longest contiguous subarray whose sum equals 0.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the maximum length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001390",
+    "fileSHA": "db73002202ecb55fe87a11e351ea8fc2feafbf02095fadc49bdfc8bc566c2501",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:24:57.773805+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "db73002202ecb55fe87a11e351ea8fc2feafbf02095fadc49bdfc8bc566c2501",
+    "normalizedCodeHash": "db73002202ecb55fe87a11e351ea8fc2feafbf02095fadc49bdfc8bc566c2501",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:24:57.773833+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000951",
+  "problemId": "P000951",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000951",
+    "title": "Sum of Totients",
+    "category": "Mathematics - Euler Totient Function",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer N, compute the sum of Euler's Totient Function values from 1 to N.",
+    "input": "Integer N",
+    "output": "The value of Σφ(i) for 1 ≤ i ≤ N.",
+    "constraints": "1 <= N <= 10^7"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000951",
+    "fileSHA": "7b4d0b19bd9f999d9ad5a47cbf744e3e16351ca2de5923a026aa542bf2ccb09c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7b4d0b19bd9f999d9ad5a47cbf744e3e16351ca2de5923a026aa542bf2ccb09c",
+    "normalizedCodeHash": "7b4d0b19bd9f999d9ad5a47cbf744e3e16351ca2de5923a026aa542bf2ccb09c",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000951"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

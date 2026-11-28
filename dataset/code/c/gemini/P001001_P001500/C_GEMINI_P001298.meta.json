@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001298",
+  "problemId": "P001298",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001298",
+    "title": "Maximum Number of Weeks for Projects",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given multiple projects, each requiring a certain number of weeks, work on exactly one project per week without working on the same project in consecutive weeks whenever possible. Determine the maximum number of weeks that can be worked.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing the required weeks for each project.",
+    "output": "Print the maximum number of workable weeks.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001298",
+    "fileSHA": "43c3d9f8b18112370135b12d852d30a30b14b424287b4d71a5ad07701adc01f0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:20:53.859922+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "43c3d9f8b18112370135b12d852d30a30b14b424287b4d71a5ad07701adc01f0",
+    "normalizedCodeHash": "43c3d9f8b18112370135b12d852d30a30b14b424287b4d71a5ad07701adc01f0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:20:53.859946+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

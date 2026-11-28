@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000567",
+  "problemId": "P000567",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000567",
+    "title": "Cut Off Trees for Golf Event",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a forest represented as a grid. 0 represents an obstacle. 1 represents empty ground. Values greater than 1 represent trees with unique heights. Starting from the top-left cell, cut all trees in increasing order of height. Return the minimum total number of steps required to cut every tree, or -1 if any tree cannot be reached.",
+    "input": "Integers m and n An m \u00d7 n grid",
+    "output": "A single integer representing the minimum number of steps.",
+    "constraints": "1 <= m, n <= 50"
+  },
+  "repository": {
+    "name": "freebsd/freebsd-src",
+    "owner": "freebsd",
+    "url": "https://github.com/freebsd/freebsd-src",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "contrib/llvm-project/llvm/include/llvm/ExecutionEngine/JITEventListener.h",
+    "fileSHA": "e13ac1d3e976b6fd2dacbada64fd64dccb9a4ae0",
+    "url": "https://github.com/freebsd/freebsd-src/blob/main/contrib/llvm-project/llvm/include/llvm/ExecutionEngine/JITEventListener.h",
+    "rawUrl": "https://raw.githubusercontent.com/freebsd/freebsd-src/main/contrib/llvm-project/llvm/include/llvm/ExecutionEngine/JITEventListener.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2d52aae5ff31b25bd30045c95e9421d590d05cd8bc984ce5f8ab5080bed5c807",
+    "normalizedCodeHash": "2d52aae5ff31b25bd30045c95e9421d590d05cd8bc984ce5f8ab5080bed5c807",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:47:17.149438+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

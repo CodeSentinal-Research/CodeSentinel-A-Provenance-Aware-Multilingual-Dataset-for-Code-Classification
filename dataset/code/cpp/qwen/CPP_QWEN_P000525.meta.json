@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000525",
+  "problemId": "P000525",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000525",
+    "title": "Beautiful Towers II",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "You are given the maximum allowed heights of n towers. Construct the heights of all towers such that: Each height is at least 1. Each height does not exceed its maximum allowed height. Heights are non-increasing as you move away from a chosen peak. Return the maximum possible sum of all tower heights. Unlike the previous version, this problem requires an efficient solution for much larger input sizes.",
+    "input": "Integer n Array maxHeights",
+    "output": "A single integer.",
+    "constraints": "1 <= n <= 2 \u00d7 10^5 1 <= maxHeights[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000525",
+    "fileSHA": "a8e18d8a681fb467dcec427842abcab97c9f69ac5d8ab73b52998245d4b0ab8d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.442Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a61cbfd8b9cb07cd19fb24f9aada426128788095143b02103aebe82dfbc344ea",
+    "normalizedCodeHash": "5a4fa370d44850ba182952d34366015fc4b879144be7eec98c4fb2673b5f475f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.442Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

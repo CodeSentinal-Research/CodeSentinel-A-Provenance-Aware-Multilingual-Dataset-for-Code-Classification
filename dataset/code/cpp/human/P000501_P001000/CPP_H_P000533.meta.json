@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000533",
+  "problemId": "P000533",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000533",
+    "title": "Moving Average from Data Stream",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Design a data structure that calculates the moving average of the last size values from a stream of integers. For each incoming value, return the average of the most recent size elements currently in the window.",
+    "input": "Integer size Integer q Next q integers representing the stream.",
+    "output": "For each inserted value, print the current moving average.",
+    "constraints": "1 <= size <= 10^5 1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "locphamv/cpp-learning",
+    "owner": "locphamv",
+    "url": "https://github.com/locphamv/cpp-learning",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "DSA/01-weekly-assignments/week4/9.Moving_average_from_data_stream.cpp",
+    "fileSHA": "68f78161fdb0cebab0278f97747019a5f2c17e25",
+    "url": "https://github.com/locphamv/cpp-learning/blob/78d1cb5e8becc2b8e31718cce91cae592af4c920/DSA/01-weekly-assignments/week4/9.Moving_average_from_data_stream.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/locphamv/cpp-learning/main/DSA/01-weekly-assignments/week4/9.Moving_average_from_data_stream.cpp"
+  },
+  "matching": {
+    "relevanceScore": 84.4
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "aee02476db720047fa09a8edb8dbc00444153e439b2c633300a641207a0ac211",
+    "normalizedCodeHash": "aee02476db720047fa09a8edb8dbc00444153e439b2c633300a641207a0ac211",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T07:19:15.050593+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

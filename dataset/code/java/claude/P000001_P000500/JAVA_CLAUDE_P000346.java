@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{static boolean isSub(String w,String s){int i=0;for(char c:s.toCharArray())if(i<w.length()&&c==w.charAt(i))i++;return i==w.length();}public static void main(String[]a){Scanner sc=new Scanner(System.in);String s=sc.next();int n=sc.nextInt();String best="";while(n-->0){String w=sc.next();if(isSub(w,s)&&(w.length()>best.length()||(w.length()==best.length()&&w.compareTo(best)<0)))best=w;}System.out.println(best);}}

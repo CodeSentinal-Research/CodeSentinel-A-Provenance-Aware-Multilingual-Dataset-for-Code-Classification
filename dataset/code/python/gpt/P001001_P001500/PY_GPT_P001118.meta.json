@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001118",
+  "problemId": "P001118",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001118",
+    "title": "Alien Dictionary",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a sorted dictionary of words from an unknown language, determine one valid ordering of the characters in that language.",
+    "input": "• First line contains integer N. • Next N lines contain the words.",
+    "output": "Print one valid ordering of the characters. If no ordering exists, print IMPOSSIBLE.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • Total characters ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001118.py",
+    "fileSHA": "f9a561805228f89f753ae3c666fc1dfff8bd0471e307656f8b187154115b5535",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.423722+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f9a561805228f89f753ae3c666fc1dfff8bd0471e307656f8b187154115b5535",
+    "normalizedCodeHash": "1599b4f87f2b778b864d124dbdea7b93847c79d9d4f0ff7ff15166d3d54fc96f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.423722+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

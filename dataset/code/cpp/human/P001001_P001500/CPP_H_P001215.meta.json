@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001215",
+  "problemId": "P001215",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001215",
+    "title": "Remove Boxes",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given a sequence of colored boxes, repeatedly remove contiguous groups of boxes having the same color. Removing k adjacent boxes of the same color scores k\u00b2 points. Determine the maximum obtainable score.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing colors.",
+    "output": "Print the maximum obtainable score.",
+    "constraints": "\u2022 1 \u2264 N \u2264 200"
+  },
+  "repository": {
+    "name": "ghostmkg/dsa-code",
+    "owner": "ghostmkg",
+    "url": "https://github.com/ghostmkg/dsa-code",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c++/546_RemoveBoxes.cpp",
+    "fileSHA": "0a32599ad882816364347cabc6453752b5c6c233",
+    "url": "https://github.com/ghostmkg/dsa-code/blob/6e6f6da6ba53eb1e59116394051c8d4f0ed47ef0/c++/546_RemoveBoxes.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/ghostmkg/dsa-code/main/c++/546_RemoveBoxes.cpp"
+  },
+  "matching": {
+    "relevanceScore": 80.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1e19a5af7999cf89c66f5201b414930ef516b11ddb908e59308232c3deef248f",
+    "normalizedCodeHash": "1e19a5af7999cf89c66f5201b414930ef516b11ddb908e59308232c3deef248f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T15:35:37.246568+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000485",
+  "problemId": "P000485",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000485",
+    "title": "Asteroid Collision",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an array of integers representing asteroids moving along a straight line. Positive values move right. Negative values move left. When two asteroids moving in opposite directions collide: The smaller one explodes. If both have the same size, both explode. Asteroids moving in the same direction never collide. Return the final state of the asteroids.",
+    "input": "Integer n Array of integers.",
+    "output": "The remaining asteroids after all collisions.",
+    "constraints": "1 <= n <= 10^5 -1000 <= asteroid[i] <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000001_P000500/JS_GPT_P000485.js",
+    "fileSHA": "2a74f09d750ec50d8ebefc67a232cbfc21c6b2b5c1ac15bd6ebb75d742904f71",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2a74f09d750ec50d8ebefc67a232cbfc21c6b2b5c1ac15bd6ebb75d742904f71",
+    "normalizedCodeHash": "2a74f09d750ec50d8ebefc67a232cbfc21c6b2b5c1ac15bd6ebb75d742904f71",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

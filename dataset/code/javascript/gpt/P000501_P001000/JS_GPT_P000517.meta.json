@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000517",
+  "problemId": "P000517",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000517",
+    "title": "Maximum Width Ramp",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "A ramp is a pair of indices (i, j) such that i < j and nums[i] <= nums[j]. Find the maximum width of a ramp in the array, where the width is j - i. Return the maximum possible width.",
+    "input": "Integer n Array nums",
+    "output": "A single integer representing the maximum width.",
+    "constraints": "2 <= n <= 5 × 10^4 0 <= nums[i] <= 5 × 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000517.js",
+    "fileSHA": "9a6b22947ebc885f1ddc0124b985bf03a5ff8b54617b38ba0c9a10b5867899c1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9a6b22947ebc885f1ddc0124b985bf03a5ff8b54617b38ba0c9a10b5867899c1",
+    "normalizedCodeHash": "9a6b22947ebc885f1ddc0124b985bf03a5ff8b54617b38ba0c9a10b5867899c1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

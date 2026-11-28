@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P001216",
+  "problemId": "P001216",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001216",
+    "title": "Minimum Cost Tree From Leaf Values",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given the inorder traversal of the leaf nodes of a binary tree, construct a binary tree such that every non-leaf node equals the product of the largest leaf values in its left and right subtrees. Determine the minimum possible sum of all non-leaf nodes.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the minimum possible sum.",
+    "constraints": "\u2022 2 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "jz33/LeetCodeSolutions",
+    "owner": "jz33",
+    "url": "https://github.com/jz33/LeetCodeSolutions",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P001001_P001500/PY_H_P001216.py",
+    "fileSHA": "36c75493128a5023d58ad8626debcd902b965187",
+    "url": "https://github.com/jz33/LeetCodeSolutions/blob/86c869ff3bc611042c79007bfbaa9163f335fecf/T-1130 Minimum Cost Tree From Leaf Values.py",
+    "rawUrl": "https://raw.githubusercontent.com/jz33/LeetCodeSolutions/main/T-1130 Minimum Cost Tree From Leaf Values.py"
+  },
+  "matching": {
+    "relevanceScore": 80.0
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2020-06-27T18:59:00Z",
+    "lastCommitDate": "2020-06-27T18:59:00Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Jun"
+    ],
+    "firstKnownAuthor": "Jun",
+    "latestKnownAuthor": "Jun"
+  },
+  "deduplication": {
+    "rawCodeHash": "047e173677369f159cba836d43014712e08300b518d953e1038a7ef9b14beff7",
+    "normalizedCodeHash": "047e173677369f159cba836d43014712e08300b518d953e1038a7ef9b14beff7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T08:43:18.891903+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

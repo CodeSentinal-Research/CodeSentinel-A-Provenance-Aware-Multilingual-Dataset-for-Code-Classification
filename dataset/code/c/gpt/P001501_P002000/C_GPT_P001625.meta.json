@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001625",
+  "problemId": "P001625",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001625",
+    "title": "Construct a Two-Dimensional Prefix Sum Matrix",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an N × M matrix of integers, construct its two-dimensional prefix sum matrix, where each cell contains the sum of all elements in the rectangle from (0,0) to the current cell.",
+    "input": "• First line contains N and M. • Next N lines each contain M integers.",
+    "output": "• Print the two-dimensional prefix sum matrix.",
+    "constraints": "• 1 ≤ N,M ≤ 1000 • -10^5 ≤ Aij ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001625.c",
+    "fileSHA": "c4349c127c968a45db494cfffe940b615f70f5e4f6c8e6b1b9aacd9b59dd4f63",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.032Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "28b9e43b41ebfbe05d327520787ed58ce22c5c05d8b8b461339351ae9e211104",
+    "normalizedCodeHash": "c4349c127c968a45db494cfffe940b615f70f5e4f6c8e6b1b9aacd9b59dd4f63",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.032Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

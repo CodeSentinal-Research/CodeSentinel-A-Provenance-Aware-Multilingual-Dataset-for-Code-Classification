@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000571",
+  "problemId": "P000571",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000571",
+    "title": "Hot Potato Game",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "There are N players standing in a circle, numbered from 1 to N. Starting from player 1, a token is passed clockwise exactly K times. The player holding the token after the K-th pass is eliminated. The process continues with the next player until only one player remains. Return the number of the winning player.",
+    "input": "Integer N Integer K",
+    "output": "The winning player's number.",
+    "constraints": "1 <= N <= 10^5 1 <= K <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000571",
+    "fileSHA": "47c42c1c18d614f0229eb41d4d083b1a2441264b7d87fd560be66c24b2b5138a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "47c42c1c18d614f0229eb41d4d083b1a2441264b7d87fd560be66c24b2b5138a",
+    "normalizedCodeHash": "47c42c1c18d614f0229eb41d4d083b1a2441264b7d87fd560be66c24b2b5138a",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000571: Hot Potato Game"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

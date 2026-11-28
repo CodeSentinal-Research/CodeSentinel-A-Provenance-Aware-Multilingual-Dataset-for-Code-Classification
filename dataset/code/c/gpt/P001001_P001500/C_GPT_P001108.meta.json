@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001108",
+  "problemId": "P001108",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001108",
+    "title": "Reachability Queries",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a directed graph and Q queries, determine whether there exists a path from vertex u to vertex v for each query.",
+    "input": "• First line contains integers N, M, and Q. • Next M lines contain directed edges. • Next Q lines contain two integers u and v.",
+    "output": "For each query, print YES if a path exists; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M, Q ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001108.c",
+    "fileSHA": "dae429375fa9ff6d991ec86b4f2846b39c1cec4d4b555923fa518cb70bd992d2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.030Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "50f27c5de1aafdc33cacc4f0b693ab731f9489a29d13150a53f7e7e2fc654647",
+    "normalizedCodeHash": "dae429375fa9ff6d991ec86b4f2846b39c1cec4d4b555923fa518cb70bd992d2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.031Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

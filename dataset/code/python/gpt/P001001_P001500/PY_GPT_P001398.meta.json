@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001398",
+  "problemId": "P001398",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001398",
+    "title": "Find Common Characters",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given N lowercase strings, determine all characters that appear in every string, including duplicate occurrences.",
+    "input": "• First line contains integer N. • Next N lines contain one lowercase string.",
+    "output": "Print all common characters in sorted order.",
+    "constraints": "• 1 ≤ N ≤ 1000 • String length ≤ 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001398.py",
+    "fileSHA": "01a8d7fb5640ff6a9372cc73d4d421aac960ca6f72a811bee42b8d7b4add68ca",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.624981+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "01a8d7fb5640ff6a9372cc73d4d421aac960ca6f72a811bee42b8d7b4add68ca",
+    "normalizedCodeHash": "f9b44fb4022ff0ddc354180571c432b718f065a7b72e512e89a9896f96ec67a1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.624981+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

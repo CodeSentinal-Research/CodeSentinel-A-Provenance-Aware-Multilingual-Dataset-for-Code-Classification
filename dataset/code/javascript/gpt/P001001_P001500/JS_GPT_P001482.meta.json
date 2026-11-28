@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001482",
+  "problemId": "P001482",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001482",
+    "title": "Bag of Tokens",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an array of token values and an initial amount of power. A token may be played face up to gain score by spending power or face down to gain power by spending score. Determine the maximum score that can be achieved.",
+    "input": "• First line contains integers N and Power. • Second line contains N integers representing token values.",
+    "output": "Print the maximum obtainable score.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001482.js",
+    "fileSHA": "c8dd9dced42985d366e6db7ef14dd4acf4b914fb32b8c19188561e391a857d9f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c8dd9dced42985d366e6db7ef14dd4acf4b914fb32b8c19188561e391a857d9f",
+    "normalizedCodeHash": "c8dd9dced42985d366e6db7ef14dd4acf4b914fb32b8c19188561e391a857d9f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

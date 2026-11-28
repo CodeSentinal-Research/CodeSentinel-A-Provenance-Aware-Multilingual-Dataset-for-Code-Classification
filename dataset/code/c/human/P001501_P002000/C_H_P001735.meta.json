@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001735",
+  "problemId": "P001735",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001735",
+    "title": "Check Whether a Binary Tree is a Subtree of Itself After Mirroring",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree, determine whether its mirror image exists as a subtree within the original tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print YES if the mirrored tree appears as a subtree; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/C",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/C",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "data_structures/binary_trees/segment_tree.c",
+    "fileSHA": "c50bae18531fd2a774c9a997db8f9777ff483c84",
+    "url": "https://github.com/TheAlgorithms/C/blob/master/data_structures/binary_trees/segment_tree.c",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/C/master/data_structures/binary_trees/segment_tree.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "36c85c8de9cf62439ab59e57f6c1b78d7766b5d9d4cba68a38622e676758cae9",
+    "normalizedCodeHash": "36c85c8de9cf62439ab59e57f6c1b78d7766b5d9d4cba68a38622e676758cae9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T16:12:16.223204+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

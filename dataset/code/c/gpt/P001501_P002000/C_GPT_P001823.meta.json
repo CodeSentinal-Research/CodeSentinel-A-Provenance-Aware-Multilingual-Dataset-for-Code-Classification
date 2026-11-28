@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001823",
+  "problemId": "P001823",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001823",
+    "title": "Verify Whether a Postorder Traversal Can Represent a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a sequence of distinct integers, determine whether it can represent the postorder traversal of a Binary Search Tree.",
+    "input": "• The first line contains an integer N. • The second line contains the sequence.",
+    "output": "• Print YES if the sequence is valid; otherwise print NO.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001823.c",
+    "fileSHA": "faa8231ffcfb30b69f013055e526b807a778447bb781537a036be79b493a5c92",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.766Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "e0b19a1075a614a1284f2b28a441548d2c763ca64206d354987919ba2b7d9399",
+    "normalizedCodeHash": "faa8231ffcfb30b69f013055e526b807a778447bb781537a036be79b493a5c92",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.766Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

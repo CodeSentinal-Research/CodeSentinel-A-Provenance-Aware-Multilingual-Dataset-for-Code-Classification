@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000520",
+  "problemId": "P000520",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000520",
+    "title": "Remove Stars From a String",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a string containing lowercase English letters and the character '*'. Each '*' removes itself and the closest non-removed character immediately to its left. Return the final string after processing all stars.",
+    "input": "A single string s.",
+    "output": "The resulting string.",
+    "constraints": "1 <= s.length <= 10^5 The input is guaranteed to be valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000520",
+    "fileSHA": "24586e89ebbb49a4fbbe11356ceb0dbacd18854f1d1cc38abff792d2bcc6e446",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.434Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "137bad5463d62d09c28902b5df5b476c25dc8b4ce8c8a3e7c3510ba6d7491ebb",
+    "normalizedCodeHash": "a495b95252146ecc1b383f59c7ba5e66de8784b1ead3476b6cb62907299a532c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.434Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

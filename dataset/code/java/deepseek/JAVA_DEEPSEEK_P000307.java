@@ -1,0 +1,73 @@
+import java.util.*;
+
+public class Main {
+    public static List<String> removeInvalidParentheses(String s) {
+        List<String> result = new ArrayList<>();
+        if (s == null) {
+            return result;
+        }
+
+        Set<String> visited = new HashSet<>();
+        Queue<String> queue = new LinkedList<>();
+
+        queue.add(s);
+        visited.add(s);
+
+        boolean found = false;
+
+        while (!queue.isEmpty()) {
+            s = queue.poll();
+
+            if (isValid(s)) {
+                result.add(s);
+                found = true;
+           
+            }
+
+            if (found) {
+                continue;
+            }
+
+            for (int i = 0; i < s.length(); i++) {
+                if (s.charAt(i) != '(' && s.charAt(i) != ')') {
+                    continue;
+                }
+
+                String t = s.substring(0, i) + s.substring(i + 1);
+
+                if (!visited.contains(t)) {
+                    queue.add(t);
+                    visited.add(t);
+                }
+            }
+        }
+
+        return result;
+    }
+
+    public static boolean isValid(String s) {
+        int count = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
+                count++;
+            } else if (s.charAt(i) == ')') {
+                if (count == 0) {
+                    return false;
+                }
+                count--;
+            }
+        }
+
+        return count == 0;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.next();
+        List<String> result = removeInvalidParentheses(s);
+        for (String str : result) {
+            System.out.println(str);
+        }
+    }
+}

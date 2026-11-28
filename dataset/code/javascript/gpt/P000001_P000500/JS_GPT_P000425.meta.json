@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000425",
+  "problemId": "P000425",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000425",
+    "title": "Search Inactive Bank Accounts",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Retrieve all bank accounts that have not recorded any transactions during the past specified number of months.",
+    "input": "Account records and the inactivity period.",
+    "output": "Inactive accounts.",
+    "constraints": "1 ≤ Number of Accounts ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000001_P000500/JS_GPT_P000425.js",
+    "fileSHA": "c6720efea28586a188985df2dc44a9239986853b0a2f2fb3ef7a076e0d6f3b0f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c6720efea28586a188985df2dc44a9239986853b0a2f2fb3ef7a076e0d6f3b0f",
+    "normalizedCodeHash": "c6720efea28586a188985df2dc44a9239986853b0a2f2fb3ef7a076e0d6f3b0f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

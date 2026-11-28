@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000541",
+  "problemId": "P000541",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000541",
+    "title": "Rotting Oranges",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an m \u00d7 n grid where: 0 represents an empty cell. 1 represents a fresh orange. 2 represents a rotten orange. Every minute, any fresh orange adjacent (up, down, left, or right) to a rotten orange also becomes rotten. Return the minimum number of minutes required until no fresh oranges remain. If it is impossible, return -1.",
+    "input": "Integers m and n An m \u00d7 n integer grid",
+    "output": "A single integer representing the required minutes.",
+    "constraints": "1 <= m, n <= 100"
+  },
+  "repository": {
+    "name": "KavyashreeSN/leetcode-dsa--practice",
+    "owner": "KavyashreeSN",
+    "url": "https://github.com/KavyashreeSN/leetcode-dsa--practice",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Graphs/Rotten_oranges.cpp",
+    "fileSHA": "d8cbd853e015ff0a8bb95ecbc0139b6e4fed35ff",
+    "url": "https://github.com/KavyashreeSN/leetcode-dsa--practice/blob/38c75f543ecc39107b2f66e508df50b096916c47/Graphs/Rotten_oranges.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/KavyashreeSN/leetcode-dsa--practice/main/Graphs/Rotten_oranges.cpp"
+  },
+  "matching": {
+    "relevanceScore": 90.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2904ac62ddb8dab20cb7bfd9145dcfa070778e4331c0d4376b36db1ff9b12c71",
+    "normalizedCodeHash": "2904ac62ddb8dab20cb7bfd9145dcfa070778e4331c0d4376b36db1ff9b12c71",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:31:29.822016+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

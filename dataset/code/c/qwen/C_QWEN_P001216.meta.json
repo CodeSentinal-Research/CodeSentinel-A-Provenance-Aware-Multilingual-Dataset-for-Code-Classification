@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_QWEN_P001216",
+  "problemId": "P001216",
+  "language": "c",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001216",
+    "title": "Minimum Cost Tree From Leaf Values",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given the inorder traversal of the leaf nodes of a binary tree, construct a binary tree such that every non-leaf node equals the product of the largest leaf values in its left and right subtrees. Determine the minimum possible sum of all non-leaf nodes.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the minimum possible sum.",
+    "constraints": "\u2022 2 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/C_QWEN_P001216",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

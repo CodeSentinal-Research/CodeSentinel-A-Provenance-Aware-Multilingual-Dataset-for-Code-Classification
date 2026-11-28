@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001170",
+  "problemId": "P001170",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001170",
+    "title": "Cherry Pickup",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 N grid containing cherries, empty cells, and blocked cells, determine the maximum number of cherries that can be collected by traveling from the top-left corner to the bottom-right corner and then returning to the starting cell without collecting the same cherry more than once.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain N integers representing the grid.",
+    "output": "Print the maximum number of cherries that can be collected.",
+    "constraints": "\u2022 1 \u2264 N \u2264 200"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001170",
+    "fileSHA": "8d39daa46c0ddb95f3c10000858c5e4e8fa60a8c818d6de679944ba01c196c43",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:14:15.514219+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8d39daa46c0ddb95f3c10000858c5e4e8fa60a8c818d6de679944ba01c196c43",
+    "normalizedCodeHash": "8d39daa46c0ddb95f3c10000858c5e4e8fa60a8c818d6de679944ba01c196c43",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:14:15.514235+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

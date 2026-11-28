@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001423",
+  "problemId": "P001423",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001423",
+    "title": "Find and Replace Pattern",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given a list of words and a pattern, return all words that match the pattern through a bijective character mapping.",
+    "input": "• First line contains integer N. • Next N lines contain one word each. • Last line contains the pattern.",
+    "output": "Print all matching words in lexicographical order.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • Word length ≤ 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001423.js",
+    "fileSHA": "c9a5b6c4b6330adab6f45599686049bec2c739f0fda77fdfb90d8cae835c9343",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c9a5b6c4b6330adab6f45599686049bec2c739f0fda77fdfb90d8cae835c9343",
+    "normalizedCodeHash": "c9a5b6c4b6330adab6f45599686049bec2c739f0fda77fdfb90d8cae835c9343",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

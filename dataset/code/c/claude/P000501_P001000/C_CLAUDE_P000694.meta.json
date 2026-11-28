@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000694",
+  "problemId": "P000694",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000694",
+    "title": "Binary Search Using Recursion",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given a sorted array of integers and a target value, return the index of the target using recursive binary search. If the target does not exist, return -1.",
+    "input": "Integer n Sorted array nums Integer target",
+    "output": "The index of the target, or -1 if it is not found.",
+    "constraints": "1 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000694",
+    "fileSHA": "88d3d61221cb42d0daee1aaa2ee1c69bc2789794e53e04f1487624fab02bdae1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "88d3d61221cb42d0daee1aaa2ee1c69bc2789794e53e04f1487624fab02bdae1",
+    "normalizedCodeHash": "88d3d61221cb42d0daee1aaa2ee1c69bc2789794e53e04f1487624fab02bdae1",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000694"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

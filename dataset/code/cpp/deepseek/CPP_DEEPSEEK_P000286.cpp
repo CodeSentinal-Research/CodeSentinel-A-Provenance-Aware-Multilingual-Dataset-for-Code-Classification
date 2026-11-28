@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string S;
+    cin >> S;
+    int i = 0, j = S.size() - 1;
+    while(i < j) {
+        if(!isalpha(S[i])) {
+            i++;
+            continue;
+        }
+        if(!isalpha(S[j])) {
+            j--;
+            continue;
+        }
+        swap(S[i], S[j]);
+        i++;
+        j--;
+    }
+    cout << S;
+    return 0;
+}

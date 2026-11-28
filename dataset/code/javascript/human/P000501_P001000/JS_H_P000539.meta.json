@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000539",
+  "problemId": "P000539",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000539",
+    "title": "First Unique Number",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Design a data structure that maintains a queue of integers and supports the following operations: showFirstUnique() \u2014 Return the first unique integer in the queue. If no unique integer exists, return -1. add(value) \u2014 Add an integer to the end of the queue. Initially, the queue is populated with a given list of integers. Process a sequence of operations and print the result for every showFirstUnique() operation.",
+    "input": "Integer n Array of n integers Integer q Next q operations",
+    "output": "Print the result for every showFirstUnique() operation.",
+    "constraints": "1 <= n, q <= 10^5 1 <= value <= 10^8"
+  },
+  "repository": {
+    "name": "TheAlgorithms/JavaScript",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/JavaScript",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "String/test/FirstUniqueCharacter.test.js",
+    "fileSHA": "b2bc46501819a1b16ca63a6d22d28f744d26b004",
+    "url": "https://github.com/TheAlgorithms/JavaScript/blob/master/String/test/FirstUniqueCharacter.test.js",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/JavaScript/master/String/test/FirstUniqueCharacter.test.js"
+  },
+  "matching": {
+    "relevanceScore": 70.3
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "fc78daa2f1e52ff09f0cdaa92ebd689a397949cd0a9d93623c768e4bfc2a7707",
+    "normalizedCodeHash": "fc78daa2f1e52ff09f0cdaa92ebd689a397949cd0a9d93623c768e4bfc2a7707",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T02:04:05.117379+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

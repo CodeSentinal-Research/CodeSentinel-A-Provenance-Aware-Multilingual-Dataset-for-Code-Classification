@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000752",
+  "problemId": "P000752",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000752",
+    "title": "Print Any One Subsequence with Given Sum",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and an integer target, print any one subsequence whose sum equals target. If no such subsequence exists, print -1.",
+    "input": "Integer n Array nums Integer target",
+    "output": "Any one valid subsequence, or -1 if none exists.",
+    "constraints": "1 <= n <= 30 -100 <= nums[i] <= 100"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/0392-is-subsequence.c",
+    "fileSHA": "b91f6bc9319cd56ecc27b1204f2e9c274752c421",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/c/0392-is-subsequence.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/0392-is-subsequence.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "03586d81c0d8b20febd27dcda14120d3886683ff30a35ad976def31d6cd0048b",
+    "normalizedCodeHash": "03586d81c0d8b20febd27dcda14120d3886683ff30a35ad976def31d6cd0048b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:06.593926+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

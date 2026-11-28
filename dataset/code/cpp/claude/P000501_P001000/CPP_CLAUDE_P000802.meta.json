@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000802",
+  "problemId": "P000802",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000802",
+    "title": "Maximum Side Length of a Square with Sum at Most Threshold",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N × M matrix of non-negative integers and an integer threshold, determine the maximum side length of a square whose sum of elements is at most threshold.",
+    "input": "Integer N Integer M Matrix grid Integer threshold",
+    "output": "The maximum possible side length.",
+    "constraints": "1 <= N, M <= 300 0 <= grid[i][j] <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000802",
+    "fileSHA": "6fcbaf3e486dcb3eaa39fed1739cdb8e234cee76cae3e52a368e885b0e9b4c40",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6fcbaf3e486dcb3eaa39fed1739cdb8e234cee76cae3e52a368e885b0e9b4c40",
+    "normalizedCodeHash": "6fcbaf3e486dcb3eaa39fed1739cdb8e234cee76cae3e52a368e885b0e9b4c40",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000802"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

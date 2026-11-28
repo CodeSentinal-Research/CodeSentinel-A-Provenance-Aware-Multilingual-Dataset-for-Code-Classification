@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001154",
+  "problemId": "P001154",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001154",
+    "title": "Matrix Chain Multiplication",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given the dimensions of a sequence of matrices, determine the minimum number of scalar multiplications required to multiply the matrices together.",
+    "input": "• First line contains integer N. • Second line contains N+1 integers representing matrix dimensions.",
+    "output": "Print the minimum number of scalar multiplications.",
+    "constraints": "• 2 ≤ N ≤ 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001154.c",
+    "fileSHA": "3721ba27165fc9edc9eb23a85bf8e5eee2f1804bf2715362db97a39aeee379d6",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.140Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "600a6165c6e6a23c373bdd6e55025a8f50e0a9fb45594867f2fdc33063faa9f8",
+    "normalizedCodeHash": "3721ba27165fc9edc9eb23a85bf8e5eee2f1804bf2715362db97a39aeee379d6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.140Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

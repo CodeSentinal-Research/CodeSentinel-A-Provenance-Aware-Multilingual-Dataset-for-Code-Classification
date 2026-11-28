@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000539",
+  "problemId": "P000539",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000539",
+    "title": "First Unique Number",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Design a data structure that maintains a queue of integers and supports the following operations: showFirstUnique() — Return the first unique integer in the queue. If no unique integer exists, return -1. add(value) — Add an integer to the end of the queue. Initially, the queue is populated with a given list of integers. Process a sequence of operations and print the result for every showFirstUnique() operation.",
+    "input": "Integer n Array of n integers Integer q Next q operations",
+    "output": "Print the result for every showFirstUnique() operation.",
+    "constraints": "1 <= n, q <= 10^5 1 <= value <= 10^8"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000539",
+    "fileSHA": "be26b7f21bb5b06d4bdb4f0d72a740de324601ac4550dffded6107b855890409",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "be26b7f21bb5b06d4bdb4f0d72a740de324601ac4550dffded6107b855890409",
+    "normalizedCodeHash": "be26b7f21bb5b06d4bdb4f0d72a740de324601ac4550dffded6107b855890409",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000539: First Unique Number"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

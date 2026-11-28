@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000499",
+  "problemId": "P000499",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000499",
+    "title": "Make The String Great",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "A string is considered good if it does not contain two adjacent characters that are the same letter but in different cases (for example, 'aA' or 'Bb'). Given a string s, repeatedly remove such adjacent pairs until no more can be removed. Return the final good string.",
+    "input": "A single string s.",
+    "output": "The resulting good string.",
+    "constraints": "1 <= s.length <= 10^5 s consists of uppercase and lowercase English letters."
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "java/gemini/JAVA_GEMINI_P000499",
+    "fileSHA": "0d0b35ec8e4956a009e72eaa2b258a3550dc5031d72ead87b4a2915153f72a60",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:39:49.990783+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0d0b35ec8e4956a009e72eaa2b258a3550dc5031d72ead87b4a2915153f72a60",
+    "normalizedCodeHash": "0d0b35ec8e4956a009e72eaa2b258a3550dc5031d72ead87b4a2915153f72a60",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:39:49.990826+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

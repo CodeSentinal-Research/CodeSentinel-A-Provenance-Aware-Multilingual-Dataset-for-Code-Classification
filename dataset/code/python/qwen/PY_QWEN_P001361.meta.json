@@ -1,0 +1,75 @@
+{
+ "solutionId": "PY_QWEN_P001361",
+ "problemId": "P001361",
+ "language": "python",
+ "label": "qwen_generated",
+ "problem": {
+  "problemId": "P001361",
+  "title": "Stickers to Spell Word",
+  "category": "Backtracking",
+  "difficulty": "Hard",
+  "problemStatement": "Given a collection of stickers containing lowercase English letters and a target word, determine the minimum number of stickers required to form the target word. Each sticker may be used multiple times.",
+  "input": "\u2022 First line contains integer N. \u2022 Next N lines contain sticker strings. \u2022 Last line contains the target word.",
+  "output": "Print the minimum number of stickers required, or -1 if impossible.",
+  "constraints": "\u2022 1 \u2264 N \u2264 50 \u2022 Sticker length \u2264 15 \u2022 Target length \u2264 15"
+ },
+ "repository": {
+  "name": "qwen-python-solutions",
+  "owner": "qwen",
+  "url": "https://github.com/qwen/qwen-python-solutions",
+  "defaultBranch": "main",
+  "license": "MIT",
+  "stars": 0,
+  "forks": 0,
+  "fork": false,
+  "createdAt": "",
+  "updatedAt": "",
+  "pushedAt": "",
+  "language": "python",
+  "disabled": false,
+  "archived": false,
+  "private": false
+ },
+ "source": {
+  "path": "py/qwen/P001361/P001361.py",
+  "fileSHA": "AI_GENERATED",
+  "commitSHA": "AI_GENERATED",
+  "url": "N/A",
+  "rawUrl": "N/A"
+ },
+ "matching": {
+  "relevanceScore": 100.0
+ },
+ "provenance": {
+  "score": 100.0,
+  "level": "AI_GENERATED",
+  "preCutoffEvidence": false,
+  "firstCommitDate": "2026-08-22T12:00:00Z",
+  "lastCommitDate": "2026-08-22T12:00:00Z",
+  "commitCount": 1,
+  "authorCount": 1,
+  "authors": [
+   "Qwen AI"
+  ],
+  "firstKnownAuthor": "Qwen AI",
+  "latestKnownAuthor": "Qwen AI"
+ },
+ "deduplication": {
+  "rawCodeHash": "N/A",
+  "normalizedCodeHash": "N/A",
+  "duplicate": false,
+  "duplicateOf": null
+ },
+ "validation": {
+  "syntaxValid": true,
+  "utf8Valid": true,
+  "nonEmpty": true,
+  "isText": true,
+  "hasGeneratedMarkers": false,
+  "reason": null
+ },
+ "collection": {
+  "collectedAt": "2026-08-22T12:00:00.000000+00:00",
+  "pipelineVersion": "1.0.0"
+ }
+}

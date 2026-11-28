@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000544",
+  "problemId": "P000544",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000544",
+    "title": "Open the Lock",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You have a lock with four circular wheels, each displaying a digit from 0 to 9. Initially, the lock displays \"0000\". In one move, you may rotate any one wheel one position forward or backward. Some combinations are deadends. If the lock reaches a deadend, it can no longer be used. Given the list of deadends and a target combination, determine the minimum number of moves required to reach the target. Return -1 if it is impossible.",
+    "input": "Integer d Array of deadend strings Target string",
+    "output": "A single integer.",
+    "constraints": "1 <= d <= 500 Every combination has exactly four digits."
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "C++/open-the-lock.cpp",
+    "fileSHA": "85cda74fedf9b1c22b8da03f44bd85ae6bd88d0f",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/open-the-lock.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/C++/open-the-lock.cpp"
+  },
+  "matching": {
+    "relevanceScore": 70.41
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "fb44d2914c66bddb5c7175bcb9f6ea5d48fa24db5b5300dc5324ad30362df561",
+    "normalizedCodeHash": "fb44d2914c66bddb5c7175bcb9f6ea5d48fa24db5b5300dc5324ad30362df561",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (C++ Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:54:18.917716+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

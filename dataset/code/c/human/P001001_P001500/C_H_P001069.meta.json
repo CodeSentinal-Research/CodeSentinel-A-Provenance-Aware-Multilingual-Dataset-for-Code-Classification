@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001069",
+  "problemId": "P001069",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001069",
+    "title": "Shortest Path in a Directed Acyclic Graph",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a weighted Directed Acyclic Graph (DAG) and a source vertex S, determine the shortest distance from S to every other vertex.",
+    "input": "\u2022 First line contains integers N, M, and S. \u2022 Next M lines contain three integers u, v, and w.",
+    "output": "Print the shortest distance from S to every vertex. Print -1 for unreachable vertices.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5 \u2022 -10^4 \u2264 w \u2264 10^4"
+  },
+  "repository": {
+    "name": "PhilipPanda/LearnC",
+    "owner": "PhilipPanda",
+    "url": "https://github.com/PhilipPanda/LearnC",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "DataStructures/examples/07_graph.c",
+    "fileSHA": "2b4bcd2067bee6a21e15488167f2431adff80722",
+    "url": "https://github.com/PhilipPanda/LearnC/blob/6b08707e03025185fc8e72000fa459590c6617cb/DataStructures/examples/07_graph.c",
+    "rawUrl": "https://raw.githubusercontent.com/PhilipPanda/LearnC/main/DataStructures/examples/07_graph.c"
+  },
+  "matching": {
+    "relevanceScore": 90.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b2e2ef2557db01d0afae90b55f8d9f804a32bf0c6864833146a6677e1ee0777a",
+    "normalizedCodeHash": "b2e2ef2557db01d0afae90b55f8d9f804a32bf0c6864833146a6677e1ee0777a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T06:03:56.730281+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

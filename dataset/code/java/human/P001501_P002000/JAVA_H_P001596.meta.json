@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001596",
+  "problemId": "P001596",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001596",
+    "title": "Count Positive Numbers in a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple range queries, determine the number of positive integers in each specified range.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Next Q lines contain L and R.",
+    "output": "\u2022 For each query, print the count.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "elastic/elasticsearch",
+    "owner": "elastic",
+    "url": "https://github.com/elastic/elasticsearch",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "libs/exponential-histogram/src/main/java/org/elasticsearch/exponentialhistogram/BucketIterator.java",
+    "fileSHA": "0d06c0663006ac68315c01edf39e4ec3740c0b30",
+    "url": "https://github.com/elastic/elasticsearch/blob/3bca3d4a913632e6f76c52d3b6170812f328c054/libs/exponential-histogram/src/main/java/org/elasticsearch/exponentialhistogram/BucketIterator.java",
+    "rawUrl": "https://raw.githubusercontent.com/elastic/elasticsearch/main/libs/exponential-histogram/src/main/java/org/elasticsearch/exponentialhistogram/BucketIterator.java"
+  },
+  "matching": {
+    "relevanceScore": 80.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d2df4c0fd70cf9308c541104ac324f2cfe108e52bb8dd67ec02f2f68ff2acf80",
+    "normalizedCodeHash": "d2df4c0fd70cf9308c541104ac324f2cfe108e52bb8dd67ec02f2f68ff2acf80",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T18:32:52.964693+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000906",
+  "problemId": "P000906",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000906",
+    "title": "Modular Multiplication",
+    "category": "Mathematics - Modular Arithmetic",
+    "difficulty": "Easy",
+    "problemStatement": "Given integers A, B, and M, compute (A \u00d7 B) mod M.",
+    "input": "Integer A Integer B Integer M",
+    "output": "The result of modular multiplication.",
+    "constraints": "1 <= M <= 10^18 0 <= A, B <= 10^18"
+  },
+  "repository": {
+    "name": "nrfconnect/sdk-nrf",
+    "owner": "nrfconnect",
+    "url": "https://github.com/nrfconnect/sdk-nrf",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "subsys/nrf_security/src/drivers/cracen/silexpk/target/hw/ba414/regs_commands.h",
+    "fileSHA": "ccd6c31ba375b482b5a69e86f3d9e342c9c0a530",
+    "url": "https://github.com/nrfconnect/sdk-nrf/blob/bc9281bb55fb3260be988b41d1fe2f8cbe7bf6ce/subsys/nrf_security/src/drivers/cracen/silexpk/target/hw/ba414/regs_commands.h",
+    "rawUrl": "https://raw.githubusercontent.com/nrfconnect/sdk-nrf/main/subsys/nrf_security/src/drivers/cracen/silexpk/target/hw/ba414/regs_commands.h"
+  },
+  "matching": {
+    "relevanceScore": 86.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b93b9be8a305b6aff47ffa450689434501180504b29eadeb61f9d7c31e72a65d",
+    "normalizedCodeHash": "b93b9be8a305b6aff47ffa450689434501180504b29eadeb61f9d7c31e72a65d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T14:39:36.535172+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

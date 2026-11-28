@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001068",
+  "problemId": "P001068",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001068",
+    "title": "Topological Sorting",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a Directed Acyclic Graph (DAG), produce one valid topological ordering of its vertices.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain directed edges.",
+    "output": "Print any valid topological ordering. If the graph is not a DAG, print IMPOSSIBLE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/sorts/TopologicalSort.java",
+    "fileSHA": "382ddde9a6f2863fa9e463f3f3b59b9ec1dba959",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/sorts/TopologicalSort.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/sorts/TopologicalSort.java"
+  },
+  "matching": {
+    "relevanceScore": 70.0
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d339d3eaa4e38fbb722b5b4c951412516afe40eea8c32db470c75c28083710c7",
+    "normalizedCodeHash": "d339d3eaa4e38fbb722b5b4c951412516afe40eea8c32db470c75c28083710c7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:54:58.817045+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

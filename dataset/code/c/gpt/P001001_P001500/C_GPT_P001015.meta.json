@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001015",
+  "problemId": "P001015",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001015",
+    "title": "Top K Frequent Elements",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and an integer K, determine the K most frequently occurring elements. If multiple answers are possible, return any valid order.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print the K most frequent elements.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001015.c",
+    "fileSHA": "35ee97a4b21cf38fb6962a5c5750e28e3678d8f2a38912d8d82d8a85397dc54b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:32.776Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a145b22e84ec665053f65a10dd31ee71b112446de65dc4e0bb50fb2c9187d673",
+    "normalizedCodeHash": "35ee97a4b21cf38fb6962a5c5750e28e3678d8f2a38912d8d82d8a85397dc54b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:32.776Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

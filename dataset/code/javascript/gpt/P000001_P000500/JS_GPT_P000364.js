@@ -1,0 +1,2 @@
+// Search Multiple Target Values
+const fs=require("fs");const a=fs.readFileSync(0,"utf8").trim().split(/\s+/).map(Number);let p=0,n=a[p++],set=new Set(a.slice(p,p+n));p+=n;const q=a[p++],out=[];for(let i=0;i<q;i++)out.push(set.has(a[p++])?"Found":"Not Found");console.log(out.join("\n"));

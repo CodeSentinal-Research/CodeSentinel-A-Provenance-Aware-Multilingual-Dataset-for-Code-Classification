@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000420",
+  "problemId": "P000420",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000420",
+    "title": "Search Available Parking Slots",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Retrieve all parking slots that are currently vacant.",
+    "input": "Parking slot records.",
+    "output": "List of vacant slots.",
+    "constraints": "1 ≤ Number of Slots ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000420.py",
+    "fileSHA": "33fd689ca2535264fc1a82278df636fc9b4d73931fd068165b55d16dc7313031",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:03.534804+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "33fd689ca2535264fc1a82278df636fc9b4d73931fd068165b55d16dc7313031",
+    "normalizedCodeHash": "6e73d7c9795c3b7c1d99364b4c29f50a6887ffdf36bf816a0394c6c4ddd08054",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:03.534804+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

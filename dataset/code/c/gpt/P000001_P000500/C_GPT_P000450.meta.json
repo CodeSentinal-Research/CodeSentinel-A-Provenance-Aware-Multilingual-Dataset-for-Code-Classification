@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000450",
+  "problemId": "P000450",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000450",
+    "title": "Find Kth Missing Positive Number",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that finds the kth missing positive integer from a sorted array of unique positives.",
+    "input": "First line contains N and K. Second line contains N sorted unique positives.",
+    "output": "The kth missing positive number.",
+    "constraints": "1 ≤ N ≤ 1000, 1 ≤ K ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000450.c",
+    "fileSHA": "e37c80d4ab11dd2b32373cb1e91b5cad919c79a88986e99d5901f54bc4a8d34d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e37c80d4ab11dd2b32373cb1e91b5cad919c79a88986e99d5901f54bc4a8d34d",
+    "normalizedCodeHash": "e37c80d4ab11dd2b32373cb1e91b5cad919c79a88986e99d5901f54bc4a8d34d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

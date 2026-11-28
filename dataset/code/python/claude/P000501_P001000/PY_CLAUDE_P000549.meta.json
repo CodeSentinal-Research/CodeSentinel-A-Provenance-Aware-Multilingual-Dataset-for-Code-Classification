@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000549",
+  "problemId": "P000549",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000549",
+    "title": "Stack Permutation Check",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Given two integer arrays input and output of equal length, determine whether the output sequence can be obtained from the input sequence using a single stack. Simulate the process using a queue for the input sequence and a stack for intermediate storage. Return true if the transformation is possible; otherwise return false.",
+    "input": "Integer n Array input Array output",
+    "output": "true if the output sequence is valid, otherwise false.",
+    "constraints": "1 <= n <= 10^5 All elements are distinct."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000549",
+    "fileSHA": "465730fd93648307063f86cd3bf6379986719632a2886da0e65c17d4f3837a59",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "465730fd93648307063f86cd3bf6379986719632a2886da0e65c17d4f3837a59",
+    "normalizedCodeHash": "465730fd93648307063f86cd3bf6379986719632a2886da0e65c17d4f3837a59",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000549: Stack Permutation Check"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

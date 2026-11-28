@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000774",
+  "problemId": "P000774",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000774",
+    "title": "Recursive Word Search",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N × M grid of characters and a target word, determine whether the word can be formed by traversing adjacent cells. Adjacent cells are horizontally or vertically neighboring. A cell may not be used more than once in a path. Solve the problem recursively.",
+    "input": "Integer N Integer M Character matrix board String word",
+    "output": "true if the word exists in the grid, otherwise false.",
+    "constraints": "1 <= N, M <= 10 1 <= |word| <= N × M"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000774.py",
+    "fileSHA": "049e75eb54983a6fe420bb7ca53b2204d12070615c5e8ce38d9bbbae15ad7973",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.991353+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "049e75eb54983a6fe420bb7ca53b2204d12070615c5e8ce38d9bbbae15ad7973",
+    "normalizedCodeHash": "d24112516cc0a4fb0a2645fd7e4d2e5cefeb5e01f0d74ed759ea7214a84fb560",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.991353+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001141",
+  "problemId": "P001141",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001141",
+    "title": "Subset Sum Problem",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of positive integers and a target sum S, determine whether there exists a subset whose sum is exactly S.",
+    "input": "• First line contains integers N and S. • Second line contains N integers.",
+    "output": "Print YES if such a subset exists; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 200 • 1 ≤ S ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001141.c",
+    "fileSHA": "99efbd3db3f60e6933cf3d96d403cd33f84470bd0391a760fa38419eb9985ed3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.110Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "4eea03573bde833b0c81dbe628a1c083969b9254ab19e5a9efaadba35f2e594b",
+    "normalizedCodeHash": "99efbd3db3f60e6933cf3d96d403cd33f84470bd0391a760fa38419eb9985ed3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.110Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

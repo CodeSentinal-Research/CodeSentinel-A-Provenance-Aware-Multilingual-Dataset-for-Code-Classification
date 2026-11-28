@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000713",
+  "problemId": "P000713",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000713",
+    "title": "Combination Sum II",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of positive integers that may contain duplicates and a target value, return all unique combinations where each number may be used at most once. Print the combinations in lexicographical order.",
+    "input": "Integer n Array candidates Integer target",
+    "output": "All unique valid combinations.",
+    "constraints": "1 <= n <= 100 1 <= candidates[i] <= 50 1 <= target <= 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000713",
+    "fileSHA": "548147d31b96e33ae89227e22ef45f9a030c620d2d95b4864a6ed9ba5fe87181",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:54:46.940829+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "548147d31b96e33ae89227e22ef45f9a030c620d2d95b4864a6ed9ba5fe87181",
+    "normalizedCodeHash": "548147d31b96e33ae89227e22ef45f9a030c620d2d95b4864a6ed9ba5fe87181",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:54:46.940848+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

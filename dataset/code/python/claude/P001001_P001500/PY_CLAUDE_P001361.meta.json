@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_CLAUDE_P001361",
+  "problemId": "P001361",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001361",
+    "title": "Stickers to Spell Word",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given a collection of stickers containing lowercase English letters and a target word, determine the minimum number of stickers required to form the target word. Each sticker may be used multiple times.",
+    "input": "• First line contains integer N. • Next N lines contain sticker strings. • Last line contains the target word.",
+    "output": "Print the minimum number of stickers required, or -1 if impossible.",
+    "constraints": "• 1 ≤ N ≤ 50 • Sticker length ≤ 15 • Target length ≤ 15"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P001361",
+    "fileSHA": "65c1056f0f35011801d4fbc87813fee097948e61e4eb98ae5d65c177869e8ae4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f506c5ccd4ce7291e092698d2922329b6620a8819e4c7b1df4045794b6c5fc1d",
+    "normalizedCodeHash": "65c1056f0f35011801d4fbc87813fee097948e61e4eb98ae5d65c177869e8ae4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

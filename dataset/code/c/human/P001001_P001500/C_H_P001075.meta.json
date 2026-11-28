@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001075",
+  "problemId": "P001075",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001075",
+    "title": "Bellman-Ford Algorithm",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a weighted directed graph that may contain negative edge weights, determine the shortest distance from a source vertex to every other vertex. If a negative weight cycle exists, report it.",
+    "input": "\u2022 First line contains integers N, M, and S. \u2022 Next M lines contain three integers u, v, and w.",
+    "output": "Print NEGATIVE CYCLE if one exists; otherwise print the shortest distances.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AlgoGenesis/C",
+    "owner": "AlgoGenesis",
+    "url": "https://github.com/AlgoGenesis/C",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Graph Algorithms/Bellman-Ford Algorithm/Program.c",
+    "fileSHA": "d9c1d67782b0dc9a72f95fa289857cfea157cc5b",
+    "url": "https://github.com/AlgoGenesis/C/blob/8b34b9124e4937d045a9df5f6b26510819de169f/Graph Algorithms/Bellman-Ford Algorithm/Program.c",
+    "rawUrl": "https://raw.githubusercontent.com/AlgoGenesis/C/main/Graph Algorithms/Bellman-Ford Algorithm/Program.c"
+  },
+  "matching": {
+    "relevanceScore": 78.16
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2e736545c8427cc5e80f66852f69ca211355f39179b9fcc55b596c5a5470f0b4",
+    "normalizedCodeHash": "2e736545c8427cc5e80f66852f69ca211355f39179b9fcc55b596c5a5470f0b4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:27:22.497837+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

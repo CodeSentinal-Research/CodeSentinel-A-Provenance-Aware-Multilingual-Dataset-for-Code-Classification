@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001091",
+  "problemId": "P001091",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001091",
+    "title": "Lowest Common Ancestor Queries",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a rooted tree and Q queries, determine the Lowest Common Ancestor (LCA) for each pair of queried vertices.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Next N\u22121 lines contain tree edges. \u2022 Next Q lines contain two vertices.",
+    "output": "Print the LCA for each query.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001091",
+    "fileSHA": "0f07f7ae744c328f91d8403395dd963b790df029c5d61d006c29096c1c20f982",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.602Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "51903d1602849dbc31fd0559b448c627151ae5c534daf3c20076ad039f0a8066",
+    "normalizedCodeHash": "4d4399e92b4601983cc0a9332d1c3e8d616f3b67ddb767e2c37c68385cac77ad",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.602Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000654",
+  "problemId": "P000654",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000654",
+    "title": "Rearrange Linked List Around Last Node",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list, rearrange the nodes so that all nodes with values less than the last node's value appear before it, and all nodes with values greater than or equal to it appear after it. The relative order of nodes within each partition must remain unchanged. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The rearranged linked list.",
+    "constraints": "1 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000654.c",
+    "fileSHA": "821cccfaa3f0d6f2b772a3079566a63c1b2be671961ebee66310092ff356d8f4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "821cccfaa3f0d6f2b772a3079566a63c1b2be671961ebee66310092ff356d8f4",
+    "normalizedCodeHash": "821cccfaa3f0d6f2b772a3079566a63c1b2be671961ebee66310092ff356d8f4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

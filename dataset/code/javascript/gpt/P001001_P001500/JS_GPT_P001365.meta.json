@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001365",
+  "problemId": "P001365",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001365",
+    "title": "Gold Mine Path",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a grid where each cell contains a certain amount of gold or is blocked, find the maximum amount of gold that can be collected by starting from any gold cell. You may move up, down, left, or right, and each cell can be visited at most once.",
+    "input": "• First line contains integers R and C. • Next R lines each contain C integers.",
+    "output": "Print the maximum gold collectible.",
+    "constraints": "• 1 ≤ R, C ≤ 15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001365.js",
+    "fileSHA": "e982eca5139fb2af3ae208c7250df4b98c5bbd223e6f424a721fb5f36ef7c0f4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T10:11:26.401164+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e982eca5139fb2af3ae208c7250df4b98c5bbd223e6f424a721fb5f36ef7c0f4",
+    "normalizedCodeHash": "e982eca5139fb2af3ae208c7250df4b98c5bbd223e6f424a721fb5f36ef7c0f4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T10:11:26.401164+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

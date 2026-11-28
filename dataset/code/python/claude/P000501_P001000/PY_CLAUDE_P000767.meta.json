@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000767",
+  "problemId": "P000767",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000767",
+    "title": "Generate All Unique Binary Search Trees",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer N, generate all structurally unique Binary Search Trees containing values from 1 to N. Return the roots of all unique BSTs.",
+    "input": "Integer N",
+    "output": "All unique Binary Search Trees.",
+    "constraints": "1 <= N <= 8"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000767",
+    "fileSHA": "a24ddb8badd4b1d5f5471d47d8aef24fc777bab5727630001aa0bb3ab7a39a6e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a24ddb8badd4b1d5f5471d47d8aef24fc777bab5727630001aa0bb3ab7a39a6e",
+    "normalizedCodeHash": "a24ddb8badd4b1d5f5471d47d8aef24fc777bab5727630001aa0bb3ab7a39a6e",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000767: Generate All Unique Binary Search Trees"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

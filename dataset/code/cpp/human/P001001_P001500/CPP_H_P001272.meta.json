@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001272",
+  "problemId": "P001272",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001272",
+    "title": "Jump Game VI",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array and an integer K, start at index 0 and reach the last index. From position i, you may jump to any index in the range [i+1, i+K]. Each visited element contributes to the score. Determine the maximum obtainable score.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the maximum score.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/cpp/jumpGame/jumpGame.cpp",
+    "fileSHA": "5e6893506a703fe6cdf6c91c1aef324b7778cb3b",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/cpp/jumpGame/jumpGame.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/cpp/jumpGame/jumpGame.cpp"
+  },
+  "matching": {
+    "relevanceScore": 78.24
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b9cce4bff7620078c5eeaaeea2b65dd71fb9a3adb20c4df5abbd50006bddff0f",
+    "normalizedCodeHash": "b9cce4bff7620078c5eeaaeea2b65dd71fb9a3adb20c4df5abbd50006bddff0f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:48:31.812771+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,1 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const n=+l[0];const a=l[1].split(' ').map(Number);const stk=[];for(const x of a){let alive=true;while(alive&&x<0&&stk.length&&stk[stk.length-1]>0){if(stk[stk.length-1]<-x)stk.pop();else if(stk[stk.length-1]===-x){stk.pop();alive=false;}else alive=false;}if(alive)stk.push(x);}console.log(stk.join(' '));

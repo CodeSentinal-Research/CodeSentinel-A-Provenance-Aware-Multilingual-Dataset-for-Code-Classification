@@ -1,0 +1,10 @@
+{
+  "problemId": "P000500",
+  "title": "Crawler Log Folder",
+  "category": "Stack",
+  "difficulty": "Easy",
+  "problemStatement": "A file system starts at the main folder. You are given a sequence of folder operations: \"../\" : Move to the parent folder (if already at the main folder, stay there). \"./\" : Stay in the current folder. \"x/\" : Move into a child folder named x. Determine the minimum number of operations needed to return to the main folder after performing all operations.",
+  "input": "Integer n Array of n folder operations.",
+  "output": "A single integer representing the required number of operations.",
+  "constraints": "1 <= n <= 10^3"
+}

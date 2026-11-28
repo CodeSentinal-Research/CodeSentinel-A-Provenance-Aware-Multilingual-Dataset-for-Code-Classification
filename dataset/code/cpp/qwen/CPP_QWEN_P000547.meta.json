@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000547",
+  "problemId": "P000547",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000547",
+    "title": "Escape the Spreading Fire",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an m \u00d7 n grid containing: 0 for empty land 1 for fire 2 for walls You start at the top-left cell and want to reach the bottom-right cell. Each minute: You may move to an adjacent empty cell. Fire simultaneously spreads to adjacent non-wall cells. Determine the maximum number of minutes you can wait before starting your journey while still being able to safely reach the destination. Return -1 if reaching the destination is impossible.",
+    "input": "Integers m and n An m \u00d7 n grid",
+    "output": "A single integer.",
+    "constraints": "1 <= m, n <= 300"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000547",
+    "fileSHA": "938722bb087de3b138ceec815930ff7a78bde09d396393aed0e416d4b8812ec8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.478Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "4ebe5c02b8cdbab37ca0424d2d4e675abe4fb7a539b4cf70aed41a5959bbe248",
+    "normalizedCodeHash": "7cfed4247a0641014a946dc8925ebddd6804adb7ab8dde5c9eb0bbb7820557d6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.478Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

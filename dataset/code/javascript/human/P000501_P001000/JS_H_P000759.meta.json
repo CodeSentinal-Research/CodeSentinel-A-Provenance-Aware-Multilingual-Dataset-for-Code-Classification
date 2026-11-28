@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P000759",
+  "problemId": "P000759",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000759",
+    "title": "Count Good Numbers",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "A digit string of length N is called good if: Digits at even indices are even (0, 2, 4, 6, 8). Digits at odd indices are prime (2, 3, 5, 7). Return the total number of good digit strings of length N modulo 10^9 + 7. Solve the problem using recursive exponentiation.",
+    "input": "Integer N",
+    "output": "The total number of good strings modulo 10^9 + 7.",
+    "constraints": "1 <= N <= 10^15"
+  },
+  "repository": {
+    "name": "hding49/lcPractice",
+    "owner": "hding49",
+    "url": "https://github.com/hding49/lcPractice",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P000501_P001000/JS_H_P000759.js",
+    "fileSHA": "1bbf3c1211974464d880989e439f68046cca9381",
+    "url": "https://github.com/hding49/lcPractice/blob/8794fd1fef412df34a0f700f28e2b0122bd3cdd2/\u9999\u8549/1922-Count Good Numbers.js",
+    "rawUrl": "https://raw.githubusercontent.com/hding49/lcPractice/main/\u9999\u8549/1922-Count Good Numbers.js"
+  },
+  "matching": {
+    "relevanceScore": 86.87
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2025-04-27T18:28:28Z",
+    "lastCommitDate": "2025-04-27T18:28:28Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Haoran Ding"
+    ],
+    "firstKnownAuthor": "Haoran Ding",
+    "latestKnownAuthor": "Haoran Ding"
+  },
+  "deduplication": {
+    "rawCodeHash": "00b7b732e76146cc14ee38935db06d350ddaa87f4bc3c03d40cc0d470e488762",
+    "normalizedCodeHash": "00b7b732e76146cc14ee38935db06d350ddaa87f4bc3c03d40cc0d470e488762",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T04:33:10.714246+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000669",
+  "problemId": "P000669",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000669",
+    "title": "Find Minimum Value in Linked List",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a singly linked list, return the minimum value present in the list. If the list is empty, return -1.",
+    "input": "Integer n Linked list",
+    "output": "The minimum value, or -1 if the list is empty.",
+    "constraints": "0 <= n <= 10^5 -10^9 <= node.value <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000669",
+    "fileSHA": "d0c875c65864a591b95fe42d9d064d1f1ef46ffcc12fde9e490c59d2aeec496a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d0c875c65864a591b95fe42d9d064d1f1ef46ffcc12fde9e490c59d2aeec496a",
+    "normalizedCodeHash": "d0c875c65864a591b95fe42d9d064d1f1ef46ffcc12fde9e490c59d2aeec496a",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000669"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

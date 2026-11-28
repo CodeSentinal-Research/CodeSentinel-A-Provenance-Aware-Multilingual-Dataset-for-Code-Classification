@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001061",
+  "problemId": "P001061",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001061",
+    "title": "Detect Cycle in a Directed Graph",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given a directed graph with N vertices and M directed edges, determine whether the graph contains at least one cycle.",
+    "input": "\u2022 First line contains two integers N and M. \u2022 The next M lines each contain two integers u and v, representing a directed edge from u to v.",
+    "output": "Print YES if the graph contains a cycle; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5 \u2022 1 \u2264 u, v \u2264 N"
+  },
+  "repository": {
+    "name": "TheAlgorithms/C-Plus-Plus",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/C-Plus-Plus",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "graph/cycle_check_directed_graph.cpp",
+    "fileSHA": "15b92c4d6d296f4c33d8e85bcbe0a4ecdeb4dc3e",
+    "url": "https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/graph/cycle_check_directed_graph.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/C-Plus-Plus/master/graph/cycle_check_directed_graph.cpp"
+  },
+  "matching": {
+    "relevanceScore": 66.93
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "76c068e0936b7ae9c2cfdcc54c22d254ff0bb3ea657267c0697bcdbcd1af33cf",
+    "normalizedCodeHash": "76c068e0936b7ae9c2cfdcc54c22d254ff0bb3ea657267c0697bcdbcd1af33cf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:14:08.235593+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001606",
+  "problemId": "P001606",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001606",
+    "title": "Count Subarrays With Equal Number of Zeros and Ones",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary array, determine the number of contiguous subarrays containing an equal number of 0s and 1s.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N binary integers.",
+    "output": "\u2022 Print the required count.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001606",
+    "fileSHA": "e5c6f38036bb18618c577e88b8b3036dd1d303ad0e49fdd6054a71d363af2c22",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:50.571781+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e5c6f38036bb18618c577e88b8b3036dd1d303ad0e49fdd6054a71d363af2c22",
+    "normalizedCodeHash": "e5c6f38036bb18618c577e88b8b3036dd1d303ad0e49fdd6054a71d363af2c22",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:50.571805+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

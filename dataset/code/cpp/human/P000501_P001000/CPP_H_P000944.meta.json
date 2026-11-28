@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000944",
+  "problemId": "P000944",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000944",
+    "title": "Divisor Game",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Easy",
+    "problemStatement": "Starting with an integer N, players alternate choosing a divisor x such that 0 < x < N and N % x == 0, then replacing N with N - x. The player unable to make a move loses. Determine whether the first player wins.",
+    "input": "Integer N",
+    "output": "Print true if the first player wins; otherwise, print false.",
+    "constraints": "1 <= N <= 1000"
+  },
+  "repository": {
+    "name": "wisdompeak/LeetCode",
+    "owner": "wisdompeak",
+    "url": "https://github.com/wisdompeak/LeetCode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Math/1025.Divisor-Game/1025.Divisor-Game_v2.cpp",
+    "fileSHA": "b84cb1ef93257a8844329e6fd24e7fe2d4ef5bef",
+    "url": "https://github.com/wisdompeak/LeetCode/blob/master/Math/1025.Divisor-Game/1025.Divisor-Game_v2.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/wisdompeak/LeetCode/master/Math/1025.Divisor-Game/1025.Divisor-Game_v2.cpp"
+  },
+  "matching": {
+    "relevanceScore": 70.0
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4fc6e3f338e5cf63e378ede1c7707bf0082b63ad31c71a55018852f82ac32684",
+    "normalizedCodeHash": "4fc6e3f338e5cf63e378ede1c7707bf0082b63ad31c71a55018852f82ac32684",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:42:52.179981+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

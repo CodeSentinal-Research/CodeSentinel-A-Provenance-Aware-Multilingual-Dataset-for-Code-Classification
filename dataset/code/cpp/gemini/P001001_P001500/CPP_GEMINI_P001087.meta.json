@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001087",
+  "problemId": "P001087",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001087",
+    "title": "Check if an Undirected Graph is a Tree",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given an undirected graph with N vertices and M edges, determine whether the graph forms a tree. A graph is a tree if it is connected and contains exactly N\u22121 edges.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain two integers u and v.",
+    "output": "Print YES if the graph is a tree; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001087",
+    "fileSHA": "91b5c1bd5876723a1f556a0c05b824fa029345c454ed8673c699bb4a7d040f6e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:43:33.945612+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "91b5c1bd5876723a1f556a0c05b824fa029345c454ed8673c699bb4a7d040f6e",
+    "normalizedCodeHash": "91b5c1bd5876723a1f556a0c05b824fa029345c454ed8673c699bb4a7d040f6e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:43:33.945643+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

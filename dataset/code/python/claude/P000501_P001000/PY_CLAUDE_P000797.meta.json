@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000797",
+  "problemId": "P000797",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000797",
+    "title": "Count Equal Number of 0s and 1s Subarrays",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary array, return the number of contiguous subarrays containing an equal number of 0s and 1s.",
+    "input": "Integer n Binary array nums",
+    "output": "The number of valid subarrays.",
+    "constraints": "1 <= n <= 2 × 10^5 nums[i] ∈ {0,1}"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000797",
+    "fileSHA": "b97961c56c2f4175ce08f20d1c63c6a4f540fbb2626d6ecb9dac7413fe17a4a0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b97961c56c2f4175ce08f20d1c63c6a4f540fbb2626d6ecb9dac7413fe17a4a0",
+    "normalizedCodeHash": "b97961c56c2f4175ce08f20d1c63c6a4f540fbb2626d6ecb9dac7413fe17a4a0",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000797: Count Equal Number of 0s and 1s Subarrays"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

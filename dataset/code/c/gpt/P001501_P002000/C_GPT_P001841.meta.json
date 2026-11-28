@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001841",
+  "problemId": "P001841",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001841",
+    "title": "Find the Intersection of Two Binary Search Trees",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the roots of two Binary Search Trees, determine all keys that are present in both trees in sorted order.",
+    "input": "• The first line contains N₁. • The next N₁ lines describe the first BST. • The following line contains N₂. • The next N₂ lines describe the second BST.",
+    "output": "• Print all common keys in sorted order.",
+    "constraints": "• 0 ≤ N₁, N₂ ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001841.c",
+    "fileSHA": "55923dcb37dfee4e81badb71a760efb7c5c926a8a4b08243bec7d1f6bc10ef42",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.842Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c99de0b8653ca6a186180eb81b71f25a716c812901b4806df3d2e91bb5d970a4",
+    "normalizedCodeHash": "55923dcb37dfee4e81badb71a760efb7c5c926a8a4b08243bec7d1f6bc10ef42",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.842Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,1 @@
+const s=require("fs").readFileSync("/dev/stdin","utf8").trim();const st=[];let ok=true;const m={")":"(","]":"[","}":"{"};for(const c of s){if("([{".includes(c))st.push(c);else{if(!st.length||st[st.length-1]!==m[c])ok=false;else st.pop();}}if(st.length)ok=false;console.log(ok?"Valid":"Invalid");

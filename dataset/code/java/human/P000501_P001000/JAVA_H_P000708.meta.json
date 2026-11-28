@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000708",
+  "problemId": "P000708",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000708",
+    "title": "Tower of Hanoi",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given N disks placed on the source rod, move all disks to the destination rod using the auxiliary rod. Only one disk may be moved at a time, and a larger disk may never be placed on top of a smaller disk. Print the sequence of moves and the total number of moves.",
+    "input": "Integer N",
+    "output": "The sequence of valid moves. The total number of moves.",
+    "constraints": "1 <= N <= 20"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/puzzlesandgames/TowerOfHanoi.java",
+    "fileSHA": "d94bef69cd3a03ee3594167ba5a928f3f85b1f3f",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/puzzlesandgames/TowerOfHanoi.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/puzzlesandgames/TowerOfHanoi.java"
+  },
+  "matching": {
+    "relevanceScore": 83.93
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "12437fb3aef708af939a9e2e2fd36698826fd72a05a28d766c2ab991232db3f7",
+    "normalizedCodeHash": "12437fb3aef708af939a9e2e2fd36698826fd72a05a28d766c2ab991232db3f7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:54:34.441973+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

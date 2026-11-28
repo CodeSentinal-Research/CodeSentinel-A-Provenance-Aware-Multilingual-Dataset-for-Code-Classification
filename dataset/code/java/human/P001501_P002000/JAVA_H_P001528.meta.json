@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001528",
+  "problemId": "P001528",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001528",
+    "title": "Count Subarrays With At Most K Distinct Elements",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer K, count the number of contiguous subarrays containing at most K distinct elements.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the total number of valid subarrays.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/others/MaximumSumOfDistinctSubarraysWithLengthK.java",
+    "fileSHA": "dec813dd32135fa111c753a0dc47fd3f6bba81d0",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/others/MaximumSumOfDistinctSubarraysWithLengthK.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/others/MaximumSumOfDistinctSubarraysWithLengthK.java"
+  },
+  "matching": {
+    "relevanceScore": 69.17
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d21abcca4b190f8793e1397f1418a7e15a2d8320ff532a58b2874f97118b2d8b",
+    "normalizedCodeHash": "d21abcca4b190f8793e1397f1418a7e15a2d8320ff532a58b2874f97118b2d8b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:32.196979+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

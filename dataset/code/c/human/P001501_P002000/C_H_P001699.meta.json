@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001699",
+  "problemId": "P001699",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001699",
+    "title": "Even-Odd Tree Validation",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, determine whether it satisfies the Even-Odd Tree property. Nodes at even-indexed levels must contain strictly increasing odd values, while nodes at odd-indexed levels must contain strictly decreasing even values.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print YES if the tree satisfies the property; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "libevent/libevent",
+    "owner": "libevent",
+    "url": "https://github.com/libevent/libevent",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "sample/openssl_hostname_validation.c",
+    "fileSHA": "4036ccbaabc9356cae62f408a1175accfd8f6e94",
+    "url": "https://github.com/libevent/libevent/blob/master/sample/openssl_hostname_validation.c",
+    "rawUrl": "https://raw.githubusercontent.com/libevent/libevent/master/sample/openssl_hostname_validation.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c0b5239d364fb1c11e073069024f1ec5045ceea1d6b1b6bbbfecb76e7e7283e1",
+    "normalizedCodeHash": "c0b5239d364fb1c11e073069024f1ec5045ceea1d6b1b6bbbfecb76e7e7283e1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:43:10.432050+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

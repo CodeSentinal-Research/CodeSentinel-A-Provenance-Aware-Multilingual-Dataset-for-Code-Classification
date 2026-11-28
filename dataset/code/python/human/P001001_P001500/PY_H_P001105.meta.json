@@ -1,0 +1,75 @@
+{
+  "solutionId": "PY_H_P001105",
+  "problemId": "P001105",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001105",
+    "title": "Course Schedule",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "There are N courses labeled from 1 to N and a list of prerequisite pairs. Determine whether it is possible to complete all courses.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain prerequisite pairs u and v, indicating that u must be completed before v.",
+    "output": "Print YES if all courses can be completed; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "jz33/LeetCodeSolutions",
+    "owner": "jz33",
+    "url": "https://github.com/jz33/LeetCodeSolutions",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P001001_P001500/PY_H_P001105.py",
+    "fileSHA": "da4311ceed372e048f971733dd614e26b132f6bd",
+    "url": "https://github.com/jz33/LeetCodeSolutions/blob/86c869ff3bc611042c79007bfbaa9163f335fecf/207 Course Schedule.py",
+    "rawUrl": "https://raw.githubusercontent.com/jz33/LeetCodeSolutions/main/207 Course Schedule.py"
+  },
+  "matching": {
+    "relevanceScore": 74.01
+  },
+  "provenance": {
+    "score": 82.5,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2017-10-15T00:52:41Z",
+    "lastCommitDate": "2024-03-05T07:31:23Z",
+    "commitCount": 4,
+    "authorCount": 2,
+    "authors": [
+      "junzheng2023",
+      "Jun"
+    ],
+    "firstKnownAuthor": "Jun",
+    "latestKnownAuthor": "junzheng2023"
+  },
+  "deduplication": {
+    "rawCodeHash": "b48cebf0010dd70ce5c53fd8d3911ce240723159c697af5cbb195422fa61a230",
+    "normalizedCodeHash": "b48cebf0010dd70ce5c53fd8d3911ce240723159c697af5cbb195422fa61a230",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T07:39:19.124987+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000556",
+  "problemId": "P000556",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000556",
+    "title": "Minimum Number of Visited Cells in a Grid",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an m \u00d7 n grid of non-negative integers. Starting from the top-left cell, you may move: Right by at most grid[i][j] cells. Down by at most grid[i][j] cells. Return the minimum number of visited cells needed to reach the bottom-right cell. If the destination cannot be reached, return -1.",
+    "input": "Integers m and n Grid of integers.",
+    "output": "A single integer.",
+    "constraints": "1 <= m, n <= 10^5 m \u00d7 n <= 10^5 0 <= grid[i][j] <= 10^5"
+  },
+  "repository": {
+    "name": "lrmsspace/LLM-CodeQualityEval",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Output/output_Codeium/c/Hard/2238-minimum-number-of-visited-cells-in-a-grid.c",
+    "fileSHA": "ca4dbc59bdcfe36aefd36862b21158f74999e953",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval/blob/a2817bbe913c51ab32afeb6f6d0ad97b92c45075/Output/output_Codeium/c/Hard/2238-minimum-number-of-visited-cells-in-a-grid.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/LLM-CodeQualityEval/main/Output/output_Codeium/c/Hard/2238-minimum-number-of-visited-cells-in-a-grid.c"
+  },
+  "matching": {
+    "relevanceScore": 91.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d7c864f779dcd66a3b8b91eea5b4715c0acae52cc25e1a05551962783839b2e2",
+    "normalizedCodeHash": "d7c864f779dcd66a3b8b91eea5b4715c0acae52cc25e1a05551962783839b2e2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T02:13:28.203114+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

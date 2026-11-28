@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001579",
+  "problemId": "P001579",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001579",
+    "title": "Maximum Count of Negative Numbers in a Window",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and a window size K, determine the maximum number of negative integers present in any contiguous subarray of size K.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the maximum count.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001579.c",
+    "fileSHA": "692318af39bb34243bff9ba15f8d980da1a6c585a0df3bd191970329c40617bc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.830Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c289e039db754a62d3ffd44b5856da424dc3a3aa5ad3dfbb68f5c8e516b93e93",
+    "normalizedCodeHash": "692318af39bb34243bff9ba15f8d980da1a6c585a0df3bd191970329c40617bc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.830Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

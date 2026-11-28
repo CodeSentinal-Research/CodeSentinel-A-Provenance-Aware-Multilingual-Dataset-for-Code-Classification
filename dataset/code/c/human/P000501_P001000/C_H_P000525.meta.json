@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000525",
+  "problemId": "P000525",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000525",
+    "title": "Beautiful Towers II",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "You are given the maximum allowed heights of n towers. Construct the heights of all towers such that: Each height is at least 1. Each height does not exceed its maximum allowed height. Heights are non-increasing as you move away from a chosen peak. Return the maximum possible sum of all tower heights. Unlike the previous version, this problem requires an efficient solution for much larger input sizes.",
+    "input": "Integer n Array maxHeights",
+    "output": "A single integer.",
+    "constraints": "1 <= n <= 2 \u00d7 10^5 1 <= maxHeights[i] <= 10^9"
+  },
+  "repository": {
+    "name": "lrmsspace/Knowledge-Augmented-Codegen",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "evaluation/S0/c/Medium/2411-beautiful-towers-ii.c",
+    "fileSHA": "f35ee229d8ea8c897a013e4cd033ce5a515c263e",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen/blob/aa02d0f7c87de0b9a725c85dfb03746289785175/evaluation/S0/c/Medium/2411-beautiful-towers-ii.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/Knowledge-Augmented-Codegen/main/evaluation/S0/c/Medium/2411-beautiful-towers-ii.c"
+  },
+  "matching": {
+    "relevanceScore": 81.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7016e1341e7813e0ae90459223c826253fe546b17d2c98df7691f804e0a94b18",
+    "normalizedCodeHash": "7016e1341e7813e0ae90459223c826253fe546b17d2c98df7691f804e0a94b18",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T19:14:38.018909+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

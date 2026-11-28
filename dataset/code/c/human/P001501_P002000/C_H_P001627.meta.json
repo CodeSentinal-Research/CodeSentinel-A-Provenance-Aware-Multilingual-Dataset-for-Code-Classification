@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001627",
+  "problemId": "P001627",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001627",
+    "title": "Count Prefixes Divisible by K",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and an integer K, determine how many prefixes have a sum divisible by K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the number of valid prefixes.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K \u2264 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "freebsd/freebsd-src",
+    "owner": "freebsd",
+    "url": "https://github.com/freebsd/freebsd-src",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "contrib/llvm-project/lldb/include/lldb/Utility/RealpathPrefixes.h",
+    "fileSHA": "daa2a479d6a246910c56cb97b0e6d4db7231b9a6",
+    "url": "https://github.com/freebsd/freebsd-src/blob/main/contrib/llvm-project/lldb/include/lldb/Utility/RealpathPrefixes.h",
+    "rawUrl": "https://raw.githubusercontent.com/freebsd/freebsd-src/main/contrib/llvm-project/lldb/include/lldb/Utility/RealpathPrefixes.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d8c5f19badb910e3db977dddbd8eca8e1e34f72a5caca3f84f10caf12be7b5d7",
+    "normalizedCodeHash": "d8c5f19badb910e3db977dddbd8eca8e1e34f72a5caca3f84f10caf12be7b5d7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:44:04.949182+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

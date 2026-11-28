@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000555",
+  "problemId": "P000555",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000555",
+    "title": "Minimum Reverse Operations",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given: An integer n A starting index p A list of banned indices An integer k Initially, a token is placed at index p. In one operation, you may reverse any contiguous subarray of length k containing the token. The token moves to its new position after the reversal. Determine the minimum number of operations required to reach every index. Return -1 for unreachable indices or banned indices.",
+    "input": "Integer n Integer p Integer b Array banned Integer k",
+    "output": "An array of length n where the i-th element is the minimum number of operations required to reach index i.",
+    "constraints": "1 <= n <= 10^5 0 <= p < n 1 <= k <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000555.c",
+    "fileSHA": "3874b8a601df884e71ec7f41cfd151b6c725abcd2fe71a9b2e8f0a806e026770",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3874b8a601df884e71ec7f41cfd151b6c725abcd2fe71a9b2e8f0a806e026770",
+    "normalizedCodeHash": "3874b8a601df884e71ec7f41cfd151b6c725abcd2fe71a9b2e8f0a806e026770",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

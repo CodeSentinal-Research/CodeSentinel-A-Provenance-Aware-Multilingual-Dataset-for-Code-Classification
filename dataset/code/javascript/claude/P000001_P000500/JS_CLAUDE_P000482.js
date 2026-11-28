@@ -1,0 +1,1 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const n=+l[0];const nums1=l[1].split(' ').map(Number);const m=+l[2];const nums2=l[3].split(' ').map(Number);const stk=[],mp={};for(const v of nums2){while(stk.length&&stk[stk.length-1]<v)mp[stk.pop()]=v;stk.push(v);}console.log(nums1.map(v=>mp[v]??-1).join(' '));

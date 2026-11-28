@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000556",
+  "problemId": "P000556",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000556",
+    "title": "Minimum Number of Visited Cells in a Grid",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an m \u00d7 n grid of non-negative integers. Starting from the top-left cell, you may move: Right by at most grid[i][j] cells. Down by at most grid[i][j] cells. Return the minimum number of visited cells needed to reach the bottom-right cell. If the destination cannot be reached, return -1.",
+    "input": "Integers m and n Grid of integers.",
+    "output": "A single integer.",
+    "constraints": "1 <= m, n <= 10^5 m \u00d7 n <= 10^5 0 <= grid[i][j] <= 10^5"
+  },
+  "repository": {
+    "name": "ytnrvdf/wha-spell-simulator",
+    "owner": "ytnrvdf",
+    "url": "https://github.com/ytnrvdf/wha-spell-simulator",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/parser/topologicalFloodFill.js",
+    "fileSHA": "280139acb70324839bbc42d96be9b2586ed49046",
+    "url": "https://github.com/ytnrvdf/wha-spell-simulator/blob/176352ffd69e4558360b9397da2d170808ec1ab3/src/parser/topologicalFloodFill.js",
+    "rawUrl": "https://raw.githubusercontent.com/ytnrvdf/wha-spell-simulator/main/src/parser/topologicalFloodFill.js"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "eceacf292b19fc01c91019129637941151370ad8c0a25a8b0b6a30f368e3fb89",
+    "normalizedCodeHash": "eceacf292b19fc01c91019129637941151370ad8c0a25a8b0b6a30f368e3fb89",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:23:34.978753+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

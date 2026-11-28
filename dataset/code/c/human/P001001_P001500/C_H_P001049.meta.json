@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001049",
+  "problemId": "P001049",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001049",
+    "title": "Replace Multiple Keys in a Heap",
+    "category": "Heap",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary heap and Q update operations, replace the specified keys and restore the heap property after each operation.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Second line contains N integers. \u2022 Next Q lines contain an index and a new value.",
+    "output": "Print the final heap.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 10^5"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/1299-Replace-Elements-With-Greatest-Element-On-Right-Side.c",
+    "fileSHA": "3ed12545fca5d1a9a96593b9be332805f15fbd21",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/c/1299-Replace-Elements-With-Greatest-Element-On-Right-Side.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/1299-Replace-Elements-With-Greatest-Element-On-Right-Side.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3bd5303af61290b1a7200115f3b65a8576ecb0db800fd74107ed83e57f305d1d",
+    "normalizedCodeHash": "3bd5303af61290b1a7200115f3b65a8576ecb0db800fd74107ed83e57f305d1d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:08.213407+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

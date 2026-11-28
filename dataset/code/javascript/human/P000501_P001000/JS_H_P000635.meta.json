@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P000635",
+  "problemId": "P000635",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000635",
+    "title": "Reverse Nodes in Variable Sized Groups",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and an array groups representing group sizes, reverse the nodes according to the given group sizes in order. If the remaining number of nodes is smaller than the current group size, leave those nodes unchanged. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer g Array groups",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= g <= n 1 <= groups[i] <= n"
+  },
+  "repository": {
+    "name": "sarvex/javascript-leetcode",
+    "owner": "sarvex",
+    "url": "https://github.com/sarvex/javascript-leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P000501_P001000/JS_H_P000635.js",
+    "fileSHA": "4ea2fcd73aaec8b71ce0c18aeda91c210abdade5",
+    "url": "https://github.com/sarvex/javascript-leetcode/blob/a9d364c848af9fee2718d7ae1fbea72f48fbc01c/0025.Reverse Nodes in k-Group.js",
+    "rawUrl": "https://raw.githubusercontent.com/sarvex/javascript-leetcode/main/0025.Reverse Nodes in k-Group.js"
+  },
+  "matching": {
+    "relevanceScore": 56.76
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2025-02-28T06:18:58Z",
+    "lastCommitDate": "2025-04-12T06:05:47Z",
+    "commitCount": 2,
+    "authorCount": 1,
+    "authors": [
+      "Sarvex Jatasra"
+    ],
+    "firstKnownAuthor": "Sarvex Jatasra",
+    "latestKnownAuthor": "Sarvex Jatasra"
+  },
+  "deduplication": {
+    "rawCodeHash": "beb7688d643485cc155ac628745d5b44b5f1846235ebae857101d2c903e00cef",
+    "normalizedCodeHash": "beb7688d643485cc155ac628745d5b44b5f1846235ebae857101d2c903e00cef",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:52:49.685149+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

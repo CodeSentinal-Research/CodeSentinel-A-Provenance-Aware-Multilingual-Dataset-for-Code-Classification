@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001855",
+  "problemId": "P001855",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001855",
+    "title": "Determine the Minimum Insertions Required to Transform a Binary Search Tree into a Complete Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a Binary Search Tree, determine the minimum number of new keys that must be inserted so that the resulting tree becomes a complete Binary Search Tree while preserving all existing keys.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST.",
+    "output": "\u2022 Print the minimum number of insertions.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001855",
+    "fileSHA": "1d31a9445680a07e9185e3558475a35eb1c2778fd2b8a7ae23fd028f0d1e3fe9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:31.416037+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1d31a9445680a07e9185e3558475a35eb1c2778fd2b8a7ae23fd028f0d1e3fe9",
+    "normalizedCodeHash": "1d31a9445680a07e9185e3558475a35eb1c2778fd2b8a7ae23fd028f0d1e3fe9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:31.416059+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

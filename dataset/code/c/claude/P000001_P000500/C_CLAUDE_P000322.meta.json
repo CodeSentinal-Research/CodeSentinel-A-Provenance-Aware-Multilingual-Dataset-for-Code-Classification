@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000322",
+  "problemId": "P000322",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000322",
+    "title": "Detect Capital",
+    "category": "Strings",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that checks whether the usage of capitals in a word is correct.",
+    "input": "A string word.",
+    "output": "Print \"Yes\" or \"No\".",
+    "constraints": "1 ≤ |word| ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000322",
+    "fileSHA": "be243c7ebdde34540600ff21742ad1eaaaa7c9b6f31f276634f072f2d3f84763",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "be243c7ebdde34540600ff21742ad1eaaaa7c9b6f31f276634f072f2d3f84763",
+    "normalizedCodeHash": "be243c7ebdde34540600ff21742ad1eaaaa7c9b6f31f276634f072f2d3f84763",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000322: Detect Capital"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

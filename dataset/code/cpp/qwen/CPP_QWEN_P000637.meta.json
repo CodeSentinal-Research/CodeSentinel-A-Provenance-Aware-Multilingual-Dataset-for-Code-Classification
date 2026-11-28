@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000637",
+  "problemId": "P000637",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000637",
+    "title": "Delete Nodes Whose Values Occur More Than Once",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of an unsorted singly linked list, remove every node whose value appears more than once in the list. Only nodes with unique values should remain. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The linked list containing only unique-valued nodes.",
+    "constraints": "0 <= n <= 10^5 -10^9 <= node.value <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000637",
+    "fileSHA": "e641d3fcd026787de62c3991cee153618b05d7147922c73a72c1411c9ed0f57b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.350Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a7c2dc06b866829cac39b6837b272ffc890c790df4e35b4d44e753235c6774b5",
+    "normalizedCodeHash": "b3500715937fadfdffbe5193559f458d1a36f4c3eb300f480d6ee0f995de3244",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.350Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

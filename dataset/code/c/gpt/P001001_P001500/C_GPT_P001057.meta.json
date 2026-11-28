@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001057",
+  "problemId": "P001057",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001057",
+    "title": "Maximum Distinct Elements After K Removals",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and an integer K, remove exactly K elements such that the number of distinct elements remaining in the array is maximized.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print the maximum possible number of distinct elements.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001057.c",
+    "fileSHA": "f6fcc1c71d728dd4ebeab8c3fcb70cf157f04d2c9288377f0e381a2221fa4908",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:32.899Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "51eec565afc7a940eb7e1b9cbb8f2d062009165603dd462f03d403f890fe7e66",
+    "normalizedCodeHash": "f6fcc1c71d728dd4ebeab8c3fcb70cf157f04d2c9288377f0e381a2221fa4908",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:32.899Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000739",
+  "problemId": "P000739",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000739",
+    "title": "Count All Paths in a Maze",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N × M grid where 0 represents a blocked cell and 1 represents an open cell, count the total number of distinct paths from the top-left cell to the bottom-right cell. You may move only Right and Down through open cells.",
+    "input": "Integer N Integer M Matrix grid",
+    "output": "The total number of valid paths.",
+    "constraints": "1 <= N, M <= 15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000739.js",
+    "fileSHA": "668ee0069ed12b145e50871ee9c87ed89a0426354f6251e6ae9ebf7c3f234ef4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "668ee0069ed12b145e50871ee9c87ed89a0426354f6251e6ae9ebf7c3f234ef4",
+    "normalizedCodeHash": "668ee0069ed12b145e50871ee9c87ed89a0426354f6251e6ae9ebf7c3f234ef4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

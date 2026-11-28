@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000554",
+  "problemId": "P000554",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000554",
+    "title": "Nearest Exit from Maze",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an m \u00d7 n maze consisting of: '.' for empty cells. '+' for walls. You are also given the coordinates of the entrance. Find the minimum number of steps required to reach the nearest exit. An exit is any empty cell on the boundary of the maze other than the entrance itself.",
+    "input": "Integers m and n Maze Entrance row and column.",
+    "output": "A single integer representing the minimum number of steps, or -1 if no exit exists.",
+    "constraints": "1 <= m, n <= 100"
+  },
+  "repository": {
+    "name": "lrmsspace/LLM-CodeQualityEval",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Output/output_TY/c/Medium/1425-nearest-exit-from-entrance-in-maze.c",
+    "fileSHA": "5e6132f557b702d876cac193fc36a89bb5f90170",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval/blob/a2817bbe913c51ab32afeb6f6d0ad97b92c45075/Output/output_TY/c/Medium/1425-nearest-exit-from-entrance-in-maze.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/LLM-CodeQualityEval/main/Output/output_TY/c/Medium/1425-nearest-exit-from-entrance-in-maze.c"
+  },
+  "matching": {
+    "relevanceScore": 90.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1e648a77d2ade0e2386d8e4c2c06ffa5b8396c3acc1f2fba141ae07dfabf5700",
+    "normalizedCodeHash": "1e648a77d2ade0e2386d8e4c2c06ffa5b8396c3acc1f2fba141ae07dfabf5700",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T00:37:34.579212+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

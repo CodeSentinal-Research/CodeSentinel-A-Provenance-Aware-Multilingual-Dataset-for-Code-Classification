@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000799",
+  "problemId": "P000799",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000799",
+    "title": "2D Prefix Sum Matrix",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an N \u00d7 M integer matrix, construct its 2D prefix sum matrix. Each cell (i, j) in the prefix matrix should store the sum of all elements in the rectangle from (0,0) to (i,j).",
+    "input": "Integer N Integer M Matrix grid",
+    "output": "The 2D prefix sum matrix.",
+    "constraints": "1 <= N, M <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "javascript/gemini/JS_GEMINI_P000799",
+    "fileSHA": "b1d128fe58f498b103147fadf2779a9639eb40b771708909fd424bbef0df426b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T17:16:02.068048+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b1d128fe58f498b103147fadf2779a9639eb40b771708909fd424bbef0df426b",
+    "normalizedCodeHash": "b1d128fe58f498b103147fadf2779a9639eb40b771708909fd424bbef0df426b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T17:16:02.068070+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

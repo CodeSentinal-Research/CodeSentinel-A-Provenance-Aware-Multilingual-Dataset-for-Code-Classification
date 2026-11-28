@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001001",
+  "problemId": "P001001",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001001",
+    "title": "Find the Kth Largest Element",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given an unsorted array of N integers and an integer K, determine the Kth largest element in the array. Duplicate values should be considered while determining the order.",
+    "input": "\u2022 First line contains two integers N and K. \u2022 Second line contains N space-separated integers.",
+    "output": "Print the Kth largest element.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/0215-kth-largest-element-in-an-array.c",
+    "fileSHA": "2b517ae2414e2feabf6deacd2ed9f222302e7c6c",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/62d62811315e676691c4b8fef58af73494d58b79/c/0215-kth-largest-element-in-an-array.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/0215-kth-largest-element-in-an-array.c"
+  },
+  "matching": {
+    "relevanceScore": 74.38
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "75a8118e746b033cebe688119fdcfb021c7d2287f4e0b72ad6d58fae5a3c86cc",
+    "normalizedCodeHash": "75a8118e746b033cebe688119fdcfb021c7d2287f4e0b72ad6d58fae5a3c86cc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:49:05.682677+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

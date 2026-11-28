@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000599",
+  "problemId": "P000599",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000599",
+    "title": "Delete Duplicates from Sorted Linked List II",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a sorted linked list, delete all nodes that have duplicate values, leaving only nodes whose values appear exactly once. Return the head of the modified linked list.",
+    "input": "Integer n Sorted linked list",
+    "output": "The linked list after removing all duplicate values.",
+    "constraints": "0 <= n <= 300 -100 <= node.value <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000599",
+    "fileSHA": "4f30083c07d48c1050840b7d53c556399395618e79f07698cf76a38892ce5c41",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:25:40.065Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "5c0a982137ee1b2b3a80631e63db12b0dca18f0e4b75930c41e215813c177026",
+    "normalizedCodeHash": "b671ad40c5f12ffa822c706062599af7870eeee17d912355af9a95445820e250",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:25:40.065Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

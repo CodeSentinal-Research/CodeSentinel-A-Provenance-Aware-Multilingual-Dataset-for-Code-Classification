@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001779",
+  "problemId": "P001779",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001779",
+    "title": "Find the Longest Increasing Root-to-Leaf Path",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the longest root-to-leaf path whose values are strictly increasing.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the nodes of the longest increasing path.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "Foloris/safecode",
+    "owner": "Foloris",
+    "url": "https://github.com/Foloris/safecode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "examples/sandbox_repo/lip.c",
+    "fileSHA": "89b716d416485285ec631ce8ba7e0661bf9fcd24",
+    "url": "https://github.com/Foloris/safecode/blob/ea6f953b2f30d460594e8a23703509e26625ad1d/examples/sandbox_repo/lip.c",
+    "rawUrl": "https://raw.githubusercontent.com/Foloris/safecode/main/examples/sandbox_repo/lip.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a905600faaf088155e3192c2315feb9dac3c1bc929199ee6a5f00b651e56bdea",
+    "normalizedCodeHash": "a905600faaf088155e3192c2315feb9dac3c1bc929199ee6a5f00b651e56bdea",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T18:37:36.726747+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

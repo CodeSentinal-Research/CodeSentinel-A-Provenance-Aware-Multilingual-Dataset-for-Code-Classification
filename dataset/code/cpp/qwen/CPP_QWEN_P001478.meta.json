@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001478",
+  "problemId": "P001478",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001478",
+    "title": "Interval List Intersections",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given two lists of disjoint intervals sorted by start time, determine all intersections between the two interval lists.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next N lines contain the first interval list. \u2022 Next M lines contain the second interval list.",
+    "output": "Print all intersecting intervals.",
+    "constraints": "\u2022 0 \u2264 N, M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001478",
+    "fileSHA": "c9f8d43720018550ec99754bf5931683310041ec5b364aaddeebff8b8c030e69",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T04:46:20.323Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "09b5bc0fc0c8eb1754831597534719f04a24eee68b332eefeef04cdcf9cb8943",
+    "normalizedCodeHash": "28109eeee5cf6207f6e69b4ae2187c0971b7064061f81ce1544b1f661f104c9d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T04:46:20.323Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000801",
+  "problemId": "P000801",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000801",
+    "title": "Matrix Block Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N \u00d7 M matrix and an integer K, construct another matrix where each cell contains the sum of all elements whose row and column distances from the current cell are at most K. Use a 2D prefix sum to compute the result efficiently.",
+    "input": "Integer N Integer M Matrix grid Integer K",
+    "output": "The resulting matrix.",
+    "constraints": "1 <= N, M <= 1000"
+  },
+  "repository": {
+    "name": "Vortexx2/DSA-questions",
+    "owner": "Vortexx2",
+    "url": "https://github.com/Vortexx2/DSA-questions",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "leetcode/medium/1314-matrix-block/presum.cpp",
+    "fileSHA": "50d49de8852112d2e219d08d3273923ad3a831de",
+    "url": "https://github.com/Vortexx2/DSA-questions/blob/27ac879864d08c69eadc3787ee9347f8b524c51c/leetcode/medium/1314-matrix-block/presum.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/Vortexx2/DSA-questions/main/leetcode/medium/1314-matrix-block/presum.cpp"
+  },
+  "matching": {
+    "relevanceScore": 81.7
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "34db77f66358e87da7263dc90f7473c9023bf3869721b03ab95f8614eebecdc3",
+    "normalizedCodeHash": "34db77f66358e87da7263dc90f7473c9023bf3869721b03ab95f8614eebecdc3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T15:25:12.962177+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

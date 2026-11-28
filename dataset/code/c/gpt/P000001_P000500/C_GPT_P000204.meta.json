@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000204",
+  "problemId": "P000204",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000204",
+    "title": "Sort Array in Wave Form",
+    "category": "Arrays",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that sorts an array into wave form such that arr[0] >= arr[1] <= arr[2] >= arr[3] ...",
+    "input": "First line contains N. Second line contains N integers.",
+    "output": "The wave-form array.",
+    "constraints": "1 ≤ N ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000204.c",
+    "fileSHA": "a790a88649a542b8d1c2f68b20d3e073b88a923d43bcd7a2a8cc803eb33421bd",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:35:23.300469+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a790a88649a542b8d1c2f68b20d3e073b88a923d43bcd7a2a8cc803eb33421bd",
+    "normalizedCodeHash": "a790a88649a542b8d1c2f68b20d3e073b88a923d43bcd7a2a8cc803eb33421bd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:35:23.300469+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

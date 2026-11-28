@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001201",
+  "problemId": "P001201",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001201",
+    "title": "Minimum Falling Path Sum II",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × N integer matrix, choose exactly one element from each row such that no two consecutive chosen elements are from the same column. Determine the minimum possible total sum.",
+    "input": "• First line contains integer N. • Next N lines each contain N integers.",
+    "output": "Print the minimum possible sum.",
+    "constraints": "• 1 ≤ N ≤ 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001201.py",
+    "fileSHA": "2bb4b565d1b81df89997dd42178752241eb6e310838fce7f5a8ffba9ff1edca7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.760713+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2bb4b565d1b81df89997dd42178752241eb6e310838fce7f5a8ffba9ff1edca7",
+    "normalizedCodeHash": "a20087e742f55d94ed9b92564247fdb2be1c69b0f745cc4817a6e53ec74fcbb4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.760713+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000698",
+  "problemId": "P000698",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000698",
+    "title": "Fast Modular Exponentiation Using Recursion",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given three integers base, exponent, and mod, compute (base^exponent) mod mod using recursive exponentiation by squaring.",
+    "input": "Integer base Integer exponent Integer mod",
+    "output": "The value of (base^exponent) mod mod.",
+    "constraints": "1 <= base, exponent <= 10^18 2 <= mod <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000698.py",
+    "fileSHA": "e833a7cf4b9682e640d35995a75970637631ae3b1632f11ca3b00978072e754d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.716762+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e833a7cf4b9682e640d35995a75970637631ae3b1632f11ca3b00978072e754d",
+    "normalizedCodeHash": "880ee110d994f59a85f3351b041f12772985fa957756cf5b5414e19f154a2e14",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.716762+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

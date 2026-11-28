@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000586",
+  "problemId": "P000586",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000586",
+    "title": "Reverse Nodes in K-Group",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a linked list and an integer k, reverse the nodes of the list k at a time. If the number of remaining nodes is less than k, leave them unchanged. Return the modified linked list.",
+    "input": "Integer n Linked list Integer k",
+    "output": "The linked list after reversing every group of k nodes.",
+    "constraints": "1 <= n <= 5000 1 <= k <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000586.py",
+    "fileSHA": "ec482d8fdff0558d545fb0125972b29b87510a7ca8997633ee26d2f0ab0f06f9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.325996+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ec482d8fdff0558d545fb0125972b29b87510a7ca8997633ee26d2f0ab0f06f9",
+    "normalizedCodeHash": "def00c0f78bd3ff35031b4fd7b675579db46c860b3d2d71610dc370c586c6236",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.325996+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

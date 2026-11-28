@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001373",
+  "problemId": "P001373",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001373",
+    "title": "Contains Duplicate II",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and an integer K, determine whether there exist two equal elements whose indices differ by at most K.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print YES if such a pair exists; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001373.c",
+    "fileSHA": "357df0c20b1daee8ca2e75174ad8cfa15cfeeab6f41933c8a2677f1371fb169b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.125Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "034973b647d009972cb498dd610966adb14658be1cf23fec5ae10c3f855dbbb4",
+    "normalizedCodeHash": "357df0c20b1daee8ca2e75174ad8cfa15cfeeab6f41933c8a2677f1371fb169b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.125Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

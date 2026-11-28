@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000841",
+  "problemId": "P000841",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000841",
+    "title": "Maximum Candies Allocated to K Children",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given piles of candies. Each child must receive the same number of candies from a single pile. Determine the maximum number of candies each of the k children can receive.",
+    "input": "Integer n Array candies Integer k",
+    "output": "The maximum candies per child.",
+    "constraints": "1 <= n <= 10^5 1 <= candies[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000841.js",
+    "fileSHA": "88bcade7929e202b23bf7d156551861aa096ab28c77dade7e0eb00e532885a3b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "88bcade7929e202b23bf7d156551861aa096ab28c77dade7e0eb00e532885a3b",
+    "normalizedCodeHash": "88bcade7929e202b23bf7d156551861aa096ab28c77dade7e0eb00e532885a3b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

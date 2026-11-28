@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000971",
+  "problemId": "P000971",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000971",
+    "title": "Linear Recurrence Evaluation",
+    "category": "Mathematics - Recurrence Relations",
+    "difficulty": "Medium",
+    "problemStatement": "Given constants A, B, initial values F0, F1, and an integer N, evaluate the recurrence: Fn = A × Fn−1 + B × Fn−2",
+    "input": "Integers A, B Integers F0, F1 Integer N",
+    "output": "The value of FN.",
+    "constraints": "0 <= N <= 10^6"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000971.py",
+    "fileSHA": "d5564cad3d4d3bcd98f49c3371eea806fb751358bf4221c21edb9af114821af1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.740981+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d5564cad3d4d3bcd98f49c3371eea806fb751358bf4221c21edb9af114821af1",
+    "normalizedCodeHash": "2bb8b2b79527d3a034c3d9ec75e2ad8aae3d2dbf2ff166f5267e2508ece4257f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.740981+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

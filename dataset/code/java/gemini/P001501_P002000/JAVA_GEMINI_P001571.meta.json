@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001571",
+  "problemId": "P001571",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001571",
+    "title": "Maximum Difference Between First and Last Element in Every Window",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and a window size K, compute the difference between the first and last element for every contiguous subarray of size K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the difference for each window.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001571",
+    "fileSHA": "611dd99071cffc1de5deec3d5e7648b2da37cfbc3b61bf2e04a1384314f309d7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:42.129207+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "611dd99071cffc1de5deec3d5e7648b2da37cfbc3b61bf2e04a1384314f309d7",
+    "normalizedCodeHash": "611dd99071cffc1de5deec3d5e7648b2da37cfbc3b61bf2e04a1384314f309d7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:42.129238+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

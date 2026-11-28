@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000793",
+  "problemId": "P000793",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000793",
+    "title": "Count Nice Subarrays",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array nums and an integer k, return the number of contiguous subarrays containing exactly k odd numbers.",
+    "input": "Integer n Array nums Integer k",
+    "output": "The number of valid subarrays.",
+    "constraints": "1 <= n <= 5 × 10^4 1 <= nums[i] <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000793",
+    "fileSHA": "35cba8908d359ab0238b6c9f78e765c936f5d9a80f231b83199897b6468ceb21",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "35cba8908d359ab0238b6c9f78e765c936f5d9a80f231b83199897b6468ceb21",
+    "normalizedCodeHash": "35cba8908d359ab0238b6c9f78e765c936f5d9a80f231b83199897b6468ceb21",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000793: Count Nice Subarrays"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001447",
+  "problemId": "P001447",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001447",
+    "title": "Sentence Similarity II",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given two sentences and a list of similar word pairs, where similarity is transitive, determine whether the sentences are similar.",
+    "input": "\u2022 First line contains the first sentence. \u2022 Second line contains the second sentence. \u2022 Third line contains integer P. \u2022 Next P lines contain pairs of similar words.",
+    "output": "Print YES if the sentences are similar; otherwise print NO.",
+    "constraints": "\u2022 Sentence length \u2264 10^5 \u2022 1 \u2264 P \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001447",
+    "fileSHA": "8050c789cfd26ecea2ada7d4c7350f804f06459e278092bd66edb7bd0e6081e8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:26:49.588672+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8050c789cfd26ecea2ada7d4c7350f804f06459e278092bd66edb7bd0e6081e8",
+    "normalizedCodeHash": "8050c789cfd26ecea2ada7d4c7350f804f06459e278092bd66edb7bd0e6081e8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:26:49.588703+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

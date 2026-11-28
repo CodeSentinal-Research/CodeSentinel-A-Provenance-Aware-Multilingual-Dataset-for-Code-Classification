@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001734",
+  "problemId": "P001734",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001734",
+    "title": "Convert a Binary Tree into a Sum Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, replace every node value with the sum of all values in its left and right subtrees. Leaf nodes become zero.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the transformed tree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "langwatch/langwatch",
+    "owner": "langwatch",
+    "url": "https://github.com/langwatch/langwatch",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "sdks/typescript/scripts/profile-startup.mjs",
+    "fileSHA": "d93516de22561a40fd4e4de482079cffbad2e25f",
+    "url": "https://github.com/langwatch/langwatch/blob/30193aa3b3caa73c1ba40519180e6d5190e09c23/sdks/typescript/scripts/profile-startup.mjs",
+    "rawUrl": "https://raw.githubusercontent.com/langwatch/langwatch/main/sdks/typescript/scripts/profile-startup.mjs"
+  },
+  "matching": {
+    "relevanceScore": 86.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "dac3477339a209e5a107678df1b8555b73f80abb8f810e3160810122fbc5c440",
+    "normalizedCodeHash": "dac3477339a209e5a107678df1b8555b73f80abb8f810e3160810122fbc5c440",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T17:25:32.267594+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000605",
+  "problemId": "P000605",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000605",
+    "title": "Delete Nodes Having Greater Value on Right",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list, delete every node that has a node with a greater value somewhere to its right. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= node.value <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000605.py",
+    "fileSHA": "9701bb408fcccda3dfb2f01e1b678c64e2047804cfee01c441b8cad55ed24f41",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.397340+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9701bb408fcccda3dfb2f01e1b678c64e2047804cfee01c441b8cad55ed24f41",
+    "normalizedCodeHash": "d699b508b0a6666428790aff23a12a2188a704e80e3c0bb2e0ae87bca9a4e13f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.397340+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

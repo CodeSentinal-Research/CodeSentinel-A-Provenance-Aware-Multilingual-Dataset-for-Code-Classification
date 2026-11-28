@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001216",
+  "problemId": "P001216",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001216",
+    "title": "Minimum Cost Tree From Leaf Values",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given the inorder traversal of the leaf nodes of a binary tree, construct a binary tree such that every non-leaf node equals the product of the largest leaf values in its left and right subtrees. Determine the minimum possible sum of all non-leaf nodes.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the minimum possible sum.",
+    "constraints": "\u2022 2 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "holmsusa/methFuse",
+    "owner": "holmsusa",
+    "url": "https://github.com/holmsusa/methFuse",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/libfuse.h",
+    "fileSHA": "3d9be2afb522d00672c784beb5e6a84b8e1e06fd",
+    "url": "https://github.com/holmsusa/methFuse/blob/01600cf9e322f22a79291dae05389daefa90c7ab/src/libfuse.h",
+    "rawUrl": "https://raw.githubusercontent.com/holmsusa/methFuse/main/src/libfuse.h"
+  },
+  "matching": {
+    "relevanceScore": 81.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "bce9f870e48761018db1f0a87d47eccb776f36ed2d21f88811d0c5dc95085dc4",
+    "normalizedCodeHash": "bce9f870e48761018db1f0a87d47eccb776f36ed2d21f88811d0c5dc95085dc4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:30:27.890358+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

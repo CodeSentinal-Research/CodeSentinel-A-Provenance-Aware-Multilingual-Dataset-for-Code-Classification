@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001657",
+  "problemId": "P001657",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001657",
+    "title": "Burn a Binary Tree from a Target Node",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree and a target node, determine the minimum time required to burn the entire tree if the fire spreads every second from a burning node to its parent and children simultaneously.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains the target node value.",
+    "output": "\u2022 Print the minimum time required to burn the entire tree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5________________________________________"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/data_structures/src/tree/binary_tree/binary_tree/diameter/diameter2.c",
+    "fileSHA": "839e3d0075951f6898d90f40b4eb564251ec974b",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/data_structures/src/tree/binary_tree/binary_tree/diameter/diameter2.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/data_structures/src/tree/binary_tree/binary_tree/diameter/diameter2.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4a0b695f5ce63f1a37cecb8fa73990f643a22b828ad1ca3b96c97760460442a7",
+    "normalizedCodeHash": "4a0b695f5ce63f1a37cecb8fa73990f643a22b828ad1ca3b96c97760460442a7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:37:35.047066+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

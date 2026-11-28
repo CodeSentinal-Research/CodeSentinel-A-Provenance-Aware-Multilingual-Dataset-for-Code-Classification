@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001238",
+  "problemId": "P001238",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001238",
+    "title": "Merge Overlapping Intervals",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Given a collection of intervals, merge all overlapping intervals and print the resulting intervals sorted by starting position.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain interval endpoints.",
+    "output": "Print all merged intervals.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/greedyalgorithms/MergeIntervals.java",
+    "fileSHA": "07bd0b73326fdbfc9ec302a3c7bcbec2cca73efc",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/greedyalgorithms/MergeIntervals.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/greedyalgorithms/MergeIntervals.java"
+  },
+  "matching": {
+    "relevanceScore": 71.67
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "927583d92fa33a86dbad86aee532953d1c6b707418112c166f4127e587d59104",
+    "normalizedCodeHash": "927583d92fa33a86dbad86aee532953d1c6b707418112c166f4127e587d59104",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:10.805419+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

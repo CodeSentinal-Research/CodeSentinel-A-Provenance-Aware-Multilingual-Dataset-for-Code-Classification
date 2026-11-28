@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001518",
+  "problemId": "P001518",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001518",
+    "title": "Successful Pairs of Spells and Potions",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given arrays of spells and potions along with a success threshold, determine for each spell the number of potions that form a successful pair.",
+    "input": "\u2022 First line contains integers N, M, and Success. \u2022 Second line contains N spell values. \u2022 Third line contains M potion values.",
+    "output": "Print the number of successful pairs for each spell.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001518",
+    "fileSHA": "4b6e6c045e6e49a3ca5a7045333469c83849c988b353067b20b13667cb9e3188",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:29:37.581438+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4b6e6c045e6e49a3ca5a7045333469c83849c988b353067b20b13667cb9e3188",
+    "normalizedCodeHash": "4b6e6c045e6e49a3ca5a7045333469c83849c988b353067b20b13667cb9e3188",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:29:37.581466+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

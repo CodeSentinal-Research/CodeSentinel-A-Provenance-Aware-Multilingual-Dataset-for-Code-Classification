@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001058",
+  "problemId": "P001058",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001058",
+    "title": "Frequency Stack",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Design a stack-like data structure that supports push and pop operations. The pop operation must always remove the most frequently occurring element. If multiple elements have the same frequency, remove the one that was pushed most recently.",
+    "input": "\u2022 First line contains integer Q. \u2022 Next Q lines contain push or pop operations.",
+    "output": "Print the value removed for every pop operation.",
+    "constraints": "\u2022 1 \u2264 Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "JacobLinCool/LeetCode-Solutions",
+    "owner": "JacobLinCool",
+    "url": "https://github.com/JacobLinCool/LeetCode-Solutions",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "895. Maximum Frequency Stack/maximum-frequency-stack.c",
+    "fileSHA": "6ac2f402b5edff8c2b22c6a3c358e0f023843800",
+    "url": "https://github.com/JacobLinCool/LeetCode-Solutions/blob/47d66ca0786ef5ced40319b5ad35d3e67961b2e0/895. Maximum Frequency Stack/maximum-frequency-stack.c",
+    "rawUrl": "https://raw.githubusercontent.com/JacobLinCool/LeetCode-Solutions/main/895. Maximum Frequency Stack/maximum-frequency-stack.c"
+  },
+  "matching": {
+    "relevanceScore": 70.21
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "489fbbbc02773228664d34529d0f3e669073e667a116cf2e36d6c9cbcbbdb007",
+    "normalizedCodeHash": "489fbbbc02773228664d34529d0f3e669073e667a116cf2e36d6c9cbcbbdb007",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:17:41.754583+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

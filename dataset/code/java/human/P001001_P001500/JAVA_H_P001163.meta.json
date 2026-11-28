@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001163",
+  "problemId": "P001163",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001163",
+    "title": "Interleaving Strings",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given three strings A, B, and C, determine whether C can be formed by interleaving the characters of A and B while preserving the relative order of characters in both strings.",
+    "input": "\u2022 First line contains string A. \u2022 Second line contains string B. \u2022 Third line contains string C.",
+    "output": "Print YES if possible; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 Length of each string \u2264 2000"
+  },
+  "repository": {
+    "name": "mission-peace/interview",
+    "owner": "mission-peace",
+    "url": "https://github.com/mission-peace/interview",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/com/interview/dynamic/TwoStringInterleavingToFormThird.java",
+    "fileSHA": "271d279e1bfd277c4e45695c7f3feef290efc68e",
+    "url": "https://github.com/mission-peace/interview/blob/master/src/com/interview/dynamic/TwoStringInterleavingToFormThird.java",
+    "rawUrl": "https://raw.githubusercontent.com/mission-peace/interview/master/src/com/interview/dynamic/TwoStringInterleavingToFormThird.java"
+  },
+  "matching": {
+    "relevanceScore": 75.56
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "70ce684b09e7bf4f93a960730248941e3d3e271f401985744b053a1786753369",
+    "normalizedCodeHash": "70ce684b09e7bf4f93a960730248941e3d3e271f401985744b053a1786753369",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:47:58.539492+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

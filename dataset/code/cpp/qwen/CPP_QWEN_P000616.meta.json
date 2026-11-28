@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000616",
+  "problemId": "P000616",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000616",
+    "title": "Reverse Nodes in Even Positions",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list, remove all nodes at even positions, reverse their order, and merge them back into the original list by placing them again at the even positions. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 -10^9 <= node.value <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000616",
+    "fileSHA": "153f3c2544557613ca5b7e2097cf52291a1844de4bc5201c3f3932d73a44989f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.328Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "06633b08317229f02c3c4c453f6f7b794a38f004cdce7f44c581620738b27fce",
+    "normalizedCodeHash": "f4adc5ab29bfa4c46ee9bcb3988e01c31ac86d6e9739248e4f3855228e0ee520",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.328Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

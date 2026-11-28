@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000903",
+  "problemId": "P000903",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000903",
+    "title": "Largest Divisible Subset",
+    "category": "Mathematics - Divisibility",
+    "difficulty": "Medium",
+    "problemStatement": "Given a set of distinct positive integers, return the largest subset such that for every pair (a, b) in the subset, either a divides b or b divides a.",
+    "input": "Integer N Array nums",
+    "output": "The largest divisible subset.",
+    "constraints": "1 <= N <= 1000 1 <= nums[i] <= 2 × 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000903.c",
+    "fileSHA": "fe8439912ccdc3217ebc25e558ae4d171bcb40eae2ce5f69b13cd19439feb9c0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fe8439912ccdc3217ebc25e558ae4d171bcb40eae2ce5f69b13cd19439feb9c0",
+    "normalizedCodeHash": "fe8439912ccdc3217ebc25e558ae4d171bcb40eae2ce5f69b13cd19439feb9c0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

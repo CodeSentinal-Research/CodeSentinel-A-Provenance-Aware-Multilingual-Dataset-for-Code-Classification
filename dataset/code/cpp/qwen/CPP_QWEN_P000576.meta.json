@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000576",
+  "problemId": "P000576",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000576",
+    "title": "Binary Tree Vertical Order Traversal",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, return its vertical order traversal. Nodes are grouped by their vertical column from left to right. If multiple nodes share the same row and column, they should be reported from left to right.",
+    "input": "The root of a binary tree.",
+    "output": "A list of vertical columns.",
+    "constraints": "Number of nodes is in the range [0, 1000]"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000576",
+    "fileSHA": "670a6c20c94e6cc07b0483b51d3a4db8295ade128a0f87eaebb66ff6bffa136f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:25:40.046Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "701a2fe06c6f8cc44ae3753fbbc7940c5733bb5a1fd0300b1b3f64ee0f68e342",
+    "normalizedCodeHash": "ebd3648014913d1df3f6c561b6ae2563aa08c2f6ce8475612dac82f04ece625b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:25:40.046Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

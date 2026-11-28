@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P001230",
+  "problemId": "P001230",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001230",
+    "title": "Out of Boundary Paths",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given an R \u00d7 C grid and a starting cell, determine the number of paths that move outside the grid in at most K moves. At each move, movement is allowed in the four cardinal directions.",
+    "input": "\u2022 First line contains integers R, C, and K. \u2022 Second line contains starting cell coordinates.",
+    "output": "Print the total number of valid paths.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 50 \u2022 0 \u2264 K \u2264 50"
+  },
+  "repository": {
+    "name": "kiyonlin/leetcode",
+    "owner": "kiyonlin",
+    "url": "https://github.com/kiyonlin/leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P001001_P001500/C_H_P001230.c",
+    "fileSHA": "6a40b210b368c0db2f9b8ab48bc7acd67f375850",
+    "url": "https://github.com/kiyonlin/leetcode/blob/0a70701fc08a4c62e877441806c63c5d23f1b7ec/algorithms/c/576.out-of-boundary-paths.c",
+    "rawUrl": "https://raw.githubusercontent.com/kiyonlin/leetcode/main/algorithms/c/576.out-of-boundary-paths.c"
+  },
+  "matching": {
+    "relevanceScore": 69.78
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2018-05-18T05:31:06Z",
+    "lastCommitDate": "2018-05-18T05:31:06Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "kiyon"
+    ],
+    "firstKnownAuthor": "kiyon",
+    "latestKnownAuthor": "kiyon"
+  },
+  "deduplication": {
+    "rawCodeHash": "3febb2e1dfbbea78ce47b435812bca2f2add151ba9c47e60206fc0fdb236fd5e",
+    "normalizedCodeHash": "3febb2e1dfbbea78ce47b435812bca2f2add151ba9c47e60206fc0fdb236fd5e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T08:48:40.175984+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

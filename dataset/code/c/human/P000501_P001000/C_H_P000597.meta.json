@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000597",
+  "problemId": "P000597",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000597",
+    "title": "Flatten a Multilevel Doubly Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "A doubly linked list may contain child pointers that point to separate doubly linked lists. Flatten the multilevel structure into a single-level doubly linked list. The child lists should appear immediately after their parent nodes, and all child pointers must become null. Return the head of the flattened list.",
+    "input": "A multilevel doubly linked list.",
+    "output": "The flattened doubly linked list.",
+    "constraints": "Number of nodes is in the range [0, 1000]."
+  },
+  "repository": {
+    "name": "AI-Maddy/30-days-to-dsa-mastery",
+    "owner": "AI-Maddy",
+    "url": "https://github.com/AI-Maddy/30-days-to-dsa-mastery",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Day05-Doubly-Circular-LinkedList/solutions/flatten_multilevel_dll.c",
+    "fileSHA": "6c4bb073476f335f7c0932297a139b7b567e0e39",
+    "url": "https://github.com/AI-Maddy/30-days-to-dsa-mastery/blob/3bd1e00f0eb637e629e1fc6f7eb3a06eb08cd61d/Day05-Doubly-Circular-LinkedList/solutions/flatten_multilevel_dll.c",
+    "rawUrl": "https://raw.githubusercontent.com/AI-Maddy/30-days-to-dsa-mastery/main/Day05-Doubly-Circular-LinkedList/solutions/flatten_multilevel_dll.c"
+  },
+  "matching": {
+    "relevanceScore": 87.88
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3b7084fb094c795b1a42f50a2fa9bb458bf7f093b15969906f04989c664d15c8",
+    "normalizedCodeHash": "3b7084fb094c795b1a42f50a2fa9bb458bf7f093b15969906f04989c664d15c8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:42:43.981642+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

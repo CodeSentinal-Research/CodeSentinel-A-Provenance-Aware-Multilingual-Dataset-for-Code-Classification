@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001839",
+  "problemId": "P001839",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001839",
+    "title": "Determine Whether Three Keys in a Binary Search Tree Sum to a Given Value",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a Binary Search Tree and an integer K, determine whether there exist three distinct nodes whose values sum to K.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The last line contains K.",
+    "output": "\u2022 Print YES if such a triplet exists; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0111_minimum_depth_of_binary_tree/bst_depth.c",
+    "fileSHA": "6a2626fbf8e989060db3bf101af5864dfb8d3953",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0111_minimum_depth_of_binary_tree/bst_depth.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0111_minimum_depth_of_binary_tree/bst_depth.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1772b91e30fb044b6f440d54d83305773ba89c31d52e216fafaf69c334f481f8",
+    "normalizedCodeHash": "1772b91e30fb044b6f440d54d83305773ba89c31d52e216fafaf69c334f481f8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:42:51.189949+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

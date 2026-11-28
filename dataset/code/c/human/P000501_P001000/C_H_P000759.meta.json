@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000759",
+  "problemId": "P000759",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000759",
+    "title": "Count Good Numbers",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "A digit string of length N is called good if: Digits at even indices are even (0, 2, 4, 6, 8). Digits at odd indices are prime (2, 3, 5, 7). Return the total number of good digit strings of length N modulo 10^9 + 7. Solve the problem using recursive exponentiation.",
+    "input": "Integer N",
+    "output": "The total number of good strings modulo 10^9 + 7.",
+    "constraints": "1 <= N <= 10^15"
+  },
+  "repository": {
+    "name": "amandev8207/C-Coding-Challenge-100Days",
+    "owner": "amandev8207",
+    "url": "https://github.com/amandev8207/C-Coding-Challenge-100Days",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "day-67.c",
+    "fileSHA": "a0e8cdf42a68982a5515c1c66fae6db7cf6a90dd",
+    "url": "https://github.com/amandev8207/C-Coding-Challenge-100Days/blob/8cfcd9e2194d53d5a20d1800c42561e3e6560006/day-67.c",
+    "rawUrl": "https://raw.githubusercontent.com/amandev8207/C-Coding-Challenge-100Days/main/day-67.c"
+  },
+  "matching": {
+    "relevanceScore": 83.18
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0dee7c7fba7474d40ae1d715882a26d5c3c72dad8e4237b658860740f46d7027",
+    "normalizedCodeHash": "0dee7c7fba7474d40ae1d715882a26d5c3c72dad8e4237b658860740f46d7027",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:42:43.338443+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

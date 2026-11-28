@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000646",
+  "problemId": "P000646",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000646",
+    "title": "Merge K Sorted Doubly Linked Lists",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "You are given the heads of k sorted doubly linked lists. Merge all the lists into a single sorted doubly linked list while maintaining both next and prev pointers correctly. Return the head of the merged list.",
+    "input": "Integer k For each list: o Integer size o Sorted doubly linked list",
+    "output": "The merged sorted doubly linked list.",
+    "constraints": "0 <= k <= 10^4 Total number of nodes across all lists does not exceed 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000646",
+    "fileSHA": "f30abf20f3abfd4cca0eaae8d4a03410c55d4ab46757bdbd1f23a0f13c9ffab3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f30abf20f3abfd4cca0eaae8d4a03410c55d4ab46757bdbd1f23a0f13c9ffab3",
+    "normalizedCodeHash": "f30abf20f3abfd4cca0eaae8d4a03410c55d4ab46757bdbd1f23a0f13c9ffab3",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000646"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

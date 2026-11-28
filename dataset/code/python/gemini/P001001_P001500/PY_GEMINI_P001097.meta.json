@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001097",
+  "problemId": "P001097",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001097",
+    "title": "Union-Find Operations",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "You are given N initially disconnected vertices and Q operations. Each operation is either: \u2022 UNION u v: Merge the sets containing vertices u and v. \u2022 FIND u v: Determine whether u and v belong to the same connected component. Process all operations.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Next Q lines each contain an operation.",
+    "output": "For every FIND operation, print YES if both vertices belong to the same set; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001097",
+    "fileSHA": "fc59a1541697151d56780a5f14016f487dc5eb7e9171dc92fc5b36afb902a51d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:45:00.732106+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fc59a1541697151d56780a5f14016f487dc5eb7e9171dc92fc5b36afb902a51d",
+    "normalizedCodeHash": "fc59a1541697151d56780a5f14016f487dc5eb7e9171dc92fc5b36afb902a51d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:45:00.732131+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_CLAUDE_P001170",
+  "problemId": "P001170",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001170",
+    "title": "Cherry Pickup",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × N grid containing cherries, empty cells, and blocked cells, determine the maximum number of cherries that can be collected by traveling from the top-left corner to the bottom-right corner and then returning to the starting cell without collecting the same cherry more than once.",
+    "input": "• First line contains integer N. • Next N lines each contain N integers representing the grid.",
+    "output": "Print the maximum number of cherries that can be collected.",
+    "constraints": "• 1 ≤ N ≤ 200"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P001170",
+    "fileSHA": "4caf5d8aae5deb9b204ba6868eb5c64772625e5bd273db16d7d73003aa4764d7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "829766df289087a76c0018c4f7cb7caaac427a963c1146c0c2dc5cdaa17414f0",
+    "normalizedCodeHash": "4caf5d8aae5deb9b204ba6868eb5c64772625e5bd273db16d7d73003aa4764d7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

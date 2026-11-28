@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000446",
+  "problemId": "P000446",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000446",
+    "title": "Search in Row-wise and Column-wise Sorted Matrix",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that efficiently searches for a target in a matrix where each row and each column is sorted.",
+    "input": "First line contains rows, cols and target. Next rows lines contain the matrix.",
+    "output": "Print \"Found\" or \"Not Found\".",
+    "constraints": "1 ≤ rows, cols ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000446.c",
+    "fileSHA": "46e3c40c12491a05cfdb1b05b7a502664484e9949097b307c1aa4b8376c2c399",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "46e3c40c12491a05cfdb1b05b7a502664484e9949097b307c1aa4b8376c2c399",
+    "normalizedCodeHash": "46e3c40c12491a05cfdb1b05b7a502664484e9949097b307c1aa4b8376c2c399",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001593",
+  "problemId": "P001593",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001593",
+    "title": "Shortest Prefix With Sum Greater Than X",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and an integer X, determine the minimum prefix length whose sum is strictly greater than X. Print -1 if no such prefix exists.",
+    "input": "• First line contains N and X. • Second line contains N integers.",
+    "output": "• Print the minimum length.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001501_P002000/JS_GPT_P001593.js",
+    "fileSHA": "269334f052c5f13c34e3947f13fc988d3ab5383c34dd6380cd87a2a59dcedfae",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "269334f052c5f13c34e3947f13fc988d3ab5383c34dd6380cd87a2a59dcedfae",
+    "normalizedCodeHash": "269334f052c5f13c34e3947f13fc988d3ab5383c34dd6380cd87a2a59dcedfae",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000442",
+  "problemId": "P000442",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000442",
+    "title": "Search in Rotated Sorted Array with Duplicates",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that searches for a target in a rotated sorted array that may contain duplicates.",
+    "input": "First line contains N and target. Second line contains N integers.",
+    "output": "Index of the target or -1 if not found.",
+    "constraints": "1 ≤ N ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000442.c",
+    "fileSHA": "769d55e369e4958a045c0e94df06a0ebf10c2327919963b04e93a611b5149205",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "769d55e369e4958a045c0e94df06a0ebf10c2327919963b04e93a611b5149205",
+    "normalizedCodeHash": "769d55e369e4958a045c0e94df06a0ebf10c2327919963b04e93a611b5149205",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

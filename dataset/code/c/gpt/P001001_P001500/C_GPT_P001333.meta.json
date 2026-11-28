@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001333",
+  "problemId": "P001333",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001333",
+    "title": "Expression Add Operators",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given a numeric string and a target value, insert the operators '+', '-', and '*' between digits so that the resulting expression evaluates exactly to the target.",
+    "input": "• First line contains a numeric string. • Second line contains integer Target.",
+    "output": "Print all valid expressions in lexicographical order.",
+    "constraints": "• 1 ≤ Length ≤ 10"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001333.c",
+    "fileSHA": "523093bbae3e2ad300dde947dc196c456f6a874f27455b7f34a80952be8128ba",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.871Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "b16486d3ec5853ede24c0797927094ff5c8c4b88daf5fb48557381e825b2fe43",
+    "normalizedCodeHash": "523093bbae3e2ad300dde947dc196c456f6a874f27455b7f34a80952be8128ba",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.871Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

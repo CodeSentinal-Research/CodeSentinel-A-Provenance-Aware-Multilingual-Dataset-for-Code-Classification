@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000954",
+  "problemId": "P000954",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000954",
+    "title": "Extended Euclidean Algorithm",
+    "category": "Mathematics - Extended Euclidean Algorithm",
+    "difficulty": "Medium",
+    "problemStatement": "Given two integers A and B, compute integers X and Y such that: AX + BY = gcd(A, B)",
+    "input": "Integer A Integer B",
+    "output": "The values X, Y, and gcd(A, B).",
+    "constraints": "1 <= A, B <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000954.js",
+    "fileSHA": "a2ec9c66617ab45484966166bf5189c4138eb5e62193a90c8fff89707feef23d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a2ec9c66617ab45484966166bf5189c4138eb5e62193a90c8fff89707feef23d",
+    "normalizedCodeHash": "a2ec9c66617ab45484966166bf5189c4138eb5e62193a90c8fff89707feef23d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

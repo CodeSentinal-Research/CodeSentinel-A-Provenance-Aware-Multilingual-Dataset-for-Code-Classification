@@ -1,0 +1,1 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const n=+l[0];const q=[];for(let i=1;i<=n;i++){const p=l[i].trim().split(' ');if(p[0]==='push'){q.push(+p[1]);for(let j=0;j<q.length-1;j++)q.push(q.shift());}else if(p[0]==='pop')console.log(q.shift());else if(p[0]==='top')console.log(q[0]);else console.log(q.length===0);}

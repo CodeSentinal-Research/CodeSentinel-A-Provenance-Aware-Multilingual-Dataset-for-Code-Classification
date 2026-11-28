@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001834",
+  "problemId": "P001834",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001834",
+    "title": "Detect Whether a Binary Search Tree Contains a Dead End",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree containing positive integers, determine whether the tree contains at least one dead end where no additional key can be inserted.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST.",
+    "output": "\u2022 Print YES if a dead end exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0106_construct_binary_tree_from_inorder_and_postorder_traversal/binary_tree_build.c",
+    "fileSHA": "5adb6ab795a312ea005e8c732f15eecf3d267ec3",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0106_construct_binary_tree_from_inorder_and_postorder_traversal/binary_tree_build.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0106_construct_binary_tree_from_inorder_and_postorder_traversal/binary_tree_build.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "964545601882376bf33908c1a09ef96f2fe8cc04277e96c8811c436856320ad0",
+    "normalizedCodeHash": "964545601882376bf33908c1a09ef96f2fe8cc04277e96c8811c436856320ad0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:32:41.989230+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

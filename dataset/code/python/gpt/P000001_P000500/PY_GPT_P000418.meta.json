@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000418",
+  "problemId": "P000418",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000418",
+    "title": "Search Employees Joined Before a Given Date",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Retrieve all employees whose joining date is earlier than the specified date.",
+    "input": "Employee records and a date.",
+    "output": "Matching employee records.",
+    "constraints": "1 ≤ Number of Employees ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000418.py",
+    "fileSHA": "1b4aa3fad38765465f4f90d3582eb37ce1ccaf43659e7e896f7f2055a6f8f969",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:03.512588+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1b4aa3fad38765465f4f90d3582eb37ce1ccaf43659e7e896f7f2055a6f8f969",
+    "normalizedCodeHash": "202ea8cf0b57bde68853206702169ba4439b4340bbcddba7c25033e8f05d3d05",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:03.512588+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

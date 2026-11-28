@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);int r=sc.nextInt(),c=sc.nextInt(),x=sc.nextInt();int[][]mat=new int[r][c];for(int i=0;i<r;i++)for(int j=0;j<c;j++)mat[i][j]=sc.nextInt();int lo=0,hi=r*c-1;while(lo<=hi){int m=(lo+hi)/2,v=mat[m/c][m%c];if(v==x){System.out.println("Found");return;}else if(v<x)lo=m+1;else hi=m-1;}System.out.println("Not Found");}}

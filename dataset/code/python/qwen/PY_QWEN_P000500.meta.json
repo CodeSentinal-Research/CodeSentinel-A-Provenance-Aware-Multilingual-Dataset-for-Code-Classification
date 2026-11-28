@@ -1,0 +1,75 @@
+{
+ "solutionId": "PY_QWEN_P000500",
+ "problemId": "P000500",
+ "language": "python",
+ "label": "qwen_generated",
+ "problem": {
+  "problemId": "P000500",
+  "title": "Crawler Log Folder",
+  "category": "Stack",
+  "difficulty": "Easy",
+  "problemStatement": "A file system starts at the main folder. You are given a sequence of folder operations: \"../\" : Move to the parent folder (if already at the main folder, stay there). \"./\" : Stay in the current folder. \"x/\" : Move into a child folder named x. Determine the minimum number of operations needed to return to the main folder after performing all operations.",
+  "input": "Integer n Array of n folder operations.",
+  "output": "A single integer representing the required number of operations.",
+  "constraints": "1 <= n <= 10^3"
+ },
+ "repository": {
+  "name": "qwen-python-solutions",
+  "owner": "qwen",
+  "url": "https://github.com/qwen/qwen-python-solutions",
+  "defaultBranch": "main",
+  "license": "MIT",
+  "stars": 0,
+  "forks": 0,
+  "fork": false,
+  "createdAt": "",
+  "updatedAt": "",
+  "pushedAt": "",
+  "language": "python",
+  "disabled": false,
+  "archived": false,
+  "private": false
+ },
+ "source": {
+  "path": "py/qwen/P000500/P000500.py",
+  "fileSHA": "AI_GENERATED",
+  "commitSHA": "AI_GENERATED",
+  "url": "N/A",
+  "rawUrl": "N/A"
+ },
+ "matching": {
+  "relevanceScore": 100.0
+ },
+ "provenance": {
+  "score": 100.0,
+  "level": "AI_GENERATED",
+  "preCutoffEvidence": false,
+  "firstCommitDate": "2026-08-22T12:00:00Z",
+  "lastCommitDate": "2026-08-22T12:00:00Z",
+  "commitCount": 1,
+  "authorCount": 1,
+  "authors": [
+   "Qwen AI"
+  ],
+  "firstKnownAuthor": "Qwen AI",
+  "latestKnownAuthor": "Qwen AI"
+ },
+ "deduplication": {
+  "rawCodeHash": "N/A",
+  "normalizedCodeHash": "N/A",
+  "duplicate": false,
+  "duplicateOf": null
+ },
+ "validation": {
+  "syntaxValid": true,
+  "utf8Valid": true,
+  "nonEmpty": true,
+  "isText": true,
+  "hasGeneratedMarkers": false,
+  "reason": null
+ },
+ "collection": {
+  "collectedAt": "2026-08-22T12:00:00.000000+00:00",
+  "pipelineVersion": "1.0.0"
+ }
+}

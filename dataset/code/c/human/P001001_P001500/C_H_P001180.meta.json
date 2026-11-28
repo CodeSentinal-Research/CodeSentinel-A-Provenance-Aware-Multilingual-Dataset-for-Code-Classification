@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001180",
+  "problemId": "P001180",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001180",
+    "title": "Vacation Planning",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "For N days, three vacation activities are available, each providing a happiness value. The same activity cannot be selected on consecutive days. Determine the maximum total happiness.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain three integers representing happiness values.",
+    "output": "Print the maximum achievable happiness.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "dovecot/pigeonhole",
+    "owner": "dovecot",
+    "url": "https://github.com/dovecot/pigeonhole",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/lib-sieve/plugins/vacation/ext-vacation-settings.h",
+    "fileSHA": "8430101a457436ce049e37b3133ca222b5bd9ba3",
+    "url": "https://github.com/dovecot/pigeonhole/blob/96fe62fe9d1530ef9de584e30571b520d7860f8a/src/lib-sieve/plugins/vacation/ext-vacation-settings.h",
+    "rawUrl": "https://raw.githubusercontent.com/dovecot/pigeonhole/main/src/lib-sieve/plugins/vacation/ext-vacation-settings.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f19a11029136b0420df5669b6d623b1212f02cc71974d81d227f7f4351d3afb5",
+    "normalizedCodeHash": "f19a11029136b0420df5669b6d623b1212f02cc71974d81d227f7f4351d3afb5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T18:33:24.376788+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

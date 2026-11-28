@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000552",
+  "problemId": "P000552",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000552",
+    "title": "Walls and Gates",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an m \u00d7 n grid where: -1 represents a wall. 0 represents a gate. 2147483647 represents an empty room. Fill each empty room with the distance to its nearest gate. If a room cannot reach any gate, leave its value unchanged.",
+    "input": "Integers m and n Grid of integers.",
+    "output": "The updated grid.",
+    "constraints": "1 <= m, n <= 250"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000552",
+    "fileSHA": "b0a30c34772353e9c425ff4616e506eb9ef4e16ae27f3ec660d4c8d8690c91de",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:25:40.026Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "d2cc0249bb9ce985445f747547627e867c84dbb2edd7d449e7addc84936776b0",
+    "normalizedCodeHash": "9b1b220f3fb6e17cede77a099858201d0c3e7994957903d01369afd194217bfb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:25:40.026Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

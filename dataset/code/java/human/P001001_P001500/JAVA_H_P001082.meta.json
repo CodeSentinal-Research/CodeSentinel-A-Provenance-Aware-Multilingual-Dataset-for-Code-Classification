@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001082",
+  "problemId": "P001082",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001082",
+    "title": "Find Eulerian Path",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph, determine whether it contains an Eulerian Path. If one exists, print any valid path; otherwise print IMPOSSIBLE.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print one Eulerian Path or IMPOSSIBLE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/graph/HierholzerEulerianPath.java",
+    "fileSHA": "82da5c8163e5f361c2927d16a87e6f91595886c7",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/graph/HierholzerEulerianPath.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/graph/HierholzerEulerianPath.java"
+  },
+  "matching": {
+    "relevanceScore": 77.5
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "eae3522c62c05b4e921d902d7b6b3928312127b24995f87152ccc18689aa1a2d",
+    "normalizedCodeHash": "eae3522c62c05b4e921d902d7b6b3928312127b24995f87152ccc18689aa1a2d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:14:16.018508+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

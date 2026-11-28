@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000914",
+  "problemId": "P000914",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000914",
+    "title": "Count Unique Grid Paths",
+    "category": "Mathematics - Combinatorics",
+    "difficulty": "Medium",
+    "problemStatement": "Given an m × n grid, determine the number of unique paths from the top-left corner to the bottom-right corner if you can only move right or down.",
+    "input": "Integer m Integer n",
+    "output": "The number of unique paths.",
+    "constraints": "1 <= m, n <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000914",
+    "fileSHA": "6e96a57fd383a20e238f0d35d70c071c1ec90eba7582de99ebadc3c6b96e0cb0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6e96a57fd383a20e238f0d35d70c071c1ec90eba7582de99ebadc3c6b96e0cb0",
+    "normalizedCodeHash": "6e96a57fd383a20e238f0d35d70c071c1ec90eba7582de99ebadc3c6b96e0cb0",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique P000914: Count Unique Grid Paths"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

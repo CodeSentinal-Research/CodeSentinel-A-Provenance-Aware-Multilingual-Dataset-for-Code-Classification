@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P001079",
+  "problemId": "P001079",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001079",
+    "title": "Find All Bridges in a Graph",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a connected undirected graph, determine all bridge edges. A bridge is an edge whose removal increases the number of connected components.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print all bridge edges in ascending order. If none exist, print NONE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "lamalab-org/structuregraph-helpers",
+    "owner": "lamalab-org",
+    "url": "https://github.com/lamalab-org/structuregraph-helpers",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P001001_P001500/PY_H_P001079.py",
+    "fileSHA": "5a40de964c904daad17a27841f843052f442265e",
+    "url": "https://github.com/lamalab-org/structuregraph-helpers/blob/9d695428b2b18f75b5c776c42468210a0624986d/src/structuregraph_helpers/delete.py",
+    "rawUrl": "https://raw.githubusercontent.com/lamalab-org/structuregraph-helpers/main/src/structuregraph_helpers/delete.py"
+  },
+  "matching": {
+    "relevanceScore": 57.86
+  },
+  "provenance": {
+    "score": 82.5,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2022-07-28T07:53:13Z",
+    "lastCommitDate": "2022-07-28T12:07:45Z",
+    "commitCount": 5,
+    "authorCount": 1,
+    "authors": [
+      "Kevin Maik Jablonka"
+    ],
+    "firstKnownAuthor": "Kevin Maik Jablonka",
+    "latestKnownAuthor": "Kevin Maik Jablonka"
+  },
+  "deduplication": {
+    "rawCodeHash": "fd0789a15a91d4d675e682889ea31d2070556086778896c8dfc00b03ed81b759",
+    "normalizedCodeHash": "fd0789a15a91d4d675e682889ea31d2070556086778896c8dfc00b03ed81b759",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T07:29:17.453051+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

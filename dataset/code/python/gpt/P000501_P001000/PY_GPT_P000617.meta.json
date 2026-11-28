@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000617",
+  "problemId": "P000617",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000617",
+    "title": "Design Skip List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a Skip List data structure supporting the following operations with expected logarithmic time complexity: search(target) add(num) erase(num) Process a sequence of operations and print the result of every search() and erase() operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for each search() and erase() operation.",
+    "constraints": "1 <= q <= 5 × 10^4 0 <= num, target <= 2 × 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000617.py",
+    "fileSHA": "10e28cb14a8eee282ceaef4a3041dc6e8623335a48c20393b4f52c55ca642507",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.438039+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "10e28cb14a8eee282ceaef4a3041dc6e8623335a48c20393b4f52c55ca642507",
+    "normalizedCodeHash": "aaaec0f3543bfd2343d07719a09213b1a40c8ce815f17b2a410b2de8ff96079a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.438039+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

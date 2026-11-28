@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P001339",
+  "problemId": "P001339",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001339",
+    "title": "Maximum Length of Concatenated String with Unique Characters",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given N strings, select any subset and concatenate them so that every character appears at most once. Determine the maximum possible length of such a concatenated string.",
+    "input": "• First line contains integer N. • Next N lines each contain a lowercase string.",
+    "output": "Print the maximum achievable length.",
+    "constraints": "• 1 ≤ N ≤ 16"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P001339",
+    "fileSHA": "6b2bbefa16296222ae2bf20a405cfc2b0305265620aeb3bc8509ac85fbba11a2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "965bc1edb4bcc5fce2f52c06ff5e105df8b86d6921d30564edf97ee848f212d3",
+    "normalizedCodeHash": "6b2bbefa16296222ae2bf20a405cfc2b0305265620aeb3bc8509ac85fbba11a2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

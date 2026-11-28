@@ -1,0 +1,15 @@
+# problem title : Wiggle Subsequence
+# Solve the stated task using standard input and standard output.
+from typing import List
+
+class Solution:
+    def wiggleMaxLength(self, nums: List[int]) -> int:
+        if len(nums) < 2:
+            return len(nums)
+        up, down = 1, 1
+        for i in range(1, len(nums)):
+            if nums[i] > nums[i - 1]:
+                up = down + 1
+            elif nums[i] < nums[i - 1]:
+                down = up + 1
+        return max(up, down)

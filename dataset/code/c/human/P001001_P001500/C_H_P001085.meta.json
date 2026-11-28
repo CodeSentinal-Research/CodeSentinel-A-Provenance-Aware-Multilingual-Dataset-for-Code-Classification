@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001085",
+  "problemId": "P001085",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001085",
+    "title": "Number of Distinct Paths in a DAG",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a Directed Acyclic Graph and two vertices S and T, determine the number of distinct paths from S to T.",
+    "input": "\u2022 First line contains integers N, M, S, and T. \u2022 Next M lines contain directed edges.",
+    "output": "Print the total number of distinct paths.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "lrmsspace/LLM-CodeQualityEval",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Output/output_Tabnine/c/Medium/959-all-paths-from-source-to-target.c",
+    "fileSHA": "532696ca761642dc48a8292bedf95c90e4a9b7a8",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval/blob/a2817bbe913c51ab32afeb6f6d0ad97b92c45075/Output/output_Tabnine/c/Medium/959-all-paths-from-source-to-target.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/LLM-CodeQualityEval/main/Output/output_Tabnine/c/Medium/959-all-paths-from-source-to-target.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4f30bcafb6016302ce148c47ad45c316c66fb0562361f853bd8e21913f582cf4",
+    "normalizedCodeHash": "4f30bcafb6016302ce148c47ad45c316c66fb0562361f853bd8e21913f582cf4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T18:33:13.492321+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

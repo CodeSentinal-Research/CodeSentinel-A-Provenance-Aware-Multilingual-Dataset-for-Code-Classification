@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000557",
+  "problemId": "P000557",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000557",
+    "title": "Race Car",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "A car starts at position 0 with speed 1. You are given a target position. The car supports two instructions: A (Accelerate): Position increases by current speed, then speed doubles. R (Reverse): Reverse direction. Speed becomes 1 if moving backward, or -1 if moving forward. Return the minimum number of instructions needed to reach the target position.",
+    "input": "A single integer target.",
+    "output": "A single integer representing the minimum number of instructions.",
+    "constraints": "1 <= target <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000557.js",
+    "fileSHA": "b203e99ffdf099b9be7146fcc6891e92e934f767c9b3f3c00d5d9135fa8ef526",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b203e99ffdf099b9be7146fcc6891e92e934f767c9b3f3c00d5d9135fa8ef526",
+    "normalizedCodeHash": "b203e99ffdf099b9be7146fcc6891e92e934f767c9b3f3c00d5d9135fa8ef526",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

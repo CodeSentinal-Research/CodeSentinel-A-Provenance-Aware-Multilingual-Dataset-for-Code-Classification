@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001578",
+  "problemId": "P001578",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001578",
+    "title": "Count Windows With All Distinct Elements",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and an integer K, count the number of contiguous subarrays of size K in which every element is distinct.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the count.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "wazuh/wazuh",
+    "owner": "wazuh",
+    "url": "https://github.com/wazuh/wazuh",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/client-agent/include/task_registry_client.h",
+    "fileSHA": "e0bdf617b5c777bca164b6f953e3819299f9b3f0",
+    "url": "https://github.com/wazuh/wazuh/blob/6308ccd38607ce7eddf253c84c6f7fb11700dbe7/src/client-agent/include/task_registry_client.h",
+    "rawUrl": "https://raw.githubusercontent.com/wazuh/wazuh/main/src/client-agent/include/task_registry_client.h"
+  },
+  "matching": {
+    "relevanceScore": 80.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "846395a60af43b52d0ff7fff3be384c5d87df1ff949aa0e55f566cb3b47cb694",
+    "normalizedCodeHash": "846395a60af43b52d0ff7fff3be384c5d87df1ff949aa0e55f566cb3b47cb694",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T13:36:29.100541+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

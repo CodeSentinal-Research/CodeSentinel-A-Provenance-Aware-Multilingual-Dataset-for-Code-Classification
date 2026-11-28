@@ -1,0 +1,4 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');
+const n=+l[0];const h=[...l[1].split(' ').map(Number),0];const stk=[];let mx=0;
+for(let i=0;i<h.length;i++){while(stk.length&&h[stk[stk.length-1]]>h[i]){const ht=h[stk.pop()];const w=stk.length?i-stk[stk.length-1]-1:i;mx=Math.max(mx,ht*w);}stk.push(i);}
+console.log(mx);

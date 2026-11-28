@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001172",
+  "problemId": "P001172",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001172",
+    "title": "Unique Paths with Obstacles",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an R \u00d7 C grid containing obstacles, determine the number of distinct paths from the top-left corner to the bottom-right corner. You may move only right or down.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines each contain C integers (0 = free cell, 1 = obstacle).",
+    "output": "Print the number of unique paths.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001172",
+    "fileSHA": "7f122f9502d80e87a1d88725f593febc8e4f9154ef0d5c509de46cde3b623c5f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:14:15.624157+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7f122f9502d80e87a1d88725f593febc8e4f9154ef0d5c509de46cde3b623c5f",
+    "normalizedCodeHash": "7f122f9502d80e87a1d88725f593febc8e4f9154ef0d5c509de46cde3b623c5f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:14:15.624173+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

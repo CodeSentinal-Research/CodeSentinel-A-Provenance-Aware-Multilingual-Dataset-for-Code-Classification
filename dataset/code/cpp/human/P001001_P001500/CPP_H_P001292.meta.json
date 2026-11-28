@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001292",
+  "problemId": "P001292",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001292",
+    "title": "Eliminate Maximum Number of Monsters",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Each monster starts at a certain distance from the city and moves toward it at a constant speed. Every minute, you may eliminate exactly one monster before any monster reaches the city. Determine the maximum number of monsters that can be eliminated.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing distances. \u2022 Third line contains N integers representing speeds.",
+    "output": "Print the maximum number of monsters that can be eliminated.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "cpp/1921-eliminate-maximum-number-of-monsters.cpp",
+    "fileSHA": "1832189a1a3caace1d532738c8142a7842d2014f",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/cpp/1921-eliminate-maximum-number-of-monsters.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/cpp/1921-eliminate-maximum-number-of-monsters.cpp"
+  },
+  "matching": {
+    "relevanceScore": 83.18
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4da63f9d9d0f6a6a9b8056ef882c3953d2c7a4970e414c26f0c4e09a2213cdc2",
+    "normalizedCodeHash": "4da63f9d9d0f6a6a9b8056ef882c3953d2c7a4970e414c26f0c4e09a2213cdc2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:28:31.484282+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

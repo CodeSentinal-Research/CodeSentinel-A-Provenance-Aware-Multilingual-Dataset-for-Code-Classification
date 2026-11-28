@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000528",
+  "problemId": "P000528",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000528",
+    "title": "Count Collisions on a Road",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "There are n cars on a road. Each car is initially moving: Left ('L') Right ('R') Stationary ('S') Whenever moving cars collide: Two moving cars become stationary. A moving car colliding with a stationary car also becomes stationary. Determine the total number of collisions that occur after all movements have finished.",
+    "input": "A string of length n consisting only of 'L', 'R', and 'S'.",
+    "output": "A single integer representing the total number of collisions.",
+    "constraints": "1 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000528",
+    "fileSHA": "7858b9c875c9652e2b5347ad390f148d519313994e4f57c581fb3ff872763bd9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7858b9c875c9652e2b5347ad390f148d519313994e4f57c581fb3ff872763bd9",
+    "normalizedCodeHash": "7858b9c875c9652e2b5347ad390f148d519313994e4f57c581fb3ff872763bd9",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000528: Count Collisions on a Road"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000764",
+  "problemId": "P000764",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000764",
+    "title": "Decode String at Index",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "An encoded string follows the rule: Letters are appended directly. A digit d means the entire current decoded string is repeated d times. Given an encoded string s and an integer K, return the K-th character in the decoded string without explicitly constructing the decoded string. Solve the problem recursively.",
+    "input": "String s Integer K",
+    "output": "The K-th character.",
+    "constraints": "2 <= |s| <= 100 1 <= K <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000764",
+    "fileSHA": "7076722330bfed004bfe68ad8d3e267d7faa518da7a9e723dc56e145e8983c2c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7076722330bfed004bfe68ad8d3e267d7faa518da7a9e723dc56e145e8983c2c",
+    "normalizedCodeHash": "7076722330bfed004bfe68ad8d3e267d7faa518da7a9e723dc56e145e8983c2c",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000764"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

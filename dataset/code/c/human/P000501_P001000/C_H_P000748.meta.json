@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000748",
+  "problemId": "P000748",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000748",
+    "title": "Generate All Dice Roll Sequences",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer target, generate all sequences of dice rolls (values from 1 to 6) whose sum equals target. Print the sequences in lexicographical order.",
+    "input": "Integer target",
+    "output": "All valid dice roll sequences.",
+    "constraints": "1 <= target <= 20"
+  },
+  "repository": {
+    "name": "facebook/zstd",
+    "owner": "facebook",
+    "url": "https://github.com/facebook/zstd",
+    "defaultBranch": "dev",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "lib/compress/zstd_compress_sequences.h",
+    "fileSHA": "4be8e91f248451b7b760a3e30fabceaf28c4d52f",
+    "url": "https://github.com/facebook/zstd/blob/dev/lib/compress/zstd_compress_sequences.h",
+    "rawUrl": "https://raw.githubusercontent.com/facebook/zstd/dev/lib/compress/zstd_compress_sequences.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "bdb1b7f880faa0e19ff97ad9a9b3604e30f55439b6107b04c924dd698ac7e8d2",
+    "normalizedCodeHash": "bdb1b7f880faa0e19ff97ad9a9b3604e30f55439b6107b04c924dd698ac7e8d2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:43:08.133561+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

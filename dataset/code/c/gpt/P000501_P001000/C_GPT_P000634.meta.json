@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000634",
+  "problemId": "P000634",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000634",
+    "title": "Clone Linked List with Next and Random Pointer",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "A singly linked list contains two pointers: next random The random pointer may point to any node in the list or be null. Create a deep copy of the linked list and return the head of the copied list.",
+    "input": "A linked list with next and random pointers.",
+    "output": "The head of the cloned linked list.",
+    "constraints": "Number of nodes is in the range [0, 1000]"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000634.c",
+    "fileSHA": "53d18f726c3b317770dff8b3d755d0a4e98862f3df24b1abca5aab7f24df6492",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "53d18f726c3b317770dff8b3d755d0a4e98862f3df24b1abca5aab7f24df6492",
+    "normalizedCodeHash": "53d18f726c3b317770dff8b3d755d0a4e98862f3df24b1abca5aab7f24df6492",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

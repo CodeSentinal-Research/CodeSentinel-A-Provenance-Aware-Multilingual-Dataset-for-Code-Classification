@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001860",
+  "problemId": "P001860",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001860",
+    "title": "Construct a Binary Search Tree from an Ancestor Matrix",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given an ancestor matrix corresponding to a Binary Search Tree with distinct keys, reconstruct the original Binary Search Tree if it exists.",
+    "input": "• The first line contains an integer N. • The next N lines contain the ancestor matrix.",
+    "output": "• Print the reconstructed BST, or IMPOSSIBLE if no such BST exists.",
+    "constraints": "• 1 ≤ N ≤ 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001860.c",
+    "fileSHA": "4df6fa06e6d4650d3d613b352a5486ed2540575c462e32454c5696e49fe283d9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:36.262Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "f3bd70422af2ccafbb3593ae804858e2c846b9703737968e426880ce1766c02e",
+    "normalizedCodeHash": "4df6fa06e6d4650d3d613b352a5486ed2540575c462e32454c5696e49fe283d9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:36.262Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

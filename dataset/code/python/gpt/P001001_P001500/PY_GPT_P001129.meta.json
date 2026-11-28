@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001129",
+  "problemId": "P001129",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001129",
+    "title": "Remove Maximum Number of Edges While Keeping Graph Fully Traversable",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "A graph contains three types of edges: • Type 1: Usable only by Alice. • Type 2: Usable only by Bob. • Type 3: Usable by both Alice and Bob. Determine the maximum number of edges that can be removed while ensuring both Alice and Bob can still traverse the entire graph. If impossible, print -1.",
+    "input": "• First line contains integers N and M. • Next M lines each contain type, u, and v.",
+    "output": "Print the maximum number of removable edges.",
+    "constraints": "• 2 ≤ N ≤ 10^5 • 1 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001129.py",
+    "fileSHA": "029ac36361d202b692a8b487fd61dad0e5833829cdf49ffc6302d9a126bdc686",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.454215+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "029ac36361d202b692a8b487fd61dad0e5833829cdf49ffc6302d9a126bdc686",
+    "normalizedCodeHash": "2b0ec63bc1ff21c9043ce532acb1a304ec294708e967d46723b8572d23fcf14b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.454215+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,3 @@
+long long seriesSum(int n) {
+    return ((long long)n * (n + 1)) / 2;
+}

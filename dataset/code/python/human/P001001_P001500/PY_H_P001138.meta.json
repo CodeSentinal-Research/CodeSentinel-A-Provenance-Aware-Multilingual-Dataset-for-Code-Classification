@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001138",
+  "problemId": "P001138",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001138",
+    "title": "Coin Change - Number of Ways",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given coin denominations and a target amount, determine the total number of distinct ways to form the target amount using unlimited copies of each coin.",
+    "input": "\u2022 First line contains integers N and Amount. \u2022 Second line contains N coin denominations.",
+    "output": "Print the number of possible ways.",
+    "constraints": "\u2022 1 \u2264 N \u2264 100 \u2022 1 \u2264 Amount \u2264 5000"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Python",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "dynamic_programming/minimum_coin_change.py",
+    "fileSHA": "848bd654d3b9eca3d354d46ab12b78449afeced5",
+    "url": "https://github.com/TheAlgorithms/Python/blob/master/dynamic_programming/minimum_coin_change.py",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Python/master/dynamic_programming/minimum_coin_change.py"
+  },
+  "matching": {
+    "relevanceScore": 67.38
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "99c2cb60caf5fce243d1aa55ea3d709b79edded4f85951019aa3f8cdeea4e2e5",
+    "normalizedCodeHash": "99c2cb60caf5fce243d1aa55ea3d709b79edded4f85951019aa3f8cdeea4e2e5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T02:05:53.434666+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

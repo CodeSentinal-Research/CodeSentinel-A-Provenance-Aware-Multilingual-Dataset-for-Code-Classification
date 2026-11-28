@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000607",
+  "problemId": "P000607",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000607",
+    "title": "LFU Cache",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design and implement an LFU (Least Frequently Used) cache. The cache supports: get(key) put(key, value) If the cache is full, remove the key with the lowest access frequency. If multiple keys have the same frequency, remove the least recently used among them. Both operations should run in O(1) average time.",
+    "input": "Integer capacity Integer q Next q operations",
+    "output": "Print the result of every get() operation.",
+    "constraints": "0 <= capacity <= 10^4 1 <= q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/datastructures/caches/LFUCache.java",
+    "fileSHA": "bf2b928ec33cb4b5c49a8e7f90a9d5e98bad97f7",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/caches/LFUCache.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/datastructures/caches/LFUCache.java"
+  },
+  "matching": {
+    "relevanceScore": 67.97
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3d6a16dd8cbab9cbaea55ea2cc6c79879a50ee5aa2f5cea5a408b27ad31d94d3",
+    "normalizedCodeHash": "3d6a16dd8cbab9cbaea55ea2cc6c79879a50ee5aa2f5cea5a408b27ad31d94d3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:11:04.272516+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

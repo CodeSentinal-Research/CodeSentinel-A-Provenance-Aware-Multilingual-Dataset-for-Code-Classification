@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000733",
+  "problemId": "P000733",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000733",
+    "title": "M-Coloring Problem",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph with V vertices and M colors, determine whether the graph can be colored so that no two adjacent vertices share the same color. Return true if such a coloring exists; otherwise return false.",
+    "input": "Integer V Integer E List of edges Integer M",
+    "output": "true if a valid coloring exists, otherwise false.",
+    "constraints": "1 <= V <= 20 0 <= E <= V × (V - 1) / 2 1 <= M <= V"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000733.js",
+    "fileSHA": "33388624aaf55ed882b8a9170c61ca0c5ef1d34f0bc8b1b0b276f39dac2f9079",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "33388624aaf55ed882b8a9170c61ca0c5ef1d34f0bc8b1b0b276f39dac2f9079",
+    "normalizedCodeHash": "33388624aaf55ed882b8a9170c61ca0c5ef1d34f0bc8b1b0b276f39dac2f9079",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

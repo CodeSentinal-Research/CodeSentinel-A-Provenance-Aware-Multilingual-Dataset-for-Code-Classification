@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);String s=sc.next(),t=sc.next();int[]need=new int[256],win=new int[256];for(char c:t.toCharArray())need[c]++;int miss=t.length(),l=0,bs=-1,bl=0;for(int r=0;r<s.length();r++){int c=s.charAt(r);win[c]++;if(need[c]>0&&win[c]<=need[c])miss--;while(miss==0){if(bs<0||r-l+1<bs){bs=r-l+1;bl=l;}int lc=s.charAt(l);win[lc]--;if(need[lc]>0&&win[lc]<need[lc])miss++;l++;}}System.out.println(bs<0?"":s.substring(bl,bl+bs));}}

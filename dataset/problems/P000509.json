@@ -1,0 +1,10 @@
+{
+  "problemId": "P000509",
+  "title": "Clear Digits from String",
+  "category": "Stack",
+  "difficulty": "Easy",
+  "problemStatement": "You are given a string consisting of lowercase English letters and digits. Process the string from left to right: If the current character is a lowercase letter, keep it. If the current character is a digit, remove the closest lowercase letter to its left that has not already been removed, and discard the digit itself. Return the final string after processing all characters.",
+  "input": "A single string s.",
+  "output": "The resulting string.",
+  "constraints": "1 <= s.length <= 10^5 s consists only of lowercase English letters and digits. Every digit has at least one removable letter to its left."
+}

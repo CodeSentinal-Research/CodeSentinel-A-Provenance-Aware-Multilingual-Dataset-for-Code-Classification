@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P001272",
+  "problemId": "P001272",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001272",
+    "title": "Jump Game VI",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array and an integer K, start at index 0 and reach the last index. From position i, you may jump to any index in the range [i+1, i+K]. Each visited element contributes to the score. Determine the maximum obtainable score.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the maximum score.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "Zhenye-Na/leetcode",
+    "owner": "Zhenye-Na",
+    "url": "https://github.com/Zhenye-Na/leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P001001_P001500/PY_H_P001272.py",
+    "fileSHA": "0705e2fa34048e66e5aedde9d1cbc223fc2ebe22",
+    "url": "https://github.com/Zhenye-Na/leetcode/blob/042c3985b74dab414507ce712c92cc6970898431/python/1696.jump-game-vi.py",
+    "rawUrl": "https://raw.githubusercontent.com/Zhenye-Na/leetcode/main/python/1696.jump-game-vi.py"
+  },
+  "matching": {
+    "relevanceScore": 71.11
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2021-06-10T04:42:02Z",
+    "lastCommitDate": "2021-06-10T04:42:02Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Na, Zhenye"
+    ],
+    "firstKnownAuthor": "Na, Zhenye",
+    "latestKnownAuthor": "Na, Zhenye"
+  },
+  "deduplication": {
+    "rawCodeHash": "5ec5dce177179f011dee6a152d8a11a0059621967c1fed490fce7e523142fcdc",
+    "normalizedCodeHash": "5ec5dce177179f011dee6a152d8a11a0059621967c1fed490fce7e523142fcdc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T09:07:31.351712+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

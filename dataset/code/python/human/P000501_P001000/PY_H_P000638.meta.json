@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000638",
+  "problemId": "P000638",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000638",
+    "title": "Design Polynomial Using Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "A polynomial is represented as a linked list where each node contains: Coefficient Exponent The terms are stored in descending order of exponents. Process a sequence of operations on the polynomial: insert(coefficient, exponent) delete(exponent) evaluate(x) display() When inserting a term with an existing exponent, combine the coefficients. Print the result for every evaluate() and display() operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for every evaluate() and display() operation.",
+    "constraints": "1 <= q <= 10^5 |coefficient| <= 10^6 0 <= exponent <= 10^6"
+  },
+  "repository": {
+    "name": "tejasbhabad25-maker/HireArchy-SIH-2026",
+    "owner": "tejasbhabad25-maker",
+    "url": "https://github.com/tejasbhabad25-maker/HireArchy-SIH-2026",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "backend/make_qb.py",
+    "fileSHA": "d36830178c4c3c49a6e578718e44a70e60f27c85",
+    "url": "https://github.com/tejasbhabad25-maker/HireArchy-SIH-2026/blob/1d731df131b7bdeb155a79cea0131e1eea8997d0/backend/make_qb.py",
+    "rawUrl": "https://raw.githubusercontent.com/tejasbhabad25-maker/HireArchy-SIH-2026/main/backend/make_qb.py"
+  },
+  "matching": {
+    "relevanceScore": 81.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c777db28dee68eb94347e930a7ef2f5e77126ee66b86443e3ea059423745af86",
+    "normalizedCodeHash": "c777db28dee68eb94347e930a7ef2f5e77126ee66b86443e3ea059423745af86",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T13:25:16.797423+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

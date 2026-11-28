@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001228",
+  "problemId": "P001228",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001228",
+    "title": "Dice Throw Problem",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given D dice, each having F faces numbered from 1 to F, determine the number of ways to obtain a target sum S.",
+    "input": "\u2022 First line contains integers D, F, and S.",
+    "output": "Print the total number of possible ways.",
+    "constraints": "\u2022 1 \u2264 D \u2264 50 \u2022 2 \u2264 F \u2264 30 \u2022 1 \u2264 S \u2264 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001228",
+    "fileSHA": "d1e08c4037fe69a264cd7be8faa61498163b449dd99e09912d2e6a8b98dbbf42",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:16:21.626528+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d1e08c4037fe69a264cd7be8faa61498163b449dd99e09912d2e6a8b98dbbf42",
+    "normalizedCodeHash": "d1e08c4037fe69a264cd7be8faa61498163b449dd99e09912d2e6a8b98dbbf42",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:16:21.626555+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

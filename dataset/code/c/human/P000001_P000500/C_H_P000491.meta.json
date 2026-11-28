@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000491",
+  "problemId": "P000491",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000491",
+    "title": "Build Array With Stack Operations",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "Given a strictly increasing target array and an integer n, construct the target array starting from an empty array by reading numbers from 1 to n. For each number read: You may perform a \"Push\" operation. If the number should not remain in the array, immediately perform a \"Pop\". Return the sequence of operations required to build the target array.",
+    "input": "Integer m Target array Integer n",
+    "output": "A list of operations (Push and Pop).",
+    "constraints": "1 <= m <= 100 1 <= target[i] <= n <= 100"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/data_structures/src/list/singly_linked_list/operations/delete/delete_nth_node.c",
+    "fileSHA": "8d3144659b3529b4eebbd3a0f4e7e9374b7181dc",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/data_structures/src/list/singly_linked_list/operations/delete/delete_nth_node.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/data_structures/src/list/singly_linked_list/operations/delete/delete_nth_node.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "493d23d661683413742f0c9f28be5f8e7d2c5bfe4bf4b183367fb6ba29c76273",
+    "normalizedCodeHash": "493d23d661683413742f0c9f28be5f8e7d2c5bfe4bf4b183367fb6ba29c76273",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:03.134748+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001489",
+  "problemId": "P001489",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001489",
+    "title": "Number of Subsequences That Satisfy the Given Sum Condition",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer Target, count the number of non-empty subsequences such that the sum of the minimum and maximum element in the subsequence is less than or equal to Target.",
+    "input": "\u2022 First line contains integers N and Target. \u2022 Second line contains N integers.",
+    "output": "Print the number of valid subsequences modulo 10^9 + 7.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "eaglemox/LeetCode-Writeups",
+    "owner": "eaglemox",
+    "url": "https://github.com/eaglemox/LeetCode-Writeups",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "array/1498.number-of-subsequences-that-satisfy-the-given-sum-condition/solution_1.c",
+    "fileSHA": "83b635a1fba9334928f094aa8d73c67293d2ab5a",
+    "url": "https://github.com/eaglemox/LeetCode-Writeups/blob/8f08fad6a7ca196447bb47b928f2f951421203ab/array/1498.number-of-subsequences-that-satisfy-the-given-sum-condition/solution_1.c",
+    "rawUrl": "https://raw.githubusercontent.com/eaglemox/LeetCode-Writeups/main/array/1498.number-of-subsequences-that-satisfy-the-given-sum-condition/solution_1.c"
+  },
+  "matching": {
+    "relevanceScore": 74.62
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "24ac9c27ef1f4c1ac008f4847a7efd9621ee5aa30d7fc85ac323a414fa60939c",
+    "normalizedCodeHash": "24ac9c27ef1f4c1ac008f4847a7efd9621ee5aa30d7fc85ac323a414fa60939c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:58:31.066261+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

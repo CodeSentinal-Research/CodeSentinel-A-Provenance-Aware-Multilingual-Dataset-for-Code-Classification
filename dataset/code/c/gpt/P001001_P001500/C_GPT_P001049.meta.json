@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001049",
+  "problemId": "P001049",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001049",
+    "title": "Replace Multiple Keys in a Heap",
+    "category": "Heap",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary heap and Q update operations, replace the specified keys and restore the heap property after each operation.",
+    "input": "• First line contains integers N and Q. • Second line contains N integers. • Next Q lines contain an index and a new value.",
+    "output": "Print the final heap.",
+    "constraints": "• 1 ≤ N, Q ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001049.c",
+    "fileSHA": "8ac54b40ad082bf45c44c700959ddaee5771a8f4e69903725bfe10ac03588737",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:32.877Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "13a5fb7280dcf308d222b030dd5c345917511f5888c740d2b401152500c07002",
+    "normalizedCodeHash": "8ac54b40ad082bf45c44c700959ddaee5771a8f4e69903725bfe10ac03588737",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:32.877Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

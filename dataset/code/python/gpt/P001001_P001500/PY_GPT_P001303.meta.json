@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001303",
+  "problemId": "P001303",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001303",
+    "title": "Maximize Capital by Selecting Projects",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an initial capital and a list of projects, each having a required investment and expected profit. Select at most K projects to maximize the final capital.",
+    "input": "• First line contains integers N, K, and InitialCapital. • Next N lines contain required investment and profit.",
+    "output": "Print the maximum capital after completing the selected projects.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001303.py",
+    "fileSHA": "26800e39148141e305c22c3ef797109a47b0b7a77bd02da458d973ca3c34d3d7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.208916+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "26800e39148141e305c22c3ef797109a47b0b7a77bd02da458d973ca3c34d3d7",
+    "normalizedCodeHash": "06859f55e3fd6c19c640c3440ff1a5312e7b743908578d413933b0d9c320846d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.208916+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

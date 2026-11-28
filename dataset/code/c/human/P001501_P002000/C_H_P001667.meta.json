@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001667",
+  "problemId": "P001667",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001667",
+    "title": "Maximum Ancestor Difference",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the maximum absolute difference between the value of a node and the value of any of its ancestors.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the maximum absolute difference.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 \u221210^9 \u2264 NodeValue \u2264 10^9________________________________________"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0236_lowest_common_ancestor_of_a_binary_tree/bst_lca.c",
+    "fileSHA": "4eefea86de637589bb205c1d5617ce597a10c379",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0236_lowest_common_ancestor_of_a_binary_tree/bst_lca.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0236_lowest_common_ancestor_of_a_binary_tree/bst_lca.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "db11c92cfa127164ad6b9e08f4cd64f9d9b3f822a448d2ed787c923f984d65b3",
+    "normalizedCodeHash": "db11c92cfa127164ad6b9e08f4cd64f9d9b3f822a448d2ed787c923f984d65b3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T16:06:26.852382+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

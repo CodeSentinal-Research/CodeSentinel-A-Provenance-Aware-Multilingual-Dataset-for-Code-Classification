@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001770",
+  "problemId": "P001770",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001770",
+    "title": "Replace Every Node with the Sum of Nodes at the Same Level",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, replace the value of every node with the sum of the values of all other nodes at the same level.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the transformed tree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001770",
+    "fileSHA": "571265cf17a74eeca25697867bb2efa84b7cc9f5773a388d757afe118b69b7f5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:09.136580+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "571265cf17a74eeca25697867bb2efa84b7cc9f5773a388d757afe118b69b7f5",
+    "normalizedCodeHash": "571265cf17a74eeca25697867bb2efa84b7cc9f5773a388d757afe118b69b7f5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:09.136600+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

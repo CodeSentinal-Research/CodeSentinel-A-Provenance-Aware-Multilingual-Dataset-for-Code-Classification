@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000566",
+  "problemId": "P000566",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000566",
+    "title": "Minimum Genetic Mutation",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "A gene string consists of exactly eight characters chosen from 'A', 'C', 'G', and 'T'. Given a starting gene, a target gene, and a bank of valid gene strings, determine the minimum number of single-character mutations required to reach the target. Each intermediate gene must exist in the bank. Return -1 if the mutation is impossible.",
+    "input": "String startGene String endGene Integer n List of gene strings",
+    "output": "A single integer representing the minimum number of mutations.",
+    "constraints": "Gene length is always 8 0 <= n <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000566",
+    "fileSHA": "4c94b542e61598f8194ab1299eee6bf73677731dd7b7d23715a0db448a524891",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:46:06.873580+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4c94b542e61598f8194ab1299eee6bf73677731dd7b7d23715a0db448a524891",
+    "normalizedCodeHash": "4c94b542e61598f8194ab1299eee6bf73677731dd7b7d23715a0db448a524891",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:46:06.873608+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001398",
+  "problemId": "P001398",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001398",
+    "title": "Find Common Characters",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given N lowercase strings, determine all characters that appear in every string, including duplicate occurrences.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain one lowercase string.",
+    "output": "Print all common characters in sorted order.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000 \u2022 String length \u2264 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001398",
+    "fileSHA": "cf63f9255c8aca1617756da42075d076c0f2eb4479ab049250d0965974a86e1c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:24:58.561632+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cf63f9255c8aca1617756da42075d076c0f2eb4479ab049250d0965974a86e1c",
+    "normalizedCodeHash": "cf63f9255c8aca1617756da42075d076c0f2eb4479ab049250d0965974a86e1c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:24:58.561657+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

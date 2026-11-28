@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_GPT_P001543",
+  "problemId": "P001543",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001543",
+    "title": "Minimum Sum Window",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and an integer K, find the minimum sum among all contiguous subarrays of size exactly K.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the minimum window sum.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 1 ≤ K ≤ N • -10^4 ≤ Ai ≤ 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001501_P002000/PY_GPT_P001543.py",
+    "fileSHA": "242fa16db9ca268b3256b43e296f612336abba70d85cc5856d22659026252fdf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-26T13:09:02.611733+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "242fa16db9ca268b3256b43e296f612336abba70d85cc5856d22659026252fdf",
+    "normalizedCodeHash": "157c0eca32fa0fd0d04dcdc82b3c2d1156142b3f68b0d8ada54ea413b34979b9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-26T13:09:02.611733+00:00",
+    "pipelineVersion": "1.0.0"
+  },
+  "sha256": "6cb3b52467bad9c3284f629e76037232421f698901712000e2f8d9b8bf23b880"
+}

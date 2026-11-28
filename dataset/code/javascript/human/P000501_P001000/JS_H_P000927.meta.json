@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000927",
+  "problemId": "P000927",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000927",
+    "title": "Convert Between Arbitrary Bases",
+    "category": "Mathematics - Base Conversion",
+    "difficulty": "Medium",
+    "problemStatement": "Given a number represented as a string in base A, convert it to its representation in base B. Bases range from 2 to 36, where digits beyond 9 are represented using uppercase English letters.",
+    "input": "String number Integer A Integer B",
+    "output": "The representation of the number in base B.",
+    "constraints": "2 <= A, B <= 36 1 <= |number| <= 100"
+  },
+  "repository": {
+    "name": "KurtWeston/base-convert",
+    "owner": "KurtWeston",
+    "url": "https://github.com/KurtWeston/base-convert",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/index.ts",
+    "fileSHA": "2d0e96c878dc77ba5df65a86b07484621d3b03d4",
+    "url": "https://github.com/KurtWeston/base-convert/blob/9702aafa8f5476bf23d58c9ba078f16c2939a5c9/src/index.ts",
+    "rawUrl": "https://raw.githubusercontent.com/KurtWeston/base-convert/main/src/index.ts"
+  },
+  "matching": {
+    "relevanceScore": 83.7
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9c48c23c27a58375a3fa48bb32bb6b67bb5107f5d36308397cf8ee91bbc3e8c5",
+    "normalizedCodeHash": "9c48c23c27a58375a3fa48bb32bb6b67bb5107f5d36308397cf8ee91bbc3e8c5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T16:16:00.428270+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

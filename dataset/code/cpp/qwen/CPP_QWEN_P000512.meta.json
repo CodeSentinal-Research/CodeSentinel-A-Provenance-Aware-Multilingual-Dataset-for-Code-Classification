@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000512",
+  "problemId": "P000512",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000512",
+    "title": "Validate Stack Sequences",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given two integer arrays pushed and popped, determine whether they could represent the push and pop order of a stack. Initially, the stack is empty. Return true if the sequences are valid; otherwise return false.",
+    "input": "Integer n Array pushed Array popped",
+    "output": "true if the sequences are valid, otherwise false.",
+    "constraints": "1 <= n <= 10^5 pushed.length == popped.length All elements are distinct."
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000512",
+    "fileSHA": "e99971fef169f835ed5add56f7511e49a430acf21064f5c2404533864e33d9a9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.421Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "af8a91ba2e2e5862880b776cca120326c374b6674297f014c863625509daadc4",
+    "normalizedCodeHash": "8b157460f8abe0ce26d69feae0ae80fa392ce1056a04af43b3d36d09755922ce",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.421Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000482",
+  "problemId": "P000482",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000482",
+    "title": "Next Greater Element I",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given two arrays nums1 and nums2 where all elements are unique and nums1 is a subset of nums2. For each element in nums1, find the first greater element to its right in nums2. If no such element exists, return -1 for that element.",
+    "input": "Integer n Array nums1 Integer m Array nums2",
+    "output": "An array containing the next greater element for every element in nums1.",
+    "constraints": "1 <= n <= m <= 1000 All elements are unique."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000482.py",
+    "fileSHA": "4b4134dd6308486f7d540d74be114e0902b7133f2440b1c8cc30d9cbcad3a49d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:04.886751+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4b4134dd6308486f7d540d74be114e0902b7133f2440b1c8cc30d9cbcad3a49d",
+    "normalizedCodeHash": "5b447395210c9695e7079f7eee9fb636ef0ff49e2867ad9c0de5671b12587ccc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:04.886751+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

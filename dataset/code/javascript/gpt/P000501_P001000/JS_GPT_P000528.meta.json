@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000528",
+  "problemId": "P000528",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000528",
+    "title": "Count Collisions on a Road",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "There are n cars on a road. Each car is initially moving: Left ('L') Right ('R') Stationary ('S') Whenever moving cars collide: Two moving cars become stationary. A moving car colliding with a stationary car also becomes stationary. Determine the total number of collisions that occur after all movements have finished.",
+    "input": "A string of length n consisting only of 'L', 'R', and 'S'.",
+    "output": "A single integer representing the total number of collisions.",
+    "constraints": "1 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000528.js",
+    "fileSHA": "d08c48d9c34d89685c720800cef23c82efbc9fe0931951153e835e71df87ba12",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d08c48d9c34d89685c720800cef23c82efbc9fe0931951153e835e71df87ba12",
+    "normalizedCodeHash": "d08c48d9c34d89685c720800cef23c82efbc9fe0931951153e835e71df87ba12",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

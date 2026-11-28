@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000948",
+  "problemId": "P000948",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000948",
+    "title": "Chessboard Game",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Hard",
+    "problemStatement": "A token is placed on an N \u00d7 N chessboard at position (x, y). On each turn, a player may move the token only to one of the allowed positions defined by the game's movement rules. A player who cannot make a move loses. Determine whether the starting player has a winning strategy.",
+    "input": "Integer N Starting coordinates (x, y)",
+    "output": "Print \"First\" if the starting player wins; otherwise, print \"Second\".",
+    "constraints": "1 <= N <= 200 1 <= x, y <= N"
+  },
+  "repository": {
+    "name": "yparsak/Magnus0",
+    "owner": "yparsak",
+    "url": "https://github.com/yparsak/Magnus0",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "app/public/js/pages/game.js",
+    "fileSHA": "96cd83a30db61a095e6439a0d089adcb7a8cca5f",
+    "url": "https://github.com/yparsak/Magnus0/blob/c527cd830bbc6cfaa72319f490e82e2c2ba3f574/app/public/js/pages/game.js",
+    "rawUrl": "https://raw.githubusercontent.com/yparsak/Magnus0/main/app/public/js/pages/game.js"
+  },
+  "matching": {
+    "relevanceScore": 81.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d9e1cb3d881ba9e8fcc16256a64a388142523a39a4e528af578e286930c62136",
+    "normalizedCodeHash": "d9e1cb3d881ba9e8fcc16256a64a388142523a39a4e528af578e286930c62136",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T13:04:42.178471+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

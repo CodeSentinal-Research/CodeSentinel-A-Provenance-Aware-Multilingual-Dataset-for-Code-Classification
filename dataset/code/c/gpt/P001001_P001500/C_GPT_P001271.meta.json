@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001271",
+  "problemId": "P001271",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001271",
+    "title": "Minimum Number of Taps to Water a Garden",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "A one-dimensional garden extends from position 0 to N. Each tap waters an interval centered at its position. Determine the minimum number of taps that must be opened to water the entire garden. If impossible, print -1.",
+    "input": "• First line contains integer N. • Second line contains N+1 integers representing the watering range of each tap.",
+    "output": "Print the minimum number of taps required.",
+    "constraints": "• 1 ≤ N ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001271.c",
+    "fileSHA": "048fb3939e127bd06837504e8b2efe271e1d1115eaf2850a6136c0b5e4da5e4f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.540Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "891d22f4eaf5673c1f0883dccfb3bcba97eda7a07f9d3be70f0276f347a62760",
+    "normalizedCodeHash": "048fb3939e127bd06837504e8b2efe271e1d1115eaf2850a6136c0b5e4da5e4f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.540Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

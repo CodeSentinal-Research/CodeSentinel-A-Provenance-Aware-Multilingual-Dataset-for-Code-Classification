@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001615",
+  "problemId": "P001615",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001615",
+    "title": "Count Submatrices With Sum Equal to Target",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer matrix and a target value, determine the number of non-empty rectangular submatrices whose sum equals the target.",
+    "input": "\u2022 First line contains N, M, and Target. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the required count.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 300 \u2022 -10^3 \u2264 Aij \u2264 10^3"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001615",
+    "fileSHA": "a71afdbc42670f2bfa40b55be882d57993b420a6a973cb328a3e5c9cdb43a969",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:56.367237+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a71afdbc42670f2bfa40b55be882d57993b420a6a973cb328a3e5c9cdb43a969",
+    "normalizedCodeHash": "a71afdbc42670f2bfa40b55be882d57993b420a6a973cb328a3e5c9cdb43a969",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:56.367264+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

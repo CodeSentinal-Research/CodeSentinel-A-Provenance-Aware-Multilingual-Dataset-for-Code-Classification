@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001408",
+  "problemId": "P001408",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001408",
+    "title": "Recover the Original Array",
+    "category": "Hashing",
+    "difficulty": "Hard",
+    "problemStatement": "An array was formed by adding and subtracting an unknown positive integer K from every element of an original array. Given the resulting array, recover one possible original array.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains 2N integers.",
+    "output": "Print one valid original array.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "elastic/elasticsearch",
+    "owner": "elastic",
+    "url": "https://github.com/elastic/elasticsearch",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "server/src/main/java/org/elasticsearch/indices/recovery/package-info.java",
+    "fileSHA": "b54e5c9b000c032ca4355e66aae641edb9ff157f",
+    "url": "https://github.com/elastic/elasticsearch/blob/3bca3d4a913632e6f76c52d3b6170812f328c054/server/src/main/java/org/elasticsearch/indices/recovery/package-info.java",
+    "rawUrl": "https://raw.githubusercontent.com/elastic/elasticsearch/main/server/src/main/java/org/elasticsearch/indices/recovery/package-info.java"
+  },
+  "matching": {
+    "relevanceScore": 83.7
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3af525a67f12831e2057b1336168269244058072fe9f643bba7af02022667d91",
+    "normalizedCodeHash": "3af525a67f12831e2057b1336168269244058072fe9f643bba7af02022667d91",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T09:56:40.383567+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000535",
+  "problemId": "P000535",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000535",
+    "title": "Reveal Cards in Increasing Order",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You are given a deck of unique integers. Arrange the deck so that when the following process is performed: 1. Reveal the top card. 2. Move the next top card to the bottom. 3. Repeat until the deck is empty. The revealed sequence is in strictly increasing order. Return the required initial ordering of the deck.",
+    "input": "Integer n Array deck",
+    "output": "An array representing the required initial ordering.",
+    "constraints": "1 <= n <= 1000 All card values are unique."
+  },
+  "repository": {
+    "name": "Raj-Pavara/Leetcode_Daily_Questions",
+    "owner": "Raj-Pavara",
+    "url": "https://github.com/Raj-Pavara/Leetcode_Daily_Questions",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "april_10_24.java",
+    "fileSHA": "b184b0def07847db77fc6c1520869f1afbdfad90",
+    "url": "https://github.com/Raj-Pavara/Leetcode_Daily_Questions/blob/abc9215ea5a3778c2dc7dfd354c8b574c14dc7cf/april_10_24.java",
+    "rawUrl": "https://raw.githubusercontent.com/Raj-Pavara/Leetcode_Daily_Questions/main/april_10_24.java"
+  },
+  "matching": {
+    "relevanceScore": 86.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "816ad79a800c8bf43188610012de524cb6ca114016c098924cdcc1a8a9d6dfb9",
+    "normalizedCodeHash": "816ad79a800c8bf43188610012de524cb6ca114016c098924cdcc1a8a9d6dfb9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T15:15:02.700977+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

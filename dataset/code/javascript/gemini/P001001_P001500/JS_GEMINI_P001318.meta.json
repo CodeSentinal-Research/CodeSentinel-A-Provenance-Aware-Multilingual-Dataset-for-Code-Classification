@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001318",
+  "problemId": "P001318",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001318",
+    "title": "Word Search",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a character grid and a target word, determine whether the word can be formed by sequentially adjacent cells. A cell may be used at most once.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines contain the grid. \u2022 Last line contains the target word.",
+    "output": "Print YES if the word exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001318",
+    "fileSHA": "532bb712c2830b5ca150da11b8527ab137da236fba8a50e00dbbb8861e990c95",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:21:54.903337+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "532bb712c2830b5ca150da11b8527ab137da236fba8a50e00dbbb8861e990c95",
+    "normalizedCodeHash": "532bb712c2830b5ca150da11b8527ab137da236fba8a50e00dbbb8861e990c95",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:21:54.903376+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

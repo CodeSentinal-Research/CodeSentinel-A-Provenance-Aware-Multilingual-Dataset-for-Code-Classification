@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001392",
+  "problemId": "P001392",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001392",
+    "title": "Count Subarrays Divisible by K",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer K, determine the number of contiguous subarrays whose sum is divisible by K.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the number of valid subarrays.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 1 \u2264 K \u2264 10^5"
+  },
+  "repository": {
+    "name": "srgnk/HackerRank",
+    "owner": "srgnk",
+    "url": "https://github.com/srgnk/HackerRank",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/divisible-sum-pairs.py",
+    "fileSHA": "50144d965bd125082c7e12c233476e86c895dc25",
+    "url": "https://github.com/srgnk/HackerRank/blob/master/algorithms/divisible-sum-pairs.py",
+    "rawUrl": "https://raw.githubusercontent.com/srgnk/HackerRank/master/algorithms/divisible-sum-pairs.py"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "23cfd83b5626ea1c30de80bf1006355221f2aaab288b01f48691ec038b9563a4",
+    "normalizedCodeHash": "23cfd83b5626ea1c30de80bf1006355221f2aaab288b01f48691ec038b9563a4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T19:12:46.389246+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000391",
+  "problemId": "P000391",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000391",
+    "title": "Search Students Above Minimum GPA",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Display all students whose GPA is greater than or equal to the specified value.",
+    "input": "Student records and a GPA threshold.",
+    "output": "Matching student records.",
+    "constraints": "1 ≤ Number of Students ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000391.py",
+    "fileSHA": "7995656fb3a1251bfa2637dab6d1f646c1aa1f2cf8423a765104069214bc7e1b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:01.962181+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7995656fb3a1251bfa2637dab6d1f646c1aa1f2cf8423a765104069214bc7e1b",
+    "normalizedCodeHash": "a4d0856a1738e40a4021615bf835a9d7f849f79bc409829b782f07ec7160a7d9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:01.962181+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

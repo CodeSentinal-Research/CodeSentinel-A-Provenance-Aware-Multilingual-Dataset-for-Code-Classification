@@ -1,0 +1,143 @@
+/**
+ * This file contains an implementation of Dijkstra's shortest path algorithm from a start node to a
+ * specific ending node. Dijkstra can also be modified to find the shortest path between a starting
+ * node and all other nodes in the graph. However, in this implementation since we're only going
+ * from a starting node to an ending node we can employ an optimization to stop early once we've
+ * visited all the neighbors of the ending node.
+ *
+ * @author William Fiset, william.alexandre.fiset@gmail.com
+ */
+package com.williamfiset.algorithms.graphtheory;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.PriorityQueue;
+
+class DijkstrasShortestPathAdjacencyList {
+
+  // Represents a directed edge between two nodes with a certain cost.
+  public static class Edge {
+    double cost;
+    int from, to;
+
+    public Edge(int from, int to, double cost) {
+      this.from = from;
+      this.to = to;
+      this.cost = cost;
+    }
+  }
+
+  // Represents a node-distance pair for the priority queue.
+  public static class Node implements Comparable<Node> {
+    int id;
+    double value;
+
+    public Node(int id, double value) {
+      this.id = id;
+      this.value = value;
+    }
+
+    @Override
+    public int compareTo(Node other) {
+      return Double.compare(this.value, other.value);
+    }
+  }
+
+  private final int n;
+  private double[] dist;
+  private Integer[] prev;
+  private final List<List<Edge>> graph;
+
+  /**
+   * Initialize the solver by providing the graph size. Use the {@link #addEdge} method to add edges
+   * to the graph.
+   *
+   * @param n - The number of nodes in the graph.
+   */
+  public DijkstrasShortestPathAdjacencyList(int n) {
+    this.n = n;
+    this.graph = new ArrayList<>(n);
+    for (int i = 0; i < n; i++)
+      graph.add(new ArrayList<>());
+  }
+
+  /**
+   * Adds a directed edge to the graph.
+   *
+   * @param from - The index of the node the directed edge starts at.
+   * @param to - The index of the node the directed edge ends at.
+   * @param cost - The cost of the edge.
+   */
+  public void addEdge(int from, int to, int cost) {
+    graph.get(from).add(new Edge(from, to, cost));
+  }
+
+  public List<List<Edge>> getGraph() {
+    return graph;
+  }
+
+  /**
+   * Reconstructs the shortest path (of nodes) from 'start' to 'end' inclusive.
+   *
+   * @return An array of node indexes of the shortest path from 'start' to 'end'. If 'start' and
+   *     'end' are not connected then an empty list is returned.
+   */
+  public List<Integer> reconstructPath(int start, int end) {
+    dijkstra(start, end);
+    LinkedList<Integer> path = new LinkedList<>();
+    if (dist[end] == Double.POSITIVE_INFINITY)
+      return path;
+    for (int at = end; at != start; at = prev[at])
+      path.addFirst(at);
+    path.addFirst(start);
+    return path;
+  }
+
+  /**
+   * Runs Dijkstra's algorithm on a directed graph to find the shortest path from a starting node to
+   * an ending node. If there is no path between the starting node and the destination node the
+   * returned value is Double.POSITIVE_INFINITY.
+   */
+  public double dijkstra(int start, int end) {
+    dist = new double[n];
+    Arrays.fill(dist, Double.POSITIVE_INFINITY);
+    dist[start] = 0;
+
+    // Keep a priority queue of the next most promising node to visit.
+    PriorityQueue<Node> pq = new PriorityQueue<>();
+    pq.offer(new Node(start, 0));
+
+    boolean[] visited = new boolean[n];
+    prev = new Integer[n];
+
+    while (!pq.isEmpty()) {
+      Node node = pq.poll();
+      visited[node.id] = true;
+
+      // We already found a better path before we got to processing this node.
+      if (dist[node.id] < node.value)
+        continue;
+
+      for (Edge edge : graph.get(node.id)) {
+        if (visited[edge.to])
+          continue;
+
+        // Relax edge by updating minimum cost if applicable.
+        double newDist = dist[edge.from] + edge.cost;
+        if (newDist < dist[edge.to]) {
+          prev[edge.to] = edge.from;
+          dist[edge.to] = newDist;
+          pq.offer(new Node(edge.to, dist[edge.to]));
+        }
+      }
+
+      // Once we've processed the end node we can return early because the
+      // distance cannot improve after this point.
+      if (node.id == end)
+        return dist[end];
+    }
+    return Double.POSITIVE_INFINITY;
+  }
+}

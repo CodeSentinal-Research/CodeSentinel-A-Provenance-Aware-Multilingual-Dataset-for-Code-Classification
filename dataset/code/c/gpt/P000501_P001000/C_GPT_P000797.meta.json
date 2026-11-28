@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000797",
+  "problemId": "P000797",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000797",
+    "title": "Count Equal Number of 0s and 1s Subarrays",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary array, return the number of contiguous subarrays containing an equal number of 0s and 1s.",
+    "input": "Integer n Binary array nums",
+    "output": "The number of valid subarrays.",
+    "constraints": "1 <= n <= 2 × 10^5 nums[i] ∈ {0,1}"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000797.c",
+    "fileSHA": "85bd82133ec374a3fb7ab0fdbc527720efd3df6955d3c95e0202a7bcbd4c87db",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "85bd82133ec374a3fb7ab0fdbc527720efd3df6955d3c95e0202a7bcbd4c87db",
+    "normalizedCodeHash": "85bd82133ec374a3fb7ab0fdbc527720efd3df6955d3c95e0202a7bcbd4c87db",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

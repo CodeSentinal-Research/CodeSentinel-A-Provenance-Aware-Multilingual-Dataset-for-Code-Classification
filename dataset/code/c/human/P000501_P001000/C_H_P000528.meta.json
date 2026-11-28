@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000528",
+  "problemId": "P000528",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000528",
+    "title": "Count Collisions on a Road",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "There are n cars on a road. Each car is initially moving: Left ('L') Right ('R') Stationary ('S') Whenever moving cars collide: Two moving cars become stationary. A moving car colliding with a stationary car also becomes stationary. Determine the total number of collisions that occur after all movements have finished.",
+    "input": "A string of length n consisting only of 'L', 'R', and 'S'.",
+    "output": "A single integer representing the total number of collisions.",
+    "constraints": "1 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "jnarin/lc_c_cplusplus",
+    "owner": "jnarin",
+    "url": "https://github.com/jnarin/lc_c_cplusplus",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "2211. Count Collisions on a Road.c",
+    "fileSHA": "32789620878de522309de7432e151d8072cdf569",
+    "url": "https://github.com/jnarin/lc_c_cplusplus/blob/b1d267f3cde123ca2c0907bf72ebad097a42337a/2211. Count Collisions on a Road.c",
+    "rawUrl": "https://raw.githubusercontent.com/jnarin/lc_c_cplusplus/main/2211. Count Collisions on a Road.c"
+  },
+  "matching": {
+    "relevanceScore": 66.67
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "288abf7cc7965391e5718939cb63c98e4312dee96ba97a06eff1ea39db5fa6ad",
+    "normalizedCodeHash": "288abf7cc7965391e5718939cb63c98e4312dee96ba97a06eff1ea39db5fa6ad",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:22:18.069561+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

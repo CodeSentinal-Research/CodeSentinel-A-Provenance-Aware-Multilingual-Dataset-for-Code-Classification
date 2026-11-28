@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001344",
+  "problemId": "P001344",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001344",
+    "title": "All Paths from Source to Target",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a Directed Acyclic Graph (DAG), generate all possible paths from vertex 0 to vertex N\u22121.",
+    "input": "\u2022 First line contains integers V and E. \u2022 Next E lines contain directed edges.",
+    "output": "Print all valid paths in lexicographical order.",
+    "constraints": "\u2022 2 \u2264 V \u2264 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001344",
+    "fileSHA": "f16911635217b4f3c60d06457343d04b4284ac58f5fc7e38b10e93c003119c98",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:22:54.361847+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f16911635217b4f3c60d06457343d04b4284ac58f5fc7e38b10e93c003119c98",
+    "normalizedCodeHash": "f16911635217b4f3c60d06457343d04b4284ac58f5fc7e38b10e93c003119c98",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:22:54.361874+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

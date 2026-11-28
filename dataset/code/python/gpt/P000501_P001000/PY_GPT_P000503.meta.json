@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000503",
+  "problemId": "P000503",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000503",
+    "title": "Score of Parentheses",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "The score of a balanced parentheses string is defined as follows: \"()\" has score 1. \"AB\" has score A + B, where A and B are balanced parentheses strings. \"(A)\" has score 2 × A. Given a balanced parentheses string, compute its score.",
+    "input": "A balanced parentheses string.",
+    "output": "A single integer representing its score.",
+    "constraints": "2 <= s.length <= 50 s is balanced."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000503.py",
+    "fileSHA": "730a795389efb3c058ca625035406d0148f954c373c709939e2e141649088e76",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.063938+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "730a795389efb3c058ca625035406d0148f954c373c709939e2e141649088e76",
+    "normalizedCodeHash": "090fd6ab88df07b25e44ef879449ef94c062271331bdbb9b2aee829ef3ed1a2c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.063938+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

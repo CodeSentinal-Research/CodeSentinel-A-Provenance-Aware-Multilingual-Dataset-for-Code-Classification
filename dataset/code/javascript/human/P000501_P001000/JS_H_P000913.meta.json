@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000913",
+  "problemId": "P000913",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000913",
+    "title": "Binomial Coefficient Modulo Prime",
+    "category": "Mathematics - Combinatorics",
+    "difficulty": "Medium",
+    "problemStatement": "Given integers n, r, and a prime number P, compute nCr mod P.",
+    "input": "Integer n Integer r Prime integer P",
+    "output": "The value of nCr mod P.",
+    "constraints": "0 <= r <= n <= 10^6 2 <= P <= 10^9 + 7"
+  },
+  "repository": {
+    "name": "poppincn/llm-fusion-lite",
+    "owner": "poppincn",
+    "url": "https://github.com/poppincn/llm-fusion-lite",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "scripts/bench/make-tool-bench.mjs",
+    "fileSHA": "04fc72a70015ce91b1463a30cc6e0f4cd11d4d3d",
+    "url": "https://github.com/poppincn/llm-fusion-lite/blob/eaa751dc70d8e34ff42ba6de60844f3d04cbeaa2/scripts/bench/make-tool-bench.mjs",
+    "rawUrl": "https://raw.githubusercontent.com/poppincn/llm-fusion-lite/main/scripts/bench/make-tool-bench.mjs"
+  },
+  "matching": {
+    "relevanceScore": 87.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7f2ce2c83a6fc4723e7a7fdb7c05fe3e4448e26933d3281e339de928d1fe636d",
+    "normalizedCodeHash": "7f2ce2c83a6fc4723e7a7fdb7c05fe3e4448e26933d3281e339de928d1fe636d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T14:49:37.003607+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

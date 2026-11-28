@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001232",
+  "problemId": "P001232",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001232",
+    "title": "Activity Selection",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Given the start and finish times of N activities, determine the maximum number of non-overlapping activities that can be selected by a single person.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain start time and finish time.",
+    "output": "Print the maximum number of activities.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001232",
+    "fileSHA": "ae5517d1f0f2f250579617387af273cbab276436f1e902f642f958f838f01b77",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:16:21.951639+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ae5517d1f0f2f250579617387af273cbab276436f1e902f642f958f838f01b77",
+    "normalizedCodeHash": "ae5517d1f0f2f250579617387af273cbab276436f1e902f642f958f838f01b77",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:16:21.951666+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

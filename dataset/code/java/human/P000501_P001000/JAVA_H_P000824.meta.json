@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000824",
+  "problemId": "P000824",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000824",
+    "title": "Search a 2D Matrix",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N \u00d7 M matrix satisfying: Each row is sorted in ascending order. The first element of each row is greater than the last element of the previous row. Determine whether a target value exists in the matrix.",
+    "input": "Integer N Integer M Matrix matrix Integer target",
+    "output": "true if the target exists, otherwise false.",
+    "constraints": "1 <= N, M <= 300"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/searches/SearchInARowAndColWiseSortedMatrix.java",
+    "fileSHA": "b53c7e5256ca929c2fe5313bc2eb055c602ab59a",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/searches/SearchInARowAndColWiseSortedMatrix.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/searches/SearchInARowAndColWiseSortedMatrix.java"
+  },
+  "matching": {
+    "relevanceScore": 78.33
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2017c77facc2660ec5aaa812a6d66e3482be790601f91f132f22b1ca7020fecd",
+    "normalizedCodeHash": "2017c77facc2660ec5aaa812a6d66e3482be790601f91f132f22b1ca7020fecd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T15:55:12.433485+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

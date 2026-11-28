@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001374",
+  "problemId": "P001374",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001374",
+    "title": "Happy Number",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Starting with a positive integer, repeatedly replace the number by the sum of the squares of its digits. Determine whether the process eventually reaches 1 or enters a cycle.",
+    "input": "\u2022 First line contains integer N.",
+    "output": "Print YES if N is a happy number; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2^31\u22121"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001374",
+    "fileSHA": "5192ef588e975292049579148f87236f30a80eb73d233738c5513be0f9dc86fa",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:24:05.662600+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5192ef588e975292049579148f87236f30a80eb73d233738c5513be0f9dc86fa",
+    "normalizedCodeHash": "5192ef588e975292049579148f87236f30a80eb73d233738c5513be0f9dc86fa",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:24:05.662624+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

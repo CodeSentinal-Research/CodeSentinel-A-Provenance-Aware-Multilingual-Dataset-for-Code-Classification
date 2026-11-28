@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001083",
+  "problemId": "P001083",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001083",
+    "title": "Hamiltonian Path",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph, determine whether it contains a Hamiltonian Path that visits every vertex exactly once.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print YES if a Hamiltonian Path exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 20 \u2022 0 \u2264 M \u2264 N(N\u22121)/2"
+  },
+  "repository": {
+    "name": "seantalts/stanli",
+    "owner": "seantalts",
+    "url": "https://github.com/seantalts/stanli",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "runtime/include/stanli/capi.h",
+    "fileSHA": "48bda26a2b95f9a981755700db0117d41326997e",
+    "url": "https://github.com/seantalts/stanli/blob/596669ab5cb24d9cd6f480d5ace13d0acaca810b/runtime/include/stanli/capi.h",
+    "rawUrl": "https://raw.githubusercontent.com/seantalts/stanli/main/runtime/include/stanli/capi.h"
+  },
+  "matching": {
+    "relevanceScore": 83.7
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8316a04b572deec294668d45e133c4e71fe68aa686527d53aa8e9ea66fcc6a92",
+    "normalizedCodeHash": "8316a04b572deec294668d45e133c4e71fe68aa686527d53aa8e9ea66fcc6a92",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T14:16:59.641792+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

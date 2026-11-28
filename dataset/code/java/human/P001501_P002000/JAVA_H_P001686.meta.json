@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001686",
+  "problemId": "P001686",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001686",
+    "title": "Find the Predecessor of a Node in Level Order Traversal",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree and a target node, determine the node that immediately precedes the target in level order traversal. If no such node exists, print NONE.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains the target node value.",
+    "output": "\u2022 Print the level order predecessor.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/test/java/com/thealgorithms/datastructures/trees/LevelOrderTraversalTest.java",
+    "fileSHA": "ee807bccc5f197be362f4de4f3d2975f059faab4",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/test/java/com/thealgorithms/datastructures/trees/LevelOrderTraversalTest.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/test/java/com/thealgorithms/datastructures/trees/LevelOrderTraversalTest.java"
+  },
+  "matching": {
+    "relevanceScore": 78.07
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "691ae9b030198977a57ba0bdf6409b89fcdedd7f45d560350b4f79e7a84e2906",
+    "normalizedCodeHash": "691ae9b030198977a57ba0bdf6409b89fcdedd7f45d560350b4f79e7a84e2906",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:56.880029+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000503",
+  "problemId": "P000503",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000503",
+    "title": "Score of Parentheses",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "The score of a balanced parentheses string is defined as follows: \"()\" has score 1. \"AB\" has score A + B, where A and B are balanced parentheses strings. \"(A)\" has score 2 \u00d7 A. Given a balanced parentheses string, compute its score.",
+    "input": "A balanced parentheses string.",
+    "output": "A single integer representing its score.",
+    "constraints": "2 <= s.length <= 50 s is balanced."
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000503",
+    "fileSHA": "08307237e509fad8c22587e6f393b069cd9421765449b609dcf04f538e7c3c38",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.410Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c524bd62857aa6ba89ab5892cd385aa7c14985a82ce683c6e750c7f572893638",
+    "normalizedCodeHash": "5835541e6fa0a1964b9153b9875c7b112ce4da946ce6a187143c39efe55747f8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.410Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001086",
+  "problemId": "P001086",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001086",
+    "title": "Multi-Source Shortest Distance",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an unweighted graph and multiple source vertices, determine the shortest distance from the nearest source to every vertex.",
+    "input": "• First line contains integers N, M, and K. • Next M lines contain graph edges. • Last line contains K source vertices.",
+    "output": "Print the minimum distance to every vertex.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001086.py",
+    "fileSHA": "7e3bea94dc1c6e2be79923da786b23f2ac08638372fefbf9f5ab5bed613efab1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.304680+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7e3bea94dc1c6e2be79923da786b23f2ac08638372fefbf9f5ab5bed613efab1",
+    "normalizedCodeHash": "fd6b3e0234764a0dbc2f5d560d46f3d0d538176ed27c93a84440fa75422bff4b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.304680+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

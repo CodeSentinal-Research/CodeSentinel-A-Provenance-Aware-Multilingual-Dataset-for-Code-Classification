@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001107",
+  "problemId": "P001107",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001107",
+    "title": "Transitive Closure of a Directed Graph",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a directed graph with N vertices, determine whether every vertex is reachable from every other vertex. Output the complete reachability matrix.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain directed edges.",
+    "output": "Print an N \u00d7 N matrix where the value at row i and column j is 1 if vertex j is reachable from i, otherwise 0.",
+    "constraints": "\u2022 1 \u2264 N \u2264 500 \u2022 0 \u2264 M \u2264 N(N\u22121)"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001107",
+    "fileSHA": "dcc572022498b3d16f6b0c825bff13593f736456a096d4584413b8bb8e653741",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.824Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "808ae4eac957f53d9fb8f5521aa77293381c21c5e126002d672d6c8b02393fdf",
+    "normalizedCodeHash": "b8af10cad9eefdfde1ff9975ea9793378d27d38fd227ff745962350e3872c2e1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.824Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

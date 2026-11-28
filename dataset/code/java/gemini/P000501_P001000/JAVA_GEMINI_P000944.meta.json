@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000944",
+  "problemId": "P000944",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000944",
+    "title": "Divisor Game",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Easy",
+    "problemStatement": "Starting with an integer N, players alternate choosing a divisor x such that 0 < x < N and N % x == 0, then replacing N with N - x. The player unable to make a move loses. Determine whether the first player wins.",
+    "input": "Integer N",
+    "output": "Print true if the first player wins; otherwise, print false.",
+    "constraints": "1 <= N <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P000944",
+    "fileSHA": "9415c8c5acbe83ffa49254be9fa4e57b8fc556dc1dd6612c71e3f4f336026930",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:36:06.648310+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9415c8c5acbe83ffa49254be9fa4e57b8fc556dc1dd6612c71e3f4f336026930",
+    "normalizedCodeHash": "9415c8c5acbe83ffa49254be9fa4e57b8fc556dc1dd6612c71e3f4f336026930",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:36:06.648363+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

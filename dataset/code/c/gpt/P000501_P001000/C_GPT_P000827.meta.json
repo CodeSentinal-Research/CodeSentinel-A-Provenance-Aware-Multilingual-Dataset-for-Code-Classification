@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000827",
+  "problemId": "P000827",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000827",
+    "title": "Heaters",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given the positions of houses and heaters on a number line, determine the minimum heating radius required so that every house is covered by at least one heater.",
+    "input": "Integer n Array houses Integer m Array heaters",
+    "output": "The minimum heating radius.",
+    "constraints": "1 <= n, m <= 3 × 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000827.c",
+    "fileSHA": "64a0e73653f2c2f4df6ac54b2a9beff05a06dfe37af6e3395eb5909fad16dcf2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "64a0e73653f2c2f4df6ac54b2a9beff05a06dfe37af6e3395eb5909fad16dcf2",
+    "normalizedCodeHash": "64a0e73653f2c2f4df6ac54b2a9beff05a06dfe37af6e3395eb5909fad16dcf2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

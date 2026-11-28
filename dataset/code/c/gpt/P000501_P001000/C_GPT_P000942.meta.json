@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000942",
+  "problemId": "P000942",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000942",
+    "title": "Stone Game I",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Medium",
+    "problemStatement": "Two players alternately take an entire pile from either the left or right end of an array of stone piles. The player with the larger total number of stones wins. Determine whether the first player can guarantee a win assuming optimal play.",
+    "input": "Integer N Array piles",
+    "output": "Print true if the first player wins; otherwise, print false.",
+    "constraints": "2 <= N <= 500 N is even."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000942.c",
+    "fileSHA": "4f02c52d1807c13734a9889c5b200bad11f990385cb14bcb2df45fa0284f1d43",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4f02c52d1807c13734a9889c5b200bad11f990385cb14bcb2df45fa0284f1d43",
+    "normalizedCodeHash": "4f02c52d1807c13734a9889c5b200bad11f990385cb14bcb2df45fa0284f1d43",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

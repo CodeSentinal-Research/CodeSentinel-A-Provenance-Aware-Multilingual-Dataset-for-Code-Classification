@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001140",
+  "problemId": "P001140",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001140",
+    "title": "Unbounded Knapsack",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given N items, each with a weight and value, determine the maximum obtainable value when each item may be selected an unlimited number of times without exceeding the knapsack capacity.",
+    "input": "\u2022 First line contains integers N and W. \u2022 Next N lines contain weight and value.",
+    "output": "Print the maximum obtainable value.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000 \u2022 1 \u2264 W \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001140",
+    "fileSHA": "166baea381d54c635ae5a31814c6e975709aa6e3c0d34655619fa4e13523ee73",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:50:18.793571+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "166baea381d54c635ae5a31814c6e975709aa6e3c0d34655619fa4e13523ee73",
+    "normalizedCodeHash": "166baea381d54c635ae5a31814c6e975709aa6e3c0d34655619fa4e13523ee73",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:50:18.793598+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000774",
+  "problemId": "P000774",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000774",
+    "title": "Recursive Word Search",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N × M grid of characters and a target word, determine whether the word can be formed by traversing adjacent cells. Adjacent cells are horizontally or vertically neighboring. A cell may not be used more than once in a path. Solve the problem recursively.",
+    "input": "Integer N Integer M Character matrix board String word",
+    "output": "true if the word exists in the grid, otherwise false.",
+    "constraints": "1 <= N, M <= 10 1 <= |word| <= N × M"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000774.js",
+    "fileSHA": "d9b3108fa58221d3d005b433156aff3c3f69119408f9e64a8b7e348dfcc426c8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d9b3108fa58221d3d005b433156aff3c3f69119408f9e64a8b7e348dfcc426c8",
+    "normalizedCodeHash": "d9b3108fa58221d3d005b433156aff3c3f69119408f9e64a8b7e348dfcc426c8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "problemId": "P000566",
+  "title": "Minimum Genetic Mutation",
+  "category": "Queue",
+  "difficulty": "Hard",
+  "problemStatement": "A gene string consists of exactly eight characters chosen from 'A', 'C', 'G', and 'T'. Given a starting gene, a target gene, and a bank of valid gene strings, determine the minimum number of single-character mutations required to reach the target. Each intermediate gene must exist in the bank. Return -1 if the mutation is impossible.",
+  "input": "String startGene String endGene Integer n List of gene strings",
+  "output": "A single integer representing the minimum number of mutations.",
+  "constraints": "Gene length is always 8 0 <= n <= 1000"
+}

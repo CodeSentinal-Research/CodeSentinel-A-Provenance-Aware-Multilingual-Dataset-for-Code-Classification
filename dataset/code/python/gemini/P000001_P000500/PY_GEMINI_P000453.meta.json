@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000453",
+  "problemId": "P000453",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000453",
+    "title": "Find Fixed Point",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that finds a fixed point in an array (index where arr[i] == i) using binary search if possible.",
+    "input": "First line contains N. Second line contains N distinct sorted integers.",
+    "output": "Any fixed point or -1 if none exists.",
+    "constraints": "1 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000453",
+    "fileSHA": "006a8a4bc10464f18f87b1c6d0da2389f72fe4bbef2e0b7227cfa8f94f1f1dc3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:37:59.940634+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "006a8a4bc10464f18f87b1c6d0da2389f72fe4bbef2e0b7227cfa8f94f1f1dc3",
+    "normalizedCodeHash": "006a8a4bc10464f18f87b1c6d0da2389f72fe4bbef2e0b7227cfa8f94f1f1dc3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:37:59.940661+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001076",
+  "problemId": "P001076",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001076",
+    "title": "Floyd-Warshall All-Pairs Shortest Path",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a weighted graph, determine the shortest distance between every pair of vertices.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain weighted edges.",
+    "output": "Print the shortest distance matrix.",
+    "constraints": "\u2022 1 \u2264 N \u2264 500 \u2022 0 \u2264 M \u2264 N(N\u22121)/2"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/graph_algorithms/src/floyd_warshall_algorithm/floyd_warshall_algorithm.c",
+    "fileSHA": "55d55ae693f6e65d411a43519bb60d0d1f082746",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/graph_algorithms/src/floyd_warshall_algorithm/floyd_warshall_algorithm.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/graph_algorithms/src/floyd_warshall_algorithm/floyd_warshall_algorithm.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a512ee7c42f285411d6e204e3cfaea907bfdffe591423b0876e503a54b87cdc1",
+    "normalizedCodeHash": "a512ee7c42f285411d6e204e3cfaea907bfdffe591423b0876e503a54b87cdc1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:05.897167+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

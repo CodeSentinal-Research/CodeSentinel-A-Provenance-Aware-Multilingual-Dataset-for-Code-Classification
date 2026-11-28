@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000800",
+  "problemId": "P000800",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000800",
+    "title": "Range Sum Query 2D - Immutable",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N \u00d7 M matrix and multiple queries, return the sum of all elements inside the rectangle defined by: Top-left corner (r1, c1) Bottom-right corner (r2, c2) Preprocess the matrix using a 2D prefix sum.",
+    "input": "Integer N Integer M Matrix grid Integer Q Q rectangle queries",
+    "output": "For each query, print the rectangle sum.",
+    "constraints": "1 <= N, M <= 1000 1 <= Q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "mission-peace/interview",
+    "owner": "mission-peace",
+    "url": "https://github.com/mission-peace/interview",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/com/interview/dynamic/Immutable2DSumRangeQuery.java",
+    "fileSHA": "18d350c543bf781123ad5316380bc07eaf9f71d2",
+    "url": "https://github.com/mission-peace/interview/blob/master/src/com/interview/dynamic/Immutable2DSumRangeQuery.java",
+    "rawUrl": "https://raw.githubusercontent.com/mission-peace/interview/master/src/com/interview/dynamic/Immutable2DSumRangeQuery.java"
+  },
+  "matching": {
+    "relevanceScore": 70.33
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "385e565ea150f3161d0d73455cdc5563ee99780253fde16e77b15d45a4a9354b",
+    "normalizedCodeHash": "385e565ea150f3161d0d73455cdc5563ee99780253fde16e77b15d45a4a9354b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:51:26.080784+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

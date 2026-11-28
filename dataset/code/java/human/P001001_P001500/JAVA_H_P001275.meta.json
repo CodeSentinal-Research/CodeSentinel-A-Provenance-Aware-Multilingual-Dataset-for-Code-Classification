@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001275",
+  "problemId": "P001275",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001275",
+    "title": "Minimum Cost to Hire K Workers",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Each worker has a quality and a minimum wage expectation. Determine the minimum total cost required to hire exactly K workers while satisfying proportional wage constraints.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers representing qualities. \u2022 Third line contains N integers representing minimum wages.",
+    "output": "Print the minimum hiring cost with appropriate precision.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "giluu8/leetcode",
+    "owner": "giluu8",
+    "url": "https://github.com/giluu8/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0857-minimum-cost-to-hire-k-workers/0857-minimum-cost-to-hire-k-workers.java",
+    "fileSHA": "ec862592b06a4ea33824c7be97324d3d3e6d3a25",
+    "url": "https://github.com/giluu8/leetcode/blob/5a7ff73328ec1a2f72f70b54190a18fcaeaa9a42/0857-minimum-cost-to-hire-k-workers/0857-minimum-cost-to-hire-k-workers.java",
+    "rawUrl": "https://raw.githubusercontent.com/giluu8/leetcode/main/0857-minimum-cost-to-hire-k-workers/0857-minimum-cost-to-hire-k-workers.java"
+  },
+  "matching": {
+    "relevanceScore": 85.7
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5c5eeca90549f3c2a076c4290ddb44d3c318c2df157114775081540865765830",
+    "normalizedCodeHash": "5c5eeca90549f3c2a076c4290ddb44d3c318c2df157114775081540865765830",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T09:54:35.493058+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

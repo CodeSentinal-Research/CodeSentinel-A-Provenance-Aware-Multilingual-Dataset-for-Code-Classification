@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001707",
+  "problemId": "P001707",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001707",
+    "title": "Insert an Entire Level into a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree, a value X, and a depth D, insert a complete new level of nodes having value X at depth D while preserving the existing subtree structure.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains X and D.",
+    "output": "\u2022 Print the modified tree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/sorting/src/insertion_sort/insertion_sort.c",
+    "fileSHA": "366dc0330930cfcd6a4f0cdd995401b2cc0eb895",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/sorting/src/insertion_sort/insertion_sort.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/sorting/src/insertion_sort/insertion_sort.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "218cbc841cdb95568ff1ecd5c01ea1a052f3834310a9a4a824993b886f6ee920",
+    "normalizedCodeHash": "218cbc841cdb95568ff1ecd5c01ea1a052f3834310a9a4a824993b886f6ee920",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:10.023286+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

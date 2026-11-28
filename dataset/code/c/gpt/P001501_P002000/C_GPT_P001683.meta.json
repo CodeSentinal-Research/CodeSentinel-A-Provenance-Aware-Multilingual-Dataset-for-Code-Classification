@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001683",
+  "problemId": "P001683",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001683",
+    "title": "Find the Deepest Left Leaf",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree, determine the deepest leaf that is a left child of its parent. If multiple such leaves exist at the same depth, return the leftmost one.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the value of the deepest left leaf. If no left leaf exists, print NONE.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001683.c",
+    "fileSHA": "ff297d9afa5312b2d3b0c9e359b05a2e0fb1eda27bdc1e9bf9054533a2cccb1e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.336Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "625f14c92322b0233443d45a34bf38006038429d7bca59de909b7ad24965ecd1",
+    "normalizedCodeHash": "ff297d9afa5312b2d3b0c9e359b05a2e0fb1eda27bdc1e9bf9054533a2cccb1e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.336Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

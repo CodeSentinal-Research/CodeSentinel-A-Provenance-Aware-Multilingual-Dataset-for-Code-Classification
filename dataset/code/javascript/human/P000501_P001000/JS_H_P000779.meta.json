@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P000779",
+  "problemId": "P000779",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000779",
+    "title": "Range Sum Query - Immutable",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and multiple range sum queries, return the sum of elements between indices left and right (inclusive) for each query. Preprocess the array using a prefix sum array to answer each query efficiently.",
+    "input": "Integer n Array nums Integer q q queries (left, right)",
+    "output": "For each query, print the range sum.",
+    "constraints": "1 <= n, q <= 2 \u00d7 10^5 -10^9 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "uwspstar/DataStructures-Algorithms",
+    "owner": "uwspstar",
+    "url": "https://github.com/uwspstar/DataStructures-Algorithms",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P000501_P001000/JS_H_P000779.js",
+    "fileSHA": "03593a501b595647c96e493d1805334d01f3faf1",
+    "url": "https://github.com/uwspstar/DataStructures-Algorithms/blob/c5846da16d0d1fd0a93ad13154cac5c058e565df/Data-Structure/Nodejs/500 Must Know/Easy/Array/303. Range Sum Query - Immutable.js",
+    "rawUrl": "https://raw.githubusercontent.com/uwspstar/DataStructures-Algorithms/main/Data-Structure/Nodejs/500 Must Know/Easy/Array/303. Range Sum Query - Immutable.js"
+  },
+  "matching": {
+    "relevanceScore": 87.07
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2022-01-14T16:16:00Z",
+    "lastCommitDate": "2022-01-14T16:16:00Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "xing wang"
+    ],
+    "firstKnownAuthor": "xing wang",
+    "latestKnownAuthor": "xing wang"
+  },
+  "deduplication": {
+    "rawCodeHash": "c62eb1c319a2535d819a56fd867a5d9e95606ac0706bcf69f999c4ccd40c8a38",
+    "normalizedCodeHash": "c62eb1c319a2535d819a56fd867a5d9e95606ac0706bcf69f999c4ccd40c8a38",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T06:54:21.335809+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001619",
+  "problemId": "P001619",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001619",
+    "title": "XOR of a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, each containing indices L and R, determine the XOR of all elements in the range [L, R].",
+    "input": "• First line contains N. • Second line contains N integers. • Third line contains Q. • Next Q lines each contain L and R.",
+    "output": "• For each query, print the XOR of the specified range.",
+    "constraints": "• 1 ≤ N, Q ≤ 2 × 10^5 • 0 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001619.c",
+    "fileSHA": "ff179a0cf1b6047a54e094ae399e3357dad9f6ab340bec5340e04d06c2e3128d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.018Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "da1664b758694f7e22bbea18686a57baf1330e75d9f918e340ee67ad4ec12f36",
+    "normalizedCodeHash": "ff179a0cf1b6047a54e094ae399e3357dad9f6ab340bec5340e04d06c2e3128d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.018Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

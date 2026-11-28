@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000618",
+  "problemId": "P000618",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000618",
+    "title": "Clone Doubly Linked List with Random Pointer",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "A doubly linked list contains the following pointers: prev next random The random pointer may point to any node in the list or be null. Create a deep copy of the entire doubly linked list and return the head of the copied list.",
+    "input": "A doubly linked list with prev, next, and random pointers.",
+    "output": "The head of the deep-copied doubly linked list.",
+    "constraints": "Number of nodes is in the range [0, 1000]"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/randomized_algorithms/src/randomized_quick_sort/randomized_quicksort.c",
+    "fileSHA": "5f85bbef94986a0f02374d741472b8b009c368e2",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/randomized_algorithms/src/randomized_quick_sort/randomized_quicksort.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/randomized_algorithms/src/randomized_quick_sort/randomized_quicksort.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "98f5f6c5918c098b530a1a783a483b4ddfa90ceabbdb20f7ef4dd48b1b520d92",
+    "normalizedCodeHash": "98f5f6c5918c098b530a1a783a483b4ddfa90ceabbdb20f7ef4dd48b1b520d92",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:09.847577+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

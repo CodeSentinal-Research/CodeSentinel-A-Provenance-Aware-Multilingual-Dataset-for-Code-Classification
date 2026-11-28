@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000938",
+  "problemId": "P000938",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000938",
+    "title": "Sparse Matrix Multiplication",
+    "category": "Mathematics - Matrix Mathematics",
+    "difficulty": "Medium",
+    "problemStatement": "Given two sparse matrices, compute their product efficiently by taking advantage of the sparsity of the matrices.",
+    "input": "Dimensions of both matrices Matrix A Matrix B",
+    "output": "The product matrix.",
+    "constraints": "1 <= N, M, P <= 1000 Most matrix elements are zero."
+  },
+  "repository": {
+    "name": "vineety/sparse_matrix_mult",
+    "owner": "vineety",
+    "url": "https://github.com/vineety/sparse_matrix_mult",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "include/functions.h",
+    "fileSHA": "b0499be79f98565f05e841858d035b2fb199ee9e",
+    "url": "https://github.com/vineety/sparse_matrix_mult/blob/90d1d36ac67a255e375e1d539c3e7e19aeb284a9/include/functions.h",
+    "rawUrl": "https://raw.githubusercontent.com/vineety/sparse_matrix_mult/main/include/functions.h"
+  },
+  "matching": {
+    "relevanceScore": 85.4
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "bc786e1dc2f8a6da95b68c893736b6fe0f583290b648d9424ba51331af25baac",
+    "normalizedCodeHash": "bc786e1dc2f8a6da95b68c893736b6fe0f583290b648d9424ba51331af25baac",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T16:16:21.580716+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

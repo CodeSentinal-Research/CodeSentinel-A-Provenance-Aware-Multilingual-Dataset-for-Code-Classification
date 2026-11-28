@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000759",
+  "problemId": "P000759",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000759",
+    "title": "Count Good Numbers",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "A digit string of length N is called good if: Digits at even indices are even (0, 2, 4, 6, 8). Digits at odd indices are prime (2, 3, 5, 7). Return the total number of good digit strings of length N modulo 10^9 + 7. Solve the problem using recursive exponentiation.",
+    "input": "Integer N",
+    "output": "The total number of good strings modulo 10^9 + 7.",
+    "constraints": "1 <= N <= 10^15"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000759",
+    "fileSHA": "79a3f2e5c6c36f76c24d6271e9878e4365456d30285d9faef2a8d0da0763dd20",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "79a3f2e5c6c36f76c24d6271e9878e4365456d30285d9faef2a8d0da0763dd20",
+    "normalizedCodeHash": "79a3f2e5c6c36f76c24d6271e9878e4365456d30285d9faef2a8d0da0763dd20",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000759: Count Good Numbers"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001310",
+  "problemId": "P001310",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001310",
+    "title": "Minimum Cost of Connecting Sticks",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Given the lengths of N sticks, repeatedly connect any two sticks into one. The cost of each connection equals the sum of the lengths of the two sticks. Determine the minimum total connection cost.",
+    "input": "• First line contains integer N. • Second line contains N integers representing stick lengths.",
+    "output": "Print the minimum total cost.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001310.js",
+    "fileSHA": "6049e2f53cc9cfd8da003178f01b1f4028c7f1c42ba54f45d45f201fc909f824",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T10:11:26.401164+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6049e2f53cc9cfd8da003178f01b1f4028c7f1c42ba54f45d45f201fc909f824",
+    "normalizedCodeHash": "6049e2f53cc9cfd8da003178f01b1f4028c7f1c42ba54f45d45f201fc909f824",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T10:11:26.401164+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "problemId": "P001069",
+  "title": "Shortest Path in a Directed Acyclic Graph",
+  "category": "Graphs",
+  "difficulty": "Medium",
+  "problemStatement": "Given a weighted Directed Acyclic Graph (DAG) and a source vertex S, determine the shortest distance from S to every other vertex.",
+  "input": "\u2022 First line contains integers N, M, and S. \u2022 Next M lines contain three integers u, v, and w.",
+  "output": "Print the shortest distance from S to every vertex. Print -1 for unreachable vertices.",
+  "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5 \u2022 -10^4 \u2264 w \u2264 10^4"
+}

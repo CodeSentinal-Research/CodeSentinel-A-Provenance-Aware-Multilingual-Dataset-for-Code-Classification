@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000423",
+  "problemId": "P000423",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000423",
+    "title": "Search Orders Pending for More Than N Days",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Find all customer orders that have remained pending for more than the specified number of days.",
+    "input": "Order records and N.",
+    "output": "Matching orders.",
+    "constraints": "1 ≤ Number of Orders ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000423.py",
+    "fileSHA": "e72f8b269997d566ef9119f541c57537ec6c47d15c856e6de7bd9b8bb8547cfa",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:03.600139+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e72f8b269997d566ef9119f541c57537ec6c47d15c856e6de7bd9b8bb8547cfa",
+    "normalizedCodeHash": "2d9cea9ca83887d9818a16bd0b2cac5067928f329b0550a712bf804da3c49ab5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:03.600139+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

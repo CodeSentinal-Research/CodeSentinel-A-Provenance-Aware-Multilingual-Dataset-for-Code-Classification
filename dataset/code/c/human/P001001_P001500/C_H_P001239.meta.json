@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001239",
+  "problemId": "P001239",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001239",
+    "title": "Insert Interval",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given a sorted list of non-overlapping intervals and a new interval, insert the new interval into the list and merge overlaps if necessary.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain existing intervals. \u2022 Final line contains the new interval.",
+    "output": "Print the updated list of merged intervals.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0057_insert_interval/insert_interval.c",
+    "fileSHA": "b97da9a66645c999d41885bbfbb5e917833abf87",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0057_insert_interval/insert_interval.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0057_insert_interval/insert_interval.c"
+  },
+  "matching": {
+    "relevanceScore": 77.5
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c5179389d5a3478f28b65b8433253a1e4c7e2d370c1610e0507b0495e062cb75",
+    "normalizedCodeHash": "c5179389d5a3478f28b65b8433253a1e4c7e2d370c1610e0507b0495e062cb75",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:43:30.159112+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

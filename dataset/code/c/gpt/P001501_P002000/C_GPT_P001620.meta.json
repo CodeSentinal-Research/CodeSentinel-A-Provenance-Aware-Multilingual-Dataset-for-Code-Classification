@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001620",
+  "problemId": "P001620",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001620",
+    "title": "Sum of Alternate Elements in a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, determine the sum of elements at alternate positions within each specified range, starting from the left endpoint.",
+    "input": "• First line contains N. • Second line contains N integers. • Third line contains Q. • Next Q lines each contain L and R.",
+    "output": "• For each query, print the required sum.",
+    "constraints": "• 1 ≤ N, Q ≤ 10^5 • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001620.c",
+    "fileSHA": "6814b91e99acf156a1a03f19bbd511c15022e659ccfbad8ace7b487be3d58018",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.020Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "d122107c598663d181bfcd1f5186f4e5332b4bc6cfccae1c829bf25a94eb165e",
+    "normalizedCodeHash": "6814b91e99acf156a1a03f19bbd511c15022e659ccfbad8ace7b487be3d58018",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.020Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

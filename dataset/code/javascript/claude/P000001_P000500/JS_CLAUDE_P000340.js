@@ -1,0 +1,1 @@
+const lines=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const text=lines[0],broken=new Set(lines[1]||'');console.log(text.split(' ').filter(w=>[...w].every(c=>!broken.has(c))).length);

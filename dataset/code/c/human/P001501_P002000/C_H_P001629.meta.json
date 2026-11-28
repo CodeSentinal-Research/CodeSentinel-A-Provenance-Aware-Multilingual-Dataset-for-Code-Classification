@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001629",
+  "problemId": "P001629",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001629",
+    "title": "Longest Prefix With Negative Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers, determine the length of the longest prefix whose sum is strictly less than zero.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the required length. If no such prefix exists, print 0.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "freebsd/freebsd-src",
+    "owner": "freebsd",
+    "url": "https://github.com/freebsd/freebsd-src",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "contrib/libarchive/libarchive/test/test_read_format_tar_V_negative_size.c",
+    "fileSHA": "d110553acfaf13cedccf3a0a6b269e1320ef072c",
+    "url": "https://github.com/freebsd/freebsd-src/blob/main/contrib/libarchive/libarchive/test/test_read_format_tar_V_negative_size.c",
+    "rawUrl": "https://raw.githubusercontent.com/freebsd/freebsd-src/main/contrib/libarchive/libarchive/test/test_read_format_tar_V_negative_size.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "046605ebed200d12caf4763a39a3b54fe015fb5453ba0ae7c3f33361326eb29e",
+    "normalizedCodeHash": "046605ebed200d12caf4763a39a3b54fe015fb5453ba0ae7c3f33361326eb29e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:43:34.428581+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

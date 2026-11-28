@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001628",
+  "problemId": "P001628",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001628",
+    "title": "Longest Prefix With Positive Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers, determine the length of the longest prefix whose sum is strictly greater than zero.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the required length. If no such prefix exists, print 0.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "freebsd/freebsd-src",
+    "owner": "freebsd",
+    "url": "https://github.com/freebsd/freebsd-src",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "contrib/llvm-project/libcxx/include/__algorithm/half_positive.h",
+    "fileSHA": "ebda0da372369d5b168673a5f541e5f4a49fb5a5",
+    "url": "https://github.com/freebsd/freebsd-src/blob/main/contrib/llvm-project/libcxx/include/__algorithm/half_positive.h",
+    "rawUrl": "https://raw.githubusercontent.com/freebsd/freebsd-src/main/contrib/llvm-project/libcxx/include/__algorithm/half_positive.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "569be2bac27b1296770e49d3fcf5a8fef09690cdbee7b6905cde6eb0b6ae2859",
+    "normalizedCodeHash": "569be2bac27b1296770e49d3fcf5a8fef09690cdbee7b6905cde6eb0b6ae2859",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:43:55.567580+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

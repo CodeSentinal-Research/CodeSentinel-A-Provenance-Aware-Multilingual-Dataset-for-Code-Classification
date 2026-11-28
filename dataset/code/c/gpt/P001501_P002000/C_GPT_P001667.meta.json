@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001667",
+  "problemId": "P001667",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001667",
+    "title": "Maximum Ancestor Difference",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the maximum absolute difference between the value of a node and the value of any of its ancestors.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print the maximum absolute difference.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • −10^9 ≤ NodeValue ≤ 10^9________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001667.c",
+    "fileSHA": "d4fd5ce5b603049f8845fb09394b121a2c399335a6fca9ff5c34af741b400deb",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.172Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "fa9aa165306cfa387e74eaac05507c79f54e297265848c721e7f0a2d8fbd31d3",
+    "normalizedCodeHash": "d4fd5ce5b603049f8845fb09394b121a2c399335a6fca9ff5c34af741b400deb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.172Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

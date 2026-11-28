@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001726",
+  "problemId": "P001726",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001726",
+    "title": "Count Downward Paths with Sum K",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree whose nodes contain integer values and an integer K, determine the number of downward paths whose node values sum to exactly K. A path may start and end at any nodes but must always move from parent to child.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree. \u2022 The last line contains K.",
+    "output": "\u2022 Print the number of qualifying paths.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 \u221210^9 \u2264 NodeValue \u2264 10^9"
+  },
+  "repository": {
+    "name": "sibasundarj8/java-DSA",
+    "owner": "sibasundarj8",
+    "url": "https://github.com/sibasundarj8/java-DSA",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Tree/Tree_K_Sum_Paths.java",
+    "fileSHA": "ec8343ef6184f76aba9b7ddc11023c950097d6ab",
+    "url": "https://github.com/sibasundarj8/java-DSA/blob/21396b5051ab856b6dd120928149cab4c247b360/Tree/Tree_K_Sum_Paths.java",
+    "rawUrl": "https://raw.githubusercontent.com/sibasundarj8/java-DSA/main/Tree/Tree_K_Sum_Paths.java"
+  },
+  "matching": {
+    "relevanceScore": 91.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "133768b58eb48ef11e13a0f44098e179588935e7680cc4062a250ccc9f43dfdf",
+    "normalizedCodeHash": "133768b58eb48ef11e13a0f44098e179588935e7680cc4062a250ccc9f43dfdf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T01:36:06.678812+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

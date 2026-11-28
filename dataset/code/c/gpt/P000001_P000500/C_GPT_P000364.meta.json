@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000364",
+  "problemId": "P000364",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000364",
+    "title": "Search Multiple Target Values",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "For each query value, determine whether it exists in the array using linear search.",
+    "input": "An integer N, an array of N integers, an integer Q, followed by Q query values.",
+    "output": "For each query, print \"Found\" or \"Not Found\".",
+    "constraints": "1 ≤ N, Q ≤ 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000364.c",
+    "fileSHA": "316628c4745aee4f73c5661a9ed376008b02958e8d0477a6b55ead718ef95d77",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "316628c4745aee4f73c5661a9ed376008b02958e8d0477a6b55ead718ef95d77",
+    "normalizedCodeHash": "316628c4745aee4f73c5661a9ed376008b02958e8d0477a6b55ead718ef95d77",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

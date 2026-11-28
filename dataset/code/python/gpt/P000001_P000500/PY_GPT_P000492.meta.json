@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000492",
+  "problemId": "P000492",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000492",
+    "title": "Simplify Unix Path",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given an absolute Unix-style file path, simplify it according to the following rules: \".\" refers to the current directory. \"..\" moves to the parent directory. Multiple consecutive slashes are treated as a single slash. The simplified path must start with a single slash and contain no trailing slash unless it is the root directory. Return the canonical path.",
+    "input": "A string representing the absolute path.",
+    "output": "The simplified path.",
+    "constraints": "1 <= path.length <= 3000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000492.py",
+    "fileSHA": "f2068ee8c4f2d17a645514bc272b2a18ea01c23150b6da7165b45bd903772fc5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:05.047637+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f2068ee8c4f2d17a645514bc272b2a18ea01c23150b6da7165b45bd903772fc5",
+    "normalizedCodeHash": "9c3f88c10e1d3ce22a2bc2d0d5adfc641205f9b5240dcbe16234226c3a66e87d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:05.047637+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

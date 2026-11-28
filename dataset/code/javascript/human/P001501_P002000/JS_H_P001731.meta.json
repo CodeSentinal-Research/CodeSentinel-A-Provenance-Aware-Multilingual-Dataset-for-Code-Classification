@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001731",
+  "problemId": "P001731",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001731",
+    "title": "Convert a Binary Tree into a Threaded Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, convert it into an inorder threaded binary tree by replacing every null right pointer with a thread to its inorder successor.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the threaded binary tree in the required format.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "hybridgroup/yzma",
+    "owner": "hybridgroup",
+    "url": "https://github.com/hybridgroup/yzma",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "wasm/node/vlm.js",
+    "fileSHA": "e476395a00349578ca05d4835059ad25113b59b7",
+    "url": "https://github.com/hybridgroup/yzma/blob/a6bdb615293a2c5a82f27d189c5ecb98dd50a45a/wasm/node/vlm.js",
+    "rawUrl": "https://raw.githubusercontent.com/hybridgroup/yzma/main/wasm/node/vlm.js"
+  },
+  "matching": {
+    "relevanceScore": 83.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4f1f80da44659a01175e10d58697ea3d0de2b2c29debfe94379a00f168a20385",
+    "normalizedCodeHash": "4f1f80da44659a01175e10d58697ea3d0de2b2c29debfe94379a00f168a20385",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T20:29:02.257650+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

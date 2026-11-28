@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001284",
+  "problemId": "P001284",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001284",
+    "title": "Minimum Domino Rotations",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given two arrays representing the top and bottom halves of dominoes, determine the minimum number of rotations required so that all values in either the top row or the bottom row become identical. If impossible, print -1.",
+    "input": "• First line contains integer N. • Second line contains N integers representing the top row. • Third line contains N integers representing the bottom row.",
+    "output": "Print the minimum number of rotations.",
+    "constraints": "• 2 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001284.c",
+    "fileSHA": "89559113342ac36ec3ff59e0a7bc7551644343eeb10a4594df7cfbbbf68b9fcb",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.606Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "2476a6cc17c5aeee18ac91e082e138a013f1999111ce103609cc40f71c6c18c7",
+    "normalizedCodeHash": "89559113342ac36ec3ff59e0a7bc7551644343eeb10a4594df7cfbbbf68b9fcb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.606Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

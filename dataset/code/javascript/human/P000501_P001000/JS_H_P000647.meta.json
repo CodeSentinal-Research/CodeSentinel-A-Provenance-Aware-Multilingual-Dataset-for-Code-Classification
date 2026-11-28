@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000647",
+  "problemId": "P000647",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000647",
+    "title": "Dynamic Music Playlist Manager",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a music playlist manager using a doubly linked list. The playlist supports the following operations: addSong(title) removeSong(title) playNext() playPrevious() moveSong(title, position) currentSong() Initially, the playlist is empty. Process a sequence of operations and print the result for every playNext(), playPrevious(), and currentSong() operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for every query operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5 Song titles contain printable ASCII characters."
+  },
+  "repository": {
+    "name": "NICK-FURY-6023/BeatBuddy",
+    "owner": "NICK-FURY-6023",
+    "url": "https://github.com/NICK-FURY-6023/BeatBuddy",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "commands/Music/search.js",
+    "fileSHA": "3bfca947c63741c9ebd2ef82f38632436b2def1d",
+    "url": "https://github.com/NICK-FURY-6023/BeatBuddy/blob/4567f9798a58fab7becd46a2891466365bc060ff/commands/Music/search.js",
+    "rawUrl": "https://raw.githubusercontent.com/NICK-FURY-6023/BeatBuddy/main/commands/Music/search.js"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "831f3a74266afb219e918cdb9896c001382f90dd5eedca9e4f65dbb8b4ac8b66",
+    "normalizedCodeHash": "831f3a74266afb219e918cdb9896c001382f90dd5eedca9e4f65dbb8b4ac8b66",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T13:25:22.856323+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

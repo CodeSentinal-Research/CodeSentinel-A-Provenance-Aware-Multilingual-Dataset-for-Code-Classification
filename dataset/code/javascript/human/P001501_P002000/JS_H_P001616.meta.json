@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001616",
+  "problemId": "P001616",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001616",
+    "title": "Two-Dimensional Range Sum Query",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M matrix and multiple queries, each specifying two opposite corners of a rectangle, determine the sum of all elements inside each rectangle.",
+    "input": "\u2022 First line contains N and M. \u2022 Next N lines each contain M integers. \u2022 Next line contains Q. \u2022 Next Q lines contain r1 c1 r2 c2.",
+    "output": "\u2022 Print the answer for every query.",
+    "constraints": "\u2022 1 \u2264 N,M \u2264 1000 \u2022 1 \u2264 Q \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0300-0399/0307.Range Sum Query - Mutable/Solution2.ts",
+    "fileSHA": "9cf6643c868ec747367b2b489536380e9b921af3",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0300-0399/0307.Range Sum Query - Mutable/Solution2.ts",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0300-0399/0307.Range Sum Query - Mutable/Solution2.ts"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e0551f9ffeee680de04388c3ff4ad8fe7ffd331c90606edbb6298cad45e9925f",
+    "normalizedCodeHash": "e0551f9ffeee680de04388c3ff4ad8fe7ffd331c90606edbb6298cad45e9925f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:47.510144+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

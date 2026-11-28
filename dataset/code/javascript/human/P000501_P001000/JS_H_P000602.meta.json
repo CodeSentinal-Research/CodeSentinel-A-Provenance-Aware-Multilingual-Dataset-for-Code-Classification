@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000602",
+  "problemId": "P000602",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000602",
+    "title": "Insert into a Sorted Circular Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given a node from a sorted circular linked list and an integer insertVal, insert a new node with the given value into the list while maintaining the sorted order. Return any node from the circular linked list after insertion.",
+    "input": "Circular sorted linked list Integer insertVal",
+    "output": "The updated circular linked list.",
+    "constraints": "Number of nodes is in the range [0, 5 \u00d7 10^4] -10^6 <= insertVal <= 10^6"
+  },
+  "repository": {
+    "name": "TheAlgorithms/JavaScript",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/JavaScript",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Data-Structures/Linked-List/test/SinglyCircularLinkedList.test.js",
+    "fileSHA": "00628a6e5b8bbe96f2d4b93b12de2cc2b8619e88",
+    "url": "https://github.com/TheAlgorithms/JavaScript/blob/master/Data-Structures/Linked-List/test/SinglyCircularLinkedList.test.js",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/JavaScript/master/Data-Structures/Linked-List/test/SinglyCircularLinkedList.test.js"
+  },
+  "matching": {
+    "relevanceScore": 70.16
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "574b320ff91a61dfe999f188385ef9336c0486a66dfd93c73dbb8afa0fb0fcfd",
+    "normalizedCodeHash": "574b320ff91a61dfe999f188385ef9336c0486a66dfd93c73dbb8afa0fb0fcfd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:10:58.131111+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

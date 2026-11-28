@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001692",
+  "problemId": "P001692",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001692",
+    "title": "Longest Consecutive Parent-to-Child Path",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, determine the length of the longest path where every child has a value exactly one greater than its parent.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print the length of the longest consecutive path.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001692.c",
+    "fileSHA": "674f01712a19ddb9f692d6b205d95fa7a37460ec6df8e79390023517620cbe7f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.358Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "14da8efdd41db45e5fe00cc2315a1fb267dded24053289e13fc8c8a2e8051bd4",
+    "normalizedCodeHash": "674f01712a19ddb9f692d6b205d95fa7a37460ec6df8e79390023517620cbe7f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.358Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

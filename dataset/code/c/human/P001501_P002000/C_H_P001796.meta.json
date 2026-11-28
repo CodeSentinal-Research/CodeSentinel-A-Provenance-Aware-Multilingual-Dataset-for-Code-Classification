@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001796",
+  "problemId": "P001796",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001796",
+    "title": "Construct a Binary Search Tree from its Preorder Traversal",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the preorder traversal of a Binary Search Tree containing distinct keys, reconstruct the original BST.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the preorder traversal.",
+    "output": "\u2022 Print the reconstructed BST.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5 \u2022 All keys are distinct."
+  },
+  "repository": {
+    "name": "SymonMuchemi/Code",
+    "owner": "SymonMuchemi",
+    "url": "https://github.com/SymonMuchemi/Code",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "BST.c",
+    "fileSHA": "47a648adaf362e3fff0157709f41f3313fda673e",
+    "url": "https://github.com/SymonMuchemi/Code/blob/179f63c625da931bd0e89d32b739618e73b78981/BST.c",
+    "rawUrl": "https://raw.githubusercontent.com/SymonMuchemi/Code/main/BST.c"
+  },
+  "matching": {
+    "relevanceScore": 83.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "bc46d514e59415150e2a820eb13a2cd2726b8f67227e5fc28b0ef3d4f86a508c",
+    "normalizedCodeHash": "bc46d514e59415150e2a820eb13a2cd2726b8f67227e5fc28b0ef3d4f86a508c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T01:39:55.129817+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001128",
+  "problemId": "P001128",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001128",
+    "title": "Accounts Merge",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given multiple user accounts where each account contains a user's name followed by email addresses, merge all accounts belonging to the same person. Two accounts belong to the same person if they share at least one common email address.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain an account with a name followed by email addresses.",
+    "output": "Print the merged accounts sorted lexicographically by email.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^4 \u2022 Total emails \u2264 10^5"
+  },
+  "repository": {
+    "name": "jeremy-kunzhou/leetcode-solution",
+    "owner": "jeremy-kunzhou",
+    "url": "https://github.com/jeremy-kunzhou/leetcode-solution",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "UnionFind/721_Accounts_Merge/721_Accounts_Merge.js",
+    "fileSHA": "78c40bb2d080fdfe1033997425a2024c64755e09",
+    "url": "https://github.com/jeremy-kunzhou/leetcode-solution/blob/fd84e6207e9f7f3dd8a9f0141b097dc3445492a1/UnionFind/721_Accounts_Merge/721_Accounts_Merge.js",
+    "rawUrl": "https://raw.githubusercontent.com/jeremy-kunzhou/leetcode-solution/main/UnionFind/721_Accounts_Merge/721_Accounts_Merge.js"
+  },
+  "matching": {
+    "relevanceScore": 72.29
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0a91c179b3a43f4cca8a34184c780338f70a54c6db5e3e0cc2dfa5f3305bc9a0",
+    "normalizedCodeHash": "0a91c179b3a43f4cca8a34184c780338f70a54c6db5e3e0cc2dfa5f3305bc9a0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T19:13:15.683515+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

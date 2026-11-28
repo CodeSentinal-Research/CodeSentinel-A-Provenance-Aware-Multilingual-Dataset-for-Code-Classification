@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);int x=sc.nextInt();List<Integer>lst=new ArrayList<>();while(sc.hasNextInt())lst.add(sc.nextInt());int n=lst.size(),lo=0,hi=1;while(hi<n&&lst.get(hi)<x){lo=hi;hi=Math.min(hi*2,n-1);}while(lo<=hi){int m=(lo+hi)/2,v=lst.get(m);if(v==x){System.out.println(m);return;}else if(v<x)lo=m+1;else hi=m-1;}System.out.println(-1);}}

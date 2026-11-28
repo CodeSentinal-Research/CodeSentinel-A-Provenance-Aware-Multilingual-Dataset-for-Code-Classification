@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001597",
+  "problemId": "P001597",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001597",
+    "title": "Count Elements Equal to X in a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, determine how many elements equal X occur in each specified range.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Each of the next Q lines contains L, R, and X.",
+    "output": "\u2022 For each query print the required count.",
+    "constraints": "\u2022 1 \u2264 N,Q \u2264 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001597",
+    "fileSHA": "7fbad79f4f4d4c63e1a450fc5cf2be5cb8a4164278f6503d52b6f09dc3d55508",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:49.712734+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7fbad79f4f4d4c63e1a450fc5cf2be5cb8a4164278f6503d52b6f09dc3d55508",
+    "normalizedCodeHash": "7fbad79f4f4d4c63e1a450fc5cf2be5cb8a4164278f6503d52b6f09dc3d55508",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:49.712756+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

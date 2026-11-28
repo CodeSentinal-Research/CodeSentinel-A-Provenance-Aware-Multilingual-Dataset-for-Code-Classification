@@ -1,0 +1,10 @@
+{
+  "problemId": "P000557",
+  "title": "Race Car",
+  "category": "Queue",
+  "difficulty": "Hard",
+  "problemStatement": "A car starts at position 0 with speed 1. You are given a target position. The car supports two instructions: A (Accelerate): Position increases by current speed, then speed doubles. R (Reverse): Reverse direction. Speed becomes 1 if moving backward, or -1 if moving forward. Return the minimum number of instructions needed to reach the target position.",
+  "input": "A single integer target.",
+  "output": "A single integer representing the minimum number of instructions.",
+  "constraints": "1 <= target <= 10^4"
+}

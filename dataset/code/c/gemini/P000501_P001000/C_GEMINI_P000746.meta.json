@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000746",
+  "problemId": "P000746",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000746",
+    "title": "Josephus Problem Using Recursion",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "There are N people standing in a circle numbered from 1 to N. Starting from the first person, every K-th remaining person is eliminated until only one person remains. Solve the problem recursively and return the position of the survivor.",
+    "input": "Integer N Integer K",
+    "output": "The position of the surviving person.",
+    "constraints": "1 <= N <= 10^5 1 <= K <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000746",
+    "fileSHA": "812d36fa62f72898e173e10d3fb3996f609c8d6c9b2cb6cc2879e72ec9cd8e1c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T17:13:50.584840+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "812d36fa62f72898e173e10d3fb3996f609c8d6c9b2cb6cc2879e72ec9cd8e1c",
+    "normalizedCodeHash": "812d36fa62f72898e173e10d3fb3996f609c8d6c9b2cb6cc2879e72ec9cd8e1c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T17:13:50.584863+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

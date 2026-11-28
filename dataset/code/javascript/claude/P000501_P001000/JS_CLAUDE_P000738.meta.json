@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000738",
+  "problemId": "P000738",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000738",
+    "title": "Beautiful Arrangement",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Suppose you have the integers from 1 to N. A permutation is called a beautiful arrangement if for every position i (1-indexed), either: The number at position i is divisible by i, or i is divisible by the number. Return the total number of beautiful arrangements.",
+    "input": "Integer N",
+    "output": "The number of beautiful arrangements.",
+    "constraints": "1 <= N <= 15"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000738",
+    "fileSHA": "5419153265a73929b5efc6c482d1fc922cd6b4efa4b4ff9727e8215971c3bc3e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5419153265a73929b5efc6c482d1fc922cd6b4efa4b4ff9727e8215971c3bc3e",
+    "normalizedCodeHash": "5419153265a73929b5efc6c482d1fc922cd6b4efa4b4ff9727e8215971c3bc3e",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000738"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

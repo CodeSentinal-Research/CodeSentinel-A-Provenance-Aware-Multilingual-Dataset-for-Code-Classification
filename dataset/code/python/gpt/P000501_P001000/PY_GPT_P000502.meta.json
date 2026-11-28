@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000502",
+  "problemId": "P000502",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000502",
+    "title": "Evaluate Reverse Polish Notation",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Evaluate the value of an arithmetic expression written in Reverse Polish Notation (postfix notation). The supported operators are: + - * / Division truncates toward zero.",
+    "input": "Integer n Array of n tokens.",
+    "output": "A single integer representing the evaluated value.",
+    "constraints": "1 <= n <= 10^4 The expression is always valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000502.py",
+    "fileSHA": "c82c740787e34035da74cf8fe2e33862e4a1f305f68caab6965caf8edbbd75ae",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.059862+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c82c740787e34035da74cf8fe2e33862e4a1f305f68caab6965caf8edbbd75ae",
+    "normalizedCodeHash": "08d1c9a7712ca0a45a8933d3187fbd447ce6b1f1c8d1ddfc243a9c74a31bdc1f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.059862+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

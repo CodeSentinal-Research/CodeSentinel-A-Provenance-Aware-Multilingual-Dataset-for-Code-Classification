@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001750",
+  "problemId": "P001750",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001750",
+    "title": "Find the Level with the Minimum Number of Nodes",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, determine the level containing the fewest nodes. If multiple levels qualify, report the shallowest such level.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the required level number.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001750.c",
+    "fileSHA": "82f91dc9f306fae4eeb4e772b5c27e0b85dc90ee01f772c8eb95b81b49b50029",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.536Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "aad100a6fd24dbe559b676910763cab30f11eb3185b9866d90aef32c28f522e3",
+    "normalizedCodeHash": "82f91dc9f306fae4eeb4e772b5c27e0b85dc90ee01f772c8eb95b81b49b50029",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.536Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,56 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm>
+#include <cmath>
+#include <climits>
+#include <cstdint>
+#include <queue>
+#include <stack>
+#include <unordered_map>
+#include <unordered_set>
+#include <map>
+#include <set>
+#include <numeric>
+#include <sstream>
+using namespace std;
+
+/**
+ * 題目：2176. Count Equal and Divisible Pairs in an Array (統計陣列中相等且可以被整除的數對)
+ * 難度：簡單 (Easy)
+ * 描述：給你一個長度為 n 的整數陣列 nums 和一個整數 k，請你找出並返回滿足以下條件的數對 (i, j) 的數量：
+ *       1. 0 <= i < j < n
+ *       2. nums[i] == nums[j]
+ *       3. (i * j) % k == 0
+ * 
+ * 時間複雜度：O(N^2)
+ * 空間複雜度：O(1)
+ * 
+ * 解法思路：
+ * 1. 暴力枚舉 (Brute Force)：
+ *    - 題目資料規模通常較小，直接使用雙重迴圈窮舉所有符合 `0 <= i < j < n` 的組合。
+ * 2. 條件過濾：
+ *    - 在每次迴圈中，同時檢查兩個條件：
+ *      - 數值是否相等：`nums[i] == nums[j]`
+ *      - 索引乘積是否能被 k 整除：`(i * j) % k == 0`
+ * 3. 累計答案：
+ *    - 若兩個條件皆成立，則將計數器 `ans` 加 1，最後返回 `ans`。
+ */
+
+class Solution {
+public:
+    int countPairs(std::vector<int>& nums, int k) {
+        int n = nums.size();
+        int ans = 0;
+        // 雙重迴圈窮舉所有合法的數對 (i, j)，其中 i < j
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                // 檢查是否符合題目要求的數值相等且索引乘積能被 k 整除
+                if ((nums[i] == nums[j]) && ((i * j) % k == 0)) {
+                    ans++;
+                }
+            }
+        }
+        return ans;
+    }
+};

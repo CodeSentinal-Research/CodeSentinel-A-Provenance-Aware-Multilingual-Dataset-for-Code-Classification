@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001633",
+  "problemId": "P001633",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001633",
+    "title": "Largest Rectangle With Sum Not Exceeding K",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × M matrix of integers and an integer K, determine the maximum area of a rectangular submatrix whose sum does not exceed K.",
+    "input": "• First line contains N, M, and K. • Next N lines each contain M integers.",
+    "output": "• Print the maximum rectangle area.",
+    "constraints": "• 1 ≤ N, M ≤ 300 • -10^4 ≤ Aij ≤ 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001633.c",
+    "fileSHA": "b95ce4d48f75df1dd90ee8ec15e82ac772a4d774661e5bdb694dc5508b5ecbad",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.056Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "22f8ffe415acd457518cc8ec2f70110993e57cfeb3306ac12774d273ddb03926",
+    "normalizedCodeHash": "b95ce4d48f75df1dd90ee8ec15e82ac772a4d774661e5bdb694dc5508b5ecbad",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.056Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

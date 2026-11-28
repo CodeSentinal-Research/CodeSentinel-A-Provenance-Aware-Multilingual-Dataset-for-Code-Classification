@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001600",
+  "problemId": "P001600",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001600",
+    "title": "Range Average Query",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, compute the average value of elements in each specified range.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Next Q lines contain L and R.",
+    "output": "\u2022 Print the average for each query.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2 \u00d7 10^5 \u2022 0 \u2264 L \u2264 R < N"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/mathematical_algorithms/src/average_stream_numbers/average_stream_numbers.c",
+    "fileSHA": "fcb2dc657e3327338314e577f34d0456773fe625",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/mathematical_algorithms/src/average_stream_numbers/average_stream_numbers.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/mathematical_algorithms/src/average_stream_numbers/average_stream_numbers.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a9f5abc83b852c1cd874e8de69aa721a2ab94fbf607d34bb0cbc67ec0c6f605a",
+    "normalizedCodeHash": "a9f5abc83b852c1cd874e8de69aa721a2ab94fbf607d34bb0cbc67ec0c6f605a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:37:35.514988+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

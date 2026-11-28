@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P001058",
+  "problemId": "P001058",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001058",
+    "title": "Frequency Stack",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Design a stack-like data structure that supports push and pop operations. The pop operation must always remove the most frequently occurring element. If multiple elements have the same frequency, remove the one that was pushed most recently.",
+    "input": "• First line contains integer Q. • Next Q lines contain push or pop operations.",
+    "output": "Print the value removed for every pop operation.",
+    "constraints": "• 1 ≤ Q ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P001058",
+    "fileSHA": "e0f26d36abbd4758f009c315a120b71b43238859ad1e901339fb926ad2d8a83f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e0f26d36abbd4758f009c315a120b71b43238859ad1e901339fb926ad2d8a83f",
+    "normalizedCodeHash": "e0f26d36abbd4758f009c315a120b71b43238859ad1e901339fb926ad2d8a83f",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P001058"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

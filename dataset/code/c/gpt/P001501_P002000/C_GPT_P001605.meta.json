@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001605",
+  "problemId": "P001605",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001605",
+    "title": "Longest Subarray With Sum Equal to K",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and an integer K, determine the length of the longest contiguous subarray whose sum is exactly K.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the maximum length. If no such subarray exists, print 0.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001605.c",
+    "fileSHA": "66fdc714d8a0602c64e14e92352f8d8742856a66f5c02df0e4f9b449ece6d849",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.978Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "37aca79226ddb29ca96be7c6a643c1bc1df52aef7d65f35b084ad52b8a6024b3",
+    "normalizedCodeHash": "66fdc714d8a0602c64e14e92352f8d8742856a66f5c02df0e4f9b449ece6d849",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.978Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

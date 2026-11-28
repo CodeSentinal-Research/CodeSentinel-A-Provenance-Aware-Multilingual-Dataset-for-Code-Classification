@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_CLAUDE_P001548",
+  "problemId": "P001548",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001548",
+    "title": "Window With Highest Product (Positive Numbers)",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array containing only positive integers and a window size K, find the maximum product among all contiguous subarrays of size K.",
+    "input": "• First line contains N and K. • Second line contains N positive integers.",
+    "output": "• Print the maximum product.",
+    "constraints": "• 1 ≤ N ≤ 10^4 • 1 ≤ K ≤ N • 1 ≤ Ai ≤ 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P001548",
+    "fileSHA": "18cb98b66106c6a9939cbe29936790d7cc59c798c0a225e30b92451bf22ee576",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "bab2f488cd57514473465e6979cfc6e9e64c01443bf2ab94a302edce81fa2607",
+    "normalizedCodeHash": "18cb98b66106c6a9939cbe29936790d7cc59c798c0a225e30b92451bf22ee576",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000534",
+  "problemId": "P000534",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000534",
+    "title": "Dota2 Senate",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "In the Dota2 senate, senators belong to one of two parties: 'R' (Radiant) 'D' (Dire) The voting proceeds in rounds. During each round, senators act in their current order. A senator who still has voting rights may ban one senator from the opposing party. A banned senator loses all future rights. Assuming every senator acts optimally for their party, determine which party will eventually win.",
+    "input": "A string representing the initial senate order.",
+    "output": "Print \"Radiant\" or \"Dire\".",
+    "constraints": "1 <= senate.length <= 10^4"
+  },
+  "repository": {
+    "name": "ikaushikpal/DS-450-python",
+    "owner": "ikaushikpal",
+    "url": "https://github.com/ikaushikpal/DS-450-python",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Greedy/Dota2 Senate.py",
+    "fileSHA": "24bc91e8bb984e907c6aaa91441f15fcbec0a870",
+    "url": "https://github.com/ikaushikpal/DS-450-python/blob/27c9aa7367a2f823c332c524ba5cf5a08f5bc675/Greedy/Dota2 Senate.py",
+    "rawUrl": "https://raw.githubusercontent.com/ikaushikpal/DS-450-python/main/Greedy/Dota2 Senate.py"
+  },
+  "matching": {
+    "relevanceScore": 82.26
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b9afcce6f24fa17d62d9339c25853590d0459d37ab75f7b125b4a0a9a329565d",
+    "normalizedCodeHash": "b9afcce6f24fa17d62d9339c25853590d0459d37ab75f7b125b4a0a9a329565d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:24:10.476248+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

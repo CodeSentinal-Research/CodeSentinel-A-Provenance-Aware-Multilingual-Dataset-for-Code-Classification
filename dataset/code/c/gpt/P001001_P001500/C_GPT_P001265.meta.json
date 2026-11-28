@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001265",
+  "problemId": "P001265",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001265",
+    "title": "Maximum Performance of a Team",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given N engineers, each having a speed and an efficiency, select at most K engineers to maximize the team's performance, defined as the sum of selected speeds multiplied by the minimum efficiency among them.",
+    "input": "• First line contains integers N and K. • Second line contains N integers representing speeds. • Third line contains N integers representing efficiencies.",
+    "output": "Print the maximum achievable performance.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001265.c",
+    "fileSHA": "af72bd9b98d4910eb896404dd9dc049a928bd001531fa3c12453797b62d5e175",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.504Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "2bfff48886211ef151323ea27a943a5fd86a03eab0a57c7d73e06e0e264b2ed7",
+    "normalizedCodeHash": "af72bd9b98d4910eb896404dd9dc049a928bd001531fa3c12453797b62d5e175",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.504Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

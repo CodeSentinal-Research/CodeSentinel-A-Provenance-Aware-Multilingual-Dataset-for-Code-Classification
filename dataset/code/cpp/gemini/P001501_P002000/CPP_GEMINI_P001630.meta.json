@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001630",
+  "problemId": "P001630",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001630",
+    "title": "Minimum Operations to Equalize Prefix Sums",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given two arrays of equal length, determine the minimum number of increment operations required so that the prefix sum at every index of the first array is at least the corresponding prefix sum of the second array. In one operation, you may increase any element of the first array by 1.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers representing the first array. \u2022 Third line contains N integers representing the second array.",
+    "output": "\u2022 Print the minimum number of operations.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 0 \u2264 Ai, Bi \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001630",
+    "fileSHA": "9340cbe482e4771d9aee1c3eb563942420c50065404083ac16611660526ca5bb",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:57.961854+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9340cbe482e4771d9aee1c3eb563942420c50065404083ac16611660526ca5bb",
+    "normalizedCodeHash": "9340cbe482e4771d9aee1c3eb563942420c50065404083ac16611660526ca5bb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:57.961877+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

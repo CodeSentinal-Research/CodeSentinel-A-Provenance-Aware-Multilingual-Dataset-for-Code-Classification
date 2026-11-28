@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000530",
+  "problemId": "P000530",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000530",
+    "title": "Circular Queue Design",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Design a circular queue of fixed capacity. Support the following operations: enQueue(x) deQueue() Front() Rear() isEmpty() isFull() Process a sequence of operations and print the result for query operations.",
+    "input": "Integer capacity Integer q Next q operations.",
+    "output": "Print the result for every query operation.",
+    "constraints": "1 <= capacity <= 1000 1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000530.py",
+    "fileSHA": "4b13bfe4cc9ca0cc9b9e7b0221a946d93e74566737f32da63249621fb292d51b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.153554+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4b13bfe4cc9ca0cc9b9e7b0221a946d93e74566737f32da63249621fb292d51b",
+    "normalizedCodeHash": "c9f842c8639f527c57201ddb50256ca8bd77c45b6e0efceda3273862565d4363",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.153554+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

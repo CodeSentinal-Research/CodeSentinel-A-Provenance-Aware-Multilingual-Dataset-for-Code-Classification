@@ -1,0 +1,1 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const[m,n,k]=l[0].split(' ').map(Number);const a=l[1].split(' ').map(Number),b=l[2].split(' ').map(Number);const c=[...a,...b].sort((x,y)=>x-y);console.log(c[k-1]);

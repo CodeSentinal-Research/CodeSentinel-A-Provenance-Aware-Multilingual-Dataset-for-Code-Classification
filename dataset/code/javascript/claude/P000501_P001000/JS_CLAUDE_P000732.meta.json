@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000732",
+  "problemId": "P000732",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000732",
+    "title": "Rat in a Maze",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N × N binary matrix where 1 represents an open cell and 0 represents a blocked cell, find all possible paths from the top-left corner to the bottom-right corner. The rat may move only Up, Down, Left, and Right, and cannot visit the same cell more than once in a path. Print all valid paths in lexicographical order.",
+    "input": "Integer N Matrix maze",
+    "output": "All valid paths.",
+    "constraints": "1 <= N <= 10"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000732",
+    "fileSHA": "cb6648d006158827c0dfc0baed79b6c26b634dfc4ce8ed80cfe6e8592486659a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cb6648d006158827c0dfc0baed79b6c26b634dfc4ce8ed80cfe6e8592486659a",
+    "normalizedCodeHash": "cb6648d006158827c0dfc0baed79b6c26b634dfc4ce8ed80cfe6e8592486659a",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000732"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

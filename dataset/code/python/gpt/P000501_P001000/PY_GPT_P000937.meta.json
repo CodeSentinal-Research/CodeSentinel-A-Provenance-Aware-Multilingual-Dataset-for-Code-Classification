@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000937",
+  "problemId": "P000937",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000937",
+    "title": "Matrix Exponentiation",
+    "category": "Mathematics - Matrix Mathematics",
+    "difficulty": "Hard",
+    "problemStatement": "Given a square matrix A of size N × N and a non-negative integer K, compute A^K.",
+    "input": "Integer N Integer K Matrix A",
+    "output": "The matrix A raised to the power K.",
+    "constraints": "1 <= N <= 50 0 <= K <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000937.py",
+    "fileSHA": "3bbf885028bc99392787a98d7a98614109b13bd67bc873500cf5e09da0543202",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.619978+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3bbf885028bc99392787a98d7a98614109b13bd67bc873500cf5e09da0543202",
+    "normalizedCodeHash": "affae17ff844fc83ac2bccc90e322e132ba2f500e72ae1ff075f21ef30e1a640",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.619978+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

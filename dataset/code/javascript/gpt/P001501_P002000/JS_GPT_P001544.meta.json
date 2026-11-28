@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001544",
+  "problemId": "P001544",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001544",
+    "title": "Count Windows With Sum Greater Than X",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers, a window size K, and an integer X, count how many contiguous subarrays of size K have a sum strictly greater than X.",
+    "input": "• First line contains N, K, and X. • Second line contains N integers.",
+    "output": "• Print the required count.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 1 ≤ K ≤ N • -10^4 ≤ Ai ≤ 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001501_P002000/JS_GPT_P001544.js",
+    "fileSHA": "2cec3954d2da3e55d4528bd582273aca46e07d4f5fd1e6b1d65173ca727d37c1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2cec3954d2da3e55d4528bd582273aca46e07d4f5fd1e6b1d65173ca727d37c1",
+    "normalizedCodeHash": "2cec3954d2da3e55d4528bd582273aca46e07d4f5fd1e6b1d65173ca727d37c1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

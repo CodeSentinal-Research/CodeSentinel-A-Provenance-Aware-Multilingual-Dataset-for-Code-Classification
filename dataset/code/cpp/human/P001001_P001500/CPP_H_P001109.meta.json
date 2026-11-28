@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001109",
+  "problemId": "P001109",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001109",
+    "title": "Graph Coloring Verification",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an undirected graph and a color assigned to every vertex. Determine whether the coloring is valid such that no two adjacent vertices share the same color.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges. \u2022 Last line contains N integers representing vertex colors.",
+    "output": "Print VALID or INVALID.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/graph_algorithms/src/graph_coloring/graph_coloring.cpp",
+    "fileSHA": "28eb356f3481a69e037d4de1e40cddcda9538913",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/graph_algorithms/src/graph_coloring/graph_coloring.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/graph_algorithms/src/graph_coloring/graph_coloring.cpp"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "680728940268b90150f95fcfe3d333b251adf9de29ef0ff0ac2ccdd34fa209a6",
+    "normalizedCodeHash": "680728940268b90150f95fcfe3d333b251adf9de29ef0ff0ac2ccdd34fa209a6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:05.866649+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

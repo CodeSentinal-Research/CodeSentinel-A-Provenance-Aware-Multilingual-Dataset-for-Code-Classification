@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000615",
+  "problemId": "P000615",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000615",
+    "title": "Reverse Nodes in Even Length Groups",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "The nodes of a linked list are divided into groups of sizes 1, 2, 3, 4, .... If the final group has fewer nodes than expected, it forms the last group. Reverse only those groups whose actual length is even. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 0 <= node.value <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000615",
+    "fileSHA": "59bc9c42e4b4323ef18b39edb07330c09a752e4c2c2202f1bf03784eee905a67",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "59bc9c42e4b4323ef18b39edb07330c09a752e4c2c2202f1bf03784eee905a67",
+    "normalizedCodeHash": "59bc9c42e4b4323ef18b39edb07330c09a752e4c2c2202f1bf03784eee905a67",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000615"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

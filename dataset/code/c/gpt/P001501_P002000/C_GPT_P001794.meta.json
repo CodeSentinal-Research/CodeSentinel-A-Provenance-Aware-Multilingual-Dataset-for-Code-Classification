@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001794",
+  "problemId": "P001794",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001794",
+    "title": "Find the Lowest Common Ancestor in a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given the root of a Binary Search Tree and two distinct keys, determine their lowest common ancestor.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST. • The last line contains the two keys.",
+    "output": "• Print the value of the lowest common ancestor.",
+    "constraints": "• 2 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001794.c",
+    "fileSHA": "8fd6600edb745684299c81c7d0c93dc135fa916ad988f6c785f2b4b77d5adba0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.681Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "0e64679f834bdea8c04a244286838b422ffb8f6218dc7d3a4bffec301967f8b1",
+    "normalizedCodeHash": "8fd6600edb745684299c81c7d0c93dc135fa916ad988f6c785f2b4b77d5adba0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.681Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000292",
+  "problemId": "P000292",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000292",
+    "title": "Decode String",
+    "category": "Strings",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that decodes an encoded string where the pattern is k[encoded_string] meaning the encoded_string inside the brackets is repeated exactly k times.",
+    "input": "An encoded string S.",
+    "output": "The decoded string.",
+    "constraints": "1 ≤ |S| ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000292.c",
+    "fileSHA": "2d44dd80882eae9a214c7e3a4e62de0e3ecfd020be512d0356650164dbc3b1ae",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2d44dd80882eae9a214c7e3a4e62de0e3ecfd020be512d0356650164dbc3b1ae",
+    "normalizedCodeHash": "2d44dd80882eae9a214c7e3a4e62de0e3ecfd020be512d0356650164dbc3b1ae",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001084",
+  "problemId": "P001084",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001084",
+    "title": "Hamiltonian Cycle",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph, determine whether it contains a Hamiltonian Cycle.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print YES if a Hamiltonian Cycle exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 20 \u2022 0 \u2264 M \u2264 N(N\u22121)/2"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Python",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "backtracking/hamiltonian_cycle.py",
+    "fileSHA": "f6e4212e47f4037fa9e7d37c2228b5b1c067ac02",
+    "url": "https://github.com/TheAlgorithms/Python/blob/master/backtracking/hamiltonian_cycle.py",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Python/master/backtracking/hamiltonian_cycle.py"
+  },
+  "matching": {
+    "relevanceScore": 91.67
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "216ceb622f942554a53c6f5216e0fb54da1062ca25d3e068e7f49de9dcd856e7",
+    "normalizedCodeHash": "216ceb622f942554a53c6f5216e0fb54da1062ca25d3e068e7f49de9dcd856e7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:14:14.563747+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

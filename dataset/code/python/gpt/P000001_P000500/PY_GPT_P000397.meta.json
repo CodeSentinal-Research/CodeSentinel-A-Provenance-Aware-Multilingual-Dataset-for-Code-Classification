@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000397",
+  "problemId": "P000397",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000397",
+    "title": "Search Orders by Order Status",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Retrieve all orders having the specified status.",
+    "input": "Order records and an order status.",
+    "output": "Matching orders.",
+    "constraints": "1 ≤ Number of Orders ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000397.py",
+    "fileSHA": "d02be20fc9da9a0504820ed9128771902676a3e206911dea3b11aa934389d768",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:02.189899+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d02be20fc9da9a0504820ed9128771902676a3e206911dea3b11aa934389d768",
+    "normalizedCodeHash": "73d87c894c4b16d7d2cdc9bdf51fed6ff0aa4e5244f9e4397db235d2e33d02d7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:02.189899+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

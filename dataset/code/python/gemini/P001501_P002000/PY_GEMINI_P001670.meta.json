@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001670",
+  "problemId": "P001670",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001670",
+    "title": "Recover a Binary Tree from Depth-Encoded Preorder Traversal",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a preorder traversal of a binary tree where the depth of each node is encoded in the traversal, reconstruct the original binary tree.",
+    "input": "\u2022 The first line contains the depth-encoded preorder traversal.",
+    "output": "\u2022 Print the reconstructed tree in the required traversal format.",
+    "constraints": "\u2022 The traversal contains at most 2 \u00d7 10^5 nodes.________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001670",
+    "fileSHA": "5359af784256a0f29e5b052310294aacf602998beacfb612ce6398b1cc6af479",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:35:04.027286+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5359af784256a0f29e5b052310294aacf602998beacfb612ce6398b1cc6af479",
+    "normalizedCodeHash": "5359af784256a0f29e5b052310294aacf602998beacfb612ce6398b1cc6af479",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:35:04.027316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

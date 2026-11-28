@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_QWEN_P001654",
+  "problemId": "P001654",
+  "language": "javascript",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001654",
+    "title": "Recover a Corrupted Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "A binary tree originally satisfied the property that every parent-child relationship followed the given ordering rule, but exactly one node contains an incorrect value due to data corruption. Restore the corrupted node so that the original property of the tree is satisfied again.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the corrected tree in the required traversal format.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2 \u00d7 10^5 \u2022 Exactly one node value is incorrect."
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/JS_QWEN_P001654",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

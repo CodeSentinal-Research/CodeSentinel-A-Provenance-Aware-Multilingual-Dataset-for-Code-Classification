@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001654",
+  "problemId": "P001654",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001654",
+    "title": "Recover a Corrupted Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "A binary tree originally satisfied the property that every parent-child relationship followed the given ordering rule, but exactly one node contains an incorrect value due to data corruption. Restore the corrupted node so that the original property of the tree is satisfied again.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the corrected tree in the required traversal format.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2 \u00d7 10^5 \u2022 Exactly one node value is incorrect."
+  },
+  "repository": {
+    "name": "pezy/LeetCode",
+    "owner": "pezy",
+    "url": "https://github.com/pezy/LeetCode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "093. Binary Tree Inorder Traversal/solution.h",
+    "fileSHA": "2cc321e91662ceb717ce8920309c577a0bc1adee",
+    "url": "https://github.com/pezy/LeetCode/blob/master/093. Binary Tree Inorder Traversal/solution.h",
+    "rawUrl": "https://raw.githubusercontent.com/pezy/LeetCode/master/093. Binary Tree Inorder Traversal/solution.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "99d6db3292494886db0ca4f43a6a5153d7d7ec3bbb4c7f7d42e8ed2b1f4c3b00",
+    "normalizedCodeHash": "99d6db3292494886db0ca4f43a6a5153d7d7ec3bbb4c7f7d42e8ed2b1f4c3b00",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:29:24.500536+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

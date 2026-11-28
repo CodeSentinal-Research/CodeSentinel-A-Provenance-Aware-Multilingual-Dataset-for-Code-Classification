@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000520",
+  "problemId": "P000520",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000520",
+    "title": "Remove Stars From a String",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a string containing lowercase English letters and the character '*'. Each '*' removes itself and the closest non-removed character immediately to its left. Return the final string after processing all stars.",
+    "input": "A single string s.",
+    "output": "The resulting string.",
+    "constraints": "1 <= s.length <= 10^5 The input is guaranteed to be valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000520",
+    "fileSHA": "b2eec1573261c6ec4c217ca10dba99d35b2dd685f3572c0d0d8ff9b5f189f067",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b2eec1573261c6ec4c217ca10dba99d35b2dd685f3572c0d0d8ff9b5f189f067",
+    "normalizedCodeHash": "b2eec1573261c6ec4c217ca10dba99d35b2dd685f3572c0d0d8ff9b5f189f067",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000520: Remove Stars From a String"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

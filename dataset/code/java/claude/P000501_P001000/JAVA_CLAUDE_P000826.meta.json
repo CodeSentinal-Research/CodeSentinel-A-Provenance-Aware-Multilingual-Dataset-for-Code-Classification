@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000826",
+  "problemId": "P000826",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000826",
+    "title": "Arranging Coins",
+    "category": "Binary Search",
+    "difficulty": "Easy",
+    "problemStatement": "You have n coins. Arrange them into a staircase where the i-th row contains exactly i coins. Return the number of complete rows that can be formed.",
+    "input": "Integer n",
+    "output": "The number of complete staircase rows.",
+    "constraints": "0 <= n <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000826",
+    "fileSHA": "5adecca300845d39ed1fde5719e1a68b365cf3bc56484b5ae4d4c51fbf860e26",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5adecca300845d39ed1fde5719e1a68b365cf3bc56484b5ae4d4c51fbf860e26",
+    "normalizedCodeHash": "5adecca300845d39ed1fde5719e1a68b365cf3bc56484b5ae4d4c51fbf860e26",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000826"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

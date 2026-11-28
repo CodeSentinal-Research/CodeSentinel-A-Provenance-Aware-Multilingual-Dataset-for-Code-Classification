@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001388",
+  "problemId": "P001388",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001388",
+    "title": "Count Distinct Elements in Every Window",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and a window size K, determine the number of distinct elements in every contiguous subarray of size K.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the distinct element count for each window.",
+    "constraints": "\u2022 1 \u2264 K \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001388",
+    "fileSHA": "d32ebe58c39eaf1daf37e85a53ced1762a4b00c32a2e08d6e3a8c934eb3d9837",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:24:06.949642+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d32ebe58c39eaf1daf37e85a53ced1762a4b00c32a2e08d6e3a8c934eb3d9837",
+    "normalizedCodeHash": "d32ebe58c39eaf1daf37e85a53ced1762a4b00c32a2e08d6e3a8c934eb3d9837",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:24:06.949675+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

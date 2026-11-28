@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000837",
+  "problemId": "P000837",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000837",
+    "title": "Minimize Maximum Distance to Gas Station",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Given the positions of existing gas stations and an integer k, add exactly k new gas stations. Return the minimum possible value of the maximum distance between adjacent gas stations. Your answer should be accurate within 10^-6.",
+    "input": "Integer n Sorted array stations Integer k",
+    "output": "The minimized maximum distance.",
+    "constraints": "2 <= n <= 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000837",
+    "fileSHA": "d0164b04d8fad1c7ef3288276f8a1853f25a96d5120af8c158be2c4cbad2ea69",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d0164b04d8fad1c7ef3288276f8a1853f25a96d5120af8c158be2c4cbad2ea69",
+    "normalizedCodeHash": "d0164b04d8fad1c7ef3288276f8a1853f25a96d5120af8c158be2c4cbad2ea69",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000837"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

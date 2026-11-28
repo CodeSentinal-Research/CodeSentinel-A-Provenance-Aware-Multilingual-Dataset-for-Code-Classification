@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001069",
+  "problemId": "P001069",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001069",
+    "title": "Shortest Path in a Directed Acyclic Graph",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a weighted Directed Acyclic Graph (DAG) and a source vertex S, determine the shortest distance from S to every other vertex.",
+    "input": "\u2022 First line contains integers N, M, and S. \u2022 Next M lines contain three integers u, v, and w.",
+    "output": "Print the shortest distance from S to every vertex. Print -1 for unreachable vertices.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5 \u2022 -10^4 \u2264 w \u2264 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001069",
+    "fileSHA": "0a625f5bab51c3d376e8894e5b63c42f1a18dba4e21099d5a1f37d77ed83b253",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:43:32.271255+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0a625f5bab51c3d376e8894e5b63c42f1a18dba4e21099d5a1f37d77ed83b253",
+    "normalizedCodeHash": "0a625f5bab51c3d376e8894e5b63c42f1a18dba4e21099d5a1f37d77ed83b253",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:43:32.271282+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

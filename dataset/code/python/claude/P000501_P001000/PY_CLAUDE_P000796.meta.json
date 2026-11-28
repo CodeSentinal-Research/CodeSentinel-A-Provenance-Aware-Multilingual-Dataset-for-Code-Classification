@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000796",
+  "problemId": "P000796",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000796",
+    "title": "Make Sum Divisible by P",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array nums and an integer p, remove the shortest non-empty subarray such that the sum of the remaining elements is divisible by p. Return the length of the shortest such subarray, or -1 if impossible.",
+    "input": "Integer n Array nums Integer p",
+    "output": "The minimum length of the removed subarray.",
+    "constraints": "1 <= n <= 10^5 1 <= nums[i] <= 10^9 1 <= p <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000796",
+    "fileSHA": "0028753f333a954382e342435d2c9bc49cba96c59452e328ff88cbde8eba1a74",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0028753f333a954382e342435d2c9bc49cba96c59452e328ff88cbde8eba1a74",
+    "normalizedCodeHash": "0028753f333a954382e342435d2c9bc49cba96c59452e328ff88cbde8eba1a74",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000796: Make Sum Divisible by P"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

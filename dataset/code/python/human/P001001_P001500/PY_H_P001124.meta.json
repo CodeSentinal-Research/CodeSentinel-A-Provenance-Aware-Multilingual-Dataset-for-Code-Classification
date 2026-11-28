@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001124",
+  "problemId": "P001124",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001124",
+    "title": "Cheapest Flight Within K Stops",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a list of flights between cities with ticket costs, determine the minimum cost of traveling from a source city to a destination city using at most K intermediate stops.",
+    "input": "\u2022 First line contains integers N, M, S, D, and K. \u2022 Next M lines contain integers u, v, and cost.",
+    "output": "Print the minimum travel cost. If no such route exists, print -1.",
+    "constraints": "\u2022 2 \u2264 N \u2264 100 \u2022 1 \u2264 M \u2264 10^4"
+  },
+  "repository": {
+    "name": "MahbubHSD/DSA",
+    "owner": "MahbubHSD",
+    "url": "https://github.com/MahbubHSD/DSA",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Leetcode_150/Advanced_Graphs/cheapest_flights_within_k_stops.py",
+    "fileSHA": "f5798f22e90226e8c415ddd1a5235747f6c7034f",
+    "url": "https://github.com/MahbubHSD/DSA/blob/4346e8ddbbfb01292b388b3c41f1896eab09d5d1/Leetcode_150/Advanced_Graphs/cheapest_flights_within_k_stops.py",
+    "rawUrl": "https://raw.githubusercontent.com/MahbubHSD/DSA/main/Leetcode_150/Advanced_Graphs/cheapest_flights_within_k_stops.py"
+  },
+  "matching": {
+    "relevanceScore": 84.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "70f83816126140497aba230006d033ac0d88b31ecb5bf5e317286051108340e4",
+    "normalizedCodeHash": "70f83816126140497aba230006d033ac0d88b31ecb5bf5e317286051108340e4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T11:23:18.053440+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P000807",
+  "problemId": "P000807",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000807",
+    "title": "Count Subarrays with Equal Number of Vowels and Consonants",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string consisting of lowercase English letters, count the number of contiguous substrings containing an equal number of vowels and consonants. The vowels are a, e, i, o, and u.",
+    "input": "String s",
+    "output": "The number of valid substrings.",
+    "constraints": "1 <= |s| <= 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000807",
+    "fileSHA": "d8faa2b225beb7bcbebf178030dfab89663bf3e103af5af3938d38eefffed3be",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "03529ee5c71e7f8d9af809b977f74e9e1547e0a5957866950b38db9d2b7a111a",
+    "normalizedCodeHash": "d8faa2b225beb7bcbebf178030dfab89663bf3e103af5af3938d38eefffed3be",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

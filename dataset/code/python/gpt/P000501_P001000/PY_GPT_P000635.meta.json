@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000635",
+  "problemId": "P000635",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000635",
+    "title": "Reverse Nodes in Variable Sized Groups",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and an array groups representing group sizes, reverse the nodes according to the given group sizes in order. If the remaining number of nodes is smaller than the current group size, leave those nodes unchanged. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer g Array groups",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= g <= n 1 <= groups[i] <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000635.py",
+    "fileSHA": "41e451a204179bf22c39d4a71ba0f1d39e143da9e04b9ffaee4fa92d69141c26",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.504365+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "41e451a204179bf22c39d4a71ba0f1d39e143da9e04b9ffaee4fa92d69141c26",
+    "normalizedCodeHash": "e3af268265e615f05473e917f765938d9e21183cf267ba24ed061d448f3f0c9a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.504365+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

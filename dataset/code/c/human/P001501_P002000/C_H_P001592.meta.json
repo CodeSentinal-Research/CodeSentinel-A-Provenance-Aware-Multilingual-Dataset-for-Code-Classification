@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001592",
+  "problemId": "P001592",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001592",
+    "title": "Earliest Prefix With Sum At Least X",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and an integer X, determine the smallest index such that the prefix sum is greater than or equal to X. If no such prefix exists, print -1.",
+    "input": "\u2022 First line contains N and X. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the required index or -1.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/0208-implement-trie-prefix-tree.c",
+    "fileSHA": "1a6b16c033ca951fc42f46c04158688752b94088",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/c/0208-implement-trie-prefix-tree.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/0208-implement-trie-prefix-tree.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "fb0574a7d4e2da79a40b5332f254048b3b6cb3d70d2ebfe5142c080ea395a361",
+    "normalizedCodeHash": "fb0574a7d4e2da79a40b5332f254048b3b6cb3d70d2ebfe5142c080ea395a361",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:06.402358+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

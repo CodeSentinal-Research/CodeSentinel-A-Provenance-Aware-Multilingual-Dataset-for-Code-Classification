@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000866",
+  "problemId": "P000866",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000866",
+    "title": "XOR Queries of a Subarray",
+    "category": "Bit Manipulation",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and multiple range queries, return the XOR of elements in each queried range.",
+    "input": "Integer n Array nums Integer q Queries (L, R)",
+    "output": "The XOR for each query.",
+    "constraints": "1 <= n, q <= 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000866",
+    "fileSHA": "28ca41cb9d1aff44341b24a704d3c83a594e3dd6d759784ac124d2813079ea93",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "28ca41cb9d1aff44341b24a704d3c83a594e3dd6d759784ac124d2813079ea93",
+    "normalizedCodeHash": "28ca41cb9d1aff44341b24a704d3c83a594e3dd6d759784ac124d2813079ea93",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000866"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

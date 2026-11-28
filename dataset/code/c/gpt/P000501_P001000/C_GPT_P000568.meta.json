@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000568",
+  "problemId": "P000568",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000568",
+    "title": "Minimum Knight Moves",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "An infinite chessboard contains a knight initially positioned at (0, 0). Given the coordinates of a target cell (x, y), determine the minimum number of knight moves required to reach the target. The knight moves according to standard chess rules.",
+    "input": "Integer x Integer y",
+    "output": "A single integer representing the minimum number of moves.",
+    "constraints": "-300 <= x, y <= 300"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000568.c",
+    "fileSHA": "59a08b19f111bf5707d3c1b276dbafc1d71bf661bf974e2dd6a24122a0300a81",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "59a08b19f111bf5707d3c1b276dbafc1d71bf661bf974e2dd6a24122a0300a81",
+    "normalizedCodeHash": "59a08b19f111bf5707d3c1b276dbafc1d71bf661bf974e2dd6a24122a0300a81",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

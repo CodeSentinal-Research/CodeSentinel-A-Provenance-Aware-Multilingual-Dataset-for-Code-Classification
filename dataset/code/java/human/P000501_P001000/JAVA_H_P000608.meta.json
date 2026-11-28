@@ -1,0 +1,74 @@
+{
+  "solutionId": "JAVA_H_P000608",
+  "problemId": "P000608",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000608",
+    "title": "Linked List in Binary Tree",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and the root of a binary tree, determine whether the linked list exists as a downward path in the binary tree. A downward path starts at any node and proceeds only through child pointers. Return true if such a path exists; otherwise return false.",
+    "input": "Linked list Binary tree",
+    "output": "true if the linked list appears as a downward path, otherwise false.",
+    "constraints": "Number of linked list nodes is in the range [1, 100] Number of tree nodes is in the range [1, 2500] -100 <= node.value <= 100"
+  },
+  "repository": {
+    "name": "ivanmmarkovic/Leetcode-problems",
+    "owner": "ivanmmarkovic",
+    "url": "https://github.com/ivanmmarkovic/Leetcode-problems",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "java/human/P000501_P001000/JAVA_H_P000608.java",
+    "fileSHA": "d5e012bad92c33bdb71da4f94d7095750a0dac98",
+    "url": "https://github.com/ivanmmarkovic/Leetcode-problems/blob/4e2c62fff83876c4011728873befe8751b0fb7c5/linkedlists/LinkedListInBinaryTreeBetter.java",
+    "rawUrl": "https://raw.githubusercontent.com/ivanmmarkovic/Leetcode-problems/main/linkedlists/LinkedListInBinaryTreeBetter.java"
+  },
+  "matching": {
+    "relevanceScore": 73.94
+  },
+  "provenance": {
+    "score": 82.5,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2020-07-30T17:27:12Z",
+    "lastCommitDate": "2025-07-21T11:46:14Z",
+    "commitCount": 3,
+    "authorCount": 1,
+    "authors": [
+      "Ivan Markovic"
+    ],
+    "firstKnownAuthor": "Ivan Markovic",
+    "latestKnownAuthor": "Ivan Markovic"
+  },
+  "deduplication": {
+    "rawCodeHash": "d80697d3a7717bd7d1cbe99ea8d84fd1b8a56e7b341b5616ecdea16bff55822c",
+    "normalizedCodeHash": "d80697d3a7717bd7d1cbe99ea8d84fd1b8a56e7b341b5616ecdea16bff55822c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:44:01.879898+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

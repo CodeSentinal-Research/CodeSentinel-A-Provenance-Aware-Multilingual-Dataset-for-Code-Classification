@@ -1,0 +1,33 @@
+import sys
+
+def remove_invalid_parentheses(s: str):
+    def is_valid(sub):
+        cnt = 0
+        for c in sub:
+            if c == '(': cnt += 1
+            elif c == ')':
+                cnt -= 1
+                if cnt < 0: return False
+        return cnt == 0
+
+    level = {s}
+    while level:
+        valid = list(filter(is_valid, level))
+        if valid:
+            return valid
+        next_level = set()
+        for item in level:
+            for i in range(len(item)):
+                if item[i] in '()':
+                    next_level.add(item[:i] + item[i+1:])
+        level = next_level
+    return [""]
+
+def main():
+    lines = sys.stdin.read().split()
+    if lines:
+        for v in remove_invalid_parentheses(lines[0]):
+            print(v)
+
+if __name__ == '__main__':
+    main()

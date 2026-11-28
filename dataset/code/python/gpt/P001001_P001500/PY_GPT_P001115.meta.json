@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001115",
+  "problemId": "P001115",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001115",
+    "title": "Shortest Path in a Binary Matrix",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × N binary matrix, determine the length of the shortest path from the top-left cell to the bottom-right cell by moving in all eight directions through cells containing 0.",
+    "input": "• First line contains integer N. • Next N lines contain the binary matrix.",
+    "output": "Print the shortest path length, or -1 if no path exists.",
+    "constraints": "• 1 ≤ N ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001115.py",
+    "fileSHA": "ec9f0e2bb1b2c9a3bfc141312045f066b5debee93cc85d14f0926547b48d74bf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.411309+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ec9f0e2bb1b2c9a3bfc141312045f066b5debee93cc85d14f0926547b48d74bf",
+    "normalizedCodeHash": "f139c9aea64c41ca8cec06f6ba5504960f7054c4ac2e283011d72dbf78d51e8d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.411309+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

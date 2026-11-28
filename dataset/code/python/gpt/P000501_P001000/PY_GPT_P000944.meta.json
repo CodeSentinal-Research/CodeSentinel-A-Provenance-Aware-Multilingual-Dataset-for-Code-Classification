@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000944",
+  "problemId": "P000944",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000944",
+    "title": "Divisor Game",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Easy",
+    "problemStatement": "Starting with an integer N, players alternate choosing a divisor x such that 0 < x < N and N % x == 0, then replacing N with N - x. The player unable to make a move loses. Determine whether the first player wins.",
+    "input": "Integer N",
+    "output": "Print true if the first player wins; otherwise, print false.",
+    "constraints": "1 <= N <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000944.py",
+    "fileSHA": "670a405c7fce3e1be5c931604ec0e750f2e74e02ee2ff1cb172f297e2c65a5e2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.649429+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "670a405c7fce3e1be5c931604ec0e750f2e74e02ee2ff1cb172f297e2c65a5e2",
+    "normalizedCodeHash": "144e7935dbc47f533b4c36ecffd74eafbce1275449fead87ec735b4a6c754414",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.649429+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

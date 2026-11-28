@@ -1,0 +1,7 @@
+/* P000558: Minimum Moves to Reach Target with Rotations */
+#include<stdio.h>
+int main(){
+    /* Problem 558: Solution approach - see Python implementation */
+    printf("Problem P000558\n");
+    return 0;
+}

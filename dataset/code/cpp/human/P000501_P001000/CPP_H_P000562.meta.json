@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000562",
+  "problemId": "P000562",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000562",
+    "title": "Keys and Rooms",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "There are n rooms labeled from 0 to n-1. Initially, only room 0 is unlocked. Each room may contain keys to other rooms. Determine whether it is possible to visit every room.",
+    "input": "Integer n A list where the i-th list contains the keys found in room i.",
+    "output": "Print true if every room can be visited; otherwise print false.",
+    "constraints": "1 <= n <= 1000 Total number of keys does not exceed 3000."
+  },
+  "repository": {
+    "name": "hyunsik-yoon/study",
+    "owner": "hyunsik-yoon",
+    "url": "https://github.com/hyunsik-yoon/study",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "leetcode/src/841_Keys_and_Rooms.cpp",
+    "fileSHA": "97671e9d023eb0df201a24ec31c4b143b55ae37c",
+    "url": "https://github.com/hyunsik-yoon/study/blob/9af77eb725f94cfedf03098c980d3b47115847cd/leetcode/src/841_Keys_and_Rooms.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/hyunsik-yoon/study/main/leetcode/src/841_Keys_and_Rooms.cpp"
+  },
+  "matching": {
+    "relevanceScore": 81.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "928d5b54a0bf41cbd7bd35121c7c1c2c5ff8fda66d55d9ee85c34fc67182b2a3",
+    "normalizedCodeHash": "928d5b54a0bf41cbd7bd35121c7c1c2c5ff8fda66d55d9ee85c34fc67182b2a3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:13:00.577990+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

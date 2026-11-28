@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001219",
+  "problemId": "P001219",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001219",
+    "title": "Word Break II",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string and a dictionary of valid words, print all possible sentences formed by inserting spaces into the string such that every word belongs to the dictionary.",
+    "input": "\u2022 First line contains the string. \u2022 Second line contains integer N. \u2022 Next N lines each contain one dictionary word.",
+    "output": "Print all valid sentences in lexicographical order.",
+    "constraints": "\u2022 1 \u2264 Length of string \u2264 100 \u2022 1 \u2264 N \u2264 10^4"
+  },
+  "repository": {
+    "name": "chentong2015/AlgorithmDataStructures",
+    "owner": "chentong2015",
+    "url": "https://github.com/chentong2015/AlgorithmDataStructures",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "effective-algorithms/src/main/java/master/dynamic_program/dimension1/word_break/WordBreakII.java",
+    "fileSHA": "6d2b049d85a08a8d886cd129338d9d668a4cdf2c",
+    "url": "https://github.com/chentong2015/AlgorithmDataStructures/blob/2a7dc4de0c37ca7a84b3456b3acd48c3071f7fdd/effective-algorithms/src/main/java/master/dynamic_program/dimension1/word_break/WordBreakII.java",
+    "rawUrl": "https://raw.githubusercontent.com/chentong2015/AlgorithmDataStructures/main/effective-algorithms/src/main/java/master/dynamic_program/dimension1/word_break/WordBreakII.java"
+  },
+  "matching": {
+    "relevanceScore": 86.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2d0b82e865f2eea0f85ae922e567dfd220da197e8020e56aed99692ca2ad265b",
+    "normalizedCodeHash": "2d0b82e865f2eea0f85ae922e567dfd220da197e8020e56aed99692ca2ad265b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:42:50.103792+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

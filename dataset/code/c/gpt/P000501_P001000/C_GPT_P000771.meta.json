@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000771",
+  "problemId": "P000771",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000771",
+    "title": "Optimal Binary Search Tree Cost",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given sorted keys and their search frequencies, determine the minimum expected search cost of a Binary Search Tree containing all keys. Solve the problem recursively.",
+    "input": "Integer n Array keys Array freq",
+    "output": "The minimum search cost.",
+    "constraints": "1 <= n <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000771.c",
+    "fileSHA": "85bd50dc0562276a91f4eb0a5d0f1b923414a44a78ea385dbec24610edee3490",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "85bd50dc0562276a91f4eb0a5d0f1b923414a44a78ea385dbec24610edee3490",
+    "normalizedCodeHash": "85bd50dc0562276a91f4eb0a5d0f1b923414a44a78ea385dbec24610edee3490",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

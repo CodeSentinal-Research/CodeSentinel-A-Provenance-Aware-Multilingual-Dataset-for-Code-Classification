@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000507",
+  "problemId": "P000507",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000507",
+    "title": "Verify Preorder Serialization of a Binary Tree",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "A binary tree is serialized using preorder traversal. Each node is represented by its value, and null nodes are represented by '#'. Given the serialization string, determine whether it represents a valid binary tree without reconstructing the tree.",
+    "input": "A comma-separated serialization string.",
+    "output": "Print true if the serialization is valid; otherwise print false.",
+    "constraints": "1 <= serialization.length <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000507.py",
+    "fileSHA": "2afd0b4cae0e83a78e64452f396642cdfc764d0f92cd79229cefaf76b8a4ac53",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.076567+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2afd0b4cae0e83a78e64452f396642cdfc764d0f92cd79229cefaf76b8a4ac53",
+    "normalizedCodeHash": "eb5138a8a3ee856578ee1a2fd606b9d478033a34f95a250024ff964ca5a2f592",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.076567+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000658",
+  "problemId": "P000658",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000658",
+    "title": "Browser History with Multiple Windows",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a browser system that supports multiple independent browser windows. Each window maintains its own browsing history and supports: visit(windowId, url) back(windowId, steps) forward(windowId, steps) newWindow(homepage) closeWindow(windowId) currentPage(windowId) Process a sequence of operations and print the result for every currentPage(), back(), and forward() operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the required results after each query operation.",
+    "constraints": "1 <= q <= 2 × 10^5 Total number of simultaneously open windows does not exceed 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000658",
+    "fileSHA": "6871cb53434f882310082b8f1eee341a811613118011f02df3db1d183af85cee",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6871cb53434f882310082b8f1eee341a811613118011f02df3db1d183af85cee",
+    "normalizedCodeHash": "6871cb53434f882310082b8f1eee341a811613118011f02df3db1d183af85cee",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000658"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

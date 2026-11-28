@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000648",
+  "problemId": "P000648",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000648",
+    "title": "Design Undo Redo Editor",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a text editor that supports the following operations: type(text) \u2014 Append text to the document. undo() \u2014 Undo the most recent typing operation. redo() \u2014 Reapply the most recently undone operation. print() \u2014 Print the current document. Implement the editor efficiently using a linked-list-based history mechanism. Process all operations and print the document for every print() operation.",
+    "input": "Integer q Next q operations.",
+    "output": "Print the current document after every print() operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5 Total length of all inserted text does not exceed 10^6"
+  },
+  "repository": {
+    "name": "aditisaraswat-05/BridgeLabz-SIPP-Training",
+    "owner": "aditisaraswat-05",
+    "url": "https://github.com/aditisaraswat-05/BridgeLabz-SIPP-Training",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "LinkedList_DSA/Editor.java",
+    "fileSHA": "61df0ce8e0b9ea110fe1898d2695694dcda8e921",
+    "url": "https://github.com/aditisaraswat-05/BridgeLabz-SIPP-Training/blob/55e7256fdd84a2178b079e0c02fd187773ef90e7/LinkedList_DSA/Editor.java",
+    "rawUrl": "https://raw.githubusercontent.com/aditisaraswat-05/BridgeLabz-SIPP-Training/main/LinkedList_DSA/Editor.java"
+  },
+  "matching": {
+    "relevanceScore": 84.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "949f43192574bfe4f3c60fa76d28b2613fbe53f88906f801c27fa8b909a9672a",
+    "normalizedCodeHash": "949f43192574bfe4f3c60fa76d28b2613fbe53f88906f801c27fa8b909a9672a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T15:17:53.773162+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

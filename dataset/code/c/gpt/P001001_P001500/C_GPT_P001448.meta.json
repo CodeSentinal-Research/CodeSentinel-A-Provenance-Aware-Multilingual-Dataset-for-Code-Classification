@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001448",
+  "problemId": "P001448",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001448",
+    "title": "Verify Alien Dictionary",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given a list of words and the ordering of letters in an alien language, determine whether the words are sorted according to the alien dictionary.",
+    "input": "• First line contains integer N. • Next N lines contain one word each. • Last line contains the alien alphabet order.",
+    "output": "Print YES if the words are correctly sorted; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • Word length ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001448.c",
+    "fileSHA": "9bec1d08f0f9a928fbb5b80803663c72adeb7fc23460293d8d76144e1056d2a1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.410Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "b9f8d95348083f3a4bfc2b08fdde88c0f99d28028256d7945fc091349ab2c00e",
+    "normalizedCodeHash": "9bec1d08f0f9a928fbb5b80803663c72adeb7fc23460293d8d76144e1056d2a1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.410Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

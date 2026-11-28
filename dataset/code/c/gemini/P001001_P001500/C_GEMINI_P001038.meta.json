@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001038",
+  "problemId": "P001038",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001038",
+    "title": "IPO Capital Maximization",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given a list of projects, where each project requires a minimum capital and yields a profit, determine the maximum capital that can be accumulated after completing at most K projects.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N capital requirements. \u2022 Third line contains N profits. \u2022 Fourth line contains the initial capital.",
+    "output": "Print the maximum achievable capital.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001038",
+    "fileSHA": "bc7b4a0fe449af589d068f299d87666f087fb5b42b3e78531b485a26a9b57f5b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:38:23.667374+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "bc7b4a0fe449af589d068f299d87666f087fb5b42b3e78531b485a26a9b57f5b",
+    "normalizedCodeHash": "bc7b4a0fe449af589d068f299d87666f087fb5b42b3e78531b485a26a9b57f5b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:38:23.667401+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

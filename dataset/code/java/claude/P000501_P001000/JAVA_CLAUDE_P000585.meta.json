@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000585",
+  "problemId": "P000585",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000585",
+    "title": "Reorder Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given a singly linked list: L0 → L1 → … → Ln Reorder it into: L0 → Ln → L1 → Ln-1 → L2 → Ln-2 → ... Modify the list in-place.",
+    "input": "Integer n Linked list",
+    "output": "The reordered linked list.",
+    "constraints": "1 <= n <= 5 × 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000585",
+    "fileSHA": "c8b7ee4cf3defb613c9a2d4cbad908a2fc1bc927f466090ba7d8cdf545d8b517",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c8b7ee4cf3defb613c9a2d4cbad908a2fc1bc927f466090ba7d8cdf545d8b517",
+    "normalizedCodeHash": "c8b7ee4cf3defb613c9a2d4cbad908a2fc1bc927f466090ba7d8cdf545d8b517",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000585: Reorder Linked List"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

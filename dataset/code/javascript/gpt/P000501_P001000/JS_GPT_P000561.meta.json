@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000561",
+  "problemId": "P000561",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000561",
+    "title": "First Non-Repeating Character in a Stream",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a stream of lowercase English letters arriving one by one. After processing each character, output the first character that has appeared exactly once so far. If no such character exists, output '#'.",
+    "input": "A string representing the stream.",
+    "output": "A string where the i-th character represents the first non-repeating character after processing the first i input characters.",
+    "constraints": "1 <= s.length <= 10^5 s contains only lowercase English letters."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000561.js",
+    "fileSHA": "70a9887285054ca8537eb8053c5b7d9b6e2e9e125245ad9e447c29fe94491bf8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "70a9887285054ca8537eb8053c5b7d9b6e2e9e125245ad9e447c29fe94491bf8",
+    "normalizedCodeHash": "70a9887285054ca8537eb8053c5b7d9b6e2e9e125245ad9e447c29fe94491bf8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

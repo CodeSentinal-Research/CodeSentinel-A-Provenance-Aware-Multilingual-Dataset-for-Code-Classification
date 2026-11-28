@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001489",
+  "problemId": "P001489",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001489",
+    "title": "Number of Subsequences That Satisfy the Given Sum Condition",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer Target, count the number of non-empty subsequences such that the sum of the minimum and maximum element in the subsequence is less than or equal to Target.",
+    "input": "\u2022 First line contains integers N and Target. \u2022 Second line contains N integers.",
+    "output": "Print the number of valid subsequences modulo 10^9 + 7.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "DivyanshiChouksey/Data-Structure-Algorithm",
+    "owner": "DivyanshiChouksey",
+    "url": "https://github.com/DivyanshiChouksey/Data-Structure-Algorithm",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "491.Number of Subsequences That Satisfy the Given Sum Condition.py",
+    "fileSHA": "041ad5e2e5333f6b702a237346a08e8706ab153a",
+    "url": "https://github.com/DivyanshiChouksey/Data-Structure-Algorithm/blob/4c7bed38ad821704f1e80c5f5b7a107b170a5868/491.Number of Subsequences That Satisfy the Given Sum Condition.py",
+    "rawUrl": "https://raw.githubusercontent.com/DivyanshiChouksey/Data-Structure-Algorithm/main/491.Number of Subsequences That Satisfy the Given Sum Condition.py"
+  },
+  "matching": {
+    "relevanceScore": 72.69
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3188f9c52ef55f833900b55db4a6d12e54a71fb053bcb7519f997c85bdb255e4",
+    "normalizedCodeHash": "3188f9c52ef55f833900b55db4a6d12e54a71fb053bcb7519f997c85bdb255e4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:34:34.038314+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

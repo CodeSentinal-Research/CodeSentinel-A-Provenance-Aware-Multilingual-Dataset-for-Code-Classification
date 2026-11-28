@@ -1,0 +1,75 @@
+{
+  "solutionId": "PY_H_P001023",
+  "problemId": "P001023",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001023",
+    "title": "Parent of a Heap Node",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a heap represented as an array and the index of a node, determine the value of its parent. If the node is the root, print -1.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers. \u2022 Third line contains integer i.",
+    "output": "Print the parent value or -1.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 i < N"
+  },
+  "repository": {
+    "name": "mlarocca/AlgorithmsAndDataStructuresInAction",
+    "owner": "mlarocca",
+    "url": "https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P001001_P001500/PY_H_P001023.py",
+    "fileSHA": "d5fc804db1b442fdc1ab44efdbb11923afbf64c1",
+    "url": "https://github.com/mlarocca/AlgorithmsAndDataStructuresInAction/blob/466e068672be9412604548ab25025432162f8c20/Python/mlarocca/datastructures/heap/dway_heap.py",
+    "rawUrl": "https://raw.githubusercontent.com/mlarocca/AlgorithmsAndDataStructuresInAction/main/Python/mlarocca/datastructures/heap/dway_heap.py"
+  },
+  "matching": {
+    "relevanceScore": 70.54
+  },
+  "provenance": {
+    "score": 82.5,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2019-08-21T17:49:13Z",
+    "lastCommitDate": "2022-08-11T18:12:02Z",
+    "commitCount": 3,
+    "authorCount": 2,
+    "authors": [
+      "Pranav Nadigapu Suresh",
+      "Marcello La Rocca"
+    ],
+    "firstKnownAuthor": "Marcello La Rocca",
+    "latestKnownAuthor": "Pranav Nadigapu Suresh"
+  },
+  "deduplication": {
+    "rawCodeHash": "c9c0ada43ff664bc28160f326ac44bc0d2742f9f00328d2c6f9f99a2f6a4f877",
+    "normalizedCodeHash": "c9c0ada43ff664bc28160f326ac44bc0d2742f9f00328d2c6f9f99a2f6a4f877",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T07:10:14.840558+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001216",
+  "problemId": "P001216",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001216",
+    "title": "Minimum Cost Tree From Leaf Values",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given the inorder traversal of the leaf nodes of a binary tree, construct a binary tree such that every non-leaf node equals the product of the largest leaf values in its left and right subtrees. Determine the minimum possible sum of all non-leaf nodes.",
+    "input": "• First line contains integer N. • Second line contains N integers.",
+    "output": "Print the minimum possible sum.",
+    "constraints": "• 2 ≤ N ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001216.c",
+    "fileSHA": "40a36b0d46a3d1f47489efc387c937446ed4ef41bec819de5db65b01d042e25a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.310Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "7172c3bd74c5857acc0a086f251a00329440fbdb7aeacf66e55f3b142fc01b5b",
+    "normalizedCodeHash": "40a36b0d46a3d1f47489efc387c937446ed4ef41bec819de5db65b01d042e25a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.310Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

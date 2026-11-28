@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001780",
+  "problemId": "P001780",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001780",
+    "title": "Find the Longest Decreasing Root-to-Leaf Path",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the longest root-to-leaf path whose values are strictly decreasing.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the nodes of the longest decreasing path.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0400-0499/0491.Non-decreasing Subsequences/Solution.java",
+    "fileSHA": "0eb098ef4f33461fb777c86ad18b6ac3c6fe6253",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0400-0499/0491.Non-decreasing Subsequences/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0400-0499/0491.Non-decreasing Subsequences/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "126ca2facf4db5c257d712c2a807dfb427ce38900bd183e8e87414ccf2803a9e",
+    "normalizedCodeHash": "126ca2facf4db5c257d712c2a807dfb427ce38900bd183e8e87414ccf2803a9e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:55.997276+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

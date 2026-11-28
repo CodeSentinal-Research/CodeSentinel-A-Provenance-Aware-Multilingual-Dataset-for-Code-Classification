@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000549",
+  "problemId": "P000549",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000549",
+    "title": "Stack Permutation Check",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Given two integer arrays input and output of equal length, determine whether the output sequence can be obtained from the input sequence using a single stack. Simulate the process using a queue for the input sequence and a stack for intermediate storage. Return true if the transformation is possible; otherwise return false.",
+    "input": "Integer n Array input Array output",
+    "output": "true if the output sequence is valid, otherwise false.",
+    "constraints": "1 <= n <= 10^5 All elements are distinct."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000549.js",
+    "fileSHA": "ca6908b7d81a337a9e947b8f0df152031e70c33fbd619d1810f8072418dc41f0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ca6908b7d81a337a9e947b8f0df152031e70c33fbd619d1810f8072418dc41f0",
+    "normalizedCodeHash": "ca6908b7d81a337a9e947b8f0df152031e70c33fbd619d1810f8072418dc41f0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

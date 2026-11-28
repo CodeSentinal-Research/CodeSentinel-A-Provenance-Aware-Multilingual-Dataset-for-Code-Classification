@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000628",
+  "problemId": "P000628",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000628",
+    "title": "Text Editor Using Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a text editor supporting the following operations: addText(text) \u2014 Insert text at the cursor position. deleteText(k) \u2014 Delete up to k characters to the left of the cursor. cursorLeft(k) \u2014 Move the cursor left by at most k positions and return up to the last 10 characters to the left of the cursor. cursorRight(k) \u2014 Move the cursor right by at most k positions and return up to the last 10 characters to the left of the cursor. Process a sequence of operations and print the results for query operations.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result of every deleteText(), cursorLeft(), and cursorRight() operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5 Total length of inserted text does not exceed 2 \u00d7 10^6"
+  },
+  "repository": {
+    "name": "yungselm/rust-lang-kata",
+    "owner": "yungselm",
+    "url": "https://github.com/yungselm/rust-lang-kata",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "build.py",
+    "fileSHA": "f04a8960660683ecef0ba1795cf434b67c848d91",
+    "url": "https://github.com/yungselm/rust-lang-kata/blob/bf6a1cf47ab1833281b6efcb39645571638f15cd/build.py",
+    "rawUrl": "https://raw.githubusercontent.com/yungselm/rust-lang-kata/main/build.py"
+  },
+  "matching": {
+    "relevanceScore": 66.81
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d882aff1afd2af439673fb3c9bf279f93a2cbc9deaf80012eb1e1f5633e97d2b",
+    "normalizedCodeHash": "d882aff1afd2af439673fb3c9bf279f93a2cbc9deaf80012eb1e1f5633e97d2b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T14:42:19.957908+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

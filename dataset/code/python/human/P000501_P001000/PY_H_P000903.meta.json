@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000903",
+  "problemId": "P000903",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000903",
+    "title": "Largest Divisible Subset",
+    "category": "Mathematics - Divisibility",
+    "difficulty": "Medium",
+    "problemStatement": "Given a set of distinct positive integers, return the largest subset such that for every pair (a, b) in the subset, either a divides b or b divides a.",
+    "input": "Integer N Array nums",
+    "output": "The largest divisible subset.",
+    "constraints": "1 <= N <= 1000 1 <= nums[i] <= 2 \u00d7 10^9"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/largest-divisible-subset.py",
+    "fileSHA": "267bfe834490c1bde4f2d5a24c9cdf62cafb6100",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/largest-divisible-subset.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/largest-divisible-subset.py"
+  },
+  "matching": {
+    "relevanceScore": 71.82
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "283491cd04a5aa2dabe094fc6d78a29518cd61767b72720f0d71cb6f5e9d113c",
+    "normalizedCodeHash": "283491cd04a5aa2dabe094fc6d78a29518cd61767b72720f0d71cb6f5e9d113c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T15:55:26.705795+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

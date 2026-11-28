@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P001095",
+  "problemId": "P001095",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001095",
+    "title": "Maximum Flow",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a directed graph with capacities assigned to each edge, determine the maximum possible flow from a source vertex S to a sink vertex T.",
+    "input": "• First line contains integers N, M, S, and T. • Next M lines contain integers u, v, and capacity.",
+    "output": "Print the maximum flow.",
+    "constraints": "• 2 ≤ N ≤ 500 • 1 ≤ M ≤ 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P001095",
+    "fileSHA": "a6cde681b4ce229ffadb9aec3672b7f3d3f939e33d2d4a7e1e2fc98f1f6f6794",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a6cde681b4ce229ffadb9aec3672b7f3d3f939e33d2d4a7e1e2fc98f1f6f6794",
+    "normalizedCodeHash": "a6cde681b4ce229ffadb9aec3672b7f3d3f939e33d2d4a7e1e2fc98f1f6f6794",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P001095"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

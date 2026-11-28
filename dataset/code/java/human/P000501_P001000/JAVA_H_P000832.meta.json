@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000832",
+  "problemId": "P000832",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000832",
+    "title": "Split Array Largest Sum",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array and an integer k, split the array into exactly k non-empty continuous subarrays. Minimize the largest subarray sum. Return the minimized largest sum.",
+    "input": "Integer n Array nums Integer k",
+    "output": "The minimum possible largest subarray sum.",
+    "constraints": "1 <= n <= 1000 1 <= nums[i] <= 10^6"
+  },
+  "repository": {
+    "name": "sau-rav-singh/CoreJava",
+    "owner": "sau-rav-singh",
+    "url": "https://github.com/sau-rav-singh/CoreJava",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/test/java/programs/dp/SplitArrayLargestSum.java",
+    "fileSHA": "ddb3c5fb59892fcb89c6bc52987ca217cff27166",
+    "url": "https://github.com/sau-rav-singh/CoreJava/blob/83d0d7018ae72e2e881381b7fd4338d1189ac491/src/test/java/programs/dp/SplitArrayLargestSum.java",
+    "rawUrl": "https://raw.githubusercontent.com/sau-rav-singh/CoreJava/main/src/test/java/programs/dp/SplitArrayLargestSum.java"
+  },
+  "matching": {
+    "relevanceScore": 88.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6fe1f230411d411907276b23eb644fe41e00e4ab48f852539b6ad96ecfe36236",
+    "normalizedCodeHash": "6fe1f230411d411907276b23eb644fe41e00e4ab48f852539b6ad96ecfe36236",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T14:48:45.453862+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

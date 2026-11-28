@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001130",
+  "problemId": "P001130",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001130",
+    "title": "Regions Cut by Slashes",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × N grid where each cell contains '/', '\\', or a blank space, determine the number of distinct regions formed by the slashes.",
+    "input": "• First line contains integer N. • Next N lines each contain a string of length N consisting of '/', '\\', or ' '.",
+    "output": "Print the total number of regions.",
+    "constraints": "• 1 ≤ N ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001130.c",
+    "fileSHA": "4da9ebc8529efd0705c1228681bc50eaa5e2b4ccb1abf3def3c6b2dc991797b9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.082Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "881d85a1fa7f8944bac3662a6582f9170dba3a18c754d4319cc0c81f0e2d7216",
+    "normalizedCodeHash": "4da9ebc8529efd0705c1228681bc50eaa5e2b4ccb1abf3def3c6b2dc991797b9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.082Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

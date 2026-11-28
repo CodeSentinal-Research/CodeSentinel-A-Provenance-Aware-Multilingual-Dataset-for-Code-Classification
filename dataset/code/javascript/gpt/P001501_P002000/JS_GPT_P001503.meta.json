@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001503",
+  "problemId": "P001503",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001503",
+    "title": "Minimum Adjacent Swaps for K Consecutive Ones",
+    "category": "Two Pointers",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary array and an integer K, determine the minimum number of adjacent swaps required to group K ones consecutively.",
+    "input": "• First line contains integers N and K. • Second line contains N binary integers.",
+    "output": "Print the minimum number of swaps.",
+    "constraints": "• 1 ≤ K ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001501_P002000/JS_GPT_P001503.js",
+    "fileSHA": "35ba766d3a9c2d12dc2789ed02b970edb58c17e535e26204fa41794257731637",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "35ba766d3a9c2d12dc2789ed02b970edb58c17e535e26204fa41794257731637",
+    "normalizedCodeHash": "35ba766d3a9c2d12dc2789ed02b970edb58c17e535e26204fa41794257731637",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

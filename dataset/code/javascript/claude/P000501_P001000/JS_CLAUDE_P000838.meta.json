@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000838",
+  "problemId": "P000838",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000838",
+    "title": "Median of Two Sorted Arrays",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Given two sorted arrays of sizes m and n, return the median of the combined sorted array. The overall time complexity must be O(log(min(m, n))).",
+    "input": "Integer m Array nums1 Integer n Array nums2",
+    "output": "The median of the merged sorted array.",
+    "constraints": "0 <= m, n <= 1000 1 <= m + n <= 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000838",
+    "fileSHA": "29c60c969a326e1c837d6892522e46551f5bbc3fde597219753a20a6db6f239d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "29c60c969a326e1c837d6892522e46551f5bbc3fde597219753a20a6db6f239d",
+    "normalizedCodeHash": "29c60c969a326e1c837d6892522e46551f5bbc3fde597219753a20a6db6f239d",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000838"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001014",
+  "problemId": "P001014",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001014",
+    "title": "Merge K Sorted Arrays",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given K sorted arrays, merge them into a single sorted array using an efficient heap-based algorithm.",
+    "input": "• First line contains integers K and N. • Next K lines each contain a sorted array.",
+    "output": "Print the merged sorted array.",
+    "constraints": "• 1 ≤ K ≤ 10^3 • Total elements ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001014.c",
+    "fileSHA": "ba87ddbee23b4b30ceb63fa83163f335838b2bc53efb07e4c91fcc5a0419c55e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:32.773Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "e66a9f057f417046bb24aa6e1af7ba4001df6936587a1bf07f17a0897675982e",
+    "normalizedCodeHash": "ba87ddbee23b4b30ceb63fa83163f335838b2bc53efb07e4c91fcc5a0419c55e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:32.773Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

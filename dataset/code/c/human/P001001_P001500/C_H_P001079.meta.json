@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001079",
+  "problemId": "P001079",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001079",
+    "title": "Find All Bridges in a Graph",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a connected undirected graph, determine all bridge edges. A bridge is an edge whose removal increases the number of connected components.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print all bridge edges in ascending order. If none exist, print NONE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "Kumar-laxmi/Algorithms",
+    "owner": "Kumar-laxmi",
+    "url": "https://github.com/Kumar-laxmi/Algorithms",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "C/Graphs/Tarjan.c",
+    "fileSHA": "db58bc6e6c877e87c460ef65bd0ad6dd2e40c850",
+    "url": "https://github.com/Kumar-laxmi/Algorithms/blob/3837846980cd4c9b5c8c0d9676a7bef8a5d46673/C/Graphs/Tarjan.c",
+    "rawUrl": "https://raw.githubusercontent.com/Kumar-laxmi/Algorithms/main/C/Graphs/Tarjan.c"
+  },
+  "matching": {
+    "relevanceScore": 86.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5d5000375213f0869e1e6a9ea2236990db6b11805d72f7be333026694c1fcf29",
+    "normalizedCodeHash": "5d5000375213f0869e1e6a9ea2236990db6b11805d72f7be333026694c1fcf29",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T06:06:58.467260+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

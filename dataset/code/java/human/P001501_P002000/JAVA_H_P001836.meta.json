@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001836",
+  "problemId": "P001836",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001836",
+    "title": "Implement an Inorder Iterator for a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Design an iterator for a Binary Search Tree that supports retrieving the next smallest element in amortized O(1) time using O(h) auxiliary space, where h is the height of the tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The following line contains Q operations. \u2022 Each operation is either NEXT or HASNEXT.",
+    "output": "\u2022 For each operation, print the corresponding result.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 Q \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/java/src/binarySearchTreeIterator/binarySearchTreeIterator.java",
+    "fileSHA": "dfb33dfbb64d4e0d044a24b84e88a139122e9a66",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/java/src/binarySearchTreeIterator/binarySearchTreeIterator.java",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/java/src/binarySearchTreeIterator/binarySearchTreeIterator.java"
+  },
+  "matching": {
+    "relevanceScore": 69.17
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "61e4dd6d1ca3d4495eaed36fc093dd111519dcf4a23f5c7cef08d59067944100",
+    "normalizedCodeHash": "61e4dd6d1ca3d4495eaed36fc093dd111519dcf4a23f5c7cef08d59067944100",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T07:05:59.109039+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

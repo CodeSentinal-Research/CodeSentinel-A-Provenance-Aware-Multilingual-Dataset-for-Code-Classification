@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001405",
+  "problemId": "P001405",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001405",
+    "title": "Count Nice Pairs in an Array",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "For an integer x, define rev(x) as the integer obtained by reversing its decimal digits. Count the number of index pairs (i, j) such that i < j and nums[i] + rev(nums[j]) = nums[j] + rev(nums[i]).",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the number of nice pairs.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001405",
+    "fileSHA": "e8566dd17d45a4d73deac32a9003175763fa65cda82db5ea844d689cec478afa",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:24:59.274986+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e8566dd17d45a4d73deac32a9003175763fa65cda82db5ea844d689cec478afa",
+    "normalizedCodeHash": "e8566dd17d45a4d73deac32a9003175763fa65cda82db5ea844d689cec478afa",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:24:59.275010+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

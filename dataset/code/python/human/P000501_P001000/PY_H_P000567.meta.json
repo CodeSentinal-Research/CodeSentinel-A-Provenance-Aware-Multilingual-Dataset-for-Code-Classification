@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P000567",
+  "problemId": "P000567",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000567",
+    "title": "Cut Off Trees for Golf Event",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a forest represented as a grid. 0 represents an obstacle. 1 represents empty ground. Values greater than 1 represent trees with unique heights. Starting from the top-left cell, cut all trees in increasing order of height. Return the minimum total number of steps required to cut every tree, or -1 if any tree cannot be reached.",
+    "input": "Integers m and n An m \u00d7 n grid",
+    "output": "A single integer representing the minimum number of steps.",
+    "constraints": "1 <= m, n <= 50"
+  },
+  "repository": {
+    "name": "ilyannn/coding-problems",
+    "owner": "ilyannn",
+    "url": "https://github.com/ilyannn/coding-problems",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000567.py",
+    "fileSHA": "e4e77a61bd7663fdfae466b6e58949c8575b083f",
+    "url": "https://github.com/ilyannn/coding-problems/blob/cb163154077f1f11cce1499304a099c8a63a13db/lc_0675_golf_trees.py",
+    "rawUrl": "https://raw.githubusercontent.com/ilyannn/coding-problems/main/lc_0675_golf_trees.py"
+  },
+  "matching": {
+    "relevanceScore": 66.27
+  },
+  "provenance": {
+    "score": 82.5,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2021-11-14T14:37:53Z",
+    "lastCommitDate": "2021-11-30T20:42:03Z",
+    "commitCount": 4,
+    "authorCount": 1,
+    "authors": [
+      "Ilya Nikokoshev"
+    ],
+    "firstKnownAuthor": "Ilya Nikokoshev",
+    "latestKnownAuthor": "Ilya Nikokoshev"
+  },
+  "deduplication": {
+    "rawCodeHash": "41eb1018b02b7299074d92bd924a9544a5c454f945d76689b2a049347ce37468",
+    "normalizedCodeHash": "41eb1018b02b7299074d92bd924a9544a5c454f945d76689b2a049347ce37468",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:26:43.194027+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000377",
+  "problemId": "P000377",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000377",
+    "title": "Search Vehicle by Registration Number",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Locate a vehicle using its registration number.",
+    "input": "Vehicle records and a registration number.",
+    "output": "Vehicle details or \"Vehicle Not Found\".",
+    "constraints": "1 ≤ Number of Vehicles ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000377",
+    "fileSHA": "f8ca632608c8a15fed8811dfbbe7858e4caf0f4e934d9a24179990f420beb1cf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f8ca632608c8a15fed8811dfbbe7858e4caf0f4e934d9a24179990f420beb1cf",
+    "normalizedCodeHash": "f8ca632608c8a15fed8811dfbbe7858e4caf0f4e934d9a24179990f420beb1cf",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000377: Search Vehicle by Registration Number"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

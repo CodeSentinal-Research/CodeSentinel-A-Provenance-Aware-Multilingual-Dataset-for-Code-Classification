@@ -1,0 +1,1 @@
+const lines=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const n=+lines[0];const words=lines.slice(1,n+1).map(s=>s.trim());const s=lines[n+1].trim();console.log(words.filter(w=>s.startsWith(w)).length);

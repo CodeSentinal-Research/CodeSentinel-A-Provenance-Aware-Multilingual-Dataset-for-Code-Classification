@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000560",
+  "problemId": "P000560",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000560",
+    "title": "Interleave the First Half of Queue",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Given a queue containing an even number of integers, interleave the first half of the queue with the second half. For example, if the queue is: 1 2 3 4 the result should be: 1 3 2 4 Return the modified queue.",
+    "input": "Integer N (always even) Queue elements",
+    "output": "The interleaved queue.",
+    "constraints": "2 <= N <= 10^5 N is even."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000560",
+    "fileSHA": "f884f1233566b4a9a5acc1076c675960785957d589016c9f230d1489d511682f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f884f1233566b4a9a5acc1076c675960785957d589016c9f230d1489d511682f",
+    "normalizedCodeHash": "f884f1233566b4a9a5acc1076c675960785957d589016c9f230d1489d511682f",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000560: Interleave the First Half of Queue"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

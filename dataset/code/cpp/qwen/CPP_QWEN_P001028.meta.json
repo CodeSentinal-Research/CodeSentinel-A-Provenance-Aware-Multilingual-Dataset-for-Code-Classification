@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001028",
+  "problemId": "P001028",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001028",
+    "title": "Delete an Arbitrary Element from a Heap",
+    "category": "Heap",
+    "difficulty": "Medium",
+    "problemStatement": "Given a valid binary heap and the index of an element, delete that element while maintaining the heap property.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers. \u2022 Third line contains integer i.",
+    "output": "Print the updated heap.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 i < N"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001028",
+    "fileSHA": "eb1667e4dc0ecdaf79b8e6100aee246d86c4c1db9edfacbd7853e91640eee8eb",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.573Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "676fece4d2cecb27591cefc14478e106c497f7009433ba728287990f9c25f699",
+    "normalizedCodeHash": "7e7720e1c38555669fc35cca77356762318955f47d87517bcbeff5a80af3b671",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.573Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

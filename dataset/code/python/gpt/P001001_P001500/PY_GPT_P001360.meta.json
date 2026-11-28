@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001360",
+  "problemId": "P001360",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001360",
+    "title": "Maximum Score Words Formed by Letters",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given a list of words, available letters, and individual letter scores, determine the maximum total score obtainable by selecting a subset of words such that every selected word can be formed using the available letters.",
+    "input": "• First line contains integer N. • Next N lines contain one word each. • Next line contains the available letters. • Last line contains 26 integers representing the score of each lowercase letter.",
+    "output": "Print the maximum obtainable score.",
+    "constraints": "• 1 ≤ N ≤ 14 • Word length ≤ 15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001360.py",
+    "fileSHA": "0a8a8d869c698c4473a2884f1735124c3794ee16253bd87e9d8a5c90ee8ae186",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.437026+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0a8a8d869c698c4473a2884f1735124c3794ee16253bd87e9d8a5c90ee8ae186",
+    "normalizedCodeHash": "1b671aa445597e2aad9fe0e0c8c26a6215f6f68d21cb787a0cf5661b8c9ca520",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.437026+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

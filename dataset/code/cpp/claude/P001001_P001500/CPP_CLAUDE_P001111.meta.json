@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_CLAUDE_P001111",
+  "problemId": "P001111",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001111",
+    "title": "Snake and Ladder Minimum Dice Throws",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given the positions of snakes and ladders on a game board numbered from 1 to N, determine the minimum number of dice throws required to reach the last cell.",
+    "input": "• First line contains integer N. • Second line contains integer L. • Next L lines contain ladder start and end positions. • Next line contains integer S. • Next S lines contain snake head and tail positions.",
+    "output": "Print the minimum number of dice throws.",
+    "constraints": "• 2 ≤ N ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P001111",
+    "fileSHA": "ded9a13577a1cc8623b9fe2b2bf7e3f7b3dd2efca399acc295e42a7aefd39eb9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "db4af44463e67ac76c95929316ab046793487f7def7a6b638117e04196affd14",
+    "normalizedCodeHash": "ded9a13577a1cc8623b9fe2b2bf7e3f7b3dd2efca399acc295e42a7aefd39eb9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

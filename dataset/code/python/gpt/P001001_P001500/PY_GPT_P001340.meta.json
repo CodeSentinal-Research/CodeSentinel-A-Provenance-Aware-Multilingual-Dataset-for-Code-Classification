@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001340",
+  "problemId": "P001340",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001340",
+    "title": "Fair Distribution of Cookies",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array representing cookie bags and an integer K representing the number of children, distribute every bag to exactly one child so that the maximum number of cookies received by any child is minimized.",
+    "input": "• First line contains integers N and K. • Second line contains N integers representing the number of cookies in each bag.",
+    "output": "Print the minimum possible unfairness.",
+    "constraints": "• 1 ≤ N ≤ 8 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001340.py",
+    "fileSHA": "85fdc93b2cf2f372f7937336c1f737a38fd0ded807da9c624a912bae8f2e8c09",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.373069+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "85fdc93b2cf2f372f7937336c1f737a38fd0ded807da9c624a912bae8f2e8c09",
+    "normalizedCodeHash": "f96442e12d137a16e0c34b1f1498081a68613b9b29c951899647d0f96b0bc17e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.373069+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

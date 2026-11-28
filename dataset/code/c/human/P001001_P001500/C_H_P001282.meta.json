@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001282",
+  "problemId": "P001282",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001282",
+    "title": "Create Maximum Number",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given two arrays of digits and an integer K, create the largest possible number of length K by selecting digits from both arrays while preserving the relative order within each array.",
+    "input": "\u2022 First line contains integers N, M, and K. \u2022 Second line contains N digits. \u2022 Third line contains M digits.",
+    "output": "Print the maximum possible number.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 500 \u2022 1 \u2264 K \u2264 N + M"
+  },
+  "repository": {
+    "name": "TheAlgorithms/C",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/C",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "data_structures/binary_trees/create_node.c",
+    "fileSHA": "fda592d8b7b151191799b9264e70be5465118d9a",
+    "url": "https://github.com/TheAlgorithms/C/blob/master/data_structures/binary_trees/create_node.c",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/C/master/data_structures/binary_trees/create_node.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b0735e4562ec3bfc13f81f89df5d3ac10b5b07908ed08565d84f9e3ce53e3006",
+    "normalizedCodeHash": "b0735e4562ec3bfc13f81f89df5d3ac10b5b07908ed08565d84f9e3ce53e3006",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:29:18.014762+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

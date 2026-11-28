@@ -1,0 +1,1 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const[n,h]=l[0].split(' ').map(Number);const p=l[1].split(' ').map(Number);const ok=k=>p.reduce((s,v)=>s+Math.ceil(v/k),0)<=h;let lo=1,hi=Math.max(...p);while(lo<hi){const mid=Math.floor((lo+hi)/2);if(ok(mid))hi=mid;else lo=mid+1;}console.log(lo);

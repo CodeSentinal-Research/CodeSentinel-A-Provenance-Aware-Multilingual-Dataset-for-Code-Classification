@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001239",
+  "problemId": "P001239",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001239",
+    "title": "Insert Interval",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given a sorted list of non-overlapping intervals and a new interval, insert the new interval into the list and merge overlaps if necessary.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain existing intervals. \u2022 Final line contains the new interval.",
+    "output": "Print the updated list of merged intervals.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/cpp/insertInterval/insertInterval.cpp",
+    "fileSHA": "15188f10e30d088d00ed30364e4053012e984633",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/cpp/insertInterval/insertInterval.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/cpp/insertInterval/insertInterval.cpp"
+  },
+  "matching": {
+    "relevanceScore": 86.43
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ff54a867ad8771d450756243c11ce6dd4ad1e6022151d6be1d1d21d699963b4d",
+    "normalizedCodeHash": "ff54a867ad8771d450756243c11ce6dd4ad1e6022151d6be1d1d21d699963b4d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:48:26.878693+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

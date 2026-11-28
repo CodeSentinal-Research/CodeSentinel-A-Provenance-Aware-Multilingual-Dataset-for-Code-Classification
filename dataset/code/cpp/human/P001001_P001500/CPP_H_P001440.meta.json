@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001440",
+  "problemId": "P001440",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001440",
+    "title": "Longest Word Through Deleting",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string and a dictionary of words, determine the longest dictionary word that can be obtained by deleting some characters from the string. If multiple answers exist, return the lexicographically smallest one.",
+    "input": "\u2022 First line contains the source string. \u2022 Second line contains integer N. \u2022 Next N lines contain dictionary words.",
+    "output": "Print the required word or an empty string if none exists.",
+    "constraints": "\u2022 1 \u2264 Length of source string \u2264 2\u00d710^5 \u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/online_challenges/src/leetcode/longest_substring_without_repetition/longest_substring_without_repetition.cpp",
+    "fileSHA": "4cba678577539288f148f32ac0a02ade7068f6a6",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/online_challenges/src/leetcode/longest_substring_without_repetition/longest_substring_without_repetition.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/online_challenges/src/leetcode/longest_substring_without_repetition/longest_substring_without_repetition.cpp"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "622e99b9dfe99a7d3bbb8ae1e57407a35669da2f66c7845fc0bc5a6b263930bb",
+    "normalizedCodeHash": "622e99b9dfe99a7d3bbb8ae1e57407a35669da2f66c7845fc0bc5a6b263930bb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:10.365200+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

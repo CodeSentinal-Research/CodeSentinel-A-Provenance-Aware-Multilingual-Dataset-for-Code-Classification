@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000879",
+  "problemId": "P000879",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000879",
+    "title": "Reverse Integer",
+    "category": "Mathematics - Basic Arithmetic",
+    "difficulty": "Easy",
+    "problemStatement": "Given a signed 32-bit integer x, reverse its digits. If reversing the integer causes it to overflow the signed 32-bit integer range, return 0.",
+    "input": "Integer x",
+    "output": "The reversed integer, or 0 if overflow occurs.",
+    "constraints": "-2^31 <= x <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000879.c",
+    "fileSHA": "504f3aadeb27b4a8f9b0d04ef267ed2657237a0789b429931dff01a86e7e8020",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "504f3aadeb27b4a8f9b0d04ef267ed2657237a0789b429931dff01a86e7e8020",
+    "normalizedCodeHash": "504f3aadeb27b4a8f9b0d04ef267ed2657237a0789b429931dff01a86e7e8020",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

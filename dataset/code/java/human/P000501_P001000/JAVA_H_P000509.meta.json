@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000509",
+  "problemId": "P000509",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000509",
+    "title": "Clear Digits from String",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a string consisting of lowercase English letters and digits. Process the string from left to right: If the current character is a lowercase letter, keep it. If the current character is a digit, remove the closest lowercase letter to its left that has not already been removed, and discard the digit itself. Return the final string after processing all characters.",
+    "input": "A single string s.",
+    "output": "The resulting string.",
+    "constraints": "1 <= s.length <= 10^5 s consists only of lowercase English letters and digits. Every digit has at least one removable letter to its left."
+  },
+  "repository": {
+    "name": "SarthakVitmal/dsa-in-java",
+    "owner": "SarthakVitmal",
+    "url": "https://github.com/SarthakVitmal/dsa-in-java",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/Stack/clearDigits.java",
+    "fileSHA": "a5455e4a9f072f48f85075dab431adce474dfe7e",
+    "url": "https://github.com/SarthakVitmal/dsa-in-java/blob/3c2b15b9f45c9c40f2de9dd4ad4d0dbb2fc1045a/src/Stack/clearDigits.java",
+    "rawUrl": "https://raw.githubusercontent.com/SarthakVitmal/dsa-in-java/main/src/Stack/clearDigits.java"
+  },
+  "matching": {
+    "relevanceScore": 83.04
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f377694498a1ceaaa3f68686de622457c449d9e637cc0c46f00dc5d1de32a135",
+    "normalizedCodeHash": "f377694498a1ceaaa3f68686de622457c449d9e637cc0c46f00dc5d1de32a135",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:18:03.542940+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

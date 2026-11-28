@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001845",
+  "problemId": "P001845",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001845",
+    "title": "Count Distinct Binary Search Tree Shapes Generated from Multiple Insertion Sequences",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given M insertion sequences of distinct keys, determine how many structurally distinct Binary Search Trees are produced.",
+    "input": "\u2022 The first line contains an integer M. \u2022 For each sequence, the first line contains its length followed by the insertion sequence.",
+    "output": "\u2022 Print the number of distinct Binary Search Tree structures.",
+    "constraints": "\u2022 1 \u2264 M \u2264 10^5 \u2022 Total number of keys across all sequences \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001845",
+    "fileSHA": "564fdcb0fedca353ec4498bb419ddda5aeae760cfa2559f6d68d2eb3d3b9d05d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:30.715879+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "564fdcb0fedca353ec4498bb419ddda5aeae760cfa2559f6d68d2eb3d3b9d05d",
+    "normalizedCodeHash": "564fdcb0fedca353ec4498bb419ddda5aeae760cfa2559f6d68d2eb3d3b9d05d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:30.715899+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

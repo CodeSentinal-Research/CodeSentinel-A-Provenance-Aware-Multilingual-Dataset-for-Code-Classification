@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001655",
+  "problemId": "P001655",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001655",
+    "title": "Convert a Binary Tree into a Doubly Linked List",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree, convert it into a doubly linked list following the inorder traversal sequence. The conversion must reuse the existing tree nodes.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the nodes of the resulting doubly linked list from head to tail.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5________________________________________"
+  },
+  "repository": {
+    "name": "pezy/LeetCode",
+    "owner": "pezy",
+    "url": "https://github.com/pezy/LeetCode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "007. Linked List Cycle/solution.h",
+    "fileSHA": "8c99a810cd95a34e22fb2307ed737e7cea342398",
+    "url": "https://github.com/pezy/LeetCode/blob/master/007. Linked List Cycle/solution.h",
+    "rawUrl": "https://raw.githubusercontent.com/pezy/LeetCode/master/007. Linked List Cycle/solution.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5975448a5a5ea6c8cf419e62a3302d2b6aaee449a9ab3859f257e61870abe8cb",
+    "normalizedCodeHash": "5975448a5a5ea6c8cf419e62a3302d2b6aaee449a9ab3859f257e61870abe8cb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:20.688652+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

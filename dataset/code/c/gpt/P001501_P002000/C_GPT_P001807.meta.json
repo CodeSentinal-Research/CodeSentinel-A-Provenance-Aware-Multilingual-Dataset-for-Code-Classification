@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001807",
+  "problemId": "P001807",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001807",
+    "title": "Split a Binary Search Tree by a Key",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a Binary Search Tree and a key X, split the tree into two Binary Search Trees such that one contains all keys less than or equal to X and the other contains all keys greater than X.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST. • The last line contains X.",
+    "output": "• Print both resulting BSTs.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001807.c",
+    "fileSHA": "0e19ece178fba17ee19ff2d6f48502e10801d28cb15e6837d4f2f570672b99e4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.715Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "fbbb293cb80c45f97bcceea4434820e427365e4467b0e70526b89d90a5028fc6",
+    "normalizedCodeHash": "0e19ece178fba17ee19ff2d6f48502e10801d28cb15e6837d4f2f570672b99e4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.715Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001496",
+  "problemId": "P001496",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001496",
+    "title": "Apply Operations to an Array",
+    "category": "Two Pointers",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array, repeatedly merge adjacent equal values by doubling the left value and setting the right value to zero. After processing, move all zeroes to the end.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the transformed array.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001496",
+    "fileSHA": "a4d73ba88b521cc8fa45f2581ffed0f196509f6c9a96936da829a8d204a754b0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T04:46:20.345Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a4d017f87e8822a321e976f29ab86a86d712bee3a9670540c2dc8646d49fa63b",
+    "normalizedCodeHash": "811888bd13451cb9908b22bed0e23844ff76945cb619ff52be11c751841d1a75",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T04:46:20.345Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

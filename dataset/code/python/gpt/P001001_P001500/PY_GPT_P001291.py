@@ -1,0 +1,18 @@
+# problem title : Hand of Straights
+# Solve the stated task using standard input and standard output.
+from typing import List
+from collections import Counter
+
+class Solution:
+    def isNStraightHand(self, hand: List[int], groupSize: int) -> bool:
+        if len(hand) % groupSize != 0:
+            return False
+        count = Counter(hand)
+        for x in sorted(hand):
+            if count[x] > 0:
+                freq = count[x]
+                for i in range(groupSize):
+                    if count[x + i] < freq:
+                        return False
+                    count[x + i] -= freq
+        return True

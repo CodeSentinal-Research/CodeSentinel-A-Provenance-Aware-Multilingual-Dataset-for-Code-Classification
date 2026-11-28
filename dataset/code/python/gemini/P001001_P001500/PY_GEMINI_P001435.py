@@ -1,0 +1,7 @@
+from typing import List
+from collections import Counter
+
+class Solution:
+    def countWords(self, words1: List[str], words2: List[str]) -> int:
+        c1, c2 = Counter(words1), Counter(words2)
+        return sum(1 for w in c1 if c1[w] == 1 and c2[w] == 1)

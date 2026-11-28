@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000635",
+  "problemId": "P000635",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000635",
+    "title": "Reverse Nodes in Variable Sized Groups",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and an array groups representing group sizes, reverse the nodes according to the given group sizes in order. If the remaining number of nodes is smaller than the current group size, leave those nodes unchanged. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer g Array groups",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= g <= n 1 <= groups[i] <= n"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0025_reverse_nodes_in_k_group/reverse_nodes.cc",
+    "fileSHA": "73362b20e3603b3c168f4ce426cedd016839b510",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0025_reverse_nodes_in_k_group/reverse_nodes.cc",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0025_reverse_nodes_in_k_group/reverse_nodes.cc"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "417da1c069c175a12349c9976607015bca3863aab14f65bdc8d46a003ed64280",
+    "normalizedCodeHash": "417da1c069c175a12349c9976607015bca3863aab14f65bdc8d46a003ed64280",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T19:12:46.954205+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

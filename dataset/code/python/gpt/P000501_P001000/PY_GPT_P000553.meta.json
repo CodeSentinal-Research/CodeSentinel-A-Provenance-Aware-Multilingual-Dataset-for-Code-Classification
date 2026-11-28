@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000553",
+  "problemId": "P000553",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000553",
+    "title": "Snakes and Ladders",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an n × n Snakes and Ladders board. Starting from square 1, each move consists of rolling a six-sided die and moving accordingly. If the destination square contains the start of a ladder or the head of a snake, immediately move to its destination. Return the minimum number of moves required to reach the final square. Return -1 if it is impossible.",
+    "input": "Integer n An n × n board.",
+    "output": "A single integer representing the minimum number of moves.",
+    "constraints": "2 <= n <= 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000553.py",
+    "fileSHA": "6ca1f9c5c24035a0a014a791d78a4ec867f64f8c8cb9cb464783b642cb89b9f5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.223440+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6ca1f9c5c24035a0a014a791d78a4ec867f64f8c8cb9cb464783b642cb89b9f5",
+    "normalizedCodeHash": "a11f41e0861e2a9960b76b7f7c05ab4a909b5ee77eb61c951a67558c0967b5e1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.223440+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

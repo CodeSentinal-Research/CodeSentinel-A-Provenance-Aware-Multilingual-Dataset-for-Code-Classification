@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001623",
+  "problemId": "P001623",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001623",
+    "title": "Count Prefixes With Negative Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers, determine how many prefixes have a sum less than zero.",
+    "input": "• First line contains N. • Second line contains N integers.",
+    "output": "• Print the count.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001623.c",
+    "fileSHA": "877ed6f99bc2d68e259433d622966174ff1053736329f92bce65f844260af366",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.027Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a7a571490a91f71786dd64a6b984ecc886a69c9ad40359d52ff8b09932bb5099",
+    "normalizedCodeHash": "877ed6f99bc2d68e259433d622966174ff1053736329f92bce65f844260af366",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.027Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

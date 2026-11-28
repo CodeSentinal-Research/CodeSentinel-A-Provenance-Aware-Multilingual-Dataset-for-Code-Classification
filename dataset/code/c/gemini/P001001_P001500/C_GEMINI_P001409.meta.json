@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001409",
+  "problemId": "P001409",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001409",
+    "title": "Count Equal and Divisible Pairs",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and an integer K, count pairs (i, j) such that i < j, nums[i] = nums[j], and (i \u00d7 j) is divisible by K.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the total number of valid pairs.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001409",
+    "fileSHA": "b9eecd601c6b1ce934b782eb6ef1ab67cad17b83d9dcc7c522710201ad15b66e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:24:59.629597+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b9eecd601c6b1ce934b782eb6ef1ab67cad17b83d9dcc7c522710201ad15b66e",
+    "normalizedCodeHash": "b9eecd601c6b1ce934b782eb6ef1ab67cad17b83d9dcc7c522710201ad15b66e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:24:59.629621+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

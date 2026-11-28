@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001352",
+  "problemId": "P001352",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001352",
+    "title": "Split String into Descending Consecutive Values",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a numeric string, determine whether it can be split into two or more non-empty substrings such that the numeric values are in strictly descending consecutive order.",
+    "input": "\u2022 First line contains a numeric string.",
+    "output": "Print YES if such a split exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 Length \u2264 20"
+  },
+  "repository": {
+    "name": "elastic/elasticsearch",
+    "owner": "elastic",
+    "url": "https://github.com/elastic/elasticsearch",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "benchmarks/src/main/java/org/elasticsearch/benchmark/index/codec/tsdb/internal/BoundaryBlockSupplier.java",
+    "fileSHA": "3b7a0a6e020c24dc80becd16fb7b14a017805e05",
+    "url": "https://github.com/elastic/elasticsearch/blob/94fe3e1670a2d58950bd3019fdb8b482388702cb/benchmarks/src/main/java/org/elasticsearch/benchmark/index/codec/tsdb/internal/BoundaryBlockSupplier.java",
+    "rawUrl": "https://raw.githubusercontent.com/elastic/elasticsearch/main/benchmarks/src/main/java/org/elasticsearch/benchmark/index/codec/tsdb/internal/BoundaryBlockSupplier.java"
+  },
+  "matching": {
+    "relevanceScore": 80.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "140d5708eeff9014df6129208f2551d5dedf2b15eaa15f791bd3147c11ba64a7",
+    "normalizedCodeHash": "140d5708eeff9014df6129208f2551d5dedf2b15eaa15f791bd3147c11ba64a7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:45:45.202346+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

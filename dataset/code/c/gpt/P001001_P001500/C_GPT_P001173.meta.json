@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001173",
+  "problemId": "P001173",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001173",
+    "title": "Minimum Path Sum",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an R × C grid of non-negative integers, determine the minimum possible sum along a path from the top-left corner to the bottom-right corner, moving only right or down.",
+    "input": "• First line contains integers R and C. • Next R lines each contain C integers.",
+    "output": "Print the minimum path sum.",
+    "constraints": "• 1 ≤ R, C ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001173.c",
+    "fileSHA": "e00a6d2f5575cb63c3ad9040e911931eb40ba1dbf0e4b2d991d7869e61baee66",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.185Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "666aadf0284aef85c6b26d05d979f58b181e3bae98c34a0188bad6b532f0271a",
+    "normalizedCodeHash": "e00a6d2f5575cb63c3ad9040e911931eb40ba1dbf0e4b2d991d7869e61baee66",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.185Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

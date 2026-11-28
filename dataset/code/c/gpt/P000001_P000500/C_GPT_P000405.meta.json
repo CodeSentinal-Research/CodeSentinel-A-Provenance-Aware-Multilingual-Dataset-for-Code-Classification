@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000405",
+  "problemId": "P000405",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000405",
+    "title": "Search Courses by Instructor",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find all courses taught by the specified instructor.",
+    "input": "Course records and an instructor name.",
+    "output": "Matching course records.",
+    "constraints": "1 ≤ Number of Courses ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000405.c",
+    "fileSHA": "cb1e8477d9a9ad8a80168ca125282a4b78cf9cc71c70919601a47cb4ea1c783b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cb1e8477d9a9ad8a80168ca125282a4b78cf9cc71c70919601a47cb4ea1c783b",
+    "normalizedCodeHash": "cb1e8477d9a9ad8a80168ca125282a4b78cf9cc71c70919601a47cb4ea1c783b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

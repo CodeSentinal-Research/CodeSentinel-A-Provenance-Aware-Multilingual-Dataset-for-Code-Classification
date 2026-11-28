@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001161",
+  "problemId": "P001161",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001161",
+    "title": "Wildcard Pattern Matching",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given a text string and a pattern containing the wildcard characters '?' and '*', determine whether the pattern matches the entire text. The character '?' matches any single character, while '*' matches any sequence of characters (including an empty sequence).",
+    "input": "\u2022 First line contains the text string. \u2022 Second line contains the pattern string.",
+    "output": "Print YES if the pattern matches; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 Length of text, pattern \u2264 2000"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/dynamicprogramming/WildcardMatching.java",
+    "fileSHA": "8658ea30af00c97a6efe8d90ec3e18b2927332a7",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/dynamicprogramming/WildcardMatching.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/dynamicprogramming/WildcardMatching.java"
+  },
+  "matching": {
+    "relevanceScore": 77.92
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a25b4d7cad4cda05a69822ec67b81b6ea3f71dab4add844a9aecb8afb2567b43",
+    "normalizedCodeHash": "a25b4d7cad4cda05a69822ec67b81b6ea3f71dab4add844a9aecb8afb2567b43",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:04.369820+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

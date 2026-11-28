@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000947",
+  "problemId": "P000947",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000947",
+    "title": "Can I Win",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Hard",
+    "problemStatement": "Two players alternately choose distinct integers from 1 to maxChoosableInteger. The chosen numbers are accumulated, and the player whose total first reaches or exceeds desiredTotal wins. Determine whether the first player can force a win.",
+    "input": "Integer maxChoosableInteger Integer desiredTotal",
+    "output": "Print true if the first player can force a win; otherwise, print false.",
+    "constraints": "1 <= maxChoosableInteger <= 20 0 <= desiredTotal <= 300"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000947",
+    "fileSHA": "8ad99e1b0c910a15d1b6ba534744547d7b478d2c74731277a818589bef99c1b7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8ad99e1b0c910a15d1b6ba534744547d7b478d2c74731277a818589bef99c1b7",
+    "normalizedCodeHash": "8ad99e1b0c910a15d1b6ba534744547d7b478d2c74731277a818589bef99c1b7",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique P000947: Can I Win"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

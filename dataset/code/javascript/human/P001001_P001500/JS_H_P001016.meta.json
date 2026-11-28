@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001016",
+  "problemId": "P001016",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001016",
+    "title": "Sliding Window Maximum Using Heap",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and a window size K, determine the maximum element in every contiguous subarray of size K using a heap-based approach.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the maximum of every window.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0600-0699/0628.Maximum Product of Three Numbers/Solution2.ts",
+    "fileSHA": "d3d287c66dbd4dbb1330fbd88ccac0c15134c5b1",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0600-0699/0628.Maximum Product of Three Numbers/Solution2.ts",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0600-0699/0628.Maximum Product of Three Numbers/Solution2.ts"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1b5a98717fd37ea650af1c5e260a1eec7f73079b6d828ee52098c78c21b05cdf",
+    "normalizedCodeHash": "1b5a98717fd37ea650af1c5e260a1eec7f73079b6d828ee52098c78c21b05cdf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:00.881082+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

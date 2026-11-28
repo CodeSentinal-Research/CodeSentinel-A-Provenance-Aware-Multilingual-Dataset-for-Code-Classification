@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000725",
+  "problemId": "P000725",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000725",
+    "title": "Split String into Descending Consecutive Values",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string consisting of digits, determine whether it can be split into two or more non-empty substrings such that the numerical values are in strictly descending order and differ by exactly 1. Return true if possible; otherwise return false.",
+    "input": "String s",
+    "output": "true if such a split exists, otherwise false.",
+    "constraints": "1 <= |s| <= 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000725",
+    "fileSHA": "00f64ef6250028682009a21a1aae8c050ff3aa02bf32863e633358cadf2cf87d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "00f64ef6250028682009a21a1aae8c050ff3aa02bf32863e633358cadf2cf87d",
+    "normalizedCodeHash": "00f64ef6250028682009a21a1aae8c050ff3aa02bf32863e633358cadf2cf87d",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000725"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001170",
+  "problemId": "P001170",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001170",
+    "title": "Cherry Pickup",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 N grid containing cherries, empty cells, and blocked cells, determine the maximum number of cherries that can be collected by traveling from the top-left corner to the bottom-right corner and then returning to the starting cell without collecting the same cherry more than once.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain N integers representing the grid.",
+    "output": "Print the maximum number of cherries that can be collected.",
+    "constraints": "\u2022 1 \u2264 N \u2264 200"
+  },
+  "repository": {
+    "name": "lrmsspace/LLM-CodeQualityEval",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Output/output_TY/c/Hard/1874-cherry-pickup.c",
+    "fileSHA": "2c16404404525d93673c7cea1ac3e8030fdb1ad5",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval/blob/a2817bbe913c51ab32afeb6f6d0ad97b92c45075/Output/output_TY/c/Hard/1874-cherry-pickup.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/LLM-CodeQualityEval/main/Output/output_TY/c/Hard/1874-cherry-pickup.c"
+  },
+  "matching": {
+    "relevanceScore": 88.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5e48e8e1dea36df3e5ddee700b26e8b4e87d51c73eb8aeb1983ceeba15ace568",
+    "normalizedCodeHash": "5e48e8e1dea36df3e5ddee700b26e8b4e87d51c73eb8aeb1983ceeba15ace568",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T15:34:30.193068+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001565",
+  "problemId": "P001565",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001565",
+    "title": "Sliding Window Maximum",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and a window size K, determine the maximum element in every contiguous subarray of size K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the maximum element for every window.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K \u2264 N \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001565",
+    "fileSHA": "93c5e00110ffe40fc12b9d51724ef1be26a2d6d4a505e2d924ce52b9ca3b30ab",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:41.625250+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "93c5e00110ffe40fc12b9d51724ef1be26a2d6d4a505e2d924ce52b9ca3b30ab",
+    "normalizedCodeHash": "93c5e00110ffe40fc12b9d51724ef1be26a2d6d4a505e2d924ce52b9ca3b30ab",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:41.625273+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

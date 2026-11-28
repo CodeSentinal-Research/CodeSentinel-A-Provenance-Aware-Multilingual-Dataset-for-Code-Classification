@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_CLAUDE_P001565",
+  "problemId": "P001565",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001565",
+    "title": "Sliding Window Maximum",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and a window size K, determine the maximum element in every contiguous subarray of size K.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the maximum element for every window.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • 1 ≤ K ≤ N • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P001565",
+    "fileSHA": "be15e7e9d1e4861bd4a8e41b1eef705684cba5f89af80a31779a62cba909cd2c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "610f489bca442ea6e1875d0cc2ecd8eeb39f52b648013ab2f21f3295c8202ede",
+    "normalizedCodeHash": "be15e7e9d1e4861bd4a8e41b1eef705684cba5f89af80a31779a62cba909cd2c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

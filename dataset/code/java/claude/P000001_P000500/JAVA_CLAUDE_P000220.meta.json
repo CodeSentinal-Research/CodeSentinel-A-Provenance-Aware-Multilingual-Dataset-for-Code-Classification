@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000220",
+  "problemId": "P000220",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000220",
+    "title": "Find the Celebrity",
+    "category": "Arrays",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that finds the celebrity in a party of N people given a matrix of who knows whom.",
+    "input": "First line contains N. Next N lines contain the N x N matrix.",
+    "output": "Celebrity index or -1.",
+    "constraints": "1 ≤ N ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000220",
+    "fileSHA": "439522c2f2c44c304a4e07eebe53a991b922cb650e06d4c5af3007e9c4141e19",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "439522c2f2c44c304a4e07eebe53a991b922cb650e06d4c5af3007e9c4141e19",
+    "normalizedCodeHash": "439522c2f2c44c304a4e07eebe53a991b922cb650e06d4c5af3007e9c4141e19",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000220: Find the Celebrity"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

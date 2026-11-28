@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001123",
+  "problemId": "P001123",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001123",
+    "title": "Find the City with the Smallest Number of Reachable Neighbors",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a weighted undirected graph and a distance threshold, determine the city having the smallest number of reachable neighboring cities within the threshold distance. If multiple cities satisfy the condition, print the largest indexed city.",
+    "input": "• First line contains integers N, M, and T. • Next M lines contain integers u, v, and w.",
+    "output": "Print the required city index.",
+    "constraints": "• 2 ≤ N ≤ 100 • 1 ≤ M ≤ N(N−1)/2"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001123.c",
+    "fileSHA": "24e8dec26d5b863e0951195c2af2837880c4c617e482d134f07a5457e6829279",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.065Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "e73a29591b6960c7070656440750439e26b047ee59bf6d112d432696c3050e94",
+    "normalizedCodeHash": "24e8dec26d5b863e0951195c2af2837880c4c617e482d134f07a5457e6829279",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.065Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

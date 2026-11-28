@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P001247",
+  "problemId": "P001247",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001247",
+    "title": "Advantage Shuffle",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given two arrays of equal length, rearrange the first array to maximize the number of indices where its element is greater than the corresponding element in the second array.",
+    "input": "• First line contains integer N. • Second line contains N integers of the first array. • Third line contains N integers of the second array.",
+    "output": "Print the rearranged first array.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P001247",
+    "fileSHA": "10fec987959470166a1412abba183885ff3e65df967c7c00321f5c08cf2ab90e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "565c7d58b5434721007351523f834e3dd35d59c5f113ea4c932f02a315bbce01",
+    "normalizedCodeHash": "10fec987959470166a1412abba183885ff3e65df967c7c00321f5c08cf2ab90e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

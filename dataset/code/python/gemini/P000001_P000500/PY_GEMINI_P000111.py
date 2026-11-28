@@ -1,0 +1,13 @@
+from typing import List, Optional
+
+def find_second_largest(arr: List[int]) -> Optional[int]:
+    unique_sorted = sorted(list(set(arr)))
+    if len(unique_sorted) < 2:
+        return None
+    return unique_sorted[-2]
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    res = find_second_largest(arr)
+    print(res if res is not None else "Does not exist")

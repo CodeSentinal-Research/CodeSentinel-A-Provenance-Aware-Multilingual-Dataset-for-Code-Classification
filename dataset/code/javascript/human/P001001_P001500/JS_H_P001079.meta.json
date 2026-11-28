@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001079",
+  "problemId": "P001079",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001079",
+    "title": "Find All Bridges in a Graph",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a connected undirected graph, determine all bridge edges. A bridge is an edge whose removal increases the number of connected components.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print all bridge edges in ascending order. If none exist, print NONE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "trekhleb/javascript-algorithms",
+    "owner": "trekhleb",
+    "url": "https://github.com/trekhleb/javascript-algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/algorithms/graph/bridges/__test__/graphBridges.test.js",
+    "fileSHA": "01837528b06bf36437f5a6e950c959dda0910d74",
+    "url": "https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/graph/bridges/__test__/graphBridges.test.js",
+    "rawUrl": "https://raw.githubusercontent.com/trekhleb/javascript-algorithms/master/src/algorithms/graph/bridges/__test__/graphBridges.test.js"
+  },
+  "matching": {
+    "relevanceScore": 69.17
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b057e0241592a26c111594627559701d221faa2e06a8b7cdc51ddb28c2b57814",
+    "normalizedCodeHash": "b057e0241592a26c111594627559701d221faa2e06a8b7cdc51ddb28c2b57814",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:47:21.508373+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

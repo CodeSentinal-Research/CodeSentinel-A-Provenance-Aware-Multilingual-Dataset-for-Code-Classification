@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001729",
+  "problemId": "P001729",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001729",
+    "title": "Distance Between Two Nodes in a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree and two distinct nodes, determine the number of edges in the shortest path between them.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree. • The last line contains two node values.",
+    "output": "• Print the distance between the two nodes.",
+    "constraints": "• 2 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001729.c",
+    "fileSHA": "687df09bfe3e3d5d3ce874f1cf99e57d7ee552c0f173d83478a4d1098ae0a1b8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.472Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "b50043ee46e7bf60a9739bd3c21e681d4dfd1b20f8ab2c646d62dfb76af34683",
+    "normalizedCodeHash": "687df09bfe3e3d5d3ce874f1cf99e57d7ee552c0f173d83478a4d1098ae0a1b8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.472Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

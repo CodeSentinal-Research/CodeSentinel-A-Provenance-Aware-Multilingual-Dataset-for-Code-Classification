@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001263",
+  "problemId": "P001263",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001263",
+    "title": "Two City Scheduling",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "There are 2N people who must be assigned to one of two cities. The cost of sending each person to each city is given. Determine the minimum total travel cost while sending exactly N people to each city.",
+    "input": "\u2022 First line contains integer N. \u2022 Next 2N lines each contain the cost of sending one person to City A and City B.",
+    "output": "Print the minimum total cost.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/cpp/twoCityScheduling/TwoCityScheduling.cpp",
+    "fileSHA": "03a39398b4d3f3f9c9e7126898e03e9cecbea5fe",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/cpp/twoCityScheduling/TwoCityScheduling.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/cpp/twoCityScheduling/TwoCityScheduling.cpp"
+  },
+  "matching": {
+    "relevanceScore": 80.28
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f37852a822ba76b4b4665ec2dce97ce6edd5e4d31eeb7a7cc42f1b66d2b5a043",
+    "normalizedCodeHash": "f37852a822ba76b4b4665ec2dce97ce6edd5e4d31eeb7a7cc42f1b66d2b5a043",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (C++ Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:11.885096+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

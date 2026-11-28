@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001306",
+  "problemId": "P001306",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001306",
+    "title": "Optimal File Merge Pattern",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given the sizes of N files, repeatedly merge two files at a time. The cost of each merge equals the sum of the merged file sizes. Determine the minimum total merging cost.",
+    "input": "• First line contains integer N. • Second line contains N integers representing file sizes.",
+    "output": "Print the minimum total merge cost.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001306.c",
+    "fileSHA": "1d64d11e7816f548e52c0d10b716939569b42862543e7e53918ebb7934cf5a32",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.736Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c0f1a98051bfd656dc52464b470d908fb5a7701c9b295cf476b70ca9ac23628a",
+    "normalizedCodeHash": "1d64d11e7816f548e52c0d10b716939569b42862543e7e53918ebb7934cf5a32",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.737Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

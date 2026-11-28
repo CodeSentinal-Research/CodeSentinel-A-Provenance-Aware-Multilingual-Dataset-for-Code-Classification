@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000902",
+  "problemId": "P000902",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000902",
+    "title": "Divisibility Range Queries",
+    "category": "Mathematics - Divisibility",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and multiple queries (L, R, X), determine how many numbers in the range [L, R] are divisible by X.",
+    "input": "Integer N Array nums Integer Q Q queries (L, R, X)",
+    "output": "For each query, print the count of divisible numbers.",
+    "constraints": "1 <= N, Q <= 2 \u00d7 10^5 1 <= nums[i], X <= 10^9"
+  },
+  "repository": {
+    "name": "walkccc/LeetCode",
+    "owner": "walkccc",
+    "url": "https://github.com/walkccc/LeetCode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solutions/2438. Range Product Queries of Powers/2438.java",
+    "fileSHA": "02ff6e0871a17f12b51c69c1eddd1dc45fc4e2b3",
+    "url": "https://github.com/walkccc/LeetCode/blob/main/solutions/2438. Range Product Queries of Powers/2438.java",
+    "rawUrl": "https://raw.githubusercontent.com/walkccc/LeetCode/main/solutions/2438. Range Product Queries of Powers/2438.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4b3e28460afa9c521c74dda2de399d4454c884e1ea58eabb0a7b989fc45f491a",
+    "normalizedCodeHash": "4b3e28460afa9c521c74dda2de399d4454c884e1ea58eabb0a7b989fc45f491a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T19:13:35.726254+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

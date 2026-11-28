@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000957",
+  "problemId": "P000957",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000957",
+    "title": "Verify B\u00e9zout's Identity",
+    "category": "Mathematics - Extended Euclidean Algorithm",
+    "difficulty": "Easy",
+    "problemStatement": "Given integers A, B, X, and Y, determine whether the pair (X, Y) satisfies B\u00e9zout's Identity: AX + BY = gcd(A, B)",
+    "input": "Integer A Integer B Integer X Integer Y",
+    "output": "Print true if the identity holds; otherwise, print false.",
+    "constraints": "1 <= |A|, |B|, |X|, |Y| <= 10^18"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0300-0399/0331.Verify Preorder Serialization of a Binary Tree/Solution.java",
+    "fileSHA": "070e61b980697c0df7d3fc933165ac867b37227c",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0300-0399/0331.Verify Preorder Serialization of a Binary Tree/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0300-0399/0331.Verify Preorder Serialization of a Binary Tree/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f11174912580bbbe927ad76296810a34209ff4e45733596595eb3dd8d6c01966",
+    "normalizedCodeHash": "f11174912580bbbe927ad76296810a34209ff4e45733596595eb3dd8d6c01966",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:48.982762+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001671",
+  "problemId": "P001671",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001671",
+    "title": "Morris Inorder Traversal",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, perform an inorder traversal without using recursion, an explicit stack, or modifying the final structure of the tree. The algorithm must restore the original tree after traversal.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the inorder traversal.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001671",
+    "fileSHA": "b23ce897f8275bcf4b87de6d1d28c48b2403cde1c913dd7c68a17dbe8c0c1b1c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:35:04.158754+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b23ce897f8275bcf4b87de6d1d28c48b2403cde1c913dd7c68a17dbe8c0c1b1c",
+    "normalizedCodeHash": "b23ce897f8275bcf4b87de6d1d28c48b2403cde1c913dd7c68a17dbe8c0c1b1c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:35:04.158781+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

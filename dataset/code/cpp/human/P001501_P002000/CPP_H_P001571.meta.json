@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001571",
+  "problemId": "P001571",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001571",
+    "title": "Maximum Difference Between First and Last Element in Every Window",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and a window size K, compute the difference between the first and last element for every contiguous subarray of size K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the difference for each window.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0400-0499/0480.Sliding Window Median/Solution2.cpp",
+    "fileSHA": "19309934af9d3380993e58d7bf0a2c1a252f0144",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0400-0499/0480.Sliding Window Median/Solution2.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0400-0499/0480.Sliding Window Median/Solution2.cpp"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1fa4660af77cdca8f19eb8e11241baf39dfef6ba14629ea966d8e2cf3f402315",
+    "normalizedCodeHash": "1fa4660af77cdca8f19eb8e11241baf39dfef6ba14629ea966d8e2cf3f402315",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:55.770330+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000654",
+  "problemId": "P000654",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000654",
+    "title": "Rearrange Linked List Around Last Node",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list, rearrange the nodes so that all nodes with values less than the last node's value appear before it, and all nodes with values greater than or equal to it appear after it. The relative order of nodes within each partition must remain unchanged. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The rearranged linked list.",
+    "constraints": "1 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "liuyubobobo/Play-with-Data-Structures",
+    "owner": "liuyubobobo",
+    "url": "https://github.com/liuyubobobo/Play-with-Data-Structures",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "04-Linked-List/03-DummyHead-in-LinkedList/src/LinkedList.java",
+    "fileSHA": "3cee239d714bd76cd51e8d155421f8fb746a97e0",
+    "url": "https://github.com/liuyubobobo/Play-with-Data-Structures/blob/master/04-Linked-List/03-DummyHead-in-LinkedList/src/LinkedList.java",
+    "rawUrl": "https://raw.githubusercontent.com/liuyubobobo/Play-with-Data-Structures/master/04-Linked-List/03-DummyHead-in-LinkedList/src/LinkedList.java"
+  },
+  "matching": {
+    "relevanceScore": 60.74
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "89ab72618ede11ba0db934d5f7eb1564b6982126f16234ee246e7a1572ff8320",
+    "normalizedCodeHash": "89ab72618ede11ba0db934d5f7eb1564b6982126f16234ee246e7a1572ff8320",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:13:52.501542+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

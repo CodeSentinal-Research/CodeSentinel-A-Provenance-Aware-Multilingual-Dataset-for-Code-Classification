@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000406",
+  "problemId": "P000406",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000406",
+    "title": "Search Movies by Genre",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Display all movies belonging to the specified genre.",
+    "input": "Movie records and a genre.",
+    "output": "Matching movie records.",
+    "constraints": "1 ≤ Number of Movies ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000406.c",
+    "fileSHA": "dc92b63d84f7d593b39ae3a048928e4525dfb36e255e9ae716e067d8eee8ea87",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "dc92b63d84f7d593b39ae3a048928e4525dfb36e255e9ae716e067d8eee8ea87",
+    "normalizedCodeHash": "dc92b63d84f7d593b39ae3a048928e4525dfb36e255e9ae716e067d8eee8ea87",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

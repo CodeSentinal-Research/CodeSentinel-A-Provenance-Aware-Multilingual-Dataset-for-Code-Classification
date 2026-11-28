@@ -1,0 +1,10 @@
+{
+  "problemId": "P000833",
+  "title": "Allocate Minimum Number of Pages",
+  "category": "Binary Search",
+  "difficulty": "Medium",
+  "problemStatement": "Given an array where each element represents the number of pages in a book and an integer students, allocate books such that: Each student receives at least one book. Books assigned to a student must be contiguous. Minimize the maximum number of pages assigned to any student. Return the minimum possible maximum.",
+  "input": "Integer n Array pages Integer students",
+  "output": "The minimum possible maximum pages.",
+  "constraints": "1 <= n <= 10^5 1 <= pages[i] <= 10^9"
+}

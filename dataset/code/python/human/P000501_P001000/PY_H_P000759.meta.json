@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000759",
+  "problemId": "P000759",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000759",
+    "title": "Count Good Numbers",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "A digit string of length N is called good if: Digits at even indices are even (0, 2, 4, 6, 8). Digits at odd indices are prime (2, 3, 5, 7). Return the total number of good digit strings of length N modulo 10^9 + 7. Solve the problem using recursive exponentiation.",
+    "input": "Integer N",
+    "output": "The total number of good strings modulo 10^9 + 7.",
+    "constraints": "1 <= N <= 10^15"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/count-good-integers-in-a-range.py",
+    "fileSHA": "96d189816df9f8cbe5d09f95a72e497bb790264c",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/count-good-integers-in-a-range.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/count-good-integers-in-a-range.py"
+  },
+  "matching": {
+    "relevanceScore": 69.55
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "18c0687a5e3f8c03023f5b1c711945e21af88ecb6371f42bb3d1cab6d4f96f4f",
+    "normalizedCodeHash": "18c0687a5e3f8c03023f5b1c711945e21af88ecb6371f42bb3d1cab6d4f96f4f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T02:04:57.043432+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001364",
+  "problemId": "P001364",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001364",
+    "title": "K-Partition Problem",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and an integer K, partition the array into exactly K non-empty subsets such that the maximum subset sum is minimized.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the minimum possible maximum subset sum.",
+    "constraints": "\u2022 1 \u2264 N \u2264 20 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "TheAlgorithms/C",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/C",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "project_euler/problem_1/sol1.c",
+    "fileSHA": "b24891fe87bc897533f068a67edc78f1662cfa5a",
+    "url": "https://github.com/TheAlgorithms/C/blob/master/project_euler/problem_1/sol1.c",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/C/master/project_euler/problem_1/sol1.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "83e2c6efe428214071a64514d1664f907c4717946bc45e12743d635d9890d44d",
+    "normalizedCodeHash": "83e2c6efe428214071a64514d1664f907c4717946bc45e12743d635d9890d44d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:29:18.499359+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

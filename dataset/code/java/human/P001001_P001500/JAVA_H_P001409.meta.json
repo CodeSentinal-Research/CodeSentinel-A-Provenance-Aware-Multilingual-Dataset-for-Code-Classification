@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001409",
+  "problemId": "P001409",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001409",
+    "title": "Count Equal and Divisible Pairs",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and an integer K, count pairs (i, j) such that i < j, nums[i] = nums[j], and (i \u00d7 j) is divisible by K.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the total number of valid pairs.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "kliewUS/practice_problems",
+    "owner": "kliewUS",
+    "url": "https://github.com/kliewUS/practice_problems",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "CountEqualDivisiblePairs.java",
+    "fileSHA": "12a319518bf6a1d54b88888c9b41d1dd51ae7e9e",
+    "url": "https://github.com/kliewUS/practice_problems/blob/2912eda6e34c35d0eef715cbaaf6952e257842b4/CountEqualDivisiblePairs.java",
+    "rawUrl": "https://raw.githubusercontent.com/kliewUS/practice_problems/main/CountEqualDivisiblePairs.java"
+  },
+  "matching": {
+    "relevanceScore": 90.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d037eda39311ac17d75d1c46f8bccb860b2f6787a44429aa5d37613bb73e8676",
+    "normalizedCodeHash": "d037eda39311ac17d75d1c46f8bccb860b2f6787a44429aa5d37613bb73e8676",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:40:39.391931+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

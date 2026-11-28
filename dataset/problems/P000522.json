@@ -1,0 +1,10 @@
+{
+  "problemId": "P000522",
+  "title": "Design Browser History",
+  "category": "Stack",
+  "difficulty": "Medium",
+  "problemStatement": "Design a browser history manager that supports the following operations: visit(url) \u2014 Visit a new webpage. back(steps) \u2014 Move back by at most steps pages. forward(steps) \u2014 Move forward by at most steps pages. Initially, the browser starts at the homepage. Process a sequence of operations and print the current page after every back() and forward() operation.",
+  "input": "A homepage URL. Integer q. Next q operations.",
+  "output": "Print the current page after every back() and forward() operation.",
+  "constraints": "1 <= q <= 5 \u00d7 10^4 URL length does not exceed 100 characters."
+}

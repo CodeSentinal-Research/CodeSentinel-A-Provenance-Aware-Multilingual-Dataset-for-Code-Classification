@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000564",
+  "problemId": "P000564",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000564",
+    "title": "Word Ladder II",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Given beginWord, endWord, and a dictionary of valid words, return all shortest transformation sequences from beginWord to endWord. Each transformation changes exactly one character, and every intermediate word must exist in the dictionary. Return all shortest sequences in any order.",
+    "input": "String beginWord String endWord Integer n List of n words",
+    "output": "A list of all shortest transformation sequences.",
+    "constraints": "1 <= word length <= 10 1 <= n <= 5000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000564.c",
+    "fileSHA": "c9db06bb62816f537a9ba9a8eef4929f86a6a75f188ae04f2537e589d6bf350c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c9db06bb62816f537a9ba9a8eef4929f86a6a75f188ae04f2537e589d6bf350c",
+    "normalizedCodeHash": "c9db06bb62816f537a9ba9a8eef4929f86a6a75f188ae04f2537e589d6bf350c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

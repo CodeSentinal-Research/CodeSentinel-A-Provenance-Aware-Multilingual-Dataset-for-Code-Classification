@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000663",
+  "problemId": "P000663",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000663",
+    "title": "Merge Two Circular Sorted Linked Lists",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the heads of two circular singly linked lists sorted in non-decreasing order, merge them into a single circular sorted linked list. Return the head of the merged circular linked list.",
+    "input": "Integer n First circular sorted linked list Integer m Second circular sorted linked list",
+    "output": "The merged circular sorted linked list.",
+    "constraints": "0 <= n, m <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000663.c",
+    "fileSHA": "7ebda2f9237d2446cf963aea4cacd0063ff3940f21ce1ce38d040994b53fca67",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7ebda2f9237d2446cf963aea4cacd0063ff3940f21ce1ce38d040994b53fca67",
+    "normalizedCodeHash": "7ebda2f9237d2446cf963aea4cacd0063ff3940f21ce1ce38d040994b53fca67",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

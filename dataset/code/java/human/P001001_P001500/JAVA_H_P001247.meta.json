@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001247",
+  "problemId": "P001247",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001247",
+    "title": "Advantage Shuffle",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given two arrays of equal length, rearrange the first array to maximize the number of indices where its element is greater than the corresponding element in the second array.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers of the first array. \u2022 Third line contains N integers of the second array.",
+    "output": "Print the rearranged first array.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "gaohannk/Leetcode",
+    "owner": "gaohannk",
+    "url": "https://github.com/gaohannk/Leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/leetcode/algo/a/AdvantageShuffle.java",
+    "fileSHA": "47309aa114e007c1471591baba486ce816b908c6",
+    "url": "https://github.com/gaohannk/Leetcode/blob/e0e111835b0fae2e27d80ac9e012f5052c6bd1a2/src/leetcode/algo/a/AdvantageShuffle.java",
+    "rawUrl": "https://raw.githubusercontent.com/gaohannk/Leetcode/main/src/leetcode/algo/a/AdvantageShuffle.java"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b589a6dd65d5d40e8477057809faf9741146157a882997266901faee6710d8c0",
+    "normalizedCodeHash": "b589a6dd65d5d40e8477057809faf9741146157a882997266901faee6710d8c0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T06:04:59.917992+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000396",
+  "problemId": "P000396",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000396",
+    "title": "Search Active User Accounts",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find all user accounts that are marked as active.",
+    "input": "User account records.",
+    "output": "List of active users.",
+    "constraints": "1 ≤ Number of Users ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000396",
+    "fileSHA": "488bed49e64f0e859033a6d0b78e7f175bb9f44a8ee59fc1ef8730658f3f849c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "488bed49e64f0e859033a6d0b78e7f175bb9f44a8ee59fc1ef8730658f3f849c",
+    "normalizedCodeHash": "488bed49e64f0e859033a6d0b78e7f175bb9f44a8ee59fc1ef8730658f3f849c",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000396: Search Active User Accounts"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

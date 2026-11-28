@@ -1,0 +1,59 @@
+{
+  "solutionId": "Java_QWEN_P000597",
+  "problemId": "P000597",
+  "language": "java",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000597",
+    "title": "Flatten a Multilevel Doubly Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "A doubly linked list may contain child pointers that point to separate doubly linked lists. Flatten the multilevel structure into a single-level doubly linked list. The child lists should appear immediately after their parent nodes, and all child pointers must become null. Return the head of the flattened list.",
+    "input": "A multilevel doubly linked list.",
+    "output": "The flattened doubly linked list.",
+    "constraints": "Number of nodes is in the range [0, 1000]."
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/Java_QWEN_P000597",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

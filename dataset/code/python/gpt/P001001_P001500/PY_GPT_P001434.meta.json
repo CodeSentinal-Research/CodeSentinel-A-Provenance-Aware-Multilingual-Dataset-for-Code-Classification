@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001434",
+  "problemId": "P001434",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001434",
+    "title": "Find Winner on a Tic-Tac-Toe Game",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given the sequence of moves played in a Tic-Tac-Toe game, determine the winner. If nobody wins and the board is full, print DRAW; otherwise print PENDING.",
+    "input": "• First line contains integer N. • Next N lines contain row and column indices.",
+    "output": "Print the game result.",
+    "constraints": "• 0 ≤ N ≤ 9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001434.py",
+    "fileSHA": "94b62de5e0823d7d4c45bc057af79634403e27785f623b90a37110a353d5d52f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.828680+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "94b62de5e0823d7d4c45bc057af79634403e27785f623b90a37110a353d5d52f",
+    "normalizedCodeHash": "fe8db2d228a64acff54bdca1e181611e5fff0b6ada342a8de1929d0863d051b5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.828680+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

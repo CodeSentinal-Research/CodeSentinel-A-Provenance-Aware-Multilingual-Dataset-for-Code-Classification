@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000546",
+  "problemId": "P000546",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000546",
+    "title": "Jump Game VII",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a binary string s and two integers minJump and maxJump. Starting at index 0, determine whether it is possible to reach the last index. From index i, you may jump to any index j satisfying: i + minJump <= j <= min(i + maxJump, n - 1) s[j] == '0' Return true if the last index can be reached; otherwise return false.",
+    "input": "Binary string s Integer minJump Integer maxJump",
+    "output": "true if the last index is reachable, otherwise false.",
+    "constraints": "2 <= s.length <= 10^5 s[0] == s[n-1] == '0'"
+  },
+  "repository": {
+    "name": "yusifaliyevpro/Competitive-Programming",
+    "owner": "yusifaliyevpro",
+    "url": "https://github.com/yusifaliyevpro/Competitive-Programming",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "LeetCode/Medium/1871. Jump Game VII.cpp",
+    "fileSHA": "b5b8ed88a0a5a21334a0ec910dcfeccfbca01a8a",
+    "url": "https://github.com/yusifaliyevpro/Competitive-Programming/blob/0684555c6a3c925941217ad17cab7e3fcfc65e54/LeetCode/Medium/1871. Jump Game VII.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/yusifaliyevpro/Competitive-Programming/main/LeetCode/Medium/1871. Jump Game VII.cpp"
+  },
+  "matching": {
+    "relevanceScore": 75.19
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "52483e1a32f8cfbdf6d9832532ec70d63f6f1d376f571d2df27bbc2ee7582b6c",
+    "normalizedCodeHash": "52483e1a32f8cfbdf6d9832532ec70d63f6f1d376f571d2df27bbc2ee7582b6c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:38:24.454180+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

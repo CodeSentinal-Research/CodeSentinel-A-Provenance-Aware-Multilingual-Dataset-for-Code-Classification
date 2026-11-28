@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000532",
+  "problemId": "P000532",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000532",
+    "title": "Time Needed to Buy Tickets",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "There are n people standing in a queue to buy tickets. The i-th person initially needs tickets[i] tickets. Each second: The person at the front buys one ticket. If they still need more tickets, they move to the end of the queue. Otherwise, they leave the queue. Given the index k, determine how many seconds are required until person k finishes buying all of their tickets.",
+    "input": "Integer n Array tickets Integer k",
+    "output": "A single integer representing the required time.",
+    "constraints": "1 <= n <= 100 1 <= tickets[i] <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "java/gemini/JAVA_GEMINI_P000532",
+    "fileSHA": "d7bb0f7dd29f351ee5fcc1edf1ee894e65dafcf9c46cc7e09bbb4e1814880a3f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:43:26.640219+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d7bb0f7dd29f351ee5fcc1edf1ee894e65dafcf9c46cc7e09bbb4e1814880a3f",
+    "normalizedCodeHash": "d7bb0f7dd29f351ee5fcc1edf1ee894e65dafcf9c46cc7e09bbb4e1814880a3f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:43:26.640245+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

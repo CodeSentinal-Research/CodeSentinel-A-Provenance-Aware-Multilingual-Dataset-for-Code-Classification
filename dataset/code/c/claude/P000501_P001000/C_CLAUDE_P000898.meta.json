@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000898",
+  "problemId": "P000898",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000898",
+    "title": "Reduce Fraction to Lowest Terms",
+    "category": "Mathematics - GCD & LCM",
+    "difficulty": "Easy",
+    "problemStatement": "Given two positive integers representing the numerator and denominator of a fraction, reduce the fraction to its lowest terms.",
+    "input": "Integer numerator Integer denominator",
+    "output": "The reduced numerator and denominator.",
+    "constraints": "1 <= numerator, denominator <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000898",
+    "fileSHA": "14774044d895fc4d5b92c296cdcb2abe9ba75f2c483c88e70926c8bfafa4a26c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "14774044d895fc4d5b92c296cdcb2abe9ba75f2c483c88e70926c8bfafa4a26c",
+    "normalizedCodeHash": "14774044d895fc4d5b92c296cdcb2abe9ba75f2c483c88e70926c8bfafa4a26c",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000898"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

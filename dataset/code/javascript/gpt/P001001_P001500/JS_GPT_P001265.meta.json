@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001265",
+  "problemId": "P001265",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001265",
+    "title": "Maximum Performance of a Team",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given N engineers, each having a speed and an efficiency, select at most K engineers to maximize the team's performance, defined as the sum of selected speeds multiplied by the minimum efficiency among them.",
+    "input": "• First line contains integers N and K. • Second line contains N integers representing speeds. • Third line contains N integers representing efficiencies.",
+    "output": "Print the maximum achievable performance.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001265.js",
+    "fileSHA": "0897a9141fdc4ad453fb9a84041bce98a281e5362c3628fe0b91e3d79c67be33",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T10:11:26.401164+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0897a9141fdc4ad453fb9a84041bce98a281e5362c3628fe0b91e3d79c67be33",
+    "normalizedCodeHash": "0897a9141fdc4ad453fb9a84041bce98a281e5362c3628fe0b91e3d79c67be33",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T10:11:26.401164+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

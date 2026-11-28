@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001566",
+  "problemId": "P001566",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001566",
+    "title": "Sliding Window Minimum",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and a window size K, determine the minimum element in every contiguous subarray of size K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the minimum element for every window.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K \u2264 N \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "keon/algorithms",
+    "owner": "keon",
+    "url": "https://github.com/keon/algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/heap/sliding_window_max.py",
+    "fileSHA": "f88458a13b848e92b09b01d8816725aa4697342d",
+    "url": "https://github.com/keon/algorithms/blob/master/algorithms/heap/sliding_window_max.py",
+    "rawUrl": "https://raw.githubusercontent.com/keon/algorithms/master/algorithms/heap/sliding_window_max.py"
+  },
+  "matching": {
+    "relevanceScore": 62.71
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "109edd69ec1fd1fdd36d71afdc5da89a4239da885795e8a652e31f0664c60181",
+    "normalizedCodeHash": "109edd69ec1fd1fdd36d71afdc5da89a4239da885795e8a652e31f0664c60181",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T10:33:54.829591+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

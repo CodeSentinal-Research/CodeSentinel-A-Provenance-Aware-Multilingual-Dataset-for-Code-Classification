@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000698",
+  "problemId": "P000698",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000698",
+    "title": "Fast Modular Exponentiation Using Recursion",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given three integers base, exponent, and mod, compute (base^exponent) mod mod using recursive exponentiation by squaring.",
+    "input": "Integer base Integer exponent Integer mod",
+    "output": "The value of (base^exponent) mod mod.",
+    "constraints": "1 <= base, exponent <= 10^18 2 <= mod <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000698",
+    "fileSHA": "0983700fbb1c83977650e4935bb8a5bea21ee7da804fb022d508195aca292faf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.392Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "6a7e9a93493ce5d10b408a683111ef10f2d0d38a17aeed79eee858ccb000c855",
+    "normalizedCodeHash": "32fcf52e92201e2db56c35c6c72b1cac5060ffc49f005a11cf9ccb7b99ff1057",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.392Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

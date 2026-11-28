@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000777",
+  "problemId": "P000777",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000777",
+    "title": "Crossword Puzzle Solver",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a crossword grid containing blocked cells and empty slots, along with a list of words, fill the crossword so that every word is placed exactly once either horizontally or vertically. If multiple solutions exist, print any one valid completed crossword.",
+    "input": "Integer N Character matrix grid Integer W Array words",
+    "output": "The completed crossword grid.",
+    "constraints": "1 <= N <= 20 1 <= W <= 20"
+  },
+  "repository": {
+    "name": "aselahemantha/Crossword-Puzzle-Solver",
+    "owner": "aselahemantha",
+    "url": "https://github.com/aselahemantha/Crossword-Puzzle-Solver",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "puzzle-dynamic.c",
+    "fileSHA": "91250f1a9a7566c9cf91d191bb03147bcda5ad86",
+    "url": "https://github.com/aselahemantha/Crossword-Puzzle-Solver/blob/53386bf3f5dbf45cf1bd41fb3af9556ca4cfb23e/puzzle-dynamic.c",
+    "rawUrl": "https://raw.githubusercontent.com/aselahemantha/Crossword-Puzzle-Solver/main/puzzle-dynamic.c"
+  },
+  "matching": {
+    "relevanceScore": 80.7
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "771a53d44004bc57dd36459249da131aa925cfda29de4878c853dc77c21a9a76",
+    "normalizedCodeHash": "771a53d44004bc57dd36459249da131aa925cfda29de4878c853dc77c21a9a76",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T17:00:28.116223+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

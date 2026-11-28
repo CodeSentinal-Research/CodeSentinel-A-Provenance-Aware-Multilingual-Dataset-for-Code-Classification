@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P000959",
+  "problemId": "P000959",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000959",
+    "title": "Solve Linear Diophantine Equation",
+    "category": "Mathematics - Diophantine Equations",
+    "difficulty": "Medium",
+    "problemStatement": "Given integers A, B, and C, determine whether the equation: AX + BY = C has an integer solution.",
+    "input": "Integer A Integer B Integer C",
+    "output": "Print true if a solution exists; otherwise, print false.",
+    "constraints": "|A|, |B|, |C| <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P000959",
+    "fileSHA": "5d2c6f6ba5ef23c64324c25caf2110a19d93a8a6a501a298e505b000fa6702be",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:36:08.223542+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5d2c6f6ba5ef23c64324c25caf2110a19d93a8a6a501a298e505b000fa6702be",
+    "normalizedCodeHash": "5d2c6f6ba5ef23c64324c25caf2110a19d93a8a6a501a298e505b000fa6702be",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:36:08.223569+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000610",
+  "problemId": "P000610",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000610",
+    "title": "Merge Nodes Between Zeros",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a linked list whose first and last nodes contain the value 0. Between every pair of consecutive zero-valued nodes, replace all nodes with a single node whose value is the sum of the values between those zeros. Return the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The transformed linked list.",
+    "constraints": "3 <= n <= 2 × 10^5 The first and last node values are 0."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000610",
+    "fileSHA": "5e47ccac605f5c379373f3ad8d8bb99143a9b32398a4df8e406a33e71fc73341",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5e47ccac605f5c379373f3ad8d8bb99143a9b32398a4df8e406a33e71fc73341",
+    "normalizedCodeHash": "5e47ccac605f5c379373f3ad8d8bb99143a9b32398a4df8e406a33e71fc73341",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000610"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

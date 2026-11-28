@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000109",
+  "problemId": "P000109",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000109",
+    "title": "Linear Search",
+    "category": "Arrays",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that performs linear search to find the index of a target element in an array.",
+    "input": "First line contains N and target. Second line contains N integers.",
+    "output": "Index of target (0-based) or -1 if not found.",
+    "constraints": "1 ≤ N ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000109.c",
+    "fileSHA": "2943e2ab60aefdc0b36bcafab569c0f160c9fa917b5596de19ddfaf1941f79a3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:23:08.716982+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2943e2ab60aefdc0b36bcafab569c0f160c9fa917b5596de19ddfaf1941f79a3",
+    "normalizedCodeHash": "2943e2ab60aefdc0b36bcafab569c0f160c9fa917b5596de19ddfaf1941f79a3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:23:08.716982+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

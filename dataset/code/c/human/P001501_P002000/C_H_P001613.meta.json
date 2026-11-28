@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001613",
+  "problemId": "P001613",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001613",
+    "title": "Matrix Block Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M matrix of integers and an integer K, construct a matrix where each cell contains the sum of all elements within a distance of K rows and K columns from that cell.",
+    "input": "\u2022 First line contains N, M, and K. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the resulting matrix.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 1000 \u2022 0 \u2264 K \u2264 max(N, M)"
+  },
+  "repository": {
+    "name": "JustVugg/colibri",
+    "owner": "JustVugg",
+    "url": "https://github.com/JustVugg/colibri",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/hyper_connections.h",
+    "fileSHA": "8fa0f3b13dc48fdcfa95a2257c6c77e20ad44453",
+    "url": "https://github.com/JustVugg/colibri/blob/184e05221a43b3bbeb3321e3438c067b3a46e202/c/hyper_connections.h",
+    "rawUrl": "https://raw.githubusercontent.com/JustVugg/colibri/main/c/hyper_connections.h"
+  },
+  "matching": {
+    "relevanceScore": 81.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "48f49601e4a0683708a28d50001fdafd0f7edad335494d6f29d0cf55c75f101c",
+    "normalizedCodeHash": "48f49601e4a0683708a28d50001fdafd0f7edad335494d6f29d0cf55c75f101c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:02:12.021815+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

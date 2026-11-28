@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_GPT_P001564",
+  "problemId": "P001564",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001564",
+    "title": "Sliding Window Median",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and a window size K, compute the median of every contiguous subarray of size K. For an even-sized window, the median is defined as the average of the two middle values after sorting.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the median of every window in order.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • 1 ≤ K ≤ N • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001501_P002000/PY_GPT_P001564.py",
+    "fileSHA": "8e0470cfdd6bfac70ff0ed266f8e9d2d756896a43344f02d475ff36b7901662b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-26T13:09:03.128322+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8e0470cfdd6bfac70ff0ed266f8e9d2d756896a43344f02d475ff36b7901662b",
+    "normalizedCodeHash": "adbf19affde408b6ff2264d11c5bf242551f6c7484bd65c8c1fa703812d00118",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-26T13:09:03.128322+00:00",
+    "pipelineVersion": "1.0.0"
+  },
+  "sha256": "adbe083c8cce205b6df01360612c371e45708898c1b7da94e9b28db0357f6926"
+}

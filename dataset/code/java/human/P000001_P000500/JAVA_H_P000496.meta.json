@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000496",
+  "problemId": "P000496",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000496",
+    "title": "Sum of Subarray Minimums",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array, find the sum of the minimum element of every contiguous subarray. Since the answer may be very large, return it modulo 10^9 + 7.",
+    "input": "Integer n Array arr",
+    "output": "A single integer representing the required sum.",
+    "constraints": "1 <= n <= 3 \u00d7 10^4 1 <= arr[i] <= 3 \u00d7 10^4"
+  },
+  "repository": {
+    "name": "sau-rav-singh/CoreJava",
+    "owner": "sau-rav-singh",
+    "url": "https://github.com/sau-rav-singh/CoreJava",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/test/java/programs/dp/SumSubarrayMinimums.java",
+    "fileSHA": "50a3858f42bfbdf81b2d07cda1584663227e4c97",
+    "url": "https://github.com/sau-rav-singh/CoreJava/blob/83d0d7018ae72e2e881381b7fd4338d1189ac491/src/test/java/programs/dp/SumSubarrayMinimums.java",
+    "rawUrl": "https://raw.githubusercontent.com/sau-rav-singh/CoreJava/main/src/test/java/programs/dp/SumSubarrayMinimums.java"
+  },
+  "matching": {
+    "relevanceScore": 91.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b6a8446d51231daa8f0169d378bedbc90fbbe7aea50faeb7a30cb90ed675ab3d",
+    "normalizedCodeHash": "b6a8446d51231daa8f0169d378bedbc90fbbe7aea50faeb7a30cb90ed675ab3d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T07:18:18.629015+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

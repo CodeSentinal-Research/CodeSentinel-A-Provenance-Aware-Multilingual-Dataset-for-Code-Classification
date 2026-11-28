@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000571",
+  "problemId": "P000571",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000571",
+    "title": "Hot Potato Game",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "There are N players standing in a circle, numbered from 1 to N. Starting from player 1, a token is passed clockwise exactly K times. The player holding the token after the K-th pass is eliminated. The process continues with the next player until only one player remains. Return the number of the winning player.",
+    "input": "Integer N Integer K",
+    "output": "The winning player's number.",
+    "constraints": "1 <= N <= 10^5 1 <= K <= 10^5"
+  },
+  "repository": {
+    "name": "Shihara1020/CO322-Data_Structures_Algorithms",
+    "owner": "Shihara1020",
+    "url": "https://github.com/Shihara1020/CO322-Data_Structures_Algorithms",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Lab01/HotPotato.java",
+    "fileSHA": "87bae23e906a915d71482f037206725f1de67de8",
+    "url": "https://github.com/Shihara1020/CO322-Data_Structures_Algorithms/blob/08b64646978986dea86d21602a0e2e32cc6b65bf/Lab01/HotPotato.java",
+    "rawUrl": "https://raw.githubusercontent.com/Shihara1020/CO322-Data_Structures_Algorithms/main/Lab01/HotPotato.java"
+  },
+  "matching": {
+    "relevanceScore": 75.67
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d585b4cb5b11667763dbdb910fe712772f6a335d9720ab99862f4bd9babd4b4e",
+    "normalizedCodeHash": "d585b4cb5b11667763dbdb910fe712772f6a335d9720ab99862f4bd9babd4b4e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:23:43.653847+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

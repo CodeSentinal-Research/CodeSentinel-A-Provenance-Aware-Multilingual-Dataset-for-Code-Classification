@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001140",
+  "problemId": "P001140",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001140",
+    "title": "Unbounded Knapsack",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given N items, each with a weight and value, determine the maximum obtainable value when each item may be selected an unlimited number of times without exceeding the knapsack capacity.",
+    "input": "\u2022 First line contains integers N and W. \u2022 Next N lines contain weight and value.",
+    "output": "Print the maximum obtainable value.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000 \u2022 1 \u2264 W \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001140",
+    "fileSHA": "55ae054d1870f7822dcd747943f24060ed6d9d7c12856c247a0c5634dd8f62b0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.847Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c7c7b1411542edb8a24025aa7964852df3f3be9680d42cd5208aa318b9c7f487",
+    "normalizedCodeHash": "291dcf568d551fbbd50cc038380b3f6b1a28217318fc9426a0feeb3e753c1e23",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.847Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000814",
+  "problemId": "P000814",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000814",
+    "title": "First Bad Version",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given n versions labeled from 1 to n. There exists a version after which every version is bad. You are provided with an API: isBadVersion(version) Return the first bad version using binary search.",
+    "input": "Integer n",
+    "output": "The first bad version.",
+    "constraints": "1 <= n <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000814.js",
+    "fileSHA": "378501aeb9a86b28fbd201c42e2026fd4d4f03017fb939f9fdd68108510de5f9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "378501aeb9a86b28fbd201c42e2026fd4d4f03017fb939f9fdd68108510de5f9",
+    "normalizedCodeHash": "378501aeb9a86b28fbd201c42e2026fd4d4f03017fb939f9fdd68108510de5f9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

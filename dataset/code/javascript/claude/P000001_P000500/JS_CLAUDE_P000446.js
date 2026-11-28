@@ -1,0 +1,1 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const[r,c,x]=l[0].split(' ').map(Number);const mat=[];for(let i=0;i<r;i++)mat.push(l[i+1].split(' ').map(Number));let row=0,col=c-1;while(row<r&&col>=0){if(mat[row][col]===x){console.log('Found');process.exit();}else if(mat[row][col]>x)col--;else row++;}console.log('Not Found');

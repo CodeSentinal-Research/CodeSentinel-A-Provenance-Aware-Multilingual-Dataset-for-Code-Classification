@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000667",
+  "problemId": "P000667",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000667",
+    "title": "Design Circular Deque Using Doubly Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a circular deque using a doubly linked list. Support the following operations: insertFront(value) insertLast(value) deleteFront() deleteLast() getFront() getRear() isEmpty() size() Process a sequence of operations and print the result for query operations.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result of every query operation.",
+    "constraints": "1 <= q <= 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000667.c",
+    "fileSHA": "36e75f88ab46c9b9feb8a9efe57889b1a27e95b534643152b4bbe4ce44d983b8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "36e75f88ab46c9b9feb8a9efe57889b1a27e95b534643152b4bbe4ce44d983b8",
+    "normalizedCodeHash": "36e75f88ab46c9b9feb8a9efe57889b1a27e95b534643152b4bbe4ce44d983b8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

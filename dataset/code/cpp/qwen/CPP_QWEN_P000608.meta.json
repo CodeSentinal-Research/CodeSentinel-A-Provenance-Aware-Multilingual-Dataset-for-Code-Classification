@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000608",
+  "problemId": "P000608",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000608",
+    "title": "Linked List in Binary Tree",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and the root of a binary tree, determine whether the linked list exists as a downward path in the binary tree. A downward path starts at any node and proceeds only through child pointers. Return true if such a path exists; otherwise return false.",
+    "input": "Linked list Binary tree",
+    "output": "true if the linked list appears as a downward path, otherwise false.",
+    "constraints": "Number of linked list nodes is in the range [1, 100] Number of tree nodes is in the range [1, 2500] -100 <= node.value <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000608",
+    "fileSHA": "103020bfb119e39371952b0d4f1dded15d483b214132c636ebb28c17d3917457",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.317Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "d9b70e3ad861d476f0790aa7b669ac3ee7a49e08501ad49deb674f772b5ef092",
+    "normalizedCodeHash": "b6a512619e1e74659d0053fc1674a5068df0fed4f6009e59267d79948897eedc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.317Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

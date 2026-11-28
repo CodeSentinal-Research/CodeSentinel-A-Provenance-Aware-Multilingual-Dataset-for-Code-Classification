@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001361",
+  "problemId": "P001361",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001361",
+    "title": "Stickers to Spell Word",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given a collection of stickers containing lowercase English letters and a target word, determine the minimum number of stickers required to form the target word. Each sticker may be used multiple times.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain sticker strings. \u2022 Last line contains the target word.",
+    "output": "Print the minimum number of stickers required, or -1 if impossible.",
+    "constraints": "\u2022 1 \u2264 N \u2264 50 \u2022 Sticker length \u2264 15 \u2022 Target length \u2264 15"
+  },
+  "repository": {
+    "name": "joric/oneliners",
+    "owner": "joric",
+    "url": "https://github.com/joric/oneliners",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "leetcode/691.stickers-to-spell-word.py",
+    "fileSHA": "045123af6859e02cd11378f2c7756f592872d024",
+    "url": "https://github.com/joric/oneliners/blob/9f8e54d6eb7a79923cb247eadb83194fb34c8a0e/leetcode/691.stickers-to-spell-word.py",
+    "rawUrl": "https://raw.githubusercontent.com/joric/oneliners/main/leetcode/691.stickers-to-spell-word.py"
+  },
+  "matching": {
+    "relevanceScore": 83.42
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "eda51fff6ef5d203340e3a60d9a6d6f0d8fce54b735086f80e1d6f6fcabdf57a",
+    "normalizedCodeHash": "eda51fff6ef5d203340e3a60d9a6d6f0d8fce54b735086f80e1d6f6fcabdf57a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:20:16.713167+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001726",
+  "problemId": "P001726",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001726",
+    "title": "Count Downward Paths with Sum K",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree whose nodes contain integer values and an integer K, determine the number of downward paths whose node values sum to exactly K. A path may start and end at any nodes but must always move from parent to child.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree. • The last line contains K.",
+    "output": "• Print the number of qualifying paths.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • −10^9 ≤ NodeValue ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001726.c",
+    "fileSHA": "8a6bfc85be1ed1939ac34b8ddb9c68c34101ed07444f1c7bc12d79f804587178",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.462Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "be3db3efab66dcf0f5bf0aa5afa59a731df615478b811aeff231f5729ac3a41c",
+    "normalizedCodeHash": "8a6bfc85be1ed1939ac34b8ddb9c68c34101ed07444f1c7bc12d79f804587178",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.462Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

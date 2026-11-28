@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000796",
+  "problemId": "P000796",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000796",
+    "title": "Make Sum Divisible by P",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array nums and an integer p, remove the shortest non-empty subarray such that the sum of the remaining elements is divisible by p. Return the length of the shortest such subarray, or -1 if impossible.",
+    "input": "Integer n Array nums Integer p",
+    "output": "The minimum length of the removed subarray.",
+    "constraints": "1 <= n <= 10^5 1 <= nums[i] <= 10^9 1 <= p <= 10^9"
+  },
+  "repository": {
+    "name": "eaglemox/LeetCode-Writeups",
+    "owner": "eaglemox",
+    "url": "https://github.com/eaglemox/LeetCode-Writeups",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "array/1590.make-sum-divisible-by-p/solution_1.c",
+    "fileSHA": "de651218ab9dbc4f0c3a359c283ddd385c8babb7",
+    "url": "https://github.com/eaglemox/LeetCode-Writeups/blob/8f08fad6a7ca196447bb47b928f2f951421203ab/array/1590.make-sum-divisible-by-p/solution_1.c",
+    "rawUrl": "https://raw.githubusercontent.com/eaglemox/LeetCode-Writeups/main/array/1590.make-sum-divisible-by-p/solution_1.c"
+  },
+  "matching": {
+    "relevanceScore": 85.71
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "db90abef66efe60a19643b9e1e7ea47e22292be0667987522c05233ebe4809f9",
+    "normalizedCodeHash": "db90abef66efe60a19643b9e1e7ea47e22292be0667987522c05233ebe4809f9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:41:17.002817+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001022",
+  "problemId": "P001022",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001022",
+    "title": "Decrease Key in a Min Heap",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a valid Min Heap represented as an array, an index i, and a new value smaller than or equal to the current value, update the key and restore the Min Heap property. Print the updated heap.",
+    "input": "• First line contains integer N. • Second line contains N space-separated integers. • Third line contains integers i and newValue.",
+    "output": "Print the updated Min Heap.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ i < N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001022.c",
+    "fileSHA": "7778cfa48859b8312f35dbda85ea51e6679e6623edf5924a3b14d4799b3d4d6a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:32.798Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "d738846bc3c8dd1d98cf016e275a6e264273baabc3e1b67c851226a5d149846f",
+    "normalizedCodeHash": "7778cfa48859b8312f35dbda85ea51e6679e6623edf5924a3b14d4799b3d4d6a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:32.798Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

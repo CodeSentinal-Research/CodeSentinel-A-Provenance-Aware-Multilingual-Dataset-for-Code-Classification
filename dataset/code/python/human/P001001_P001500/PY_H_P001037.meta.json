@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001037",
+  "problemId": "P001037",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001037",
+    "title": "Task Scheduler with Cooling Time",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given a list of tasks represented by uppercase letters and a non-negative cooling interval K, determine the minimum number of time units required to execute all tasks such that identical tasks are separated by at least K time units.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N uppercase letters. \u2022 Third line contains integer K.",
+    "output": "Print the minimum execution time.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "kevinhamza/Devin-4.0",
+    "owner": "kevinhamza",
+    "url": "https://github.com/kevinhamza/Devin-4.0",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "quantum/optimization/annealing_scheduler.py",
+    "fileSHA": "c5cc706c43a3fa771c8526ae55d93edf68b3aa48",
+    "url": "https://github.com/kevinhamza/Devin-4.0/blob/21b805abf7e4c8d0c83ad6c9ff71848b2a015681/quantum/optimization/annealing_scheduler.py",
+    "rawUrl": "https://raw.githubusercontent.com/kevinhamza/Devin-4.0/main/quantum/optimization/annealing_scheduler.py"
+  },
+  "matching": {
+    "relevanceScore": 83.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "75976707a5fb18d35c41ccf914f23b23bc2025de6ceb7a8a9f67d315da7aa17c",
+    "normalizedCodeHash": "75976707a5fb18d35c41ccf914f23b23bc2025de6ceb7a8a9f67d315da7aa17c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T03:07:31.773252+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

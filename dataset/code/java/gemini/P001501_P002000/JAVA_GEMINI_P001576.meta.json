@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001576",
+  "problemId": "P001576",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001576",
+    "title": "Count Windows Containing Zero",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and a window size K, count the number of contiguous subarrays of size K that contain at least one zero.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the count.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001576",
+    "fileSHA": "c19ea97d3f23cf3878083be9ea6c9464242059db7a516d27d1c5da4b1eff5030",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:42.590393+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c19ea97d3f23cf3878083be9ea6c9464242059db7a516d27d1c5da4b1eff5030",
+    "normalizedCodeHash": "c19ea97d3f23cf3878083be9ea6c9464242059db7a516d27d1c5da4b1eff5030",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:42.590427+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

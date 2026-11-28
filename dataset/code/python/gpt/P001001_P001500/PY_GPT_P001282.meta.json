@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001282",
+  "problemId": "P001282",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001282",
+    "title": "Create Maximum Number",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given two arrays of digits and an integer K, create the largest possible number of length K by selecting digits from both arrays while preserving the relative order within each array.",
+    "input": "• First line contains integers N, M, and K. • Second line contains N digits. • Third line contains M digits.",
+    "output": "Print the maximum possible number.",
+    "constraints": "• 1 ≤ N, M ≤ 500 • 1 ≤ K ≤ N + M"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001282.py",
+    "fileSHA": "8f82cafb36bf159d4e3919c1daf97a1d847b261cab3f5f95d7bd895fa5b44153",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.096895+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8f82cafb36bf159d4e3919c1daf97a1d847b261cab3f5f95d7bd895fa5b44153",
+    "normalizedCodeHash": "505ca715938d3457a767c492d8967577d68f4e3e28e05a515ab5c53e9fb54da0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.096895+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

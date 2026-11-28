@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000556",
+  "problemId": "P000556",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000556",
+    "title": "Minimum Number of Visited Cells in a Grid",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an m \u00d7 n grid of non-negative integers. Starting from the top-left cell, you may move: Right by at most grid[i][j] cells. Down by at most grid[i][j] cells. Return the minimum number of visited cells needed to reach the bottom-right cell. If the destination cannot be reached, return -1.",
+    "input": "Integers m and n Grid of integers.",
+    "output": "A single integer.",
+    "constraints": "1 <= m, n <= 10^5 m \u00d7 n <= 10^5 0 <= grid[i][j] <= 10^5"
+  },
+  "repository": {
+    "name": "StrawHatDrag0n/leetcode-contest",
+    "owner": "StrawHatDrag0n",
+    "url": "https://github.com/StrawHatDrag0n/leetcode-contest",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "weekly-contest-340/4.cpp",
+    "fileSHA": "835faff48444ee8ac2b9ce9d46b90c6f3d298876",
+    "url": "https://github.com/StrawHatDrag0n/leetcode-contest/blob/11e55922915c233e02035b8bdc8877435aaefa45/weekly-contest-340/4.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/StrawHatDrag0n/leetcode-contest/main/weekly-contest-340/4.cpp"
+  },
+  "matching": {
+    "relevanceScore": 84.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0de9cbe23fb8e0025b741e05a3da631a2dc9404632e624fd263906837207d9fc",
+    "normalizedCodeHash": "0de9cbe23fb8e0025b741e05a3da631a2dc9404632e624fd263906837207d9fc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T22:19:07.183548+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

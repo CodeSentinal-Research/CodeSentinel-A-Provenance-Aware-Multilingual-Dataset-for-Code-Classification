@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001072",
+  "problemId": "P001072",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001072",
+    "title": "Strongly Connected Components Count",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a directed graph, determine the number of strongly connected components.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain directed edges.",
+    "output": "Print the number of strongly connected components.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/graph/StronglyConnectedComponentOptimized.java",
+    "fileSHA": "ba75b2f4b1b8398de7a68f4baf51e48f0c4b25f0",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/graph/StronglyConnectedComponentOptimized.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/graph/StronglyConnectedComponentOptimized.java"
+  },
+  "matching": {
+    "relevanceScore": 67.5
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0e5afd58ac2e3adcfb48ec2e348f615b7e6be466ce8f0a0fd5cd77d6138a5515",
+    "normalizedCodeHash": "0e5afd58ac2e3adcfb48ec2e348f615b7e6be466ce8f0a0fd5cd77d6138a5515",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:14:13.893508+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

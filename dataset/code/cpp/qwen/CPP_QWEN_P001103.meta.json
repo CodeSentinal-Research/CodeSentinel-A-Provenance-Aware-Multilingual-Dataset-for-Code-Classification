@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001103",
+  "problemId": "P001103",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001103",
+    "title": "Critical Connections in a Network",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected network of servers, determine all critical connections whose removal disconnects the network.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print all critical connections in lexicographical order. If none exist, print NONE.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2\u00d710^5 \u2022 1 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001103",
+    "fileSHA": "032f746b8e29ed39312bd68c7382d01d4a7358b7e9f73b5558127d127b6ad626",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.821Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "7f3f180c4364a6fcc74dcf679f76ae8196c63a3c916ef426bd2f438c76003e49",
+    "normalizedCodeHash": "0b0a5e994b431a94702c0f78fc6c80f35e277f8ee7863a3ed4317b410bc6b9a4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.821Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

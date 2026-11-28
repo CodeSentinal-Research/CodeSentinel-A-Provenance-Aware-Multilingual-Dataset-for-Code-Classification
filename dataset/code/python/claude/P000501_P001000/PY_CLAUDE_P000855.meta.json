@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000855",
+  "problemId": "P000855",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000855",
+    "title": "Count Leading Zeros",
+    "category": "Bit Manipulation",
+    "difficulty": "Easy",
+    "problemStatement": "Given a 32-bit unsigned integer, return the number of leading zeros in its binary representation.",
+    "input": "Integer N",
+    "output": "The number of leading zeros.",
+    "constraints": "0 <= N <= 2^32 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000855",
+    "fileSHA": "1b14c0adf0e5f350fb75de88659cf852ef0bbef63ac5e04215bb680c5d15c964",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1b14c0adf0e5f350fb75de88659cf852ef0bbef63ac5e04215bb680c5d15c964",
+    "normalizedCodeHash": "1b14c0adf0e5f350fb75de88659cf852ef0bbef63ac5e04215bb680c5d15c964",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique solution P000855: Count Leading Zeros"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

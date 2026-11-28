@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000526",
+  "problemId": "P000526",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000526",
+    "title": "Number of Atoms",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Given a valid chemical formula, return the count of each atom in lexicographical order. Rules: Element names begin with an uppercase letter and may be followed by lowercase letters. A number following an element or a closing parenthesis indicates its multiplicity. Parentheses may be nested. Output the formula in its canonical form.",
+    "input": "A string representing the chemical formula.",
+    "output": "A string representing the canonical atom count.",
+    "constraints": "1 <= formula.length <= 1000 The formula is valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "java/gemini/JAVA_GEMINI_P000526",
+    "fileSHA": "59dd15a7a7961d1ee83f572f304afc784f5e621b6b2b8ff30364b2bd30b9ad7f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:43:26.197313+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "59dd15a7a7961d1ee83f572f304afc784f5e621b6b2b8ff30364b2bd30b9ad7f",
+    "normalizedCodeHash": "59dd15a7a7961d1ee83f572f304afc784f5e621b6b2b8ff30364b2bd30b9ad7f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:43:26.197339+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

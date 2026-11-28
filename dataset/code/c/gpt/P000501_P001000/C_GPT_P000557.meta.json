@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000557",
+  "problemId": "P000557",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000557",
+    "title": "Race Car",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "A car starts at position 0 with speed 1. You are given a target position. The car supports two instructions: A (Accelerate): Position increases by current speed, then speed doubles. R (Reverse): Reverse direction. Speed becomes 1 if moving backward, or -1 if moving forward. Return the minimum number of instructions needed to reach the target position.",
+    "input": "A single integer target.",
+    "output": "A single integer representing the minimum number of instructions.",
+    "constraints": "1 <= target <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000557.c",
+    "fileSHA": "55eaf601c18dc71bdc397858a1c81cb02a5a6ef63acdeb68f61842b5d8151749",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "55eaf601c18dc71bdc397858a1c81cb02a5a6ef63acdeb68f61842b5d8151749",
+    "normalizedCodeHash": "55eaf601c18dc71bdc397858a1c81cb02a5a6ef63acdeb68f61842b5d8151749",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

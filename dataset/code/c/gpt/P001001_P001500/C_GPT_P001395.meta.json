@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001395",
+  "problemId": "P001395",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001395",
+    "title": "Number of Boomerangs",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given the coordinates of N distinct points, count the number of boomerangs. A boomerang is an ordered tuple of three distinct points (i, j, k) such that the distance from i to j equals the distance from i to k.",
+    "input": "• First line contains integer N. • Next N lines contain two integers representing the coordinates.",
+    "output": "Print the total number of boomerangs.",
+    "constraints": "• 1 ≤ N ≤ 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001395.c",
+    "fileSHA": "cf23cc83e051616b90a1fd3adfe9c03d7d8b95aa00e00b6ebbf68738fb9f6caf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.228Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "2ebe14637f4292e2885a1194b0de8c681bded64e0c33ce3bbfc9000b52f25695",
+    "normalizedCodeHash": "cf23cc83e051616b90a1fd3adfe9c03d7d8b95aa00e00b6ebbf68738fb9f6caf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.228Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

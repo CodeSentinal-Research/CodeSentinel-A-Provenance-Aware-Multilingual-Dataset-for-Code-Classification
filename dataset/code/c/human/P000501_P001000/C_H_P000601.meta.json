@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000601",
+  "problemId": "P000601",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000601",
+    "title": "Split Linked List into Parts",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a singly linked list and an integer k, split the linked list into k consecutive parts. The sizes of the parts should differ by at most one node, and earlier parts should not be smaller than later parts. Return the heads of the k parts.",
+    "input": "Integer n Linked list Integer k",
+    "output": "The k linked list parts.",
+    "constraints": "0 <= n <= 1000 1 <= k <= 50"
+  },
+  "repository": {
+    "name": "BaseMax/SplitLinkedListC",
+    "owner": "BaseMax",
+    "url": "https://github.com/BaseMax/SplitLinkedListC",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "SplitLinkedList.c",
+    "fileSHA": "81e1deb41c0be9f1de7282d543b1be7fc69f39c1",
+    "url": "https://github.com/BaseMax/SplitLinkedListC/blob/9346f819461ac08066159e1813d65c17924d32e1/SplitLinkedList.c",
+    "rawUrl": "https://raw.githubusercontent.com/BaseMax/SplitLinkedListC/main/SplitLinkedList.c"
+  },
+  "matching": {
+    "relevanceScore": 68.27
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "58e5e24b47916a0ddba24c2defa72f17e0a7d962fabeb36358a273502ffa29da",
+    "normalizedCodeHash": "58e5e24b47916a0ddba24c2defa72f17e0a7d962fabeb36358a273502ffa29da",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:43:39.350415+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

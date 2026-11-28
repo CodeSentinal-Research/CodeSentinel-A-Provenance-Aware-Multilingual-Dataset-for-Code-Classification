@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000515",
+  "problemId": "P000515",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000515",
+    "title": "Car Fleet II",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "There are n cars traveling in the same direction on a one-lane road. Each car has an initial position and speed. Whenever a faster car catches up to a slower car ahead, they collide and continue moving together at the slower speed. For every car, determine the time at which it collides with the next car ahead. If it never collides, return -1.",
+    "input": "Integer n n pairs representing (position, speed).",
+    "output": "An array of floating-point numbers where the i-th value is the collision time of the i-th car.",
+    "constraints": "1 <= n <= 10^5 Positions are strictly increasing. 1 <= speed <= 10^6"
+  },
+  "repository": {
+    "name": "Priyanshu-Ganatra/Leetcode-Codestudio-And-DSA-problems",
+    "owner": "Priyanshu-Ganatra",
+    "url": "https://github.com/Priyanshu-Ganatra/Leetcode-Codestudio-And-DSA-problems",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "LC_95_CarFleet.cpp",
+    "fileSHA": "b9598ba6a47673af3f4e7d44466d61b96064ea1c",
+    "url": "https://github.com/Priyanshu-Ganatra/Leetcode-Codestudio-And-DSA-problems/blob/39130609fbba9ac204602c15acd9d4406bd55f10/LC_95_CarFleet.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/Priyanshu-Ganatra/Leetcode-Codestudio-And-DSA-problems/main/LC_95_CarFleet.cpp"
+  },
+  "matching": {
+    "relevanceScore": 82.81
+  },
+  "provenance": {
+    "score": 75.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "90762b40e819e56fa43e1912e139d13aa1204c7388f1757bc68498bcaf3692c9",
+    "normalizedCodeHash": "90762b40e819e56fa43e1912e139d13aa1204c7388f1757bc68498bcaf3692c9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T15:46:30.356639+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

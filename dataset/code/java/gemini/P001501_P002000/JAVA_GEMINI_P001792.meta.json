@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001792",
+  "problemId": "P001792",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001792",
+    "title": "Find the Inorder Successor of a Given Node",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree and a target node, determine its inorder successor. If no successor exists, print NONE.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The last line contains the target key.",
+    "output": "\u2022 Print the inorder successor.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001792",
+    "fileSHA": "dcc84774c42eeaa72589626d720471e9515ca809b7e521ab471ff3205fe4b932",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:16.182490+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "dcc84774c42eeaa72589626d720471e9515ca809b7e521ab471ff3205fe4b932",
+    "normalizedCodeHash": "dcc84774c42eeaa72589626d720471e9515ca809b7e521ab471ff3205fe4b932",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:16.182510+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

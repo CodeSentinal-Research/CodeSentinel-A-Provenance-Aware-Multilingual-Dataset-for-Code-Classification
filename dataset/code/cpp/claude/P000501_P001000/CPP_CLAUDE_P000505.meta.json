@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000505",
+  "problemId": "P000505",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000505",
+    "title": "Basic Calculator II",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Implement a calculator that evaluates an arithmetic expression containing: Non-negative integers '+' '-' '*' '/' Spaces The expression does not contain parentheses. Multiplication and division have higher precedence than addition and subtraction.",
+    "input": "A string representing the arithmetic expression.",
+    "output": "A single integer representing the evaluated result.",
+    "constraints": "1 <= expression.length <= 3 × 10^5 The expression is valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000505",
+    "fileSHA": "ad49ce73e7d262d32790b9cf49410463f387cc04aaf328c3b7f514627dfea325",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ad49ce73e7d262d32790b9cf49410463f387cc04aaf328c3b7f514627dfea325",
+    "normalizedCodeHash": "ad49ce73e7d262d32790b9cf49410463f387cc04aaf328c3b7f514627dfea325",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000505: Basic Calculator II"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

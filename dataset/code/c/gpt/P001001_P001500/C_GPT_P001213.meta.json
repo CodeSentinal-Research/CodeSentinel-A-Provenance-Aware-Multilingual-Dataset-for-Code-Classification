@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001213",
+  "problemId": "P001213",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001213",
+    "title": "Scramble String",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given two strings of equal length, determine whether one string is a scrambled version of the other using recursive partitioning and swapping.",
+    "input": "• First line contains string A. • Second line contains string B.",
+    "output": "Print YES if B is a scrambled string of A; otherwise print NO.",
+    "constraints": "• 1 ≤ Length ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001213.c",
+    "fileSHA": "61b641b87e00d37df2f5bb0c9d8fe715afe90a7562c54da0c1bdc23dfa555d88",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.304Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "e99b9fb028154cf44cd8e96e6ae1f10ccd330e299023431c3f4f4834e3103d3c",
+    "normalizedCodeHash": "61b641b87e00d37df2f5bb0c9d8fe715afe90a7562c54da0c1bdc23dfa555d88",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.304Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

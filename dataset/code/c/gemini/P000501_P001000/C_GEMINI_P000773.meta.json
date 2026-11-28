@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000773",
+  "problemId": "P000773",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000773",
+    "title": "Count Ways to Parenthesize Arithmetic Expression",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an arithmetic expression containing integers and the operators +, -, and *, compute the number of distinct parenthesizations that produce the maximum possible value.",
+    "input": "String expression",
+    "output": "The number of parenthesizations yielding the maximum value.",
+    "constraints": "1 <= |expression| <= 30"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000773",
+    "fileSHA": "d366025567604cbfe9cdddbb153dfb8f70fdcf329d817a83e7ad092f9332290a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T17:15:01.543034+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d366025567604cbfe9cdddbb153dfb8f70fdcf329d817a83e7ad092f9332290a",
+    "normalizedCodeHash": "d366025567604cbfe9cdddbb153dfb8f70fdcf329d817a83e7ad092f9332290a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T17:15:01.543054+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001347",
+  "problemId": "P001347",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001347",
+    "title": "Cryptarithmetic Puzzle",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given three uppercase words representing an equation of the form WORD1 + WORD2 = WORD3, assign distinct digits to letters so that the equation holds.",
+    "input": "• First line contains WORD1. • Second line contains WORD2. • Third line contains WORD3.",
+    "output": "Print one valid digit assignment or IMPOSSIBLE if none exists.",
+    "constraints": "• Total distinct letters ≤ 10"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001347.py",
+    "fileSHA": "5e376a9ffbcb83e2438b2087991707b80729881d214b28dd1d1ce03c97c05830",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.394065+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5e376a9ffbcb83e2438b2087991707b80729881d214b28dd1d1ce03c97c05830",
+    "normalizedCodeHash": "78580fdf70cebca607e648fa89d5e760f25b553a46c10f151026b57602aca000",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.394065+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

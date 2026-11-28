@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001040",
+  "problemId": "P001040",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001040",
+    "title": "Maximize Performance of a Team",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given the speed and efficiency of N engineers, choose at most K engineers to maximize the team's performance, where performance is defined as the sum of selected speeds multiplied by the minimum efficiency among the selected engineers.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N speeds. \u2022 Third line contains N efficiencies.",
+    "output": "Print the maximum possible performance.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/1000-1099/1005.Maximize Sum Of Array After K Negations/Solution.cpp",
+    "fileSHA": "28404241262511f8e21550955ec8392c710cd9b2",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/1000-1099/1005.Maximize Sum Of Array After K Negations/Solution.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/1000-1099/1005.Maximize Sum Of Array After K Negations/Solution.cpp"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1afebe31dca2218fc8f6da43bb06da56abe66c690d8aacd1645f870a2ab99159",
+    "normalizedCodeHash": "1afebe31dca2218fc8f6da43bb06da56abe66c690d8aacd1645f870a2ab99159",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:10.643863+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

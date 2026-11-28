@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000848",
+  "problemId": "P000848",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000848",
+    "title": "Minimize the Maximum Array Value",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Given a non-negative integer array, in one operation you may move one unit from an element to its previous element. Return the minimum possible value of the maximum element after performing any number of operations.",
+    "input": "Integer n Array nums",
+    "output": "The minimum possible maximum value.",
+    "constraints": "2 <= n <= 10^5 0 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000848.c",
+    "fileSHA": "9ae7553a647031ff5e9ed015102d5de0c8be6931576e02c29028f66356931984",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9ae7553a647031ff5e9ed015102d5de0c8be6931576e02c29028f66356931984",
+    "normalizedCodeHash": "9ae7553a647031ff5e9ed015102d5de0c8be6931576e02c29028f66356931984",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000401",
+  "problemId": "P000401",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000401",
+    "title": "Search Products with Low Stock",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find all products whose available quantity is less than the specified threshold.",
+    "input": "Product records and a stock threshold.",
+    "output": "Matching products.",
+    "constraints": "1 ≤ Number of Products ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000401.c",
+    "fileSHA": "9484628291849b336fcb2fdd48844dd7086d3f265a82406d9ad051e2098c097a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9484628291849b336fcb2fdd48844dd7086d3f265a82406d9ad051e2098c097a",
+    "normalizedCodeHash": "9484628291849b336fcb2fdd48844dd7086d3f265a82406d9ad051e2098c097a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

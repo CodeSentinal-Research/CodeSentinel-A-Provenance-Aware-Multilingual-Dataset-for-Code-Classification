@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000656",
+  "problemId": "P000656",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000656",
+    "title": "Flatten Linked List with Bottom Pointers",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a linked list where each node contains: next pointer bottom pointer Each bottom list is individually sorted. Flatten the entire structure into a single sorted linked list using only the bottom pointers. Return the head of the flattened list.",
+    "input": "A linked list with next and bottom pointers.",
+    "output": "The head of the flattened sorted linked list.",
+    "constraints": "Total number of nodes is in the range [0, 10^5]"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000656.c",
+    "fileSHA": "6e2bdd1a6604f8c166b705d031c9fb4597d58d399eae996af4e1f6e12117253f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6e2bdd1a6604f8c166b705d031c9fb4597d58d399eae996af4e1f6e12117253f",
+    "normalizedCodeHash": "6e2bdd1a6604f8c166b705d031c9fb4597d58d399eae996af4e1f6e12117253f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001097",
+  "problemId": "P001097",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001097",
+    "title": "Union-Find Operations",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "You are given N initially disconnected vertices and Q operations. Each operation is either: • UNION u v: Merge the sets containing vertices u and v. • FIND u v: Determine whether u and v belong to the same connected component. Process all operations.",
+    "input": "• First line contains integers N and Q. • Next Q lines each contain an operation.",
+    "output": "For every FIND operation, print YES if both vertices belong to the same set; otherwise print NO.",
+    "constraints": "• 1 ≤ N, Q ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001097.c",
+    "fileSHA": "50693cd5bb3dd9689b6e7912797fc94be51066adb934a6ad7e515a2380b6e12a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.000Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a70567f270986705971e24d4de6285509e825d508edf13aca260b9556d742af8",
+    "normalizedCodeHash": "50693cd5bb3dd9689b6e7912797fc94be51066adb934a6ad7e515a2380b6e12a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.001Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

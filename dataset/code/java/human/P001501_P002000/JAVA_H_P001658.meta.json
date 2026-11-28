@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001658",
+  "problemId": "P001658",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001658",
+    "title": "Find All Nodes at Distance K from a Target Node",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, a target node, and an integer K, determine all nodes whose shortest distance from the target node is exactly K edges.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains the target node value and the integer K.",
+    "output": "\u2022 Print the values of all qualifying nodes in the required order.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 0 \u2264 K \u2264 N________________________________________"
+  },
+  "repository": {
+    "name": "apache/kafka-merge-queue-sandbox",
+    "owner": "apache",
+    "url": "https://github.com/apache/kafka-merge-queue-sandbox",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/Graph.java",
+    "fileSHA": "13986e270561f279b559948de60f853f9adbef85",
+    "url": "https://github.com/apache/kafka-merge-queue-sandbox/blob/27183691c299612a6f3d50a858def019fad3cbbe/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/Graph.java",
+    "rawUrl": "https://raw.githubusercontent.com/apache/kafka-merge-queue-sandbox/main/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/Graph.java"
+  },
+  "matching": {
+    "relevanceScore": 88.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d170fa76fe2dd8994e07b9ddc4cf2d8e8255a9916044916a12838def26af25b8",
+    "normalizedCodeHash": "d170fa76fe2dd8994e07b9ddc4cf2d8e8255a9916044916a12838def26af25b8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T01:08:58.510125+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

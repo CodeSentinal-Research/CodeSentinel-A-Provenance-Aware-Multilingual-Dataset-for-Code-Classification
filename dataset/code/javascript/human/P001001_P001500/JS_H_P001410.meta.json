@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001410",
+  "problemId": "P001410",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001410",
+    "title": "Count Bad Pairs",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array, count the number of pairs (i, j) where i < j and j - i \u2260 nums[j] - nums[i].",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the number of bad pairs.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "TheCaptain1810/leetcode_solutions",
+    "owner": "TheCaptain1810",
+    "url": "https://github.com/TheCaptain1810/leetcode_solutions",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "countBadPairs.js",
+    "fileSHA": "dbef54e681d1ff26721219c441c8ca59b36ad529",
+    "url": "https://github.com/TheCaptain1810/leetcode_solutions/blob/b0aa784c9edb81aeac92a66c4edaa7e9df4dd987/countBadPairs.js",
+    "rawUrl": "https://raw.githubusercontent.com/TheCaptain1810/leetcode_solutions/main/countBadPairs.js"
+  },
+  "matching": {
+    "relevanceScore": 90.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "518cff2cba32bc00b2a1ecb0b4e5816bc768aa37e42639ca4e1ff72b825bc941",
+    "normalizedCodeHash": "518cff2cba32bc00b2a1ecb0b4e5816bc768aa37e42639ca4e1ff72b825bc941",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:40:40.895763+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

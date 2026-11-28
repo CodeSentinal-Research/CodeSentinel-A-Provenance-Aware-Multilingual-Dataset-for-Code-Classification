@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001603",
+  "problemId": "P001603",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001603",
+    "title": "Smallest Prefix Whose Sum Is At Least X",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and an integer X, determine the minimum prefix length whose sum is at least X. If no such prefix exists, print -1.",
+    "input": "\u2022 First line contains N and X. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the required length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001603",
+    "fileSHA": "3eb6c0b0b239deee97bf0f9e8e0faedc4f87bea93f6bbe4a9d75b9c15d3ace3a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:50.260592+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3eb6c0b0b239deee97bf0f9e8e0faedc4f87bea93f6bbe4a9d75b9c15d3ace3a",
+    "normalizedCodeHash": "3eb6c0b0b239deee97bf0f9e8e0faedc4f87bea93f6bbe4a9d75b9c15d3ace3a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:50.260620+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

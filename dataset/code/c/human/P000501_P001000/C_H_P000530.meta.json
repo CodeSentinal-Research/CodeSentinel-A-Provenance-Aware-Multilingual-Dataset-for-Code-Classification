@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000530",
+  "problemId": "P000530",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000530",
+    "title": "Circular Queue Design",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Design a circular queue of fixed capacity. Support the following operations: enQueue(x) deQueue() Front() Rear() isEmpty() isFull() Process a sequence of operations and print the result for query operations.",
+    "input": "Integer capacity Integer q Next q operations.",
+    "output": "Print the result for every query operation.",
+    "constraints": "1 <= capacity <= 1000 1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "ReemaIQ/ICS433-Producer-Consumer",
+    "owner": "ReemaIQ",
+    "url": "https://github.com/ReemaIQ/ICS433-Producer-Consumer",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "include/shared.h",
+    "fileSHA": "76e11624c0cc60cb87010ce031e811d616bd802c",
+    "url": "https://github.com/ReemaIQ/ICS433-Producer-Consumer/blob/828b2ff37357b29c9a0e4231649f185bca648ecf/include/shared.h",
+    "rawUrl": "https://raw.githubusercontent.com/ReemaIQ/ICS433-Producer-Consumer/main/include/shared.h"
+  },
+  "matching": {
+    "relevanceScore": 81.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "47c48965a29507f084c6a9de386c1d0455ab80edff06fc2ede3c50263065f77e",
+    "normalizedCodeHash": "47c48965a29507f084c6a9de386c1d0455ab80edff06fc2ede3c50263065f77e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T19:14:46.692262+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

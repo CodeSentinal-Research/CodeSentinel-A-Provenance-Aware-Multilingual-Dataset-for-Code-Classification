@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001835",
+  "problemId": "P001835",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001835",
+    "title": "Find the Largest Dead-End-Free Subtree in a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a Binary Search Tree containing positive integers, determine the size of the largest subtree that contains no dead-end nodes.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST.",
+    "output": "• Print the size of the largest dead-end-free subtree.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001835.c",
+    "fileSHA": "14401637d45e977a315b9e1a435aa6da09d8293651a4020c906ec7ecc062700b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.804Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "b1452e6072ac236c536d9c9cb194c6555a08167b7e277d9fc8f436bc36a13b0b",
+    "normalizedCodeHash": "14401637d45e977a315b9e1a435aa6da09d8293651a4020c906ec7ecc062700b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.804Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

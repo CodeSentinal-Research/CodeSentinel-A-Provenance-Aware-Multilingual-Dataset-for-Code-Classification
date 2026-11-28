@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000553",
+  "problemId": "P000553",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000553",
+    "title": "Snakes and Ladders",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an n \u00d7 n Snakes and Ladders board. Starting from square 1, each move consists of rolling a six-sided die and moving accordingly. If the destination square contains the start of a ladder or the head of a snake, immediately move to its destination. Return the minimum number of moves required to reach the final square. Return -1 if it is impossible.",
+    "input": "Integer n An n \u00d7 n board.",
+    "output": "A single integer representing the minimum number of moves.",
+    "constraints": "2 <= n <= 20"
+  },
+  "repository": {
+    "name": "miacdelgado/Code-Examples",
+    "owner": "miacdelgado",
+    "url": "https://github.com/miacdelgado/Code-Examples",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "C/snakes_and_ladders.c",
+    "fileSHA": "bafa8f63807dab5daa1ff4678631f21c4a1e3685",
+    "url": "https://github.com/miacdelgado/Code-Examples/blob/ea7b7e28d55db511b086cd2c2c12552cc040f519/C/snakes_and_ladders.c",
+    "rawUrl": "https://raw.githubusercontent.com/miacdelgado/Code-Examples/main/C/snakes_and_ladders.c"
+  },
+  "matching": {
+    "relevanceScore": 71.67
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "47d0d293f4b264bfcec6cd68237f63833526b7d7e1ee607da329bde7e11c4eb3",
+    "normalizedCodeHash": "47d0d293f4b264bfcec6cd68237f63833526b7d7e1ee607da329bde7e11c4eb3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:26:42.900310+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

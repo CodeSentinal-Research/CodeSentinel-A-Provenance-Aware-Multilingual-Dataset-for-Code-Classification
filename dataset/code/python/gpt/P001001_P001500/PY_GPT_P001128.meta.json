@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001128",
+  "problemId": "P001128",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001128",
+    "title": "Accounts Merge",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given multiple user accounts where each account contains a user's name followed by email addresses, merge all accounts belonging to the same person. Two accounts belong to the same person if they share at least one common email address.",
+    "input": "• First line contains integer N. • Next N lines each contain an account with a name followed by email addresses.",
+    "output": "Print the merged accounts sorted lexicographically by email.",
+    "constraints": "• 1 ≤ N ≤ 10^4 • Total emails ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001128.py",
+    "fileSHA": "d802ce3b9f33faf0186764be67d4e774de0c4c5182b84272b8b535b0bd6fdb0c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.449221+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d802ce3b9f33faf0186764be67d4e774de0c4c5182b84272b8b535b0bd6fdb0c",
+    "normalizedCodeHash": "83b0df0dca8aeeeabe562ce90c41369aa03f1ef484c7879f7ec3110dbb47fc22",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.449221+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

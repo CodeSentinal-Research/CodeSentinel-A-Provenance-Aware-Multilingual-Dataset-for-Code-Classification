@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000676",
+  "problemId": "P000676",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000676",
+    "title": "Flatten Multi-Level Sorted Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a multi-level linked list where each node contains: next pointer child pointer Each child list is individually sorted. Flatten the entire structure into a single sorted linked list using only the child pointers. Return the head of the flattened list.",
+    "input": "A multi-level linked list.",
+    "output": "The head of the flattened sorted linked list.",
+    "constraints": "Total number of nodes is in the range [0, 10^5]"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000676",
+    "fileSHA": "dc4344e527559c12099adc3cdccf440fd6a6a202115cb7b8fe0d119b275e1f31",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.382Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "ab3905ab49b3cfc969e4f4fd12ff5caa029eb90edee234c7805430ca46c14ebe",
+    "normalizedCodeHash": "baceec9b99137d20aa99effa421d93bf1f082e4e89735b18686f756ee7eaecd7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.382Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000782",
+  "problemId": "P000782",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000782",
+    "title": "Count Elements in Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and multiple queries [L, R], return the number of elements lying within the specified index range. Preprocess the array using prefix sums.",
+    "input": "Integer n Array nums Integer q Queries (L, R)",
+    "output": "For each query, print the count of elements.",
+    "constraints": "1 <= n, q <= 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000782.js",
+    "fileSHA": "036cafef33a02ef1f9ad377e728433410fa15aba5dd3c4d56cc9d367e59b27f2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "036cafef33a02ef1f9ad377e728433410fa15aba5dd3c4d56cc9d367e59b27f2",
+    "normalizedCodeHash": "036cafef33a02ef1f9ad377e728433410fa15aba5dd3c4d56cc9d367e59b27f2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

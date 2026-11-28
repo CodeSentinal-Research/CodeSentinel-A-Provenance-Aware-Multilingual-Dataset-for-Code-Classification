@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000802",
+  "problemId": "P000802",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000802",
+    "title": "Maximum Side Length of a Square with Sum at Most Threshold",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N × M matrix of non-negative integers and an integer threshold, determine the maximum side length of a square whose sum of elements is at most threshold.",
+    "input": "Integer N Integer M Matrix grid Integer threshold",
+    "output": "The maximum possible side length.",
+    "constraints": "1 <= N, M <= 300 0 <= grid[i][j] <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000802.py",
+    "fileSHA": "467c7d48c5a383bb1cb3eb07fd40dee64ddc5b206394abdc9dc5cc2979fa8a52",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.105171+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "467c7d48c5a383bb1cb3eb07fd40dee64ddc5b206394abdc9dc5cc2979fa8a52",
+    "normalizedCodeHash": "33606102b878aaf52f55e90d53e9ce42710e0bf2856b6e21088622cdf4ab7296",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.105171+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

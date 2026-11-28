@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000510",
+  "problemId": "P000510",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000510",
+    "title": "Final Prices With a Special Discount in a Shop",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an array where prices[i] is the price of the i-th item. For each item, find the first item to its right whose price is less than or equal to the current item's price. Use that value as a discount. If no such item exists, no discount is applied. Return the final price of every item after applying the discount.",
+    "input": "Integer n Array prices",
+    "output": "An array representing the final prices.",
+    "constraints": "1 <= n <= 500 1 <= prices[i] <= 1000"
+  },
+  "repository": {
+    "name": "Swapnil67/dsa",
+    "owner": "Swapnil67",
+    "url": "https://github.com/Swapnil67/dsa",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Stack/01-easy/14-final-prices-with-discount.cpp",
+    "fileSHA": "a5d1faf20b7b321b3f2906bb3e741e4cd5e9cbe8",
+    "url": "https://github.com/Swapnil67/dsa/blob/de4bf1f3cf57e8cc2c1f537fc3d5f80bd0ecf39d/Stack/01-easy/14-final-prices-with-discount.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/Swapnil67/dsa/main/Stack/01-easy/14-final-prices-with-discount.cpp"
+  },
+  "matching": {
+    "relevanceScore": 85.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e2fa1d6825576262391f60c074781324d365537fde83179c5c82195cd9a9300f",
+    "normalizedCodeHash": "e2fa1d6825576262391f60c074781324d365537fde83179c5c82195cd9a9300f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:12:02.090591+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

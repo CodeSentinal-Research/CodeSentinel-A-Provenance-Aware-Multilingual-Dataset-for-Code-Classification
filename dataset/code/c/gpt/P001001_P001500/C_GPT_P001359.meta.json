@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001359",
+  "problemId": "P001359",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001359",
+    "title": "Construct Lexicographically Largest Valid Sequence",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer N, construct the lexicographically largest sequence satisfying: • Number 1 appears once. • Every integer 2...N appears twice. • The two occurrences of i are separated by exactly i positions.",
+    "input": "• First line contains integer N.",
+    "output": "Print the constructed sequence.",
+    "constraints": "• 1 ≤ N ≤ 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001359.c",
+    "fileSHA": "9b5bd21e71c6dd9e1ae003e8d8a584ecf988cd3e044d172b11b973558c896c88",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.052Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "1599ea5eec51858a9344b5df8ffa47373d6772fb7293e32e003229a32182f347",
+    "normalizedCodeHash": "9b5bd21e71c6dd9e1ae003e8d8a584ecf988cd3e044d172b11b973558c896c88",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.052Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

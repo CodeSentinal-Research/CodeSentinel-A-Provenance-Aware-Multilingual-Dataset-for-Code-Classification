@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001180",
+  "problemId": "P001180",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001180",
+    "title": "Vacation Planning",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "For N days, three vacation activities are available, each providing a happiness value. The same activity cannot be selected on consecutive days. Determine the maximum total happiness.",
+    "input": "• First line contains integer N. • Next N lines each contain three integers representing happiness values.",
+    "output": "Print the maximum achievable happiness.",
+    "constraints": "• 1 ≤ N ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001180.py",
+    "fileSHA": "b744bd46db17071676d4fd2380b9d8500c7844dfbb46593f30beb7a1630e5e59",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.677230+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b744bd46db17071676d4fd2380b9d8500c7844dfbb46593f30beb7a1630e5e59",
+    "normalizedCodeHash": "0ce6cc027b32f1bf43007dc25418b2ddd70ed6300dcbf3578f1c6de3d8369251",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.677230+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

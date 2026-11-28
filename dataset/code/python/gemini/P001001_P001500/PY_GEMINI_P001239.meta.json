@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001239",
+  "problemId": "P001239",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001239",
+    "title": "Insert Interval",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given a sorted list of non-overlapping intervals and a new interval, insert the new interval into the list and merge overlaps if necessary.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain existing intervals. \u2022 Final line contains the new interval.",
+    "output": "Print the updated list of merged intervals.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001239",
+    "fileSHA": "9763a288b39ba06f416ea2c7d5ad55e94d6be777692124cfa385f668256ffded",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:17:16.823111+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9763a288b39ba06f416ea2c7d5ad55e94d6be777692124cfa385f668256ffded",
+    "normalizedCodeHash": "9763a288b39ba06f416ea2c7d5ad55e94d6be777692124cfa385f668256ffded",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:17:16.823160+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

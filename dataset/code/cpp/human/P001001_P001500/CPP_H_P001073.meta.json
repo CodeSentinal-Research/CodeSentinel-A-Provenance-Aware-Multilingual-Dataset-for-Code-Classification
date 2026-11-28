@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001073",
+  "problemId": "P001073",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001073",
+    "title": "Minimum Spanning Tree Weight",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a connected weighted undirected graph, determine the total weight of its Minimum Spanning Tree.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain three integers u, v, and w.",
+    "output": "Print the total weight of the Minimum Spanning Tree.",
+    "constraints": "\u2022 2 \u2264 N \u2264 10^5 \u2022 N\u22121 \u2264 M \u2264 2\u00d710^5 \u2022 -10^6 \u2264 w \u2264 10^6"
+  },
+  "repository": {
+    "name": "TheAlgorithms/C-Plus-Plus",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/C-Plus-Plus",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "greedy_algorithms/boruvkas_minimum_spanning_tree.cpp",
+    "fileSHA": "ff8bcb124d8b6a302046cd1fdf1e19092f172ba8",
+    "url": "https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/greedy_algorithms/boruvkas_minimum_spanning_tree.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/C-Plus-Plus/master/greedy_algorithms/boruvkas_minimum_spanning_tree.cpp"
+  },
+  "matching": {
+    "relevanceScore": 78.19
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6dfce70f0884cc71dcd9c63c299432eef06f8aa70e7e00c764c313ed0828e2eb",
+    "normalizedCodeHash": "6dfce70f0884cc71dcd9c63c299432eef06f8aa70e7e00c764c313ed0828e2eb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:14:12.127680+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

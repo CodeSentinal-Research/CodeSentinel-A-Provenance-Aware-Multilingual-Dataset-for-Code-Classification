@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001560",
+  "problemId": "P001560",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001560",
+    "title": "Minimum Window Substring",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given two strings S and T, find the smallest substring of S that contains every character of T (including duplicates). If no such substring exists, print an empty string.",
+    "input": "\u2022 First line contains string S. \u2022 Second line contains string T.",
+    "output": "\u2022 Print the minimum window substring. If no valid substring exists, print an empty line.",
+    "constraints": "\u2022 1 \u2264 |T| \u2264 |S| \u2264 2 \u00d7 10^5 \u2022 Strings contain ASCII characters"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001560",
+    "fileSHA": "2bf8de4c451d2d69d729bfb07e35add6bac16c6046bc2a8d9395d351005cc4b4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:30:36.844945+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2bf8de4c451d2d69d729bfb07e35add6bac16c6046bc2a8d9395d351005cc4b4",
+    "normalizedCodeHash": "2bf8de4c451d2d69d729bfb07e35add6bac16c6046bc2a8d9395d351005cc4b4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:30:36.844976+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

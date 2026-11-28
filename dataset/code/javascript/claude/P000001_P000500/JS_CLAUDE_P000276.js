@@ -1,0 +1,1 @@
+let n=+require("fs").readFileSync("/dev/stdin","utf8").trim();let s="1";for(let i=1;i<n;i++){let t="",j=0;while(j<s.length){let cnt=1;while(j+cnt<s.length&&s[j+cnt]===s[j])cnt++;t+=cnt+s[j];j+=cnt;}s=t;}console.log(s);

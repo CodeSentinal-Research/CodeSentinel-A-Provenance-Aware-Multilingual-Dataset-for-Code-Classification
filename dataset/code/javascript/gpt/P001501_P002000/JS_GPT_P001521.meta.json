@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001521",
+  "problemId": "P001521",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001521",
+    "title": "Max Chunks to Make Sorted II",
+    "category": "Two Pointers",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array that may contain duplicate values, determine the maximum number of chunks into which the array can be divided so that sorting each chunk individually results in the entire array being sorted.",
+    "input": "• First line contains integer N. • Second line contains N integers.",
+    "output": "Print the maximum number of chunks.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001501_P002000/JS_GPT_P001521.js",
+    "fileSHA": "e2cb547a20a8c514786122a7ebc20f592cd5b83a9870176df2252bef019ed6b3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e2cb547a20a8c514786122a7ebc20f592cd5b83a9870176df2252bef019ed6b3",
+    "normalizedCodeHash": "e2cb547a20a8c514786122a7ebc20f592cd5b83a9870176df2252bef019ed6b3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

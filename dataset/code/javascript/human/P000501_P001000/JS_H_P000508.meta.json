@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P000508",
+  "problemId": "P000508",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000508",
+    "title": "Number of Visible People in a Queue",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "There are n people standing in a queue, each having a distinct height. For every person, determine how many people to their right are visible. A person j is visible to person i if: j > i Every person between i and j has a height smaller than both person i and person j. Return an array where the i-th element is the number of people visible to the right of person i.",
+    "input": "Integer n Array heights",
+    "output": "An array of n integers.",
+    "constraints": "1 <= n <= 10^5 1 <= heights[i] <= 10^5 All heights are distinct."
+  },
+  "repository": {
+    "name": "CS3219-AY2223S1/cs3219-project-ay2223s1-g24",
+    "owner": "CS3219-AY2223S1",
+    "url": "https://github.com/CS3219-AY2223S1/cs3219-project-ay2223s1-g24",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P000501_P001000/JS_H_P000508.js",
+    "fileSHA": "64030d8dc810e4152e4001de394ddef9e9057c51",
+    "url": "https://github.com/CS3219-AY2223S1/cs3219-project-ay2223s1-g24/blob/86409cf8f05f25a45e97745e4ffb1751ca1f6afc/frontend/src/questions/hard/q331.js",
+    "rawUrl": "https://raw.githubusercontent.com/CS3219-AY2223S1/cs3219-project-ay2223s1-g24/main/frontend/src/questions/hard/q331.js"
+  },
+  "matching": {
+    "relevanceScore": 71.56
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2022-09-26T10:34:10Z",
+    "lastCommitDate": "2022-09-26T10:34:10Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "David"
+    ],
+    "firstKnownAuthor": "David",
+    "latestKnownAuthor": "David"
+  },
+  "deduplication": {
+    "rawCodeHash": "ce23181b56b5d37190a2458ea48851399743a9efb4c7f2696f80d32c9140aec0",
+    "normalizedCodeHash": "ce23181b56b5d37190a2458ea48851399743a9efb4c7f2696f80d32c9140aec0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:03:42.967316+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

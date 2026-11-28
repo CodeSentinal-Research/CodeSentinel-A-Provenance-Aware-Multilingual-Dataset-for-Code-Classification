@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000433",
+  "problemId": "P000433",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000433",
+    "title": "Binary Search First Occurrence",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that finds the first occurrence of a target in a sorted array using binary search.",
+    "input": "First line contains N and target. Second line contains N sorted integers.",
+    "output": "First index of the target or -1 if not found.",
+    "constraints": "1 ≤ N ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000433.c",
+    "fileSHA": "179f432d7cd7e87a888301af015a355f9ad087d02917d67d2f5b1d13f0ac18d7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "179f432d7cd7e87a888301af015a355f9ad087d02917d67d2f5b1d13f0ac18d7",
+    "normalizedCodeHash": "179f432d7cd7e87a888301af015a355f9ad087d02917d67d2f5b1d13f0ac18d7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

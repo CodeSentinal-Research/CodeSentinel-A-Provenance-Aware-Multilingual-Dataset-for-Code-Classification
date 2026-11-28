@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000377",
+  "problemId": "P000377",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000377",
+    "title": "Search Vehicle by Registration Number",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Locate a vehicle using its registration number.",
+    "input": "Vehicle records and a registration number.",
+    "output": "Vehicle details or \"Vehicle Not Found\".",
+    "constraints": "1 ≤ Number of Vehicles ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000377.c",
+    "fileSHA": "798e1c560b0abfee0a071e822f1be327c5e778367681ab5631661eb78b06f1a9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "798e1c560b0abfee0a071e822f1be327c5e778367681ab5631661eb78b06f1a9",
+    "normalizedCodeHash": "798e1c560b0abfee0a071e822f1be327c5e778367681ab5631661eb78b06f1a9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

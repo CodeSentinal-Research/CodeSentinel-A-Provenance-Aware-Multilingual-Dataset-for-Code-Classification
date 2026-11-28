@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001229",
+  "problemId": "P001229",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001229",
+    "title": "Knight Probability in Chessboard",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "A knight starts at a specified position on an N × N chessboard. After making exactly K moves, determine the probability that the knight remains on the board.",
+    "input": "• First line contains integers N, K, R, and C.",
+    "output": "Print the probability with appropriate precision.",
+    "constraints": "• 1 ≤ N ≤ 50 • 0 ≤ K ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001229.c",
+    "fileSHA": "79fab725f02ae99aa177d2d134ef8817bc4caab5823a89f3d233568352ad53ee",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.349Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "976c79bf6be3146d66b300e614d5dbe75ef0bfaab79ba6713806e467d0ecf318",
+    "normalizedCodeHash": "79fab725f02ae99aa177d2d134ef8817bc4caab5823a89f3d233568352ad53ee",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.349Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000544",
+  "problemId": "P000544",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000544",
+    "title": "Open the Lock",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You have a lock with four circular wheels, each displaying a digit from 0 to 9. Initially, the lock displays \"0000\". In one move, you may rotate any one wheel one position forward or backward. Some combinations are deadends. If the lock reaches a deadend, it can no longer be used. Given the list of deadends and a target combination, determine the minimum number of moves required to reach the target. Return -1 if it is impossible.",
+    "input": "Integer d Array of deadend strings Target string",
+    "output": "A single integer.",
+    "constraints": "1 <= d <= 500 Every combination has exactly four digits."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000544.js",
+    "fileSHA": "d071bf59b859e868e2b7cb37f831b203a91b92fe3988ed85543743309308b156",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d071bf59b859e868e2b7cb37f831b203a91b92fe3988ed85543743309308b156",
+    "normalizedCodeHash": "d071bf59b859e868e2b7cb37f831b203a91b92fe3988ed85543743309308b156",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

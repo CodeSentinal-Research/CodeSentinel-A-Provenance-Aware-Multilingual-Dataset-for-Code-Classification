@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000530",
+  "problemId": "P000530",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000530",
+    "title": "Circular Queue Design",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Design a circular queue of fixed capacity. Support the following operations: enQueue(x) deQueue() Front() Rear() isEmpty() isFull() Process a sequence of operations and print the result for query operations.",
+    "input": "Integer capacity Integer q Next q operations.",
+    "output": "Print the result for every query operation.",
+    "constraints": "1 <= capacity <= 1000 1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Python",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "data_structures/queues/circular_queue.py",
+    "fileSHA": "e9cb2cac4fd88852b01150faaad15f7cc68301cb",
+    "url": "https://github.com/TheAlgorithms/Python/blob/master/data_structures/queues/circular_queue.py",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Python/master/data_structures/queues/circular_queue.py"
+  },
+  "matching": {
+    "relevanceScore": 65.83
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "df0181f8ea980ba6fc9b80dc4eeab1a7e1ac9611fae7c8d680d9256867193713",
+    "normalizedCodeHash": "df0181f8ea980ba6fc9b80dc4eeab1a7e1ac9611fae7c8d680d9256867193713",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:10:19.200320+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

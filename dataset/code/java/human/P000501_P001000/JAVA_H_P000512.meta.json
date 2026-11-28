@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000512",
+  "problemId": "P000512",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000512",
+    "title": "Validate Stack Sequences",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given two integer arrays pushed and popped, determine whether they could represent the push and pop order of a stack. Initially, the stack is empty. Return true if the sequences are valid; otherwise return false.",
+    "input": "Integer n Array pushed Array popped",
+    "output": "true if the sequences are valid, otherwise false.",
+    "constraints": "1 <= n <= 10^5 pushed.length == popped.length All elements are distinct."
+  },
+  "repository": {
+    "name": "gaohannk/Leetcode",
+    "owner": "gaohannk",
+    "url": "https://github.com/gaohannk/Leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/leetcode/algo/v/ValidateStackSequences.java",
+    "fileSHA": "0b55ef3dfe45fc3f235860ffc429199c442bca48",
+    "url": "https://github.com/gaohannk/Leetcode/blob/e0e111835b0fae2e27d80ac9e012f5052c6bd1a2/src/leetcode/algo/v/ValidateStackSequences.java",
+    "rawUrl": "https://raw.githubusercontent.com/gaohannk/Leetcode/main/src/leetcode/algo/v/ValidateStackSequences.java"
+  },
+  "matching": {
+    "relevanceScore": 90.62
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ca8e20c983e7a43e59fd6c1f5c034b4ccf56ea4db5219aec2ae7e1303a952b9d",
+    "normalizedCodeHash": "ca8e20c983e7a43e59fd6c1f5c034b4ccf56ea4db5219aec2ae7e1303a952b9d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:23:31.297690+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

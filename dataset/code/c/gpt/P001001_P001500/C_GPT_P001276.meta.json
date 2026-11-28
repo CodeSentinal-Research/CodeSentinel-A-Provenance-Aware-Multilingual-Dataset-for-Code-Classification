@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001276",
+  "problemId": "P001276",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001276",
+    "title": "Maximize Distance to Closest Person",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Given a row of seats represented by 0 (empty) and 1 (occupied), determine the maximum possible distance to the closest occupied seat by choosing an optimal empty seat.",
+    "input": "• First line contains integer N. • Second line contains N integers (0 or 1).",
+    "output": "Print the maximum possible distance.",
+    "constraints": "• 2 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001276.c",
+    "fileSHA": "8bae942fdad27db44f280f288d67b3f5cdc534ef261e3c3c2880c3cb862f19d3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.565Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c2fb53f30769e7664e0749166a649487d3208804330d845ab766040cdce2279e",
+    "normalizedCodeHash": "8bae942fdad27db44f280f288d67b3f5cdc534ef261e3c3c2880c3cb862f19d3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.565Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

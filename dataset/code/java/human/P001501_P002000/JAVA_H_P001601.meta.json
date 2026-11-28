@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001601",
+  "problemId": "P001601",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001601",
+    "title": "Count Zeros in a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and multiple range queries, determine the number of elements equal to 0 in each specified range.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Next Q lines each contain L and R.",
+    "output": "\u2022 For each query, print the number of zeros in the specified range.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9 \u2022 0 \u2264 L \u2264 R < N"
+  },
+  "repository": {
+    "name": "Mission-peace/interview",
+    "owner": "Mission-peace",
+    "url": "https://github.com/Mission-peace/interview",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/com/interview/misc/CountRanges.java",
+    "fileSHA": "93629a4bdbae4fe8d87f2900dc14b28ece8a1cca",
+    "url": "https://github.com/Mission-peace/interview/blob/master/src/com/interview/misc/CountRanges.java",
+    "rawUrl": "https://raw.githubusercontent.com/Mission-peace/interview/master/src/com/interview/misc/CountRanges.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "fe51079038fce6d5f1459a5b57d9684b9060013b9e0daa5fa0971183c3c1e95c",
+    "normalizedCodeHash": "fe51079038fce6d5f1459a5b57d9684b9060013b9e0daa5fa0971183c3c1e95c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:29.456729+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000534",
+  "problemId": "P000534",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000534",
+    "title": "Dota2 Senate",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "In the Dota2 senate, senators belong to one of two parties: 'R' (Radiant) 'D' (Dire) The voting proceeds in rounds. During each round, senators act in their current order. A senator who still has voting rights may ban one senator from the opposing party. A banned senator loses all future rights. Assuming every senator acts optimally for their party, determine which party will eventually win.",
+    "input": "A string representing the initial senate order.",
+    "output": "Print \"Radiant\" or \"Dire\".",
+    "constraints": "1 <= senate.length <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000534.c",
+    "fileSHA": "8e981da9b8963a2e3b8d8723c36b6609cfc647f5be405b70d98d70ab8a1a3ad3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8e981da9b8963a2e3b8d8723c36b6609cfc647f5be405b70d98d70ab8a1a3ad3",
+    "normalizedCodeHash": "8e981da9b8963a2e3b8d8723c36b6609cfc647f5be405b70d98d70ab8a1a3ad3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001110",
+  "problemId": "P001110",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001110",
+    "title": "M-Coloring Problem",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph and an integer M, determine whether the graph can be colored using at most M colors so that adjacent vertices have different colors.",
+    "input": "\u2022 First line contains integers N, E, and M. \u2022 Next E lines contain graph edges.",
+    "output": "Print YES if such a coloring exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 20 \u2022 0 \u2264 E \u2264 N(N\u22121)/2"
+  },
+  "repository": {
+    "name": "divyaphule/labexam",
+    "owner": "divyaphule",
+    "url": "https://github.com/divyaphule/labexam",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "graphColoring.cpp",
+    "fileSHA": "61df0e1ac9bd318ec6e7c79ed17be36482166de0",
+    "url": "https://github.com/divyaphule/labexam/blob/21e8d89df35ac4550312a4c5399f0aab300de486/graphColoring.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/divyaphule/labexam/main/graphColoring.cpp"
+  },
+  "matching": {
+    "relevanceScore": 70.68
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4ab8df09b2d66bad8eea9bcbff60047dd56cf922d1e681d3038b67f5c6d76262",
+    "normalizedCodeHash": "4ab8df09b2d66bad8eea9bcbff60047dd56cf922d1e681d3038b67f5c6d76262",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:33:29.237492+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

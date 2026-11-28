@@ -1,0 +1,10 @@
+{
+  "problemId": "P000492",
+  "title": "Simplify Unix Path",
+  "category": "Stack",
+  "difficulty": "Medium",
+  "problemStatement": "Given an absolute Unix-style file path, simplify it according to the following rules: \".\" refers to the current directory. \"..\" moves to the parent directory. Multiple consecutive slashes are treated as a single slash. The simplified path must start with a single slash and contain no trailing slash unless it is the root directory. Return the canonical path.",
+  "input": "A string representing the absolute path.",
+  "output": "The simplified path.",
+  "constraints": "1 <= path.length <= 3000"
+}

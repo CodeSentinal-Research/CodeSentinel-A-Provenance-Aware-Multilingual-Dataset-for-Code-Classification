@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001658",
+  "problemId": "P001658",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001658",
+    "title": "Find All Nodes at Distance K from a Target Node",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, a target node, and an integer K, determine all nodes whose shortest distance from the target node is exactly K edges.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains the target node value and the integer K.",
+    "output": "\u2022 Print the values of all qualifying nodes in the required order.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 0 \u2264 K \u2264 N________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001658",
+    "fileSHA": "950d6b5d8733078034dd517a549de7fe8d719ca3dbfc115f38dbef8ac640623d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:34:06.024505+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "950d6b5d8733078034dd517a549de7fe8d719ca3dbfc115f38dbef8ac640623d",
+    "normalizedCodeHash": "950d6b5d8733078034dd517a549de7fe8d719ca3dbfc115f38dbef8ac640623d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:34:06.024536+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

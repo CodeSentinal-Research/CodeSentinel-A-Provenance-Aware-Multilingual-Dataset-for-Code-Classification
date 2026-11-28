@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001169",
+  "problemId": "P001169",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001169",
+    "title": "Dungeon Game",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "A knight must rescue a princess trapped in the bottom-right corner of a dungeon represented by a grid. Each cell may increase or decrease the knight's health. Determine the minimum initial health required so that the knight can safely reach the princess.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines each contain C integers.",
+    "output": "Print the minimum initial health required.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 500"
+  },
+  "repository": {
+    "name": "mangyuan-coding/algorithm",
+    "owner": "mangyuan-coding",
+    "url": "https://github.com/mangyuan-coding/algorithm",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "174.dungeon-game.c",
+    "fileSHA": "9a35abf47badc023498db1fb71ab5efcdf975451",
+    "url": "https://github.com/mangyuan-coding/algorithm/blob/dce0828ad84c152cdb703ae3c41477476a0e5495/174.dungeon-game.c",
+    "rawUrl": "https://raw.githubusercontent.com/mangyuan-coding/algorithm/main/174.dungeon-game.c"
+  },
+  "matching": {
+    "relevanceScore": 90.7
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "aba780305e0a8776e21dcda37de41cbe819ab53429d67ac29138ffec5e98e4ef",
+    "normalizedCodeHash": "aba780305e0a8776e21dcda37de41cbe819ab53429d67ac29138ffec5e98e4ef",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T19:24:47.891194+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

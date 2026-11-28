@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000747",
+  "problemId": "P000747",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000747",
+    "title": "Count Ways to Climb Stairs",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "A person can climb either 1 or 2 steps at a time. Given an integer N, determine the total number of distinct ways to reach the N-th step using recursion.",
+    "input": "Integer N",
+    "output": "The number of distinct ways.",
+    "constraints": "0 <= N <= 40"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000747",
+    "fileSHA": "aae084d0a687743b596cdc92c781bddf6450ea9b706b530d6b056d3e3b98b43e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "aae084d0a687743b596cdc92c781bddf6450ea9b706b530d6b056d3e3b98b43e",
+    "normalizedCodeHash": "aae084d0a687743b596cdc92c781bddf6450ea9b706b530d6b056d3e3b98b43e",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000747"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

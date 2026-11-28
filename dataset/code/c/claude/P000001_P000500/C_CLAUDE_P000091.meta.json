@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P000091",
+  "problemId": "P000091",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000091",
+    "title": "Calculate nPr",
+    "category": "Basic",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that calculates the permutation nPr.",
+    "input": "Two non-negative integers n and r.",
+    "output": "The value of nPr.",
+    "constraints": "0 \u2264 r \u2264 n \u2264 12"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000091",
+    "fileSHA": "cee5cc11ae25e7b55d336867fafd2fb996ab1b7760a8749a26ba888cc4efa976",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-3.7-sonnet",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:56:05.019584+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1d5b7447b66f60236e65004e850282657fbe0ecc490fd037219f96a834280049",
+    "normalizedCodeHash": "cee5cc11ae25e7b55d336867fafd2fb996ab1b7760a8749a26ba888cc4efa976",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:56:05.019604+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

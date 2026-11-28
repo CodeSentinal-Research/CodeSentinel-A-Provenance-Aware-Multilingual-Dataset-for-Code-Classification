@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001865",
+  "problemId": "P001865",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001865",
+    "title": "Construct a Binary Search Tree from Search Access Frequencies",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a set of distinct keys and their search access frequencies, construct a Binary Search Tree that minimizes the weighted search cost.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the keys. \u2022 The third line contains the corresponding search frequencies.",
+    "output": "\u2022 Print the constructed Binary Search Tree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000 Topic Start Problem ID End Problem ID Total Sliding Window P001656 P001705 50 Prefix Sum P001706 P001805 100 Trees P001806 P001955 150 Binary Search Trees (BST) P001956 P002035 80 Total P001656 P002035 380"
+  },
+  "repository": {
+    "name": "freebsd/freebsd-src",
+    "owner": "freebsd",
+    "url": "https://github.com/freebsd/freebsd-src",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "contrib/llvm-project/libcxx/include/__concepts/constructible.h",
+    "fileSHA": "835a44429c092f9bdaaa2aa250e76ce0053f134d",
+    "url": "https://github.com/freebsd/freebsd-src/blob/main/contrib/llvm-project/libcxx/include/__concepts/constructible.h",
+    "rawUrl": "https://raw.githubusercontent.com/freebsd/freebsd-src/main/contrib/llvm-project/libcxx/include/__concepts/constructible.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "da76046e2bff2d6a1175219feb66af7fe412e7f1fe5b5111db954e9b3b4d8761",
+    "normalizedCodeHash": "da76046e2bff2d6a1175219feb66af7fe412e7f1fe5b5111db954e9b3b4d8761",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:43:57.170461+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

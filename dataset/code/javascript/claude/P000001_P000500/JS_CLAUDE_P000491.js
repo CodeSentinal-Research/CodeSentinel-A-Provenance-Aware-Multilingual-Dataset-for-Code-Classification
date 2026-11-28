@@ -1,0 +1,1 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const m=+l[0];const target=l[1].split(' ').map(Number);const n=+l[2];let cur=1;const ops=[];for(const t of target){while(cur<t){ops.push('Push','Pop');cur++;}ops.push('Push');cur++;}console.log(ops.join('\n'));

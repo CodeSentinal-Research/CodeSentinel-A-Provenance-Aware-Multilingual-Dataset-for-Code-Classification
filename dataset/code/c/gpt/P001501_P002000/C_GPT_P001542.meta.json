@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001542",
+  "problemId": "P001542",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001542",
+    "title": "Average of Every Window",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and a window size K, compute the average of every contiguous subarray of size K.",
+    "input": "• First line contains two integers N and K. • Second line contains N integers.",
+    "output": "• Print the average of each window in order, separated by spaces.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 1 ≤ K ≤ N • -10^5 ≤ Ai ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001542.c",
+    "fileSHA": "712115227a9da8603c371be3c5bb7bd95ba645bfbaebbc184f4bda5f02308af9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.715Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c58381ee8976ad59220703e3a4eb62fc3b9fc710f4c18bcb4e6433b25cb2ca5a",
+    "normalizedCodeHash": "712115227a9da8603c371be3c5bb7bd95ba645bfbaebbc184f4bda5f02308af9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.716Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

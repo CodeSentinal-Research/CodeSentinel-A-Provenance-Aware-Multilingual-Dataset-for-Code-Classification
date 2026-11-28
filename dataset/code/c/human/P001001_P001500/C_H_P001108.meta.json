@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001108",
+  "problemId": "P001108",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001108",
+    "title": "Reachability Queries",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a directed graph and Q queries, determine whether there exists a path from vertex u to vertex v for each query.",
+    "input": "\u2022 First line contains integers N, M, and Q. \u2022 Next M lines contain directed edges. \u2022 Next Q lines contain two integers u and v.",
+    "output": "For each query, print YES if a path exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "freebsd/freebsd-src",
+    "owner": "freebsd",
+    "url": "https://github.com/freebsd/freebsd-src",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "contrib/llvm-project/clang/include/clang/Analysis/Analyses/CFGReachabilityAnalysis.h",
+    "fileSHA": "16c0a7af0504e9cf663d979b468fbe6749165bef",
+    "url": "https://github.com/freebsd/freebsd-src/blob/main/contrib/llvm-project/clang/include/clang/Analysis/Analyses/CFGReachabilityAnalysis.h",
+    "rawUrl": "https://raw.githubusercontent.com/freebsd/freebsd-src/main/contrib/llvm-project/clang/include/clang/Analysis/Analyses/CFGReachabilityAnalysis.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f06837166d439a783352947fade3a74fda86f3ffd9571c16e8bee89faf0f3a30",
+    "normalizedCodeHash": "f06837166d439a783352947fade3a74fda86f3ffd9571c16e8bee89faf0f3a30",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:43:40.341426+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

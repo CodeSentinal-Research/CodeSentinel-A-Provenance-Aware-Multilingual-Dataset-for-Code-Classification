@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000401",
+  "problemId": "P000401",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000401",
+    "title": "Search Products with Low Stock",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find all products whose available quantity is less than the specified threshold.",
+    "input": "Product records and a stock threshold.",
+    "output": "Matching products.",
+    "constraints": "1 ≤ Number of Products ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000401.py",
+    "fileSHA": "5df1e7d2559fbe5074906ee2dd59231f7aec648525e31f34178ae907adca1cc3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:02.314997+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5df1e7d2559fbe5074906ee2dd59231f7aec648525e31f34178ae907adca1cc3",
+    "normalizedCodeHash": "cfd0da199ad031348c8aecef5df48e4541304d2e0129339a1b53ba579c783dbb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:02.314997+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

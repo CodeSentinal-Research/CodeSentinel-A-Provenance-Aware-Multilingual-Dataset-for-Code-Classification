@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001708",
+  "problemId": "P001708",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001708",
+    "title": "Count Pseudo-Palindromic Root-to-Leaf Paths",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree whose node values represent digits, determine the number of root-to-leaf paths whose node values can be rearranged to form a palindrome.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the number of pseudo-palindromic paths.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "CudraniaTrec/Proof2Prog",
+    "owner": "CudraniaTrec",
+    "url": "https://github.com/CudraniaTrec/Proof2Prog",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "translation/solutions/pseudo-palindromic-paths-in-a-binary-tree_3.java",
+    "fileSHA": "0d5fe3eb4dc4c87aac9c069e9c353d568edf6270",
+    "url": "https://github.com/CudraniaTrec/Proof2Prog/blob/e6754a0c7253744ebcd4a7b2fc8d51e878c6a1b7/translation/solutions/pseudo-palindromic-paths-in-a-binary-tree_3.java",
+    "rawUrl": "https://raw.githubusercontent.com/CudraniaTrec/Proof2Prog/main/translation/solutions/pseudo-palindromic-paths-in-a-binary-tree_3.java"
+  },
+  "matching": {
+    "relevanceScore": 84.4
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "03f82233c583478b3256c330a31c549c653a33d7e0b95e66ac2618125c5aa448",
+    "normalizedCodeHash": "03f82233c583478b3256c330a31c549c653a33d7e0b95e66ac2618125c5aa448",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T17:22:03.999720+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000834",
+  "problemId": "P000834",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000834",
+    "title": "Painter's Partition Problem",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array representing board lengths and an integer painters, assign contiguous boards to painters. Each painter paints one unit length per unit time. Return the minimum time required to paint all boards.",
+    "input": "Integer n Array boards Integer painters",
+    "output": "The minimum painting time.",
+    "constraints": "1 <= n <= 10^5 1 <= boards[i] <= 10^9"
+  },
+  "repository": {
+    "name": "jashin-dev/data-structures-and-algorithms",
+    "owner": "jashin-dev",
+    "url": "https://github.com/jashin-dev/data-structures-and-algorithms",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "PainterPartitionProblem.java",
+    "fileSHA": "f7bd1a1f74b5d6d2ff991389eeba603ba5e7453d",
+    "url": "https://github.com/jashin-dev/data-structures-and-algorithms/blob/abc2cb2ad4f46a6670ddd194660159f1806f302a/PainterPartitionProblem.java",
+    "rawUrl": "https://raw.githubusercontent.com/jashin-dev/data-structures-and-algorithms/main/PainterPartitionProblem.java"
+  },
+  "matching": {
+    "relevanceScore": 83.33
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4256df2306a14c96ebe6ee1804e4fd9561b697fd2eb52ce8bebabd991f0fc90a",
+    "normalizedCodeHash": "4256df2306a14c96ebe6ee1804e4fd9561b697fd2eb52ce8bebabd991f0fc90a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:32:15.999866+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000810",
+  "problemId": "P000810",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000810",
+    "title": "Search Insert Position",
+    "category": "Binary Search",
+    "difficulty": "Easy",
+    "problemStatement": "Given a sorted array of distinct integers and a target value, return the index where the target exists. If it does not exist, return the index where it should be inserted to maintain sorted order.",
+    "input": "Integer n Sorted array nums Integer target",
+    "output": "The insertion position.",
+    "constraints": "1 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000810",
+    "fileSHA": "91d12bbedf31151f3d17645f44651e9c0fc52e2c15c80a5f6824b07a8198e326",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "91d12bbedf31151f3d17645f44651e9c0fc52e2c15c80a5f6824b07a8198e326",
+    "normalizedCodeHash": "91d12bbedf31151f3d17645f44651e9c0fc52e2c15c80a5f6824b07a8198e326",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000810"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

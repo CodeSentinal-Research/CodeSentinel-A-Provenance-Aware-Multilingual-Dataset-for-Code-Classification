@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001443",
+  "problemId": "P001443",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001443",
+    "title": "Count Words Obtained After Adding a Letter",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given two lists of lowercase words, determine how many words in the second list can be obtained by adding exactly one letter to any word in the first list and rearranging the characters.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next N lines contain the first list. \u2022 Next M lines contain the second list.",
+    "output": "Print the count of obtainable words.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 5\u00d710^4 \u2022 Word length \u2264 26"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001443",
+    "fileSHA": "6b7e35633320c04b6fe0bd1f930a55754946765170503946d541092297e10160",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:26:13.789377+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6b7e35633320c04b6fe0bd1f930a55754946765170503946d541092297e10160",
+    "normalizedCodeHash": "6b7e35633320c04b6fe0bd1f930a55754946765170503946d541092297e10160",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:26:13.789422+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

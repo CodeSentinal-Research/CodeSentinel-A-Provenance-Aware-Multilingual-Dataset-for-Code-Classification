@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001683",
+  "problemId": "P001683",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001683",
+    "title": "Find the Deepest Left Leaf",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree, determine the deepest leaf that is a left child of its parent. If multiple such leaves exist at the same depth, return the leftmost one.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the value of the deepest left leaf. If no left leaf exists, print NONE.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "csci241-22s/lab3_skel",
+    "owner": "csci241-22s",
+    "url": "https://github.com/csci241-22s/lab3_skel",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "app/src/main/java/lab3/BST.java",
+    "fileSHA": "57431b9a1da3b6d7aa6c61d34a9c7c6c89a2a689",
+    "url": "https://github.com/csci241-22s/lab3_skel/blob/191262401ec1cd46cbad19eec61a631367a40b18/app/src/main/java/lab3/BST.java",
+    "rawUrl": "https://raw.githubusercontent.com/csci241-22s/lab3_skel/main/app/src/main/java/lab3/BST.java"
+  },
+  "matching": {
+    "relevanceScore": 84.1
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5df8c1fe5c6514c3ed43b6b46dcc4cc225b0cc945cd521e90c6d66256d0ee74d",
+    "normalizedCodeHash": "5df8c1fe5c6514c3ed43b6b46dcc4cc225b0cc945cd521e90c6d66256d0ee74d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T13:15:08.500962+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

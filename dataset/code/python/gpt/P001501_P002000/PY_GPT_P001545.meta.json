@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_GPT_P001545",
+  "problemId": "P001545",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001545",
+    "title": "Minimum Difference Between Maximum and Minimum in Every Window",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and an integer K, determine the minimum value of (maximum element − minimum element) among all contiguous subarrays of size exactly K.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the minimum difference.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • 1 ≤ K ≤ N • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001501_P002000/PY_GPT_P001545.py",
+    "fileSHA": "07eb23cbe14d693a3e87a7c12ef871b3e78db6af4a1be61246a034622c27b6fd",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-26T13:09:02.674522+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "07eb23cbe14d693a3e87a7c12ef871b3e78db6af4a1be61246a034622c27b6fd",
+    "normalizedCodeHash": "a365c86c018842f16b2409cd33f073a965a87f57a0c8c9df962e23da4ff1653d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-26T13:09:02.674522+00:00",
+    "pipelineVersion": "1.0.0"
+  },
+  "sha256": "475c772443e55351109800bfc349fd0b2ac6f1893c29057aeaab1f250cd6e1fb"
+}

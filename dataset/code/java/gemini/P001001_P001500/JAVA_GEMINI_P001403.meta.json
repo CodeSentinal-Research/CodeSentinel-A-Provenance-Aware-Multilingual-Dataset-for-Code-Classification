@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001403",
+  "problemId": "P001403",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001403",
+    "title": "Check Arithmetic Subarrays",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array and multiple queries, determine whether each queried subarray can be rearranged to form an arithmetic sequence.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Second line contains N integers. \u2022 Next Q lines contain two integers L and R.",
+    "output": "For each query print YES or NO.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001403",
+    "fileSHA": "a59f4aeeec84f3dd3d483728709bc9f2dea48b12a51d031099188e77dcd6888c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:24:59.044185+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a59f4aeeec84f3dd3d483728709bc9f2dea48b12a51d031099188e77dcd6888c",
+    "normalizedCodeHash": "a59f4aeeec84f3dd3d483728709bc9f2dea48b12a51d031099188e77dcd6888c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:24:59.044208+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

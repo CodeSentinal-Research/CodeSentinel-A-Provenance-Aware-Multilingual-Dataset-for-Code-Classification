@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000499",
+  "problemId": "P000499",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000499",
+    "title": "Make The String Great",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "A string is considered good if it does not contain two adjacent characters that are the same letter but in different cases (for example, 'aA' or 'Bb'). Given a string s, repeatedly remove such adjacent pairs until no more can be removed. Return the final good string.",
+    "input": "A single string s.",
+    "output": "The resulting good string.",
+    "constraints": "1 <= s.length <= 10^5 s consists of uppercase and lowercase English letters."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000499.c",
+    "fileSHA": "00da0864a25e44d9ed535bcf36e74e355fef9054a53e945ea6a93ad442c2f074",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "00da0864a25e44d9ed535bcf36e74e355fef9054a53e945ea6a93ad442c2f074",
+    "normalizedCodeHash": "00da0864a25e44d9ed535bcf36e74e355fef9054a53e945ea6a93ad442c2f074",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

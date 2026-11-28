@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000492",
+  "problemId": "P000492",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000492",
+    "title": "Simplify Unix Path",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given an absolute Unix-style file path, simplify it according to the following rules: \".\" refers to the current directory. \"..\" moves to the parent directory. Multiple consecutive slashes are treated as a single slash. The simplified path must start with a single slash and contain no trailing slash unless it is the root directory. Return the canonical path.",
+    "input": "A string representing the absolute path.",
+    "output": "The simplified path.",
+    "constraints": "1 <= path.length <= 3000"
+  },
+  "repository": {
+    "name": "chinmaykarmokar/interview-2026",
+    "owner": "chinmaykarmokar",
+    "url": "https://github.com/chinmaykarmokar/interview-2026",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "js/stacks/q10.js",
+    "fileSHA": "4224d948016b67663baf56c8f964c4a12c2a3cd3",
+    "url": "https://github.com/chinmaykarmokar/interview-2026/blob/b4e8510e47dd32a4c28ec8ed731a59bcfd7c1941/js/stacks/q10.js",
+    "rawUrl": "https://raw.githubusercontent.com/chinmaykarmokar/interview-2026/main/js/stacks/q10.js"
+  },
+  "matching": {
+    "relevanceScore": 87.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4c54ddf59705879738220027c87404bb4eae777d8f065d74d22e42d3270a8c2c",
+    "normalizedCodeHash": "4c54ddf59705879738220027c87404bb4eae777d8f065d74d22e42d3270a8c2c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T14:35:35.529787+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

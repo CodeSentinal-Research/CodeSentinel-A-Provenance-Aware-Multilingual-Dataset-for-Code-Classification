@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000553",
+  "problemId": "P000553",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000553",
+    "title": "Snakes and Ladders",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an n × n Snakes and Ladders board. Starting from square 1, each move consists of rolling a six-sided die and moving accordingly. If the destination square contains the start of a ladder or the head of a snake, immediately move to its destination. Return the minimum number of moves required to reach the final square. Return -1 if it is impossible.",
+    "input": "Integer n An n × n board.",
+    "output": "A single integer representing the minimum number of moves.",
+    "constraints": "2 <= n <= 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000553.js",
+    "fileSHA": "7a8785a180e1b3615218f4fd6337ed7056abc310a0dd5b815ccb39a9e2457286",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7a8785a180e1b3615218f4fd6337ed7056abc310a0dd5b815ccb39a9e2457286",
+    "normalizedCodeHash": "7a8785a180e1b3615218f4fd6337ed7056abc310a0dd5b815ccb39a9e2457286",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

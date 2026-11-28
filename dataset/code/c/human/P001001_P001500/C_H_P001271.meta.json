@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001271",
+  "problemId": "P001271",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001271",
+    "title": "Minimum Number of Taps to Water a Garden",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "A one-dimensional garden extends from position 0 to N. Each tap waters an interval centered at its position. Determine the minimum number of taps that must be opened to water the entire garden. If impossible, print -1.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N+1 integers representing the watering range of each tap.",
+    "output": "Print the minimum number of taps required.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "lrmsspace/LLM-CodeQualityEval",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Output/output_TY/c/Hard/1981-minimum-number-of-taps-to-open-to-water-a-garden.c",
+    "fileSHA": "1aa2a06c8ff084f9ce2782a6f6de477a815df183",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval/blob/a2817bbe913c51ab32afeb6f6d0ad97b92c45075/Output/output_TY/c/Hard/1981-minimum-number-of-taps-to-open-to-water-a-garden.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/LLM-CodeQualityEval/main/Output/output_TY/c/Hard/1981-minimum-number-of-taps-to-open-to-water-a-garden.c"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "468ce1fd3b13f0526933dd18fe8a57547f6cc707cb0e51ec943071ce5fa04b76",
+    "normalizedCodeHash": "468ce1fd3b13f0526933dd18fe8a57547f6cc707cb0e51ec943071ce5fa04b76",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T04:58:32.936411+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

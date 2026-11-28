@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000747",
+  "problemId": "P000747",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000747",
+    "title": "Count Ways to Climb Stairs",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "A person can climb either 1 or 2 steps at a time. Given an integer N, determine the total number of distinct ways to reach the N-th step using recursion.",
+    "input": "Integer N",
+    "output": "The number of distinct ways.",
+    "constraints": "0 <= N <= 40"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000747.c",
+    "fileSHA": "c015d60b73e50855188ae2454d204693b5a5382ce30c6f3ac5ea73be4b0c8b10",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c015d60b73e50855188ae2454d204693b5a5382ce30c6f3ac5ea73be4b0c8b10",
+    "normalizedCodeHash": "c015d60b73e50855188ae2454d204693b5a5382ce30c6f3ac5ea73be4b0c8b10",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

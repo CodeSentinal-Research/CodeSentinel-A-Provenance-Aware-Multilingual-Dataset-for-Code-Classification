@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001596",
+  "problemId": "P001596",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001596",
+    "title": "Count Positive Numbers in a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple range queries, determine the number of positive integers in each specified range.",
+    "input": "• First line contains N. • Second line contains N integers. • Third line contains Q. • Next Q lines contain L and R.",
+    "output": "• For each query, print the count.",
+    "constraints": "• 1 ≤ N, Q ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001596.c",
+    "fileSHA": "9b9b7ab9de7aee09a1880c47053326fb6305a8afbdbc903d5193fa718a0e53bf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.956Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "4e6360ebdba195bbe28a3af7c3542a193569dc0e6279f54635cd9eaa2258c6af",
+    "normalizedCodeHash": "9b9b7ab9de7aee09a1880c47053326fb6305a8afbdbc903d5193fa718a0e53bf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.956Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

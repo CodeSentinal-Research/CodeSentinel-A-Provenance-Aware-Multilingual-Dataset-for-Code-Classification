@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001288",
+  "problemId": "P001288",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001288",
+    "title": "Maximum Equal Sum After K Negations",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and an integer K, negate the sign of one element in each operation. Determine the maximum possible array sum after exactly K negations.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the maximum possible sum.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001288",
+    "fileSHA": "7b9115bc82879c69453a13c90ff1728f6c34208562d83dccb023ec7d7fa444f7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:19:59.488437+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7b9115bc82879c69453a13c90ff1728f6c34208562d83dccb023ec7d7fa444f7",
+    "normalizedCodeHash": "7b9115bc82879c69453a13c90ff1728f6c34208562d83dccb023ec7d7fa444f7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:19:59.488460+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

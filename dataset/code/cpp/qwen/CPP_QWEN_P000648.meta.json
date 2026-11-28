@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000648",
+  "problemId": "P000648",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000648",
+    "title": "Design Undo Redo Editor",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a text editor that supports the following operations: type(text) \u2014 Append text to the document. undo() \u2014 Undo the most recent typing operation. redo() \u2014 Reapply the most recently undone operation. print() \u2014 Print the current document. Implement the editor efficiently using a linked-list-based history mechanism. Process all operations and print the document for every print() operation.",
+    "input": "Integer q Next q operations.",
+    "output": "Print the current document after every print() operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5 Total length of all inserted text does not exceed 10^6"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000648",
+    "fileSHA": "2d980f77952bd3df126260f3b4fe500646217c67e44e9c282012e5b3e8189ad3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.362Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "bc9f36a3e55fed2f068d17da8ff995783a4ed7e384333142da5768b463916c0b",
+    "normalizedCodeHash": "f2210b7121ac9815bce4525cc3bf3a23ae327b6850ebbaf7ceb0aae69e1c944d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.362Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

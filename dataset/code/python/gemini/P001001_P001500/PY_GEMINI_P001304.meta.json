@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001304",
+  "problemId": "P001304",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001304",
+    "title": "Minimum Cost to Cut a Board",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "A rectangular board must be cut into 1 \u00d7 1 squares. Each horizontal and vertical cut has an associated cost. Determine the minimum total cost required to cut the entire board.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Second line contains R\u22121 integers representing horizontal cut costs. \u2022 Third line contains C\u22121 integers representing vertical cut costs.",
+    "output": "Print the minimum total cutting cost.",
+    "constraints": "\u2022 2 \u2264 R, C \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001304",
+    "fileSHA": "13a01a8eda3cf1798ddd75e505f567e24880885020c3d68143299995df97d78b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:20:54.348055+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "13a01a8eda3cf1798ddd75e505f567e24880885020c3d68143299995df97d78b",
+    "normalizedCodeHash": "13a01a8eda3cf1798ddd75e505f567e24880885020c3d68143299995df97d78b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:20:54.348097+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

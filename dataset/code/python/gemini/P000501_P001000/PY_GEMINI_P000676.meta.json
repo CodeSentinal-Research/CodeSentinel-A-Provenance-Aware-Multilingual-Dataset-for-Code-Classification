@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000676",
+  "problemId": "P000676",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000676",
+    "title": "Flatten Multi-Level Sorted Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a multi-level linked list where each node contains: next pointer child pointer Each child list is individually sorted. Flatten the entire structure into a single sorted linked list using only the child pointers. Return the head of the flattened list.",
+    "input": "A multi-level linked list.",
+    "output": "The head of the flattened sorted linked list.",
+    "constraints": "Total number of nodes is in the range [0, 10^5]"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000676",
+    "fileSHA": "4159b74763f047d25d1215d5b42851643b3c7af48980f210be15583c6d85b5ba",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:51:54.460906+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4159b74763f047d25d1215d5b42851643b3c7af48980f210be15583c6d85b5ba",
+    "normalizedCodeHash": "4159b74763f047d25d1215d5b42851643b3c7af48980f210be15583c6d85b5ba",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:51:54.460961+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

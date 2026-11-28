@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000513",
+  "problemId": "P000513",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000513",
+    "title": "Flatten Nested List Iterator",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "A nested list contains integers or other nested lists. Design an iterator that supports the following operations: next() — returns the next integer. hasNext() — returns whether there are more integers remaining. Process a sequence of iterator operations on the given nested list.",
+    "input": "A nested list of integers. A sequence of iterator operations.",
+    "output": "For each next() operation, print the returned integer. For each hasNext() operation, print true or false.",
+    "constraints": "The total number of integers does not exceed 10^5."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000513.c",
+    "fileSHA": "7af95af623438b956323b312817599e5e1e11e400d3e75604643d558decc94c7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7af95af623438b956323b312817599e5e1e11e400d3e75604643d558decc94c7",
+    "normalizedCodeHash": "7af95af623438b956323b312817599e5e1e11e400d3e75604643d558decc94c7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000381",
+  "problemId": "P000381",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000381",
+    "title": "Search Contact by Name",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find a contact in a contact list using the contact name.",
+    "input": "A collection of contacts and a name.",
+    "output": "Matching contact details or \"Contact Not Found\".",
+    "constraints": "1 ≤ Number of Contacts ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000381.py",
+    "fileSHA": "b4270f342469ab9a4cac0170488fb06ce9d11fb4648b36ca11560a18c682b2c2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:01.715406+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b4270f342469ab9a4cac0170488fb06ce9d11fb4648b36ca11560a18c682b2c2",
+    "normalizedCodeHash": "599c358dee42e8f01df50edf4f6cde37901c6046bbffcbf7711c3d70dbaadd34",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:01.715406+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

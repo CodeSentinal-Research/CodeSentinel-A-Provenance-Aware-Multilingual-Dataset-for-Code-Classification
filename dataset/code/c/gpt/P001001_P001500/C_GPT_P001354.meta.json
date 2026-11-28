@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001354",
+  "problemId": "P001354",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001354",
+    "title": "Split String into Fibonacci Sequence",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a numeric string, split it into a Fibonacci-like sequence containing at least three integers. Every number must fit within a 32-bit signed integer.",
+    "input": "• First line contains the numeric string.",
+    "output": "Print one valid Fibonacci sequence or IMPOSSIBLE.",
+    "constraints": "• 1 ≤ Length ≤ 200"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001354.c",
+    "fileSHA": "e41d4b01b4d182a9d0159dd32028f00a4122a187e4b45ee107d707b1b7760660",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.018Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "f838742fff3c2ee45f9e4929b8a7039c107fb112386fe6d511c6946ac70b4eb9",
+    "normalizedCodeHash": "e41d4b01b4d182a9d0159dd32028f00a4122a187e4b45ee107d707b1b7760660",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.018Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

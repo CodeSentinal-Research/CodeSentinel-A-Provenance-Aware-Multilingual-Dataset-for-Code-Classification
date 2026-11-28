@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000558",
+  "problemId": "P000558",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000558",
+    "title": "Minimum Moves to Reach Target with Rotations",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an n \u00d7 n binary grid representing obstacles. A snake occupies two adjacent cells and initially starts horizontally at the top-left corner. In one move, the snake may: Move right. Move down. Rotate clockwise. Rotate counterclockwise. A move is valid only if all required cells are within the grid and free of obstacles. Determine the minimum number of moves required for the snake to reach the target position. Return -1 if it is impossible.",
+    "input": "Integer n An n \u00d7 n binary grid.",
+    "output": "A single integer representing the minimum number of moves, or -1 if no valid path exists.",
+    "constraints": "2 <= n <= 100 Grid contains only 0 and 1."
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000558",
+    "fileSHA": "29cb3a43657eb4b21dffa0cfbabf0dac0fe5565ad88f6a743d5da85c26d9eb16",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:25:40.031Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "ffcea66487fc449a995afecf24ae88efe98ac4fb2dceef08d49e57799f72d67c",
+    "normalizedCodeHash": "d545d59f3d1e60e2388a2863f6ca0436f567e9fc32a079382810e0f1efeb53e9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:25:40.031Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

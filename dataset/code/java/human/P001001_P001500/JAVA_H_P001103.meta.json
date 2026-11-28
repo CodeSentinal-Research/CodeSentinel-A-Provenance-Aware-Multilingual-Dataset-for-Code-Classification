@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001103",
+  "problemId": "P001103",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001103",
+    "title": "Critical Connections in a Network",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected network of servers, determine all critical connections whose removal disconnects the network.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print all critical connections in lexicographical order. If none exist, print NONE.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2\u00d710^5 \u2022 1 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "kaushalkumar22/DSA-Problems-Patterns",
+    "owner": "kaushalkumar22",
+    "url": "https://github.com/kaushalkumar22/DSA-Problems-Patterns",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "dsa/graphs_dfsbfs/CriticalConnectionsInANetwork.java",
+    "fileSHA": "d774be2cbe7e790123c28856bf6c5f8eeec2a0c0",
+    "url": "https://github.com/kaushalkumar22/DSA-Problems-Patterns/blob/e997ad2fef1d5c0e93cf860df4a994c7bbc07e93/dsa/graphs_dfsbfs/CriticalConnectionsInANetwork.java",
+    "rawUrl": "https://raw.githubusercontent.com/kaushalkumar22/DSA-Problems-Patterns/main/dsa/graphs_dfsbfs/CriticalConnectionsInANetwork.java"
+  },
+  "matching": {
+    "relevanceScore": 83.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b00ab486103290cd206e91d72f7ea9993ac82fc7eec1262b9337523d5fae32a9",
+    "normalizedCodeHash": "b00ab486103290cd206e91d72f7ea9993ac82fc7eec1262b9337523d5fae32a9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:28:17.668601+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000598",
+  "problemId": "P000598",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000598",
+    "title": "Reverse Linked List II",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and two integers left and right, reverse the nodes from position left to position right (1-indexed). The remaining nodes outside this range must remain unchanged. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer left Integer right",
+    "output": "The linked list after reversing the specified sublist.",
+    "constraints": "1 <= n <= 500 1 <= left <= right <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000598",
+    "fileSHA": "ab5fd1080416d515b3fe141f954efd76b2d6ad4dff611b6dbfb416ee02dc5eea",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:25:40.064Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "6311edc2422715a95e2eb791f169c55bacfaf2f0f09673f32644b19ed7b1ba3c",
+    "normalizedCodeHash": "6edc239f8c19c9778cda643ff69dc267d1c53b6983e9eecd0e268dfa446abfa0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:25:40.064Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

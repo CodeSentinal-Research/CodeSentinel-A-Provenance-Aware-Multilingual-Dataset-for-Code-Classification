@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001291",
+  "problemId": "P001291",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001291",
+    "title": "Hand of Straights",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers representing cards and an integer K, determine whether the cards can be rearranged into groups of K consecutive cards.",
+    "input": "• First line contains integers N and K. • Second line contains N integers representing the cards.",
+    "output": "Print YES if such a rearrangement is possible; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001291.js",
+    "fileSHA": "cb4e2647af0afcd2c3003cc0af62e2b4d8de96ae2a4c283f77337145736b7d6a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T10:11:26.401164+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cb4e2647af0afcd2c3003cc0af62e2b4d8de96ae2a4c283f77337145736b7d6a",
+    "normalizedCodeHash": "cb4e2647af0afcd2c3003cc0af62e2b4d8de96ae2a4c283f77337145736b7d6a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T10:11:26.401164+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

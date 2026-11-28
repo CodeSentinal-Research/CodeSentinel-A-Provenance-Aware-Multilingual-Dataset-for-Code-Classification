@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000610",
+  "problemId": "P000610",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000610",
+    "title": "Merge Nodes Between Zeros",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a linked list whose first and last nodes contain the value 0. Between every pair of consecutive zero-valued nodes, replace all nodes with a single node whose value is the sum of the values between those zeros. Return the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The transformed linked list.",
+    "constraints": "3 <= n <= 2 × 10^5 The first and last node values are 0."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000610",
+    "fileSHA": "6ca6b6412de9a9b0762e0bd27803f14ef9c7688e5cabef0cfef7c2a9abf385bc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6ca6b6412de9a9b0762e0bd27803f14ef9c7688e5cabef0cfef7c2a9abf385bc",
+    "normalizedCodeHash": "6ca6b6412de9a9b0762e0bd27803f14ef9c7688e5cabef0cfef7c2a9abf385bc",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000610: Merge Nodes Between Zeros"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

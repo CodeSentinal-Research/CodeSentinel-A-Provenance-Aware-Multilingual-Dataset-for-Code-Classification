@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000566",
+  "problemId": "P000566",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000566",
+    "title": "Minimum Genetic Mutation",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "A gene string consists of exactly eight characters chosen from 'A', 'C', 'G', and 'T'. Given a starting gene, a target gene, and a bank of valid gene strings, determine the minimum number of single-character mutations required to reach the target. Each intermediate gene must exist in the bank. Return -1 if the mutation is impossible.",
+    "input": "String startGene String endGene Integer n List of gene strings",
+    "output": "A single integer representing the minimum number of mutations.",
+    "constraints": "Gene length is always 8 0 <= n <= 1000"
+  },
+  "repository": {
+    "name": "patty111/ds",
+    "owner": "patty111",
+    "url": "https://github.com/patty111/ds",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "leetcode-problem/medium/433.minimum-genetic-mutation.c",
+    "fileSHA": "29e0b19d3dbc2b5ef8f754debafe7ef364dec09a",
+    "url": "https://github.com/patty111/ds/blob/df135896dfdca1a0b81f62693636e79aa31b776e/leetcode-problem/medium/433.minimum-genetic-mutation.c",
+    "rawUrl": "https://raw.githubusercontent.com/patty111/ds/main/leetcode-problem/medium/433.minimum-genetic-mutation.c"
+  },
+  "matching": {
+    "relevanceScore": 84.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "06c627257bd82de29d7e93a6c99e9b3db29743b58a689e1a9cb9efa9b88425e0",
+    "normalizedCodeHash": "06c627257bd82de29d7e93a6c99e9b3db29743b58a689e1a9cb9efa9b88425e0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:13:01.457505+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

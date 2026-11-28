@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000902",
+  "problemId": "P000902",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000902",
+    "title": "Divisibility Range Queries",
+    "category": "Mathematics - Divisibility",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and multiple queries (L, R, X), determine how many numbers in the range [L, R] are divisible by X.",
+    "input": "Integer N Array nums Integer Q Q queries (L, R, X)",
+    "output": "For each query, print the count of divisible numbers.",
+    "constraints": "1 <= N, Q <= 2 × 10^5 1 <= nums[i], X <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000902.js",
+    "fileSHA": "a52407a32b8df342045ab26442dd2b26a09223ac2b27f706a7b63acf2ad9aa52",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a52407a32b8df342045ab26442dd2b26a09223ac2b27f706a7b63acf2ad9aa52",
+    "normalizedCodeHash": "a52407a32b8df342045ab26442dd2b26a09223ac2b27f706a7b63acf2ad9aa52",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001272",
+  "problemId": "P001272",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001272",
+    "title": "Jump Game VI",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array and an integer K, start at index 0 and reach the last index. From position i, you may jump to any index in the range [i+1, i+K]. Each visited element contributes to the score. Determine the maximum obtainable score.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the maximum score.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001272",
+    "fileSHA": "380e199a0f51dbdce11dc68aa69848df48d8b1af3ee17ac556b0c04ea085117d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:19:57.917295+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "380e199a0f51dbdce11dc68aa69848df48d8b1af3ee17ac556b0c04ea085117d",
+    "normalizedCodeHash": "380e199a0f51dbdce11dc68aa69848df48d8b1af3ee17ac556b0c04ea085117d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:19:57.917362+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

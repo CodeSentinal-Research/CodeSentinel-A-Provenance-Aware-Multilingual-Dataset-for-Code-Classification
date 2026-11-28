@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000735",
+  "problemId": "P000735",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000735",
+    "title": "Generate All K-Length Strings from Given Characters",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given a set of distinct characters and an integer K, generate all strings of length K. Characters may be reused any number of times. Print the strings in lexicographical order.",
+    "input": "Integer n Array characters Integer K",
+    "output": "All possible strings.",
+    "constraints": "1 <= n <= 26 1 <= K <= 10"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000735",
+    "fileSHA": "7e8f28b5242d6a711b1970ea4958749bd8bb49601f9ce0bff65d996e1ac28e04",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T17:08:23.842320+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7e8f28b5242d6a711b1970ea4958749bd8bb49601f9ce0bff65d996e1ac28e04",
+    "normalizedCodeHash": "7e8f28b5242d6a711b1970ea4958749bd8bb49601f9ce0bff65d996e1ac28e04",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T17:08:23.842346+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

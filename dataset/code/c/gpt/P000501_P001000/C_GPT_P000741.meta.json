@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000741",
+  "problemId": "P000741",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000741",
+    "title": "Flood Fill All Paths",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × M grid where 0 represents blocked cells and 1 represents open cells, generate all possible paths from the top-left cell to the bottom-right cell. The traveler may move Up, Down, Left, and Right, but cannot visit the same cell more than once in a path. Print all valid paths in lexicographical order.",
+    "input": "Integer N Integer M Matrix grid",
+    "output": "All valid paths.",
+    "constraints": "1 <= N, M <= 10"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000741.c",
+    "fileSHA": "b8b72ad99eedc74f72a18f32adb23bddb86c53c7063155b0a309aee67b4894ed",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b8b72ad99eedc74f72a18f32adb23bddb86c53c7063155b0a309aee67b4894ed",
+    "normalizedCodeHash": "b8b72ad99eedc74f72a18f32adb23bddb86c53c7063155b0a309aee67b4894ed",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

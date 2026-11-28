@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000941",
+  "problemId": "P000941",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000941",
+    "title": "Standard Nim Game",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Easy",
+    "problemStatement": "Given multiple piles of stones, players may remove any positive number of stones from a single pile during each turn. Determine whether the first player has a winning strategy.",
+    "input": "Integer N Array piles",
+    "output": "Print \"First\" if the first player wins; otherwise, print \"Second\".",
+    "constraints": "1 <= N <= 2 × 10^5 1 <= piles[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000941.c",
+    "fileSHA": "29fd71b7e17bbbd66ba5be7cbfa423842b360b55c0c08ead4315611ca31a8717",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "29fd71b7e17bbbd66ba5be7cbfa423842b360b55c0c08ead4315611ca31a8717",
+    "normalizedCodeHash": "29fd71b7e17bbbd66ba5be7cbfa423842b360b55c0c08ead4315611ca31a8717",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

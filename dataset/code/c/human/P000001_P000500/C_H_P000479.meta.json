@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000479",
+  "problemId": "P000479",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000479",
+    "title": "Valid Parentheses",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "Given a string s containing only the characters '(', ')', '{', '}', '[', and ']', determine whether the input string is valid. A string is valid if: Every opening bracket has a corresponding closing bracket of the same type. Brackets are closed in the correct order. Every closing bracket has a matching opening bracket. Return \"true\" if the string is valid; otherwise return \"false\".",
+    "input": "A single string s.",
+    "output": "true if the string is valid, otherwise false.",
+    "constraints": "1 <= s.length <= 10^4 s consists only of '(', ')', '{', '}', '[', ']'."
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0032_longest_valid_parentheses/valid_parentheses.c",
+    "fileSHA": "83c9f15ad830e6bb47f8ab621f3cdda0e1f566e5",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0032_longest_valid_parentheses/valid_parentheses.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0032_longest_valid_parentheses/valid_parentheses.c"
+  },
+  "matching": {
+    "relevanceScore": 78.12
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "91ed8e0a126be980f50f5f2fa1f72921535b230e48dfe965e948c5e07a9430c8",
+    "normalizedCodeHash": "91ed8e0a126be980f50f5f2fa1f72921535b230e48dfe965e948c5e07a9430c8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:41:34.414933+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

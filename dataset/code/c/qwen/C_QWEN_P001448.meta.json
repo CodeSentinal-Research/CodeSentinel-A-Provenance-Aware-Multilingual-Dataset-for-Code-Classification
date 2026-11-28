@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_QWEN_P001448",
+  "problemId": "P001448",
+  "language": "c",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001448",
+    "title": "Verify Alien Dictionary",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given a list of words and the ordering of letters in an alien language, determine whether the words are sorted according to the alien dictionary.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain one word each. \u2022 Last line contains the alien alphabet order.",
+    "output": "Print YES if the words are correctly sorted; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 Word length \u2264 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/C_QWEN_P001448",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

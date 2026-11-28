@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001654",
+  "problemId": "P001654",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001654",
+    "title": "Recover a Corrupted Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "A binary tree originally satisfied the property that every parent-child relationship followed the given ordering rule, but exactly one node contains an incorrect value due to data corruption. Restore the corrupted node so that the original property of the tree is satisfied again.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the corrected tree in the required traversal format.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2 \u00d7 10^5 \u2022 Exactly one node value is incorrect."
+  },
+  "repository": {
+    "name": "pguilp25/jarvis",
+    "owner": "pguilp25",
+    "url": "https://github.com/pguilp25/jarvis",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "core/verify_toolkit.py",
+    "fileSHA": "958d86486aa98dc1ee9753b727b58ceaa6d7ad09",
+    "url": "https://github.com/pguilp25/jarvis/blob/1746220b0f1a7530b010615e1ae08423810ae20e/core/verify_toolkit.py",
+    "rawUrl": "https://raw.githubusercontent.com/pguilp25/jarvis/main/core/verify_toolkit.py"
+  },
+  "matching": {
+    "relevanceScore": 81.4
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "39f5aa1245626d32044adbf1396438f5c433383989481a780f3a72ff563bb691",
+    "normalizedCodeHash": "39f5aa1245626d32044adbf1396438f5c433383989481a780f3a72ff563bb691",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T16:36:02.353936+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000533",
+  "problemId": "P000533",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000533",
+    "title": "Moving Average from Data Stream",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Design a data structure that calculates the moving average of the last size values from a stream of integers. For each incoming value, return the average of the most recent size elements currently in the window.",
+    "input": "Integer size Integer q Next q integers representing the stream.",
+    "output": "For each inserted value, print the current moving average.",
+    "constraints": "1 <= size <= 10^5 1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "kakack/crush-in-leetcode",
+    "owner": "kakack",
+    "url": "https://github.com/kakack/crush-in-leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/346-Moving Average from Data Stream/346-Moving Average from Data Stream.c",
+    "fileSHA": "61eb032959d9e28730300624c4f016aad2988b7a",
+    "url": "https://github.com/kakack/crush-in-leetcode/blob/ae9e3e290f70da36b2e690b80426baae021cd79b/code/346-Moving Average from Data Stream/346-Moving Average from Data Stream.c",
+    "rawUrl": "https://raw.githubusercontent.com/kakack/crush-in-leetcode/main/code/346-Moving Average from Data Stream/346-Moving Average from Data Stream.c"
+  },
+  "matching": {
+    "relevanceScore": 89.06
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a201516cddbcfe27bfbb9796a8fbd665af3e48cdad589687fe68030bbf498c2d",
+    "normalizedCodeHash": "a201516cddbcfe27bfbb9796a8fbd665af3e48cdad589687fe68030bbf498c2d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:38:15.148364+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001355",
+  "problemId": "P001355",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001355",
+    "title": "Construct Distanced Sequence",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Construct a sequence of length 2N\u22121 using the integers 1 to N such that: \u2022 Integer 1 appears exactly once. \u2022 Every integer 2...N appears exactly twice. \u2022 The two occurrences of integer i are exactly i positions apart. Return the lexicographically largest valid sequence.",
+    "input": "\u2022 First line contains integer N.",
+    "output": "Print the required sequence.",
+    "constraints": "\u2022 1 \u2264 N \u2264 20"
+  },
+  "repository": {
+    "name": "TheCaptain1810/leetcode_solutions",
+    "owner": "TheCaptain1810",
+    "url": "https://github.com/TheCaptain1810/leetcode_solutions",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "constructDistancedSequence.js",
+    "fileSHA": "bd11633d7d9fd3d89c4e3729ac2c201f679bab87",
+    "url": "https://github.com/TheCaptain1810/leetcode_solutions/blob/b0aa784c9edb81aeac92a66c4edaa7e9df4dd987/constructDistancedSequence.js",
+    "rawUrl": "https://raw.githubusercontent.com/TheCaptain1810/leetcode_solutions/main/constructDistancedSequence.js"
+  },
+  "matching": {
+    "relevanceScore": 70.26
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3f038ecf76c5efba52f7d8f021eb247744e5447233941faa257a2b42a419d0be",
+    "normalizedCodeHash": "3f038ecf76c5efba52f7d8f021eb247744e5447233941faa257a2b42a419d0be",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:39:52.654212+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

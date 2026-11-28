@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001440",
+  "problemId": "P001440",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001440",
+    "title": "Longest Word Through Deleting",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string and a dictionary of words, determine the longest dictionary word that can be obtained by deleting some characters from the string. If multiple answers exist, return the lexicographically smallest one.",
+    "input": "\u2022 First line contains the source string. \u2022 Second line contains integer N. \u2022 Next N lines contain dictionary words.",
+    "output": "Print the required word or an empty string if none exists.",
+    "constraints": "\u2022 1 \u2264 Length of source string \u2264 2\u00d710^5 \u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001440",
+    "fileSHA": "dc8345d906d0ee3ec46a39c5befa032dd576b574b9af857bd553a96fed3e5386",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:26:13.542828+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "dc8345d906d0ee3ec46a39c5befa032dd576b574b9af857bd553a96fed3e5386",
+    "normalizedCodeHash": "dc8345d906d0ee3ec46a39c5befa032dd576b574b9af857bd553a96fed3e5386",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:26:13.542851+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

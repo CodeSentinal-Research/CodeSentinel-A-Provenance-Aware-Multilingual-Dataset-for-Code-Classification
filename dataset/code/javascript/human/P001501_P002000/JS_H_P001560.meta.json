@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001560",
+  "problemId": "P001560",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001560",
+    "title": "Minimum Window Substring",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given two strings S and T, find the smallest substring of S that contains every character of T (including duplicates). If no such substring exists, print an empty string.",
+    "input": "\u2022 First line contains string S. \u2022 Second line contains string T.",
+    "output": "\u2022 Print the minimum window substring. If no valid substring exists, print an empty line.",
+    "constraints": "\u2022 1 \u2264 |T| \u2264 |S| \u2264 2 \u00d7 10^5 \u2022 Strings contain ASCII characters"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/0076-minimum-window-substring.js",
+    "fileSHA": "83a35347c8ccbae92c5b6f45c20bcc14a54aa8eb",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/javascript/0076-minimum-window-substring.js",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/javascript/0076-minimum-window-substring.js"
+  },
+  "matching": {
+    "relevanceScore": 74.55
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "102846cfe27734c3ff9030e7d1b453b1d35ef43c1ff1fd1dc93f1cb6c2b9f485",
+    "normalizedCodeHash": "102846cfe27734c3ff9030e7d1b453b1d35ef43c1ff1fd1dc93f1cb6c2b9f485",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:28:31.874456+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

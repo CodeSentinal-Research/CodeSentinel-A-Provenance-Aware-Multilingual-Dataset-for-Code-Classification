@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001590",
+  "problemId": "P001590",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001590",
+    "title": "Maximum Robots Within Budget",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "You are given two arrays representing the charge times and running costs of robots, along with a budget. Determine the maximum number of consecutive robots that can be operated without exceeding the budget.",
+    "input": "\u2022 First line contains N and Budget. \u2022 Second line contains N integers representing charge times. \u2022 Third line contains N integers representing running costs.",
+    "output": "\u2022 Print the maximum number of consecutive robots that can be operated.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 Budget \u2264 10^18"
+  },
+  "repository": {
+    "name": "chentong2015/AlgorithmDataStructures",
+    "owner": "chentong2015",
+    "url": "https://github.com/chentong2015/AlgorithmDataStructures",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "effective-leetcode/src/main/java/leetcode1/max_num_robots/MaxNumRobotsBudget.java",
+    "fileSHA": "90b82ee5273b621f27520427fb3a66b014501ce8",
+    "url": "https://github.com/chentong2015/AlgorithmDataStructures/blob/ec5f10404f065896ba5434a1be38760fd420147b/effective-leetcode/src/main/java/leetcode1/max_num_robots/MaxNumRobotsBudget.java",
+    "rawUrl": "https://raw.githubusercontent.com/chentong2015/AlgorithmDataStructures/main/effective-leetcode/src/main/java/leetcode1/max_num_robots/MaxNumRobotsBudget.java"
+  },
+  "matching": {
+    "relevanceScore": 86.7
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2f0d1a929fdb7213060d558123c7895422cbe2c56bce85931d906afd31cfc7ad",
+    "normalizedCodeHash": "2f0d1a929fdb7213060d558123c7895422cbe2c56bce85931d906afd31cfc7ad",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T01:07:41.568134+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

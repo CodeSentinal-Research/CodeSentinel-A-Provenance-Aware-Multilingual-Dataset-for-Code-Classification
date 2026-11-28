@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_CLAUDE_P000479",
+  "problemId": "P000479",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000479",
+    "title": "Valid Parentheses",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "Given a string s containing only the characters '(', ')', '{', '}', '[', and ']', determine whether the input string is valid. A string is valid if: Every opening bracket has a corresponding closing bracket of the same type. Brackets are closed in the correct order. Every closing bracket has a matching opening bracket. Return \"true\" if the string is valid; otherwise return \"false\".",
+    "input": "A single string s.",
+    "output": "true if the string is valid, otherwise false.",
+    "constraints": "1 <= s.length <= 10^4 s consists only of '(', ')', '{', '}', '[', ']'."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000479",
+    "fileSHA": "75e15caf30aecceb31c8a8eb54aedc9cd6466657c0dfd2a016cf868fb8dace14",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d211ad49b56f5ed2475c0d3705a4776e0581bc6789aa1f1272a07586d7794e36",
+    "normalizedCodeHash": "75e15caf30aecceb31c8a8eb54aedc9cd6466657c0dfd2a016cf868fb8dace14",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

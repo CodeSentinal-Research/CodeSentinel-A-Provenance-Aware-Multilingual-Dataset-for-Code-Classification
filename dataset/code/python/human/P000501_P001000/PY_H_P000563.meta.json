@@ -1,0 +1,76 @@
+{
+  "solutionId": "PY_H_P000563",
+  "problemId": "P000563",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000563",
+    "title": "Word Ladder",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Given two words, beginWord and endWord, and a dictionary of valid words, find the length of the shortest transformation sequence from beginWord to endWord. A transformation consists of changing exactly one character, and every intermediate word must exist in the dictionary. Return 0 if no transformation exists.",
+    "input": "String beginWord String endWord Integer n List of n words",
+    "output": "A single integer representing the length of the shortest transformation sequence.",
+    "constraints": "1 <= word length <= 10 1 <= n <= 5000"
+  },
+  "repository": {
+    "name": "jz33/LeetCodeSolutions",
+    "owner": "jz33",
+    "url": "https://github.com/jz33/LeetCodeSolutions",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000563.py",
+    "fileSHA": "189fc0284e717d2f57e815e233d3a0129c266469",
+    "url": "https://github.com/jz33/LeetCodeSolutions/blob/86c869ff3bc611042c79007bfbaa9163f335fecf/126 Word Ladder.py",
+    "rawUrl": "https://raw.githubusercontent.com/jz33/LeetCodeSolutions/main/126 Word Ladder.py"
+  },
+  "matching": {
+    "relevanceScore": 82.49
+  },
+  "provenance": {
+    "score": 86.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2015-07-19T00:44:57Z",
+    "lastCommitDate": "2023-12-29T01:40:53Z",
+    "commitCount": 4,
+    "authorCount": 3,
+    "authors": [
+      "Jun",
+      "junzheng2023",
+      "jz33"
+    ],
+    "firstKnownAuthor": "Jun",
+    "latestKnownAuthor": "jz33"
+  },
+  "deduplication": {
+    "rawCodeHash": "a14a299c3e9f1d65fd32162d4c079f1a7b7b83a8c8a20c82a9f594e52b34369f",
+    "normalizedCodeHash": "a14a299c3e9f1d65fd32162d4c079f1a7b7b83a8c8a20c82a9f594e52b34369f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:24:55.797015+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

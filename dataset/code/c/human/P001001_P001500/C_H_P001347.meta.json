@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001347",
+  "problemId": "P001347",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001347",
+    "title": "Cryptarithmetic Puzzle",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given three uppercase words representing an equation of the form WORD1 + WORD2 = WORD3, assign distinct digits to letters so that the equation holds.",
+    "input": "\u2022 First line contains WORD1. \u2022 Second line contains WORD2. \u2022 Third line contains WORD3.",
+    "output": "Print one valid digit assignment or IMPOSSIBLE if none exists.",
+    "constraints": "\u2022 Total distinct letters \u2264 10"
+  },
+  "repository": {
+    "name": "curl/curl",
+    "owner": "curl",
+    "url": "https://github.com/curl/curl",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "tests/unit/unit1307.c",
+    "fileSHA": "c45dc81c770e1a482e0b2408c85b0735532f83ca",
+    "url": "https://github.com/curl/curl/blob/master/tests/unit/unit1307.c",
+    "rawUrl": "https://raw.githubusercontent.com/curl/curl/master/tests/unit/unit1307.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "bf7ff44eb11ecc30e69772db967d64777a8157dd0506f28b341f286df96865ab",
+    "normalizedCodeHash": "bf7ff44eb11ecc30e69772db967d64777a8157dd0506f28b341f286df96865ab",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T18:32:30.087053+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

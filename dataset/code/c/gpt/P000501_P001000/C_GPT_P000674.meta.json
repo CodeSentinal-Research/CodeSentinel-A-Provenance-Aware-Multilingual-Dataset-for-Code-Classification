@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000674",
+  "problemId": "P000674",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000674",
+    "title": "Rearrange Linked List into Zigzag Order",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list, rearrange the node values so that they follow the pattern: a0 < a1 > a2 < a3 > a4 ... Modify the linked list in-place and return its head.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000674.c",
+    "fileSHA": "78d6ac4f4425c2eb4bd60ad7182472101caf58517ac839902dc2f2c369b5d4f8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "78d6ac4f4425c2eb4bd60ad7182472101caf58517ac839902dc2f2c369b5d4f8",
+    "normalizedCodeHash": "78d6ac4f4425c2eb4bd60ad7182472101caf58517ac839902dc2f2c369b5d4f8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

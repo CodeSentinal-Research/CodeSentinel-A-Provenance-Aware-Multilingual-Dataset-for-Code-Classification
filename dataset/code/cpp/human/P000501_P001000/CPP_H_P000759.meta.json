@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000759",
+  "problemId": "P000759",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000759",
+    "title": "Count Good Numbers",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "A digit string of length N is called good if: Digits at even indices are even (0, 2, 4, 6, 8). Digits at odd indices are prime (2, 3, 5, 7). Return the total number of good digit strings of length N modulo 10^9 + 7. Solve the problem using recursive exponentiation.",
+    "input": "Integer N",
+    "output": "The total number of good strings modulo 10^9 + 7.",
+    "constraints": "1 <= N <= 10^15"
+  },
+  "repository": {
+    "name": "wisdompeak/LeetCode",
+    "owner": "wisdompeak",
+    "url": "https://github.com/wisdompeak/LeetCode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Binary_Search/1922.Count-Good-Numbers/1922.Count-Good-Numbers.cpp",
+    "fileSHA": "d99a7063179bbb32fecf77fe1dbcd9f2b21f7f33",
+    "url": "https://github.com/wisdompeak/LeetCode/blob/master/Binary_Search/1922.Count-Good-Numbers/1922.Count-Good-Numbers.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/wisdompeak/LeetCode/master/Binary_Search/1922.Count-Good-Numbers/1922.Count-Good-Numbers.cpp"
+  },
+  "matching": {
+    "relevanceScore": 67.27
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8ff3bab0517f09fb646f16679d64aae808768d3db89138fbd8e7e90ca60c741c",
+    "normalizedCodeHash": "8ff3bab0517f09fb646f16679d64aae808768d3db89138fbd8e7e90ca60c741c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:42:31.024746+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

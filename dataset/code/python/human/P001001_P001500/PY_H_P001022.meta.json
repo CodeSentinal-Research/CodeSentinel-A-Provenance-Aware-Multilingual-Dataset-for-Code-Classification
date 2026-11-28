@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001022",
+  "problemId": "P001022",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001022",
+    "title": "Decrease Key in a Min Heap",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a valid Min Heap represented as an array, an index i, and a new value smaller than or equal to the current value, update the key and restore the Min Heap property. Print the updated heap.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N space-separated integers. \u2022 Third line contains integers i and newValue.",
+    "output": "Print the updated Min Heap.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 i < N"
+  },
+  "repository": {
+    "name": "con-fide/ABSyn",
+    "owner": "con-fide",
+    "url": "https://github.com/con-fide/ABSyn",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "venv/Lib/site-packages/networkx/utils/heaps.py",
+    "fileSHA": "30f6819fe66c98cb9f9edb4e8925c5a125fd2562",
+    "url": "https://github.com/con-fide/ABSyn/blob/f1556c56169b4f02c620c137e120085ee5291c3d/venv/Lib/site-packages/networkx/utils/heaps.py",
+    "rawUrl": "https://raw.githubusercontent.com/con-fide/ABSyn/main/venv/Lib/site-packages/networkx/utils/heaps.py"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d61619433d7544deb7c3054dc770788ed54c14c4c75fb32b143224185c2f0dc5",
+    "normalizedCodeHash": "d61619433d7544deb7c3054dc770788ed54c14c4c75fb32b143224185c2f0dc5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T07:31:30.195028+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

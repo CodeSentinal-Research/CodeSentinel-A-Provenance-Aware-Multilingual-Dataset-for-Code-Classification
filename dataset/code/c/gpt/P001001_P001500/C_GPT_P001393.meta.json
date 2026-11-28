@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001393",
+  "problemId": "P001393",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001393",
+    "title": "Continuous Subarray Sum",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer K, determine whether there exists a continuous subarray of length at least 2 whose sum is a multiple of K.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print YES if such a subarray exists; otherwise print NO.",
+    "constraints": "• 2 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001393.c",
+    "fileSHA": "f6967f84fcfe78ef98fd63f507ba960baf61ee426c61eb5f4478ee0794e639c1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.218Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "859442b8af03d418503352cefe1274224a463fb47dcca6b962719196e50045ab",
+    "normalizedCodeHash": "f6967f84fcfe78ef98fd63f507ba960baf61ee426c61eb5f4478ee0794e639c1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.218Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

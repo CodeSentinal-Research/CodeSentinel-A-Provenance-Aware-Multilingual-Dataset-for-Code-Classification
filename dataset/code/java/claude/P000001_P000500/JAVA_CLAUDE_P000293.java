@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);int n=sc.nextInt();sc.nextLine();List<String>strs=new ArrayList<>();for(int i=0;i<n;i++)strs.add(sc.nextLine());StringBuilder enc=new StringBuilder();for(String s:strs)enc.append(s.length()).append('#').append(s);System.out.println(enc);String e=enc.toString();int i=0;while(i<e.length()){int j=e.indexOf('#',i);int l=Integer.parseInt(e.substring(i,j));System.out.print(e.substring(j+1,j+1+l)+" ");i=j+1+l;}System.out.println();}}

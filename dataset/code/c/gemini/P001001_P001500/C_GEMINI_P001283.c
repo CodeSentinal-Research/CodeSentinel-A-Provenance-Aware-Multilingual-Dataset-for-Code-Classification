@@ -1,0 +1,26 @@
+#include <stdlib.h>
+
+int cmpPeopleInc(const void* a, const void* b) {
+    int* p1 = *(int**)a;
+    int* p2 = *(int**)b;
+    if (p1[0] != p2[0]) return p2[0] - p1[0];
+    return p1[1] - p2[1];
+}
+
+int** reconstructQueue(int** people, int peopleSize, int* peopleColSize, int* returnSize, int** returnColumnSizes) {
+    qsort(people, peopleSize, sizeof(int*), cmpPeopleInc);
+    int** res = (int**)malloc(peopleSize * sizeof(int*));
+
+    for (int i = 0; i < peopleSize; i++) {
+        int pos = people[i][1];
+        for (int j = i; j > pos; j--) {
+            res[j] = res[j - 1];
+        }
+        res[pos] = people[i];
+    }
+
+    *returnSize = peopleSize;
+    *returnColumnSizes = (int*)malloc(peopleSize * sizeof(int));
+    for (int i = 0; i < peopleSize; i++) (*returnColumnSizes)[i] = 2;
+    return res;
+}

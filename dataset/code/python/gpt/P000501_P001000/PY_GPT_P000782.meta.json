@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000782",
+  "problemId": "P000782",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000782",
+    "title": "Count Elements in Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and multiple queries [L, R], return the number of elements lying within the specified index range. Preprocess the array using prefix sums.",
+    "input": "Integer n Array nums Integer q Queries (L, R)",
+    "output": "For each query, print the count of elements.",
+    "constraints": "1 <= n, q <= 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000782.py",
+    "fileSHA": "90aa73c147f1a6261c42966efa1903e574fa572859104a5f390bc6d276c3dcfd",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.034444+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "90aa73c147f1a6261c42966efa1903e574fa572859104a5f390bc6d276c3dcfd",
+    "normalizedCodeHash": "717a8264d2668a889c37ebda99d6767985b249e74bfcd2082bd22480c6d5f0c1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.034444+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

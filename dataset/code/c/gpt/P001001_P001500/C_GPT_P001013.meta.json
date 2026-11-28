@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001013",
+  "problemId": "P001013",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001013",
+    "title": "Running Median of a Data Stream",
+    "category": "Heap",
+    "difficulty": "Medium",
+    "problemStatement": "Given a sequence of integers arriving one by one, determine the median after each insertion using an efficient heap-based approach.",
+    "input": "• First line contains integer N. • Second line contains N space-separated integers.",
+    "output": "Print the median after each insertion.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001013.c",
+    "fileSHA": "55e4df192d017f80b092e797bd59336a3c767a277b782cb72b9ea236b55585b7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:32.770Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "1509ed6c4129457bd21c2ac406e9c17df2002966c3c27b4addf6734fe374a192",
+    "normalizedCodeHash": "55e4df192d017f80b092e797bd59336a3c767a277b782cb72b9ea236b55585b7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:32.770Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

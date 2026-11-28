@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001385",
+  "problemId": "P001385",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001385",
+    "title": "Find All Missing Numbers",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers where every integer is in the range [1, N], find all numbers that do not appear in the array.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print all missing numbers in ascending order.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001385",
+    "fileSHA": "eb3649ff0d97207778d2e0d71038a9a513fff2448dbee1c481ec5231fe37563b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:24:06.742641+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "eb3649ff0d97207778d2e0d71038a9a513fff2448dbee1c481ec5231fe37563b",
+    "normalizedCodeHash": "eb3649ff0d97207778d2e0d71038a9a513fff2448dbee1c481ec5231fe37563b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:24:06.742665+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

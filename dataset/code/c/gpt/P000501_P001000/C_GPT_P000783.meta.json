@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000783",
+  "problemId": "P000783",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000783",
+    "title": "Count Even Numbers in Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and multiple queries [L, R], determine how many even numbers lie within each range. Use a prefix sum approach.",
+    "input": "Integer n Array nums Integer q Queries (L, R)",
+    "output": "For each query, print the count of even numbers.",
+    "constraints": "1 <= n, q <= 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000783.c",
+    "fileSHA": "6ac09e34959a1080c9ca827300ac909ec25c2ae726f54ef34593c320f7ff16b4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6ac09e34959a1080c9ca827300ac909ec25c2ae726f54ef34593c320f7ff16b4",
+    "normalizedCodeHash": "6ac09e34959a1080c9ca827300ac909ec25c2ae726f54ef34593c320f7ff16b4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

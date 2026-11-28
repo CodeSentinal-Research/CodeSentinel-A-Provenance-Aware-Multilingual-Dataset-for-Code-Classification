@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000505",
+  "problemId": "P000505",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000505",
+    "title": "Basic Calculator II",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Implement a calculator that evaluates an arithmetic expression containing: Non-negative integers '+' '-' '*' '/' Spaces The expression does not contain parentheses. Multiplication and division have higher precedence than addition and subtraction.",
+    "input": "A string representing the arithmetic expression.",
+    "output": "A single integer representing the evaluated result.",
+    "constraints": "1 <= expression.length <= 3 × 10^5 The expression is valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000505.js",
+    "fileSHA": "cd2eabb0dd7d023051f9f13fc4fc1664dc3155380c7cef52928d887f4078c015",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cd2eabb0dd7d023051f9f13fc4fc1664dc3155380c7cef52928d887f4078c015",
+    "normalizedCodeHash": "cd2eabb0dd7d023051f9f13fc4fc1664dc3155380c7cef52928d887f4078c015",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

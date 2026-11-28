@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000938",
+  "problemId": "P000938",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000938",
+    "title": "Sparse Matrix Multiplication",
+    "category": "Mathematics - Matrix Mathematics",
+    "difficulty": "Medium",
+    "problemStatement": "Given two sparse matrices, compute their product efficiently by taking advantage of the sparsity of the matrices.",
+    "input": "Dimensions of both matrices Matrix A Matrix B",
+    "output": "The product matrix.",
+    "constraints": "1 <= N, M, P <= 1000 Most matrix elements are zero."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000938",
+    "fileSHA": "030fe4f912e7dd7f6561c5d217da4dfe8c88d0800ba2f168984f79fc9e459b21",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "030fe4f912e7dd7f6561c5d217da4dfe8c88d0800ba2f168984f79fc9e459b21",
+    "normalizedCodeHash": "030fe4f912e7dd7f6561c5d217da4dfe8c88d0800ba2f168984f79fc9e459b21",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000938"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

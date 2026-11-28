@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000736",
+  "problemId": "P000736",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000736",
+    "title": "K-th Symbol in Grammar",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "The first row contains a single symbol 0. Each 0 generates 01, and each 1 generates 10 in the next row. Given integers N and K, return the K-th symbol in the N-th row.",
+    "input": "Integer N Integer K",
+    "output": "The K-th symbol.",
+    "constraints": "1 <= N <= 30 1 <= K <= 2^(N-1)"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000736",
+    "fileSHA": "a4456e92cb8f8ab1ef0476208b2142b6800f2dd4d72b07a5d0ce3c480e234af6",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a4456e92cb8f8ab1ef0476208b2142b6800f2dd4d72b07a5d0ce3c480e234af6",
+    "normalizedCodeHash": "a4456e92cb8f8ab1ef0476208b2142b6800f2dd4d72b07a5d0ce3c480e234af6",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000736"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

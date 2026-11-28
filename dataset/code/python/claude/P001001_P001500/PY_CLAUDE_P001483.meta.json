@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_CLAUDE_P001483",
+  "problemId": "P001483",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001483",
+    "title": "Max Consecutive Ones III",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary array and an integer K, determine the length of the longest contiguous subarray containing only 1s after changing at most K zeros to ones.",
+    "input": "• First line contains integers N and K. • Second line contains N binary integers.",
+    "output": "Print the maximum possible length.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P001483",
+    "fileSHA": "3773a74801c8f830c3b073725489bfd2d0357dce12a2640fb1cfdc645a668a3d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0fcaf57fe5ff91a163566649ad4acc6a9f0817a439becf8deef65e21d91e82fa",
+    "normalizedCodeHash": "3773a74801c8f830c3b073725489bfd2d0357dce12a2640fb1cfdc645a668a3d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

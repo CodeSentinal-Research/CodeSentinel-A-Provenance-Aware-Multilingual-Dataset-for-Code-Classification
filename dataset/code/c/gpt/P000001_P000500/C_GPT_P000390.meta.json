@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000390",
+  "problemId": "P000390",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000390",
+    "title": "Search Products Within Price Range",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find all products whose prices fall within a specified minimum and maximum range.",
+    "input": "Product records, minimum price, maximum price.",
+    "output": "All matching products.",
+    "constraints": "1 ≤ Number of Products ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000390.c",
+    "fileSHA": "4fc9503ec463b3deef8df8a741c926b5acb4d29a61652501f8d34d5135e01c35",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4fc9503ec463b3deef8df8a741c926b5acb4d29a61652501f8d34d5135e01c35",
+    "normalizedCodeHash": "4fc9503ec463b3deef8df8a741c926b5acb4d29a61652501f8d34d5135e01c35",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

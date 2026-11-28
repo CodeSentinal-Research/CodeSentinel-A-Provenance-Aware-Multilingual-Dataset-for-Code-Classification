@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001069",
+  "problemId": "P001069",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001069",
+    "title": "Shortest Path in a Directed Acyclic Graph",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a weighted Directed Acyclic Graph (DAG) and a source vertex S, determine the shortest distance from S to every other vertex.",
+    "input": "\u2022 First line contains integers N, M, and S. \u2022 Next M lines contain three integers u, v, and w.",
+    "output": "Print the shortest distance from S to every vertex. Print -1 for unreachable vertices.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5 \u2022 -10^4 \u2264 w \u2264 10^4"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/graph_algorithms/src/dijkstra_shortest_path/dijkstra_shortest_path.js",
+    "fileSHA": "113b51d257c9162823ecf7bddfc3bb44d857569d",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/graph_algorithms/src/dijkstra_shortest_path/dijkstra_shortest_path.js",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/graph_algorithms/src/dijkstra_shortest_path/dijkstra_shortest_path.js"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ec8374e7a77d8c40efd1cf724decd0250188bed34094bae2851d74d9c8a199e6",
+    "normalizedCodeHash": "ec8374e7a77d8c40efd1cf724decd0250188bed34094bae2851d74d9c8a199e6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:05.806866+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

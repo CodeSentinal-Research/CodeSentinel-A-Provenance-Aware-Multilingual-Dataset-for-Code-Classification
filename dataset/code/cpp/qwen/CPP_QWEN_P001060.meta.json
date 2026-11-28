@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001060",
+  "problemId": "P001060",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001060",
+    "title": "Sort Nearly Sorted Array",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array in which every element is at most K positions away from its correct position in the sorted order, sort the array efficiently using a heap-based algorithm.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the sorted array.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 0 \u2264 K < N"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001060",
+    "fileSHA": "7e9b187464973fc81253565f03086567fb16417552c2c6997fd9b0ea2de572ad",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.589Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "037738c5337526916ab35bb9f2c024cc50f366cb6122068fb74c9b224833423a",
+    "normalizedCodeHash": "e20a45c4e352c035fc8f88ed1fc938447f36a580aeb2c3cd3e2cf5fe55865406",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.589Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000522",
+  "problemId": "P000522",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000522",
+    "title": "Design Browser History",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Design a browser history manager that supports the following operations: visit(url) \u2014 Visit a new webpage. back(steps) \u2014 Move back by at most steps pages. forward(steps) \u2014 Move forward by at most steps pages. Initially, the browser starts at the homepage. Process a sequence of operations and print the current page after every back() and forward() operation.",
+    "input": "A homepage URL. Integer q. Next q operations.",
+    "output": "Print the current page after every back() and forward() operation.",
+    "constraints": "1 <= q <= 5 \u00d7 10^4 URL length does not exceed 100 characters."
+  },
+  "repository": {
+    "name": "jnarin/lc_c_cplusplus",
+    "owner": "jnarin",
+    "url": "https://github.com/jnarin/lc_c_cplusplus",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "1472. Design Browser History.c",
+    "fileSHA": "ff8904fcf85b21583228113921937013c92f095b",
+    "url": "https://github.com/jnarin/lc_c_cplusplus/blob/b1d267f3cde123ca2c0907bf72ebad097a42337a/1472. Design Browser History.c",
+    "rawUrl": "https://raw.githubusercontent.com/jnarin/lc_c_cplusplus/main/1472. Design Browser History.c"
+  },
+  "matching": {
+    "relevanceScore": 77.16
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b1a535920f7e9360b0e5c95b3bf2d58d9b585434693af48521641bf8ed111d3b",
+    "normalizedCodeHash": "b1a535920f7e9360b0e5c95b3bf2d58d9b585434693af48521641bf8ed111d3b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:35:59.995661+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

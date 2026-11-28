@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001563",
+  "problemId": "P001563",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001563",
+    "title": "Longest Subarray With Absolute Difference Within Limit",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and an integer Limit, determine the length of the longest contiguous subarray such that the absolute difference between the maximum and minimum elements in the subarray does not exceed Limit.",
+    "input": "\u2022 First line contains N and Limit. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the maximum length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9 \u2022 0 \u2264 Limit \u2264 10^9"
+  },
+  "repository": {
+    "name": "higgsboson909/interview_prep",
+    "owner": "higgsboson909",
+    "url": "https://github.com/higgsboson909/interview_prep",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "generate_questions.py",
+    "fileSHA": "130a91d47479b8bb2fa296d56b0ab35ec9cfae5b",
+    "url": "https://github.com/higgsboson909/interview_prep/blob/a7137eb0f96f93559afdf34925c723db738ea2a1/generate_questions.py",
+    "rawUrl": "https://raw.githubusercontent.com/higgsboson909/interview_prep/main/generate_questions.py"
+  },
+  "matching": {
+    "relevanceScore": 82.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "cf90fb4af0fc8f8827e0dddb4c47d2af8a1cf8232d43af2bbf69978950b8da67",
+    "normalizedCodeHash": "cf90fb4af0fc8f8827e0dddb4c47d2af8a1cf8232d43af2bbf69978950b8da67",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T14:23:03.586286+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

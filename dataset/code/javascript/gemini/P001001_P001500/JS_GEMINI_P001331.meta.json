@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001331",
+  "problemId": "P001331",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001331",
+    "title": "Restore IP Addresses",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string containing only digits, generate all possible valid IPv4 addresses by inserting three dots. Each segment must be between 0 and 255 and cannot contain leading zeros unless the segment is exactly 0.",
+    "input": "\u2022 First line contains a digit string.",
+    "output": "Print all valid IPv4 addresses in lexicographical order.",
+    "constraints": "\u2022 1 \u2264 Length \u2264 12"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001331",
+    "fileSHA": "0365624256a24da49e2d4cac07ea46df6075fdcd542383c35ef311fca7e6769f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:21:56.229085+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0365624256a24da49e2d4cac07ea46df6075fdcd542383c35ef311fca7e6769f",
+    "normalizedCodeHash": "0365624256a24da49e2d4cac07ea46df6075fdcd542383c35ef311fca7e6769f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:21:56.229120+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

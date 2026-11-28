@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000524",
+  "problemId": "P000524",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000524",
+    "title": "Beautiful Towers I",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "You are given the maximum possible height for each tower in a row. Construct tower heights such that: Each tower's height is at least 1. No tower exceeds its maximum height. Heights are non-increasing as you move away from a chosen peak. Find the maximum possible sum of tower heights.",
+    "input": "Integer n Array maxHeights",
+    "output": "A single integer representing the maximum total height.",
+    "constraints": "1 <= n <= 10^3 1 <= maxHeights[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "javascript/gemini/JS_GEMINI_P000524",
+    "fileSHA": "a6d3849f5c6628fa0d5daca86eb41d9a13dfc94a972d2b8eb025e5ad4b2bb4d2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:43:26.070509+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a6d3849f5c6628fa0d5daca86eb41d9a13dfc94a972d2b8eb025e5ad4b2bb4d2",
+    "normalizedCodeHash": "a6d3849f5c6628fa0d5daca86eb41d9a13dfc94a972d2b8eb025e5ad4b2bb4d2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:43:26.070535+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

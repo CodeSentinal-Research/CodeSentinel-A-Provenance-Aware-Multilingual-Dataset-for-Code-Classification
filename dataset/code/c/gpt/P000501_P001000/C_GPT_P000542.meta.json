@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000542",
+  "problemId": "P000542",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000542",
+    "title": "Design Front Middle Back Queue",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Design a queue that supports insertion and deletion at the front, middle, and back. The queue must support: pushFront(x) pushMiddle(x) pushBack(x) popFront() popMiddle() popBack() If the queue is empty, every pop operation returns -1. Process a sequence of operations and print the results of every pop operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result of every pop operation.",
+    "constraints": "1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000542.c",
+    "fileSHA": "5c14ace1e97deba9332766f9d5ffda402317e10761a2d1c1389d0a437473d065",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5c14ace1e97deba9332766f9d5ffda402317e10761a2d1c1389d0a437473d065",
+    "normalizedCodeHash": "5c14ace1e97deba9332766f9d5ffda402317e10761a2d1c1389d0a437473d065",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

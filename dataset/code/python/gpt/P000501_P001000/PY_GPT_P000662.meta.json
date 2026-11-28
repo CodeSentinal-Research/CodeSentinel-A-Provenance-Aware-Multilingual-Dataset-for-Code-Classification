@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000662",
+  "problemId": "P000662",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000662",
+    "title": "Reverse First K Nodes of Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list and an integer k, reverse only the first k nodes of the list. The remaining nodes must remain unchanged. If k is greater than the length of the list, reverse the entire list. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer k",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000662.py",
+    "fileSHA": "9ee40aec53d09fcb555193748788c3db2dfd9eab99a4870be30b11aaedac1f0b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.590781+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9ee40aec53d09fcb555193748788c3db2dfd9eab99a4870be30b11aaedac1f0b",
+    "normalizedCodeHash": "11ec06bb46a2ac8f5421d29a86791b66c1a06f3bebddbe07403bd6216e8037d5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.590781+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001620",
+  "problemId": "P001620",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001620",
+    "title": "Sum of Alternate Elements in a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, determine the sum of elements at alternate positions within each specified range, starting from the left endpoint.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Next Q lines each contain L and R.",
+    "output": "\u2022 For each query, print the required sum.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001620",
+    "fileSHA": "ff3568de4a18a45444e835ab1280e06fea28a094e2f1af04804d68e4cf192d59",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:56.919455+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ff3568de4a18a45444e835ab1280e06fea28a094e2f1af04804d68e4cf192d59",
+    "normalizedCodeHash": "ff3568de4a18a45444e835ab1280e06fea28a094e2f1af04804d68e4cf192d59",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:56.919496+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

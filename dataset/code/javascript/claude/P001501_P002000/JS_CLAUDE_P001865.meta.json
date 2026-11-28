@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_CLAUDE_P001865",
+  "problemId": "P001865",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001865",
+    "title": "Construct a Binary Search Tree from Search Access Frequencies",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a set of distinct keys and their search access frequencies, construct a Binary Search Tree that minimizes the weighted search cost.",
+    "input": "• The first line contains an integer N. • The second line contains the keys. • The third line contains the corresponding search frequencies.",
+    "output": "• Print the constructed Binary Search Tree.",
+    "constraints": "• 1 ≤ N ≤ 1000 Topic Start Problem ID End Problem ID Total Sliding Window P001656 P001705 50 Prefix Sum P001706 P001805 100 Trees P001806 P001955 150 Binary Search Trees (BST) P001956 P002035 80 Total P001656 P002035 380"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P001865",
+    "fileSHA": "48959ed99ef75abfe963070c75d705f659ce28320108befcaf52bb45b6a89de4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fee182c40e1decca124fe53095f475932f2c4d1b735d4c2d6520930466c6eced",
+    "normalizedCodeHash": "48959ed99ef75abfe963070c75d705f659ce28320108befcaf52bb45b6a89de4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

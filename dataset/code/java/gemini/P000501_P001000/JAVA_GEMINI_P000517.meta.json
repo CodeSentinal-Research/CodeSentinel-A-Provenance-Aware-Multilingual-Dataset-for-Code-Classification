@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000517",
+  "problemId": "P000517",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000517",
+    "title": "Maximum Width Ramp",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "A ramp is a pair of indices (i, j) such that i < j and nums[i] <= nums[j]. Find the maximum width of a ramp in the array, where the width is j - i. Return the maximum possible width.",
+    "input": "Integer n Array nums",
+    "output": "A single integer representing the maximum width.",
+    "constraints": "2 <= n <= 5 \u00d7 10^4 0 <= nums[i] <= 5 \u00d7 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "java/gemini/JAVA_GEMINI_P000517",
+    "fileSHA": "a48ea17b7595dd427306771eb384c99d90f595806baa5a4ec68e7250034f0049",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:42:17.353883+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a48ea17b7595dd427306771eb384c99d90f595806baa5a4ec68e7250034f0049",
+    "normalizedCodeHash": "a48ea17b7595dd427306771eb384c99d90f595806baa5a4ec68e7250034f0049",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:42:17.353914+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

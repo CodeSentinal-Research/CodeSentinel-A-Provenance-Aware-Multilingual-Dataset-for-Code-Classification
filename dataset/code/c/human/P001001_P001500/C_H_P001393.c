@@ -1,0 +1,127 @@
+/*
+ * P523: Continuous Subarray Sum [PREMIUM] (Medium)
+ * https://leetcode.com/problems/continuous-subarray-sum/
+ * Topics: Array, Hash Table, Math, Prefix Sum
+ *
+ * Given an integer array nums and an integer k, return true if nums has a good subarray or false otherwise.
+ * A good subarray is a subarray where:
+ * Note that:
+ * Example 1:
+ *     Input: nums = [23,2,4,6,7], k = 6
+ *     Output: true
+ *     Explanation: [2, 4] is a continuous subarray of size 2 whose elements sum up to 6.
+ *
+ * Example 2:
+ *     Input: nums = [23,2,6,4,7], k = 6
+ *     Output: true
+ *     Explanation: [23, 2, 6, 4, 7] is an continuous subarray of size 5 whose elements sum up to 42.
+ *     42 is a multiple of 6 because 42 = 7 * 6 and 7 is an integer.
+ *
+ * Example 3:
+ *     Input: nums = [23,2,6,4,7], k = 13
+ *     Output: false
+ *
+ * Constraints:
+ *     - 1 <= nums.length <= 10^5
+ *     - 0 <= nums[i] <= 10^9
+ *     - 0 <= sum(nums[i]) <= 2^31 - 1
+ *     - 1 <= k <= 2^31 - 1
+ *
+ * Template (python3):
+ *     class Solution:
+ *         def checkSubarraySum(self, nums: List[int], k: int) -> bool:
+ */
+
+#include "io.h"
+#include <stdlib.h>
+#include <limits.h>
+
+typedef struct Entry {
+    int key;
+    int value;
+    struct Entry *next;
+} Entry;
+
+#define HM_SIZE 10009
+
+static Entry *hm[HM_SIZE];
+
+static void hm_init(void)
+{
+    for (int i = 0; i < HM_SIZE; i++) hm[i] = NULL;
+}
+
+static void hm_set(int key, int val)
+{
+    unsigned idx = ((unsigned)key % HM_SIZE);
+    Entry *e = hm[idx];
+    while (e) {
+        if (e->key == key) { e->value = val; return; }
+        e = e->next;
+    }
+    Entry *ne = (Entry *)malloc(sizeof(Entry));
+    ne->key = key;
+    ne->value = val;
+    ne->next = hm[idx];
+    hm[idx] = ne;
+}
+
+static int hm_get(int key, int *found)
+{
+    unsigned idx = ((unsigned)key % HM_SIZE);
+    Entry *e = hm[idx];
+    while (e) {
+        if (e->key == key) { *found = 1; return e->value; }
+        e = e->next;
+    }
+    *found = 0;
+    return 0;
+}
+
+static void hm_clear(void)
+{
+    for (int i = 0; i < HM_SIZE; i++) {
+        Entry *e = hm[i];
+        while (e) {
+            Entry *next = e->next;
+            free(e);
+            e = next;
+        }
+        hm[i] = NULL;
+    }
+}
+
+int check_subarray_sum(int *nums, int numsSize, int k)
+{
+    hm_init();
+    hm_set(0, -1);
+    int prefix = 0;
+    int result = 0;
+    for (int i = 0; i < numsSize; i++) {
+        prefix = (prefix + nums[i]) % k;
+        int found;
+        int idx = hm_get(prefix, &found);
+        if (found && i - idx > 1) {
+            result = 1;
+            break;
+        }
+        if (!found) {
+            hm_set(prefix, i);
+        }
+    }
+    hm_clear();
+    return result;
+}
+
+int main(void)
+{
+    int n;
+    int *nums = read_ints(&n);
+    int kl;
+    int *target_line = read_ints(&kl);
+    int k = target_line[0];
+    free(target_line);
+    write_bool(check_subarray_sum(nums, n, k));
+    free(nums);
+    return 0;
+}

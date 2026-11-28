@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001765",
+  "problemId": "P001765",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001765",
+    "title": "Check Whether Every Root-to-Leaf Path Has the Same Length",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given a binary tree, determine whether every root-to-leaf path contains the same number of edges.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print YES if all paths have equal length; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001765",
+    "fileSHA": "8fc1c971de558e8dde9639695c45e1c133193b3c51f40b080c42aaa2b85e2711",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:08.740201+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8fc1c971de558e8dde9639695c45e1c133193b3c51f40b080c42aaa2b85e2711",
+    "normalizedCodeHash": "8fc1c971de558e8dde9639695c45e1c133193b3c51f40b080c42aaa2b85e2711",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:08.740240+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

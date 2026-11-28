@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000714",
+  "problemId": "P000714",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000714",
+    "title": "Subset Sum",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers, generate the sum of every possible subset using recursion. Return all subset sums in non-decreasing order.",
+    "input": "Integer n Array nums",
+    "output": "All subset sums sorted in non-decreasing order.",
+    "constraints": "1 <= n <= 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000714.c",
+    "fileSHA": "9d40dee42bea7e3960d430f4b4435cab1743829c1de54d4b28117808a7a91d2e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9d40dee42bea7e3960d430f4b4435cab1743829c1de54d4b28117808a7a91d2e",
+    "normalizedCodeHash": "9d40dee42bea7e3960d430f4b4435cab1743829c1de54d4b28117808a7a91d2e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

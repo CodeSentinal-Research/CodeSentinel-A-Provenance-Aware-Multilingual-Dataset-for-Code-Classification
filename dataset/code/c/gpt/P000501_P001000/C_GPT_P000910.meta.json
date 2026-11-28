@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000910",
+  "problemId": "P000910",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000910",
+    "title": "Compute Permutations (nPr)",
+    "category": "Mathematics - Combinatorics",
+    "difficulty": "Easy",
+    "problemStatement": "Given two integers n and r, compute the number of permutations nPr, representing the number of ways to arrange r objects selected from n distinct objects.",
+    "input": "Integer n Integer r",
+    "output": "The value of nPr.",
+    "constraints": "0 <= r <= n <= 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000910.c",
+    "fileSHA": "e45282486dee299204108581e8124d952362394d9ad6ae210407dab980b536a5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e45282486dee299204108581e8124d952362394d9ad6ae210407dab980b536a5",
+    "normalizedCodeHash": "e45282486dee299204108581e8124d952362394d9ad6ae210407dab980b536a5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

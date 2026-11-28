@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000588",
+  "problemId": "P000588",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000588",
+    "title": "Copy List with Random Pointer",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "A linked list consists of nodes containing: value next pointer random pointer, which may point to any node in the list or be null. Create a deep copy of the linked list and return the head of the copied list.",
+    "input": "A linked list with next and random pointers.",
+    "output": "The head of the deep-copied linked list.",
+    "constraints": "Number of nodes is in the range [0, 1000]."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000588",
+    "fileSHA": "d3c3729ff60d9a039c827395d559030be5a5511a0e4021019c2218172eb3c57f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d3c3729ff60d9a039c827395d559030be5a5511a0e4021019c2218172eb3c57f",
+    "normalizedCodeHash": "d3c3729ff60d9a039c827395d559030be5a5511a0e4021019c2218172eb3c57f",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000588: Copy List with Random Pointer"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

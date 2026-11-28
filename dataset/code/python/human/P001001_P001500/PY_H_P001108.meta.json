@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001108",
+  "problemId": "P001108",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001108",
+    "title": "Reachability Queries",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a directed graph and Q queries, determine whether there exists a path from vertex u to vertex v for each query.",
+    "input": "\u2022 First line contains integers N, M, and Q. \u2022 Next M lines contain directed edges. \u2022 Next Q lines contain two integers u and v.",
+    "output": "For each query, print YES if a path exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "keon/algorithms",
+    "owner": "keon",
+    "url": "https://github.com/keon/algorithms",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/graph/path_between_two_vertices_in_digraph.py",
+    "fileSHA": "edd5d0c886e62af5ca0962c772a60035e3023583",
+    "url": "https://github.com/keon/algorithms/blob/e46c1a5f543c1d71e687598a277df2e3d075583a/algorithms/graph/path_between_two_vertices_in_digraph.py",
+    "rawUrl": "https://raw.githubusercontent.com/keon/algorithms/main/algorithms/graph/path_between_two_vertices_in_digraph.py"
+  },
+  "matching": {
+    "relevanceScore": 62.22
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ff3c0d56477b1cbbaea2dd8faf7e74fe431c046aea9356de6949445c88547038",
+    "normalizedCodeHash": "ff3c0d56477b1cbbaea2dd8faf7e74fe431c046aea9356de6949445c88547038",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:16:49.148232+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

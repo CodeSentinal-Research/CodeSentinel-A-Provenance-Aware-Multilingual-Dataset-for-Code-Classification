@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_CLAUDE_P001699",
+  "problemId": "P001699",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001699",
+    "title": "Even-Odd Tree Validation",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, determine whether it satisfies the Even-Odd Tree property. Nodes at even-indexed levels must contain strictly increasing odd values, while nodes at odd-indexed levels must contain strictly decreasing even values.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print YES if the tree satisfies the property; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P001699",
+    "fileSHA": "20303549fdde02cd47118945080fc77c973ab14d3ec5c498ef3ba0baaf746c18",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "90db5d314785c50e01962ecea9508946a15d4e4b61b5d0e09c76183ca1afc3e8",
+    "normalizedCodeHash": "20303549fdde02cd47118945080fc77c973ab14d3ec5c498ef3ba0baaf746c18",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

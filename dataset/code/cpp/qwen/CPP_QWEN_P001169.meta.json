@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001169",
+  "problemId": "P001169",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001169",
+    "title": "Dungeon Game",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "A knight must rescue a princess trapped in the bottom-right corner of a dungeon represented by a grid. Each cell may increase or decrease the knight's health. Determine the minimum initial health required so that the knight can safely reach the princess.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines each contain C integers.",
+    "output": "Print the minimum initial health required.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001169",
+    "fileSHA": "954bcc21fba531c7734508aac7618a37bafa4378abd8c932949eedd587b6a324",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.861Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "dcffae94d7195976fbccc8ed7e2fbfbfa099324347c4147ffddbca5ab7e583ff",
+    "normalizedCodeHash": "8f1fe8cfbfd545a269cc7abbc43ae755be2465ee5a0a08b91f121b164eb41b88",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.861Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

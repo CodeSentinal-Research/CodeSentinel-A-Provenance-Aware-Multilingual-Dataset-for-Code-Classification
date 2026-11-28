@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001624",
+  "problemId": "P001624",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001624",
+    "title": "Difference Array Reconstruction",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given the difference array of an integer array, reconstruct the original array.",
+    "input": "• First line contains N. • Second line contains N integers representing the difference array.",
+    "output": "• Print the reconstructed array.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • -10^9 ≤ Di ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001624.c",
+    "fileSHA": "40f735625fd41822c3088f41425bbfe5409faef7bed7546a5d54603332871240",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.029Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a0d015b45de31fa12efa5a42e9f3876585d77de7ee3f4954e8a599605cec3b22",
+    "normalizedCodeHash": "40f735625fd41822c3088f41425bbfe5409faef7bed7546a5d54603332871240",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.029Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

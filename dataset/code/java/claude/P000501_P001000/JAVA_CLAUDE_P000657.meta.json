@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000657",
+  "problemId": "P000657",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000657",
+    "title": "Sort a Bitonic Doubly Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "A doubly linked list is bitonic if its values first increase and then decrease. Given the head of a bitonic doubly linked list, sort the list in non-decreasing order. Return the head of the sorted doubly linked list.",
+    "input": "Integer n Bitonic doubly linked list",
+    "output": "The sorted doubly linked list.",
+    "constraints": "1 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000657",
+    "fileSHA": "4e418df50fb86f1e06657edbc7ad8f4bcfc4a04a020efb3a48f3787073001fea",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4e418df50fb86f1e06657edbc7ad8f4bcfc4a04a020efb3a48f3787073001fea",
+    "normalizedCodeHash": "4e418df50fb86f1e06657edbc7ad8f4bcfc4a04a020efb3a48f3787073001fea",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000657"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

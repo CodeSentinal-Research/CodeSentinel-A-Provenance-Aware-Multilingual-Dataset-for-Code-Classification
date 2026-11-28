@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000844",
+  "problemId": "P000844",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000844",
+    "title": "Maximum Tastiness of Candy Basket",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given the prices of candies and an integer k, choose exactly k candies. The tastiness of a basket is defined as the minimum absolute difference between the prices of any two chosen candies. Return the maximum possible tastiness.",
+    "input": "Integer n Array price Integer k",
+    "output": "The maximum tastiness.",
+    "constraints": "2 <= n <= 10^5 2 <= k <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000844.c",
+    "fileSHA": "ca0181b6cbea90ae38e8813c6355f9319505421d865b411810dab35ed988419d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ca0181b6cbea90ae38e8813c6355f9319505421d865b411810dab35ed988419d",
+    "normalizedCodeHash": "ca0181b6cbea90ae38e8813c6355f9319505421d865b411810dab35ed988419d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

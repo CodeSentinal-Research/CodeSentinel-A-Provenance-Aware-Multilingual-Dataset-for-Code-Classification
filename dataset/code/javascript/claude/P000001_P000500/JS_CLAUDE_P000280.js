@@ -1,0 +1,1 @@
+const[s1,s2]=require("fs").readFileSync("/dev/stdin","utf8").trim().split(" ");const f={};for(const c of s1)f[c]=(f[c]||0)+1;for(const c of s2)f[c]=(f[c]||0)-1;let d=0;for(const v of Object.values(f))if(v<0)d+=-v;console.log(d<=1?"Yes":"No");

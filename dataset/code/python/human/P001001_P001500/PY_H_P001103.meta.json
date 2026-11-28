@@ -1,0 +1,75 @@
+{
+  "solutionId": "PY_H_P001103",
+  "problemId": "P001103",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001103",
+    "title": "Critical Connections in a Network",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected network of servers, determine all critical connections whose removal disconnects the network.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print all critical connections in lexicographical order. If none exist, print NONE.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2\u00d710^5 \u2022 1 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "jz33/LeetCodeSolutions",
+    "owner": "jz33",
+    "url": "https://github.com/jz33/LeetCodeSolutions",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P001001_P001500/PY_H_P001103.py",
+    "fileSHA": "1c05284cb22c0d78bea31719100e6b76ea70fa7e",
+    "url": "https://github.com/jz33/LeetCodeSolutions/blob/86c869ff3bc611042c79007bfbaa9163f335fecf/T-1192 Critical Connections in a Network.py",
+    "rawUrl": "https://raw.githubusercontent.com/jz33/LeetCodeSolutions/main/T-1192 Critical Connections in a Network.py"
+  },
+  "matching": {
+    "relevanceScore": 71.06
+  },
+  "provenance": {
+    "score": 82.5,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2019-10-09T22:46:18Z",
+    "lastCommitDate": "2024-02-05T08:38:21Z",
+    "commitCount": 4,
+    "authorCount": 2,
+    "authors": [
+      "Jun",
+      "jz33"
+    ],
+    "firstKnownAuthor": "Jun",
+    "latestKnownAuthor": "jz33"
+  },
+  "deduplication": {
+    "rawCodeHash": "98d9dabff2c90a8e8d780a99ca4f6926831aa83370e3aeb8c0dc7d12ee2e6853",
+    "normalizedCodeHash": "98d9dabff2c90a8e8d780a99ca4f6926831aa83370e3aeb8c0dc7d12ee2e6853",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T07:38:13.672103+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

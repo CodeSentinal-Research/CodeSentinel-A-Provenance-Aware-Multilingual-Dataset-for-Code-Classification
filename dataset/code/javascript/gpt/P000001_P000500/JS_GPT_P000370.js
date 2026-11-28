@@ -1,0 +1,2 @@
+// Search Duplicate Value
+const fs=require("fs");const a=fs.readFileSync(0,"utf8").trim().split(/\s+/).map(Number),n=a[0],seen=new Set();let ans=-1;for(let i=0;i<n;i++){const v=a[i+1];if(seen.has(v)){ans=v;break;}seen.add(v);}console.log(ans);

@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001075",
+  "problemId": "P001075",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001075",
+    "title": "Bellman-Ford Algorithm",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a weighted directed graph that may contain negative edge weights, determine the shortest distance from a source vertex to every other vertex. If a negative weight cycle exists, report it.",
+    "input": "• First line contains integers N, M, and S. • Next M lines contain three integers u, v, and w.",
+    "output": "Print NEGATIVE CYCLE if one exists; otherwise print the shortest distances.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001075.js",
+    "fileSHA": "db80cce1c4d3a599f4bfa9088507056c01feae354c509b634bcabf0d4de3ca89",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T09:30:51.258473+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "db80cce1c4d3a599f4bfa9088507056c01feae354c509b634bcabf0d4de3ca89",
+    "normalizedCodeHash": "db80cce1c4d3a599f4bfa9088507056c01feae354c509b634bcabf0d4de3ca89",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T09:30:51.258473+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

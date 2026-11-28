@@ -1,0 +1,1 @@
+const l=require("fs").readFileSync("/dev/stdin","utf8").trim().split("\n");const n=+l[0];const strs=l.slice(1,n+1);const enc=strs.map(s=>s.length+"#"+s).join("");console.log(enc);let i=0;const dec=[];while(i<enc.length){const j=enc.indexOf("#",i);const len=+enc.slice(i,j);dec.push(enc.slice(j+1,j+1+len));i=j+1+len;}console.log(dec.join(" "));

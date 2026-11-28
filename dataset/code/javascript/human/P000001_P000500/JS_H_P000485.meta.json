@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000485",
+  "problemId": "P000485",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000485",
+    "title": "Asteroid Collision",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an array of integers representing asteroids moving along a straight line. Positive values move right. Negative values move left. When two asteroids moving in opposite directions collide: The smaller one explodes. If both have the same size, both explode. Asteroids moving in the same direction never collide. Return the final state of the asteroids.",
+    "input": "Integer n Array of integers.",
+    "output": "The remaining asteroids after all collisions.",
+    "constraints": "1 <= n <= 10^5 -1000 <= asteroid[i] <= 1000"
+  },
+  "repository": {
+    "name": "fgferre/ASTEROIDS_ROGUEFIELD",
+    "owner": "fgferre",
+    "url": "https://github.com/fgferre/ASTEROIDS_ROGUEFIELD",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/modules/enemies/components/AsteroidCollision.js",
+    "fileSHA": "c3929f9346763a10b104c6e1035778a97c20232f",
+    "url": "https://github.com/fgferre/ASTEROIDS_ROGUEFIELD/blob/9183e82f7e2948a1528f544fed38d15fe9acb7ef/src/modules/enemies/components/AsteroidCollision.js",
+    "rawUrl": "https://raw.githubusercontent.com/fgferre/ASTEROIDS_ROGUEFIELD/main/src/modules/enemies/components/AsteroidCollision.js"
+  },
+  "matching": {
+    "relevanceScore": 70.65
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "63ebba29acd6e422d0a66872b1bc666f615cd58afe38c3e5e7775b8dfd1b7054",
+    "normalizedCodeHash": "63ebba29acd6e422d0a66872b1bc666f615cd58afe38c3e5e7775b8dfd1b7054",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:11:56.306750+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000515",
+  "problemId": "P000515",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000515",
+    "title": "Car Fleet II",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "There are n cars traveling in the same direction on a one-lane road. Each car has an initial position and speed. Whenever a faster car catches up to a slower car ahead, they collide and continue moving together at the slower speed. For every car, determine the time at which it collides with the next car ahead. If it never collides, return -1.",
+    "input": "Integer n n pairs representing (position, speed).",
+    "output": "An array of floating-point numbers where the i-th value is the collision time of the i-th car.",
+    "constraints": "1 <= n <= 10^5 Positions are strictly increasing. 1 <= speed <= 10^6"
+  },
+  "repository": {
+    "name": "aqwertyuiop48/leetcode_programming",
+    "owner": "aqwertyuiop48",
+    "url": "https://github.com/aqwertyuiop48/leetcode_programming",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "java_solutions/1776.car-fleet-ii.java",
+    "fileSHA": "971f4299a38acb7779dd3b2ee5d9b70df12e17c8",
+    "url": "https://github.com/aqwertyuiop48/leetcode_programming/blob/4e668e4a3cf763d5ba1fd10db1a23b9b989fdf4b/java_solutions/1776.car-fleet-ii.java",
+    "rawUrl": "https://raw.githubusercontent.com/aqwertyuiop48/leetcode_programming/main/java_solutions/1776.car-fleet-ii.java"
+  },
+  "matching": {
+    "relevanceScore": 79.69
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "af3552c1be2d9212b177b99b359e9544de9bb40116cbbac28d0edf78e389b09d",
+    "normalizedCodeHash": "af3552c1be2d9212b177b99b359e9544de9bb40116cbbac28d0edf78e389b09d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:14:41.099763+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

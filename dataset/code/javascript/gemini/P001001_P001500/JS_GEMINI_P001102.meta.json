@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001102",
+  "problemId": "P001102",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001102",
+    "title": "Minimum Cost to Connect All Cities",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "There are N cities and a list of possible roads connecting pairs of cities with associated construction costs. Determine the minimum total cost required to connect all cities. If it is impossible, print -1.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain integers u, v, and cost.",
+    "output": "Print the minimum total construction cost.",
+    "constraints": "\u2022 2 \u2264 N \u2264 10^5 \u2022 1 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001102",
+    "fileSHA": "e18a4db83264a9c681f6d7b66ebd6b9d4ff15a552fc2d8f8f1a4b8d2f64eac21",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:45:01.255681+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e18a4db83264a9c681f6d7b66ebd6b9d4ff15a552fc2d8f8f1a4b8d2f64eac21",
+    "normalizedCodeHash": "e18a4db83264a9c681f6d7b66ebd6b9d4ff15a552fc2d8f8f1a4b8d2f64eac21",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:45:01.255710+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

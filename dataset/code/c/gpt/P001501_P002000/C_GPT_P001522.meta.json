@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001522",
+  "problemId": "P001522",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001522",
+    "title": "Minimum Operations to Reduce X to Zero",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer X, remove elements only from the beginning or the end of the array until the sum of the removed elements equals X. Determine the minimum number of operations required.",
+    "input": "• First line contains integers N and X. • Second line contains N integers.",
+    "output": "Print the minimum number of operations, or -1 if impossible.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001522.c",
+    "fileSHA": "fb763fbb12eb6a07f46b417c03269c979e77f0f54d97be95fee088070705a5ef",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.644Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "f24e8ffac06b3217d49debdce8a0fe0ee7297c6d1b6078af59578aaf16d63bb1",
+    "normalizedCodeHash": "fb763fbb12eb6a07f46b417c03269c979e77f0f54d97be95fee088070705a5ef",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.644Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

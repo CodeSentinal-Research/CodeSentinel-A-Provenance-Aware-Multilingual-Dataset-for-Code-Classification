@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_CLAUDE_P001545",
+  "problemId": "P001545",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001545",
+    "title": "Minimum Difference Between Maximum and Minimum in Every Window",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and an integer K, determine the minimum value of (maximum element − minimum element) among all contiguous subarrays of size exactly K.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the minimum difference.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • 1 ≤ K ≤ N • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P001545",
+    "fileSHA": "2b64e716cd8f97a9c7a72f29bc5c9cdba672bd88d096bbdc7972210ec1d400b8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "73dabe7f103a3de30042a93049d6f0105ce5e86e4e956721f962010cc86ea5f5",
+    "normalizedCodeHash": "2b64e716cd8f97a9c7a72f29bc5c9cdba672bd88d096bbdc7972210ec1d400b8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

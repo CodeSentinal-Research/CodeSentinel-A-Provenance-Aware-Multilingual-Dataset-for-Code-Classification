@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000510",
+  "problemId": "P000510",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000510",
+    "title": "Final Prices With a Special Discount in a Shop",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an array where prices[i] is the price of the i-th item. For each item, find the first item to its right whose price is less than or equal to the current item's price. Use that value as a discount. If no such item exists, no discount is applied. Return the final price of every item after applying the discount.",
+    "input": "Integer n Array prices",
+    "output": "An array representing the final prices.",
+    "constraints": "1 <= n <= 500 1 <= prices[i] <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000510",
+    "fileSHA": "a4de6cd1b98f7ee44b2b533d758eac06c81870b1a586806235ea8620a22cc17d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.419Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "8d395d9225aa5bb45e6a8ba9f0f58fbee4601a2d4d59cffc6bf12c0977c670ee",
+    "normalizedCodeHash": "34c28e61b17b833492e780ebeb272557eb0bb1195786450d4ec151b9a04cddf6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.419Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

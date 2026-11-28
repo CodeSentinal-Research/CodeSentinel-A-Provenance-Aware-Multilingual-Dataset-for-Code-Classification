@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000777",
+  "problemId": "P000777",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000777",
+    "title": "Crossword Puzzle Solver",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a crossword grid containing blocked cells and empty slots, along with a list of words, fill the crossword so that every word is placed exactly once either horizontally or vertically. If multiple solutions exist, print any one valid completed crossword.",
+    "input": "Integer N Character matrix grid Integer W Array words",
+    "output": "The completed crossword grid.",
+    "constraints": "1 <= N <= 20 1 <= W <= 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "java/gemini/JAVA_GEMINI_P000777",
+    "fileSHA": "0339b0ef71dc4ae7c4e2cd09efabc7e7661a27bd11ad37a684d61a276e2b3028",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T17:15:01.754867+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0339b0ef71dc4ae7c4e2cd09efabc7e7661a27bd11ad37a684d61a276e2b3028",
+    "normalizedCodeHash": "0339b0ef71dc4ae7c4e2cd09efabc7e7661a27bd11ad37a684d61a276e2b3028",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T17:15:01.754886+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

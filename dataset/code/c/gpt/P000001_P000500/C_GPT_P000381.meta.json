@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000381",
+  "problemId": "P000381",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000381",
+    "title": "Search Contact by Name",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find a contact in a contact list using the contact name.",
+    "input": "A collection of contacts and a name.",
+    "output": "Matching contact details or \"Contact Not Found\".",
+    "constraints": "1 ≤ Number of Contacts ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000381.c",
+    "fileSHA": "8c3a214bd7d0d2e0c7861d41d1a541334737053d385c20a08d7a58ac67081d41",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8c3a214bd7d0d2e0c7861d41d1a541334737053d385c20a08d7a58ac67081d41",
+    "normalizedCodeHash": "8c3a214bd7d0d2e0c7861d41d1a541334737053d385c20a08d7a58ac67081d41",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

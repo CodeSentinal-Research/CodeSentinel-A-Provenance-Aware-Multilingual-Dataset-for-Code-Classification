@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P001056",
+  "problemId": "P001056",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001056",
+    "title": "Smallest Infinite Set Operations",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Design a data structure that initially contains all positive integers. Support removing and returning the smallest integer, and adding previously removed integers back into the set.",
+    "input": "• First line contains integer Q. • Next Q lines contain operations.",
+    "output": "Print the result of each removal operation.",
+    "constraints": "• 1 ≤ Q ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P001056",
+    "fileSHA": "0da9c6113c963986661a4eccc0d0b1af2667b65e46fcd6de70258d7b3bfdaec5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0da9c6113c963986661a4eccc0d0b1af2667b65e46fcd6de70258d7b3bfdaec5",
+    "normalizedCodeHash": "0da9c6113c963986661a4eccc0d0b1af2667b65e46fcd6de70258d7b3bfdaec5",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P001056"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

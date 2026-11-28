@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000566",
+  "problemId": "P000566",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000566",
+    "title": "Minimum Genetic Mutation",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "A gene string consists of exactly eight characters chosen from 'A', 'C', 'G', and 'T'. Given a starting gene, a target gene, and a bank of valid gene strings, determine the minimum number of single-character mutations required to reach the target. Each intermediate gene must exist in the bank. Return -1 if the mutation is impossible.",
+    "input": "String startGene String endGene Integer n List of gene strings",
+    "output": "A single integer representing the minimum number of mutations.",
+    "constraints": "Gene length is always 8 0 <= n <= 1000"
+  },
+  "repository": {
+    "name": "pritamnikam/leetcode-daily-challenge",
+    "owner": "pritamnikam",
+    "url": "https://github.com/pritamnikam/leetcode-daily-challenge",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "2022/november/Minimum Genetic Mutation.cpp",
+    "fileSHA": "bc7a8a5e59b32162b0c5be0decd3eebce3b0755f",
+    "url": "https://github.com/pritamnikam/leetcode-daily-challenge/blob/0747d6e07f0618bb089bfe320c2e13f9245c12fc/2022/november/Minimum Genetic Mutation.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/pritamnikam/leetcode-daily-challenge/main/2022/november/Minimum Genetic Mutation.cpp"
+  },
+  "matching": {
+    "relevanceScore": 84.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7050045c9f1dd41bd28172342703bf8e95963a10f11cc0a8296986231a63f426",
+    "normalizedCodeHash": "7050045c9f1dd41bd28172342703bf8e95963a10f11cc0a8296986231a63f426",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T19:14:40.413707+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

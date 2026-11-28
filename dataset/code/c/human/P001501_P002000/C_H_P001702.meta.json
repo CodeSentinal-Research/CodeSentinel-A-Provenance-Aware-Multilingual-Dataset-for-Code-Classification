@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001702",
+  "problemId": "P001702",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001702",
+    "title": "Count Good Nodes in a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, a node is considered good if no ancestor on the path from the root has a value greater than the node's value. Determine the total number of good nodes.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the number of good nodes.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "HannoFlohr/leetcode",
+    "owner": "HannoFlohr",
+    "url": "https://github.com/HannoFlohr/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "CountGoodNodesInBinaryTree.h",
+    "fileSHA": "450c38155927b3b41f185be5d07a5946a51f2315",
+    "url": "https://github.com/HannoFlohr/leetcode/blob/205fd5225adb53a4833ce82a03219054ca9c9557/CountGoodNodesInBinaryTree.h",
+    "rawUrl": "https://raw.githubusercontent.com/HannoFlohr/leetcode/main/CountGoodNodesInBinaryTree.h"
+  },
+  "matching": {
+    "relevanceScore": 80.38
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0518fef3efa83babf7a277a16c5039dd80a028c8f8f28ccb3319673f2431122c",
+    "normalizedCodeHash": "0518fef3efa83babf7a277a16c5039dd80a028c8f8f28ccb3319673f2431122c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:44:49.401354+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001699",
+  "problemId": "P001699",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001699",
+    "title": "Even-Odd Tree Validation",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, determine whether it satisfies the Even-Odd Tree property. Nodes at even-indexed levels must contain strictly increasing odd values, while nodes at odd-indexed levels must contain strictly decreasing even values.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print YES if the tree satisfies the property; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "MSP07/LeetCode-Solutions-CPLUSPLUS",
+    "owner": "MSP07",
+    "url": "https://github.com/MSP07/LeetCode-Solutions-CPLUSPLUS",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "EvenOddTree.cpp",
+    "fileSHA": "2663eba9f6fc28a15b0fec4ef82d62ede43825bb",
+    "url": "https://github.com/MSP07/LeetCode-Solutions-CPLUSPLUS/blob/c9722086f159ebe287183d07c4bd868fa0d2ff12/EvenOddTree.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/MSP07/LeetCode-Solutions-CPLUSPLUS/main/EvenOddTree.cpp"
+  },
+  "matching": {
+    "relevanceScore": 67.4
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8777df049a947d063e477ed293fbc15b50b6817ec4da793fe6063d2ceddb5cb7",
+    "normalizedCodeHash": "8777df049a947d063e477ed293fbc15b50b6817ec4da793fe6063d2ceddb5cb7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:25:08.129441+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

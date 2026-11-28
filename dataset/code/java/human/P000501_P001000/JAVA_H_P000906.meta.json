@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000906",
+  "problemId": "P000906",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000906",
+    "title": "Modular Multiplication",
+    "category": "Mathematics - Modular Arithmetic",
+    "difficulty": "Easy",
+    "problemStatement": "Given integers A, B, and M, compute (A \u00d7 B) mod M.",
+    "input": "Integer A Integer B Integer M",
+    "output": "The result of modular multiplication.",
+    "constraints": "1 <= M <= 10^18 0 <= A, B <= 10^18"
+  },
+  "repository": {
+    "name": "mtommila/apfloat",
+    "owner": "mtommila",
+    "url": "https://github.com/mtommila/apfloat",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "apfloat/src/main/java9/org/apfloat/internal/DoubleElementaryModMath.java",
+    "fileSHA": "91b650f8123916ce66093b4d145fd333e569a564",
+    "url": "https://github.com/mtommila/apfloat/blob/0f977c4eb0daca0133915fe718541bc92510e00d/apfloat/src/main/java9/org/apfloat/internal/DoubleElementaryModMath.java",
+    "rawUrl": "https://raw.githubusercontent.com/mtommila/apfloat/main/apfloat/src/main/java9/org/apfloat/internal/DoubleElementaryModMath.java"
+  },
+  "matching": {
+    "relevanceScore": 75.0
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e466c7914e72322b2d1f985212a3370574e0a336a6dfbe68d529b2b33c3e38f4",
+    "normalizedCodeHash": "e466c7914e72322b2d1f985212a3370574e0a336a6dfbe68d529b2b33c3e38f4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:02:38.242600+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

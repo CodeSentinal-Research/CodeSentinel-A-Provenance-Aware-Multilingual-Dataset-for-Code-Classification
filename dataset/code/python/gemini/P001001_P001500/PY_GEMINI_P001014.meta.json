@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001014",
+  "problemId": "P001014",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001014",
+    "title": "Merge K Sorted Arrays",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given K sorted arrays, merge them into a single sorted array using an efficient heap-based algorithm.",
+    "input": "\u2022 First line contains integers K and N. \u2022 Next K lines each contain a sorted array.",
+    "output": "Print the merged sorted array.",
+    "constraints": "\u2022 1 \u2264 K \u2264 10^3 \u2022 Total elements \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001014",
+    "fileSHA": "6534e4ba3696880b294b013864ec9d97dab94c2496c94452d08db95a4ff444ec",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:38:21.331561+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6534e4ba3696880b294b013864ec9d97dab94c2496c94452d08db95a4ff444ec",
+    "normalizedCodeHash": "6534e4ba3696880b294b013864ec9d97dab94c2496c94452d08db95a4ff444ec",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:38:21.331612+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001616",
+  "problemId": "P001616",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001616",
+    "title": "Two-Dimensional Range Sum Query",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M matrix and multiple queries, each specifying two opposite corners of a rectangle, determine the sum of all elements inside each rectangle.",
+    "input": "\u2022 First line contains N and M. \u2022 Next N lines each contain M integers. \u2022 Next line contains Q. \u2022 Next Q lines contain r1 c1 r2 c2.",
+    "output": "\u2022 Print the answer for every query.",
+    "constraints": "\u2022 1 \u2264 N,M \u2264 1000 \u2022 1 \u2264 Q \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/prefixsum/RangeSumQuery.java",
+    "fileSHA": "14a02a2de4d0ccd4726a2d518d12be06ef9d1c21",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/prefixsum/RangeSumQuery.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/prefixsum/RangeSumQuery.java"
+  },
+  "matching": {
+    "relevanceScore": 65.33
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0049eb2cc83715d1d06a0b103b3df47fe7f83b6c96cdcaa31bcb9a376377d90a",
+    "normalizedCodeHash": "0049eb2cc83715d1d06a0b103b3df47fe7f83b6c96cdcaa31bcb9a376377d90a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:43.743530+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

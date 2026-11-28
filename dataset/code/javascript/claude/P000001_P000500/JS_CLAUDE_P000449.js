@@ -1,0 +1,1 @@
+const n=BigInt(require('fs').readFileSync('/dev/stdin','utf8').trim());let lo=1n,hi=n,found=false;while(lo<=hi){const m=(lo+hi)/2n;if(m*m===n){found=true;break;}else if(m*m<n)lo=m+1n;else hi=m-1n;}console.log(found?'Yes':'No');

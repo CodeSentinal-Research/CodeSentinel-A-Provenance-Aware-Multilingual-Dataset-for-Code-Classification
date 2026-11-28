@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000612",
+  "problemId": "P000612",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000612",
+    "title": "Insert Greatest Common Divisors in Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a linked list of integers, insert a new node between every pair of adjacent nodes. The value of each inserted node should be the greatest common divisor (GCD) of the values of the adjacent nodes. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 5000 1 <= node.value <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000612.py",
+    "fileSHA": "2ba00b8d81c47a10ae252ba56743c59240d01bf70184637cae7619a9b74a2de3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.422503+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2ba00b8d81c47a10ae252ba56743c59240d01bf70184637cae7619a9b74a2de3",
+    "normalizedCodeHash": "733446457f9132c1cef6e99aa4bb50950cfae1959154070bb1694108578f2920",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.422503+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

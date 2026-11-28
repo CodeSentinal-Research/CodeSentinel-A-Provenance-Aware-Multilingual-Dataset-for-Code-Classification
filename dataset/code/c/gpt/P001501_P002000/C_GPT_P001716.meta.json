@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001716",
+  "problemId": "P001716",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001716",
+    "title": "Find the Lowest Leaf in a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, determine the leaf node located at the greatest depth. If multiple leaves exist at the same depth, return the leftmost one.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the value of the required leaf.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001716.c",
+    "fileSHA": "eeb34a54800066649821bf19b66cba941505388be7fa7ff4a4ab4647b05e9d7c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.434Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "df2b2cc933c114176b3564587d97730fdd4333e438e56c95407cd3c76923b50c",
+    "normalizedCodeHash": "eeb34a54800066649821bf19b66cba941505388be7fa7ff4a4ab4647b05e9d7c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.434Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_QWEN_P001218",
+  "problemId": "P001218",
+  "language": "c",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001218",
+    "title": "Word Break",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string and a dictionary of valid words, determine whether the string can be segmented into a sequence of dictionary words.",
+    "input": "\u2022 First line contains the string. \u2022 Second line contains integer N. \u2022 Next N lines each contain one dictionary word.",
+    "output": "Print YES if segmentation is possible; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 Length of string \u2264 5000 \u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/C_QWEN_P001218",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

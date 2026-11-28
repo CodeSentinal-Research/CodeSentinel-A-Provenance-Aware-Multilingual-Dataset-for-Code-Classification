@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000636",
+  "problemId": "P000636",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000636",
+    "title": "Design Browser Tabs Manager",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a browser tab manager supporting the following operations: open(url) \u2014 Open a new tab. close(index) \u2014 Close the specified tab. switch(index) \u2014 Make the specified tab active. moveLeft(index) \u2014 Move the specified tab one position to the left. moveRight(index) \u2014 Move the specified tab one position to the right. current() \u2014 Return the currently active tab. Implement all operations efficiently using an appropriate linked list structure.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result of every current() operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "kirodotdev/KiroCrew",
+    "owner": "kirodotdev",
+    "url": "https://github.com/kirodotdev/KiroCrew",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "website/electron/browser-view.js",
+    "fileSHA": "27449b67ecb5adca9a8acd58bd125d8d9267bb4b",
+    "url": "https://github.com/kirodotdev/KiroCrew/blob/72e429791ec87ca285d55671585f346e0fee5968/website/electron/browser-view.js",
+    "rawUrl": "https://raw.githubusercontent.com/kirodotdev/KiroCrew/main/website/electron/browser-view.js"
+  },
+  "matching": {
+    "relevanceScore": 85.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a91aff3bbca5fdf64fc8186fffdaa82f8a21472e1a9b8587a491b04c2d5fa3dc",
+    "normalizedCodeHash": "a91aff3bbca5fdf64fc8186fffdaa82f8a21472e1a9b8587a491b04c2d5fa3dc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:24:44.006232+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

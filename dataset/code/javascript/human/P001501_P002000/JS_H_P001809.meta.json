@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001809",
+  "problemId": "P001809",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001809",
+    "title": "Convert a Binary Search Tree into a Greater Sum Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree, replace every node value with the sum of all keys greater than or equal to that node.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST.",
+    "output": "\u2022 Print the transformed BST.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "fhinkel/twitch",
+    "owner": "fhinkel",
+    "url": "https://github.com/fhinkel/twitch",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "trees.js",
+    "fileSHA": "5960ae7ae5d84cc0d671a9b43468abaef039b20f",
+    "url": "https://github.com/fhinkel/twitch/blob/9eb6681818757c87bad94abebecbf321caf8c296/trees.js",
+    "rawUrl": "https://raw.githubusercontent.com/fhinkel/twitch/main/trees.js"
+  },
+  "matching": {
+    "relevanceScore": 80.4
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4635f50fbf90e069e2d163c7ddb10eab2b416720af4f39a2f39558986776236e",
+    "normalizedCodeHash": "4635f50fbf90e069e2d163c7ddb10eab2b416720af4f39a2f39558986776236e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T21:34:07.805731+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

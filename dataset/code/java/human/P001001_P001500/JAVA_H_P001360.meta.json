@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001360",
+  "problemId": "P001360",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001360",
+    "title": "Maximum Score Words Formed by Letters",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given a list of words, available letters, and individual letter scores, determine the maximum total score obtainable by selecting a subset of words such that every selected word can be formed using the available letters.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain one word each. \u2022 Next line contains the available letters. \u2022 Last line contains 26 integers representing the score of each lowercase letter.",
+    "output": "Print the maximum obtainable score.",
+    "constraints": "\u2022 1 \u2264 N \u2264 14 \u2022 Word length \u2264 15"
+  },
+  "repository": {
+    "name": "giluu8/leetcode",
+    "owner": "giluu8",
+    "url": "https://github.com/giluu8/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "1255-maximum-score-words-formed-by-letters/1255-maximum-score-words-formed-by-letters.java",
+    "fileSHA": "c5dc8c58d05a6a88aff0859688d1d1bc422748ca",
+    "url": "https://github.com/giluu8/leetcode/blob/5a7ff73328ec1a2f72f70b54190a18fcaeaa9a42/1255-maximum-score-words-formed-by-letters/1255-maximum-score-words-formed-by-letters.java",
+    "rawUrl": "https://raw.githubusercontent.com/giluu8/leetcode/main/1255-maximum-score-words-formed-by-letters/1255-maximum-score-words-formed-by-letters.java"
+  },
+  "matching": {
+    "relevanceScore": 84.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8d36d7561080815358e3628302feb47553612b80bc9aeabf1c7cc4f1ce3894ec",
+    "normalizedCodeHash": "8d36d7561080815358e3628302feb47553612b80bc9aeabf1c7cc4f1ce3894ec",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T13:56:29.644982+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

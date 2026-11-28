@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001241",
+  "problemId": "P001241",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001241",
+    "title": "Gas Station Circuit",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "There are N gas stations arranged in a circle. Each station provides a certain amount of gas, and traveling to the next station consumes a certain amount of gas. Determine the starting station index from which the entire circuit can be completed. If impossible, print -1.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing gas available. \u2022 Third line contains N integers representing travel cost.",
+    "output": "Print the starting station index or -1.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI-Maddy/30-days-to-dsa-mastery",
+    "owner": "AI-Maddy",
+    "url": "https://github.com/AI-Maddy/30-days-to-dsa-mastery",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Day18-Greedy/solutions/gas_station.c",
+    "fileSHA": "b6da9ecdaa1bee18edfbebffcfeeb5f17ca15974",
+    "url": "https://github.com/AI-Maddy/30-days-to-dsa-mastery/blob/3bd1e00f0eb637e629e1fc6f7eb3a06eb08cd61d/Day18-Greedy/solutions/gas_station.c",
+    "rawUrl": "https://raw.githubusercontent.com/AI-Maddy/30-days-to-dsa-mastery/main/Day18-Greedy/solutions/gas_station.c"
+  },
+  "matching": {
+    "relevanceScore": 74.28
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "256c129180f688553042ce5c28fcb1ee6b612a5e29fbeac59144c26aed8f92b3",
+    "normalizedCodeHash": "256c129180f688553042ce5c28fcb1ee6b612a5e29fbeac59144c26aed8f92b3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:50:55.014361+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

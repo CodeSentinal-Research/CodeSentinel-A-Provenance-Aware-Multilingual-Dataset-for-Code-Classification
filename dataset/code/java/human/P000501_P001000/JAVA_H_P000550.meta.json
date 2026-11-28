@@ -1,0 +1,74 @@
+{
+  "solutionId": "JAVA_H_P000550",
+  "problemId": "P000550",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000550",
+    "title": "Circular Tour",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "There are n petrol pumps arranged in a circle. Each petrol pump provides a certain amount of petrol and requires a certain amount of petrol to travel to the next pump. Determine the first petrol pump from which a truck can complete the entire circular tour. If no such starting point exists, return -1.",
+    "input": "Integer n Array petrol Array distance",
+    "output": "The starting pump index, or -1 if impossible.",
+    "constraints": "1 <= n <= 10^5 0 <= petrol[i], distance[i] <= 10^9"
+  },
+  "repository": {
+    "name": "Ishan-sinha/DSA-for-SDE-interview",
+    "owner": "Ishan-sinha",
+    "url": "https://github.com/Ishan-sinha/DSA-for-SDE-interview",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "java/human/P000501_P001000/JAVA_H_P000550.java",
+    "fileSHA": "e8f8ecf72bbd597be43c5bf024700a5a4b7de47d",
+    "url": "https://github.com/Ishan-sinha/DSA-for-SDE-interview/blob/09ae6e711754dd06ca0787727e62071c81473c95/Queue/circular-tour-IMP.java",
+    "rawUrl": "https://raw.githubusercontent.com/Ishan-sinha/DSA-for-SDE-interview/main/Queue/circular-tour-IMP.java"
+  },
+  "matching": {
+    "relevanceScore": 84.33
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2020-07-05T04:23:36Z",
+    "lastCommitDate": "2020-07-05T04:23:36Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Ishan Sinha"
+    ],
+    "firstKnownAuthor": "Ishan Sinha",
+    "latestKnownAuthor": "Ishan Sinha"
+  },
+  "deduplication": {
+    "rawCodeHash": "b6d39c9e40d58045b34327dd97e46b236f96baf6c7e131c1b37773fda8039923",
+    "normalizedCodeHash": "b6d39c9e40d58045b34327dd97e46b236f96baf6c7e131c1b37773fda8039923",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:20:01.595414+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

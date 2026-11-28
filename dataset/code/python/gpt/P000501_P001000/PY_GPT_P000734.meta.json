@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000734",
+  "problemId": "P000734",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000734",
+    "title": "Knight's Tour",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × N chessboard and a starting position, determine a sequence of knight moves that visits every square exactly once. If a tour exists, output one valid tour; otherwise output -1.",
+    "input": "Integer N Starting row Starting column",
+    "output": "A valid Knight's Tour or -1 if none exists.",
+    "constraints": "1 <= N <= 8"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000734.py",
+    "fileSHA": "41e1cc7ed7080ce1dc8d5b5c1f17c25d3d0d21453e709f6e6fa1977dabd38755",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.836168+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "41e1cc7ed7080ce1dc8d5b5c1f17c25d3d0d21453e709f6e6fa1977dabd38755",
+    "normalizedCodeHash": "4df64cb521edd557307ac8159a940fde83055d6e4376fd86ae9a76e928e7082e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.836168+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

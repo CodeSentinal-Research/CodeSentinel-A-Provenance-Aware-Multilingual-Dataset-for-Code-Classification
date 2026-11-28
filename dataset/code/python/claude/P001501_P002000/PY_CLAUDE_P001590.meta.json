@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_CLAUDE_P001590",
+  "problemId": "P001590",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001590",
+    "title": "Maximum Robots Within Budget",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "You are given two arrays representing the charge times and running costs of robots, along with a budget. Determine the maximum number of consecutive robots that can be operated without exceeding the budget.",
+    "input": "• First line contains N and Budget. • Second line contains N integers representing charge times. • Third line contains N integers representing running costs.",
+    "output": "• Print the maximum number of consecutive robots that can be operated.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • 1 ≤ Budget ≤ 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P001590",
+    "fileSHA": "be15e7e9d1e4861bd4a8e41b1eef705684cba5f89af80a31779a62cba909cd2c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "610f489bca442ea6e1875d0cc2ecd8eeb39f52b648013ab2f21f3295c8202ede",
+    "normalizedCodeHash": "be15e7e9d1e4861bd4a8e41b1eef705684cba5f89af80a31779a62cba909cd2c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

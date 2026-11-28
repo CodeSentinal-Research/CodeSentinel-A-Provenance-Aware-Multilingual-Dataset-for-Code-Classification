@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);int n=sc.nextInt();long[]arr=new long[n+1];for(int i=0;i<n;i++)arr[i]=sc.nextLong();arr[n]=-1;long MOD=1000000007L;Deque<Integer>stk=new ArrayDeque<>();long res=0;for(int i=0;i<=n;i++){while(!stk.isEmpty()&&arr[stk.peek()]>=arr[i]){int mid=stk.pop();int left=stk.isEmpty()?-1:stk.peek();res=(res+arr[mid]*(mid-left)*(i-mid))%MOD;}stk.push(i);}System.out.println(res);}}

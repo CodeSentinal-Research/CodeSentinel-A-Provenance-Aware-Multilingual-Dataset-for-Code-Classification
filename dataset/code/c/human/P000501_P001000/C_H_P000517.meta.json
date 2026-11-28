@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000517",
+  "problemId": "P000517",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000517",
+    "title": "Maximum Width Ramp",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "A ramp is a pair of indices (i, j) such that i < j and nums[i] <= nums[j]. Find the maximum width of a ramp in the array, where the width is j - i. Return the maximum possible width.",
+    "input": "Integer n Array nums",
+    "output": "A single integer representing the maximum width.",
+    "constraints": "2 <= n <= 5 \u00d7 10^4 0 <= nums[i] <= 5 \u00d7 10^4"
+  },
+  "repository": {
+    "name": "lrmsspace/LLM-CodeQualityEval",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Output/output_TY/c/Medium/1046-maximum-width-ramp.c",
+    "fileSHA": "07daf4040cea46e76402d8513d99cc2535463cef",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval/blob/a2817bbe913c51ab32afeb6f6d0ad97b92c45075/Output/output_TY/c/Medium/1046-maximum-width-ramp.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/LLM-CodeQualityEval/main/Output/output_TY/c/Medium/1046-maximum-width-ramp.c"
+  },
+  "matching": {
+    "relevanceScore": 85.83
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "df993f2739e2a793129f61116b0c4d13292f3e871fc379fa4636420324dfacd1",
+    "normalizedCodeHash": "df993f2739e2a793129f61116b0c4d13292f3e871fc379fa4636420324dfacd1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:36:07.885963+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

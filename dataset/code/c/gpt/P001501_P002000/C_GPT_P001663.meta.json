@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001663",
+  "problemId": "P001663",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001663",
+    "title": "Check Whether a Binary Tree is Complete",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree, determine whether it is a complete binary tree. Every level except possibly the last must be completely filled, and all nodes of the last level must be as far left as possible.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print YES if the tree is complete; otherwise print NO.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001663.c",
+    "fileSHA": "8fa3c52783351821329ffc98543af68ea580ff3a049b254250105e93dbc471c0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.155Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "f3e2c3946a875f041b4d64d7809c7e8d21e4443da492a5aa70d91ff3cfca1c11",
+    "normalizedCodeHash": "8fa3c52783351821329ffc98543af68ea580ff3a049b254250105e93dbc471c0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.155Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

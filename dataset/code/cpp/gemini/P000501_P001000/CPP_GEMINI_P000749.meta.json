@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P000749",
+  "problemId": "P000749",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000749",
+    "title": "Generate All Paths with Variable Length Jumps",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M grid, generate all possible paths from the top-left cell to the bottom-right cell. From any cell, you may move: Horizontally right by any positive number of cells (Hk) Vertically down by any positive number of cells (Vk) Diagonally down-right by any positive number of cells (Dk) where k denotes the jump length. Print all valid paths in lexicographical order.",
+    "input": "Integer N Integer M",
+    "output": "All valid paths.",
+    "constraints": "1 <= N, M <= 10"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "cpp/gemini/CPP_GEMINI_P000749",
+    "fileSHA": "237bb7e61c849f1ddf5d984e914bc31dd5bb5c0350dafdf7dd5fdc33c9b9e3e7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T17:13:50.738052+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "237bb7e61c849f1ddf5d984e914bc31dd5bb5c0350dafdf7dd5fdc33c9b9e3e7",
+    "normalizedCodeHash": "237bb7e61c849f1ddf5d984e914bc31dd5bb5c0350dafdf7dd5fdc33c9b9e3e7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T17:13:50.738072+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

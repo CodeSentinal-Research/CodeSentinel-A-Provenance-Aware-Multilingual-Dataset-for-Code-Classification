@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001370",
+  "problemId": "P001370",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001370",
+    "title": "Maximum Number by Swapping Digits",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a numeric string and an integer K, perform at most K swaps between any two digits to obtain the largest possible number.",
+    "input": "\u2022 First line contains the numeric string. \u2022 Second line contains integer K.",
+    "output": "Print the maximum possible number after at most K swaps.",
+    "constraints": "\u2022 1 \u2264 Length \u2264 30 \u2022 0 \u2264 K \u2264 10"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001370",
+    "fileSHA": "87b73d551d013ce156149ee8257defbc75c0890163a616e1ebafad8ea1d8adba",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:24:05.306958+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "87b73d551d013ce156149ee8257defbc75c0890163a616e1ebafad8ea1d8adba",
+    "normalizedCodeHash": "87b73d551d013ce156149ee8257defbc75c0890163a616e1ebafad8ea1d8adba",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:24:05.306993+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

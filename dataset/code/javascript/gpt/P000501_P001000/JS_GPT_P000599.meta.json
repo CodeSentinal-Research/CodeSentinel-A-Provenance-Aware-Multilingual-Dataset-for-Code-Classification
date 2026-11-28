@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000599",
+  "problemId": "P000599",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000599",
+    "title": "Delete Duplicates from Sorted Linked List II",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a sorted linked list, delete all nodes that have duplicate values, leaving only nodes whose values appear exactly once. Return the head of the modified linked list.",
+    "input": "Integer n Sorted linked list",
+    "output": "The linked list after removing all duplicate values.",
+    "constraints": "0 <= n <= 300 -100 <= node.value <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000599.js",
+    "fileSHA": "5d2cade7e4f21b94cf9cbdae5b4b9e85333c51466c6635dbe4078035ab8df207",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5d2cade7e4f21b94cf9cbdae5b4b9e85333c51466c6635dbe4078035ab8df207",
+    "normalizedCodeHash": "5d2cade7e4f21b94cf9cbdae5b4b9e85333c51466c6635dbe4078035ab8df207",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

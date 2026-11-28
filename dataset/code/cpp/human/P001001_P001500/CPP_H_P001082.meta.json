@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001082",
+  "problemId": "P001082",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001082",
+    "title": "Find Eulerian Path",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph, determine whether it contains an Eulerian Path. If one exists, print any valid path; otherwise print IMPOSSIBLE.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print one Eulerian Path or IMPOSSIBLE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "antonpk1/stackfish",
+    "owner": "antonpk1",
+    "url": "https://github.com/antonpk1/stackfish",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "www/app/services/algo_rag_data/graph/eulerian_path_undirected.cc",
+    "fileSHA": "120df53ece5a8fc24bb2ffe53103ae53c608f925",
+    "url": "https://github.com/antonpk1/stackfish/blob/6ca66de1b1ac327ad2065eb83bcfb605716f7cfc/www/app/services/algo_rag_data/graph/eulerian_path_undirected.cc",
+    "rawUrl": "https://raw.githubusercontent.com/antonpk1/stackfish/main/www/app/services/algo_rag_data/graph/eulerian_path_undirected.cc"
+  },
+  "matching": {
+    "relevanceScore": 80.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "52f853a06b54d9f9b5a08c67462694834f39ec4d8306bb7a042d01ac50a5188e",
+    "normalizedCodeHash": "52f853a06b54d9f9b5a08c67462694834f39ec4d8306bb7a042d01ac50a5188e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T13:30:02.671823+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

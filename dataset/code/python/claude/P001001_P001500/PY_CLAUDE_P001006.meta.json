@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P001006",
+  "problemId": "P001006",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001006",
+    "title": "Verify Min Heap Property",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array representation of a complete binary tree, determine whether it satisfies the Min Heap property.",
+    "input": "• First line contains integer N. • Second line contains N space-separated integers.",
+    "output": "Print YES if the array represents a Min Heap; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5 • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P001006",
+    "fileSHA": "c825a54655caf73e0981a49b4d92e87f281c065b6a96c93ab3547fee22f2de60",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c825a54655caf73e0981a49b4d92e87f281c065b6a96c93ab3547fee22f2de60",
+    "normalizedCodeHash": "c825a54655caf73e0981a49b4d92e87f281c065b6a96c93ab3547fee22f2de60",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique P001006: Verify Min Heap Property"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

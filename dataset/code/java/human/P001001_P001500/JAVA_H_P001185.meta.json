@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001185",
+  "problemId": "P001185",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001185",
+    "title": "Delete and Earn",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers, selecting a value earns that value multiplied by its frequency. After selecting a value x, all occurrences of x\u22121 and x+1 become unavailable. Determine the maximum points obtainable.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the maximum obtainable points.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "cherryljr/LeetCode",
+    "owner": "cherryljr",
+    "url": "https://github.com/cherryljr/LeetCode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Delete and Earn.java",
+    "fileSHA": "069c065a7787fd1588a46db811bcb3c91ade0a03",
+    "url": "https://github.com/cherryljr/LeetCode/blob/master/Delete and Earn.java",
+    "rawUrl": "https://raw.githubusercontent.com/cherryljr/LeetCode/master/Delete and Earn.java"
+  },
+  "matching": {
+    "relevanceScore": 69.55
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "522da1d0bbfb70e4bed27020ddb0bcc5b33d67f7fc7c45a43e9e52ebe2a1f02d",
+    "normalizedCodeHash": "522da1d0bbfb70e4bed27020ddb0bcc5b33d67f7fc7c45a43e9e52ebe2a1f02d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:52:03.611690+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

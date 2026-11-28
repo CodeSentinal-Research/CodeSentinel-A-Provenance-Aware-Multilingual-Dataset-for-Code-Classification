@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000777",
+  "problemId": "P000777",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000777",
+    "title": "Crossword Puzzle Solver",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a crossword grid containing blocked cells and empty slots, along with a list of words, fill the crossword so that every word is placed exactly once either horizontally or vertically. If multiple solutions exist, print any one valid completed crossword.",
+    "input": "Integer N Character matrix grid Integer W Array words",
+    "output": "The completed crossword grid.",
+    "constraints": "1 <= N <= 20 1 <= W <= 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000777.js",
+    "fileSHA": "4734c532b982362b547e081f7e7349f284058a858c05ed86fb56924a80c79dd8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4734c532b982362b547e081f7e7349f284058a858c05ed86fb56924a80c79dd8",
+    "normalizedCodeHash": "4734c532b982362b547e081f7e7349f284058a858c05ed86fb56924a80c79dd8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

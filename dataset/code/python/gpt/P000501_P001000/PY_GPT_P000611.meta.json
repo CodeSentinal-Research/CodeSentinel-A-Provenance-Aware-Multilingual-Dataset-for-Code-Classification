@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000611",
+  "problemId": "P000611",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000611",
+    "title": "Maximum Twin Sum of a Linked List",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "A linked list of even length has twin nodes defined as follows: The first node is the twin of the last node. The second node is the twin of the second-last node. And so on. The twin sum of a pair is the sum of their values. Return the maximum twin sum among all twin pairs.",
+    "input": "Integer n (always even) Linked list",
+    "output": "A single integer representing the maximum twin sum.",
+    "constraints": "2 <= n <= 10^5 1 <= node.value <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000611.py",
+    "fileSHA": "ad911a0344dba095142b90100938cd1d6d6c1e7fd19cc86e3bb9c2ce1c904fce",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.419864+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ad911a0344dba095142b90100938cd1d6d6c1e7fd19cc86e3bb9c2ce1c904fce",
+    "normalizedCodeHash": "2866609fcc31e6cf0e63b8117feacc8adc1f4e63a0daf05d8f51831fc764dbf2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.419864+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

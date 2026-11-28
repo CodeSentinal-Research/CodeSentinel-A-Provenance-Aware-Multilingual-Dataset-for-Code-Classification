@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000658",
+  "problemId": "P000658",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000658",
+    "title": "Browser History with Multiple Windows",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a browser system that supports multiple independent browser windows. Each window maintains its own browsing history and supports: visit(windowId, url) back(windowId, steps) forward(windowId, steps) newWindow(homepage) closeWindow(windowId) currentPage(windowId) Process a sequence of operations and print the result for every currentPage(), back(), and forward() operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the required results after each query operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5 Total number of simultaneously open windows does not exceed 10^5"
+  },
+  "repository": {
+    "name": "NousResearch/hermes-agent",
+    "owner": "NousResearch",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "hermes_cli/tips.py",
+    "fileSHA": "95726ac08e9e428372c4a777b6e20c575724b991",
+    "url": "https://github.com/NousResearch/hermes-agent/blob/4f22543509d1b91dc45bcb369447126c5eb14fb7/hermes_cli/tips.py",
+    "rawUrl": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/hermes_cli/tips.py"
+  },
+  "matching": {
+    "relevanceScore": 86.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8c10e6fb8ca0346ffe3cf742561aa46e2ee55b46f9d1b5dee67dc0f1f57267f0",
+    "normalizedCodeHash": "8c10e6fb8ca0346ffe3cf742561aa46e2ee55b46f9d1b5dee67dc0f1f57267f0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T17:18:10.662499+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

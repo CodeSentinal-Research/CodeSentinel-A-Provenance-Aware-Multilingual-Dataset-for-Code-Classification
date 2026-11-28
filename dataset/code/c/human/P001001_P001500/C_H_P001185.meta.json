@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P001185",
+  "problemId": "P001185",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001185",
+    "title": "Delete and Earn",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers, selecting a value earns that value multiplied by its frequency. After selecting a value x, all occurrences of x\u22121 and x+1 become unavailable. Determine the maximum points obtainable.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the maximum obtainable points.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "kiyonlin/leetcode",
+    "owner": "kiyonlin",
+    "url": "https://github.com/kiyonlin/leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P001001_P001500/C_H_P001185.c",
+    "fileSHA": "5468a179d5ab178731a7baf72c18b060f5b91567",
+    "url": "https://github.com/kiyonlin/leetcode/blob/0a70701fc08a4c62e877441806c63c5d23f1b7ec/algorithms/c/740.delete-and-earn.c",
+    "rawUrl": "https://raw.githubusercontent.com/kiyonlin/leetcode/main/algorithms/c/740.delete-and-earn.c"
+  },
+  "matching": {
+    "relevanceScore": 60.1
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2018-05-19T09:13:12Z",
+    "lastCommitDate": "2018-05-19T09:13:12Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "kiyon"
+    ],
+    "firstKnownAuthor": "kiyon",
+    "latestKnownAuthor": "kiyon"
+  },
+  "deduplication": {
+    "rawCodeHash": "5f75e14340b09e045cc04a0d5ebb027f5da39d2f1f6850fe0ff4b724c623f0e5",
+    "normalizedCodeHash": "5f75e14340b09e045cc04a0d5ebb027f5da39d2f1f6850fe0ff4b724c623f0e5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T08:08:32.613110+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

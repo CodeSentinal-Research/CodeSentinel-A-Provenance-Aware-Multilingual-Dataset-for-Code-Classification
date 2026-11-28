@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001306",
+  "problemId": "P001306",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001306",
+    "title": "Optimal File Merge Pattern",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given the sizes of N files, repeatedly merge two files at a time. The cost of each merge equals the sum of the merged file sizes. Determine the minimum total merging cost.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing file sizes.",
+    "output": "Print the minimum total merge cost.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "ruvnet/ruflo",
+    "owner": "ruvnet",
+    "url": "https://github.com/ruvnet/ruflo",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "scripts/gen-seed-corpus-v2.mjs",
+    "fileSHA": "d92e2e602f46c882024170860813299f873285a1",
+    "url": "https://github.com/ruvnet/ruflo/blob/d33ef4bf8ab27a8f9ef08352c9c293b53312a861/scripts/gen-seed-corpus-v2.mjs",
+    "rawUrl": "https://raw.githubusercontent.com/ruvnet/ruflo/main/scripts/gen-seed-corpus-v2.mjs"
+  },
+  "matching": {
+    "relevanceScore": 86.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1709014abd2c0555b4e0449f90035dabdfa4c9b9e068a26d99414957e73eea3c",
+    "normalizedCodeHash": "1709014abd2c0555b4e0449f90035dabdfa4c9b9e068a26d99414957e73eea3c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:44:46.442272+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

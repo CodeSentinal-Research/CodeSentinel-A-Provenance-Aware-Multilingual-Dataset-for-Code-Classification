@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000561",
+  "problemId": "P000561",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000561",
+    "title": "First Non-Repeating Character in a Stream",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a stream of lowercase English letters arriving one by one. After processing each character, output the first character that has appeared exactly once so far. If no such character exists, output '#'.",
+    "input": "A string representing the stream.",
+    "output": "A string where the i-th character represents the first non-repeating character after processing the first i input characters.",
+    "constraints": "1 <= s.length <= 10^5 s contains only lowercase English letters."
+  },
+  "repository": {
+    "name": "sujalkathait93-lab/dsa-c-mastery",
+    "owner": "sujalkathait93-lab",
+    "url": "https://github.com/sujalkathait93-lab/dsa-c-mastery",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "queue/first_non_repeating.c",
+    "fileSHA": "d2ddeab5b8306e953c0b8a9efd53463ac894adb1",
+    "url": "https://github.com/sujalkathait93-lab/dsa-c-mastery/blob/3e573df04a3b3d0b63841b06a8d3242b705a9874/queue/first_non_repeating.c",
+    "rawUrl": "https://raw.githubusercontent.com/sujalkathait93-lab/dsa-c-mastery/main/queue/first_non_repeating.c"
+  },
+  "matching": {
+    "relevanceScore": 72.81
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "50d9e2a6d3a594f5024cedb53f390ad131795ae5103222e98e937c6be78be688",
+    "normalizedCodeHash": "50d9e2a6d3a594f5024cedb53f390ad131795ae5103222e98e937c6be78be688",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:34:32.150363+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

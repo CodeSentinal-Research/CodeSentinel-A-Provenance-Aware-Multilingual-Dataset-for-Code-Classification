@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001108",
+  "problemId": "P001108",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001108",
+    "title": "Reachability Queries",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a directed graph and Q queries, determine whether there exists a path from vertex u to vertex v for each query.",
+    "input": "\u2022 First line contains integers N, M, and Q. \u2022 Next M lines contain directed edges. \u2022 Next Q lines contain two integers u and v.",
+    "output": "For each query, print YES if a path exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001108",
+    "fileSHA": "a5b6edbb9b1479ab6a1ebc4e83199e6ffc18f99c9521ba2d2d944aad03e1ee45",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:45:01.799198+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a5b6edbb9b1479ab6a1ebc4e83199e6ffc18f99c9521ba2d2d944aad03e1ee45",
+    "normalizedCodeHash": "a5b6edbb9b1479ab6a1ebc4e83199e6ffc18f99c9521ba2d2d944aad03e1ee45",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:45:01.799222+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

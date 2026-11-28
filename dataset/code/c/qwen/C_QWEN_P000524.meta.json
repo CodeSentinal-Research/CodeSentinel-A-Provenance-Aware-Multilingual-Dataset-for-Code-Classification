@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_QWEN_P000524",
+  "problemId": "P000524",
+  "language": "c",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000524",
+    "title": "Beautiful Towers I",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "You are given the maximum possible height for each tower in a row. Construct tower heights such that: Each tower's height is at least 1. No tower exceeds its maximum height. Heights are non-increasing as you move away from a chosen peak. Find the maximum possible sum of tower heights.",
+    "input": "Integer n Array maxHeights",
+    "output": "A single integer representing the maximum total height.",
+    "constraints": "1 <= n <= 10^3 1 <= maxHeights[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/C_QWEN_P000524",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

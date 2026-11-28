@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001303",
+  "problemId": "P001303",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001303",
+    "title": "Maximize Capital by Selecting Projects",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an initial capital and a list of projects, each having a required investment and expected profit. Select at most K projects to maximize the final capital.",
+    "input": "\u2022 First line contains integers N, K, and InitialCapital. \u2022 Next N lines contain required investment and profit.",
+    "output": "Print the maximum capital after completing the selected projects.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0500-0599/0520.Detect Capital/Solution.java",
+    "fileSHA": "4deabee4bd6a9914e4ce038da0109ba88e4e5349",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0500-0599/0520.Detect Capital/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0500-0599/0520.Detect Capital/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "777ae016a6b8da3a2738f72500f4d308e1406f0eb2b3393af3d7d48fcdb42a2b",
+    "normalizedCodeHash": "777ae016a6b8da3a2738f72500f4d308e1406f0eb2b3393af3d7d48fcdb42a2b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:57.869872+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001830",
+  "problemId": "P001830",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001830",
+    "title": "Find the Smallest Key Greater Than a Given Value",
+    "category": "Binary Search Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given the root of a Binary Search Tree and a value X, determine the smallest key that is strictly greater than X.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The last line contains X.",
+    "output": "\u2022 Print the required key, or NONE if no such key exists.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "NUCAR-DEV/luthier-ispass2025",
+    "owner": "NUCAR-DEV",
+    "url": "https://github.com/NUCAR-DEV/luthier-ispass2025",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "HeCBench/src/b+tree-hip/common.h",
+    "fileSHA": "ba757cab15124e8013f4dfd4984b6c3684f6ac4b",
+    "url": "https://github.com/NUCAR-DEV/luthier-ispass2025/blob/dc6d4c2187b20ff379258bdf45fc500aa59af4c5/HeCBench/src/b+tree-hip/common.h",
+    "rawUrl": "https://raw.githubusercontent.com/NUCAR-DEV/luthier-ispass2025/main/HeCBench/src/b+tree-hip/common.h"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0bdd743d4a181e86698b8107cf9714453a2fe398840df28cd36af407154fdd3f",
+    "normalizedCodeHash": "0bdd743d4a181e86698b8107cf9714453a2fe398840df28cd36af407154fdd3f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T12:55:46.051935+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

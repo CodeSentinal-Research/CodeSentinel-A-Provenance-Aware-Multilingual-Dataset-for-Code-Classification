@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000576",
+  "problemId": "P000576",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000576",
+    "title": "Binary Tree Vertical Order Traversal",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, return its vertical order traversal. Nodes are grouped by their vertical column from left to right. If multiple nodes share the same row and column, they should be reported from left to right.",
+    "input": "The root of a binary tree.",
+    "output": "A list of vertical columns.",
+    "constraints": "Number of nodes is in the range [0, 1000]"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "javascript/gemini/JS_GEMINI_P000576",
+    "fileSHA": "71884c7ae5b38c352913cd02e9244c29e8c5f93c13d663e74113928f97a2731b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:46:07.651587+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "71884c7ae5b38c352913cd02e9244c29e8c5f93c13d663e74113928f97a2731b",
+    "normalizedCodeHash": "71884c7ae5b38c352913cd02e9244c29e8c5f93c13d663e74113928f97a2731b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:46:07.651614+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

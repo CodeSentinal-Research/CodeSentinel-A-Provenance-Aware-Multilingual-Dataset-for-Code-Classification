@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000613",
+  "problemId": "P000613",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000613",
+    "title": "Remove Duplicates from Unsorted Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of an unsorted singly linked list, remove all duplicate nodes while keeping the first occurrence of every value. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The linked list after removing duplicate values.",
+    "constraints": "0 <= n <= 10^5 -10^9 <= node.value <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000613.c",
+    "fileSHA": "91584cb78f28ac9f5b29f9da7c4f340f1526689e6b027a264418fe751e9c3a89",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "91584cb78f28ac9f5b29f9da7c4f340f1526689e6b027a264418fe751e9c3a89",
+    "normalizedCodeHash": "91584cb78f28ac9f5b29f9da7c4f340f1526689e6b027a264418fe751e9c3a89",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

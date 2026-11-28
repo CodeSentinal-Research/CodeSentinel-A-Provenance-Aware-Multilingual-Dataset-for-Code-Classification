@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P000951",
+  "problemId": "P000951",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000951",
+    "title": "Sum of Totients",
+    "category": "Mathematics - Euler Totient Function",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer N, compute the sum of Euler's Totient Function values from 1 to N.",
+    "input": "Integer N",
+    "output": "The value of \u03a3\u03c6(i) for 1 \u2264 i \u2264 N.",
+    "constraints": "1 <= N <= 10^7"
+  },
+  "repository": {
+    "name": "maxburton/DPT-coursework",
+    "owner": "maxburton",
+    "url": "https://github.com/maxburton/DPT-coursework",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P000501_P001000/C_H_P000951.c",
+    "fileSHA": "fcf36e0222a906cd772be7552a8ab4911aa2d36c",
+    "url": "https://github.com/maxburton/DPT-coursework/blob/a9746df0ccdf98d6edf812c2deed5e9cf4e9f0e5/OpenMP/totientRangeParallel.c",
+    "rawUrl": "https://raw.githubusercontent.com/maxburton/DPT-coursework/main/OpenMP/totientRangeParallel.c"
+  },
+  "matching": {
+    "relevanceScore": 65.0
+  },
+  "provenance": {
+    "score": 82.5,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2019-11-12T23:25:58Z",
+    "lastCommitDate": "2019-11-19T18:47:22Z",
+    "commitCount": 4,
+    "authorCount": 1,
+    "authors": [
+      "maxburton"
+    ],
+    "firstKnownAuthor": "maxburton",
+    "latestKnownAuthor": "maxburton"
+  },
+  "deduplication": {
+    "rawCodeHash": "6b7000b4d0bcdd15463c6ef090360a37bab8da798332a7cb6322dfb41ad50536",
+    "normalizedCodeHash": "6b7000b4d0bcdd15463c6ef090360a37bab8da798332a7cb6322dfb41ad50536",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T05:58:58.430530+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000502",
+  "problemId": "P000502",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000502",
+    "title": "Evaluate Reverse Polish Notation",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Evaluate the value of an arithmetic expression written in Reverse Polish Notation (postfix notation). The supported operators are: + - * / Division truncates toward zero.",
+    "input": "Integer n Array of n tokens.",
+    "output": "A single integer representing the evaluated value.",
+    "constraints": "1 <= n <= 10^4 The expression is always valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000502",
+    "fileSHA": "7df3fec375c2960ef995936987a8775ecaee7e29a00e2e3f4c1e7ef66ede3348",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7df3fec375c2960ef995936987a8775ecaee7e29a00e2e3f4c1e7ef66ede3348",
+    "normalizedCodeHash": "7df3fec375c2960ef995936987a8775ecaee7e29a00e2e3f4c1e7ef66ede3348",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000502: Evaluate Reverse Polish Notation"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

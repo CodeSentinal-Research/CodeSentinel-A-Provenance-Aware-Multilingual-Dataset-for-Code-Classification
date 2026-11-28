@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001088",
+  "problemId": "P001088",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001088",
+    "title": "Count Vertices at Distance K",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given an unweighted graph, a source vertex S, and an integer K, determine the number of vertices that are exactly K edges away from S.",
+    "input": "\u2022 First line contains integers N, M, S, and K. \u2022 Next M lines contain graph edges.",
+    "output": "Print the number of vertices at distance K.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001088",
+    "fileSHA": "bece7feab26eb59e136c28986e0dea57653c3b6fefeac324f1ff18e29b5c7b60",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:43:34.003123+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "bece7feab26eb59e136c28986e0dea57653c3b6fefeac324f1ff18e29b5c7b60",
+    "normalizedCodeHash": "bece7feab26eb59e136c28986e0dea57653c3b6fefeac324f1ff18e29b5c7b60",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:43:34.003154+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

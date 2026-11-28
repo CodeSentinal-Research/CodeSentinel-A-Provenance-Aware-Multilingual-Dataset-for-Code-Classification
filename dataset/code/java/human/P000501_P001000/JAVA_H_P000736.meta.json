@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000736",
+  "problemId": "P000736",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000736",
+    "title": "K-th Symbol in Grammar",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "The first row contains a single symbol 0. Each 0 generates 01, and each 1 generates 10 in the next row. Given integers N and K, return the K-th symbol in the N-th row.",
+    "input": "Integer N Integer K",
+    "output": "The K-th symbol.",
+    "constraints": "1 <= N <= 30 1 <= K <= 2^(N-1)"
+  },
+  "repository": {
+    "name": "Rafique610/predictive-parser-engine",
+    "owner": "Rafique610",
+    "url": "https://github.com/Rafique610/predictive-parser-engine",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/Grammar.java",
+    "fileSHA": "02f70ecc3c925faac0c7a3d964082649017fbfce",
+    "url": "https://github.com/Rafique610/predictive-parser-engine/blob/8295a1adf07431acaa10a1b16c7eb6aff4c47595/src/Grammar.java",
+    "rawUrl": "https://raw.githubusercontent.com/Rafique610/predictive-parser-engine/main/src/Grammar.java"
+  },
+  "matching": {
+    "relevanceScore": 80.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "397356fc6da751eb1f0bbcdf64cdb811c76dded35b3ac949448ee3b9907fac25",
+    "normalizedCodeHash": "397356fc6da751eb1f0bbcdf64cdb811c76dded35b3ac949448ee3b9907fac25",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:34:51.231067+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

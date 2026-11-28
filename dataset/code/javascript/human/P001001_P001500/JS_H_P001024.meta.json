@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001024",
+  "problemId": "P001024",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001024",
+    "title": "Children of a Heap Node",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a heap represented as an array and the index of a node, print the values of its left and right children if they exist; otherwise print -1 for the missing child.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers. \u2022 Third line contains integer i.",
+    "output": "Print the left child and right child values.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 i < N"
+  },
+  "repository": {
+    "name": "catloversg/bitburner-scripts",
+    "owner": "catloversg",
+    "url": "https://github.com/catloversg/bitburner-scripts",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/libs/heap.js",
+    "fileSHA": "f832a5fa6ece4de11375221acf392b991b7781fa",
+    "url": "https://github.com/catloversg/bitburner-scripts/blob/082f0b29ee8849916de0b521efea5abeb551f26e/src/libs/heap.js",
+    "rawUrl": "https://raw.githubusercontent.com/catloversg/bitburner-scripts/main/src/libs/heap.js"
+  },
+  "matching": {
+    "relevanceScore": 90.7
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b2c2d29ddfa2fd17cc937971b760a907290db032049fead21c3f3328c2492369",
+    "normalizedCodeHash": "b2c2d29ddfa2fd17cc937971b760a907290db032049fead21c3f3328c2492369",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:39:28.939224+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

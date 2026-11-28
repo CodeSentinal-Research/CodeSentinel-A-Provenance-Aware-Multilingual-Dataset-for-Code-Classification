@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P001087",
+  "problemId": "P001087",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001087",
+    "title": "Check if an Undirected Graph is a Tree",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given an undirected graph with N vertices and M edges, determine whether the graph forms a tree. A graph is a tree if it is connected and contains exactly N−1 edges.",
+    "input": "• First line contains integers N and M. • Next M lines contain two integers u and v.",
+    "output": "Print YES if the graph is a tree; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P001087",
+    "fileSHA": "730826906f5cf767674bd679ed1bf4333e4d2c667b11f55d95978144a37e14e4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "730826906f5cf767674bd679ed1bf4333e4d2c667b11f55d95978144a37e14e4",
+    "normalizedCodeHash": "730826906f5cf767674bd679ed1bf4333e4d2c667b11f55d95978144a37e14e4",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P001087"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

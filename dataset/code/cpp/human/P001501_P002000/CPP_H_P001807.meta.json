@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001807",
+  "problemId": "P001807",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001807",
+    "title": "Split a Binary Search Tree by a Key",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a Binary Search Tree and a key X, split the tree into two Binary Search Trees such that one contains all keys less than or equal to X and the other contains all keys greater than X.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The last line contains X.",
+    "output": "\u2022 Print both resulting BSTs.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "agree0002/db-indexing-lab",
+    "owner": "agree0002",
+    "url": "https://github.com/agree0002/db-indexing-lab",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "btree.cpp",
+    "fileSHA": "91a2a2b0b72b3fe57b45790715969bc20838a451",
+    "url": "https://github.com/agree0002/db-indexing-lab/blob/c9908b64314ed5b67ce9626047e64ffc10da3852/btree.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/agree0002/db-indexing-lab/main/btree.cpp"
+  },
+  "matching": {
+    "relevanceScore": 80.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "88366bc5dcde971afc160f02be4c24a002792ebfcc5eb2cbe6f6f7c497ec3b15",
+    "normalizedCodeHash": "88366bc5dcde971afc160f02be4c24a002792ebfcc5eb2cbe6f6f7c497ec3b15",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T04:19:36.029268+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

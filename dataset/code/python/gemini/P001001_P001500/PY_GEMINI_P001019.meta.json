@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001019",
+  "problemId": "P001019",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001019",
+    "title": "K Closest Points to the Origin",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given the coordinates of N points in a two-dimensional plane and an integer K, determine the K points closest to the origin based on Euclidean distance.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Next N lines contain two integers representing the coordinates of a point.",
+    "output": "Print the K closest points in any order.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001019",
+    "fileSHA": "94427665fece00fd909935760e29db970f6c819750e0c494559c655e3eb4781d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:38:21.859184+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "94427665fece00fd909935760e29db970f6c819750e0c494559c655e3eb4781d",
+    "normalizedCodeHash": "94427665fece00fd909935760e29db970f6c819750e0c494559c655e3eb4781d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:38:21.859211+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

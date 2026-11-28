@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_CLAUDE_P001161",
+  "problemId": "P001161",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001161",
+    "title": "Wildcard Pattern Matching",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given a text string and a pattern containing the wildcard characters '?' and '*', determine whether the pattern matches the entire text. The character '?' matches any single character, while '*' matches any sequence of characters (including an empty sequence).",
+    "input": "• First line contains the text string. • Second line contains the pattern string.",
+    "output": "Print YES if the pattern matches; otherwise print NO.",
+    "constraints": "• 1 ≤ Length of text, pattern ≤ 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P001161",
+    "fileSHA": "59411caff72d8cf4734b3fc180f273715cfba2f67f378eda290e45da03a36e34",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "10abbe80a69b8fea2c4339fce031d92e73d23303a36a0eeaeb9f609500d6d49a",
+    "normalizedCodeHash": "59411caff72d8cf4734b3fc180f273715cfba2f67f378eda290e45da03a36e34",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

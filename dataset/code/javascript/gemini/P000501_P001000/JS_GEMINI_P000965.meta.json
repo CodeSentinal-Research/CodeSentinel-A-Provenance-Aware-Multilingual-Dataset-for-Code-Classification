@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000965",
+  "problemId": "P000965",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000965",
+    "title": "CRT with Non-Coprime Moduli",
+    "category": "Mathematics - Chinese Remainder Theorem",
+    "difficulty": "Hard",
+    "problemStatement": "Given a system of congruences whose moduli may not be pairwise coprime, determine whether a solution exists and return the smallest non-negative solution if it does.",
+    "input": "Integer N Congruences",
+    "output": "The smallest solution or -1.",
+    "constraints": "1 <= N <= 15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P000965",
+    "fileSHA": "9e397943ed093f16b2eded43208b3ac1daeb2964e44f7a094452681e1f6c2450",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:36:08.713804+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9e397943ed093f16b2eded43208b3ac1daeb2964e44f7a094452681e1f6c2450",
+    "normalizedCodeHash": "9e397943ed093f16b2eded43208b3ac1daeb2964e44f7a094452681e1f6c2450",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:36:08.713832+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

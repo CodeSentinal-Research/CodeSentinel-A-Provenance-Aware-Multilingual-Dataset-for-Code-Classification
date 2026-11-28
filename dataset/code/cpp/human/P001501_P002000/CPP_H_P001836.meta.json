@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001836",
+  "problemId": "P001836",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001836",
+    "title": "Implement an Inorder Iterator for a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Design an iterator for a Binary Search Tree that supports retrieving the next smallest element in amortized O(1) time using O(h) auxiliary space, where h is the height of the tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The following line contains Q operations. \u2022 Each operation is either NEXT or HASNEXT.",
+    "output": "\u2022 For each operation, print the corresponding result.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 Q \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "Anee006/DSA-CPP-PRACTICE-",
+    "owner": "Anee006",
+    "url": "https://github.com/Anee006/DSA-CPP-PRACTICE-",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Binary search tree/BST iterator.cpp",
+    "fileSHA": "8cb97880d113847c2f4cfd3f4f43bb3c3d6fabb6",
+    "url": "https://github.com/Anee006/DSA-CPP-PRACTICE-/blob/6ac20d2f9100b016f0a8aee59affd9d4434b6927/Binary search tree/BST iterator.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/Anee006/DSA-CPP-PRACTICE-/main/Binary search tree/BST iterator.cpp"
+  },
+  "matching": {
+    "relevanceScore": 80.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f177c929910e81955606c228a40044539fa25c100e9f644a79d6605b59e10a97",
+    "normalizedCodeHash": "f177c929910e81955606c228a40044539fa25c100e9f644a79d6605b59e10a97",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T20:08:48.777808+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

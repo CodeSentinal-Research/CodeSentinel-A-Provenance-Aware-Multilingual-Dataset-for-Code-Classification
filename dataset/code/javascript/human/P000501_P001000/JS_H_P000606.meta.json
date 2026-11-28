@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000606",
+  "problemId": "P000606",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000606",
+    "title": "LRU Cache",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design and implement an LRU (Least Recently Used) cache that supports the following operations in O(1) average time: get(key) put(key, value) If the cache reaches its capacity, evict the least recently used item before inserting a new one. Process a sequence of operations and print the result of every get() operation.",
+    "input": "Integer capacity Integer q Next q operations",
+    "output": "Print the result of every get() operation.",
+    "constraints": "1 <= capacity <= 3000 1 <= q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "trekhleb/javascript-algorithms",
+    "owner": "trekhleb",
+    "url": "https://github.com/trekhleb/javascript-algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/data-structures/lru-cache/LRUCache.js",
+    "fileSHA": "d6b4b3c6be6813f8741df76d0a6fe0e4ec0f0407",
+    "url": "https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/lru-cache/LRUCache.js",
+    "rawUrl": "https://raw.githubusercontent.com/trekhleb/javascript-algorithms/master/src/data-structures/lru-cache/LRUCache.js"
+  },
+  "matching": {
+    "relevanceScore": 90.44
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c95676b91b5ae87a6fea77d515052d645343a7e162f6aca1ee9f00686a0fb853",
+    "normalizedCodeHash": "c95676b91b5ae87a6fea77d515052d645343a7e162f6aca1ee9f00686a0fb853",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T01:56:10.830573+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

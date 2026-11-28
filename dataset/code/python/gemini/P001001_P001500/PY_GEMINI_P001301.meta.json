@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001301",
+  "problemId": "P001301",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001301",
+    "title": "Maximum Meetings in One Room",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Given the start and end times of N meetings, determine the maximum number of meetings that can be scheduled in a single room without overlapping.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain the start and end times.",
+    "output": "Print the maximum number of meetings.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001301",
+    "fileSHA": "ab18b07c97fadd3f13716fa1af9c126ec5fcf3bcea3a3097b4984a195339e225",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:20:54.094503+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ab18b07c97fadd3f13716fa1af9c126ec5fcf3bcea3a3097b4984a195339e225",
+    "normalizedCodeHash": "ab18b07c97fadd3f13716fa1af9c126ec5fcf3bcea3a3097b4984a195339e225",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:20:54.094530+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

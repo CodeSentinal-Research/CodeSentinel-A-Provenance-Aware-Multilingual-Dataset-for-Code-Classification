@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001709",
+  "problemId": "P001709",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001709",
+    "title": "Merge Two Binary Trees",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given two binary trees, create a new binary tree by merging overlapping nodes. When two nodes overlap, the new node's value is obtained by combining the corresponding node values according to the specified rule.",
+    "input": "\u2022 The first line contains N\u2081. \u2022 The next N\u2081 lines describe the first tree. \u2022 The following line contains N\u2082. \u2022 The next N\u2082 lines describe the second tree.",
+    "output": "\u2022 Print the merged tree.",
+    "constraints": "\u2022 0 \u2264 N\u2081, N\u2082 \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/0617-merge-two-binary-trees.py",
+    "fileSHA": "51112226ef1a5740fddba7eafe56f74359c897b6",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/python/0617-merge-two-binary-trees.py",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/python/0617-merge-two-binary-trees.py"
+  },
+  "matching": {
+    "relevanceScore": 71.82
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d33f4bf787ecfd8ff205c0b6c6256e1d53c5865a12849607f974dc52d8284858",
+    "normalizedCodeHash": "d33f4bf787ecfd8ff205c0b6c6256e1d53c5865a12849607f974dc52d8284858",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:28:31.979671+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

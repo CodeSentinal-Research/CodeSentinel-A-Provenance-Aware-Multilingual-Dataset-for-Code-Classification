@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001547",
+  "problemId": "P001547",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001547",
+    "title": "Maximum Number of Odd Elements in a Window",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and a window size K, find the maximum number of odd integers in any contiguous subarray of size K.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the answer.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001547.c",
+    "fileSHA": "8c2a0ec0f2cfcc131daf2182828daa4a63ec3f230920fce3ce0cefdba17f2b18",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.732Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "dc2e35b0038923fbe716099f30ff817a7f2de15200160cb5b25864ec1750fdf8",
+    "normalizedCodeHash": "8c2a0ec0f2cfcc131daf2182828daa4a63ec3f230920fce3ce0cefdba17f2b18",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.732Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

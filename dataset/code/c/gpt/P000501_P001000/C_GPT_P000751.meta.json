@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000751",
+  "problemId": "P000751",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000751",
+    "title": "Count All Subsequences with Given Sum",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and an integer target, count the number of subsequences whose sum equals target. Use recursion to solve the problem.",
+    "input": "Integer n Array nums Integer target",
+    "output": "The number of valid subsequences.",
+    "constraints": "1 <= n <= 30 -100 <= nums[i] <= 100 -3000 <= target <= 3000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000751.c",
+    "fileSHA": "31e432660ce34743c3d13f74732e7d458ba3ebc3d6f5b53fd6e475935e87efa5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "31e432660ce34743c3d13f74732e7d458ba3ebc3d6f5b53fd6e475935e87efa5",
+    "normalizedCodeHash": "31e432660ce34743c3d13f74732e7d458ba3ebc3d6f5b53fd6e475935e87efa5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

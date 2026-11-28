@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001212",
+  "problemId": "P001212",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001212",
+    "title": "Boolean Parenthesization",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given a boolean expression consisting of T, F, and the operators &, |, ^, determine the number of ways to parenthesize the expression so that it evaluates to True.",
+    "input": "• First line contains the boolean expression.",
+    "output": "Print the number of valid parenthesizations.",
+    "constraints": "• 1 ≤ Length of expression ≤ 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001212.py",
+    "fileSHA": "a2bfafa4fcda8d599f1cb81fb5b47f4c8d31be4d0ff1fecce8e9972ee2c4ce4b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.820398+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a2bfafa4fcda8d599f1cb81fb5b47f4c8d31be4d0ff1fecce8e9972ee2c4ce4b",
+    "normalizedCodeHash": "9c3e750d7cc598fdfd40ca3936196a2122caec6a6c47e7820817417b18f0a7ab",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.820398+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

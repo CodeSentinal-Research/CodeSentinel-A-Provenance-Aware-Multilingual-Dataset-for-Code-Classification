@@ -1,0 +1,2 @@
+// Search Longest String
+const fs=require("fs");const l=fs.readFileSync(0,"utf8").split(/\r?\n/),n=Number(l[0]);let ans=0;for(let i=1;i<n;i++)if((l[i+1]||"").length>(l[ans+1]||"").length)ans=i;console.log(ans);

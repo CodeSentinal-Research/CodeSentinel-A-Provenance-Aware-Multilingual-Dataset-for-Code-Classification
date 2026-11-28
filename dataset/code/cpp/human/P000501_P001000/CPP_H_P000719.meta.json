@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000719",
+  "problemId": "P000719",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000719",
+    "title": "Restore IP Addresses",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string containing only digits, restore all possible valid IPv4 addresses by inserting three dots into the string. Each segment must be between 0 and 255 and cannot contain leading zeros unless the segment itself is 0. Return all valid IP addresses in lexicographical order.",
+    "input": "String s",
+    "output": "All valid IPv4 addresses.",
+    "constraints": "1 <= |s| <= 20"
+  },
+  "repository": {
+    "name": "DenizIsikli/LeetCode-CPP",
+    "owner": "DenizIsikli",
+    "url": "https://github.com/DenizIsikli/LeetCode-CPP",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Problemsets/Problems/RestoreIPAddresses.cpp",
+    "fileSHA": "135569eb51294b1941c8c202ca3269efd7170098",
+    "url": "https://github.com/DenizIsikli/LeetCode-CPP/blob/8d9b0d7ade801dc94e32b0a264d97e991f1ba8e2/Problemsets/Problems/RestoreIPAddresses.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/DenizIsikli/LeetCode-CPP/main/Problemsets/Problems/RestoreIPAddresses.cpp"
+  },
+  "matching": {
+    "relevanceScore": 80.4
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "49cd75c2d1107ff499e47acf45fdcfb793508b0b11838bb84605ec6221a01c26",
+    "normalizedCodeHash": "49cd75c2d1107ff499e47acf45fdcfb793508b0b11838bb84605ec6221a01c26",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:16:44.771646+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

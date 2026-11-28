@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000792",
+  "problemId": "P000792",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000792",
+    "title": "Count Binary Subarrays with Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary array nums and an integer goal, return the number of non-empty subarrays whose sum equals goal.",
+    "input": "Integer n Binary array nums Integer goal",
+    "output": "The number of valid subarrays.",
+    "constraints": "1 <= n <= 3 \u00d7 10^4 nums[i] \u2208 {0,1} 0 <= goal <= n"
+  },
+  "repository": {
+    "name": "javadev/LeetCode-in-Java",
+    "owner": "javadev",
+    "url": "https://github.com/javadev/LeetCode-in-Java",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/g3701_3800/s3762_minimum_operations_to_equalize_subarrays/Solution.java",
+    "fileSHA": "baf579441a9508eea129bcdfae04feaaa9748d5e",
+    "url": "https://github.com/javadev/LeetCode-in-Java/blob/b2b3536e7cc37090f136267e173cc43ff2e82965/src/main/java/g3701_3800/s3762_minimum_operations_to_equalize_subarrays/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/javadev/LeetCode-in-Java/main/src/main/java/g3701_3800/s3762_minimum_operations_to_equalize_subarrays/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a4d92c10d818e732b4e73cedd2b9d76c75cfd319e63b32d1aa3a9b3b8b9c4340",
+    "normalizedCodeHash": "a4d92c10d818e732b4e73cedd2b9d76c75cfd319e63b32d1aa3a9b3b8b9c4340",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T00:58:37.752215+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000908",
+  "problemId": "P000908",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000908",
+    "title": "Modular Multiplicative Inverse",
+    "category": "Mathematics - Modular Arithmetic",
+    "difficulty": "Hard",
+    "problemStatement": "Given integers A and M, find the modular multiplicative inverse of A modulo M, if it exists. If no inverse exists, return -1.",
+    "input": "Integer A Integer M",
+    "output": "The modular inverse of A, or -1 if it does not exist.",
+    "constraints": "1 <= A, M <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P000908",
+    "fileSHA": "cd4ae9fcbc3523f5057b730ec942e00929190f32e5440af7dcb12fb7c62e842c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:32:18.699314+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cd4ae9fcbc3523f5057b730ec942e00929190f32e5440af7dcb12fb7c62e842c",
+    "normalizedCodeHash": "cd4ae9fcbc3523f5057b730ec942e00929190f32e5440af7dcb12fb7c62e842c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:32:18.699342+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

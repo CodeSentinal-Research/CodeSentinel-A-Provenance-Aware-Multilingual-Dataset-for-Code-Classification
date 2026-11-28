@@ -1,0 +1,10 @@
+{
+  "problemId": "P000558",
+  "title": "Minimum Moves to Reach Target with Rotations",
+  "category": "Queue",
+  "difficulty": "Hard",
+  "problemStatement": "You are given an n \u00d7 n binary grid representing obstacles. A snake occupies two adjacent cells and initially starts horizontally at the top-left corner. In one move, the snake may: Move right. Move down. Rotate clockwise. Rotate counterclockwise. A move is valid only if all required cells are within the grid and free of obstacles. Determine the minimum number of moves required for the snake to reach the target position. Return -1 if it is impossible.",
+  "input": "Integer n An n \u00d7 n binary grid.",
+  "output": "A single integer representing the minimum number of moves, or -1 if no valid path exists.",
+  "constraints": "2 <= n <= 100 Grid contains only 0 and 1."
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001680",
+  "problemId": "P001680",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001680",
+    "title": "Largest Value in Every Tree Row",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the largest value present at every level of the tree.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print the largest value for each level from top to bottom.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • −10^9 ≤ NodeValue ≤ 10^9________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001680.c",
+    "fileSHA": "26fff29d91ef6f2b630f94495e542d9c8803c546ebb23574fa60cfd15f717715",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.307Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "91c1ed9c5cd139244f49b5bdaa08456284a1ccfd62122e660cd9d1ed7122a05e",
+    "normalizedCodeHash": "26fff29d91ef6f2b630f94495e542d9c8803c546ebb23574fa60cfd15f717715",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.307Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001209",
+  "problemId": "P001209",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001209",
+    "title": "Stone Game III",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Two players alternately take one, two, or three stones from the beginning of an array. Each stone has an associated value. Assuming optimal play, determine whether the first player wins, loses, or ties.",
+    "input": "• First line contains integer N. • Second line contains N integers.",
+    "output": "Print Alice, Bob, or Tie.",
+    "constraints": "• 1 ≤ N ≤ 5×10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001209.c",
+    "fileSHA": "d892b5517560145ff6ce9b1371420360b715c3d9d67eaa04ed1872016d1193e9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.289Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "13c105158814f3fc4b70bc3cb815fd45722ae743cf33c5eb309a60bf2916ecc3",
+    "normalizedCodeHash": "d892b5517560145ff6ce9b1371420360b715c3d9d67eaa04ed1872016d1193e9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.289Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

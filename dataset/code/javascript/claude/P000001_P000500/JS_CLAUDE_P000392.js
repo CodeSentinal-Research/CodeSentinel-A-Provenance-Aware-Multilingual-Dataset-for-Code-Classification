@@ -1,0 +1,1 @@
+const l=require("fs").readFileSync("/dev/stdin","utf8").trim().split("\n");const n=+l[0];const files=l.slice(1,n+1);const ext=l[n+1].trim();const res=files.filter(f=>f.endsWith("."+ext));if(res.length)res.forEach(f=>console.log(f));else console.log("No Records Found");

@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001451",
+  "problemId": "P001451",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001451",
+    "title": "Count Pairs With XOR Equal to K",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer K, determine the number of pairs (i, j) such that i < j and nums[i] XOR nums[j] = K.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the total number of valid pairs.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 0 \u2264 nums[i], K \u2264 10^9"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/count-pairs-with-xor-in-a-range.py",
+    "fileSHA": "b2a46ba297f72f4a7489c6084db24b7af9400459",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/count-pairs-with-xor-in-a-range.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/count-pairs-with-xor-in-a-range.py"
+  },
+  "matching": {
+    "relevanceScore": 73.75
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8c1463672b8454cddd652a8ded32a970820e8cdf00e60728518e2c59159fb572",
+    "normalizedCodeHash": "8c1463672b8454cddd652a8ded32a970820e8cdf00e60728518e2c59159fb572",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T02:06:33.376504+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

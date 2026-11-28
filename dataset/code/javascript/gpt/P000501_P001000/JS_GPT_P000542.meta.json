@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000542",
+  "problemId": "P000542",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000542",
+    "title": "Design Front Middle Back Queue",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Design a queue that supports insertion and deletion at the front, middle, and back. The queue must support: pushFront(x) pushMiddle(x) pushBack(x) popFront() popMiddle() popBack() If the queue is empty, every pop operation returns -1. Process a sequence of operations and print the results of every pop operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result of every pop operation.",
+    "constraints": "1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000542.js",
+    "fileSHA": "6de761b71ecab171fb73ffecf44d624da44b3414985a203a1c05644d9ad7c853",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6de761b71ecab171fb73ffecf44d624da44b3414985a203a1c05644d9ad7c853",
+    "normalizedCodeHash": "6de761b71ecab171fb73ffecf44d624da44b3414985a203a1c05644d9ad7c853",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

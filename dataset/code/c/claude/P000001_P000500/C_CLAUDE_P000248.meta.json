@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000248",
+  "problemId": "P000248",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000248",
+    "title": "Add Two Matrices",
+    "category": "Arrays",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that adds two matrices of the same dimensions.",
+    "input": "First line contains rows and cols. Next rows lines contain first matrix. Then next rows lines contain second matrix.",
+    "output": "The resulting sum matrix.",
+    "constraints": "1 ≤ rows, cols ≤ 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000248",
+    "fileSHA": "4760f8222b6c53bb11aefbec806c73f21222c0b6ea6dd9802155a3ae3f70690a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4760f8222b6c53bb11aefbec806c73f21222c0b6ea6dd9802155a3ae3f70690a",
+    "normalizedCodeHash": "4760f8222b6c53bb11aefbec806c73f21222c0b6ea6dd9802155a3ae3f70690a",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000248: Add Two Matrices"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

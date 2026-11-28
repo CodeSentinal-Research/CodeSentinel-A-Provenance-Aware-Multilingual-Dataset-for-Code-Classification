@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001820",
+  "problemId": "P001820",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001820",
+    "title": "Find the Key with a Given Rank in a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a Binary Search Tree and an integer R, determine the key whose rank is R (0-indexed).",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST. • The last line contains R.",
+    "output": "• Print the required key.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • 0 ≤ R < N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001820.c",
+    "fileSHA": "67676bf07bf5a10af14c16cf41a0a062bc02ab495f443cd0feedf9ed0e85b0e3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.758Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "f72e4fb1a0f00204662d89db1e84dc0c5b1d530cd331c5b1f1237bb8d00eae05",
+    "normalizedCodeHash": "67676bf07bf5a10af14c16cf41a0a062bc02ab495f443cd0feedf9ed0e85b0e3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.758Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

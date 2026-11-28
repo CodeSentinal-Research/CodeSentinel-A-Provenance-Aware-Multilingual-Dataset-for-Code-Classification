@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000963",
+  "problemId": "P000963",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000963",
+    "title": "Chicken McNugget Numbers",
+    "category": "Mathematics - Diophantine Equations",
+    "difficulty": "Medium",
+    "problemStatement": "Given package sizes A and B, determine whether exactly N items can be purchased using any non-negative combination of the two package sizes.",
+    "input": "Integer A Integer B Integer N",
+    "output": "Print true if possible; otherwise, print false.",
+    "constraints": "1 <= A, B, N <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000963.c",
+    "fileSHA": "dddd04fda163f720b3a2abcd57da63ef9738d44f3bcb6751207e769ca6361e4a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "dddd04fda163f720b3a2abcd57da63ef9738d44f3bcb6751207e769ca6361e4a",
+    "normalizedCodeHash": "dddd04fda163f720b3a2abcd57da63ef9738d44f3bcb6751207e769ca6361e4a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

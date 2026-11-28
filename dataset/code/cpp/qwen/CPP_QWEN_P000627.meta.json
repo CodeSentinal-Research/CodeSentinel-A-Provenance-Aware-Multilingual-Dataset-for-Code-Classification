@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000627",
+  "problemId": "P000627",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000627",
+    "title": "Reverse a Doubly Linked List in Groups of K",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a doubly linked list and an integer k, reverse the nodes of the list in groups of size k. If the number of remaining nodes is less than k, leave them unchanged. Return the head of the modified doubly linked list.",
+    "input": "Integer n Doubly linked list Integer k",
+    "output": "The modified doubly linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000627",
+    "fileSHA": "bdc4adee78074f1c1b584744c57b12747609fc942bf7eb67ce283026496643c5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.340Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "1620a6f231e7ab6accb90d6cd211a432e57e1484035987834b9861f46a7d31e2",
+    "normalizedCodeHash": "e9e27fcb51700a4287f2a018a46930176eba91c0552f953a1dbebbb974358591",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.340Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

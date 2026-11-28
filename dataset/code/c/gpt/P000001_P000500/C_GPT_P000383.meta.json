@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000383",
+  "problemId": "P000383",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000383",
+    "title": "Search Library Member by Membership ID",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Locate a library member using the membership ID.",
+    "input": "Member records and a membership ID.",
+    "output": "Member details or \"Member Not Found\".",
+    "constraints": "1 ≤ Number of Members ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000383.c",
+    "fileSHA": "07a1b0459588d554b964c7557eff4cd008f6e5d261d526205de8bc27445d4b91",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "07a1b0459588d554b964c7557eff4cd008f6e5d261d526205de8bc27445d4b91",
+    "normalizedCodeHash": "07a1b0459588d554b964c7557eff4cd008f6e5d261d526205de8bc27445d4b91",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

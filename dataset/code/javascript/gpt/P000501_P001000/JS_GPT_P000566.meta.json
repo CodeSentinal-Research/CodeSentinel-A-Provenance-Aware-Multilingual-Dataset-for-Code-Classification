@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000566",
+  "problemId": "P000566",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000566",
+    "title": "Minimum Genetic Mutation",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "A gene string consists of exactly eight characters chosen from 'A', 'C', 'G', and 'T'. Given a starting gene, a target gene, and a bank of valid gene strings, determine the minimum number of single-character mutations required to reach the target. Each intermediate gene must exist in the bank. Return -1 if the mutation is impossible.",
+    "input": "String startGene String endGene Integer n List of gene strings",
+    "output": "A single integer representing the minimum number of mutations.",
+    "constraints": "Gene length is always 8 0 <= n <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000566.js",
+    "fileSHA": "373ddc56011e2ddb3805121d8aa9150e5aa0bf7bf8afb064b5a8ac72c896c2a1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "373ddc56011e2ddb3805121d8aa9150e5aa0bf7bf8afb064b5a8ac72c896c2a1",
+    "normalizedCodeHash": "373ddc56011e2ddb3805121d8aa9150e5aa0bf7bf8afb064b5a8ac72c896c2a1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

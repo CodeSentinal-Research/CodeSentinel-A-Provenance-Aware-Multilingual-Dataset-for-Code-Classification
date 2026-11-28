@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000504",
+  "problemId": "P000504",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000504",
+    "title": "Exclusive Time of Functions",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "A single-threaded CPU executes n functions identified by IDs from 0 to n-1. Execution logs are provided in the format: function_id:start_or_end:timestamp A function may call another function before finishing. Return the exclusive execution time of each function, excluding the time spent executing child functions.",
+    "input": "Integer n Integer m Array of m log strings.",
+    "output": "An array of n integers representing the exclusive execution time of each function.",
+    "constraints": "1 <= n <= 100 1 <= m <= 500 Logs are valid and sorted by timestamp."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000504",
+    "fileSHA": "dfd36b61f02eba9cc343e5aadf4cd0ee9d0266a1dbae91bfce916acaf3c0a16e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "dfd36b61f02eba9cc343e5aadf4cd0ee9d0266a1dbae91bfce916acaf3c0a16e",
+    "normalizedCodeHash": "dfd36b61f02eba9cc343e5aadf4cd0ee9d0266a1dbae91bfce916acaf3c0a16e",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000504: Exclusive Time of Functions"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

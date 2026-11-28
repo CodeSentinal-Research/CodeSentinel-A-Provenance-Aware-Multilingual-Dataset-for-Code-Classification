@@ -1,0 +1,1 @@
+const l=require("fs").readFileSync("/dev/stdin","utf8").trim().split("\n");let i=0;const n=+l[i++];const s=new Set(l[i++].split(" ").map(Number));const q=+l[i++];while(q-->0){const x=+l[i++];console.log(s.has(x)?"Found":"Not Found");}

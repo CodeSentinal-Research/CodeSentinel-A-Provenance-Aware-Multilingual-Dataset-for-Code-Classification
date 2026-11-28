@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_QWEN_P001446",
+  "problemId": "P001446",
+  "language": "c",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001446",
+    "title": "Sentence Similarity",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given two sentences and a list of similar word pairs, determine whether the two sentences are similar.",
+    "input": "\u2022 First line contains the first sentence. \u2022 Second line contains the second sentence. \u2022 Third line contains integer P. \u2022 Next P lines contain pairs of similar words.",
+    "output": "Print YES if the sentences are similar; otherwise print NO.",
+    "constraints": "\u2022 Sentence length \u2264 10^5 \u2022 1 \u2264 P \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/C_QWEN_P001446",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

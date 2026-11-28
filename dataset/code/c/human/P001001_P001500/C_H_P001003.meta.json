@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001003",
+  "problemId": "P001003",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001003",
+    "title": "Find the Minimum Element in a Heap",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a Min Heap represented as an array, determine and print its minimum element.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N space-separated integers representing a valid Min Heap.",
+    "output": "Print the minimum element.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "Xinyuan-LilyGO/esp-idf",
+    "owner": "Xinyuan-LilyGO",
+    "url": "https://github.com/Xinyuan-LilyGO/esp-idf",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "components/heap/include/multi_heap.h",
+    "fileSHA": "d0480da7cdce31be87e71a6ffb81021c56d0071e",
+    "url": "https://github.com/Xinyuan-LilyGO/esp-idf/blob/7fb0a8f8fc3bc89d1e2654cb7933d36052d3677b/components/heap/include/multi_heap.h",
+    "rawUrl": "https://raw.githubusercontent.com/Xinyuan-LilyGO/esp-idf/main/components/heap/include/multi_heap.h"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5a60e75e1ce33b85fe602046c0fb1a0cd8525bd9db26358c2d7514e8d3d7c24d",
+    "normalizedCodeHash": "5a60e75e1ce33b85fe602046c0fb1a0cd8525bd9db26358c2d7514e8d3d7c24d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T14:16:05.187500+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

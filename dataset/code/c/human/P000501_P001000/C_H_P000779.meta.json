@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000779",
+  "problemId": "P000779",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000779",
+    "title": "Range Sum Query - Immutable",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and multiple range sum queries, return the sum of elements between indices left and right (inclusive) for each query. Preprocess the array using a prefix sum array to answer each query efficiently.",
+    "input": "Integer n Array nums Integer q q queries (left, right)",
+    "output": "For each query, print the range sum.",
+    "constraints": "1 <= n, q <= 2 \u00d7 10^5 -10^9 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "josh24311/c_practice",
+    "owner": "josh24311",
+    "url": "https://github.com/josh24311/c_practice",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "303. Range Sum Query - Immutable.c",
+    "fileSHA": "d75a0affb9074ed89d31eb69abcaf5b67909651f",
+    "url": "https://github.com/josh24311/c_practice/blob/9e25e7b4e38550a7bba051186674a342440d7f00/303. Range Sum Query - Immutable.c",
+    "rawUrl": "https://raw.githubusercontent.com/josh24311/c_practice/main/303. Range Sum Query - Immutable.c"
+  },
+  "matching": {
+    "relevanceScore": 88.06
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f15ee32dcae495f6a5792648e13d19c55aa46416b8ec14317e2414d5b1ddb2b9",
+    "normalizedCodeHash": "f15ee32dcae495f6a5792648e13d19c55aa46416b8ec14317e2414d5b1ddb2b9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:38:16.648537+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

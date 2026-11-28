@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001535",
+  "problemId": "P001535",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001535",
+    "title": "Longest Substring After At Most K Replacements",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given an uppercase English string and an integer K, determine the length of the longest substring that can be converted into a string of identical characters after replacing at most K characters.",
+    "input": "\u2022 First line contains the string. \u2022 Second line contains integer K.",
+    "output": "Print the maximum possible length.",
+    "constraints": "\u2022 1 \u2264 Length \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001535",
+    "fileSHA": "902c7022a329128f29424e9a5306f721b9dc1d3c6e3613c08d68133916de5f06",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:29:39.188682+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "902c7022a329128f29424e9a5306f721b9dc1d3c6e3613c08d68133916de5f06",
+    "normalizedCodeHash": "902c7022a329128f29424e9a5306f721b9dc1d3c6e3613c08d68133916de5f06",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:29:39.188708+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

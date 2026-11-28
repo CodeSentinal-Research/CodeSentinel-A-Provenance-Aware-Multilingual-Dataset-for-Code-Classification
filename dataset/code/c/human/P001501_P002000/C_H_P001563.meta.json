@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001563",
+  "problemId": "P001563",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001563",
+    "title": "Longest Subarray With Absolute Difference Within Limit",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and an integer Limit, determine the length of the longest contiguous subarray such that the absolute difference between the maximum and minimum elements in the subarray does not exceed Limit.",
+    "input": "\u2022 First line contains N and Limit. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the maximum length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9 \u2022 0 \u2264 Limit \u2264 10^9"
+  },
+  "repository": {
+    "name": "lrmsspace/Knowledge-Augmented-Codegen",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "evaluation/S1/c/Medium/1241-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.c",
+    "fileSHA": "41499a2f5a613d3f133ce4f9d30174fc2f8fb268",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen/blob/aa02d0f7c87de0b9a725c85dfb03746289785175/evaluation/S1/c/Medium/1241-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/Knowledge-Augmented-Codegen/main/evaluation/S1/c/Medium/1241-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.c"
+  },
+  "matching": {
+    "relevanceScore": 95.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "639abd63237a4a897ccd4d3a0c977f34964f2e9cb2383bd846ca61b152490608",
+    "normalizedCodeHash": "639abd63237a4a897ccd4d3a0c977f34964f2e9cb2383bd846ca61b152490608",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T03:47:11.985889+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

@@ -1,0 +1,97 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm>
+#include <cmath>
+#include <climits>
+#include <cstdint>
+#include <queue>
+#include <stack>
+#include <unordered_map>
+#include <unordered_set>
+#include <map>
+#include <set>
+#include <numeric>
+#include <sstream>
+using namespace std;
+
+// https://takeuforward.org/data-structure/g-38-cheapest-flights-within-k-stops
+// https://leetcode.com/problems/cheapest-flights-within-k-stops/description/
+
+// There are n cities connected by some number of flights. You are given an array flights where flights[i] = [fromi, toi, pricei] indicates that there is a flight from city fromi to city toi with cost pricei.
+
+// You are also given three integers src, dst, and k, return the cheapest price from src to dst with at most k stops. If there is no such route, return -1.
+
+// TC: O(N), where the additional log(N) time is eliminated by using a simple queue rather than a priority queue, which is usually used in Dijkstra’s Algorithm. Where N = Number of flights / Number of edges.
+
+// SC: O(E + V), for the adjacency list, priority queue, and the dist array. Where E = Number of edges (flights.size()) and V = Number of airports.
+
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution
+{
+public:
+    int findCheapestPrice(int n, vector<vector<int>> &flights, int src, int dst, int k)
+    {
+        // Create the adjacency list to represent airports and flights as a graph
+        vector<vector<pair<int, int>>> adj(n);
+
+        for (auto it : flights)
+        {
+            adj[it[0]].push_back({it[1], it[2]}); // Add an edge from source to destination with the weight (cost)
+        }
+
+        queue<pair<int, pair<int, int>>> q; // {stops, {node, cost}}
+        // Umm we're not using priority queue because we can never be sure if the least number of stops has the least cost
+        // In fact we are okay taking more stops upto K, but we want the price as low as possible
+        // And we are never sure if the least cost possible still has stops less than K
+        // Due to this uncertainity, it is never predictable if it'd be useful to pick a priority queue
+        // So a normal queue is the best bet to save time
+
+        q.push({0, {src, 0}});
+
+        vector<int> dist(n, 1e9);
+        dist[src] = 0;
+
+        // BFS traversal with a queue to process the nodes
+        while (!q.empty())
+        {
+            auto it = q.front();
+            q.pop();
+            int stops = it.first;        // Number of stops so far
+            int node = it.second.first;  // Current node
+            int cost = it.second.second; // Cost to reach the current node
+
+            // If the number of stops exceeds K, continue to the next iteration
+            if (stops > k)
+                continue;
+
+            // Iterate over all the adjacent nodes (next destinations)
+            for (auto iter : adj[node])
+            {
+                int adjNode = iter.first; // Next destination node
+                int edW = iter.second;    // Cost of the flight to the next destination
+
+                // If a shorter path to the adjacent node is found, update the distance
+                if (cost + edW < dist[adjNode] && stops <= k)
+                {
+                    dist[adjNode] = cost + edW;                 // Update the distance
+                    q.push({stops + 1, {adjNode, cost + edW}}); // Push the new node with updated stops and cost
+                }
+            }
+        }
+
+        // If destination node is unreachable, return -1
+        if (dist[dst] == 1e9)
+            return -1;
+
+        return dist[dst]; // Return the minimum cost to reach the destination
+    }
+};
+
+int main()
+{
+
+    return 0;
+}

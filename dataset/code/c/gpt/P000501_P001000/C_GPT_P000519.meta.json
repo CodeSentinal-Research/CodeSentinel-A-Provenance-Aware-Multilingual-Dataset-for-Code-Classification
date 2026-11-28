@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000519",
+  "problemId": "P000519",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000519",
+    "title": "Queue Using Stacks",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "Design a queue using only two stacks. The queue must support the following operations: push(x) — Insert an element at the back. pop() — Remove and return the front element. peek() — Return the front element without removing it. empty() — Return whether the queue is empty. Process a sequence of operations and print the result of every pop(), peek(), and empty() operation.",
+    "input": "Integer q Next q lines each contain one operation.",
+    "output": "Print the output for every pop(), peek(), and empty() operation.",
+    "constraints": "1 <= q <= 10^5 All operations are valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000519.c",
+    "fileSHA": "76f008311dbf49412aa69ef63cd7ebf56e4e10bd1cb9445b5e1fcee8dfec7608",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "76f008311dbf49412aa69ef63cd7ebf56e4e10bd1cb9445b5e1fcee8dfec7608",
+    "normalizedCodeHash": "76f008311dbf49412aa69ef63cd7ebf56e4e10bd1cb9445b5e1fcee8dfec7608",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001038",
+  "problemId": "P001038",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001038",
+    "title": "IPO Capital Maximization",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given a list of projects, where each project requires a minimum capital and yields a profit, determine the maximum capital that can be accumulated after completing at most K projects.",
+    "input": "• First line contains integers N and K. • Second line contains N capital requirements. • Third line contains N profits. • Fourth line contains the initial capital.",
+    "output": "Print the maximum achievable capital.",
+    "constraints": "• 1 ≤ N ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001038.js",
+    "fileSHA": "f58ecd043319b49228218297fb5224fe814c24e25f9dd45c6429f7faf0457e96",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T09:30:51.258473+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f58ecd043319b49228218297fb5224fe814c24e25f9dd45c6429f7faf0457e96",
+    "normalizedCodeHash": "f58ecd043319b49228218297fb5224fe814c24e25f9dd45c6429f7faf0457e96",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T09:30:51.258473+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

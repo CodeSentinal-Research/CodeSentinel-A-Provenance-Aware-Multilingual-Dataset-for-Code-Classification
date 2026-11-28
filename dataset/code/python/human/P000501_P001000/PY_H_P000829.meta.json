@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P000829",
+  "problemId": "P000829",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000829",
+    "title": "Capacity To Ship Packages Within D Days",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array weights where weights[i] is the weight of the i-th package and an integer days, determine the least weight capacity of a ship that will allow all packages to be shipped within exactly days days. Packages must be shipped in the given order.",
+    "input": "Integer n Array weights Integer days",
+    "output": "The minimum ship capacity.",
+    "constraints": "1 <= n <= 5 \u00d7 10^4 1 <= weights[i] <= 500 1 <= days <= n"
+  },
+  "repository": {
+    "name": "lufftw/neetcode",
+    "owner": "lufftw",
+    "url": "https://github.com/lufftw/neetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000829.py",
+    "fileSHA": "739c489bada75d3b293bd0ddb9b07eca2612fc5d",
+    "url": "https://github.com/lufftw/neetcode/blob/f3fa6a4050c3bc00be6e1836f8e5a5134408906e/solutions/1011_capacity_to_ship_packages_within_d_days.py",
+    "rawUrl": "https://raw.githubusercontent.com/lufftw/neetcode/main/solutions/1011_capacity_to_ship_packages_within_d_days.py"
+  },
+  "matching": {
+    "relevanceScore": 92.55
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2026-01-05T04:03:35Z",
+    "lastCommitDate": "2026-01-09T06:58:17Z",
+    "commitCount": 2,
+    "authorCount": 1,
+    "authors": [
+      "lufftw"
+    ],
+    "firstKnownAuthor": "lufftw",
+    "latestKnownAuthor": "lufftw"
+  },
+  "deduplication": {
+    "rawCodeHash": "b8c2ee53776f3404fa9e530ef90ce6ac9d95a162fb6601646a41376514c973c6",
+    "normalizedCodeHash": "b8c2ee53776f3404fa9e530ef90ce6ac9d95a162fb6601646a41376514c973c6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T05:11:06.885648+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

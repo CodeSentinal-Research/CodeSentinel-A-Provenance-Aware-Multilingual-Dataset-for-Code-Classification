@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000547",
+  "problemId": "P000547",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000547",
+    "title": "Escape the Spreading Fire",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an m \u00d7 n grid containing: 0 for empty land 1 for fire 2 for walls You start at the top-left cell and want to reach the bottom-right cell. Each minute: You may move to an adjacent empty cell. Fire simultaneously spreads to adjacent non-wall cells. Determine the maximum number of minutes you can wait before starting your journey while still being able to safely reach the destination. Return -1 if reaching the destination is impossible.",
+    "input": "Integers m and n An m \u00d7 n grid",
+    "output": "A single integer.",
+    "constraints": "1 <= m, n <= 300"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000547",
+    "fileSHA": "69204fb44702d5b5b924058a1ad9b8b358fb684043b21ba8f78cdbf36f209c26",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:44:52.878258+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "236ac9590597c7bd0c718081ac830db6290ba5e1d7f9d97978deb0f283bb1cbe",
+    "normalizedCodeHash": "69204fb44702d5b5b924058a1ad9b8b358fb684043b21ba8f78cdbf36f209c26",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:44:52.878281+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

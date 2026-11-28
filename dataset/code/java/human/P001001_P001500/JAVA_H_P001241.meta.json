@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001241",
+  "problemId": "P001241",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001241",
+    "title": "Gas Station Circuit",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "There are N gas stations arranged in a circle. Each station provides a certain amount of gas, and traveling to the next station consumes a certain amount of gas. Determine the starting station index from which the entire circuit can be completed. If impossible, print -1.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing gas available. \u2022 Third line contains N integers representing travel cost.",
+    "output": "Print the starting station index or -1.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "cherryljr/LeetCode",
+    "owner": "cherryljr",
+    "url": "https://github.com/cherryljr/LeetCode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Gas Station.java",
+    "fileSHA": "d446d6280d4164a94f0bf650797bd8a94100711f",
+    "url": "https://github.com/cherryljr/LeetCode/blob/master/Gas Station.java",
+    "rawUrl": "https://raw.githubusercontent.com/cherryljr/LeetCode/master/Gas Station.java"
+  },
+  "matching": {
+    "relevanceScore": 89.13
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "42c08cf80f28097d5624f7f5b5c81ac4e2d83e467bfaad3bf3fc2dab80bfc070",
+    "normalizedCodeHash": "42c08cf80f28097d5624f7f5b5c81ac4e2d83e467bfaad3bf3fc2dab80bfc070",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:52:12.634069+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

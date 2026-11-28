@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P000510",
+  "problemId": "P000510",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000510",
+    "title": "Final Prices With a Special Discount in a Shop",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an array where prices[i] is the price of the i-th item. For each item, find the first item to its right whose price is less than or equal to the current item's price. Use that value as a discount. If no such item exists, no discount is applied. Return the final price of every item after applying the discount.",
+    "input": "Integer n Array prices",
+    "output": "An array representing the final prices.",
+    "constraints": "1 <= n <= 500 1 <= prices[i] <= 1000"
+  },
+  "repository": {
+    "name": "victorplusc/Algorithms",
+    "owner": "victorplusc",
+    "url": "https://github.com/victorplusc/Algorithms",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000510.py",
+    "fileSHA": "dc482794f3740038fd7372776aa4f47b296feca0",
+    "url": "https://github.com/victorplusc/Algorithms/blob/096e693fb490a00abc5f3d7282a73f0a1dd7b3a7/Leetcode/1475. Final Prices With a Special Discount in a Shop.py",
+    "rawUrl": "https://raw.githubusercontent.com/victorplusc/Algorithms/main/Leetcode/1475. Final Prices With a Special Discount in a Shop.py"
+  },
+  "matching": {
+    "relevanceScore": 66.24
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2020-06-13T18:20:17Z",
+    "lastCommitDate": "2020-06-13T18:20:17Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Victor"
+    ],
+    "firstKnownAuthor": "Victor",
+    "latestKnownAuthor": "Victor"
+  },
+  "deduplication": {
+    "rawCodeHash": "d64f79f521b248b422832614d3e26c699074e5cd33fd272a1b2b663b70f38e21",
+    "normalizedCodeHash": "d64f79f521b248b422832614d3e26c699074e5cd33fd272a1b2b663b70f38e21",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:04:31.881117+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

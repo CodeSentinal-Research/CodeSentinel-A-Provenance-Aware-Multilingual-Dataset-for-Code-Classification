@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001110",
+  "problemId": "P001110",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001110",
+    "title": "M-Coloring Problem",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph and an integer M, determine whether the graph can be colored using at most M colors so that adjacent vertices have different colors.",
+    "input": "\u2022 First line contains integers N, E, and M. \u2022 Next E lines contain graph edges.",
+    "output": "Print YES if such a coloring exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 20 \u2022 0 \u2264 E \u2264 N(N\u22121)/2"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001110",
+    "fileSHA": "5e0a7288eb458988c59d26e7732d93e46ab8680d34c4da5ac2edd05a7bfc2b0e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:45:01.899448+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5e0a7288eb458988c59d26e7732d93e46ab8680d34c4da5ac2edd05a7bfc2b0e",
+    "normalizedCodeHash": "5e0a7288eb458988c59d26e7732d93e46ab8680d34c4da5ac2edd05a7bfc2b0e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:45:01.899475+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

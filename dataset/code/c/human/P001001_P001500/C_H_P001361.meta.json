@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001361",
+  "problemId": "P001361",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001361",
+    "title": "Stickers to Spell Word",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given a collection of stickers containing lowercase English letters and a target word, determine the minimum number of stickers required to form the target word. Each sticker may be used multiple times.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain sticker strings. \u2022 Last line contains the target word.",
+    "output": "Print the minimum number of stickers required, or -1 if impossible.",
+    "constraints": "\u2022 1 \u2264 N \u2264 50 \u2022 Sticker length \u2264 15 \u2022 Target length \u2264 15"
+  },
+  "repository": {
+    "name": "lrmsspace/LLM-CodeQualityEval",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Output/output_TY/c/Hard/1865-stickers-to-spell-word.c",
+    "fileSHA": "7e5b86337bb7271516e01562a17d5153bc07dd4c",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval/blob/a2817bbe913c51ab32afeb6f6d0ad97b92c45075/Output/output_TY/c/Hard/1865-stickers-to-spell-word.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/LLM-CodeQualityEval/main/Output/output_TY/c/Hard/1865-stickers-to-spell-word.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b284d83b07cc0d10ed87934036fe0ef28ea003f032a5aacfadb1d3ff0fccdec9",
+    "normalizedCodeHash": "b284d83b07cc0d10ed87934036fe0ef28ea003f032a5aacfadb1d3ff0fccdec9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T18:34:16.761642+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

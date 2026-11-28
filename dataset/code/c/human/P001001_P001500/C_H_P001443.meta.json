@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001443",
+  "problemId": "P001443",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001443",
+    "title": "Count Words Obtained After Adding a Letter",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given two lists of lowercase words, determine how many words in the second list can be obtained by adding exactly one letter to any word in the first list and rearranging the characters.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next N lines contain the first list. \u2022 Next M lines contain the second list.",
+    "output": "Print the count of obtainable words.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 5\u00d710^4 \u2022 Word length \u2264 26"
+  },
+  "repository": {
+    "name": "lrmsspace/LLM-CodeQualityEval",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Output/output_Copilot/c/Medium/1506-count-words-obtained-after-adding-a-letter.c",
+    "fileSHA": "c2f573bfed5ecc9be0060dd6c4923f366e60bee5",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval/blob/a2817bbe913c51ab32afeb6f6d0ad97b92c45075/Output/output_Copilot/c/Medium/1506-count-words-obtained-after-adding-a-letter.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/LLM-CodeQualityEval/main/Output/output_Copilot/c/Medium/1506-count-words-obtained-after-adding-a-letter.c"
+  },
+  "matching": {
+    "relevanceScore": 84.1
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0e232140b4b4e028d35e4cb6a2f39c26fdd3e7689424b72574d6f44fc3f092fd",
+    "normalizedCodeHash": "0e232140b4b4e028d35e4cb6a2f39c26fdd3e7689424b72574d6f44fc3f092fd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T03:19:49.986101+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

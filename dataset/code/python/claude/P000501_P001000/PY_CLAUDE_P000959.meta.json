@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000959",
+  "problemId": "P000959",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000959",
+    "title": "Solve Linear Diophantine Equation",
+    "category": "Mathematics - Diophantine Equations",
+    "difficulty": "Medium",
+    "problemStatement": "Given integers A, B, and C, determine whether the equation: AX + BY = C has an integer solution.",
+    "input": "Integer A Integer B Integer C",
+    "output": "Print true if a solution exists; otherwise, print false.",
+    "constraints": "|A|, |B|, |C| <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000959",
+    "fileSHA": "8eec4c64c91d714722bb97e6090e26d9d9add1ee5dcd46335b7a04ba84b33b58",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8eec4c64c91d714722bb97e6090e26d9d9add1ee5dcd46335b7a04ba84b33b58",
+    "normalizedCodeHash": "8eec4c64c91d714722bb97e6090e26d9d9add1ee5dcd46335b7a04ba84b33b58",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique P000959: Solve Linear Diophantine Equation"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

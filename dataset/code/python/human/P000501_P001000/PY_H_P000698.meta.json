@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000698",
+  "problemId": "P000698",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000698",
+    "title": "Fast Modular Exponentiation Using Recursion",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given three integers base, exponent, and mod, compute (base^exponent) mod mod using recursive exponentiation by squaring.",
+    "input": "Integer base Integer exponent Integer mod",
+    "output": "The value of (base^exponent) mod mod.",
+    "constraints": "1 <= base, exponent <= 10^18 2 <= mod <= 10^18"
+  },
+  "repository": {
+    "name": "pgentil/QuantumFactorising",
+    "owner": "pgentil",
+    "url": "https://github.com/pgentil/QuantumFactorising",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "factorising_functions.py",
+    "fileSHA": "dc3e962dc123b376b7dc0a293e6171c0eccaa693",
+    "url": "https://github.com/pgentil/QuantumFactorising/blob/255a754aab2920770b4caab3b23993ede5e9cd7f/factorising_functions.py",
+    "rawUrl": "https://raw.githubusercontent.com/pgentil/QuantumFactorising/main/factorising_functions.py"
+  },
+  "matching": {
+    "relevanceScore": 62.38
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8ad285a411fb85e8026e184422a5dcd9cb8273f158c250c6ad5f1bba5a81796c",
+    "normalizedCodeHash": "8ad285a411fb85e8026e184422a5dcd9cb8273f158c250c6ad5f1bba5a81796c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:31:25.929667+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

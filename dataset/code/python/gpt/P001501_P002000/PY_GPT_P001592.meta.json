@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_GPT_P001592",
+  "problemId": "P001592",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001592",
+    "title": "Earliest Prefix With Sum At Least X",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and an integer X, determine the smallest index such that the prefix sum is greater than or equal to X. If no such prefix exists, print -1.",
+    "input": "• First line contains N and X. • Second line contains N integers.",
+    "output": "• Print the required index or -1.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001501_P002000/PY_GPT_P001592.py",
+    "fileSHA": "3aa8f8812ecd65bcb67946d565447be7196c9b8558669d493471c95add2e49b0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-26T13:09:03.623311+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3aa8f8812ecd65bcb67946d565447be7196c9b8558669d493471c95add2e49b0",
+    "normalizedCodeHash": "747c10851ab1f32ce45b7e1f7014cddd7f271de8347c753c3fe865cec4e1ef2f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-26T13:09:03.623311+00:00",
+    "pipelineVersion": "1.0.0"
+  },
+  "sha256": "4682638420197d1112d710aeb1b354542bfc86074c81a5f38b6668e1e8de903f"
+}

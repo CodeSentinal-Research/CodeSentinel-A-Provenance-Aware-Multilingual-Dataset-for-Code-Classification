@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001367",
+  "problemId": "P001367",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001367",
+    "title": "Matchsticks Game Winner",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Two players alternately remove 1 to K matchsticks from a pile containing N matchsticks. Determine whether the first player has a winning strategy assuming both players play optimally.",
+    "input": "• First line contains integers N and K.",
+    "output": "Print FIRST if the first player wins; otherwise print SECOND.",
+    "constraints": "• 1 ≤ N ≤ 10^6 • 1 ≤ K ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001367.c",
+    "fileSHA": "d5b4e79e7c43fbeb92293309aeb2625d7c7a022171e626e14f1d0465a7e48a0e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.094Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "9178ccf5432e498986f82fc6f30ab8e0a84ce8ba28437a94cfc2ecdc1f6c56fc",
+    "normalizedCodeHash": "d5b4e79e7c43fbeb92293309aeb2625d7c7a022171e626e14f1d0465a7e48a0e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.094Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

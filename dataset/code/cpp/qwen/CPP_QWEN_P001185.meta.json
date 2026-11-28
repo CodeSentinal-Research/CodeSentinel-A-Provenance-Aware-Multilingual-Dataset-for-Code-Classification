@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001185",
+  "problemId": "P001185",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001185",
+    "title": "Delete and Earn",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers, selecting a value earns that value multiplied by its frequency. After selecting a value x, all occurrences of x\u22121 and x+1 become unavailable. Determine the maximum points obtainable.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the maximum obtainable points.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001185",
+    "fileSHA": "8674c3d1ebbb0c70634a0b14f48105efa23bde271a55679cbb1b735c5b11d019",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.870Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "3317db04a7bfa546e06c73cca5fbcfc3c379ad28284c3968ca58ce1dfebe0285",
+    "normalizedCodeHash": "62a399d267862fdae2f8a481138df095cfa956bb977bcac194f33236ee2730d6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.870Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

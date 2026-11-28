@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001283",
+  "problemId": "P001283",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001283",
+    "title": "Queue Reconstruction by Increasing Height",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Each person is represented by two integers: height and the number of people behind having height less than or equal to theirs. Reconstruct one valid queue satisfying all constraints.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain height and count.",
+    "output": "Print the reconstructed queue.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001283",
+    "fileSHA": "4d321bed6643879dc30ad1e4e3a2e119ef639ac7c616d304f06dbc05030a721b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:19:58.953276+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4d321bed6643879dc30ad1e4e3a2e119ef639ac7c616d304f06dbc05030a721b",
+    "normalizedCodeHash": "4d321bed6643879dc30ad1e4e3a2e119ef639ac7c616d304f06dbc05030a721b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:19:58.953318+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

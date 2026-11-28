@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000549",
+  "problemId": "P000549",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000549",
+    "title": "Stack Permutation Check",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Given two integer arrays input and output of equal length, determine whether the output sequence can be obtained from the input sequence using a single stack. Simulate the process using a queue for the input sequence and a stack for intermediate storage. Return true if the transformation is possible; otherwise return false.",
+    "input": "Integer n Array input Array output",
+    "output": "true if the output sequence is valid, otherwise false.",
+    "constraints": "1 <= n <= 10^5 All elements are distinct."
+  },
+  "repository": {
+    "name": "agloriousli/dsa-notes",
+    "owner": "agloriousli",
+    "url": "https://github.com/agloriousli/dsa-notes",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "stackpermutation.hpp",
+    "fileSHA": "41d04378a453fbca63d435a87a6191abc9676ad8",
+    "url": "https://github.com/agloriousli/dsa-notes/blob/914147a9f7b8f8bee4a2493b296cb5c4164b7ddd/stackpermutation.hpp",
+    "rawUrl": "https://raw.githubusercontent.com/agloriousli/dsa-notes/main/stackpermutation.hpp"
+  },
+  "matching": {
+    "relevanceScore": 72.95
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "54225fd59d97ab11e69bf39bfa4c23500974146366ce62b8dec162965a9bde7f",
+    "normalizedCodeHash": "54225fd59d97ab11e69bf39bfa4c23500974146366ce62b8dec162965a9bde7f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Header fallback)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:30:01.567605+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000846",
+  "problemId": "P000846",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000846",
+    "title": "Minimized Maximum of Products Distributed to Any Store",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given n stores and quantities of different product types. Distribute the products so that every product of the same type goes to one or more stores, and each store receives products of only one type. Return the minimum possible maximum number of products assigned to any store.",
+    "input": "Integer n Integer m Array quantities",
+    "output": "The minimized maximum products per store.",
+    "constraints": "1 <= m <= n <= 10^5 1 <= quantities[i] <= 10^5"
+  },
+  "repository": {
+    "name": "ArunKumar235/LeetCode-Solutions",
+    "owner": "ArunKumar235",
+    "url": "https://github.com/ArunKumar235/LeetCode-Solutions",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "2188-minimized-maximum-of-products-distributed-to-any-store/minimized-maximum-of-products-distributed-to-any-store.java",
+    "fileSHA": "3ee8da96fa6d4060a991d5d54ba562d4891a6382",
+    "url": "https://github.com/ArunKumar235/LeetCode-Solutions/blob/5a8a656f8890c165784b5c4fc1d1b58618a57540/2188-minimized-maximum-of-products-distributed-to-any-store/minimized-maximum-of-products-distributed-to-any-store.java",
+    "rawUrl": "https://raw.githubusercontent.com/ArunKumar235/LeetCode-Solutions/main/2188-minimized-maximum-of-products-distributed-to-any-store/minimized-maximum-of-products-distributed-to-any-store.java"
+  },
+  "matching": {
+    "relevanceScore": 80.7
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f4231db57db5e49aae7bf575ee5f1f75a52a931e746efc8b671da6f456e89f10",
+    "normalizedCodeHash": "f4231db57db5e49aae7bf575ee5f1f75a52a931e746efc8b671da6f456e89f10",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T06:01:21.708468+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

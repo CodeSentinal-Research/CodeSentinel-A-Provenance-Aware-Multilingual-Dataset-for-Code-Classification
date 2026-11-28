@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000774",
+  "problemId": "P000774",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000774",
+    "title": "Recursive Word Search",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N \u00d7 M grid of characters and a target word, determine whether the word can be formed by traversing adjacent cells. Adjacent cells are horizontally or vertically neighboring. A cell may not be used more than once in a path. Solve the problem recursively.",
+    "input": "Integer N Integer M Character matrix board String word",
+    "output": "true if the word exists in the grid, otherwise false.",
+    "constraints": "1 <= N, M <= 10 1 <= |word| <= N \u00d7 M"
+  },
+  "repository": {
+    "name": "TheAlgorithms/C",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/C",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "data_structures/binary_trees/recursive_traversals.c",
+    "fileSHA": "d3dbfde319c702aa56e8c941a69734142d14c82a",
+    "url": "https://github.com/TheAlgorithms/C/blob/master/data_structures/binary_trees/recursive_traversals.c",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/C/master/data_structures/binary_trees/recursive_traversals.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "bbc1b3fa3dd64c5af112699fbc98991ce676bc7f4a642f19d691f52aae397674",
+    "normalizedCodeHash": "bbc1b3fa3dd64c5af112699fbc98991ce676bc7f4a642f19d691f52aae397674",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:14.736379+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

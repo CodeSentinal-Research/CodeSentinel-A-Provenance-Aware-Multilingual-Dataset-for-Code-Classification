@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001856",
+  "problemId": "P001856",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001856",
+    "title": "Convert a Binary Search Tree into a Circular Doubly Linked List",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree, convert it into a sorted circular doubly linked list by modifying only the existing node pointers.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST.",
+    "output": "\u2022 Print the circular doubly linked list starting from its smallest element.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001856",
+    "fileSHA": "682c78e7edaab80b12a2842a97508c3f9778c0d0c40b0e2c54074aecd7e3b92f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:31.515238+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "682c78e7edaab80b12a2842a97508c3f9778c0d0c40b0e2c54074aecd7e3b92f",
+    "normalizedCodeHash": "682c78e7edaab80b12a2842a97508c3f9778c0d0c40b0e2c54074aecd7e3b92f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:31.515258+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

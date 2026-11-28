@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P001662",
+  "problemId": "P001662",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001662",
+    "title": "Check Whether a Binary Tree is Height Balanced",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given the root of a binary tree, determine whether the tree is height balanced. A binary tree is height balanced if, for every node, the difference between the heights of its left and right subtrees is at most one.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print YES if the tree is height balanced; otherwise print NO.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P001662",
+    "fileSHA": "c83283753feadf85598c626dd9b089ee78fc8b5e1d10e74d798f61220e634977",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5443a93d0d4edf486e819c4c78800d73e6a0e2b1a0ff47ae6a17d7830e712440",
+    "normalizedCodeHash": "c83283753feadf85598c626dd9b089ee78fc8b5e1d10e74d798f61220e634977",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

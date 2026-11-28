@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000531",
+  "problemId": "P000531",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000531",
+    "title": "Number of Recent Calls",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Design a class RecentCounter that counts the number of requests received in the last 3000 milliseconds. For each incoming request at time t, return the number of requests that occurred in the inclusive range [t - 3000, t]. Process all requests in chronological order.",
+    "input": "Integer n n increasing timestamps.",
+    "output": "Print the number of recent requests after each timestamp.",
+    "constraints": "1 <= n <= 10^5 1 <= t <= 10^9 Timestamps are strictly increasing."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000531",
+    "fileSHA": "ed6e3f6684a691df095b7c04efe3abcbdfc306c2465eb64074199c77f9f98303",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ed6e3f6684a691df095b7c04efe3abcbdfc306c2465eb64074199c77f9f98303",
+    "normalizedCodeHash": "ed6e3f6684a691df095b7c04efe3abcbdfc306c2465eb64074199c77f9f98303",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000531: Number of Recent Calls"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

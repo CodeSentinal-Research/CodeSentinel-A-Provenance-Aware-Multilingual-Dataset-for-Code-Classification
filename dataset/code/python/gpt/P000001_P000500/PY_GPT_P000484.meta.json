@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000484",
+  "problemId": "P000484",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000484",
+    "title": "Decode String",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given an encoded string, decode it according to the following rule: k[encoded_string] The substring inside the square brackets is repeated exactly k times. Nested encodings are allowed. Return the decoded string.",
+    "input": "A single encoded string.",
+    "output": "The decoded string.",
+    "constraints": "1 <= length <= 30 Encoded output length will not exceed 10^5."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000484.py",
+    "fileSHA": "456dc29c5b61e61f0b49a077b9bb728983f9214d563a508341c5a6d63c0ef954",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:04.908458+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "456dc29c5b61e61f0b49a077b9bb728983f9214d563a508341c5a6d63c0ef954",
+    "normalizedCodeHash": "1746ba8a1be6490795439a0360a71ae1f05dbe1ee7e211fe8c748915c92793ce",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:04.908458+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

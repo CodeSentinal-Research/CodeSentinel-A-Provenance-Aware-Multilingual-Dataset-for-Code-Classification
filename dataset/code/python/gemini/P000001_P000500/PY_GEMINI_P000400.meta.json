@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000400",
+  "problemId": "P000400",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000400",
+    "title": "Search Employees by Salary Range",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Retrieve all employees whose salaries fall within the specified range.",
+    "input": "Employee records, minimum salary, maximum salary.",
+    "output": "Matching employee records.",
+    "constraints": "1 \u2264 Number of Employees \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000400",
+    "fileSHA": "ea9c9fad620769a9b1d22d01bbcd1ecd3c680b236bb1043f103f7d993d54dcde",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:34:27.697299+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ea9c9fad620769a9b1d22d01bbcd1ecd3c680b236bb1043f103f7d993d54dcde",
+    "normalizedCodeHash": "ea9c9fad620769a9b1d22d01bbcd1ecd3c680b236bb1043f103f7d993d54dcde",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:34:27.697344+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

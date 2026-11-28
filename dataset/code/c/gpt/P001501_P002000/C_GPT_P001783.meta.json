@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001783",
+  "problemId": "P001783",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001783",
+    "title": "Find the Centroid of a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree, determine the centroid node. A centroid is a node such that, after removing it, every remaining connected component contains at most half of the total nodes.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the value of the centroid node.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001783.c",
+    "fileSHA": "43a0de78ac440d10e047758e53d7b5e3f8f0630a610cd820c8c81f94b41a2c19",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.646Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "9cb9c54d00de7e19c097c185361a4b9d8eeeb87b3e5171ee7327d61c1f0c6074",
+    "normalizedCodeHash": "43a0de78ac440d10e047758e53d7b5e3f8f0630a610cd820c8c81f94b41a2c19",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.646Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

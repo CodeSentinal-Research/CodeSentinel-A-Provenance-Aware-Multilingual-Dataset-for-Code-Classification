@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000416",
+  "problemId": "P000416",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000416",
+    "title": "Search Vehicles Manufactured After a Given Year",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Retrieve all vehicles manufactured after the specified year.",
+    "input": "Vehicle records and a year.",
+    "output": "Matching vehicle records.",
+    "constraints": "1 ≤ Number of Vehicles ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000416.py",
+    "fileSHA": "c109a88216967c4e32b28a8865a26ead608a5014a7e682ffd0f9b6147e7fc3a9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:03.423468+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c109a88216967c4e32b28a8865a26ead608a5014a7e682ffd0f9b6147e7fc3a9",
+    "normalizedCodeHash": "c76b197cd85215226815a9d92d3a0fb564d16f6c7b79d310838b6311eb85bb0a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:03.423468+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

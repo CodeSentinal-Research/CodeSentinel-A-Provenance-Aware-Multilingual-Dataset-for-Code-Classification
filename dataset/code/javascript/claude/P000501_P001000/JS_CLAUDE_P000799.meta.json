@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000799",
+  "problemId": "P000799",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000799",
+    "title": "2D Prefix Sum Matrix",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an N × M integer matrix, construct its 2D prefix sum matrix. Each cell (i, j) in the prefix matrix should store the sum of all elements in the rectangle from (0,0) to (i,j).",
+    "input": "Integer N Integer M Matrix grid",
+    "output": "The 2D prefix sum matrix.",
+    "constraints": "1 <= N, M <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000799",
+    "fileSHA": "da51139cbd2c688522be43f75b10f44672cfb5d389766b33559aa9a176aeabd7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "da51139cbd2c688522be43f75b10f44672cfb5d389766b33559aa9a176aeabd7",
+    "normalizedCodeHash": "da51139cbd2c688522be43f75b10f44672cfb5d389766b33559aa9a176aeabd7",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000799: 2D Prefix Sum Matrix"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

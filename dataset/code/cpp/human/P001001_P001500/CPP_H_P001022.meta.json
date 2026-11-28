@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001022",
+  "problemId": "P001022",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001022",
+    "title": "Decrease Key in a Min Heap",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a valid Min Heap represented as an array, an index i, and a new value smaller than or equal to the current value, update the key and restore the Min Heap property. Print the updated heap.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N space-separated integers. \u2022 Third line contains integers i and newValue.",
+    "output": "Print the updated Min Heap.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 i < N"
+  },
+  "repository": {
+    "name": "nodejs/node",
+    "owner": "nodejs",
+    "url": "https://github.com/nodejs/node",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/quic/bindingdata.h",
+    "fileSHA": "3da99607914059c85203065ef6327dfae4abc00a",
+    "url": "https://github.com/nodejs/node/blob/884f9cd62da0bc43b39ec560afd82700dc8adb6f/src/quic/bindingdata.h",
+    "rawUrl": "https://raw.githubusercontent.com/nodejs/node/main/src/quic/bindingdata.h"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "bb1746d12843f9b996a94134215f319879b1c6decb2c92c6f927830ba043fc23",
+    "normalizedCodeHash": "bb1746d12843f9b996a94134215f319879b1c6decb2c92c6f927830ba043fc23",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T13:29:11.192578+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

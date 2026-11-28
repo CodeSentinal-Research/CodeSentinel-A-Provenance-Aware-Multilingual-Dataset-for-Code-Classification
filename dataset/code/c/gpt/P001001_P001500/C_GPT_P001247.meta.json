@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001247",
+  "problemId": "P001247",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001247",
+    "title": "Advantage Shuffle",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given two arrays of equal length, rearrange the first array to maximize the number of indices where its element is greater than the corresponding element in the second array.",
+    "input": "• First line contains integer N. • Second line contains N integers of the first array. • Third line contains N integers of the second array.",
+    "output": "Print the rearranged first array.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001247.c",
+    "fileSHA": "83d0232c548498fb89ad87a8b20a80951ae40ebc06094030053acb4bcb6f5a33",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.422Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "d04cbe62f06189aaf413427d5c76e9be756a95de44e0e440da9e597d004cd419",
+    "normalizedCodeHash": "83d0232c548498fb89ad87a8b20a80951ae40ebc06094030053acb4bcb6f5a33",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.422Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

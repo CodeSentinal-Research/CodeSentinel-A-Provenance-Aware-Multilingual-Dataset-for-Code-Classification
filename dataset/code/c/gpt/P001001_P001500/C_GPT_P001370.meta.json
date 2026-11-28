@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001370",
+  "problemId": "P001370",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001370",
+    "title": "Maximum Number by Swapping Digits",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a numeric string and an integer K, perform at most K swaps between any two digits to obtain the largest possible number.",
+    "input": "• First line contains the numeric string. • Second line contains integer K.",
+    "output": "Print the maximum possible number after at most K swaps.",
+    "constraints": "• 1 ≤ Length ≤ 30 • 0 ≤ K ≤ 10"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001370.c",
+    "fileSHA": "046ece82a713ba7694208522e7da1aaeb9d978214af5cc34484453545e99f86c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.110Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "688a75f0f24443442882788046e7ee4e91403800e583d4df884eafbc54ccf727",
+    "normalizedCodeHash": "046ece82a713ba7694208522e7da1aaeb9d978214af5cc34484453545e99f86c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.110Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

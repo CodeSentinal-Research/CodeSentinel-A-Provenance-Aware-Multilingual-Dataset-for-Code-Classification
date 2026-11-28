@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001363",
+  "problemId": "P001363",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001363",
+    "title": "Generate Binary Strings Without Consecutive Ones",
+    "category": "Backtracking",
+    "difficulty": "Easy",
+    "problemStatement": "Generate all binary strings of length N that do not contain two consecutive 1's.",
+    "input": "• First line contains integer N.",
+    "output": "Print all valid binary strings in lexicographical order.",
+    "constraints": "• 1 ≤ N ≤ 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001363.c",
+    "fileSHA": "132d6ad4074e231e72702837a21c29a84dc1c9169f2e824255116cd3256aabba",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.075Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "b615c7d17dca8d5e72f24667851632c5f726077e612e19b732efde633854cae3",
+    "normalizedCodeHash": "132d6ad4074e231e72702837a21c29a84dc1c9169f2e824255116cd3256aabba",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.075Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

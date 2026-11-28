@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000221",
+  "problemId": "P000221",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000221",
+    "title": "Maximum Length Chain of Pairs",
+    "category": "Arrays",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that finds the longest chain of pairs that can be formed where a pair (c, d) can follow (a, b) only if b < c.",
+    "input": "First line contains N. Next N lines contain pairs.",
+    "output": "Length of the longest chain.",
+    "constraints": "1 \u2264 N \u2264 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P000221",
+    "fileSHA": "fcb5d700196d930059f1908a6e341c5df7a9eff9aa6ee1aeccba8a087910e52b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:46:16.195152+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fcb5d700196d930059f1908a6e341c5df7a9eff9aa6ee1aeccba8a087910e52b",
+    "normalizedCodeHash": "fcb5d700196d930059f1908a6e341c5df7a9eff9aa6ee1aeccba8a087910e52b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:46:16.195172+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

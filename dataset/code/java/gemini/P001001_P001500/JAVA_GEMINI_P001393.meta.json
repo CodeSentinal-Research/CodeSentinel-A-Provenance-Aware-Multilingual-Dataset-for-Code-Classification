@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001393",
+  "problemId": "P001393",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001393",
+    "title": "Continuous Subarray Sum",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer K, determine whether there exists a continuous subarray of length at least 2 whose sum is a multiple of K.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print YES if such a subarray exists; otherwise print NO.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001393",
+    "fileSHA": "1e5609f67f5fd9f60fd9f697c5ba1d14e6dbba99a9bb8e1eb6b2318873cf2972",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:24:58.059001+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1e5609f67f5fd9f60fd9f697c5ba1d14e6dbba99a9bb8e1eb6b2318873cf2972",
+    "normalizedCodeHash": "1e5609f67f5fd9f60fd9f697c5ba1d14e6dbba99a9bb8e1eb6b2318873cf2972",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:24:58.059025+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

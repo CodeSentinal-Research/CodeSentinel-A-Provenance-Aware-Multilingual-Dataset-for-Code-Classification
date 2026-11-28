@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);int n=sc.nextInt();Deque<Integer>stk=new ArrayDeque<>(),mstk=new ArrayDeque<>();while(n-->0){String cmd=sc.next();if(cmd.equals("push")){int x=sc.nextInt();stk.push(x);mstk.push(mstk.isEmpty()?x:Math.min(x,mstk.peek()));}else if(cmd.equals("pop")){stk.pop();mstk.pop();}else if(cmd.equals("top"))System.out.println(stk.peek());else System.out.println(mstk.peek());}}}

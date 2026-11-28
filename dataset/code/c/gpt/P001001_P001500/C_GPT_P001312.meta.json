@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001312",
+  "problemId": "P001312",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001312",
+    "title": "N-Queens Count",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Determine the total number of distinct ways to place N queens on an N × N chessboard so that no two queens attack each other.",
+    "input": "• First line contains integer N.",
+    "output": "Print the number of valid arrangements.",
+    "constraints": "• 1 ≤ N ≤ 14"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001312.c",
+    "fileSHA": "cb0da9553527fa2820207f40826138156b623c2c43486aa0864bf63383f90bc9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.762Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "0971d3bc68c1b8a1a0f8e5418a2a14b8b8b762fd76e154530f7339fefd0926b6",
+    "normalizedCodeHash": "cb0da9553527fa2820207f40826138156b623c2c43486aa0864bf63383f90bc9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.762Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

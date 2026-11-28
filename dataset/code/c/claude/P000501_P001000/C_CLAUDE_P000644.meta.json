@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000644",
+  "problemId": "P000644",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000644",
+    "title": "Swap Two Nodes Without Swapping Data",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list and two distinct values x and y, swap the corresponding nodes without modifying the data stored in any node. If either value is not present, leave the list unchanged. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer x Integer y",
+    "output": "The modified linked list.",
+    "constraints": "0 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000644",
+    "fileSHA": "0a0a79b490597445fae8d02c396a5ef145d08d10a1e2479b87d5b8a64be781e2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0a0a79b490597445fae8d02c396a5ef145d08d10a1e2479b87d5b8a64be781e2",
+    "normalizedCodeHash": "0a0a79b490597445fae8d02c396a5ef145d08d10a1e2479b87d5b8a64be781e2",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000644"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "solutionId": "C_H_P000481",
+  "problemId": "P000481",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000481",
+    "title": "Baseball Game Score",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a list of operations representing scores in a baseball game. Each operation is one of the following: An integer: Record a new score. \"+\": Record the sum of the previous two valid scores. \"D\": Record double the previous valid score. \"C\": Remove the previous valid score. Return the total score after processing all operations.",
+    "input": "Integer n n strings representing operations.",
+    "output": "A single integer representing the total score.",
+    "constraints": "1 <= n <= 1000 Each operation is valid."
+  },
+  "repository": {
+    "name": "kakack/crush-in-leetcode",
+    "owner": "kakack",
+    "url": "https://github.com/kakack/crush-in-leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P000001_P000500/C_H_P000481.c",
+    "fileSHA": "3b6856449924f71be851ad97242815083af63e44",
+    "url": "https://github.com/kakack/crush-in-leetcode/blob/ae9e3e290f70da36b2e690b80426baae021cd79b/code/682-Baseball Game/682-Baseball Game.c",
+    "rawUrl": "https://raw.githubusercontent.com/kakack/crush-in-leetcode/main/code/682-Baseball Game/682-Baseball Game.c"
+  },
+  "matching": {
+    "relevanceScore": 86.8
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2022-03-26T08:15:54Z",
+    "lastCommitDate": "2026-03-10T16:26:47Z",
+    "commitCount": 2,
+    "authorCount": 2,
+    "authors": [
+      "Chen Kai",
+      "kakack"
+    ],
+    "firstKnownAuthor": "Chen Kai",
+    "latestKnownAuthor": "kakack"
+  },
+  "deduplication": {
+    "rawCodeHash": "836b18cdc0917d7b811610f2c728ad2d2977233ef8915da235127ecc8b4da67c",
+    "normalizedCodeHash": "836b18cdc0917d7b811610f2c728ad2d2977233ef8915da235127ecc8b4da67c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T02:54:32.640476+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

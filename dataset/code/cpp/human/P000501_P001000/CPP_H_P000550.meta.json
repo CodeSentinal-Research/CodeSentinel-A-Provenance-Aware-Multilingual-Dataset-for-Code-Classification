@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000550",
+  "problemId": "P000550",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000550",
+    "title": "Circular Tour",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "There are n petrol pumps arranged in a circle. Each petrol pump provides a certain amount of petrol and requires a certain amount of petrol to travel to the next pump. Determine the first petrol pump from which a truck can complete the entire circular tour. If no such starting point exists, return -1.",
+    "input": "Integer n Array petrol Array distance",
+    "output": "The starting pump index, or -1 if impossible.",
+    "constraints": "1 <= n <= 10^5 0 <= petrol[i], distance[i] <= 10^9"
+  },
+  "repository": {
+    "name": "scortier/Complete-DSA-Collection",
+    "owner": "scortier",
+    "url": "https://github.com/scortier/Complete-DSA-Collection",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Greedy/Circular tour.cpp",
+    "fileSHA": "ad1626659b24fb38eea68770291c20f251c97360",
+    "url": "https://github.com/scortier/Complete-DSA-Collection/blob/925a5cb148d9addcb32192fe676be76bfb2915c7/Greedy/Circular tour.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/scortier/Complete-DSA-Collection/main/Greedy/Circular tour.cpp"
+  },
+  "matching": {
+    "relevanceScore": 81.07
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9e3660eb3f8bc020c2c0b9e9a0d0f0f3e6e1ee32c8e68986a9df4f18ea6ef4ce",
+    "normalizedCodeHash": "9e3660eb3f8bc020c2c0b9e9a0d0f0f3e6e1ee32c8e68986a9df4f18ea6ef4ce",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:34:10.760831+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

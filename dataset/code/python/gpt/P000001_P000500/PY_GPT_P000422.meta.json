@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000422",
+  "problemId": "P000422",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000422",
+    "title": "Search Students Eligible for Scholarship",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Retrieve every student who satisfies the scholarship eligibility criteria based on CGPA and annual family income.",
+    "input": "Student records, minimum CGPA, maximum family income.",
+    "output": "Eligible students.",
+    "constraints": "1 ≤ Number of Students ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000422.py",
+    "fileSHA": "91488191df2478ab7a56c04c971acdd503e5f2fe06ffd493db3695932dcf0cec",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:03.584265+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "91488191df2478ab7a56c04c971acdd503e5f2fe06ffd493db3695932dcf0cec",
+    "normalizedCodeHash": "72257447563ab8d38f01ac972b7af60399f3af681c75ddc897a08a2f30ae2065",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:03.584265+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

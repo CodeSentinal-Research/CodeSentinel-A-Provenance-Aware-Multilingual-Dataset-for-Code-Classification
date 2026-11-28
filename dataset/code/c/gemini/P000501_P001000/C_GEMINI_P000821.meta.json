@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000821",
+  "problemId": "P000821",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000821",
+    "title": "Single Element in a Sorted Array",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given a sorted array where every element appears exactly twice except for one element that appears only once, find that single element. Your solution must run in O(log n) time and O(1) space.",
+    "input": "Integer n Sorted array nums",
+    "output": "The single element.",
+    "constraints": "1 <= n <= 10^5 n is odd."
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P000821",
+    "fileSHA": "31ce2e891bbf0ee251874a7e1eb073d22bd5118f01f6851c9d1b586c287e68fc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:28:02.921119+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "31ce2e891bbf0ee251874a7e1eb073d22bd5118f01f6851c9d1b586c287e68fc",
+    "normalizedCodeHash": "31ce2e891bbf0ee251874a7e1eb073d22bd5118f01f6851c9d1b586c287e68fc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:28:02.921151+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

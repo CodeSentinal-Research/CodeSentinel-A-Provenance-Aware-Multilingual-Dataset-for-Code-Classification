@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000764",
+  "problemId": "P000764",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000764",
+    "title": "Decode String at Index",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "An encoded string follows the rule: Letters are appended directly. A digit d means the entire current decoded string is repeated d times. Given an encoded string s and an integer K, return the K-th character in the decoded string without explicitly constructing the decoded string. Solve the problem recursively.",
+    "input": "String s Integer K",
+    "output": "The K-th character.",
+    "constraints": "2 <= |s| <= 100 1 <= K <= 10^18"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/0091-decode-ways.c",
+    "fileSHA": "c04c2cae271966c33a59d24d74d871c6afbeb598",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/c/0091-decode-ways.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/0091-decode-ways.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0c63facfa44fb54c3bfe37c9dfbe7878cec2ac2c55b3d70364e4233ba76ee355",
+    "normalizedCodeHash": "0c63facfa44fb54c3bfe37c9dfbe7878cec2ac2c55b3d70364e4233ba76ee355",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:06.080044+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

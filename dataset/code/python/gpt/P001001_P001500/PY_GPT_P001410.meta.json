@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001410",
+  "problemId": "P001410",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001410",
+    "title": "Count Bad Pairs",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array, count the number of pairs (i, j) where i < j and j - i ≠ nums[j] - nums[i].",
+    "input": "• First line contains integer N. • Second line contains N integers.",
+    "output": "Print the number of bad pairs.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001410.py",
+    "fileSHA": "62be2c552c874d628e4c3b47083db5151f2b8455fd6975069718a471f2612ba7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.693880+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "62be2c552c874d628e4c3b47083db5151f2b8455fd6975069718a471f2612ba7",
+    "normalizedCodeHash": "f615691538ede1fdc0a9e631796c431c0ec4fd2972a384078d17cf4901e7ce6c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.693880+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

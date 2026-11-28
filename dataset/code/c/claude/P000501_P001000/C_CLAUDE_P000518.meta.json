@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P000518",
+  "problemId": "P000518",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000518",
+    "title": "Longest Valid Parentheses",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string containing only '(' and ')', find the length of the longest contiguous substring that forms a valid parentheses sequence.",
+    "input": "A string s.",
+    "output": "A single integer representing the length of the longest valid parentheses substring.",
+    "constraints": "0 <= s.length <= 3 × 10^4 s contains only '(' and ')'."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000518",
+    "fileSHA": "622f22f400dcb80349b6fb37837b2386da35509b850a40c7b1e8cc4cedfd8f8f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "adada87b070e84d52920dd93b3b09aced19a2c2e1e81ef6625e075895e987067",
+    "normalizedCodeHash": "622f22f400dcb80349b6fb37837b2386da35509b850a40c7b1e8cc4cedfd8f8f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

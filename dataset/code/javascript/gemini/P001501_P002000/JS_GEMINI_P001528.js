@@ -1,0 +1,18 @@
+// Helper function to evaluate atmostkdistinct for problem constraints.
+function atMostKDistinct(nums, k) {
+    const count = new Map();
+    let l = 0, ans = 0;
+
+    for (let r = 0; r < nums.length; r++) {
+        count.set(nums[r], (count.get(nums[r]) || 0) + 1);
+        while (count.size > k) {
+            count.set(nums[l], count.get(nums[l]) - 1);
+            if (count.get(nums[l]) === 0) count.delete(nums[l]);
+            l++;
+        }
+        ans += r - l + 1;
+    }
+    return ans;
+}
+
+module.exports = { atMostKDistinct };

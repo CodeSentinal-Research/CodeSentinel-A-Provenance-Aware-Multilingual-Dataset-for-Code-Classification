@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000521",
+  "problemId": "P000521",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000521",
+    "title": "Increasing Order Removal",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an array of integers. Repeatedly remove elements from left to right while maintaining a strictly increasing sequence in the current pass. Elements that cannot be removed in the current pass remain for the next pass. Determine the minimum number of passes required to remove all elements.",
+    "input": "Integer n Array nums",
+    "output": "A single integer representing the minimum number of passes.",
+    "constraints": "1 <= n <= 2 × 10^5 1 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000521.js",
+    "fileSHA": "ab5ca8fd0112fa037fe89940b1e2892b908244ebc2106a2612768ea03b23e8c8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ab5ca8fd0112fa037fe89940b1e2892b908244ebc2106a2612768ea03b23e8c8",
+    "normalizedCodeHash": "ab5ca8fd0112fa037fe89940b1e2892b908244ebc2106a2612768ea03b23e8c8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

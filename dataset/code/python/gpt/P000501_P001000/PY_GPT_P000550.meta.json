@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000550",
+  "problemId": "P000550",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000550",
+    "title": "Circular Tour",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "There are n petrol pumps arranged in a circle. Each petrol pump provides a certain amount of petrol and requires a certain amount of petrol to travel to the next pump. Determine the first petrol pump from which a truck can complete the entire circular tour. If no such starting point exists, return -1.",
+    "input": "Integer n Array petrol Array distance",
+    "output": "The starting pump index, or -1 if impossible.",
+    "constraints": "1 <= n <= 10^5 0 <= petrol[i], distance[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000550.py",
+    "fileSHA": "a4b3ece246e3873de2385dfcff78c3e1d5e5307b9cbf009cf948c594a0f688a0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.216422+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a4b3ece246e3873de2385dfcff78c3e1d5e5307b9cbf009cf948c594a0f688a0",
+    "normalizedCodeHash": "70606331aab690a3fbb40a143d2bd54a7f4ca2b4b30d66fe2a0fcac90a1453ed",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.216422+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

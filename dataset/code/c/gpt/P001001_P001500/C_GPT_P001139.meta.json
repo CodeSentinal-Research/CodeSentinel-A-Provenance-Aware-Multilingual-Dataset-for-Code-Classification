@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001139",
+  "problemId": "P001139",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001139",
+    "title": "0/1 Knapsack",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given N items, each having a weight and a value, determine the maximum obtainable value without exceeding the knapsack capacity.",
+    "input": "• First line contains integers N and W. • Next N lines contain weight and value.",
+    "output": "Print the maximum obtainable value.",
+    "constraints": "• 1 ≤ N ≤ 1000 • 1 ≤ W ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001139.c",
+    "fileSHA": "ecac72037079dc3af5510719a114030847c571a5f37558331befe0b0b6836b04",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.106Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a3a8ac3a0221aeb69c583db2269710afa55083f69c8339a1a2bfa47060edc352",
+    "normalizedCodeHash": "ecac72037079dc3af5510719a114030847c571a5f37558331befe0b0b6836b04",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.106Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

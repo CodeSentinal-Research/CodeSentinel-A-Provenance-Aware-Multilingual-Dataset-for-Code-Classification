@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000624",
+  "problemId": "P000624",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000624",
+    "title": "Segregate Even and Odd Nodes in Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list, rearrange the nodes so that all nodes containing even values appear before all nodes containing odd values. The relative order of even nodes and the relative order of odd nodes must remain unchanged. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The rearranged linked list.",
+    "constraints": "0 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000624.c",
+    "fileSHA": "a4144e4540442cb67c0f37141027f93ea244f5215c76d735fa243954449a20d9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a4144e4540442cb67c0f37141027f93ea244f5215c76d735fa243954449a20d9",
+    "normalizedCodeHash": "a4144e4540442cb67c0f37141027f93ea244f5215c76d735fa243954449a20d9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000509",
+  "problemId": "P000509",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000509",
+    "title": "Clear Digits from String",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a string consisting of lowercase English letters and digits. Process the string from left to right: If the current character is a lowercase letter, keep it. If the current character is a digit, remove the closest lowercase letter to its left that has not already been removed, and discard the digit itself. Return the final string after processing all characters.",
+    "input": "A single string s.",
+    "output": "The resulting string.",
+    "constraints": "1 <= s.length <= 10^5 s consists only of lowercase English letters and digits. Every digit has at least one removable letter to its left."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000509",
+    "fileSHA": "faeb44949a299cc949d9c9a81c343d454670bc1b9265ed71a1bf74ba2e8f11c2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "faeb44949a299cc949d9c9a81c343d454670bc1b9265ed71a1bf74ba2e8f11c2",
+    "normalizedCodeHash": "faeb44949a299cc949d9c9a81c343d454670bc1b9265ed71a1bf74ba2e8f11c2",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000509: Clear Digits from String"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001071",
+  "problemId": "P001071",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001071",
+    "title": "Find the Mother Vertex",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a directed graph, determine whether there exists a vertex from which every other vertex is reachable. If such a vertex exists, print it; otherwise print -1.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain directed edges.",
+    "output": "Print the mother vertex or -1.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001071",
+    "fileSHA": "bf51921fbe33cfff71a1143e184ce806a7e3a671f3aaaa2340bb181187769505",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.593Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "684d9a638d4cccd4c09e2117831c323edbbacd1ffe1a9d61d3b5555b7edc3533",
+    "normalizedCodeHash": "6a0c7525f5ebaa1a07c169c4be275dc2dffa318fb312a414f3b331b0d3e28382",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.593Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

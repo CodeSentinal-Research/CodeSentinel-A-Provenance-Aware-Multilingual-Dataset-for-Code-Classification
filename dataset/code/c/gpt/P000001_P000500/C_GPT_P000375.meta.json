@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000375",
+  "problemId": "P000375",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000375",
+    "title": "Search Patient by Patient ID",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Search for a patient using a unique patient ID.",
+    "input": "Patient records and a patient ID.",
+    "output": "Patient details or \"Patient Not Found\".",
+    "constraints": "1 ≤ Number of Patients ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000375.c",
+    "fileSHA": "f25a1a81f88d0de8d49df56a4e00756a815ee4d9d2d5751e90957d0cce24e36f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f25a1a81f88d0de8d49df56a4e00756a815ee4d9d2d5751e90957d0cce24e36f",
+    "normalizedCodeHash": "f25a1a81f88d0de8d49df56a4e00756a815ee4d9d2d5751e90957d0cce24e36f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001483",
+  "problemId": "P001483",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001483",
+    "title": "Max Consecutive Ones III",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary array and an integer K, determine the length of the longest contiguous subarray containing only 1s after changing at most K zeros to ones.",
+    "input": "• First line contains integers N and K. • Second line contains N binary integers.",
+    "output": "Print the maximum possible length.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001483.c",
+    "fileSHA": "5ed1d9ab10dfcb04f6fb096a801a4531139b8d04c466e41cab6d0309553b5df5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.522Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "1c1cbf9434e1e490c006129f5c078a2a56a5238add815c16296c7cfab4adaba3",
+    "normalizedCodeHash": "5ed1d9ab10dfcb04f6fb096a801a4531139b8d04c466e41cab6d0309553b5df5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.522Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

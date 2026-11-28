@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001105",
+  "problemId": "P001105",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001105",
+    "title": "Course Schedule",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "There are N courses labeled from 1 to N and a list of prerequisite pairs. Determine whether it is possible to complete all courses.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain prerequisite pairs u and v, indicating that u must be completed before v.",
+    "output": "Print YES if all courses can be completed; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/0207-course-schedule.js",
+    "fileSHA": "c211ff7472a7d46bac325dca4fe4b064d7a9470a",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/javascript/0207-course-schedule.js",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/javascript/0207-course-schedule.js"
+  },
+  "matching": {
+    "relevanceScore": 70.56
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7036d4d747493eb0406d5ebb176906d1a2c0acfb2a09ed19b7b9084e2eae51d4",
+    "normalizedCodeHash": "7036d4d747493eb0406d5ebb176906d1a2c0acfb2a09ed19b7b9084e2eae51d4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:28:31.679129+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

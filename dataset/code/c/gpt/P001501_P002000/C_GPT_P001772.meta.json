@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001772",
+  "problemId": "P001772",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001772",
+    "title": "Find the Diagonal Sum of a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree whose nodes contain integer values, determine the sum of node values along every diagonal.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print the diagonal sums.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001772.c",
+    "fileSHA": "a5922896050cfe89b9fbbfd82750f9db8ec7399b0dcd737a306d0def0e78ee19",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.614Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "2bdefe5edc58bfb5f9059f5094a1d33a9dc81f0f9312046b7860d24bbc28ed8d",
+    "normalizedCodeHash": "a5922896050cfe89b9fbbfd82750f9db8ec7399b0dcd737a306d0def0e78ee19",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.614Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

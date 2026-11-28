@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000647",
+  "problemId": "P000647",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000647",
+    "title": "Dynamic Music Playlist Manager",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a music playlist manager using a doubly linked list. The playlist supports the following operations: addSong(title) removeSong(title) playNext() playPrevious() moveSong(title, position) currentSong() Initially, the playlist is empty. Process a sequence of operations and print the result for every playNext(), playPrevious(), and currentSong() operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for every query operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5 Song titles contain printable ASCII characters."
+  },
+  "repository": {
+    "name": "puitandysatyam/C_Music_Player",
+    "owner": "puitandysatyam",
+    "url": "https://github.com/puitandysatyam/C_Music_Player",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "music_player.c",
+    "fileSHA": "719c7651ecaf95b3d7b20de6ca0b8f70eee5e5c2",
+    "url": "https://github.com/puitandysatyam/C_Music_Player/blob/9f75074748772926c8ca827636a40f9ad7a01c7a/music_player.c",
+    "rawUrl": "https://raw.githubusercontent.com/puitandysatyam/C_Music_Player/main/music_player.c"
+  },
+  "matching": {
+    "relevanceScore": 68.2
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6a9838a92973a8a896c0a245f9ea17cd8f04dc48194d0e9c0321ee0848afa2ed",
+    "normalizedCodeHash": "6a9838a92973a8a896c0a245f9ea17cd8f04dc48194d0e9c0321ee0848afa2ed",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Header fallback)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:50:02.869568+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

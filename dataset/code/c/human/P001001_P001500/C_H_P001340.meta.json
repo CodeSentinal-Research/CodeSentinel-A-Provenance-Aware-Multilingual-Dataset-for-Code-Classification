@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001340",
+  "problemId": "P001340",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001340",
+    "title": "Fair Distribution of Cookies",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array representing cookie bags and an integer K representing the number of children, distribute every bag to exactly one child so that the maximum number of cookies received by any child is minimized.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers representing the number of cookies in each bag.",
+    "output": "Print the minimum possible unfairness.",
+    "constraints": "\u2022 1 \u2264 N \u2264 8 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "lrmsspace/LLM-CodeQualityEval",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Output/output_TY/c/Medium/1570-fair-distribution-of-cookies.c",
+    "fileSHA": "c3307a735e05b72f50c807ca8c6ef2cf8ec13d0e",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval/blob/a2817bbe913c51ab32afeb6f6d0ad97b92c45075/Output/output_TY/c/Medium/1570-fair-distribution-of-cookies.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/LLM-CodeQualityEval/main/Output/output_TY/c/Medium/1570-fair-distribution-of-cookies.c"
+  },
+  "matching": {
+    "relevanceScore": 85.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e704d1964f19e7bb51a7f99068de6264044945df07b04fd6ee3bcc5a01c7e056",
+    "normalizedCodeHash": "e704d1964f19e7bb51a7f99068de6264044945df07b04fd6ee3bcc5a01c7e056",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T03:09:10.833974+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

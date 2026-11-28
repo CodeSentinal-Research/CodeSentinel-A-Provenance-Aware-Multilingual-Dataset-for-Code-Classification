@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000847",
+  "problemId": "P000847",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000847",
+    "title": "Maximum Running Time of N Computers",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "You are given n computers and several batteries. Each battery can power only one computer at a time, but batteries may be swapped instantly. Determine the maximum number of minutes all n computers can run simultaneously.",
+    "input": "Integer n Integer m Array batteries",
+    "output": "The maximum running time.",
+    "constraints": "1 <= n <= m <= 10^5 1 <= batteries[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000847.js",
+    "fileSHA": "5a75735acc3a5704fd4776f07411caf1708784f8f5da6e2077cf8df5417f904d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5a75735acc3a5704fd4776f07411caf1708784f8f5da6e2077cf8df5417f904d",
+    "normalizedCodeHash": "5a75735acc3a5704fd4776f07411caf1708784f8f5da6e2077cf8df5417f904d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

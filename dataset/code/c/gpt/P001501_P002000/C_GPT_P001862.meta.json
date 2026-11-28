@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001862",
+  "problemId": "P001862",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001862",
+    "title": "Determine the Optimal Root for Minimum Average Search Cost",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a sorted list of keys and their search frequencies, construct an Optimal Binary Search Tree that minimizes the expected search cost.",
+    "input": "• The first line contains an integer N. • The second line contains the sorted keys. • The third line contains the successful search frequencies.",
+    "output": "• Print the minimum expected search cost and the constructed Optimal BST.",
+    "constraints": "• 1 ≤ N ≤ 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001862.c",
+    "fileSHA": "f74fb5a65fa7043078274fad8ab69734f4077994e7409a73cec9c425eff50694",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:36.281Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "6c53c5320f4f605a8195acfe1da3095098a0897703ddcf451e2010ed2ebd1027",
+    "normalizedCodeHash": "f74fb5a65fa7043078274fad8ab69734f4077994e7409a73cec9c425eff50694",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:36.281Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

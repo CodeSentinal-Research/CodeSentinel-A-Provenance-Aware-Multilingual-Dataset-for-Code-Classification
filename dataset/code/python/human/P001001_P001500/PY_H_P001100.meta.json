@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001100",
+  "problemId": "P001100",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001100",
+    "title": "Dynamic Connectivity Queries",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "You are given N vertices and Q online operations. Each operation is one of the following: \u2022 Add an edge between two vertices. \u2022 Determine whether two specified vertices are currently connected. Process all queries efficiently.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Next Q lines describe the operations.",
+    "output": "For every connectivity query, print YES or NO.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "neubauerseth/Coding-Notes",
+    "owner": "neubauerseth",
+    "url": "https://github.com/neubauerseth/Coding-Notes",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python_algorithms/disjoint_set_union.py",
+    "fileSHA": "8380a63e6f3d6636782e7145cc9d6cf21214aeae",
+    "url": "https://github.com/neubauerseth/Coding-Notes/blob/b23f20731232dea6b7e9e297abc5fd8ed1be8b81/python_algorithms/disjoint_set_union.py",
+    "rawUrl": "https://raw.githubusercontent.com/neubauerseth/Coding-Notes/main/python_algorithms/disjoint_set_union.py"
+  },
+  "matching": {
+    "relevanceScore": 63.16
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "927d6906942830d162ca66a45bf8dbf8a701f723165040f866b36a478480a59f",
+    "normalizedCodeHash": "927d6906942830d162ca66a45bf8dbf8a701f723165040f866b36a478480a59f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:52:55.032604+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001323",
+  "problemId": "P001323",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001323",
+    "title": "Combination Sum II",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a collection of candidate numbers that may contain duplicates and a target value, find all unique combinations whose sum equals the target. Each number may be used at most once.",
+    "input": "\u2022 First line contains integers N and Target. \u2022 Second line contains N integers.",
+    "output": "Print all unique combinations.",
+    "constraints": "\u2022 1 \u2264 N \u2264 100 \u2022 1 \u2264 Target \u2264 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001323",
+    "fileSHA": "0010e6e5dd539b284db96f7e185e80f2922523329d1d438e84d3357bbdc7e71b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:21:55.483599+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0010e6e5dd539b284db96f7e185e80f2922523329d1d438e84d3357bbdc7e71b",
+    "normalizedCodeHash": "0010e6e5dd539b284db96f7e185e80f2922523329d1d438e84d3357bbdc7e71b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:21:55.483627+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

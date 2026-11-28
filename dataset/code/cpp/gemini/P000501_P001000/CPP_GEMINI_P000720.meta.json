@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P000720",
+  "problemId": "P000720",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000720",
+    "title": "Expression Add Operators",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string containing only digits and an integer target, insert the operators +, -, and * between the digits so that the resulting expression evaluates to the target. Return all valid expressions.",
+    "input": "String num Integer target",
+    "output": "All valid expressions in lexicographical order.",
+    "constraints": "1 <= |num| <= 10 -2^31 <= target <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "cpp/gemini/CPP_GEMINI_P000720",
+    "fileSHA": "3376da8d23027f2b157014594109679d511f1affd03a94a4f1b51d565ae37c81",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:54:47.311333+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3376da8d23027f2b157014594109679d511f1affd03a94a4f1b51d565ae37c81",
+    "normalizedCodeHash": "3376da8d23027f2b157014594109679d511f1affd03a94a4f1b51d565ae37c81",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:54:47.311353+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

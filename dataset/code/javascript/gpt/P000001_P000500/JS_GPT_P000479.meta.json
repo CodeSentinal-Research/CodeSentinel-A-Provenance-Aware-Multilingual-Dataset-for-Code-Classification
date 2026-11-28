@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000479",
+  "problemId": "P000479",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000479",
+    "title": "Valid Parentheses",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "Given a string s containing only the characters '(', ')', '{', '}', '[', and ']', determine whether the input string is valid. A string is valid if: Every opening bracket has a corresponding closing bracket of the same type. Brackets are closed in the correct order. Every closing bracket has a matching opening bracket. Return \"true\" if the string is valid; otherwise return \"false\".",
+    "input": "A single string s.",
+    "output": "true if the string is valid, otherwise false.",
+    "constraints": "1 <= s.length <= 10^4 s consists only of '(', ')', '{', '}', '[', ']'."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000001_P000500/JS_GPT_P000479.js",
+    "fileSHA": "9210d9b92e7a9a965f70564cc5a3a7a01fe0743256d619aaa83c163d7d42d4f7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9210d9b92e7a9a965f70564cc5a3a7a01fe0743256d619aaa83c163d7d42d4f7",
+    "normalizedCodeHash": "9210d9b92e7a9a965f70564cc5a3a7a01fe0743256d619aaa83c163d7d42d4f7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

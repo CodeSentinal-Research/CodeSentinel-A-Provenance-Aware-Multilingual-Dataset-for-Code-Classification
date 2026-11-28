@@ -1,0 +1,75 @@
+{
+  "solutionId": "PY_H_P000550",
+  "problemId": "P000550",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000550",
+    "title": "Circular Tour",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "There are n petrol pumps arranged in a circle. Each petrol pump provides a certain amount of petrol and requires a certain amount of petrol to travel to the next pump. Determine the first petrol pump from which a truck can complete the entire circular tour. If no such starting point exists, return -1.",
+    "input": "Integer n Array petrol Array distance",
+    "output": "The starting pump index, or -1 if impossible.",
+    "constraints": "1 <= n <= 10^5 0 <= petrol[i], distance[i] <= 10^9"
+  },
+  "repository": {
+    "name": "UdayKiranPadhy/DS-And-Algo",
+    "owner": "UdayKiranPadhy",
+    "url": "https://github.com/UdayKiranPadhy/DS-And-Algo",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000550.py",
+    "fileSHA": "623bbd4aec4176689423db21337e0bba31a2ac11",
+    "url": "https://github.com/UdayKiranPadhy/DS-And-Algo/blob/14b1044d4d68ddab444880c523e03e4944188a4b/Data Structures/Stack And Queues/6-Circular Tour.py",
+    "rawUrl": "https://raw.githubusercontent.com/UdayKiranPadhy/DS-And-Algo/main/Data Structures/Stack And Queues/6-Circular Tour.py"
+  },
+  "matching": {
+    "relevanceScore": 85.67
+  },
+  "provenance": {
+    "score": 82.5,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2021-06-20T05:53:00Z",
+    "lastCommitDate": "2024-04-08T16:51:11Z",
+    "commitCount": 3,
+    "authorCount": 2,
+    "authors": [
+      "Uday Kiran Padhy",
+      "Uday Kiran"
+    ],
+    "firstKnownAuthor": "Uday Kiran",
+    "latestKnownAuthor": "Uday Kiran Padhy"
+  },
+  "deduplication": {
+    "rawCodeHash": "95a5f3e948605ff31f357fd370703abaaa5eae598f29e506a0442b48ca451352",
+    "normalizedCodeHash": "95a5f3e948605ff31f357fd370703abaaa5eae598f29e506a0442b48ca451352",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:19:36.881950+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

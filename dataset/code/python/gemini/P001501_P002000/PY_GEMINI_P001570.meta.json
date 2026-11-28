@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001570",
+  "problemId": "P001570",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001570",
+    "title": "Longest Continuous Subarray With Positive Product",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers, determine the length of the longest contiguous subarray whose product of all elements is positive.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the maximum length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001570",
+    "fileSHA": "29ecaba2719d13045368f6284dba37db3e909e6df171ada6b68393b2dfd2d7ea",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:42.030240+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "29ecaba2719d13045368f6284dba37db3e909e6df171ada6b68393b2dfd2d7ea",
+    "normalizedCodeHash": "29ecaba2719d13045368f6284dba37db3e909e6df171ada6b68393b2dfd2d7ea",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:42.030263+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

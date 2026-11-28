@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000611",
+  "problemId": "P000611",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000611",
+    "title": "Maximum Twin Sum of a Linked List",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "A linked list of even length has twin nodes defined as follows: The first node is the twin of the last node. The second node is the twin of the second-last node. And so on. The twin sum of a pair is the sum of their values. Return the maximum twin sum among all twin pairs.",
+    "input": "Integer n (always even) Linked list",
+    "output": "A single integer representing the maximum twin sum.",
+    "constraints": "2 <= n <= 10^5 1 <= node.value <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000611",
+    "fileSHA": "85ab7ac093c70f029f6216eb694ae20d9c960b18df351a1946978beffe55aa66",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "85ab7ac093c70f029f6216eb694ae20d9c960b18df351a1946978beffe55aa66",
+    "normalizedCodeHash": "85ab7ac093c70f029f6216eb694ae20d9c960b18df351a1946978beffe55aa66",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique py P000611: Maximum Twin Sum of a Linked List"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

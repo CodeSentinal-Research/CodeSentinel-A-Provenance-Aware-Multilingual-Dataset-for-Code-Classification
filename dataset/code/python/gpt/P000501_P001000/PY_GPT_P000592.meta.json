@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000592",
+  "problemId": "P000592",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000592",
+    "title": "Remove Linked List Elements",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a linked list and an integer val, remove all nodes whose value is equal to val. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer val",
+    "output": "The linked list after removing all occurrences of val.",
+    "constraints": "0 <= n <= 10^5 -50 <= node.value, val <= 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000592.py",
+    "fileSHA": "d26d8975d201e695eaf1fdb6237d16440d6b634e22396c547bf70e0e044ee239",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.347753+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d26d8975d201e695eaf1fdb6237d16440d6b634e22396c547bf70e0e044ee239",
+    "normalizedCodeHash": "b96b364db28ec829543a4d159d3bd4a45f02b84b0ee0808fa5006e72c4ccbb56",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.347753+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

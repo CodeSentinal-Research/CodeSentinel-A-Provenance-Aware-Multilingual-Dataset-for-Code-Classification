@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001833",
+  "problemId": "P001833",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001833",
+    "title": "Count Dead Ends in a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree containing positive integers, determine the number of dead-end nodes where no further insertion is possible while maintaining the BST property.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST.",
+    "output": "• Print the number of dead ends.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001833.c",
+    "fileSHA": "1fc8ffb55dce585bb6d8bd2ef07445f52e8435da0912fa11de733a2962c10861",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.793Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "4a5ab4343e532ee6cf6c04a68f7987f01bebdb16590bea4eaab6de96bbc1f252",
+    "normalizedCodeHash": "1fc8ffb55dce585bb6d8bd2ef07445f52e8435da0912fa11de733a2962c10861",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.793Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

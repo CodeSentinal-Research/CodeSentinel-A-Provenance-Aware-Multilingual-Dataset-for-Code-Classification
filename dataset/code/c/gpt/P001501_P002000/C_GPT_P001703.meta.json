@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001703",
+  "problemId": "P001703",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001703",
+    "title": "Maximum Difference Between Node and Descendant",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree containing integer values, determine the maximum absolute difference between any node and one of its descendants.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print the maximum absolute difference.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • −10^9 ≤ NodeValue ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001703.c",
+    "fileSHA": "bed23a88f199b4a62dd12ba56d4a19f8cb8244924799b76a4feb55177702cd9c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.395Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "0934c41d2addf5cb9dcfbcac2a7d72a0c4dc5a4bbdd4236af1b11d3052c239e3",
+    "normalizedCodeHash": "bed23a88f199b4a62dd12ba56d4a19f8cb8244924799b76a4feb55177702cd9c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.395Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

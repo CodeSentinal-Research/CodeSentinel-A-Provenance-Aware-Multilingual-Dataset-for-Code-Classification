@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000530",
+  "problemId": "P000530",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000530",
+    "title": "Circular Queue Design",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Design a circular queue of fixed capacity. Support the following operations: enQueue(x) deQueue() Front() Rear() isEmpty() isFull() Process a sequence of operations and print the result for query operations.",
+    "input": "Integer capacity Integer q Next q operations.",
+    "output": "Print the result for every query operation.",
+    "constraints": "1 <= capacity <= 1000 1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000530",
+    "fileSHA": "006e8f4061af1fb72965d1df39eeac891aa3449ede9b53e61a066ce2bf6d84f9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "006e8f4061af1fb72965d1df39eeac891aa3449ede9b53e61a066ce2bf6d84f9",
+    "normalizedCodeHash": "006e8f4061af1fb72965d1df39eeac891aa3449ede9b53e61a066ce2bf6d84f9",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000530: Circular Queue Design"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

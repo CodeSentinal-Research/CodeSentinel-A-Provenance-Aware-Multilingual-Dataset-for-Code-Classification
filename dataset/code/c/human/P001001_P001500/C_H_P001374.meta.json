@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001374",
+  "problemId": "P001374",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001374",
+    "title": "Happy Number",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Starting with a positive integer, repeatedly replace the number by the sum of the squares of its digits. Determine whether the process eventually reaches 1 or enters a cycle.",
+    "input": "\u2022 First line contains integer N.",
+    "output": "Print YES if N is a happy number; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2^31\u22121"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0202_happy_number/happy_number.c",
+    "fileSHA": "9e4d9e819996dd4ecd955b0244038073446e13ac",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0202_happy_number/happy_number.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0202_happy_number/happy_number.c"
+  },
+  "matching": {
+    "relevanceScore": 66.92
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "dcd1b86fabf023b2809474a167efd7d7f52385b891ec59694da1eea1e05e5b94",
+    "normalizedCodeHash": "dcd1b86fabf023b2809474a167efd7d7f52385b891ec59694da1eea1e05e5b94",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:43:47.221219+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

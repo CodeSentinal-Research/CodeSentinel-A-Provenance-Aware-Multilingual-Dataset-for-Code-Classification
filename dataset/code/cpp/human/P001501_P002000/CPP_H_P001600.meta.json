@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001600",
+  "problemId": "P001600",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001600",
+    "title": "Range Average Query",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, compute the average value of elements in each specified range.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Next Q lines contain L and R.",
+    "output": "\u2022 Print the average for each query.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2 \u00d7 10^5 \u2022 0 \u2264 L \u2264 R < N"
+  },
+  "repository": {
+    "name": "shashankparchure/Group2-G4",
+    "owner": "shashankparchure",
+    "url": "https://github.com/shashankparchure/Group2-G4",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "segtree.cpp",
+    "fileSHA": "8ddd47949d856094ffc15320d40920d1c90a4cd4",
+    "url": "https://github.com/shashankparchure/Group2-G4/blob/a1fc0ea76cd5598a0783fafb7625012d2b3ee12b/segtree.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/shashankparchure/Group2-G4/main/segtree.cpp"
+  },
+  "matching": {
+    "relevanceScore": 72.38
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "151ec8d94c7a6dd300bcc7e11607ef394e504b017b2b3cc92e92a4b347719feb",
+    "normalizedCodeHash": "151ec8d94c7a6dd300bcc7e11607ef394e504b017b2b3cc92e92a4b347719feb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:35:23.573282+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

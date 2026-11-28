@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001778",
+  "problemId": "P001778",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001778",
+    "title": "Count Monotonic Root-to-Leaf Paths",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the number of root-to-leaf paths whose values are strictly increasing or strictly decreasing.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the number of qualifying paths.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "antirez/redis",
+    "owner": "antirez",
+    "url": "https://github.com/antirez/redis",
+    "defaultBranch": "unstable",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/monotonic.c",
+    "fileSHA": "29682d5c8537ba1c725612de1c1096723bcf1867",
+    "url": "https://github.com/antirez/redis/blob/unstable/src/monotonic.c",
+    "rawUrl": "https://raw.githubusercontent.com/antirez/redis/unstable/src/monotonic.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "62d931e3765728410c60e912657c30bf7f513a90163a34355d2dea12b76f28c8",
+    "normalizedCodeHash": "62d931e3765728410c60e912657c30bf7f513a90163a34355d2dea12b76f28c8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:13:40.628816+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

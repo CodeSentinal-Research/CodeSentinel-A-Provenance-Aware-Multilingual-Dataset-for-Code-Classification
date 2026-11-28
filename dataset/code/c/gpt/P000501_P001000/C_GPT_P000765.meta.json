@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000765",
+  "problemId": "P000765",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000765",
+    "title": "Recursive Heap Sort Verification",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers, recursively verify whether it satisfies the max-heap property. Return true if the array represents a valid max-heap; otherwise return false.",
+    "input": "Integer n Array nums",
+    "output": "true if the array is a max-heap, otherwise false.",
+    "constraints": "1 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000765.c",
+    "fileSHA": "e5eac543490e2df49882f4b092474480ac6cc621171d8f4671ae8e9b7c29b6ae",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e5eac543490e2df49882f4b092474480ac6cc621171d8f4671ae8e9b7c29b6ae",
+    "normalizedCodeHash": "e5eac543490e2df49882f4b092474480ac6cc621171d8f4671ae8e9b7c29b6ae",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

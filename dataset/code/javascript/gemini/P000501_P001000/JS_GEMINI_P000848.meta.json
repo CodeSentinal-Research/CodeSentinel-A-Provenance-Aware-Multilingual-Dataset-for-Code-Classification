@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000848",
+  "problemId": "P000848",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000848",
+    "title": "Minimize the Maximum Array Value",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Given a non-negative integer array, in one operation you may move one unit from an element to its previous element. Return the minimum possible value of the maximum element after performing any number of operations.",
+    "input": "Integer n Array nums",
+    "output": "The minimum possible maximum value.",
+    "constraints": "2 <= n <= 10^5 0 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P000848",
+    "fileSHA": "ea7b179a9146e03b53a1b367a25c0d2a72c8b5081686891abdb2b7e15794bf17",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:30:56.699040+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ea7b179a9146e03b53a1b367a25c0d2a72c8b5081686891abdb2b7e15794bf17",
+    "normalizedCodeHash": "ea7b179a9146e03b53a1b367a25c0d2a72c8b5081686891abdb2b7e15794bf17",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:30:56.699064+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

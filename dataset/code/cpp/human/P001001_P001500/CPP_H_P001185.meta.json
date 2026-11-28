@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001185",
+  "problemId": "P001185",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001185",
+    "title": "Delete and Earn",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers, selecting a value earns that value multiplied by its frequency. After selecting a value x, all occurrences of x\u22121 and x+1 become unavailable. Determine the maximum points obtainable.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the maximum obtainable points.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "C++/delete-and-earn.cpp",
+    "fileSHA": "d4e2b25051a2e8fa98cc8d5e386de73a03be7ddc",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/delete-and-earn.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/C++/delete-and-earn.cpp"
+  },
+  "matching": {
+    "relevanceScore": 65.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "cbf2307a685eee2abcf3f268e6b21be61105900360346c697358c5793f30ba36",
+    "normalizedCodeHash": "cbf2307a685eee2abcf3f268e6b21be61105900360346c697358c5793f30ba36",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:28:19.772277+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

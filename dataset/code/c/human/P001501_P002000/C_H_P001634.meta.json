@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001634",
+  "problemId": "P001634",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001634",
+    "title": "Maximum Sum Submatrix No Larger Than K",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M matrix of integers and an integer K, determine the maximum possible sum of any rectangular submatrix that does not exceed K.",
+    "input": "\u2022 First line contains N, M, and K. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the maximum valid sum.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 300 \u2022 -10^5 \u2264 Aij \u2264 10^5"
+  },
+  "repository": {
+    "name": "dmaman86/algo-solutions",
+    "owner": "dmaman86",
+    "url": "https://github.com/dmaman86/algo-solutions",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "problems/dynamic_programming/maximum_sum_submatrix/cpp/maximum_sum_submatrix.h",
+    "fileSHA": "7132070fb588bef9b0ffe0488ced00ed871641e6",
+    "url": "https://github.com/dmaman86/algo-solutions/blob/3e4ff411f05735ad99aee009f6fa08117d833112/problems/dynamic_programming/maximum_sum_submatrix/cpp/maximum_sum_submatrix.h",
+    "rawUrl": "https://raw.githubusercontent.com/dmaman86/algo-solutions/main/problems/dynamic_programming/maximum_sum_submatrix/cpp/maximum_sum_submatrix.h"
+  },
+  "matching": {
+    "relevanceScore": 62.08
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9e157e7607a88fc3081a69f1bc943334153ba53059689a74d47148fb526a7b7e",
+    "normalizedCodeHash": "9e157e7607a88fc3081a69f1bc943334153ba53059689a74d47148fb526a7b7e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T16:56:52.060591+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

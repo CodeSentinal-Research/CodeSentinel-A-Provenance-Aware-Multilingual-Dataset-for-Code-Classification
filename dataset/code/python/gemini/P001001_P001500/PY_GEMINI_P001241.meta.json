@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001241",
+  "problemId": "P001241",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001241",
+    "title": "Gas Station Circuit",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "There are N gas stations arranged in a circle. Each station provides a certain amount of gas, and traveling to the next station consumes a certain amount of gas. Determine the starting station index from which the entire circuit can be completed. If impossible, print -1.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing gas available. \u2022 Third line contains N integers representing travel cost.",
+    "output": "Print the starting station index or -1.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001241",
+    "fileSHA": "f4284bcfbc6573a9e11b9dabc0be2f6f5d56c275b417b025255d45d5a7d20168",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:17:17.060035+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f4284bcfbc6573a9e11b9dabc0be2f6f5d56c275b417b025255d45d5a7d20168",
+    "normalizedCodeHash": "f4284bcfbc6573a9e11b9dabc0be2f6f5d56c275b417b025255d45d5a7d20168",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:17:17.060064+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

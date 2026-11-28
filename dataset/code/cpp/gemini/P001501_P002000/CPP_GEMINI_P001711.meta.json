@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001711",
+  "problemId": "P001711",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001711",
+    "title": "Verify Whether a Binary Tree Satisfies the Children Sum Property",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given a binary tree, determine whether every non-leaf node has a value equal to the sum of the values of its immediate children.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print YES if the tree satisfies the property; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001711",
+    "fileSHA": "8c821a740fa3fe57e80061b1eb19a3cabe1465dc76b50aec33ccc11df25779bd",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:37:18.086726+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8c821a740fa3fe57e80061b1eb19a3cabe1465dc76b50aec33ccc11df25779bd",
+    "normalizedCodeHash": "8c821a740fa3fe57e80061b1eb19a3cabe1465dc76b50aec33ccc11df25779bd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:37:18.086754+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

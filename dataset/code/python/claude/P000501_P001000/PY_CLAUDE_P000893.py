@@ -1,0 +1,9 @@
+
+n=int(input())
+factors=set()
+i=2
+while i*i<=n:
+    while n%i==0: factors.add(i);n//=i
+    i+=1
+if n>1: factors.add(n)
+print(*sorted(factors))

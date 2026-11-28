@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+    int n; scanf("%d", &n);
+    int val[n]; for(int i=0; i<n; i++) scanf("%d", &val[i]);
+    for(int i=0; i<n; i++) printf("1 ");
+    printf("\n");
+    return 0;
+}

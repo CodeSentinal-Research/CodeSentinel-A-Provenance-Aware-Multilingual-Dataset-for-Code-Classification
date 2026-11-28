@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000625",
+  "problemId": "P000625",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000625",
+    "title": "Rotate Doubly Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a doubly linked list and an integer k, rotate the list counterclockwise by k nodes. Return the head of the rotated doubly linked list.",
+    "input": "Integer n Doubly linked list Integer k",
+    "output": "The rotated doubly linked list.",
+    "constraints": "1 <= n <= 10^5 0 <= k <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000625.c",
+    "fileSHA": "1cf0448ef7b7d56080ddeed545985c790e2cc38480502285a10bc0f880effc96",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1cf0448ef7b7d56080ddeed545985c790e2cc38480502285a10bc0f880effc96",
+    "normalizedCodeHash": "1cf0448ef7b7d56080ddeed545985c790e2cc38480502285a10bc0f880effc96",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

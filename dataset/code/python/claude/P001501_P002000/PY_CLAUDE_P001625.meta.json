@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_CLAUDE_P001625",
+  "problemId": "P001625",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001625",
+    "title": "Construct a Two-Dimensional Prefix Sum Matrix",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an N × M matrix of integers, construct its two-dimensional prefix sum matrix, where each cell contains the sum of all elements in the rectangle from (0,0) to the current cell.",
+    "input": "• First line contains N and M. • Next N lines each contain M integers.",
+    "output": "• Print the two-dimensional prefix sum matrix.",
+    "constraints": "• 1 ≤ N,M ≤ 1000 • -10^5 ≤ Aij ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P001625",
+    "fileSHA": "67f6ee504408a065cec7117643a43e969d48c309aa009b366a1c38c1a96665be",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1dff2ce6eaf6eed3f35241faf33d72a76a6bd1d76973997613ecb563d7cf5cfc",
+    "normalizedCodeHash": "67f6ee504408a065cec7117643a43e969d48c309aa009b366a1c38c1a96665be",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

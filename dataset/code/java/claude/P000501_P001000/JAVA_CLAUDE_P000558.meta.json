@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000558",
+  "problemId": "P000558",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000558",
+    "title": "Minimum Moves to Reach Target with Rotations",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an n × n binary grid representing obstacles. A snake occupies two adjacent cells and initially starts horizontally at the top-left corner. In one move, the snake may: Move right. Move down. Rotate clockwise. Rotate counterclockwise. A move is valid only if all required cells are within the grid and free of obstacles. Determine the minimum number of moves required for the snake to reach the target position. Return -1 if it is impossible.",
+    "input": "Integer n An n × n binary grid.",
+    "output": "A single integer representing the minimum number of moves, or -1 if no valid path exists.",
+    "constraints": "2 <= n <= 100 Grid contains only 0 and 1."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000558",
+    "fileSHA": "59a44eaa1c8c7b7cdb80708654f330875131d193bdd88d27aa546d920603679e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "59a44eaa1c8c7b7cdb80708654f330875131d193bdd88d27aa546d920603679e",
+    "normalizedCodeHash": "59a44eaa1c8c7b7cdb80708654f330875131d193bdd88d27aa546d920603679e",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000558: Minimum Moves to Reach Target with Rotations"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

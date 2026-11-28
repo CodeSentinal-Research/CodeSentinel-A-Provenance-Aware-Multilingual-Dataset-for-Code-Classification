@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001191",
+  "problemId": "P001191",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001191",
+    "title": "Best Time to Buy and Sell Stock with Transaction Fee",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given the daily prices of a stock and a transaction fee, determine the maximum profit obtainable by performing any number of buy-sell transactions. Every completed transaction incurs the given fee.",
+    "input": "\u2022 First line contains integers N and Fee. \u2022 Second line contains N integers representing stock prices.",
+    "output": "Print the maximum achievable profit.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 0 \u2264 Fee \u2264 10^5"
+  },
+  "repository": {
+    "name": "javadev/LeetCode-in-Java",
+    "owner": "javadev",
+    "url": "https://github.com/javadev/LeetCode-in-Java",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/g0701_0800/s0714_best_time_to_buy_and_sell_stock_with_transaction_fee/Solution.java",
+    "fileSHA": "83dd8a9b18c582f811946dd9b17dcbf2e4010fd2",
+    "url": "https://github.com/javadev/LeetCode-in-Java/blob/b2b3536e7cc37090f136267e173cc43ff2e82965/src/main/java/g0701_0800/s0714_best_time_to_buy_and_sell_stock_with_transaction_fee/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/javadev/LeetCode-in-Java/main/src/main/java/g0701_0800/s0714_best_time_to_buy_and_sell_stock_with_transaction_fee/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 81.7
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ee75ef4f8451aab8a703b453eb4c5a2c91c82d37e3ca994d0e6b9052aaae5454",
+    "normalizedCodeHash": "ee75ef4f8451aab8a703b453eb4c5a2c91c82d37e3ca994d0e6b9052aaae5454",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T08:56:02.668055+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001049",
+  "problemId": "P001049",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001049",
+    "title": "Replace Multiple Keys in a Heap",
+    "category": "Heap",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary heap and Q update operations, replace the specified keys and restore the heap property after each operation.",
+    "input": "• First line contains integers N and Q. • Second line contains N integers. • Next Q lines contain an index and a new value.",
+    "output": "Print the final heap.",
+    "constraints": "• 1 ≤ N, Q ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001049.py",
+    "fileSHA": "edc7c23622e074822de5f048711b08f1ebd267304b0a2e94d4430a651e99eca3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.184055+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "edc7c23622e074822de5f048711b08f1ebd267304b0a2e94d4430a651e99eca3",
+    "normalizedCodeHash": "d40c7456ec540207e5585293ea5ebf410a3847b490413bddafde646820ef6e47",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.184055+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

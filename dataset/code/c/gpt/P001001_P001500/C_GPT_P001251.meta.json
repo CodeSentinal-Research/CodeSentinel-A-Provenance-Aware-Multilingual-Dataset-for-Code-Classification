@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001251",
+  "problemId": "P001251",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001251",
+    "title": "Maximum Units on a Truck",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "A truck can carry at most T boxes. Each box type has a number of boxes and a number of units per box. Determine the maximum total units that can be loaded onto the truck.",
+    "input": "• First line contains integers N and T. • Next N lines contain the number of boxes and units per box.",
+    "output": "Print the maximum total units.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 1 ≤ T ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001251.c",
+    "fileSHA": "bbaca9625b7efd7da9923e177532e78b7e79c462d88493cb2abe1078dd73bd97",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.439Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "4603f04451fd09f6f9169c26566fe6418cd087f4510f6b11504f1f13d5b74b6d",
+    "normalizedCodeHash": "bbaca9625b7efd7da9923e177532e78b7e79c462d88493cb2abe1078dd73bd97",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.439Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

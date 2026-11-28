@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001631",
+  "problemId": "P001631",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001631",
+    "title": "Number of Paths With Given Sum in a Grid",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M grid of integers and an integer Target, determine the number of paths from the top-left cell to the bottom-right cell such that the sum of values along the path is exactly Target. You may only move right or down.",
+    "input": "\u2022 First line contains N, M, and Target. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the number of valid paths.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 30 \u2022 -100 \u2264 Grid[i][j] \u2264 100"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "java/2328-number-of-increasing-paths-in-a-grid.java",
+    "fileSHA": "d4f057ca20798a5f758b00b055eef69bceedb1a6",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/9f104d45b1efc8c2e42b6dcc7b1216cdf8c4f80e/java/2328-number-of-increasing-paths-in-a-grid.java",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/java/2328-number-of-increasing-paths-in-a-grid.java"
+  },
+  "matching": {
+    "relevanceScore": 84.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4a54f860b970a0b1f3b3a6e801325a5f6241d9d50616302aa26c17398dec0cd7",
+    "normalizedCodeHash": "4a54f860b970a0b1f3b3a6e801325a5f6241d9d50616302aa26c17398dec0cd7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T09:03:09.178573+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

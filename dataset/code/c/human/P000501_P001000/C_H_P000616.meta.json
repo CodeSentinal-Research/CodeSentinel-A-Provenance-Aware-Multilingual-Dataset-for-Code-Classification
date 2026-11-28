@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000616",
+  "problemId": "P000616",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000616",
+    "title": "Reverse Nodes in Even Positions",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list, remove all nodes at even positions, reverse their order, and merge them back into the original list by placing them again at the even positions. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 -10^9 <= node.value <= 10^9"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0000-0099/0007.Reverse Integer/Solution.c",
+    "fileSHA": "bf280900ec01efde328471840f94d0e9ec7815d3",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0000-0099/0007.Reverse Integer/Solution.c",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0000-0099/0007.Reverse Integer/Solution.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "87f4f7b1d59825233851f60a6360968f688afc222f4fd57a03588a5c03962e6a",
+    "normalizedCodeHash": "87f4f7b1d59825233851f60a6360968f688afc222f4fd57a03588a5c03962e6a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:28.467341+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

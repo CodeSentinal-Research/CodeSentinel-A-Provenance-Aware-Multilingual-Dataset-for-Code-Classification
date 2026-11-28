@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001098",
+  "problemId": "P001098",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001098",
+    "title": "Count Connected Components Using Union-Find",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given an undirected graph, determine the number of connected components using the Disjoint Set Union (Union-Find) data structure.",
+    "input": "• First line contains integers N and M. • Next M lines contain graph edges.",
+    "output": "Print the number of connected components.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001098.c",
+    "fileSHA": "2ac696bf9045e2fa15639af68ff41b66bed6839d60d289b5f38eae9f9d314b13",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.004Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a99bd32b92b30111adfab1b5ef3ecfdabacdd6ba2059e458b2de22a04d34549e",
+    "normalizedCodeHash": "2ac696bf9045e2fa15639af68ff41b66bed6839d60d289b5f38eae9f9d314b13",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.004Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

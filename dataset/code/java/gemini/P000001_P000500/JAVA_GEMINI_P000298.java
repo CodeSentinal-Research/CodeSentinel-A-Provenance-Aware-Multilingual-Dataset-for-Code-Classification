@@ -1,0 +1,26 @@
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        if (scanner.hasNext()) {
+            String s = scanner.next();
+            Deque<Integer> stack = new ArrayDeque<>();
+            stack.push(-1);
+            int maxLen = 0;
+            for (int i = 0; i < s.length(); i++) {
+                if (s.charAt(i) == '(') {
+                    stack.push(i);
+                } else {
+                    stack.pop();
+                    if (stack.isEmpty()) {
+                        stack.push(i);
+                    } else {
+                        maxLen = Math.max(maxLen, i - stack.peek());
+                    }
+                }
+            }
+            System.out.println(maxLen);
+        }
+    }
+}

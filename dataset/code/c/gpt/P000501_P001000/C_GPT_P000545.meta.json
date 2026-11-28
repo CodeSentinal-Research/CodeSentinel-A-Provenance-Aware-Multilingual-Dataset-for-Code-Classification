@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000545",
+  "problemId": "P000545",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000545",
+    "title": "Constrained Subsequence Sum",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array nums and an integer k, find the maximum sum of a non-empty subsequence such that for every two consecutive chosen elements, their indices differ by at most k. Return the maximum possible sum.",
+    "input": "Integer n Array nums Integer k",
+    "output": "A single integer representing the maximum subsequence sum.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= n -10^4 <= nums[i] <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000545.c",
+    "fileSHA": "6d800e141ca485836ffbda3d18c7b3b79a3699e5f2ab7250796247339d458738",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6d800e141ca485836ffbda3d18c7b3b79a3699e5f2ab7250796247339d458738",
+    "normalizedCodeHash": "6d800e141ca485836ffbda3d18c7b3b79a3699e5f2ab7250796247339d458738",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

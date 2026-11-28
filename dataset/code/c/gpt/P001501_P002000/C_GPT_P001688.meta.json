@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001688",
+  "problemId": "P001688",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001688",
+    "title": "Maximum Product of Splitting a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, remove exactly one edge so that the tree is divided into two subtrees. Determine the maximum possible product of the sums of the two resulting subtrees.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print the maximum product.",
+    "constraints": "• 2 ≤ N ≤ 2 × 10^5 • −10^9 ≤ NodeValue ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001688.c",
+    "fileSHA": "6817e0b249ff5c0a65008b4b145fd4fbd3a6acf7d65c7205bac31703eb8efa69",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.348Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "49f4ed0be12634504adce3c21cceee5a33759e14f89a7a2c31e71891865b4875",
+    "normalizedCodeHash": "6817e0b249ff5c0a65008b4b145fd4fbd3a6acf7d65c7205bac31703eb8efa69",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.348Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

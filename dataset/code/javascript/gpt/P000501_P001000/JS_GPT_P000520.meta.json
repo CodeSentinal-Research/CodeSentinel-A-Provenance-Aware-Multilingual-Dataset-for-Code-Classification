@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000520",
+  "problemId": "P000520",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000520",
+    "title": "Remove Stars From a String",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a string containing lowercase English letters and the character '*'. Each '*' removes itself and the closest non-removed character immediately to its left. Return the final string after processing all stars.",
+    "input": "A single string s.",
+    "output": "The resulting string.",
+    "constraints": "1 <= s.length <= 10^5 The input is guaranteed to be valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000520.js",
+    "fileSHA": "828d9dd6772d6a571b278e71e1a587198827c60154e600cf22e107e9b2b200a1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "828d9dd6772d6a571b278e71e1a587198827c60154e600cf22e107e9b2b200a1",
+    "normalizedCodeHash": "828d9dd6772d6a571b278e71e1a587198827c60154e600cf22e107e9b2b200a1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

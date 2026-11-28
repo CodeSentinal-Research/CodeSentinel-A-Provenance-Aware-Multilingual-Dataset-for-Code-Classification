@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001656",
+  "problemId": "P001656",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001656",
+    "title": "Flatten a Binary Tree into a Linked List",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree, transform it into a singly linked list in preorder traversal order using the existing tree nodes. Each node in the resulting list must have its left child set to null.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the nodes of the flattened linked list.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5________________________________________"
+  },
+  "repository": {
+    "name": "elastic/elasticsearch",
+    "owner": "elastic",
+    "url": "https://github.com/elastic/elasticsearch",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "server/src/main/java/org/elasticsearch/common/util/Maps.java",
+    "fileSHA": "97ec3fb0454ceef59f001585181afda503af06aa",
+    "url": "https://github.com/elastic/elasticsearch/blob/37524ac36996c53fcd3aadab3a6327d84efd7fb8/server/src/main/java/org/elasticsearch/common/util/Maps.java",
+    "rawUrl": "https://raw.githubusercontent.com/elastic/elasticsearch/main/server/src/main/java/org/elasticsearch/common/util/Maps.java"
+  },
+  "matching": {
+    "relevanceScore": 88.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4c6b31560972b58fe7d7c1155930e575c9056bf98640f82b83f2e0f8fe1de31a",
+    "normalizedCodeHash": "4c6b31560972b58fe7d7c1155930e575c9056bf98640f82b83f2e0f8fe1de31a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T02:55:32.589980+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

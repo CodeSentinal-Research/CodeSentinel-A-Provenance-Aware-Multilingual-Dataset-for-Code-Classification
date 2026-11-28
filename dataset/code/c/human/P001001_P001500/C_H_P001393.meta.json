@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001393",
+  "problemId": "P001393",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001393",
+    "title": "Continuous Subarray Sum",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer K, determine whether there exists a continuous subarray of length at least 2 whose sum is a multiple of K.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print YES if such a subarray exists; otherwise print NO.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "quanhua92/interview-prep",
+    "owner": "quanhua92",
+    "url": "https://github.com/quanhua92/interview-prep",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "tier2_intermediate/prefix_sum/solutions/p523_continuous_subarray_sum.c",
+    "fileSHA": "ab3ea4a49e7c8578ff45399345a2dc37caec4e99",
+    "url": "https://github.com/quanhua92/interview-prep/blob/ec5eb413f91784736b372095b0d5b1c9fa8d066d/tier2_intermediate/prefix_sum/solutions/p523_continuous_subarray_sum.c",
+    "rawUrl": "https://raw.githubusercontent.com/quanhua92/interview-prep/main/tier2_intermediate/prefix_sum/solutions/p523_continuous_subarray_sum.c"
+  },
+  "matching": {
+    "relevanceScore": 81.67
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7d0c231fa19926839015e7112c8c3614395b8f57e778300d9f2335eada98b5ad",
+    "normalizedCodeHash": "7d0c231fa19926839015e7112c8c3614395b8f57e778300d9f2335eada98b5ad",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:42:18.997168+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

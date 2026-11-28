@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000831",
+  "problemId": "P000831",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000831",
+    "title": "Minimum Number of Days to Make m Bouquets",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an array bloomDay, where bloomDay[i] is the day the i-th flower blooms. Each bouquet requires k adjacent flowers. Return the minimum number of days required to make exactly m bouquets, or -1 if it is impossible.",
+    "input": "Integer n Array bloomDay Integer m Integer k",
+    "output": "The minimum required day.",
+    "constraints": "1 <= n <= 10^5 1 <= bloomDay[i] <= 10^9"
+  },
+  "repository": {
+    "name": "Tisarji/leetCode-Learn",
+    "owner": "Tisarji",
+    "url": "https://github.com/Tisarji/leetCode-Learn",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "srcs/PART-No-Cagegory/minimum-number-of-days-to-make-m-bouquets/minimum-number-of-days-to-make-m-bouquets.c",
+    "fileSHA": "a7c24590dba66596257b59c0906a7d5b933c9a24",
+    "url": "https://github.com/Tisarji/leetCode-Learn/blob/d7d92f1fa4555df08b07231e38e2bc934c847146/srcs/PART-No-Cagegory/minimum-number-of-days-to-make-m-bouquets/minimum-number-of-days-to-make-m-bouquets.c",
+    "rawUrl": "https://raw.githubusercontent.com/Tisarji/leetCode-Learn/main/srcs/PART-No-Cagegory/minimum-number-of-days-to-make-m-bouquets/minimum-number-of-days-to-make-m-bouquets.c"
+  },
+  "matching": {
+    "relevanceScore": 93.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "751df6d2c8ee339b9d9f89be24cbbd282459d8bfe4ae9726626cac9a6623c328",
+    "normalizedCodeHash": "751df6d2c8ee339b9d9f89be24cbbd282459d8bfe4ae9726626cac9a6623c328",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T15:24:27.342957+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

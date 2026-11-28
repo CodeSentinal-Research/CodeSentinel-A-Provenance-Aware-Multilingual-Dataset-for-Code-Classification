@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000813",
+  "problemId": "P000813",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000813",
+    "title": "Integer Square Root",
+    "category": "Binary Search",
+    "difficulty": "Easy",
+    "problemStatement": "Given a non-negative integer x, return the integer part of its square root. The returned value should be the largest integer whose square is less than or equal to x.",
+    "input": "Integer x",
+    "output": "The integer square root.",
+    "constraints": "0 <= x <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "PX4/PX4-Autopilot",
+    "owner": "PX4",
+    "url": "https://github.com/PX4/PX4-Autopilot",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/drivers/distance_sensor/broadcom/afbrs50/Inc/utility/int_math.h",
+    "fileSHA": "73ce257d325f590a55fd2e622f33b21ce720d456",
+    "url": "https://github.com/PX4/PX4-Autopilot/blob/cbc6a6f7abbd06fbb2ff0aed3e57e3e95f88232e/src/drivers/distance_sensor/broadcom/afbrs50/Inc/utility/int_math.h",
+    "rawUrl": "https://raw.githubusercontent.com/PX4/PX4-Autopilot/main/src/drivers/distance_sensor/broadcom/afbrs50/Inc/utility/int_math.h"
+  },
+  "matching": {
+    "relevanceScore": 83.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7accd026f4f504bb836a8cc4984cf251747fb37b985ee477dda2ae0de8ba0880",
+    "normalizedCodeHash": "7accd026f4f504bb836a8cc4984cf251747fb37b985ee477dda2ae0de8ba0880",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T11:32:45.684439+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

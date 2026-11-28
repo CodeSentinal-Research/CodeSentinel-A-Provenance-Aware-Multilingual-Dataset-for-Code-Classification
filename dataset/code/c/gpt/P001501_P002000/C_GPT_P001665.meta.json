@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001665",
+  "problemId": "P001665",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001665",
+    "title": "Check Whether a Binary Tree is Full",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given the root of a binary tree, determine whether it is a full binary tree. Every node must have either zero or exactly two children.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print YES if the tree is full; otherwise print NO.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001665.c",
+    "fileSHA": "21983ab7ad73c52bcf72c108a95e5c47810d812f79467ccdacee1e385a8edfb5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.162Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "8943f055f5dd1e55811c3747b399bb6a15e46795e8eca78e45b2fe31dd2f3df3",
+    "normalizedCodeHash": "21983ab7ad73c52bcf72c108a95e5c47810d812f79467ccdacee1e385a8edfb5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.162Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

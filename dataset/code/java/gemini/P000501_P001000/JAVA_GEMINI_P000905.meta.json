@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000905",
+  "problemId": "P000905",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000905",
+    "title": "Modular Subtraction",
+    "category": "Mathematics - Modular Arithmetic",
+    "difficulty": "Easy",
+    "problemStatement": "Given integers A, B, and M, compute (A - B) mod M. The answer should always be in the range [0, M-1].",
+    "input": "Integer A Integer B Integer M",
+    "output": "The result of modular subtraction.",
+    "constraints": "1 <= M <= 10^18 0 <= A, B <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P000905",
+    "fileSHA": "1a3f067595df76891dc4b9bce7a390c62408f7128854948ec6fd309b86258864",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:32:18.433199+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1a3f067595df76891dc4b9bce7a390c62408f7128854948ec6fd309b86258864",
+    "normalizedCodeHash": "1a3f067595df76891dc4b9bce7a390c62408f7128854948ec6fd309b86258864",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:32:18.433232+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

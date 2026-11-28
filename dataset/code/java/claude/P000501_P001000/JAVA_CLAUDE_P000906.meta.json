@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000906",
+  "problemId": "P000906",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000906",
+    "title": "Modular Multiplication",
+    "category": "Mathematics - Modular Arithmetic",
+    "difficulty": "Easy",
+    "problemStatement": "Given integers A, B, and M, compute (A × B) mod M.",
+    "input": "Integer A Integer B Integer M",
+    "output": "The result of modular multiplication.",
+    "constraints": "1 <= M <= 10^18 0 <= A, B <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000906",
+    "fileSHA": "d7f46a270fa94e8391b2a5eacaad13b166239b1020ec02604f8672292f4bc563",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d7f46a270fa94e8391b2a5eacaad13b166239b1020ec02604f8672292f4bc563",
+    "normalizedCodeHash": "d7f46a270fa94e8391b2a5eacaad13b166239b1020ec02604f8672292f4bc563",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000906"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

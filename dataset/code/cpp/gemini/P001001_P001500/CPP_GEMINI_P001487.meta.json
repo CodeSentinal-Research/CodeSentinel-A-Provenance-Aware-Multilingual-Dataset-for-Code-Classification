@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001487",
+  "problemId": "P001487",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001487",
+    "title": "Camelcase Matching",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a pattern and a list of query strings, determine for each query whether it matches the pattern under camel-case matching rules.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain query strings. \u2022 Last line contains the pattern.",
+    "output": "Print YES or NO for each query.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 Query length \u2264 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001487",
+    "fileSHA": "6d02b18c7449c5e491c06538e9c0a4d801a8552ecdc1b3db5a1079a6b4ea3ade",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:27:55.357394+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6d02b18c7449c5e491c06538e9c0a4d801a8552ecdc1b3db5a1079a6b4ea3ade",
+    "normalizedCodeHash": "6d02b18c7449c5e491c06538e9c0a4d801a8552ecdc1b3db5a1079a6b4ea3ade",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:27:55.357418+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

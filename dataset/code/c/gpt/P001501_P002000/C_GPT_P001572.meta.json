@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001572",
+  "problemId": "P001572",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001572",
+    "title": "Count Windows With Even Sum",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and a window size K, count the number of contiguous subarrays of size K whose sum is even.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the count.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001572.c",
+    "fileSHA": "b142fa4ecda414573fa2203021f6591bae8bf80a338513ce591b49408894821b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.806Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "d3241581af5060094d02ba9b39ff70563fb98a221ebe884093c585f7b6ebdcb2",
+    "normalizedCodeHash": "b142fa4ecda414573fa2203021f6591bae8bf80a338513ce591b49408894821b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.806Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001635",
+  "problemId": "P001635",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001635",
+    "title": "Count Submatrices With Equal Number of Zeros and Ones",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary matrix, determine the number of rectangular submatrices containing an equal number of 0s and 1s.",
+    "input": "\u2022 First line contains N and M. \u2022 Next N lines each contain M binary integers.",
+    "output": "\u2022 Print the required count.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 300 \u2022 Matrix elements are either 0 or 1."
+  },
+  "repository": {
+    "name": "joric/oneliners",
+    "owner": "joric",
+    "url": "https://github.com/joric/oneliners",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "leetcode/3212.count-submatrices-with-equal-frequency-of-x-and-y\u044e.py",
+    "fileSHA": "c6ea62881f5be21b007977861606bf4e4cc80171",
+    "url": "https://github.com/joric/oneliners/blob/9f8e54d6eb7a79923cb247eadb83194fb34c8a0e/leetcode/3212.count-submatrices-with-equal-frequency-of-x-and-y\u044e.py",
+    "rawUrl": "https://raw.githubusercontent.com/joric/oneliners/main/leetcode/3212.count-submatrices-with-equal-frequency-of-x-and-y\u044e.py"
+  },
+  "matching": {
+    "relevanceScore": 69.5
+  },
+  "provenance": {
+    "score": 85.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f3d21d3ef9a8f905c41be98293ff994cf3d644183d682a1345143e98e078fa29",
+    "normalizedCodeHash": "f3d21d3ef9a8f905c41be98293ff994cf3d644183d682a1345143e98e078fa29",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:58:27.862268+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

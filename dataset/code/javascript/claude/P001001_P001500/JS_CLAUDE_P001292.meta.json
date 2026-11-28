@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_CLAUDE_P001292",
+  "problemId": "P001292",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001292",
+    "title": "Eliminate Maximum Number of Monsters",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Each monster starts at a certain distance from the city and moves toward it at a constant speed. Every minute, you may eliminate exactly one monster before any monster reaches the city. Determine the maximum number of monsters that can be eliminated.",
+    "input": "• First line contains integer N. • Second line contains N integers representing distances. • Third line contains N integers representing speeds.",
+    "output": "Print the maximum number of monsters that can be eliminated.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P001292",
+    "fileSHA": "9cb9677706dfed9ab9827ced6ddd86830210a03476daf5aa2823d71d1f54c87e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "57250e14de79bded67d08c2c6e1b920b6a48c5171ce82511aabb14113f94a35b",
+    "normalizedCodeHash": "9cb9677706dfed9ab9827ced6ddd86830210a03476daf5aa2823d71d1f54c87e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000733",
+  "problemId": "P000733",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000733",
+    "title": "M-Coloring Problem",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph with V vertices and M colors, determine whether the graph can be colored so that no two adjacent vertices share the same color. Return true if such a coloring exists; otherwise return false.",
+    "input": "Integer V Integer E List of edges Integer M",
+    "output": "true if a valid coloring exists, otherwise false.",
+    "constraints": "1 <= V <= 20 0 <= E <= V \u00d7 (V - 1) / 2 1 <= M <= V"
+  },
+  "repository": {
+    "name": "evrenkymt/Graph-Coloring-Problem",
+    "owner": "evrenkymt",
+    "url": "https://github.com/evrenkymt/Graph-Coloring-Problem",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "GraphColoringProblem.java",
+    "fileSHA": "4441b6d4bfc1228806de3fde584fa5f065648036",
+    "url": "https://github.com/evrenkymt/Graph-Coloring-Problem/blob/43c01455bceeabead74cc35ab443ba566e2cad5c/GraphColoringProblem.java",
+    "rawUrl": "https://raw.githubusercontent.com/evrenkymt/Graph-Coloring-Problem/main/GraphColoringProblem.java"
+  },
+  "matching": {
+    "relevanceScore": 81.67
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5eeaaadc6d9d3eeabb65113e056e2a3a1369c8331f754405179975e22225b8c2",
+    "normalizedCodeHash": "5eeaaadc6d9d3eeabb65113e056e2a3a1369c8331f754405179975e22225b8c2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T14:02:58.519551+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

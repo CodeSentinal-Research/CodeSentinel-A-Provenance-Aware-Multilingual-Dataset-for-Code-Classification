@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001071",
+  "problemId": "P001071",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001071",
+    "title": "Find the Mother Vertex",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a directed graph, determine whether there exists a vertex from which every other vertex is reachable. If such a vertex exists, print it; otherwise print -1.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain directed edges.",
+    "output": "Print the mother vertex or -1.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "Aditya-xcity/Daa_Codes",
+    "owner": "Aditya-xcity",
+    "url": "https://github.com/Aditya-xcity/Daa_Codes",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Weeks/Week14/W14Q2motherVertexDFS.cpp",
+    "fileSHA": "127bebd417c45fbaf0e16c4c9cea8361e03df05f",
+    "url": "https://github.com/Aditya-xcity/Daa_Codes/blob/948057f9fb5c36ced0c4dee72d5a5ee529275900/Weeks/Week14/W14Q2motherVertexDFS.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/Aditya-xcity/Daa_Codes/main/Weeks/Week14/W14Q2motherVertexDFS.cpp"
+  },
+  "matching": {
+    "relevanceScore": 83.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d58a53b39a5c76ec4f5e70646a98bdaf302a6fef53328d5ec7f3740d7b6196d2",
+    "normalizedCodeHash": "d58a53b39a5c76ec4f5e70646a98bdaf302a6fef53328d5ec7f3740d7b6196d2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T18:50:14.223497+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

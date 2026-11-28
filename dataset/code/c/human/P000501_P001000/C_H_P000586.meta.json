@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000586",
+  "problemId": "P000586",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000586",
+    "title": "Reverse Nodes in K-Group",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a linked list and an integer k, reverse the nodes of the list k at a time. If the number of remaining nodes is less than k, leave them unchanged. Return the modified linked list.",
+    "input": "Integer n Linked list Integer k",
+    "output": "The linked list after reversing every group of k nodes.",
+    "constraints": "1 <= n <= 5000 1 <= k <= n"
+  },
+  "repository": {
+    "name": "Joydip78/C_Codes",
+    "owner": "Joydip78",
+    "url": "https://github.com/Joydip78/C_Codes",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "rev_nodes_k_group.c",
+    "fileSHA": "3247050f8217ce58a86829ce9dda1e31a8078113",
+    "url": "https://github.com/Joydip78/C_Codes/blob/ea83502fda517f5112583527583bf536f47b690a/rev_nodes_k_group.c",
+    "rawUrl": "https://raw.githubusercontent.com/Joydip78/C_Codes/main/rev_nodes_k_group.c"
+  },
+  "matching": {
+    "relevanceScore": 85.0
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6bb3a9d6b5dbe0324453b42655af7669fe9510981e5b53a97bccc3222cbff7ae",
+    "normalizedCodeHash": "6bb3a9d6b5dbe0324453b42655af7669fe9510981e5b53a97bccc3222cbff7ae",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:36:54.865558+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

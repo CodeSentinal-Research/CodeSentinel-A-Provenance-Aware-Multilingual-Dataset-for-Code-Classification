@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000421",
+  "problemId": "P000421",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000421",
+    "title": "Search Expired Memberships",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find all memberships whose expiry date has already passed.",
+    "input": "Membership records and the current date.",
+    "output": "Expired memberships.",
+    "constraints": "1 ≤ Number of Memberships ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000421.c",
+    "fileSHA": "e062c07ead6feb1bbb7f9c19af95cf3e2db7fb33369e75ec82dda58dd969941d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e062c07ead6feb1bbb7f9c19af95cf3e2db7fb33369e75ec82dda58dd969941d",
+    "normalizedCodeHash": "e062c07ead6feb1bbb7f9c19af95cf3e2db7fb33369e75ec82dda58dd969941d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

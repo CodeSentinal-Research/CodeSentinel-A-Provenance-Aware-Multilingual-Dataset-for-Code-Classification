@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001613",
+  "problemId": "P001613",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001613",
+    "title": "Matrix Block Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M matrix of integers and an integer K, construct a matrix where each cell contains the sum of all elements within a distance of K rows and K columns from that cell.",
+    "input": "\u2022 First line contains N, M, and K. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the resulting matrix.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 1000 \u2022 0 \u2264 K \u2264 max(N, M)"
+  },
+  "repository": {
+    "name": "pranulkbv28/Java-LeetCode",
+    "owner": "pranulkbv28",
+    "url": "https://github.com/pranulkbv28/Java-LeetCode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "MatrixBlockSum.java",
+    "fileSHA": "ac20226867ba67ec4dca9bc4599ef17bb15cba27",
+    "url": "https://github.com/pranulkbv28/Java-LeetCode/blob/9313b75b7eaef48a9857cbef094308c2096f9009/MatrixBlockSum.java",
+    "rawUrl": "https://raw.githubusercontent.com/pranulkbv28/Java-LeetCode/main/MatrixBlockSum.java"
+  },
+  "matching": {
+    "relevanceScore": 76.25
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5f54ffc403c9c3937d6c2223d9f08c908108a5d7aba32b0a229ac52bc08634de",
+    "normalizedCodeHash": "5f54ffc403c9c3937d6c2223d9f08c908108a5d7aba32b0a229ac52bc08634de",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:35:25.416714+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

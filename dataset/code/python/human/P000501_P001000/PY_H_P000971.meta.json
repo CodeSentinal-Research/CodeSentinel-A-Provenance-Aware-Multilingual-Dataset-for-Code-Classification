@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000971",
+  "problemId": "P000971",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000971",
+    "title": "Linear Recurrence Evaluation",
+    "category": "Mathematics - Recurrence Relations",
+    "difficulty": "Medium",
+    "problemStatement": "Given constants A, B, initial values F0, F1, and an integer N, evaluate the recurrence: Fn = A \u00d7 Fn\u22121 + B \u00d7 Fn\u22122",
+    "input": "Integers A, B Integers F0, F1 Integer N",
+    "output": "The value of FN.",
+    "constraints": "0 <= N <= 10^6"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/data_structures/src/stack/postfix_evaluation/postfix_evaluation.py",
+    "fileSHA": "0c4dba0006612aaf03d3cee6db243b67bca5cd95",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/data_structures/src/stack/postfix_evaluation/postfix_evaluation.py",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/data_structures/src/stack/postfix_evaluation/postfix_evaluation.py"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9a7a5b9a8ec706b2af42f87e16c34551dad3c12bb7d916701f841f9f980cf88c",
+    "normalizedCodeHash": "9a7a5b9a8ec706b2af42f87e16c34551dad3c12bb7d916701f841f9f980cf88c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:04.784881+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

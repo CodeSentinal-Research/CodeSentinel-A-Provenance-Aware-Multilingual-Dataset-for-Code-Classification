@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001555",
+  "problemId": "P001555",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001555",
+    "title": "Maximum Number of Vowels in a Substring of Length K",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string and an integer K, determine the maximum number of vowels present in any substring of length exactly K.",
+    "input": "• First line contains string S. • Second line contains integer K.",
+    "output": "• Print the maximum number of vowels.",
+    "constraints": "• 1 ≤ |S| ≤ 2 × 10^5 • 1 ≤ K ≤ |S|"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001555.c",
+    "fileSHA": "a80eb876266300f9ae2552710184293f7d0eeca3ca30ec1482cd3e210266de75",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.755Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "ae8f1ed5d098ab2aa2694b9ddf22b03c5c27def9baa86de37a6008bfdd9cee49",
+    "normalizedCodeHash": "a80eb876266300f9ae2552710184293f7d0eeca3ca30ec1482cd3e210266de75",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.755Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

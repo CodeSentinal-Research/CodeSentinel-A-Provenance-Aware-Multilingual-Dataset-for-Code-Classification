@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000898",
+  "problemId": "P000898",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000898",
+    "title": "Reduce Fraction to Lowest Terms",
+    "category": "Mathematics - GCD & LCM",
+    "difficulty": "Easy",
+    "problemStatement": "Given two positive integers representing the numerator and denominator of a fraction, reduce the fraction to its lowest terms.",
+    "input": "Integer numerator Integer denominator",
+    "output": "The reduced numerator and denominator.",
+    "constraints": "1 <= numerator, denominator <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000898.c",
+    "fileSHA": "0feb787744aef05c5e1f98e219be170d1b35f4e3a36868da844992311b373ee8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0feb787744aef05c5e1f98e219be170d1b35f4e3a36868da844992311b373ee8",
+    "normalizedCodeHash": "0feb787744aef05c5e1f98e219be170d1b35f4e3a36868da844992311b373ee8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000913",
+  "problemId": "P000913",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000913",
+    "title": "Binomial Coefficient Modulo Prime",
+    "category": "Mathematics - Combinatorics",
+    "difficulty": "Medium",
+    "problemStatement": "Given integers n, r, and a prime number P, compute nCr mod P.",
+    "input": "Integer n Integer r Prime integer P",
+    "output": "The value of nCr mod P.",
+    "constraints": "0 <= r <= n <= 10^6 2 <= P <= 10^9 + 7"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000913",
+    "fileSHA": "83e19a8f96f023224bf8c0fed76d49a87abdfb9410ed71bd0d64a9f982300819",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "83e19a8f96f023224bf8c0fed76d49a87abdfb9410ed71bd0d64a9f982300819",
+    "normalizedCodeHash": "83e19a8f96f023224bf8c0fed76d49a87abdfb9410ed71bd0d64a9f982300819",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000913"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

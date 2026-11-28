@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001208",
+  "problemId": "P001208",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001208",
+    "title": "Stone Game II",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given piles of stones arranged in a row, two players alternately remove the first X remaining piles where 1 ≤ X ≤ 2M, with M updated after every move. Determine the maximum number of stones the first player can collect assuming optimal play.",
+    "input": "• First line contains integer N. • Second line contains N integers.",
+    "output": "Print the maximum stones obtainable by the first player.",
+    "constraints": "• 1 ≤ N ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001208.py",
+    "fileSHA": "d9629cef3f69261f9627595b73e6e8df92762347c6aaab39c381dacd48eb57ac",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.800808+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d9629cef3f69261f9627595b73e6e8df92762347c6aaab39c381dacd48eb57ac",
+    "normalizedCodeHash": "7382eba518e7f0110c751a447d3b048c975ae3138047fda99ad1dc24e9d32c27",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.800808+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

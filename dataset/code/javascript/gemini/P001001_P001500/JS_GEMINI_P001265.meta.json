@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001265",
+  "problemId": "P001265",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001265",
+    "title": "Maximum Performance of a Team",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given N engineers, each having a speed and an efficiency, select at most K engineers to maximize the team's performance, defined as the sum of selected speeds multiplied by the minimum efficiency among them.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers representing speeds. \u2022 Third line contains N integers representing efficiencies.",
+    "output": "Print the maximum achievable performance.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001265",
+    "fileSHA": "d30d25cad98364ea7b3efbdcfb804a3df5030e38a2eef60c919d8885a9f70ecc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:19:57.295879+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d30d25cad98364ea7b3efbdcfb804a3df5030e38a2eef60c919d8885a9f70ecc",
+    "normalizedCodeHash": "d30d25cad98364ea7b3efbdcfb804a3df5030e38a2eef60c919d8885a9f70ecc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:19:57.295907+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

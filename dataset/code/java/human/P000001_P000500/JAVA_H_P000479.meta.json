@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000479",
+  "problemId": "P000479",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000479",
+    "title": "Valid Parentheses",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "Given a string s containing only the characters '(', ')', '{', '}', '[', and ']', determine whether the input string is valid. A string is valid if: Every opening bracket has a corresponding closing bracket of the same type. Brackets are closed in the correct order. Every closing bracket has a matching opening bracket. Return \"true\" if the string is valid; otherwise return \"false\".",
+    "input": "A single string s.",
+    "output": "true if the string is valid, otherwise false.",
+    "constraints": "1 <= s.length <= 10^4 s consists only of '(', ')', '{', '}', '[', ']'."
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/stacks/ValidParentheses.java",
+    "fileSHA": "2cc616a3882618632ddf11e1ca022d7f1680efdd",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/stacks/ValidParentheses.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/stacks/ValidParentheses.java"
+  },
+  "matching": {
+    "relevanceScore": 97.92
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e3f6999fffd8fe342fb912dcec2766323a88d2ecd9cf83a7814071f62095de9d",
+    "normalizedCodeHash": "e3f6999fffd8fe342fb912dcec2766323a88d2ecd9cf83a7814071f62095de9d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:54:16.179281+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

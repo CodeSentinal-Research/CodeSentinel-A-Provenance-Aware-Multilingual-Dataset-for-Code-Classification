@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000776",
+  "problemId": "P000776",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000776",
+    "title": "Partition String into Dictionary Words",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string s and a dictionary of valid words, partition the string into all possible sequences of dictionary words. Return every valid partition in lexicographical order.",
+    "input": "String s Integer m Array dictionary",
+    "output": "All valid partitions.",
+    "constraints": "1 <= |s| <= 20 1 <= m <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000776.py",
+    "fileSHA": "cddc8e958d59545a589735928cb6cbc58f4128e24718050d5a9e8fd88e59188e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.005930+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cddc8e958d59545a589735928cb6cbc58f4128e24718050d5a9e8fd88e59188e",
+    "normalizedCodeHash": "b39978e0fc5dfdaf30c61a7c4fe236c2696b0855c06dd7315016bfc3db787c4e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.005930+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

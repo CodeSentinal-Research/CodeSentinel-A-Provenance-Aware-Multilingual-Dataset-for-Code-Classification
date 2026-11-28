@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001718",
+  "problemId": "P001718",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001718",
+    "title": "Count Paths with Exactly K Edges",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree and an integer K, determine the number of downward paths consisting of exactly K edges.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains K.",
+    "output": "\u2022 Print the number of qualifying paths.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 0 \u2264 K < N"
+  },
+  "repository": {
+    "name": "emmanuel-karanja/DSA-Java",
+    "owner": "emmanuel-karanja",
+    "url": "https://github.com/emmanuel-karanja/DSA-Java",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Trees/PathsLengthK.java",
+    "fileSHA": "062115cd3b9e1794fba35770cdff19cb5518e477",
+    "url": "https://github.com/emmanuel-karanja/DSA-Java/blob/da8260c63a40a76c293f70369b40b3fcd10bd780/Trees/PathsLengthK.java",
+    "rawUrl": "https://raw.githubusercontent.com/emmanuel-karanja/DSA-Java/main/Trees/PathsLengthK.java"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b190ed42080d05405c6543980163274dd57aa2bd2cfb748c8e7282671e83aba8",
+    "normalizedCodeHash": "b190ed42080d05405c6543980163274dd57aa2bd2cfb748c8e7282671e83aba8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:50:57.852784+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

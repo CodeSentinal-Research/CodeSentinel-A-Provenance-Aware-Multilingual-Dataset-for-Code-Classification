@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001624",
+  "problemId": "P001624",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001624",
+    "title": "Difference Array Reconstruction",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given the difference array of an integer array, reconstruct the original array.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers representing the difference array.",
+    "output": "\u2022 Print the reconstructed array.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Di \u2264 10^9"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/prefixsum/DifferenceArray.java",
+    "fileSHA": "1be55039cff0c006e1897325990d543d34232ad4",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/prefixsum/DifferenceArray.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/prefixsum/DifferenceArray.java"
+  },
+  "matching": {
+    "relevanceScore": 70.83
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c5061bab7ae4011ae83f95369cbbca72e108512d4d9ae4120d9b93811dfab2f4",
+    "normalizedCodeHash": "c5061bab7ae4011ae83f95369cbbca72e108512d4d9ae4120d9b93811dfab2f4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T07:05:34.296127+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

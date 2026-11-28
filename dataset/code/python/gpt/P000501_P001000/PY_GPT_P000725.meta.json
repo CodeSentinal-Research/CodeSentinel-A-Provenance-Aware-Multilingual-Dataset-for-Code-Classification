@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000725",
+  "problemId": "P000725",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000725",
+    "title": "Split String into Descending Consecutive Values",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string consisting of digits, determine whether it can be split into two or more non-empty substrings such that the numerical values are in strictly descending order and differ by exactly 1. Return true if possible; otherwise return false.",
+    "input": "String s",
+    "output": "true if such a split exists, otherwise false.",
+    "constraints": "1 <= |s| <= 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000725.py",
+    "fileSHA": "db49e73beab0ae8cf8dfbf304342c17e6b77d8d74a78bdc8f526c068d484ea67",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.804806+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "db49e73beab0ae8cf8dfbf304342c17e6b77d8d74a78bdc8f526c068d484ea67",
+    "normalizedCodeHash": "d70f1f4707a3436d77875f9cec70428b8df3b48f5af97838e70a4539375e9c35",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.804806+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

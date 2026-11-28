@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){String s=new Scanner(System.in).next().trim();int i=0,sign=1;long res=0;while(i<s.length()&&s.charAt(i)==" ")i++;if(i<s.length()&&(s.charAt(i)=="+"||s.charAt(i)=="-")){if(s.charAt(i)=="-")sign=-1;i++;}while(i<s.length()&&Character.isDigit(s.charAt(i))){res=res*10+(s.charAt(i++)-"0");if(res*sign>Integer.MAX_VALUE||res*sign<Integer.MIN_VALUE)break;}res*=sign;res=Math.max((long)Integer.MIN_VALUE,Math.min((long)Integer.MAX_VALUE,res));System.out.println((int)res);}}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001028",
+  "problemId": "P001028",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001028",
+    "title": "Delete an Arbitrary Element from a Heap",
+    "category": "Heap",
+    "difficulty": "Medium",
+    "problemStatement": "Given a valid binary heap and the index of an element, delete that element while maintaining the heap property.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers. \u2022 Third line contains integer i.",
+    "output": "Print the updated heap.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 i < N"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "lcci/02.03.Delete Middle Node/Solution.cpp",
+    "fileSHA": "cfc84af6b77ac3ce28e40a92e53dcc53586eb411",
+    "url": "https://github.com/doocs/leetcode/blob/main/lcci/02.03.Delete Middle Node/Solution.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/lcci/02.03.Delete Middle Node/Solution.cpp"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e6f03f4ff2974ef93380c583f7385e0781a7f8f358b7148d10a410f4fd60e11e",
+    "normalizedCodeHash": "e6f03f4ff2974ef93380c583f7385e0781a7f8f358b7148d10a410f4fd60e11e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:14.581649+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

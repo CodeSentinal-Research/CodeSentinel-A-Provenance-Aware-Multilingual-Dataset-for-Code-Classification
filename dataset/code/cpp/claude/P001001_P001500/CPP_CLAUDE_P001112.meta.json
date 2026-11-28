@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_CLAUDE_P001112",
+  "problemId": "P001112",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001112",
+    "title": "Word Ladder Length",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a start word, an end word, and a dictionary of valid words, determine the minimum number of single-character transformations needed to convert the start word into the end word.",
+    "input": "• First line contains integer N. • Next N lines contain dictionary words. • Last line contains the start and target words.",
+    "output": "Print the minimum transformation length. Print 0 if impossible.",
+    "constraints": "• 1 ≤ N ≤ 5000 • Word length ≤ 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P001112",
+    "fileSHA": "ded9a13577a1cc8623b9fe2b2bf7e3f7b3dd2efca399acc295e42a7aefd39eb9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "db4af44463e67ac76c95929316ab046793487f7def7a6b638117e04196affd14",
+    "normalizedCodeHash": "ded9a13577a1cc8623b9fe2b2bf7e3f7b3dd2efca399acc295e42a7aefd39eb9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

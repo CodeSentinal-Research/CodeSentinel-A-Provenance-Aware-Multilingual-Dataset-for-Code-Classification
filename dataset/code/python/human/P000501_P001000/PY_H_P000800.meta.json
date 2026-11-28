@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P000800",
+  "problemId": "P000800",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000800",
+    "title": "Range Sum Query 2D - Immutable",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N \u00d7 M matrix and multiple queries, return the sum of all elements inside the rectangle defined by: Top-left corner (r1, c1) Bottom-right corner (r2, c2) Preprocess the matrix using a 2D prefix sum.",
+    "input": "Integer N Integer M Matrix grid Integer Q Q rectangle queries",
+    "output": "For each query, print the rectangle sum.",
+    "constraints": "1 <= N, M <= 1000 1 <= Q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "jz33/LeetCodeSolutions",
+    "owner": "jz33",
+    "url": "https://github.com/jz33/LeetCodeSolutions",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000800.py",
+    "fileSHA": "6f96c80208f26eb38b7a190051a57afa5ddcecdd",
+    "url": "https://github.com/jz33/LeetCodeSolutions/blob/86c869ff3bc611042c79007bfbaa9163f335fecf/304 Range Sum Query 2D - Immutable.py",
+    "rawUrl": "https://raw.githubusercontent.com/jz33/LeetCodeSolutions/main/304 Range Sum Query 2D - Immutable.py"
+  },
+  "matching": {
+    "relevanceScore": 76.99
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2015-11-17T20:04:36Z",
+    "lastCommitDate": "2020-01-22T17:16:35Z",
+    "commitCount": 2,
+    "authorCount": 1,
+    "authors": [
+      "Jun"
+    ],
+    "firstKnownAuthor": "Jun",
+    "latestKnownAuthor": "Jun"
+  },
+  "deduplication": {
+    "rawCodeHash": "897ade36b6b1bd4d273cec4461c2e40ca52b73e2ed6d44dbd1d473a7ae6a675d",
+    "normalizedCodeHash": "897ade36b6b1bd4d273cec4461c2e40ca52b73e2ed6d44dbd1d473a7ae6a675d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T05:00:31.377839+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

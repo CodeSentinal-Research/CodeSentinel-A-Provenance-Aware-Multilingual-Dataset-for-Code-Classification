@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001282",
+  "problemId": "P001282",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001282",
+    "title": "Create Maximum Number",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given two arrays of digits and an integer K, create the largest possible number of length K by selecting digits from both arrays while preserving the relative order within each array.",
+    "input": "\u2022 First line contains integers N, M, and K. \u2022 Second line contains N digits. \u2022 Third line contains M digits.",
+    "output": "Print the maximum possible number.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 500 \u2022 1 \u2264 K \u2264 N + M"
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/cpp/createMaximumNumber/CreateMaximumNumber.cpp",
+    "fileSHA": "dc88f9a41be2e1e627e8a0e6f46babb6021bcd10",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/cpp/createMaximumNumber/CreateMaximumNumber.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/cpp/createMaximumNumber/CreateMaximumNumber.cpp"
+  },
+  "matching": {
+    "relevanceScore": 81.07
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4ce846dd630b25ad52c64ef044242496632f27f7cda4b7c54409f290367c89d0",
+    "normalizedCodeHash": "4ce846dd630b25ad52c64ef044242496632f27f7cda4b7c54409f290367c89d0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (C++ Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:12.890361+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

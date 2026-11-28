@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001099",
+  "problemId": "P001099",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001099",
+    "title": "Detect Cycle Using Union-Find",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given an undirected graph, determine whether it contains a cycle using the Disjoint Set Union (Union-Find) algorithm.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print YES if the graph contains a cycle; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "mhr-noyon/Problem-Solving",
+    "owner": "mhr-noyon",
+    "url": "https://github.com/mhr-noyon/Problem-Solving",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "detectCycleUsingKruskal.java",
+    "fileSHA": "fb63b79bd57a782ce51ba57aad838d129e875f70",
+    "url": "https://github.com/mhr-noyon/Problem-Solving/blob/e9f999cc94ae05ef882369492ed3d45cd72153b1/detectCycleUsingKruskal.java",
+    "rawUrl": "https://raw.githubusercontent.com/mhr-noyon/Problem-Solving/main/detectCycleUsingKruskal.java"
+  },
+  "matching": {
+    "relevanceScore": 78.64
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5a30a27201b8260c8889b0e604c0b0f9e624444742df94a4f5101d1320c5cde2",
+    "normalizedCodeHash": "5a30a27201b8260c8889b0e604c0b0f9e624444742df94a4f5101d1320c5cde2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:33:28.741015+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

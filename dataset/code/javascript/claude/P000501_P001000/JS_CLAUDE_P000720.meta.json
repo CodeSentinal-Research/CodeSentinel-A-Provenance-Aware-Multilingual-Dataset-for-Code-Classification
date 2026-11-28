@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000720",
+  "problemId": "P000720",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000720",
+    "title": "Expression Add Operators",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string containing only digits and an integer target, insert the operators +, -, and * between the digits so that the resulting expression evaluates to the target. Return all valid expressions.",
+    "input": "String num Integer target",
+    "output": "All valid expressions in lexicographical order.",
+    "constraints": "1 <= |num| <= 10 -2^31 <= target <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000720",
+    "fileSHA": "e1f9733bd244ca922b01ccce384ae54f03dca145edc0659d015d2451c82e5afc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e1f9733bd244ca922b01ccce384ae54f03dca145edc0659d015d2451c82e5afc",
+    "normalizedCodeHash": "e1f9733bd244ca922b01ccce384ae54f03dca145edc0659d015d2451c82e5afc",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000720"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

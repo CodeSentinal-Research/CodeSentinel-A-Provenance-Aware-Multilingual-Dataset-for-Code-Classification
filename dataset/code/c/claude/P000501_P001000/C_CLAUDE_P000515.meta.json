@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000515",
+  "problemId": "P000515",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000515",
+    "title": "Car Fleet II",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "There are n cars traveling in the same direction on a one-lane road. Each car has an initial position and speed. Whenever a faster car catches up to a slower car ahead, they collide and continue moving together at the slower speed. For every car, determine the time at which it collides with the next car ahead. If it never collides, return -1.",
+    "input": "Integer n n pairs representing (position, speed).",
+    "output": "An array of floating-point numbers where the i-th value is the collision time of the i-th car.",
+    "constraints": "1 <= n <= 10^5 Positions are strictly increasing. 1 <= speed <= 10^6"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000515",
+    "fileSHA": "385387a5e60cf4e69522ad1c88b90214df0cdd1419b91891ed800609d3352fdc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "385387a5e60cf4e69522ad1c88b90214df0cdd1419b91891ed800609d3352fdc",
+    "normalizedCodeHash": "385387a5e60cf4e69522ad1c88b90214df0cdd1419b91891ed800609d3352fdc",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000515: Car Fleet II"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

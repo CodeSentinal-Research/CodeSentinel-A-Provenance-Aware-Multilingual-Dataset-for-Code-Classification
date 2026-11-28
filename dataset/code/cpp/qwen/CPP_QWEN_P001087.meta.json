@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001087",
+  "problemId": "P001087",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001087",
+    "title": "Check if an Undirected Graph is a Tree",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given an undirected graph with N vertices and M edges, determine whether the graph forms a tree. A graph is a tree if it is connected and contains exactly N\u22121 edges.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain two integers u and v.",
+    "output": "Print YES if the graph is a tree; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001087",
+    "fileSHA": "1b5e31e918da0ea8f076be9e04a7941e4c264342a403a8871184a3624767a77f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.600Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "b672db91de3c419aa9fcb7b6e9a71ba64a48679a4d65da18ae85d2b4664e21fb",
+    "normalizedCodeHash": "8cabb51eb04600b93407bf3bed80f697c6b1cc4b72b8bb93346620086e2286d5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.600Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

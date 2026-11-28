@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001365",
+  "problemId": "P001365",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001365",
+    "title": "Gold Mine Path",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a grid where each cell contains a certain amount of gold or is blocked, find the maximum amount of gold that can be collected by starting from any gold cell. You may move up, down, left, or right, and each cell can be visited at most once.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines each contain C integers.",
+    "output": "Print the maximum gold collectible.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 15"
+  },
+  "repository": {
+    "name": "chentong2015/AlgorithmDataStructures",
+    "owner": "chentong2015",
+    "url": "https://github.com/chentong2015/AlgorithmDataStructures",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "effective-algorithms/src/main/java/master/backtracking/questions/PathWithMaxGold.java",
+    "fileSHA": "5be4bf0b5718da226c8a50eb290c83009ee7196d",
+    "url": "https://github.com/chentong2015/AlgorithmDataStructures/blob/ec5f10404f065896ba5434a1be38760fd420147b/effective-algorithms/src/main/java/master/backtracking/questions/PathWithMaxGold.java",
+    "rawUrl": "https://raw.githubusercontent.com/chentong2015/AlgorithmDataStructures/main/effective-algorithms/src/main/java/master/backtracking/questions/PathWithMaxGold.java"
+  },
+  "matching": {
+    "relevanceScore": 86.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "129f0bc72b32811b374854da09f0d8864e3fd3a84e7b9f071edb9cb88254c45f",
+    "normalizedCodeHash": "129f0bc72b32811b374854da09f0d8864e3fd3a84e7b9f071edb9cb88254c45f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T01:04:46.823118+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

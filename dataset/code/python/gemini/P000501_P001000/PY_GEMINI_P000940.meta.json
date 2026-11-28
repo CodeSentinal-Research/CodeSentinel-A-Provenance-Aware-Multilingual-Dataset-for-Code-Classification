@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000940",
+  "problemId": "P000940",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000940",
+    "title": "Mis\u00e8re Nim",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Medium",
+    "problemStatement": "Given multiple piles of stones, players take turns removing any positive number of stones from a single pile. The player who removes the last stone loses. Determine the winner assuming optimal play.",
+    "input": "Integer N Array piles",
+    "output": "Print \"First\" or \"Second\".",
+    "constraints": "1 <= N <= 2 \u00d7 10^5 1 <= piles[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P000940",
+    "fileSHA": "e863268ca5fd8fe09c1dbdf81beac26c5f0bd0e3c08623d05dd1d6604138dbce",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:33:18.283377+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e863268ca5fd8fe09c1dbdf81beac26c5f0bd0e3c08623d05dd1d6604138dbce",
+    "normalizedCodeHash": "e863268ca5fd8fe09c1dbdf81beac26c5f0bd0e3c08623d05dd1d6604138dbce",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:33:18.283401+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

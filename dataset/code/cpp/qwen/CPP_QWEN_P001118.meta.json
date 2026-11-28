@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001118",
+  "problemId": "P001118",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001118",
+    "title": "Alien Dictionary",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a sorted dictionary of words from an unknown language, determine one valid ordering of the characters in that language.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain the words.",
+    "output": "Print one valid ordering of the characters. If no ordering exists, print IMPOSSIBLE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 Total characters \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001118",
+    "fileSHA": "fd951790ff345fd22f4f09cf7203efccd88640781246f612fd43a9e94e125f8e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.832Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "6f7336d23ac78261b423baa931adfadf42885db5bbec70d5abcad8083712ee89",
+    "normalizedCodeHash": "57d5dab2af4c51e030e55286622489b6376f311304d56060406c71efd203a444",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.832Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

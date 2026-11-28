@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000813",
+  "problemId": "P000813",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000813",
+    "title": "Integer Square Root",
+    "category": "Binary Search",
+    "difficulty": "Easy",
+    "problemStatement": "Given a non-negative integer x, return the integer part of its square root. The returned value should be the largest integer whose square is less than or equal to x.",
+    "input": "Integer x",
+    "output": "The integer square root.",
+    "constraints": "0 <= x <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000813.c",
+    "fileSHA": "faf70829c6a7f835a69b5d4696d390080c0e43999a080d3b9af40cb334b7ab89",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "faf70829c6a7f835a69b5d4696d390080c0e43999a080d3b9af40cb334b7ab89",
+    "normalizedCodeHash": "faf70829c6a7f835a69b5d4696d390080c0e43999a080d3b9af40cb334b7ab89",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,1 @@
+const w=require('fs').readFileSync('/dev/stdin','utf8').trim();const ok=w===w.toUpperCase()||w===w.toLowerCase()||(w[0]===w[0].toUpperCase()&&w.slice(1)===w.slice(1).toLowerCase());console.log(ok?'Yes':'No');

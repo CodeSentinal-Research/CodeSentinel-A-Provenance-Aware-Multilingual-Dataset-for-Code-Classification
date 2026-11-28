@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000607",
+  "problemId": "P000607",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000607",
+    "title": "LFU Cache",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design and implement an LFU (Least Frequently Used) cache. The cache supports: get(key) put(key, value) If the cache is full, remove the key with the lowest access frequency. If multiple keys have the same frequency, remove the least recently used among them. Both operations should run in O(1) average time.",
+    "input": "Integer capacity Integer q Next q operations",
+    "output": "Print the result of every get() operation.",
+    "constraints": "0 <= capacity <= 10^4 1 <= q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/JavaScript",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/JavaScript",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Cache/LFUCache.js",
+    "fileSHA": "d8774fb506fe74f07bf368e375b48d2e9a4716d4",
+    "url": "https://github.com/TheAlgorithms/JavaScript/blob/master/Cache/LFUCache.js",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/JavaScript/master/Cache/LFUCache.js"
+  },
+  "matching": {
+    "relevanceScore": 68.91
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0de778bbe94b08d6f91af720748ed2b381253ed1a6d54e94b2460645fdb07b54",
+    "normalizedCodeHash": "0de778bbe94b08d6f91af720748ed2b381253ed1a6d54e94b2460645fdb07b54",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:11:02.558768+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

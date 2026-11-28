@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001648",
+  "problemId": "P001648",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001648",
+    "title": "Serialize and Deserialize a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Design algorithms to serialize a binary tree into a sequence of values and reconstruct the original binary tree from the serialized representation. The reconstructed tree must be identical to the original tree.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the serialized representation followed by the reconstructed tree in the required traversal format.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001648.c",
+    "fileSHA": "ac687327c529b7e0a3a3576c9baeb857ceebf1b914c393dca46795cc4709a99c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.099Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "d41790e18fcda9f2951186841946b0a493a0a5b71ccd46741193d350532181f3",
+    "normalizedCodeHash": "ac687327c529b7e0a3a3576c9baeb857ceebf1b914c393dca46795cc4709a99c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.099Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

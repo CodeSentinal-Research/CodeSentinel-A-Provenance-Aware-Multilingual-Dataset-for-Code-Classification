@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000450",
+  "problemId": "P000450",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000450",
+    "title": "Find Kth Missing Positive Number",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that finds the kth missing positive integer from a sorted array of unique positives.",
+    "input": "First line contains N and K. Second line contains N sorted unique positives.",
+    "output": "The kth missing positive number.",
+    "constraints": "1 \u2264 N \u2264 1000, 1 \u2264 K \u2264 1000"
+  },
+  "repository": {
+    "name": "moulyajs/DSA",
+    "owner": "moulyajs",
+    "url": "https://github.com/moulyajs/DSA",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "binary_search/missing_pos_num.c",
+    "fileSHA": "ceebaecd149e951600632b4d21d6973f685a319e",
+    "url": "https://github.com/moulyajs/DSA/blob/6a62724000ad5e3f84bf85baf57f80ea99bed287/binary_search/missing_pos_num.c",
+    "rawUrl": "https://raw.githubusercontent.com/moulyajs/DSA/main/binary_search/missing_pos_num.c"
+  },
+  "matching": {
+    "relevanceScore": 67.38
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "985e644cc355bcdc446b661dd9c9b26f3c5ba19cd81a9ecd821449bc68445da6",
+    "normalizedCodeHash": "985e644cc355bcdc446b661dd9c9b26f3c5ba19cd81a9ecd821449bc68445da6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:41:19.095828+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

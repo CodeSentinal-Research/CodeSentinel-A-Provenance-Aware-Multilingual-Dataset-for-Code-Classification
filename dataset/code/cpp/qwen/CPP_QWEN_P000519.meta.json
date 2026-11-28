@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000519",
+  "problemId": "P000519",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000519",
+    "title": "Queue Using Stacks",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "Design a queue using only two stacks. The queue must support the following operations: push(x) \u2014 Insert an element at the back. pop() \u2014 Remove and return the front element. peek() \u2014 Return the front element without removing it. empty() \u2014 Return whether the queue is empty. Process a sequence of operations and print the result of every pop(), peek(), and empty() operation.",
+    "input": "Integer q Next q lines each contain one operation.",
+    "output": "Print the output for every pop(), peek(), and empty() operation.",
+    "constraints": "1 <= q <= 10^5 All operations are valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000519",
+    "fileSHA": "8166086798e88cdc667d86dd2e93ef14917b8eea398f534c2119a7a5e6b3d05d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.433Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "74e8dd5867959b12fd3faba25d936e612f3631d5dbf42e718a3031d10f67fd85",
+    "normalizedCodeHash": "da07342a6aeacc166835844d1b7bcb7cd7a521ebfb0c90aa2fdd143328fd1444",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.433Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

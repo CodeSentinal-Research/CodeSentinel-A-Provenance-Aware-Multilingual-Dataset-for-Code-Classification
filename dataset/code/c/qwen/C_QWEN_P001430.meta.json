@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_QWEN_P001430",
+  "problemId": "P001430",
+  "language": "c",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001430",
+    "title": "Find the Prefix Common Array of Two Arrays",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given two permutations of the integers from 1 to N, compute an array where the i-th element represents the number of common elements in the prefixes ending at index i.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains the first permutation. \u2022 Third line contains the second permutation.",
+    "output": "Print the prefix common array.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/C_QWEN_P001430",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

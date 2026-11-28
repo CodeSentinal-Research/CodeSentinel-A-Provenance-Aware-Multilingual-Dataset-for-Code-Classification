@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        long a = 0, b = 1;
+        if(n == 0) { System.out.println(0); return; }
+        if(n == 1) { System.out.println(1); return; }
+        for(int i=2; i<=n; i++) {
+            long t = a + b;
+            a = b;
+            b = t;
+        }
+        System.out.println(b);
+    }
+}

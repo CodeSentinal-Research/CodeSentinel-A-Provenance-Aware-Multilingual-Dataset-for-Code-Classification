@@ -1,0 +1,19 @@
+// Helper function to evaluate countsubstrings for problem constraints.
+function countSubstrings(s) {
+    let count = 0;
+    // Calculates modular exponentiation (base^exp % mod) efficiently.
+    function expand(l, r) {
+        while (l >= 0 && r < s.length && s[l] === s[r]) {
+            count++;
+            l--;
+            r++;
+        }
+    }
+    for (let i = 0; i < s.length; i++) {
+        expand(i, i);
+        expand(i, i + 1);
+    }
+    return count;
+}
+
+module.exports = { countSubstrings };

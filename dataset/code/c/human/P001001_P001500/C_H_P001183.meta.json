@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001183",
+  "problemId": "P001183",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001183",
+    "title": "Frog Jump",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "A frog stands on the first stone and wants to reach the last stone. Each stone has a height. The frog may jump to the next stone or skip one stone. The energy cost of a jump is the absolute difference between the heights of the two stones. Determine the minimum total energy required.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing stone heights.",
+    "output": "Print the minimum total energy.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "ghostmkg/dsa-code",
+    "owner": "ghostmkg",
+    "url": "https://github.com/ghostmkg/dsa-code",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "C/FrogJump.c",
+    "fileSHA": "82f3fac78b9447644e587d8b620a4b63d9c269f9",
+    "url": "https://github.com/ghostmkg/dsa-code/blob/6e6f6da6ba53eb1e59116394051c8d4f0ed47ef0/C/FrogJump.c",
+    "rawUrl": "https://raw.githubusercontent.com/ghostmkg/dsa-code/main/C/FrogJump.c"
+  },
+  "matching": {
+    "relevanceScore": 78.33
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "304bcc3bf3718b40cb1e6768029bba33f611c5ad8a57731f3af1acf77057fd11",
+    "normalizedCodeHash": "304bcc3bf3718b40cb1e6768029bba33f611c5ad8a57731f3af1acf77057fd11",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:40:47.676801+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

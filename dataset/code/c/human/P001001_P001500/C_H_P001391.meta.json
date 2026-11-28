@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001391",
+  "problemId": "P001391",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001391",
+    "title": "Subarray Sum Equals K",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer K, determine the number of contiguous subarrays whose sum equals K.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the number of subarrays having sum equal to K.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "ypradera/ALGO",
+    "owner": "ypradera",
+    "url": "https://github.com/ypradera/ALGO",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "PATTERNS/prefix_sum.c",
+    "fileSHA": "7e77851b57f84b8c3d0fa9834e02594e2ad32131",
+    "url": "https://github.com/ypradera/ALGO/blob/cfc97212f7bb86324b7f5fbf6585a6b62a968b1e/PATTERNS/prefix_sum.c",
+    "rawUrl": "https://raw.githubusercontent.com/ypradera/ALGO/main/PATTERNS/prefix_sum.c"
+  },
+  "matching": {
+    "relevanceScore": 75.0
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a38449d1da1440e273ccc916cdb2b04b4aa017e569fd95fe4ac0a1d564d698fb",
+    "normalizedCodeHash": "a38449d1da1440e273ccc916cdb2b04b4aa017e569fd95fe4ac0a1d564d698fb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:42:38.902185+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

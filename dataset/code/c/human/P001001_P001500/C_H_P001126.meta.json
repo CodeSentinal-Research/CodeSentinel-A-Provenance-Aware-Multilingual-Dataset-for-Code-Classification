@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001126",
+  "problemId": "P001126",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001126",
+    "title": "Path With Minimum Effort",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a grid of heights, determine a path from the top-left cell to the bottom-right cell such that the maximum absolute difference between adjacent cells along the path is minimized.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines each contain C integers representing cell heights.",
+    "output": "Print the minimum effort required.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 1000"
+  },
+  "repository": {
+    "name": "lrmsspace/Knowledge-Augmented-Codegen",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "evaluation/S1/c/Medium/1314-path-with-minimum-effort.c",
+    "fileSHA": "6e64947620f69e03397662091c8f4eb20084abae",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen/blob/aa02d0f7c87de0b9a725c85dfb03746289785175/evaluation/S1/c/Medium/1314-path-with-minimum-effort.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/Knowledge-Augmented-Codegen/main/evaluation/S1/c/Medium/1314-path-with-minimum-effort.c"
+  },
+  "matching": {
+    "relevanceScore": 93.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0c188b7cf382d9f2ff5d59f8f8a2b11639095ac87b9cfabd1b84f54199ef20d4",
+    "normalizedCodeHash": "0c188b7cf382d9f2ff5d59f8f8a2b11639095ac87b9cfabd1b84f54199ef20d4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:29:21.658665+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

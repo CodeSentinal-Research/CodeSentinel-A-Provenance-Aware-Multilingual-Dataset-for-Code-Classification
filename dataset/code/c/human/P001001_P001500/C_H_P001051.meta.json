@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001051",
+  "problemId": "P001051",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001051",
+    "title": "Heap Validation After Updates",
+    "category": "Heap",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary heap and a sequence of update operations, determine whether the final array still satisfies the required heap property.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Second line contains N integers. \u2022 Next Q lines describe update operations.",
+    "output": "Print VALID or INVALID.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 10^5"
+  },
+  "repository": {
+    "name": "anamendes23/5300-Fossa",
+    "owner": "anamendes23",
+    "url": "https://github.com/anamendes23/5300-Fossa",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "heap_storage.h",
+    "fileSHA": "5811ba06939b9ce9512b139f4c4fdb2af749a8a2",
+    "url": "https://github.com/anamendes23/5300-Fossa/blob/f419273ec536a0307a51374687427d218c488042/heap_storage.h",
+    "rawUrl": "https://raw.githubusercontent.com/anamendes23/5300-Fossa/main/heap_storage.h"
+  },
+  "matching": {
+    "relevanceScore": 65.48
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6636430a401b407cddb57bb7ed7cd882168e9e21635e1bae7be3f87fe64db76e",
+    "normalizedCodeHash": "6636430a401b407cddb57bb7ed7cd882168e9e21635e1bae7be3f87fe64db76e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:02:43.338733+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

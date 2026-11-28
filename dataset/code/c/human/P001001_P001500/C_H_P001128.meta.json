@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001128",
+  "problemId": "P001128",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001128",
+    "title": "Accounts Merge",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given multiple user accounts where each account contains a user's name followed by email addresses, merge all accounts belonging to the same person. Two accounts belong to the same person if they share at least one common email address.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain an account with a name followed by email addresses.",
+    "output": "Print the merged accounts sorted lexicographically by email.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^4 \u2022 Total emails \u2264 10^5"
+  },
+  "repository": {
+    "name": "skyelves/LeetCode",
+    "owner": "skyelves",
+    "url": "https://github.com/skyelves/LeetCode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "721_AccountsMerge.h",
+    "fileSHA": "ab644d95bfd8cf24d5792ca6750db6304595ac5a",
+    "url": "https://github.com/skyelves/LeetCode/blob/2156334ca85bce53de136b08e930c76d23e0d425/721_AccountsMerge.h",
+    "rawUrl": "https://raw.githubusercontent.com/skyelves/LeetCode/main/721_AccountsMerge.h"
+  },
+  "matching": {
+    "relevanceScore": 73.33
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7c23a6603b2cc0d7b6a402520fefb3a7a916e7766253272c8da84187c950482b",
+    "normalizedCodeHash": "7c23a6603b2cc0d7b6a402520fefb3a7a916e7766253272c8da84187c950482b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:39:01.315182+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

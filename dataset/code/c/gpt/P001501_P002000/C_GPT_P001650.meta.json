@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001650",
+  "problemId": "P001650",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001650",
+    "title": "Construct a Binary Tree from Inorder and Postorder Traversals",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the inorder traversal and postorder traversal of a binary tree containing unique values, reconstruct the original binary tree.",
+    "input": "• The first line contains an integer N. • The second line contains the inorder traversal. • The third line contains the postorder traversal.",
+    "output": "• Print the reconstructed tree in the required traversal format.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5 • All node values are unique.________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001650.c",
+    "fileSHA": "b284e0b2f42d8cdad16cbfa11d43ca9d2a8c4fb60f09560a9cc3b47fd0fadf66",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.107Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "8540991d2dc98cbcac9db115e71d969361c0901a5b806f10dc3b9820f8e8373b",
+    "normalizedCodeHash": "b284e0b2f42d8cdad16cbfa11d43ca9d2a8c4fb60f09560a9cc3b47fd0fadf66",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.107Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

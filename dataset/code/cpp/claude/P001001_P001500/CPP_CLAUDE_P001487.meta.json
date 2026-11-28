@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_CLAUDE_P001487",
+  "problemId": "P001487",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001487",
+    "title": "Camelcase Matching",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a pattern and a list of query strings, determine for each query whether it matches the pattern under camel-case matching rules.",
+    "input": "• First line contains integer N. • Next N lines contain query strings. • Last line contains the pattern.",
+    "output": "Print YES or NO for each query.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • Query length ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P001487",
+    "fileSHA": "53b6c70ed5d2bd7e29e32a6b11692a0dbe5ad75b61ea8f71b195c312e657ca81",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8f14b0eda405380379bf3ecda5be0bddae380165779adf17de8df808b09cbb94",
+    "normalizedCodeHash": "53b6c70ed5d2bd7e29e32a6b11692a0dbe5ad75b61ea8f71b195c312e657ca81",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

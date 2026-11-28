@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000561",
+  "problemId": "P000561",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000561",
+    "title": "First Non-Repeating Character in a Stream",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a stream of lowercase English letters arriving one by one. After processing each character, output the first character that has appeared exactly once so far. If no such character exists, output '#'.",
+    "input": "A string representing the stream.",
+    "output": "A string where the i-th character represents the first non-repeating character after processing the first i input characters.",
+    "constraints": "1 <= s.length <= 10^5 s contains only lowercase English letters."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000561.py",
+    "fileSHA": "a9f29c843773bdf15cb32ccde54e0e7d0767059446959e685e6adad623b07e59",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.245056+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a9f29c843773bdf15cb32ccde54e0e7d0767059446959e685e6adad623b07e59",
+    "normalizedCodeHash": "d7316193f2331f1e648e164c1feca8ffdbd69409b6966b908310dda67ab6d905",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.245056+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

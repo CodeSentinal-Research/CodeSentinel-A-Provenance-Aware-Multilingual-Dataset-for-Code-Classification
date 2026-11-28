@@ -1,0 +1,467 @@
+"""
+Product catalog + vendor request subsystem (PRD §6.2-§6.5).
+
+Business rules implemented here:
+  - A vendor creates a Product against the platform's fixed Category
+    taxonomy (mandatory — feeds storefront placement and the Shop filter)
+    with a mandatory brand name (also mandatory — feeds the Brand filter,
+    §6.4). New products start life as DRAFT, the vendor submits them for
+    review (PENDING), and an admin APPROVES (goes live, appears in New
+    Arrivals + its category) or REJECTS (returned with a reason).
+  - Every subsequent discount/deal/price change a vendor wants is *not*
+    applied directly to the Product — it's filed as a ProductChangeRequest
+    and only takes effect once an admin approves it (§6.3). This mirrors
+    the Product approval pattern rather than introducing a new one.
+  - Stock **decrements** automatically and atomically at order time
+    (apps.orders.serializers.OrderCreateSerializer — real Order backend,
+    Phase 6). Stock **increases** always go through a StockChangeRequest
+    an admin must approve first, so a vendor can't fake availability (§6.5).
+  - Selling price shown to customers is the vendor's base_price plus
+    platform commission. The commission rate is admin-editable per
+    category via CommissionRate (§6.6); a category with no override yet
+    falls back to PROVISIONAL_COMMISSION_RATE below.
+  - §7.2: a product at or below LOW_STOCK_THRESHOLD units is "low stock"
+    — the storefront shows scarcity messaging ("Only N left") instead of
+    a generic in-stock badge, and crossing the threshold triggers a
+    low-stock admin email (apps.orders.serializers, gated on
+    PlatformSettings.notify_low_stock — see §6.7).
+"""
+
+from datetime import timedelta
+from decimal import Decimal
+
+from django.conf import settings
+from django.db import models
+from django.utils import timezone
+from django.utils.text import slugify
+
+# Provisional flat platform commission until a category gets its own
+# CommissionRate row (§6.6) — see Product.commission_rate_percent.
+PROVISIONAL_COMMISSION_RATE = Decimal("0.10")
+
+# §7.2: at or below this many units, a product is "low stock" — drives
+# storefront scarcity messaging and the low-stock admin alert.
+LOW_STOCK_THRESHOLD = 5
+
+# Real-time trust signals (session: honest social proof, not fabricated
+# urgency): window for the "N sold this week" badge — see
+# Product.recent_sales_count.
+RECENT_SALES_WINDOW_DAYS = 7
+
+# Bundles (session, idea #2): how many "frequently bought together"
+# products to surface on the product detail page — see
+# Product.frequently_bought_together.
+FREQUENTLY_BOUGHT_TOGETHER_LIMIT = 3
+
+
+class Category(models.Model):
+    """
+    Fixed platform taxonomy a vendor must choose from (§6.2) — not
+    vendor-creatable. Admin-managed (see ReadOnlyOrIsAdmin in views.py);
+    public read access powers the Shop page category filter.
+    """
+
+    name = models.CharField(max_length=100, unique=True)
+    slug = models.SlugField(max_length=120, unique=True, blank=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        verbose_name_plural = "categories"
+        ordering = ["name"]
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = slugify(self.name)
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return self.name
+
+
+class CommissionRate(models.Model):
+    """
+    §6.6: admin-editable per-category commission, replacing the flat
+    PROVISIONAL_COMMISSION_RATE. A category with no CommissionRate row
+    yet falls back to that provisional rate (see
+    Product.commission_rate_percent) — so nothing breaks for a category
+    the admin hasn't explicitly configured.
+    """
+
+    category = models.OneToOneField(Category, on_delete=models.CASCADE, related_name="commission_rate")
+    rate_percent = models.DecimalField(max_digits=5, decimal_places=2, help_text="e.g. 10.00 for 10%.")
+    updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f"{self.category.name}: {self.rate_percent}%"
+
+
+class Product(models.Model):
+    class Status(models.TextChoices):
+        DRAFT = "draft", "Draft"
+        PENDING = "pending", "Pending Review"
+        APPROVED = "approved", "Approved"
+        REJECTED = "rejected", "Rejected"
+
+    vendor = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name="products")
+    # Nullable: a vendor whose product doesn't fit any fixed category (§6.2)
+    # picks "Other" instead and leaves category unset — see
+    # requested_category_name below. An admin must resolve this (assign an
+    # existing category, or create a new one with its own commission rate)
+    # before the product can be approved; see AdminProductViewSet.approve().
+    category = models.ForeignKey(Category, on_delete=models.PROTECT, related_name="products", null=True, blank=True)
+    requested_category_name = models.CharField(
+        max_length=100, blank=True, default="",
+        help_text="Vendor's suggested category name, only set when category is null (vendor chose 'Other'). Cleared once an admin resolves it.",
+    )
+
+    name = models.CharField(max_length=200)
+    slug = models.SlugField(max_length=220, unique=True, blank=True)
+    sku = models.CharField(max_length=50, blank=True, help_text="Vendor's own inventory reference code (optional).")
+    description = models.TextField()
+    brand = models.CharField(max_length=100, help_text="Feeds the Shop page Brand filter (§6.4).")
+
+    base_price = models.DecimalField(max_digits=10, decimal_places=2, help_text="Vendor's own price, before platform commission.")
+    stock_quantity = models.PositiveIntegerField(default=0)
+
+    # Lets a vendor pause an already-approved listing (hide it from the
+    # storefront) without losing its approval — re-enabling doesn't need
+    # another admin review, unlike status changes.
+    is_active = models.BooleanField(default=True)
+
+    # Free-form specs (size, color, model, etc.) — shape varies by category
+    # so a fixed schema would fight the "any product type" requirement.
+    attributes = models.JSONField(default=dict, blank=True)
+
+    status = models.CharField(max_length=20, choices=Status.choices, default=Status.DRAFT)
+    admin_notes = models.TextField(blank=True, help_text="Rejection reason or review notes, shown to the vendor.")
+
+    # Populated only once an admin *approves* a ProductChangeRequest
+    # (§6.3) — these never change from a vendor action directly.
+    active_discount_percent = models.DecimalField(max_digits=5, decimal_places=2, null=True, blank=True)
+    deal_starts_at = models.DateTimeField(null=True, blank=True)
+    deal_ends_at = models.DateTimeField(null=True, blank=True)
+    bogo_eligible = models.BooleanField(default=False)
+    gift_card_eligible = models.BooleanField(default=False)
+
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+    submitted_at = models.DateTimeField(null=True, blank=True)
+    decided_at = models.DateTimeField(null=True, blank=True)
+
+    class Meta:
+        ordering = ["-created_at"]
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            base_slug = slugify(self.name)[:200]
+            slug = base_slug
+            n = 1
+            while Product.objects.filter(slug=slug).exclude(pk=self.pk).exists():
+                n += 1
+                slug = f"{base_slug}-{n}"
+            self.slug = slug
+
+        # §7.1: broadcast to any connected client whenever stock actually
+        # changes — catches every path (order decrement, restock approval,
+        # admin edit) from one place instead of repeating this at each call site.
+        old_stock = None
+        if self.pk:
+            old_stock = Product.objects.filter(pk=self.pk).values_list("stock_quantity", flat=True).first()
+
+        super().save(*args, **kwargs)
+
+        if old_stock is not None and old_stock != self.stock_quantity:
+            from .realtime import broadcast_stock_update
+
+            broadcast_stock_update(self)
+
+    def __str__(self):
+        return f"{self.name} ({self.vendor})"
+
+    @property
+    def has_category_mismatch(self):
+        """True while a vendor's 'Other' category request (§6.2) is still awaiting admin resolution."""
+        return self.category_id is None and bool(self.requested_category_name)
+
+    @property
+    def commission_rate_percent(self):
+        """§6.6: this category's admin-set rate, or the provisional flat rate if none has been set yet."""
+        if self.category_id is None:
+            return PROVISIONAL_COMMISSION_RATE * Decimal("100")
+        try:
+            return self.category.commission_rate.rate_percent
+        except CommissionRate.DoesNotExist:
+            return PROVISIONAL_COMMISSION_RATE * Decimal("100")
+
+    @property
+    def selling_price(self):
+        """Vendor base price + this category's platform commission rate (§6.6)."""
+        rate = self.commission_rate_percent / Decimal("100")
+        return (self.base_price * (Decimal("1.00") + rate)).quantize(Decimal("0.01"))
+
+    @property
+    def is_deal_active(self):
+        if self.active_discount_percent is None:
+            return False
+        if self.deal_starts_at and self.deal_ends_at:
+            now = timezone.now()
+            return self.deal_starts_at <= now <= self.deal_ends_at
+        return True  # a permanent (non-time-boxed) discount
+
+    @property
+    def is_low_stock(self):
+        """§7.2: in stock but scarce enough to warrant scarcity messaging — not the same as out of stock."""
+        return 0 < self.stock_quantity <= LOW_STOCK_THRESHOLD
+
+    @property
+    def average_rating(self):
+        """§7.3: real customer rating — average quality_rating from Feedback on orders that included this product. None until the first review."""
+        from django.db.models import Avg
+
+        from apps.feedback.models import Feedback
+
+        result = Feedback.objects.filter(order__items__product=self).aggregate(avg=Avg("quality_rating"))["avg"]
+        return round(result, 1) if result is not None else None
+
+    @property
+    def rating_count(self):
+        from apps.feedback.models import Feedback
+
+        return Feedback.objects.filter(order__items__product=self).count()
+
+    @property
+    def discounted_price(self):
+        """selling_price after active_discount_percent, only while the deal window (if any) is active."""
+        if not self.is_deal_active:
+            return self.selling_price
+        discount_multiplier = Decimal("1.00") - (self.active_discount_percent / Decimal("100"))
+        return (self.selling_price * discount_multiplier).quantize(Decimal("0.01"))
+
+    @property
+    def recent_sales_count(self):
+        """
+        Real-time trust signals (session): units of THIS product sold in
+        the last RECENT_SALES_WINDOW_DAYS, for an honest "N sold this
+        week" badge on the product-detail page — same spirit as
+        User.vendor_stats.total_sales (apps/accounts/models.py), just
+        scoped to one product and one recent window instead of a
+        vendor's whole lifetime.
+
+        Excludes cancelled orders for the same reason vendor_stats does:
+        a cancelled order was never actually fulfilled, so it isn't a
+        real sale. Pending/processing/shipped orders ARE counted —
+        payment/stock already committed at order-creation time, so
+        "sold" is already true for them, same reasoning the stock
+        decrement itself uses.
+        """
+        from django.db.models import Sum
+
+        from apps.orders.models import Order, OrderItem
+
+        since = timezone.now() - timedelta(days=RECENT_SALES_WINDOW_DAYS)
+        total = (
+            OrderItem.objects.filter(product=self, order__created_at__gte=since)
+            .exclude(order__status=Order.Status.CANCELLED)
+            .aggregate(total=Sum("quantity"))["total"]
+        )
+        return total or 0
+
+    @property
+    def frequently_bought_together(self):
+        """
+        Bundles (session, idea #2): products actually co-purchased with
+        this one, scoped to the SAME vendor only — no cross-vendor
+        shipping/checkout complexity to solve for a v1. Built entirely
+        from real Order/OrderItem history, same honesty rule as
+        recent_sales_count above: if nobody has ever bought anything
+        else alongside this product, this returns an empty list rather
+        than backfilling with same-category filler that isn't actually
+        "frequently bought together".
+
+        Counts DISTINCT ORDERS a candidate co-appeared in with this
+        product (not raw OrderItem rows), so one customer buying the
+        same pair twice in one order doesn't outrank two different
+        customers who each bought the pair once. Cancelled orders are
+        excluded for the same reason they're excluded everywhere else
+        (vendor_stats, recent_sales_count) — never fulfilled, not a real
+        co-purchase. OrderItem.vendor (snapshotted at order time, see
+        apps/orders/models.py) is used for the vendor match rather than
+        candidate_item.product.vendor, so a candidate is scoped to who
+        actually sold it at the time of purchase, not whoever currently
+        owns that product listing.
+        """
+        from django.db.models import Count
+
+        from apps.orders.models import Order, OrderItem
+
+        order_ids = (
+            OrderItem.objects.filter(product=self)
+            .exclude(order__status=Order.Status.CANCELLED)
+            .values_list("order_id", flat=True)
+        )
+        ranked_candidate_ids = list(
+            OrderItem.objects.filter(order_id__in=order_ids, vendor_id=self.vendor_id, product__isnull=False)
+            .exclude(product_id=self.id)
+            .exclude(order__status=Order.Status.CANCELLED)
+            .values("product_id")
+            .annotate(co_purchase_count=Count("order_id", distinct=True))
+            .order_by("-co_purchase_count", "-product_id")
+            .values_list("product_id", flat=True)[:FREQUENTLY_BOUGHT_TOGETHER_LIMIT]
+        )
+        if not ranked_candidate_ids:
+            return []
+
+        # A candidate may have been deactivated/unapproved since those past
+        # orders were placed — only ever suggest something still actually
+        # buyable, and preserve the co-purchase-count ranking above rather
+        # than whatever order this second query happens to return in.
+        still_purchasable = Product.objects.in_bulk(
+            ranked_candidate_ids, field_name="id"
+        )
+        return [
+            still_purchasable[pid]
+            for pid in ranked_candidate_ids
+            if pid in still_purchasable
+            and still_purchasable[pid].is_active
+            and still_purchasable[pid].status == Product.Status.APPROVED
+        ]
+
+    def submit_for_review(self):
+        self.status = self.Status.PENDING
+        self.submitted_at = timezone.now()
+        self.save(update_fields=["status", "submitted_at"])
+
+
+class ProductImage(models.Model):
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name="images")
+    image = models.ImageField(upload_to="products/%Y/%m/")
+    position = models.PositiveSmallIntegerField(default=0)
+
+    class Meta:
+        ordering = ["position", "id"]
+
+    def __str__(self):
+        return f"Image #{self.position} for {self.product.name}"
+
+
+class ProductChangeRequest(models.Model):
+    """
+    §6.3: any discount %, deal type, or price change a vendor wants is
+    filed here and only reflects on the Product once an admin approves
+    it — the Product's own fields never change until then.
+    """
+
+    class ChangeType(models.TextChoices):
+        DISCOUNT = "discount", "Discount %"
+        PRICE_CHANGE = "price_change", "Price Change"
+        FLASH_DEAL = "flash_deal", "Flash Deal"
+        BOGO = "bogo", "Buy One Get One"
+        GIFT_CARD_ELIGIBLE = "gift_card_eligible", "Gift-Card Eligible"
+
+    class Status(models.TextChoices):
+        PENDING = "pending", "Pending Review"
+        APPROVED = "approved", "Approved"
+        REJECTED = "rejected", "Rejected"
+
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name="change_requests")
+    vendor = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name="product_change_requests")
+    change_type = models.CharField(max_length=30, choices=ChangeType.choices)
+
+    new_price = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True, help_text="Used for PRICE_CHANGE requests.")
+    discount_percent = models.DecimalField(max_digits=5, decimal_places=2, null=True, blank=True, help_text="Used for DISCOUNT/FLASH_DEAL requests.")
+    deal_starts_at = models.DateTimeField(null=True, blank=True)
+    deal_ends_at = models.DateTimeField(null=True, blank=True)
+    note = models.TextField(blank=True, help_text="Vendor's own note/context for the admin reviewing this.")
+
+    status = models.CharField(max_length=20, choices=Status.choices, default=Status.PENDING)
+    admin_notes = models.TextField(blank=True)
+
+    created_at = models.DateTimeField(auto_now_add=True)
+    decided_at = models.DateTimeField(null=True, blank=True)
+
+    class Meta:
+        ordering = ["-created_at"]
+
+    def __str__(self):
+        return f"{self.get_change_type_display()} request for {self.product.name}"
+
+
+class StockChangeRequest(models.Model):
+    """
+    §6.5: stock **increases** (restocks) always need admin approval, so a
+    vendor can't fake availability. Decrements happen automatically at
+    order time elsewhere and never go through this model.
+    """
+
+    class Status(models.TextChoices):
+        PENDING = "pending", "Pending Review"
+        APPROVED = "approved", "Approved"
+        REJECTED = "rejected", "Rejected"
+
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name="stock_requests")
+    vendor = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name="stock_change_requests")
+    requested_increase = models.PositiveIntegerField()
+    note = models.TextField(blank=True)
+
+    status = models.CharField(max_length=20, choices=Status.choices, default=Status.PENDING)
+    admin_notes = models.TextField(blank=True)
+
+    created_at = models.DateTimeField(auto_now_add=True)
+    decided_at = models.DateTimeField(null=True, blank=True)
+
+    class Meta:
+        ordering = ["-created_at"]
+
+    def __str__(self):
+        return f"+{self.requested_increase} stock request for {self.product.name}"
+
+
+class ProductView(models.Model):
+    """
+    §6.7/Phase 6+ vendor Analytics — the missing ingredient the old
+    "Analytics" placeholder called out (real order data now exists via
+    apps.orders, but there was never anywhere that recorded a customer
+    *looking* at a product, so conversion rate/traffic source had nothing
+    to compute from). One row per storefront product-detail page load.
+    Deliberately minimal / no PII: no user identity, no IP address — just
+    enough to compute views-over-time and a traffic-source breakdown.
+    """
+
+    class Source(models.TextChoices):
+        DIRECT = "direct", "Direct"
+        SEARCH = "search", "Search"
+        SOCIAL = "social", "Social"
+        OTHER = "other", "Other"
+
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name="views")
+    source = models.CharField(max_length=10, choices=Source.choices, default=Source.DIRECT)
+    viewed_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        indexes = [models.Index(fields=["product", "viewed_at"], name="products_view_product_time_idx")]
+
+    def __str__(self):
+        return f"View of {self.product.name} ({self.source}) at {self.viewed_at}"
+
+
+class Wishlist(models.Model):
+    """
+    UX-survey gap: "save for later" — one row per (customer, product).
+    Deliberately its own lightweight model rather than a field on Product
+    or User: it's a many-to-many relationship with its own timestamp
+    (when saved), and needs the same cascade-on-delete safety already
+    used elsewhere (removing a product or a user cleans this up for free).
+    """
+
+    customer = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name="wishlist_items")
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name="wishlisted_by")
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ["-created_at"]
+        constraints = [
+            models.UniqueConstraint(fields=["customer", "product"], name="unique_wishlist_customer_product"),
+        ]
+
+    def __str__(self):
+        return f"{self.customer} saved {self.product.name}"

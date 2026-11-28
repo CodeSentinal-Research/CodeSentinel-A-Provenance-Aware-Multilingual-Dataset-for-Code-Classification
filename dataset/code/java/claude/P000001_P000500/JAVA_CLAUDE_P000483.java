@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);int n=sc.nextInt();Queue<Integer>q=new LinkedList<>();while(n-->0){String cmd=sc.next();if(cmd.equals("push")){int x=sc.nextInt();q.add(x);for(int i=0;i<q.size()-1;i++)q.add(q.poll());}else if(cmd.equals("pop"))System.out.println(q.poll());else if(cmd.equals("top"))System.out.println(q.peek());else System.out.println(q.isEmpty());} }}

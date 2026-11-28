@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000779",
+  "problemId": "P000779",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000779",
+    "title": "Range Sum Query - Immutable",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and multiple range sum queries, return the sum of elements between indices left and right (inclusive) for each query. Preprocess the array using a prefix sum array to answer each query efficiently.",
+    "input": "Integer n Array nums Integer q q queries (left, right)",
+    "output": "For each query, print the range sum.",
+    "constraints": "1 <= n, q <= 2 \u00d7 10^5 -10^9 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "daniel-bogale/A2SV",
+    "owner": "daniel-bogale",
+    "url": "https://github.com/daniel-bogale/A2SV",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "27-Mar-2025/Range Sum Query - Immutable 319516.py",
+    "fileSHA": "bbcff07d2064abf6c76ea61eb73db304bff8ee6f",
+    "url": "https://github.com/daniel-bogale/A2SV/blob/7baf58dae3cb076932bf9612315e6339f8e85b3e/27-Mar-2025/Range Sum Query - Immutable 319516.py",
+    "rawUrl": "https://raw.githubusercontent.com/daniel-bogale/A2SV/main/27-Mar-2025/Range Sum Query - Immutable 319516.py"
+  },
+  "matching": {
+    "relevanceScore": 81.11
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2d5e982f4112c725f6efd15eed9074444a463980adc8f2423ee1c8f828cf91d4",
+    "normalizedCodeHash": "2d5e982f4112c725f6efd15eed9074444a463980adc8f2423ee1c8f828cf91d4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:38:29.485028+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

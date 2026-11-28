@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001319",
+  "problemId": "P001319",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001319",
+    "title": "Word Search II",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given a character grid and a dictionary of words, determine all dictionary words that can be formed using adjacent cells without reusing any cell.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines contain the grid. \u2022 Next line contains integer N. \u2022 Next N lines contain dictionary words.",
+    "output": "Print all discovered words in lexicographical order.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 20 \u2022 1 \u2264 N \u2264 10^4"
+  },
+  "repository": {
+    "name": "mhnuk2007/leetcodepractice",
+    "owner": "mhnuk2007",
+    "url": "https://github.com/mhnuk2007/leetcodepractice",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/graph/advanced/WordSearchII.java",
+    "fileSHA": "5de720ab4398df1694469e8a4c9d4520d4668759",
+    "url": "https://github.com/mhnuk2007/leetcodepractice/blob/925cea6a204b4aa332823d1b463c4fdec13faffa/src/graph/advanced/WordSearchII.java",
+    "rawUrl": "https://raw.githubusercontent.com/mhnuk2007/leetcodepractice/main/src/graph/advanced/WordSearchII.java"
+  },
+  "matching": {
+    "relevanceScore": 87.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9f7131a2531644532649767c950176fdc1757901d58db1c37421ca2d8ee14a49",
+    "normalizedCodeHash": "9f7131a2531644532649767c950176fdc1757901d58db1c37421ca2d8ee14a49",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T16:28:11.642842+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000374",
+  "problemId": "P000374",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000374",
+    "title": "Search Book by ISBN",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Locate a book using its ISBN number and display the book details.",
+    "input": "A collection of book records and an ISBN.",
+    "output": "Matching book details or \"Book Not Found\".",
+    "constraints": "1 \u2264 Number of Books \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000374",
+    "fileSHA": "17b6e1a0c6627dc35eb80d5d6dbdfb36574c521c7dbbcc3a063b48b8bc41a22f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:33:18.446664+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "17b6e1a0c6627dc35eb80d5d6dbdfb36574c521c7dbbcc3a063b48b8bc41a22f",
+    "normalizedCodeHash": "17b6e1a0c6627dc35eb80d5d6dbdfb36574c521c7dbbcc3a063b48b8bc41a22f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:33:18.446692+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

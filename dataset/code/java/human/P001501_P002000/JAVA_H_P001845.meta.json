@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001845",
+  "problemId": "P001845",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001845",
+    "title": "Count Distinct Binary Search Tree Shapes Generated from Multiple Insertion Sequences",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given M insertion sequences of distinct keys, determine how many structurally distinct Binary Search Trees are produced.",
+    "input": "\u2022 The first line contains an integer M. \u2022 For each sequence, the first line contains its length followed by the insertion sequence.",
+    "output": "\u2022 Print the number of distinct Binary Search Tree structures.",
+    "constraints": "\u2022 1 \u2264 M \u2264 10^5 \u2022 Total number of keys across all sequences \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "lcci/17.18.Shortest Supersequence/Solution.java",
+    "fileSHA": "9ae848f3eaee399f87c3986c394f6c79f9eeefa2",
+    "url": "https://github.com/doocs/leetcode/blob/main/lcci/17.18.Shortest Supersequence/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/lcci/17.18.Shortest Supersequence/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "686865afdcda2c3cd847730ad4ba4147e5b2fcafb15efc4a5357d1fd592d2950",
+    "normalizedCodeHash": "686865afdcda2c3cd847730ad4ba4147e5b2fcafb15efc4a5357d1fd592d2950",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:22.091521+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

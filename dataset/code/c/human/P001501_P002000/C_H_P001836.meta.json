@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001836",
+  "problemId": "P001836",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001836",
+    "title": "Implement an Inorder Iterator for a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Design an iterator for a Binary Search Tree that supports retrieving the next smallest element in amortized O(1) time using O(h) auxiliary space, where h is the height of the tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The following line contains Q operations. \u2022 Each operation is either NEXT or HASNEXT.",
+    "output": "\u2022 For each operation, print the corresponding result.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 Q \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0028_implement_strstr/strstr.c",
+    "fileSHA": "f8204ba7bc75d1b95c04745a0e988a014db39f8d",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0028_implement_strstr/strstr.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0028_implement_strstr/strstr.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "fd1f03ebd16e26eb610eca7a98044e43081716f22c330afab0f4db651b37b1c1",
+    "normalizedCodeHash": "fd1f03ebd16e26eb610eca7a98044e43081716f22c330afab0f4db651b37b1c1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T19:12:46.906106+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);int n=sc.nextInt();sc.nextLine();String[]recs=new String[n];for(int i=0;i<n;i++)recs[i]=sc.nextLine().trim();double lo=sc.nextDouble(),hi=sc.nextDouble();boolean found=false;for(String r:recs){String[]f=r.split(" ");if(f.length>1){double p=Double.parseDouble(f[1]);if(p>=lo&&p<=hi){System.out.println(r);found=true;}}}if(!found)System.out.println("No Records Found");}}

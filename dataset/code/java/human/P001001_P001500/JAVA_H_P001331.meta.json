@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001331",
+  "problemId": "P001331",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001331",
+    "title": "Restore IP Addresses",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string containing only digits, generate all possible valid IPv4 addresses by inserting three dots. Each segment must be between 0 and 255 and cannot contain leading zeros unless the segment is exactly 0.",
+    "input": "\u2022 First line contains a digit string.",
+    "output": "Print all valid IPv4 addresses in lexicographical order.",
+    "constraints": "\u2022 1 \u2264 Length \u2264 12"
+  },
+  "repository": {
+    "name": "mission-peace/interview",
+    "owner": "mission-peace",
+    "url": "https://github.com/mission-peace/interview",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/com/interview/recursion/RestoreIPAddresses.java",
+    "fileSHA": "1a010d9d77cb54343436fc8cbdf86746820acc84",
+    "url": "https://github.com/mission-peace/interview/blob/master/src/com/interview/recursion/RestoreIPAddresses.java",
+    "rawUrl": "https://raw.githubusercontent.com/mission-peace/interview/master/src/com/interview/recursion/RestoreIPAddresses.java"
+  },
+  "matching": {
+    "relevanceScore": 73.33
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "257e3994d1ecdcc7f69e12c94a55276059987104ecfc643f88a5ed428c56e109",
+    "normalizedCodeHash": "257e3994d1ecdcc7f69e12c94a55276059987104ecfc643f88a5ed428c56e109",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T07:06:27.091108+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

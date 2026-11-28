@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P000927",
+  "problemId": "P000927",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000927",
+    "title": "Convert Between Arbitrary Bases",
+    "category": "Mathematics - Base Conversion",
+    "difficulty": "Medium",
+    "problemStatement": "Given a number represented as a string in base A, convert it to its representation in base B. Bases range from 2 to 36, where digits beyond 9 are represented using uppercase English letters.",
+    "input": "String number Integer A Integer B",
+    "output": "The representation of the number in base B.",
+    "constraints": "2 <= A, B <= 36 1 <= |number| <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P000927",
+    "fileSHA": "2b303605080f44b4715aa3ab9010bcb74718c28a206507c4e6386cf229dd2980",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:33:17.340399+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2b303605080f44b4715aa3ab9010bcb74718c28a206507c4e6386cf229dd2980",
+    "normalizedCodeHash": "2b303605080f44b4715aa3ab9010bcb74718c28a206507c4e6386cf229dd2980",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:33:17.340421+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

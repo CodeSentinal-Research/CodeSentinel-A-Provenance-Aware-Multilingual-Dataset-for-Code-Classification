@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001679",
+  "problemId": "P001679",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001679",
+    "title": "Find the Level Having Maximum Sum",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the level whose nodes have the maximum total sum. If multiple levels have the same sum, report the smallest level number.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the required level number.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 \u221210^9 \u2264 NodeValue \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001679",
+    "fileSHA": "0495737fbfbe9dac2379ea553f039db48131302baf5b1c15a7a570822d0a3939",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:35:04.947470+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0495737fbfbe9dac2379ea553f039db48131302baf5b1c15a7a570822d0a3939",
+    "normalizedCodeHash": "0495737fbfbe9dac2379ea553f039db48131302baf5b1c15a7a570822d0a3939",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:35:04.947494+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

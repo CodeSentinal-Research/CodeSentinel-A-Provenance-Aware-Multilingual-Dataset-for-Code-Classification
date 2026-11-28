@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001169",
+  "problemId": "P001169",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001169",
+    "title": "Dungeon Game",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "A knight must rescue a princess trapped in the bottom-right corner of a dungeon represented by a grid. Each cell may increase or decrease the knight's health. Determine the minimum initial health required so that the knight can safely reach the princess.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines each contain C integers.",
+    "output": "Print the minimum initial health required.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001169",
+    "fileSHA": "98eb18e53b887d7d034ac4129a7a802d9215e6c2731055995fbc02214657e668",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:14:15.483219+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "98eb18e53b887d7d034ac4129a7a802d9215e6c2731055995fbc02214657e668",
+    "normalizedCodeHash": "98eb18e53b887d7d034ac4129a7a802d9215e6c2731055995fbc02214657e668",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:14:15.483234+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

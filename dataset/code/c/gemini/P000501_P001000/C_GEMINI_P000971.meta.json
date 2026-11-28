@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000971",
+  "problemId": "P000971",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000971",
+    "title": "Linear Recurrence Evaluation",
+    "category": "Mathematics - Recurrence Relations",
+    "difficulty": "Medium",
+    "problemStatement": "Given constants A, B, initial values F0, F1, and an integer N, evaluate the recurrence: Fn = A \u00d7 Fn\u22121 + B \u00d7 Fn\u22122",
+    "input": "Integers A, B Integers F0, F1 Integer N",
+    "output": "The value of FN.",
+    "constraints": "0 <= N <= 10^6"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P000971",
+    "fileSHA": "1d80e266314378b12dffe58f3961b805a209dc477ab7bdf2f1e1bc8c418e059e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:36:58.873031+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1d80e266314378b12dffe58f3961b805a209dc477ab7bdf2f1e1bc8c418e059e",
+    "normalizedCodeHash": "1d80e266314378b12dffe58f3961b805a209dc477ab7bdf2f1e1bc8c418e059e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:36:58.873059+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

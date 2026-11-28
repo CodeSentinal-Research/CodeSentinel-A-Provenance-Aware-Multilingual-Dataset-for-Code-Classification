@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000411",
+  "problemId": "P000411",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000411",
+    "title": "Search Records Containing a Keyword",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Retrieve every record whose description contains the specified keyword.",
+    "input": "A collection of records and a keyword.",
+    "output": "All matching records.",
+    "constraints": "1 ≤ Number of Records ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000411.py",
+    "fileSHA": "acb1b684f96b0936d9029b6596686ca8252c82f3af79f9d12f29fa16ac24e20d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:02.810067+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "acb1b684f96b0936d9029b6596686ca8252c82f3af79f9d12f29fa16ac24e20d",
+    "normalizedCodeHash": "0e83dfc0dd978632b3667fd822bc028374059c4e7f6ad648aa1f9f8bfa7b988a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:02.810067+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

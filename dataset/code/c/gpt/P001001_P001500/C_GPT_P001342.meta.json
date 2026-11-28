@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001342",
+  "problemId": "P001342",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001342",
+    "title": "Count Increasing Subsequences of Length K",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of distinct integers and an integer K, generate all increasing subsequences of length exactly K.",
+    "input": "• First line contains integers N and K. • Second line contains N distinct integers.",
+    "output": "Print all increasing subsequences in lexicographical order.",
+    "constraints": "• 1 ≤ N ≤ 20 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001342.c",
+    "fileSHA": "2af4c81ae0d9e746c39a41ae89d62f0a0d6ce79052715f9a55b9a6bf2426e9bb",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.920Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "357068a8d25eccd8f4c347421ab09aca50e42cc75203019740d6c50e4da3c866",
+    "normalizedCodeHash": "2af4c81ae0d9e746c39a41ae89d62f0a0d6ce79052715f9a55b9a6bf2426e9bb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.920Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

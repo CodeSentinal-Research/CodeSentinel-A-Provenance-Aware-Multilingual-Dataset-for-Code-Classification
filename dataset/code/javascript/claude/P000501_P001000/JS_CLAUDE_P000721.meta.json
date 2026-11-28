@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000721",
+  "problemId": "P000721",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000721",
+    "title": "Generate All Increasing Subsequences",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array, generate all distinct increasing subsequences having length at least 2. Return the subsequences in lexicographical order.",
+    "input": "Integer n Array nums",
+    "output": "All distinct increasing subsequences.",
+    "constraints": "1 <= n <= 15 -100 <= nums[i] <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000721",
+    "fileSHA": "62e999b094153533a549e5a3e1873538bd06834bfbcad3a593dfe9b69ee289f8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "62e999b094153533a549e5a3e1873538bd06834bfbcad3a593dfe9b69ee289f8",
+    "normalizedCodeHash": "62e999b094153533a549e5a3e1873538bd06834bfbcad3a593dfe9b69ee289f8",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000721"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001265",
+  "problemId": "P001265",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001265",
+    "title": "Maximum Performance of a Team",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given N engineers, each having a speed and an efficiency, select at most K engineers to maximize the team's performance, defined as the sum of selected speeds multiplied by the minimum efficiency among them.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers representing speeds. \u2022 Third line contains N integers representing efficiencies.",
+    "output": "Print the maximum achievable performance.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "AlxStenshin/LeetCodeDaily",
+    "owner": "AlxStenshin",
+    "url": "https://github.com/AlxStenshin/LeetCodeDaily",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/day_046/MaximumPerformanceOfATeam.java",
+    "fileSHA": "b596a50f1e56b28edae6aa70e7ae6076e887899e",
+    "url": "https://github.com/AlxStenshin/LeetCodeDaily/blob/49d081a2e343990dcd58aec5a49acdd7713cc230/src/main/java/day_046/MaximumPerformanceOfATeam.java",
+    "rawUrl": "https://raw.githubusercontent.com/AlxStenshin/LeetCodeDaily/main/src/main/java/day_046/MaximumPerformanceOfATeam.java"
+  },
+  "matching": {
+    "relevanceScore": 75.42
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f7f966efe0dc6311c97bc74185e8f1a2adca1bc4255a41b5e9451e898c7d36a2",
+    "normalizedCodeHash": "f7f966efe0dc6311c97bc74185e8f1a2adca1bc4255a41b5e9451e898c7d36a2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:27:28.587252+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

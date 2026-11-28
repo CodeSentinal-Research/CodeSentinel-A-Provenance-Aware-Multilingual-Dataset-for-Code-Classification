@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001432",
+  "problemId": "P001432",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001432",
+    "title": "Number of Equivalent Domino Pairs",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Two dominoes are equivalent if one can be rotated to equal the other. Given a list of dominoes, determine the number of equivalent pairs.",
+    "input": "• First line contains integer N. • Next N lines each contain two integers.",
+    "output": "Print the number of equivalent domino pairs.",
+    "constraints": "• 1 ≤ N ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001432.c",
+    "fileSHA": "59c9b12b8ab87edb46aef6d3b2cd1cdb83cf30b84fbacda76491f8dae16a0eb3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.356Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "4795d56c2bd20705f2529811cf3d07a400e90770f03af255c4d0277a0ef23d9f",
+    "normalizedCodeHash": "59c9b12b8ab87edb46aef6d3b2cd1cdb83cf30b84fbacda76491f8dae16a0eb3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.356Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

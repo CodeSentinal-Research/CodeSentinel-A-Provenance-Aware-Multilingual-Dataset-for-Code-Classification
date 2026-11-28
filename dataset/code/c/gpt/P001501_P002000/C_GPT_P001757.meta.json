@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001757",
+  "problemId": "P001757",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001757",
+    "title": "Find the Nearest Common Leaf of Two Nodes",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree and two distinct nodes, determine the leaf node that is reachable from both nodes with the minimum combined distance.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree. • The last line contains two node values.",
+    "output": "• Print the value of the required leaf.",
+    "constraints": "• 2 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001757.c",
+    "fileSHA": "640458863932493033de0ca88c72194c193bb1dd87aa0c83f5f5e03a94b3b3dc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.558Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "36459297a4beca1be04c5e08cbdda1a8cbeed52b60796f06c6d7e0698787aa67",
+    "normalizedCodeHash": "640458863932493033de0ca88c72194c193bb1dd87aa0c83f5f5e03a94b3b3dc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.558Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

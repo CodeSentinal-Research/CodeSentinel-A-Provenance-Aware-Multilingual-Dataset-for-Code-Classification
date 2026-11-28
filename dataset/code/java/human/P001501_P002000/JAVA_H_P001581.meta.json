@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001581",
+  "problemId": "P001581",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001581",
+    "title": "Longest Subarray With At Most K Negative Numbers",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and an integer K, determine the maximum length of a contiguous subarray containing at most K negative numbers.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the maximum length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 0 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "sivangichatterjee/DailyProblemSolving",
+    "owner": "sivangichatterjee",
+    "url": "https://github.com/sivangichatterjee/DailyProblemSolving",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "longestSubarrayNegatives.java",
+    "fileSHA": "646e930faa8283746bf198c73967bb4c948767ca",
+    "url": "https://github.com/sivangichatterjee/DailyProblemSolving/blob/a4b3cac2338c95548a68af9daf013cbc837f0aa6/longestSubarrayNegatives.java",
+    "rawUrl": "https://raw.githubusercontent.com/sivangichatterjee/DailyProblemSolving/main/longestSubarrayNegatives.java"
+  },
+  "matching": {
+    "relevanceScore": 69.17
+  },
+  "provenance": {
+    "score": 85.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "742740cb825e6e09a4f39b2727f6268e4334eda7892f50155854329c7d4fab66",
+    "normalizedCodeHash": "742740cb825e6e09a4f39b2727f6268e4334eda7892f50155854329c7d4fab66",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:58:15.608649+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

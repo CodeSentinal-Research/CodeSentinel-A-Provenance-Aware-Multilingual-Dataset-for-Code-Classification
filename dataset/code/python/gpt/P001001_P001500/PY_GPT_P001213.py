@@ -1,0 +1,29 @@
+# problem title : Scramble String
+# Solve the stated task using standard input and standard output.
+class Solution:
+    def isScramble(self, s1: str, s2: str) -> bool:
+        memo = {}
+
+        def dfs(a: str, b: str) -> bool:
+            if a == b:
+                return True
+            if sorted(a) != sorted(b):
+                return False
+            if (a, b) in memo:
+                return memo[(a, b)]
+
+            n = len(a)
+            for i in range(1, n):
+                # No swap
+                if dfs(a[:i], b[:i]) and dfs(a[i:], b[i:]):
+                    memo[(a, b)] = True
+                    return True
+                # Swap
+                if dfs(a[:i], b[n - i:]) and dfs(a[i:], b[:n - i]):
+                    memo[(a, b)] = True
+                    return True
+
+            memo[(a, b)] = False
+            return False
+
+        return dfs(s1, s2)

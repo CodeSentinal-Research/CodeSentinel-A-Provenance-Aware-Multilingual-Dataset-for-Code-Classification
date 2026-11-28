@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000498",
+  "problemId": "P000498",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000498",
+    "title": "Basic Calculator",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Implement a calculator to evaluate an arithmetic expression containing: Non-negative integers '+' '-' Parentheses '(' and ')' Spaces The expression is guaranteed to be valid. Return the evaluated result.",
+    "input": "A string representing the arithmetic expression.",
+    "output": "A single integer representing the evaluated result.",
+    "constraints": "1 <= expression.length <= 3 × 10^5 The expression contains only valid characters. Intermediate results fit within a 32-bit signed integer."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000001_P000500/JS_GPT_P000498.js",
+    "fileSHA": "ced860dbdf4e2319211927d6f69623f413fed8d699e877e70aebd671adbc545e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ced860dbdf4e2319211927d6f69623f413fed8d699e877e70aebd671adbc545e",
+    "normalizedCodeHash": "ced860dbdf4e2319211927d6f69623f413fed8d699e877e70aebd671adbc545e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

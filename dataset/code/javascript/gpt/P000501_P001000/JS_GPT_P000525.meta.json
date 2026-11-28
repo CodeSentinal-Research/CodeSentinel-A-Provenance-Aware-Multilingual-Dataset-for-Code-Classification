@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000525",
+  "problemId": "P000525",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000525",
+    "title": "Beautiful Towers II",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "You are given the maximum allowed heights of n towers. Construct the heights of all towers such that: Each height is at least 1. Each height does not exceed its maximum allowed height. Heights are non-increasing as you move away from a chosen peak. Return the maximum possible sum of all tower heights. Unlike the previous version, this problem requires an efficient solution for much larger input sizes.",
+    "input": "Integer n Array maxHeights",
+    "output": "A single integer.",
+    "constraints": "1 <= n <= 2 × 10^5 1 <= maxHeights[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000525.js",
+    "fileSHA": "3ed7bbf171a43ec6a4a25d795f1f74d76aa6c6aed6c2ecf3980760430975de7c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3ed7bbf171a43ec6a4a25d795f1f74d76aa6c6aed6c2ecf3980760430975de7c",
+    "normalizedCodeHash": "3ed7bbf171a43ec6a4a25d795f1f74d76aa6c6aed6c2ecf3980760430975de7c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

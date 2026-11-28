@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000529",
+  "problemId": "P000529",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000529",
+    "title": "Implement Queue Using Arrays",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Implement a queue using a fixed-size array. The queue should support the following operations: enqueue(x) — Insert an element at the rear. dequeue() — Remove and return the front element. front() — Return the front element without removing it. isEmpty() — Return whether the queue is empty. Process a sequence of operations and print the result of every dequeue(), front(), and isEmpty() operation.",
+    "input": "Integer capacity Integer q Next q lines each contain one operation.",
+    "output": "Print the output for every dequeue(), front(), and isEmpty() operation.",
+    "constraints": "1 <= capacity <= 10^5 1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000529.py",
+    "fileSHA": "ae5baeb85386dafec08a28a84018bd0dbb07c9fcea1df420dcbbc8003beb206c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.150555+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ae5baeb85386dafec08a28a84018bd0dbb07c9fcea1df420dcbbc8003beb206c",
+    "normalizedCodeHash": "f6009089680037d6fa9997131f5fd73a9d2fe88986fc32b9292af26ecb30e477",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.150555+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

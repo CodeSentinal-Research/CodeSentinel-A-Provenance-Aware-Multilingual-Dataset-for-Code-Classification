@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001040",
+  "problemId": "P001040",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001040",
+    "title": "Maximize Performance of a Team",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given the speed and efficiency of N engineers, choose at most K engineers to maximize the team's performance, where performance is defined as the sum of selected speeds multiplied by the minimum efficiency among the selected engineers.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N speeds. \u2022 Third line contains N efficiencies.",
+    "output": "Print the maximum possible performance.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001040",
+    "fileSHA": "06ccdc2fe392121abfee4f9f21cb4d931b2bb2e6fd5386fa5f6e1ffb74c9a896",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:39:41.531971+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "06ccdc2fe392121abfee4f9f21cb4d931b2bb2e6fd5386fa5f6e1ffb74c9a896",
+    "normalizedCodeHash": "06ccdc2fe392121abfee4f9f21cb4d931b2bb2e6fd5386fa5f6e1ffb74c9a896",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:39:41.531999+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

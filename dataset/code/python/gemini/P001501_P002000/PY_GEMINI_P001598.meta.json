@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001598",
+  "problemId": "P001598",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001598",
+    "title": "Count Even Numbers in a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple range queries, determine how many even numbers lie within each specified range.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Next Q lines contain L and R.",
+    "output": "\u2022 Print the answer for each query.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001598",
+    "fileSHA": "5a67590484d9fd577660aef8b130ac1a783d0e01267cf1b1dcb61c764103dc9c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:49.757952+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5a67590484d9fd577660aef8b130ac1a783d0e01267cf1b1dcb61c764103dc9c",
+    "normalizedCodeHash": "5a67590484d9fd577660aef8b130ac1a783d0e01267cf1b1dcb61c764103dc9c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:49.757974+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "problemId": "P000515",
+  "title": "Car Fleet II",
+  "category": "Stack",
+  "difficulty": "Hard",
+  "problemStatement": "There are n cars traveling in the same direction on a one-lane road. Each car has an initial position and speed. Whenever a faster car catches up to a slower car ahead, they collide and continue moving together at the slower speed. For every car, determine the time at which it collides with the next car ahead. If it never collides, return -1.",
+  "input": "Integer n n pairs representing (position, speed).",
+  "output": "An array of floating-point numbers where the i-th value is the collision time of the i-th car.",
+  "constraints": "1 <= n <= 10^5 Positions are strictly increasing. 1 <= speed <= 10^6"
+}

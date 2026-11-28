@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001578",
+  "problemId": "P001578",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001578",
+    "title": "Count Windows With All Distinct Elements",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and an integer K, count the number of contiguous subarrays of size K in which every element is distinct.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the count.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001501_P002000/JS_GPT_P001578.js",
+    "fileSHA": "3b9e683729fbb0b63a963a13e25f7ae889fa914dbe8f286b127742c1dddd96a0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3b9e683729fbb0b63a963a13e25f7ae889fa914dbe8f286b127742c1dddd96a0",
+    "normalizedCodeHash": "3b9e683729fbb0b63a963a13e25f7ae889fa914dbe8f286b127742c1dddd96a0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

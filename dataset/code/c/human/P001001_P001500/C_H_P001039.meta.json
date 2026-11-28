@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001039",
+  "problemId": "P001039",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001039",
+    "title": "Furthest Reachable Building",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given the heights of buildings, a limited number of bricks, and ladders, determine the index of the furthest building that can be reached by moving from left to right.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N building heights. \u2022 Third line contains integers bricks and ladders.",
+    "output": "Print the index of the furthest reachable building.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "git/git",
+    "owner": "git",
+    "url": "https://github.com/git/git",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "reachable.c",
+    "fileSHA": "3079d2c5f4c4418283d1fbad4cdf82f4559e3082",
+    "url": "https://github.com/git/git/blob/master/reachable.c",
+    "rawUrl": "https://raw.githubusercontent.com/git/git/master/reachable.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ff666f03f54f20eee8c6ed8bc370c38102699c59b6743d45b76ef26d1cc4e4c2",
+    "normalizedCodeHash": "ff666f03f54f20eee8c6ed8bc370c38102699c59b6743d45b76ef26d1cc4e4c2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:13:43.079004+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "problemId": "P000638",
+  "title": "Design Polynomial Using Linked List",
+  "category": "Linked List",
+  "difficulty": "Hard",
+  "problemStatement": "A polynomial is represented as a linked list where each node contains: Coefficient Exponent The terms are stored in descending order of exponents. Process a sequence of operations on the polynomial: insert(coefficient, exponent) delete(exponent) evaluate(x) display() When inserting a term with an existing exponent, combine the coefficients. Print the result for every evaluate() and display() operation.",
+  "input": "Integer q Next q operations",
+  "output": "Print the result for every evaluate() and display() operation.",
+  "constraints": "1 <= q <= 10^5 |coefficient| <= 10^6 0 <= exponent <= 10^6"
+}

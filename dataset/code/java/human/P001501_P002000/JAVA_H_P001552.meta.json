@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001552",
+  "problemId": "P001552",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001552",
+    "title": "Smallest Subarray With Sum Greater Than X",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of positive integers and an integer X, find the length of the smallest contiguous subarray whose sum is strictly greater than X. If no such subarray exists, print -1.",
+    "input": "\u2022 First line contains N and X. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the minimum length or -1.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 Ai \u2264 10^5 \u2022 1 \u2264 X \u2264 10^15"
+  },
+  "repository": {
+    "name": "Tejas-Gawali/Java-DSA",
+    "owner": "Tejas-Gawali",
+    "url": "https://github.com/Tejas-Gawali/Java-DSA",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "SmallestSubArraySum.java",
+    "fileSHA": "fd0b944023feec07f535e55dc4c7b1cb4bd540cc",
+    "url": "https://github.com/Tejas-Gawali/Java-DSA/blob/f80c556212c13afefd5ae953476eef735d39010c/SmallestSubArraySum.java",
+    "rawUrl": "https://raw.githubusercontent.com/Tejas-Gawali/Java-DSA/main/SmallestSubArraySum.java"
+  },
+  "matching": {
+    "relevanceScore": 66.14
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a2874e1775eac863a6a23c8d16d214540f3e6832a84b0f0d9f0c4872dd7fa721",
+    "normalizedCodeHash": "a2874e1775eac863a6a23c8d16d214540f3e6832a84b0f0d9f0c4872dd7fa721",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:41:38.114126+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

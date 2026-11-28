@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000828",
+  "problemId": "P000828",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000828",
+    "title": "Find Right Interval",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given a list of intervals. For each interval, find another interval whose start point is the smallest value greater than or equal to the current interval's end point. If no such interval exists, return -1 for that interval.",
+    "input": "Integer n Array intervals, where each interval is represented as [start, end]",
+    "output": "An array of indices representing the right interval for every interval.",
+    "constraints": "1 <= n <= 2 × 10^5 All interval start values are unique."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000828",
+    "fileSHA": "47ad58cb52cc130edf363b43ecde75269b9f1975d5f1fb19adf03c3b06b8de0a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "47ad58cb52cc130edf363b43ecde75269b9f1975d5f1fb19adf03c3b06b8de0a",
+    "normalizedCodeHash": "47ad58cb52cc130edf363b43ecde75269b9f1975d5f1fb19adf03c3b06b8de0a",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000828"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000564",
+  "problemId": "P000564",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000564",
+    "title": "Word Ladder II",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Given beginWord, endWord, and a dictionary of valid words, return all shortest transformation sequences from beginWord to endWord. Each transformation changes exactly one character, and every intermediate word must exist in the dictionary. Return all shortest sequences in any order.",
+    "input": "String beginWord String endWord Integer n List of n words",
+    "output": "A list of all shortest transformation sequences.",
+    "constraints": "1 <= word length <= 10 1 <= n <= 5000"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000564",
+    "fileSHA": "5df113ed6b01da45e3fbfc8143692f5107d90476e60dc3272c1e789c8bdaeeaa",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:25:40.036Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "cf15ec9c97d48ecfcb052ffd2b080da7aa0258c6520b5c505e57f87625b20974",
+    "normalizedCodeHash": "b441cf2d28515afc17a3a9e8a431497b3f34ffbfd36ebb241475a5d8a806130a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:25:40.036Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

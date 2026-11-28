@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001088",
+  "problemId": "P001088",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001088",
+    "title": "Count Vertices at Distance K",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given an unweighted graph, a source vertex S, and an integer K, determine the number of vertices that are exactly K edges away from S.",
+    "input": "• First line contains integers N, M, S, and K. • Next M lines contain graph edges.",
+    "output": "Print the number of vertices at distance K.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001088.c",
+    "fileSHA": "2ee1917592ca55d948134c330bd253b08f195942e155969859252a3b045d495a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:32.976Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "04a39f5f5df23e7675224991854cb68d25bad09709a49bbcf35e84c2dae059dd",
+    "normalizedCodeHash": "2ee1917592ca55d948134c330bd253b08f195942e155969859252a3b045d495a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:32.976Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

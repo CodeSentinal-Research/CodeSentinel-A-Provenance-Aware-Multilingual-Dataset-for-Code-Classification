@@ -1,0 +1,2 @@
+// Find Missing Value in Search List
+const fs=require("fs");const a=fs.readFileSync(0,"utf8").trim().split(/\s+/).map(Number),n=a[0],x=a[n+1],set=new Set(a.slice(1,n+1));console.log(set.has(x)?"Present":"Missing");

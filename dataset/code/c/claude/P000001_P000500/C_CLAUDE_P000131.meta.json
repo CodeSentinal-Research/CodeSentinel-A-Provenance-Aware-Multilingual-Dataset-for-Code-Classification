@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P000131",
+  "problemId": "P000131",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000131",
+    "title": "Leaders in an Array",
+    "category": "Arrays",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that finds all leaders in an array (element greater than all elements to its right).",
+    "input": "First line contains N. Second line contains N integers.",
+    "output": "All leaders from left to right.",
+    "constraints": "1 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000131",
+    "fileSHA": "322bf56fe805e256ae39810bb5be101ec971ebe747977db8584fa442e1fc481d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-3.7-sonnet",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T02:01:37.992541+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e8972c2beb06ec5a35d633d302fe7ffc55628c3355b65d8165087caa16cddef1",
+    "normalizedCodeHash": "322bf56fe805e256ae39810bb5be101ec971ebe747977db8584fa442e1fc481d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T02:01:37.992581+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

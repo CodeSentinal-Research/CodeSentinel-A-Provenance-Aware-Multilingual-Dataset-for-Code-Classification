@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000749",
+  "problemId": "P000749",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000749",
+    "title": "Generate All Paths with Variable Length Jumps",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × M grid, generate all possible paths from the top-left cell to the bottom-right cell. From any cell, you may move: Horizontally right by any positive number of cells (Hk) Vertically down by any positive number of cells (Vk) Diagonally down-right by any positive number of cells (Dk) where k denotes the jump length. Print all valid paths in lexicographical order.",
+    "input": "Integer N Integer M",
+    "output": "All valid paths.",
+    "constraints": "1 <= N, M <= 10"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000749.py",
+    "fileSHA": "9b1fad4711a952b38769fd31097718faf5da6a0fb61a698428c6e2c4349c4265",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.885781+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9b1fad4711a952b38769fd31097718faf5da6a0fb61a698428c6e2c4349c4265",
+    "normalizedCodeHash": "9d637552234cfdc075de557285a51d630ae7b161d7209d05b68d568bdbb320c6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.885781+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

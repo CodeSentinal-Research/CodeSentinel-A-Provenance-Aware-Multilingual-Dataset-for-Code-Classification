@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000762",
+  "problemId": "P000762",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000762",
+    "title": "Wildcard Pattern Matching",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string s and a pattern p containing lowercase letters, '?', and '*': '?' matches exactly one character. '*' matches any sequence of characters (including the empty sequence). Determine whether the entire string matches the pattern using recursion.",
+    "input": "String s String p",
+    "output": "true if the pattern matches the string, otherwise false.",
+    "constraints": "1 <= |s|, |p| <= 200"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000762.c",
+    "fileSHA": "2c34c1d16e74cbe99c720264581e49f7a4345f86ee15507e0d038b3c0dfa12a3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2c34c1d16e74cbe99c720264581e49f7a4345f86ee15507e0d038b3c0dfa12a3",
+    "normalizedCodeHash": "2c34c1d16e74cbe99c720264581e49f7a4345f86ee15507e0d038b3c0dfa12a3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P000566",
+  "problemId": "P000566",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000566",
+    "title": "Minimum Genetic Mutation",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "A gene string consists of exactly eight characters chosen from 'A', 'C', 'G', and 'T'. Given a starting gene, a target gene, and a bank of valid gene strings, determine the minimum number of single-character mutations required to reach the target. Each intermediate gene must exist in the bank. Return -1 if the mutation is impossible.",
+    "input": "String startGene String endGene Integer n List of gene strings",
+    "output": "A single integer representing the minimum number of mutations.",
+    "constraints": "Gene length is always 8 0 <= n <= 1000"
+  },
+  "repository": {
+    "name": "jz33/LeetCodeSolutions",
+    "owner": "jz33",
+    "url": "https://github.com/jz33/LeetCodeSolutions",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000566.py",
+    "fileSHA": "f0ba84d0d624c90ae492f5df66719ef716ba93fd",
+    "url": "https://github.com/jz33/LeetCodeSolutions/blob/86c869ff3bc611042c79007bfbaa9163f335fecf/433 Minimum Genetic Mutation.py",
+    "rawUrl": "https://raw.githubusercontent.com/jz33/LeetCodeSolutions/main/433 Minimum Genetic Mutation.py"
+  },
+  "matching": {
+    "relevanceScore": 72.89
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2020-08-27T00:51:47Z",
+    "lastCommitDate": "2020-08-27T00:51:47Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Jun"
+    ],
+    "firstKnownAuthor": "Jun",
+    "latestKnownAuthor": "Jun"
+  },
+  "deduplication": {
+    "rawCodeHash": "1ee9ccb0dbeaff7913411bf48f00dd1e3d1e17ca3061feb670dab08f5ad3b6d9",
+    "normalizedCodeHash": "1ee9ccb0dbeaff7913411bf48f00dd1e3d1e17ca3061feb670dab08f5ad3b6d9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:26:34.547845+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

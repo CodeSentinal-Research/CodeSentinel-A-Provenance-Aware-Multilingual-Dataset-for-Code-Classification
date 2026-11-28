@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000529",
+  "problemId": "P000529",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000529",
+    "title": "Implement Queue Using Arrays",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Implement a queue using a fixed-size array. The queue should support the following operations: enqueue(x) \u2014 Insert an element at the rear. dequeue() \u2014 Remove and return the front element. front() \u2014 Return the front element without removing it. isEmpty() \u2014 Return whether the queue is empty. Process a sequence of operations and print the result of every dequeue(), front(), and isEmpty() operation.",
+    "input": "Integer capacity Integer q Next q lines each contain one operation.",
+    "output": "Print the output for every dequeue(), front(), and isEmpty() operation.",
+    "constraints": "1 <= capacity <= 10^5 1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "kamalrajgiri/Data-structure",
+    "owner": "kamalrajgiri",
+    "url": "https://github.com/kamalrajgiri/Data-structure",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Queue_linear.c",
+    "fileSHA": "c8111439db58b4b3a279f3603ba8953dab6a400b",
+    "url": "https://github.com/kamalrajgiri/Data-structure/blob/db9cbe65a87d59c3f34392df0f667f134a5f1c24/Queue_linear.c",
+    "rawUrl": "https://raw.githubusercontent.com/kamalrajgiri/Data-structure/main/Queue_linear.c"
+  },
+  "matching": {
+    "relevanceScore": 71.96
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "28e5353e9c9f76553ae571563425ee4fb6fed719465dcd3d6a5513644590f2fe",
+    "normalizedCodeHash": "28e5353e9c9f76553ae571563425ee4fb6fed719465dcd3d6a5513644590f2fe",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:46:00.986697+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

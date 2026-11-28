@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001569",
+  "problemId": "P001569",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001569",
+    "title": "Maximum Erasure Value",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of positive integers, find the maximum possible sum of a contiguous subarray containing only unique elements.",
+    "input": "• First line contains N. • Second line contains N positive integers.",
+    "output": "• Print the maximum sum.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • 1 ≤ Ai ≤ 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001569.c",
+    "fileSHA": "9ba29922d7e1e07b0148fd146e1cd716292e84a8f66cece813ce5ffc76c949c2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.798Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "98a1a52dbb2e49b7aae47558f2a8efb64447f4fa11f964fd44c8fe5db74984af",
+    "normalizedCodeHash": "9ba29922d7e1e07b0148fd146e1cd716292e84a8f66cece813ce5ffc76c949c2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.798Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

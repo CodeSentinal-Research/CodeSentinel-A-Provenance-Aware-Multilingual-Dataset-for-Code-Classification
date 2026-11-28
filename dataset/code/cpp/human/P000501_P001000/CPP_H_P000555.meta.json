@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000555",
+  "problemId": "P000555",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000555",
+    "title": "Minimum Reverse Operations",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given: An integer n A starting index p A list of banned indices An integer k Initially, a token is placed at index p. In one operation, you may reverse any contiguous subarray of length k containing the token. The token moves to its new position after the reversal. Determine the minimum number of operations required to reach every index. Return -1 for unreachable indices or banned indices.",
+    "input": "Integer n Integer p Integer b Array banned Integer k",
+    "output": "An array of length n where the i-th element is the minimum number of operations required to reach index i.",
+    "constraints": "1 <= n <= 10^5 0 <= p < n 1 <= k <= n"
+  },
+  "repository": {
+    "name": "shikhar-mutta/Leetcode-Practice",
+    "owner": "shikhar-mutta",
+    "url": "https://github.com/shikhar-mutta/Leetcode-Practice",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "All Codes/All LC 1 - 4017/2612.cpp",
+    "fileSHA": "866a1904b591e0c4c48c77714437175b6848dbe5",
+    "url": "https://github.com/shikhar-mutta/Leetcode-Practice/blob/d4c02337064de7b90173f522805de98e537cdaff/All Codes/All LC 1 - 4017/2612.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/shikhar-mutta/Leetcode-Practice/main/All Codes/All LC 1 - 4017/2612.cpp"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a3df15c50f72d94aadf0658c8b384123decbaaa8c12eaac17d8669b00d375a6c",
+    "normalizedCodeHash": "a3df15c50f72d94aadf0658c8b384123decbaaa8c12eaac17d8669b00d375a6c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T02:21:49.275632+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001096",
+  "problemId": "P001096",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001096",
+    "title": "Minimum Cut",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a directed graph with edge capacities, determine the capacity of the minimum S-T cut.",
+    "input": "• First line contains integers N, M, S, and T. • Next M lines contain integers u, v, and capacity.",
+    "output": "Print the minimum cut capacity.",
+    "constraints": "• 2 ≤ N ≤ 500 • 1 ≤ M ≤ 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001096.js",
+    "fileSHA": "3c529057924795fc8bed442ce8d73fa277b12b877cb3c291128fc58d35a61e16",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T09:30:51.258473+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3c529057924795fc8bed442ce8d73fa277b12b877cb3c291128fc58d35a61e16",
+    "normalizedCodeHash": "3c529057924795fc8bed442ce8d73fa277b12b877cb3c291128fc58d35a61e16",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T09:30:51.258473+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

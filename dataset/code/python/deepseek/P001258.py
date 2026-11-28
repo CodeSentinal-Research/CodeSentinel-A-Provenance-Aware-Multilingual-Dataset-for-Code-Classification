@@ -1,0 +1,12 @@
+def remove_duplicate_letters(s: str):
+    last_occurrence = {c: i for i, c in enumerate(s)}
+    stack = []
+    for i, c in enumerate(s):
+        if c not in stack:
+            while stack and c < stack[-1] and i < last_occurrence[stack[-1]]:
+                stack.pop()
+            stack.append(c)
+    return "".join(stack)
+
+s = input()
+print(remove_duplicate_letters(s))

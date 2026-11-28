@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);int n=sc.nextInt(),c=sc.nextInt();int[]stalls=new int[n];for(int i=0;i<n;i++)stalls[i]=sc.nextInt();Arrays.sort(stalls);int lo=1,hi=stalls[n-1]-stalls[0],ans=0;while(lo<=hi){int mid=(lo+hi)/2;int cnt=1,last=stalls[0];for(int i=1;i<n;i++)if(stalls[i]-last>=mid){cnt++;last=stalls[i];}if(cnt>=c){ans=mid;lo=mid+1;}else hi=mid-1;}System.out.println(ans);}}

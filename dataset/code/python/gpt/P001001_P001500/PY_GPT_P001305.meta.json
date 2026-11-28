@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001305",
+  "problemId": "P001305",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001305",
+    "title": "Huffman Encoding Cost",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given the frequencies of N characters, construct an optimal Huffman tree and determine the total weighted path length of the encoded message.",
+    "input": "• First line contains integer N. • Second line contains N integers representing character frequencies.",
+    "output": "Print the minimum encoding cost.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001305.py",
+    "fileSHA": "c216462556c9a365ffe681bbd744be973507c276398aa20b3d6fb1f15ae49538",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.219021+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c216462556c9a365ffe681bbd744be973507c276398aa20b3d6fb1f15ae49538",
+    "normalizedCodeHash": "e76d6b350305799b6962043c2cfd8f6f132cd52a5a511b5bcdf1f2093e57b55f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.219021+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main() { int n; scanf("%d",&n); int a[n], prefix[n+1]; prefix[0]=0; for(int i=0;i<n;i++) { scanf("%d",&a[i]); prefix[i+1]=prefix[i]+(a[i]==0?-1:1); } int first[2*n+1]; for(int i=0;i<=2*n;i++) first[i]=-2; first[n]=0; int maxLen=0; for(int i=1;i<=n;i++) { if(first[prefix[i]+n]!=-2) { if(i-first[prefix[i]+n]>maxLen) maxLen=i-first[prefix[i]+n]; } else first[prefix[i]+n]=i; } printf("%d\n",maxLen); return 0; }

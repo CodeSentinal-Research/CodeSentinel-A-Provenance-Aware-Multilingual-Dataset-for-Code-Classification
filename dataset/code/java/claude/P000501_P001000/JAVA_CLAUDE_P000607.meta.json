@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000607",
+  "problemId": "P000607",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000607",
+    "title": "LFU Cache",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design and implement an LFU (Least Frequently Used) cache. The cache supports: get(key) put(key, value) If the cache is full, remove the key with the lowest access frequency. If multiple keys have the same frequency, remove the least recently used among them. Both operations should run in O(1) average time.",
+    "input": "Integer capacity Integer q Next q operations",
+    "output": "Print the result of every get() operation.",
+    "constraints": "0 <= capacity <= 10^4 1 <= q <= 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000607",
+    "fileSHA": "5b0971dfc420c55c08bb6a99beaa077037ea2a21671f95384637ca162ac3ca7d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5b0971dfc420c55c08bb6a99beaa077037ea2a21671f95384637ca162ac3ca7d",
+    "normalizedCodeHash": "5b0971dfc420c55c08bb6a99beaa077037ea2a21671f95384637ca162ac3ca7d",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000607"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

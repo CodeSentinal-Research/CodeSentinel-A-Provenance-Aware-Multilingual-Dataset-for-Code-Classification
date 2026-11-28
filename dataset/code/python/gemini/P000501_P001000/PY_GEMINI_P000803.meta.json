@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000803",
+  "problemId": "P000803",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000803",
+    "title": "Number of Submatrices That Sum to Target",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M integer matrix and an integer target, return the number of non-empty submatrices whose sum equals target.",
+    "input": "Integer N Integer M Matrix grid Integer target",
+    "output": "The number of valid submatrices.",
+    "constraints": "1 <= N, M <= 100 -1000 <= grid[i][j] <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P000803",
+    "fileSHA": "dede1ecd1fae2be6126c229a65498c48e55676a6d6745a951a7dbd0ce6770d79",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:27:32.931155+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "522e0b1161693c98568813d8a08ff9c7fef2b9a9420df8940801b3b9d3e59430",
+    "normalizedCodeHash": "dede1ecd1fae2be6126c229a65498c48e55676a6d6745a951a7dbd0ce6770d79",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:27:32.931190+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

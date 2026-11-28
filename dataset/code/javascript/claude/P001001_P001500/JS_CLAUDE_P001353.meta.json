@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_CLAUDE_P001353",
+  "problemId": "P001353",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001353",
+    "title": "Restore the Array",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a numeric string and an integer K, determine the number of ways to split the string into integers in the range [1, K], with no leading zeros.",
+    "input": "• First line contains the numeric string. • Second line contains integer K.",
+    "output": "Print the total number of valid splits.",
+    "constraints": "• 1 ≤ Length ≤ 10^5 • 1 ≤ K ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P001353",
+    "fileSHA": "66779c2bd501fb3e34ecbef3e76fa06a4da4e8634736153d7c9657b137fd5987",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "28442f1f9224339018056e2d371ef6c87746ee83cab2210ab4fb4a79aabaf84e",
+    "normalizedCodeHash": "66779c2bd501fb3e34ecbef3e76fa06a4da4e8634736153d7c9657b137fd5987",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

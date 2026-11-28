@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000838",
+  "problemId": "P000838",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000838",
+    "title": "Median of Two Sorted Arrays",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Given two sorted arrays of sizes m and n, return the median of the combined sorted array. The overall time complexity must be O(log(min(m, n))).",
+    "input": "Integer m Array nums1 Integer n Array nums2",
+    "output": "The median of the merged sorted array.",
+    "constraints": "0 <= m, n <= 1000 1 <= m + n <= 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000838.js",
+    "fileSHA": "80907715e1a471897276036f4183e905992f82dc9a093a27ae4f19919a65be3b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "80907715e1a471897276036f4183e905992f82dc9a093a27ae4f19919a65be3b",
+    "normalizedCodeHash": "80907715e1a471897276036f4183e905992f82dc9a093a27ae4f19919a65be3b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

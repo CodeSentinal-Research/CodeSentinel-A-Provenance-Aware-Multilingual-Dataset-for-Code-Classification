@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_QWEN_P000842",
+  "problemId": "P000842",
+  "language": "c",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000842",
+    "title": "Maximum Value at a Given Index in a Bounded Array",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Construct an array of length n consisting of positive integers such that: Adjacent elements differ by at most 1. The sum of all elements does not exceed maxSum. Return the maximum possible value at the given index.",
+    "input": "Integer n Integer index Integer maxSum",
+    "output": "The maximum possible value.",
+    "constraints": "1 <= n <= 10^9 0 <= index < n n <= maxSum <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/C_QWEN_P000842",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

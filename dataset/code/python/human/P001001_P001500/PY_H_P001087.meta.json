@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P001087",
+  "problemId": "P001087",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001087",
+    "title": "Check if an Undirected Graph is a Tree",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given an undirected graph with N vertices and M edges, determine whether the graph forms a tree. A graph is a tree if it is connected and contains exactly N\u22121 edges.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain two integers u and v.",
+    "output": "Print YES if the graph is a tree; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "d-michail/python-jgrapht",
+    "owner": "d-michail",
+    "url": "https://github.com/d-michail/python-jgrapht",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P001001_P001500/PY_H_P001087.py",
+    "fileSHA": "d328350efe1d168c481fcc021d58721281305495",
+    "url": "https://github.com/d-michail/python-jgrapht/blob/aa311fc81c127954339ab41ebb40044db82e2b97/jgrapht/properties.py",
+    "rawUrl": "https://raw.githubusercontent.com/d-michail/python-jgrapht/main/jgrapht/properties.py"
+  },
+  "matching": {
+    "relevanceScore": 68.77
+  },
+  "provenance": {
+    "score": 88.75,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2020-04-25T07:16:16Z",
+    "lastCommitDate": "2020-12-30T18:50:17Z",
+    "commitCount": 12,
+    "authorCount": 1,
+    "authors": [
+      "Dimitrios Michail"
+    ],
+    "firstKnownAuthor": "Dimitrios Michail",
+    "latestKnownAuthor": "Dimitrios Michail"
+  },
+  "deduplication": {
+    "rawCodeHash": "9c91c28d4801f636de88c86596939b466b5ebdebd9d1e030d4ef84c60fb08e30",
+    "normalizedCodeHash": "9c91c28d4801f636de88c86596939b466b5ebdebd9d1e030d4ef84c60fb08e30",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T07:32:18.695122+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

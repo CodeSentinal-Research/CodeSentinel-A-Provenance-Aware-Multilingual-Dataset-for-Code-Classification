@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001208",
+  "problemId": "P001208",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001208",
+    "title": "Stone Game II",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given piles of stones arranged in a row, two players alternately remove the first X remaining piles where 1 \u2264 X \u2264 2M, with M updated after every move. Determine the maximum number of stones the first player can collect assuming optimal play.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the maximum stones obtainable by the first player.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001208",
+    "fileSHA": "ede58c43b5d8b2d76864b194a16a4c94e353805d0356842cf13b3acb87aeee97",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:15:24.772319+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ede58c43b5d8b2d76864b194a16a4c94e353805d0356842cf13b3acb87aeee97",
+    "normalizedCodeHash": "ede58c43b5d8b2d76864b194a16a4c94e353805d0356842cf13b3acb87aeee97",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:15:24.772348+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

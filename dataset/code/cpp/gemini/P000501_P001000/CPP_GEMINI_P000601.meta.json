@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P000601",
+  "problemId": "P000601",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000601",
+    "title": "Split Linked List into Parts",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a singly linked list and an integer k, split the linked list into k consecutive parts. The sizes of the parts should differ by at most one node, and earlier parts should not be smaller than later parts. Return the heads of the k parts.",
+    "input": "Integer n Linked list Integer k",
+    "output": "The k linked list parts.",
+    "constraints": "0 <= n <= 1000 1 <= k <= 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "cpp/gemini/CPP_GEMINI_P000601",
+    "fileSHA": "a86075c46135c0d079dc950a1d512f8324f5930984e72ff680ad7afb2d454ad4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:46:50.244230+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a86075c46135c0d079dc950a1d512f8324f5930984e72ff680ad7afb2d454ad4",
+    "normalizedCodeHash": "a86075c46135c0d079dc950a1d512f8324f5930984e72ff680ad7afb2d454ad4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:46:50.244288+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

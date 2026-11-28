@@ -1,0 +1,3 @@
+// Student Attendance Record II
+const fs=require("fs");
+const n=Number(fs.readFileSync(0,"utf8").trim()),M=1000000007;let dp=Array(6).fill(0);dp[0]=1;for(let d=0;d<n;d++){const nx=Array(6).fill(0);for(let s=0;s<6;s++){const w=dp[s],a=Math.floor(s/3),l=s%3;if(!w)continue;nx[l]=(nx[l]+w)%M;if(a===0)nx[3+l]=(nx[3+l]+w)%M;if(l<2)nx[a*3+l+1]=(nx[a*3+l+1]+w)%M;}dp=nx;}console.log(dp.reduce((a,b)=>(a+b)%M,0));

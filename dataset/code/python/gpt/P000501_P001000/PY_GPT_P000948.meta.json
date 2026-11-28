@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000948",
+  "problemId": "P000948",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000948",
+    "title": "Chessboard Game",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Hard",
+    "problemStatement": "A token is placed on an N × N chessboard at position (x, y). On each turn, a player may move the token only to one of the allowed positions defined by the game's movement rules. A player who cannot make a move loses. Determine whether the starting player has a winning strategy.",
+    "input": "Integer N Starting coordinates (x, y)",
+    "output": "Print \"First\" if the starting player wins; otherwise, print \"Second\".",
+    "constraints": "1 <= N <= 200 1 <= x, y <= N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000948.py",
+    "fileSHA": "382f9aed6367fd4a3965a57dac8f98df7dc6a12b4293231eb1c20b3800ffca9f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.669389+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "382f9aed6367fd4a3965a57dac8f98df7dc6a12b4293231eb1c20b3800ffca9f",
+    "normalizedCodeHash": "c5923a5ed2bbd7d3c0a02daefb5dc72b4bd107799448dc6b8a955d19fa44c100",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.669389+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

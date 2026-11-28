@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000943",
+  "problemId": "P000943",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000943",
+    "title": "Stone Game II",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Hard",
+    "problemStatement": "Alice and Bob play a game on an array of stone piles. On each turn, a player may take the first X remaining piles where 1 <= X <= 2M, and M is updated accordingly. Return the maximum number of stones Alice can collect assuming both players play optimally.",
+    "input": "Integer N Array piles",
+    "output": "The maximum stones Alice can obtain.",
+    "constraints": "1 <= N <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000943.c",
+    "fileSHA": "e2c563bafac0d8bfd2d25170d53906957d855dcd3ab8e7684bc7afe527988523",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e2c563bafac0d8bfd2d25170d53906957d855dcd3ab8e7684bc7afe527988523",
+    "normalizedCodeHash": "e2c563bafac0d8bfd2d25170d53906957d855dcd3ab8e7684bc7afe527988523",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

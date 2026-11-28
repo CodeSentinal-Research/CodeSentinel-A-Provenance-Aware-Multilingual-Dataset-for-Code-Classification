@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000536",
+  "problemId": "P000536",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000536",
+    "title": "Jump Game VI",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an integer array nums and an integer k. Starting from index 0, you may jump to any index in the range [i + 1, min(i + k, n - 1)]. The score of a path is the sum of all visited elements. Return the maximum possible score upon reaching the last index.",
+    "input": "Integer n Array nums Integer k",
+    "output": "A single integer representing the maximum score.",
+    "constraints": "1 <= n, k <= 10^5 -10^4 <= nums[i] <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000536",
+    "fileSHA": "4d3e74ce5918c254b98d8aa0c6f987383176893cf9b68b90d3915b05b080b54e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4d3e74ce5918c254b98d8aa0c6f987383176893cf9b68b90d3915b05b080b54e",
+    "normalizedCodeHash": "4d3e74ce5918c254b98d8aa0c6f987383176893cf9b68b90d3915b05b080b54e",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000536: Jump Game VI"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

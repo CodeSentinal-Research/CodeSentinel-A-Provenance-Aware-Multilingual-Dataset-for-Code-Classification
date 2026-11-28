@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001631",
+  "problemId": "P001631",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001631",
+    "title": "Number of Paths With Given Sum in a Grid",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M grid of integers and an integer Target, determine the number of paths from the top-left cell to the bottom-right cell such that the sum of values along the path is exactly Target. You may only move right or down.",
+    "input": "\u2022 First line contains N, M, and Target. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the number of valid paths.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 30 \u2022 -100 \u2264 Grid[i][j] \u2264 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001631",
+    "fileSHA": "b1a27621020160ccc77fa444a626e0e252788c538de4b6fbd350222772ea6fb3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:58.003337+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b1a27621020160ccc77fa444a626e0e252788c538de4b6fbd350222772ea6fb3",
+    "normalizedCodeHash": "b1a27621020160ccc77fa444a626e0e252788c538de4b6fbd350222772ea6fb3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:58.003361+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

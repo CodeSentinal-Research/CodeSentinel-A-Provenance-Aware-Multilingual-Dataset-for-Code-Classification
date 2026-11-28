@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001658",
+  "problemId": "P001658",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001658",
+    "title": "Find All Nodes at Distance K from a Target Node",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, a target node, and an integer K, determine all nodes whose shortest distance from the target node is exactly K edges.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains the target node value and the integer K.",
+    "output": "\u2022 Print the values of all qualifying nodes in the required order.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 0 \u2264 K \u2264 N________________________________________"
+  },
+  "repository": {
+    "name": "danielsarrat/optimization_A-A",
+    "owner": "danielsarrat",
+    "url": "https://github.com/danielsarrat/optimization_A-A",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Astar.c",
+    "fileSHA": "71aa40e7158a37a168c94fccfbc29135e3364765",
+    "url": "https://github.com/danielsarrat/optimization_A-A/blob/493d8d9d42446bbfd8f2875af302d343350cbacc/Astar.c",
+    "rawUrl": "https://raw.githubusercontent.com/danielsarrat/optimization_A-A/main/Astar.c"
+  },
+  "matching": {
+    "relevanceScore": 86.4
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2b141c380d2877d8f35d6c0c064d72cba51017735cabe86af160d103fbab40fa",
+    "normalizedCodeHash": "2b141c380d2877d8f35d6c0c064d72cba51017735cabe86af160d103fbab40fa",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T00:15:38.856515+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

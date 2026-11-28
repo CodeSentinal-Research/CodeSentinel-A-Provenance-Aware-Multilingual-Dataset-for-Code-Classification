@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000426",
+  "problemId": "P000426",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000426",
+    "title": "Search Highest Rated Restaurants",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find every restaurant whose rating is greater than or equal to the specified minimum rating.",
+    "input": "Restaurant records and a rating threshold.",
+    "output": "Matching restaurants.",
+    "constraints": "1 ≤ Number of Restaurants ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000426.c",
+    "fileSHA": "cbc5dce0661ae6bf4adc2b3737ed903c3a28bcdab1ea3de2420af27994055bc0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cbc5dce0661ae6bf4adc2b3737ed903c3a28bcdab1ea3de2420af27994055bc0",
+    "normalizedCodeHash": "cbc5dce0661ae6bf4adc2b3737ed903c3a28bcdab1ea3de2420af27994055bc0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

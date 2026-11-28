@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P001507",
+  "problemId": "P001507",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001507",
+    "title": "Longest Turbulent Subarray",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array, determine the length of the longest contiguous subarray where comparison signs alternate between greater than and less than.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the maximum length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "atulraut/atclib",
+    "owner": "atulraut",
+    "url": "https://github.com/atulraut/atclib",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P001501_P002000/C_H_P001507.c",
+    "fileSHA": "296816a62f389e283df780f33554865040cb5707",
+    "url": "https://github.com/atulraut/atclib/blob/41fddd65299c1fe3a5c756e1901a4dff804ffd63/array/leetcode/medium/maxTurbulenceSize.c",
+    "rawUrl": "https://raw.githubusercontent.com/atulraut/atclib/main/array/leetcode/medium/maxTurbulenceSize.c"
+  },
+  "matching": {
+    "relevanceScore": 60.63
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2021-09-16T01:05:26Z",
+    "lastCommitDate": "2021-09-16T01:05:26Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Atul Raut"
+    ],
+    "firstKnownAuthor": "Atul Raut",
+    "latestKnownAuthor": "Atul Raut"
+  },
+  "deduplication": {
+    "rawCodeHash": "6dbf1e87ad27ff120122dcd88782cd44bd1a2726371210675387727ec39200e9",
+    "normalizedCodeHash": "6dbf1e87ad27ff120122dcd88782cd44bd1a2726371210675387727ec39200e9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T10:41:16.163135+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

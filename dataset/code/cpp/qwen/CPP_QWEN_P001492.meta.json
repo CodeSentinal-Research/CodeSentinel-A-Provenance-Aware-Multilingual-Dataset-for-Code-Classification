@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001492",
+  "problemId": "P001492",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001492",
+    "title": "Find K Closest Elements",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a sorted array, an integer K, and a value X, find the K closest elements to X. If there is a tie, prefer the smaller element.",
+    "input": "\u2022 First line contains integers N, K, and X. \u2022 Second line contains N sorted integers.",
+    "output": "Print the K closest elements in ascending order.",
+    "constraints": "\u2022 1 \u2264 K \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001492",
+    "fileSHA": "e293401b6a4940932f037c400f6e28579f094b94585956fc0a5b0b5263ee5ba9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T04:46:20.340Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "29c4448268a438382d69223f04a08bace26e0840f5aff64e463894a04caf05a5",
+    "normalizedCodeHash": "1caf35b582cf69dda4c84431a7bdd1a647ff60ff48f1c124d4c135581cb08994",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T04:46:20.340Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

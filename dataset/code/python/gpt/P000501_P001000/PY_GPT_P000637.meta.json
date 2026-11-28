@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000637",
+  "problemId": "P000637",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000637",
+    "title": "Delete Nodes Whose Values Occur More Than Once",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of an unsorted singly linked list, remove every node whose value appears more than once in the list. Only nodes with unique values should remain. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The linked list containing only unique-valued nodes.",
+    "constraints": "0 <= n <= 10^5 -10^9 <= node.value <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000637.py",
+    "fileSHA": "82466861d3cfa089a7c019465db1af84d57e9b6d7bc67c6241679dcb8851481f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.513280+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "82466861d3cfa089a7c019465db1af84d57e9b6d7bc67c6241679dcb8851481f",
+    "normalizedCodeHash": "dd447a3c07371c4f4041f76f4eeb6834cc4f84af57735e410f441c662d0f7978",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.513280+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

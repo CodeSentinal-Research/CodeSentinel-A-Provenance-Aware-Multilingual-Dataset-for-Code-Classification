@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000507",
+  "problemId": "P000507",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000507",
+    "title": "Verify Preorder Serialization of a Binary Tree",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "A binary tree is serialized using preorder traversal. Each node is represented by its value, and null nodes are represented by '#'. Given the serialization string, determine whether it represents a valid binary tree without reconstructing the tree.",
+    "input": "A comma-separated serialization string.",
+    "output": "Print true if the serialization is valid; otherwise print false.",
+    "constraints": "1 <= serialization.length <= 10^4"
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/cpp/verifyPreorderSerializationOfABinaryTree/VerifyPreorderSerializationOfABinaryTree.cpp",
+    "fileSHA": "04e6c6c1d65999320c109e908a032c11d47c79cc",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/cpp/verifyPreorderSerializationOfABinaryTree/VerifyPreorderSerializationOfABinaryTree.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/cpp/verifyPreorderSerializationOfABinaryTree/VerifyPreorderSerializationOfABinaryTree.cpp"
+  },
+  "matching": {
+    "relevanceScore": 81.05
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4ddfc6514e774732622a31428463f610d94fce069ed16ee434d2ee586aa303a6",
+    "normalizedCodeHash": "4ddfc6514e774732622a31428463f610d94fce069ed16ee434d2ee586aa303a6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (C++ Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:54:18.202259+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

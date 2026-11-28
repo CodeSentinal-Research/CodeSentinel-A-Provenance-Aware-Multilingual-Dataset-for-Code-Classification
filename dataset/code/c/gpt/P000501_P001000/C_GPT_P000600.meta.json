@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000600",
+  "problemId": "P000600",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000600",
+    "title": "Odd Even Linked List",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a singly linked list, group all nodes at odd indices together followed by the nodes at even indices. The relative order within the odd and even groups must remain the same. Return the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The reordered linked list.",
+    "constraints": "0 <= n <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000600.c",
+    "fileSHA": "805e8ae16da5ded516d81ac770cc27eac71b43226bac3c45ede3102c532b1553",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "805e8ae16da5ded516d81ac770cc27eac71b43226bac3c45ede3102c532b1553",
+    "normalizedCodeHash": "805e8ae16da5ded516d81ac770cc27eac71b43226bac3c45ede3102c532b1553",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

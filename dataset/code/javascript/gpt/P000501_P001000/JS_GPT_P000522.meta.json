@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000522",
+  "problemId": "P000522",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000522",
+    "title": "Design Browser History",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Design a browser history manager that supports the following operations: visit(url) — Visit a new webpage. back(steps) — Move back by at most steps pages. forward(steps) — Move forward by at most steps pages. Initially, the browser starts at the homepage. Process a sequence of operations and print the current page after every back() and forward() operation.",
+    "input": "A homepage URL. Integer q. Next q operations.",
+    "output": "Print the current page after every back() and forward() operation.",
+    "constraints": "1 <= q <= 5 × 10^4 URL length does not exceed 100 characters."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000522.js",
+    "fileSHA": "d17f7409e2a88573201d3b7d45dce6300dbd086deaa1ad7d07136dafd72467bf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d17f7409e2a88573201d3b7d45dce6300dbd086deaa1ad7d07136dafd72467bf",
+    "normalizedCodeHash": "d17f7409e2a88573201d3b7d45dce6300dbd086deaa1ad7d07136dafd72467bf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

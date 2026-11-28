@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000526",
+  "problemId": "P000526",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000526",
+    "title": "Number of Atoms",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Given a valid chemical formula, return the count of each atom in lexicographical order. Rules: Element names begin with an uppercase letter and may be followed by lowercase letters. A number following an element or a closing parenthesis indicates its multiplicity. Parentheses may be nested. Output the formula in its canonical form.",
+    "input": "A string representing the chemical formula.",
+    "output": "A string representing the canonical atom count.",
+    "constraints": "1 <= formula.length <= 1000 The formula is valid."
+  },
+  "repository": {
+    "name": "kaiser-x/Cpp",
+    "owner": "kaiser-x",
+    "url": "https://github.com/kaiser-x/Cpp",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": true,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Leetcode/stack/726_no_of_atoms.cpp",
+    "fileSHA": "d9f929fb6ef67ab4fee23d553db01e3a39b37720",
+    "url": "https://github.com/kaiser-x/Cpp/blob/bf662d1d31da886eb6a988307455986761a9fd0a/Leetcode/stack/726_no_of_atoms.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/kaiser-x/Cpp/main/Leetcode/stack/726_no_of_atoms.cpp"
+  },
+  "matching": {
+    "relevanceScore": 88.7
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5dc68d1189344ee4ae7d677a87e19d2abac35a5b391ce1a01b450be674a369de",
+    "normalizedCodeHash": "5dc68d1189344ee4ae7d677a87e19d2abac35a5b391ce1a01b450be674a369de",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T16:56:30.196172+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

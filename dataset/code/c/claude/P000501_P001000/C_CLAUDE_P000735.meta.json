@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000735",
+  "problemId": "P000735",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000735",
+    "title": "Generate All K-Length Strings from Given Characters",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given a set of distinct characters and an integer K, generate all strings of length K. Characters may be reused any number of times. Print the strings in lexicographical order.",
+    "input": "Integer n Array characters Integer K",
+    "output": "All possible strings.",
+    "constraints": "1 <= n <= 26 1 <= K <= 10"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000735",
+    "fileSHA": "c3fdaf811e264f78dd1b7a656d0a3ac0d1de1d65854d7714c01147da2162e038",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c3fdaf811e264f78dd1b7a656d0a3ac0d1de1d65854d7714c01147da2162e038",
+    "normalizedCodeHash": "c3fdaf811e264f78dd1b7a656d0a3ac0d1de1d65854d7714c01147da2162e038",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000735"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

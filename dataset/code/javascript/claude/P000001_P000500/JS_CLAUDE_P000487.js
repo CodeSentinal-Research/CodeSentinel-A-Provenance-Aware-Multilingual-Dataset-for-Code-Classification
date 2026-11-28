@@ -1,0 +1,1 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const n=+l[0];const h=l[1].split(' ').map(Number);const L=new Array(n),R=new Array(n);L[0]=h[0];for(let i=1;i<n;i++)L[i]=Math.max(L[i-1],h[i]);R[n-1]=h[n-1];for(let i=n-2;i>=0;i--)R[i]=Math.max(R[i+1],h[i]);console.log(h.reduce((s,v,i)=>s+Math.min(L[i],R[i])-v,0));

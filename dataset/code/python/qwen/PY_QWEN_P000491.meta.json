@@ -1,0 +1,75 @@
+{
+ "solutionId": "PY_QWEN_P000491",
+ "problemId": "P000491",
+ "language": "python",
+ "label": "qwen_generated",
+ "problem": {
+  "problemId": "P000491",
+  "title": "Build Array With Stack Operations",
+  "category": "Stack",
+  "difficulty": "Easy",
+  "problemStatement": "Given a strictly increasing target array and an integer n, construct the target array starting from an empty array by reading numbers from 1 to n. For each number read: You may perform a \"Push\" operation. If the number should not remain in the array, immediately perform a \"Pop\". Return the sequence of operations required to build the target array.",
+  "input": "Integer m Target array Integer n",
+  "output": "A list of operations (Push and Pop).",
+  "constraints": "1 <= m <= 100 1 <= target[i] <= n <= 100"
+ },
+ "repository": {
+  "name": "qwen-python-solutions",
+  "owner": "qwen",
+  "url": "https://github.com/qwen/qwen-python-solutions",
+  "defaultBranch": "main",
+  "license": "MIT",
+  "stars": 0,
+  "forks": 0,
+  "fork": false,
+  "createdAt": "",
+  "updatedAt": "",
+  "pushedAt": "",
+  "language": "python",
+  "disabled": false,
+  "archived": false,
+  "private": false
+ },
+ "source": {
+  "path": "py/qwen/P000491/P000491.py",
+  "fileSHA": "AI_GENERATED",
+  "commitSHA": "AI_GENERATED",
+  "url": "N/A",
+  "rawUrl": "N/A"
+ },
+ "matching": {
+  "relevanceScore": 100.0
+ },
+ "provenance": {
+  "score": 100.0,
+  "level": "AI_GENERATED",
+  "preCutoffEvidence": false,
+  "firstCommitDate": "2026-08-22T12:00:00Z",
+  "lastCommitDate": "2026-08-22T12:00:00Z",
+  "commitCount": 1,
+  "authorCount": 1,
+  "authors": [
+   "Qwen AI"
+  ],
+  "firstKnownAuthor": "Qwen AI",
+  "latestKnownAuthor": "Qwen AI"
+ },
+ "deduplication": {
+  "rawCodeHash": "N/A",
+  "normalizedCodeHash": "N/A",
+  "duplicate": false,
+  "duplicateOf": null
+ },
+ "validation": {
+  "syntaxValid": true,
+  "utf8Valid": true,
+  "nonEmpty": true,
+  "isText": true,
+  "hasGeneratedMarkers": false,
+  "reason": null
+ },
+ "collection": {
+  "collectedAt": "2026-08-22T12:00:00.000000+00:00",
+  "pipelineVersion": "1.0.0"
+ }
+}

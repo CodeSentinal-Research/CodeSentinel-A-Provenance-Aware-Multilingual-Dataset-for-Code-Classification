@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001632",
+  "problemId": "P001632",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001632",
+    "title": "Largest Square With Sum Not Exceeding K",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × M matrix of integers and an integer K, determine the side length of the largest square submatrix whose sum does not exceed K.",
+    "input": "• First line contains N, M, and K. • Next N lines each contain M integers.",
+    "output": "• Print the maximum possible side length.",
+    "constraints": "• 1 ≤ N, M ≤ 1000 • -10^4 ≤ Aij ≤ 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001632.c",
+    "fileSHA": "bfe785955b8c2bec6797ccd20f3d4b95a0489905afc20e1a825c5051e3e7f8ba",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.054Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "36f4cd18fab3fecd70a356dea11c0f402ac9a75e050fe7ceeb47f82a8be72e29",
+    "normalizedCodeHash": "bfe785955b8c2bec6797ccd20f3d4b95a0489905afc20e1a825c5051e3e7f8ba",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.054Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001091",
+  "problemId": "P001091",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001091",
+    "title": "Lowest Common Ancestor Queries",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a rooted tree and Q queries, determine the Lowest Common Ancestor (LCA) for each pair of queried vertices.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Next N\u22121 lines contain tree edges. \u2022 Next Q lines contain two vertices.",
+    "output": "Print the LCA for each query.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001091",
+    "fileSHA": "c8f0d777ab8f23c46af1ca27865d6a02c1107adbe18d54941d435f005b396d14",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:45:00.254934+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c8f0d777ab8f23c46af1ca27865d6a02c1107adbe18d54941d435f005b396d14",
+    "normalizedCodeHash": "c8f0d777ab8f23c46af1ca27865d6a02c1107adbe18d54941d435f005b396d14",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:45:00.254963+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

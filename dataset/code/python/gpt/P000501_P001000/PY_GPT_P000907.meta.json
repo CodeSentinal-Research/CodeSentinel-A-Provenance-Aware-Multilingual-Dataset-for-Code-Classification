@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000907",
+  "problemId": "P000907",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000907",
+    "title": "Fast Modular Exponentiation",
+    "category": "Mathematics - Modular Arithmetic",
+    "difficulty": "Medium",
+    "problemStatement": "Given integers A, B, and M, compute (A^B) mod M efficiently.",
+    "input": "Integer A Integer B Integer M",
+    "output": "The value of (A^B) mod M.",
+    "constraints": "1 <= M <= 10^18 0 <= A <= 10^18 0 <= B <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000907.py",
+    "fileSHA": "412e6cc146fe55338e49737c651e41f38962dee4ecb37043972caeae8d1f27c3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.482666+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "412e6cc146fe55338e49737c651e41f38962dee4ecb37043972caeae8d1f27c3",
+    "normalizedCodeHash": "ffb9cea433f9af0e4956f050adc1c9783aa36c73f69e0a0a7887c86ff5e872c4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.482666+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

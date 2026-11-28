@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000531",
+  "problemId": "P000531",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000531",
+    "title": "Number of Recent Calls",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Design a class RecentCounter that counts the number of requests received in the last 3000 milliseconds. For each incoming request at time t, return the number of requests that occurred in the inclusive range [t - 3000, t]. Process all requests in chronological order.",
+    "input": "Integer n n increasing timestamps.",
+    "output": "Print the number of recent requests after each timestamp.",
+    "constraints": "1 <= n <= 10^5 1 <= t <= 10^9 Timestamps are strictly increasing."
+  },
+  "repository": {
+    "name": "ZouariOmar/code-practice",
+    "owner": "ZouariOmar",
+    "url": "https://github.com/ZouariOmar/code-practice",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "leetcode/easy/933. Number of Recent Calls.c",
+    "fileSHA": "4d6049883b506cd88a79b61f5b434422e0845807",
+    "url": "https://github.com/ZouariOmar/code-practice/blob/014ebc02c5da88c7da61d597d4df49b9dfed65ef/leetcode/easy/933. Number of Recent Calls.c",
+    "rawUrl": "https://raw.githubusercontent.com/ZouariOmar/code-practice/main/leetcode/easy/933. Number of Recent Calls.c"
+  },
+  "matching": {
+    "relevanceScore": 79.76
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "150f852ce811f19ac3a3b591a2dc34b5e12df9a5a9c134563a57e4cbc871db36",
+    "normalizedCodeHash": "150f852ce811f19ac3a3b591a2dc34b5e12df9a5a9c134563a57e4cbc871db36",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:11:03.405591+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

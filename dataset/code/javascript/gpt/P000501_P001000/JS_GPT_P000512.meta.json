@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000512",
+  "problemId": "P000512",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000512",
+    "title": "Validate Stack Sequences",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given two integer arrays pushed and popped, determine whether they could represent the push and pop order of a stack. Initially, the stack is empty. Return true if the sequences are valid; otherwise return false.",
+    "input": "Integer n Array pushed Array popped",
+    "output": "true if the sequences are valid, otherwise false.",
+    "constraints": "1 <= n <= 10^5 pushed.length == popped.length All elements are distinct."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000512.js",
+    "fileSHA": "0c72cc4a254a1a613f0612d5eab4ec087f742353ef0474a2eca9f1066a962dba",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0c72cc4a254a1a613f0612d5eab4ec087f742353ef0474a2eca9f1066a962dba",
+    "normalizedCodeHash": "0c72cc4a254a1a613f0612d5eab4ec087f742353ef0474a2eca9f1066a962dba",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

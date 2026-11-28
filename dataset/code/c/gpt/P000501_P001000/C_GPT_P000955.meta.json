@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000955",
+  "problemId": "P000955",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000955",
+    "title": "Modular Inverse Using Extended Euclid",
+    "category": "Mathematics - Extended Euclidean Algorithm",
+    "difficulty": "Medium",
+    "problemStatement": "Given integers A and M, compute the modular multiplicative inverse of A modulo M using the Extended Euclidean Algorithm. If no inverse exists, output -1.",
+    "input": "Integer A Integer M",
+    "output": "The modular inverse or -1.",
+    "constraints": "1 <= A, M <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000955.c",
+    "fileSHA": "6c6eae8815b71514dac54b9b1664493da7feb79f9231060f9f7ca94d2121d8ce",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6c6eae8815b71514dac54b9b1664493da7feb79f9231060f9f7ca94d2121d8ce",
+    "normalizedCodeHash": "6c6eae8815b71514dac54b9b1664493da7feb79f9231060f9f7ca94d2121d8ce",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

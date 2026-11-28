@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000967",
+  "problemId": "P000967",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000967",
+    "title": "Earliest Timestamp from Congruences",
+    "category": "Mathematics - Chinese Remainder Theorem",
+    "difficulty": "Medium",
+    "problemStatement": "Given several periodic events represented as congruences, determine the earliest non-negative timestamp satisfying all the given conditions.",
+    "input": "Integer N Congruences",
+    "output": "The earliest timestamp.",
+    "constraints": "1 <= N <= 20"
+  },
+  "repository": {
+    "name": "freebsd/freebsd-src",
+    "owner": "freebsd",
+    "url": "https://github.com/freebsd/freebsd-src",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "cddl/contrib/opensolaris/cmd/stat/common/timestamp.c",
+    "fileSHA": "be7b30c29fd0b680d734e761f715f722ff7e94f2",
+    "url": "https://github.com/freebsd/freebsd-src/blob/main/cddl/contrib/opensolaris/cmd/stat/common/timestamp.c",
+    "rawUrl": "https://raw.githubusercontent.com/freebsd/freebsd-src/main/cddl/contrib/opensolaris/cmd/stat/common/timestamp.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1a4583622f6d61d1e20044cc6f8d4630dd806b7831446021fe9eb40aa890617b",
+    "normalizedCodeHash": "1a4583622f6d61d1e20044cc6f8d4630dd806b7831446021fe9eb40aa890617b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:43:14.740645+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

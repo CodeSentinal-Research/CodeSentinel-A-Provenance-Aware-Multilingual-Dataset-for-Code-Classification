@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001686",
+  "problemId": "P001686",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001686",
+    "title": "Find the Predecessor of a Node in Level Order Traversal",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree and a target node, determine the node that immediately precedes the target in level order traversal. If no such node exists, print NONE.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains the target node value.",
+    "output": "\u2022 Print the level order predecessor.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "flypipe/flypipe",
+    "owner": "flypipe",
+    "url": "https://github.com/flypipe/flypipe",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "flypipe/node.py",
+    "fileSHA": "9679d505c221633151c580029f6fddaea013e423",
+    "url": "https://github.com/flypipe/flypipe/blob/6dfc0e2ed036c308fbb3436e73535d70aead12c1/flypipe/node.py",
+    "rawUrl": "https://raw.githubusercontent.com/flypipe/flypipe/main/flypipe/node.py"
+  },
+  "matching": {
+    "relevanceScore": 87.1
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "438d324288df9bf4d9e27490c9017932a73d394bde75ee1b1d5266d627149867",
+    "normalizedCodeHash": "438d324288df9bf4d9e27490c9017932a73d394bde75ee1b1d5266d627149867",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T21:28:03.402516+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001601",
+  "problemId": "P001601",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001601",
+    "title": "Count Zeros in a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and multiple range queries, determine the number of elements equal to 0 in each specified range.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Next Q lines each contain L and R.",
+    "output": "\u2022 For each query, print the number of zeros in the specified range.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9 \u2022 0 \u2264 L \u2264 R < N"
+  },
+  "repository": {
+    "name": "Bogzx/Caesar-Cypher-Decryptor",
+    "owner": "Bogzx",
+    "url": "https://github.com/Bogzx/Caesar-Cypher-Decryptor",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "main.c",
+    "fileSHA": "b3e8bb01a36a43067c4bb6ea4dfdf97022eeebe2",
+    "url": "https://github.com/Bogzx/Caesar-Cypher-Decryptor/blob/add61f1babd6a58001bdcedc746f42b300f6c506/main.c",
+    "rawUrl": "https://raw.githubusercontent.com/Bogzx/Caesar-Cypher-Decryptor/main/main.c"
+  },
+  "matching": {
+    "relevanceScore": 84.1
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "28d2bfbfff2e93f6d4cff5f00baa1225f0395c24f70f97bbbc18b1a2a07a8f2a",
+    "normalizedCodeHash": "28d2bfbfff2e93f6d4cff5f00baa1225f0395c24f70f97bbbc18b1a2a07a8f2a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T16:33:23.248136+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

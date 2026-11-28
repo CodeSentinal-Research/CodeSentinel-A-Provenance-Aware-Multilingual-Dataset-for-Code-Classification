@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000547",
+  "problemId": "P000547",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000547",
+    "title": "Escape the Spreading Fire",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an m \u00d7 n grid containing: 0 for empty land 1 for fire 2 for walls You start at the top-left cell and want to reach the bottom-right cell. Each minute: You may move to an adjacent empty cell. Fire simultaneously spreads to adjacent non-wall cells. Determine the maximum number of minutes you can wait before starting your journey while still being able to safely reach the destination. Return -1 if reaching the destination is impossible.",
+    "input": "Integers m and n An m \u00d7 n grid",
+    "output": "A single integer.",
+    "constraints": "1 <= m, n <= 300"
+  },
+  "repository": {
+    "name": "Annahcj/javascript-algorithms-and-data-structures",
+    "owner": "Annahcj",
+    "url": "https://github.com/Annahcj/javascript-algorithms-and-data-structures",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "BFS/2258.escape-the-spreading-fire.js",
+    "fileSHA": "53fb026fd5527157a0b1863f81b3f5efa65fb852",
+    "url": "https://github.com/Annahcj/javascript-algorithms-and-data-structures/blob/c55b896d4296ae80d7d448fe3a571644d71e919c/BFS/2258.escape-the-spreading-fire.js",
+    "rawUrl": "https://raw.githubusercontent.com/Annahcj/javascript-algorithms-and-data-structures/main/BFS/2258.escape-the-spreading-fire.js"
+  },
+  "matching": {
+    "relevanceScore": 92.68
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6c422315bd9b820e576baa36a469cd2fb8f04283ca40617ce180881b85e5b8d3",
+    "normalizedCodeHash": "6c422315bd9b820e576baa36a469cd2fb8f04283ca40617ce180881b85e5b8d3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:27:14.131297+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

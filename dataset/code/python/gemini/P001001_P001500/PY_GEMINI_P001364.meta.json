@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001364",
+  "problemId": "P001364",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001364",
+    "title": "K-Partition Problem",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and an integer K, partition the array into exactly K non-empty subsets such that the maximum subset sum is minimized.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the minimum possible maximum subset sum.",
+    "constraints": "\u2022 1 \u2264 N \u2264 20 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001364",
+    "fileSHA": "e009499935a159344cffbb48c62168a770afb9300594d8d9783c6a002afcebf7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:24:04.650859+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e009499935a159344cffbb48c62168a770afb9300594d8d9783c6a002afcebf7",
+    "normalizedCodeHash": "e009499935a159344cffbb48c62168a770afb9300594d8d9783c6a002afcebf7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:24:04.650893+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

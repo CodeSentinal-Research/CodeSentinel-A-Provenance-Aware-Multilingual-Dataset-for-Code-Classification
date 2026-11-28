@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001614",
+  "problemId": "P001614",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001614",
+    "title": "Maximum Sum Rectangle in a Matrix",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given a matrix of integers, determine the maximum possible sum of any rectangular submatrix.",
+    "input": "• First line contains N and M. • Next N lines each contain M integers.",
+    "output": "• Print the maximum rectangle sum.",
+    "constraints": "• 1 ≤ N, M ≤ 300 • -10^5 ≤ Aij ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001614.c",
+    "fileSHA": "581c6c112b57f3e7729a34f71b61dfb72c2ea84dd1e1e7f967ceeabe3adc2190",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.004Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "5c5c0cab279b35f1b8274603a3adbb4659c8293ecac11941474e00f36cc87edd",
+    "normalizedCodeHash": "581c6c112b57f3e7729a34f71b61dfb72c2ea84dd1e1e7f967ceeabe3adc2190",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.004Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

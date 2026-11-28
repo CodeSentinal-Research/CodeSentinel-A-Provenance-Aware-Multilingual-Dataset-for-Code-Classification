@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001085",
+  "problemId": "P001085",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001085",
+    "title": "Number of Distinct Paths in a DAG",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a Directed Acyclic Graph and two vertices S and T, determine the number of distinct paths from S to T.",
+    "input": "\u2022 First line contains integers N, M, S, and T. \u2022 Next M lines contain directed edges.",
+    "output": "Print the total number of distinct paths.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0100-0199/0159.Longest Substring with At Most Two Distinct Characters/Solution.java",
+    "fileSHA": "714f40eddf0177c94cfb09851f632ed9843991c9",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0100-0199/0159.Longest Substring with At Most Two Distinct Characters/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0100-0199/0159.Longest Substring with At Most Two Distinct Characters/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "cb3d17cc38684633914c76f31e4c6ae2a22286f9be643d99e3dcbd17622f5963",
+    "normalizedCodeHash": "cb3d17cc38684633914c76f31e4c6ae2a22286f9be643d99e3dcbd17622f5963",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:40.604396+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001126",
+  "problemId": "P001126",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001126",
+    "title": "Path With Minimum Effort",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a grid of heights, determine a path from the top-left cell to the bottom-right cell such that the maximum absolute difference between adjacent cells along the path is minimized.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines each contain C integers representing cell heights.",
+    "output": "Print the minimum effort required.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001126",
+    "fileSHA": "c22220bef4ea5057a702a0a31192e1df76bc3bbcdc2bb3bce30a9f66f20a7bd4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.836Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "adc36df977c1ac3ca7b4d5a4cb6e5e0731072fb0358c6e30c8e6d7e8431e3ea7",
+    "normalizedCodeHash": "53ca9e85f37d37fdbe36409d40c47dabeeda5778116bd0df2af72543892146a9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.836Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

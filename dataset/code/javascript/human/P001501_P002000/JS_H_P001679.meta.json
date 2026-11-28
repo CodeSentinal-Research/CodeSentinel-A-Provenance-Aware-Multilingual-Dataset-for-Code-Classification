@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001679",
+  "problemId": "P001679",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001679",
+    "title": "Find the Level Having Maximum Sum",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the level whose nodes have the maximum total sum. If multiple levels have the same sum, report the smallest level number.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the required level number.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 \u221210^9 \u2264 NodeValue \u2264 10^9"
+  },
+  "repository": {
+    "name": "Annahcj/javascript-algorithms-and-data-structures",
+    "owner": "Annahcj",
+    "url": "https://github.com/Annahcj/javascript-algorithms-and-data-structures",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "BFS/1161.maximum-level-sum-of-a-binary-tree.js",
+    "fileSHA": "c915dff24fe6900f0dbcba787ae42ee2f713dc7e",
+    "url": "https://github.com/Annahcj/javascript-algorithms-and-data-structures/blob/c55b896d4296ae80d7d448fe3a571644d71e919c/BFS/1161.maximum-level-sum-of-a-binary-tree.js",
+    "rawUrl": "https://raw.githubusercontent.com/Annahcj/javascript-algorithms-and-data-structures/main/BFS/1161.maximum-level-sum-of-a-binary-tree.js"
+  },
+  "matching": {
+    "relevanceScore": 79.71
+  },
+  "provenance": {
+    "score": 85.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d7167d56cf5c56e0a9bf14daa4b5f0c1d7a828c92be9c9476c281ffd2c3cb2b1",
+    "normalizedCodeHash": "d7167d56cf5c56e0a9bf14daa4b5f0c1d7a828c92be9c9476c281ffd2c3cb2b1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:58:29.459676+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

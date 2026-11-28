@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000526",
+  "problemId": "P000526",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000526",
+    "title": "Number of Atoms",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Given a valid chemical formula, return the count of each atom in lexicographical order. Rules: Element names begin with an uppercase letter and may be followed by lowercase letters. A number following an element or a closing parenthesis indicates its multiplicity. Parentheses may be nested. Output the formula in its canonical form.",
+    "input": "A string representing the chemical formula.",
+    "output": "A string representing the canonical atom count.",
+    "constraints": "1 <= formula.length <= 1000 The formula is valid."
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/number-of-atoms.py",
+    "fileSHA": "da71a3e431557c0da3bc2b716db6fd62311ff2b5",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/number-of-atoms.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/number-of-atoms.py"
+  },
+  "matching": {
+    "relevanceScore": 67.59
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b6b987df22aaa941e3b5e18b457e63e5bfb1beb4aad970df8e19a2536ca2e522",
+    "normalizedCodeHash": "b6b987df22aaa941e3b5e18b457e63e5bfb1beb4aad970df8e19a2536ca2e522",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:10:18.635059+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000562",
+  "problemId": "P000562",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000562",
+    "title": "Keys and Rooms",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "There are n rooms labeled from 0 to n-1. Initially, only room 0 is unlocked. Each room may contain keys to other rooms. Determine whether it is possible to visit every room.",
+    "input": "Integer n A list where the i-th list contains the keys found in room i.",
+    "output": "Print true if every room can be visited; otherwise print false.",
+    "constraints": "1 <= n <= 1000 Total number of keys does not exceed 3000."
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000562",
+    "fileSHA": "eeb905249fc2d9ba8e6398565fc0d5cb746c581f6e336c9144bcabbc14ef2617",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:44:54.063335+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "eeb905249fc2d9ba8e6398565fc0d5cb746c581f6e336c9144bcabbc14ef2617",
+    "normalizedCodeHash": "eeb905249fc2d9ba8e6398565fc0d5cb746c581f6e336c9144bcabbc14ef2617",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:44:54.063367+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P001501",
+  "problemId": "P001501",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001501",
+    "title": "Maximize Distance to Closest Person",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a row of seats represented by 0 (empty) and 1 (occupied), determine the maximum possible distance to the closest occupied seat after choosing one empty seat.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the maximum possible distance.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "waffle87/leetcode",
+    "owner": "waffle87",
+    "url": "https://github.com/waffle87/leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P001501_P002000/C_H_P001501.c",
+    "fileSHA": "b0faf1e2c78aae3c8f16e068a69c2172ca4326b1",
+    "url": "https://github.com/waffle87/leetcode/blob/e36b3d2fb70c49ec65bb225420f0977aaca97c55/max_distance_closest_person.c",
+    "rawUrl": "https://raw.githubusercontent.com/waffle87/leetcode/main/max_distance_closest_person.c"
+  },
+  "matching": {
+    "relevanceScore": 66.55
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2024-06-14T19:13:15Z",
+    "lastCommitDate": "2024-06-14T19:13:15Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "jack"
+    ],
+    "firstKnownAuthor": "jack",
+    "latestKnownAuthor": "jack"
+  },
+  "deduplication": {
+    "rawCodeHash": "706047ce2e9dc2b66e24d1e833d1f6908b396078f894ae1a30277aa6118d9bd6",
+    "normalizedCodeHash": "706047ce2e9dc2b66e24d1e833d1f6908b396078f894ae1a30277aa6118d9bd6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T10:39:01.200060+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

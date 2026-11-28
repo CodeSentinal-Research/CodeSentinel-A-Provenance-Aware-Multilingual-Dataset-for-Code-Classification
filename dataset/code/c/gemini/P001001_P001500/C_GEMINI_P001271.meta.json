@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001271",
+  "problemId": "P001271",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001271",
+    "title": "Minimum Number of Taps to Water a Garden",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "A one-dimensional garden extends from position 0 to N. Each tap waters an interval centered at its position. Determine the minimum number of taps that must be opened to water the entire garden. If impossible, print -1.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N+1 integers representing the watering range of each tap.",
+    "output": "Print the minimum number of taps required.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001271",
+    "fileSHA": "dfc2ba709763b43cec5e9aa4bced26bca8fe1597940dfd5d513cabf244ac69e9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:19:57.856913+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "dfc2ba709763b43cec5e9aa4bced26bca8fe1597940dfd5d513cabf244ac69e9",
+    "normalizedCodeHash": "dfc2ba709763b43cec5e9aa4bced26bca8fe1597940dfd5d513cabf244ac69e9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:19:57.856943+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000509",
+  "problemId": "P000509",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000509",
+    "title": "Clear Digits from String",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a string consisting of lowercase English letters and digits. Process the string from left to right: If the current character is a lowercase letter, keep it. If the current character is a digit, remove the closest lowercase letter to its left that has not already been removed, and discard the digit itself. Return the final string after processing all characters.",
+    "input": "A single string s.",
+    "output": "The resulting string.",
+    "constraints": "1 <= s.length <= 10^5 s consists only of lowercase English letters and digits. Every digit has at least one removable letter to its left."
+  },
+  "repository": {
+    "name": "qinglianyan/SKYSensor_Sync",
+    "owner": "qinglianyan",
+    "url": "https://github.com/qinglianyan/SKYSensor_Sync",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "LeetCode/3174.clearDigits.c",
+    "fileSHA": "173f1aad5c30c704a0e1bb9e66551a5f81a64536",
+    "url": "https://github.com/qinglianyan/SKYSensor_Sync/blob/a83bdc4c43bc6aaa5f83e5150d8259b7ed5eac57/LeetCode/3174.clearDigits.c",
+    "rawUrl": "https://raw.githubusercontent.com/qinglianyan/SKYSensor_Sync/main/LeetCode/3174.clearDigits.c"
+  },
+  "matching": {
+    "relevanceScore": 65.89
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "86bb2e67d55733b1e67dcf66f9c3d35941bc2917a65c15b44cb87e7d6d0e5b88",
+    "normalizedCodeHash": "86bb2e67d55733b1e67dcf66f9c3d35941bc2917a65c15b44cb87e7d6d0e5b88",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:18:27.929016+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

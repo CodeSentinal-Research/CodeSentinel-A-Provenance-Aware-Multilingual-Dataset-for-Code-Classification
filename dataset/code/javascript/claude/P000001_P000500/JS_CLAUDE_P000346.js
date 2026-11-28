@@ -1,0 +1,1 @@
+const lines=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const s=lines[0];const n=+lines[1];let best='';const isSub=(w,s)=>{let i=0;for(const c of s)if(i<w.length&&c===w[i])i++;return i===w.length;};for(let k=0;k<n;k++){const w=lines[2+k].trim();if(isSub(w,s)&&(w.length>best.length||(w.length===best.length&&w<best)))best=w;}console.log(best);

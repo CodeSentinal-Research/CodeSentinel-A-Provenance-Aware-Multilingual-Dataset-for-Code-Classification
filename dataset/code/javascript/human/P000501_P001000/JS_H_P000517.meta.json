@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P000517",
+  "problemId": "P000517",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000517",
+    "title": "Maximum Width Ramp",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "A ramp is a pair of indices (i, j) such that i < j and nums[i] <= nums[j]. Find the maximum width of a ramp in the array, where the width is j - i. Return the maximum possible width.",
+    "input": "Integer n Array nums",
+    "output": "A single integer representing the maximum width.",
+    "constraints": "2 <= n <= 5 \u00d7 10^4 0 <= nums[i] <= 5 \u00d7 10^4"
+  },
+  "repository": {
+    "name": "savely/leetcode",
+    "owner": "savely",
+    "url": "https://github.com/savely/leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P000501_P001000/JS_H_P000517.js",
+    "fileSHA": "4cffcc8290ab9efedb1e9b417b30029e27d16aa4",
+    "url": "https://github.com/savely/leetcode/blob/d37c52e90192b41cfc21bf49fb8b4a6337c0b4d1/maxWidthRamp.js",
+    "rawUrl": "https://raw.githubusercontent.com/savely/leetcode/main/maxWidthRamp.js"
+  },
+  "matching": {
+    "relevanceScore": 65.56
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2021-07-20T19:29:23Z",
+    "lastCommitDate": "2021-07-20T19:29:23Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "savely"
+    ],
+    "firstKnownAuthor": "savely",
+    "latestKnownAuthor": "savely"
+  },
+  "deduplication": {
+    "rawCodeHash": "6d1d2f65c19213b551d76e1a256df955f094ac1ac175717fb482c145cd05c1ee",
+    "normalizedCodeHash": "6d1d2f65c19213b551d76e1a256df955f094ac1ac175717fb482c145cd05c1ee",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:07:43.723684+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

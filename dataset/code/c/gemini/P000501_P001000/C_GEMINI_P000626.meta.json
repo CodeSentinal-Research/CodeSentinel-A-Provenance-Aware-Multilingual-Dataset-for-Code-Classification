@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000626",
+  "problemId": "P000626",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000626",
+    "title": "All One Data Structure",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a data structure that supports the following operations in constant time: inc(key) \u2014 Increment the count of the given key. dec(key) \u2014 Decrement the count of the given key. Remove the key if its count becomes zero. getMaxKey() \u2014 Return any key with the maximum count. getMinKey() \u2014 Return any key with the minimum count. Process a sequence of operations and print the results of every getMaxKey() and getMinKey() query.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for every getMaxKey() and getMinKey() operation.",
+    "constraints": "1 <= q <= 5 \u00d7 10^4 Keys consist of lowercase English letters."
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000626",
+    "fileSHA": "0c70e4c235f7cc758d3d82d092ec6b171ed6abf1e5a0dbcfa7609c777ca20561",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:49:57.048928+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0c70e4c235f7cc758d3d82d092ec6b171ed6abf1e5a0dbcfa7609c777ca20561",
+    "normalizedCodeHash": "0c70e4c235f7cc758d3d82d092ec6b171ed6abf1e5a0dbcfa7609c777ca20561",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:49:57.048948+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

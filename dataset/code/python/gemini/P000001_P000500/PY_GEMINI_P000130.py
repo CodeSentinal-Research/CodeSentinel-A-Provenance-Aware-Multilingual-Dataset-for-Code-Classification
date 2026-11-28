@@ -1,0 +1,17 @@
+from typing import List
+
+class Solution:
+    def nextSmallerElement(self, nums: List[int]) -> List[int]:
+        n = len(nums)
+        res = [-1] * n
+        stack = []
+
+        for i in range(n - 1, -1, -1):
+            # Maintain monotonic stack property by popping smaller elements
+            while stack and stack[-1] >= nums[i]:
+                stack.pop()
+            if stack:
+                res[i] = stack[-1]
+            stack.append(nums[i])
+
+        return res

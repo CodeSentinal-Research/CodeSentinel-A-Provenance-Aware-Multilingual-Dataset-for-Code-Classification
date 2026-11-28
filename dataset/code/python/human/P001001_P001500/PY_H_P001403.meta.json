@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001403",
+  "problemId": "P001403",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001403",
+    "title": "Check Arithmetic Subarrays",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array and multiple queries, determine whether each queried subarray can be rearranged to form an arithmetic sequence.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Second line contains N integers. \u2022 Next Q lines contain two integers L and R.",
+    "output": "For each query print YES or NO.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/arithmetic-subarrays.py",
+    "fileSHA": "063ed694b6330bc41bed6505d2e3110985b44138",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/arithmetic-subarrays.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/arithmetic-subarrays.py"
+  },
+  "matching": {
+    "relevanceScore": 67.78
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "658b5592054164d538ea219cbe3e8a978a10a0cd4e0391545ef7150224cef4c4",
+    "normalizedCodeHash": "658b5592054164d538ea219cbe3e8a978a10a0cd4e0391545ef7150224cef4c4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:15:44.309146+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

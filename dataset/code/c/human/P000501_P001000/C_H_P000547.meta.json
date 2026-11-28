@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000547",
+  "problemId": "P000547",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000547",
+    "title": "Escape the Spreading Fire",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an m \u00d7 n grid containing: 0 for empty land 1 for fire 2 for walls You start at the top-left cell and want to reach the bottom-right cell. Each minute: You may move to an adjacent empty cell. Fire simultaneously spreads to adjacent non-wall cells. Determine the maximum number of minutes you can wait before starting your journey while still being able to safely reach the destination. Return -1 if reaching the destination is impossible.",
+    "input": "Integers m and n An m \u00d7 n grid",
+    "output": "A single integer.",
+    "constraints": "1 <= m, n <= 300"
+  },
+  "repository": {
+    "name": "lrmsspace/LLM-CodeQualityEval",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Output/output_Copilot/c/Hard/2163-escape-the-spreading-fire.c",
+    "fileSHA": "62f8253c2a0aff4eff765c96b4128a5209d30326",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval/blob/a2817bbe913c51ab32afeb6f6d0ad97b92c45075/Output/output_Copilot/c/Hard/2163-escape-the-spreading-fire.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/LLM-CodeQualityEval/main/Output/output_Copilot/c/Hard/2163-escape-the-spreading-fire.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1474ee09377a0438994efadc7e402d3a0cc9f4a8746881729c15b0da3fabfe9a",
+    "normalizedCodeHash": "1474ee09377a0438994efadc7e402d3a0cc9f4a8746881729c15b0da3fabfe9a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T18:32:13.680947+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

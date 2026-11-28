@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000598",
+  "problemId": "P000598",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000598",
+    "title": "Reverse Linked List II",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and two integers left and right, reverse the nodes from position left to position right (1-indexed). The remaining nodes outside this range must remain unchanged. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer left Integer right",
+    "output": "The linked list after reversing the specified sublist.",
+    "constraints": "1 <= n <= 500 1 <= left <= right <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000598.c",
+    "fileSHA": "f6373ce88b49e4e0abceb3b30c90b61e8629bd7e13dc710bada4fa4983007f38",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f6373ce88b49e4e0abceb3b30c90b61e8629bd7e13dc710bada4fa4983007f38",
+    "normalizedCodeHash": "f6373ce88b49e4e0abceb3b30c90b61e8629bd7e13dc710bada4fa4983007f38",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000831",
+  "problemId": "P000831",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000831",
+    "title": "Minimum Number of Days to Make m Bouquets",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an array bloomDay, where bloomDay[i] is the day the i-th flower blooms. Each bouquet requires k adjacent flowers. Return the minimum number of days required to make exactly m bouquets, or -1 if it is impossible.",
+    "input": "Integer n Array bloomDay Integer m Integer k",
+    "output": "The minimum required day.",
+    "constraints": "1 <= n <= 10^5 1 <= bloomDay[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000831",
+    "fileSHA": "7b3f3d2ea07b1079c88fc28acd2da9d2737281e710c6d6f0ceb062f6b9caa162",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7b3f3d2ea07b1079c88fc28acd2da9d2737281e710c6d6f0ceb062f6b9caa162",
+    "normalizedCodeHash": "7b3f3d2ea07b1079c88fc28acd2da9d2737281e710c6d6f0ceb062f6b9caa162",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique solution P000831: Minimum Number of Days to Make m Bouquets"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

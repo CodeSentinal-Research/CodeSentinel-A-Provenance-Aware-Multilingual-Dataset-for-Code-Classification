@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000507",
+  "problemId": "P000507",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000507",
+    "title": "Verify Preorder Serialization of a Binary Tree",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "A binary tree is serialized using preorder traversal. Each node is represented by its value, and null nodes are represented by '#'. Given the serialization string, determine whether it represents a valid binary tree without reconstructing the tree.",
+    "input": "A comma-separated serialization string.",
+    "output": "Print true if the serialization is valid; otherwise print false.",
+    "constraints": "1 <= serialization.length <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000507",
+    "fileSHA": "3df54e3122341a5232699e64b6b4d15cf83fc44f8d6709b3a9e7b73c16e1cf6c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:42:16.598903+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3df54e3122341a5232699e64b6b4d15cf83fc44f8d6709b3a9e7b73c16e1cf6c",
+    "normalizedCodeHash": "3df54e3122341a5232699e64b6b4d15cf83fc44f8d6709b3a9e7b73c16e1cf6c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:42:16.598930+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

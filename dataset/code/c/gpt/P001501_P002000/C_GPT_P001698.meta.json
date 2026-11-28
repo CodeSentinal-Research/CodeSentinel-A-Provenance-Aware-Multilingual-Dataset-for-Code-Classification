@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001698",
+  "problemId": "P001698",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001698",
+    "title": "Delete Leaves with a Given Value",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree and an integer X, repeatedly delete all leaf nodes having value X until no such leaf remains.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree. • The last line contains X.",
+    "output": "• Print the resulting tree.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001698.c",
+    "fileSHA": "3905923e99ac519ecf2c50135dfed50c58c89be3bd53e2f3c83ae2546dc3f397",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.379Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "88d06b1b13007d26cdf0e343889d51874374e00dfd6007742327988824967f89",
+    "normalizedCodeHash": "3905923e99ac519ecf2c50135dfed50c58c89be3bd53e2f3c83ae2546dc3f397",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.379Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

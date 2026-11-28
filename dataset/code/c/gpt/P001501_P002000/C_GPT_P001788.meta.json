@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001788",
+  "problemId": "P001788",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001788",
+    "title": "Delete a Key from a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree and a key, delete the key while preserving the Binary Search Tree property.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST. • The last line contains the key.",
+    "output": "• Print the resulting BST.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001788.c",
+    "fileSHA": "3ee78aa738e5b872b45f50912d83121d0fbe43cc2fbd94ce332997f7afb3d12f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.665Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "daba3841f8c025828590b27d267cba7799a9dd90dae7fd2bbe34be9d01b3744f",
+    "normalizedCodeHash": "3ee78aa738e5b872b45f50912d83121d0fbe43cc2fbd94ce332997f7afb3d12f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.665Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

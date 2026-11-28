@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001833",
+  "problemId": "P001833",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001833",
+    "title": "Count Dead Ends in a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree containing positive integers, determine the number of dead-end nodes where no further insertion is possible while maintaining the BST property.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST.",
+    "output": "\u2022 Print the number of dead ends.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0144_binary_tree_preorder_traversal/bst_preorder.c",
+    "fileSHA": "a5372fa04e8e80f1b128c8ec1b595eb7f5697490",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0144_binary_tree_preorder_traversal/bst_preorder.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0144_binary_tree_preorder_traversal/bst_preorder.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e2adf72baf0211d2df20c6299de9a554db2f3d3c4469b95a4dd1d34c1f922fdc",
+    "normalizedCodeHash": "e2adf72baf0211d2df20c6299de9a554db2f3d3c4469b95a4dd1d34c1f922fdc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:25:49.560883+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

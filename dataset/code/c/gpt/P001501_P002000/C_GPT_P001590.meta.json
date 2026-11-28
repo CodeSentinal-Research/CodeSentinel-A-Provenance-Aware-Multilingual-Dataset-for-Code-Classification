@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001590",
+  "problemId": "P001590",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001590",
+    "title": "Maximum Robots Within Budget",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "You are given two arrays representing the charge times and running costs of robots, along with a budget. Determine the maximum number of consecutive robots that can be operated without exceeding the budget.",
+    "input": "• First line contains N and Budget. • Second line contains N integers representing charge times. • Third line contains N integers representing running costs.",
+    "output": "• Print the maximum number of consecutive robots that can be operated.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • 1 ≤ Budget ≤ 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001590.c",
+    "fileSHA": "4b0ae85b0ad02513c072101f6ed390cb17c9861e36ab56b396767dbe51099ebf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.868Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "4e7db87976205e6e62add9775841837e8d77517643a2ba6ae150ebf0c2771e75",
+    "normalizedCodeHash": "4b0ae85b0ad02513c072101f6ed390cb17c9861e36ab56b396767dbe51099ebf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.868Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,1 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const[n,d]=l[0].split(' ').map(Number);const a=l[1].split(' ').map(Number);const s=new Set(a);let found=false;for(const v of a)if(d!==0&&s.has(v+d)){found=true;break;}console.log(found?'Yes':'No');

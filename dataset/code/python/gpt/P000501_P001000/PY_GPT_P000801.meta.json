@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000801",
+  "problemId": "P000801",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000801",
+    "title": "Matrix Block Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N × M matrix and an integer K, construct another matrix where each cell contains the sum of all elements whose row and column distances from the current cell are at most K. Use a 2D prefix sum to compute the result efficiently.",
+    "input": "Integer N Integer M Matrix grid Integer K",
+    "output": "The resulting matrix.",
+    "constraints": "1 <= N, M <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000801.py",
+    "fileSHA": "4b041e419332a71ba5c297b92fa8277fbb26bd8294a955efabde4bd2952d8ccd",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.102427+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4b041e419332a71ba5c297b92fa8277fbb26bd8294a955efabde4bd2952d8ccd",
+    "normalizedCodeHash": "f0d4ac951da3b853b7b91f317af0a86480f95d100760864b95b34f9f9552868c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.102427+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

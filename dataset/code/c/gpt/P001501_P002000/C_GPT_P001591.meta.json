@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001591",
+  "problemId": "P001591",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001591",
+    "title": "Range Sum Query",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, each consisting of two indices L and R, determine the sum of elements from index L to R (inclusive).",
+    "input": "• First line contains N. • Second line contains N integers. • Third line contains Q. • Next Q lines each contain L and R.",
+    "output": "• For each query, print the required sum.",
+    "constraints": "• 1 ≤ N, Q ≤ 2 × 10^5 • -10^9 ≤ Ai ≤ 10^9 • 0 ≤ L ≤ R < N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001591.c",
+    "fileSHA": "c0b9a6259250e89757f5f8206ecd50c45bb6a941e62b1004b1d05d2d77f533b3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.882Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a2a2e002873c2d04765bf26a1817a919104b030c76033a92dbe599b2e71ee035",
+    "normalizedCodeHash": "c0b9a6259250e89757f5f8206ecd50c45bb6a941e62b1004b1d05d2d77f533b3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.883Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

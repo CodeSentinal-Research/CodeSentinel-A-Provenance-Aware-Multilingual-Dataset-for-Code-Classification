@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001654",
+  "problemId": "P001654",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001654",
+    "title": "Recover a Corrupted Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "A binary tree originally satisfied the property that every parent-child relationship followed the given ordering rule, but exactly one node contains an incorrect value due to data corruption. Restore the corrupted node so that the original property of the tree is satisfied again.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the corrected tree in the required traversal format.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2 \u00d7 10^5 \u2022 Exactly one node value is incorrect."
+  },
+  "repository": {
+    "name": "playground-devs/java-playground",
+    "owner": "playground-devs",
+    "url": "https://github.com/playground-devs/java-playground",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/playground/java/interview/bst/RecoverBST.java",
+    "fileSHA": "2354ee1391896c6deaacd2f6675f2129f3b070e4",
+    "url": "https://github.com/playground-devs/java-playground/blob/cc48d86bc6aff72190984253990f1dcce80c8fb5/src/main/java/com/playground/java/interview/bst/RecoverBST.java",
+    "rawUrl": "https://raw.githubusercontent.com/playground-devs/java-playground/main/src/main/java/com/playground/java/interview/bst/RecoverBST.java"
+  },
+  "matching": {
+    "relevanceScore": 80.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e74009453f6d8ce3487178b4f04d9e4ed0e1fe641ee479e9c3c74f33f4d929b8",
+    "normalizedCodeHash": "e74009453f6d8ce3487178b4f04d9e4ed0e1fe641ee479e9c3c74f33f4d929b8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T00:15:33.265951+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

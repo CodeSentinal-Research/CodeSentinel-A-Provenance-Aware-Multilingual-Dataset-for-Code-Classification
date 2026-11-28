@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000608",
+  "problemId": "P000608",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000608",
+    "title": "Linked List in Binary Tree",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and the root of a binary tree, determine whether the linked list exists as a downward path in the binary tree. A downward path starts at any node and proceeds only through child pointers. Return true if such a path exists; otherwise return false.",
+    "input": "Linked list Binary tree",
+    "output": "true if the linked list appears as a downward path, otherwise false.",
+    "constraints": "Number of linked list nodes is in the range [1, 100] Number of tree nodes is in the range [1, 2500] -100 <= node.value <= 100"
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/cpp/convertSortedListToBinarySearchTree/convertSortedListToBinarySearchTree.cpp",
+    "fileSHA": "7474cf17488934138140e94bddc8a096c7cb977f",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/cpp/convertSortedListToBinarySearchTree/convertSortedListToBinarySearchTree.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/cpp/convertSortedListToBinarySearchTree/convertSortedListToBinarySearchTree.cpp"
+  },
+  "matching": {
+    "relevanceScore": 80.75
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0249b9a4972182472b898b4e2db582e5ce71f05b2115a596f8bd5553983e9253",
+    "normalizedCodeHash": "0249b9a4972182472b898b4e2db582e5ce71f05b2115a596f8bd5553983e9253",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:44:18.802170+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000956",
+  "problemId": "P000956",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000956",
+    "title": "Linear Congruence Solver",
+    "category": "Mathematics - Extended Euclidean Algorithm",
+    "difficulty": "Hard",
+    "problemStatement": "Given integers A, B, and M, solve the congruence: A × X ≡ B (mod M) Return the smallest non-negative solution if one exists; otherwise return -1.",
+    "input": "Integer A Integer B Integer M",
+    "output": "The smallest valid solution or -1.",
+    "constraints": "1 <= A, B, M <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000956.js",
+    "fileSHA": "dacf02ec89a900933a722deba12b0b29a26b15bbae74f00cd87ce0c7fc48f9b7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "dacf02ec89a900933a722deba12b0b29a26b15bbae74f00cd87ce0c7fc48f9b7",
+    "normalizedCodeHash": "dacf02ec89a900933a722deba12b0b29a26b15bbae74f00cd87ce0c7fc48f9b7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

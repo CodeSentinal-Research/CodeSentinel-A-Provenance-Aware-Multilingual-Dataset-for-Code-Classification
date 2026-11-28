@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000850",
+  "problemId": "P000850",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000850",
+    "title": "Check K-th Bit Set",
+    "category": "Bit Manipulation",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer N and an integer K, determine whether the K-th bit (0-indexed from the right) is set.",
+    "input": "Integer N Integer K",
+    "output": "true if the bit is set, otherwise false.",
+    "constraints": "0 <= K <= 31"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/bitmanipulation/ClearLeftmostSetBit.java",
+    "fileSHA": "3e9a4a21183f3b5b3146955b8c935cb95230ca10",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/bitmanipulation/ClearLeftmostSetBit.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/bitmanipulation/ClearLeftmostSetBit.java"
+  },
+  "matching": {
+    "relevanceScore": 80.0
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3037739ca849729500682b3e8499b51ee151ef4adb6a39711d1e43f0e4162541",
+    "normalizedCodeHash": "3037739ca849729500682b3e8499b51ee151ef4adb6a39711d1e43f0e4162541",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:54:44.669771+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

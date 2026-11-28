@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001410",
+  "problemId": "P001410",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001410",
+    "title": "Count Bad Pairs",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array, count the number of pairs (i, j) where i < j and j - i \u2260 nums[j] - nums[i].",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the number of bad pairs.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001410",
+    "fileSHA": "018981e786290b4a70a91469ddcc5287c0db007b6cfdd370abe0ea252326770d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:24:59.688602+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "018981e786290b4a70a91469ddcc5287c0db007b6cfdd370abe0ea252326770d",
+    "normalizedCodeHash": "018981e786290b4a70a91469ddcc5287c0db007b6cfdd370abe0ea252326770d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:24:59.688628+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000404",
+  "problemId": "P000404",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000404",
+    "title": "Search Doctors by Specialization",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Retrieve all doctors having the specified specialization.",
+    "input": "Doctor records and a specialization.",
+    "output": "Matching doctor records.",
+    "constraints": "1 ≤ Number of Doctors ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000404.py",
+    "fileSHA": "ccf41569459d95e196eead560ba641b3679a0770fc48f78c5ed3eb4d306eda36",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:02.405036+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ccf41569459d95e196eead560ba641b3679a0770fc48f78c5ed3eb4d306eda36",
+    "normalizedCodeHash": "d7fb3735b622a6b86ce4ed6983cbbaf63eb41cbf7ef310f880c6d0ffd9074851",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:02.405036+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

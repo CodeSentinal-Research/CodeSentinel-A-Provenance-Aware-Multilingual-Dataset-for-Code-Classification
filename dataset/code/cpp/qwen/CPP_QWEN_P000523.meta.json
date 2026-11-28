@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000523",
+  "problemId": "P000523",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000523",
+    "title": "Remove Nodes From Linked List",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list, remove every node that has a node with a greater value somewhere to its right. Return the head of the modified linked list.",
+    "input": "Integer n Values of the linked list.",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= node.value <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000523",
+    "fileSHA": "18a2ed5dd7d26dd6c3f56e6294a57e02315d15cfa9b5939364105f9783737e75",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.439Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "df858a5881b7db49ea47db450ad56efdc1d629088d0003982d3dee644e4190ec",
+    "normalizedCodeHash": "b63e5e4c9b51fc48766966136191a3af997e12b3ce7cb326abbac25a7d7d9d4e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.439Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001166",
+  "problemId": "P001166",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001166",
+    "title": "Maximum Circular Subarray Sum",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given a circular array of integers, determine the maximum possible sum of a non-empty contiguous subarray.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the maximum circular subarray sum.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "trekhleb/javascript-algorithms",
+    "owner": "trekhleb",
+    "url": "https://github.com/trekhleb/javascript-algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/algorithms/sets/maximum-subarray/dpMaximumSubarray.js",
+    "fileSHA": "ef1734b4861b8853843014328837d0ae0dcfce3c",
+    "url": "https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/sets/maximum-subarray/dpMaximumSubarray.js",
+    "rawUrl": "https://raw.githubusercontent.com/trekhleb/javascript-algorithms/master/src/algorithms/sets/maximum-subarray/dpMaximumSubarray.js"
+  },
+  "matching": {
+    "relevanceScore": 61.88
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "30f61a58c71ce3b96ae7891ec4112ec4205a8b2e762cacdea8f4f22ace0fc345",
+    "normalizedCodeHash": "30f61a58c71ce3b96ae7891ec4112ec4205a8b2e762cacdea8f4f22ace0fc345",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T10:33:36.487751+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

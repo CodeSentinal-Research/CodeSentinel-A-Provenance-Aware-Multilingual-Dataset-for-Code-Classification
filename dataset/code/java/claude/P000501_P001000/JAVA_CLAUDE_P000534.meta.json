@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000534",
+  "problemId": "P000534",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000534",
+    "title": "Dota2 Senate",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "In the Dota2 senate, senators belong to one of two parties: 'R' (Radiant) 'D' (Dire) The voting proceeds in rounds. During each round, senators act in their current order. A senator who still has voting rights may ban one senator from the opposing party. A banned senator loses all future rights. Assuming every senator acts optimally for their party, determine which party will eventually win.",
+    "input": "A string representing the initial senate order.",
+    "output": "Print \"Radiant\" or \"Dire\".",
+    "constraints": "1 <= senate.length <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000534",
+    "fileSHA": "67a43e1a8b6d6519584533240fe283ac5649ee6a29f16c518e73573e9e5ecc01",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "67a43e1a8b6d6519584533240fe283ac5649ee6a29f16c518e73573e9e5ecc01",
+    "normalizedCodeHash": "67a43e1a8b6d6519584533240fe283ac5649ee6a29f16c518e73573e9e5ecc01",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000534: Dota2 Senate"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

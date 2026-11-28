@@ -1,0 +1,8 @@
+# problem title : Check K-th Bit Set
+# Solve the stated task using standard input and standard output.
+def is_kth_bit_set(n: int, k: int) -> bool:
+    return (n & (1 << k)) != 0
+
+if __name__ == '__main__':
+    n, k = map(int, input().split())
+    print("YES" if is_kth_bit_set(n, k) else "NO")

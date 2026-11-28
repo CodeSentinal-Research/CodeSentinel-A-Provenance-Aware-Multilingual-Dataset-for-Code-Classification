@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000469",
+  "problemId": "P000469",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000469",
+    "title": "Search for a Range",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that returns the range [low, high] of indices where target appears in a sorted array.",
+    "input": "First line contains N and target. Second line contains N sorted integers.",
+    "output": "Low and high index or -1 -1.",
+    "constraints": "1 ≤ N ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000469",
+    "fileSHA": "8ad57e0f7bf152d9498d0faf1cf7b02402d733e4668bf9f2b1be0f46ca3b793b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8ad57e0f7bf152d9498d0faf1cf7b02402d733e4668bf9f2b1be0f46ca3b793b",
+    "normalizedCodeHash": "8ad57e0f7bf152d9498d0faf1cf7b02402d733e4668bf9f2b1be0f46ca3b793b",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000469: Search for a Range"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

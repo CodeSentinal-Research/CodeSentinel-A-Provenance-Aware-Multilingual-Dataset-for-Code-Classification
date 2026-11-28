@@ -1,0 +1,50 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm>
+#include <cmath>
+#include <climits>
+#include <cstdint>
+#include <queue>
+#include <stack>
+#include <unordered_map>
+#include <unordered_set>
+#include <map>
+#include <set>
+#include <numeric>
+#include <sstream>
+using namespace std;
+
+//Problem: Minimum Cost to cut a board into squares
+//geeksforgeeks problem of the day -> 13th September 2025
+// C++ CODE
+class Solution {
+  public:
+    int minCost(int n, int m, vector<int>& x, vector<int>& y) {
+        sort(x.rbegin(), x.rend());
+        sort(y.rbegin(), y.rend());
+        int i = 0, j = 0;
+        long long cost = 0;
+        long long horizontal_segments = 1, vertical_segments = 1;
+        while (i < (int)x.size() && j < (int)y.size()) {
+            if (x[i] > y[j]) {
+                cost += 1LL * x[i] * horizontal_segments;
+                vertical_segments++;
+                i++;
+            } else {
+                cost += 1LL * y[j] * vertical_segments;
+                horizontal_segments++;
+                j++;
+            }
+        }
+        while (i < (int)x.size()) {
+            cost += 1LL * x[i] * horizontal_segments;
+            i++;
+        }
+        while (j < (int)y.size()) {
+            cost += 1LL * y[j] * vertical_segments;
+            j++;
+        }
+        return (int)cost;
+    }
+};

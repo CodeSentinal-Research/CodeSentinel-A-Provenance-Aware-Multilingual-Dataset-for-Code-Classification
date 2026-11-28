@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001631",
+  "problemId": "P001631",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001631",
+    "title": "Number of Paths With Given Sum in a Grid",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M grid of integers and an integer Target, determine the number of paths from the top-left cell to the bottom-right cell such that the sum of values along the path is exactly Target. You may only move right or down.",
+    "input": "\u2022 First line contains N, M, and Target. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the number of valid paths.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 30 \u2022 -100 \u2264 Grid[i][j] \u2264 100"
+  },
+  "repository": {
+    "name": "wisdompeak/LeetCode",
+    "owner": "wisdompeak",
+    "url": "https://github.com/wisdompeak/LeetCode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "DFS/2328.Number-of-Increasing-Paths-in-a-Grid/2328.Number-of-Increasing-Paths-in-a-Grid_v1.cpp",
+    "fileSHA": "42e676a60af43c207fb1e8886c36edc5a02e09f0",
+    "url": "https://github.com/wisdompeak/LeetCode/blob/master/DFS/2328.Number-of-Increasing-Paths-in-a-Grid/2328.Number-of-Increasing-Paths-in-a-Grid_v1.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/wisdompeak/LeetCode/master/DFS/2328.Number-of-Increasing-Paths-in-a-Grid/2328.Number-of-Increasing-Paths-in-a-Grid_v1.cpp"
+  },
+  "matching": {
+    "relevanceScore": 66.08
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "93ac1417314fa92c2cfe7f22dad3a50e6306e9e6936da93d58665826419308a8",
+    "normalizedCodeHash": "93ac1417314fa92c2cfe7f22dad3a50e6306e9e6936da93d58665826419308a8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (C++ Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:46.314076+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

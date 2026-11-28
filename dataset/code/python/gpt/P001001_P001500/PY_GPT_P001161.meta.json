@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001161",
+  "problemId": "P001161",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001161",
+    "title": "Wildcard Pattern Matching",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given a text string and a pattern containing the wildcard characters '?' and '*', determine whether the pattern matches the entire text. The character '?' matches any single character, while '*' matches any sequence of characters (including an empty sequence).",
+    "input": "• First line contains the text string. • Second line contains the pattern string.",
+    "output": "Print YES if the pattern matches; otherwise print NO.",
+    "constraints": "• 1 ≤ Length of text, pattern ≤ 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001161.py",
+    "fileSHA": "155202b1fe8812c1464fd210d153bd37df6722cda55811e1172aad6c007861b7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.585311+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "155202b1fe8812c1464fd210d153bd37df6722cda55811e1172aad6c007861b7",
+    "normalizedCodeHash": "c8b503e05bb990edd2dd42b6e2f0c7c5b7bdfd6d840d59545064ebcc77d16c9f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.585311+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

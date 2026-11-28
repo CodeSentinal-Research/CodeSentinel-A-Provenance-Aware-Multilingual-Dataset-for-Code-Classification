@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001771",
+  "problemId": "P001771",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001771",
+    "title": "Find the Vertical Sum of a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree whose nodes contain integer values, determine the sum of node values in every vertical column.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print the vertical sums from the leftmost column to the rightmost column.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001771.c",
+    "fileSHA": "fa2a877f9abaac95b4b1f259bbbde348c1cd469a5b72f72cc69021ea2c2cc9fd",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.611Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "2e0108efa13d30ef9f9a5d5c42311eb68c5d5206aa3c159e8fb7f145a56417b6",
+    "normalizedCodeHash": "fa2a877f9abaac95b4b1f259bbbde348c1cd469a5b72f72cc69021ea2c2cc9fd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.611Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

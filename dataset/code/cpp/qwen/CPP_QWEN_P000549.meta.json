@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000549",
+  "problemId": "P000549",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000549",
+    "title": "Stack Permutation Check",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Given two integer arrays input and output of equal length, determine whether the output sequence can be obtained from the input sequence using a single stack. Simulate the process using a queue for the input sequence and a stack for intermediate storage. Return true if the transformation is possible; otherwise return false.",
+    "input": "Integer n Array input Array output",
+    "output": "true if the output sequence is valid, otherwise false.",
+    "constraints": "1 <= n <= 10^5 All elements are distinct."
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000549",
+    "fileSHA": "9d224b9e0be9f2a227eb2500a422aca0940882ec76dffc7dcd2716a3932633e0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.481Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "49120c0b625264bb7c2d41c940c63371f18344cfb2cbd74fbd342635f72abf64",
+    "normalizedCodeHash": "1e47315f98a512a19023483472de58e5946411a4eb88bb13ef5a881c6649bff3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.481Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);int r=sc.nextInt(),c=sc.nextInt();int[][]mat=new int[r][c];for(int i=0;i<r;i++)for(int j=0;j<c;j++)mat[i][j]=sc.nextInt();for(int i=0;i<r;i++)for(int j=0;j<c;j++){int v=mat[i][j];if((i==0||v>mat[i-1][j])&&(i==r-1||v>mat[i+1][j])&&(j==0||v>mat[i][j-1])&&(j==c-1||v>mat[i][j+1])){System.out.println(v);return;}}}}

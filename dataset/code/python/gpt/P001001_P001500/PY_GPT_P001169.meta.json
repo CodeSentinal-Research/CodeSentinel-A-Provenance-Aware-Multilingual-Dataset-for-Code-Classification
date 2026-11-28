@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001169",
+  "problemId": "P001169",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001169",
+    "title": "Dungeon Game",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "A knight must rescue a princess trapped in the bottom-right corner of a dungeon represented by a grid. Each cell may increase or decrease the knight's health. Determine the minimum initial health required so that the knight can safely reach the princess.",
+    "input": "• First line contains integers R and C. • Next R lines each contain C integers.",
+    "output": "Print the minimum initial health required.",
+    "constraints": "• 1 ≤ R, C ≤ 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001169.py",
+    "fileSHA": "8182715e954203b62103ac4c24cee41d2ed105c9b050a449de3fbfd57fc2ab01",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.627391+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8182715e954203b62103ac4c24cee41d2ed105c9b050a449de3fbfd57fc2ab01",
+    "normalizedCodeHash": "650e333779de6ae3243047e0f6928070f94e7ecc827e4b2805cde9a22998aba6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.627391+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001731",
+  "problemId": "P001731",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001731",
+    "title": "Convert a Binary Tree into a Threaded Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, convert it into an inorder threaded binary tree by replacing every null right pointer with a thread to its inorder successor.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the threaded binary tree in the required format.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001731",
+    "fileSHA": "5309bd49ec747b79b74dfec03f6b868b145fe9946a5d32ad35cfa53ac8cca474",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:37:24.154467+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5309bd49ec747b79b74dfec03f6b868b145fe9946a5d32ad35cfa53ac8cca474",
+    "normalizedCodeHash": "5309bd49ec747b79b74dfec03f6b868b145fe9946a5d32ad35cfa53ac8cca474",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:37:24.154497+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

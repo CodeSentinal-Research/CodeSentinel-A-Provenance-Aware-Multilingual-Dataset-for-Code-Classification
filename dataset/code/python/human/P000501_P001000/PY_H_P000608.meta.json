@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000608",
+  "problemId": "P000608",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000608",
+    "title": "Linked List in Binary Tree",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and the root of a binary tree, determine whether the linked list exists as a downward path in the binary tree. A downward path starts at any node and proceeds only through child pointers. Return true if such a path exists; otherwise return false.",
+    "input": "Linked list Binary tree",
+    "output": "true if the linked list appears as a downward path, otherwise false.",
+    "constraints": "Number of linked list nodes is in the range [1, 100] Number of tree nodes is in the range [1, 2500] -100 <= node.value <= 100"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/linked-list-in-binary-tree.py",
+    "fileSHA": "04c1f44abcfa1496aeecaab282ee48fe0bde65df",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/linked-list-in-binary-tree.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/linked-list-in-binary-tree.py"
+  },
+  "matching": {
+    "relevanceScore": 90.0
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e0dfd2ba8fc7690bb54af0e51265e9cab601ef01321afe41448f7ac84a016f0b",
+    "normalizedCodeHash": "e0dfd2ba8fc7690bb54af0e51265e9cab601ef01321afe41448f7ac84a016f0b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:11:02.990626+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

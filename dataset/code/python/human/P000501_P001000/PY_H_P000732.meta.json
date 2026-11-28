@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000732",
+  "problemId": "P000732",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000732",
+    "title": "Rat in a Maze",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N \u00d7 N binary matrix where 1 represents an open cell and 0 represents a blocked cell, find all possible paths from the top-left corner to the bottom-right corner. The rat may move only Up, Down, Left, and Right, and cannot visit the same cell more than once in a path. Print all valid paths in lexicographical order.",
+    "input": "Integer N Matrix maze",
+    "output": "All valid paths.",
+    "constraints": "1 <= N <= 10"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Python",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "backtracking/rat_in_maze.py",
+    "fileSHA": "626c83cb4a152669e7dcac8c31358d61f71f28f8",
+    "url": "https://github.com/TheAlgorithms/Python/blob/master/backtracking/rat_in_maze.py",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Python/master/backtracking/rat_in_maze.py"
+  },
+  "matching": {
+    "relevanceScore": 77.5
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a86e721f8289b2a7e69aa42cfa755328163687e24c209cf2d85e43a96e594b20",
+    "normalizedCodeHash": "a86e721f8289b2a7e69aa42cfa755328163687e24c209cf2d85e43a96e594b20",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:12:18.934179+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000516",
+  "problemId": "P000516",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000516",
+    "title": "Shortest Unsorted Continuous Subarray",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array, find the length of the shortest continuous subarray which, if sorted in ascending order, would make the entire array sorted. Return the length of that subarray.",
+    "input": "Integer n Array nums",
+    "output": "A single integer.",
+    "constraints": "1 <= n <= 10^5 -10^5 <= nums[i] <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000516.js",
+    "fileSHA": "162b8a36aa43249f456007f0a4bd955c8d1a960c6ef30185ec3431b197cdd0ed",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "162b8a36aa43249f456007f0a4bd955c8d1a960c6ef30185ec3431b197cdd0ed",
+    "normalizedCodeHash": "162b8a36aa43249f456007f0a4bd955c8d1a960c6ef30185ec3431b197cdd0ed",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

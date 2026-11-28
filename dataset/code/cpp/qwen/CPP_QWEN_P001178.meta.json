@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001178",
+  "problemId": "P001178",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001178",
+    "title": "Gold Mine Problem",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "A miner starts from any cell in the first column of a grid and moves only to the right, right-up, or right-down. Determine the maximum amount of gold that can be collected.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines each contain C integers representing gold values.",
+    "output": "Print the maximum gold collectible.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001178",
+    "fileSHA": "c3c0e7be1b7dd9c03c4fc730364563eff9d159b628e685936a26d4c94062905a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.867Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "6f478dc1ce24a6242b82514482715e7989be00d17062e1ce2e863d26a7de2190",
+    "normalizedCodeHash": "c4b039a2ab611aec083945bb849069e1e8659a91d69c75f628d7ee6912776b63",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.867Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000527",
+  "problemId": "P000527",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000527",
+    "title": "Parse Boolean Expression",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Given a boolean expression containing: t (true) f (false) ! (NOT) & (AND) | (OR) Parentheses and commas Evaluate the expression and return its boolean value.",
+    "input": "A valid boolean expression.",
+    "output": "Print true if the expression evaluates to true; otherwise print false.",
+    "constraints": "1 <= expression.length <= 2 \u00d7 10^4 The expression is valid."
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/data_structures/src/stack/balanced_expression/balanced_expression.c",
+    "fileSHA": "bfd0bce2e258573ceec08c87fbf93fac26de8a1c",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/data_structures/src/stack/balanced_expression/balanced_expression.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/data_structures/src/stack/balanced_expression/balanced_expression.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "cadcf6ffe85e724e2ac3bf797ba264e9d10020c6f1e46f0cf2ee7198e2e3d75c",
+    "normalizedCodeHash": "cadcf6ffe85e724e2ac3bf797ba264e9d10020c6f1e46f0cf2ee7198e2e3d75c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:04.046043+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

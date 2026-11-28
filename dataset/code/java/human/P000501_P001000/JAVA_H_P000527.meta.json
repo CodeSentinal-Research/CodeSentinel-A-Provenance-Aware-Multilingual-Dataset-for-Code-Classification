@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000527",
+  "problemId": "P000527",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000527",
+    "title": "Parse Boolean Expression",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Given a boolean expression containing: t (true) f (false) ! (NOT) & (AND) | (OR) Parentheses and commas Evaluate the expression and return its boolean value.",
+    "input": "A valid boolean expression.",
+    "output": "Print true if the expression evaluates to true; otherwise print false.",
+    "constraints": "1 <= expression.length <= 2 \u00d7 10^4 The expression is valid."
+  },
+  "repository": {
+    "name": "elastic/elasticsearch",
+    "owner": "elastic",
+    "url": "https://github.com/elastic/elasticsearch",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "x-pack/plugin/esql/src/main/java/org/elasticsearch/xpack/esql/expression/function/scalar/string/JsonPath.java",
+    "fileSHA": "420bf685bf807bc431fb2a3c834bd9606a112005",
+    "url": "https://github.com/elastic/elasticsearch/blob/94fe3e1670a2d58950bd3019fdb8b482388702cb/x-pack/plugin/esql/src/main/java/org/elasticsearch/xpack/esql/expression/function/scalar/string/JsonPath.java",
+    "rawUrl": "https://raw.githubusercontent.com/elastic/elasticsearch/main/x-pack/plugin/esql/src/main/java/org/elasticsearch/xpack/esql/expression/function/scalar/string/JsonPath.java"
+  },
+  "matching": {
+    "relevanceScore": 84.1
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e836a3939088d90e6759706fb4a6a7ad32151e8d3e40cc36e42baf8876642add",
+    "normalizedCodeHash": "e836a3939088d90e6759706fb4a6a7ad32151e8d3e40cc36e42baf8876642add",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:31:21.909642+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

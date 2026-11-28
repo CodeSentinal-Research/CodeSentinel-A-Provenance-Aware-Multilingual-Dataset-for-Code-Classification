@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);String s=sc.next();int k=sc.nextInt();int[][]stk=new int[s.length()][2];int top=0;for(char c:s.toCharArray()){if(top>0&&stk[top-1][0]==c){stk[top-1][1]++;if(stk[top-1][1]==k)top--;}else{stk[top][0]=c;stk[top][1]=1;top++;}}StringBuilder sb=new StringBuilder();for(int i=0;i<top;i++)for(int j=0;j<stk[i][1];j++)sb.append((char)stk[i][0]);System.out.println(sb);}}

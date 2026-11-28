@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001272",
+  "problemId": "P001272",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001272",
+    "title": "Jump Game VI",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array and an integer K, start at index 0 and reach the last index. From position i, you may jump to any index in the range [i+1, i+K]. Each visited element contributes to the score. Determine the maximum obtainable score.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the maximum score.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "trekhleb/javascript-algorithms",
+    "owner": "trekhleb",
+    "url": "https://github.com/trekhleb/javascript-algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/algorithms/uncategorized/jump-game/__test__/greedyJumpGame.test.js",
+    "fileSHA": "61efb6b66711f3c886bf3e8cace40ccff885fc52",
+    "url": "https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/uncategorized/jump-game/__test__/greedyJumpGame.test.js",
+    "rawUrl": "https://raw.githubusercontent.com/trekhleb/javascript-algorithms/master/src/algorithms/uncategorized/jump-game/__test__/greedyJumpGame.test.js"
+  },
+  "matching": {
+    "relevanceScore": 76.47
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "90b966ff2f959724c576ea01e3c8961f6a68ad0d9206d50bd51abf0fe9dc739b",
+    "normalizedCodeHash": "90b966ff2f959724c576ea01e3c8961f6a68ad0d9206d50bd51abf0fe9dc739b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T01:57:23.931731+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

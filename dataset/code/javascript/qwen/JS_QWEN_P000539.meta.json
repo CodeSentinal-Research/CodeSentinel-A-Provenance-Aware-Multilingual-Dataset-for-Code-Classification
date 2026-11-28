@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_QWEN_P000539",
+  "problemId": "P000539",
+  "language": "javascript",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000539",
+    "title": "First Unique Number",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Design a data structure that maintains a queue of integers and supports the following operations: showFirstUnique() \u2014 Return the first unique integer in the queue. If no unique integer exists, return -1. add(value) \u2014 Add an integer to the end of the queue. Initially, the queue is populated with a given list of integers. Process a sequence of operations and print the result for every showFirstUnique() operation.",
+    "input": "Integer n Array of n integers Integer q Next q operations",
+    "output": "Print the result for every showFirstUnique() operation.",
+    "constraints": "1 <= n, q <= 10^5 1 <= value <= 10^8"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/JS_QWEN_P000539",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

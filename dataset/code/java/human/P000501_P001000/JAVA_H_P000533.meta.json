@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000533",
+  "problemId": "P000533",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000533",
+    "title": "Moving Average from Data Stream",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Design a data structure that calculates the moving average of the last size values from a stream of integers. For each incoming value, return the average of the most recent size elements currently in the window.",
+    "input": "Integer size Integer q Next q integers representing the stream.",
+    "output": "For each inserted value, print the current moving average.",
+    "constraints": "1 <= size <= 10^5 1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "Masthan41/DSA-leetcode-solutions",
+    "owner": "Masthan41",
+    "url": "https://github.com/Masthan41/DSA-leetcode-solutions",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Queues/LC346_MovingAverage.java",
+    "fileSHA": "bb3d1d6cf3456060fda8d2d6ee7f27388e74750a",
+    "url": "https://github.com/Masthan41/DSA-leetcode-solutions/blob/c69ffd3e1133f844500af942c29eb61baae22bf3/Queues/LC346_MovingAverage.java",
+    "rawUrl": "https://raw.githubusercontent.com/Masthan41/DSA-leetcode-solutions/main/Queues/LC346_MovingAverage.java"
+  },
+  "matching": {
+    "relevanceScore": 75.0
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6995d832f075fabf1cc6077420649e964fa8a1f1dbc41336c7357a80993138c1",
+    "normalizedCodeHash": "6995d832f075fabf1cc6077420649e964fa8a1f1dbc41336c7357a80993138c1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:44:07.036226+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

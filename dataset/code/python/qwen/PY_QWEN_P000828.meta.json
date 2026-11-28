@@ -1,0 +1,75 @@
+{
+ "solutionId": "PY_QWEN_P000828",
+ "problemId": "P000828",
+ "language": "python",
+ "label": "qwen_generated",
+ "problem": {
+  "problemId": "P000828",
+  "title": "Find Right Interval",
+  "category": "Binary Search",
+  "difficulty": "Medium",
+  "problemStatement": "You are given a list of intervals. For each interval, find another interval whose start point is the smallest value greater than or equal to the current interval's end point. If no such interval exists, return -1 for that interval.",
+  "input": "Integer n Array intervals, where each interval is represented as [start, end]",
+  "output": "An array of indices representing the right interval for every interval.",
+  "constraints": "1 <= n <= 2 \u00d7 10^5 All interval start values are unique."
+ },
+ "repository": {
+  "name": "qwen-python-solutions",
+  "owner": "qwen",
+  "url": "https://github.com/qwen/qwen-python-solutions",
+  "defaultBranch": "main",
+  "license": "MIT",
+  "stars": 0,
+  "forks": 0,
+  "fork": false,
+  "createdAt": "",
+  "updatedAt": "",
+  "pushedAt": "",
+  "language": "python",
+  "disabled": false,
+  "archived": false,
+  "private": false
+ },
+ "source": {
+  "path": "py/qwen/P000828/P000828.py",
+  "fileSHA": "AI_GENERATED",
+  "commitSHA": "AI_GENERATED",
+  "url": "N/A",
+  "rawUrl": "N/A"
+ },
+ "matching": {
+  "relevanceScore": 100.0
+ },
+ "provenance": {
+  "score": 100.0,
+  "level": "AI_GENERATED",
+  "preCutoffEvidence": false,
+  "firstCommitDate": "2026-08-22T12:00:00Z",
+  "lastCommitDate": "2026-08-22T12:00:00Z",
+  "commitCount": 1,
+  "authorCount": 1,
+  "authors": [
+   "Qwen AI"
+  ],
+  "firstKnownAuthor": "Qwen AI",
+  "latestKnownAuthor": "Qwen AI"
+ },
+ "deduplication": {
+  "rawCodeHash": "N/A",
+  "normalizedCodeHash": "N/A",
+  "duplicate": false,
+  "duplicateOf": null
+ },
+ "validation": {
+  "syntaxValid": true,
+  "utf8Valid": true,
+  "nonEmpty": true,
+  "isText": true,
+  "hasGeneratedMarkers": false,
+  "reason": null
+ },
+ "collection": {
+  "collectedAt": "2026-08-22T12:00:00.000000+00:00",
+  "pipelineVersion": "1.0.0"
+ }
+}

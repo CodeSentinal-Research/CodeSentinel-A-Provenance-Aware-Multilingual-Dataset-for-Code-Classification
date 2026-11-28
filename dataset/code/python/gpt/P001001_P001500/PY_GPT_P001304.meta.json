@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001304",
+  "problemId": "P001304",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001304",
+    "title": "Minimum Cost to Cut a Board",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "A rectangular board must be cut into 1 × 1 squares. Each horizontal and vertical cut has an associated cost. Determine the minimum total cost required to cut the entire board.",
+    "input": "• First line contains integers R and C. • Second line contains R−1 integers representing horizontal cut costs. • Third line contains C−1 integers representing vertical cut costs.",
+    "output": "Print the minimum total cutting cost.",
+    "constraints": "• 2 ≤ R, C ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001304.py",
+    "fileSHA": "d0e5160e2bb01886ef7d4fa93cab4fa990f8b1e7ecb43267bdd00fd6fcfc22a3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.213468+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d0e5160e2bb01886ef7d4fa93cab4fa990f8b1e7ecb43267bdd00fd6fcfc22a3",
+    "normalizedCodeHash": "5e8518ead27162942e1cb5ea1c05287f37cb0df472e17829b7638a9a55f88a86",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.213468+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

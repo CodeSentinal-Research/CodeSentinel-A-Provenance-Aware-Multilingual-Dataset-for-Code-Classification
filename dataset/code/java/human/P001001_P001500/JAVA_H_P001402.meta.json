@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001402",
+  "problemId": "P001402",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001402",
+    "title": "Check If Array Pairs Are Divisible by K",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of even length and an integer K, determine whether the array can be partitioned into pairs such that the sum of every pair is divisible by K.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print YES if such a pairing exists; otherwise print NO.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2\u00d710^5 \u2022 N is even"
+  },
+  "repository": {
+    "name": "chentong2015/AlgorithmDataStructures",
+    "owner": "chentong2015",
+    "url": "https://github.com/chentong2015/AlgorithmDataStructures",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "effective-leetcode/src/main/java/leetcode4/ArrayPairsDivisibleByK.java",
+    "fileSHA": "707fcbb4f09539af7016f7b3981074e09c1ce75c",
+    "url": "https://github.com/chentong2015/AlgorithmDataStructures/blob/ec5f10404f065896ba5434a1be38760fd420147b/effective-leetcode/src/main/java/leetcode4/ArrayPairsDivisibleByK.java",
+    "rawUrl": "https://raw.githubusercontent.com/chentong2015/AlgorithmDataStructures/main/effective-leetcode/src/main/java/leetcode4/ArrayPairsDivisibleByK.java"
+  },
+  "matching": {
+    "relevanceScore": 83.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "00c52b2e2fefa0174f9322730affad720ab5b1f569368c42b842003068806d41",
+    "normalizedCodeHash": "00c52b2e2fefa0174f9322730affad720ab5b1f569368c42b842003068806d41",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T08:59:04.917256+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001100",
+  "problemId": "P001100",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001100",
+    "title": "Dynamic Connectivity Queries",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "You are given N vertices and Q online operations. Each operation is one of the following: \u2022 Add an edge between two vertices. \u2022 Determine whether two specified vertices are currently connected. Process all queries efficiently.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Next Q lines describe the operations.",
+    "output": "For every connectivity query, print YES or NO.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "Katya1803/leetcode-dsa",
+    "owner": "Katya1803",
+    "url": "https://github.com/Katya1803/leetcode-dsa",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/leetcode/algorithms/graphs/UnionFind.java",
+    "fileSHA": "17f6defaed29b488781f0283782d996777ed660d",
+    "url": "https://github.com/Katya1803/leetcode-dsa/blob/c6b88b1b0496bbd689364ba3d8d27b08e92ece33/src/main/java/com/leetcode/algorithms/graphs/UnionFind.java",
+    "rawUrl": "https://raw.githubusercontent.com/Katya1803/leetcode-dsa/main/src/main/java/com/leetcode/algorithms/graphs/UnionFind.java"
+  },
+  "matching": {
+    "relevanceScore": 65.79
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "568e4a3f2d0a01033de8c9403d23d32414f8825583ce2c3489e9f51261276fec",
+    "normalizedCodeHash": "568e4a3f2d0a01033de8c9403d23d32414f8825583ce2c3489e9f51261276fec",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:16:47.842587+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

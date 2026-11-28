@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001388",
+  "problemId": "P001388",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001388",
+    "title": "Count Distinct Elements in Every Window",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and a window size K, determine the number of distinct elements in every contiguous subarray of size K.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the distinct element count for each window.",
+    "constraints": "\u2022 1 \u2264 K \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/0239-sliding-window-maximum.c",
+    "fileSHA": "fba51ec8908625fc4f1c72f8d571a5091775d74a",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/c/0239-sliding-window-maximum.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/0239-sliding-window-maximum.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "82399e98381565a899acf2b06e3c38d2e0d95010e39a24913dbda4f5b357989b",
+    "normalizedCodeHash": "82399e98381565a899acf2b06e3c38d2e0d95010e39a24913dbda4f5b357989b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:44:44.388487+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

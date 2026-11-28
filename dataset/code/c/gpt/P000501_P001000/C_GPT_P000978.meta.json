@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000978",
+  "problemId": "P000978",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000978",
+    "title": "Determine Triangle Type from Coordinates",
+    "category": "Mathematics - Geometry",
+    "difficulty": "Medium",
+    "problemStatement": "Given the coordinates of three points, determine whether the triangle formed is: Equilateral Isosceles Scalene If the points are collinear, output \"Not a Triangle\".",
+    "input": "Three coordinate pairs",
+    "output": "The type of triangle.",
+    "constraints": "-10^9 <= coordinates <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000978.c",
+    "fileSHA": "2ad452dda374f47fd56f2b6ec3c722d354b9ac5723620c79ba639ac944a15df6",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2ad452dda374f47fd56f2b6ec3c722d354b9ac5723620c79ba639ac944a15df6",
+    "normalizedCodeHash": "2ad452dda374f47fd56f2b6ec3c722d354b9ac5723620c79ba639ac944a15df6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

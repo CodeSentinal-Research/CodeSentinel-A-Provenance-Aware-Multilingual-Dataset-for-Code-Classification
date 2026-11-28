@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000717",
+  "problemId": "P000717",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000717",
+    "title": "Palindrome Partitioning",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string s, partition it into substrings such that every substring is a palindrome. Return all possible palindrome partitions.",
+    "input": "String s",
+    "output": "All valid palindrome partitions.",
+    "constraints": "1 <= |s| <= 16"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000717.c",
+    "fileSHA": "a225141f91a527cd6f9733d84a98e2a7dc209ebb17288ee8db35a7e9957a06bb",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a225141f91a527cd6f9733d84a98e2a7dc209ebb17288ee8db35a7e9957a06bb",
+    "normalizedCodeHash": "a225141f91a527cd6f9733d84a98e2a7dc209ebb17288ee8db35a7e9957a06bb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

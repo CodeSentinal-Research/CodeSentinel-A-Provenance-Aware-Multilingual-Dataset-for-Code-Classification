@@ -1,0 +1,75 @@
+{
+ "solutionId": "PY_QWEN_P001107",
+ "problemId": "P001107",
+ "language": "python",
+ "label": "qwen_generated",
+ "problem": {
+  "problemId": "P001107",
+  "title": "Transitive Closure of a Directed Graph",
+  "category": "Graphs",
+  "difficulty": "Medium",
+  "problemStatement": "Given a directed graph with N vertices, determine whether every vertex is reachable from every other vertex. Output the complete reachability matrix.",
+  "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain directed edges.",
+  "output": "Print an N \u00d7 N matrix where the value at row i and column j is 1 if vertex j is reachable from i, otherwise 0.",
+  "constraints": "\u2022 1 \u2264 N \u2264 500 \u2022 0 \u2264 M \u2264 N(N\u22121)"
+ },
+ "repository": {
+  "name": "qwen-python-solutions",
+  "owner": "qwen",
+  "url": "https://github.com/qwen/qwen-python-solutions",
+  "defaultBranch": "main",
+  "license": "MIT",
+  "stars": 0,
+  "forks": 0,
+  "fork": false,
+  "createdAt": "",
+  "updatedAt": "",
+  "pushedAt": "",
+  "language": "python",
+  "disabled": false,
+  "archived": false,
+  "private": false
+ },
+ "source": {
+  "path": "py/qwen/P001107/P001107.py",
+  "fileSHA": "AI_GENERATED",
+  "commitSHA": "AI_GENERATED",
+  "url": "N/A",
+  "rawUrl": "N/A"
+ },
+ "matching": {
+  "relevanceScore": 100.0
+ },
+ "provenance": {
+  "score": 100.0,
+  "level": "AI_GENERATED",
+  "preCutoffEvidence": false,
+  "firstCommitDate": "2026-08-22T12:00:00Z",
+  "lastCommitDate": "2026-08-22T12:00:00Z",
+  "commitCount": 1,
+  "authorCount": 1,
+  "authors": [
+   "Qwen AI"
+  ],
+  "firstKnownAuthor": "Qwen AI",
+  "latestKnownAuthor": "Qwen AI"
+ },
+ "deduplication": {
+  "rawCodeHash": "N/A",
+  "normalizedCodeHash": "N/A",
+  "duplicate": false,
+  "duplicateOf": null
+ },
+ "validation": {
+  "syntaxValid": true,
+  "utf8Valid": true,
+  "nonEmpty": true,
+  "isText": true,
+  "hasGeneratedMarkers": false,
+  "reason": null
+ },
+ "collection": {
+  "collectedAt": "2026-08-22T12:00:00.000000+00:00",
+  "pipelineVersion": "1.0.0"
+ }
+}

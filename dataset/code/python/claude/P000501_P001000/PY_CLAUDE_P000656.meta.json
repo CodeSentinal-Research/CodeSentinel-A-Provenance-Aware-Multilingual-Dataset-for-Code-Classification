@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000656",
+  "problemId": "P000656",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000656",
+    "title": "Flatten Linked List with Bottom Pointers",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a linked list where each node contains: next pointer bottom pointer Each bottom list is individually sorted. Flatten the entire structure into a single sorted linked list using only the bottom pointers. Return the head of the flattened list.",
+    "input": "A linked list with next and bottom pointers.",
+    "output": "The head of the flattened sorted linked list.",
+    "constraints": "Total number of nodes is in the range [0, 10^5]"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000656",
+    "fileSHA": "132bf520ba7aa0055d0d0ab1215f373fb5c365e0a3953bf608b0bfda7a890fda",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "132bf520ba7aa0055d0d0ab1215f373fb5c365e0a3953bf608b0bfda7a890fda",
+    "normalizedCodeHash": "132bf520ba7aa0055d0d0ab1215f373fb5c365e0a3953bf608b0bfda7a890fda",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique py P000656: Flatten Linked List with Bottom Pointers"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

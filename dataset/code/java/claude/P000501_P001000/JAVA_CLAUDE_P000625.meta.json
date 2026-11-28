@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000625",
+  "problemId": "P000625",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000625",
+    "title": "Rotate Doubly Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a doubly linked list and an integer k, rotate the list counterclockwise by k nodes. Return the head of the rotated doubly linked list.",
+    "input": "Integer n Doubly linked list Integer k",
+    "output": "The rotated doubly linked list.",
+    "constraints": "1 <= n <= 10^5 0 <= k <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000625",
+    "fileSHA": "0121764215994882289925d526890fdc9ab62d373b3382cc91f368c2a45e012d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0121764215994882289925d526890fdc9ab62d373b3382cc91f368c2a45e012d",
+    "normalizedCodeHash": "0121764215994882289925d526890fdc9ab62d373b3382cc91f368c2a45e012d",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000625"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

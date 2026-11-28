@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001635",
+  "problemId": "P001635",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001635",
+    "title": "Count Submatrices With Equal Number of Zeros and Ones",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary matrix, determine the number of rectangular submatrices containing an equal number of 0s and 1s.",
+    "input": "• First line contains N and M. • Next N lines each contain M binary integers.",
+    "output": "• Print the required count.",
+    "constraints": "• 1 ≤ N, M ≤ 300 • Matrix elements are either 0 or 1."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001635.c",
+    "fileSHA": "b26da7c7955fff797877f0fe1b494949e1d7c6464f250e4702b2cf440208b4fe",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.060Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "7acdbf0123b8e22ee402e4d35e3ad3cfd2d7614cad913b7caf1da5928ac8afce",
+    "normalizedCodeHash": "b26da7c7955fff797877f0fe1b494949e1d7c6464f250e4702b2cf440208b4fe",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.060Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

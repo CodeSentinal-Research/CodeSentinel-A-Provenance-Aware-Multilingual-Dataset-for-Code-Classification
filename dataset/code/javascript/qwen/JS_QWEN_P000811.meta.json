@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_QWEN_P000811",
+  "problemId": "P000811",
+  "language": "javascript",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000811",
+    "title": "Guess Number Higher or Lower",
+    "category": "Binary Search",
+    "difficulty": "Easy",
+    "problemStatement": "A hidden number is chosen between 1 and n. You are provided with an API: guess(num) returns: o -1 if the hidden number is lower. o 1 if the hidden number is higher. o 0 if the guess is correct. Find the hidden number using binary search.",
+    "input": "Integer n",
+    "output": "The hidden number.",
+    "constraints": "1 <= n <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/JS_QWEN_P000811",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001192",
+  "problemId": "P001192",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001192",
+    "title": "House Robber II",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "There are N houses arranged in a circle. Adjacent houses cannot both be robbed, and the first and last houses are also adjacent. Determine the maximum amount that can be robbed.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing money in each house.",
+    "output": "Print the maximum obtainable amount.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/dynamic_programming/src/house_robber/HouseRobber.java",
+    "fileSHA": "e31a6ff67a82eff9bb18b0c032179e51dba8bb93",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/dynamic_programming/src/house_robber/HouseRobber.java",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/dynamic_programming/src/house_robber/HouseRobber.java"
+  },
+  "matching": {
+    "relevanceScore": 72.14
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "cbf479f40deee77748537e13a9d1fda23506a0e87e3931fcae53080e741d4ecd",
+    "normalizedCodeHash": "cbf479f40deee77748537e13a9d1fda23506a0e87e3931fcae53080e741d4ecd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:14:24.914889+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

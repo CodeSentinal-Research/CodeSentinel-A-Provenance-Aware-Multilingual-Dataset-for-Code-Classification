@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P000566",
+  "problemId": "P000566",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000566",
+    "title": "Minimum Genetic Mutation",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "A gene string consists of exactly eight characters chosen from 'A', 'C', 'G', and 'T'. Given a starting gene, a target gene, and a bank of valid gene strings, determine the minimum number of single-character mutations required to reach the target. Each intermediate gene must exist in the bank. Return -1 if the mutation is impossible.",
+    "input": "String startGene String endGene Integer n List of gene strings",
+    "output": "A single integer representing the minimum number of mutations.",
+    "constraints": "Gene length is always 8 0 <= n <= 1000"
+  },
+  "repository": {
+    "name": "Sakib-lite/LeetCode",
+    "owner": "Sakib-lite",
+    "url": "https://github.com/Sakib-lite/LeetCode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P000501_P001000/JS_H_P000566.js",
+    "fileSHA": "1f5e4a7b1fe411fb50b3068100ffcc700cca08bd",
+    "url": "https://github.com/Sakib-lite/LeetCode/blob/1736ab9375c8e3804d2d2121162da18f82ef866c/433.minimum-genetic-mutation.js",
+    "rawUrl": "https://raw.githubusercontent.com/Sakib-lite/LeetCode/main/433.minimum-genetic-mutation.js"
+  },
+  "matching": {
+    "relevanceScore": 55.56
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2022-11-03T05:06:07Z",
+    "lastCommitDate": "2022-11-03T05:06:07Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Sakibul Anwar"
+    ],
+    "firstKnownAuthor": "Sakibul Anwar",
+    "latestKnownAuthor": "Sakibul Anwar"
+  },
+  "deduplication": {
+    "rawCodeHash": "44bd3d7f2025fdb9253121eae4bfc90ffdbb4a6617d7b33fed40c2cd05df68fa",
+    "normalizedCodeHash": "44bd3d7f2025fdb9253121eae4bfc90ffdbb4a6617d7b33fed40c2cd05df68fa",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:27:05.555791+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

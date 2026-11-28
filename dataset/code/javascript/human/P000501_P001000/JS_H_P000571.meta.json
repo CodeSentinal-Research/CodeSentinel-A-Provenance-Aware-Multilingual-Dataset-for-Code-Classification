@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000571",
+  "problemId": "P000571",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000571",
+    "title": "Hot Potato Game",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "There are N players standing in a circle, numbered from 1 to N. Starting from player 1, a token is passed clockwise exactly K times. The player holding the token after the K-th pass is eliminated. The process continues with the next player until only one player remains. Return the number of the winning player.",
+    "input": "Integer N Integer K",
+    "output": "The winning player's number.",
+    "constraints": "1 <= N <= 10^5 1 <= K <= 10^5"
+  },
+  "repository": {
+    "name": "loiane/javascript-datastructures-algorithms",
+    "owner": "loiane",
+    "url": "https://github.com/loiane/javascript-datastructures-algorithms",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/05-queue-deque/hot-potato.js",
+    "fileSHA": "966a0bdd5879e866d73ea57236cf7a76bb8df0b8",
+    "url": "https://github.com/loiane/javascript-datastructures-algorithms/blob/cfc489463d04f624bfb7fe9ae5db51c5d2ab2a73/src/05-queue-deque/hot-potato.js",
+    "rawUrl": "https://raw.githubusercontent.com/loiane/javascript-datastructures-algorithms/main/src/05-queue-deque/hot-potato.js"
+  },
+  "matching": {
+    "relevanceScore": 73.67
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "bc0cb4f46b888e15233a723be133a25756ea45f42ccb222ea5f67053f9ed0b2e",
+    "normalizedCodeHash": "bc0cb4f46b888e15233a723be133a25756ea45f42ccb222ea5f67053f9ed0b2e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:15:33.446820+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

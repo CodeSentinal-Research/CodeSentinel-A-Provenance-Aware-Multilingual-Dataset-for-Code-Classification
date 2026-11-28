@@ -1,0 +1,1 @@
+const[w1,w2]=require('fs').readFileSync('/dev/stdin','utf8').trim().split(' ');const f=new Array(26).fill(0);for(const c of w1)f[c.charCodeAt(0)-97]++;for(const c of w2)f[c.charCodeAt(0)-97]--;console.log(f.every(v=>Math.abs(v)<=3)?'Yes':'No');

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001572",
+  "problemId": "P001572",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001572",
+    "title": "Count Windows With Even Sum",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and a window size K, count the number of contiguous subarrays of size K whose sum is even.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the count.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001572",
+    "fileSHA": "1fc735f0d47e28367edf5146682606261ebe9d34f5d6089e7685f89bf917eae9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:42.256615+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1fc735f0d47e28367edf5146682606261ebe9d34f5d6089e7685f89bf917eae9",
+    "normalizedCodeHash": "1fc735f0d47e28367edf5146682606261ebe9d34f5d6089e7685f89bf917eae9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:42.256639+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

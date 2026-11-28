@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001123",
+  "problemId": "P001123",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001123",
+    "title": "Find the City with the Smallest Number of Reachable Neighbors",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a weighted undirected graph and a distance threshold, determine the city having the smallest number of reachable neighboring cities within the threshold distance. If multiple cities satisfy the condition, print the largest indexed city.",
+    "input": "\u2022 First line contains integers N, M, and T. \u2022 Next M lines contain integers u, v, and w.",
+    "output": "Print the required city index.",
+    "constraints": "\u2022 2 \u2264 N \u2264 100 \u2022 1 \u2264 M \u2264 N(N\u22121)/2"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001123",
+    "fileSHA": "429b5852292c634722c3a9ad9efcb7f8d58f47751567d80fa0b45ccd0dd3ce35",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.835Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "e4282f056832a1e5f79617a32c8fda1b370bf5a0336ec025e642a8e72bea47d7",
+    "normalizedCodeHash": "2c95348c896b93081122ff7a553d4b0aa0f183ed2160e2b54e4a7714f87d5f57",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.835Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

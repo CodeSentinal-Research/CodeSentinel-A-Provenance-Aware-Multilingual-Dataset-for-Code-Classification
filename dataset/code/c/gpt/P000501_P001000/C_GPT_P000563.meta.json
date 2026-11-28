@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000563",
+  "problemId": "P000563",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000563",
+    "title": "Word Ladder",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Given two words, beginWord and endWord, and a dictionary of valid words, find the length of the shortest transformation sequence from beginWord to endWord. A transformation consists of changing exactly one character, and every intermediate word must exist in the dictionary. Return 0 if no transformation exists.",
+    "input": "String beginWord String endWord Integer n List of n words",
+    "output": "A single integer representing the length of the shortest transformation sequence.",
+    "constraints": "1 <= word length <= 10 1 <= n <= 5000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000563.c",
+    "fileSHA": "67126d7a61a38f7c0884b0ea74971a8fd805ebba9d238a51a742fb5a1cadadf8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "67126d7a61a38f7c0884b0ea74971a8fd805ebba9d238a51a742fb5a1cadadf8",
+    "normalizedCodeHash": "67126d7a61a38f7c0884b0ea74971a8fd805ebba9d238a51a742fb5a1cadadf8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

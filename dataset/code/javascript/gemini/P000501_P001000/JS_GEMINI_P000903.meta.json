@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000903",
+  "problemId": "P000903",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000903",
+    "title": "Largest Divisible Subset",
+    "category": "Mathematics - Divisibility",
+    "difficulty": "Medium",
+    "problemStatement": "Given a set of distinct positive integers, return the largest subset such that for every pair (a, b) in the subset, either a divides b or b divides a.",
+    "input": "Integer N Array nums",
+    "output": "The largest divisible subset.",
+    "constraints": "1 <= N <= 1000 1 <= nums[i] <= 2 \u00d7 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P000903",
+    "fileSHA": "b13b5b627ae023f49d61d80f19458e372ecb985f86ef9cabf449d2a0bce565a1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:32:18.230648+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b13b5b627ae023f49d61d80f19458e372ecb985f86ef9cabf449d2a0bce565a1",
+    "normalizedCodeHash": "b13b5b627ae023f49d61d80f19458e372ecb985f86ef9cabf449d2a0bce565a1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:32:18.230675+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001710",
+  "problemId": "P001710",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001710",
+    "title": "Clone a Binary Tree with Random Pointers",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree in which every node contains left, right, and random pointers, construct a deep copy of the entire tree while preserving all pointer relationships.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the tree, including the random pointer of every node.",
+    "output": "\u2022 Print the cloned tree in the required format.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5________________________________________"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/0138-copy-list-with-random-pointer.c",
+    "fileSHA": "d6229ae073d3730a57d8b903fa102176674a3339",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/c/0138-copy-list-with-random-pointer.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/0138-copy-list-with-random-pointer.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "baeeab8726d8b41c54c11617ab9ac42874a46e6263a09a231c403df8e2576a62",
+    "normalizedCodeHash": "baeeab8726d8b41c54c11617ab9ac42874a46e6263a09a231c403df8e2576a62",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:05.949164+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

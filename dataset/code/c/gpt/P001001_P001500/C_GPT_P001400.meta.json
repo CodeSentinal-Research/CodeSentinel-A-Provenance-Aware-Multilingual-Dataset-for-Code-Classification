@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001400",
+  "problemId": "P001400",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001400",
+    "title": "Find the Difference of Two Arrays",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given two integer arrays, find: • All distinct elements present only in the first array. • All distinct elements present only in the second array.",
+    "input": "• First line contains integers N and M. • Second line contains N integers. • Third line contains M integers.",
+    "output": "Print the two sets in sorted order.",
+    "constraints": "• 1 ≤ N, M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001400.c",
+    "fileSHA": "231c40e1999cf65c9243ba931c54a89b849c24a66fbc0d5ad65bcf2b16c31b24",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.257Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "3c63aec34cab940b5bde32d2dd5ead1e4b9e0d567f07d171fc2b6523a6c99a91",
+    "normalizedCodeHash": "231c40e1999cf65c9243ba931c54a89b849c24a66fbc0d5ad65bcf2b16c31b24",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.257Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000947",
+  "problemId": "P000947",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000947",
+    "title": "Can I Win",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Hard",
+    "problemStatement": "Two players alternately choose distinct integers from 1 to maxChoosableInteger. The chosen numbers are accumulated, and the player whose total first reaches or exceeds desiredTotal wins. Determine whether the first player can force a win.",
+    "input": "Integer maxChoosableInteger Integer desiredTotal",
+    "output": "Print true if the first player can force a win; otherwise, print false.",
+    "constraints": "1 <= maxChoosableInteger <= 20 0 <= desiredTotal <= 300"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000947.py",
+    "fileSHA": "d0a803cccc93f74ba332953429a2256975d74f8c4b02de98e1157023b7c80028",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.664470+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d0a803cccc93f74ba332953429a2256975d74f8c4b02de98e1157023b7c80028",
+    "normalizedCodeHash": "1a94e4fc39ac8789646b7109b2443cf679acdb5234eb96ec4256b825df61821a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.664470+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

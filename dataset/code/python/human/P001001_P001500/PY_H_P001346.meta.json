@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001346",
+  "problemId": "P001346",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001346",
+    "title": "Crossword Puzzle Solver",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given a crossword grid and a list of words, fill the crossword so that every horizontal and vertical slot forms a valid word.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines contain the crossword grid. \u2022 Next line contains integer N. \u2022 Next N lines contain the words.",
+    "output": "Print one valid completed crossword grid.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 20 \u2022 1 \u2264 N \u2264 100"
+  },
+  "repository": {
+    "name": "NotNate/cos484-crossword",
+    "owner": "NotNate",
+    "url": "https://github.com/NotNate/cos484-crossword",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solver.py",
+    "fileSHA": "0f75e235bacde38be1f94725e75dbec0bb4fb875",
+    "url": "https://github.com/NotNate/cos484-crossword/blob/7e7a945410616bb7aa63e8c57c9cfeaaff06b624/solver.py",
+    "rawUrl": "https://raw.githubusercontent.com/NotNate/cos484-crossword/main/solver.py"
+  },
+  "matching": {
+    "relevanceScore": 70.77
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "75df1fb41eb3fd72ecc7a4eb5e6e17b3b3c8e73cf69219ff482db316e0e0019a",
+    "normalizedCodeHash": "75df1fb41eb3fd72ecc7a4eb5e6e17b3b3c8e73cf69219ff482db316e0e0019a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:34:22.041773+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

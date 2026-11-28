@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000838",
+  "problemId": "P000838",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000838",
+    "title": "Median of Two Sorted Arrays",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Given two sorted arrays of sizes m and n, return the median of the combined sorted array. The overall time complexity must be O(log(min(m, n))).",
+    "input": "Integer m Array nums1 Integer n Array nums2",
+    "output": "The median of the merged sorted array.",
+    "constraints": "0 <= m, n <= 1000 1 <= m + n <= 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000838.c",
+    "fileSHA": "0ec9f54360047005602d2efdd6e1179186ba0ed861c8064b3df5c6b620a17cdb",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0ec9f54360047005602d2efdd6e1179186ba0ed861c8064b3df5c6b620a17cdb",
+    "normalizedCodeHash": "0ec9f54360047005602d2efdd6e1179186ba0ed861c8064b3df5c6b620a17cdb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

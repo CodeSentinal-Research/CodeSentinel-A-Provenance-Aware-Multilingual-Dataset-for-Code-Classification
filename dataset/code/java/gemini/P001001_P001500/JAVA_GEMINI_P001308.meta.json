@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001308",
+  "problemId": "P001308",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001308",
+    "title": "Defense of a Kingdom",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "A kingdom is represented by a rectangular grid. Several defense towers are already placed. Determine the area of the largest undefended rectangular region.",
+    "input": "\u2022 First line contains integers W, H, and N. \u2022 Next N lines contain the coordinates of defense towers.",
+    "output": "Print the area of the largest undefended rectangle.",
+    "constraints": "\u2022 1 \u2264 W, H \u2264 10^9 \u2022 0 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001308",
+    "fileSHA": "c894ff27220365dfaf379eee060d2c91a095f5f61742e09f97ee0d2d2e14d3cf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:20:54.819048+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c894ff27220365dfaf379eee060d2c91a095f5f61742e09f97ee0d2d2e14d3cf",
+    "normalizedCodeHash": "c894ff27220365dfaf379eee060d2c91a095f5f61742e09f97ee0d2d2e14d3cf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:20:54.819089+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

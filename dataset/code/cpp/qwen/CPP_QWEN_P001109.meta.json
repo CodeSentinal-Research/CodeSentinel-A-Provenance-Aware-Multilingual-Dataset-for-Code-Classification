@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001109",
+  "problemId": "P001109",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001109",
+    "title": "Graph Coloring Verification",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an undirected graph and a color assigned to every vertex. Determine whether the coloring is valid such that no two adjacent vertices share the same color.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges. \u2022 Last line contains N integers representing vertex colors.",
+    "output": "Print VALID or INVALID.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001109",
+    "fileSHA": "7bef64dcbebb835bcf6eb46922ae7e6fff8653e2efe342ecf13d386973f92fbd",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.826Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "9e920dbe64fc51b825ad779431b6d5a77bcb2ca9fa19aea57bf5df53ddd06cb1",
+    "normalizedCodeHash": "8ce6458aa9b1fd02d838244ac80ee9782e38c71b22a44748f2fced4c2d5836ec",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.826Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000390",
+  "problemId": "P000390",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000390",
+    "title": "Search Products Within Price Range",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find all products whose prices fall within a specified minimum and maximum range.",
+    "input": "Product records, minimum price, maximum price.",
+    "output": "All matching products.",
+    "constraints": "1 ≤ Number of Products ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000390.py",
+    "fileSHA": "d8489e33b8f6eb2a7e1424a97119c38ba2a450d3fb71297121c860bc4674aa2b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:01.933570+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d8489e33b8f6eb2a7e1424a97119c38ba2a450d3fb71297121c860bc4674aa2b",
+    "normalizedCodeHash": "6bf2823dfcdee9a1ef8407e8396a3e0360ce225fd65322b27bc47724f13a19c7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:01.933570+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

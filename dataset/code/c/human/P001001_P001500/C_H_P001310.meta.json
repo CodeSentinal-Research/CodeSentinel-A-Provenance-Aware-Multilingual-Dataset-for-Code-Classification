@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001310",
+  "problemId": "P001310",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001310",
+    "title": "Minimum Cost of Connecting Sticks",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Given the lengths of N sticks, repeatedly connect any two sticks into one. The cost of each connection equals the sum of the lengths of the two sticks. Determine the minimum total connection cost.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing stick lengths.",
+    "output": "Print the minimum total cost.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "pezy/LeetCode",
+    "owner": "pezy",
+    "url": "https://github.com/pezy/LeetCode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "152. Find Minimum in Rotated Sorted Array/solution.h",
+    "fileSHA": "4b505c27171cc4fb2609764d0629fc2f7f6b5ce1",
+    "url": "https://github.com/pezy/LeetCode/blob/master/152. Find Minimum in Rotated Sorted Array/solution.h",
+    "rawUrl": "https://raw.githubusercontent.com/pezy/LeetCode/master/152. Find Minimum in Rotated Sorted Array/solution.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2f9fc2263279c8b7cdde5cc39a3021a11780409021b53d51d8f534ecbaccf2c5",
+    "normalizedCodeHash": "2f9fc2263279c8b7cdde5cc39a3021a11780409021b53d51d8f534ecbaccf2c5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:38:15.054105+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

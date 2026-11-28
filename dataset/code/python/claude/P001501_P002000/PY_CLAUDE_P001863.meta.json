@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_CLAUDE_P001863",
+  "problemId": "P001863",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001863",
+    "title": "Construct an Optimal Binary Search Tree with Successful and Unsuccessful Search Frequencies",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given sorted keys along with successful and unsuccessful search frequencies, construct the Optimal Binary Search Tree with minimum expected search cost.",
+    "input": "• The first line contains an integer N. • The second line contains the sorted keys. • The third line contains successful search frequencies. • The fourth line contains unsuccessful search frequencies.",
+    "output": "• Print the minimum expected search cost and the constructed Optimal BST.",
+    "constraints": "• 1 ≤ N ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P001863",
+    "fileSHA": "0d67b8589308ac93bc03ebc6fe78c7b5e149e660a6031e29337e2eff14cc06be",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "957d2d91fcc88e6a5b3c63b48db9ffe238ee83aafc3da5c1cc33d3e371b42eda",
+    "normalizedCodeHash": "0d67b8589308ac93bc03ebc6fe78c7b5e149e660a6031e29337e2eff14cc06be",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

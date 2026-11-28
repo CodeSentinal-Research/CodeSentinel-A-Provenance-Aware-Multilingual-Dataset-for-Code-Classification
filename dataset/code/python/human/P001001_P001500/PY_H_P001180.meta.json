@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001180",
+  "problemId": "P001180",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001180",
+    "title": "Vacation Planning",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "For N days, three vacation activities are available, each providing a happiness value. The same activity cannot be selected on consecutive days. Determine the maximum total happiness.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain three integers representing happiness values.",
+    "output": "Print the maximum achievable happiness.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "harbor-framework/terminal-bench-1",
+    "owner": "harbor-framework",
+    "url": "https://github.com/harbor-framework/terminal-bench-1",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "original-tasks/schedule-vacation/find_overlap.py",
+    "fileSHA": "830238b721b7583956f96abd5db682af16fa934f",
+    "url": "https://github.com/harbor-framework/terminal-bench-1/blob/d28711d0da2675d0bb1d56de45ae5df6082438a3/original-tasks/schedule-vacation/find_overlap.py",
+    "rawUrl": "https://raw.githubusercontent.com/harbor-framework/terminal-bench-1/main/original-tasks/schedule-vacation/find_overlap.py"
+  },
+  "matching": {
+    "relevanceScore": 63.21
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "280b1e1ceeee2e5cf52c896fd1230c29bcf8a039934fc4b58e290fec3d245c74",
+    "normalizedCodeHash": "280b1e1ceeee2e5cf52c896fd1230c29bcf8a039934fc4b58e290fec3d245c74",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:09:43.723098+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

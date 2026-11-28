@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001733",
+  "problemId": "P001733",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001733",
+    "title": "Check Whether a Binary Tree is a Sum Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, determine whether every non-leaf node stores the sum of all values present in its left and right subtrees.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print YES if the tree is a Sum Tree; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "miker704/structy_problems",
+    "owner": "miker704",
+    "url": "https://github.com/miker704/structy_problems",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "java_version/binary_trees/tree_sum/tree_sum.java",
+    "fileSHA": "406b2e6ea47f0875f4d9338cd52d7e0bfa4c1328",
+    "url": "https://github.com/miker704/structy_problems/blob/956838c93ac18e4f1f6da66c07f1a7208505a071/java_version/binary_trees/tree_sum/tree_sum.java",
+    "rawUrl": "https://raw.githubusercontent.com/miker704/structy_problems/main/java_version/binary_trees/tree_sum/tree_sum.java"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5ca397baf6a034146ba918f0e44ba6fd175810b85dc452f3d7c0388d7c22ad27",
+    "normalizedCodeHash": "5ca397baf6a034146ba918f0e44ba6fd175810b85dc452f3d7c0388d7c22ad27",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T16:53:32.759582+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

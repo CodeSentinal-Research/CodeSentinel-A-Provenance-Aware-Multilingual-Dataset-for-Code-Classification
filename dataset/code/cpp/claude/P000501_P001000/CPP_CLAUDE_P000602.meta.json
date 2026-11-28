@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000602",
+  "problemId": "P000602",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000602",
+    "title": "Insert into a Sorted Circular Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given a node from a sorted circular linked list and an integer insertVal, insert a new node with the given value into the list while maintaining the sorted order. Return any node from the circular linked list after insertion.",
+    "input": "Circular sorted linked list Integer insertVal",
+    "output": "The updated circular linked list.",
+    "constraints": "Number of nodes is in the range [0, 5 × 10^4] -10^6 <= insertVal <= 10^6"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000602",
+    "fileSHA": "0194dd803117db4a635755a833974b70757d8f19989abec73ff3777d6b6f4d5a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0194dd803117db4a635755a833974b70757d8f19989abec73ff3777d6b6f4d5a",
+    "normalizedCodeHash": "0194dd803117db4a635755a833974b70757d8f19989abec73ff3777d6b6f4d5a",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000602"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

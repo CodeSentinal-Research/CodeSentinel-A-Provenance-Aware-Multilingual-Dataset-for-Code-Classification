@@ -1,0 +1,1 @@
+const l=require("fs").readFileSync("/dev/stdin","utf8").trim().split("\n");const n=+l[0];const g=new Map();for(let i=1;i<=n;i++){const w=l[i];const k=[...w].sort().join("");if(!g.has(k))g.set(k,[]);g.get(k).push(w);}for(const v of g.values())console.log(v.join(" "));

@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000652",
+  "problemId": "P000652",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000652",
+    "title": "Insert into Sorted Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a sorted singly linked list and an integer value, insert a new node into the list while maintaining the sorted order. Return the head of the modified linked list.",
+    "input": "Integer n Sorted linked list Integer value",
+    "output": "The modified sorted linked list.",
+    "constraints": "0 <= n <= 10^5 -10^9 <= value <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000652",
+    "fileSHA": "6a4b45b2d8313671186f1d7bd5596826fd1cdf56446229e0aa625d1d4181c35a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6a4b45b2d8313671186f1d7bd5596826fd1cdf56446229e0aa625d1d4181c35a",
+    "normalizedCodeHash": "6a4b45b2d8313671186f1d7bd5596826fd1cdf56446229e0aa625d1d4181c35a",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000652: Insert into Sorted Linked List"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000523",
+  "problemId": "P000523",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000523",
+    "title": "Remove Nodes From Linked List",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list, remove every node that has a node with a greater value somewhere to its right. Return the head of the modified linked list.",
+    "input": "Integer n Values of the linked list.",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= node.value <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000523.c",
+    "fileSHA": "568b181eff170cbf82b1c9b92779538ed2e53571477db545177db83998bbcee0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "568b181eff170cbf82b1c9b92779538ed2e53571477db545177db83998bbcee0",
+    "normalizedCodeHash": "568b181eff170cbf82b1c9b92779538ed2e53571477db545177db83998bbcee0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

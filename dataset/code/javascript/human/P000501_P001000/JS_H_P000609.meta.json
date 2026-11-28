@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P000609",
+  "problemId": "P000609",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000609",
+    "title": "Remove Zero Sum Consecutive Nodes from Linked List",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a singly linked list, repeatedly remove every consecutive sequence of nodes whose values sum to zero. Continue this process until no such sequence exists. Return the head of the resulting linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 1000 -1000 <= node.value <= 1000"
+  },
+  "repository": {
+    "name": "zhufuge/leetcode-js",
+    "owner": "zhufuge",
+    "url": "https://github.com/zhufuge/leetcode-js",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P000501_P001000/JS_H_P000609.js",
+    "fileSHA": "20bd340a717783155b928a906aa2ea53b296c64b",
+    "url": "https://github.com/zhufuge/leetcode-js/blob/dc286c433edf6ce607d0f8a46046384ad72400de/problems/1171-remove-zero-sum-consecutive-nodes-from-linked-list.js",
+    "rawUrl": "https://raw.githubusercontent.com/zhufuge/leetcode-js/main/problems/1171-remove-zero-sum-consecutive-nodes-from-linked-list.js"
+  },
+  "matching": {
+    "relevanceScore": 72.76
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2020-06-28T03:39:00Z",
+    "lastCommitDate": "2020-06-28T03:39:00Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "zhufuge"
+    ],
+    "firstKnownAuthor": "zhufuge",
+    "latestKnownAuthor": "zhufuge"
+  },
+  "deduplication": {
+    "rawCodeHash": "24b1fbfb92b59450876c94c15e1de1ceb07f35b3c65e90274e41ef92280c831c",
+    "normalizedCodeHash": "24b1fbfb92b59450876c94c15e1de1ceb07f35b3c65e90274e41ef92280c831c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:45:09.438526+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

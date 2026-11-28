@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000644",
+  "problemId": "P000644",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000644",
+    "title": "Swap Two Nodes Without Swapping Data",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list and two distinct values x and y, swap the corresponding nodes without modifying the data stored in any node. If either value is not present, leave the list unchanged. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer x Integer y",
+    "output": "The modified linked list.",
+    "constraints": "0 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000644",
+    "fileSHA": "d55b2fb37e7ffcd8c2e20e369f534329af6760cd99fd81d89d1120fb29b899e1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.357Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c4fa7fdb7e78079dc110bb62e250deee0c11973c5182e719bdab61ffaacc7599",
+    "normalizedCodeHash": "35fe1feb48f71e74b2e190e8461b62967fe3b63776aba3a01fd7fb0dcaa90e4e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.357Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001646",
+  "problemId": "P001646",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001646",
+    "title": "Top View of a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree, determine the set of nodes visible when the tree is viewed from the top. For every vertical column, only the first visible node should be included.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the top view from leftmost column to rightmost column.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001646.c",
+    "fileSHA": "6778e5dacadc7606da9060e77ddebe4d1f5a0cc896b360f95de4c36ed32966ba",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.091Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "643ee0bd6cf5ec3f7057f6e7fad7f6be5530a347f919d82fa79a899e4c2b4ad9",
+    "normalizedCodeHash": "6778e5dacadc7606da9060e77ddebe4d1f5a0cc896b360f95de4c36ed32966ba",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.091Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

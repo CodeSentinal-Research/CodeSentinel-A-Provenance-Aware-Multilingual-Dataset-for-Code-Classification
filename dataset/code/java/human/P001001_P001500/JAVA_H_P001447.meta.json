@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001447",
+  "problemId": "P001447",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001447",
+    "title": "Sentence Similarity II",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given two sentences and a list of similar word pairs, where similarity is transitive, determine whether the sentences are similar.",
+    "input": "\u2022 First line contains the first sentence. \u2022 Second line contains the second sentence. \u2022 Third line contains integer P. \u2022 Next P lines contain pairs of similar words.",
+    "output": "Print YES if the sentences are similar; otherwise print NO.",
+    "constraints": "\u2022 Sentence length \u2264 10^5 \u2022 1 \u2264 P \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "saratmanohar/app-sm",
+    "owner": "saratmanohar",
+    "url": "https://github.com/saratmanohar/app-sm",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/sm/utils/FuzzySentenceMatcher.java",
+    "fileSHA": "885339b3bc699d3b0afe16891f24630cd0682854",
+    "url": "https://github.com/saratmanohar/app-sm/blob/ab56afd2f2fa09ed64d2b0d9bf70db87564740e2/src/main/java/com/sm/utils/FuzzySentenceMatcher.java",
+    "rawUrl": "https://raw.githubusercontent.com/saratmanohar/app-sm/main/src/main/java/com/sm/utils/FuzzySentenceMatcher.java"
+  },
+  "matching": {
+    "relevanceScore": 81.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b5db1dba50d11871c63ca39867fbfad40ad5c1990532b55e251667b32b4f8302",
+    "normalizedCodeHash": "b5db1dba50d11871c63ca39867fbfad40ad5c1990532b55e251667b32b4f8302",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T13:11:01.995703+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);int n=sc.nextInt(),t=sc.nextInt();int[]arr=new int[n];for(int i=0;i<n;i++)arr[i]=sc.nextInt();Arrays.sort(arr);for(int i=0;i<n-2;i++){int lo=i+1,hi=n-1;while(lo<hi){int s=arr[i]+arr[lo]+arr[hi];if(s==t){System.out.println("Yes");return;}else if(s<t)lo++;else hi--;}}System.out.println("No");}}

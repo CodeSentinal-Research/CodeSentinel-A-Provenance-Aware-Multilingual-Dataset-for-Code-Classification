@@ -1,0 +1,7 @@
+
+n=int(input());tickets=list(map(int,input().split()));k=int(input())
+time=0
+for i,t in enumerate(tickets):
+    if i<=k: time+=min(t,tickets[k])
+    else: time+=min(t,tickets[k]-1)
+print(time)

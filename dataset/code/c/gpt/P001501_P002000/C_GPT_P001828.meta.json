@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001828",
+  "problemId": "P001828",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001828",
+    "title": "Determine Whether One Binary Search Tree is a Subtree of Another",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given two Binary Search Trees, determine whether the second tree occurs as a subtree of the first.",
+    "input": "• The first line contains N₁. • The next N₁ lines describe the first BST. • The following line contains N₂. • The next N₂ lines describe the second BST.",
+    "output": "• Print YES if the second tree is a subtree of the first; otherwise print NO.",
+    "constraints": "• 0 ≤ N₁, N₂ ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001828.c",
+    "fileSHA": "be3452a32f40a760a737e7949b0f4ff67a25b93c09a71848b9aa3f3aa2470161",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.780Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "84fefb72fff5a1af46db8475fafde2d643ad1b6bc4e406f195b6b921eacce2b0",
+    "normalizedCodeHash": "be3452a32f40a760a737e7949b0f4ff67a25b93c09a71848b9aa3f3aa2470161",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.780Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001692",
+  "problemId": "P001692",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001692",
+    "title": "Longest Consecutive Parent-to-Child Path",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, determine the length of the longest path where every child has a value exactly one greater than its parent.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the length of the longest consecutive path.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001692",
+    "fileSHA": "cd2aee7211ddf1605e7a0acee04388ffb528f02fa810569da7afd750b101ddc5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:37:16.685508+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cd2aee7211ddf1605e7a0acee04388ffb528f02fa810569da7afd750b101ddc5",
+    "normalizedCodeHash": "cd2aee7211ddf1605e7a0acee04388ffb528f02fa810569da7afd750b101ddc5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:37:16.685531+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P000608",
+  "problemId": "P000608",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000608",
+    "title": "Linked List in Binary Tree",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and the root of a binary tree, determine whether the linked list exists as a downward path in the binary tree. A downward path starts at any node and proceeds only through child pointers. Return true if such a path exists; otherwise return false.",
+    "input": "Linked list Binary tree",
+    "output": "true if the linked list appears as a downward path, otherwise false.",
+    "constraints": "Number of linked list nodes is in the range [1, 100] Number of tree nodes is in the range [1, 2500] -100 <= node.value <= 100"
+  },
+  "repository": {
+    "name": "atulraut/atclib",
+    "owner": "atulraut",
+    "url": "https://github.com/atulraut/atclib",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P000501_P001000/C_H_P000608.c",
+    "fileSHA": "d773879734fd2e2578eb3738119033d5ee22fabd",
+    "url": "https://github.com/atulraut/atclib/blob/41fddd65299c1fe3a5c756e1901a4dff804ffd63/linkedlist/leetcode/isSubPath.c",
+    "rawUrl": "https://raw.githubusercontent.com/atulraut/atclib/main/linkedlist/leetcode/isSubPath.c"
+  },
+  "matching": {
+    "relevanceScore": 75.76
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2021-12-11T16:28:39Z",
+    "lastCommitDate": "2021-12-11T16:28:39Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Atul Raut"
+    ],
+    "firstKnownAuthor": "Atul Raut",
+    "latestKnownAuthor": "Atul Raut"
+  },
+  "deduplication": {
+    "rawCodeHash": "3cf996b1dea403a3c4de0687932b7f18f1f02a98358a6b2f0b4d19ae6ac4780a",
+    "normalizedCodeHash": "3cf996b1dea403a3c4de0687932b7f18f1f02a98358a6b2f0b4d19ae6ac4780a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:44:37.170193+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

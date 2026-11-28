@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001379",
+  "problemId": "P001379",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001379",
+    "title": "Top K Frequent Elements",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer K, return the K most frequent elements. If frequencies are equal, return the smaller element first.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print the K most frequent elements.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001379.c",
+    "fileSHA": "5ba581cefa32003e1a37ed8ca4546cf1f0f148e8f7b7d6fa06d3255f98346eb0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.154Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "f091ed5f3dcc6c9e65f989e5c3e714d7c352268997b533afab0afa2570e0f921",
+    "normalizedCodeHash": "5ba581cefa32003e1a37ed8ca4546cf1f0f148e8f7b7d6fa06d3255f98346eb0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.154Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

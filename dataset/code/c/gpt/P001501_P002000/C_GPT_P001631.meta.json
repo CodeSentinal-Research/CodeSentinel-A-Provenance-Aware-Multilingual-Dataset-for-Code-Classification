@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001631",
+  "problemId": "P001631",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001631",
+    "title": "Number of Paths With Given Sum in a Grid",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × M grid of integers and an integer Target, determine the number of paths from the top-left cell to the bottom-right cell such that the sum of values along the path is exactly Target. You may only move right or down.",
+    "input": "• First line contains N, M, and Target. • Next N lines each contain M integers.",
+    "output": "• Print the number of valid paths.",
+    "constraints": "• 1 ≤ N, M ≤ 30 • -100 ≤ Grid[i][j] ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001631.c",
+    "fileSHA": "9b35d7b8ab0499d88aee829ba8ef5d6b4e8d3aa85ff00ca23e4d842e674de52d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.051Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "45dde36e2f771e24e9de28cd115ca9e36efe24ccb0be14396bc934551a2f047f",
+    "normalizedCodeHash": "9b35d7b8ab0499d88aee829ba8ef5d6b4e8d3aa85ff00ca23e4d842e674de52d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.051Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

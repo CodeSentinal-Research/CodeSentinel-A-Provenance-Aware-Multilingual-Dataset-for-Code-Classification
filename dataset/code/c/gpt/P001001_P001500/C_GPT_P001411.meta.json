@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001411",
+  "problemId": "P001411",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001411",
+    "title": "Find Players With Zero or One Loss",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given the results of multiple matches, where each match contains a winner and a loser, determine: • All players who never lost. • All players who lost exactly once. Print both lists in ascending order.",
+    "input": "• First line contains integer M representing the number of matches. • Next M lines each contain two integers representing Winner and Loser.",
+    "output": "Print the players with zero losses followed by the players with exactly one loss.",
+    "constraints": "• 1 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001411.c",
+    "fileSHA": "b852426d04b916fca944747458d70db4d8f293b45b8ac205f3b51dbd2d21045e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.288Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "526026d3f08d3d67e1f1756c2b06fc90aa9bb14aba6b2c4d169bb3dc396240c4",
+    "normalizedCodeHash": "b852426d04b916fca944747458d70db4d8f293b45b8ac205f3b51dbd2d21045e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.289Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

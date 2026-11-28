@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000563",
+  "problemId": "P000563",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000563",
+    "title": "Word Ladder",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Given two words, beginWord and endWord, and a dictionary of valid words, find the length of the shortest transformation sequence from beginWord to endWord. A transformation consists of changing exactly one character, and every intermediate word must exist in the dictionary. Return 0 if no transformation exists.",
+    "input": "String beginWord String endWord Integer n List of n words",
+    "output": "A single integer representing the length of the shortest transformation sequence.",
+    "constraints": "1 <= word length <= 10 1 <= n <= 5000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "java/gemini/JAVA_GEMINI_P000563",
+    "fileSHA": "fa481efe2899d9e81c22f5f522327005c086cb363c55d1c82d2fdc02bddea7d1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:46:06.570875+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fa481efe2899d9e81c22f5f522327005c086cb363c55d1c82d2fdc02bddea7d1",
+    "normalizedCodeHash": "fa481efe2899d9e81c22f5f522327005c086cb363c55d1c82d2fdc02bddea7d1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:46:06.570919+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

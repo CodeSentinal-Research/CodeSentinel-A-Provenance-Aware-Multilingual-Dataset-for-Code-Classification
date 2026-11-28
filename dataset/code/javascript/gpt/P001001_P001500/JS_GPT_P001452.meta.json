@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001452",
+  "problemId": "P001452",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001452",
+    "title": "Count Distinct Elements After Updates",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an initial array and a sequence of update queries, replace the value at the specified index after each query and report the number of distinct elements currently present.",
+    "input": "• First line contains integers N and Q. • Second line contains N integers. • Next Q lines contain Index and NewValue.",
+    "output": "Print the number of distinct elements after each update.",
+    "constraints": "• 1 ≤ N, Q ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001452.js",
+    "fileSHA": "246416a90f1b22a28d6a54510e25184094be8dcc61084ed90ea66bbcc9852729",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "246416a90f1b22a28d6a54510e25184094be8dcc61084ed90ea66bbcc9852729",
+    "normalizedCodeHash": "246416a90f1b22a28d6a54510e25184094be8dcc61084ed90ea66bbcc9852729",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

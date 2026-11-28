@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000564",
+  "problemId": "P000564",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000564",
+    "title": "Word Ladder II",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Given beginWord, endWord, and a dictionary of valid words, return all shortest transformation sequences from beginWord to endWord. Each transformation changes exactly one character, and every intermediate word must exist in the dictionary. Return all shortest sequences in any order.",
+    "input": "String beginWord String endWord Integer n List of n words",
+    "output": "A list of all shortest transformation sequences.",
+    "constraints": "1 <= word length <= 10 1 <= n <= 5000"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0126_word_ladder_ii/word_ladder.c",
+    "fileSHA": "9efc70fefb97a2a30f6d30d907b2c21147095758",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0126_word_ladder_ii/word_ladder.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0126_word_ladder_ii/word_ladder.c"
+  },
+  "matching": {
+    "relevanceScore": 67.5
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "700b56bf371c5d6a22ac17d1a968b0ca216cfc62c6e7790b947c14dd6d2ffc88",
+    "normalizedCodeHash": "700b56bf371c5d6a22ac17d1a968b0ca216cfc62c6e7790b947c14dd6d2ffc88",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:41:43.231394+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001668",
+  "problemId": "P001668",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001668",
+    "title": "Smallest Subtree Containing All Deepest Nodes",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, determine the root of the smallest subtree that contains every deepest node in the tree.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the value of the root of the required subtree.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001668.c",
+    "fileSHA": "905b1f5763dd85fa641e4b82985e7fcc3b5b666aca1d33fff74910d31b1c8a4c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.176Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "3b6b693ff6710c75a143267d1c51f1c7d643278a51286f594eb0a5b7e6942ad7",
+    "normalizedCodeHash": "905b1f5763dd85fa641e4b82985e7fcc3b5b666aca1d33fff74910d31b1c8a4c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.176Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

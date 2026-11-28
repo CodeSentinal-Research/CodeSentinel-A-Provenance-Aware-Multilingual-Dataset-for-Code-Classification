@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001482",
+  "problemId": "P001482",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001482",
+    "title": "Bag of Tokens",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an array of token values and an initial amount of power. A token may be played face up to gain score by spending power or face down to gain power by spending score. Determine the maximum score that can be achieved.",
+    "input": "\u2022 First line contains integers N and Power. \u2022 Second line contains N integers representing token values.",
+    "output": "Print the maximum obtainable score.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001482",
+    "fileSHA": "6d2e6abc6ed8ea061b27f530cb0b4bb46ca565be52141d02a53fcc8a4d866560",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:27:54.834965+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6d2e6abc6ed8ea061b27f530cb0b4bb46ca565be52141d02a53fcc8a4d866560",
+    "normalizedCodeHash": "6d2e6abc6ed8ea061b27f530cb0b4bb46ca565be52141d02a53fcc8a4d866560",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:27:54.834989+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

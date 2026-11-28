@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000656",
+  "problemId": "P000656",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000656",
+    "title": "Flatten Linked List with Bottom Pointers",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a linked list where each node contains: next pointer bottom pointer Each bottom list is individually sorted. Flatten the entire structure into a single sorted linked list using only the bottom pointers. Return the head of the flattened list.",
+    "input": "A linked list with next and bottom pointers.",
+    "output": "The head of the flattened sorted linked list.",
+    "constraints": "Total number of nodes is in the range [0, 10^5]"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/0707-design-linked-list.c",
+    "fileSHA": "6457788babcd650177f694c1bb186a6549a5f8a5",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/c/0707-design-linked-list.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/0707-design-linked-list.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "77d54fccc9385d387fcd4d81e2df6c4d70860d4e09549080a1364f5e41aaab3a",
+    "normalizedCodeHash": "77d54fccc9385d387fcd4d81e2df6c4d70860d4e09549080a1364f5e41aaab3a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:08.194853+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

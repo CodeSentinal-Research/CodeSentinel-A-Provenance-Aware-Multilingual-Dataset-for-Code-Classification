@@ -1,0 +1,59 @@
+{
+  "solutionId": "Java_QWEN_P000599",
+  "problemId": "P000599",
+  "language": "java",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000599",
+    "title": "Delete Duplicates from Sorted Linked List II",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a sorted linked list, delete all nodes that have duplicate values, leaving only nodes whose values appear exactly once. Return the head of the modified linked list.",
+    "input": "Integer n Sorted linked list",
+    "output": "The linked list after removing all duplicate values.",
+    "constraints": "0 <= n <= 300 -100 <= node.value <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/Java_QWEN_P000599",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

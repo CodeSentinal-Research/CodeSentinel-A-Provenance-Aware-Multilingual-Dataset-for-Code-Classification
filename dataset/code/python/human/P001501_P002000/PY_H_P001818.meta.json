@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001818",
+  "problemId": "P001818",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001818",
+    "title": "Find the Lowest Common Ancestor of Multiple Nodes in a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree and a set of K distinct keys, determine their lowest common ancestor.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The following line contains K. \u2022 The last line contains K distinct keys.",
+    "output": "\u2022 Print the value of the lowest common ancestor.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2 \u00d7 10^5 \u2022 2 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "yuzhoujr/leetcode",
+    "owner": "yuzhoujr",
+    "url": "https://github.com/yuzhoujr/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "tree/EricD/235. Lowest Common Ancestor of a Binary Search Tree - EricD.py",
+    "fileSHA": "a79d8c99215daace2c36b61eead5d0910c2a0929",
+    "url": "https://github.com/yuzhoujr/leetcode/blob/master/tree/EricD/235. Lowest Common Ancestor of a Binary Search Tree - EricD.py",
+    "rawUrl": "https://raw.githubusercontent.com/yuzhoujr/leetcode/master/tree/EricD/235. Lowest Common Ancestor of a Binary Search Tree - EricD.py"
+  },
+  "matching": {
+    "relevanceScore": 72.92
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7fd857754111c162c3ac24cb164eb49f16a30e968940fd30be1ad02da4f0ff73",
+    "normalizedCodeHash": "7fd857754111c162c3ac24cb164eb49f16a30e968940fd30be1ad02da4f0ff73",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (AST Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:56:20.880630+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

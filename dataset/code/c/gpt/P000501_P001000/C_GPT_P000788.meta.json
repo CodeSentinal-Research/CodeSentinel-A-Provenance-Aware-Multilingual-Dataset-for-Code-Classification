@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000788",
+  "problemId": "P000788",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000788",
+    "title": "Maximum Average Subarray I",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer k, find the contiguous subarray of length exactly k having the maximum average. Return the maximum average value.",
+    "input": "Integer n Array nums Integer k",
+    "output": "The maximum average.",
+    "constraints": "1 <= k <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000788.c",
+    "fileSHA": "05ee4b34baa5b8ec796af6a0c30f33a29f400eb99bc11a376f3f80fc1e3933c8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "05ee4b34baa5b8ec796af6a0c30f33a29f400eb99bc11a376f3f80fc1e3933c8",
+    "normalizedCodeHash": "05ee4b34baa5b8ec796af6a0c30f33a29f400eb99bc11a376f3f80fc1e3933c8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

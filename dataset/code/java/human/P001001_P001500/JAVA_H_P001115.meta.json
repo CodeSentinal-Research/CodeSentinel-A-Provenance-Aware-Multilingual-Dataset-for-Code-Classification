@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001115",
+  "problemId": "P001115",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001115",
+    "title": "Shortest Path in a Binary Matrix",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 N binary matrix, determine the length of the shortest path from the top-left cell to the bottom-right cell by moving in all eight directions through cells containing 0.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain the binary matrix.",
+    "output": "Print the shortest path length, or -1 if no path exists.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "jovannypcg/dsa",
+    "owner": "jovannypcg",
+    "url": "https://github.com/jovannypcg/dsa",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/mx/jovannypcg/base/p66_shortestpathinbinarymatrix/Solution.java",
+    "fileSHA": "756edf6ffbd300eae09b1549c5fa163537429472",
+    "url": "https://github.com/jovannypcg/dsa/blob/7277f96aac38920f76ca5da5647fd48e54ce3737/src/main/java/mx/jovannypcg/base/p66_shortestpathinbinarymatrix/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/jovannypcg/dsa/main/src/main/java/mx/jovannypcg/base/p66_shortestpathinbinarymatrix/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 92.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "48bda748ea4842499bce4dac60f174987e95cc843339e19a698e137ee75f135e",
+    "normalizedCodeHash": "48bda748ea4842499bce4dac60f174987e95cc843339e19a698e137ee75f135e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T14:53:01.782797+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

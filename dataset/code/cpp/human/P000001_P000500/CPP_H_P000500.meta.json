@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000500",
+  "problemId": "P000500",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000500",
+    "title": "Crawler Log Folder",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "A file system starts at the main folder. You are given a sequence of folder operations: \"../\" : Move to the parent folder (if already at the main folder, stay there). \"./\" : Stay in the current folder. \"x/\" : Move into a child folder named x. Determine the minimum number of operations needed to return to the main folder after performing all operations.",
+    "input": "Integer n Array of n folder operations.",
+    "output": "A single integer representing the required number of operations.",
+    "constraints": "1 <= n <= 10^3"
+  },
+  "repository": {
+    "name": "kaiser-x/Cpp",
+    "owner": "kaiser-x",
+    "url": "https://github.com/kaiser-x/Cpp",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": true,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Leetcode/String/1598_crawler_folder.cpp",
+    "fileSHA": "32169a353ecec8e27c781b13f962f5c2ecf6427e",
+    "url": "https://github.com/kaiser-x/Cpp/blob/bf662d1d31da886eb6a988307455986761a9fd0a/Leetcode/String/1598_crawler_folder.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/kaiser-x/Cpp/main/Leetcode/String/1598_crawler_folder.cpp"
+  },
+  "matching": {
+    "relevanceScore": 91.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "674b99c1e52db641a83eefe8bb672c4e7cd9879ab9fd134fb78bcee85a5ae7ed",
+    "normalizedCodeHash": "674b99c1e52db641a83eefe8bb672c4e7cd9879ab9fd134fb78bcee85a5ae7ed",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T17:34:56.653957+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

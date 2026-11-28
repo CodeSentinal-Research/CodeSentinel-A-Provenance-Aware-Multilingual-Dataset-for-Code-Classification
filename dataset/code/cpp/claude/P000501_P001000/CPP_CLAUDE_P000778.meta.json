@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000778",
+  "problemId": "P000778",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000778",
+    "title": "Tug of War Partition",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of N integers, divide it into two subsets such that: The sizes of the two subsets differ by at most one. The absolute difference between the sums of the two subsets is minimized. Return the minimum possible absolute difference and one corresponding partition.",
+    "input": "Integer N Array nums",
+    "output": "The minimum absolute difference. One optimal partition of the array.",
+    "constraints": "1 <= N <= 30 -10^6 <= nums[i] <= 10^6"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000778",
+    "fileSHA": "f5d34da59d376b98208121e4cedd00609f1ea775ee74bed44c680486249852a6",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f5d34da59d376b98208121e4cedd00609f1ea775ee74bed44c680486249852a6",
+    "normalizedCodeHash": "f5d34da59d376b98208121e4cedd00609f1ea775ee74bed44c680486249852a6",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000778"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

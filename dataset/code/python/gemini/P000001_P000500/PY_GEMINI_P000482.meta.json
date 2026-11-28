@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000482",
+  "problemId": "P000482",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000482",
+    "title": "Next Greater Element I",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given two arrays nums1 and nums2 where all elements are unique and nums1 is a subset of nums2. For each element in nums1, find the first greater element to its right in nums2. If no such element exists, return -1 for that element.",
+    "input": "Integer n Array nums1 Integer m Array nums2",
+    "output": "An array containing the next greater element for every element in nums1.",
+    "constraints": "1 <= n <= m <= 1000 All elements are unique."
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000482",
+    "fileSHA": "08fa29ba6054aea7ca1101a0f477e6535a1a1d61f8cf3bba71c6b095e8aa2ed8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:38:51.060564+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "08fa29ba6054aea7ca1101a0f477e6535a1a1d61f8cf3bba71c6b095e8aa2ed8",
+    "normalizedCodeHash": "08fa29ba6054aea7ca1101a0f477e6535a1a1d61f8cf3bba71c6b095e8aa2ed8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:38:51.060596+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000556",
+  "problemId": "P000556",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000556",
+    "title": "Minimum Number of Visited Cells in a Grid",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an m × n grid of non-negative integers. Starting from the top-left cell, you may move: Right by at most grid[i][j] cells. Down by at most grid[i][j] cells. Return the minimum number of visited cells needed to reach the bottom-right cell. If the destination cannot be reached, return -1.",
+    "input": "Integers m and n Grid of integers.",
+    "output": "A single integer.",
+    "constraints": "1 <= m, n <= 10^5 m × n <= 10^5 0 <= grid[i][j] <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000556.py",
+    "fileSHA": "63196ac137499471be5ccbb495db217e0da8835995cec7c969bd415d257594be",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.232591+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "63196ac137499471be5ccbb495db217e0da8835995cec7c969bd415d257594be",
+    "normalizedCodeHash": "dc499188dde11cb165f79f83ea629699c50d23db4a2fede7709e290098427b02",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.232591+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001353",
+  "problemId": "P001353",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001353",
+    "title": "Restore the Array",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a numeric string and an integer K, determine the number of ways to split the string into integers in the range [1, K], with no leading zeros.",
+    "input": "• First line contains the numeric string. • Second line contains integer K.",
+    "output": "Print the total number of valid splits.",
+    "constraints": "• 1 ≤ Length ≤ 10^5 • 1 ≤ K ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001353.py",
+    "fileSHA": "fd6fecb53be790c315c4a6830ff110f5eb629c9ee5bd9aeb11319997da7416cc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.413514+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fd6fecb53be790c315c4a6830ff110f5eb629c9ee5bd9aeb11319997da7416cc",
+    "normalizedCodeHash": "c49da9a8107ba10be38ceeafdb3f695b06228191e6aada8b3f530ea3fd974745",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.413514+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001573",
+  "problemId": "P001573",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001573",
+    "title": "Count Windows With Sum Divisible by K",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and integers K and D, count the number of contiguous subarrays of size exactly K whose sum is divisible by D.",
+    "input": "\u2022 First line contains N, K, and D. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the required count.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K \u2264 N \u2022 1 \u2264 D \u2264 10^5"
+  },
+  "repository": {
+    "name": "AlibabaResearch/efficientteacher",
+    "owner": "AlibabaResearch",
+    "url": "https://github.com/AlibabaResearch/efficientteacher",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "utils/torch_utils.py",
+    "fileSHA": "e167af528e7bc690e4f6c13be554e7bbba99cfe7",
+    "url": "https://github.com/AlibabaResearch/efficientteacher/blob/64165e24a30cd6dc1dd893cc861c1feab0a536ee/utils/torch_utils.py",
+    "rawUrl": "https://raw.githubusercontent.com/AlibabaResearch/efficientteacher/main/utils/torch_utils.py"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8ac7a517eaf8c006f254615d9bb1e5058346630e29b3bfb2a528fbd80411d19f",
+    "normalizedCodeHash": "8ac7a517eaf8c006f254615d9bb1e5058346630e29b3bfb2a528fbd80411d19f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T15:43:16.592616+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

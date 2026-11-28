@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000845",
+  "problemId": "P000845",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000845",
+    "title": "House Robber IV",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array nums representing money in houses and an integer k, rob at least k non-adjacent houses. The capability of a robbery plan is the maximum money stolen from any robbed house. Return the minimum possible capability.",
+    "input": "Integer n Array nums Integer k",
+    "output": "The minimum capability.",
+    "constraints": "1 <= n <= 10^5 1 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "williamfiset/Algorithms",
+    "owner": "williamfiset",
+    "url": "https://github.com/williamfiset/Algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/williamfiset/algorithms/dp/examples/houserobber/HouseRobber.java",
+    "fileSHA": "b2258ce45e1875727262c647a898101eaee1fda8",
+    "url": "https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/williamfiset/algorithms/dp/examples/houserobber/HouseRobber.java",
+    "rawUrl": "https://raw.githubusercontent.com/williamfiset/Algorithms/master/src/main/java/com/williamfiset/algorithms/dp/examples/houserobber/HouseRobber.java"
+  },
+  "matching": {
+    "relevanceScore": 71.25
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0069b3e9e8503c5c9c8ceb9dba3d0da0e187d52021ba399e5c22c9a5c6fb019c",
+    "normalizedCodeHash": "0069b3e9e8503c5c9c8ceb9dba3d0da0e187d52021ba399e5c22c9a5c6fb019c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:46:08.986781+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

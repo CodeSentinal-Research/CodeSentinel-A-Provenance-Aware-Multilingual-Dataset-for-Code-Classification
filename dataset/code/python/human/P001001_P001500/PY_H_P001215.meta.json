@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001215",
+  "problemId": "P001215",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001215",
+    "title": "Remove Boxes",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given a sequence of colored boxes, repeatedly remove contiguous groups of boxes having the same color. Removing k adjacent boxes of the same color scores k\u00b2 points. Determine the maximum obtainable score.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing colors.",
+    "output": "Print the maximum obtainable score.",
+    "constraints": "\u2022 1 \u2264 N \u2264 200"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/remove-boxes.py",
+    "fileSHA": "447cb145ea19f79d92d1bacee7ce938814ff6b76",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/remove-boxes.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/remove-boxes.py"
+  },
+  "matching": {
+    "relevanceScore": 70.56
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f271b234366b8485882589454ed1ae9ad6019e2175cab6f64e85759530caa770",
+    "normalizedCodeHash": "f271b234366b8485882589454ed1ae9ad6019e2175cab6f64e85759530caa770",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:14:54.221796+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

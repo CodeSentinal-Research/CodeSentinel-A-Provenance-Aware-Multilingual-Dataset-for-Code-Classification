@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000380",
+  "problemId": "P000380",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000380",
+    "title": "Search Hotel by Hotel ID",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Search for a hotel using its unique hotel ID.",
+    "input": "Hotel records and a hotel ID.",
+    "output": "Hotel details or \"Hotel Not Found\".",
+    "constraints": "1 ≤ Number of Hotels ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000380.py",
+    "fileSHA": "8e1cff68c659e843a9783db967a8bc0288738202cb4b4a4f70261c9084e3094b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:01.702361+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8e1cff68c659e843a9783db967a8bc0288738202cb4b4a4f70261c9084e3094b",
+    "normalizedCodeHash": "15b75d63a3b720584feba1ad004871bd838ed04fa887176ea0b4eecdc9c92c39",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:01.702361+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

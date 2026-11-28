@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000724",
+  "problemId": "P000724",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000724",
+    "title": "Maximum Length Concatenated String with Unique Characters",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of strings, choose any subset of strings such that the concatenated string contains only unique characters. Return the maximum possible length of such a concatenated string.",
+    "input": "Integer n Array words",
+    "output": "A single integer representing the maximum length.",
+    "constraints": "1 <= n <= 16 1 <= |words[i]| <= 26"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000724.js",
+    "fileSHA": "7fb901df590297a7bc3d9fc330c40dba68309692f5986eee8d62c43af9b24d86",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7fb901df590297a7bc3d9fc330c40dba68309692f5986eee8d62c43af9b24d86",
+    "normalizedCodeHash": "7fb901df590297a7bc3d9fc330c40dba68309692f5986eee8d62c43af9b24d86",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

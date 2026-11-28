@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001365",
+  "problemId": "P001365",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001365",
+    "title": "Gold Mine Path",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a grid where each cell contains a certain amount of gold or is blocked, find the maximum amount of gold that can be collected by starting from any gold cell. You may move up, down, left, or right, and each cell can be visited at most once.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines each contain C integers.",
+    "output": "Print the maximum gold collectible.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 15"
+  },
+  "repository": {
+    "name": "lrmsspace/LLM-CodeQualityEval",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Output/output_Tabnine/c/Medium/1154-path-with-maximum-gold.c",
+    "fileSHA": "7e74fbc6eae6042e5a813a406f3836676a8a28b8",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval/blob/a2817bbe913c51ab32afeb6f6d0ad97b92c45075/Output/output_Tabnine/c/Medium/1154-path-with-maximum-gold.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/LLM-CodeQualityEval/main/Output/output_Tabnine/c/Medium/1154-path-with-maximum-gold.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6524834a4db04a282f70b255ee7c3879e77d7152791ab78bf7d98541ef6f486f",
+    "normalizedCodeHash": "6524834a4db04a282f70b255ee7c3879e77d7152791ab78bf7d98541ef6f486f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T18:34:18.997859+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

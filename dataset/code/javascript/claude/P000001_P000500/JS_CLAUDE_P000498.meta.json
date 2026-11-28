@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_CLAUDE_P000498",
+  "problemId": "P000498",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000498",
+    "title": "Basic Calculator",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Implement a calculator to evaluate an arithmetic expression containing: Non-negative integers '+' '-' Parentheses '(' and ')' Spaces The expression is guaranteed to be valid. Return the evaluated result.",
+    "input": "A string representing the arithmetic expression.",
+    "output": "A single integer representing the evaluated result.",
+    "constraints": "1 <= expression.length <= 3 × 10^5 The expression contains only valid characters. Intermediate results fit within a 32-bit signed integer."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000498",
+    "fileSHA": "d90d859670e1c13eeff00a617f903aacad68694ffbcfdea199432ad3dcc1c64e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "11ab76b5f42cf7cb9e1e1e8bff245c803a317804f930b08729c7a801fff12b64",
+    "normalizedCodeHash": "d90d859670e1c13eeff00a617f903aacad68694ffbcfdea199432ad3dcc1c64e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

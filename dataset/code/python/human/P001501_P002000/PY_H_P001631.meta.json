@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001631",
+  "problemId": "P001631",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001631",
+    "title": "Number of Paths With Given Sum in a Grid",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M grid of integers and an integer Target, determine the number of paths from the top-left cell to the bottom-right cell such that the sum of values along the path is exactly Target. You may only move right or down.",
+    "input": "\u2022 First line contains N, M, and Target. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the number of valid paths.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 30 \u2022 -100 \u2264 Grid[i][j] \u2264 100"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/number-of-increasing-paths-in-a-grid.py",
+    "fileSHA": "60e2a8c3b604a640a5c8f2f46b1d30066aa4da7b",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/number-of-increasing-paths-in-a-grid.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/number-of-increasing-paths-in-a-grid.py"
+  },
+  "matching": {
+    "relevanceScore": 69.02
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e2c7dd4a9c9d23f507104e806acc30786ac3ac017f32ea6070a4ca17bbcaf01f",
+    "normalizedCodeHash": "e2c7dd4a9c9d23f507104e806acc30786ac3ac017f32ea6070a4ca17bbcaf01f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:16:52.726559+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

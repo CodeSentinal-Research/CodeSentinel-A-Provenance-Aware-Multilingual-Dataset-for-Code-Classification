@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000758",
+  "problemId": "P000758",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000758",
+    "title": "Count Inversions Using Recursive Merge Sort",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers, count the number of inversions in the array using a recursive Merge Sort approach. An inversion is a pair of indices (i, j) such that: i < j nums[i] > nums[j]",
+    "input": "Integer n Array nums",
+    "output": "The total number of inversions.",
+    "constraints": "1 <= n <= 2 \u00d7 10^5 -10^9 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/sorting/src/merge_sort/merge_sort.java",
+    "fileSHA": "c2ce7edbab6e92535be973a32bed9fd9764b6a8b",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/sorting/src/merge_sort/merge_sort.java",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/sorting/src/merge_sort/merge_sort.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "edb5d80965bf858b265dee99a02197197c9428b756cfa7cc9b6bdfc1801be03e",
+    "normalizedCodeHash": "edb5d80965bf858b265dee99a02197197c9428b756cfa7cc9b6bdfc1801be03e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T16:53:50.242625+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

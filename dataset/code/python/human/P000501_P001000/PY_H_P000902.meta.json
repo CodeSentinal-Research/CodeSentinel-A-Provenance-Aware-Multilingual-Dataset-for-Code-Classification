@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000902",
+  "problemId": "P000902",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000902",
+    "title": "Divisibility Range Queries",
+    "category": "Mathematics - Divisibility",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and multiple queries (L, R, X), determine how many numbers in the range [L, R] are divisible by X.",
+    "input": "Integer N Array nums Integer Q Q queries (L, R, X)",
+    "output": "For each query, print the count of divisible numbers.",
+    "constraints": "1 <= N, Q <= 2 \u00d7 10^5 1 <= nums[i], X <= 10^9"
+  },
+  "repository": {
+    "name": "NVIDIA/Megatron-LM",
+    "owner": "NVIDIA",
+    "url": "https://github.com/NVIDIA/Megatron-LM",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "megatron/core/transformer/experimental_attention_variant/dsa_layout.py",
+    "fileSHA": "dd2c0612adca93c7f9cb320c8d98c2e4f8e518b6",
+    "url": "https://github.com/NVIDIA/Megatron-LM/blob/f2f0f7bfd88fcb1243df55275988d6af52daea35/megatron/core/transformer/experimental_attention_variant/dsa_layout.py",
+    "rawUrl": "https://raw.githubusercontent.com/NVIDIA/Megatron-LM/main/megatron/core/transformer/experimental_attention_variant/dsa_layout.py"
+  },
+  "matching": {
+    "relevanceScore": 88.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "eda01a006f0f432f0301537396d77d36c6cb3696bd043ca1a12533214695f236",
+    "normalizedCodeHash": "eda01a006f0f432f0301537396d77d36c6cb3696bd043ca1a12533214695f236",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T12:00:13.247311+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

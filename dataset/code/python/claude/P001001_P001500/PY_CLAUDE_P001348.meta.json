@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_CLAUDE_P001348",
+  "problemId": "P001348",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001348",
+    "title": "Fill the Matrix",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Fill an N × N matrix with integers from 1 to N² such that every number is used exactly once and all given constraints are satisfied.",
+    "input": "• First line contains integer N. • Next line contains integer M representing the number of constraints. • Next M lines describe the constraints.",
+    "output": "Print one valid matrix or IMPOSSIBLE.",
+    "constraints": "• 1 ≤ N ≤ 6"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P001348",
+    "fileSHA": "67f6ee504408a065cec7117643a43e969d48c309aa009b366a1c38c1a96665be",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1dff2ce6eaf6eed3f35241faf33d72a76a6bd1d76973997613ecb563d7cf5cfc",
+    "normalizedCodeHash": "67f6ee504408a065cec7117643a43e969d48c309aa009b366a1c38c1a96665be",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

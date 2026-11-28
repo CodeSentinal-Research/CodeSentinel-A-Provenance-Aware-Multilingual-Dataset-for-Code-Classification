@@ -1,0 +1,1 @@
+const[s,ks]=require('fs').readFileSync('/dev/stdin','utf8').trim().split(' ');const k=+ks;const stk=[];for(const c of s){if(stk.length&&stk[stk.length-1][0]===c){stk[stk.length-1][1]++;if(stk[stk.length-1][1]===k)stk.pop();}else stk.push([c,1]);}console.log(stk.map(([c,n])=>c.repeat(n)).join(''));

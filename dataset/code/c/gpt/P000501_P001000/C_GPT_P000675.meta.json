@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000675",
+  "problemId": "P000675",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000675",
+    "title": "Reverse Circular Doubly Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a circular doubly linked list, reverse the list while preserving both the circular structure and the correctness of the next and prev pointers. Return the head of the reversed circular doubly linked list.",
+    "input": "A circular doubly linked list.",
+    "output": "The head of the reversed circular doubly linked list.",
+    "constraints": "Number of nodes is in the range [1, 10^5]"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000675.c",
+    "fileSHA": "73b8ec0648e5ce203f9573d0d816d97ee941bcc14ba167a23449ac778f673e9c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "73b8ec0648e5ce203f9573d0d816d97ee941bcc14ba167a23449ac778f673e9c",
+    "normalizedCodeHash": "73b8ec0648e5ce203f9573d0d816d97ee941bcc14ba167a23449ac778f673e9c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

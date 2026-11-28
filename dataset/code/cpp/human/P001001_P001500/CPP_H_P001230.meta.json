@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001230",
+  "problemId": "P001230",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001230",
+    "title": "Out of Boundary Paths",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given an R \u00d7 C grid and a starting cell, determine the number of paths that move outside the grid in at most K moves. At each move, movement is allowed in the four cardinal directions.",
+    "input": "\u2022 First line contains integers R, C, and K. \u2022 Second line contains starting cell coordinates.",
+    "output": "Print the total number of valid paths.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 50 \u2022 0 \u2264 K \u2264 50"
+  },
+  "repository": {
+    "name": "bbhitec/leetcode_doodles",
+    "owner": "bbhitec",
+    "url": "https://github.com/bbhitec/leetcode_doodles",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "576_out_of_boundary_paths.cpp",
+    "fileSHA": "76f8ec1e2e7326df1cb51497d5eef33ab3b3091d",
+    "url": "https://github.com/bbhitec/leetcode_doodles/blob/ecb86d704c194693b1c9ee8ef23db3f0a03ade31/576_out_of_boundary_paths.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/bbhitec/leetcode_doodles/main/576_out_of_boundary_paths.cpp"
+  },
+  "matching": {
+    "relevanceScore": 84.4
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "544f578a69ea71a273af20341526a9d88bc52277aaf17d03be21bb302923feb2",
+    "normalizedCodeHash": "544f578a69ea71a273af20341526a9d88bc52277aaf17d03be21bb302923feb2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T18:17:38.022692+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

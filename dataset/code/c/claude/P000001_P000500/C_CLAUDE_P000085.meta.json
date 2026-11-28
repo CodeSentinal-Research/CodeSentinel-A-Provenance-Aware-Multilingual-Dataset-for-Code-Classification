@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P000085",
+  "problemId": "P000085",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000085",
+    "title": "Grade Calculation",
+    "category": "Basic",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that assigns a grade based on marks (A for \u226590, B for \u226580, C for \u226570, D for \u226560, F otherwise).",
+    "input": "An integer marks.",
+    "output": "The corresponding grade.",
+    "constraints": "0 \u2264 marks \u2264 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000085",
+    "fileSHA": "05032a2850001643d6c2444e55659988865d1596fcba19ae4b51f1078c8ebae2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-3.7-sonnet",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:56:04.494280+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d7a3401848123e07c3f90548d29c8c5da4a51ee262bf2694dcf69f19113a994b",
+    "normalizedCodeHash": "05032a2850001643d6c2444e55659988865d1596fcba19ae4b51f1078c8ebae2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:56:04.494300+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

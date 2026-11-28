@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001402",
+  "problemId": "P001402",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001402",
+    "title": "Check If Array Pairs Are Divisible by K",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of even length and an integer K, determine whether the array can be partitioned into pairs such that the sum of every pair is divisible by K.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print YES if such a pairing exists; otherwise print NO.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2\u00d710^5 \u2022 N is even"
+  },
+  "repository": {
+    "name": "eaglemox/LeetCode-Writeups",
+    "owner": "eaglemox",
+    "url": "https://github.com/eaglemox/LeetCode-Writeups",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "array/1497.check-if-array-pairs-are-divisible-by-k/solution_1.c",
+    "fileSHA": "77c440fa886683f6e046207d9c424456bfb849f0",
+    "url": "https://github.com/eaglemox/LeetCode-Writeups/blob/8f08fad6a7ca196447bb47b928f2f951421203ab/array/1497.check-if-array-pairs-are-divisible-by-k/solution_1.c",
+    "rawUrl": "https://raw.githubusercontent.com/eaglemox/LeetCode-Writeups/main/array/1497.check-if-array-pairs-are-divisible-by-k/solution_1.c"
+  },
+  "matching": {
+    "relevanceScore": 73.33
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9e1349fb17e4f053b9496ca41b1f8e2536fb2a5ab665b1c8d322f527f9e13900",
+    "normalizedCodeHash": "9e1349fb17e4f053b9496ca41b1f8e2536fb2a5ab665b1c8d322f527f9e13900",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:48:04.268946+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

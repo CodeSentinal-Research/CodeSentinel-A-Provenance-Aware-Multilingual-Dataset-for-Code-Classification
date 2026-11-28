@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000517",
+  "problemId": "P000517",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000517",
+    "title": "Maximum Width Ramp",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "A ramp is a pair of indices (i, j) such that i < j and nums[i] <= nums[j]. Find the maximum width of a ramp in the array, where the width is j - i. Return the maximum possible width.",
+    "input": "Integer n Array nums",
+    "output": "A single integer representing the maximum width.",
+    "constraints": "2 <= n <= 5 \u00d7 10^4 0 <= nums[i] <= 5 \u00d7 10^4"
+  },
+  "repository": {
+    "name": "pralinkhaira/Leet-Code-Solutions",
+    "owner": "pralinkhaira",
+    "url": "https://github.com/pralinkhaira/Leet-Code-Solutions",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "1002-maximum-width-ramp/maximum-width-ramp.cpp",
+    "fileSHA": "64f32e1cc345a255b211143764796c45159ee2ab",
+    "url": "https://github.com/pralinkhaira/Leet-Code-Solutions/blob/cb9198b6f1fd5836b61d38a295bb3b9adf5c862f/1002-maximum-width-ramp/maximum-width-ramp.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/pralinkhaira/Leet-Code-Solutions/main/1002-maximum-width-ramp/maximum-width-ramp.cpp"
+  },
+  "matching": {
+    "relevanceScore": 93.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0c9a75cfa101f8e99944253e051bfa159f98ae1cfd795ad44c6ac2fd528c732e",
+    "normalizedCodeHash": "0c9a75cfa101f8e99944253e051bfa159f98ae1cfd795ad44c6ac2fd528c732e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T14:43:46.428424+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

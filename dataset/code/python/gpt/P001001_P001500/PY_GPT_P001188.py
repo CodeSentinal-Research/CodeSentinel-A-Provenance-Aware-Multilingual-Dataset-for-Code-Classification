@@ -1,0 +1,16 @@
+# problem title : Best Time to Buy and Sell Stock III
+# Solve the stated task using standard input and standard output.
+from typing import List
+
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        buy1, buy2 = float('inf'), float('inf')
+        profit1, profit2 = 0, 0
+
+        for p in prices:
+            buy1 = min(buy1, p)
+            profit1 = max(profit1, p - buy1)
+            buy2 = min(buy2, p - profit1)
+            profit2 = max(profit2, p - buy2)
+
+        return profit2

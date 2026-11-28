@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000964",
+  "problemId": "P000964",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000964",
+    "title": "Chinese Remainder Theorem Solver",
+    "category": "Mathematics - Chinese Remainder Theorem",
+    "difficulty": "Hard",
+    "problemStatement": "Given pairwise coprime moduli and their corresponding remainders, find the smallest non-negative integer satisfying all congruences.",
+    "input": "Integer N Arrays remainder[] Arrays modulus[]",
+    "output": "The smallest solution.",
+    "constraints": "1 <= N <= 15 2 <= modulus[i] <= 10^9"
+  },
+  "repository": {
+    "name": "williamfiset/Algorithms",
+    "owner": "williamfiset",
+    "url": "https://github.com/williamfiset/Algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/williamfiset/algorithms/math/ChineseRemainderTheorem.java",
+    "fileSHA": "a8e237386a36952bed7d022564b26f83fafcc217",
+    "url": "https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/williamfiset/algorithms/math/ChineseRemainderTheorem.java",
+    "rawUrl": "https://raw.githubusercontent.com/williamfiset/Algorithms/master/src/main/java/com/williamfiset/algorithms/math/ChineseRemainderTheorem.java"
+  },
+  "matching": {
+    "relevanceScore": 66.25
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a993de5dd556558b8b0fbc499b9132470d1f96585d86ed0c91432fd0c26b0a61",
+    "normalizedCodeHash": "a993de5dd556558b8b0fbc499b9132470d1f96585d86ed0c91432fd0c26b0a61",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:46:47.875921+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001651",
+  "problemId": "P001651",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001651",
+    "title": "Construct a Binary Tree from Preorder and Postorder Traversals",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the preorder traversal and postorder traversal of a full binary tree containing unique values, reconstruct the original binary tree.",
+    "input": "• The first line contains an integer N. • The second line contains the preorder traversal. • The third line contains the postorder traversal.",
+    "output": "• Print the reconstructed tree in the required traversal format.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5 • The binary tree is full. • All node values are unique.________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001651.c",
+    "fileSHA": "fe4638541936991a6981500827bdd5fcd2cf454a49cdb17e53660211d170964f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.111Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "671720bd205ebc73cf0bd29c469d02e399349425de68e932c7815a11e7dca2b9",
+    "normalizedCodeHash": "fe4638541936991a6981500827bdd5fcd2cf454a49cdb17e53660211d170964f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.111Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

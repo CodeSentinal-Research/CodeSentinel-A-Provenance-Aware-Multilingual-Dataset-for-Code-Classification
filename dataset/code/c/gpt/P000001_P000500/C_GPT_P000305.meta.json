@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000305",
+  "problemId": "P000305",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000305",
+    "title": "Basic Calculator",
+    "category": "Strings",
+    "difficulty": "Hard",
+    "problemStatement": "Write a program that evaluates a simple expression string containing +, -, (, ) and non-negative integers.",
+    "input": "A string expression.",
+    "output": "The evaluated result.",
+    "constraints": "1 ≤ |expression| ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000305.c",
+    "fileSHA": "ba53d5b1161000791d69e4379019b8363db8b167c899a920d141bc3fa8cdc633",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ba53d5b1161000791d69e4379019b8363db8b167c899a920d141bc3fa8cdc633",
+    "normalizedCodeHash": "ba53d5b1161000791d69e4379019b8363db8b167c899a920d141bc3fa8cdc633",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000951",
+  "problemId": "P000951",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000951",
+    "title": "Sum of Totients",
+    "category": "Mathematics - Euler Totient Function",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer N, compute the sum of Euler's Totient Function values from 1 to N.",
+    "input": "Integer N",
+    "output": "The value of Σφ(i) for 1 ≤ i ≤ N.",
+    "constraints": "1 <= N <= 10^7"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000951.js",
+    "fileSHA": "c9b773d6bc23f57acd5b914c7bfade4e0bd069a35a7cfd376675b857f9ada5a7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c9b773d6bc23f57acd5b914c7bfade4e0bd069a35a7cfd376675b857f9ada5a7",
+    "normalizedCodeHash": "c9b773d6bc23f57acd5b914c7bfade4e0bd069a35a7cfd376675b857f9ada5a7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

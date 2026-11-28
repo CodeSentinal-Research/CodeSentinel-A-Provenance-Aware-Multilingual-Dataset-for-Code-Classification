@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001677",
+  "problemId": "P001677",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001677",
+    "title": "Find the Cousins of a Given Node",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree and a target node, determine all cousin nodes of the target. Two nodes are cousins if they are at the same depth but have different parents.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains the target node.",
+    "output": "\u2022 Print all cousin nodes in the required order. If none exist, print NONE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0900-0999/0993.Cousins in Binary Tree/Solution2.cpp",
+    "fileSHA": "846d545f76a56e5536d8bca93abea42e781b0d8c",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0900-0999/0993.Cousins in Binary Tree/Solution2.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0900-0999/0993.Cousins in Binary Tree/Solution2.cpp"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "22c034ac3cb05813c216f58f38bef7968594acc4559af72142c4e34bfb48b836",
+    "normalizedCodeHash": "22c034ac3cb05813c216f58f38bef7968594acc4559af72142c4e34bfb48b836",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:10.526670+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

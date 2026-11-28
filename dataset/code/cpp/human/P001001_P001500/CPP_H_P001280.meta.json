@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001280",
+  "problemId": "P001280",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001280",
+    "title": "Patch Array",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given a sorted array of positive integers and an integer N, determine the minimum number of additional numbers that must be inserted so that every number in the range [1, N] can be formed as the sum of some subset of the array.",
+    "input": "\u2022 First line contains integers M and N. \u2022 Second line contains M sorted positive integers.",
+    "output": "Print the minimum number of inserted elements.",
+    "constraints": "\u2022 1 \u2264 M \u2264 10^5 \u2022 1 \u2264 N \u2264 10^18"
+  },
+  "repository": {
+    "name": "Ginkgo-Biloba/LeetCode",
+    "owner": "Ginkgo-Biloba",
+    "url": "https://github.com/Ginkgo-Biloba/LeetCode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": ".0000-0999/0330-patch_array.cpp",
+    "fileSHA": "bb8733e4a3b0e6dd4401c2700b6b51e936c909d6",
+    "url": "https://github.com/Ginkgo-Biloba/LeetCode/blob/9690153b623e05f57610072d0170e92e28c65b24/.0000-0999/0330-patch_array.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/Ginkgo-Biloba/LeetCode/main/.0000-0999/0330-patch_array.cpp"
+  },
+  "matching": {
+    "relevanceScore": 67.78
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "abdada8871c8614a0ef9f63c6fbafbb11cc4eee3510175d561a9bc9fa5345b93",
+    "normalizedCodeHash": "abdada8871c8614a0ef9f63c6fbafbb11cc4eee3510175d561a9bc9fa5345b93",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:32:02.776711+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

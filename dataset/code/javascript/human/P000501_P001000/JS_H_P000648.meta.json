@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000648",
+  "problemId": "P000648",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000648",
+    "title": "Design Undo Redo Editor",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a text editor that supports the following operations: type(text) \u2014 Append text to the document. undo() \u2014 Undo the most recent typing operation. redo() \u2014 Reapply the most recently undone operation. print() \u2014 Print the current document. Implement the editor efficiently using a linked-list-based history mechanism. Process all operations and print the document for every print() operation.",
+    "input": "Integer q Next q operations.",
+    "output": "Print the current document after every print() operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5 Total length of all inserted text does not exceed 10^6"
+  },
+  "repository": {
+    "name": "LuaraZambon/Modern-Rich-Text",
+    "owner": "LuaraZambon",
+    "url": "https://github.com/LuaraZambon/Modern-Rich-Text",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "script.js",
+    "fileSHA": "7aca65b90b81f53195a16357ef0b7a702002830e",
+    "url": "https://github.com/LuaraZambon/Modern-Rich-Text/blob/af6d9657daa31598c105fdcdbb4ea0dc53ea64a4/script.js",
+    "rawUrl": "https://raw.githubusercontent.com/LuaraZambon/Modern-Rich-Text/main/script.js"
+  },
+  "matching": {
+    "relevanceScore": 76.25
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f9824133ac7e64f8bdb20cbff185062ac341181b34ec61fbd58612021508c79b",
+    "normalizedCodeHash": "f9824133ac7e64f8bdb20cbff185062ac341181b34ec61fbd58612021508c79b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T14:43:09.285338+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

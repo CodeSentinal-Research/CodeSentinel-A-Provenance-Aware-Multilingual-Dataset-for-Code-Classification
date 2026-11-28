@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001265",
+  "problemId": "P001265",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001265",
+    "title": "Maximum Performance of a Team",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given N engineers, each having a speed and an efficiency, select at most K engineers to maximize the team's performance, defined as the sum of selected speeds multiplied by the minimum efficiency among them.",
+    "input": "• First line contains integers N and K. • Second line contains N integers representing speeds. • Third line contains N integers representing efficiencies.",
+    "output": "Print the maximum achievable performance.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001265.py",
+    "fileSHA": "97c11b08eb9cf6eda3bd279fa5e0e5af68addbe9742d813e488f010b98275863",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.002690+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "97c11b08eb9cf6eda3bd279fa5e0e5af68addbe9742d813e488f010b98275863",
+    "normalizedCodeHash": "b7e36900661a801244f66b6d9c7a3b78f0317ad62d557a94242553df84f9fac7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.002690+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

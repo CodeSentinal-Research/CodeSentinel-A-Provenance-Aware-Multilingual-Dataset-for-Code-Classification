@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001261",
+  "problemId": "P001261",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001261",
+    "title": "Minimum Refueling Stops",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "A vehicle starts with a certain amount of fuel and must reach a destination. Along the route are fuel stations at known distances, each providing a certain amount of fuel. Determine the minimum number of refueling stops required to reach the destination. If impossible, print -1.",
+    "input": "• First line contains integers Target and StartFuel. • Second line contains integer N. • Next N lines each contain the station position and available fuel.",
+    "output": "Print the minimum number of refueling stops.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001261.py",
+    "fileSHA": "3c471137f7e878e3b1bb8403a5b1882c09b12714cbc237ddd9ae2e66e5d21fdf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.990698+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3c471137f7e878e3b1bb8403a5b1882c09b12714cbc237ddd9ae2e66e5d21fdf",
+    "normalizedCodeHash": "550ae34121dd3586c5be9428703ae2229ca58bb36d4e22db2d13e5fb99393735",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.990698+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

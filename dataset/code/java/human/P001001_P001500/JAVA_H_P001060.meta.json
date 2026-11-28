@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001060",
+  "problemId": "P001060",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001060",
+    "title": "Sort Nearly Sorted Array",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array in which every element is at most K positions away from its correct position in the sorted order, sort the array efficiently using a heap-based algorithm.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the sorted array.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 0 \u2264 K < N"
+  },
+  "repository": {
+    "name": "UnitTestBot/UTBotJava",
+    "owner": "UnitTestBot",
+    "url": "https://github.com/UnitTestBot/UTBotJava",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "utbot-sample/src/main/java/org/utbot/examples/algorithms/ArraysQuickSort.java",
+    "fileSHA": "1adc6182279cfe72cb2c6cc4215307d22ec6d40a",
+    "url": "https://github.com/UnitTestBot/UTBotJava/blob/73bd2b2aed09ba94e7cbd875c662f78db10c2da8/utbot-sample/src/main/java/org/utbot/examples/algorithms/ArraysQuickSort.java",
+    "rawUrl": "https://raw.githubusercontent.com/UnitTestBot/UTBotJava/main/utbot-sample/src/main/java/org/utbot/examples/algorithms/ArraysQuickSort.java"
+  },
+  "matching": {
+    "relevanceScore": 81.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "aa5023a06808b115a60083d6f283a9791bc2b88181e4c481533f1d37ce1bff2d",
+    "normalizedCodeHash": "aa5023a06808b115a60083d6f283a9791bc2b88181e4c481533f1d37ce1bff2d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:40:31.607626+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

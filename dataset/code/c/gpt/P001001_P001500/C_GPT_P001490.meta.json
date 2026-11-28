@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001490",
+  "problemId": "P001490",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001490",
+    "title": "Count Binary Substrings",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary string, count the number of non-empty contiguous substrings having the same number of consecutive 0s and 1s, with all 0s and all 1s grouped consecutively.",
+    "input": "• First line contains a binary string.",
+    "output": "Print the total number of valid substrings.",
+    "constraints": "• 1 ≤ Length ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001490.c",
+    "fileSHA": "6c7e402bd71fb58457fe883fc1117c1ce8c6719e1ce2389ef26668400aeaa1d8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.542Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "b795b1b97d32d0b55e415c5162fa30ec0eaa17abc7ecf99f2ec074310da9ddfd",
+    "normalizedCodeHash": "6c7e402bd71fb58457fe883fc1117c1ce8c6719e1ce2389ef26668400aeaa1d8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.542Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

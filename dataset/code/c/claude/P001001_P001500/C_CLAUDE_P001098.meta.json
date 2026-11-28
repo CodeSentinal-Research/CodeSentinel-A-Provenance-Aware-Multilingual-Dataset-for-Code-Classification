@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P001098",
+  "problemId": "P001098",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001098",
+    "title": "Count Connected Components Using Union-Find",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given an undirected graph, determine the number of connected components using the Disjoint Set Union (Union-Find) data structure.",
+    "input": "• First line contains integers N and M. • Next M lines contain graph edges.",
+    "output": "Print the number of connected components.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P001098",
+    "fileSHA": "9c74003ac4b0c61a0f9dfdc2cd48fe9731f3080c5ecfc0c2a3facf7fb1a57924",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9c74003ac4b0c61a0f9dfdc2cd48fe9731f3080c5ecfc0c2a3facf7fb1a57924",
+    "normalizedCodeHash": "9c74003ac4b0c61a0f9dfdc2cd48fe9731f3080c5ecfc0c2a3facf7fb1a57924",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P001098"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

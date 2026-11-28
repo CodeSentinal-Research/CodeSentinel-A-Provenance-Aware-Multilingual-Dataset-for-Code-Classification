@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000731",
+  "problemId": "P000731",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000731",
+    "title": "N-Queens II",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer N, determine the total number of distinct ways to place N queens on an N × N chessboard so that no two queens attack each other.",
+    "input": "Integer N",
+    "output": "The total number of valid configurations.",
+    "constraints": "1 <= N <= 14"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000731.c",
+    "fileSHA": "b57e1eed76b60d1a24ea6dfef76e1a2eb0ed59d6847fb36b6a32761f24a7dcb9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b57e1eed76b60d1a24ea6dfef76e1a2eb0ed59d6847fb36b6a32761f24a7dcb9",
+    "normalizedCodeHash": "b57e1eed76b60d1a24ea6dfef76e1a2eb0ed59d6847fb36b6a32761f24a7dcb9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

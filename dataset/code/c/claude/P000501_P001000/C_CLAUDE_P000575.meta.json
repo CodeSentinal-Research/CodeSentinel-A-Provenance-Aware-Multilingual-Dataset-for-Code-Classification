@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000575",
+  "problemId": "P000575",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000575",
+    "title": "Binary Tree Maximum Width",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, compute the maximum width among all levels. The width of a level is defined as the number of positions between the leftmost and rightmost non-null nodes, including any missing nodes in between. Return the maximum width.",
+    "input": "The root of a binary tree.",
+    "output": "A single integer representing the maximum width.",
+    "constraints": "Number of nodes is in the range [1, 3000]"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000575",
+    "fileSHA": "0df402c903edb92f794da232e2c3687e594b25b2d6b749ea5e93243b46f91ba1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0df402c903edb92f794da232e2c3687e594b25b2d6b749ea5e93243b46f91ba1",
+    "normalizedCodeHash": "0df402c903edb92f794da232e2c3687e594b25b2d6b749ea5e93243b46f91ba1",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000575: Binary Tree Maximum Width"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

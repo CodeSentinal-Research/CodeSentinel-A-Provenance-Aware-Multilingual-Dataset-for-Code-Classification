@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001313",
+  "problemId": "P001313",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001313",
+    "title": "Sudoku Solver",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given a partially filled 9 × 9 Sudoku grid, fill the empty cells so that every row, column, and 3 × 3 subgrid contains every digit from 1 to 9 exactly once.",
+    "input": "• Nine lines each containing nine integers where 0 denotes an empty cell.",
+    "output": "Print the completed Sudoku grid.",
+    "constraints": "• Exactly one valid solution exists."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001313.c",
+    "fileSHA": "6bb8fc9911913767d8ac5cea9cd0f4f55f8a42ff0028b0da43b91f53c861e173",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.766Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "f94f91dd5c0bc88b9768c8335bcd245dd1d9b41a6ae56d636b35e04d20305133",
+    "normalizedCodeHash": "6bb8fc9911913767d8ac5cea9cd0f4f55f8a42ff0028b0da43b91f53c861e173",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.766Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

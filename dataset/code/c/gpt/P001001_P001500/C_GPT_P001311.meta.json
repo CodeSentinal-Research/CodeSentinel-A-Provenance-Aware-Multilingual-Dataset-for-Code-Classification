@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001311",
+  "problemId": "P001311",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001311",
+    "title": "N-Queens",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Place N queens on an N × N chessboard such that no two queens attack each other. Print all valid board configurations and the total number of solutions.",
+    "input": "• First line contains integer N.",
+    "output": "Print all valid configurations followed by the total number of solutions.",
+    "constraints": "• 1 ≤ N ≤ 14"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001311.c",
+    "fileSHA": "7b0ae60dd7d94898aa464d93d0ac75d81f33d839a82324a6c4d3e9ee54da49fe",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.758Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "23e57338f15ac8be85f69eacfec534d60398f3396a64b972672daa5aabb4b656",
+    "normalizedCodeHash": "7b0ae60dd7d94898aa464d93d0ac75d81f33d839a82324a6c4d3e9ee54da49fe",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.758Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

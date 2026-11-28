@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);String word=sc.next(),abbr=sc.next();int i=0,j=0,n=word.length(),m=abbr.length();while(i<n&&j<m){if(Character.isDigit(abbr.charAt(j))){if(abbr.charAt(j)=='0'){System.out.println("No");return;}int num=0;while(j<m&&Character.isDigit(abbr.charAt(j)))num=num*10+(abbr.charAt(j++)-'0');i+=num;}else{if(word.charAt(i)!=abbr.charAt(j)){System.out.println("No");return;}i++;j++;}}System.out.println(i==n&&j==m?"Yes":"No");}}

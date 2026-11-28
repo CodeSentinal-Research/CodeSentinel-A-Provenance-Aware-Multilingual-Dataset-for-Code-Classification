@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_QWEN_P001129",
+  "problemId": "P001129",
+  "language": "javascript",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001129",
+    "title": "Remove Maximum Number of Edges While Keeping Graph Fully Traversable",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "A graph contains three types of edges: \u2022 Type 1: Usable only by Alice. \u2022 Type 2: Usable only by Bob. \u2022 Type 3: Usable by both Alice and Bob. Determine the maximum number of edges that can be removed while ensuring both Alice and Bob can still traverse the entire graph. If impossible, print -1.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines each contain type, u, and v.",
+    "output": "Print the maximum number of removable edges.",
+    "constraints": "\u2022 2 \u2264 N \u2264 10^5 \u2022 1 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/JS_QWEN_P001129",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

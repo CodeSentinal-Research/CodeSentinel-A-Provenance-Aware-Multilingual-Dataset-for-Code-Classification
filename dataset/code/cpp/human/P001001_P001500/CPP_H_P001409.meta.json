@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001409",
+  "problemId": "P001409",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001409",
+    "title": "Count Equal and Divisible Pairs",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and an integer K, count pairs (i, j) such that i < j, nums[i] = nums[j], and (i \u00d7 j) is divisible by K.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the total number of valid pairs.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "smartcsie/leetcode",
+    "owner": "smartcsie",
+    "url": "https://github.com/smartcsie/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/Solution_2176.cpp",
+    "fileSHA": "293647f241183659f49b03f8cdc2810d130778b5",
+    "url": "https://github.com/smartcsie/leetcode/blob/cd8dea6a880851bcb447154189b6284f8e554b27/solution/Solution_2176.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/smartcsie/leetcode/main/solution/Solution_2176.cpp"
+  },
+  "matching": {
+    "relevanceScore": 91.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "408b4446227b14dee0ecb28e13592fea04f6bd25623621210b2dc76c210f0b16",
+    "normalizedCodeHash": "408b4446227b14dee0ecb28e13592fea04f6bd25623621210b2dc76c210f0b16",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T14:57:59.761214+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

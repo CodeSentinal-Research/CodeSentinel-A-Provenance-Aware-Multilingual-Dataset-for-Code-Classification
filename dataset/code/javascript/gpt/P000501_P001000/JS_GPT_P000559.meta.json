@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000559",
+  "problemId": "P000559",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000559",
+    "title": "Reverse First K Elements of Queue",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Given a queue containing N integers and an integer K, reverse only the first K elements of the queue while keeping the remaining elements in the same relative order. Return the modified queue.",
+    "input": "Integer N Queue elements Integer K",
+    "output": "The queue after reversing the first K elements.",
+    "constraints": "1 <= K <= N <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000559.js",
+    "fileSHA": "01e514541b7b0d894850ae43216e4b0f59a17b31f7eef66bae1eb57f4197e6b4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "01e514541b7b0d894850ae43216e4b0f59a17b31f7eef66bae1eb57f4197e6b4",
+    "normalizedCodeHash": "01e514541b7b0d894850ae43216e4b0f59a17b31f7eef66bae1eb57f4197e6b4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

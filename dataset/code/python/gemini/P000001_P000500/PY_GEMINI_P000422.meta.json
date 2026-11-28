@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000422",
+  "problemId": "P000422",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000422",
+    "title": "Search Students Eligible for Scholarship",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Retrieve every student who satisfies the scholarship eligibility criteria based on CGPA and annual family income.",
+    "input": "Student records, minimum CGPA, maximum family income.",
+    "output": "Eligible students.",
+    "constraints": "1 \u2264 Number of Students \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000422",
+    "fileSHA": "c256aa2b1da31be4e788480a91112a0c91b8dca4e32774338c272d77f7a89e76",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:36:30.882508+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c256aa2b1da31be4e788480a91112a0c91b8dca4e32774338c272d77f7a89e76",
+    "normalizedCodeHash": "c256aa2b1da31be4e788480a91112a0c91b8dca4e32774338c272d77f7a89e76",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:36:30.882530+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

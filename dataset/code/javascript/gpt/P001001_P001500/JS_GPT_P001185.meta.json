@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001185",
+  "problemId": "P001185",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001185",
+    "title": "Delete and Earn",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers, selecting a value earns that value multiplied by its frequency. After selecting a value x, all occurrences of x−1 and x+1 become unavailable. Determine the maximum points obtainable.",
+    "input": "• First line contains integer N. • Second line contains N integers.",
+    "output": "Print the maximum obtainable points.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001185.js",
+    "fileSHA": "f73dd7cc3cdcc2c2ce288b9501d30669a7873e5af1bdb1cce4304a0510b05949",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T09:30:51.258473+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f73dd7cc3cdcc2c2ce288b9501d30669a7873e5af1bdb1cce4304a0510b05949",
+    "normalizedCodeHash": "f73dd7cc3cdcc2c2ce288b9501d30669a7873e5af1bdb1cce4304a0510b05949",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T09:30:51.258473+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001660",
+  "problemId": "P001660",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001660",
+    "title": "Detect Duplicate Subtrees",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, identify all distinct subtrees that appear more than once. Two subtrees are considered duplicates if they have identical structure and node values.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the root values of all duplicate subtrees in the required order. If no duplicate subtree exists, print NONE.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001660",
+    "fileSHA": "24c5c9af3e052f027c2aa66259e9f84122ec4e1b2f5ac29ad3ade2761270e938",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:34:06.193879+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "24c5c9af3e052f027c2aa66259e9f84122ec4e1b2f5ac29ad3ade2761270e938",
+    "normalizedCodeHash": "24c5c9af3e052f027c2aa66259e9f84122ec4e1b2f5ac29ad3ade2761270e938",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:34:06.193905+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

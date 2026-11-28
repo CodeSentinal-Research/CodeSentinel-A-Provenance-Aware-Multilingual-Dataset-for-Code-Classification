@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001340",
+  "problemId": "P001340",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001340",
+    "title": "Fair Distribution of Cookies",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array representing cookie bags and an integer K representing the number of children, distribute every bag to exactly one child so that the maximum number of cookies received by any child is minimized.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers representing the number of cookies in each bag.",
+    "output": "Print the minimum possible unfairness.",
+    "constraints": "\u2022 1 \u2264 N \u2264 8 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "srezasm/leetcode-daily",
+    "owner": "srezasm",
+    "url": "https://github.com/srezasm/leetcode-daily",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "2023-07/2305.fair-distribution-of-cookies.cpp",
+    "fileSHA": "22b44d35093513db82865be815e833c367ccdf3f",
+    "url": "https://github.com/srezasm/leetcode-daily/blob/70c0cd5c2aa6b7613e13245ced62a85415128424/2023-07/2305.fair-distribution-of-cookies.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/srezasm/leetcode-daily/main/2023-07/2305.fair-distribution-of-cookies.cpp"
+  },
+  "matching": {
+    "relevanceScore": 85.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b98abc050b2f57f5432fc293e8825b93710ea3f7fac76736161c4ea93b3ceeca",
+    "normalizedCodeHash": "b98abc050b2f57f5432fc293e8825b93710ea3f7fac76736161c4ea93b3ceeca",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:34:32.237162+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

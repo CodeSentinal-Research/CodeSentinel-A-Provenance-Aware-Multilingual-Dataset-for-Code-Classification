@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000617",
+  "problemId": "P000617",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000617",
+    "title": "Design Skip List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a Skip List data structure supporting the following operations with expected logarithmic time complexity: search(target) add(num) erase(num) Process a sequence of operations and print the result of every search() and erase() operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for each search() and erase() operation.",
+    "constraints": "1 <= q <= 5 \u00d7 10^4 0 <= num, target <= 2 \u00d7 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000617",
+    "fileSHA": "ec9394cca84a283d7c8e162c7fcd63caf17cd4dc15433140542132cad626d027",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.329Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "627667d87505974bd34d2eaebadbf335c43fcd68328a6b4c00624eeb6ba8d2f2",
+    "normalizedCodeHash": "e85e5300fd937aa347e389fa3a41ea94e507b60ca2409149a951cfbb92f5cee1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.329Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

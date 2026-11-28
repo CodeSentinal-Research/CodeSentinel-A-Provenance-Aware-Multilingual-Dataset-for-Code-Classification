@@ -1,0 +1,13 @@
+// Helper function to evaluate fib for problem constraints.
+function fib(n) {
+    if (n <= 1) return n;
+    let a = 0, b = 1;
+    for (let i = 2; i <= n; i++) {
+        const c = a + b;
+        a = b;
+        b = c;
+    }
+    return b;
+}
+
+module.exports = { fib };

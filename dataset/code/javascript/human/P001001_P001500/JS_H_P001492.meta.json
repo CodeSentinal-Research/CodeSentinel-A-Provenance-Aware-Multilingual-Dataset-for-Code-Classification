@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001492",
+  "problemId": "P001492",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001492",
+    "title": "Find K Closest Elements",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a sorted array, an integer K, and a value X, find the K closest elements to X. If there is a tie, prefer the smaller element.",
+    "input": "\u2022 First line contains integers N, K, and X. \u2022 Second line contains N sorted integers.",
+    "output": "Print the K closest elements in ascending order.",
+    "constraints": "\u2022 1 \u2264 K \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/0658-find-k-closest-elements.js",
+    "fileSHA": "c8033dbbba406e8e9b7e6262b3f8b39034dec8f2",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/javascript/0658-find-k-closest-elements.js",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/javascript/0658-find-k-closest-elements.js"
+  },
+  "matching": {
+    "relevanceScore": 72.14
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "67fce5c98c478cc412e1a861051cb384642cc629c7920a0d08112efa6faec306",
+    "normalizedCodeHash": "67fce5c98c478cc412e1a861051cb384642cc629c7920a0d08112efa6faec306",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:28:31.669039+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

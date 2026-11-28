@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001306",
+  "problemId": "P001306",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001306",
+    "title": "Optimal File Merge Pattern",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given the sizes of N files, repeatedly merge two files at a time. The cost of each merge equals the sum of the merged file sizes. Determine the minimum total merging cost.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing file sizes.",
+    "output": "Print the minimum total merge cost.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Python",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "greedy_methods/optimal_merge_pattern.py",
+    "fileSHA": "a1c934f84498b0beaa9113ed59767bc64726ecda",
+    "url": "https://github.com/TheAlgorithms/Python/blob/master/greedy_methods/optimal_merge_pattern.py",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Python/master/greedy_methods/optimal_merge_pattern.py"
+  },
+  "matching": {
+    "relevanceScore": 86.81
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d0391e8a32cb3a8bda77815dcae4e771ed935445967afd3fd7ca4351f7bf099c",
+    "normalizedCodeHash": "d0391e8a32cb3a8bda77815dcae4e771ed935445967afd3fd7ca4351f7bf099c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:15:07.466995+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

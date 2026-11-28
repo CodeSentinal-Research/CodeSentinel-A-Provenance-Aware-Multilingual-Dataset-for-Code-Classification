@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001854",
+  "problemId": "P001854",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001854",
+    "title": "Construct the Cartesian Tree of the Inorder Traversal of a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the inorder traversal of a Binary Search Tree and the priority assigned to each key, construct the corresponding Cartesian Tree.",
+    "input": "• The first line contains an integer N. • The second line contains the inorder traversal. • The third line contains the priority of each key.",
+    "output": "• Print the constructed Cartesian Tree.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001854.c",
+    "fileSHA": "90273dd6845cc7c8bbeb8812b3ec3a9aa44b18025876a41ca075868ee29b9c28",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:36.180Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "62c9c7993f21d1a17e1c8b2924890f0eed95e119dd5506d46c1660982aa5f4cb",
+    "normalizedCodeHash": "90273dd6845cc7c8bbeb8812b3ec3a9aa44b18025876a41ca075868ee29b9c28",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:36.180Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

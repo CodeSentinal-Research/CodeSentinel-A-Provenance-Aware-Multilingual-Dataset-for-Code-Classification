@@ -1,0 +1,11 @@
+# problem title : Task Scheduler with Cooling Time
+# Solve the stated task using standard input and standard output.
+from typing import List
+from collections import Counter
+
+class Solution:
+    def leastInterval(self, tasks: List[str], n: int) -> int:
+        count = Counter(tasks)
+        max_freq = max(count.values())
+        max_count = sum(1 for v in count.values() if v == max_freq)
+        return max(len(tasks), (max_freq - 1) * (n + 1) + max_count)

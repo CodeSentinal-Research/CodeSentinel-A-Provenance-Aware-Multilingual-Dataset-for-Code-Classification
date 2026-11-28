@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001107",
+  "problemId": "P001107",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001107",
+    "title": "Transitive Closure of a Directed Graph",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a directed graph with N vertices, determine whether every vertex is reachable from every other vertex. Output the complete reachability matrix.",
+    "input": "• First line contains integers N and M. • Next M lines contain directed edges.",
+    "output": "Print an N × N matrix where the value at row i and column j is 1 if vertex j is reachable from i, otherwise 0.",
+    "constraints": "• 1 ≤ N ≤ 500 • 0 ≤ M ≤ N(N−1)"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001107.c",
+    "fileSHA": "7233e59aec174cfdeaa783d0803257b78ee5b2b207faae95b1833194e0f47b20",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.028Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "5fcfd3004736114c57b2099ef396490d9e34728d37fe3529d8ff3d0c66737b5f",
+    "normalizedCodeHash": "7233e59aec174cfdeaa783d0803257b78ee5b2b207faae95b1833194e0f47b20",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.028Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

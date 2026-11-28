@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001699",
+  "problemId": "P001699",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001699",
+    "title": "Even-Odd Tree Validation",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, determine whether it satisfies the Even-Odd Tree property. Nodes at even-indexed levels must contain strictly increasing odd values, while nodes at odd-indexed levels must contain strictly decreasing even values.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print YES if the tree satisfies the property; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "tataw-cl/LeetCode_rep",
+    "owner": "tataw-cl",
+    "url": "https://github.com/tataw-cl/LeetCode_rep",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "evenOddTree.py",
+    "fileSHA": "8a9d451b11998a556157433a0994bd837ef8df8b",
+    "url": "https://github.com/tataw-cl/LeetCode_rep/blob/9d15149538947b71aaa556e77efe2d9b7a2053cb/evenOddTree.py",
+    "rawUrl": "https://raw.githubusercontent.com/tataw-cl/LeetCode_rep/main/evenOddTree.py"
+  },
+  "matching": {
+    "relevanceScore": 68.94
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "350fc47256d5383ec69a9cc8565197fae72692a9df5123b055e46815e03fc15b",
+    "normalizedCodeHash": "350fc47256d5383ec69a9cc8565197fae72692a9df5123b055e46815e03fc15b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:25:08.024672+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

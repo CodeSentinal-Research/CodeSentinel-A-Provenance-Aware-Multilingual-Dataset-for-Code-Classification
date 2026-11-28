@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000612",
+  "problemId": "P000612",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000612",
+    "title": "Insert Greatest Common Divisors in Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a linked list of integers, insert a new node between every pair of adjacent nodes. The value of each inserted node should be the greatest common divisor (GCD) of the values of the adjacent nodes. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 5000 1 <= node.value <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "javascript/gemini/JS_GEMINI_P000612",
+    "fileSHA": "6a844d5924eecc1ffc64ceaec4b3c2c2d13d8a74a76374964afacbd8820dc1e2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:48:55.590203+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6a844d5924eecc1ffc64ceaec4b3c2c2d13d8a74a76374964afacbd8820dc1e2",
+    "normalizedCodeHash": "6a844d5924eecc1ffc64ceaec4b3c2c2d13d8a74a76374964afacbd8820dc1e2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:48:55.590223+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

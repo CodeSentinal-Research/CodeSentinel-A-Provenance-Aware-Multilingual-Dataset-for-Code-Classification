@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001230",
+  "problemId": "P001230",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001230",
+    "title": "Out of Boundary Paths",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given an R \u00d7 C grid and a starting cell, determine the number of paths that move outside the grid in at most K moves. At each move, movement is allowed in the four cardinal directions.",
+    "input": "\u2022 First line contains integers R, C, and K. \u2022 Second line contains starting cell coordinates.",
+    "output": "Print the total number of valid paths.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 50 \u2022 0 \u2264 K \u2264 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001230",
+    "fileSHA": "2796f06c6402bc97f490345b19da4c076acd980f49394b35062d8ab3b28d3890",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:16:21.775403+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2796f06c6402bc97f490345b19da4c076acd980f49394b35062d8ab3b28d3890",
+    "normalizedCodeHash": "2796f06c6402bc97f490345b19da4c076acd980f49394b35062d8ab3b28d3890",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:16:21.775427+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

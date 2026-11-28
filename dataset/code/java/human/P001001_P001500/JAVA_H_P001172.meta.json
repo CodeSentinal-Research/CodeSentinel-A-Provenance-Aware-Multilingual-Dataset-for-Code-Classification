@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001172",
+  "problemId": "P001172",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001172",
+    "title": "Unique Paths with Obstacles",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an R \u00d7 C grid containing obstacles, determine the number of distinct paths from the top-left corner to the bottom-right corner. You may move only right or down.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines each contain C integers (0 = free cell, 1 = obstacle).",
+    "output": "Print the number of unique paths.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 1000"
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/java/src/dynamicProgramming/uniquePaths/uniquePathsII.java",
+    "fileSHA": "32e1765f4f01b05326a9d74faf54316179f0b589",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/java/src/dynamicProgramming/uniquePaths/uniquePathsII.java",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/java/src/dynamicProgramming/uniquePaths/uniquePathsII.java"
+  },
+  "matching": {
+    "relevanceScore": 80.36
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "890485a8da2e4d0e94daaa8cd878fb37e3570b6889149b58fd168abecccae910",
+    "normalizedCodeHash": "890485a8da2e4d0e94daaa8cd878fb37e3570b6889149b58fd168abecccae910",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:48:06.118544+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000667",
+  "problemId": "P000667",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000667",
+    "title": "Design Circular Deque Using Doubly Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a circular deque using a doubly linked list. Support the following operations: insertFront(value) insertLast(value) deleteFront() deleteLast() getFront() getRear() isEmpty() size() Process a sequence of operations and print the result for query operations.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result of every query operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000667",
+    "fileSHA": "b91815312a0c9be0bf81e1569ec4ebe72d1d69c67eb3f2a956fdd6e04856769f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:51:53.987110+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b91815312a0c9be0bf81e1569ec4ebe72d1d69c67eb3f2a956fdd6e04856769f",
+    "normalizedCodeHash": "b91815312a0c9be0bf81e1569ec4ebe72d1d69c67eb3f2a956fdd6e04856769f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:51:53.987131+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

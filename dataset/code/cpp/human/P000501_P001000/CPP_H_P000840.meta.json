@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000840",
+  "problemId": "P000840",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000840",
+    "title": "Minimum Limit of Balls in a Bag",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given bags containing balls. In one operation, you may split a bag into two non-empty bags. Return the minimum possible maximum number of balls in any bag after performing at most maxOperations operations.",
+    "input": "Integer n Array nums Integer maxOperations",
+    "output": "The minimum possible penalty.",
+    "constraints": "1 <= n <= 10^5 1 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/cpp/minimumLimitOfBallsInABag/MinimumLimitOfBallsInABag.cpp",
+    "fileSHA": "1dccfd91a8fc0d08b370b482d99d9db3023e00ca",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/cpp/minimumLimitOfBallsInABag/MinimumLimitOfBallsInABag.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/cpp/minimumLimitOfBallsInABag/MinimumLimitOfBallsInABag.cpp"
+  },
+  "matching": {
+    "relevanceScore": 86.61
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d7d57d9fdd6529d2bb43387148a5c0862a1995bb64fedaf04370a0659cdfa949",
+    "normalizedCodeHash": "d7d57d9fdd6529d2bb43387148a5c0862a1995bb64fedaf04370a0659cdfa949",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (C++ Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:54:43.988491+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

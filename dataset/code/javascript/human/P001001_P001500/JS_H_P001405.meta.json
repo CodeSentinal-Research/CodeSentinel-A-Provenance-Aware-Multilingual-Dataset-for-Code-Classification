@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001405",
+  "problemId": "P001405",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001405",
+    "title": "Count Nice Pairs in an Array",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "For an integer x, define rev(x) as the integer obtained by reversing its decimal digits. Count the number of index pairs (i, j) such that i < j and nums[i] + rev(nums[j]) = nums[j] + rev(nums[i]).",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the number of nice pairs.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "bhuvaneshwari-sivasangaran/leetCode",
+    "owner": "bhuvaneshwari-sivasangaran",
+    "url": "https://github.com/bhuvaneshwari-sivasangaran/leetCode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "1814_Count_Nice_Pairs_In_An_Array.js",
+    "fileSHA": "2ab227039b5fe7d48467904e0c7f2b6ec9b5de55",
+    "url": "https://github.com/bhuvaneshwari-sivasangaran/leetCode/blob/6afaa9c444493f1892dc08c58668fd0faf7d02e8/1814_Count_Nice_Pairs_In_An_Array.js",
+    "rawUrl": "https://raw.githubusercontent.com/bhuvaneshwari-sivasangaran/leetCode/main/1814_Count_Nice_Pairs_In_An_Array.js"
+  },
+  "matching": {
+    "relevanceScore": 87.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0ecd22794f3189f7e36bb286a5e403a7903037c9a8b7942ae254ae95c430e4af",
+    "normalizedCodeHash": "0ecd22794f3189f7e36bb286a5e403a7903037c9a8b7942ae254ae95c430e4af",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:36:22.905103+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

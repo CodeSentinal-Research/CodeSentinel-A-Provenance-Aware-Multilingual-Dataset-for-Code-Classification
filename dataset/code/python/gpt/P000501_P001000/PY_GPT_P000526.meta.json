@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000526",
+  "problemId": "P000526",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000526",
+    "title": "Number of Atoms",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Given a valid chemical formula, return the count of each atom in lexicographical order. Rules: Element names begin with an uppercase letter and may be followed by lowercase letters. A number following an element or a closing parenthesis indicates its multiplicity. Parentheses may be nested. Output the formula in its canonical form.",
+    "input": "A string representing the chemical formula.",
+    "output": "A string representing the canonical atom count.",
+    "constraints": "1 <= formula.length <= 1000 The formula is valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000526.py",
+    "fileSHA": "7dc66c8363c2fe9d0a73b95663edebdb33a22461e0bae1357a800a3dd3f00ee9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.140487+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7dc66c8363c2fe9d0a73b95663edebdb33a22461e0bae1357a800a3dd3f00ee9",
+    "normalizedCodeHash": "65d2eb6f84dd980b0809e2b375e9f3d7daf23ef53d0fef57f3782132ab589a4b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.140487+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

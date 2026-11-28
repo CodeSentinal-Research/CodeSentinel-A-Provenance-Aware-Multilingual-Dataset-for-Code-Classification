@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001184",
+  "problemId": "P001184",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001184",
+    "title": "Frog Jump with K Distance",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "A frog stands on the first stone and may jump forward up to K stones at a time. The energy cost of a jump is the absolute difference between the heights of the starting and destination stones. Determine the minimum total energy required to reach the last stone.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the minimum energy required.",
+    "constraints": "\u2022 2 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001184",
+    "fileSHA": "917d509d90f320392bc2cd1d48742649c87a99af75d1f0336f1865787711d1ac",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:14:16.291366+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "917d509d90f320392bc2cd1d48742649c87a99af75d1f0336f1865787711d1ac",
+    "normalizedCodeHash": "917d509d90f320392bc2cd1d48742649c87a99af75d1f0336f1865787711d1ac",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:14:16.291382+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

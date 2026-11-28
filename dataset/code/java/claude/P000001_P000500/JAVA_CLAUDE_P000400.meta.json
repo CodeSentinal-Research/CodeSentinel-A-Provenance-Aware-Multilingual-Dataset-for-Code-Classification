@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000400",
+  "problemId": "P000400",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000400",
+    "title": "Search Employees by Salary Range",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Retrieve all employees whose salaries fall within the specified range.",
+    "input": "Employee records, minimum salary, maximum salary.",
+    "output": "Matching employee records.",
+    "constraints": "1 ≤ Number of Employees ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000400",
+    "fileSHA": "9aa962a279201190b364e32f947fcdcfaf45345f48134f853ed5b1eb53deaaf1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9aa962a279201190b364e32f947fcdcfaf45345f48134f853ed5b1eb53deaaf1",
+    "normalizedCodeHash": "9aa962a279201190b364e32f947fcdcfaf45345f48134f853ed5b1eb53deaaf1",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000400: Search Employees by Salary Range"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

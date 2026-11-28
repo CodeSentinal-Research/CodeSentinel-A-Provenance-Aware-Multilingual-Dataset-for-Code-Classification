@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000435",
+  "problemId": "P000435",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000435",
+    "title": "Count Occurrences using Binary Search",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that counts the number of occurrences of a target in a sorted array using binary search.",
+    "input": "First line contains N and target. Second line contains N sorted integers.",
+    "output": "Frequency of the target.",
+    "constraints": "1 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "PortSwigger/agent-wrangler",
+    "owner": "PortSwigger",
+    "url": "https://github.com/PortSwigger/agent-wrangler",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "server/search/scan-core.js",
+    "fileSHA": "934a33fc7832f12e227892005bbe90d3ad93ac85",
+    "url": "https://github.com/PortSwigger/agent-wrangler/blob/95a8f87e68558150de6dd4e7ba86016ba3a3d66e/server/search/scan-core.js",
+    "rawUrl": "https://raw.githubusercontent.com/PortSwigger/agent-wrangler/main/server/search/scan-core.js"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "76c62acdfa98761e373d1bea148336dbc8a98be06143efa60b30072c2e47702c",
+    "normalizedCodeHash": "76c62acdfa98761e373d1bea148336dbc8a98be06143efa60b30072c2e47702c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T23:54:49.221620+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

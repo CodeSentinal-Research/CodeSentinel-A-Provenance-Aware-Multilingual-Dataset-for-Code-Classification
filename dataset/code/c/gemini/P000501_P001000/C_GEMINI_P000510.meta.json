@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000510",
+  "problemId": "P000510",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000510",
+    "title": "Final Prices With a Special Discount in a Shop",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an array where prices[i] is the price of the i-th item. For each item, find the first item to its right whose price is less than or equal to the current item's price. Use that value as a discount. If no such item exists, no discount is applied. Return the final price of every item after applying the discount.",
+    "input": "Integer n Array prices",
+    "output": "An array representing the final prices.",
+    "constraints": "1 <= n <= 500 1 <= prices[i] <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000510",
+    "fileSHA": "4c6c7b7d7402e9b9fb32a03c920090a067e673c46363d483931f48e154185de7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:42:16.868644+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4c6c7b7d7402e9b9fb32a03c920090a067e673c46363d483931f48e154185de7",
+    "normalizedCodeHash": "4c6c7b7d7402e9b9fb32a03c920090a067e673c46363d483931f48e154185de7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:42:16.868667+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

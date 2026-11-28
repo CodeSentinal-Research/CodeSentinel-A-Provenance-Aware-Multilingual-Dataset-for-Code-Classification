@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001562",
+  "problemId": "P001562",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001562",
+    "title": "Longest Substring With Exactly K Distinct Characters",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string S and an integer K, determine the length of the longest substring containing exactly K distinct characters. If no such substring exists, print -1.",
+    "input": "\u2022 First line contains string S. \u2022 Second line contains integer K.",
+    "output": "\u2022 Print the required length or -1.",
+    "constraints": "\u2022 1 \u2264 |S| \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K \u2264 26"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0005_longest_palindromic_substring/longest_palindromic_substring.c",
+    "fileSHA": "9a9b2a7d0fec5f621a99cc0416696e55f5f6721a",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0005_longest_palindromic_substring/longest_palindromic_substring.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0005_longest_palindromic_substring/longest_palindromic_substring.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "925e36393833faab876060180fb4a633f7145769fa42a24920924fb426a63307",
+    "normalizedCodeHash": "925e36393833faab876060180fb4a633f7145769fa42a24920924fb426a63307",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T16:19:49.944997+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

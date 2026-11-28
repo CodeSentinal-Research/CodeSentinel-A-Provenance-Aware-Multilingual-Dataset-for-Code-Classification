@@ -1,0 +1,10 @@
+{
+  "problemId": "P000535",
+  "title": "Reveal Cards in Increasing Order",
+  "category": "Queue",
+  "difficulty": "Medium",
+  "problemStatement": "You are given a deck of unique integers. Arrange the deck so that when the following process is performed: 1. Reveal the top card. 2. Move the next top card to the bottom. 3. Repeat until the deck is empty. The revealed sequence is in strictly increasing order. Return the required initial ordering of the deck.",
+  "input": "Integer n Array deck",
+  "output": "An array representing the required initial ordering.",
+  "constraints": "1 <= n <= 1000 All card values are unique."
+}

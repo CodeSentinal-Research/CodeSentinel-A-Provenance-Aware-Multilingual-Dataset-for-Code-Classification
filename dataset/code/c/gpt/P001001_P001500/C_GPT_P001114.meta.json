@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001114",
+  "problemId": "P001114",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001114",
+    "title": "Rotten Oranges",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a grid containing empty cells, fresh oranges, and rotten oranges, determine the minimum time required for all fresh oranges to become rotten.",
+    "input": "• First line contains integers R and C. • Next R lines contain the grid.",
+    "output": "Print the minimum time required, or -1 if impossible.",
+    "constraints": "• 1 ≤ R, C ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001114.c",
+    "fileSHA": "e7d3c7c4922d7267a6a1a1829a5ce381b875ec038e4fb0fbf3a3aeef2c2ca47b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.046Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "83f7b3c63de3953e5632964ae323fff35ceec8a45f32c75f800821feec4c0499",
+    "normalizedCodeHash": "e7d3c7c4922d7267a6a1a1829a5ce381b875ec038e4fb0fbf3a3aeef2c2ca47b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.046Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

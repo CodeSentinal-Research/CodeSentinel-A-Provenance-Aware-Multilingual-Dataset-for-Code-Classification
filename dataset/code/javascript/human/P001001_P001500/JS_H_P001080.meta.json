@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001080",
+  "problemId": "P001080",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001080",
+    "title": "Find All Articulation Points",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a connected undirected graph, determine all articulation points. An articulation point is a vertex whose removal increases the number of connected components.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print all articulation points in ascending order. If none exist, print NONE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "trekhleb/javascript-algorithms",
+    "owner": "trekhleb",
+    "url": "https://github.com/trekhleb/javascript-algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/algorithms/graph/articulation-points/articulationPoints.js",
+    "fileSHA": "0cc1db6e89c513f4ed2a74f55b89db8abeca80c8",
+    "url": "https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/graph/articulation-points/articulationPoints.js",
+    "rawUrl": "https://raw.githubusercontent.com/trekhleb/javascript-algorithms/master/src/algorithms/graph/articulation-points/articulationPoints.js"
+  },
+  "matching": {
+    "relevanceScore": 76.54
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8f3a134198a5acf862fad8fd5971d91def4ef6b9712f92fcccff4a2d2b9141a6",
+    "normalizedCodeHash": "8f3a134198a5acf862fad8fd5971d91def4ef6b9712f92fcccff4a2d2b9141a6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T01:57:05.272771+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

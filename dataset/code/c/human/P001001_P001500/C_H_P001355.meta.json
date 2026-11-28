@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001355",
+  "problemId": "P001355",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001355",
+    "title": "Construct Distanced Sequence",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Construct a sequence of length 2N\u22121 using the integers 1 to N such that: \u2022 Integer 1 appears exactly once. \u2022 Every integer 2...N appears exactly twice. \u2022 The two occurrences of integer i are exactly i positions apart. Return the lexicographically largest valid sequence.",
+    "input": "\u2022 First line contains integer N.",
+    "output": "Print the required sequence.",
+    "constraints": "\u2022 1 \u2264 N \u2264 20"
+  },
+  "repository": {
+    "name": "lrmsspace/LLM-CodeQualityEval",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Output/output_Tabnine/c/Medium/1346-construct-the-lexicographically-largest-valid-sequence.c",
+    "fileSHA": "c6aa5ff96bed00e52e71277be089987f433264b2",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval/blob/a2817bbe913c51ab32afeb6f6d0ad97b92c45075/Output/output_Tabnine/c/Medium/1346-construct-the-lexicographically-largest-valid-sequence.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/LLM-CodeQualityEval/main/Output/output_Tabnine/c/Medium/1346-construct-the-lexicographically-largest-valid-sequence.c"
+  },
+  "matching": {
+    "relevanceScore": 91.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f191e3360cb9a062350ca199e168d468ad89e968170aaa8137f1f5ca42441dd2",
+    "normalizedCodeHash": "f191e3360cb9a062350ca199e168d468ad89e968170aaa8137f1f5ca42441dd2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T17:11:44.505781+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

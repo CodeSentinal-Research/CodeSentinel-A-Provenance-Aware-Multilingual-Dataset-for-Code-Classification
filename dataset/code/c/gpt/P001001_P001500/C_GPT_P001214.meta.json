@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001214",
+  "problemId": "P001214",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001214",
+    "title": "Strange Printer",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "A printer can print only one character repeatedly in a single turn over any contiguous interval, overwriting existing characters if necessary. Determine the minimum number of turns required to print a given string.",
+    "input": "• First line contains a string.",
+    "output": "Print the minimum number of turns.",
+    "constraints": "• 1 ≤ Length ≤ 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001214.c",
+    "fileSHA": "563e2c1ba25b996c92de6cee7a871cf344e1a46e36174719afc4fd5b19b49bad",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.305Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "9c90aba68341bab41db3fe6945f8e3582d19381b05c15142117e96dca53f2240",
+    "normalizedCodeHash": "563e2c1ba25b996c92de6cee7a871cf344e1a46e36174719afc4fd5b19b49bad",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.305Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

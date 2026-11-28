@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000145",
+  "problemId": "P000145",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000145",
+    "title": "Search a 2D Matrix",
+    "category": "Arrays",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that searches for a target in a matrix where each row is sorted and first element of each row is greater than last of previous.",
+    "input": "First line contains rows, cols and target. Next rows lines contain the matrix.",
+    "output": "Print \"Found\" or \"Not Found\".",
+    "constraints": "1 \u2264 rows, cols \u2264 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P000145",
+    "fileSHA": "4fa0071201fbdd2ee5c97a643f5e846d5098f164e1e9907e4d3668c5b0276c7a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:46:01.682270+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4fa0071201fbdd2ee5c97a643f5e846d5098f164e1e9907e4d3668c5b0276c7a",
+    "normalizedCodeHash": "4fa0071201fbdd2ee5c97a643f5e846d5098f164e1e9907e4d3668c5b0276c7a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:46:01.682300+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

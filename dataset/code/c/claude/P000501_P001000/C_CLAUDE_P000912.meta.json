@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000912",
+  "problemId": "P000912",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000912",
+    "title": "Pascal's Triangle Row",
+    "category": "Mathematics - Combinatorics",
+    "difficulty": "Easy",
+    "problemStatement": "Given a non-negative integer rowIndex, return the rowIndex-th row of Pascal's Triangle.",
+    "input": "Integer rowIndex",
+    "output": "The corresponding row.",
+    "constraints": "0 <= rowIndex <= 33"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000912",
+    "fileSHA": "cae42606280b20d552f953aca99a31543dd200802813c50a75fe82aa2349740f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cae42606280b20d552f953aca99a31543dd200802813c50a75fe82aa2349740f",
+    "normalizedCodeHash": "cae42606280b20d552f953aca99a31543dd200802813c50a75fe82aa2349740f",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000912"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

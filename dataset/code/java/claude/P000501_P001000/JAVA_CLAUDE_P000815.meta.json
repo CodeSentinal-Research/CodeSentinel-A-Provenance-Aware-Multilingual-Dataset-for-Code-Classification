@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000815",
+  "problemId": "P000815",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000815",
+    "title": "Find First and Last Position of Element in Sorted Array",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given a sorted array that may contain duplicate values and a target value, return the starting and ending indices of the target. If the target does not exist, return [-1, -1].",
+    "input": "Integer n Sorted array nums Integer target",
+    "output": "The first and last occurrence.",
+    "constraints": "0 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000815",
+    "fileSHA": "226e540c257e3d0433ee9eee53b54b17a3f983ca91896d6117e36ecb3685f9b5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "226e540c257e3d0433ee9eee53b54b17a3f983ca91896d6117e36ecb3685f9b5",
+    "normalizedCodeHash": "226e540c257e3d0433ee9eee53b54b17a3f983ca91896d6117e36ecb3685f9b5",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000815"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

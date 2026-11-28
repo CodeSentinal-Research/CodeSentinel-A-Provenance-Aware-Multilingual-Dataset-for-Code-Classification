@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001734",
+  "problemId": "P001734",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001734",
+    "title": "Convert a Binary Tree into a Sum Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, replace every node value with the sum of all values in its left and right subtrees. Leaf nodes become zero.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the transformed tree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "mathewalex806/DS",
+    "owner": "mathewalex806",
+    "url": "https://github.com/mathewalex806/DS",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "linkedlist_array_rep.c",
+    "fileSHA": "4788dc11c5affd00e32d97b1cdd0182a679463d5",
+    "url": "https://github.com/mathewalex806/DS/blob/621934051ac8b2b96ec9d89c682bd897218f17a7/linkedlist_array_rep.c",
+    "rawUrl": "https://raw.githubusercontent.com/mathewalex806/DS/main/linkedlist_array_rep.c"
+  },
+  "matching": {
+    "relevanceScore": 61.62
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "20b78176eb92e4c7ec00591daeb4e4b8ace331a9920cbb688a641e70de58aa84",
+    "normalizedCodeHash": "20b78176eb92e4c7ec00591daeb4e4b8ace331a9920cbb688a641e70de58aa84",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T14:05:53.046242+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

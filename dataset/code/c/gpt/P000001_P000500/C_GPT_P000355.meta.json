@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000355",
+  "problemId": "P000355",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000355",
+    "title": "Find Missing Value in Search List",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array and a target value, determine whether the target is missing from the array.",
+    "input": "An integer N, an array of N integers, and an integer X.",
+    "output": "Print \"Missing\" if X is absent; otherwise print \"Present\".",
+    "constraints": "1 ≤ N ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000355.c",
+    "fileSHA": "ef759e1651f9ab8d7c040cf0f4f9d963b07fdc0b8dae533d3b234785992729dd",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ef759e1651f9ab8d7c040cf0f4f9d963b07fdc0b8dae533d3b234785992729dd",
+    "normalizedCodeHash": "ef759e1651f9ab8d7c040cf0f4f9d963b07fdc0b8dae533d3b234785992729dd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

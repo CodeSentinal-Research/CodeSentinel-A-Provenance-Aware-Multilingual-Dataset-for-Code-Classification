@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000959",
+  "problemId": "P000959",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000959",
+    "title": "Solve Linear Diophantine Equation",
+    "category": "Mathematics - Diophantine Equations",
+    "difficulty": "Medium",
+    "problemStatement": "Given integers A, B, and C, determine whether the equation: AX + BY = C has an integer solution.",
+    "input": "Integer A Integer B Integer C",
+    "output": "Print true if a solution exists; otherwise, print false.",
+    "constraints": "|A|, |B|, |C| <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000959.py",
+    "fileSHA": "c609969393f6ada4d5928ca30383b57d80655d50436bc4ae08fc46b0a9dfd6df",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.709717+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c609969393f6ada4d5928ca30383b57d80655d50436bc4ae08fc46b0a9dfd6df",
+    "normalizedCodeHash": "90a5425e2fac31cc65e30d2751dd59d8e957d5b692e7ec86299acd9995a71c7b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.709717+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

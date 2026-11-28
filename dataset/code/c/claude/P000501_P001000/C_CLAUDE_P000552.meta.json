@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000552",
+  "problemId": "P000552",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000552",
+    "title": "Walls and Gates",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an m × n grid where: -1 represents a wall. 0 represents a gate. 2147483647 represents an empty room. Fill each empty room with the distance to its nearest gate. If a room cannot reach any gate, leave its value unchanged.",
+    "input": "Integers m and n Grid of integers.",
+    "output": "The updated grid.",
+    "constraints": "1 <= m, n <= 250"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000552",
+    "fileSHA": "ff4f08dfb14c3d2f5c9630273b07a2b370396beaa61bbd29d9f39abb80b7e344",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ff4f08dfb14c3d2f5c9630273b07a2b370396beaa61bbd29d9f39abb80b7e344",
+    "normalizedCodeHash": "ff4f08dfb14c3d2f5c9630273b07a2b370396beaa61bbd29d9f39abb80b7e344",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000552: Walls and Gates"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

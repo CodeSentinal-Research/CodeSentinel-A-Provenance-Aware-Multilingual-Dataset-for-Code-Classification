@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001361",
+  "problemId": "P001361",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001361",
+    "title": "Stickers to Spell Word",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given a collection of stickers containing lowercase English letters and a target word, determine the minimum number of stickers required to form the target word. Each sticker may be used multiple times.",
+    "input": "• First line contains integer N. • Next N lines contain sticker strings. • Last line contains the target word.",
+    "output": "Print the minimum number of stickers required, or -1 if impossible.",
+    "constraints": "• 1 ≤ N ≤ 50 • Sticker length ≤ 15 • Target length ≤ 15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001361.c",
+    "fileSHA": "51da890b5407c4031c83450c1af4bf07394b175ce48fe2334a6fddb634a61ece",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.063Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "6527f0d3f82e2db3cf24f9edaf212e3d37f63e3796268dc81f465294878d0fd9",
+    "normalizedCodeHash": "51da890b5407c4031c83450c1af4bf07394b175ce48fe2334a6fddb634a61ece",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.063Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

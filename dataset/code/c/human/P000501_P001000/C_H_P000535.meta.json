@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000535",
+  "problemId": "P000535",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000535",
+    "title": "Reveal Cards in Increasing Order",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You are given a deck of unique integers. Arrange the deck so that when the following process is performed: 1. Reveal the top card. 2. Move the next top card to the bottom. 3. Repeat until the deck is empty. The revealed sequence is in strictly increasing order. Return the required initial ordering of the deck.",
+    "input": "Integer n Array deck",
+    "output": "An array representing the required initial ordering.",
+    "constraints": "1 <= n <= 1000 All card values are unique."
+  },
+  "repository": {
+    "name": "Prajwalks05/Analysis-and-Design-of-Algorithms",
+    "owner": "Prajwalks05",
+    "url": "https://github.com/Prajwalks05/Analysis-and-Design-of-Algorithms",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "reveal_cards.c",
+    "fileSHA": "28391fee773877c2443442ac062715b0e78bf1de",
+    "url": "https://github.com/Prajwalks05/Analysis-and-Design-of-Algorithms/blob/1be26a1e109df4b5f397b8f4605b6b8c7731955b/reveal_cards.c",
+    "rawUrl": "https://raw.githubusercontent.com/Prajwalks05/Analysis-and-Design-of-Algorithms/main/reveal_cards.c"
+  },
+  "matching": {
+    "relevanceScore": 85.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "63ce4c02c9bf8a37a9ca1d2dcaf02a2d4b059b528fb94f888434363ef327043b",
+    "normalizedCodeHash": "63ce4c02c9bf8a37a9ca1d2dcaf02a2d4b059b528fb94f888434363ef327043b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T20:13:34.560352+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

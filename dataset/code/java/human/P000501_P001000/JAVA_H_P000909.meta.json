@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000909",
+  "problemId": "P000909",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000909",
+    "title": "Compute Binomial Coefficient (nCr)",
+    "category": "Mathematics - Combinatorics",
+    "difficulty": "Easy",
+    "problemStatement": "Given two integers n and r, compute the binomial coefficient nCr, representing the number of ways to choose r objects from n distinct objects.",
+    "input": "Integer n Integer r",
+    "output": "The value of nCr.",
+    "constraints": "0 <= r <= n <= 1000"
+  },
+  "repository": {
+    "name": "williamfiset/Algorithms",
+    "owner": "williamfiset",
+    "url": "https://github.com/williamfiset/Algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/williamfiset/algorithms/math/BinomialCoefficientModPrime.java",
+    "fileSHA": "c1bd75e61aa9355e84ebf41b57bc203b3dfa528f",
+    "url": "https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/williamfiset/algorithms/math/BinomialCoefficientModPrime.java",
+    "rawUrl": "https://raw.githubusercontent.com/williamfiset/Algorithms/master/src/main/java/com/williamfiset/algorithms/math/BinomialCoefficientModPrime.java"
+  },
+  "matching": {
+    "relevanceScore": 75.0
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8f2b9d946d9d2e34682b8f72b53d9eb3ac73020dbc3a88f26dab5f22b6aa5ba2",
+    "normalizedCodeHash": "8f2b9d946d9d2e34682b8f72b53d9eb3ac73020dbc3a88f26dab5f22b6aa5ba2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:54:47.228256+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

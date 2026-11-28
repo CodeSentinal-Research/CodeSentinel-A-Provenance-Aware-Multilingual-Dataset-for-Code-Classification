@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000382",
+  "problemId": "P000382",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000382",
+    "title": "Search Email by Username",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Search for an email address associated with the given username.",
+    "input": "User records and a username.",
+    "output": "Email address or \"User Not Found\".",
+    "constraints": "1 ≤ Number of Users ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000382.py",
+    "fileSHA": "dc324b78cb77440d31fc19caab1c5b4085228517e6020ffe05df96991f6baeed",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:01.750098+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "dc324b78cb77440d31fc19caab1c5b4085228517e6020ffe05df96991f6baeed",
+    "normalizedCodeHash": "89a0e075e6f4b934d85eb72e651b9919639b938eae1ae838d354e18f6f160a31",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:01.750098+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

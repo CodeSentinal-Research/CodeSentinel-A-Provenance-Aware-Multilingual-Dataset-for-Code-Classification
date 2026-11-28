@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001053",
+  "problemId": "P001053",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001053",
+    "title": "Priority Queue Simulation",
+    "category": "Heap",
+    "difficulty": "Medium",
+    "problemStatement": "Simulate a priority queue supporting insertion, deletion of the highest-priority element, and retrieval of the highest-priority element. Print the result of every retrieval operation.",
+    "input": "\u2022 First line contains integer Q. \u2022 Next Q lines describe operations.",
+    "output": "Print the result for every retrieval operation.",
+    "constraints": "\u2022 1 \u2264 Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/operating_system/src/scheduling/priority_scheduling/priority_scheduling_non_preemptive.c",
+    "fileSHA": "f56601a7237ce2f16e9cfb492eba2c6052b37221",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/operating_system/src/scheduling/priority_scheduling/priority_scheduling_non_preemptive.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/operating_system/src/scheduling/priority_scheduling/priority_scheduling_non_preemptive.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "efd771e85c721b9b8358b66b4bc382402fc3e5d618994beb1e77899dd7f3277d",
+    "normalizedCodeHash": "efd771e85c721b9b8358b66b4bc382402fc3e5d618994beb1e77899dd7f3277d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:09.925009+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

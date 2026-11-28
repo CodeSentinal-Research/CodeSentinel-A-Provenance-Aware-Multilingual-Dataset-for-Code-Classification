@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_CLAUDE_P001126",
+  "problemId": "P001126",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001126",
+    "title": "Path With Minimum Effort",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a grid of heights, determine a path from the top-left cell to the bottom-right cell such that the maximum absolute difference between adjacent cells along the path is minimized.",
+    "input": "• First line contains integers R and C. • Next R lines each contain C integers representing cell heights.",
+    "output": "Print the minimum effort required.",
+    "constraints": "• 1 ≤ R, C ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P001126",
+    "fileSHA": "5851dfaff3d4e17fdea0778c20521dcbea11703ffa55571f02642d02bf64eb1e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "288d68552c6ba8135ff3cff4c69cfb7eb4864f6419a2879398b12d666ef54517",
+    "normalizedCodeHash": "5851dfaff3d4e17fdea0778c20521dcbea11703ffa55571f02642d02bf64eb1e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

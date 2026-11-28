@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000972",
+  "problemId": "P000972",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000972",
+    "title": "Probability of Getting Exactly K Heads",
+    "category": "Mathematics - Probability",
+    "difficulty": "Medium",
+    "problemStatement": "A fair coin is tossed N times. Determine the probability of obtaining exactly K heads.",
+    "input": "Integer N Integer K",
+    "output": "The probability as a floating-point number.",
+    "constraints": "1 <= N <= 1000"
+  },
+  "repository": {
+    "name": "freebsd/freebsd-src",
+    "owner": "freebsd",
+    "url": "https://github.com/freebsd/freebsd-src",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "contrib/llvm-project/llvm/include/llvm/Analysis/LazyBranchProbabilityInfo.h",
+    "fileSHA": "fe1f7b25c0f159c4cce34de9bb16b7ad2da01159",
+    "url": "https://github.com/freebsd/freebsd-src/blob/main/contrib/llvm-project/llvm/include/llvm/Analysis/LazyBranchProbabilityInfo.h",
+    "rawUrl": "https://raw.githubusercontent.com/freebsd/freebsd-src/main/contrib/llvm-project/llvm/include/llvm/Analysis/LazyBranchProbabilityInfo.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "15e34454f98f34a6de4a8fe67f62642066ad9c94d368e26facb3e2d4268775ee",
+    "normalizedCodeHash": "15e34454f98f34a6de4a8fe67f62642066ad9c94d368e26facb3e2d4268775ee",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:44:08.653687+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

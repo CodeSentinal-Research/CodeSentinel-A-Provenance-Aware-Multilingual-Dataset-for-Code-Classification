@@ -1,0 +1,3 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){int e;cin>>e;unordered_map<string,unordered_map<string,double>>g;for(int i=0;i<e;i++){string u,v;double w;cin>>u>>v>>w;g[u][v]=w;g[v][u]=1.0/w;}int q;cin>>q;while(q--){string u,v;cin>>u>>v;if(!g.count(u)||!g.count(v)){cout<<-1.0<<" ";continue;}queue<pair<string,double>>qu;unordered_set<string>vis;qu.push({u,1.0});vis.insert(u);bool ok=false;while(!qu.empty()){auto[x,d]=qu.front();qu.pop();if(x==v){cout<<d<<" ";ok=true;break;}for(auto&[y,w]:g[x])if(!vis.count(y)){vis.insert(y);qu.push({y,d*w});}}if(!ok)cout<<-1.0<<" ";}cout<<endl;return 0;}

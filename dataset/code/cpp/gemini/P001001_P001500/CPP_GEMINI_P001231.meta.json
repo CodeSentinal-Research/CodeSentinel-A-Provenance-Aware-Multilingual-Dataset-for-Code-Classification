@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001231",
+  "problemId": "P001231",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001231",
+    "title": "Assign Cookies",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Each child has a minimum cookie size requirement, and each cookie has a size. Assign at most one cookie to each child such that the maximum number of children are satisfied.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Second line contains N integers representing children's requirements. \u2022 Third line contains M integers representing cookie sizes.",
+    "output": "Print the maximum number of satisfied children.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001231",
+    "fileSHA": "7847f8396603febd0fbc55ec5e36972300a6772684a1eb390730db14ce19c787",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:16:21.899433+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7847f8396603febd0fbc55ec5e36972300a6772684a1eb390730db14ce19c787",
+    "normalizedCodeHash": "7847f8396603febd0fbc55ec5e36972300a6772684a1eb390730db14ce19c787",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:16:21.899457+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

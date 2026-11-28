@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001832",
+  "problemId": "P001832",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001832",
+    "title": "Generate All Structurally Unique Binary Search Trees",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer N representing keys from 1 to N, generate all structurally unique Binary Search Trees.",
+    "input": "\u2022 The first line contains an integer N.",
+    "output": "\u2022 Print all unique Binary Search Trees.",
+    "constraints": "\u2022 0 \u2264 N \u2264 10"
+  },
+  "repository": {
+    "name": "NVIDIA-NeMo/nemo-platform",
+    "owner": "NVIDIA-NeMo",
+    "url": "https://github.com/NVIDIA-NeMo/nemo-platform",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "plugins/nemo-experimentalist/src/nemo_experimentalist_plugin/experimentalist/components/goal_tree.py",
+    "fileSHA": "a9e5c623f05683b1d987991064d3508568d13bff",
+    "url": "https://github.com/NVIDIA-NeMo/nemo-platform/blob/5eae47fa9d44a8b5734217060928fa38403d6c6c/plugins/nemo-experimentalist/src/nemo_experimentalist_plugin/experimentalist/components/goal_tree.py",
+    "rawUrl": "https://raw.githubusercontent.com/NVIDIA-NeMo/nemo-platform/main/plugins/nemo-experimentalist/src/nemo_experimentalist_plugin/experimentalist/components/goal_tree.py"
+  },
+  "matching": {
+    "relevanceScore": 80.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2eb8184c823d073ac8827dca68c01c7158e163929826222fbcdcaeeb5bd0b359",
+    "normalizedCodeHash": "2eb8184c823d073ac8827dca68c01c7158e163929826222fbcdcaeeb5bd0b359",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T16:34:11.686514+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

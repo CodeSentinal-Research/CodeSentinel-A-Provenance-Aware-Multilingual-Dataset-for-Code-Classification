@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000377",
+  "problemId": "P000377",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000377",
+    "title": "Search Vehicle by Registration Number",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Locate a vehicle using its registration number.",
+    "input": "Vehicle records and a registration number.",
+    "output": "Vehicle details or \"Vehicle Not Found\".",
+    "constraints": "1 ≤ Number of Vehicles ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000377.py",
+    "fileSHA": "195dbb24d32b5cd007ee3c3660bebf861366ba9d781e4d9029edba39915bb729",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:01.631303+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "195dbb24d32b5cd007ee3c3660bebf861366ba9d781e4d9029edba39915bb729",
+    "normalizedCodeHash": "108ef2298b6a0bc23933c127f44a7975ad893d8536ef43c80b2807ee52d8e3a5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:01.631303+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001403",
+  "problemId": "P001403",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001403",
+    "title": "Check Arithmetic Subarrays",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array and multiple queries, determine whether each queried subarray can be rearranged to form an arithmetic sequence.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Second line contains N integers. \u2022 Next Q lines contain two integers L and R.",
+    "output": "For each query print YES or NO.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "itzrn/LeetCode",
+    "owner": "itzrn",
+    "url": "https://github.com/itzrn/LeetCode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/L1630_ArithmeticSubarrays.java",
+    "fileSHA": "a96e610c728810d97b3bd8bc24bc7d3e02eebefa",
+    "url": "https://github.com/itzrn/LeetCode/blob/28af597b92ef2eea7a3347f1d02fa873ae172485/src/L1630_ArithmeticSubarrays.java",
+    "rawUrl": "https://raw.githubusercontent.com/itzrn/LeetCode/main/src/L1630_ArithmeticSubarrays.java"
+  },
+  "matching": {
+    "relevanceScore": 87.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ab8c53b8368777ead6418a0ba2b950ad657473a39a7eb2a15163296a9f1d02fc",
+    "normalizedCodeHash": "ab8c53b8368777ead6418a0ba2b950ad657473a39a7eb2a15163296a9f1d02fc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T18:21:19.123381+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

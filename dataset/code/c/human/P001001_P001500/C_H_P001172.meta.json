@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001172",
+  "problemId": "P001172",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001172",
+    "title": "Unique Paths with Obstacles",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an R \u00d7 C grid containing obstacles, determine the number of distinct paths from the top-left corner to the bottom-right corner. You may move only right or down.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines each contain C integers (0 = free cell, 1 = obstacle).",
+    "output": "Print the number of unique paths.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 1000"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0063_unique_paths_ii/unique_path.c",
+    "fileSHA": "beabdf85e9eab92d2953a7b12df8e5f2a41c7ed7",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0063_unique_paths_ii/unique_path.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0063_unique_paths_ii/unique_path.c"
+  },
+  "matching": {
+    "relevanceScore": 70.36
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d13f226bf2b0cbb7d700dbb1426a0dfbb7b9eb3b9dc2eebf33fc5d1c59ca072f",
+    "normalizedCodeHash": "d13f226bf2b0cbb7d700dbb1426a0dfbb7b9eb3b9dc2eebf33fc5d1c59ca072f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:43:20.755194+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001256",
+  "problemId": "P001256",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001256",
+    "title": "Minimum Deletions to Make Character Frequencies Unique",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string, determine the minimum number of character deletions required so that every remaining character has a unique frequency.",
+    "input": "\u2022 First line contains a string.",
+    "output": "Print the minimum number of deletions.",
+    "constraints": "\u2022 1 \u2264 Length \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001256",
+    "fileSHA": "75f81bace030bbf0c3c79a19b7818d48e7597b2893802c9ac3fd5cd7430c558d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:17:18.521267+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "75f81bace030bbf0c3c79a19b7818d48e7597b2893802c9ac3fd5cd7430c558d",
+    "normalizedCodeHash": "75f81bace030bbf0c3c79a19b7818d48e7597b2893802c9ac3fd5cd7430c558d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:17:18.521294+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

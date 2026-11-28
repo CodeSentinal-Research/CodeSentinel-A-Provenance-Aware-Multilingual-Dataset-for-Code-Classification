@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000532",
+  "problemId": "P000532",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000532",
+    "title": "Time Needed to Buy Tickets",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "There are n people standing in a queue to buy tickets. The i-th person initially needs tickets[i] tickets. Each second: The person at the front buys one ticket. If they still need more tickets, they move to the end of the queue. Otherwise, they leave the queue. Given the index k, determine how many seconds are required until person k finishes buying all of their tickets.",
+    "input": "Integer n Array tickets Integer k",
+    "output": "A single integer representing the required time.",
+    "constraints": "1 <= n <= 100 1 <= tickets[i] <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000532.py",
+    "fileSHA": "567b1334747d9dc35f04f414da066fca7e5106f51039afbf5ef7ee77844ad75e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.161568+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "567b1334747d9dc35f04f414da066fca7e5106f51039afbf5ef7ee77844ad75e",
+    "normalizedCodeHash": "3702c5a83387a39dcd0c4e1bc8851952606fbbe7b6f9f4b90c2ec12a6c1dc60f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.161568+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

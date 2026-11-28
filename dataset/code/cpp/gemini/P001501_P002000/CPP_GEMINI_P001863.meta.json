@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001863",
+  "problemId": "P001863",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001863",
+    "title": "Construct an Optimal Binary Search Tree with Successful and Unsuccessful Search Frequencies",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given sorted keys along with successful and unsuccessful search frequencies, construct the Optimal Binary Search Tree with minimum expected search cost.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the sorted keys. \u2022 The third line contains successful search frequencies. \u2022 The fourth line contains unsuccessful search frequencies.",
+    "output": "\u2022 Print the minimum expected search cost and the constructed Optimal BST.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001863",
+    "fileSHA": "627298d10ccc55be2091a9a139a9fabf28f4b2b5d8bd9554b4d26592be47808b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:32.068374+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "627298d10ccc55be2091a9a139a9fabf28f4b2b5d8bd9554b4d26592be47808b",
+    "normalizedCodeHash": "627298d10ccc55be2091a9a139a9fabf28f4b2b5d8bd9554b4d26592be47808b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:32.068394+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000342",
+  "problemId": "P000342",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000342",
+    "title": "Replace All Digits with Characters",
+    "category": "Strings",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that replaces all digits in a string with the character that is shift positions after the previous character.",
+    "input": "A string S.",
+    "output": "The modified string.",
+    "constraints": "1 ≤ |S| ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000342.c",
+    "fileSHA": "df4e9d580f973bdb732f8b20cd744de8a3dcb085c17e0356e7a073167d8ca4e3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "df4e9d580f973bdb732f8b20cd744de8a3dcb085c17e0356e7a073167d8ca4e3",
+    "normalizedCodeHash": "df4e9d580f973bdb732f8b20cd744de8a3dcb085c17e0356e7a073167d8ca4e3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

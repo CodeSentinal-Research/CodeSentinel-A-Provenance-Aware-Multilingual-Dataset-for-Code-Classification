@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001684",
+  "problemId": "P001684",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001684",
+    "title": "Check Whether Two Nodes are Siblings",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given the root of a binary tree and two distinct node values, determine whether both nodes share the same parent.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains two node values.",
+    "output": "\u2022 Print YES if the nodes are siblings; otherwise print NO.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "networkx/networkx",
+    "owner": "networkx",
+    "url": "https://github.com/networkx/networkx",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "networkx/utils/heaps.py",
+    "fileSHA": "2bbc16960931da08dfc4df45f40c1c90c1de7a7b",
+    "url": "https://github.com/networkx/networkx/blob/c279073cc33dab38777e701370210d0a7a98849a/networkx/utils/heaps.py",
+    "rawUrl": "https://raw.githubusercontent.com/networkx/networkx/main/networkx/utils/heaps.py"
+  },
+  "matching": {
+    "relevanceScore": 87.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f7cb5dca558aaab2d029d365a634f636f229b8e176993d8b861e4ecd58371eef",
+    "normalizedCodeHash": "f7cb5dca558aaab2d029d365a634f636f229b8e176993d8b861e4ecd58371eef",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T13:14:53.275046+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

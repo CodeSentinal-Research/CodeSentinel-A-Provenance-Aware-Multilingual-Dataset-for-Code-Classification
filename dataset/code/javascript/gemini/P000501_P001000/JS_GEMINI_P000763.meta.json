@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000763",
+  "problemId": "P000763",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000763",
+    "title": "Regular Expression Matching",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string s and a pattern p containing lowercase letters, '.', and '*': '.' matches any single character. '*' matches zero or more occurrences of the preceding element. Determine whether the entire string matches the pattern using recursion.",
+    "input": "String s String p",
+    "output": "true if the pattern matches the string, otherwise false.",
+    "constraints": "1 <= |s|, |p| <= 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "javascript/gemini/JS_GEMINI_P000763",
+    "fileSHA": "d2093e22e0fddd4f39b7a52dd9ea5102fc8402af0332027b764d2051b9905ff7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T17:15:00.963279+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d2093e22e0fddd4f39b7a52dd9ea5102fc8402af0332027b764d2051b9905ff7",
+    "normalizedCodeHash": "d2093e22e0fddd4f39b7a52dd9ea5102fc8402af0332027b764d2051b9905ff7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T17:15:00.963299+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

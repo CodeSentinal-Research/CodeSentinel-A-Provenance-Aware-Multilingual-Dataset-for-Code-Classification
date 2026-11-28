@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P000090",
+  "problemId": "P000090",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000090",
+    "title": "Calculate nCr",
+    "category": "Basic",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that calculates the binomial coefficient nCr.",
+    "input": "Two non-negative integers n and r.",
+    "output": "The value of nCr.",
+    "constraints": "0 \u2264 r \u2264 n \u2264 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000090",
+    "fileSHA": "99f013fa179eb9fd66ce403f6b8328ae5aa9ef7838ad132bc510e8bc42c1d6d7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-3.7-sonnet",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:56:04.938471+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8f1324ee58a06b2988f4892133eeb3bcd99bf6cfb0bc86d6470905b7975595f1",
+    "normalizedCodeHash": "99f013fa179eb9fd66ce403f6b8328ae5aa9ef7838ad132bc510e8bc42c1d6d7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:56:04.938492+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

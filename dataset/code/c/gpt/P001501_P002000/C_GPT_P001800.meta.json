@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001800",
+  "problemId": "P001800",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001800",
+    "title": "Recover a Binary Search Tree with Two Swapped Nodes",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Two nodes in a Binary Search Tree have been accidentally swapped. Restore the original Binary Search Tree without changing its structure.",
+    "input": "• The first line contains an integer N. • The next N lines describe the corrupted BST.",
+    "output": "• Print the corrected BST.",
+    "constraints": "• 2 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001800.c",
+    "fileSHA": "8a0a7289dbb4821942855c22ec554ae50852e3e142871c87d2d5499251e6acf2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.697Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "38c30e4b1be4ecb8132d57e33d475705220e7349485f3e970d664b180db76032",
+    "normalizedCodeHash": "8a0a7289dbb4821942855c22ec554ae50852e3e142871c87d2d5499251e6acf2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.697Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

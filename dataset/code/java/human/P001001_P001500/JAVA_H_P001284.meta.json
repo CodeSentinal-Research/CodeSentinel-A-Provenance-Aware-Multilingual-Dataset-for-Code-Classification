@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001284",
+  "problemId": "P001284",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001284",
+    "title": "Minimum Domino Rotations",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given two arrays representing the top and bottom halves of dominoes, determine the minimum number of rotations required so that all values in either the top row or the bottom row become identical. If impossible, print -1.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing the top row. \u2022 Third line contains N integers representing the bottom row.",
+    "output": "Print the minimum number of rotations.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "faltuAadmi1/Leetcodee",
+    "owner": "faltuAadmi1",
+    "url": "https://github.com/faltuAadmi1/Leetcodee",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "MinimumDominoRotationsForEqualRow.java",
+    "fileSHA": "a6a8275a048a2b7206bf7a1033700ecca9df705e",
+    "url": "https://github.com/faltuAadmi1/Leetcodee/blob/bda7ba454bbd56143759c8ab1ff21e83eb97d395/MinimumDominoRotationsForEqualRow.java",
+    "rawUrl": "https://raw.githubusercontent.com/faltuAadmi1/Leetcodee/main/MinimumDominoRotationsForEqualRow.java"
+  },
+  "matching": {
+    "relevanceScore": 76.11
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "38280dc7c4406882bde84fb377958ca8a223eba7bb998f0632f66f77ed5e9a45",
+    "normalizedCodeHash": "38280dc7c4406882bde84fb377958ca8a223eba7bb998f0632f66f77ed5e9a45",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:39:45.557179+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

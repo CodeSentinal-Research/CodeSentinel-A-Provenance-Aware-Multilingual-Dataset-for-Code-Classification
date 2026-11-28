@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001806",
+  "problemId": "P001806",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001806",
+    "title": "Trim a Binary Search Tree to a Given Range",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree and two values L and R, remove all nodes whose values lie outside the range [L, R] while preserving the Binary Search Tree property.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The last line contains L and R.",
+    "output": "\u2022 Print the resulting BST.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001806",
+    "fileSHA": "a90a2eaaeb091069b5b828ce47269bbf8269c1922b9fdb3829371cb1aad2a5e1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:17.279996+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a90a2eaaeb091069b5b828ce47269bbf8269c1922b9fdb3829371cb1aad2a5e1",
+    "normalizedCodeHash": "a90a2eaaeb091069b5b828ce47269bbf8269c1922b9fdb3829371cb1aad2a5e1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:17.280022+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

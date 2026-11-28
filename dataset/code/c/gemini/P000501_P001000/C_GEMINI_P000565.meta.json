@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000565",
+  "problemId": "P000565",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000565",
+    "title": "Matrix Cells in Distance Order",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given the dimensions of a matrix and the coordinates of a starting cell, return all matrix cells ordered by their Manhattan distance from the starting cell. If multiple cells have the same distance, they may appear in any order.",
+    "input": "Integers rows and cols Integers rCenter and cCenter",
+    "output": "A list of all cell coordinates ordered by increasing Manhattan distance.",
+    "constraints": "1 <= rows, cols <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000565",
+    "fileSHA": "04344de942bc1c63cfbaf155d30fba7db9119955c3f82e9323120008e69217c3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:46:06.783851+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "04344de942bc1c63cfbaf155d30fba7db9119955c3f82e9323120008e69217c3",
+    "normalizedCodeHash": "04344de942bc1c63cfbaf155d30fba7db9119955c3f82e9323120008e69217c3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:46:06.783878+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

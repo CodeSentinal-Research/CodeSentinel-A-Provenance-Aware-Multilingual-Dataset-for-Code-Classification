@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);int n=sc.nextInt();sc.nextLine();String[]recs=new String[n];for(int i=0;i<n;i++)recs[i]=sc.nextLine().trim();int t=sc.nextInt();boolean found=false;for(String r:recs){String[]f=r.split(" ");int last=Integer.parseInt(f[f.length-1]);if(last<t){System.out.println(r);found=true;}}if(!found)System.out.println("No Products Found");}}

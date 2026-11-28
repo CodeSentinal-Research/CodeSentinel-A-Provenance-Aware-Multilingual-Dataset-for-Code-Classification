@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001023",
+  "problemId": "P001023",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001023",
+    "title": "Parent of a Heap Node",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a heap represented as an array and the index of a node, determine the value of its parent. If the node is the root, print -1.",
+    "input": "• First line contains integer N. • Second line contains N integers. • Third line contains integer i.",
+    "output": "Print the parent value or -1.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ i < N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001023.py",
+    "fileSHA": "32eb4cc91824027887176f7534c9882839d2d40ede509d7f3d8b751ade124993",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.109759+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "32eb4cc91824027887176f7534c9882839d2d40ede509d7f3d8b751ade124993",
+    "normalizedCodeHash": "3d4ec450f4d48a3cf78fd8d9486b6eedeb03281b011a15819c9715e0720e2b86",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.109759+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

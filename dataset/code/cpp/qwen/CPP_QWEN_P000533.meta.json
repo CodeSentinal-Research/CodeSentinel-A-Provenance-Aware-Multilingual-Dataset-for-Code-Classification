@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000533",
+  "problemId": "P000533",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000533",
+    "title": "Moving Average from Data Stream",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Design a data structure that calculates the moving average of the last size values from a stream of integers. For each incoming value, return the average of the most recent size elements currently in the window.",
+    "input": "Integer size Integer q Next q integers representing the stream.",
+    "output": "For each inserted value, print the current moving average.",
+    "constraints": "1 <= size <= 10^5 1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000533",
+    "fileSHA": "d02174cc05d04707e1a56863fac019e6fc25d0f3c122564781c9eeba0d3245ad",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.455Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "fc7c87b94c2c0060ee90061a54df98f91a1bf9d00c13a271af9b525ed6616f33",
+    "normalizedCodeHash": "ef89f72d7c99a7b8363cbe7f3f83702a7d64b954be362dcc68c1591914b3a7cb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.455Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

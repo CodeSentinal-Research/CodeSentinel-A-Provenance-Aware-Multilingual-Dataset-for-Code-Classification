@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000936",
+  "problemId": "P000936",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000936",
+    "title": "Check Symmetric Matrix",
+    "category": "Mathematics - Matrix Mathematics",
+    "difficulty": "Easy",
+    "problemStatement": "Given a square matrix, determine whether it is symmetric about its main diagonal.",
+    "input": "Integer N Matrix A",
+    "output": "Print true if the matrix is symmetric; otherwise, print false.",
+    "constraints": "1 <= N <= 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000936.c",
+    "fileSHA": "023a082871416ceb19e0b43599d3eaac71fba1cd5b2a47ea1b65809f8543958a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "023a082871416ceb19e0b43599d3eaac71fba1cd5b2a47ea1b65809f8543958a",
+    "normalizedCodeHash": "023a082871416ceb19e0b43599d3eaac71fba1cd5b2a47ea1b65809f8543958a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

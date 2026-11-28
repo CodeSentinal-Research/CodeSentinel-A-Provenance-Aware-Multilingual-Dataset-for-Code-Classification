@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000668",
+  "problemId": "P000668",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000668",
+    "title": "Skip M Nodes Delete N Nodes",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and two integers M and N, repeatedly skip the next M nodes and then delete the following N nodes until the end of the list is reached. Return the head of the modified linked list.",
+    "input": "Integer size Linked list Integer M Integer N",
+    "output": "The modified linked list.",
+    "constraints": "0 <= size <= 10^5 0 <= M, N <= 10^5"
+  },
+  "repository": {
+    "name": "ojbench/oj-eval-claude-code-088-20260401042808",
+    "owner": "ojbench",
+    "url": "https://github.com/ojbench/oj-eval-claude-code-088-20260401042808",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "main.cpp",
+    "fileSHA": "cdc12d861d5043b8608f2f3591e9b86cf03399eb",
+    "url": "https://github.com/ojbench/oj-eval-claude-code-088-20260401042808/blob/4039b93b0415a1e1a8cd94e9e6f8211437e21ab3/main.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/ojbench/oj-eval-claude-code-088-20260401042808/main/main.cpp"
+  },
+  "matching": {
+    "relevanceScore": 88.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7d2b826bbd29ead4fd02a92fe8dcf76f7302cd69264d5df50c839e1fefa3e96e",
+    "normalizedCodeHash": "7d2b826bbd29ead4fd02a92fe8dcf76f7302cd69264d5df50c839e1fefa3e96e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T19:46:26.907842+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

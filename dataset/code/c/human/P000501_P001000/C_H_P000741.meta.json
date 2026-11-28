@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000741",
+  "problemId": "P000741",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000741",
+    "title": "Flood Fill All Paths",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M grid where 0 represents blocked cells and 1 represents open cells, generate all possible paths from the top-left cell to the bottom-right cell. The traveler may move Up, Down, Left, and Right, but cannot visit the same cell more than once in a path. Print all valid paths in lexicographical order.",
+    "input": "Integer N Integer M Matrix grid",
+    "output": "All valid paths.",
+    "constraints": "1 <= N, M <= 10"
+  },
+  "repository": {
+    "name": "acmeism/RosettaCodeData",
+    "owner": "acmeism",
+    "url": "https://github.com/acmeism/RosettaCodeData",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Task/Bitmap-Flood-fill/C/bitmap-flood-fill-5.c",
+    "fileSHA": "b41de6f1bd6fd9461dccd0baf80d4c951465f08d",
+    "url": "https://github.com/acmeism/RosettaCodeData/blob/1d475861d7141ef2fafff293d9339f56e4b0f5db/Task/Bitmap-Flood-fill/C/bitmap-flood-fill-5.c",
+    "rawUrl": "https://raw.githubusercontent.com/acmeism/RosettaCodeData/main/Task/Bitmap-Flood-fill/C/bitmap-flood-fill-5.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8280313b598023cc2b7bfde19f4ce36d352552a153c85b9a97fa8a7fc80f4354",
+    "normalizedCodeHash": "8280313b598023cc2b7bfde19f4ce36d352552a153c85b9a97fa8a7fc80f4354",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T18:32:19.754533+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

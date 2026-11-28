@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001853",
+  "problemId": "P001853",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001853",
+    "title": "Determine Whether Every Internal Node Has Exactly One Child from Preorder Traversal",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the preorder traversal of a Binary Search Tree with distinct keys, determine whether every internal node has exactly one child without reconstructing the tree.",
+    "input": "• The first line contains an integer N. • The second line contains the preorder traversal.",
+    "output": "• Print YES if every internal node has exactly one child; otherwise print NO.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001853.c",
+    "fileSHA": "727f5f85170dccf2524435d270c62757579de4a0368011fae70f071830555bfe",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:36.172Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a8a881499a9991b12a0ed9dd654eec53a49e2fe60004e5580a6873fdfcbefe4d",
+    "normalizedCodeHash": "727f5f85170dccf2524435d270c62757579de4a0368011fae70f071830555bfe",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:36.172Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

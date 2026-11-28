@@ -1,0 +1,10 @@
+{
+  "problemId": "P000485",
+  "title": "Asteroid Collision",
+  "category": "Stack",
+  "difficulty": "Medium",
+  "problemStatement": "You are given an array of integers representing asteroids moving along a straight line. Positive values move right. Negative values move left. When two asteroids moving in opposite directions collide: The smaller one explodes. If both have the same size, both explode. Asteroids moving in the same direction never collide. Return the final state of the asteroids.",
+  "input": "Integer n Array of integers.",
+  "output": "The remaining asteroids after all collisions.",
+  "constraints": "1 <= n <= 10^5 -1000 <= asteroid[i] <= 1000"
+}

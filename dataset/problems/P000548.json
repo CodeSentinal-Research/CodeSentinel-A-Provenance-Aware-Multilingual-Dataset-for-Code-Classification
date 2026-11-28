@@ -1,0 +1,10 @@
+{
+  "problemId": "P000548",
+  "title": "Bus Routes",
+  "category": "Queue",
+  "difficulty": "Hard",
+  "problemStatement": "You are given several bus routes where each route is represented as a list of bus stops visited repeatedly in a cycle. Starting from the source stop, determine the minimum number of buses you must take to reach the target stop. If it is impossible to reach the destination, return -1.",
+  "input": "Integer r r arrays representing bus routes Integer source Integer target",
+  "output": "A single integer representing the minimum number of buses required.",
+  "constraints": "1 <= r <= 500 Total number of bus stops across all routes does not exceed 10^5 0 <= source, target <= 10^6"
+}

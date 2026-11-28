@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000638",
+  "problemId": "P000638",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000638",
+    "title": "Design Polynomial Using Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "A polynomial is represented as a linked list where each node contains: Coefficient Exponent The terms are stored in descending order of exponents. Process a sequence of operations on the polynomial: insert(coefficient, exponent) delete(exponent) evaluate(x) display() When inserting a term with an existing exponent, combine the coefficients. Print the result for every evaluate() and display() operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for every evaluate() and display() operation.",
+    "constraints": "1 <= q <= 10^5 |coefficient| <= 10^6 0 <= exponent <= 10^6"
+  },
+  "repository": {
+    "name": "kangkanjr/RBR-IPrep",
+    "owner": "kangkanjr",
+    "url": "https://github.com/kangkanjr/RBR-IPrep",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "2. LinkedList/7. Polynomial Addition.java",
+    "fileSHA": "7ad24bf2fe65b89c07b220fe899bd49e17832da0",
+    "url": "https://github.com/kangkanjr/RBR-IPrep/blob/74636f7fca69beb615e03144afe6b66e236dbda1/2. LinkedList/7. Polynomial Addition.java",
+    "rawUrl": "https://raw.githubusercontent.com/kangkanjr/RBR-IPrep/main/2. LinkedList/7. Polynomial Addition.java"
+  },
+  "matching": {
+    "relevanceScore": 67.32
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d423f27372aa026cf5f9c393b3cacdb20dc041f568e04dad23292237e754fcd1",
+    "normalizedCodeHash": "d423f27372aa026cf5f9c393b3cacdb20dc041f568e04dad23292237e754fcd1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T14:43:02.340973+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

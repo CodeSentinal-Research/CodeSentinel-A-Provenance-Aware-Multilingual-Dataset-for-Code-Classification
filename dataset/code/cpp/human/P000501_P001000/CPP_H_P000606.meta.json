@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000606",
+  "problemId": "P000606",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000606",
+    "title": "LRU Cache",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design and implement an LRU (Least Recently Used) cache that supports the following operations in O(1) average time: get(key) put(key, value) If the cache reaches its capacity, evict the least recently used item before inserting a new one. Process a sequence of operations and print the result of every get() operation.",
+    "input": "Integer capacity Integer q Next q operations",
+    "output": "Print the result of every get() operation.",
+    "constraints": "1 <= capacity <= 3000 1 <= q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "maxwellsayles/puzzles",
+    "owner": "maxwellsayles",
+    "url": "https://github.com/maxwellsayles/puzzles",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "lru.cc",
+    "fileSHA": "058ed641db2b1dcac314c428df671f4744fb8925",
+    "url": "https://github.com/maxwellsayles/puzzles/blob/74cdc57859f0d0e3b2b76b8c0d40f8bc8676c5d0/lru.cc",
+    "rawUrl": "https://raw.githubusercontent.com/maxwellsayles/puzzles/main/lru.cc"
+  },
+  "matching": {
+    "relevanceScore": 66.32
+  },
+  "provenance": {
+    "score": 75.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9838ff01eddc122c23b5aa09fd1f41c30cdae8dab86362a539e58c98e0830d83",
+    "normalizedCodeHash": "9838ff01eddc122c23b5aa09fd1f41c30cdae8dab86362a539e58c98e0830d83",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T14:34:05.746840+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,1 @@
+let s=require("fs").readFileSync("/dev/stdin","utf8").trim();let i=0,sign=1,res=0;while(s[i]===" ")i++;if(s[i]==="+"||s[i]==="-"){if(s[i]==="-")sign=-1;i++;}while(i<s.length&&s[i]>="0"&&s[i]<="9"){res=res*10+parseInt(s[i++]);}res*=sign;res=Math.max(-(2**31),Math.min(2**31-1,res));console.log(res);

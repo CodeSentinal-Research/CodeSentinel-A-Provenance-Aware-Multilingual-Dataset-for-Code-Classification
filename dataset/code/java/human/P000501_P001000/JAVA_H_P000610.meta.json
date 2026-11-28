@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000610",
+  "problemId": "P000610",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000610",
+    "title": "Merge Nodes Between Zeros",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a linked list whose first and last nodes contain the value 0. Between every pair of consecutive zero-valued nodes, replace all nodes with a single node whose value is the sum of the values between those zeros. Return the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The transformed linked list.",
+    "constraints": "3 <= n <= 2 \u00d7 10^5 The first and last node values are 0."
+  },
+  "repository": {
+    "name": "SurajGardi/LeetCode_Challenges",
+    "owner": "SurajGardi",
+    "url": "https://github.com/SurajGardi/LeetCode_Challenges",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Day 75/Day75.java",
+    "fileSHA": "cd505d1b46bd49ae49e80cae489597a5a69d4f40",
+    "url": "https://github.com/SurajGardi/LeetCode_Challenges/blob/0615b0517a6435dbdc063bfa6577849e63069727/Day 75/Day75.java",
+    "rawUrl": "https://raw.githubusercontent.com/SurajGardi/LeetCode_Challenges/main/Day 75/Day75.java"
+  },
+  "matching": {
+    "relevanceScore": 86.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ccb6860a9de6d065aec6c7da72c0232700b54557ef3df3c8fbc67398a1ed67f3",
+    "normalizedCodeHash": "ccb6860a9de6d065aec6c7da72c0232700b54557ef3df3c8fbc67398a1ed67f3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T19:14:38.661399+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

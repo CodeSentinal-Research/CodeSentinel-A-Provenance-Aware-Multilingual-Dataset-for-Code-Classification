@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001177",
+  "problemId": "P001177",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001177",
+    "title": "Minimum Cost to Reach Last Cell",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an R × C grid where each cell contains a traversal cost, determine the minimum cost required to reach the bottom-right corner from the top-left corner by moving only right or down.",
+    "input": "• First line contains integers R and C. • Next R lines each contain C integers.",
+    "output": "Print the minimum traversal cost.",
+    "constraints": "• 1 ≤ R, C ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001177.js",
+    "fileSHA": "eb732fc1e92061bfe25b092b1fa1a4d55530a478b2bbcfc97b564f39d4001134",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T09:30:51.258473+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "eb732fc1e92061bfe25b092b1fa1a4d55530a478b2bbcfc97b564f39d4001134",
+    "normalizedCodeHash": "eb732fc1e92061bfe25b092b1fa1a4d55530a478b2bbcfc97b564f39d4001134",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T09:30:51.258473+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

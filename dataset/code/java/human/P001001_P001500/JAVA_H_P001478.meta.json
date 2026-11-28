@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001478",
+  "problemId": "P001478",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001478",
+    "title": "Interval List Intersections",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given two lists of disjoint intervals sorted by start time, determine all intersections between the two interval lists.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next N lines contain the first interval list. \u2022 Next M lines contain the second interval list.",
+    "output": "Print all intersecting intervals.",
+    "constraints": "\u2022 0 \u2264 N, M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "listree/leetcode",
+    "owner": "listree",
+    "url": "https://github.com/listree/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/uber/Intersection.java",
+    "fileSHA": "2a5925a5ef6260255a698ade76fb1c91eed57733",
+    "url": "https://github.com/listree/leetcode/blob/409284dd8bf813ff4fca0f1e9a0c3b2db735dd35/src/main/java/com/uber/Intersection.java",
+    "rawUrl": "https://raw.githubusercontent.com/listree/leetcode/main/src/main/java/com/uber/Intersection.java"
+  },
+  "matching": {
+    "relevanceScore": 92.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9e9fdba5e675eb797270d7a896978230fe2a6309a62f990292ffafdbc4fcd754",
+    "normalizedCodeHash": "9e9fdba5e675eb797270d7a896978230fe2a6309a62f990292ffafdbc4fcd754",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:38:35.691397+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

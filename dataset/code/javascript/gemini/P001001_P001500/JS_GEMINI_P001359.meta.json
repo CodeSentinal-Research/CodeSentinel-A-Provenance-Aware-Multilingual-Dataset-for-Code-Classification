@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001359",
+  "problemId": "P001359",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001359",
+    "title": "Construct Lexicographically Largest Valid Sequence",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer N, construct the lexicographically largest sequence satisfying: \u2022 Number 1 appears once. \u2022 Every integer 2...N appears twice. \u2022 The two occurrences of i are separated by exactly i positions.",
+    "input": "\u2022 First line contains integer N.",
+    "output": "Print the constructed sequence.",
+    "constraints": "\u2022 1 \u2264 N \u2264 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001359",
+    "fileSHA": "20d19ee183ba5e47edf49a82b907a895149b1848c01bcdd1c8a8e262632b1d48",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:22:55.779985+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "20d19ee183ba5e47edf49a82b907a895149b1848c01bcdd1c8a8e262632b1d48",
+    "normalizedCodeHash": "20d19ee183ba5e47edf49a82b907a895149b1848c01bcdd1c8a8e262632b1d48",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:22:55.780021+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

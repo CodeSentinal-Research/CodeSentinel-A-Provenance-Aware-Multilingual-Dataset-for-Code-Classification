@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000965",
+  "problemId": "P000965",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000965",
+    "title": "CRT with Non-Coprime Moduli",
+    "category": "Mathematics - Chinese Remainder Theorem",
+    "difficulty": "Hard",
+    "problemStatement": "Given a system of congruences whose moduli may not be pairwise coprime, determine whether a solution exists and return the smallest non-negative solution if it does.",
+    "input": "Integer N Congruences",
+    "output": "The smallest solution or -1.",
+    "constraints": "1 <= N <= 15"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000965",
+    "fileSHA": "1db424372d04df2c20bb0a9bbb8ab766c744d58aaa53e7e787c4bae31e04c1b1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1db424372d04df2c20bb0a9bbb8ab766c744d58aaa53e7e787c4bae31e04c1b1",
+    "normalizedCodeHash": "1db424372d04df2c20bb0a9bbb8ab766c744d58aaa53e7e787c4bae31e04c1b1",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000965"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

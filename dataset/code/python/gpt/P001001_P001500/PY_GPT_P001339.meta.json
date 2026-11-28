@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001339",
+  "problemId": "P001339",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001339",
+    "title": "Maximum Length of Concatenated String with Unique Characters",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given N strings, select any subset and concatenate them so that every character appears at most once. Determine the maximum possible length of such a concatenated string.",
+    "input": "• First line contains integer N. • Next N lines each contain a lowercase string.",
+    "output": "Print the maximum achievable length.",
+    "constraints": "• 1 ≤ N ≤ 16"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001339.py",
+    "fileSHA": "6ed1804dc5efa1356625e1ea65a28908a46b0b34088742311fbb12bc864de944",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.370069+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6ed1804dc5efa1356625e1ea65a28908a46b0b34088742311fbb12bc864de944",
+    "normalizedCodeHash": "4e770664717da17c63ae4457d86880836200a019d52ab48f4a618b4e17424339",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.370069+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

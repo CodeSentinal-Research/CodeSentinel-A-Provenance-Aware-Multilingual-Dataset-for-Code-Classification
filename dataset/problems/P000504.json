@@ -1,0 +1,10 @@
+{
+  "problemId": "P000504",
+  "title": "Exclusive Time of Functions",
+  "category": "Stack",
+  "difficulty": "Medium",
+  "problemStatement": "A single-threaded CPU executes n functions identified by IDs from 0 to n-1. Execution logs are provided in the format: function_id:start_or_end:timestamp A function may call another function before finishing. Return the exclusive execution time of each function, excluding the time spent executing child functions.",
+  "input": "Integer n Integer m Array of m log strings.",
+  "output": "An array of n integers representing the exclusive execution time of each function.",
+  "constraints": "1 <= n <= 100 1 <= m <= 500 Logs are valid and sorted by timestamp."
+}

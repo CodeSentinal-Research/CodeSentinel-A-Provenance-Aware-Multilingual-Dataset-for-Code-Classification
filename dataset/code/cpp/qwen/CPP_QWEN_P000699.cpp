@@ -1,0 +1,16 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+void revArr(vector<int>& a, int l, int r) {
+    if(l >= r) return;
+    swap(a[l], a[r]);
+    revArr(a, l + 1, r - 1);
+}
+int main() {
+    int n; cin >> n; vector<int> a(n);
+    for(int i=0; i<n; i++) cin >> a[i];
+    revArr(a, 0, n - 1);
+    for(int x : a) cout << x << " ";
+    cout << endl;
+    return 0;
+}

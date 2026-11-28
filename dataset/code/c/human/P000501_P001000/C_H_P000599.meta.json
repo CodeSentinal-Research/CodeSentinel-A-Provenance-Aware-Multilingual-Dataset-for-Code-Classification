@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000599",
+  "problemId": "P000599",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000599",
+    "title": "Delete Duplicates from Sorted Linked List II",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a sorted linked list, delete all nodes that have duplicate values, leaving only nodes whose values appear exactly once. Return the head of the modified linked list.",
+    "input": "Integer n Sorted linked list",
+    "output": "The linked list after removing all duplicate values.",
+    "constraints": "0 <= n <= 300 -100 <= node.value <= 100"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/languages/c/delete_array/del.c",
+    "fileSHA": "aed01b60d613c49097189d1cd2ab9e41edd0d873",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/languages/c/delete_array/del.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/languages/c/delete_array/del.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b25069cc579477317d09c0b13acca1a1b1118d0faa94b06fad8681006e5a6112",
+    "normalizedCodeHash": "b25069cc579477317d09c0b13acca1a1b1118d0faa94b06fad8681006e5a6112",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:06.908368+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

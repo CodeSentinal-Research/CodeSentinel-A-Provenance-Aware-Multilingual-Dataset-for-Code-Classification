@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001194",
+  "problemId": "P001194",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001194",
+    "title": "Partition Array for Maximum Sum",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array and an integer K, partition the array into contiguous subarrays of length at most K. Replace each subarray with its maximum element repeated throughout the partition. Determine the maximum possible total sum.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print the maximum obtainable sum.",
+    "constraints": "• 1 ≤ N ≤ 500 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001194.c",
+    "fileSHA": "57a15215b010e4157b4754acf13ed0553ffea98668e0d44fca85e7279f56c6ba",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.240Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "8df4020c24608cfb813512972cb02e2202c946ff2a7c0f6e6e8fe3c931037257",
+    "normalizedCodeHash": "57a15215b010e4157b4754acf13ed0553ffea98668e0d44fca85e7279f56c6ba",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.240Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

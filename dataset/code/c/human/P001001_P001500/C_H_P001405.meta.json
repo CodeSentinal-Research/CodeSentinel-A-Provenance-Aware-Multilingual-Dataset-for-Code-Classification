@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001405",
+  "problemId": "P001405",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001405",
+    "title": "Count Nice Pairs in an Array",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "For an integer x, define rev(x) as the integer obtained by reversing its decimal digits. Count the number of index pairs (i, j) such that i < j and nums[i] + rev(nums[j]) = nums[j] + rev(nums[i]).",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the number of nice pairs.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "KaranGulve4342/DSA",
+    "owner": "KaranGulve4342",
+    "url": "https://github.com/KaranGulve4342/DSA",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Maps & Sets/CountNicePairsInAnArray.cpp",
+    "fileSHA": "5eee1a693bd9294914f0f66e3e27309125f4478c",
+    "url": "https://github.com/KaranGulve4342/DSA/blob/7a00b69256e83942426b38b9268d011f3ba152aa/Maps & Sets/CountNicePairsInAnArray.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/KaranGulve4342/DSA/main/Maps & Sets/CountNicePairsInAnArray.cpp"
+  },
+  "matching": {
+    "relevanceScore": 87.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e42ee543c98d78f7e24699be58b92c2584a40013536627d004a7abc9a7bf4208",
+    "normalizedCodeHash": "e42ee543c98d78f7e24699be58b92c2584a40013536627d004a7abc9a7bf4208",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:36:34.132884+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

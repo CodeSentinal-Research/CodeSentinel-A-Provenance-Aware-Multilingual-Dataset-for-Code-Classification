@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001698",
+  "problemId": "P001698",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001698",
+    "title": "Delete Leaves with a Given Value",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree and an integer X, repeatedly delete all leaf nodes having value X until no such leaf remains.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree. \u2022 The last line contains X.",
+    "output": "\u2022 Print the resulting tree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001698",
+    "fileSHA": "6b6e31ba30af7ce693c3fee8e5123c18bf341369cda4288474210b86459cd09b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:37:17.125968+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6b6e31ba30af7ce693c3fee8e5123c18bf341369cda4288474210b86459cd09b",
+    "normalizedCodeHash": "6b6e31ba30af7ce693c3fee8e5123c18bf341369cda4288474210b86459cd09b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:37:17.125988+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001644",
+  "problemId": "P001644",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001644",
+    "title": "Boundary Traversal of a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree, print the boundary traversal consisting of the root, left boundary, all leaf nodes from left to right, and the right boundary in reverse order without duplicates.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the boundary traversal.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/0589-n-ary-tree-preorder-traversal.c",
+    "fileSHA": "0b951a22d4ee96bca4cd97212a06a3a428c40014",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/c/0589-n-ary-tree-preorder-traversal.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/0589-n-ary-tree-preorder-traversal.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "bcda3eba976175483eb809d0cf0da8ced7daca58823bea1c73f7d50b2fb9bb6e",
+    "normalizedCodeHash": "bcda3eba976175483eb809d0cf0da8ced7daca58823bea1c73f7d50b2fb9bb6e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:07.158253+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

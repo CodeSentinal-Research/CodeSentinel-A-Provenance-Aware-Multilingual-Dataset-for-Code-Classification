@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000567",
+  "problemId": "P000567",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000567",
+    "title": "Cut Off Trees for Golf Event",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a forest represented as a grid. 0 represents an obstacle. 1 represents empty ground. Values greater than 1 represent trees with unique heights. Starting from the top-left cell, cut all trees in increasing order of height. Return the minimum total number of steps required to cut every tree, or -1 if any tree cannot be reached.",
+    "input": "Integers m and n An m \u00d7 n grid",
+    "output": "A single integer representing the minimum number of steps.",
+    "constraints": "1 <= m, n <= 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000567",
+    "fileSHA": "566fede30c1535883d678d210a65baf0376baa579ac1cbb39625e1dd70f216d5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:25:40.039Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "91f31e8eb522523ae32adbd5aeec7aa2bc9cf65473a5e2cbf8abed89f47e4e02",
+    "normalizedCodeHash": "302055a5a798a0ab020359f0e8079f6c352a2b642c424eef3b8ff9e8bfcc1f93",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:25:40.039Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

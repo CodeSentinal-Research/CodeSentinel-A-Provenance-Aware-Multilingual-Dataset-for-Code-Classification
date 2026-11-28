@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001019",
+  "problemId": "P001019",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001019",
+    "title": "K Closest Points to the Origin",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given the coordinates of N points in a two-dimensional plane and an integer K, determine the K points closest to the origin based on Euclidean distance.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Next N lines contain two integers representing the coordinates of a point.",
+    "output": "Print the K closest points in any order.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001019",
+    "fileSHA": "4ae4ed98cec0e0e5653ee79f1accd18f77122c30d044c7796a9f50fc529a8e40",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.567Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a24df84232e650b219a881cecd691b725a308da4c4e4ed63e176964046af708e",
+    "normalizedCodeHash": "cacfdf0452ce7e53832acd63e1e9e7fe87d7c8c0c5a40775fd3a01fea7721323",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.567Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

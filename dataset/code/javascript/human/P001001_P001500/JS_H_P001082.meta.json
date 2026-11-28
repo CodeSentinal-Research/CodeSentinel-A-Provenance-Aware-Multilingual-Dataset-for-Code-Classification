@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001082",
+  "problemId": "P001082",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001082",
+    "title": "Find Eulerian Path",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph, determine whether it contains an Eulerian Path. If one exists, print any valid path; otherwise print IMPOSSIBLE.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print one Eulerian Path or IMPOSSIBLE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "trekhleb/javascript-algorithms",
+    "owner": "trekhleb",
+    "url": "https://github.com/trekhleb/javascript-algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/algorithms/graph/eulerian-path/eulerianPath.js",
+    "fileSHA": "c82c6fd134ae14aa208a9c6d6cf01cdaede10e44",
+    "url": "https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/graph/eulerian-path/eulerianPath.js",
+    "rawUrl": "https://raw.githubusercontent.com/trekhleb/javascript-algorithms/master/src/algorithms/graph/eulerian-path/eulerianPath.js"
+  },
+  "matching": {
+    "relevanceScore": 81.67
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "17583cd375210abad266e46f29c72047f89b1a16bc61b6ba622ca58883229c84",
+    "normalizedCodeHash": "17583cd375210abad266e46f29c72047f89b1a16bc61b6ba622ca58883229c84",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:47:21.862447+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

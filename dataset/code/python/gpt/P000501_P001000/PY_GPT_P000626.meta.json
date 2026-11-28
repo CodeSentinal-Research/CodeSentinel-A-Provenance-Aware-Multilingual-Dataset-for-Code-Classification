@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000626",
+  "problemId": "P000626",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000626",
+    "title": "All One Data Structure",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a data structure that supports the following operations in constant time: inc(key) — Increment the count of the given key. dec(key) — Decrement the count of the given key. Remove the key if its count becomes zero. getMaxKey() — Return any key with the maximum count. getMinKey() — Return any key with the minimum count. Process a sequence of operations and print the results of every getMaxKey() and getMinKey() query.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for every getMaxKey() and getMinKey() operation.",
+    "constraints": "1 <= q <= 5 × 10^4 Keys consist of lowercase English letters."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000626.py",
+    "fileSHA": "d8834d7ab9de96bd14180fac1579c1d555dfe70e84f6f37053bcadb9c1cd4463",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.470886+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d8834d7ab9de96bd14180fac1579c1d555dfe70e84f6f37053bcadb9c1cd4463",
+    "normalizedCodeHash": "2cd89becec099e725187f5436f15bd95fbb0d6aec194b92b7213986e2a9a9ce3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.470886+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

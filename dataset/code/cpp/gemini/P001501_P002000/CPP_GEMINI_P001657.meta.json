@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001657",
+  "problemId": "P001657",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001657",
+    "title": "Burn a Binary Tree from a Target Node",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree and a target node, determine the minimum time required to burn the entire tree if the fire spreads every second from a burning node to its parent and children simultaneously.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains the target node value.",
+    "output": "\u2022 Print the minimum time required to burn the entire tree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001657",
+    "fileSHA": "ec224b97de60a328b0e914a3b3343500ed4d6d4045c9e53ab3ce25d4ae0595ef",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:34:05.926890+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ec224b97de60a328b0e914a3b3343500ed4d6d4045c9e53ab3ce25d4ae0595ef",
+    "normalizedCodeHash": "ec224b97de60a328b0e914a3b3343500ed4d6d4045c9e53ab3ce25d4ae0595ef",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:34:05.926916+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

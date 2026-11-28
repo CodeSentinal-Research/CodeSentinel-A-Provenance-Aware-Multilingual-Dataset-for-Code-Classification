@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000479",
+  "problemId": "P000479",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000479",
+    "title": "Valid Parentheses",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "Given a string s containing only the characters '(', ')', '{', '}', '[', and ']', determine whether the input string is valid. A string is valid if: Every opening bracket has a corresponding closing bracket of the same type. Brackets are closed in the correct order. Every closing bracket has a matching opening bracket. Return \"true\" if the string is valid; otherwise return \"false\".",
+    "input": "A single string s.",
+    "output": "true if the string is valid, otherwise false.",
+    "constraints": "1 <= s.length <= 10^4 s consists only of '(', ')', '{', '}', '[', ']'."
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/cpp/validParentheses/validParentheses.cpp",
+    "fileSHA": "c36566d1b8eb4627f7657db03d22970bbb625ccb",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/cpp/validParentheses/validParentheses.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/cpp/validParentheses/validParentheses.cpp"
+  },
+  "matching": {
+    "relevanceScore": 83.33
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "93faa0cc4033b3b7a674330d4dff61cae14ac0a29415bfe5b1c99b906daab421",
+    "normalizedCodeHash": "93faa0cc4033b3b7a674330d4dff61cae14ac0a29415bfe5b1c99b906daab421",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:43:23.128629+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

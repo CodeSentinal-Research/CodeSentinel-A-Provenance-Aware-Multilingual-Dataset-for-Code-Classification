@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001573",
+  "problemId": "P001573",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001573",
+    "title": "Count Windows With Sum Divisible by K",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and integers K and D, count the number of contiguous subarrays of size exactly K whose sum is divisible by D.",
+    "input": "• First line contains N, K, and D. • Second line contains N integers.",
+    "output": "• Print the required count.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • 1 ≤ K ≤ N • 1 ≤ D ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001501_P002000/JS_GPT_P001573.js",
+    "fileSHA": "9ca1560f6e01438caf6b8d4e88fa283e1d3ba71c520417684e05bf44dce48504",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9ca1560f6e01438caf6b8d4e88fa283e1d3ba71c520417684e05bf44dce48504",
+    "normalizedCodeHash": "9ca1560f6e01438caf6b8d4e88fa283e1d3ba71c520417684e05bf44dce48504",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

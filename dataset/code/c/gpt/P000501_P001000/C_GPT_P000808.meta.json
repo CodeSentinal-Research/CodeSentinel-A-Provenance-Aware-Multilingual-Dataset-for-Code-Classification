@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000808",
+  "problemId": "P000808",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000808",
+    "title": "Maximum Length Subarray with Equal Even and Odd Numbers",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array, determine the maximum length of a contiguous subarray containing an equal number of even and odd elements.",
+    "input": "Integer n Array nums",
+    "output": "The maximum valid subarray length.",
+    "constraints": "1 <= n <= 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000808.c",
+    "fileSHA": "e2127ed2a77ebe7da44adbd096be75defdc434f5c8ecced4e4b7d7abcf59eb56",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e2127ed2a77ebe7da44adbd096be75defdc434f5c8ecced4e4b7d7abcf59eb56",
+    "normalizedCodeHash": "e2127ed2a77ebe7da44adbd096be75defdc434f5c8ecced4e4b7d7abcf59eb56",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

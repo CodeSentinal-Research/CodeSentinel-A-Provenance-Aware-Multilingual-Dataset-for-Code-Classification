@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000536",
+  "problemId": "P000536",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000536",
+    "title": "Jump Game VI",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an integer array nums and an integer k. Starting from index 0, you may jump to any index in the range [i + 1, min(i + k, n - 1)]. The score of a path is the sum of all visited elements. Return the maximum possible score upon reaching the last index.",
+    "input": "Integer n Array nums Integer k",
+    "output": "A single integer representing the maximum score.",
+    "constraints": "1 <= n, k <= 10^5 -10^4 <= nums[i] <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000536.js",
+    "fileSHA": "9864258efb468d3dcf04dcd1d94831bcbfc3f0bd14b8f612cc16c6f4dd1041d0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9864258efb468d3dcf04dcd1d94831bcbfc3f0bd14b8f612cc16c6f4dd1041d0",
+    "normalizedCodeHash": "9864258efb468d3dcf04dcd1d94831bcbfc3f0bd14b8f612cc16c6f4dd1041d0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000948",
+  "problemId": "P000948",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000948",
+    "title": "Chessboard Game",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Hard",
+    "problemStatement": "A token is placed on an N \u00d7 N chessboard at position (x, y). On each turn, a player may move the token only to one of the allowed positions defined by the game's movement rules. A player who cannot make a move loses. Determine whether the starting player has a winning strategy.",
+    "input": "Integer N Starting coordinates (x, y)",
+    "output": "Print \"First\" if the starting player wins; otherwise, print \"Second\".",
+    "constraints": "1 <= N <= 200 1 <= x, y <= N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P000948",
+    "fileSHA": "5cd48356be4d6eeb3485641773192116dc5c82b686f3310f7c4534c1c4c6ea6c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:36:07.080501+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5cd48356be4d6eeb3485641773192116dc5c82b686f3310f7c4534c1c4c6ea6c",
+    "normalizedCodeHash": "5cd48356be4d6eeb3485641773192116dc5c82b686f3310f7c4534c1c4c6ea6c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:36:07.080545+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

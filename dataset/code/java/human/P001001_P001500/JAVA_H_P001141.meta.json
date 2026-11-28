@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001141",
+  "problemId": "P001141",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001141",
+    "title": "Subset Sum Problem",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of positive integers and a target sum S, determine whether there exists a subset whose sum is exactly S.",
+    "input": "\u2022 First line contains integers N and S. \u2022 Second line contains N integers.",
+    "output": "Print YES if such a subset exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 200 \u2022 1 \u2264 S \u2264 10^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/dynamicprogramming/SubsetSumSpaceOptimized.java",
+    "fileSHA": "5c0167977ae4da63cf108c0a9d7d878a1ce0ff35",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/dynamicprogramming/SubsetSumSpaceOptimized.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/dynamicprogramming/SubsetSumSpaceOptimized.java"
+  },
+  "matching": {
+    "relevanceScore": 83.33
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3af21e01cb44f413657d666fcead4a506b152f891cc2c97a93bd44daa3cd0d94",
+    "normalizedCodeHash": "3af21e01cb44f413657d666fcead4a506b152f891cc2c97a93bd44daa3cd0d94",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:03.916661+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

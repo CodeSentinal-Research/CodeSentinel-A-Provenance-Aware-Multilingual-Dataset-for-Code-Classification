@@ -1,0 +1,78 @@
+{
+  "solutionId": "PY_H_P001068",
+  "problemId": "P001068",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001068",
+    "title": "Topological Sorting",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a Directed Acyclic Graph (DAG), produce one valid topological ordering of its vertices.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain directed edges.",
+    "output": "Print any valid topological ordering. If the graph is not a DAG, print IMPOSSIBLE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "nengo/nengo",
+    "owner": "nengo",
+    "url": "https://github.com/nengo/nengo",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P001001_P001500/PY_H_P001068.py",
+    "fileSHA": "00f9486d24f481e33ce65bd5e285e692b326d483",
+    "url": "https://github.com/nengo/nengo/blob/440db6363f690ea4df52be29b2fa01a5a41399f8/nengo/utils/graphs.py",
+    "rawUrl": "https://raw.githubusercontent.com/nengo/nengo/main/nengo/utils/graphs.py"
+  },
+  "matching": {
+    "relevanceScore": 66.67
+  },
+  "provenance": {
+    "score": 92.5,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2014-03-31T14:37:27Z",
+    "lastCommitDate": "2022-11-18T21:29:39Z",
+    "commitCount": 19,
+    "authorCount": 5,
+    "authors": [
+      "Seanny123",
+      "Trevor Bekolay",
+      "Jan Gosmann",
+      "Daniel Rasmussen",
+      "Eric Hunsberger"
+    ],
+    "firstKnownAuthor": "Trevor Bekolay",
+    "latestKnownAuthor": "Trevor Bekolay"
+  },
+  "deduplication": {
+    "rawCodeHash": "5c3da1c6ef5af736eba082092ae24338b4a62471a788df8022c7133d1d9df5b3",
+    "normalizedCodeHash": "5c3da1c6ef5af736eba082092ae24338b4a62471a788df8022c7133d1d9df5b3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T08:29:53.938195+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000751",
+  "problemId": "P000751",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000751",
+    "title": "Count All Subsequences with Given Sum",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and an integer target, count the number of subsequences whose sum equals target. Use recursion to solve the problem.",
+    "input": "Integer n Array nums Integer target",
+    "output": "The number of valid subsequences.",
+    "constraints": "1 <= n <= 30 -100 <= nums[i] <= 100 -3000 <= target <= 3000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000751",
+    "fileSHA": "990f5c58efdd7d96716e32099af7d5d279f1dc115d06ef7552da20074f274cc1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "990f5c58efdd7d96716e32099af7d5d279f1dc115d06ef7552da20074f274cc1",
+    "normalizedCodeHash": "990f5c58efdd7d96716e32099af7d5d279f1dc115d06ef7552da20074f274cc1",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000751"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001565",
+  "problemId": "P001565",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001565",
+    "title": "Sliding Window Maximum",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and a window size K, determine the maximum element in every contiguous subarray of size K.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the maximum element for every window.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • 1 ≤ K ≤ N • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001565.c",
+    "fileSHA": "dfee1c88a3e6981fc2c0bbb632fbd4a1cf58bf2601125935ff1489b6700265b8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.789Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "d79453b11f925db49bd7e59edfbf18f6403c0defd9c5d0c78c60f3268ddf54fd",
+    "normalizedCodeHash": "dfee1c88a3e6981fc2c0bbb632fbd4a1cf58bf2601125935ff1489b6700265b8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.789Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

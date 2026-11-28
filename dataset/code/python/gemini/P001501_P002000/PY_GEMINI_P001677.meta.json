@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001677",
+  "problemId": "P001677",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001677",
+    "title": "Find the Cousins of a Given Node",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree and a target node, determine all cousin nodes of the target. Two nodes are cousins if they are at the same depth but have different parents.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains the target node.",
+    "output": "\u2022 Print all cousin nodes in the required order. If none exist, print NONE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001677",
+    "fileSHA": "85159d49d261d6af4c0bd20c4f338a5fbd05c34ed1e4c5dbe56fc21cd9888b3a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:35:04.693673+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "85159d49d261d6af4c0bd20c4f338a5fbd05c34ed1e4c5dbe56fc21cd9888b3a",
+    "normalizedCodeHash": "85159d49d261d6af4c0bd20c4f338a5fbd05c34ed1e4c5dbe56fc21cd9888b3a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:35:04.693701+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

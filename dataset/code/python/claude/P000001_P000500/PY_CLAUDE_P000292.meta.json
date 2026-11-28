@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000292",
+  "problemId": "P000292",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000292",
+    "title": "Decode String",
+    "category": "Strings",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that decodes an encoded string where the pattern is k[encoded_string] meaning the encoded_string inside the brackets is repeated exactly k times.",
+    "input": "An encoded string S.",
+    "output": "The decoded string.",
+    "constraints": "1 ≤ |S| ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000292",
+    "fileSHA": "d710381545f1817baca73766f2deda689877408aad7355bffc1c4f12bcfd83e3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d710381545f1817baca73766f2deda689877408aad7355bffc1c4f12bcfd83e3",
+    "normalizedCodeHash": "d710381545f1817baca73766f2deda689877408aad7355bffc1c4f12bcfd83e3",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000292: Decode String"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

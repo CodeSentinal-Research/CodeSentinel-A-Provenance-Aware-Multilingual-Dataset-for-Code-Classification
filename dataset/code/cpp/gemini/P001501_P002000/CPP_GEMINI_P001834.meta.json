@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001834",
+  "problemId": "P001834",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001834",
+    "title": "Detect Whether a Binary Search Tree Contains a Dead End",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree containing positive integers, determine whether the tree contains at least one dead end where no additional key can be inserted.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST.",
+    "output": "\u2022 Print YES if a dead end exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001834",
+    "fileSHA": "4adb129b3dbf0803819dadfb6a65edb89f979c1c93ab00be132234044f070e5a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:24.635669+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4adb129b3dbf0803819dadfb6a65edb89f979c1c93ab00be132234044f070e5a",
+    "normalizedCodeHash": "4adb129b3dbf0803819dadfb6a65edb89f979c1c93ab00be132234044f070e5a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:24.635690+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

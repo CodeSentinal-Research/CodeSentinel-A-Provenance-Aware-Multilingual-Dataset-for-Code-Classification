@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000896",
+  "problemId": "P000896",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000896",
+    "title": "GCD of an Array",
+    "category": "Mathematics - GCD & LCM",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of positive integers, compute the greatest common divisor of all the elements.",
+    "input": "Integer N Array nums",
+    "output": "The GCD of the array.",
+    "constraints": "1 <= N <= 2 × 10^5 1 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000896",
+    "fileSHA": "ed19624e634af906446d24924f37cd56986439cd11ab2c508f5bd60250ea3ba8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ed19624e634af906446d24924f37cd56986439cd11ab2c508f5bd60250ea3ba8",
+    "normalizedCodeHash": "ed19624e634af906446d24924f37cd56986439cd11ab2c508f5bd60250ea3ba8",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000896"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

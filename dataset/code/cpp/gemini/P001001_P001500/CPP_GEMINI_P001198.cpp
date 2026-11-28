@@ -1,0 +1,28 @@
+#include <vector>
+#include <algorithm>
+
+class Solution {
+public:
+    int countSquares(std::vector<std::vector<int>>& matrix) {
+        int m = matrix.size(), n = matrix[0].size();
+        std::vector<std::vector<int>> dp(m, std::vector<int>(n, 0));
+        int total = 0;
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (matrix[i][j] == 1) {
+                    if (i == 0 || j == 0) {
+                        // Update dynamic programming state transition
+                        dp[i][j] = 1;
+                    } else {
+                        // Update dynamic programming state transition
+                        dp[i][j] = 1 + std::min({dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]});
+                    }
+                    // Update dynamic programming state transition
+                    total += dp[i][j];
+                }
+            }
+        }
+        return total;
+    }
+};

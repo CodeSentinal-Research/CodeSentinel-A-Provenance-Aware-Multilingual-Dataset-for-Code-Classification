@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001418",
+  "problemId": "P001418",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001418",
+    "title": "Count Number of Consistent Strings",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given a string representing allowed characters and a list of words, count how many words consist only of allowed characters.",
+    "input": "\u2022 First line contains the allowed string. \u2022 Second line contains integer N. \u2022 Next N lines contain one word each.",
+    "output": "Print the number of consistent words.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 Word length \u2264 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001418",
+    "fileSHA": "c070a1b25a9745bd80c83175fae153de53dabe906a6538aca7537d5464d25792",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:25:33.632193+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c070a1b25a9745bd80c83175fae153de53dabe906a6538aca7537d5464d25792",
+    "normalizedCodeHash": "c070a1b25a9745bd80c83175fae153de53dabe906a6538aca7537d5464d25792",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:25:33.632219+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

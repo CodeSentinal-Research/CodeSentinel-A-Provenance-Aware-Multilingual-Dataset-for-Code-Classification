@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000769",
+  "problemId": "P000769",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000769",
+    "title": "Scramble String",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given two strings s1 and s2 of equal length, determine whether s2 is a scrambled version of s1. A scrambled string is produced by recursively partitioning a string into two non-empty substrings and optionally swapping the left and right children at any partition. Return true if s2 is a scrambled string of s1; otherwise return false.",
+    "input": "String s1 String s2",
+    "output": "true if s2 is a scrambled string of s1, otherwise false.",
+    "constraints": "1 <= |s1|, |s2| <= 30"
+  },
+  "repository": {
+    "name": "mirinta/leet_code",
+    "owner": "mirinta",
+    "url": "https://github.com/mirinta/leet_code",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "dynamic_programming/0087_scramble_string.cpp",
+    "fileSHA": "ab20c1164a958da3a0e75c61f1eca5946e9dd4de",
+    "url": "https://github.com/mirinta/leet_code/blob/55dd41527349f495a655f2560ae490ffeeb838df/dynamic_programming/0087_scramble_string.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/mirinta/leet_code/main/dynamic_programming/0087_scramble_string.cpp"
+  },
+  "matching": {
+    "relevanceScore": 86.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1852254cc4a9ce1957792413218bac1330d791cf23e303cfdb752f165c391a77",
+    "normalizedCodeHash": "1852254cc4a9ce1957792413218bac1330d791cf23e303cfdb752f165c391a77",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:19:15.469756+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

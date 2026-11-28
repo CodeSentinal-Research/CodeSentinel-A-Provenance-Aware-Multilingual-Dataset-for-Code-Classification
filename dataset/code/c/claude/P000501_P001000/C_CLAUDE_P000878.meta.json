@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000878",
+  "problemId": "P000878",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000878",
+    "title": "Bitwise ORs of Subarrays",
+    "category": "Bit Manipulation",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array, return the number of distinct values obtainable by taking the bitwise OR of every possible contiguous subarray.",
+    "input": "Integer n Array nums",
+    "output": "The number of distinct bitwise OR values.",
+    "constraints": "1 <= n <= 5 × 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000878",
+    "fileSHA": "5a88e8e7864ff11ac114afff327f536b00933734ca2a98ff8a80c0680515c5f4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5a88e8e7864ff11ac114afff327f536b00933734ca2a98ff8a80c0680515c5f4",
+    "normalizedCodeHash": "5a88e8e7864ff11ac114afff327f536b00933734ca2a98ff8a80c0680515c5f4",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000878"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

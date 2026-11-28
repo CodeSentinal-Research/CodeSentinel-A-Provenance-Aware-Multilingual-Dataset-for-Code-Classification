@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001784",
+  "problemId": "P001784",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001784",
+    "title": "Reconstruct a Binary Tree from Level Order and Inorder Traversals",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the level order traversal and inorder traversal of a binary tree containing unique values, reconstruct the original binary tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the level order traversal. \u2022 The third line contains the inorder traversal.",
+    "output": "\u2022 Print the reconstructed tree in the required traversal format.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5 \u2022 All node values are unique."
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001784",
+    "fileSHA": "6a537f7633e2ce0669d13f239ee0cd4b3a69fd2b6d442ef51cf5fbd98445eb0c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:10.219159+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6a537f7633e2ce0669d13f239ee0cd4b3a69fd2b6d442ef51cf5fbd98445eb0c",
+    "normalizedCodeHash": "6a537f7633e2ce0669d13f239ee0cd4b3a69fd2b6d442ef51cf5fbd98445eb0c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:10.219180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000959",
+  "problemId": "P000959",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000959",
+    "title": "Solve Linear Diophantine Equation",
+    "category": "Mathematics - Diophantine Equations",
+    "difficulty": "Medium",
+    "problemStatement": "Given integers A, B, and C, determine whether the equation: AX + BY = C has an integer solution.",
+    "input": "Integer A Integer B Integer C",
+    "output": "Print true if a solution exists; otherwise, print false.",
+    "constraints": "|A|, |B|, |C| <= 10^18"
+  },
+  "repository": {
+    "name": "jwooser/advent-of-code-2024",
+    "owner": "jwooser",
+    "url": "https://github.com/jwooser/advent-of-code-2024",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "MathUtils.h",
+    "fileSHA": "1c9a8b8b7d471ca65d1f30ff81dbf00acad25b5f",
+    "url": "https://github.com/jwooser/advent-of-code-2024/blob/f1ae4992ae77801d4a211babfb0a4592d97c3fa2/MathUtils.h",
+    "rawUrl": "https://raw.githubusercontent.com/jwooser/advent-of-code-2024/main/MathUtils.h"
+  },
+  "matching": {
+    "relevanceScore": 68.33
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e776a132425c14e21037dd809fc02c1563ffc8cbad371ea4cb2a547490cdd47e",
+    "normalizedCodeHash": "e776a132425c14e21037dd809fc02c1563ffc8cbad371ea4cb2a547490cdd47e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:38:51.312412+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

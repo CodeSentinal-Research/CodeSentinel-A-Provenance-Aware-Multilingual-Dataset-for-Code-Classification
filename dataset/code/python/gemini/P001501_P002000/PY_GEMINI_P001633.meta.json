@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001633",
+  "problemId": "P001633",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001633",
+    "title": "Largest Rectangle With Sum Not Exceeding K",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M matrix of integers and an integer K, determine the maximum area of a rectangular submatrix whose sum does not exceed K.",
+    "input": "\u2022 First line contains N, M, and K. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the maximum rectangle area.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 300 \u2022 -10^4 \u2264 Aij \u2264 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001633",
+    "fileSHA": "17cd9f0de8dc8219cd6dc8f34ecdcd5222fb4c7e14471cb12c67d6553d0dcddf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:58.206112+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "17cd9f0de8dc8219cd6dc8f34ecdcd5222fb4c7e14471cb12c67d6553d0dcddf",
+    "normalizedCodeHash": "17cd9f0de8dc8219cd6dc8f34ecdcd5222fb4c7e14471cb12c67d6553d0dcddf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:58.206139+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

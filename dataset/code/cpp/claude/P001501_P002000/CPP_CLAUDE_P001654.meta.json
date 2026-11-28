@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_CLAUDE_P001654",
+  "problemId": "P001654",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001654",
+    "title": "Recover a Corrupted Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "A binary tree originally satisfied the property that every parent-child relationship followed the given ordering rule, but exactly one node contains an incorrect value due to data corruption. Restore the corrupted node so that the original property of the tree is satisfied again.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the corrected tree in the required traversal format.",
+    "constraints": "• 2 ≤ N ≤ 2 × 10^5 • Exactly one node value is incorrect."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P001654",
+    "fileSHA": "95e3e826e76c8ae8a0f5142b2498676d9a3c49221b216c2ddec1c2e51da8952f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "94f6a48cc005fbb1ab1780adae9e4c90778d8d9b1bb32098d84f1f3bff393df6",
+    "normalizedCodeHash": "95e3e826e76c8ae8a0f5142b2498676d9a3c49221b216c2ddec1c2e51da8952f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

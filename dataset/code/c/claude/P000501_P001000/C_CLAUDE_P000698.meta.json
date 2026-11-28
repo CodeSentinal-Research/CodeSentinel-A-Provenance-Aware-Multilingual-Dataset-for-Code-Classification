@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000698",
+  "problemId": "P000698",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000698",
+    "title": "Fast Modular Exponentiation Using Recursion",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given three integers base, exponent, and mod, compute (base^exponent) mod mod using recursive exponentiation by squaring.",
+    "input": "Integer base Integer exponent Integer mod",
+    "output": "The value of (base^exponent) mod mod.",
+    "constraints": "1 <= base, exponent <= 10^18 2 <= mod <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000698",
+    "fileSHA": "3add62f2323b406bd85b937f71fcabca80e74e6be1f15a004834b930332a88b6",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3add62f2323b406bd85b937f71fcabca80e74e6be1f15a004834b930332a88b6",
+    "normalizedCodeHash": "3add62f2323b406bd85b937f71fcabca80e74e6be1f15a004834b930332a88b6",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000698"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

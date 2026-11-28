@@ -1,0 +1,10 @@
+{
+  "problemId": "P000628",
+  "title": "Text Editor Using Linked List",
+  "category": "Linked List",
+  "difficulty": "Hard",
+  "problemStatement": "Design a text editor supporting the following operations: addText(text) \u2014 Insert text at the cursor position. deleteText(k) \u2014 Delete up to k characters to the left of the cursor. cursorLeft(k) \u2014 Move the cursor left by at most k positions and return up to the last 10 characters to the left of the cursor. cursorRight(k) \u2014 Move the cursor right by at most k positions and return up to the last 10 characters to the left of the cursor. Process a sequence of operations and print the results for query operations.",
+  "input": "Integer q Next q operations",
+  "output": "Print the result of every deleteText(), cursorLeft(), and cursorRight() operation.",
+  "constraints": "1 <= q <= 2 \u00d7 10^5 Total length of inserted text does not exceed 2 \u00d7 10^6"
+}

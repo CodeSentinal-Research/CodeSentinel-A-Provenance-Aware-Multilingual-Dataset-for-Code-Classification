@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000833",
+  "problemId": "P000833",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000833",
+    "title": "Allocate Minimum Number of Pages",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array where each element represents the number of pages in a book and an integer students, allocate books such that: Each student receives at least one book. Books assigned to a student must be contiguous. Minimize the maximum number of pages assigned to any student. Return the minimum possible maximum.",
+    "input": "Integer n Array pages Integer students",
+    "output": "The minimum possible maximum pages.",
+    "constraints": "1 <= n <= 10^5 1 <= pages[i] <= 10^9"
+  },
+  "repository": {
+    "name": "MohammedSaqibKhan/GfG160",
+    "owner": "MohammedSaqibKhan",
+    "url": "https://github.com/MohammedSaqibKhan/GfG160",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "AllocateMinimumPages.java",
+    "fileSHA": "6ceee3cf34934a47ff25acae7bcdaf4eecd9c44d",
+    "url": "https://github.com/MohammedSaqibKhan/GfG160/blob/a0d12d01382160a27651a8ea5ef07971200d1b29/AllocateMinimumPages.java",
+    "rawUrl": "https://raw.githubusercontent.com/MohammedSaqibKhan/GfG160/main/AllocateMinimumPages.java"
+  },
+  "matching": {
+    "relevanceScore": 90.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "081c6d828b508f640e8b2019b7cd49052d16c12e6a09a39096478b09517cbaae",
+    "normalizedCodeHash": "081c6d828b508f640e8b2019b7cd49052d16c12e6a09a39096478b09517cbaae",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:32:15.954218+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

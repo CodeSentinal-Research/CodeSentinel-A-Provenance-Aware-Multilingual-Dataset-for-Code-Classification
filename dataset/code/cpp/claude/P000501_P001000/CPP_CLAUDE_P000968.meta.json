@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000968",
+  "problemId": "P000968",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000968",
+    "title": "Merge Two Congruence Equations",
+    "category": "Mathematics - Chinese Remainder Theorem",
+    "difficulty": "Medium",
+    "problemStatement": "Given two congruence equations: X ≡ A (mod M) X ≡ B (mod N) Determine whether they can be merged into a single congruence. If possible, output the merged congruence with the smallest non-negative solution.",
+    "input": "Integers A, M Integers B, N",
+    "output": "The merged congruence or -1 if no solution exists.",
+    "constraints": "1 <= M, N <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000968",
+    "fileSHA": "c58b9868cb6ef2a1c758b6dbc8562abf7b910dd0f8eae1e5f2cf2c275c4623ea",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c58b9868cb6ef2a1c758b6dbc8562abf7b910dd0f8eae1e5f2cf2c275c4623ea",
+    "normalizedCodeHash": "c58b9868cb6ef2a1c758b6dbc8562abf7b910dd0f8eae1e5f2cf2c275c4623ea",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000968"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

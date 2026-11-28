@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000839",
+  "problemId": "P000839",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000839",
+    "title": "Find the Smallest Divisor Given a Threshold",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array nums and an integer threshold, choose a positive integer divisor such that the sum of ceil(nums[i] / divisor) over all elements is less than or equal to threshold. Return the smallest possible divisor.",
+    "input": "Integer n Array nums Integer threshold",
+    "output": "The smallest valid divisor.",
+    "constraints": "1 <= n <= 5 \u00d7 10^4 1 <= nums[i] <= 10^6 n <= threshold <= 10^6"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P000839",
+    "fileSHA": "692c2555e4174c592d943f487149f84c2e5793ca99b485af533b6b4d3a963917",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:29:13.938709+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "692c2555e4174c592d943f487149f84c2e5793ca99b485af533b6b4d3a963917",
+    "normalizedCodeHash": "692c2555e4174c592d943f487149f84c2e5793ca99b485af533b6b4d3a963917",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:29:13.938761+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

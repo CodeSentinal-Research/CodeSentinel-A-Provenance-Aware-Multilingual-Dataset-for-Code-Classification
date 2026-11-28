@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000667",
+  "problemId": "P000667",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000667",
+    "title": "Design Circular Deque Using Doubly Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a circular deque using a doubly linked list. Support the following operations: insertFront(value) insertLast(value) deleteFront() deleteLast() getFront() getRear() isEmpty() size() Process a sequence of operations and print the result for query operations.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result of every query operation.",
+    "constraints": "1 <= q <= 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000667",
+    "fileSHA": "c77bb35d4e65021b902e72500189f109f8d91a850979f0ba57a50fb0844d7070",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c77bb35d4e65021b902e72500189f109f8d91a850979f0ba57a50fb0844d7070",
+    "normalizedCodeHash": "c77bb35d4e65021b902e72500189f109f8d91a850979f0ba57a50fb0844d7070",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000667"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

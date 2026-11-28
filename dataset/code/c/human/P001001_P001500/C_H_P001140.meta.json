@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001140",
+  "problemId": "P001140",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001140",
+    "title": "Unbounded Knapsack",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given N items, each with a weight and value, determine the maximum obtainable value when each item may be selected an unlimited number of times without exceeding the knapsack capacity.",
+    "input": "\u2022 First line contains integers N and W. \u2022 Next N lines contain weight and value.",
+    "output": "Print the maximum obtainable value.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000 \u2022 1 \u2264 W \u2264 10^5"
+  },
+  "repository": {
+    "name": "HelloProds/Grid-Project",
+    "owner": "HelloProds",
+    "url": "https://github.com/HelloProds/Grid-Project",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "unbounded_knapsack.c",
+    "fileSHA": "7dfedd8374f0dd2581fa1aaafb26eacffe0e2972",
+    "url": "https://github.com/HelloProds/Grid-Project/blob/980acca5e824a919559b8e67ac6579f05e29a3ca/unbounded_knapsack.c",
+    "rawUrl": "https://raw.githubusercontent.com/HelloProds/Grid-Project/main/unbounded_knapsack.c"
+  },
+  "matching": {
+    "relevanceScore": 80.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "aeb75510fb74ebc32b971a9f15a654c06db5d32958897c33ffac7ef3e5d80050",
+    "normalizedCodeHash": "aeb75510fb74ebc32b971a9f15a654c06db5d32958897c33ffac7ef3e5d80050",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T19:53:14.429994+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

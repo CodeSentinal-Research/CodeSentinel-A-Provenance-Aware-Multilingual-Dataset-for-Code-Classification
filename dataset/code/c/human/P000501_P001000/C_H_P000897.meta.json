@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000897",
+  "problemId": "P000897",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000897",
+    "title": "LCM of an Array",
+    "category": "Mathematics - GCD & LCM",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of positive integers, compute the least common multiple (LCM) of all the elements. If the result exceeds the range of a signed 64-bit integer, output the result modulo 10^9 + 7.",
+    "input": "Integer N Array nums",
+    "output": "The LCM of the array.",
+    "constraints": "1 <= N <= 10^5 1 <= nums[i] <= 10^6"
+  },
+  "repository": {
+    "name": "TheAlgorithms/C",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/C",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "math/lcm.c",
+    "fileSHA": "c1f7487f02ff4c91ad65e50d3c62b11eba2f9389",
+    "url": "https://github.com/TheAlgorithms/C/blob/master/math/lcm.c",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/C/master/math/lcm.c"
+  },
+  "matching": {
+    "relevanceScore": 73.45
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "67b7f4a2d8510b577c6736be3f46b9c40068ff2e7fed8c36f9ceb783d05bc0aa",
+    "normalizedCodeHash": "67b7f4a2d8510b577c6736be3f46b9c40068ff2e7fed8c36f9ceb783d05bc0aa",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:13:17.241823+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

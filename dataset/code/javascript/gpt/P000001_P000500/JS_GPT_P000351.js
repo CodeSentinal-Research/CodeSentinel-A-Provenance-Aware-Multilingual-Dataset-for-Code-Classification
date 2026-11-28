@@ -1,0 +1,2 @@
+// Find Element in Array
+const fs=require("fs");const a=fs.readFileSync(0,"utf8").trim().split(/\s+/).map(Number),n=a[0],x=a[n+1];let ok=false;for(let i=1;i<=n;i++)if(a[i]===x){ok=true;break;}console.log(ok?"Found":"Not Found");

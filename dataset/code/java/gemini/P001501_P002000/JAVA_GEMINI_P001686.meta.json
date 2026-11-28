@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001686",
+  "problemId": "P001686",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001686",
+    "title": "Find the Predecessor of a Node in Level Order Traversal",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree and a target node, determine the node that immediately precedes the target in level order traversal. If no such node exists, print NONE.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains the target node value.",
+    "output": "\u2022 Print the level order predecessor.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001686",
+    "fileSHA": "cc2981f2ee3e29b2c1b6a4ec2af669de4aa00bbde553207aa16a698d6bb96bd2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:35:05.568232+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cc2981f2ee3e29b2c1b6a4ec2af669de4aa00bbde553207aa16a698d6bb96bd2",
+    "normalizedCodeHash": "cc2981f2ee3e29b2c1b6a4ec2af669de4aa00bbde553207aa16a698d6bb96bd2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:35:05.568265+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

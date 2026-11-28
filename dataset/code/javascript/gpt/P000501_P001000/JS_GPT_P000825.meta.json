@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000825",
+  "problemId": "P000825",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000825",
+    "title": "Search a 2D Matrix II",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N × M matrix where: Each row is sorted in ascending order. Each column is sorted in ascending order. Determine whether a target value exists in the matrix.",
+    "input": "Integer N Integer M Matrix matrix Integer target",
+    "output": "true if the target exists, otherwise false.",
+    "constraints": "1 <= N, M <= 300"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000825.js",
+    "fileSHA": "c1949b14f80a1c6c4839267845b272f1032967eeede49ec026d92b4d00a5defc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c1949b14f80a1c6c4839267845b272f1032967eeede49ec026d92b4d00a5defc",
+    "normalizedCodeHash": "c1949b14f80a1c6c4839267845b272f1032967eeede49ec026d92b4d00a5defc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

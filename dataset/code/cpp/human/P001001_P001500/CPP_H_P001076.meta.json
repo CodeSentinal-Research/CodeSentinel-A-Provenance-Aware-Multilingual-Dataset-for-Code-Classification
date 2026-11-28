@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001076",
+  "problemId": "P001076",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001076",
+    "title": "Floyd-Warshall All-Pairs Shortest Path",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a weighted graph, determine the shortest distance between every pair of vertices.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain weighted edges.",
+    "output": "Print the shortest distance matrix.",
+    "constraints": "\u2022 1 \u2264 N \u2264 500 \u2022 0 \u2264 M \u2264 N(N\u22121)/2"
+  },
+  "repository": {
+    "name": "pravocodes/Hacktoberfest2024",
+    "owner": "pravocodes",
+    "url": "https://github.com/pravocodes/Hacktoberfest2024",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "cpp/floydwarshallalgorithm.cpp",
+    "fileSHA": "e914295a024a484e9f0aa1c3f35af5351978f48b",
+    "url": "https://github.com/pravocodes/Hacktoberfest2024/blob/9e7b8c28192c47e2de646b55a27bf0fdcd4fa7ec/cpp/floydwarshallalgorithm.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/pravocodes/Hacktoberfest2024/main/cpp/floydwarshallalgorithm.cpp"
+  },
+  "matching": {
+    "relevanceScore": 96.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a20981dd7121e1057fc2b74e078dc6d61189512cbaf766b0849566ab3dac86bc",
+    "normalizedCodeHash": "a20981dd7121e1057fc2b74e078dc6d61189512cbaf766b0849566ab3dac86bc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:40:51.515680+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001021",
+  "problemId": "P001021",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001021",
+    "title": "Increase Key in a Max Heap",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a valid Max Heap represented as an array, an index i, and a new value greater than or equal to the current value, update the key at index i and restore the Max Heap property. Print the updated heap.",
+    "input": "• First line contains integer N. • Second line contains N space-separated integers. • Third line contains integers i and newValue.",
+    "output": "Print the updated Max Heap.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ i < N • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001021.py",
+    "fileSHA": "c4c0a1bcaa67ca4923c99d3cc12fb009698ed32205c8d630955d2f0cf42715c7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.104763+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c4c0a1bcaa67ca4923c99d3cc12fb009698ed32205c8d630955d2f0cf42715c7",
+    "normalizedCodeHash": "790e8a011c7809dfd42a53431f066cdcc4ab666f05718a7256fffcf1d3c7b79d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.104763+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

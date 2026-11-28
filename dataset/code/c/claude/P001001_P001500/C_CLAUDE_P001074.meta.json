@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P001074",
+  "problemId": "P001074",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001074",
+    "title": "Dijkstra's Shortest Path",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a weighted graph with non-negative edge weights and a source vertex S, determine the shortest distance from S to every other vertex.",
+    "input": "• First line contains integers N, M, and S. • Next M lines contain three integers u, v, and w.",
+    "output": "Print the shortest distance from the source to every vertex.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5 • 0 ≤ w ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P001074",
+    "fileSHA": "238d3a47ca7c67d28c2823cd04a838e96816e916e2b3484075fe9617fd23251b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "238d3a47ca7c67d28c2823cd04a838e96816e916e2b3484075fe9617fd23251b",
+    "normalizedCodeHash": "238d3a47ca7c67d28c2823cd04a838e96816e916e2b3484075fe9617fd23251b",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P001074"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000535",
+  "problemId": "P000535",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000535",
+    "title": "Reveal Cards in Increasing Order",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You are given a deck of unique integers. Arrange the deck so that when the following process is performed: 1. Reveal the top card. 2. Move the next top card to the bottom. 3. Repeat until the deck is empty. The revealed sequence is in strictly increasing order. Return the required initial ordering of the deck.",
+    "input": "Integer n Array deck",
+    "output": "An array representing the required initial ordering.",
+    "constraints": "1 <= n <= 1000 All card values are unique."
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000535",
+    "fileSHA": "356edf7139d73308db5ba66d2dcc8f2d8ad5c3c55604adcc97b7a4fc593c1f99",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.457Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "515d61a80322fcbc5a13328f91d552e8e1b3ab96a27c0ec91385021c28d53add",
+    "normalizedCodeHash": "f1597362db1fbb2c0951efdb9e5cdbb8b40779ff686fc5dd6e5483e88d601656",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.457Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

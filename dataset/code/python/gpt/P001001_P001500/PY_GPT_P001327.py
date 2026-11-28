@@ -1,0 +1,20 @@
+# problem title : Subsets II
+# Solve the stated task using standard input and standard output.
+from typing import List
+
+class Solution:
+    def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
+        nums.sort()
+        res = []
+
+        def backtrack(idx: int, cur: List[int]):
+            res.append(list(cur))
+            for i in range(idx, len(nums)):
+                if i > idx and nums[i] == nums[i - 1]:
+                    continue
+                cur.append(nums[i])
+                backtrack(i + 1, cur)
+                cur.pop()
+
+        backtrack(0, [])
+        return res

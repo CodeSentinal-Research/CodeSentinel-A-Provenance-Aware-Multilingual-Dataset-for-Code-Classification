@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000794",
+  "problemId": "P000794",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000794",
+    "title": "Maximum Size Subarray Sum Equals K",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array nums and an integer k, return the maximum length of a contiguous subarray whose sum equals k.",
+    "input": "Integer n Array nums Integer k",
+    "output": "The maximum subarray length.",
+    "constraints": "1 <= n <= 2 × 10^5 -10^9 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000794",
+    "fileSHA": "fea7ecbac09e4742a2f8bedcd7f816db543915966700b242303214d065080caa",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fea7ecbac09e4742a2f8bedcd7f816db543915966700b242303214d065080caa",
+    "normalizedCodeHash": "fea7ecbac09e4742a2f8bedcd7f816db543915966700b242303214d065080caa",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique P000794: Maximum Size Subarray Sum Equals K"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

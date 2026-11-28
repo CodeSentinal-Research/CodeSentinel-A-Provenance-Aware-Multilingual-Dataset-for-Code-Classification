@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);int n=sc.nextInt(),d=sc.nextInt();int[]w=new int[n];long lo=0,hi=0;for(int i=0;i<n;i++){w[i]=sc.nextInt();if(w[i]>lo)lo=w[i];hi+=w[i];}while(lo<hi){long mid=(lo+hi)/2;int days=1;long c=0;for(int v:w){if(c+v>mid){days++;c=v;}else c+=v;}if(days<=d)hi=mid;else lo=mid+1;}System.out.println(lo);}}

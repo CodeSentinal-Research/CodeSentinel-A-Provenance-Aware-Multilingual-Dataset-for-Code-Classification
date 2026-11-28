@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001156",
+  "problemId": "P001156",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001156",
+    "title": "Egg Dropping Puzzle",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given E identical eggs and a building with F floors, determine the minimum number of attempts required in the worst case to identify the highest safe floor.",
+    "input": "• First line contains integers E and F.",
+    "output": "Print the minimum number of attempts.",
+    "constraints": "• 1 ≤ E ≤ 100 • 1 ≤ F ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001156.c",
+    "fileSHA": "a1c159ccc1e89f5949d0e5e3b6fee0e31adf3393b978c8906d51d28c423013cc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.144Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "dbc497ded5d39b15a6b1d6212a4b04388b696e584c3966e9c50b3b5afef703d9",
+    "normalizedCodeHash": "a1c159ccc1e89f5949d0e5e3b6fee0e31adf3393b978c8906d51d28c423013cc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.144Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

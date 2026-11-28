@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000558",
+  "problemId": "P000558",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000558",
+    "title": "Minimum Moves to Reach Target with Rotations",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an n × n binary grid representing obstacles. A snake occupies two adjacent cells and initially starts horizontally at the top-left corner. In one move, the snake may: Move right. Move down. Rotate clockwise. Rotate counterclockwise. A move is valid only if all required cells are within the grid and free of obstacles. Determine the minimum number of moves required for the snake to reach the target position. Return -1 if it is impossible.",
+    "input": "Integer n An n × n binary grid.",
+    "output": "A single integer representing the minimum number of moves, or -1 if no valid path exists.",
+    "constraints": "2 <= n <= 100 Grid contains only 0 and 1."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000558.c",
+    "fileSHA": "ad61c69819e8e7344e74b6e8d9dd1b1059020b82859c2f66e1eac4c81c024b6a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ad61c69819e8e7344e74b6e8d9dd1b1059020b82859c2f66e1eac4c81c024b6a",
+    "normalizedCodeHash": "ad61c69819e8e7344e74b6e8d9dd1b1059020b82859c2f66e1eac4c81c024b6a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

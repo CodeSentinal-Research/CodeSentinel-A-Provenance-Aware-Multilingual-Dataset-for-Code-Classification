@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000588",
+  "problemId": "P000588",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000588",
+    "title": "Copy List with Random Pointer",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "A linked list consists of nodes containing: value next pointer random pointer, which may point to any node in the list or be null. Create a deep copy of the linked list and return the head of the copied list.",
+    "input": "A linked list with next and random pointers.",
+    "output": "The head of the deep-copied linked list.",
+    "constraints": "Number of nodes is in the range [0, 1000]."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000588.js",
+    "fileSHA": "b14c3a9d32b07c3228f5debe385f4ebe34f484b371cfc6d0142e9448512b49b5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b14c3a9d32b07c3228f5debe385f4ebe34f484b371cfc6d0142e9448512b49b5",
+    "normalizedCodeHash": "b14c3a9d32b07c3228f5debe385f4ebe34f484b371cfc6d0142e9448512b49b5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

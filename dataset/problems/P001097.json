@@ -1,0 +1,10 @@
+{
+  "problemId": "P001097",
+  "title": "Union-Find Operations",
+  "category": "Graphs",
+  "difficulty": "Easy",
+  "problemStatement": "You are given N initially disconnected vertices and Q operations. Each operation is either: \u2022 UNION u v: Merge the sets containing vertices u and v. \u2022 FIND u v: Determine whether u and v belong to the same connected component. Process all operations.",
+  "input": "\u2022 First line contains integers N and Q. \u2022 Next Q lines each contain an operation.",
+  "output": "For every FIND operation, print YES if both vertices belong to the same set; otherwise print NO.",
+  "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+}

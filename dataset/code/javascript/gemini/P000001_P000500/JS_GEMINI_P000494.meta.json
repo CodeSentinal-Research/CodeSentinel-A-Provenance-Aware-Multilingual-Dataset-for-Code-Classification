@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000494",
+  "problemId": "P000494",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000494",
+    "title": "Daily Temperatures",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of daily temperatures, return an array such that each element indicates how many days must be waited until a warmer temperature occurs. If no warmer day exists, store 0 for that day.",
+    "input": "Integer n Array temperatures",
+    "output": "An array of integers.",
+    "constraints": "1 <= n <= 10^5 30 <= temperatures[i] <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "javascript/gemini/JS_GEMINI_P000494",
+    "fileSHA": "3b513fc07d9bed0aee56e7b3e1d5f1a73175e15bee52c1a7dbd6fda416c46c25",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:39:49.611967+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3b513fc07d9bed0aee56e7b3e1d5f1a73175e15bee52c1a7dbd6fda416c46c25",
+    "normalizedCodeHash": "3b513fc07d9bed0aee56e7b3e1d5f1a73175e15bee52c1a7dbd6fda416c46c25",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:39:49.611994+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

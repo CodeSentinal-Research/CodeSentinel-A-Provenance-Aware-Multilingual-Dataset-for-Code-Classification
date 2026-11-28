@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000626",
+  "problemId": "P000626",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000626",
+    "title": "All One Data Structure",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a data structure that supports the following operations in constant time: inc(key) \u2014 Increment the count of the given key. dec(key) \u2014 Decrement the count of the given key. Remove the key if its count becomes zero. getMaxKey() \u2014 Return any key with the maximum count. getMinKey() \u2014 Return any key with the minimum count. Process a sequence of operations and print the results of every getMaxKey() and getMinKey() query.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for every getMaxKey() and getMinKey() operation.",
+    "constraints": "1 <= q <= 5 \u00d7 10^4 Keys consist of lowercase English letters."
+  },
+  "repository": {
+    "name": "kashyap-1811/DSA-Interview-Preparation",
+    "owner": "kashyap-1811",
+    "url": "https://github.com/kashyap-1811/DSA-Interview-Preparation",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "HashTable/Extra/All-One-Data-Structure.cpp",
+    "fileSHA": "616690bf16a3a445264239ff57bdcf952709b6b9",
+    "url": "https://github.com/kashyap-1811/DSA-Interview-Preparation/blob/ad233db0310d066914716b36e692eca05614ebb4/HashTable/Extra/All-One-Data-Structure.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/kashyap-1811/DSA-Interview-Preparation/main/HashTable/Extra/All-One-Data-Structure.cpp"
+  },
+  "matching": {
+    "relevanceScore": 83.1
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f7795c56a94c56763531589d7efdcdfa5f9c2fe4db66cadc72b44b63482efd3d",
+    "normalizedCodeHash": "f7795c56a94c56763531589d7efdcdfa5f9c2fe4db66cadc72b44b63482efd3d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T06:34:07.165475+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000564",
+  "problemId": "P000564",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000564",
+    "title": "Word Ladder II",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Given beginWord, endWord, and a dictionary of valid words, return all shortest transformation sequences from beginWord to endWord. Each transformation changes exactly one character, and every intermediate word must exist in the dictionary. Return all shortest sequences in any order.",
+    "input": "String beginWord String endWord Integer n List of n words",
+    "output": "A list of all shortest transformation sequences.",
+    "constraints": "1 <= word length <= 10 1 <= n <= 5000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "javascript/gemini/JS_GEMINI_P000564",
+    "fileSHA": "0e3e0d4105e32a4c46ffd35c6fd42ed5d5b2ebf09ea67a5eb8d6ac0560fbd25e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:46:06.690261+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0e3e0d4105e32a4c46ffd35c6fd42ed5d5b2ebf09ea67a5eb8d6ac0560fbd25e",
+    "normalizedCodeHash": "0e3e0d4105e32a4c46ffd35c6fd42ed5d5b2ebf09ea67a5eb8d6ac0560fbd25e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:46:06.690300+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

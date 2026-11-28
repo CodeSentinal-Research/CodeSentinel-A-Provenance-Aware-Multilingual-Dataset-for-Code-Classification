@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001815",
+  "problemId": "P001815",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001815",
+    "title": "Count Pairs Across Two Binary Search Trees with a Given Sum",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given two Binary Search Trees and an integer K, determine the number of pairs formed by selecting one node from each tree such that the sum of their values equals K.",
+    "input": "• The first line contains N₁. • The next N₁ lines describe the first BST. • The following line contains N₂. • The next N₂ lines describe the second BST. • The last line contains K.",
+    "output": "• Print the number of qualifying pairs.",
+    "constraints": "• 0 ≤ N₁, N₂ ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001815.c",
+    "fileSHA": "c01da41476938476b08ef53d2c878252d4515b49c4da09906070cf04bb8066de",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.744Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "22f4a5b410a99648d7b07abc83ba67d9a5bb71a352e1e8fc3cd1a722840c514b",
+    "normalizedCodeHash": "c01da41476938476b08ef53d2c878252d4515b49c4da09906070cf04bb8066de",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.744Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

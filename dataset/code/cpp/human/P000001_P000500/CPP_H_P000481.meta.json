@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000481",
+  "problemId": "P000481",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000481",
+    "title": "Baseball Game Score",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a list of operations representing scores in a baseball game. Each operation is one of the following: An integer: Record a new score. \"+\": Record the sum of the previous two valid scores. \"D\": Record double the previous valid score. \"C\": Remove the previous valid score. Return the total score after processing all operations.",
+    "input": "Integer n n strings representing operations.",
+    "output": "A single integer representing the total score.",
+    "constraints": "1 <= n <= 1000 Each operation is valid."
+  },
+  "repository": {
+    "name": "mirinta/leet_code",
+    "owner": "mirinta",
+    "url": "https://github.com/mirinta/leet_code",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "array/0682_baseball_game.cpp",
+    "fileSHA": "ee537eee06616ee3993b2a0ae97f9cb3a99287d5",
+    "url": "https://github.com/mirinta/leet_code/blob/55dd41527349f495a655f2560ae490ffeeb838df/array/0682_baseball_game.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/mirinta/leet_code/main/array/0682_baseball_game.cpp"
+  },
+  "matching": {
+    "relevanceScore": 95.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "80ce63519241b20eb0ae290ca385565e9a38f9659437701f1302f7871e3e78d6",
+    "normalizedCodeHash": "80ce63519241b20eb0ae290ca385565e9a38f9659437701f1302f7871e3e78d6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T19:45:16.496381+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

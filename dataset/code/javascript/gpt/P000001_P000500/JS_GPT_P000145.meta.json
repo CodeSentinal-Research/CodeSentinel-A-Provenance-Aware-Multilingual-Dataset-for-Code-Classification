@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000145",
+  "problemId": "P000145",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000145",
+    "title": "Search a 2D Matrix",
+    "category": "Arrays",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that searches for a target in a matrix where each row is sorted and first element of each row is greater than last of previous.",
+    "input": "First line contains rows, cols and target. Next rows lines contain the matrix.",
+    "output": "Print \"Found\" or \"Not Found\".",
+    "constraints": "1 ≤ rows, cols ≤ 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000001_P000500/JS_GPT_P000145.js",
+    "fileSHA": "4864ba7c678c49afd344d99113f22be316493ba5290caf510bd1c41fcc698a15",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-29T13:28:45.004070+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "633804c9631c569c312ebd596bb7f887947dca7b4462cf427265a8ab6fd982b1",
+    "normalizedCodeHash": "4864ba7c678c49afd344d99113f22be316493ba5290caf510bd1c41fcc698a15",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T13:28:45.004070+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

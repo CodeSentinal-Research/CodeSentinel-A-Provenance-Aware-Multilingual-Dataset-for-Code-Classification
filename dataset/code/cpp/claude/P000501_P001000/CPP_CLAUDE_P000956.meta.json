@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000956",
+  "problemId": "P000956",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000956",
+    "title": "Linear Congruence Solver",
+    "category": "Mathematics - Extended Euclidean Algorithm",
+    "difficulty": "Hard",
+    "problemStatement": "Given integers A, B, and M, solve the congruence: A × X ≡ B (mod M) Return the smallest non-negative solution if one exists; otherwise return -1.",
+    "input": "Integer A Integer B Integer M",
+    "output": "The smallest valid solution or -1.",
+    "constraints": "1 <= A, B, M <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000956",
+    "fileSHA": "e47020748343c912b89f2ec05031d31a24909fefb8ded9dc68b304bab25b6adf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e47020748343c912b89f2ec05031d31a24909fefb8ded9dc68b304bab25b6adf",
+    "normalizedCodeHash": "e47020748343c912b89f2ec05031d31a24909fefb8ded9dc68b304bab25b6adf",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000956"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

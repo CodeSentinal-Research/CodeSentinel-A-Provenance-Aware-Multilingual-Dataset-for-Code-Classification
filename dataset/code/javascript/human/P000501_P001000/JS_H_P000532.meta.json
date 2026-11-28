@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000532",
+  "problemId": "P000532",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000532",
+    "title": "Time Needed to Buy Tickets",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "There are n people standing in a queue to buy tickets. The i-th person initially needs tickets[i] tickets. Each second: The person at the front buys one ticket. If they still need more tickets, they move to the end of the queue. Otherwise, they leave the queue. Given the index k, determine how many seconds are required until person k finishes buying all of their tickets.",
+    "input": "Integer n Array tickets Integer k",
+    "output": "A single integer representing the required time.",
+    "constraints": "1 <= n <= 100 1 <= tickets[i] <= 100"
+  },
+  "repository": {
+    "name": "HSargeant/CodingChallenges",
+    "owner": "HSargeant",
+    "url": "https://github.com/HSargeant/CodingChallenges",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "LC/2073. Time Needed to Buy Tickets.js",
+    "fileSHA": "f393f50057c3fc760ea9626db3707435c45d2d6f",
+    "url": "https://github.com/HSargeant/CodingChallenges/blob/b990e6abb952492716d6eb6154657fdbf90133e6/LC/2073. Time Needed to Buy Tickets.js",
+    "rawUrl": "https://raw.githubusercontent.com/HSargeant/CodingChallenges/main/LC/2073. Time Needed to Buy Tickets.js"
+  },
+  "matching": {
+    "relevanceScore": 70.3
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1e3fe48f8fd3f35ccbaed4102c3348665539e40e37ca5fdc468e005a750d3f06",
+    "normalizedCodeHash": "1e3fe48f8fd3f35ccbaed4102c3348665539e40e37ca5fdc468e005a750d3f06",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:46:25.658605+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

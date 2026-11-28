@@ -1,0 +1,10 @@
+{
+  "problemId": "P000532",
+  "title": "Time Needed to Buy Tickets",
+  "category": "Queue",
+  "difficulty": "Easy",
+  "problemStatement": "There are n people standing in a queue to buy tickets. The i-th person initially needs tickets[i] tickets. Each second: The person at the front buys one ticket. If they still need more tickets, they move to the end of the queue. Otherwise, they leave the queue. Given the index k, determine how many seconds are required until person k finishes buying all of their tickets.",
+  "input": "Integer n Array tickets Integer k",
+  "output": "A single integer representing the required time.",
+  "constraints": "1 <= n <= 100 1 <= tickets[i] <= 100"
+}

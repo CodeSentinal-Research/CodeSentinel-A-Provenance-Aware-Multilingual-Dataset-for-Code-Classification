@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001106",
+  "problemId": "P001106",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001106",
+    "title": "Course Schedule Ordering",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given N courses and prerequisite relationships, determine one valid order in which all courses can be completed. If no such ordering exists, print IMPOSSIBLE.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain prerequisite pairs.",
+    "output": "Print one valid course ordering or IMPOSSIBLE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/cpp/courseSchedule/CourseSchedule.cpp",
+    "fileSHA": "20210ebe2b2ea2ca38f1a5dcf13e365b5d611f7b",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/cpp/courseSchedule/CourseSchedule.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/cpp/courseSchedule/CourseSchedule.cpp"
+  },
+  "matching": {
+    "relevanceScore": 70.3
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6dfef5ea24867530ef864c7922ab41a466e5b90f367ca61af4979a8507ba6938",
+    "normalizedCodeHash": "6dfef5ea24867530ef864c7922ab41a466e5b90f367ca61af4979a8507ba6938",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (C++ Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:01.651693+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

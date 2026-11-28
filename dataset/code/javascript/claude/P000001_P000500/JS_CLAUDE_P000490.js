@@ -1,0 +1,1 @@
+const[s,t]=require('fs').readFileSync('/dev/stdin','utf8').trim().split(' ');const proc=s=>{const stk=[];for(const c of s){if(c==='#')stk.pop();else stk.push(c);}return stk.join('');};console.log(proc(s)===proc(t)?'true':'false');

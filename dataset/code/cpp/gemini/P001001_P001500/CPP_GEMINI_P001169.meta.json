@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001169",
+  "problemId": "P001169",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001169",
+    "title": "Dungeon Game",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "A knight must rescue a princess trapped in the bottom-right corner of a dungeon represented by a grid. Each cell may increase or decrease the knight's health. Determine the minimum initial health required so that the knight can safely reach the princess.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines each contain C integers.",
+    "output": "Print the minimum initial health required.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001169",
+    "fileSHA": "1daa17ed82731bf40a93b1114342fee127985ea5c7dd7a9781cad771683766cb",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:14:15.503281+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1daa17ed82731bf40a93b1114342fee127985ea5c7dd7a9781cad771683766cb",
+    "normalizedCodeHash": "1daa17ed82731bf40a93b1114342fee127985ea5c7dd7a9781cad771683766cb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:14:15.503297+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

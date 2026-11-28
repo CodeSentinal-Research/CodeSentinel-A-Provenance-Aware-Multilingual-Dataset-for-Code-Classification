@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001611",
+  "problemId": "P001611",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001611",
+    "title": "Shortest Subarray With Sum At Least K",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and an integer K, determine the length of the shortest non-empty contiguous subarray whose sum is at least K. If no such subarray exists, print -1.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the minimum length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Reconciled",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "PY_H_P001611.py",
+    "fileSHA": "54dce71cd638b3a43880d654e62876cf6d54c18a",
+    "url": "https://github.com/TheAlgorithms/PY_H_P001611.py",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/master/PY_H_P001611.py"
+  },
+  "matching": {
+    "relevanceScore": 82.95
+  },
+  "provenance": {
+    "score": 90.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7cfb6979599559fe760d96d971d24034085f592363530c96d2281d90e628f1e1",
+    "normalizedCodeHash": "7cfb6979599559fe760d96d971d24034085f592363530c96d2281d90e628f1e1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:07:28.143155+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

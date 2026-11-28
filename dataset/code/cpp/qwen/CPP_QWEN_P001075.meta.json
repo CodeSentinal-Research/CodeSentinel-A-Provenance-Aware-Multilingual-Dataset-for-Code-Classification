@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001075",
+  "problemId": "P001075",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001075",
+    "title": "Bellman-Ford Algorithm",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a weighted directed graph that may contain negative edge weights, determine the shortest distance from a source vertex to every other vertex. If a negative weight cycle exists, report it.",
+    "input": "\u2022 First line contains integers N, M, and S. \u2022 Next M lines contain three integers u, v, and w.",
+    "output": "Print NEGATIVE CYCLE if one exists; otherwise print the shortest distances.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001075",
+    "fileSHA": "cfb38395be7bfb9896ef6740d9f20568d95844b14355006035ae64a7d988c934",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.595Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "d8dd9c7ff39db5127f5f7e0c620b806611b137688c0f2787efcd9fd05910fa24",
+    "normalizedCodeHash": "ae50f3b8a857cdd7d8c319e7190c9300320c01a972f0a9a98146b71b7bdf6615",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.595Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

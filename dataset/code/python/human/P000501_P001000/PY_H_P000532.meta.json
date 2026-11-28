@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P000532",
+  "problemId": "P000532",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000532",
+    "title": "Time Needed to Buy Tickets",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "There are n people standing in a queue to buy tickets. The i-th person initially needs tickets[i] tickets. Each second: The person at the front buys one ticket. If they still need more tickets, they move to the end of the queue. Otherwise, they leave the queue. Given the index k, determine how many seconds are required until person k finishes buying all of their tickets.",
+    "input": "Integer n Array tickets Integer k",
+    "output": "A single integer representing the required time.",
+    "constraints": "1 <= n <= 100 1 <= tickets[i] <= 100"
+  },
+  "repository": {
+    "name": "HungryVovka/LeetCode",
+    "owner": "HungryVovka",
+    "url": "https://github.com/HungryVovka/LeetCode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000532.py",
+    "fileSHA": "37acd77050950954c6fb886a5573fdbf70fc4a6e",
+    "url": "https://github.com/HungryVovka/LeetCode/blob/f7cd5daed8b2791aa3a254f6b59628b683a8503a/Easy/2001-2100/2073. Time Needed to Buy Tickets.py",
+    "rawUrl": "https://raw.githubusercontent.com/HungryVovka/LeetCode/main/Easy/2001-2100/2073. Time Needed to Buy Tickets.py"
+  },
+  "matching": {
+    "relevanceScore": 69.86
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2024-01-12T20:00:18Z",
+    "lastCommitDate": "2024-01-12T20:00:18Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Vladimir Rukavishnikov"
+    ],
+    "firstKnownAuthor": "Vladimir Rukavishnikov",
+    "latestKnownAuthor": "Vladimir Rukavishnikov"
+  },
+  "deduplication": {
+    "rawCodeHash": "97378ab4153c0304841a8d7abc40b016e5b2ef74cfbce4dd7ad7314bc9e61e7f",
+    "normalizedCodeHash": "97378ab4153c0304841a8d7abc40b016e5b2ef74cfbce4dd7ad7314bc9e61e7f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:12:40.323320+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

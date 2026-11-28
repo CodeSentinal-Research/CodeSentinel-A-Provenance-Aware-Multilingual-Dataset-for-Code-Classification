@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001080",
+  "problemId": "P001080",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001080",
+    "title": "Find All Articulation Points",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a connected undirected graph, determine all articulation points. An articulation point is a vertex whose removal increases the number of connected components.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print all articulation points in ascending order. If none exist, print NONE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "williamfiset/Algorithms",
+    "owner": "williamfiset",
+    "url": "https://github.com/williamfiset/Algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/williamfiset/algorithms/graphtheory/ArticulationPointsAdjacencyList.java",
+    "fileSHA": "d2a710b2429e6864926b7cc853c85237b3d0156a",
+    "url": "https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/williamfiset/algorithms/graphtheory/ArticulationPointsAdjacencyList.java",
+    "rawUrl": "https://raw.githubusercontent.com/williamfiset/Algorithms/master/src/main/java/com/williamfiset/algorithms/graphtheory/ArticulationPointsAdjacencyList.java"
+  },
+  "matching": {
+    "relevanceScore": 98.08
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3421d50a2888a0931894e5d09b5238c870820521b9c59a0075d246d50ad5ecf5",
+    "normalizedCodeHash": "3421d50a2888a0931894e5d09b5238c870820521b9c59a0075d246d50ad5ecf5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:47:24.632396+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

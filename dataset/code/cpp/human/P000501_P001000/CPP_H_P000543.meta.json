@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000543",
+  "problemId": "P000543",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000543",
+    "title": "Data Stream as Disjoint Intervals",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Design a data structure that receives a stream of non-negative integers. After each insertion, maintain the numbers as a list of disjoint sorted intervals. Support the following operations: addNum(value) getIntervals() Process a sequence of operations and print the intervals whenever getIntervals() is called.",
+    "input": "Integer q Next q operations",
+    "output": "For every getIntervals() operation, print the current list of intervals.",
+    "constraints": "0 <= value <= 10^4 1 <= q <= 3 \u00d7 10^4"
+  },
+  "repository": {
+    "name": "mike22051995/DSA-SHEETS",
+    "owner": "mike22051995",
+    "url": "https://github.com/mike22051995/DSA-SHEETS",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "TOP_300_FAANG/01_ARRAYS/008_merge_intervals.cpp",
+    "fileSHA": "832a20f0cbe5fc9d51f56d2d8ca1f57a9c14b4a7",
+    "url": "https://github.com/mike22051995/DSA-SHEETS/blob/e26775ad991f458d99380b0aea2b25931871f4e4/TOP_300_FAANG/01_ARRAYS/008_merge_intervals.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/mike22051995/DSA-SHEETS/main/TOP_300_FAANG/01_ARRAYS/008_merge_intervals.cpp"
+  },
+  "matching": {
+    "relevanceScore": 80.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "fea1847effe014b8659d4e85092c2c896df5f218fcd06592fe372ea4f324c917",
+    "normalizedCodeHash": "fea1847effe014b8659d4e85092c2c896df5f218fcd06592fe372ea4f324c917",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T15:15:41.347068+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

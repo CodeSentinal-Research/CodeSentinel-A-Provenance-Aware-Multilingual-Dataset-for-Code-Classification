@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_QWEN_P001229",
+  "problemId": "P001229",
+  "language": "c",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001229",
+    "title": "Knight Probability in Chessboard",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "A knight starts at a specified position on an N \u00d7 N chessboard. After making exactly K moves, determine the probability that the knight remains on the board.",
+    "input": "\u2022 First line contains integers N, K, R, and C.",
+    "output": "Print the probability with appropriate precision.",
+    "constraints": "\u2022 1 \u2264 N \u2264 50 \u2022 0 \u2264 K \u2264 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/C_QWEN_P001229",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

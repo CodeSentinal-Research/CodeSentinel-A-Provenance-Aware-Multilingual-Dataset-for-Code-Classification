@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000746",
+  "problemId": "P000746",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000746",
+    "title": "Josephus Problem Using Recursion",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "There are N people standing in a circle numbered from 1 to N. Starting from the first person, every K-th remaining person is eliminated until only one person remains. Solve the problem recursively and return the position of the survivor.",
+    "input": "Integer N Integer K",
+    "output": "The position of the surviving person.",
+    "constraints": "1 <= N <= 10^5 1 <= K <= 10^5"
+  },
+  "repository": {
+    "name": "avi-kaushik/DSA-mastery",
+    "owner": "avi-kaushik",
+    "url": "https://github.com/avi-kaushik/DSA-mastery",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "programs/java/techniques/recursion/intermediate/JosephusProblem.java",
+    "fileSHA": "ed531952b6ab8fb545ae72663551983d7e8b528e",
+    "url": "https://github.com/avi-kaushik/DSA-mastery/blob/f8031c8a6fb9aa014af3b2b69996a7f5bced4b91/programs/java/techniques/recursion/intermediate/JosephusProblem.java",
+    "rawUrl": "https://raw.githubusercontent.com/avi-kaushik/DSA-mastery/main/programs/java/techniques/recursion/intermediate/JosephusProblem.java"
+  },
+  "matching": {
+    "relevanceScore": 98.4
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8e99b1795ee586a44975d8e842903ca0dd8cdd91f3d4090f8d9cf69d2beeeab9",
+    "normalizedCodeHash": "8e99b1795ee586a44975d8e842903ca0dd8cdd91f3d4090f8d9cf69d2beeeab9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T05:58:26.731078+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

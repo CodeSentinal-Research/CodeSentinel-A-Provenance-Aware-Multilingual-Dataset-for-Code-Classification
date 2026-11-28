@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001017",
+  "problemId": "P001017",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001017",
+    "title": "Connect Ropes with Minimum Cost",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given the lengths of N ropes, connect all ropes into a single rope. The cost of connecting two ropes equals the sum of their lengths. Determine the minimum total cost.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N rope lengths.",
+    "output": "Print the minimum total cost.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 1 \u2264 Rope Length \u2264 10^9"
+  },
+  "repository": {
+    "name": "arpitmalik832/dsa-problems",
+    "owner": "arpitmalik832",
+    "url": "https://github.com/arpitmalik832/dsa-problems",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/dsa/problems/heaps/MinCostToJoinRopes.java",
+    "fileSHA": "550fec28b60b429f8886cf9608913d8484fcbdb5",
+    "url": "https://github.com/arpitmalik832/dsa-problems/blob/3d93bcc169f11421dc4ccc83717b9c67d2e443fb/src/main/java/com/dsa/problems/heaps/MinCostToJoinRopes.java",
+    "rawUrl": "https://raw.githubusercontent.com/arpitmalik832/dsa-problems/main/src/main/java/com/dsa/problems/heaps/MinCostToJoinRopes.java"
+  },
+  "matching": {
+    "relevanceScore": 87.1
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e878ae3c30f3b6e34f631609b8f39ae62fb16744168ad7a051afc8e9c83bc72f",
+    "normalizedCodeHash": "e878ae3c30f3b6e34f631609b8f39ae62fb16744168ad7a051afc8e9c83bc72f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T01:36:28.442946+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

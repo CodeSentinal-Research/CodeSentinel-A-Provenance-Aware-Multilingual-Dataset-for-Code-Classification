@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000302",
+  "problemId": "P000302",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000302",
+    "title": "Word Break",
+    "category": "Strings",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that determines if a string can be segmented into a space-separated sequence of dictionary words.",
+    "input": "A string S and a list of dictionary words.",
+    "output": "Print \"Yes\" or \"No\".",
+    "constraints": "1 ≤ |S| ≤ 300, 1 ≤ dictionary size ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000302",
+    "fileSHA": "89e19d9709b9a54366fa48897ec4c497a719cfa77dfb22b85b080f3bdf29908a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "89e19d9709b9a54366fa48897ec4c497a719cfa77dfb22b85b080f3bdf29908a",
+    "normalizedCodeHash": "89e19d9709b9a54366fa48897ec4c497a719cfa77dfb22b85b080f3bdf29908a",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000302: Word Break"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

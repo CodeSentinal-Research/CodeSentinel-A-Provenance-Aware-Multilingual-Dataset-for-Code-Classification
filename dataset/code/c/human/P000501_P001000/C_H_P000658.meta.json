@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000658",
+  "problemId": "P000658",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000658",
+    "title": "Browser History with Multiple Windows",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a browser system that supports multiple independent browser windows. Each window maintains its own browsing history and supports: visit(windowId, url) back(windowId, steps) forward(windowId, steps) newWindow(homepage) closeWindow(windowId) currentPage(windowId) Process a sequence of operations and print the result for every currentPage(), back(), and forward() operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the required results after each query operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5 Total number of simultaneously open windows does not exceed 10^5"
+  },
+  "repository": {
+    "name": "sqlite/sqlite",
+    "owner": "sqlite",
+    "url": "https://github.com/sqlite/sqlite",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/test_multiplex.h",
+    "fileSHA": "065fac7ea9a83c370c4e89b5274fb8623dbac60c",
+    "url": "https://github.com/sqlite/sqlite/blob/master/src/test_multiplex.h",
+    "rawUrl": "https://raw.githubusercontent.com/sqlite/sqlite/master/src/test_multiplex.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ad2a4d15c652ee8dcfe5dbdf12bea4de8cb465b8a7acf1019ba77f9535de53e0",
+    "normalizedCodeHash": "ad2a4d15c652ee8dcfe5dbdf12bea4de8cb465b8a7acf1019ba77f9535de53e0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:13:46.853741+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

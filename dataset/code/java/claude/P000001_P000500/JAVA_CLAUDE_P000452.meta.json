@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000452",
+  "problemId": "P000452",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000452",
+    "title": "Find Element Appearing Once",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that finds the element that appears only once in a sorted array where every other element appears twice.",
+    "input": "First line contains N. Second line contains N sorted integers.",
+    "output": "The single element.",
+    "constraints": "1 ≤ N ≤ 1000 (N is odd)"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000452",
+    "fileSHA": "7cc21fbcdce26625711c804de8d656cd6ad08e725ab73b106fd0d72573b91a0b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7cc21fbcdce26625711c804de8d656cd6ad08e725ab73b106fd0d72573b91a0b",
+    "normalizedCodeHash": "7cc21fbcdce26625711c804de8d656cd6ad08e725ab73b106fd0d72573b91a0b",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000452: Find Element Appearing Once"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

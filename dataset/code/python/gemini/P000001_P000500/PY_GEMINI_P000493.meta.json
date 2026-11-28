@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000493",
+  "problemId": "P000493",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000493",
+    "title": "Remove K Digits",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given a non-negative integer represented as a string num and an integer k, remove exactly k digits so that the remaining number is the smallest possible. Return the resulting number as a string. If the result is empty, return \"0\".",
+    "input": "String num Integer k",
+    "output": "The smallest possible number after removing exactly k digits.",
+    "constraints": "1 <= num.length <= 10^5 0 <= k <= num.length"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000493",
+    "fileSHA": "8252fefb981b0ffc3961b0469ff1c7b7d27885a4c2019869d5a1058c9750570b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:39:49.503166+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8252fefb981b0ffc3961b0469ff1c7b7d27885a4c2019869d5a1058c9750570b",
+    "normalizedCodeHash": "8252fefb981b0ffc3961b0469ff1c7b7d27885a4c2019869d5a1058c9750570b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:39:49.503191+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

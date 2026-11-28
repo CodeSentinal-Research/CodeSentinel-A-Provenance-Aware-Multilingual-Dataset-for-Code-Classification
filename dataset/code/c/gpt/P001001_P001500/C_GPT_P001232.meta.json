@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001232",
+  "problemId": "P001232",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001232",
+    "title": "Activity Selection",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Given the start and finish times of N activities, determine the maximum number of non-overlapping activities that can be selected by a single person.",
+    "input": "• First line contains integer N. • Next N lines contain start time and finish time.",
+    "output": "Print the maximum number of activities.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001232.c",
+    "fileSHA": "7523def596369376b82fdb65d4b34951e003d350de7f195581ec88db2b84c215",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.364Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "859803643728c328975ee5cb22399da8b879b8982a2bb4d5300ee6983af4da3a",
+    "normalizedCodeHash": "7523def596369376b82fdb65d4b34951e003d350de7f195581ec88db2b84c215",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.364Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

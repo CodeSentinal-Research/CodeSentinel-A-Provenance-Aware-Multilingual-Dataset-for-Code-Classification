@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000788",
+  "problemId": "P000788",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000788",
+    "title": "Maximum Average Subarray I",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer k, find the contiguous subarray of length exactly k having the maximum average. Return the maximum average value.",
+    "input": "Integer n Array nums Integer k",
+    "output": "The maximum average.",
+    "constraints": "1 <= k <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000788",
+    "fileSHA": "f2b4af2dc56628dabf13d0496b218990a768a6f29b63e185fae608beef175508",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f2b4af2dc56628dabf13d0496b218990a768a6f29b63e185fae608beef175508",
+    "normalizedCodeHash": "f2b4af2dc56628dabf13d0496b218990a768a6f29b63e185fae608beef175508",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000788: Maximum Average Subarray I"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

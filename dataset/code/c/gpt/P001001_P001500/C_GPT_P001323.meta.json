@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001323",
+  "problemId": "P001323",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001323",
+    "title": "Combination Sum II",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a collection of candidate numbers that may contain duplicates and a target value, find all unique combinations whose sum equals the target. Each number may be used at most once.",
+    "input": "• First line contains integers N and Target. • Second line contains N integers.",
+    "output": "Print all unique combinations.",
+    "constraints": "• 1 ≤ N ≤ 100 • 1 ≤ Target ≤ 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001323.c",
+    "fileSHA": "434aa34d08fb9b19513b343a3464ebff06bf0d0ace55d7243e94ecd6a3591e61",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.819Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "bc609fa9c6b075a3cdad3c2fbeecf8e081d83528fae314dfd48d18daa7bd9f7b",
+    "normalizedCodeHash": "434aa34d08fb9b19513b343a3464ebff06bf0d0ace55d7243e94ecd6a3591e61",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.819Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

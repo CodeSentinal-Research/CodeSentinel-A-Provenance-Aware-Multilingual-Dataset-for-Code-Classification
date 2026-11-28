@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000587",
+  "problemId": "P000587",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000587",
+    "title": "Merge K Sorted Linked Lists",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "You are given the heads of k sorted linked lists. Merge all the linked lists into a single sorted linked list and return its head.",
+    "input": "Integer k For each list: o Integer size o Sorted linked list",
+    "output": "The merged sorted linked list.",
+    "constraints": "0 <= k <= 10^4 Total number of nodes across all lists does not exceed 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000587",
+    "fileSHA": "a19db4715e9d7e6eff17281d89a509a5fef7b19494e7cd44ebdd757bb234ec10",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:46:49.067430+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a19db4715e9d7e6eff17281d89a509a5fef7b19494e7cd44ebdd757bb234ec10",
+    "normalizedCodeHash": "a19db4715e9d7e6eff17281d89a509a5fef7b19494e7cd44ebdd757bb234ec10",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:46:49.067457+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

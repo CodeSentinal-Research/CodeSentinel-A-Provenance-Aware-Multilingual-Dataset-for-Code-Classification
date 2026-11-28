@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001556",
+  "problemId": "P001556",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001556",
+    "title": "Count Anagram Occurrences",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given two strings Text and Pattern, count the number of substrings in Text that are an anagram of Pattern.",
+    "input": "\u2022 First line contains Text. \u2022 Second line contains Pattern.",
+    "output": "\u2022 Print the count.",
+    "constraints": "\u2022 1 \u2264 |Pattern| \u2264 |Text| \u2264 2 \u00d7 10^5 \u2022 Strings contain lowercase English letters."
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001556",
+    "fileSHA": "c0cd01fa65658be35b92f6913d0b5dbcccba0dcaa55e993d21f23450adbfb55e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:30:36.440017+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c0cd01fa65658be35b92f6913d0b5dbcccba0dcaa55e993d21f23450adbfb55e",
+    "normalizedCodeHash": "c0cd01fa65658be35b92f6913d0b5dbcccba0dcaa55e993d21f23450adbfb55e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:30:36.440042+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

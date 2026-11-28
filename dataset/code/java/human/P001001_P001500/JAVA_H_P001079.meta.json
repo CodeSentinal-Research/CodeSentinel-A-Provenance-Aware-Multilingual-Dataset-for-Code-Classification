@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001079",
+  "problemId": "P001079",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001079",
+    "title": "Find All Bridges in a Graph",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a connected undirected graph, determine all bridge edges. A bridge is an edge whose removal increases the number of connected components.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print all bridge edges in ascending order. If none exist, print NONE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "aycariko/DFS-Bridge-Finding-Algorithm",
+    "owner": "aycariko",
+    "url": "https://github.com/aycariko/DFS-Bridge-Finding-Algorithm",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Graph.java",
+    "fileSHA": "a52b0dd99bad9343de4ac3cc5c73bee1f8327fc3",
+    "url": "https://github.com/aycariko/DFS-Bridge-Finding-Algorithm/blob/8f6626793e9b217595dd5b6d64744bbc2d60da64/Graph.java",
+    "rawUrl": "https://raw.githubusercontent.com/aycariko/DFS-Bridge-Finding-Algorithm/main/Graph.java"
+  },
+  "matching": {
+    "relevanceScore": 84.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c21c02042a57de663179bb40efa866cb6cb885ca5c66b8a2fbfc5b1e5dd3aca6",
+    "normalizedCodeHash": "c21c02042a57de663179bb40efa866cb6cb885ca5c66b8a2fbfc5b1e5dd3aca6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T17:04:44.177269+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

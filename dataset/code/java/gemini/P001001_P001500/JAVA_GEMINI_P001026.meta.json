@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001026",
+  "problemId": "P001026",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001026",
+    "title": "Verify Complete Binary Heap Structure",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given the parent index of every node in a tree, determine whether the tree can represent a complete binary heap.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N parent indices.",
+    "output": "Print YES if the structure is a complete binary heap; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001026",
+    "fileSHA": "4cf32dbd2004d9d83d05dd288ff04e5a1901c6a5083c6303418b6fdad36e79c0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:38:22.520934+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4cf32dbd2004d9d83d05dd288ff04e5a1901c6a5083c6303418b6fdad36e79c0",
+    "normalizedCodeHash": "4cf32dbd2004d9d83d05dd288ff04e5a1901c6a5083c6303418b6fdad36e79c0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:38:22.520957+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

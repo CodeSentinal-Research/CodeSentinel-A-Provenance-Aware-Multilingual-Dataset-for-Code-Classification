@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001243",
+  "problemId": "P001243",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001243",
+    "title": "Lemonade Change",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Customers pay for lemonade costing 5 units using 5, 10, or 20 denomination notes. Starting with no money, determine whether correct change can be provided to every customer.",
+    "input": "• First line contains integer N. • Second line contains N integers representing customer payments.",
+    "output": "Print YES if change can always be given; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001243.py",
+    "fileSHA": "c670ea045841846630c54718690f1be205bca5bd5edb0a55efd0718856262ab7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.920474+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c670ea045841846630c54718690f1be205bca5bd5edb0a55efd0718856262ab7",
+    "normalizedCodeHash": "be80155ade527573824653eec81f9e3ff2c325ecd72732afed9afb1494e021fd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.920474+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

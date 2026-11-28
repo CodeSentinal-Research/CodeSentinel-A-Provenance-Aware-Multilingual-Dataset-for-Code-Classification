@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001422",
+  "problemId": "P001422",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001422",
+    "title": "Keyboard Row",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given a list of words, return all words that can be typed using letters from only one row of a standard QWERTY keyboard.",
+    "input": "• First line contains integer N. • Next N lines contain one word each.",
+    "output": "Print all valid words in lexicographical order.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • Word length ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001422.c",
+    "fileSHA": "2b2c0a50070598e2a35224dfdefaac9046919fde483e387ca37b26f51945375c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.326Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "e8aced81e1a1771469cabe5e6db1ff5fc5336ea2715ce45bd2e9b680a54cc19b",
+    "normalizedCodeHash": "2b2c0a50070598e2a35224dfdefaac9046919fde483e387ca37b26f51945375c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.326Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

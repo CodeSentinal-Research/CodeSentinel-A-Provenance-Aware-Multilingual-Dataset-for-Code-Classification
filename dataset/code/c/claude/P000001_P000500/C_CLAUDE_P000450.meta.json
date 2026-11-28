@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000450",
+  "problemId": "P000450",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000450",
+    "title": "Find Kth Missing Positive Number",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that finds the kth missing positive integer from a sorted array of unique positives.",
+    "input": "First line contains N and K. Second line contains N sorted unique positives.",
+    "output": "The kth missing positive number.",
+    "constraints": "1 ≤ N ≤ 1000, 1 ≤ K ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000450",
+    "fileSHA": "3cba65a9c36c96b55bd7a137cc157998660ae2bfd960b3427e29c41c2657fc24",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3cba65a9c36c96b55bd7a137cc157998660ae2bfd960b3427e29c41c2657fc24",
+    "normalizedCodeHash": "3cba65a9c36c96b55bd7a137cc157998660ae2bfd960b3427e29c41c2657fc24",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000450: Find Kth Missing Positive Number"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

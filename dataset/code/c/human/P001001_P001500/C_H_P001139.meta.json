@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001139",
+  "problemId": "P001139",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001139",
+    "title": "0/1 Knapsack",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given N items, each having a weight and a value, determine the maximum obtainable value without exceeding the knapsack capacity.",
+    "input": "\u2022 First line contains integers N and W. \u2022 Next N lines contain weight and value.",
+    "output": "Print the maximum obtainable value.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000 \u2022 1 \u2264 W \u2264 10^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/dynamic_programming/src/knapsack/knapsack.c",
+    "fileSHA": "c09e32f9342f806644a04ff7bb4f80d76a88e1a5",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/dynamic_programming/src/knapsack/knapsack.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/dynamic_programming/src/knapsack/knapsack.c"
+  },
+  "matching": {
+    "relevanceScore": 74.38
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "30d232106a1dbe2ba1aa70a92b137b46b5cef85ae20ff09cb5b9eddc2d87f1ac",
+    "normalizedCodeHash": "30d232106a1dbe2ba1aa70a92b137b46b5cef85ae20ff09cb5b9eddc2d87f1ac",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:14:18.178909+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

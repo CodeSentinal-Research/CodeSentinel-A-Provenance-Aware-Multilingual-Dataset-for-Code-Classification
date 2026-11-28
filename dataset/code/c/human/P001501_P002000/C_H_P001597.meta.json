@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001597",
+  "problemId": "P001597",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001597",
+    "title": "Count Elements Equal to X in a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, determine how many elements equal X occur in each specified range.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Each of the next Q lines contains L, R, and X.",
+    "output": "\u2022 For each query print the required count.",
+    "constraints": "\u2022 1 \u2264 N,Q \u2264 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "freebsd/freebsd-src",
+    "owner": "freebsd",
+    "url": "https://github.com/freebsd/freebsd-src",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "contrib/llvm-project/libcxx/include/__algorithm/equal_range.h",
+    "fileSHA": "ff6f4f2225c7ae47558518f32c88ea6015bc5228",
+    "url": "https://github.com/freebsd/freebsd-src/blob/main/contrib/llvm-project/libcxx/include/__algorithm/equal_range.h",
+    "rawUrl": "https://raw.githubusercontent.com/freebsd/freebsd-src/main/contrib/llvm-project/libcxx/include/__algorithm/equal_range.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "fc42eef429cade70e28a30bc1eaccf34f693f0765a4d5af9f90d51488c41eebf",
+    "normalizedCodeHash": "fc42eef429cade70e28a30bc1eaccf34f693f0765a4d5af9f90d51488c41eebf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:43:55.350820+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

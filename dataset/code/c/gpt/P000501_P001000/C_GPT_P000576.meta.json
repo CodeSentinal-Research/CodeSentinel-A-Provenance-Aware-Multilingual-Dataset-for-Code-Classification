@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000576",
+  "problemId": "P000576",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000576",
+    "title": "Binary Tree Vertical Order Traversal",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, return its vertical order traversal. Nodes are grouped by their vertical column from left to right. If multiple nodes share the same row and column, they should be reported from left to right.",
+    "input": "The root of a binary tree.",
+    "output": "A list of vertical columns.",
+    "constraints": "Number of nodes is in the range [0, 1000]"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000576.c",
+    "fileSHA": "e03400c9278fe199345a895cf9090c5c9f3b6ea242811b7a4534b961dd5cc39d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e03400c9278fe199345a895cf9090c5c9f3b6ea242811b7a4534b961dd5cc39d",
+    "normalizedCodeHash": "e03400c9278fe199345a895cf9090c5c9f3b6ea242811b7a4534b961dd5cc39d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

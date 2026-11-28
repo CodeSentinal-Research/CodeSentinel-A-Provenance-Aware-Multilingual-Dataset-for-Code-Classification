@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000626",
+  "problemId": "P000626",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000626",
+    "title": "All One Data Structure",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a data structure that supports the following operations in constant time: inc(key) \u2014 Increment the count of the given key. dec(key) \u2014 Decrement the count of the given key. Remove the key if its count becomes zero. getMaxKey() \u2014 Return any key with the maximum count. getMinKey() \u2014 Return any key with the minimum count. Process a sequence of operations and print the results of every getMaxKey() and getMinKey() query.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for every getMaxKey() and getMinKey() operation.",
+    "constraints": "1 <= q <= 5 \u00d7 10^4 Keys consist of lowercase English letters."
+  },
+  "repository": {
+    "name": "elastic/elasticsearch",
+    "owner": "elastic",
+    "url": "https://github.com/elastic/elasticsearch",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "server/src/main/java/org/elasticsearch/indices/recovery/package-info.java",
+    "fileSHA": "c4b8b337a7776a6d0ae2ae9c8ce4a036f18f3c60",
+    "url": "https://github.com/elastic/elasticsearch/blob/94fe3e1670a2d58950bd3019fdb8b482388702cb/server/src/main/java/org/elasticsearch/indices/recovery/package-info.java",
+    "rawUrl": "https://raw.githubusercontent.com/elastic/elasticsearch/main/server/src/main/java/org/elasticsearch/indices/recovery/package-info.java"
+  },
+  "matching": {
+    "relevanceScore": 80.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "22ee5fae6d7b05464c0a850482fc14e845ef5f29cbc9c4c319a569f505524b70",
+    "normalizedCodeHash": "22ee5fae6d7b05464c0a850482fc14e845ef5f29cbc9c4c319a569f505524b70",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:24:28.755034+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001298",
+  "problemId": "P001298",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001298",
+    "title": "Maximum Number of Weeks for Projects",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given multiple projects, each requiring a certain number of weeks, work on exactly one project per week without working on the same project in consecutive weeks whenever possible. Determine the maximum number of weeks that can be worked.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing the required weeks for each project.",
+    "output": "Print the maximum number of workable weeks.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "googleapis/google-cloud-python",
+    "owner": "googleapis",
+    "url": "https://github.com/googleapis/google-cloud-python",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "packages/google-cloud-firestore/google/cloud/firestore_admin_v1/types/schedule.py",
+    "fileSHA": "adc86cc5dfc50dd137832210849247fa6d35d2f2",
+    "url": "https://github.com/googleapis/google-cloud-python/blob/1434df19286e3d8593a62d0386286de34e1ac60a/packages/google-cloud-firestore/google/cloud/firestore_admin_v1/types/schedule.py",
+    "rawUrl": "https://raw.githubusercontent.com/googleapis/google-cloud-python/main/packages/google-cloud-firestore/google/cloud/firestore_admin_v1/types/schedule.py"
+  },
+  "matching": {
+    "relevanceScore": 81.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "af87b07fbbf6b3db0f6b2671d71c874ea12cff34cd83611a971e133dc1154774",
+    "normalizedCodeHash": "af87b07fbbf6b3db0f6b2671d71c874ea12cff34cd83611a971e133dc1154774",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T12:45:19.295541+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

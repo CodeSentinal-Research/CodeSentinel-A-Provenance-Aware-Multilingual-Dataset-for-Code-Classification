@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001853",
+  "problemId": "P001853",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001853",
+    "title": "Determine Whether Every Internal Node Has Exactly One Child from Preorder Traversal",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the preorder traversal of a Binary Search Tree with distinct keys, determine whether every internal node has exactly one child without reconstructing the tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the preorder traversal.",
+    "output": "\u2022 Print YES if every internal node has exactly one child; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001853",
+    "fileSHA": "19eb1737b6cf1a96c012cc53f458266e0da56666e4b4bab8df1738c188c0a7f0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:31.283479+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "19eb1737b6cf1a96c012cc53f458266e0da56666e4b4bab8df1738c188c0a7f0",
+    "normalizedCodeHash": "19eb1737b6cf1a96c012cc53f458266e0da56666e4b4bab8df1738c188c0a7f0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:31.283498+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

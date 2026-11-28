@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000534",
+  "problemId": "P000534",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000534",
+    "title": "Dota2 Senate",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "In the Dota2 senate, senators belong to one of two parties: 'R' (Radiant) 'D' (Dire) The voting proceeds in rounds. During each round, senators act in their current order. A senator who still has voting rights may ban one senator from the opposing party. A banned senator loses all future rights. Assuming every senator acts optimally for their party, determine which party will eventually win.",
+    "input": "A string representing the initial senate order.",
+    "output": "Print \"Radiant\" or \"Dire\".",
+    "constraints": "1 <= senate.length <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000534.js",
+    "fileSHA": "e375cd3ef9d43ed4647c5225f1b93f4739239e252ee4c9e8eff0ef6523758b16",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e375cd3ef9d43ed4647c5225f1b93f4739239e252ee4c9e8eff0ef6523758b16",
+    "normalizedCodeHash": "e375cd3ef9d43ed4647c5225f1b93f4739239e252ee4c9e8eff0ef6523758b16",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

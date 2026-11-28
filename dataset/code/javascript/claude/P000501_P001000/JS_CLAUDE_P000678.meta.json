@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000678",
+  "problemId": "P000678",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000678",
+    "title": "Josephus Problem Using Circular Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "There are n people standing in a circle numbered from 1 to n. Starting from the first person, every k-th remaining person is eliminated until only one person remains. Simulate the process using a circular linked list and return the label of the survivor.",
+    "input": "Integer n Integer k",
+    "output": "The label of the last remaining person.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000678",
+    "fileSHA": "fff6bf3471494452c1635e7835f021fba0c5c8f937272cc160d99da00dd78634",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fff6bf3471494452c1635e7835f021fba0c5c8f937272cc160d99da00dd78634",
+    "normalizedCodeHash": "fff6bf3471494452c1635e7835f021fba0c5c8f937272cc160d99da00dd78634",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000678"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000615",
+  "problemId": "P000615",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000615",
+    "title": "Reverse Nodes in Even Length Groups",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "The nodes of a linked list are divided into groups of sizes 1, 2, 3, 4, .... If the final group has fewer nodes than expected, it forms the last group. Reverse only those groups whose actual length is even. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 0 <= node.value <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000615.c",
+    "fileSHA": "8da1d8c463101ae6bb0c462cf0e0480a4f6d7356e247639ce514c7fccd4d1caf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8da1d8c463101ae6bb0c462cf0e0480a4f6d7356e247639ce514c7fccd4d1caf",
+    "normalizedCodeHash": "8da1d8c463101ae6bb0c462cf0e0480a4f6d7356e247639ce514c7fccd4d1caf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

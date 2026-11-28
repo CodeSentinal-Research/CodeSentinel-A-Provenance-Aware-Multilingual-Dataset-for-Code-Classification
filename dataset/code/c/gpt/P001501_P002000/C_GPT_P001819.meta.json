@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001819",
+  "problemId": "P001819",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001819",
+    "title": "Determine the Rank of a Key in a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree and a key X, determine the number of keys strictly smaller than X.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST. • The last line contains X.",
+    "output": "• Print the rank of X.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001819.c",
+    "fileSHA": "42d02c69d19a3dcf8e69d64c807522bc620852039055eb41e48a97ca36f5d1e4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.756Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c3edd497e9c3c519be53bc4e708505a3d2115fc345f4a7c570177064586f66b4",
+    "normalizedCodeHash": "42d02c69d19a3dcf8e69d64c807522bc620852039055eb41e48a97ca36f5d1e4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.756Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

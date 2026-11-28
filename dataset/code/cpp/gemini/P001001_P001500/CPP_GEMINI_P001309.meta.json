@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001309",
+  "problemId": "P001309",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001309",
+    "title": "Survival on an Island",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "A person must survive for S days on an island. Food can only be purchased on certain days, and there is a daily purchase limit. Determine the minimum number of days on which food must be purchased to survive, or print -1 if survival is impossible.",
+    "input": "\u2022 First line contains integers S, N, and M, where N is the maximum units purchasable per day and M is the daily food requirement.",
+    "output": "Print the minimum number of purchase days, or -1 if impossible.",
+    "constraints": "\u2022 1 \u2264 S \u2264 10^9 \u2022 1 \u2264 M \u2264 N \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001309",
+    "fileSHA": "c8c2275a692e6122135e7d12a4c753d817c15518a04368a1ae906c6e9e661a7e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:20:54.975342+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c8c2275a692e6122135e7d12a4c753d817c15518a04368a1ae906c6e9e661a7e",
+    "normalizedCodeHash": "c8c2275a692e6122135e7d12a4c753d817c15518a04368a1ae906c6e9e661a7e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:20:54.975373+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

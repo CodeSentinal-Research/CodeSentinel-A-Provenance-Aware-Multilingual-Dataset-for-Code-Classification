@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001452",
+  "problemId": "P001452",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001452",
+    "title": "Count Distinct Elements After Updates",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an initial array and a sequence of update queries, replace the value at the specified index after each query and report the number of distinct elements currently present.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Second line contains N integers. \u2022 Next Q lines contain Index and NewValue.",
+    "output": "Print the number of distinct elements after each update.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "tianyi-lab/FaSTAR",
+    "owner": "tianyi-lab",
+    "url": "https://github.com/tianyi-lab/FaSTAR",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "run1.py",
+    "fileSHA": "31dc9661afb7f725e0b0a3702d615086273af6f3",
+    "url": "https://github.com/tianyi-lab/FaSTAR/blob/7b1086d007514b33df13eb85927e29c30132642f/run1.py",
+    "rawUrl": "https://raw.githubusercontent.com/tianyi-lab/FaSTAR/main/run1.py"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5853192cc68e6ba43993c3a9dbb2faa428f25f4a6a870e635b33ffc58f7774dd",
+    "normalizedCodeHash": "5853192cc68e6ba43993c3a9dbb2faa428f25f4a6a870e635b33ffc58f7774dd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T17:13:58.055983+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

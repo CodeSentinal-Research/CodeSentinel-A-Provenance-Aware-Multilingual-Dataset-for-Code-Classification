@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001816",
+  "problemId": "P001816",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001816",
+    "title": "Find the Floor of a Given Key in a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given the root of a Binary Search Tree and a key X, determine the largest key in the tree that is less than or equal to X.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The last line contains X.",
+    "output": "\u2022 Print the floor value. If no such value exists, print NONE.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "vitali87/code-graph-rag",
+    "owner": "vitali87",
+    "url": "https://github.com/vitali87/code-graph-rag",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "codebase_rag/parsers/java_frontend/javac/cgr/Frontend.java",
+    "fileSHA": "962d820b37cbc5c2b27dba8c17e0de6fa9f937c7",
+    "url": "https://github.com/vitali87/code-graph-rag/blob/670c8467e9402ffda6df710d51a55089a35bcbbf/codebase_rag/parsers/java_frontend/javac/cgr/Frontend.java",
+    "rawUrl": "https://raw.githubusercontent.com/vitali87/code-graph-rag/main/codebase_rag/parsers/java_frontend/javac/cgr/Frontend.java"
+  },
+  "matching": {
+    "relevanceScore": 90.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f35e4cf26a262bb1b83f0b732f84298ce00c41161808e87628bd6d9a14012c99",
+    "normalizedCodeHash": "f35e4cf26a262bb1b83f0b732f84298ce00c41161808e87628bd6d9a14012c99",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T01:48:34.571098+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001409",
+  "problemId": "P001409",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001409",
+    "title": "Count Equal and Divisible Pairs",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and an integer K, count pairs (i, j) such that i < j, nums[i] = nums[j], and (i \u00d7 j) is divisible by K.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the total number of valid pairs.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "jnarin/lc_c_cplusplus",
+    "owner": "jnarin",
+    "url": "https://github.com/jnarin/lc_c_cplusplus",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "2176. Count Equal and Divisible Pairs in an Array.c",
+    "fileSHA": "73ce2c6970be29b706989e4d9f83cb954b9556e5",
+    "url": "https://github.com/jnarin/lc_c_cplusplus/blob/b1d267f3cde123ca2c0907bf72ebad097a42337a/2176. Count Equal and Divisible Pairs in an Array.c",
+    "rawUrl": "https://raw.githubusercontent.com/jnarin/lc_c_cplusplus/main/2176. Count Equal and Divisible Pairs in an Array.c"
+  },
+  "matching": {
+    "relevanceScore": 90.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "88266f1011d9e3c700950ba144ee3401a03705fd8d0c590e89bc3e081e1f1e2b",
+    "normalizedCodeHash": "88266f1011d9e3c700950ba144ee3401a03705fd8d0c590e89bc3e081e1f1e2b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:40:40.743522+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_CLAUDE_P001421",
+  "problemId": "P001421",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001421",
+    "title": "Minimum Index Sum of Two Lists",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given two lists of strings, find all common strings whose sum of indices in both lists is minimum.",
+    "input": "• First line contains integer N. • Next N lines contain strings. • Next line contains integer M. • Next M lines contain strings.",
+    "output": "Print all strings having the minimum index sum in lexicographical order.",
+    "constraints": "• 1 ≤ N, M ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P001421",
+    "fileSHA": "10d7ceba4567c51081898fbbbeed36ac0fdea92784e61e858f8b9c56196d50c4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "aaccd8319754dd845e455c567ad2ba5b6caa4d67c7628b2d8d5b5476ed596e42",
+    "normalizedCodeHash": "10d7ceba4567c51081898fbbbeed36ac0fdea92784e61e858f8b9c56196d50c4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

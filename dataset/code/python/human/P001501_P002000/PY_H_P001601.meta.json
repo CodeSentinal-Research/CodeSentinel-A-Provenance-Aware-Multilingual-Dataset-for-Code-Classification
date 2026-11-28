@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001601",
+  "problemId": "P001601",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001601",
+    "title": "Count Zeros in a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and multiple range queries, determine the number of elements equal to 0 in each specified range.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Next Q lines each contain L and R.",
+    "output": "\u2022 For each query, print the number of zeros in the specified range.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9 \u2022 0 \u2264 L \u2264 R < N"
+  },
+  "repository": {
+    "name": "NVIDIA/TransformerEngine",
+    "owner": "NVIDIA",
+    "url": "https://github.com/NVIDIA/TransformerEngine",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "transformer_engine/debug/features/utils/stats_computation.py",
+    "fileSHA": "f01037acd13856d50ea0bc2fe9912c230122f47a",
+    "url": "https://github.com/NVIDIA/TransformerEngine/blob/57896b0f3dace49af31bfa873f53de3db86c3069/transformer_engine/debug/features/utils/stats_computation.py",
+    "rawUrl": "https://raw.githubusercontent.com/NVIDIA/TransformerEngine/main/transformer_engine/debug/features/utils/stats_computation.py"
+  },
+  "matching": {
+    "relevanceScore": 71.67
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6ddea9ea9603d5fb21651da69b2949ca6f4c988ac308c257f6e39f8a2d413a70",
+    "normalizedCodeHash": "6ddea9ea9603d5fb21651da69b2949ca6f4c988ac308c257f6e39f8a2d413a70",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:16:31.224208+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

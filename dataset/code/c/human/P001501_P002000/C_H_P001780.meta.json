@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001780",
+  "problemId": "P001780",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001780",
+    "title": "Find the Longest Decreasing Root-to-Leaf Path",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the longest root-to-leaf path whose values are strictly decreasing.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the nodes of the longest decreasing path.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/0665-non-decreasing-array.c",
+    "fileSHA": "f35c9bb9c0060e4fbce49ca8dd710f80f88f9cc0",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/c/0665-non-decreasing-array.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/0665-non-decreasing-array.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "13f106dc95b7bf8cda74196ea6fe1ef5fd249ce77507e0262e2413eaec60fac3",
+    "normalizedCodeHash": "13f106dc95b7bf8cda74196ea6fe1ef5fd249ce77507e0262e2413eaec60fac3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:07.961063+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

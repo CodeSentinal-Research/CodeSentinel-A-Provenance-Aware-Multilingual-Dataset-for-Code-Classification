@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001496",
+  "problemId": "P001496",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001496",
+    "title": "Apply Operations to an Array",
+    "category": "Two Pointers",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array, repeatedly merge adjacent equal values by doubling the left value and setting the right value to zero. After processing, move all zeroes to the end.",
+    "input": "• First line contains integer N. • Second line contains N integers.",
+    "output": "Print the transformed array.",
+    "constraints": "• 2 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001496.py",
+    "fileSHA": "fefcd8053412406ffc95d8d49f83a680b50232ce14ba084393c5f381d3060bb9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:52.224802+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fefcd8053412406ffc95d8d49f83a680b50232ce14ba084393c5f381d3060bb9",
+    "normalizedCodeHash": "778f9514e717fd7632581d10606f88dea408e73aeeee03997d287fe15a908ce7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:52.224802+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

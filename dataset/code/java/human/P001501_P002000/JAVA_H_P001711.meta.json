@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001711",
+  "problemId": "P001711",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001711",
+    "title": "Verify Whether a Binary Tree Satisfies the Children Sum Property",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given a binary tree, determine whether every non-leaf node has a value equal to the sum of the values of its immediate children.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print YES if the tree satisfies the property; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0200-0299/0297.Serialize and Deserialize Binary Tree/Solution.java",
+    "fileSHA": "667e523b2045cadcd8c829fa8a5e28b16415db90",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0200-0299/0297.Serialize and Deserialize Binary Tree/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0200-0299/0297.Serialize and Deserialize Binary Tree/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "18d923e2f2bf7649b2a3b7f27640cb2738be52a6b7a2f12bc66490264aa5e59e",
+    "normalizedCodeHash": "18d923e2f2bf7649b2a3b7f27640cb2738be52a6b7a2f12bc66490264aa5e59e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:46.878378+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

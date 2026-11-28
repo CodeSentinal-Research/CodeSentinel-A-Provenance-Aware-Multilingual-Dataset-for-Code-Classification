@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000785",
+  "problemId": "P000785",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000785",
+    "title": "Find Pivot Index",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array, return the leftmost pivot index where the sum of all elements to the left equals the sum of all elements to the right. If no such index exists, return -1.",
+    "input": "Integer n Array nums",
+    "output": "The pivot index or -1.",
+    "constraints": "1 <= n <= 10^5 -1000 <= nums[i] <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000785.c",
+    "fileSHA": "72cbb56ceb78a95507a9c07f6ba1bf7ef200240c30419054a5866cf977ce1b5f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "72cbb56ceb78a95507a9c07f6ba1bf7ef200240c30419054a5866cf977ce1b5f",
+    "normalizedCodeHash": "72cbb56ceb78a95507a9c07f6ba1bf7ef200240c30419054a5866cf977ce1b5f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

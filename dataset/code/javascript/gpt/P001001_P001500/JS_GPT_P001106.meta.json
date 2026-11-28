@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001106",
+  "problemId": "P001106",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001106",
+    "title": "Course Schedule Ordering",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given N courses and prerequisite relationships, determine one valid order in which all courses can be completed. If no such ordering exists, print IMPOSSIBLE.",
+    "input": "• First line contains integers N and M. • Next M lines contain prerequisite pairs.",
+    "output": "Print one valid course ordering or IMPOSSIBLE.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001106.js",
+    "fileSHA": "171af313df942da6e04d79da7bfac1df748bdde075e68d7385601225b36283db",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T09:30:51.258473+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "171af313df942da6e04d79da7bfac1df748bdde075e68d7385601225b36283db",
+    "normalizedCodeHash": "171af313df942da6e04d79da7bfac1df748bdde075e68d7385601225b36283db",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T09:30:51.258473+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

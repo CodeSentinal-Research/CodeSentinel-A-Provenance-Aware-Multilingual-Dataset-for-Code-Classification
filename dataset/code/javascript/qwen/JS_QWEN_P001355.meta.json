@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_QWEN_P001355",
+  "problemId": "P001355",
+  "language": "javascript",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001355",
+    "title": "Construct Distanced Sequence",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Construct a sequence of length 2N\u22121 using the integers 1 to N such that: \u2022 Integer 1 appears exactly once. \u2022 Every integer 2...N appears exactly twice. \u2022 The two occurrences of integer i are exactly i positions apart. Return the lexicographically largest valid sequence.",
+    "input": "\u2022 First line contains integer N.",
+    "output": "Print the required sequence.",
+    "constraints": "\u2022 1 \u2264 N \u2264 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/JS_QWEN_P001355",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

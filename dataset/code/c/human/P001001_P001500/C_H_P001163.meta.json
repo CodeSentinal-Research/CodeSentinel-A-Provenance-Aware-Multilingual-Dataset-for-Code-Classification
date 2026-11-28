@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001163",
+  "problemId": "P001163",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001163",
+    "title": "Interleaving Strings",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given three strings A, B, and C, determine whether C can be formed by interleaving the characters of A and B while preserving the relative order of characters in both strings.",
+    "input": "\u2022 First line contains string A. \u2022 Second line contains string B. \u2022 Third line contains string C.",
+    "output": "Print YES if possible; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 Length of each string \u2264 2000"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0097_interleaving_string/interleaving_string.c",
+    "fileSHA": "70e9d962f0ce0dbee8738b58271801c26d9d8053",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0097_interleaving_string/interleaving_string.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0097_interleaving_string/interleaving_string.c"
+  },
+  "matching": {
+    "relevanceScore": 70.56
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9e4451844ce1e35c695afffd66f6c5f274570430003508f01a8b7337f37269ea",
+    "normalizedCodeHash": "9e4451844ce1e35c695afffd66f6c5f274570430003508f01a8b7337f37269ea",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:43:17.634106+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

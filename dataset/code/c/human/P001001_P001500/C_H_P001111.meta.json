@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001111",
+  "problemId": "P001111",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001111",
+    "title": "Snake and Ladder Minimum Dice Throws",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given the positions of snakes and ladders on a game board numbered from 1 to N, determine the minimum number of dice throws required to reach the last cell.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains integer L. \u2022 Next L lines contain ladder start and end positions. \u2022 Next line contains integer S. \u2022 Next S lines contain snake head and tail positions.",
+    "output": "Print the minimum number of dice throws.",
+    "constraints": "\u2022 2 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "pezy/LeetCode",
+    "owner": "pezy",
+    "url": "https://github.com/pezy/LeetCode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "063. Minimum Path Sum/solution.h",
+    "fileSHA": "ef8f0868c113d2b1329ef9f24cebcbd06057dd03",
+    "url": "https://github.com/pezy/LeetCode/blob/master/063. Minimum Path Sum/solution.h",
+    "rawUrl": "https://raw.githubusercontent.com/pezy/LeetCode/master/063. Minimum Path Sum/solution.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "10baa4f80dfb6d568178802b9e240d80619031de11d0973b0ea73c09ae949b98",
+    "normalizedCodeHash": "10baa4f80dfb6d568178802b9e240d80619031de11d0973b0ea73c09ae949b98",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:20.957088+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

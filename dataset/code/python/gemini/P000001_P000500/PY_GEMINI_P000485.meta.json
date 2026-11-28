@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000485",
+  "problemId": "P000485",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000485",
+    "title": "Asteroid Collision",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an array of integers representing asteroids moving along a straight line. Positive values move right. Negative values move left. When two asteroids moving in opposite directions collide: The smaller one explodes. If both have the same size, both explode. Asteroids moving in the same direction never collide. Return the final state of the asteroids.",
+    "input": "Integer n Array of integers.",
+    "output": "The remaining asteroids after all collisions.",
+    "constraints": "1 <= n <= 10^5 -1000 <= asteroid[i] <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000485",
+    "fileSHA": "e341c7da535594b42d26b60bbf7fe6cbb49cf670be3291843f50d3fde3d60b8f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:39:48.873426+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e341c7da535594b42d26b60bbf7fe6cbb49cf670be3291843f50d3fde3d60b8f",
+    "normalizedCodeHash": "e341c7da535594b42d26b60bbf7fe6cbb49cf670be3291843f50d3fde3d60b8f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:39:48.873452+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

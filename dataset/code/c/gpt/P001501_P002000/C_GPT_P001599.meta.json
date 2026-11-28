@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001599",
+  "problemId": "P001599",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001599",
+    "title": "Count Multiples of K in a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple range queries, determine how many elements are divisible by K in each specified range.",
+    "input": "• First line contains N and K. • Second line contains N integers. • Third line contains Q. • Next Q lines contain L and R.",
+    "output": "• Print the answer for every query.",
+    "constraints": "• 1 ≤ N,Q ≤ 2 × 10^5 • 1 ≤ K ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001599.c",
+    "fileSHA": "2d80c5b819457bd7111e5682f08480b93cefddffac367e91e38a59318d213579",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.962Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "087a5100380a59c8f1f5bfc8d9c4417d3514520145a6f7ec5231faa99c024987",
+    "normalizedCodeHash": "2d80c5b819457bd7111e5682f08480b93cefddffac367e91e38a59318d213579",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.962Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

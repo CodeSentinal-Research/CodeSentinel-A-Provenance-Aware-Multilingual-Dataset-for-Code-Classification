@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P000638",
+  "problemId": "P000638",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000638",
+    "title": "Design Polynomial Using Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "A polynomial is represented as a linked list where each node contains: Coefficient Exponent The terms are stored in descending order of exponents. Process a sequence of operations on the polynomial: insert(coefficient, exponent) delete(exponent) evaluate(x) display() When inserting a term with an existing exponent, combine the coefficients. Print the result for every evaluate() and display() operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for every evaluate() and display() operation.",
+    "constraints": "1 <= q <= 10^5 |coefficient| <= 10^6 0 <= exponent <= 10^6"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "cpp/gemini/CPP_GEMINI_P000638",
+    "fileSHA": "1816c98345877dfcb33a201680ffb6665f04b69fbfacb935ea9f7506ce8cb7b8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:49:57.697430+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1816c98345877dfcb33a201680ffb6665f04b69fbfacb935ea9f7506ce8cb7b8",
+    "normalizedCodeHash": "1816c98345877dfcb33a201680ffb6665f04b69fbfacb935ea9f7506ce8cb7b8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:49:57.697451+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

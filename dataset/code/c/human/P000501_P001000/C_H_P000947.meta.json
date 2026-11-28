@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000947",
+  "problemId": "P000947",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000947",
+    "title": "Can I Win",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Hard",
+    "problemStatement": "Two players alternately choose distinct integers from 1 to maxChoosableInteger. The chosen numbers are accumulated, and the player whose total first reaches or exceeds desiredTotal wins. Determine whether the first player can force a win.",
+    "input": "Integer maxChoosableInteger Integer desiredTotal",
+    "output": "Print true if the first player can force a win; otherwise, print false.",
+    "constraints": "1 <= maxChoosableInteger <= 20 0 <= desiredTotal <= 300"
+  },
+  "repository": {
+    "name": "Utsav-X-bit/Games_In_SDL2",
+    "owner": "Utsav-X-bit",
+    "url": "https://github.com/Utsav-X-bit/Games_In_SDL2",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Tic_Tac_toe/pvp.c",
+    "fileSHA": "29062c7b47c798c195d40ed504da9c974bca382d",
+    "url": "https://github.com/Utsav-X-bit/Games_In_SDL2/blob/83dbdabd2a0978faf4e2e93b5e3559a8e026fb81/Tic_Tac_toe/pvp.c",
+    "rawUrl": "https://raw.githubusercontent.com/Utsav-X-bit/Games_In_SDL2/main/Tic_Tac_toe/pvp.c"
+  },
+  "matching": {
+    "relevanceScore": 69.35
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4733b4b01991f27fa8113566ec5445c49dbad0d4353d7980b91e50df05fecaeb",
+    "normalizedCodeHash": "4733b4b01991f27fa8113566ec5445c49dbad0d4353d7980b91e50df05fecaeb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:39:20.814121+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

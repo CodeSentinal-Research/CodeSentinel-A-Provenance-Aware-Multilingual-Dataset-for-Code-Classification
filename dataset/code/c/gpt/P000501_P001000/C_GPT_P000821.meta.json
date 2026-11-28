@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000821",
+  "problemId": "P000821",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000821",
+    "title": "Single Element in a Sorted Array",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given a sorted array where every element appears exactly twice except for one element that appears only once, find that single element. Your solution must run in O(log n) time and O(1) space.",
+    "input": "Integer n Sorted array nums",
+    "output": "The single element.",
+    "constraints": "1 <= n <= 10^5 n is odd."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000821.c",
+    "fileSHA": "cc27dd5877b6bb3f29771fcd0facfd73e55fbff5155c270fae6d2679e6b54e76",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cc27dd5877b6bb3f29771fcd0facfd73e55fbff5155c270fae6d2679e6b54e76",
+    "normalizedCodeHash": "cc27dd5877b6bb3f29771fcd0facfd73e55fbff5155c270fae6d2679e6b54e76",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

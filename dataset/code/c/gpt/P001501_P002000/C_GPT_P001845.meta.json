@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001845",
+  "problemId": "P001845",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001845",
+    "title": "Count Distinct Binary Search Tree Shapes Generated from Multiple Insertion Sequences",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given M insertion sequences of distinct keys, determine how many structurally distinct Binary Search Trees are produced.",
+    "input": "• The first line contains an integer M. • For each sequence, the first line contains its length followed by the insertion sequence.",
+    "output": "• Print the number of distinct Binary Search Tree structures.",
+    "constraints": "• 1 ≤ M ≤ 10^5 • Total number of keys across all sequences ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001845.c",
+    "fileSHA": "ab686a4b7d3aab5c99d8020a544f0a68bac57b72589b9681f9814ecbdaaa31a4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.899Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "4be486e7a5bc157d4814ed4a6db050d16124ec79770dda0a25c3d718ceaebc3c",
+    "normalizedCodeHash": "ab686a4b7d3aab5c99d8020a544f0a68bac57b72589b9681f9814ecbdaaa31a4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.899Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000647",
+  "problemId": "P000647",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000647",
+    "title": "Dynamic Music Playlist Manager",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a music playlist manager using a doubly linked list. The playlist supports the following operations: addSong(title) removeSong(title) playNext() playPrevious() moveSong(title, position) currentSong() Initially, the playlist is empty. Process a sequence of operations and print the result for every playNext(), playPrevious(), and currentSong() operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for every query operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5 Song titles contain printable ASCII characters."
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000647",
+    "fileSHA": "87d259639dd6a8eef38c6b6db0724a273a73a6ab8150886785accaef6ad97b99",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.361Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "27942f4c3843975d854996af78fcb6ab8c0f06624d3b133381055b776f5d47d9",
+    "normalizedCodeHash": "26e4e0bfdb3667469e53039e11c4a1be07c3705788bddda7e1bcdee31a4ccbb6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.361Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

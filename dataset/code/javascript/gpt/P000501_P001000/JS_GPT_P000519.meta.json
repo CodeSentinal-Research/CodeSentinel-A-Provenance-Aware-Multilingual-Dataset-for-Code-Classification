@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000519",
+  "problemId": "P000519",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000519",
+    "title": "Queue Using Stacks",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "Design a queue using only two stacks. The queue must support the following operations: push(x) — Insert an element at the back. pop() — Remove and return the front element. peek() — Return the front element without removing it. empty() — Return whether the queue is empty. Process a sequence of operations and print the result of every pop(), peek(), and empty() operation.",
+    "input": "Integer q Next q lines each contain one operation.",
+    "output": "Print the output for every pop(), peek(), and empty() operation.",
+    "constraints": "1 <= q <= 10^5 All operations are valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000519.js",
+    "fileSHA": "68aab8896a971510f5d08e1d588942155d52bc00083a3dd6f58be4f3072720e8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "68aab8896a971510f5d08e1d588942155d52bc00083a3dd6f58be4f3072720e8",
+    "normalizedCodeHash": "68aab8896a971510f5d08e1d588942155d52bc00083a3dd6f58be4f3072720e8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

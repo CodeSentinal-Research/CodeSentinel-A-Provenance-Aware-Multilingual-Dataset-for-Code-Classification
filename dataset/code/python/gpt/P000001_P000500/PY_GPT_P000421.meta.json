@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000421",
+  "problemId": "P000421",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000421",
+    "title": "Search Expired Memberships",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find all memberships whose expiry date has already passed.",
+    "input": "Membership records and the current date.",
+    "output": "Expired memberships.",
+    "constraints": "1 ≤ Number of Memberships ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000421.py",
+    "fileSHA": "f25b62ba31e63dee49e5db4da0222fecd3ea23a2845f432232151065337c0fc0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:03.559115+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f25b62ba31e63dee49e5db4da0222fecd3ea23a2845f432232151065337c0fc0",
+    "normalizedCodeHash": "d845e8397700c480ec721e3c414888ffeb5142f139982982c9a2c33cf1c947b6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:03.559115+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

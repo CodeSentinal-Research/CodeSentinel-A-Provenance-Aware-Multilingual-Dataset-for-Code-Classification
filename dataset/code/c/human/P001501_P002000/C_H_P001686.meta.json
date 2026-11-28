@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001686",
+  "problemId": "P001686",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001686",
+    "title": "Find the Predecessor of a Node in Level Order Traversal",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree and a target node, determine the node that immediately precedes the target in level order traversal. If no such node exists, print NONE.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains the target node value.",
+    "output": "\u2022 Print the level order predecessor.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0145_binary_tree_postorder_traversal/bst_postorder.c",
+    "fileSHA": "47f49d8a03bf518f33b0cfd2db9976ac670adcd2",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0145_binary_tree_postorder_traversal/bst_postorder.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0145_binary_tree_postorder_traversal/bst_postorder.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d51bd82093d11415c93c56c569da91514eb1f2207af572d84d2397e98b5c59a5",
+    "normalizedCodeHash": "d51bd82093d11415c93c56c569da91514eb1f2207af572d84d2397e98b5c59a5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T16:06:26.807675+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

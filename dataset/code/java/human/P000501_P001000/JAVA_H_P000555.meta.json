@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000555",
+  "problemId": "P000555",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000555",
+    "title": "Minimum Reverse Operations",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given: An integer n A starting index p A list of banned indices An integer k Initially, a token is placed at index p. In one operation, you may reverse any contiguous subarray of length k containing the token. The token moves to its new position after the reversal. Determine the minimum number of operations required to reach every index. Return -1 for unreachable indices or banned indices.",
+    "input": "Integer n Integer p Integer b Array banned Integer k",
+    "output": "An array of length n where the i-th element is the minimum number of operations required to reach index i.",
+    "constraints": "1 <= n <= 10^5 0 <= p < n 1 <= k <= n"
+  },
+  "repository": {
+    "name": "lamng3/advanced_algorithms",
+    "owner": "lamng3",
+    "url": "https://github.com/lamng3/advanced_algorithms",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solving/SC6.java",
+    "fileSHA": "bea8f3772fe2f4230693d0f015bc1fe287c3f743",
+    "url": "https://github.com/lamng3/advanced_algorithms/blob/1d4348eaa272cbbbb53647f988aa30df72d89fd8/solving/SC6.java",
+    "rawUrl": "https://raw.githubusercontent.com/lamng3/advanced_algorithms/main/solving/SC6.java"
+  },
+  "matching": {
+    "relevanceScore": 80.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5f8685271badf259120f1cbf60272176b07282afa3653cb906c3e1968b48b9d8",
+    "normalizedCodeHash": "5f8685271badf259120f1cbf60272176b07282afa3653cb906c3e1968b48b9d8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T18:43:52.500578+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

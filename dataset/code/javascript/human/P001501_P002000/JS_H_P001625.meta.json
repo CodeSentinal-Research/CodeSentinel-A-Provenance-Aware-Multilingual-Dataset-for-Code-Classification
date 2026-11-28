@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001625",
+  "problemId": "P001625",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001625",
+    "title": "Construct a Two-Dimensional Prefix Sum Matrix",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an N \u00d7 M matrix of integers, construct its two-dimensional prefix sum matrix, where each cell contains the sum of all elements in the rectangle from (0,0) to the current cell.",
+    "input": "\u2022 First line contains N and M. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the two-dimensional prefix sum matrix.",
+    "constraints": "\u2022 1 \u2264 N,M \u2264 1000 \u2022 -10^5 \u2264 Aij \u2264 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0600-0699/0606.Construct String from Binary Tree/Solution.ts",
+    "fileSHA": "1c7c1cb4dbc1cc2f202690c0954787952a4efed1",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0600-0699/0606.Construct String from Binary Tree/Solution.ts",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0600-0699/0606.Construct String from Binary Tree/Solution.ts"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "dc1c2bfb6f8c907e6b70b6638d07fec0bca6bada62d59861f0882d3a48a9be35",
+    "normalizedCodeHash": "dc1c2bfb6f8c907e6b70b6638d07fec0bca6bada62d59861f0882d3a48a9be35",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:00.769615+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

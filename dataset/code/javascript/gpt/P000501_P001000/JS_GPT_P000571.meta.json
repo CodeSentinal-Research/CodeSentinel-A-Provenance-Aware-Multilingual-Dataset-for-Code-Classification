@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000571",
+  "problemId": "P000571",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000571",
+    "title": "Hot Potato Game",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "There are N players standing in a circle, numbered from 1 to N. Starting from player 1, a token is passed clockwise exactly K times. The player holding the token after the K-th pass is eliminated. The process continues with the next player until only one player remains. Return the number of the winning player.",
+    "input": "Integer N Integer K",
+    "output": "The winning player's number.",
+    "constraints": "1 <= N <= 10^5 1 <= K <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000571.js",
+    "fileSHA": "665f63b3ca275731a6c01f2a2a32ae6f15e9e4da39055415a93529e3ee4dcc3a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "665f63b3ca275731a6c01f2a2a32ae6f15e9e4da39055415a93529e3ee4dcc3a",
+    "normalizedCodeHash": "665f63b3ca275731a6c01f2a2a32ae6f15e9e4da39055415a93529e3ee4dcc3a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

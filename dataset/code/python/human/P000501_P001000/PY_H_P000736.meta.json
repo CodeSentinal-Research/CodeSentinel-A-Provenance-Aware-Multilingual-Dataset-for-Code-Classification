@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P000736",
+  "problemId": "P000736",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000736",
+    "title": "K-th Symbol in Grammar",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "The first row contains a single symbol 0. Each 0 generates 01, and each 1 generates 10 in the next row. Given integers N and K, return the K-th symbol in the N-th row.",
+    "input": "Integer N Integer K",
+    "output": "The K-th symbol.",
+    "constraints": "1 <= N <= 30 1 <= K <= 2^(N-1)"
+  },
+  "repository": {
+    "name": "W-46ec/LeetCode",
+    "owner": "W-46ec",
+    "url": "https://github.com/W-46ec/LeetCode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000736.py",
+    "fileSHA": "95f77fbfb7e6ebfddaf60bf86adc9cdfa2b631ef",
+    "url": "https://github.com/W-46ec/LeetCode/blob/260d90528dc601710e2b4ae82bcc7ac5a1ac3517/Algorithms/Python3/00779-K-th Symbol in Grammar.py",
+    "rawUrl": "https://raw.githubusercontent.com/W-46ec/LeetCode/main/Algorithms/Python3/00779-K-th Symbol in Grammar.py"
+  },
+  "matching": {
+    "relevanceScore": 69.78
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2024-01-15T22:45:36Z",
+    "lastCommitDate": "2024-01-15T22:45:36Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "W-46ec"
+    ],
+    "firstKnownAuthor": "W-46ec",
+    "latestKnownAuthor": "W-46ec"
+  },
+  "deduplication": {
+    "rawCodeHash": "b64c49975b0749c966fb5edad652a818140525cd31030e6b0c7e9148d2674b69",
+    "normalizedCodeHash": "b64c49975b0749c966fb5edad652a818140525cd31030e6b0c7e9148d2674b69",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T04:25:02.205470+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

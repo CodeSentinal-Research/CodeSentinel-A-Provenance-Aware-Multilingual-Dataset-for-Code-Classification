@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000591",
+  "problemId": "P000591",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000591",
+    "title": "Intersection of Two Linked Lists",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Two singly linked lists may intersect at a common node. Given the heads of both linked lists, determine the node where they intersect. If they do not intersect, return null.",
+    "input": "Two linked lists. The testing system may internally create an intersection.",
+    "output": "The value of the intersection node, or null if there is no intersection.",
+    "constraints": "Number of nodes in both lists is in the range [0, 10^5]."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000591",
+    "fileSHA": "c262bba16c24c6639bd55fd8ac3c668f1faad4da99524b2f65707ee9212c3e5b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c262bba16c24c6639bd55fd8ac3c668f1faad4da99524b2f65707ee9212c3e5b",
+    "normalizedCodeHash": "c262bba16c24c6639bd55fd8ac3c668f1faad4da99524b2f65707ee9212c3e5b",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000591: Intersection of Two Linked Lists"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P001014",
+  "problemId": "P001014",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001014",
+    "title": "Merge K Sorted Arrays",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given K sorted arrays, merge them into a single sorted array using an efficient heap-based algorithm.",
+    "input": "• First line contains integers K and N. • Next K lines each contain a sorted array.",
+    "output": "Print the merged sorted array.",
+    "constraints": "• 1 ≤ K ≤ 10^3 • Total elements ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P001014",
+    "fileSHA": "6f7425b38e4c5bec0c583bffade78841fd947a313a447c82fb28fb70eb28f5a2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6f7425b38e4c5bec0c583bffade78841fd947a313a447c82fb28fb70eb28f5a2",
+    "normalizedCodeHash": "6f7425b38e4c5bec0c583bffade78841fd947a313a447c82fb28fb70eb28f5a2",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P001014"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

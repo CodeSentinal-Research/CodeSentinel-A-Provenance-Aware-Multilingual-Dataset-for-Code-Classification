@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000749",
+  "problemId": "P000749",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000749",
+    "title": "Generate All Paths with Variable Length Jumps",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M grid, generate all possible paths from the top-left cell to the bottom-right cell. From any cell, you may move: Horizontally right by any positive number of cells (Hk) Vertically down by any positive number of cells (Vk) Diagonally down-right by any positive number of cells (Dk) where k denotes the jump length. Print all valid paths in lexicographical order.",
+    "input": "Integer N Integer M",
+    "output": "All valid paths.",
+    "constraints": "1 <= N, M <= 10"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0000-0099/0058.Length of Last Word/Solution.cpp",
+    "fileSHA": "d4ef81ce26c42855837aab9b1b088c55e12acebf",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0000-0099/0058.Length of Last Word/Solution.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0000-0099/0058.Length of Last Word/Solution.cpp"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d317b48004f68ae1e8921fcd4a3d158d6a4ba820888adeb271269cb297dea11b",
+    "normalizedCodeHash": "d317b48004f68ae1e8921fcd4a3d158d6a4ba820888adeb271269cb297dea11b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:32.688803+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

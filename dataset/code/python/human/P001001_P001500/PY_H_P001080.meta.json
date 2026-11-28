@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P001080",
+  "problemId": "P001080",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001080",
+    "title": "Find All Articulation Points",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a connected undirected graph, determine all articulation points. An articulation point is a vertex whose removal increases the number of connected components.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print all articulation points in ascending order. If none exist, print NONE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "thezooperman/CodeChallenges",
+    "owner": "thezooperman",
+    "url": "https://github.com/thezooperman/CodeChallenges",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P001001_P001500/PY_H_P001080.py",
+    "fileSHA": "c88bfdf7c60ccc468849392b2222bcde149f7a88",
+    "url": "https://github.com/thezooperman/CodeChallenges/blob/9ff32a19c4312883e0cc9f44f7dc9f59856b8044/connected_graph.py",
+    "rawUrl": "https://raw.githubusercontent.com/thezooperman/CodeChallenges/main/connected_graph.py"
+  },
+  "matching": {
+    "relevanceScore": 70.24
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2020-06-14T08:19:44Z",
+    "lastCommitDate": "2020-06-14T08:19:44Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Aritra Ghosh"
+    ],
+    "firstKnownAuthor": "Aritra Ghosh",
+    "latestKnownAuthor": "Aritra Ghosh"
+  },
+  "deduplication": {
+    "rawCodeHash": "0004f9d01535b580e0176eba678f6cd7d8af278cd0706d815806eaeae7068946",
+    "normalizedCodeHash": "0004f9d01535b580e0176eba678f6cd7d8af278cd0706d815806eaeae7068946",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T07:29:18.304989+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

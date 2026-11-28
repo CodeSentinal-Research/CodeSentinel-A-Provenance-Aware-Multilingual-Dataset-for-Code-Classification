@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001626",
+  "problemId": "P001626",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001626",
+    "title": "Maximum Side Length of Square With Sum Less Than Threshold",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × M matrix of non-negative integers and an integer Threshold, determine the side length of the largest square submatrix whose sum is less than or equal to Threshold.",
+    "input": "• First line contains N, M, and Threshold. • Next N lines each contain M non-negative integers.",
+    "output": "• Print the maximum side length.",
+    "constraints": "• 1 ≤ N, M ≤ 1000 • 0 ≤ Aij ≤ 10^4 • 0 ≤ Threshold ≤ 10^15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001626.c",
+    "fileSHA": "5f205fbf3a671706745ff5258081bf7b4e22b91256be061df61d2a42503bd740",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.035Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "ddf7b73f2ca0265d150cd2bc47dff5cde54a8017c7015560a5ccd2357938dd94",
+    "normalizedCodeHash": "5f205fbf3a671706745ff5258081bf7b4e22b91256be061df61d2a42503bd740",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.035Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

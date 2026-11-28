@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000957",
+  "problemId": "P000957",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000957",
+    "title": "Verify B\u00e9zout's Identity",
+    "category": "Mathematics - Extended Euclidean Algorithm",
+    "difficulty": "Easy",
+    "problemStatement": "Given integers A, B, X, and Y, determine whether the pair (X, Y) satisfies B\u00e9zout's Identity: AX + BY = gcd(A, B)",
+    "input": "Integer A Integer B Integer X Integer Y",
+    "output": "Print true if the identity holds; otherwise, print false.",
+    "constraints": "1 <= |A|, |B|, |X|, |Y| <= 10^18"
+  },
+  "repository": {
+    "name": "rjwalters/lean-genius",
+    "owner": "rjwalters",
+    "url": "https://github.com/rjwalters/lean-genius",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "research/problems/bezout-identity-oq-03-oq-05/verify_garner.py",
+    "fileSHA": "fab868e20db661848290f07763df3b060738f8d6",
+    "url": "https://github.com/rjwalters/lean-genius/blob/f9c62750e76180f15c7bd6c5759be320d7feffdc/research/problems/bezout-identity-oq-03-oq-05/verify_garner.py",
+    "rawUrl": "https://raw.githubusercontent.com/rjwalters/lean-genius/main/research/problems/bezout-identity-oq-03-oq-05/verify_garner.py"
+  },
+  "matching": {
+    "relevanceScore": 60.83
+  },
+  "provenance": {
+    "score": 85.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8ad14caba2cf5b025a989b5d933e03ad325b4b8454e4c092d9db540a1e2a3aab",
+    "normalizedCodeHash": "8ad14caba2cf5b025a989b5d933e03ad325b4b8454e4c092d9db540a1e2a3aab",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:57:00.942765+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

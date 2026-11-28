@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001339",
+  "problemId": "P001339",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001339",
+    "title": "Maximum Length of Concatenated String with Unique Characters",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given N strings, select any subset and concatenate them so that every character appears at most once. Determine the maximum possible length of such a concatenated string.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain a lowercase string.",
+    "output": "Print the maximum achievable length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 16"
+  },
+  "repository": {
+    "name": "TheAlgorithms/C",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/C",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "misc/run_length_encoding.c",
+    "fileSHA": "59e3342fb1bcaf1963204b3e83aa540954bf4312",
+    "url": "https://github.com/TheAlgorithms/C/blob/master/misc/run_length_encoding.c",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/C/master/misc/run_length_encoding.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1f49a25cc2cef750de49c7566f888c5c5f15cad3bfd26d1d23406d33332fd64e",
+    "normalizedCodeHash": "1f49a25cc2cef750de49c7566f888c5c5f15cad3bfd26d1d23406d33332fd64e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:15.055747+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000764",
+  "problemId": "P000764",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000764",
+    "title": "Decode String at Index",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "An encoded string follows the rule: Letters are appended directly. A digit d means the entire current decoded string is repeated d times. Given an encoded string s and an integer K, return the K-th character in the decoded string without explicitly constructing the decoded string. Solve the problem recursively.",
+    "input": "String s Integer K",
+    "output": "The K-th character.",
+    "constraints": "2 <= |s| <= 100 1 <= K <= 10^18"
+  },
+  "repository": {
+    "name": "Schwarf/algorithms",
+    "owner": "Schwarf",
+    "url": "https://github.com/Schwarf/algorithms",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "fun_with_strings/decode_string_at_index.h",
+    "fileSHA": "eaa7103f26787fb27e2e3514357d35abbac80165",
+    "url": "https://github.com/Schwarf/algorithms/blob/071a84f9293ce5f626dec4a8d8241a08535b5678/fun_with_strings/decode_string_at_index.h",
+    "rawUrl": "https://raw.githubusercontent.com/Schwarf/algorithms/main/fun_with_strings/decode_string_at_index.h"
+  },
+  "matching": {
+    "relevanceScore": 81.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "205f229abdb9c6d44aeeeb3eb327daed686898d0daf75495c9775322671bbf59",
+    "normalizedCodeHash": "205f229abdb9c6d44aeeeb3eb327daed686898d0daf75495c9775322671bbf59",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T19:17:39.809368+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

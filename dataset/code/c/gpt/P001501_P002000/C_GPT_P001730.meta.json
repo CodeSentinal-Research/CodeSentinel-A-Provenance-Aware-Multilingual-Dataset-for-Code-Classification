@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001730",
+  "problemId": "P001730",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001730",
+    "title": "Convert a Binary Tree into a Circular Doubly Linked List",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, convert it into a circular doubly linked list following the inorder traversal sequence while reusing the existing nodes.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the nodes of the resulting circular doubly linked list starting from the head.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001730.c",
+    "fileSHA": "f97232f3b69b9ef1184c0ad347d69c534856d5a7d46b1b469d9ee270d4eefcbc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.475Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "0565d2343b8f44cdefbd9e47e506a7cd3aa6bb2007b086d38b191a4815faceb3",
+    "normalizedCodeHash": "f97232f3b69b9ef1184c0ad347d69c534856d5a7d46b1b469d9ee270d4eefcbc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.475Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

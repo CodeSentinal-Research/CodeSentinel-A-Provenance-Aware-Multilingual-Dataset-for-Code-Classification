@@ -1,0 +1,1 @@
+const[s1,s2]=require("fs").readFileSync("/dev/stdin","utf8").trim().split(" ");const m=s1.length,n=s2.length;const dp=Array.from({length:m+1},()=>new Array(n+1).fill(0));let best=0,end=0;for(let i=1;i<=m;i++)for(let j=1;j<=n;j++){if(s1[i-1]===s2[j-1]){dp[i][j]=dp[i-1][j-1]+1;if(dp[i][j]>best){best=dp[i][j];end=i;}}else dp[i][j]=0;}console.log(s1.slice(end-best,end));

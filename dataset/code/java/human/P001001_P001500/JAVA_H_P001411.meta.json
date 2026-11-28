@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001411",
+  "problemId": "P001411",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001411",
+    "title": "Find Players With Zero or One Loss",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given the results of multiple matches, where each match contains a winner and a loser, determine: \u2022 All players who never lost. \u2022 All players who lost exactly once. Print both lists in ascending order.",
+    "input": "\u2022 First line contains integer M representing the number of matches. \u2022 Next M lines each contain two integers representing Winner and Loser.",
+    "output": "Print the players with zero losses followed by the players with exactly one loss.",
+    "constraints": "\u2022 1 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "tzyian/leetcode",
+    "owner": "tzyian",
+    "url": "https://github.com/tzyian/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "submissions/find-players-with-zero-or-one-losses.java",
+    "fileSHA": "eb213059d92af5028cfa86cf178979d5b75ab9d5",
+    "url": "https://github.com/tzyian/leetcode/blob/18fd2c5a3324eae92cf3cbd185f98214e43487d7/submissions/find-players-with-zero-or-one-losses.java",
+    "rawUrl": "https://raw.githubusercontent.com/tzyian/leetcode/main/submissions/find-players-with-zero-or-one-losses.java"
+  },
+  "matching": {
+    "relevanceScore": 83.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e56d84273cc8d6faa06aea657ea6b39cd6cc2981434e5feccb7ece7d349d403a",
+    "normalizedCodeHash": "e56d84273cc8d6faa06aea657ea6b39cd6cc2981434e5feccb7ece7d349d403a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:38:38.227557+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000517",
+  "problemId": "P000517",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000517",
+    "title": "Maximum Width Ramp",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "A ramp is a pair of indices (i, j) such that i < j and nums[i] <= nums[j]. Find the maximum width of a ramp in the array, where the width is j - i. Return the maximum possible width.",
+    "input": "Integer n Array nums",
+    "output": "A single integer representing the maximum width.",
+    "constraints": "2 <= n <= 5 \u00d7 10^4 0 <= nums[i] <= 5 \u00d7 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000517",
+    "fileSHA": "b3041323d197cded0cf27f345aae4c56a165dd621745d1697d4da1fa4b411e09",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.429Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "26250bdcaa92d39721943812dee805eae99086d43a63ae0da76ffdf3569c56eb",
+    "normalizedCodeHash": "1d3fb64e5e0ed2d2a42647d17ccd15b5a1bd13b9beeb67582636276b02f2c5f3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.429Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

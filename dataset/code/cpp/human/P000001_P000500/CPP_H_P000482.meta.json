@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000482",
+  "problemId": "P000482",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000482",
+    "title": "Next Greater Element I",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given two arrays nums1 and nums2 where all elements are unique and nums1 is a subset of nums2. For each element in nums1, find the first greater element to its right in nums2. If no such element exists, return -1 for that element.",
+    "input": "Integer n Array nums1 Integer m Array nums2",
+    "output": "An array containing the next greater element for every element in nums1.",
+    "constraints": "1 <= n <= m <= 1000 All elements are unique."
+  },
+  "repository": {
+    "name": "smartcsie/leetcode",
+    "owner": "smartcsie",
+    "url": "https://github.com/smartcsie/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/Solution_0496.cpp",
+    "fileSHA": "f40c21db75177e0130efd00e21a892fe59ec1bf7",
+    "url": "https://github.com/smartcsie/leetcode/blob/cd8dea6a880851bcb447154189b6284f8e554b27/solution/Solution_0496.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/smartcsie/leetcode/main/solution/Solution_0496.cpp"
+  },
+  "matching": {
+    "relevanceScore": 84.4
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "865885c23360bebb9f5fa60e65eaf4845a4eadf4c0e317a1ba7aa7a414619c03",
+    "normalizedCodeHash": "865885c23360bebb9f5fa60e65eaf4845a4eadf4c0e317a1ba7aa7a414619c03",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:22:36.305738+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

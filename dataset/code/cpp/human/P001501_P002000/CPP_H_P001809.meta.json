@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001809",
+  "problemId": "P001809",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001809",
+    "title": "Convert a Binary Search Tree into a Greater Sum Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree, replace every node value with the sum of all keys greater than or equal to that node.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST.",
+    "output": "\u2022 Print the transformed BST.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0500-0599/0556.Next Greater Element III/Solution.cpp",
+    "fileSHA": "d0476e3d05c05ec1e1bbf2ac85512cdd5565aa0f",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0500-0599/0556.Next Greater Element III/Solution.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0500-0599/0556.Next Greater Element III/Solution.cpp"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "21686dd80d33fd7d261beb907008e8a6f33799b0834f84d0188af9059ce232b4",
+    "normalizedCodeHash": "21686dd80d33fd7d261beb907008e8a6f33799b0834f84d0188af9059ce232b4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:59.047493+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

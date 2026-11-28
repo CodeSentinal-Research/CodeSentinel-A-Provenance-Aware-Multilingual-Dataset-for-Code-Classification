@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001175",
+  "problemId": "P001175",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001175",
+    "title": "Falling Path Minimum Sum",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N \u00d7 N matrix, determine the minimum sum of any falling path. A falling path starts at any element in the first row and moves to the directly below, diagonally left, or diagonally right cell in the next row.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain N integers.",
+    "output": "Print the minimum falling path sum.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001175",
+    "fileSHA": "41caa54c190c3d028665a0fc5e6dea8ac2463ceba98b9389dee0980106106b6d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.865Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "23b87c511d17a2909c8323ac3b64852da52d76ec9944e2575a161c2cf674c343",
+    "normalizedCodeHash": "3a3356b8f69919bb69f8c2ee41df095a3aa57f536dfdf8fca641833dd79924c8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.865Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

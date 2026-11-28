@@ -1,0 +1,74 @@
+{
+  "solutionId": "JAVA_H_P000481",
+  "problemId": "P000481",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000481",
+    "title": "Baseball Game Score",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a list of operations representing scores in a baseball game. Each operation is one of the following: An integer: Record a new score. \"+\": Record the sum of the previous two valid scores. \"D\": Record double the previous valid score. \"C\": Remove the previous valid score. Return the total score after processing all operations.",
+    "input": "Integer n n strings representing operations.",
+    "output": "A single integer representing the total score.",
+    "constraints": "1 <= n <= 1000 Each operation is valid."
+  },
+  "repository": {
+    "name": "cagriozcaglar/ProgrammingExamples",
+    "owner": "cagriozcaglar",
+    "url": "https://github.com/cagriozcaglar/ProgrammingExamples",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "java/human/P000001_P000500/JAVA_H_P000481.java",
+    "fileSHA": "d8db26fc5e5e7e50cc56adbb68f2f2beb97a2753",
+    "url": "https://github.com/cagriozcaglar/ProgrammingExamples/blob/e375c00939cb7238480f81784aaa497b51bbd760/DataStructures/StacksQueues/BaseballGame/BaseballGame.java",
+    "rawUrl": "https://raw.githubusercontent.com/cagriozcaglar/ProgrammingExamples/main/DataStructures/StacksQueues/BaseballGame/BaseballGame.java"
+  },
+  "matching": {
+    "relevanceScore": 69.91
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2018-08-18T12:32:42Z",
+    "lastCommitDate": "2020-10-31T21:01:47Z",
+    "commitCount": 2,
+    "authorCount": 1,
+    "authors": [
+      "Cagri Ozcaglar"
+    ],
+    "firstKnownAuthor": "Cagri Ozcaglar",
+    "latestKnownAuthor": "Cagri Ozcaglar"
+  },
+  "deduplication": {
+    "rawCodeHash": "dc772b4649edc6ab8aa90c400cc98807fcf3e7a0b32d3dc6a6271b0d83cb5816",
+    "normalizedCodeHash": "dc772b4649edc6ab8aa90c400cc98807fcf3e7a0b32d3dc6a6271b0d83cb5816",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T02:53:58.714670+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

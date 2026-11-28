@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001411",
+  "problemId": "P001411",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001411",
+    "title": "Find Players With Zero or One Loss",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given the results of multiple matches, where each match contains a winner and a loser, determine: \u2022 All players who never lost. \u2022 All players who lost exactly once. Print both lists in ascending order.",
+    "input": "\u2022 First line contains integer M representing the number of matches. \u2022 Next M lines each contain two integers representing Winner and Loser.",
+    "output": "Print the players with zero losses followed by the players with exactly one loss.",
+    "constraints": "\u2022 1 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001411",
+    "fileSHA": "0764277d1555cd7778a5bdadd22742a7e59103a66f05c80ba3b84beec7b2dbdd",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:24:59.835097+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0764277d1555cd7778a5bdadd22742a7e59103a66f05c80ba3b84beec7b2dbdd",
+    "normalizedCodeHash": "0764277d1555cd7778a5bdadd22742a7e59103a66f05c80ba3b84beec7b2dbdd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:24:59.835120+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

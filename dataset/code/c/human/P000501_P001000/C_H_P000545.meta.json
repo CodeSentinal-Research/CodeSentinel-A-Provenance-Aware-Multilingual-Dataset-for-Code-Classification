@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000545",
+  "problemId": "P000545",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000545",
+    "title": "Constrained Subsequence Sum",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array nums and an integer k, find the maximum sum of a non-empty subsequence such that for every two consecutive chosen elements, their indices differ by at most k. Return the maximum possible sum.",
+    "input": "Integer n Array nums Integer k",
+    "output": "A single integer representing the maximum subsequence sum.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= n -10^4 <= nums[i] <= 10^4"
+  },
+  "repository": {
+    "name": "lrmsspace/LLM-CodeQualityEval",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Output/output_TY/c/Hard/2002-constrained-subsequence-sum.c",
+    "fileSHA": "c58c81b65b6df540f50caa79f4bc10ab0a234f2d",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval/blob/a2817bbe913c51ab32afeb6f6d0ad97b92c45075/Output/output_TY/c/Hard/2002-constrained-subsequence-sum.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/LLM-CodeQualityEval/main/Output/output_TY/c/Hard/2002-constrained-subsequence-sum.c"
+  },
+  "matching": {
+    "relevanceScore": 90.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "96ea291f01da96a3b0ab8344a234b4a325f9abbaf0ef11b19263e6c80b76f695",
+    "normalizedCodeHash": "96ea291f01da96a3b0ab8344a234b4a325f9abbaf0ef11b19263e6c80b76f695",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T00:26:52.692545+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

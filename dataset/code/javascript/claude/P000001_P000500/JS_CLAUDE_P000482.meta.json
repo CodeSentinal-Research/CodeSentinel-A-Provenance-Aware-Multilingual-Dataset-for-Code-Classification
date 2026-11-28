@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000482",
+  "problemId": "P000482",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000482",
+    "title": "Next Greater Element I",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given two arrays nums1 and nums2 where all elements are unique and nums1 is a subset of nums2. For each element in nums1, find the first greater element to its right in nums2. If no such element exists, return -1 for that element.",
+    "input": "Integer n Array nums1 Integer m Array nums2",
+    "output": "An array containing the next greater element for every element in nums1.",
+    "constraints": "1 <= n <= m <= 1000 All elements are unique."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000482",
+    "fileSHA": "4bf502aa0992d73dfe3606fd157beef7041aad73a6808ac9045e586378d11def",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4bf502aa0992d73dfe3606fd157beef7041aad73a6808ac9045e586378d11def",
+    "normalizedCodeHash": "4bf502aa0992d73dfe3606fd157beef7041aad73a6808ac9045e586378d11def",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000482: Next Greater Element I"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

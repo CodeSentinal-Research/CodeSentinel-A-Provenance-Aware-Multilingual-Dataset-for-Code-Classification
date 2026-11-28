@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000406",
+  "problemId": "P000406",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000406",
+    "title": "Search Movies by Genre",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Display all movies belonging to the specified genre.",
+    "input": "Movie records and a genre.",
+    "output": "Matching movie records.",
+    "constraints": "1 ≤ Number of Movies ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000406.py",
+    "fileSHA": "02cf293cac2e8fdfa59ff090155070aafb99d7372740d151284f75bf6510ccfa",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:02.515396+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "02cf293cac2e8fdfa59ff090155070aafb99d7372740d151284f75bf6510ccfa",
+    "normalizedCodeHash": "fc67b7ce64bd4e3442db9af55bdc9b51d50a9f57e6e47d2fd8649f022e3af95e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:02.515396+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

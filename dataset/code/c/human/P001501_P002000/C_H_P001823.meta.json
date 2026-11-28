@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001823",
+  "problemId": "P001823",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001823",
+    "title": "Verify Whether a Postorder Traversal Can Represent a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a sequence of distinct integers, determine whether it can represent the postorder traversal of a Binary Search Tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the sequence.",
+    "output": "\u2022 Print YES if the sequence is valid; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "wreeshab/ppl",
+    "owner": "wreeshab",
+    "url": "https://github.com/wreeshab/ppl",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "endsem_practice/inorder_postorder.c",
+    "fileSHA": "1282d237e28b47dc2b0366dcaeb21bf7aa73c0d1",
+    "url": "https://github.com/wreeshab/ppl/blob/a502b818f47196ba1965ff90d37872100968ca7c/endsem_practice/inorder_postorder.c",
+    "rawUrl": "https://raw.githubusercontent.com/wreeshab/ppl/main/endsem_practice/inorder_postorder.c"
+  },
+  "matching": {
+    "relevanceScore": 81.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "cbbf1a6e422828a14c63ef4e961dfc0e3095de7b39747c8608321f411e8b171c",
+    "normalizedCodeHash": "cbbf1a6e422828a14c63ef4e961dfc0e3095de7b39747c8608321f411e8b171c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T16:47:21.066850+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

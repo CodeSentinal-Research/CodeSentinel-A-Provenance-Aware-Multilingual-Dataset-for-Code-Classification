@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000402",
+  "problemId": "P000402",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000402",
+    "title": "Search Flights by Destination",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Display all flights traveling to the specified destination.",
+    "input": "Flight records and a destination.",
+    "output": "Matching flight records.",
+    "constraints": "1 ≤ Number of Flights ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000402.py",
+    "fileSHA": "0320db7232c9d31d97eb24bde8e2d757116540923695b0f239933d4793f007c2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:02.365169+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0320db7232c9d31d97eb24bde8e2d757116540923695b0f239933d4793f007c2",
+    "normalizedCodeHash": "8ab8e4fcd93ac632c1d813c9bc81430edcbba8f8bc1f2389562a9c630dd1cc5f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:02.365169+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

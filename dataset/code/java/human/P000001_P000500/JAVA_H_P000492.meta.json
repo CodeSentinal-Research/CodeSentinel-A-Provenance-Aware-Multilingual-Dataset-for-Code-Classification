@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000492",
+  "problemId": "P000492",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000492",
+    "title": "Simplify Unix Path",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given an absolute Unix-style file path, simplify it according to the following rules: \".\" refers to the current directory. \"..\" moves to the parent directory. Multiple consecutive slashes are treated as a single slash. The simplified path must start with a single slash and contain no trailing slash unless it is the root directory. Return the canonical path.",
+    "input": "A string representing the absolute path.",
+    "output": "The simplified path.",
+    "constraints": "1 <= path.length <= 3000"
+  },
+  "repository": {
+    "name": "amandaburger/LeetCode",
+    "owner": "amandaburger",
+    "url": "https://github.com/amandaburger/LeetCode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "java/simplifyUnixPath.java",
+    "fileSHA": "ccb4af558717be71452c254084fb7518584d02b1",
+    "url": "https://github.com/amandaburger/LeetCode/blob/e618dd535bc7c210e1825349d9ad8a83bc4d48c4/java/simplifyUnixPath.java",
+    "rawUrl": "https://raw.githubusercontent.com/amandaburger/LeetCode/main/java/simplifyUnixPath.java"
+  },
+  "matching": {
+    "relevanceScore": 78.57
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4b9a9e164a09ca5ec220ef70f7f7d2b36b91af76c147b111a7cbe567addc338f",
+    "normalizedCodeHash": "4b9a9e164a09ca5ec220ef70f7f7d2b36b91af76c147b111a7cbe567addc338f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:13:32.456592+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

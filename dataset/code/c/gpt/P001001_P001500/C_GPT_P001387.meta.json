@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001387",
+  "problemId": "P001387",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001387",
+    "title": "Check Array Equality",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given two arrays, determine whether they contain exactly the same elements with identical frequencies regardless of order.",
+    "input": "• First line contains integers N and M. • Second line contains N integers. • Third line contains M integers.",
+    "output": "Print YES if the arrays are equal; otherwise print NO.",
+    "constraints": "• 1 ≤ N, M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001387.c",
+    "fileSHA": "9389e1b7d8bebf02f9761809d252ad4bd324c2b0b34fc27debc1b0f88bd1f049",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.193Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "b7f98f7c5b4a8308fc1fd01f54a089aef38401fbb801197e139b324b72df4d28",
+    "normalizedCodeHash": "9389e1b7d8bebf02f9761809d252ad4bd324c2b0b34fc27debc1b0f88bd1f049",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.193Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

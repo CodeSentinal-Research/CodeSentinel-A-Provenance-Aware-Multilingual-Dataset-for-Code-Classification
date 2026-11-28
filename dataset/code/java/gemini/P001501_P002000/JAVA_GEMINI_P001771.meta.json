@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001771",
+  "problemId": "P001771",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001771",
+    "title": "Find the Vertical Sum of a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree whose nodes contain integer values, determine the sum of node values in every vertical column.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the vertical sums from the leftmost column to the rightmost column.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001771",
+    "fileSHA": "065d4a84ff90641594baf8be83c796f6e0f87b4afe5c5324a85bffbc9d7ea8a7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:09.192880+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "065d4a84ff90641594baf8be83c796f6e0f87b4afe5c5324a85bffbc9d7ea8a7",
+    "normalizedCodeHash": "065d4a84ff90641594baf8be83c796f6e0f87b4afe5c5324a85bffbc9d7ea8a7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:09.192900+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

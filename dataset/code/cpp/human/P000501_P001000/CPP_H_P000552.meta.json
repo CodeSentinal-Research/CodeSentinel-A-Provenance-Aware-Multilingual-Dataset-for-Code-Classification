@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000552",
+  "problemId": "P000552",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000552",
+    "title": "Walls and Gates",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an m \u00d7 n grid where: -1 represents a wall. 0 represents a gate. 2147483647 represents an empty room. Fill each empty room with the distance to its nearest gate. If a room cannot reach any gate, leave its value unchanged.",
+    "input": "Integers m and n Grid of integers.",
+    "output": "The updated grid.",
+    "constraints": "1 <= m, n <= 250"
+  },
+  "repository": {
+    "name": "balajin96/leetcode",
+    "owner": "balajin96",
+    "url": "https://github.com/balajin96/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "cpp/0286-walls-and-gates.cpp",
+    "fileSHA": "9aba37fedc50fd4949d622c285dcbbcb3401a96a",
+    "url": "https://github.com/balajin96/leetcode/blob/d414458f5930fb01df2085043c90a3341cc311c8/cpp/0286-walls-and-gates.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/balajin96/leetcode/main/cpp/0286-walls-and-gates.cpp"
+  },
+  "matching": {
+    "relevanceScore": 86.25
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9d8638ec849ca2bd68eedc535d7c8f8043bab3aba8179c332587fe32908ea0b7",
+    "normalizedCodeHash": "9d8638ec849ca2bd68eedc535d7c8f8043bab3aba8179c332587fe32908ea0b7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T14:31:54.876263+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

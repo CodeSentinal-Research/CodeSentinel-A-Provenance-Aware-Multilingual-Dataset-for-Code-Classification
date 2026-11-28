@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000543",
+  "problemId": "P000543",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000543",
+    "title": "Data Stream as Disjoint Intervals",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Design a data structure that receives a stream of non-negative integers. After each insertion, maintain the numbers as a list of disjoint sorted intervals. Support the following operations: addNum(value) getIntervals() Process a sequence of operations and print the intervals whenever getIntervals() is called.",
+    "input": "Integer q Next q operations",
+    "output": "For every getIntervals() operation, print the current list of intervals.",
+    "constraints": "0 <= value <= 10^4 1 <= q <= 3 \u00d7 10^4"
+  },
+  "repository": {
+    "name": "rickvian/leetcode-javascript-practice-playground",
+    "owner": "rickvian",
+    "url": "https://github.com/rickvian/leetcode-javascript-practice-playground",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "leetcode-solutions/0352-data-stream-as-disjoint-intervals.js",
+    "fileSHA": "d6667dd01f6321bb62bde3ea8297f944a66a1934",
+    "url": "https://github.com/rickvian/leetcode-javascript-practice-playground/blob/b1643cd7ee773ea62b0c83cb9707ccc6525af1c3/leetcode-solutions/0352-data-stream-as-disjoint-intervals.js",
+    "rawUrl": "https://raw.githubusercontent.com/rickvian/leetcode-javascript-practice-playground/main/leetcode-solutions/0352-data-stream-as-disjoint-intervals.js"
+  },
+  "matching": {
+    "relevanceScore": 78.39
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "126c9c976a295180d8c2331dc4e7673bfcbf51ac6a85f598a914f02a98b747fb",
+    "normalizedCodeHash": "126c9c976a295180d8c2331dc4e7673bfcbf51ac6a85f598a914f02a98b747fb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:23:16.886281+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

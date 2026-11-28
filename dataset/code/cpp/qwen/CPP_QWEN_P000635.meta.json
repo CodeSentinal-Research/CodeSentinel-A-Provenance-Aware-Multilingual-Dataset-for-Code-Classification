@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000635",
+  "problemId": "P000635",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000635",
+    "title": "Reverse Nodes in Variable Sized Groups",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and an array groups representing group sizes, reverse the nodes according to the given group sizes in order. If the remaining number of nodes is smaller than the current group size, leave those nodes unchanged. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer g Array groups",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= g <= n 1 <= groups[i] <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000635",
+    "fileSHA": "f8ed03ebbf107317ef4e3e4e134ad70f2770a08d0e749377d016a19bff4ae5ad",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.348Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a619f8c9b04227f65d313c856af634371523c2ca0335530e15cbf358d35eed6d",
+    "normalizedCodeHash": "4b84e01b895d067b8aa7b4603b21b0f826898627fb17ba2c693909080693a7d7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.348Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

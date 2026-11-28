@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P001023",
+  "problemId": "P001023",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001023",
+    "title": "Parent of a Heap Node",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a heap represented as an array and the index of a node, determine the value of its parent. If the node is the root, print -1.",
+    "input": "• First line contains integer N. • Second line contains N integers. • Third line contains integer i.",
+    "output": "Print the parent value or -1.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ i < N"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P001023",
+    "fileSHA": "63ba264546c8012b16c419bc3f75c8492d8f50f73835f23fd9a508f9de67099d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "63ba264546c8012b16c419bc3f75c8492d8f50f73835f23fd9a508f9de67099d",
+    "normalizedCodeHash": "63ba264546c8012b16c419bc3f75c8492d8f50f73835f23fd9a508f9de67099d",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique P001023: Parent of a Heap Node"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

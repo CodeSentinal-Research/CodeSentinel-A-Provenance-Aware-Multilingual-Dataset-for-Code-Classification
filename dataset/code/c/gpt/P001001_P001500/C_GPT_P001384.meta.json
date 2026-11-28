@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001384",
+  "problemId": "P001384",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001384",
+    "title": "Find All Duplicates in an Array",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers where every integer is in the range [1, N], some numbers appear twice and others appear once. Find all duplicated numbers.",
+    "input": "• First line contains integer N. • Second line contains N integers.",
+    "output": "Print all duplicated numbers in ascending order.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001384.c",
+    "fileSHA": "a5cd9ab97b39fce79887a782e991d4294af0d07e57214ddcdfbda1676e92e38a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.178Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "bc1e4d652a72c9182f7ce2fb41a02c6f55369fc7e47d124c12a8f490c51a02a2",
+    "normalizedCodeHash": "a5cd9ab97b39fce79887a782e991d4294af0d07e57214ddcdfbda1676e92e38a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.178Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

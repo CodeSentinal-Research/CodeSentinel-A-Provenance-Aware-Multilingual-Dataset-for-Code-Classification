@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000481",
+  "problemId": "P000481",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000481",
+    "title": "Baseball Game Score",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a list of operations representing scores in a baseball game. Each operation is one of the following: An integer: Record a new score. \"+\": Record the sum of the previous two valid scores. \"D\": Record double the previous valid score. \"C\": Remove the previous valid score. Return the total score after processing all operations.",
+    "input": "Integer n n strings representing operations.",
+    "output": "A single integer representing the total score.",
+    "constraints": "1 <= n <= 1000 Each operation is valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000001_P000500/JS_GPT_P000481.js",
+    "fileSHA": "cf5539c7fd6ef38f959a12c2a2b1c63b054e5199998b9ff93902c58bd8f626d5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cf5539c7fd6ef38f959a12c2a2b1c63b054e5199998b9ff93902c58bd8f626d5",
+    "normalizedCodeHash": "cf5539c7fd6ef38f959a12c2a2b1c63b054e5199998b9ff93902c58bd8f626d5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

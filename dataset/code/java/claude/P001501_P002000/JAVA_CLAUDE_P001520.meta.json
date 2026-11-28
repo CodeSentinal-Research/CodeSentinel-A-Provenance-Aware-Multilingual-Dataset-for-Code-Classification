@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_CLAUDE_P001520",
+  "problemId": "P001520",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001520",
+    "title": "Max Chunks to Make Sorted",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a permutation of integers from 0 to N−1, determine the maximum number of chunks into which the array can be divided so that sorting each chunk individually results in the entire array being sorted.",
+    "input": "• First line contains integer N. • Second line contains N integers.",
+    "output": "Print the maximum number of chunks.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P001520",
+    "fileSHA": "f6a141afcfc88157e80478b1c1d920c6c66b2243f45fe69825b99e9d425dc554",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1832996a6e27147b10ced7bb561fc97fd7c50024e404a5c6cb926cc23e67c2ed",
+    "normalizedCodeHash": "f6a141afcfc88157e80478b1c1d920c6c66b2243f45fe69825b99e9d425dc554",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

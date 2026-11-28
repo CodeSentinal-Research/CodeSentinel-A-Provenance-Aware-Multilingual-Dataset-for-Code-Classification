@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001862",
+  "problemId": "P001862",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001862",
+    "title": "Determine the Optimal Root for Minimum Average Search Cost",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a sorted list of keys and their search frequencies, construct an Optimal Binary Search Tree that minimizes the expected search cost.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the sorted keys. \u2022 The third line contains the successful search frequencies.",
+    "output": "\u2022 Print the minimum expected search cost and the constructed Optimal BST.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001862",
+    "fileSHA": "6250d54213131b4261c7fd925825d18d9376e7807b4719e2993414478eb00443",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:31.959160+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6250d54213131b4261c7fd925825d18d9376e7807b4719e2993414478eb00443",
+    "normalizedCodeHash": "6250d54213131b4261c7fd925825d18d9376e7807b4719e2993414478eb00443",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:31.959180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

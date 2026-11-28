@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001319",
+  "problemId": "P001319",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001319",
+    "title": "Word Search II",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given a character grid and a dictionary of words, determine all dictionary words that can be formed using adjacent cells without reusing any cell.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines contain the grid. \u2022 Next line contains integer N. \u2022 Next N lines contain dictionary words.",
+    "output": "Print all discovered words in lexicographical order.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 20 \u2022 1 \u2264 N \u2264 10^4"
+  },
+  "repository": {
+    "name": "notzenco/dsa",
+    "owner": "notzenco",
+    "url": "https://github.com/notzenco/dsa",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "by-language/c/data-structures/trie.h",
+    "fileSHA": "dcbe7412b2a5ab093f0c461edd50571f0d8a3fd8",
+    "url": "https://github.com/notzenco/dsa/blob/829f5c2aa0d6e53396e74fb460157c9a8c3bdcb5/by-language/c/data-structures/trie.h",
+    "rawUrl": "https://raw.githubusercontent.com/notzenco/dsa/main/by-language/c/data-structures/trie.h"
+  },
+  "matching": {
+    "relevanceScore": 70.77
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9e333d8ed8972736563c1691dcd7358d00ac96d097fa3ffd5ad3a1071bbfad2b",
+    "normalizedCodeHash": "9e333d8ed8972736563c1691dcd7358d00ac96d097fa3ffd5ad3a1071bbfad2b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:48:21.492241+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

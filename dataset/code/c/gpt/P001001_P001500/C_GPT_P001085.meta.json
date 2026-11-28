@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001085",
+  "problemId": "P001085",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001085",
+    "title": "Number of Distinct Paths in a DAG",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a Directed Acyclic Graph and two vertices S and T, determine the number of distinct paths from S to T.",
+    "input": "• First line contains integers N, M, S, and T. • Next M lines contain directed edges.",
+    "output": "Print the total number of distinct paths.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001085.c",
+    "fileSHA": "3e2f0a8ad1a1fb75a699b434be80355a5f59fc17b2825565799eb3572e38df4e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:32.970Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "b3b9f93049488e4dbe5e3fdafcc456a8c061e5695e0510aad402b22af84a2cbe",
+    "normalizedCodeHash": "3e2f0a8ad1a1fb75a699b434be80355a5f59fc17b2825565799eb3572e38df4e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:32.970Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

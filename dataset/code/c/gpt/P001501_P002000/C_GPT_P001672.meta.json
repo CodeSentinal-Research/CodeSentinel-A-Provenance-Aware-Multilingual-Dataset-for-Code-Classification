@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001672",
+  "problemId": "P001672",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001672",
+    "title": "Morris Preorder Traversal",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, perform a preorder traversal without using recursion, an explicit stack, or permanently modifying the tree.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the preorder traversal.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001672.c",
+    "fileSHA": "3da58ffe374fbdc576df472924b085e950b29b90050bfad501f6eee2cf2f7dcc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.192Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "b7b72a771d08b3a93e132fa010c2f956449d9e2bab81e54767f302fe4b4a5623",
+    "normalizedCodeHash": "3da58ffe374fbdc576df472924b085e950b29b90050bfad501f6eee2cf2f7dcc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.192Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001112",
+  "problemId": "P001112",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001112",
+    "title": "Word Ladder Length",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a start word, an end word, and a dictionary of valid words, determine the minimum number of single-character transformations needed to convert the start word into the end word.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain dictionary words. \u2022 Last line contains the start and target words.",
+    "output": "Print the minimum transformation length. Print 0 if impossible.",
+    "constraints": "\u2022 1 \u2264 N \u2264 5000 \u2022 Word length \u2264 20"
+  },
+  "repository": {
+    "name": "iki789/dsa",
+    "owner": "iki789",
+    "url": "https://github.com/iki789/dsa",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "graphs/medium/word_ladder_length.js",
+    "fileSHA": "6129b1c2fdfdda8760d5d2ba48a4fc064a9057c3",
+    "url": "https://github.com/iki789/dsa/blob/7860a4cbfabfe164132aaa0b62525f196c0f56ae/graphs/medium/word_ladder_length.js",
+    "rawUrl": "https://raw.githubusercontent.com/iki789/dsa/main/graphs/medium/word_ladder_length.js"
+  },
+  "matching": {
+    "relevanceScore": 70.88
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4d94e12cff23d163933f67ed20f19888b0fc360dd8545770c5f61ead6d999bbd",
+    "normalizedCodeHash": "4d94e12cff23d163933f67ed20f19888b0fc360dd8545770c5f61ead6d999bbd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:40:14.219514+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

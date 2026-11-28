@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001097",
+  "problemId": "P001097",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001097",
+    "title": "Union-Find Operations",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "You are given N initially disconnected vertices and Q operations. Each operation is either: \u2022 UNION u v: Merge the sets containing vertices u and v. \u2022 FIND u v: Determine whether u and v belong to the same connected component. Process all operations.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Next Q lines each contain an operation.",
+    "output": "For every FIND operation, print YES if both vertices belong to the same set; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001097",
+    "fileSHA": "c53f5db0081347d5c96c4ca2f364d038445b7e921c81ff63208a69e8ee0f62dc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.604Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c35e330f21bb48fb936d1bf0400b688826edfea5a08132fb7c637d3dee294998",
+    "normalizedCodeHash": "71bf831a3ac8e0e7affca2045391763a964fa1d7c9cd0b09293acc2b36aeb633",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.604Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

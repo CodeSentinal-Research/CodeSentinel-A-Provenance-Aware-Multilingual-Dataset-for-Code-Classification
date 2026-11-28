@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001162",
+  "problemId": "P001162",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001162",
+    "title": "Regular Expression Matching",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given a text string and a pattern containing the special characters '.' and '*', determine whether the pattern matches the entire string.",
+    "input": "\u2022 First line contains the text string. \u2022 Second line contains the pattern.",
+    "output": "Print YES if the pattern matches; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 Length of text, pattern \u2264 2000"
+  },
+  "repository": {
+    "name": "elastic/elasticsearch",
+    "owner": "elastic",
+    "url": "https://github.com/elastic/elasticsearch",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "x-pack/plugin/esql/src/main/java/org/elasticsearch/xpack/esql/expression/function/scalar/string/JsonPath.java",
+    "fileSHA": "420bf685bf807bc431fb2a3c834bd9606a112005",
+    "url": "https://github.com/elastic/elasticsearch/blob/3bca3d4a913632e6f76c52d3b6170812f328c054/x-pack/plugin/esql/src/main/java/org/elasticsearch/xpack/esql/expression/function/scalar/string/JsonPath.java",
+    "rawUrl": "https://raw.githubusercontent.com/elastic/elasticsearch/main/x-pack/plugin/esql/src/main/java/org/elasticsearch/xpack/esql/expression/function/scalar/string/JsonPath.java"
+  },
+  "matching": {
+    "relevanceScore": 83.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e836a3939088d90e6759706fb4a6a7ad32151e8d3e40cc36e42baf8876642add",
+    "normalizedCodeHash": "e836a3939088d90e6759706fb4a6a7ad32151e8d3e40cc36e42baf8876642add",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T14:42:40.390554+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

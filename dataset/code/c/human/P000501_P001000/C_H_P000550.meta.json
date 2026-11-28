@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000550",
+  "problemId": "P000550",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000550",
+    "title": "Circular Tour",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "There are n petrol pumps arranged in a circle. Each petrol pump provides a certain amount of petrol and requires a certain amount of petrol to travel to the next pump. Determine the first petrol pump from which a truck can complete the entire circular tour. If no such starting point exists, return -1.",
+    "input": "Integer n Array petrol Array distance",
+    "output": "The starting pump index, or -1 if impossible.",
+    "constraints": "1 <= n <= 10^5 0 <= petrol[i], distance[i] <= 10^9"
+  },
+  "repository": {
+    "name": "enuguru/algorithms_and_datastructures",
+    "owner": "enuguru",
+    "url": "https://github.com/enuguru/algorithms_and_datastructures",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "datastructures/queue/petrol_pump_inacircle.c",
+    "fileSHA": "cd5403b0f23b8261b55bf3d0eaf5817ae2b8fc16",
+    "url": "https://github.com/enuguru/algorithms_and_datastructures/blob/951f7380235f4c6f8971ad8de388d1d758d7cfbd/datastructures/queue/petrol_pump_inacircle.c",
+    "rawUrl": "https://raw.githubusercontent.com/enuguru/algorithms_and_datastructures/main/datastructures/queue/petrol_pump_inacircle.c"
+  },
+  "matching": {
+    "relevanceScore": 68.57
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d01a0072189262dc386f115d86c0f4e3d54a38606632b0198f3471c6e32ac264",
+    "normalizedCodeHash": "d01a0072189262dc386f115d86c0f4e3d54a38606632b0198f3471c6e32ac264",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:36:43.850500+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

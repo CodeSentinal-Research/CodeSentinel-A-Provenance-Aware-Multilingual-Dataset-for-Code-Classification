@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001487",
+  "problemId": "P001487",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001487",
+    "title": "Camelcase Matching",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a pattern and a list of query strings, determine for each query whether it matches the pattern under camel-case matching rules.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain query strings. \u2022 Last line contains the pattern.",
+    "output": "Print YES or NO for each query.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 Query length \u2264 100"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0010_regular_expression_matching/regular_expression.c",
+    "fileSHA": "c736041d193ecb2e008c3792cc4e69808d875490",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0010_regular_expression_matching/regular_expression.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0010_regular_expression_matching/regular_expression.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e54a6e0b8832d9bce54d5ee695fe4ca9368f1ed6aaec2fe3eeec0ae5507e8205",
+    "normalizedCodeHash": "e54a6e0b8832d9bce54d5ee695fe4ca9368f1ed6aaec2fe3eeec0ae5507e8205",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T16:06:27.059427+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

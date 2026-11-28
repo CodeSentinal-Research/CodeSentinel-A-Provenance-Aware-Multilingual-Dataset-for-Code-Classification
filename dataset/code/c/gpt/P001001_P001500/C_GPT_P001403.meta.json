@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001403",
+  "problemId": "P001403",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001403",
+    "title": "Check Arithmetic Subarrays",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array and multiple queries, determine whether each queried subarray can be rearranged to form an arithmetic sequence.",
+    "input": "• First line contains integers N and Q. • Second line contains N integers. • Next Q lines contain two integers L and R.",
+    "output": "For each query print YES or NO.",
+    "constraints": "• 1 ≤ N, Q ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001403.c",
+    "fileSHA": "039def5424ffcc65a4df443158af9171b071c4f23f9fbefbfde38c2ddf57ff40",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.264Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "22a44af8da99a95c6c6f1eb1764be7653a870ec74e7d673fa82f6adba33e5a63",
+    "normalizedCodeHash": "039def5424ffcc65a4df443158af9171b071c4f23f9fbefbfde38c2ddf57ff40",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.264Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001550",
+  "problemId": "P001550",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001550",
+    "title": "Sum of Absolute Differences in Each Window",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and a window size K, for every contiguous subarray of size K, compute the sum of absolute differences between consecutive elements.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the computed value for every window.",
+    "constraints": "\u2022 2 \u2264 K \u2264 N \u2264 10^5 \u2022 -10^5 \u2264 Ai \u2264 10^5"
+  },
+  "repository": {
+    "name": "bminor/glibc",
+    "owner": "bminor",
+    "url": "https://github.com/bminor/glibc",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "elf/tst-absolute-sym.c",
+    "fileSHA": "4dcb735bf5cf6c1b0f7194539c051bd7046ab9dc",
+    "url": "https://github.com/bminor/glibc/blob/master/elf/tst-absolute-sym.c",
+    "rawUrl": "https://raw.githubusercontent.com/bminor/glibc/master/elf/tst-absolute-sym.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ffb3d19ce4e6eafa46b43f1ea9c525ae36b945963bd9d437cc8c87decb52748f",
+    "normalizedCodeHash": "ffb3d19ce4e6eafa46b43f1ea9c525ae36b945963bd9d437cc8c87decb52748f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:43:13.459655+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

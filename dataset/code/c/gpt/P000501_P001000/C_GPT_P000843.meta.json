@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000843",
+  "problemId": "P000843",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000843",
+    "title": "Minimize the Maximum Pair Difference",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer p, form exactly p disjoint pairs. Minimize the maximum absolute difference among all selected pairs. Return the minimum possible maximum difference.",
+    "input": "Integer n Array nums Integer p",
+    "output": "The minimum possible maximum difference.",
+    "constraints": "1 <= n <= 10^5 0 <= p <= n / 2"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000843.c",
+    "fileSHA": "baca984ee96c4453d037ef9576950f2ca2c5b3fff7b8b0066a81d2aa628996f7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "baca984ee96c4453d037ef9576950f2ca2c5b3fff7b8b0066a81d2aa628996f7",
+    "normalizedCodeHash": "baca984ee96c4453d037ef9576950f2ca2c5b3fff7b8b0066a81d2aa628996f7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001656",
+  "problemId": "P001656",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001656",
+    "title": "Flatten a Binary Tree into a Linked List",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree, transform it into a singly linked list in preorder traversal order using the existing tree nodes. Each node in the resulting list must have its left child set to null.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the nodes of the flattened linked list.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001656.c",
+    "fileSHA": "4190b323bb88a302254f0eff2d436516ca2b6011ae92f578b7168a706bfe1995",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.127Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "49d49dd868dd526da2ae0f8dde04860c429d782afcbb86e5cf81dd54b51b702c",
+    "normalizedCodeHash": "4190b323bb88a302254f0eff2d436516ca2b6011ae92f578b7168a706bfe1995",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.127Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

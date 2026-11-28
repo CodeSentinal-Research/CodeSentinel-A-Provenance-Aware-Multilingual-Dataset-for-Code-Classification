@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001093",
+  "problemId": "P001093",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001093",
+    "title": "Check Graph Isomorphism",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given two undirected graphs having the same number of vertices, determine whether they are isomorphic.",
+    "input": "• First line contains integers N, M1, and M2. • Next M1 lines describe the first graph. • Next M2 lines describe the second graph.",
+    "output": "Print YES if the graphs are isomorphic; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001093.c",
+    "fileSHA": "5978afb1a21dfbd11f225d9203b74e6857417f7ecaf06e5db5352a84f73110e7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:32.990Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "ef6f5afa66e8caf28f04a56763732658fd02cd24bbe7b07039158f56da8a4076",
+    "normalizedCodeHash": "5978afb1a21dfbd11f225d9203b74e6857417f7ecaf06e5db5352a84f73110e7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:32.990Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000543",
+  "problemId": "P000543",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000543",
+    "title": "Data Stream as Disjoint Intervals",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Design a data structure that receives a stream of non-negative integers. After each insertion, maintain the numbers as a list of disjoint sorted intervals. Support the following operations: addNum(value) getIntervals() Process a sequence of operations and print the intervals whenever getIntervals() is called.",
+    "input": "Integer q Next q operations",
+    "output": "For every getIntervals() operation, print the current list of intervals.",
+    "constraints": "0 <= value <= 10^4 1 <= q <= 3 \u00d7 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000543",
+    "fileSHA": "dff4d8b9adbdbff7b42914f4c251320ef1ffd397438065f1bcc99a728ad77920",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.469Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "68a03d765bb7ec27211dd6d971956a1c585ceae63a2a0ca11facaf94717a138b",
+    "normalizedCodeHash": "3c38e6f7c01020c7a0e22192f778893e62f589800532f6481d0d5977009cc2a4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.469Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

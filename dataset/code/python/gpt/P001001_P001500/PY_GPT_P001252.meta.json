@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001252",
+  "problemId": "P001252",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001252",
+    "title": "Maximum Length Pair Chain",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given N pairs of integers, determine the maximum length of a chain such that for every consecutive pair (a, b) and (c, d), b < c.",
+    "input": "• First line contains integer N. • Next N lines each contain two integers.",
+    "output": "Print the maximum chain length.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001252.py",
+    "fileSHA": "f81bd798ca9be6ed23b0a8d133522504247d682f6d42fb81363fe5d894af6835",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.958795+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f81bd798ca9be6ed23b0a8d133522504247d682f6d42fb81363fe5d894af6835",
+    "normalizedCodeHash": "21ce9c09386c196445b18bd741f52e584a79dcbfc4d0e19d0f4bef487fb2989a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.958795+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

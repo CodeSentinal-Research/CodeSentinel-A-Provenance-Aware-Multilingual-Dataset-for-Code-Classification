@@ -1,0 +1,59 @@
+{
+  "solutionId": "Java_QWEN_P000734",
+  "problemId": "P000734",
+  "language": "java",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000734",
+    "title": "Knight's Tour",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 N chessboard and a starting position, determine a sequence of knight moves that visits every square exactly once. If a tour exists, output one valid tour; otherwise output -1.",
+    "input": "Integer N Starting row Starting column",
+    "output": "A valid Knight's Tour or -1 if none exists.",
+    "constraints": "1 <= N <= 8"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/Java_QWEN_P000734",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

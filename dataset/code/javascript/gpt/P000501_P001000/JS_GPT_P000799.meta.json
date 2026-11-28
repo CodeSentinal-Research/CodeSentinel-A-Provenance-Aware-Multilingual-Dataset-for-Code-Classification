@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000799",
+  "problemId": "P000799",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000799",
+    "title": "2D Prefix Sum Matrix",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an N × M integer matrix, construct its 2D prefix sum matrix. Each cell (i, j) in the prefix matrix should store the sum of all elements in the rectangle from (0,0) to (i,j).",
+    "input": "Integer N Integer M Matrix grid",
+    "output": "The 2D prefix sum matrix.",
+    "constraints": "1 <= N, M <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000799.js",
+    "fileSHA": "eba720ab9c6ddf221a701cbe1b0eeaeb96465deb96c18e2a980631665ff2b802",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "eba720ab9c6ddf221a701cbe1b0eeaeb96465deb96c18e2a980631665ff2b802",
+    "normalizedCodeHash": "eba720ab9c6ddf221a701cbe1b0eeaeb96465deb96c18e2a980631665ff2b802",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

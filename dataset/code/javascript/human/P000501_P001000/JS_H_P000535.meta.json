@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000535",
+  "problemId": "P000535",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000535",
+    "title": "Reveal Cards in Increasing Order",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You are given a deck of unique integers. Arrange the deck so that when the following process is performed: 1. Reveal the top card. 2. Move the next top card to the bottom. 3. Repeat until the deck is empty. The revealed sequence is in strictly increasing order. Return the required initial ordering of the deck.",
+    "input": "Integer n Array deck",
+    "output": "An array representing the required initial ordering.",
+    "constraints": "1 <= n <= 1000 All card values are unique."
+  },
+  "repository": {
+    "name": "azl397985856/leetcode",
+    "owner": "azl397985856",
+    "url": "https://github.com/azl397985856/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "daily/answers/950.reveal-cards-in-increasing-order.js",
+    "fileSHA": "dc38af38c049b27df5e95604b06be4cde0f256db",
+    "url": "https://github.com/azl397985856/leetcode/blob/master/daily/answers/950.reveal-cards-in-increasing-order.js",
+    "rawUrl": "https://raw.githubusercontent.com/azl397985856/leetcode/master/daily/answers/950.reveal-cards-in-increasing-order.js"
+  },
+  "matching": {
+    "relevanceScore": 72.41
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "508e738320a9bb6d7987b691591ae710854507c21175a2d9a2fdc80ae7c81bdd",
+    "normalizedCodeHash": "508e738320a9bb6d7987b691591ae710854507c21175a2d9a2fdc80ae7c81bdd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:43:35.910065+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

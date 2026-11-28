@@ -1,0 +1,18 @@
+#include <vector>
+
+class Solution {
+public:
+    std::vector<int> evenOddBit(int n) {
+        int even = 0, odd = 0, i = 0;
+        while (n > 0) {
+            // If current bit is set, multiply base into result
+            if (n & 1) {
+                if (i % 2 == 0) even++;
+                else odd++;
+            }
+            n >>= 1;
+            i++;
+        }
+        return {even, odd};
+    }
+};

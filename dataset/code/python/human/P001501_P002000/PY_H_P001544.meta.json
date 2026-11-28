@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001544",
+  "problemId": "P001544",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001544",
+    "title": "Count Windows With Sum Greater Than X",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers, a window size K, and an integer X, count how many contiguous subarrays of size K have a sum strictly greater than X.",
+    "input": "\u2022 First line contains N, K, and X. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the required count.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N \u2022 -10^4 \u2264 Ai \u2264 10^4"
+  },
+  "repository": {
+    "name": "TuZehai/Sheffield_Clarity_CEC1_Entry",
+    "owner": "TuZehai",
+    "url": "https://github.com/TuZehai/Sheffield_Clarity_CEC1_Entry",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "utils.py",
+    "fileSHA": "638f49e133cb09914a982d51b41c23a9932b8c70",
+    "url": "https://github.com/TuZehai/Sheffield_Clarity_CEC1_Entry/blob/179a95130505a2cd3fb9673884dda7923b6f3ea8/utils.py",
+    "rawUrl": "https://raw.githubusercontent.com/TuZehai/Sheffield_Clarity_CEC1_Entry/main/utils.py"
+  },
+  "matching": {
+    "relevanceScore": 85.4
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "83776d98b1903b7234279423a9e96db09cafc59ea1319b09a734d447a1eb8e53",
+    "normalizedCodeHash": "83776d98b1903b7234279423a9e96db09cafc59ea1319b09a734d447a1eb8e53",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T23:34:52.948182+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

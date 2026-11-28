@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000817",
+  "problemId": "P000817",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000817",
+    "title": "Search in Rotated Sorted Array",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given a rotated sorted array of distinct integers and a target value, return its index. If the target is not present, return -1. The solution must run in O(log n) time.",
+    "input": "Integer n Rotated sorted array nums Integer target",
+    "output": "The index of the target, or -1.",
+    "constraints": "1 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000817",
+    "fileSHA": "125adcad073d3dfc0cb57135af0b2df1d332b7e6a94a7f7106c0a1130cb44b8e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "125adcad073d3dfc0cb57135af0b2df1d332b7e6a94a7f7106c0a1130cb44b8e",
+    "normalizedCodeHash": "125adcad073d3dfc0cb57135af0b2df1d332b7e6a94a7f7106c0a1130cb44b8e",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000817"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

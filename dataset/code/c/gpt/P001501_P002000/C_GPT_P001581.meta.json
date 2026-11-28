@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001581",
+  "problemId": "P001581",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001581",
+    "title": "Longest Subarray With At Most K Negative Numbers",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and an integer K, determine the maximum length of a contiguous subarray containing at most K negative numbers.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the maximum length.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • 0 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001581.c",
+    "fileSHA": "6c919a52c198094979006816fe05b49768a4f2b8032fc881950f67649d0d6796",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.836Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "56968bdd32c8636b99b7a8dbbacb1fe58e49522ef35668f6937a68deaf945db7",
+    "normalizedCodeHash": "6c919a52c198094979006816fe05b49768a4f2b8032fc881950f67649d0d6796",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.836Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001751",
+  "problemId": "P001751",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001751",
+    "title": "Count Nodes Having Exactly K Descendants",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree and an integer K, determine the number of nodes having exactly K descendants.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains K.",
+    "output": "\u2022 Print the count.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5 \u2022 0 \u2264 K < N"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/1900-1999/1973.Count Nodes Equal to Sum of Descendants/Solution.java",
+    "fileSHA": "28043db3314f1cf70924b7b164fd9316735f0a38",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/1900-1999/1973.Count Nodes Equal to Sum of Descendants/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/1900-1999/1973.Count Nodes Equal to Sum of Descendants/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "dff98489a8578ec7ec4ccd6ab25d35d5a34e055d763f251ba38ea8cbc0dba3f0",
+    "normalizedCodeHash": "dff98489a8578ec7ec4ccd6ab25d35d5a34e055d763f251ba38ea8cbc0dba3f0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:25.858992+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

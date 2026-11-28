@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001802",
+  "problemId": "P001802",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001802",
+    "title": "Convert a Sorted Doubly Linked List into a Height-Balanced Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a sorted doubly linked list, construct a height-balanced Binary Search Tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the sorted doubly linked list.",
+    "output": "\u2022 Print the constructed BST.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/sorting/src/merge_sort/merge_sort_linked_list.c",
+    "fileSHA": "12a863deede5118d68b8a81929718dc8f21a9d74",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/sorting/src/merge_sort/merge_sort_linked_list.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/sorting/src/merge_sort/merge_sort_linked_list.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "80ebb000e03bcaea3166e15cedd45d2a1578e81492d348e0a17e277b3ab14ec7",
+    "normalizedCodeHash": "80ebb000e03bcaea3166e15cedd45d2a1578e81492d348e0a17e277b3ab14ec7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:28:44.617434+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

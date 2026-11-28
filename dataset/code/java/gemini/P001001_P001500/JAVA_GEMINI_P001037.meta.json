@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001037",
+  "problemId": "P001037",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001037",
+    "title": "Task Scheduler with Cooling Time",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given a list of tasks represented by uppercase letters and a non-negative cooling interval K, determine the minimum number of time units required to execute all tasks such that identical tasks are separated by at least K time units.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N uppercase letters. \u2022 Third line contains integer K.",
+    "output": "Print the minimum execution time.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001037",
+    "fileSHA": "5c42d776ff5e80800739d2c49f1eb2d6d97f6ac514c496a6d602f843fac58def",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:38:23.557946+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5c42d776ff5e80800739d2c49f1eb2d6d97f6ac514c496a6d602f843fac58def",
+    "normalizedCodeHash": "5c42d776ff5e80800739d2c49f1eb2d6d97f6ac514c496a6d602f843fac58def",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:38:23.557969+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

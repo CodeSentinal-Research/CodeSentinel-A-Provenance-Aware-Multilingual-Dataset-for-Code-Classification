@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001099",
+  "problemId": "P001099",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001099",
+    "title": "Detect Cycle Using Union-Find",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given an undirected graph, determine whether it contains a cycle using the Disjoint Set Union (Union-Find) algorithm.",
+    "input": "• First line contains integers N and M. • Next M lines contain graph edges.",
+    "output": "Print YES if the graph contains a cycle; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001099.c",
+    "fileSHA": "24bfa00379d324666504893335c4cdb591f80b31422112a3d4dfda53a2bbe493",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.007Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "fb1f07b913be18ecc45f0865bb4efbe53bc93518aa4347fb72d97948691db27f",
+    "normalizedCodeHash": "24bfa00379d324666504893335c4cdb591f80b31422112a3d4dfda53a2bbe493",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.007Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

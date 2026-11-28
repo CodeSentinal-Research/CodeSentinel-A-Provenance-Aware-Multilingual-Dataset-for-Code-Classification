@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000736",
+  "problemId": "P000736",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000736",
+    "title": "K-th Symbol in Grammar",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "The first row contains a single symbol 0. Each 0 generates 01, and each 1 generates 10 in the next row. Given integers N and K, return the K-th symbol in the N-th row.",
+    "input": "Integer N Integer K",
+    "output": "The K-th symbol.",
+    "constraints": "1 <= N <= 30 1 <= K <= 2^(N-1)"
+  },
+  "repository": {
+    "name": "Algo-Phantoms/Algo-Tree",
+    "owner": "Algo-Phantoms",
+    "url": "https://github.com/Algo-Phantoms/Algo-Tree",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Code/C++/Kth_Symbol_Grammar.cpp",
+    "fileSHA": "e46b60a849bd814a8876d09414d3d5c0633ed9d0",
+    "url": "https://github.com/Algo-Phantoms/Algo-Tree/blob/c7c23fd19ff578be8561710f331f16b201610365/Code/C++/Kth_Symbol_Grammar.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/Algo-Phantoms/Algo-Tree/main/Code/C++/Kth_Symbol_Grammar.cpp"
+  },
+  "matching": {
+    "relevanceScore": 87.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6555667a5f1385d8912ba235d711de0e38c640b6b1c0321b1fe772beebc24d27",
+    "normalizedCodeHash": "6555667a5f1385d8912ba235d711de0e38c640b6b1c0321b1fe772beebc24d27",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:16:10.453728+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

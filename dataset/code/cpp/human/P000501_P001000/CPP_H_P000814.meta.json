@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000814",
+  "problemId": "P000814",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000814",
+    "title": "First Bad Version",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given n versions labeled from 1 to n. There exists a version after which every version is bad. You are provided with an API: isBadVersion(version) Return the first bad version using binary search.",
+    "input": "Integer n",
+    "output": "The first bad version.",
+    "constraints": "1 <= n <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "C++/first-bad-version.cpp",
+    "fileSHA": "6d143fef7681ad09d337fbd0256315ea4cf928fb",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/first-bad-version.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/C++/first-bad-version.cpp"
+  },
+  "matching": {
+    "relevanceScore": 78.89
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6839be279fc8adaa131b29eb7c861d1668358871fa94de12f4388224bc1f34b7",
+    "normalizedCodeHash": "6839be279fc8adaa131b29eb7c861d1668358871fa94de12f4388224bc1f34b7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T15:55:08.812094+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000384",
+  "problemId": "P000384",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000384",
+    "title": "Search Invoice by Invoice Number",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find an invoice using its invoice number.",
+    "input": "Invoice records and an invoice number.",
+    "output": "Invoice details or \"Invoice Not Found\".",
+    "constraints": "1 ≤ Number of Invoices ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000384.c",
+    "fileSHA": "3864cb40c3172e218363453717affcc30ba09c1a9622d7863837dc89a78ee453",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3864cb40c3172e218363453717affcc30ba09c1a9622d7863837dc89a78ee453",
+    "normalizedCodeHash": "3864cb40c3172e218363453717affcc30ba09c1a9622d7863837dc89a78ee453",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

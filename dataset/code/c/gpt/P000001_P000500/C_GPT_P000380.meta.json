@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000380",
+  "problemId": "P000380",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000380",
+    "title": "Search Hotel by Hotel ID",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Search for a hotel using its unique hotel ID.",
+    "input": "Hotel records and a hotel ID.",
+    "output": "Hotel details or \"Hotel Not Found\".",
+    "constraints": "1 ≤ Number of Hotels ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000380.c",
+    "fileSHA": "fee4005ba713f27d1bc1de21b5d9db03c077cfeeaa2b20bdf11175736db2c782",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fee4005ba713f27d1bc1de21b5d9db03c077cfeeaa2b20bdf11175736db2c782",
+    "normalizedCodeHash": "fee4005ba713f27d1bc1de21b5d9db03c077cfeeaa2b20bdf11175736db2c782",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

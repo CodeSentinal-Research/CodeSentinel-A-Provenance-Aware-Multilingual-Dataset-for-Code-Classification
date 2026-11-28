@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001512",
+  "problemId": "P001512",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001512",
+    "title": "Binary Subarrays With Sum",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary array and an integer Goal, count the number of contiguous subarrays whose sum equals Goal.",
+    "input": "• First line contains integers N and Goal. • Second line contains N binary integers.",
+    "output": "Print the total number of valid subarrays.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001512.c",
+    "fileSHA": "8089970aa782e0bc76e934b706ef5213ec874aad5a6bfd0b1f7ed3713e9a2143",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.610Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "e9caab89b35dfbcfa1fcb537ea38fc7e413f471440c6d091e4ad167d3ba11a79",
+    "normalizedCodeHash": "8089970aa782e0bc76e934b706ef5213ec874aad5a6bfd0b1f7ed3713e9a2143",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.610Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

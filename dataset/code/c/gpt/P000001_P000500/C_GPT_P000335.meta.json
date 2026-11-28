@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000335",
+  "problemId": "P000335",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000335",
+    "title": "Camelcase Matching",
+    "category": "Strings",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that checks which queries match a given pattern in camel case style.",
+    "input": "A list of queries and a pattern.",
+    "output": "Boolean list of matches.",
+    "constraints": "1 ≤ queries.length ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000335.c",
+    "fileSHA": "0dacb50856eeab991af9eb8628ec6e3ce66dceb2dc168e748fd3a3e34e9e18fd",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0dacb50856eeab991af9eb8628ec6e3ce66dceb2dc168e748fd3a3e34e9e18fd",
+    "normalizedCodeHash": "0dacb50856eeab991af9eb8628ec6e3ce66dceb2dc168e748fd3a3e34e9e18fd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

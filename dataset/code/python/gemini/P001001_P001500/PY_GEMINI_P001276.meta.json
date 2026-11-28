@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001276",
+  "problemId": "P001276",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001276",
+    "title": "Maximize Distance to Closest Person",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Given a row of seats represented by 0 (empty) and 1 (occupied), determine the maximum possible distance to the closest occupied seat by choosing an optimal empty seat.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers (0 or 1).",
+    "output": "Print the maximum possible distance.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001276",
+    "fileSHA": "a0609ae478881170ac32cb97b3ba906647f0dbfadf9b3be94fbef47060b9fd43",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:19:58.293540+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a0609ae478881170ac32cb97b3ba906647f0dbfadf9b3be94fbef47060b9fd43",
+    "normalizedCodeHash": "a0609ae478881170ac32cb97b3ba906647f0dbfadf9b3be94fbef47060b9fd43",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:19:58.293596+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

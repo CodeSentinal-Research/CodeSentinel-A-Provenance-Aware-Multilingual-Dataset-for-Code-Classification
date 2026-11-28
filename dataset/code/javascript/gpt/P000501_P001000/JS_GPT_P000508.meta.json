@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000508",
+  "problemId": "P000508",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000508",
+    "title": "Number of Visible People in a Queue",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "There are n people standing in a queue, each having a distinct height. For every person, determine how many people to their right are visible. A person j is visible to person i if: j > i Every person between i and j has a height smaller than both person i and person j. Return an array where the i-th element is the number of people visible to the right of person i.",
+    "input": "Integer n Array heights",
+    "output": "An array of n integers.",
+    "constraints": "1 <= n <= 10^5 1 <= heights[i] <= 10^5 All heights are distinct."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000508.js",
+    "fileSHA": "69b9ba3b0f30805a118a0bc6534a48463bb673cb34c305f61b4977a7fa88c4b8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "69b9ba3b0f30805a118a0bc6534a48463bb673cb34c305f61b4977a7fa88c4b8",
+    "normalizedCodeHash": "69b9ba3b0f30805a118a0bc6534a48463bb673cb34c305f61b4977a7fa88c4b8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

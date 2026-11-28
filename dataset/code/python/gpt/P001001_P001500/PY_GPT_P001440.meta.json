@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001440",
+  "problemId": "P001440",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001440",
+    "title": "Longest Word Through Deleting",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string and a dictionary of words, determine the longest dictionary word that can be obtained by deleting some characters from the string. If multiple answers exist, return the lexicographically smallest one.",
+    "input": "• First line contains the source string. • Second line contains integer N. • Next N lines contain dictionary words.",
+    "output": "Print the required word or an empty string if none exists.",
+    "constraints": "• 1 ≤ Length of source string ≤ 2×10^5 • 1 ≤ N ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001440.py",
+    "fileSHA": "73a1e02ddc5e310e399735ee4216aaf0403db75fdc7b413c677e4817796fed97",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.877834+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "73a1e02ddc5e310e399735ee4216aaf0403db75fdc7b413c677e4817796fed97",
+    "normalizedCodeHash": "01580cf929c105c5b688245b5da355df6e4a295fa171346ced2cb2c153f4e1fb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.877834+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

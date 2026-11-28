@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001140",
+  "problemId": "P001140",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001140",
+    "title": "Unbounded Knapsack",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given N items, each with a weight and value, determine the maximum obtainable value when each item may be selected an unlimited number of times without exceeding the knapsack capacity.",
+    "input": "• First line contains integers N and W. • Next N lines contain weight and value.",
+    "output": "Print the maximum obtainable value.",
+    "constraints": "• 1 ≤ N ≤ 1000 • 1 ≤ W ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001140.c",
+    "fileSHA": "3e4ef9cfed6da565bd0958e830ae5593a6b2b7d12a3bd7d26b60de2441a49a7d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.108Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "6b1207efca4c51ba92cc30a1bd6582670e43646e494112026bfe372afb28988b",
+    "normalizedCodeHash": "3e4ef9cfed6da565bd0958e830ae5593a6b2b7d12a3bd7d26b60de2441a49a7d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.108Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001547",
+  "problemId": "P001547",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001547",
+    "title": "Maximum Number of Odd Elements in a Window",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and a window size K, find the maximum number of odd integers in any contiguous subarray of size K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the answer.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/datastructures/queues/SlidingWindowMaximum.java",
+    "fileSHA": "d6720dd01e2961d166c8a871b28ae14ec61490dd",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/queues/SlidingWindowMaximum.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/datastructures/queues/SlidingWindowMaximum.java"
+  },
+  "matching": {
+    "relevanceScore": 66.79
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "796916364837dd7d8e9ab84cd27feaa3d29d61ddd782abe34a82da94c1cc3362",
+    "normalizedCodeHash": "796916364837dd7d8e9ab84cd27feaa3d29d61ddd782abe34a82da94c1cc3362",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:34.143385+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

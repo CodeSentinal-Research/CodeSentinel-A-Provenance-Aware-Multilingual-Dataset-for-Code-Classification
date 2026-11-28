@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001211",
+  "problemId": "P001211",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001211",
+    "title": "Partition to K Equal Sum Subsets",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of positive integers and an integer K, determine whether the array can be partitioned into exactly K non-empty subsets having equal sums.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print YES if such a partition exists; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 16 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001211.js",
+    "fileSHA": "465855940557038d16033ee9e7fde7c1e304187d03e6a1cca3258ad8fe3eedf0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T10:11:26.401164+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "465855940557038d16033ee9e7fde7c1e304187d03e6a1cca3258ad8fe3eedf0",
+    "normalizedCodeHash": "465855940557038d16033ee9e7fde7c1e304187d03e6a1cca3258ad8fe3eedf0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T10:11:26.401164+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

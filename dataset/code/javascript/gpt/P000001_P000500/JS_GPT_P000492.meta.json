@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000492",
+  "problemId": "P000492",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000492",
+    "title": "Simplify Unix Path",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given an absolute Unix-style file path, simplify it according to the following rules: \".\" refers to the current directory. \"..\" moves to the parent directory. Multiple consecutive slashes are treated as a single slash. The simplified path must start with a single slash and contain no trailing slash unless it is the root directory. Return the canonical path.",
+    "input": "A string representing the absolute path.",
+    "output": "The simplified path.",
+    "constraints": "1 <= path.length <= 3000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000001_P000500/JS_GPT_P000492.js",
+    "fileSHA": "6d6f4f7d7018d4e1aa3efb250502b8dddaea11cecc662992290abcce2822591a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6d6f4f7d7018d4e1aa3efb250502b8dddaea11cecc662992290abcce2822591a",
+    "normalizedCodeHash": "6d6f4f7d7018d4e1aa3efb250502b8dddaea11cecc662992290abcce2822591a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

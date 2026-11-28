@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001194",
+  "problemId": "P001194",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001194",
+    "title": "Partition Array for Maximum Sum",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array and an integer K, partition the array into contiguous subarrays of length at most K. Replace each subarray with its maximum element repeated throughout the partition. Determine the maximum possible total sum.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the maximum obtainable sum.",
+    "constraints": "\u2022 1 \u2264 N \u2264 500 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001194",
+    "fileSHA": "2a9d5b11244291581f8d76c830b83beb648202d1d2f6d04301026f834f6eb8ea",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:15:23.363417+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2a9d5b11244291581f8d76c830b83beb648202d1d2f6d04301026f834f6eb8ea",
+    "normalizedCodeHash": "2a9d5b11244291581f8d76c830b83beb648202d1d2f6d04301026f834f6eb8ea",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:15:23.363459+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

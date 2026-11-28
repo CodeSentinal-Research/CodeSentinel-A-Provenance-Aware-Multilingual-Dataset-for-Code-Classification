@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000495",
+  "problemId": "P000495",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000495",
+    "title": "Online Stock Span",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Design a data structure that processes a stream of stock prices. For each incoming stock price, return its span, defined as the maximum number of consecutive days (including today) for which the stock price has been less than or equal to today's price. Process all queries efficiently.",
+    "input": "Integer q Next q lines each contain one stock price.",
+    "output": "For each stock price, print its span.",
+    "constraints": "1 <= q <= 10^5 1 <= price <= 10^5"
+  },
+  "repository": {
+    "name": "josh24311/c_practice",
+    "owner": "josh24311",
+    "url": "https://github.com/josh24311/c_practice",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "901. Online Stock Span.c",
+    "fileSHA": "cd3d467a612d1a2f4bd8fd80ff61ad0be9c98177",
+    "url": "https://github.com/josh24311/c_practice/blob/9e25e7b4e38550a7bba051186674a342440d7f00/901. Online Stock Span.c",
+    "rawUrl": "https://raw.githubusercontent.com/josh24311/c_practice/main/901. Online Stock Span.c"
+  },
+  "matching": {
+    "relevanceScore": 81.35
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "eada93df19a1497090075dc8d7ba32b841837f0bf081f96a4d22fc8b1920b0d4",
+    "normalizedCodeHash": "eada93df19a1497090075dc8d7ba32b841837f0bf081f96a4d22fc8b1920b0d4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:23:50.191089+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000708",
+  "problemId": "P000708",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000708",
+    "title": "Tower of Hanoi",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given N disks placed on the source rod, move all disks to the destination rod using the auxiliary rod. Only one disk may be moved at a time, and a larger disk may never be placed on top of a smaller disk. Print the sequence of moves and the total number of moves.",
+    "input": "Integer N",
+    "output": "The sequence of valid moves. The total number of moves.",
+    "constraints": "1 <= N <= 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "javascript/gemini/JS_GEMINI_P000708",
+    "fileSHA": "56e89d39c154f29a5c13614a2f50d83db723fc29838b278830796b5375c8263b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:54:46.630227+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "56e89d39c154f29a5c13614a2f50d83db723fc29838b278830796b5375c8263b",
+    "normalizedCodeHash": "56e89d39c154f29a5c13614a2f50d83db723fc29838b278830796b5375c8263b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:54:46.630247+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

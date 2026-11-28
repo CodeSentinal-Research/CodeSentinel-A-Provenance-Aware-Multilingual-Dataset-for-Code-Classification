@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001830",
+  "problemId": "P001830",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001830",
+    "title": "Find the Smallest Key Greater Than a Given Value",
+    "category": "Binary Search Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given the root of a Binary Search Tree and a value X, determine the smallest key that is strictly greater than X.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The last line contains X.",
+    "output": "\u2022 Print the required key, or NONE if no such key exists.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0200-0299/0230.Kth Smallest Element in a BST/Solution.py",
+    "fileSHA": "b3f4c6136fe3b59e8956bfd85b6369b96198aabc",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0200-0299/0230.Kth Smallest Element in a BST/Solution.py",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0200-0299/0230.Kth Smallest Element in a BST/Solution.py"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c53d4eda54279b7c430ca5cd3505ffeb99b1f106bf587e26d02ae989636a79d7",
+    "normalizedCodeHash": "c53d4eda54279b7c430ca5cd3505ffeb99b1f106bf587e26d02ae989636a79d7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:44.793925+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

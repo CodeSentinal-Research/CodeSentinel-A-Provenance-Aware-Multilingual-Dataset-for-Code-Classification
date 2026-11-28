@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001079",
+  "problemId": "P001079",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001079",
+    "title": "Find All Bridges in a Graph",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a connected undirected graph, determine all bridge edges. A bridge is an edge whose removal increases the number of connected components.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print all bridge edges in ascending order. If none exist, print NONE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001079",
+    "fileSHA": "c315d945607ec52fa355f9f4bcbf4b250e127ba93f438fd4f004273f31cdb441",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.597Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "5f9fbd33e086afc283760f281b792864a319fd6b2aef2305d828a05f7b3c7375",
+    "normalizedCodeHash": "e8a5fe68040cc2befe0790da79f6415cef9120a968926aa713213e92514a68bf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.597Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

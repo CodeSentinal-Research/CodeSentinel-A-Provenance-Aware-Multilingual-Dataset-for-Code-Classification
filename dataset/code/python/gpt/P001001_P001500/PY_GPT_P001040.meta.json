@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001040",
+  "problemId": "P001040",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001040",
+    "title": "Maximize Performance of a Team",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given the speed and efficiency of N engineers, choose at most K engineers to maximize the team's performance, where performance is defined as the sum of selected speeds multiplied by the minimum efficiency among the selected engineers.",
+    "input": "• First line contains integers N and K. • Second line contains N speeds. • Third line contains N efficiencies.",
+    "output": "Print the maximum possible performance.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001040.py",
+    "fileSHA": "9f4a45fe3f7b12f06ea026b1db916ea99f5421e2f57cb579af755d520549eb02",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.159067+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9f4a45fe3f7b12f06ea026b1db916ea99f5421e2f57cb579af755d520549eb02",
+    "normalizedCodeHash": "0e90cc257b97347cd397790818d84cdc9c947d1f4160e6672fc7d487877b412c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.159067+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

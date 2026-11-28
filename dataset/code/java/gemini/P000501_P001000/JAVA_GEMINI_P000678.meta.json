@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000678",
+  "problemId": "P000678",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000678",
+    "title": "Josephus Problem Using Circular Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "There are n people standing in a circle numbered from 1 to n. Starting from the first person, every k-th remaining person is eliminated until only one person remains. Simulate the process using a circular linked list and return the label of the survivor.",
+    "input": "Integer n Integer k",
+    "output": "The label of the last remaining person.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "java/gemini/JAVA_GEMINI_P000678",
+    "fileSHA": "08bc6f0cc372793e90225b0601b879c4345c36b848a6a932d141269e3a1b3270",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:51:54.603579+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "08bc6f0cc372793e90225b0601b879c4345c36b848a6a932d141269e3a1b3270",
+    "normalizedCodeHash": "08bc6f0cc372793e90225b0601b879c4345c36b848a6a932d141269e3a1b3270",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:51:54.603597+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

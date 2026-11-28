@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000544",
+  "problemId": "P000544",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000544",
+    "title": "Open the Lock",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You have a lock with four circular wheels, each displaying a digit from 0 to 9. Initially, the lock displays \"0000\". In one move, you may rotate any one wheel one position forward or backward. Some combinations are deadends. If the lock reaches a deadend, it can no longer be used. Given the list of deadends and a target combination, determine the minimum number of moves required to reach the target. Return -1 if it is impossible.",
+    "input": "Integer d Array of deadend strings Target string",
+    "output": "A single integer.",
+    "constraints": "1 <= d <= 500 Every combination has exactly four digits."
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "javascript/gemini/JS_GEMINI_P000544",
+    "fileSHA": "7f8003caede16fe85b1d9761a5978712bc3590e2c3c05250c8a1cd9e257b8a7a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:44:52.689372+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7f8003caede16fe85b1d9761a5978712bc3590e2c3c05250c8a1cd9e257b8a7a",
+    "normalizedCodeHash": "7f8003caede16fe85b1d9761a5978712bc3590e2c3c05250c8a1cd9e257b8a7a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:44:52.689394+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

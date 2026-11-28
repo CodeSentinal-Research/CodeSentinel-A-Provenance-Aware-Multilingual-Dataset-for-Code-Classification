@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001686",
+  "problemId": "P001686",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001686",
+    "title": "Find the Predecessor of a Node in Level Order Traversal",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree and a target node, determine the node that immediately precedes the target in level order traversal. If no such node exists, print NONE.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree. • The last line contains the target node value.",
+    "output": "• Print the level order predecessor.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001686.c",
+    "fileSHA": "b3b68cbf29928dcf892f2739efea44792d5fd9d0de937b69b7eae1c52cca21bc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.343Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "d536ca56fc8aa14af0fa58021d94e3f9383b7d3700b1f9a0d2060fab03e00314",
+    "normalizedCodeHash": "b3b68cbf29928dcf892f2739efea44792d5fd9d0de937b69b7eae1c52cca21bc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.343Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

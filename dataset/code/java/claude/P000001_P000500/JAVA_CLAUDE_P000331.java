@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);int n=sc.nextInt(),m=sc.nextInt();int[]res=new int[n];Deque<Integer>stk=new ArrayDeque<>();int prev=0;for(int k=0;k<m;k++){String[]p=sc.next().split(":");int fid=Integer.parseInt(p[0]),time=Integer.parseInt(p[2]);if(p[1].equals("start")){if(!stk.isEmpty())res[stk.peek()]+=time-prev;stk.push(fid);prev=time;}else{res[stk.pop()]+=time-prev+1;prev=time+1;}}StringJoiner sj=new StringJoiner(" ");for(int v:res)sj.add(String.valueOf(v));System.out.println(sj);}}

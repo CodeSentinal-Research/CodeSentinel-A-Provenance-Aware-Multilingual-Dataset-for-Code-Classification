@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001066",
+  "problemId": "P001066",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001066",
+    "title": "Find All Neighbors of a Vertex",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given an undirected graph and a vertex V, print all vertices directly connected to V in ascending order.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges. \u2022 Last line contains integer V.",
+    "output": "Print all neighboring vertices.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001066",
+    "fileSHA": "80eac47d72f862d5da44b228e888258067e9eee736ad0a33031a869b50a1b208",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:43:31.918272+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "80eac47d72f862d5da44b228e888258067e9eee736ad0a33031a869b50a1b208",
+    "normalizedCodeHash": "80eac47d72f862d5da44b228e888258067e9eee736ad0a33031a869b50a1b208",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:43:31.918301+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

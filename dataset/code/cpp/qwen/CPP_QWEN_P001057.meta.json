@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001057",
+  "problemId": "P001057",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001057",
+    "title": "Maximum Distinct Elements After K Removals",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and an integer K, remove exactly K elements such that the number of distinct elements remaining in the array is maximized.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the maximum possible number of distinct elements.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001057",
+    "fileSHA": "e11a108f2ce40664811bf33cb89e1c497ae08e05ae3791652867076d0e4b4d43",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.587Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "712b6e70f84910381bd453414e494adc75a703b9233720bb305da5d1836c4f60",
+    "normalizedCodeHash": "2c04b4e937851e5eed97ae8f786e634921f3a400e166140c81f8823f8e862a13",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.587Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000596",
+  "problemId": "P000596",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000596",
+    "title": "Sort Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list, sort the list in ascending order and return its head. The solution should achieve O(n log n) time complexity.",
+    "input": "Integer n Linked list",
+    "output": "The sorted linked list.",
+    "constraints": "0 <= n <= 5 × 10^4 -10^5 <= node.value <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000596.c",
+    "fileSHA": "e8681d8b461c570dfd164b85bc6310e890ad1c6e512b9032a12a0bcac4eee0c9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e8681d8b461c570dfd164b85bc6310e890ad1c6e512b9032a12a0bcac4eee0c9",
+    "normalizedCodeHash": "e8681d8b461c570dfd164b85bc6310e890ad1c6e512b9032a12a0bcac4eee0c9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

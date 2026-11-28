@@ -1,0 +1,75 @@
+{
+  "solutionId": "PY_H_P001561",
+  "problemId": "P001561",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001561",
+    "title": "Substring With Concatenation of All Words",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a string S and an array of words, where every word has the same length. Find all starting indices of substrings in S that are formed by concatenating every word exactly once and without any intervening characters. The words may appear in any order.",
+    "input": "\u2022 First line contains string S. \u2022 Second line contains integer M. \u2022 Third line contains M space-separated words.",
+    "output": "\u2022 Print all valid starting indices in increasing order. If none exist, print -1.",
+    "constraints": "\u2022 1 \u2264 |S| \u2264 2 \u00d7 10^5 \u2022 1 \u2264 M \u2264 5000 \u2022 All words have equal length."
+  },
+  "repository": {
+    "name": "jz33/LeetCodeSolutions",
+    "owner": "jz33",
+    "url": "https://github.com/jz33/LeetCodeSolutions",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P001501_P002000/PY_H_P001561.py",
+    "fileSHA": "9a7694fbbc872f4da958affc5bcbc8f070da1896",
+    "url": "https://github.com/jz33/LeetCodeSolutions/blob/86c869ff3bc611042c79007bfbaa9163f335fecf/030 Substring with Concatenation of All Words.py",
+    "rawUrl": "https://raw.githubusercontent.com/jz33/LeetCodeSolutions/main/030 Substring with Concatenation of All Words.py"
+  },
+  "matching": {
+    "relevanceScore": 75.33
+  },
+  "provenance": {
+    "score": 82.5,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2015-02-12T14:41:17Z",
+    "lastCommitDate": "2020-07-30T17:51:14Z",
+    "commitCount": 5,
+    "authorCount": 2,
+    "authors": [
+      "jz33",
+      "Jun"
+    ],
+    "firstKnownAuthor": "jz33",
+    "latestKnownAuthor": "Jun"
+  },
+  "deduplication": {
+    "rawCodeHash": "216d8c1db0ed6249891343645f269601431319de33fab866fd9062b7669f5edd",
+    "normalizedCodeHash": "216d8c1db0ed6249891343645f269601431319de33fab866fd9062b7669f5edd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T11:00:20.118705+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

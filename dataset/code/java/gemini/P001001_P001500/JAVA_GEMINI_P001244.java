@@ -1,0 +1,27 @@
+import java.util.*;
+
+public class Solution {
+    public String reorganizeString(String s) {
+        int[] count = new int[26];
+        for (char c : s.toCharArray()) count[c - 'a']++;
+
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> b[1] - a[1]);
+        for (int i = 0; i < 26; i++) {
+            if (count[i] > 0) pq.offer(new int[]{i, count[i]});
+        }
+
+        StringBuilder sb = new StringBuilder();
+        int[] prev = null;
+
+        while (!pq.isEmpty()) {
+            int[] cur = pq.poll();
+            sb.append((char)('a' + cur[0]));
+            cur[1]--;
+
+            if (prev != null && prev[1] > 0) pq.offer(prev);
+            prev = cur;
+        }
+
+        return sb.length() == s.length() ? sb.toString() : "";
+    }
+}

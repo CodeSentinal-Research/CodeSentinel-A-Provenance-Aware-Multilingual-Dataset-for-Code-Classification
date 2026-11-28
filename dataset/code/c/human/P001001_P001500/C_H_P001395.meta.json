@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001395",
+  "problemId": "P001395",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001395",
+    "title": "Number of Boomerangs",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given the coordinates of N distinct points, count the number of boomerangs. A boomerang is an ordered tuple of three distinct points (i, j, k) such that the distance from i to j equals the distance from i to k.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain two integers representing the coordinates.",
+    "output": "Print the total number of boomerangs.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2000"
+  },
+  "repository": {
+    "name": "quanhua92/interview-prep",
+    "owner": "quanhua92",
+    "url": "https://github.com/quanhua92/interview-prep",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "tier1_foundation/hashmap/solutions/p447_number_of_boomerangs.c",
+    "fileSHA": "94aa3a89ae1f31d9ef9fcaf31c516dfacd48c30a",
+    "url": "https://github.com/quanhua92/interview-prep/blob/ec5eb413f91784736b372095b0d5b1c9fa8d066d/tier1_foundation/hashmap/solutions/p447_number_of_boomerangs.c",
+    "rawUrl": "https://raw.githubusercontent.com/quanhua92/interview-prep/main/tier1_foundation/hashmap/solutions/p447_number_of_boomerangs.c"
+  },
+  "matching": {
+    "relevanceScore": 91.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7a14001f39eded4fe6339a7de5da84b9f7d4415f2d8e286cf3874b7ae8dcc15a",
+    "normalizedCodeHash": "7a14001f39eded4fe6339a7de5da84b9f7d4415f2d8e286cf3874b7ae8dcc15a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T15:42:45.031954+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

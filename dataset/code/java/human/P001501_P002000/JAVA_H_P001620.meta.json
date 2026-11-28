@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001620",
+  "problemId": "P001620",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001620",
+    "title": "Sum of Alternate Elements in a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, determine the sum of elements at alternate positions within each specified range, starting from the left endpoint.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Next Q lines each contain L and R.",
+    "output": "\u2022 For each query, print the required sum.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/1100-1199/1115.Print FooBar Alternately/Solution.java",
+    "fileSHA": "5257fad3592b95455e6f035d8a6b9f55c3d5808c",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/1100-1199/1115.Print FooBar Alternately/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/1100-1199/1115.Print FooBar Alternately/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f53a20c34535c9fbb88be314dd9612d0053f16b82bda3aa9dcb4fd2312ba1aec",
+    "normalizedCodeHash": "f53a20c34535c9fbb88be314dd9612d0053f16b82bda3aa9dcb4fd2312ba1aec",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:13.456424+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

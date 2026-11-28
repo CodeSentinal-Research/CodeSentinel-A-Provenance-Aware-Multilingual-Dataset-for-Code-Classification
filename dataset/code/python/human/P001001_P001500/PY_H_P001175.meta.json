@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001175",
+  "problemId": "P001175",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001175",
+    "title": "Falling Path Minimum Sum",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N \u00d7 N matrix, determine the minimum sum of any falling path. A falling path starts at any element in the first row and moves to the directly below, diagonally left, or diagonally right cell in the next row.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain N integers.",
+    "output": "Print the minimum falling path sum.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/minimum-falling-path-sum.py",
+    "fileSHA": "f9232388f6feb02c1f7323a57bb2a8648acfb183",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/minimum-falling-path-sum.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/minimum-falling-path-sum.py"
+  },
+  "matching": {
+    "relevanceScore": 61.25
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8ae1b312349c62967f41de470e858d4de558aae794dfcdafa91075bf145db592",
+    "normalizedCodeHash": "8ae1b312349c62967f41de470e858d4de558aae794dfcdafa91075bf145db592",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:22:10.150567+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001252",
+  "problemId": "P001252",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001252",
+    "title": "Maximum Length Pair Chain",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given N pairs of integers, determine the maximum length of a chain such that for every consecutive pair (a, b) and (c, d), b < c.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain two integers.",
+    "output": "Print the maximum chain length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001252",
+    "fileSHA": "cbf7f5524721755474e3156db3e3c59402ed84b685f83bcb3c3db910ced46211",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:17:18.110370+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cbf7f5524721755474e3156db3e3c59402ed84b685f83bcb3c3db910ced46211",
+    "normalizedCodeHash": "cbf7f5524721755474e3156db3e3c59402ed84b685f83bcb3c3db910ced46211",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:17:18.110407+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

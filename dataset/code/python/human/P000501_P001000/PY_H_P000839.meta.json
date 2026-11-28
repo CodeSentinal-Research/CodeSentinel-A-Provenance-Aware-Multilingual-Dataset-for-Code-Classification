@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P000839",
+  "problemId": "P000839",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000839",
+    "title": "Find the Smallest Divisor Given a Threshold",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array nums and an integer threshold, choose a positive integer divisor such that the sum of ceil(nums[i] / divisor) over all elements is less than or equal to threshold. Return the smallest possible divisor.",
+    "input": "Integer n Array nums Integer threshold",
+    "output": "The smallest valid divisor.",
+    "constraints": "1 <= n <= 5 \u00d7 10^4 1 <= nums[i] <= 10^6 n <= threshold <= 10^6"
+  },
+  "repository": {
+    "name": "Chaitra1817/CodingSolutions",
+    "owner": "Chaitra1817",
+    "url": "https://github.com/Chaitra1817/CodingSolutions",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000839.py",
+    "fileSHA": "e2bad2acd3e36613d3b3ed2940f5798108c12e90",
+    "url": "https://github.com/Chaitra1817/CodingSolutions/blob/2cdbffadd2125c95e5e434120345f82c4e7d8405/1283. Find the Smallest Divisor Given a Threshold.py",
+    "rawUrl": "https://raw.githubusercontent.com/Chaitra1817/CodingSolutions/main/1283. Find the Smallest Divisor Given a Threshold.py"
+  },
+  "matching": {
+    "relevanceScore": 91.65
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2024-07-08T17:45:03Z",
+    "lastCommitDate": "2024-07-08T17:45:03Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Chaitra1817"
+    ],
+    "firstKnownAuthor": "Chaitra1817",
+    "latestKnownAuthor": "Chaitra1817"
+  },
+  "deduplication": {
+    "rawCodeHash": "9c8a7e95d2a0e5268fe99c65776b714faf2c8f20787373bcad023c796c5c876d",
+    "normalizedCodeHash": "9c8a7e95d2a0e5268fe99c65776b714faf2c8f20787373bcad023c796c5c876d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T05:14:18.442094+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

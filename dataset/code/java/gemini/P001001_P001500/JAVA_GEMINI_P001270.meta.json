@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001270",
+  "problemId": "P001270",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001270",
+    "title": "Minimum Operations to Reduce Array to Zero",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of non-negative integers, in one operation you may choose a positive value x and subtract x from every positive element in the array. Determine the minimum number of operations required to make every element zero.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N non-negative integers.",
+    "output": "Print the minimum number of operations.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001270",
+    "fileSHA": "755bf963e394f97395eb90c746fd1e58e3ff2fc438a7b8754b749ef63a6de4d1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:19:57.719576+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "755bf963e394f97395eb90c746fd1e58e3ff2fc438a7b8754b749ef63a6de4d1",
+    "normalizedCodeHash": "755bf963e394f97395eb90c746fd1e58e3ff2fc438a7b8754b749ef63a6de4d1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:19:57.719604+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

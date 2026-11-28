@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001488",
+  "problemId": "P001488",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001488",
+    "title": "Minimum Length After Deleting Similar Ends",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string, repeatedly remove matching non-empty prefixes and suffixes consisting of the same character until no more removals are possible. Determine the minimum remaining length.",
+    "input": "• First line contains a string.",
+    "output": "Print the minimum remaining length.",
+    "constraints": "• 1 ≤ Length ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001488.js",
+    "fileSHA": "9dede989f147d7b29a15656177987245b07286955d20ad4ab6d463705d2fefb1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9dede989f147d7b29a15656177987245b07286955d20ad4ab6d463705d2fefb1",
+    "normalizedCodeHash": "9dede989f147d7b29a15656177987245b07286955d20ad4ab6d463705d2fefb1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

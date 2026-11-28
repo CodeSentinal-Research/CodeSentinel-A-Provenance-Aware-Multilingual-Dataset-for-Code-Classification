@@ -1,0 +1,24 @@
+#include <vector>
+
+class Solution {
+public:
+    void rearrange(std::vector<long long>& arr, int n) {
+        int maxIdx = n - 1;
+        int minIdx = 0;
+        long long maxElem = arr[n - 1] + 1;
+
+        for (int i = 0; i < n; i++) {
+            if (i % 2 == 0) {
+                arr[i] += (arr[maxIdx] % maxElem) * maxElem;
+                maxIdx--;
+            } else {
+                arr[i] += (arr[minIdx] % maxElem) * maxElem;
+                minIdx++;
+            }
+        }
+
+        for (int i = 0; i < n; i++) {
+            arr[i] /= maxElem;
+        }
+    }
+};

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000567",
+  "problemId": "P000567",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000567",
+    "title": "Cut Off Trees for Golf Event",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a forest represented as a grid. 0 represents an obstacle. 1 represents empty ground. Values greater than 1 represent trees with unique heights. Starting from the top-left cell, cut all trees in increasing order of height. Return the minimum total number of steps required to cut every tree, or -1 if any tree cannot be reached.",
+    "input": "Integers m and n An m \u00d7 n grid",
+    "output": "A single integer representing the minimum number of steps.",
+    "constraints": "1 <= m, n <= 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000567",
+    "fileSHA": "2845069cd229417946f010c0761c9a23b4846cbf4fce22a7c138900cac780f0f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:46:06.951641+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2845069cd229417946f010c0761c9a23b4846cbf4fce22a7c138900cac780f0f",
+    "normalizedCodeHash": "2845069cd229417946f010c0761c9a23b4846cbf4fce22a7c138900cac780f0f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:46:06.951663+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

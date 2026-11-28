@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001064",
+  "problemId": "P001064",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001064",
+    "title": "Check Whether an Edge Exists",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given a graph and Q queries, determine whether a specified edge exists in the graph.",
+    "input": "• First line contains integers N, M, and Q. • Next M lines contain graph edges. • Next Q lines contain pairs of vertices.",
+    "output": "For each query, print YES if the edge exists; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M, Q ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001064.c",
+    "fileSHA": "68fd09a8d7e8845cae15fe736d46ce4e9cf85e8986fe01e21e627667f3fa1b11",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:32.915Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "18901aa9d8356973f55a7fe2b2ebd9c9e367e68a3c9e727200200ea02a4433a5",
+    "normalizedCodeHash": "68fd09a8d7e8845cae15fe736d46ce4e9cf85e8986fe01e21e627667f3fa1b11",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:32.915Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001600",
+  "problemId": "P001600",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001600",
+    "title": "Range Average Query",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, compute the average value of elements in each specified range.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Next Q lines contain L and R.",
+    "output": "\u2022 Print the average for each query.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2 \u00d7 10^5 \u2022 0 \u2264 L \u2264 R < N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001600",
+    "fileSHA": "8b6c58901245f123a940b57c8a48229cbeda1647019ede233132899db730edfe",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:49.991746+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8b6c58901245f123a940b57c8a48229cbeda1647019ede233132899db730edfe",
+    "normalizedCodeHash": "8b6c58901245f123a940b57c8a48229cbeda1647019ede233132899db730edfe",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:49.991778+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000534",
+  "problemId": "P000534",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000534",
+    "title": "Dota2 Senate",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "In the Dota2 senate, senators belong to one of two parties: 'R' (Radiant) 'D' (Dire) The voting proceeds in rounds. During each round, senators act in their current order. A senator who still has voting rights may ban one senator from the opposing party. A banned senator loses all future rights. Assuming every senator acts optimally for their party, determine which party will eventually win.",
+    "input": "A string representing the initial senate order.",
+    "output": "Print \"Radiant\" or \"Dire\".",
+    "constraints": "1 <= senate.length <= 10^4"
+  },
+  "repository": {
+    "name": "DevSars24/dsa-notebook",
+    "owner": "DevSars24",
+    "url": "https://github.com/DevSars24/dsa-notebook",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Greedy/Dota2 Senate.cpp",
+    "fileSHA": "ffe89255e3f7d490bfc912c71caed684f26aba4d",
+    "url": "https://github.com/DevSars24/dsa-notebook/blob/0416150378c32f6c667b891a13c467d94de54241/Greedy/Dota2 Senate.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/DevSars24/dsa-notebook/main/Greedy/Dota2 Senate.cpp"
+  },
+  "matching": {
+    "relevanceScore": 87.5
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "af64119abe4afdea1d2f96ce4cebbd3ec7ad0d69f1f913fe120ab57119ed2fa8",
+    "normalizedCodeHash": "af64119abe4afdea1d2f96ce4cebbd3ec7ad0d69f1f913fe120ab57119ed2fa8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:23:08.873172+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

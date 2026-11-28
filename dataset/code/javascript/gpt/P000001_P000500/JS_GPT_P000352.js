@@ -1,0 +1,2 @@
+// Find First Occurrence of an Element
+const fs=require("fs");const a=fs.readFileSync(0,"utf8").trim().split(/\s+/).map(Number),n=a[0],x=a[n+1];let ans=-1;for(let i=0;i<n;i++)if(a[i+1]===x){ans=i;break;}console.log(ans);

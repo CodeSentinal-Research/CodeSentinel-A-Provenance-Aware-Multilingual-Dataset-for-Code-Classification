@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000837",
+  "problemId": "P000837",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000837",
+    "title": "Minimize Maximum Distance to Gas Station",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Given the positions of existing gas stations and an integer k, add exactly k new gas stations. Return the minimum possible value of the maximum distance between adjacent gas stations. Your answer should be accurate within 10^-6.",
+    "input": "Integer n Sorted array stations Integer k",
+    "output": "The minimized maximum distance.",
+    "constraints": "2 <= n <= 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P000837",
+    "fileSHA": "4539f5aa05e856be6642553e36ebf64d39072000a1dba77a52c7feace765f64e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:29:13.730323+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4539f5aa05e856be6642553e36ebf64d39072000a1dba77a52c7feace765f64e",
+    "normalizedCodeHash": "4539f5aa05e856be6642553e36ebf64d39072000a1dba77a52c7feace765f64e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:29:13.730349+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

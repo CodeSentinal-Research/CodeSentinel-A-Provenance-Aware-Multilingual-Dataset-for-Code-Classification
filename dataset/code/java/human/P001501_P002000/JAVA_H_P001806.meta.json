@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001806",
+  "problemId": "P001806",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001806",
+    "title": "Trim a Binary Search Tree to a Given Range",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree and two values L and R, remove all nodes whose values lie outside the range [L, R] while preserving the Binary Search Tree property.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The last line contains L and R.",
+    "output": "\u2022 Print the resulting BST.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "HemuTatagari/SmartInterviews",
+    "owner": "HemuTatagari",
+    "url": "https://github.com/HemuTatagari/SmartInterviews",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "trim_BST.java",
+    "fileSHA": "649fa5895fe49d60bee8b0f1b6b3a57569c83b81",
+    "url": "https://github.com/HemuTatagari/SmartInterviews/blob/a8729cedc0d5ae9cb733529a6388a33b00e65309/trim_BST.java",
+    "rawUrl": "https://raw.githubusercontent.com/HemuTatagari/SmartInterviews/main/trim_BST.java"
+  },
+  "matching": {
+    "relevanceScore": 88.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b076349ae7cd8f22c6f6c473c3bc47d8b42815a574cf853e183b7e1ed2d897ba",
+    "normalizedCodeHash": "b076349ae7cd8f22c6f6c473c3bc47d8b42815a574cf853e183b7e1ed2d897ba",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T21:35:47.540376+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

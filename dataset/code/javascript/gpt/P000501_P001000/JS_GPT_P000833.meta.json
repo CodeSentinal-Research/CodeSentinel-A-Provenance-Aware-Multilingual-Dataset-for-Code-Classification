@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000833",
+  "problemId": "P000833",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000833",
+    "title": "Allocate Minimum Number of Pages",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array where each element represents the number of pages in a book and an integer students, allocate books such that: Each student receives at least one book. Books assigned to a student must be contiguous. Minimize the maximum number of pages assigned to any student. Return the minimum possible maximum.",
+    "input": "Integer n Array pages Integer students",
+    "output": "The minimum possible maximum pages.",
+    "constraints": "1 <= n <= 10^5 1 <= pages[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000833.js",
+    "fileSHA": "997110d9f6cc6e18e209dfea9652172aaa62a6fa037461c5bf8f09a4f09a2909",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "997110d9f6cc6e18e209dfea9652172aaa62a6fa037461c5bf8f09a4f09a2909",
+    "normalizedCodeHash": "997110d9f6cc6e18e209dfea9652172aaa62a6fa037461c5bf8f09a4f09a2909",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

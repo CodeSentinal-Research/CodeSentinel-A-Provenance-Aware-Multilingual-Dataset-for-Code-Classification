@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000633",
+  "problemId": "P000633",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000633",
+    "title": "Detect and Remove Loop in Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list, determine whether the list contains a cycle. If a cycle exists, remove the loop without losing any nodes and return the head of the modified linked list. If no loop exists, return the original linked list.",
+    "input": "A linked list. The testing system may internally create a cycle.",
+    "output": "The linked list after removing the loop.",
+    "constraints": "Number of nodes is in the range [0, 10^5]"
+  },
+  "repository": {
+    "name": "cscipher/Code-for-HacktoberFest2020",
+    "owner": "cscipher",
+    "url": "https://github.com/cscipher/Code-for-HacktoberFest2020",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Advanced/C/detect_and_break_loop.c",
+    "fileSHA": "439f14261d7251eef79dec15b1921f18b193737a",
+    "url": "https://github.com/cscipher/Code-for-HacktoberFest2020/blob/816a1e81bd49b51176407c46b8fc4be1c6134bf1/Advanced/C/detect_and_break_loop.c",
+    "rawUrl": "https://raw.githubusercontent.com/cscipher/Code-for-HacktoberFest2020/main/Advanced/C/detect_and_break_loop.c"
+  },
+  "matching": {
+    "relevanceScore": 85.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c42f8be27d81d5c0e5a87394daf2aa91fcb0be3920c72b8f84029032e0e4270f",
+    "normalizedCodeHash": "c42f8be27d81d5c0e5a87394daf2aa91fcb0be3920c72b8f84029032e0e4270f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T16:10:31.129176+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

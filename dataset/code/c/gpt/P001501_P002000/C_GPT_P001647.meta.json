@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001647",
+  "problemId": "P001647",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001647",
+    "title": "Bottom View of a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree, determine the set of nodes visible when the tree is viewed from the bottom. For every vertical column, only the lowest visible node should be included.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the bottom view from leftmost column to rightmost column.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001647.c",
+    "fileSHA": "001e3af8320cde9958d3718756827a44480414454dd428fb3f2cad4cafa09dab",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.096Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "788a9d9567824fdc7d088e24078ce38373a2e25faffe968bc155e6f8bc27361d",
+    "normalizedCodeHash": "001e3af8320cde9958d3718756827a44480414454dd428fb3f2cad4cafa09dab",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.096Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

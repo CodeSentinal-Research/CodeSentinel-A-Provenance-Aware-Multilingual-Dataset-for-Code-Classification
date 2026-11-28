@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001270",
+  "problemId": "P001270",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001270",
+    "title": "Minimum Operations to Reduce Array to Zero",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of non-negative integers, in one operation you may choose a positive value x and subtract x from every positive element in the array. Determine the minimum number of operations required to make every element zero.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N non-negative integers.",
+    "output": "Print the minimum number of operations.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001270",
+    "fileSHA": "0338ca465cbebb0b3e6bb8cb868becd3ca26dc89cdf98d1531c53b6671221f91",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:19:57.757739+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0338ca465cbebb0b3e6bb8cb868becd3ca26dc89cdf98d1531c53b6671221f91",
+    "normalizedCodeHash": "0338ca465cbebb0b3e6bb8cb868becd3ca26dc89cdf98d1531c53b6671221f91",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:19:57.757768+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

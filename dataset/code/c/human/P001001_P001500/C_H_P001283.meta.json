@@ -1,0 +1,75 @@
+{
+  "solutionId": "C_H_P001283",
+  "problemId": "P001283",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001283",
+    "title": "Queue Reconstruction by Increasing Height",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Each person is represented by two integers: height and the number of people behind having height less than or equal to theirs. Reconstruct one valid queue satisfying all constraints.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain height and count.",
+    "output": "Print the reconstructed queue.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "kakack/crush-in-leetcode",
+    "owner": "kakack",
+    "url": "https://github.com/kakack/crush-in-leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P001001_P001500/C_H_P001283.c",
+    "fileSHA": "26a90e5c915efa09aba174069d093b03847cff63",
+    "url": "https://github.com/kakack/crush-in-leetcode/blob/ae9e3e290f70da36b2e690b80426baae021cd79b/code/406-Queue Reconstruction by Height/406-Queue Reconstruction by Height.c",
+    "rawUrl": "https://raw.githubusercontent.com/kakack/crush-in-leetcode/main/code/406-Queue Reconstruction by Height/406-Queue Reconstruction by Height.c"
+  },
+  "matching": {
+    "relevanceScore": 58.62
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2022-03-18T07:57:46Z",
+    "lastCommitDate": "2026-03-10T16:26:47Z",
+    "commitCount": 2,
+    "authorCount": 2,
+    "authors": [
+      "kakack",
+      "Chen Kai"
+    ],
+    "firstKnownAuthor": "Chen Kai",
+    "latestKnownAuthor": "kakack"
+  },
+  "deduplication": {
+    "rawCodeHash": "b11da79bdfa034b5dd82d09bd3d7159f17b1708e1527c82e04aed74b8d55b35b",
+    "normalizedCodeHash": "b11da79bdfa034b5dd82d09bd3d7159f17b1708e1527c82e04aed74b8d55b35b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T09:11:57.461496+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

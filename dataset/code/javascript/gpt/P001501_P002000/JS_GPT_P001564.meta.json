@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001564",
+  "problemId": "P001564",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001564",
+    "title": "Sliding Window Median",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and a window size K, compute the median of every contiguous subarray of size K. For an even-sized window, the median is defined as the average of the two middle values after sorting.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the median of every window in order.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • 1 ≤ K ≤ N • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001501_P002000/JS_GPT_P001564.js",
+    "fileSHA": "e7e8a4525070ef553a11e91a4be2011fb454096ba8fc8add03f532d86cc04b33",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e7e8a4525070ef553a11e91a4be2011fb454096ba8fc8add03f532d86cc04b33",
+    "normalizedCodeHash": "e7e8a4525070ef553a11e91a4be2011fb454096ba8fc8add03f532d86cc04b33",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

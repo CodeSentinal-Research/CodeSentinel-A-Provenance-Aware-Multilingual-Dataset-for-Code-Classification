@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001783",
+  "problemId": "P001783",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001783",
+    "title": "Find the Centroid of a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree, determine the centroid node. A centroid is a node such that, after removing it, every remaining connected component contains at most half of the total nodes.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the value of the centroid node.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0500-0599/0563.Binary Tree Tilt/Solution.py",
+    "fileSHA": "0f799a54101c5199e93e170805ca207345f0163c",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0500-0599/0563.Binary Tree Tilt/Solution.py",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0500-0599/0563.Binary Tree Tilt/Solution.py"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "60d811d812ec2035ed3739b2e8c9d721d0663c488f4da651e5e47791fa9affee",
+    "normalizedCodeHash": "60d811d812ec2035ed3739b2e8c9d721d0663c488f4da651e5e47791fa9affee",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:59.465348+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

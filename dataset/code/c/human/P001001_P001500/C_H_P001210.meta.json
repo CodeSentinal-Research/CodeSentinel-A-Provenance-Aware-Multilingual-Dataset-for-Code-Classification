@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P001210",
+  "problemId": "P001210",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001210",
+    "title": "Optimal Strategy for a Game",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given a row of coins, two players alternately pick either the leftmost or rightmost coin. Both play optimally. Determine the maximum value the first player can guarantee to collect.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing coin values.",
+    "output": "Print the maximum value obtainable by the first player.",
+    "constraints": "\u2022 2 \u2264 N \u2264 5000"
+  },
+  "repository": {
+    "name": "vijayaedke/Leetcode",
+    "owner": "vijayaedke",
+    "url": "https://github.com/vijayaedke/Leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P001001_P001500/C_H_P001210.c",
+    "fileSHA": "693196e25af44761e7efe1fe4c2fb65f9b0e918b",
+    "url": "https://github.com/vijayaedke/Leetcode/blob/4403c4f7a057ef43b9562a9a9b399251e119cc0b/src/findOptimalStrategyGame.c",
+    "rawUrl": "https://raw.githubusercontent.com/vijayaedke/Leetcode/main/src/findOptimalStrategyGame.c"
+  },
+  "matching": {
+    "relevanceScore": 60.75
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2019-11-11T17:05:50Z",
+    "lastCommitDate": "2019-11-11T17:05:50Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Vijaya Edke"
+    ],
+    "firstKnownAuthor": "Vijaya Edke",
+    "latestKnownAuthor": "Vijaya Edke"
+  },
+  "deduplication": {
+    "rawCodeHash": "d39af1081501e773deea04135fef6514d85c992f583e52624c86acecbd3b8251",
+    "normalizedCodeHash": "d39af1081501e773deea04135fef6514d85c992f583e52624c86acecbd3b8251",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T08:41:45.437325+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

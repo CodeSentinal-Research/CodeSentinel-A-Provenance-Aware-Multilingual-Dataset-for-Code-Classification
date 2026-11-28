@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001503",
+  "problemId": "P001503",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001503",
+    "title": "Minimum Adjacent Swaps for K Consecutive Ones",
+    "category": "Two Pointers",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary array and an integer K, determine the minimum number of adjacent swaps required to group K ones consecutively.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N binary integers.",
+    "output": "Print the minimum number of swaps.",
+    "constraints": "\u2022 1 \u2264 K \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "lrmsspace/Knowledge-Augmented-Codegen",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "evaluation/S1/c/Medium/1163-minimum-swaps-to-make-strings-equal.c",
+    "fileSHA": "9ca1062fe768bdb1aa24ca67f75aabee079b2eb4",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen/blob/aa02d0f7c87de0b9a725c85dfb03746289785175/evaluation/S1/c/Medium/1163-minimum-swaps-to-make-strings-equal.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/Knowledge-Augmented-Codegen/main/evaluation/S1/c/Medium/1163-minimum-swaps-to-make-strings-equal.c"
+  },
+  "matching": {
+    "relevanceScore": 93.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "836a395e77634c2df82b0c2a76b441f9757a2fa1da81bc0ebbbc8e61d0d9cdb0",
+    "normalizedCodeHash": "836a395e77634c2df82b0c2a76b441f9757a2fa1da81bc0ebbbc8e61d0d9cdb0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T16:29:58.095805+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

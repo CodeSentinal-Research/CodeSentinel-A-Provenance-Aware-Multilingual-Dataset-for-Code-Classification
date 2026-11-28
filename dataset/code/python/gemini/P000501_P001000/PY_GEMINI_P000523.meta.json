@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000523",
+  "problemId": "P000523",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000523",
+    "title": "Remove Nodes From Linked List",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list, remove every node that has a node with a greater value somewhere to its right. Return the head of the modified linked list.",
+    "input": "Integer n Values of the linked list.",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= node.value <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000523",
+    "fileSHA": "5f22dc6d7f74ca038889b7dd6ad1ec967ac062c9f8f59f80a98ed4eecf219e2f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:43:25.907197+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5f22dc6d7f74ca038889b7dd6ad1ec967ac062c9f8f59f80a98ed4eecf219e2f",
+    "normalizedCodeHash": "5f22dc6d7f74ca038889b7dd6ad1ec967ac062c9f8f59f80a98ed4eecf219e2f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:43:25.907230+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

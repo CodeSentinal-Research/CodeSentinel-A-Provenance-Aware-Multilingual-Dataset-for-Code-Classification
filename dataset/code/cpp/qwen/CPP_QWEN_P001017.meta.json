@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001017",
+  "problemId": "P001017",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001017",
+    "title": "Connect Ropes with Minimum Cost",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given the lengths of N ropes, connect all ropes into a single rope. The cost of connecting two ropes equals the sum of their lengths. Determine the minimum total cost.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N rope lengths.",
+    "output": "Print the minimum total cost.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 1 \u2264 Rope Length \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001017",
+    "fileSHA": "a493fa53278b66ee002c93f6c2388f12db1fe8c2ed6c2574196805c91f72f6a3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.565Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a094ce3fff48d3d4eebd139e1671a20bb9f41f3a677e8fef68a78e3bdf9aaf95",
+    "normalizedCodeHash": "5c2901f971ed883a856a41a844b0f28893d547b6a67bd00878ff389a50000278",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.565Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

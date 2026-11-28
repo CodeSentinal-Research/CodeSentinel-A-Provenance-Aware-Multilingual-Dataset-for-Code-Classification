@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000495",
+  "problemId": "P000495",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000495",
+    "title": "Online Stock Span",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Design a data structure that processes a stream of stock prices. For each incoming stock price, return its span, defined as the maximum number of consecutive days (including today) for which the stock price has been less than or equal to today's price. Process all queries efficiently.",
+    "input": "Integer q Next q lines each contain one stock price.",
+    "output": "For each stock price, print its span.",
+    "constraints": "1 <= q <= 10^5 1 <= price <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000495",
+    "fileSHA": "c4074605920fc030b1c3f8b8aed3135a0c5baf8700a64e6e7e9d476d8bbefb97",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c4074605920fc030b1c3f8b8aed3135a0c5baf8700a64e6e7e9d476d8bbefb97",
+    "normalizedCodeHash": "c4074605920fc030b1c3f8b8aed3135a0c5baf8700a64e6e7e9d476d8bbefb97",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000495: Online Stock Span"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

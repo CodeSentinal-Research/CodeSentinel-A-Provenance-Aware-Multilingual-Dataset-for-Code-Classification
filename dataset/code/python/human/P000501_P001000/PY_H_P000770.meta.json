@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000770",
+  "problemId": "P000770",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000770",
+    "title": "Recursive Matrix Chain Multiplication",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array dims where matrix Ai has dimensions dims[i-1] \u00d7 dims[i], determine the minimum number of scalar multiplications required to multiply the entire chain. Solve the problem recursively.",
+    "input": "Integer n Array dims",
+    "output": "The minimum number of scalar multiplications.",
+    "constraints": "2 <= n <= 100"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Python",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "dynamic_programming/matrix_chain_multiplication.py",
+    "fileSHA": "4c0c771f9092697b27c1115ab8e14e25f2894424",
+    "url": "https://github.com/TheAlgorithms/Python/blob/master/dynamic_programming/matrix_chain_multiplication.py",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Python/master/dynamic_programming/matrix_chain_multiplication.py"
+  },
+  "matching": {
+    "relevanceScore": 88.75
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ef4a1f8b4b300eb00e3f4544d5553676ca6b45ec2da8ebb5507935f62bd7d47d",
+    "normalizedCodeHash": "ef4a1f8b4b300eb00e3f4544d5553676ca6b45ec2da8ebb5507935f62bd7d47d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:12:32.529912+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001633",
+  "problemId": "P001633",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001633",
+    "title": "Largest Rectangle With Sum Not Exceeding K",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M matrix of integers and an integer K, determine the maximum area of a rectangular submatrix whose sum does not exceed K.",
+    "input": "\u2022 First line contains N, M, and K. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the maximum rectangle area.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 300 \u2022 -10^4 \u2264 Aij \u2264 10^4"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0200-0299/0223.Rectangle Area/Solution.ts",
+    "fileSHA": "9054b81ef9c8b98bd45f69ff9a19c1357e602145",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0200-0299/0223.Rectangle Area/Solution.ts",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0200-0299/0223.Rectangle Area/Solution.ts"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3cdebb34675a20ef824c0add3dd46903530d97c8c09f27a99538b2c1be653f09",
+    "normalizedCodeHash": "3cdebb34675a20ef824c0add3dd46903530d97c8c09f27a99538b2c1be653f09",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:43.976502+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

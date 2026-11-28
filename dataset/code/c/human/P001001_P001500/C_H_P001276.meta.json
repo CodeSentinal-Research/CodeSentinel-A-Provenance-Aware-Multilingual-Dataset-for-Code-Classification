@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001276",
+  "problemId": "P001276",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001276",
+    "title": "Maximize Distance to Closest Person",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Given a row of seats represented by 0 (empty) and 1 (occupied), determine the maximum possible distance to the closest occupied seat by choosing an optimal empty seat.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers (0 or 1).",
+    "output": "Print the maximum possible distance.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "nyadla-sys/leetcode",
+    "owner": "nyadla-sys",
+    "url": "https://github.com/nyadla-sys/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "problems/849_Maximize_distance_to_Closest_person.c",
+    "fileSHA": "b732729bc73ac85389dbf9241ab86b4dac9e95f2",
+    "url": "https://github.com/nyadla-sys/leetcode/blob/be8cd5ad2370b25092ff2e17610b80d7d5d7b09f/problems/849_Maximize_distance_to_Closest_person.c",
+    "rawUrl": "https://raw.githubusercontent.com/nyadla-sys/leetcode/main/problems/849_Maximize_distance_to_Closest_person.c"
+  },
+  "matching": {
+    "relevanceScore": 92.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "854017efe4a554b071e06b7a7f9b9d3a1fc6b6d3ac4062fcef7ea6403b6b2977",
+    "normalizedCodeHash": "854017efe4a554b071e06b7a7f9b9d3a1fc6b6d3ac4062fcef7ea6403b6b2977",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T16:23:51.557939+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

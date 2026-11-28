@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000621",
+  "problemId": "P000621",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000621",
+    "title": "Remove Elements Greater Than Threshold",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a singly linked list and an integer threshold, remove every node whose value is greater than threshold. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer threshold",
+    "output": "The modified linked list.",
+    "constraints": "0 <= n <= 10^5 -10^9 <= node.value <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000621",
+    "fileSHA": "e1bcd90ee26133c1979a7bb988669e82f770a475425798bb6b9acc7bb82117ea",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.334Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "0829206fc091ac41a8cf6e9081c9bccc0cce482bb818cbf87c7f4929ef5b71f5",
+    "normalizedCodeHash": "9ff99ecadee70c7193e1ee35f4cfb7c1493cd0042aeafbd29e44a2c8a07d02fa",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.334Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

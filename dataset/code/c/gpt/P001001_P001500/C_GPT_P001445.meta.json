@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001445",
+  "problemId": "P001445",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001445",
+    "title": "Number of Matching Subsequences",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string and a list of words, determine how many words are subsequences of the given string.",
+    "input": "• First line contains the string. • Second line contains integer N. • Next N lines contain one word each.",
+    "output": "Print the number of matching subsequences.",
+    "constraints": "• 1 ≤ Length of string ≤ 10^5 • 1 ≤ N ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001445.c",
+    "fileSHA": "1db1f0f47e63f228bd7a1d4ea1e7122cbf7b8a1b23a2052fdbe1d840b669b47b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.398Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "cd82bb61979cca2155822cbd50cd53e0dd18a83b2804a3f3a01b469ff3dc306f",
+    "normalizedCodeHash": "1db1f0f47e63f228bd7a1d4ea1e7122cbf7b8a1b23a2052fdbe1d840b669b47b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.398Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000417",
+  "problemId": "P000417",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000417",
+    "title": "Search Books by Author and Genre",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Find all books written by the specified author that belong to the specified genre.",
+    "input": "Book records, author name, genre.",
+    "output": "Matching books.",
+    "constraints": "1 ≤ Number of Books ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000417",
+    "fileSHA": "1e74acc59dd245a518512e19428ce45bb745652554a9402682812bc44e26569d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1e74acc59dd245a518512e19428ce45bb745652554a9402682812bc44e26569d",
+    "normalizedCodeHash": "1e74acc59dd245a518512e19428ce45bb745652554a9402682812bc44e26569d",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000417: Search Books by Author and Genre"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

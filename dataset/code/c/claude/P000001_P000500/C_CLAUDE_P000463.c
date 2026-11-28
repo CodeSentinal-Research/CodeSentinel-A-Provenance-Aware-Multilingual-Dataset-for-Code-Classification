@@ -1,0 +1,2 @@
+#include<stdio.h>
+int main(){int s1,s2,s3;scanf("%d %d %d",&s1,&s2,&s3);int a[s1],b[s2],c[s3];for(int i=0;i<s1;i++)scanf("%d",&a[i]);for(int i=0;i<s2;i++)scanf("%d",&b[i]);for(int i=0;i<s3;i++)scanf("%d",&c[i]);int i=0,j=0,k=0;while(i<s1&&j<s2&&k<s3){if(a[i]==b[j]&&b[j]==c[k]){printf("%d ",a[i]);i++;j++;k++;}else if(a[i]<=b[j]&&a[i]<=c[k])i++;else if(b[j]<=a[i]&&b[j]<=c[k])j++;else k++;}printf("\n");}

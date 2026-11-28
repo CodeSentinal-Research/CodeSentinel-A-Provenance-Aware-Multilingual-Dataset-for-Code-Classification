@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000637",
+  "problemId": "P000637",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000637",
+    "title": "Delete Nodes Whose Values Occur More Than Once",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of an unsorted singly linked list, remove every node whose value appears more than once in the list. Only nodes with unique values should remain. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The linked list containing only unique-valued nodes.",
+    "constraints": "0 <= n <= 10^5 -10^9 <= node.value <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000637.c",
+    "fileSHA": "4507b8d832c74ea99f4268cbb7522d10b2323ee8bb1c673091132c2ee3506fc5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4507b8d832c74ea99f4268cbb7522d10b2323ee8bb1c673091132c2ee3506fc5",
+    "normalizedCodeHash": "4507b8d832c74ea99f4268cbb7522d10b2323ee8bb1c673091132c2ee3506fc5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

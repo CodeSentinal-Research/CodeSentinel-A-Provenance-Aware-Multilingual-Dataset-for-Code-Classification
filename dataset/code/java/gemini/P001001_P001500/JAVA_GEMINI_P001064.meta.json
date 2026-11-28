@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001064",
+  "problemId": "P001064",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001064",
+    "title": "Check Whether an Edge Exists",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given a graph and Q queries, determine whether a specified edge exists in the graph.",
+    "input": "\u2022 First line contains integers N, M, and Q. \u2022 Next M lines contain graph edges. \u2022 Next Q lines contain pairs of vertices.",
+    "output": "For each query, print YES if the edge exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001064",
+    "fileSHA": "1ad8229fc02a353823321e89b9f5ce64b4aee8c46bb83b254c80fbef2b0a3059",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:43:31.748259+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1ad8229fc02a353823321e89b9f5ce64b4aee8c46bb83b254c80fbef2b0a3059",
+    "normalizedCodeHash": "1ad8229fc02a353823321e89b9f5ce64b4aee8c46bb83b254c80fbef2b0a3059",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:43:31.748289+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

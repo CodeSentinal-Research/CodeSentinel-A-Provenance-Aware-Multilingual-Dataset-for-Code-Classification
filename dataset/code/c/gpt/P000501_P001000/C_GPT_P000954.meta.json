@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000954",
+  "problemId": "P000954",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000954",
+    "title": "Extended Euclidean Algorithm",
+    "category": "Mathematics - Extended Euclidean Algorithm",
+    "difficulty": "Medium",
+    "problemStatement": "Given two integers A and B, compute integers X and Y such that: AX + BY = gcd(A, B)",
+    "input": "Integer A Integer B",
+    "output": "The values X, Y, and gcd(A, B).",
+    "constraints": "1 <= A, B <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000954.c",
+    "fileSHA": "a39e06b63f3eadc66427fd8ed88cc3f4846b5e4e3a790090d33b6277a343cef1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a39e06b63f3eadc66427fd8ed88cc3f4846b5e4e3a790090d33b6277a343cef1",
+    "normalizedCodeHash": "a39e06b63f3eadc66427fd8ed88cc3f4846b5e4e3a790090d33b6277a343cef1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

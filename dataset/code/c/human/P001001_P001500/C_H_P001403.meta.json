@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001403",
+  "problemId": "P001403",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001403",
+    "title": "Check Arithmetic Subarrays",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array and multiple queries, determine whether each queried subarray can be rearranged to form an arithmetic sequence.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Second line contains N integers. \u2022 Next Q lines contain two integers L and R.",
+    "output": "For each query print YES or NO.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "lrmsspace/Knowledge-Augmented-Codegen",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "evaluation/S1/c/Medium/799-arithmetic-slices.c",
+    "fileSHA": "db03224c7ee675d7286259ef9f69db10042d7ecc",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen/blob/aa02d0f7c87de0b9a725c85dfb03746289785175/evaluation/S1/c/Medium/799-arithmetic-slices.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/Knowledge-Augmented-Codegen/main/evaluation/S1/c/Medium/799-arithmetic-slices.c"
+  },
+  "matching": {
+    "relevanceScore": 80.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f6a487f97f96c65bed378ee8a20ac1ff6508b6a13b3ee2fed7e3404e9407944f",
+    "normalizedCodeHash": "f6a487f97f96c65bed378ee8a20ac1ff6508b6a13b3ee2fed7e3404e9407944f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T03:57:53.154422+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

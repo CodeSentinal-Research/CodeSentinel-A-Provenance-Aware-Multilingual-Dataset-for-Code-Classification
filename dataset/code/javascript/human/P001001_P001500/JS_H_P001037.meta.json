@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001037",
+  "problemId": "P001037",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001037",
+    "title": "Task Scheduler with Cooling Time",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given a list of tasks represented by uppercase letters and a non-negative cooling interval K, determine the minimum number of time units required to execute all tasks such that identical tasks are separated by at least K time units.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N uppercase letters. \u2022 Third line contains integer K.",
+    "output": "Print the minimum execution time.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/0621-task-scheduler.js",
+    "fileSHA": "63a22d426d142598bb5c7c5d41d29564c9253a88",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/9f104d45b1efc8c2e42b6dcc7b1216cdf8c4f80e/javascript/0621-task-scheduler.js",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/javascript/0621-task-scheduler.js"
+  },
+  "matching": {
+    "relevanceScore": 81.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6824a0d576313022c288bed2f44471f7c3ae09c811daba63ce4b2254cec798c7",
+    "normalizedCodeHash": "6824a0d576313022c288bed2f44471f7c3ae09c811daba63ce4b2254cec798c7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:39:47.201110+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

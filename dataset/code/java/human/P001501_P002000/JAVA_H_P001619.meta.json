@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001619",
+  "problemId": "P001619",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001619",
+    "title": "XOR of a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, each containing indices L and R, determine the XOR of all elements in the range [L, R].",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Next Q lines each contain L and R.",
+    "output": "\u2022 For each query, print the XOR of the specified range.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2 \u00d7 10^5 \u2022 0 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "Afshith/BitwisePrograms",
+    "owner": "Afshith",
+    "url": "https://github.com/Afshith/BitwisePrograms",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "XorFromAtoB.java",
+    "fileSHA": "7fb3073043a016f26fce7fbb8186aa1b6130bb17",
+    "url": "https://github.com/Afshith/BitwisePrograms/blob/2468b6d90d0ea82e25f48a59d725b087047d378d/XorFromAtoB.java",
+    "rawUrl": "https://raw.githubusercontent.com/Afshith/BitwisePrograms/main/XorFromAtoB.java"
+  },
+  "matching": {
+    "relevanceScore": 72.14
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6d89366bdeb18e55a9d10fe0a1beef69cb2925f73f6131a5979482fc9185d01e",
+    "normalizedCodeHash": "6d89366bdeb18e55a9d10fe0a1beef69cb2925f73f6131a5979482fc9185d01e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:35:27.493017+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

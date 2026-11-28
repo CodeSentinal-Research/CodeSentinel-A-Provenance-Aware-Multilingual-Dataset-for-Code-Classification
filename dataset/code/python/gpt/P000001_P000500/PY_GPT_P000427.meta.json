@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000427",
+  "problemId": "P000427",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000427",
+    "title": "Search Products Eligible for Free Shipping",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Retrieve all products that satisfy the minimum price required for free shipping.",
+    "input": "Product records and the minimum qualifying price.",
+    "output": "Matching products.",
+    "constraints": "1 ≤ Number of Products ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000427.py",
+    "fileSHA": "a56e3bd6f957f7041d9174bcfa978b5a5abe5568c09e699a822fa9e81a3a8d12",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:03.719372+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a56e3bd6f957f7041d9174bcfa978b5a5abe5568c09e699a822fa9e81a3a8d12",
+    "normalizedCodeHash": "6c9073202d98162848414927cfc406d48e3f55db6b0d37762c1c4c82f246ab9b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:03.719372+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

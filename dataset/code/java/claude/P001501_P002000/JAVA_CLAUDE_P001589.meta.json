@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_CLAUDE_P001589",
+  "problemId": "P001589",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001589",
+    "title": "Longest Well-Performing Interval",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array where each element represents the number of hours worked in a day, determine the length of the longest contiguous interval where the number of tiring days (hours > 8) is strictly greater than the number of non-tiring days.",
+    "input": "• First line contains N. • Second line contains N integers.",
+    "output": "• Print the maximum length.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P001589",
+    "fileSHA": "31c51f957056d039208ef170218f394a54f114eff4d59871e3338e0335841e7f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4b54c89c7f2f57215b9af99465ad55aee9a34e9793fbf8f40b7f6765b7050544",
+    "normalizedCodeHash": "31c51f957056d039208ef170218f394a54f114eff4d59871e3338e0335841e7f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001379",
+  "problemId": "P001379",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001379",
+    "title": "Top K Frequent Elements",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer K, return the K most frequent elements. If frequencies are equal, return the smaller element first.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the K most frequent elements.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "elastic/elasticsearch",
+    "owner": "elastic",
+    "url": "https://github.com/elastic/elasticsearch",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "libs/columnar/src/main/java/org/elasticsearch/columnar/numeric/AlpDoubleUtils.java",
+    "fileSHA": "7a4b1534366f8d298a21e22808410d519ba11934",
+    "url": "https://github.com/elastic/elasticsearch/blob/cd4f46d0e29253bdce9501d490d35cb949d89e6c/libs/columnar/src/main/java/org/elasticsearch/columnar/numeric/AlpDoubleUtils.java",
+    "rawUrl": "https://raw.githubusercontent.com/elastic/elasticsearch/main/libs/columnar/src/main/java/org/elasticsearch/columnar/numeric/AlpDoubleUtils.java"
+  },
+  "matching": {
+    "relevanceScore": 88.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "eb3073abb01e4be535d44c8f6a8f3f6de0c0a33967a33560ca5e247b00de17bd",
+    "normalizedCodeHash": "eb3073abb01e4be535d44c8f6a8f3f6de0c0a33967a33560ca5e247b00de17bd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T01:40:28.708890+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

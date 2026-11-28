@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000603",
+  "problemId": "P000603",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000603",
+    "title": "Partition Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a linked list and an integer x, partition the list so that all nodes with values less than x come before nodes with values greater than or equal to x. The original relative order of nodes in each partition must be preserved. Return the head of the partitioned linked list.",
+    "input": "Integer n Linked list Integer x",
+    "output": "The partitioned linked list.",
+    "constraints": "0 <= n <= 200 -100 <= node.value <= 100"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/datastructures/lists/DoublyLinkedList.java",
+    "fileSHA": "58898ddc0fcf030f6472559271f022fe80094938",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/lists/DoublyLinkedList.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/datastructures/lists/DoublyLinkedList.java"
+  },
+  "matching": {
+    "relevanceScore": 65.83
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5d17fadcaf9f3940ae8fb4b38e0b61275fef61ddbb4e35a136a5d5f7920ae166",
+    "normalizedCodeHash": "5d17fadcaf9f3940ae8fb4b38e0b61275fef61ddbb4e35a136a5d5f7920ae166",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:54:23.203046+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

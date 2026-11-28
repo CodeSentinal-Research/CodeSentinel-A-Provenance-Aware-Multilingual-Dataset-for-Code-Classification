@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000536",
+  "problemId": "P000536",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000536",
+    "title": "Jump Game VI",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an integer array nums and an integer k. Starting from index 0, you may jump to any index in the range [i + 1, min(i + k, n - 1)]. The score of a path is the sum of all visited elements. Return the maximum possible score upon reaching the last index.",
+    "input": "Integer n Array nums Integer k",
+    "output": "A single integer representing the maximum score.",
+    "constraints": "1 <= n, k <= 10^5 -10^4 <= nums[i] <= 10^4"
+  },
+  "repository": {
+    "name": "trekhleb/javascript-algorithms",
+    "owner": "trekhleb",
+    "url": "https://github.com/trekhleb/javascript-algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/algorithms/uncategorized/jump-game/dpBottomUpJumpGame.js",
+    "fileSHA": "cfd67fe6db9d9dfd02643c2ac099ad80fa6e2e0a",
+    "url": "https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/uncategorized/jump-game/dpBottomUpJumpGame.js",
+    "rawUrl": "https://raw.githubusercontent.com/trekhleb/javascript-algorithms/master/src/algorithms/uncategorized/jump-game/dpBottomUpJumpGame.js"
+  },
+  "matching": {
+    "relevanceScore": 75.0
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "57c820fe778999537c571349fbcdce081476399602268f3e51ee7933880acb51",
+    "normalizedCodeHash": "57c820fe778999537c571349fbcdce081476399602268f3e51ee7933880acb51",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T01:56:01.076028+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

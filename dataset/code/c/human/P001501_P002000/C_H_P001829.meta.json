@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001829",
+  "problemId": "P001829",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001829",
+    "title": "Find the Largest Key Smaller Than a Given Value",
+    "category": "Binary Search Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given the root of a Binary Search Tree and a value X, determine the largest key that is strictly smaller than X.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The last line contains X.",
+    "output": "\u2022 Print the required key, or NONE if no such key exists.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "pavel-kirienko/cavl",
+    "owner": "pavel-kirienko",
+    "url": "https://github.com/pavel-kirienko/cavl",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/cavl2.h",
+    "fileSHA": "1b83eaf39f1194d5607d2d8577b20caae03f3304",
+    "url": "https://github.com/pavel-kirienko/cavl/blob/73c417f8ce96ffaa856fd0e2194c61c9edf5d2a1/c/cavl2.h",
+    "rawUrl": "https://raw.githubusercontent.com/pavel-kirienko/cavl/main/c/cavl2.h"
+  },
+  "matching": {
+    "relevanceScore": 90.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "bf47d2fdaef7f62b183bb2657da90a917cf53c83e65aae34225e15e91b858f61",
+    "normalizedCodeHash": "bf47d2fdaef7f62b183bb2657da90a917cf53c83e65aae34225e15e91b858f61",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T17:27:12.554932+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

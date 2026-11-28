@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000656",
+  "problemId": "P000656",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000656",
+    "title": "Flatten Linked List with Bottom Pointers",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a linked list where each node contains: next pointer bottom pointer Each bottom list is individually sorted. Flatten the entire structure into a single sorted linked list using only the bottom pointers. Return the head of the flattened list.",
+    "input": "A linked list with next and bottom pointers.",
+    "output": "The head of the flattened sorted linked list.",
+    "constraints": "Total number of nodes is in the range [0, 10^5]"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000656",
+    "fileSHA": "ec0f6fe11ee2378581acf92ffdde22c77f709ea8c5e7f796784056a209cc30aa",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.369Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "9c961aa88728bf77bb7c8cffe83d069eff54bb043dd8eabb9cec88c05152de23",
+    "normalizedCodeHash": "dc7f22cc65ba74fe85ff25734aab4270bb5dcddcc0b27ee0a43dc0738385d73e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.369Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

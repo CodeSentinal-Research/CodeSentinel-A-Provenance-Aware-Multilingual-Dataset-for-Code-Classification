@@ -1,0 +1,75 @@
+{
+  "solutionId": "PY_H_P000762",
+  "problemId": "P000762",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000762",
+    "title": "Wildcard Pattern Matching",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string s and a pattern p containing lowercase letters, '?', and '*': '?' matches exactly one character. '*' matches any sequence of characters (including the empty sequence). Determine whether the entire string matches the pattern using recursion.",
+    "input": "String s String p",
+    "output": "true if the pattern matches the string, otherwise false.",
+    "constraints": "1 <= |s|, |p| <= 200"
+  },
+  "repository": {
+    "name": "geemaple/leetcode",
+    "owner": "geemaple",
+    "url": "https://github.com/geemaple/leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000762.py",
+    "fileSHA": "ca704ea532597eacb0caf7c22207ba72883842e3",
+    "url": "https://github.com/geemaple/leetcode/blob/6355a2ae1f61424cc25c811d561e05d52fd230aa/leetcode/44.wildcard-matching.py",
+    "rawUrl": "https://raw.githubusercontent.com/geemaple/leetcode/main/leetcode/44.wildcard-matching.py"
+  },
+  "matching": {
+    "relevanceScore": 79.04
+  },
+  "provenance": {
+    "score": 82.5,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2018-10-07T23:46:46Z",
+    "lastCommitDate": "2024-09-19T11:08:24Z",
+    "commitCount": 3,
+    "authorCount": 2,
+    "authors": [
+      "Dean Ji",
+      "felix"
+    ],
+    "firstKnownAuthor": "Dean Ji",
+    "latestKnownAuthor": "felix"
+  },
+  "deduplication": {
+    "rawCodeHash": "5803b039ed8da410f2f6de492ccd017eba4acc0dc5b31df621f3b2e1602c0e02",
+    "normalizedCodeHash": "5803b039ed8da410f2f6de492ccd017eba4acc0dc5b31df621f3b2e1602c0e02",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T04:42:52.639979+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

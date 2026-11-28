@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001060",
+  "problemId": "P001060",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001060",
+    "title": "Sort Nearly Sorted Array",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array in which every element is at most K positions away from its correct position in the sorted order, sort the array efficiently using a heap-based algorithm.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the sorted array.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 0 \u2264 K < N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001060",
+    "fileSHA": "ddeb85e99da84524bd24d6aeba62dd2031aca99b1273342df74631605bfc9790",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:39:43.575963+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ddeb85e99da84524bd24d6aeba62dd2031aca99b1273342df74631605bfc9790",
+    "normalizedCodeHash": "ddeb85e99da84524bd24d6aeba62dd2031aca99b1273342df74631605bfc9790",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:39:43.575993+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

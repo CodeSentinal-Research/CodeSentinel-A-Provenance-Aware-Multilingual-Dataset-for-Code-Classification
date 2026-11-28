@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000552",
+  "problemId": "P000552",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000552",
+    "title": "Walls and Gates",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an m × n grid where: -1 represents a wall. 0 represents a gate. 2147483647 represents an empty room. Fill each empty room with the distance to its nearest gate. If a room cannot reach any gate, leave its value unchanged.",
+    "input": "Integers m and n Grid of integers.",
+    "output": "The updated grid.",
+    "constraints": "1 <= m, n <= 250"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000552.py",
+    "fileSHA": "1006173aa73e55d6290f04fda579dfa881dc79ca9604e6d3deb73bf795d887f3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.221422+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1006173aa73e55d6290f04fda579dfa881dc79ca9604e6d3deb73bf795d887f3",
+    "normalizedCodeHash": "069b479ccdc0f59329bbe2f945b70832fbae07f8f2ace27d8a02cdcf8e21435f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.221422+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

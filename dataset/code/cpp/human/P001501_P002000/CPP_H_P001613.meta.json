@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001613",
+  "problemId": "P001613",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001613",
+    "title": "Matrix Block Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M matrix of integers and an integer K, construct a matrix where each cell contains the sum of all elements within a distance of K rows and K columns from that cell.",
+    "input": "\u2022 First line contains N, M, and K. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the resulting matrix.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 1000 \u2022 0 \u2264 K \u2264 max(N, M)"
+  },
+  "repository": {
+    "name": "cavanj-pats/Exercises_CPP",
+    "owner": "cavanj-pats",
+    "url": "https://github.com/cavanj-pats/Exercises_CPP",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "leet1314MatrixBlockSum.cpp",
+    "fileSHA": "6fde0f69a915b899164362cbc71b7592e5a4141f",
+    "url": "https://github.com/cavanj-pats/Exercises_CPP/blob/0f5b8f5d92bc2ec987f00e0fe13f31e8ca1b41ef/leet1314MatrixBlockSum.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/cavanj-pats/Exercises_CPP/main/leet1314MatrixBlockSum.cpp"
+  },
+  "matching": {
+    "relevanceScore": 79.17
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e97fafd7bd47323bfb3b702689ac9fd04849840ea9f10eae49bbc1642a5328e5",
+    "normalizedCodeHash": "e97fafd7bd47323bfb3b702689ac9fd04849840ea9f10eae49bbc1642a5328e5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:35:25.365207+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

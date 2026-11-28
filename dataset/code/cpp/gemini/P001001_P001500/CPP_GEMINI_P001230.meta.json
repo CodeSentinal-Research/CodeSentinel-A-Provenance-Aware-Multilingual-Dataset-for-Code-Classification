@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001230",
+  "problemId": "P001230",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001230",
+    "title": "Out of Boundary Paths",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given an R \u00d7 C grid and a starting cell, determine the number of paths that move outside the grid in at most K moves. At each move, movement is allowed in the four cardinal directions.",
+    "input": "\u2022 First line contains integers R, C, and K. \u2022 Second line contains starting cell coordinates.",
+    "output": "Print the total number of valid paths.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 50 \u2022 0 \u2264 K \u2264 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001230",
+    "fileSHA": "36cd5a7a28ec5617c75e6f562d3eb1de477ec3a73afa3a3bdb8d849cdc759b50",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:16:21.822761+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "36cd5a7a28ec5617c75e6f562d3eb1de477ec3a73afa3a3bdb8d849cdc759b50",
+    "normalizedCodeHash": "36cd5a7a28ec5617c75e6f562d3eb1de477ec3a73afa3a3bdb8d849cdc759b50",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:16:21.822784+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

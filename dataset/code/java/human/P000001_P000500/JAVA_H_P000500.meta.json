@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000500",
+  "problemId": "P000500",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000500",
+    "title": "Crawler Log Folder",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "A file system starts at the main folder. You are given a sequence of folder operations: \"../\" : Move to the parent folder (if already at the main folder, stay there). \"./\" : Stay in the current folder. \"x/\" : Move into a child folder named x. Determine the minimum number of operations needed to return to the main folder after performing all operations.",
+    "input": "Integer n Array of n folder operations.",
+    "output": "A single integer representing the required number of operations.",
+    "constraints": "1 <= n <= 10^3"
+  },
+  "repository": {
+    "name": "SpectureRam/leetcode-java",
+    "owner": "SpectureRam",
+    "url": "https://github.com/SpectureRam/leetcode-java",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Easy/1598. Crawler Log Folder.java",
+    "fileSHA": "e438f5649d83b34265011508abdc5485b83f24e9",
+    "url": "https://github.com/SpectureRam/leetcode-java/blob/60dcdda1d49ffb6878c8dc65df1cc0d5a61bb4cd/Easy/1598. Crawler Log Folder.java",
+    "rawUrl": "https://raw.githubusercontent.com/SpectureRam/leetcode-java/main/Easy/1598. Crawler Log Folder.java"
+  },
+  "matching": {
+    "relevanceScore": 86.15
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5fcafb9e34599d52bc0f5e9a23a726594c003ac3278e627daa827795c2660ea7",
+    "normalizedCodeHash": "5fcafb9e34599d52bc0f5e9a23a726594c003ac3278e627daa827795c2660ea7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:10:50.376262+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

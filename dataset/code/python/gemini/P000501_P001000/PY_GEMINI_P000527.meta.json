@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000527",
+  "problemId": "P000527",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000527",
+    "title": "Parse Boolean Expression",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Given a boolean expression containing: t (true) f (false) ! (NOT) & (AND) | (OR) Parentheses and commas Evaluate the expression and return its boolean value.",
+    "input": "A valid boolean expression.",
+    "output": "Print true if the expression evaluates to true; otherwise print false.",
+    "constraints": "1 <= expression.length <= 2 \u00d7 10^4 The expression is valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000527",
+    "fileSHA": "ec5b045331241b3d7e11b423a6cd94109117fcf63d920e37e5d28b3a8c4d9b8e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:43:26.238757+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ec5b045331241b3d7e11b423a6cd94109117fcf63d920e37e5d28b3a8c4d9b8e",
+    "normalizedCodeHash": "ec5b045331241b3d7e11b423a6cd94109117fcf63d920e37e5d28b3a8c4d9b8e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:43:26.238784+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

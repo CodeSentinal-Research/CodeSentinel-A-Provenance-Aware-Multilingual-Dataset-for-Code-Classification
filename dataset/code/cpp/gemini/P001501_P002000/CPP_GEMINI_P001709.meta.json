@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001709",
+  "problemId": "P001709",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001709",
+    "title": "Merge Two Binary Trees",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given two binary trees, create a new binary tree by merging overlapping nodes. When two nodes overlap, the new node's value is obtained by combining the corresponding node values according to the specified rule.",
+    "input": "\u2022 The first line contains N\u2081. \u2022 The next N\u2081 lines describe the first tree. \u2022 The following line contains N\u2082. \u2022 The next N\u2082 lines describe the second tree.",
+    "output": "\u2022 Print the merged tree.",
+    "constraints": "\u2022 0 \u2264 N\u2081, N\u2082 \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001709",
+    "fileSHA": "079ecfe1e517d16e18b7ab1c79f0da28baf2c5aba1fca6fb60445dba43b7d10e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:37:17.935758+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "079ecfe1e517d16e18b7ab1c79f0da28baf2c5aba1fca6fb60445dba43b7d10e",
+    "normalizedCodeHash": "079ecfe1e517d16e18b7ab1c79f0da28baf2c5aba1fca6fb60445dba43b7d10e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:37:17.935778+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

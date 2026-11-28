@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001272",
+  "problemId": "P001272",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001272",
+    "title": "Jump Game VI",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array and an integer K, start at index 0 and reach the last index. From position i, you may jump to any index in the range [i+1, i+K]. Each visited element contributes to the score. Determine the maximum obtainable score.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the maximum score.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "JordanBeirne/JordanBeirnesPortfolio",
+    "owner": "JordanBeirne",
+    "url": "https://github.com/JordanBeirne/JordanBeirnesPortfolio",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Java/LeetCode/Jump Game VII/Main.java",
+    "fileSHA": "1863b753c7ed39c7727be7a9e11af3e15f25c5ba",
+    "url": "https://github.com/JordanBeirne/JordanBeirnesPortfolio/blob/0043b7e03831648cd2906a796f08a89521223880/Java/LeetCode/Jump Game VII/Main.java",
+    "rawUrl": "https://raw.githubusercontent.com/JordanBeirne/JordanBeirnesPortfolio/main/Java/LeetCode/Jump Game VII/Main.java"
+  },
+  "matching": {
+    "relevanceScore": 81.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c8b9aaeecc6611f7074eed88b5e69a2641f676831221d6b51e7e130e75bdd66e",
+    "normalizedCodeHash": "c8b9aaeecc6611f7074eed88b5e69a2641f676831221d6b51e7e130e75bdd66e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T15:38:49.366764+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

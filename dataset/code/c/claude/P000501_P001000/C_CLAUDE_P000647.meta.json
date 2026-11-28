@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000647",
+  "problemId": "P000647",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000647",
+    "title": "Dynamic Music Playlist Manager",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a music playlist manager using a doubly linked list. The playlist supports the following operations: addSong(title) removeSong(title) playNext() playPrevious() moveSong(title, position) currentSong() Initially, the playlist is empty. Process a sequence of operations and print the result for every playNext(), playPrevious(), and currentSong() operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for every query operation.",
+    "constraints": "1 <= q <= 2 × 10^5 Song titles contain printable ASCII characters."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000647",
+    "fileSHA": "a21a35a8633ab540cca7a785cfa9a47a197cfa9e5de3021d85d4acc8d3ca30d8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a21a35a8633ab540cca7a785cfa9a47a197cfa9e5de3021d85d4acc8d3ca30d8",
+    "normalizedCodeHash": "a21a35a8633ab540cca7a785cfa9a47a197cfa9e5de3021d85d4acc8d3ca30d8",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000647"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

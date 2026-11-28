@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001117",
+  "problemId": "P001117",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001117",
+    "title": "Clone a Directed Graph",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given the adjacency list representation of a connected directed graph, construct a deep copy of the graph while preserving all vertices and directed edges.",
+    "input": "• First line contains integer N. • Next N lines describe the adjacency list of each vertex.",
+    "output": "Print the adjacency list of the cloned graph.",
+    "constraints": "• 1 ≤ N ≤ 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001117.c",
+    "fileSHA": "8bd1351f06932899075e53cc11554b58e8e5c90b5703d7f037ea1972399d1c00",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.054Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "9cd5a7a105d6f44974745e77bac45108eed45acde9fba6e5454e4428117823a3",
+    "normalizedCodeHash": "8bd1351f06932899075e53cc11554b58e8e5c90b5703d7f037ea1972399d1c00",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.054Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

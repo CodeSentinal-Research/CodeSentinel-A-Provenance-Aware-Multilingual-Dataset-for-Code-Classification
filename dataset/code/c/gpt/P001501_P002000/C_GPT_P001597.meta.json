@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001597",
+  "problemId": "P001597",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001597",
+    "title": "Count Elements Equal to X in a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, determine how many elements equal X occur in each specified range.",
+    "input": "• First line contains N. • Second line contains N integers. • Third line contains Q. • Each of the next Q lines contains L, R, and X.",
+    "output": "• For each query print the required count.",
+    "constraints": "• 1 ≤ N,Q ≤ 10^5 • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001597.c",
+    "fileSHA": "02f1ca58ae6ff8854dc8cfe68a86a5411f2b36aff742cce733db682951b7a20c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.958Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c5bc77a9c34f0fdddd2d0a98b7820f6353e54882c719bb5d564c3467554a4ac1",
+    "normalizedCodeHash": "02f1ca58ae6ff8854dc8cfe68a86a5411f2b36aff742cce733db682951b7a20c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.958Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

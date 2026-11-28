@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000616",
+  "problemId": "P000616",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000616",
+    "title": "Reverse Nodes in Even Positions",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list, remove all nodes at even positions, reverse their order, and merge them back into the original list by placing them again at the even positions. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 -10^9 <= node.value <= 10^9"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/data_structures/src/queue/reverse_queue/reverse_queue.java",
+    "fileSHA": "5daa40f78c4cf747e80790ce64c70ed4ea85421b",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/data_structures/src/queue/reverse_queue/reverse_queue.java",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/data_structures/src/queue/reverse_queue/reverse_queue.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "64f848441729cff778644a47ef2e33e4edd392cbbbec48fffd7e06c053237c1d",
+    "normalizedCodeHash": "64f848441729cff778644a47ef2e33e4edd392cbbbec48fffd7e06c053237c1d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:03.551734+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

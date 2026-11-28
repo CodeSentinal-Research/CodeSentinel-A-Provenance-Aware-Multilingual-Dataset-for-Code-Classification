@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000770",
+  "problemId": "P000770",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000770",
+    "title": "Recursive Matrix Chain Multiplication",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array dims where matrix Ai has dimensions dims[i-1] × dims[i], determine the minimum number of scalar multiplications required to multiply the entire chain. Solve the problem recursively.",
+    "input": "Integer n Array dims",
+    "output": "The minimum number of scalar multiplications.",
+    "constraints": "2 <= n <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000770.js",
+    "fileSHA": "3588f9f76807d7c3a915cf2520cb8d55d960b0fcc22b839885416e6ead7a826a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3588f9f76807d7c3a915cf2520cb8d55d960b0fcc22b839885416e6ead7a826a",
+    "normalizedCodeHash": "3588f9f76807d7c3a915cf2520cb8d55d960b0fcc22b839885416e6ead7a826a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001398",
+  "problemId": "P001398",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001398",
+    "title": "Find Common Characters",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given N lowercase strings, determine all characters that appear in every string, including duplicate occurrences.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain one lowercase string.",
+    "output": "Print all common characters in sorted order.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000 \u2022 String length \u2264 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001398",
+    "fileSHA": "34b572e92eea49a60df1ec0be717d78e14fecd2a55bc8d86dc3524db541fb7a4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T04:46:17.193Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "7a63bf88e93030fcdcac608682c1325fbdfb59d0cb05e0436bf5dd38fdc973d7",
+    "normalizedCodeHash": "b26d1e414893d4d939d145a9fa98b83522caf0e88bb79863b2388f49a87c79fc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T04:46:17.193Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

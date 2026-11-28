@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001561",
+  "problemId": "P001561",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001561",
+    "title": "Substring With Concatenation of All Words",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a string S and an array of words, where every word has the same length. Find all starting indices of substrings in S that are formed by concatenating every word exactly once and without any intervening characters. The words may appear in any order.",
+    "input": "• First line contains string S. • Second line contains integer M. • Third line contains M space-separated words.",
+    "output": "• Print all valid starting indices in increasing order. If none exist, print -1.",
+    "constraints": "• 1 ≤ |S| ≤ 2 × 10^5 • 1 ≤ M ≤ 5000 • All words have equal length."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001501_P002000/JS_GPT_P001561.js",
+    "fileSHA": "4bc4ac8bfe198b8a387314d5e6c2d9443b47c60b700bb482d80ee52705bec9b0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4bc4ac8bfe198b8a387314d5e6c2d9443b47c60b700bb482d80ee52705bec9b0",
+    "normalizedCodeHash": "4bc4ac8bfe198b8a387314d5e6c2d9443b47c60b700bb482d80ee52705bec9b0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

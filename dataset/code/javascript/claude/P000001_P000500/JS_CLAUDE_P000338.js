@@ -1,0 +1,1 @@
+const lines=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');let i=0;const n=+lines[i++];let a='';for(let k=0;k<n;k++)a+=lines[i++];const m=+lines[i++];let b='';for(let k=0;k<m;k++)b+=lines[i++];console.log(a===b?'Yes':'No');

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001574",
+  "problemId": "P001574",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001574",
+    "title": "Maximum Element in the First Window",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and a window size K, determine the maximum element in the first contiguous subarray of size K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the maximum element.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0239_sliding_window_maximum/slide_window.c",
+    "fileSHA": "8fa5cbfe08e8abf7a9153c6a66f730d673d6a6bd",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0239_sliding_window_maximum/slide_window.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0239_sliding_window_maximum/slide_window.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9e03b0a99ad93b67aafa4ef4a9a6d8cd51172299c09380f698554ca64f78f1a9",
+    "normalizedCodeHash": "9e03b0a99ad93b67aafa4ef4a9a6d8cd51172299c09380f698554ca64f78f1a9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:45:59.706772+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

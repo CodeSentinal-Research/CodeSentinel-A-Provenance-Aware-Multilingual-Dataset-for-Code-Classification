@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000631",
+  "problemId": "P000631",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000631",
+    "title": "Search an Element in Linked List",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a singly linked list and an integer target, determine whether the target value exists in the linked list. Return true if the value is found; otherwise return false.",
+    "input": "Integer n Linked list Integer target",
+    "output": "true if the target exists, otherwise false.",
+    "constraints": "0 <= n <= 10^5 -10^9 <= node.value <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000631",
+    "fileSHA": "57cf0d15aafedfc813dabb1521079cc7786668ff85e7f9c6773d404809b0134a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "57cf0d15aafedfc813dabb1521079cc7786668ff85e7f9c6773d404809b0134a",
+    "normalizedCodeHash": "57cf0d15aafedfc813dabb1521079cc7786668ff85e7f9c6773d404809b0134a",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000631"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

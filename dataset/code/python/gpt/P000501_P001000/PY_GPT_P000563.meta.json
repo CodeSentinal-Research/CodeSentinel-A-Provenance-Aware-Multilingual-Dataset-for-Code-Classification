@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000563",
+  "problemId": "P000563",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000563",
+    "title": "Word Ladder",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Given two words, beginWord and endWord, and a dictionary of valid words, find the length of the shortest transformation sequence from beginWord to endWord. A transformation consists of changing exactly one character, and every intermediate word must exist in the dictionary. Return 0 if no transformation exists.",
+    "input": "String beginWord String endWord Integer n List of n words",
+    "output": "A single integer representing the length of the shortest transformation sequence.",
+    "constraints": "1 <= word length <= 10 1 <= n <= 5000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000563.py",
+    "fileSHA": "01c7f7c1a6b6c4b8d5a1052e0e7ccbfc31e274be60c6619ee50254c36ff65b43",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.250058+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "01c7f7c1a6b6c4b8d5a1052e0e7ccbfc31e274be60c6619ee50254c36ff65b43",
+    "normalizedCodeHash": "0b88d353523a0a9f10ca34223bbbdafc0e52e61866363113dacfb562a40e3590",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.250058+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

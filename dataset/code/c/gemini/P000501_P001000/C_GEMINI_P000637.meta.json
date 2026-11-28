@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000637",
+  "problemId": "P000637",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000637",
+    "title": "Delete Nodes Whose Values Occur More Than Once",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of an unsorted singly linked list, remove every node whose value appears more than once in the list. Only nodes with unique values should remain. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The linked list containing only unique-valued nodes.",
+    "constraints": "0 <= n <= 10^5 -10^9 <= node.value <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000637",
+    "fileSHA": "0c3c5fe2e64ad0dce09c40a02f9bf3b545a985aa65408b2c817969a37becd34e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:49:57.676704+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0c3c5fe2e64ad0dce09c40a02f9bf3b545a985aa65408b2c817969a37becd34e",
+    "normalizedCodeHash": "0c3c5fe2e64ad0dce09c40a02f9bf3b545a985aa65408b2c817969a37becd34e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:49:57.676731+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

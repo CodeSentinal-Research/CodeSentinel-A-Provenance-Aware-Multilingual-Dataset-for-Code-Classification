@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000606",
+  "problemId": "P000606",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000606",
+    "title": "LRU Cache",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design and implement an LRU (Least Recently Used) cache that supports the following operations in O(1) average time: get(key) put(key, value) If the cache reaches its capacity, evict the least recently used item before inserting a new one. Process a sequence of operations and print the result of every get() operation.",
+    "input": "Integer capacity Integer q Next q operations",
+    "output": "Print the result of every get() operation.",
+    "constraints": "1 <= capacity <= 3000 1 <= q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/datastructures/caches/LRUCache.java",
+    "fileSHA": "ec39d2a6ed28dcf0d0227d44713416189bfcef48",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/caches/LRUCache.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/datastructures/caches/LRUCache.java"
+  },
+  "matching": {
+    "relevanceScore": 66.91
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "099bc5e432e98c59c915c30b446e9e4770490b8bf8535778a72ceaea6359915e",
+    "normalizedCodeHash": "099bc5e432e98c59c915c30b446e9e4770490b8bf8535778a72ceaea6359915e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:11:05.539310+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

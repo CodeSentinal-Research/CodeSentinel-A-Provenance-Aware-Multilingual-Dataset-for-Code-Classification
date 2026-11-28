@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000737",
+  "problemId": "P000737",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000737",
+    "title": "Different Ways to Add Parentheses",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string expression consisting of numbers and the operators +, -, and *, compute all possible results by adding parentheses in every valid way. Return the results in non-decreasing order.",
+    "input": "String expression",
+    "output": "All possible evaluation results.",
+    "constraints": "1 <= |expression| <= 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000737",
+    "fileSHA": "c68b67f68e14509ecd338139ed9be7b4fb27fc948173d2d3fe2417e67c78d0b7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c68b67f68e14509ecd338139ed9be7b4fb27fc948173d2d3fe2417e67c78d0b7",
+    "normalizedCodeHash": "c68b67f68e14509ecd338139ed9be7b4fb27fc948173d2d3fe2417e67c78d0b7",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000737: Different Ways to Add Parentheses"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

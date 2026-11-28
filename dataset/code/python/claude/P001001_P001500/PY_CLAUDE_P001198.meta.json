@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_CLAUDE_P001198",
+  "problemId": "P001198",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001198",
+    "title": "Count Square Submatrices with All Ones",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary matrix, determine the total number of square submatrices consisting entirely of ones.",
+    "input": "• First line contains integers R and C. • Next R lines each contain C integers (0 or 1).",
+    "output": "Print the total number of square submatrices.",
+    "constraints": "• 1 ≤ R, C ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P001198",
+    "fileSHA": "216665d7e67dc14caef74b06a86958d90320c41033e16011de1daf650b462b05",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f5c0178cc394e4df75f1729f6522fea607f85e1dfa37805b2e150d26490be8c8",
+    "normalizedCodeHash": "216665d7e67dc14caef74b06a86958d90320c41033e16011de1daf650b462b05",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

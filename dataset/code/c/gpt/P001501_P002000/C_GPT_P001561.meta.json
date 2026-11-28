@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001561",
+  "problemId": "P001561",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001561",
+    "title": "Substring With Concatenation of All Words",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a string S and an array of words, where every word has the same length. Find all starting indices of substrings in S that are formed by concatenating every word exactly once and without any intervening characters. The words may appear in any order.",
+    "input": "• First line contains string S. • Second line contains integer M. • Third line contains M space-separated words.",
+    "output": "• Print all valid starting indices in increasing order. If none exist, print -1.",
+    "constraints": "• 1 ≤ |S| ≤ 2 × 10^5 • 1 ≤ M ≤ 5000 • All words have equal length."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001561.c",
+    "fileSHA": "b39e71fdcb8800ee42fbc00d526e87b90b93af031735ecf75f430953cc7bc19b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.773Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "6a6ec796f222b51eeb0ceb6e410bcb78f35a0abf1ae68d1248f81a1eba536c46",
+    "normalizedCodeHash": "b39e71fdcb8800ee42fbc00d526e87b90b93af031735ecf75f430953cc7bc19b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.773Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

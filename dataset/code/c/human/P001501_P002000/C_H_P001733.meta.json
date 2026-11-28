@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001733",
+  "problemId": "P001733",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001733",
+    "title": "Check Whether a Binary Tree is a Sum Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, determine whether every non-leaf node stores the sum of all values present in its left and right subtrees.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print YES if the tree is a Sum Tree; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/data_structures/src/tree/tree/trie/trie.c",
+    "fileSHA": "3a91116598341ed31e2aa77c5c1d5164b307884b",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/data_structures/src/tree/tree/trie/trie.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/data_structures/src/tree/tree/trie/trie.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "347a4bd8efc7edede05d79c25307a6c36bef61da1126c3925be99b360facfa62",
+    "normalizedCodeHash": "347a4bd8efc7edede05d79c25307a6c36bef61da1126c3925be99b360facfa62",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:28:44.035807+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

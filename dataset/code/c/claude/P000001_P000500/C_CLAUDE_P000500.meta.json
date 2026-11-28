@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P000500",
+  "problemId": "P000500",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000500",
+    "title": "Crawler Log Folder",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "A file system starts at the main folder. You are given a sequence of folder operations: \"../\" : Move to the parent folder (if already at the main folder, stay there). \"./\" : Stay in the current folder. \"x/\" : Move into a child folder named x. Determine the minimum number of operations needed to return to the main folder after performing all operations.",
+    "input": "Integer n Array of n folder operations.",
+    "output": "A single integer representing the required number of operations.",
+    "constraints": "1 <= n <= 10^3"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000500",
+    "fileSHA": "d98fdbe05e662e5ab5f9e6cc52301dbd508bda44b6dfd547f45b1bc6e2302c16",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fb0d8590cd9597371c1a476d5556ac966e21d2f55da8ef0dbf4917d7d4b59050",
+    "normalizedCodeHash": "d98fdbe05e662e5ab5f9e6cc52301dbd508bda44b6dfd547f45b1bc6e2302c16",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

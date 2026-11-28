@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000831",
+  "problemId": "P000831",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000831",
+    "title": "Minimum Number of Days to Make m Bouquets",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an array bloomDay, where bloomDay[i] is the day the i-th flower blooms. Each bouquet requires k adjacent flowers. Return the minimum number of days required to make exactly m bouquets, or -1 if it is impossible.",
+    "input": "Integer n Array bloomDay Integer m Integer k",
+    "output": "The minimum required day.",
+    "constraints": "1 <= n <= 10^5 1 <= bloomDay[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000831.c",
+    "fileSHA": "6304f3e20efcc0f533c2cee66f00d6a95fcb3ab20581aed80f1fffcc59be2e4a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6304f3e20efcc0f533c2cee66f00d6a95fcb3ab20581aed80f1fffcc59be2e4a",
+    "normalizedCodeHash": "6304f3e20efcc0f533c2cee66f00d6a95fcb3ab20581aed80f1fffcc59be2e4a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

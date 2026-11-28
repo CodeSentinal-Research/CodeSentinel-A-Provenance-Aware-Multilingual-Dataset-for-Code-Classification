@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001523",
+  "problemId": "P001523",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001523",
+    "title": "Longest Subarray With Absolute Difference Within Limit",
+    "category": "Two Pointers",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array and an integer Limit, determine the length of the longest contiguous subarray where the absolute difference between the maximum and minimum elements does not exceed Limit.",
+    "input": "\u2022 First line contains integers N and Limit. \u2022 Second line contains N integers.",
+    "output": "Print the maximum length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "imganpat/cracking-leetcode",
+    "owner": "imganpat",
+    "url": "https://github.com/imganpat/cracking-leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "2866-longest-even-odd-subarray-with-threshold/2866-longest-even-odd-subarray-with-threshold.java",
+    "fileSHA": "9197f08facfe9bfe5646de651a06e6b8902962ad",
+    "url": "https://github.com/imganpat/cracking-leetcode/blob/0f167df358e4e8ebbdf3f2cdf5d34ced0b3917f7/2866-longest-even-odd-subarray-with-threshold/2866-longest-even-odd-subarray-with-threshold.java",
+    "rawUrl": "https://raw.githubusercontent.com/imganpat/cracking-leetcode/main/2866-longest-even-odd-subarray-with-threshold/2866-longest-even-odd-subarray-with-threshold.java"
+  },
+  "matching": {
+    "relevanceScore": 90.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3741ebd1f60891f539ca64ed1db2db7f69a352fb226494c0aed939c6c461185d",
+    "normalizedCodeHash": "3741ebd1f60891f539ca64ed1db2db7f69a352fb226494c0aed939c6c461185d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T17:49:21.570387+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

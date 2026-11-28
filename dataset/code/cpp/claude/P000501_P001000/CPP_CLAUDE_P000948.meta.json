@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000948",
+  "problemId": "P000948",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000948",
+    "title": "Chessboard Game",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Hard",
+    "problemStatement": "A token is placed on an N × N chessboard at position (x, y). On each turn, a player may move the token only to one of the allowed positions defined by the game's movement rules. A player who cannot make a move loses. Determine whether the starting player has a winning strategy.",
+    "input": "Integer N Starting coordinates (x, y)",
+    "output": "Print \"First\" if the starting player wins; otherwise, print \"Second\".",
+    "constraints": "1 <= N <= 200 1 <= x, y <= N"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000948",
+    "fileSHA": "37c81dc00f7e9907285fa85c3ebd8448b53ebbfe5850ba79ce14d2b92add4720",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "37c81dc00f7e9907285fa85c3ebd8448b53ebbfe5850ba79ce14d2b92add4720",
+    "normalizedCodeHash": "37c81dc00f7e9907285fa85c3ebd8448b53ebbfe5850ba79ce14d2b92add4720",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000948"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

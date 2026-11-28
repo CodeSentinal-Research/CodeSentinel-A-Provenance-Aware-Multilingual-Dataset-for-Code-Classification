@@ -1,0 +1,1 @@
+const[s,rs]=require("fs").readFileSync("/dev/stdin","utf8").trim().split(" ");const rows=+rs;if(rows===1){console.log(s);process.exit();}const v=Array.from({length:rows},()=>"");let row=0,down=true;for(const c of s){v[row]+=c;if(row===rows-1)down=false;else if(row===0)down=true;row+=down?1:-1;}console.log(v.join(""));

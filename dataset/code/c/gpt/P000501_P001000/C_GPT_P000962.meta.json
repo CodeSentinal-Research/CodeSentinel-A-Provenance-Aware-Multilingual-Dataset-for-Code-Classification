@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000962",
+  "problemId": "P000962",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000962",
+    "title": "Frobenius Coin Problem",
+    "category": "Mathematics - Diophantine Equations",
+    "difficulty": "Hard",
+    "problemStatement": "Given two coprime positive integers A and B, find the largest integer that cannot be expressed as: AX + BY where X and Y are non-negative integers.",
+    "input": "Integer A Integer B",
+    "output": "The Frobenius number.",
+    "constraints": "1 <= A, B <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000962.c",
+    "fileSHA": "fd444af2076d60a343c61d3d51f871f1f953c1a1a7babaf32c6042382da5d431",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fd444af2076d60a343c61d3d51f871f1f953c1a1a7babaf32c6042382da5d431",
+    "normalizedCodeHash": "fd444af2076d60a343c61d3d51f871f1f953c1a1a7babaf32c6042382da5d431",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001631",
+  "problemId": "P001631",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001631",
+    "title": "Number of Paths With Given Sum in a Grid",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M grid of integers and an integer Target, determine the number of paths from the top-left cell to the bottom-right cell such that the sum of values along the path is exactly Target. You may only move right or down.",
+    "input": "\u2022 First line contains N, M, and Target. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the number of valid paths.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 30 \u2022 -100 \u2264 Grid[i][j] \u2264 100"
+  },
+  "repository": {
+    "name": "srgnk/HackerRank",
+    "owner": "srgnk",
+    "url": "https://github.com/srgnk/HackerRank",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/sum-of-digits-of-a-five-digit-number.c",
+    "fileSHA": "afdb04c88a93cb7233c6fe18fc84e68e208a3b1a",
+    "url": "https://github.com/srgnk/HackerRank/blob/master/c/sum-of-digits-of-a-five-digit-number.c",
+    "rawUrl": "https://raw.githubusercontent.com/srgnk/HackerRank/master/c/sum-of-digits-of-a-five-digit-number.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5492126b96536ee0341259db097c6f2e6341256534414b18c923705ba5d5b28d",
+    "normalizedCodeHash": "5492126b96536ee0341259db097c6f2e6341256534414b18c923705ba5d5b28d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:45:55.567411+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

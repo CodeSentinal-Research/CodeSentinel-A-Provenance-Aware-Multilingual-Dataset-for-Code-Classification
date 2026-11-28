@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001718",
+  "problemId": "P001718",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001718",
+    "title": "Count Paths with Exactly K Edges",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree and an integer K, determine the number of downward paths consisting of exactly K edges.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains K.",
+    "output": "\u2022 Print the number of qualifying paths.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 0 \u2264 K < N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001718",
+    "fileSHA": "4e8495b4f7009b6de50fac72cbadc6efe9d1bf58c831a6837764ba4f707dfa78",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:37:23.223423+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4e8495b4f7009b6de50fac72cbadc6efe9d1bf58c831a6837764ba4f707dfa78",
+    "normalizedCodeHash": "4e8495b4f7009b6de50fac72cbadc6efe9d1bf58c831a6837764ba4f707dfa78",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:37:23.223442+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

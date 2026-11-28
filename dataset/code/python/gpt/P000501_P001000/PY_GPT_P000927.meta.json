@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000927",
+  "problemId": "P000927",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000927",
+    "title": "Convert Between Arbitrary Bases",
+    "category": "Mathematics - Base Conversion",
+    "difficulty": "Medium",
+    "problemStatement": "Given a number represented as a string in base A, convert it to its representation in base B. Bases range from 2 to 36, where digits beyond 9 are represented using uppercase English letters.",
+    "input": "String number Integer A Integer B",
+    "output": "The representation of the number in base B.",
+    "constraints": "2 <= A, B <= 36 1 <= |number| <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000927.py",
+    "fileSHA": "fed54e04f9c2420516a0e0efb2a551c9d0cfd1c7b2f3f7f00a1799a68bc5aac3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.580679+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fed54e04f9c2420516a0e0efb2a551c9d0cfd1c7b2f3f7f00a1799a68bc5aac3",
+    "normalizedCodeHash": "80c0b411ef6095bf82abe3bd75f4d9d18a3aa860951333cd13cc74cd81fdd324",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.580679+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

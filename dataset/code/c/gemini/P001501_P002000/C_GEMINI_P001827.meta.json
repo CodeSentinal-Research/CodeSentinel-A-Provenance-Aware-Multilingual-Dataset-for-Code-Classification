@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001827",
+  "problemId": "P001827",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001827",
+    "title": "Determine Whether Two Binary Search Trees are Structurally Identical",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the roots of two Binary Search Trees, determine whether both trees have identical structures and corresponding key values.",
+    "input": "\u2022 The first line contains N\u2081. \u2022 The next N\u2081 lines describe the first BST. \u2022 The following line contains N\u2082. \u2022 The next N\u2082 lines describe the second BST.",
+    "output": "\u2022 Print YES if the trees are identical; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N\u2081, N\u2082 \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001827",
+    "fileSHA": "cb9702f3c4bd94c4ee2ee4fbd6eec3d06103f3eec83efd3353c0aa7b7fc9dd3a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:24.083534+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cb9702f3c4bd94c4ee2ee4fbd6eec3d06103f3eec83efd3353c0aa7b7fc9dd3a",
+    "normalizedCodeHash": "cb9702f3c4bd94c4ee2ee4fbd6eec3d06103f3eec83efd3353c0aa7b7fc9dd3a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:24.083555+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

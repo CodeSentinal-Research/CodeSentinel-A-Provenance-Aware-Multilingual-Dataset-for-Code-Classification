@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001120",
+  "problemId": "P001120",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001120",
+    "title": "Reconstruct Itinerary",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a list of airline tickets represented by departure and arrival airports, reconstruct the itinerary that uses all tickets exactly once. If multiple valid itineraries exist, return the lexicographically smallest one.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain departure and arrival airport codes.",
+    "output": "Print the reconstructed itinerary.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/cpp/reconstructItinerary/ReconstructItinerary.cpp",
+    "fileSHA": "a80974833f0523d866f4ad1695527d414ed1deff",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/cpp/reconstructItinerary/ReconstructItinerary.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/cpp/reconstructItinerary/ReconstructItinerary.cpp"
+  },
+  "matching": {
+    "relevanceScore": 84.74
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "86b09cd23460685788f0793f12b27f955a85b67e87e790efaa716a2bc133bd4d",
+    "normalizedCodeHash": "86b09cd23460685788f0793f12b27f955a85b67e87e790efaa716a2bc133bd4d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (C++ Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:02.308982+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

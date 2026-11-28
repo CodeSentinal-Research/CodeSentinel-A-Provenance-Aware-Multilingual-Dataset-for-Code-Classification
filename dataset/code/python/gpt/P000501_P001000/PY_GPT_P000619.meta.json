@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000619",
+  "problemId": "P000619",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000619",
+    "title": "Delete Middle Node of a Linked List",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a singly linked list, delete its middle node and return the head of the modified list. If the list contains an even number of nodes, delete the second middle node. If the list contains only one node, return an empty list.",
+    "input": "Integer n Linked list",
+    "output": "The linked list after deleting the middle node.",
+    "constraints": "1 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000619.py",
+    "fileSHA": "4a56b1d4a3564b9fcec86f155f6715db371336d977816e8c3d80f2212aa4363e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.445708+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4a56b1d4a3564b9fcec86f155f6715db371336d977816e8c3d80f2212aa4363e",
+    "normalizedCodeHash": "c73995b081750e25cbb6769105f7453efb5eeec759b38ee5d5296e45aae98406",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.445708+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

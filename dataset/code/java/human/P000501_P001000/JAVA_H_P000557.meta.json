@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000557",
+  "problemId": "P000557",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000557",
+    "title": "Race Car",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "A car starts at position 0 with speed 1. You are given a target position. The car supports two instructions: A (Accelerate): Position increases by current speed, then speed doubles. R (Reverse): Reverse direction. Speed becomes 1 if moving backward, or -1 if moving forward. Return the minimum number of instructions needed to reach the target position.",
+    "input": "A single integer target.",
+    "output": "A single integer representing the minimum number of instructions.",
+    "constraints": "1 <= target <= 10^4"
+  },
+  "repository": {
+    "name": "sahanurmondal/log-analytics-platform",
+    "owner": "sahanurmondal",
+    "url": "https://github.com/sahanurmondal/log-analytics-platform",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "dsa/grid/hard/RaceCar.java",
+    "fileSHA": "c58a97e9979ca3e783d05b2539d027f2b03752ea",
+    "url": "https://github.com/sahanurmondal/log-analytics-platform/blob/c1a4c86b1c918f4c77f665cba0eaa8368e3490f1/dsa/grid/hard/RaceCar.java",
+    "rawUrl": "https://raw.githubusercontent.com/sahanurmondal/log-analytics-platform/main/dsa/grid/hard/RaceCar.java"
+  },
+  "matching": {
+    "relevanceScore": 84.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e2ec6e3a23851f4396f7556602e0e6700507f2b6dbbf7fc1a0d5ed7510bfec59",
+    "normalizedCodeHash": "e2ec6e3a23851f4396f7556602e0e6700507f2b6dbbf7fc1a0d5ed7510bfec59",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T16:09:27.487091+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

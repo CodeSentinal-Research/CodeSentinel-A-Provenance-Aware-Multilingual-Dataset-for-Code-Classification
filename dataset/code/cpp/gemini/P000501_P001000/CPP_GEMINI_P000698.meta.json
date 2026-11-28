@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P000698",
+  "problemId": "P000698",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000698",
+    "title": "Fast Modular Exponentiation Using Recursion",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given three integers base, exponent, and mod, compute (base^exponent) mod mod using recursive exponentiation by squaring.",
+    "input": "Integer base Integer exponent Integer mod",
+    "output": "The value of (base^exponent) mod mod.",
+    "constraints": "1 <= base, exponent <= 10^18 2 <= mod <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "cpp/gemini/CPP_GEMINI_P000698",
+    "fileSHA": "e303a8426fc6de862e9c993db4de0a4eb1ab677a8224eb4de53ad4571d0b9169",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:52:36.545993+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e303a8426fc6de862e9c993db4de0a4eb1ab677a8224eb4de53ad4571d0b9169",
+    "normalizedCodeHash": "e303a8426fc6de862e9c993db4de0a4eb1ab677a8224eb4de53ad4571d0b9169",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:52:36.546015+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001317",
+  "problemId": "P001317",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001317",
+    "title": "Knight's Tour",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × N chessboard, determine one valid Knight's Tour that visits every square exactly once starting from the specified position.",
+    "input": "• First line contains integer N. • Second line contains starting row and column.",
+    "output": "Print one valid Knight's Tour or IMPOSSIBLE if no tour exists.",
+    "constraints": "• 1 ≤ N ≤ 8"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001317.py",
+    "fileSHA": "dbec3bf029b49ea3c62394c9fba1c5496be8abbf10d9f62290b08be7882a49b1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.287222+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "dbec3bf029b49ea3c62394c9fba1c5496be8abbf10d9f62290b08be7882a49b1",
+    "normalizedCodeHash": "85cc1181038cbab10375160da375703dc90b7cb7e6ecd2621b5a86c280ca9de3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.287222+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

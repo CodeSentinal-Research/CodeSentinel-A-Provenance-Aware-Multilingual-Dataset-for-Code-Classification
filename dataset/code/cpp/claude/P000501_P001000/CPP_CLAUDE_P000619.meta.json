@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000619",
+  "problemId": "P000619",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000619",
+    "title": "Delete Middle Node of a Linked List",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a singly linked list, delete its middle node and return the head of the modified list. If the list contains an even number of nodes, delete the second middle node. If the list contains only one node, return an empty list.",
+    "input": "Integer n Linked list",
+    "output": "The linked list after deleting the middle node.",
+    "constraints": "1 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000619",
+    "fileSHA": "21d0d025dc80445badc0a91cf8d9a08acfc66c04d03243fec9b264d369f271a7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "21d0d025dc80445badc0a91cf8d9a08acfc66c04d03243fec9b264d369f271a7",
+    "normalizedCodeHash": "21d0d025dc80445badc0a91cf8d9a08acfc66c04d03243fec9b264d369f271a7",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000619"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

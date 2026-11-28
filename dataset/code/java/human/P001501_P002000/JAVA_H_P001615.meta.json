@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001615",
+  "problemId": "P001615",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001615",
+    "title": "Count Submatrices With Sum Equal to Target",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer matrix and a target value, determine the number of non-empty rectangular submatrices whose sum equals the target.",
+    "input": "\u2022 First line contains N, M, and Target. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the required count.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 300 \u2022 -10^3 \u2264 Aij \u2264 10^3"
+  },
+  "repository": {
+    "name": "lrmsspace/Knowledge-Augmented-Codegen",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "evaluation/S2/java/Medium/2478-count-submatrices-with-top-left-element-and-sum-less-than-k.java",
+    "fileSHA": "a76272b4775b3dc95d4e145879b178be26ee90ed",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen/blob/aa02d0f7c87de0b9a725c85dfb03746289785175/evaluation/S2/java/Medium/2478-count-submatrices-with-top-left-element-and-sum-less-than-k.java",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/Knowledge-Augmented-Codegen/main/evaluation/S2/java/Medium/2478-count-submatrices-with-top-left-element-and-sum-less-than-k.java"
+  },
+  "matching": {
+    "relevanceScore": 86.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2cdba366542231bce7b59e979b190bd64d02c8bd33161f8a4f3aea3f2ce1ff57",
+    "normalizedCodeHash": "2cdba366542231bce7b59e979b190bd64d02c8bd33161f8a4f3aea3f2ce1ff57",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T21:27:04.191093+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

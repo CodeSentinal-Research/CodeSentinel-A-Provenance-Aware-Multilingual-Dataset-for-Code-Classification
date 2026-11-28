@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000828",
+  "problemId": "P000828",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000828",
+    "title": "Find Right Interval",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given a list of intervals. For each interval, find another interval whose start point is the smallest value greater than or equal to the current interval's end point. If no such interval exists, return -1 for that interval.",
+    "input": "Integer n Array intervals, where each interval is represented as [start, end]",
+    "output": "An array of indices representing the right interval for every interval.",
+    "constraints": "1 <= n <= 2 × 10^5 All interval start values are unique."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000828.py",
+    "fileSHA": "1c85a7dfb600ecfaf7ce41cdb0af3fa1a7e54572253d332638d8fa61874d0249",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.220948+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1c85a7dfb600ecfaf7ce41cdb0af3fa1a7e54572253d332638d8fa61874d0249",
+    "normalizedCodeHash": "cfa4324ca35c31c152844c30b0668f854b88d72a16aff32a1d7a51002f57b230",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.220948+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

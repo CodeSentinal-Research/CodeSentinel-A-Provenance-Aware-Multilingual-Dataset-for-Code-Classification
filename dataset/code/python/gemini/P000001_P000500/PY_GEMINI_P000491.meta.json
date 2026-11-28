@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000491",
+  "problemId": "P000491",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000491",
+    "title": "Build Array With Stack Operations",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "Given a strictly increasing target array and an integer n, construct the target array starting from an empty array by reading numbers from 1 to n. For each number read: You may perform a \"Push\" operation. If the number should not remain in the array, immediately perform a \"Pop\". Return the sequence of operations required to build the target array.",
+    "input": "Integer m Target array Integer n",
+    "output": "A list of operations (Push and Pop).",
+    "constraints": "1 <= m <= 100 1 <= target[i] <= n <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000491",
+    "fileSHA": "eef2cb963fea52d64b4368c1ed35379980186542b471f8be874faaf834fb8b6d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:39:49.348704+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "eef2cb963fea52d64b4368c1ed35379980186542b471f8be874faaf834fb8b6d",
+    "normalizedCodeHash": "eef2cb963fea52d64b4368c1ed35379980186542b471f8be874faaf834fb8b6d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:39:49.348753+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

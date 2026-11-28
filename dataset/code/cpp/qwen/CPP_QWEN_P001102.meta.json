@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001102",
+  "problemId": "P001102",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001102",
+    "title": "Minimum Cost to Connect All Cities",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "There are N cities and a list of possible roads connecting pairs of cities with associated construction costs. Determine the minimum total cost required to connect all cities. If it is impossible, print -1.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain integers u, v, and cost.",
+    "output": "Print the minimum total construction cost.",
+    "constraints": "\u2022 2 \u2264 N \u2264 10^5 \u2022 1 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001102",
+    "fileSHA": "614e6e10ddb3b700c04813623a86ef840fd9a08820fe6801c0de4c4af8d41e69",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.820Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "71b7ff4644a0817b5fd459cc9151ff9f8e47ccac707af3d77e5dc32ab39d860b",
+    "normalizedCodeHash": "301bd26a9bc7ae547152d0fcd6959f4f56a93d450d645595392450480585bb3e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.820Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

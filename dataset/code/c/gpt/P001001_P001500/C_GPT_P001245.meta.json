@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001245",
+  "problemId": "P001245",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001245",
+    "title": "Queue Reconstruction by Height",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Each person is represented by two integers: height and the number of people in front having height greater than or equal to theirs. Reconstruct the original queue.",
+    "input": "• First line contains integer N. • Next N lines each contain height and count.",
+    "output": "Print the reconstructed queue.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001245.c",
+    "fileSHA": "e2d3f441407d1a899047c9819fd292a350e929026b8c1d68009ab0fa98a05329",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.414Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "727aed6b7c8b60fbe353fa4d1a21b5cb2eb7061c1fc68e126c89340a321b969c",
+    "normalizedCodeHash": "e2d3f441407d1a899047c9819fd292a350e929026b8c1d68009ab0fa98a05329",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.414Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

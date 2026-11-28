@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000500",
+  "problemId": "P000500",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000500",
+    "title": "Crawler Log Folder",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "A file system starts at the main folder. You are given a sequence of folder operations: \"../\" : Move to the parent folder (if already at the main folder, stay there). \"./\" : Stay in the current folder. \"x/\" : Move into a child folder named x. Determine the minimum number of operations needed to return to the main folder after performing all operations.",
+    "input": "Integer n Array of n folder operations.",
+    "output": "A single integer representing the required number of operations.",
+    "constraints": "1 <= n <= 10^3"
+  },
+  "repository": {
+    "name": "Abhishek-Verma0/awesome-Leetcode-Daily",
+    "owner": "Abhishek-Verma0",
+    "url": "https://github.com/Abhishek-Verma0/awesome-Leetcode-Daily",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "LeetCode/63-CrawlerLogFolder.c",
+    "fileSHA": "f9b655abd1ee93d3956e7351a3cd8d05d9fed77e",
+    "url": "https://github.com/Abhishek-Verma0/awesome-Leetcode-Daily/blob/b5522461b6858984dba6cabdd056ffd12e878de8/LeetCode/63-CrawlerLogFolder.c",
+    "rawUrl": "https://raw.githubusercontent.com/Abhishek-Verma0/awesome-Leetcode-Daily/main/LeetCode/63-CrawlerLogFolder.c"
+  },
+  "matching": {
+    "relevanceScore": 91.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5a35be549f4a70b5a32fa596d9b0f5fe16e927b16f6206e6ca1551216fab6042",
+    "normalizedCodeHash": "5a35be549f4a70b5a32fa596d9b0f5fe16e927b16f6206e6ca1551216fab6042",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T19:13:38.137763+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

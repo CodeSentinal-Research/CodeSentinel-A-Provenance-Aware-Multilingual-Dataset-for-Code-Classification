@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000783",
+  "problemId": "P000783",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000783",
+    "title": "Count Even Numbers in Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and multiple queries [L, R], determine how many even numbers lie within each range. Use a prefix sum approach.",
+    "input": "Integer n Array nums Integer q Queries (L, R)",
+    "output": "For each query, print the count of even numbers.",
+    "constraints": "1 <= n, q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "java/gemini/JAVA_GEMINI_P000783",
+    "fileSHA": "9d4fd8ecc2f33b9ffb49daf25c9d50b17b150f671f395868f2eb1c7d2a57035f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T17:16:01.040442+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9d4fd8ecc2f33b9ffb49daf25c9d50b17b150f671f395868f2eb1c7d2a57035f",
+    "normalizedCodeHash": "9d4fd8ecc2f33b9ffb49daf25c9d50b17b150f671f395868f2eb1c7d2a57035f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T17:16:01.040462+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

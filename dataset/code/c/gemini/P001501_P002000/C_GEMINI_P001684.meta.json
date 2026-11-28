@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001684",
+  "problemId": "P001684",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001684",
+    "title": "Check Whether Two Nodes are Siblings",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given the root of a binary tree and two distinct node values, determine whether both nodes share the same parent.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains two node values.",
+    "output": "\u2022 Print YES if the nodes are siblings; otherwise print NO.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001684",
+    "fileSHA": "ba185411d6393556eb9f6d13e70dba3cfe88acf9db252ece59d20c86cae47e80",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:35:05.405844+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ba185411d6393556eb9f6d13e70dba3cfe88acf9db252ece59d20c86cae47e80",
+    "normalizedCodeHash": "ba185411d6393556eb9f6d13e70dba3cfe88acf9db252ece59d20c86cae47e80",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:35:05.405867+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

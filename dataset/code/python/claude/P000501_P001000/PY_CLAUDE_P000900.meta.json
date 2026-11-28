@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000900",
+  "problemId": "P000900",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000900",
+    "title": "Check Divisibility by 9",
+    "category": "Mathematics - Divisibility",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer N, determine whether it is divisible by 9.",
+    "input": "Integer N",
+    "output": "Print true if divisible by 9, otherwise false.",
+    "constraints": "-10^18 <= N <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000900",
+    "fileSHA": "b1f39777361dc132104e5258cc55b1c3196de3e0ea81b15c228b67d51262cc1a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b1f39777361dc132104e5258cc55b1c3196de3e0ea81b15c228b67d51262cc1a",
+    "normalizedCodeHash": "b1f39777361dc132104e5258cc55b1c3196de3e0ea81b15c228b67d51262cc1a",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique solution P000900: Check Divisibility by 9"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

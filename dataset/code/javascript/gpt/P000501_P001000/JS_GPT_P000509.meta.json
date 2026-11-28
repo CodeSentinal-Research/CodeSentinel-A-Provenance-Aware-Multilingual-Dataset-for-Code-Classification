@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000509",
+  "problemId": "P000509",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000509",
+    "title": "Clear Digits from String",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a string consisting of lowercase English letters and digits. Process the string from left to right: If the current character is a lowercase letter, keep it. If the current character is a digit, remove the closest lowercase letter to its left that has not already been removed, and discard the digit itself. Return the final string after processing all characters.",
+    "input": "A single string s.",
+    "output": "The resulting string.",
+    "constraints": "1 <= s.length <= 10^5 s consists only of lowercase English letters and digits. Every digit has at least one removable letter to its left."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000509.js",
+    "fileSHA": "32b9a95eb7741ece934175754c98f2d058f08df76a2450925ec821b0bb4eb03e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "32b9a95eb7741ece934175754c98f2d058f08df76a2450925ec821b0bb4eb03e",
+    "normalizedCodeHash": "32b9a95eb7741ece934175754c98f2d058f08df76a2450925ec821b0bb4eb03e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

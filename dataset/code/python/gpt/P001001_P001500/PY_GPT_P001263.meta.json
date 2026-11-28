@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001263",
+  "problemId": "P001263",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001263",
+    "title": "Two City Scheduling",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "There are 2N people who must be assigned to one of two cities. The cost of sending each person to each city is given. Determine the minimum total travel cost while sending exactly N people to each city.",
+    "input": "• First line contains integer N. • Next 2N lines each contain the cost of sending one person to City A and City B.",
+    "output": "Print the minimum total cost.",
+    "constraints": "• 1 ≤ N ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001263.py",
+    "fileSHA": "edd8c29a4472dfff2352e00bd848e17ad08883e5a0714828460bec450480b9db",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.995688+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "edd8c29a4472dfff2352e00bd848e17ad08883e5a0714828460bec450480b9db",
+    "normalizedCodeHash": "7045816bf9deae385dd0ee9f9f5e0dd411ca8a965dfe22537cf118c7d6cdbeef",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.995688+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001628",
+  "problemId": "P001628",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001628",
+    "title": "Longest Prefix With Positive Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers, determine the length of the longest prefix whose sum is strictly greater than zero.",
+    "input": "• First line contains N. • Second line contains N integers.",
+    "output": "• Print the required length. If no such prefix exists, print 0.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001628.c",
+    "fileSHA": "20da61806ce488e474b6044a083a029a6869e7797ec7943c65c853967be0a537",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.043Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "4dd9096e7479aad993904c8acb81d43c1a4aa6ef33af076a025992e87a51a76a",
+    "normalizedCodeHash": "20da61806ce488e474b6044a083a029a6869e7797ec7943c65c853967be0a537",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.043Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

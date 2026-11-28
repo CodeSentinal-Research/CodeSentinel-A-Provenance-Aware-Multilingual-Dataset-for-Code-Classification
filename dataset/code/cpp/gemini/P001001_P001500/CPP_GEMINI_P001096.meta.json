@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001096",
+  "problemId": "P001096",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001096",
+    "title": "Minimum Cut",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a directed graph with edge capacities, determine the capacity of the minimum S-T cut.",
+    "input": "\u2022 First line contains integers N, M, S, and T. \u2022 Next M lines contain integers u, v, and capacity.",
+    "output": "Print the minimum cut capacity.",
+    "constraints": "\u2022 2 \u2264 N \u2264 500 \u2022 1 \u2264 M \u2264 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001096",
+    "fileSHA": "c4d83f5a8cea34c6980a84ea1c647ae144923131135cde089b20f7242afd9b61",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:45:00.717051+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c4d83f5a8cea34c6980a84ea1c647ae144923131135cde089b20f7242afd9b61",
+    "normalizedCodeHash": "c4d83f5a8cea34c6980a84ea1c647ae144923131135cde089b20f7242afd9b61",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:45:00.717077+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

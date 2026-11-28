@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000545",
+  "problemId": "P000545",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000545",
+    "title": "Constrained Subsequence Sum",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array nums and an integer k, find the maximum sum of a non-empty subsequence such that for every two consecutive chosen elements, their indices differ by at most k. Return the maximum possible sum.",
+    "input": "Integer n Array nums Integer k",
+    "output": "A single integer representing the maximum subsequence sum.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= n -10^4 <= nums[i] <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000545.js",
+    "fileSHA": "c9ef8769a4eeff7bc190faf8ab3d891e07753b28c62cfd5b22b72b31b9110579",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c9ef8769a4eeff7bc190faf8ab3d891e07753b28c62cfd5b22b72b31b9110579",
+    "normalizedCodeHash": "c9ef8769a4eeff7bc190faf8ab3d891e07753b28c62cfd5b22b72b31b9110579",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

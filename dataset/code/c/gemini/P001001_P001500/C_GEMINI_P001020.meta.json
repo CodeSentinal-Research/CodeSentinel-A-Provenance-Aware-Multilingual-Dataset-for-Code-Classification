@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001020",
+  "problemId": "P001020",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001020",
+    "title": "Smallest Range Covering K Sorted Lists",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given K sorted lists of integers, determine the smallest inclusive range that contains at least one element from every list.",
+    "input": "\u2022 First line contains integer K. \u2022 For each list, the number of elements followed by the sorted elements.",
+    "output": "Print the starting and ending values of the smallest range.",
+    "constraints": "\u2022 1 \u2264 K \u2264 500 \u2022 Total number of elements \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001020",
+    "fileSHA": "690c92a35151b2dc56dc4b12f092b96484782aa07d7a490434819b525a3c4efb",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:38:22.020218+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "690c92a35151b2dc56dc4b12f092b96484782aa07d7a490434819b525a3c4efb",
+    "normalizedCodeHash": "690c92a35151b2dc56dc4b12f092b96484782aa07d7a490434819b525a3c4efb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:38:22.020246+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

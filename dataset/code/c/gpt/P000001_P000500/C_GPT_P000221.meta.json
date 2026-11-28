@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000221",
+  "problemId": "P000221",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000221",
+    "title": "Maximum Length Chain of Pairs",
+    "category": "Arrays",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that finds the longest chain of pairs that can be formed where a pair (c, d) can follow (a, b) only if b < c.",
+    "input": "First line contains N. Next N lines contain pairs.",
+    "output": "Length of the longest chain.",
+    "constraints": "1 ≤ N ≤ 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000221.c",
+    "fileSHA": "f037b33a906d74ac8afa7501462963c6b009113f2247877a97f3243ee513f66a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f037b33a906d74ac8afa7501462963c6b009113f2247877a97f3243ee513f66a",
+    "normalizedCodeHash": "f037b33a906d74ac8afa7501462963c6b009113f2247877a97f3243ee513f66a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000626",
+  "problemId": "P000626",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000626",
+    "title": "All One Data Structure",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a data structure that supports the following operations in constant time: inc(key) \u2014 Increment the count of the given key. dec(key) \u2014 Decrement the count of the given key. Remove the key if its count becomes zero. getMaxKey() \u2014 Return any key with the maximum count. getMinKey() \u2014 Return any key with the minimum count. Process a sequence of operations and print the results of every getMaxKey() and getMinKey() query.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for every getMaxKey() and getMinKey() operation.",
+    "constraints": "1 <= q <= 5 \u00d7 10^4 Keys consist of lowercase English letters."
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/all-oone-data-structure.py",
+    "fileSHA": "e83c8f31902d4122ca1424bbc78e5808d2246ca4",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/all-oone-data-structure.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/all-oone-data-structure.py"
+  },
+  "matching": {
+    "relevanceScore": 88.3
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "56b92042c6831e6a4f78175020867d58746dd8f91ce804a11b057b6f0350e8c4",
+    "normalizedCodeHash": "56b92042c6831e6a4f78175020867d58746dd8f91ce804a11b057b6f0350e8c4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T02:04:26.987002+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

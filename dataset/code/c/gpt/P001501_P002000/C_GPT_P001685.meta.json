@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001685",
+  "problemId": "P001685",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001685",
+    "title": "Find the Successor of a Node in Level Order Traversal",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree and a target node, determine the node that immediately follows the target in level order traversal. If no such node exists, print NONE.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree. • The last line contains the target node value.",
+    "output": "• Print the level order successor.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001685.c",
+    "fileSHA": "1db208a12a66fb80ba622423c55892c1a73c3c173d674f5d8b878c20095273b2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.341Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "fb03322032a03ea9d82ef01c931af7a1e42532db5395f2dcd991076b61869d95",
+    "normalizedCodeHash": "1db208a12a66fb80ba622423c55892c1a73c3c173d674f5d8b878c20095273b2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.341Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

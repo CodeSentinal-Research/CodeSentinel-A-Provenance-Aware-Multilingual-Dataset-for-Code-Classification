@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001499",
+  "problemId": "P001499",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001499",
+    "title": "Reverse Prefix of Word",
+    "category": "Two Pointers",
+    "difficulty": "Easy",
+    "problemStatement": "Given a string and a character C, reverse the prefix of the string ending at the first occurrence of C. If C does not occur, leave the string unchanged.",
+    "input": "• First line contains the string. • Second line contains character C.",
+    "output": "Print the modified string.",
+    "constraints": "• 1 ≤ Length ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001499.js",
+    "fileSHA": "a8f25c94b589894439ea567142e86931c02b370de85faeedda83c557b0c5f9fc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a8f25c94b589894439ea567142e86931c02b370de85faeedda83c557b0c5f9fc",
+    "normalizedCodeHash": "a8f25c94b589894439ea567142e86931c02b370de85faeedda83c557b0c5f9fc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

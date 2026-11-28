@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001101",
+  "problemId": "P001101",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001101",
+    "title": "Redundant Connection",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "A graph originally forms a tree with N vertices. One additional edge is added. Determine the redundant edge whose removal restores the graph to a tree.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain an edge.",
+    "output": "Print the redundant edge.",
+    "constraints": "\u2022 2 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001101",
+    "fileSHA": "c7f0ecceaf6a2a5aaaa92deca67d5ade5e2630cc34b903f2b61e50ade87c5a7f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.818Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "f3ac4ea8ba611cb1b64a08e0f364738a44eeb3d55bc3206d6bcbd77bbfabac44",
+    "normalizedCodeHash": "eed69085852113246f899223cbe6d9bc334d7abb5e1a0dddd19a91f53ddb1943",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.818Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

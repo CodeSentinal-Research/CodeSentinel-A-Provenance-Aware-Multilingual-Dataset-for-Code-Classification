@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001110",
+  "problemId": "P001110",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001110",
+    "title": "M-Coloring Problem",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph and an integer M, determine whether the graph can be colored using at most M colors so that adjacent vertices have different colors.",
+    "input": "\u2022 First line contains integers N, E, and M. \u2022 Next E lines contain graph edges.",
+    "output": "Print YES if such a coloring exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 20 \u2022 0 \u2264 E \u2264 N(N\u22121)/2"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001110",
+    "fileSHA": "422c19111f26bcc1fca1759c5a9d3642162429fc541459579b26a84dcdffcce4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.826Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "fca80758203fdb197af3c09b6d1396dd7301f822d6c68852496c7454eff6dfd8",
+    "normalizedCodeHash": "08aa0c0cab1124c42f89ba9786f80e9b76012f48bf856fe68a0addd3ce23f03b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.826Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

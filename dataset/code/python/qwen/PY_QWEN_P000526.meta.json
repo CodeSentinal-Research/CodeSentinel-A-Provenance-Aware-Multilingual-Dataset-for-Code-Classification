@@ -1,0 +1,75 @@
+{
+ "solutionId": "PY_QWEN_P000526",
+ "problemId": "P000526",
+ "language": "python",
+ "label": "qwen_generated",
+ "problem": {
+  "problemId": "P000526",
+  "title": "Number of Atoms",
+  "category": "Stack",
+  "difficulty": "Hard",
+  "problemStatement": "Given a valid chemical formula, return the count of each atom in lexicographical order. Rules: Element names begin with an uppercase letter and may be followed by lowercase letters. A number following an element or a closing parenthesis indicates its multiplicity. Parentheses may be nested. Output the formula in its canonical form.",
+  "input": "A string representing the chemical formula.",
+  "output": "A string representing the canonical atom count.",
+  "constraints": "1 <= formula.length <= 1000 The formula is valid."
+ },
+ "repository": {
+  "name": "qwen-python-solutions",
+  "owner": "qwen",
+  "url": "https://github.com/qwen/qwen-python-solutions",
+  "defaultBranch": "main",
+  "license": "MIT",
+  "stars": 0,
+  "forks": 0,
+  "fork": false,
+  "createdAt": "",
+  "updatedAt": "",
+  "pushedAt": "",
+  "language": "python",
+  "disabled": false,
+  "archived": false,
+  "private": false
+ },
+ "source": {
+  "path": "py/qwen/P000526/P000526.py",
+  "fileSHA": "AI_GENERATED",
+  "commitSHA": "AI_GENERATED",
+  "url": "N/A",
+  "rawUrl": "N/A"
+ },
+ "matching": {
+  "relevanceScore": 100.0
+ },
+ "provenance": {
+  "score": 100.0,
+  "level": "AI_GENERATED",
+  "preCutoffEvidence": false,
+  "firstCommitDate": "2026-08-22T12:00:00Z",
+  "lastCommitDate": "2026-08-22T12:00:00Z",
+  "commitCount": 1,
+  "authorCount": 1,
+  "authors": [
+   "Qwen AI"
+  ],
+  "firstKnownAuthor": "Qwen AI",
+  "latestKnownAuthor": "Qwen AI"
+ },
+ "deduplication": {
+  "rawCodeHash": "N/A",
+  "normalizedCodeHash": "N/A",
+  "duplicate": false,
+  "duplicateOf": null
+ },
+ "validation": {
+  "syntaxValid": true,
+  "utf8Valid": true,
+  "nonEmpty": true,
+  "isText": true,
+  "hasGeneratedMarkers": false,
+  "reason": null
+ },
+ "collection": {
+  "collectedAt": "2026-08-22T12:00:00.000000+00:00",
+  "pipelineVersion": "1.0.0"
+ }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001619",
+  "problemId": "P001619",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001619",
+    "title": "XOR of a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, each containing indices L and R, determine the XOR of all elements in the range [L, R].",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Next Q lines each contain L and R.",
+    "output": "\u2022 For each query, print the XOR of the specified range.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2 \u00d7 10^5 \u2022 0 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "pulkitsingla33/embedded-linux-practice",
+    "owner": "pulkitsingla33",
+    "url": "https://github.com/pulkitsingla33/embedded-linux-practice",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "bit_manipulation/day28/count_pairs_xor_range.c",
+    "fileSHA": "950a81bb64d07d313b4a59e64f318d5ec014ea0e",
+    "url": "https://github.com/pulkitsingla33/embedded-linux-practice/blob/05f43dbbe23a0b44177d8215edd1e9ca489907db/bit_manipulation/day28/count_pairs_xor_range.c",
+    "rawUrl": "https://raw.githubusercontent.com/pulkitsingla33/embedded-linux-practice/main/bit_manipulation/day28/count_pairs_xor_range.c"
+  },
+  "matching": {
+    "relevanceScore": 70.56
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "50168db70cb38e7784b091e059351bffd575e4dfc70f978a2720225d28afdb68",
+    "normalizedCodeHash": "50168db70cb38e7784b091e059351bffd575e4dfc70f978a2720225d28afdb68",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:13:56.170935+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

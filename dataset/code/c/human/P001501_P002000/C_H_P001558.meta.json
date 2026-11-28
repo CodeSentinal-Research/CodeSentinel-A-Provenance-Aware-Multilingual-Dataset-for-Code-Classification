@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001558",
+  "problemId": "P001558",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001558",
+    "title": "Longest Substring With At Most K Distinct Characters",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string S and an integer K, determine the length of the longest substring containing at most K distinct characters.",
+    "input": "\u2022 First line contains string S. \u2022 Second line contains integer K.",
+    "output": "\u2022 Print the required length.",
+    "constraints": "\u2022 1 \u2264 |S| \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K \u2264 26"
+  },
+  "repository": {
+    "name": "ypradera/ALGO",
+    "owner": "ypradera",
+    "url": "https://github.com/ypradera/ALGO",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "PATTERNS/sliding_window.c",
+    "fileSHA": "9382ebafd6993190803fb2c048a908b7ff78766b",
+    "url": "https://github.com/ypradera/ALGO/blob/cfc97212f7bb86324b7f5fbf6585a6b62a968b1e/PATTERNS/sliding_window.c",
+    "rawUrl": "https://raw.githubusercontent.com/ypradera/ALGO/main/PATTERNS/sliding_window.c"
+  },
+  "matching": {
+    "relevanceScore": 93.75
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "22091b199d01fb74fe7d769d78ad42499d7cd2581fbf69753a5ef5d2b73ec8cd",
+    "normalizedCodeHash": "22091b199d01fb74fe7d769d78ad42499d7cd2581fbf69753a5ef5d2b73ec8cd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:42:44.761962+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

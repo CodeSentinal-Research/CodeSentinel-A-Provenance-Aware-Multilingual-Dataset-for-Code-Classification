@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000521",
+  "problemId": "P000521",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000521",
+    "title": "Increasing Order Removal",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an array of integers. Repeatedly remove elements from left to right while maintaining a strictly increasing sequence in the current pass. Elements that cannot be removed in the current pass remain for the next pass. Determine the minimum number of passes required to remove all elements.",
+    "input": "Integer n Array nums",
+    "output": "A single integer representing the minimum number of passes.",
+    "constraints": "1 <= n <= 2 \u00d7 10^5 1 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/1800-1899/1827.Minimum Operations to Make the Array Increasing/Solution.c",
+    "fileSHA": "f63e3cec454c8f9c094675fc4b73d1802c168d46",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/1800-1899/1827.Minimum Operations to Make the Array Increasing/Solution.c",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/1800-1899/1827.Minimum Operations to Make the Array Increasing/Solution.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7493e866fe460e4a5f2c0d9b2bf027c62e91151c60fff41fe56ef232e90b91a9",
+    "normalizedCodeHash": "7493e866fe460e4a5f2c0d9b2bf027c62e91151c60fff41fe56ef232e90b91a9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:23.956330+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

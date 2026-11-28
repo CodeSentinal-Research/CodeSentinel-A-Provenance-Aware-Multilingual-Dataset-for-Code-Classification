@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000427",
+  "problemId": "P000427",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000427",
+    "title": "Search Products Eligible for Free Shipping",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Retrieve all products that satisfy the minimum price required for free shipping.",
+    "input": "Product records and the minimum qualifying price.",
+    "output": "Matching products.",
+    "constraints": "1 ≤ Number of Products ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000427",
+    "fileSHA": "c5217ac0ef58ea80cb2062995abaf1b455e4bf4a70b06306b1af9bb729a3f9e1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c5217ac0ef58ea80cb2062995abaf1b455e4bf4a70b06306b1af9bb729a3f9e1",
+    "normalizedCodeHash": "c5217ac0ef58ea80cb2062995abaf1b455e4bf4a70b06306b1af9bb729a3f9e1",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000427: Search Products Eligible for Free Shipping"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

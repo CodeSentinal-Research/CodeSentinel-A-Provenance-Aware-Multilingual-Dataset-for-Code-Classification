@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000609",
+  "problemId": "P000609",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000609",
+    "title": "Remove Zero Sum Consecutive Nodes from Linked List",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a singly linked list, repeatedly remove every consecutive sequence of nodes whose values sum to zero. Continue this process until no such sequence exists. Return the head of the resulting linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 1000 -1000 <= node.value <= 1000"
+  },
+  "repository": {
+    "name": "jnarin/lc_c_cplusplus",
+    "owner": "jnarin",
+    "url": "https://github.com/jnarin/lc_c_cplusplus",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "1171. Remove Zero Sum Consecutive Nodes from Linked List.c",
+    "fileSHA": "d8116698bfd384b07eaa848bd59390fe20c668d5",
+    "url": "https://github.com/jnarin/lc_c_cplusplus/blob/b1d267f3cde123ca2c0907bf72ebad097a42337a/1171. Remove Zero Sum Consecutive Nodes from Linked List.c",
+    "rawUrl": "https://raw.githubusercontent.com/jnarin/lc_c_cplusplus/main/1171. Remove Zero Sum Consecutive Nodes from Linked List.c"
+  },
+  "matching": {
+    "relevanceScore": 89.29
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d316e33671571ad7e869bba826c72501a49313ec54a72c0b231c8f8791a84f5a",
+    "normalizedCodeHash": "d316e33671571ad7e869bba826c72501a49313ec54a72c0b231c8f8791a84f5a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:46:04.694245+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

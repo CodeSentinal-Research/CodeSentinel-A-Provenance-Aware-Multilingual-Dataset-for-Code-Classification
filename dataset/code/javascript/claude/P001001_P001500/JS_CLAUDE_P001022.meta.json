@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P001022",
+  "problemId": "P001022",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001022",
+    "title": "Decrease Key in a Min Heap",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a valid Min Heap represented as an array, an index i, and a new value smaller than or equal to the current value, update the key and restore the Min Heap property. Print the updated heap.",
+    "input": "• First line contains integer N. • Second line contains N space-separated integers. • Third line contains integers i and newValue.",
+    "output": "Print the updated Min Heap.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ i < N"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P001022",
+    "fileSHA": "01749a59a78ba0ae762a32be2fcbc1b6c0a47a819def5efac1140462e8aab19b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "01749a59a78ba0ae762a32be2fcbc1b6c0a47a819def5efac1140462e8aab19b",
+    "normalizedCodeHash": "01749a59a78ba0ae762a32be2fcbc1b6c0a47a819def5efac1140462e8aab19b",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P001022"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001309",
+  "problemId": "P001309",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001309",
+    "title": "Survival on an Island",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "A person must survive for S days on an island. Food can only be purchased on certain days, and there is a daily purchase limit. Determine the minimum number of days on which food must be purchased to survive, or print -1 if survival is impossible.",
+    "input": "• First line contains integers S, N, and M, where N is the maximum units purchasable per day and M is the daily food requirement.",
+    "output": "Print the minimum number of purchase days, or -1 if impossible.",
+    "constraints": "• 1 ≤ S ≤ 10^9 • 1 ≤ M ≤ N ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001309.c",
+    "fileSHA": "3dbf820083178ada271e03a5fe485bd21ca507943bda225187b4818dfeef7dfa",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.749Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "9262e271ae2e5afd9b879066e7ab8c7e810c5f96a8a25134b92bee76a5b966a7",
+    "normalizedCodeHash": "3dbf820083178ada271e03a5fe485bd21ca507943bda225187b4818dfeef7dfa",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.749Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

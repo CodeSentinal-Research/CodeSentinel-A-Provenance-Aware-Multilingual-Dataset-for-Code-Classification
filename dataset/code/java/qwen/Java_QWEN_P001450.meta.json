@@ -1,0 +1,59 @@
+{
+  "solutionId": "Java_QWEN_P001450",
+  "problemId": "P001450",
+  "language": "java",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001450",
+    "title": "Rank Teams by Votes",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Several voters rank teams from best to worst. Determine the final ranking by comparing vote frequencies at every position. Break remaining ties alphabetically.",
+    "input": "\u2022 First line contains integer V. \u2022 Next V lines contain one ranking string.",
+    "output": "Print the final ranking string.",
+    "constraints": "\u2022 1 \u2264 V \u2264 10^5 \u2022 Number of teams \u2264 26"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/Java_QWEN_P001450",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

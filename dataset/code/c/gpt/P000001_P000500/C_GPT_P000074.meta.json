@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000074",
+  "problemId": "P000074",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000074",
+    "title": "Calculate Volume of Sphere",
+    "category": "Basic",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that calculates the volume of a sphere given its radius.",
+    "input": "A floating-point number r.",
+    "output": "The volume of the sphere (use π = 3.14159).",
+    "constraints": "0 < r ≤ 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000074.c",
+    "fileSHA": "305017e35ff98b43d5041d5db72b2c5588c0ab126ed7a27d53f061f9d370972a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:23:08.716982+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "305017e35ff98b43d5041d5db72b2c5588c0ab126ed7a27d53f061f9d370972a",
+    "normalizedCodeHash": "305017e35ff98b43d5041d5db72b2c5588c0ab126ed7a27d53f061f9d370972a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:23:08.716982+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

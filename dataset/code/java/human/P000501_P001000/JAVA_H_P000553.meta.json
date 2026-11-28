@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000553",
+  "problemId": "P000553",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000553",
+    "title": "Snakes and Ladders",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an n \u00d7 n Snakes and Ladders board. Starting from square 1, each move consists of rolling a six-sided die and moving accordingly. If the destination square contains the start of a ladder or the head of a snake, immediately move to its destination. Return the minimum number of moves required to reach the final square. Return -1 if it is impossible.",
+    "input": "Integer n An n \u00d7 n board.",
+    "output": "A single integer representing the minimum number of moves.",
+    "constraints": "2 <= n <= 20"
+  },
+  "repository": {
+    "name": "kaushalkumar22/DSA-Problems-Patterns",
+    "owner": "kaushalkumar22",
+    "url": "https://github.com/kaushalkumar22/DSA-Problems-Patterns",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "dsa/graphs_dfsbfs/SnakesAndLadders.java",
+    "fileSHA": "50f603e0aefe7803c9cfe6f213198ceae8700776",
+    "url": "https://github.com/kaushalkumar22/DSA-Problems-Patterns/blob/e997ad2fef1d5c0e93cf860df4a994c7bbc07e93/dsa/graphs_dfsbfs/SnakesAndLadders.java",
+    "rawUrl": "https://raw.githubusercontent.com/kaushalkumar22/DSA-Problems-Patterns/main/dsa/graphs_dfsbfs/SnakesAndLadders.java"
+  },
+  "matching": {
+    "relevanceScore": 87.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6e6288afa3a2df2fdb2f7bb7ac3ba54e560eb6f79cd337d8687194bde22d1d10",
+    "normalizedCodeHash": "6e6288afa3a2df2fdb2f7bb7ac3ba54e560eb6f79cd337d8687194bde22d1d10",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:12:59.960787+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

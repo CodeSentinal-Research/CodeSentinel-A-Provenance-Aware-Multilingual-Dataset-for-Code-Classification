@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000847",
+  "problemId": "P000847",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000847",
+    "title": "Maximum Running Time of N Computers",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "You are given n computers and several batteries. Each battery can power only one computer at a time, but batteries may be swapped instantly. Determine the maximum number of minutes all n computers can run simultaneously.",
+    "input": "Integer n Integer m Array batteries",
+    "output": "The maximum running time.",
+    "constraints": "1 <= n <= m <= 10^5 1 <= batteries[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000847",
+    "fileSHA": "29493cc685f6eb229d2c07f866499e713ef7d5404124bfe5b59e5e36c7bf447e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "29493cc685f6eb229d2c07f866499e713ef7d5404124bfe5b59e5e36c7bf447e",
+    "normalizedCodeHash": "29493cc685f6eb229d2c07f866499e713ef7d5404124bfe5b59e5e36c7bf447e",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000847"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

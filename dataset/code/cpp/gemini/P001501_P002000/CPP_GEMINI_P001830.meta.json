@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001830",
+  "problemId": "P001830",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001830",
+    "title": "Find the Smallest Key Greater Than a Given Value",
+    "category": "Binary Search Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given the root of a Binary Search Tree and a value X, determine the smallest key that is strictly greater than X.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The last line contains X.",
+    "output": "\u2022 Print the required key, or NONE if no such key exists.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001830",
+    "fileSHA": "c9ecd418a5e8a9715197704e3e2e2ad61b46fe2289d2aa7c36a0fe7109c4c74e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:24.326311+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c9ecd418a5e8a9715197704e3e2e2ad61b46fe2289d2aa7c36a0fe7109c4c74e",
+    "normalizedCodeHash": "c9ecd418a5e8a9715197704e3e2e2ad61b46fe2289d2aa7c36a0fe7109c4c74e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:24.326331+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

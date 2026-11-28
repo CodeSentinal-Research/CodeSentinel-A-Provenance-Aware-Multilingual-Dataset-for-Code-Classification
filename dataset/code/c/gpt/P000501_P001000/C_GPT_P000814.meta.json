@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000814",
+  "problemId": "P000814",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000814",
+    "title": "First Bad Version",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given n versions labeled from 1 to n. There exists a version after which every version is bad. You are provided with an API: isBadVersion(version) Return the first bad version using binary search.",
+    "input": "Integer n",
+    "output": "The first bad version.",
+    "constraints": "1 <= n <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000814.c",
+    "fileSHA": "9aff32204e398e2e158f20c79728f89b43db0b5c310ac29403b09135b4018445",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9aff32204e398e2e158f20c79728f89b43db0b5c310ac29403b09135b4018445",
+    "normalizedCodeHash": "9aff32204e398e2e158f20c79728f89b43db0b5c310ac29403b09135b4018445",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

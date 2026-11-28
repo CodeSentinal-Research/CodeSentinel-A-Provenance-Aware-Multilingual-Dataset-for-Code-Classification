@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P000534",
+  "problemId": "P000534",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000534",
+    "title": "Dota2 Senate",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "In the Dota2 senate, senators belong to one of two parties: 'R' (Radiant) 'D' (Dire) The voting proceeds in rounds. During each round, senators act in their current order. A senator who still has voting rights may ban one senator from the opposing party. A banned senator loses all future rights. Assuming every senator acts optimally for their party, determine which party will eventually win.",
+    "input": "A string representing the initial senate order.",
+    "output": "Print \"Radiant\" or \"Dire\".",
+    "constraints": "1 <= senate.length <= 10^4"
+  },
+  "repository": {
+    "name": "Frellys/port",
+    "owner": "Frellys",
+    "url": "https://github.com/Frellys/port",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P000501_P001000/JS_H_P000534.js",
+    "fileSHA": "b814f0ca613964fafecd9565245017a2a2a17552",
+    "url": "https://github.com/Frellys/port/blob/1536eaf3db5467684287dbbca24d7ff9debf1eb8/leetcode/medium/Dota2 Senate.js",
+    "rawUrl": "https://raw.githubusercontent.com/Frellys/port/main/leetcode/medium/Dota2 Senate.js"
+  },
+  "matching": {
+    "relevanceScore": 78.71
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2020-12-13T18:27:26Z",
+    "lastCommitDate": "2020-12-13T18:27:26Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Frellys"
+    ],
+    "firstKnownAuthor": "Frellys",
+    "latestKnownAuthor": "Frellys"
+  },
+  "deduplication": {
+    "rawCodeHash": "d93daa62a7d6597d98ebd9e1c667fc1ddbd6ba6551de26c0b57dd7b14f5b61dc",
+    "normalizedCodeHash": "d93daa62a7d6597d98ebd9e1c667fc1ddbd6ba6551de26c0b57dd7b14f5b61dc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:13:16.767495+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

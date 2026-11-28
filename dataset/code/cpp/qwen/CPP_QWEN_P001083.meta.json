@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001083",
+  "problemId": "P001083",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001083",
+    "title": "Hamiltonian Path",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph, determine whether it contains a Hamiltonian Path that visits every vertex exactly once.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print YES if a Hamiltonian Path exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 20 \u2022 0 \u2264 M \u2264 N(N\u22121)/2"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001083",
+    "fileSHA": "aa6131f03614df6e0e8017aea752d84b25a86719b2bf2d4fc67366def4b111d5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.598Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "7a1e7faedaced1e8fa89e32399bd39cfad4c066652acdeecc1b504589c206d29",
+    "normalizedCodeHash": "a88697db369019d0e5839b749612a124c8f98599fbe6151a7b79d27b9bf2cf7c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.598Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

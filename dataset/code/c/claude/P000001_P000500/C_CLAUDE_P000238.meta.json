@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000238",
+  "problemId": "P000238",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000238",
+    "title": "Check if Matrix is Orthogonal",
+    "category": "Arrays",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that checks whether a square matrix is orthogonal (product with its transpose is identity).",
+    "input": "First line contains N. Next N lines contain the matrix.",
+    "output": "Print \"Yes\" or \"No\".",
+    "constraints": "1 ≤ N ≤ 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000238",
+    "fileSHA": "5f9059946c523fdc00e54f943eb7a90575e0cda7da0959891342ff51d9df8967",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5f9059946c523fdc00e54f943eb7a90575e0cda7da0959891342ff51d9df8967",
+    "normalizedCodeHash": "5f9059946c523fdc00e54f943eb7a90575e0cda7da0959891342ff51d9df8967",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000238: Check if Matrix is Orthogonal"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

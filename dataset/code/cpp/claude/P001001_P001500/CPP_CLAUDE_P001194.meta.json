@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_CLAUDE_P001194",
+  "problemId": "P001194",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001194",
+    "title": "Partition Array for Maximum Sum",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array and an integer K, partition the array into contiguous subarrays of length at most K. Replace each subarray with its maximum element repeated throughout the partition. Determine the maximum possible total sum.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print the maximum obtainable sum.",
+    "constraints": "• 1 ≤ N ≤ 500 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P001194",
+    "fileSHA": "572734f411d1019b190124df667a2f49cf1fffaedafa1b338fd5f0b5ed84b411",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f57d565265ae36df5cdb178ab03cbf0c1fba2714315cf5aad03e64d0f1fa32f2",
+    "normalizedCodeHash": "572734f411d1019b190124df667a2f49cf1fffaedafa1b338fd5f0b5ed84b411",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

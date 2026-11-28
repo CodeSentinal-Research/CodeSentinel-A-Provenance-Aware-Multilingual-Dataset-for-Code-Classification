@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001399",
+  "problemId": "P001399",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001399",
+    "title": "Uncommon Words from Two Sentences",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given two sentences, print all words that appear exactly once in one sentence and do not appear in the other sentence.",
+    "input": "• First line contains the first sentence. • Second line contains the second sentence.",
+    "output": "Print the uncommon words in lexicographical order.",
+    "constraints": "• Sentence length ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001399.c",
+    "fileSHA": "5c00fbc87e19cbc6a6aa2e6e27dea0e77df52dc159406b88f9b63e02da26017e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.253Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "883ae46e319b8fb73e251463645c48dec018112121d01b6406299d01380f1b24",
+    "normalizedCodeHash": "5c00fbc87e19cbc6a6aa2e6e27dea0e77df52dc159406b88f9b63e02da26017e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.253Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

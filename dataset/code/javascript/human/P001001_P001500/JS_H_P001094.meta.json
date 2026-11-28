@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001094",
+  "problemId": "P001094",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001094",
+    "title": "Maximum Bipartite Matching",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a bipartite graph with left and right partitions, determine the maximum number of matched vertex pairs such that no vertex belongs to more than one pair.",
+    "input": "\u2022 First line contains integers L, R, and M. \u2022 Next M lines contain edges between the left and right partitions.",
+    "output": "Print the size of the maximum matching.",
+    "constraints": "\u2022 1 \u2264 L, R \u2264 2000 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "pietwauters/AtlasCompetitionManager",
+    "owner": "pietwauters",
+    "url": "https://github.com/pietwauters/AtlasCompetitionManager",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "lib/bipartiteMatching.js",
+    "fileSHA": "bd7c771b2cf8b0ec79a701c19c86b64a005e4e4b",
+    "url": "https://github.com/pietwauters/AtlasCompetitionManager/blob/14ababa813b513cdefe0c7a23a02cfda4323832f/lib/bipartiteMatching.js",
+    "rawUrl": "https://raw.githubusercontent.com/pietwauters/AtlasCompetitionManager/main/lib/bipartiteMatching.js"
+  },
+  "matching": {
+    "relevanceScore": 72.05
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "80ba4425f60f0190aaae7fc60559da645517f6bdd60641d7e54f3550c3285d85",
+    "normalizedCodeHash": "80ba4425f60f0190aaae7fc60559da645517f6bdd60641d7e54f3550c3285d85",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:42:14.563024+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

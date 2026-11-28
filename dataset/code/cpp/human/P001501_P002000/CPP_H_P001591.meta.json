@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001591",
+  "problemId": "P001591",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001591",
+    "title": "Range Sum Query",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, each consisting of two indices L and R, determine the sum of elements from index L to R (inclusive).",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Next Q lines each contain L and R.",
+    "output": "\u2022 For each query, print the required sum.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9 \u2022 0 \u2264 L \u2264 R < N"
+  },
+  "repository": {
+    "name": "ghostmkg/dsa-code",
+    "owner": "ghostmkg",
+    "url": "https://github.com/ghostmkg/dsa-code",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c++/SegmentTreeLazyPropagation.cpp",
+    "fileSHA": "a04caf901f590ec2d89c09033968f10a95cfb335",
+    "url": "https://github.com/ghostmkg/dsa-code/blob/6e6f6da6ba53eb1e59116394051c8d4f0ed47ef0/c++/SegmentTreeLazyPropagation.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/ghostmkg/dsa-code/main/c++/SegmentTreeLazyPropagation.cpp"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9db157c10a8c9659ff66c0a1b3af63a9ee06a1e7ea66dd3b837b3ae8e772860e",
+    "normalizedCodeHash": "9db157c10a8c9659ff66c0a1b3af63a9ee06a1e7ea66dd3b837b3ae8e772860e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T01:07:39.726790+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

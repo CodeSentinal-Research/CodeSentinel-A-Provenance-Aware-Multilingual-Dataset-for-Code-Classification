@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001482",
+  "problemId": "P001482",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001482",
+    "title": "Bag of Tokens",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an array of token values and an initial amount of power. A token may be played face up to gain score by spending power or face down to gain power by spending score. Determine the maximum score that can be achieved.",
+    "input": "\u2022 First line contains integers N and Power. \u2022 Second line contains N integers representing token values.",
+    "output": "Print the maximum obtainable score.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001482",
+    "fileSHA": "66be6dd05afeddd17a11a31bb95559a84340d69850c1e7a8195e88714cbbc5f2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:27:54.819986+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "66be6dd05afeddd17a11a31bb95559a84340d69850c1e7a8195e88714cbbc5f2",
+    "normalizedCodeHash": "66be6dd05afeddd17a11a31bb95559a84340d69850c1e7a8195e88714cbbc5f2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:27:54.820009+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

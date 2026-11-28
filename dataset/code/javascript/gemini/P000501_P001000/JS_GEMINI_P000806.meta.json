@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000806",
+  "problemId": "P000806",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000806",
+    "title": "Longest Subarray with Equal Positive and Negative Elements",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array containing positive and negative numbers (no zeros), determine the length of the longest contiguous subarray containing an equal number of positive and negative elements.",
+    "input": "Integer n Array nums",
+    "output": "The maximum valid subarray length.",
+    "constraints": "1 <= n <= 2 \u00d7 10^5 nums[i] != 0"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P000806",
+    "fileSHA": "b76a58fa3b2250865aa2d9f30ccd28e8541a35a982492134cf3ca3550af7bcc3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:27:33.305273+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b76a58fa3b2250865aa2d9f30ccd28e8541a35a982492134cf3ca3550af7bcc3",
+    "normalizedCodeHash": "b76a58fa3b2250865aa2d9f30ccd28e8541a35a982492134cf3ca3550af7bcc3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:27:33.305325+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

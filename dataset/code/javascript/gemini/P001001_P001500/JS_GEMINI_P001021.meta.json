@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001021",
+  "problemId": "P001021",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001021",
+    "title": "Increase Key in a Max Heap",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a valid Max Heap represented as an array, an index i, and a new value greater than or equal to the current value, update the key at index i and restore the Max Heap property. Print the updated heap.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N space-separated integers. \u2022 Third line contains integers i and newValue.",
+    "output": "Print the updated Max Heap.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 i < N \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001021",
+    "fileSHA": "4f098feb33ed30cb3ce77d4f7ce0f78e0a379133115f4c767322c24e0d3509b0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:38:22.095835+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4f098feb33ed30cb3ce77d4f7ce0f78e0a379133115f4c767322c24e0d3509b0",
+    "normalizedCodeHash": "4f098feb33ed30cb3ce77d4f7ce0f78e0a379133115f4c767322c24e0d3509b0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:38:22.095872+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

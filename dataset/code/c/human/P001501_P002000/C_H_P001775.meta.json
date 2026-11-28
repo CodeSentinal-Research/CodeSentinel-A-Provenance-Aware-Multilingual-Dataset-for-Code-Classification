@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001775",
+  "problemId": "P001775",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001775",
+    "title": "Find the Maximum Difference Between Adjacent Levels",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the maximum absolute difference between the sums of two consecutive levels.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the maximum difference.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 \u221210^9 \u2264 NodeValue \u2264 10^9"
+  },
+  "repository": {
+    "name": "freebsd/freebsd-src",
+    "owner": "freebsd",
+    "url": "https://github.com/freebsd/freebsd-src",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "contrib/llvm-project/libcxx/include/__algorithm/adjacent_find.h",
+    "fileSHA": "2508250d8796c28f0ec83e54fec555059bd7263b",
+    "url": "https://github.com/freebsd/freebsd-src/blob/main/contrib/llvm-project/libcxx/include/__algorithm/adjacent_find.h",
+    "rawUrl": "https://raw.githubusercontent.com/freebsd/freebsd-src/main/contrib/llvm-project/libcxx/include/__algorithm/adjacent_find.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d67bc392c0155a9b4879c203f534a2467535ba482c3d0112a073c9833cdf3618",
+    "normalizedCodeHash": "d67bc392c0155a9b4879c203f534a2467535ba482c3d0112a073c9833cdf3618",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:43:54.906715+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

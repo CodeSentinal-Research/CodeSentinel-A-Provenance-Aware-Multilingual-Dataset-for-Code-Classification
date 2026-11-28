@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001264",
+  "problemId": "P001264",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001264",
+    "title": "Minimum Initial Energy to Finish Tasks",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Each task requires a minimum initial energy to start and consumes a certain amount of energy upon completion. Determine the minimum initial energy required to complete all tasks in an optimal order.",
+    "input": "• First line contains integer N. • Next N lines each contain actual energy consumed and minimum required energy.",
+    "output": "Print the minimum initial energy.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001264.c",
+    "fileSHA": "557afca7cefbca6b095fd92ab6b2c77537a4e650df6ce919809fefdee9703626",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.498Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "b6438de9d78415941fe70e43cbbe39f10742e744f504675d03baa6450c50cc9e",
+    "normalizedCodeHash": "557afca7cefbca6b095fd92ab6b2c77537a4e650df6ce919809fefdee9703626",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.498Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

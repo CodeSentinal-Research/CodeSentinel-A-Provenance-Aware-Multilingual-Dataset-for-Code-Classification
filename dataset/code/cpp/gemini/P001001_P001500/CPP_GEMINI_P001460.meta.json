@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001460",
+  "problemId": "P001460",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001460",
+    "title": "Count Equal XOR Prefix Pairs",
+    "category": "Hashing",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array, count the number of pairs of indices (i, j) such that the XOR of the prefix ending at i is equal to the XOR of the prefix ending at j, where i < j.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the total number of valid pairs.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 0 \u2264 nums[i] \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001460",
+    "fileSHA": "b86e00e4dea97fb4eb36538610b158aebf0c8ba7833f1245c3425eb10080f077",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:26:51.017782+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b86e00e4dea97fb4eb36538610b158aebf0c8ba7833f1245c3425eb10080f077",
+    "normalizedCodeHash": "b86e00e4dea97fb4eb36538610b158aebf0c8ba7833f1245c3425eb10080f077",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:26:51.017824+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

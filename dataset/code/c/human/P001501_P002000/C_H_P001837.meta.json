@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001837",
+  "problemId": "P001837",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001837",
+    "title": "Implement a Reverse Inorder Iterator for a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Design an iterator for a Binary Search Tree that supports retrieving the next largest element in amortized O(1) time using O(h) auxiliary space.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The following line contains Q operations. \u2022 Each operation is either PREV or HASPREV.",
+    "output": "\u2022 For each operation, print the corresponding result.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 Q \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/0225-implement-stack-using-queues.c",
+    "fileSHA": "dff71182ea7e2cf1a020823d5fe899a98fce8e25",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/c/0225-implement-stack-using-queues.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/0225-implement-stack-using-queues.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3f2a82f41c263b4b637b530a35a47762d7108f88d8527ba5f16dad773f9886dd",
+    "normalizedCodeHash": "3f2a82f41c263b4b637b530a35a47762d7108f88d8527ba5f16dad773f9886dd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:07.371757+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

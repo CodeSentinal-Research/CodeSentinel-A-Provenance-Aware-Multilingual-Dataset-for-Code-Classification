@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000284",
+  "problemId": "P000284",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000284",
+    "title": "Edit Distance",
+    "category": "Strings",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that calculates the minimum number of operations (insert, delete, replace) required to convert one string into another.",
+    "input": "Two strings S1 and S2.",
+    "output": "The edit distance.",
+    "constraints": "1 \u2264 |S1|, |S2| \u2264 500"
+  },
+  "repository": {
+    "name": "williamfiset/Algorithms",
+    "owner": "williamfiset",
+    "url": "https://github.com/williamfiset/Algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/williamfiset/algorithms/dp/EditDistanceIterative.java",
+    "fileSHA": "6d09fd1f94646d8492e7bde34861f587e634767e",
+    "url": "https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/williamfiset/algorithms/dp/EditDistanceIterative.java",
+    "rawUrl": "https://raw.githubusercontent.com/williamfiset/Algorithms/master/src/main/java/com/williamfiset/algorithms/dp/EditDistanceIterative.java"
+  },
+  "matching": {
+    "relevanceScore": 90.0
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "59537a5f0de79e33b8864df47d39c2d706fa49068b821af14b88a8484f435fae",
+    "normalizedCodeHash": "59537a5f0de79e33b8864df47d39c2d706fa49068b821af14b88a8484f435fae",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:42:35.537584+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

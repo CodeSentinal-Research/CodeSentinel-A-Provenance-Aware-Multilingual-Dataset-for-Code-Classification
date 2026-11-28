@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000342",
+  "problemId": "P000342",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000342",
+    "title": "Replace All Digits with Characters",
+    "category": "Strings",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that replaces all digits in a string with the character that is shift positions after the previous character.",
+    "input": "A string S.",
+    "output": "The modified string.",
+    "constraints": "1 ≤ |S| ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000342",
+    "fileSHA": "e0db45efa3437bb05abc9cd23616c72fa67a599cc1b69780ba0d5b6e68b58cc4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e0db45efa3437bb05abc9cd23616c72fa67a599cc1b69780ba0d5b6e68b58cc4",
+    "normalizedCodeHash": "e0db45efa3437bb05abc9cd23616c72fa67a599cc1b69780ba0d5b6e68b58cc4",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000342: Replace All Digits with Characters"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

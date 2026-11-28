@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001303",
+  "problemId": "P001303",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001303",
+    "title": "Maximize Capital by Selecting Projects",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an initial capital and a list of projects, each having a required investment and expected profit. Select at most K projects to maximize the final capital.",
+    "input": "\u2022 First line contains integers N, K, and InitialCapital. \u2022 Next N lines contain required investment and profit.",
+    "output": "Print the maximum capital after completing the selected projects.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "curl/curl",
+    "owner": "curl",
+    "url": "https://github.com/curl/curl",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "projects/OS400/ccsidcurl.h",
+    "fileSHA": "f38e57967c2c6183816436590ce8178e3946648e",
+    "url": "https://github.com/curl/curl/blob/master/projects/OS400/ccsidcurl.h",
+    "rawUrl": "https://raw.githubusercontent.com/curl/curl/master/projects/OS400/ccsidcurl.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "24376e0c77eb64446fb2259214c091949ff43bf79e460ef5ccaff61916035e12",
+    "normalizedCodeHash": "24376e0c77eb64446fb2259214c091949ff43bf79e460ef5ccaff61916035e12",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:13:44.986710+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

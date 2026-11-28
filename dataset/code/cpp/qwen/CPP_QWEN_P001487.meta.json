@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001487",
+  "problemId": "P001487",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001487",
+    "title": "Camelcase Matching",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a pattern and a list of query strings, determine for each query whether it matches the pattern under camel-case matching rules.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain query strings. \u2022 Last line contains the pattern.",
+    "output": "Print YES or NO for each query.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 Query length \u2264 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001487",
+    "fileSHA": "ce3d27d9befd802eac5029665d06507b7f5f53c8cddfee85cfc07dcab6d51b2b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T04:46:20.334Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "eca81564a9fc21f92c86e94132df67a9bb419e626a5124ed752d0a8bc7327926",
+    "normalizedCodeHash": "f65b62e046ebbe3f546e10160bbaf0d517305071937360c9647c3606d99a0d12",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T04:46:20.334Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

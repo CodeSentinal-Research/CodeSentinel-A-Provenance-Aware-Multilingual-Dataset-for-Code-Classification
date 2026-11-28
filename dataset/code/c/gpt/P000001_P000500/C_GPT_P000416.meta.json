@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000416",
+  "problemId": "P000416",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000416",
+    "title": "Search Vehicles Manufactured After a Given Year",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Retrieve all vehicles manufactured after the specified year.",
+    "input": "Vehicle records and a year.",
+    "output": "Matching vehicle records.",
+    "constraints": "1 ≤ Number of Vehicles ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000416.c",
+    "fileSHA": "2b63728943877da09adcf4f9fa9e3693c3f0424b9a256baf67e4bb651823b594",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2b63728943877da09adcf4f9fa9e3693c3f0424b9a256baf67e4bb651823b594",
+    "normalizedCodeHash": "2b63728943877da09adcf4f9fa9e3693c3f0424b9a256baf67e4bb651823b594",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

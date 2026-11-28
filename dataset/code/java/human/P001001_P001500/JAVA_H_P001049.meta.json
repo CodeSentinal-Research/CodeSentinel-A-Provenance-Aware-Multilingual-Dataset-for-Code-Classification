@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001049",
+  "problemId": "P001049",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001049",
+    "title": "Replace Multiple Keys in a Heap",
+    "category": "Heap",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary heap and Q update operations, replace the specified keys and restore the heap property after each operation.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Second line contains N integers. \u2022 Next Q lines contain an index and a new value.",
+    "output": "Print the final heap.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 10^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/mathematical_algorithms/src/replace_0_with_5/replace_0_with_5.java",
+    "fileSHA": "d4d38ceb414e78cf0804c369efe6abadfa3cb168",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/mathematical_algorithms/src/replace_0_with_5/replace_0_with_5.java",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/mathematical_algorithms/src/replace_0_with_5/replace_0_with_5.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "fa2af5ba12199b8338557d94865208f206cb2c5380a9116cd08bac72fea6bc58",
+    "normalizedCodeHash": "fa2af5ba12199b8338557d94865208f206cb2c5380a9116cd08bac72fea6bc58",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:08.455180+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

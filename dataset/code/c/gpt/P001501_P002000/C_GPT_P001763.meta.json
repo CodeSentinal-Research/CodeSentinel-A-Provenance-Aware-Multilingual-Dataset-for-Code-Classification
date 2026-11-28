@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001763",
+  "problemId": "P001763",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001763",
+    "title": "Count Univalue Subtrees",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree, determine the number of subtrees in which every node contains the same value.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print the number of univalue subtrees.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001763.c",
+    "fileSHA": "c1f84c86f052d1efd0ff3c198a82a88ea44ee36a2ddf2e01ea9294dc55170770",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.585Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "54019cca35ea2a0c74129202734e2449be2bd05b2f5ac0d94e6f65537f1d0238",
+    "normalizedCodeHash": "c1f84c86f052d1efd0ff3c198a82a88ea44ee36a2ddf2e01ea9294dc55170770",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.585Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

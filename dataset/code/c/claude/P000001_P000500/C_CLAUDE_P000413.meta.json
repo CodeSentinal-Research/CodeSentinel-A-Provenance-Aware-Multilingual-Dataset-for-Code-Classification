@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000413",
+  "problemId": "P000413",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000413",
+    "title": "Search Active Employees in a Department",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Find all employees who belong to the specified department and are currently active.",
+    "input": "Employee records, department name.",
+    "output": "Matching employee records.",
+    "constraints": "1 ≤ Number of Employees ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000413",
+    "fileSHA": "f4682dde052dcdfeba891d6a41010003cda941be9e932fc828460bda10003b0d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f4682dde052dcdfeba891d6a41010003cda941be9e932fc828460bda10003b0d",
+    "normalizedCodeHash": "f4682dde052dcdfeba891d6a41010003cda941be9e932fc828460bda10003b0d",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000413: Search Active Employees in a Department"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

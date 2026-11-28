@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001283",
+  "problemId": "P001283",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001283",
+    "title": "Queue Reconstruction by Increasing Height",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Each person is represented by two integers: height and the number of people behind having height less than or equal to theirs. Reconstruct one valid queue satisfying all constraints.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain height and count.",
+    "output": "Print the reconstructed queue.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0300-0399/0300.Longest Increasing Subsequence/Solution.java",
+    "fileSHA": "369d2f0413c2c686255b65e501b738a5a1051221",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0300-0399/0300.Longest Increasing Subsequence/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0300-0399/0300.Longest Increasing Subsequence/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4906cee467b6cd625075632b476afe7c239dbabcf1ebf4ad722bbf2b01da9ee1",
+    "normalizedCodeHash": "4906cee467b6cd625075632b476afe7c239dbabcf1ebf4ad722bbf2b01da9ee1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:46.902827+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

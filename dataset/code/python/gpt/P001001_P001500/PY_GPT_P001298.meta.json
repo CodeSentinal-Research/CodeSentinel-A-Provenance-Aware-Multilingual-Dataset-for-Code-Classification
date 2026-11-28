@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001298",
+  "problemId": "P001298",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001298",
+    "title": "Maximum Number of Weeks for Projects",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given multiple projects, each requiring a certain number of weeks, work on exactly one project per week without working on the same project in consecutive weeks whenever possible. Determine the maximum number of weeks that can be worked.",
+    "input": "• First line contains integer N. • Second line contains N integers representing the required weeks for each project.",
+    "output": "Print the maximum number of workable weeks.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001298.py",
+    "fileSHA": "58af40808b95e589c8f5b327180fd651c6083d01020b4c02d4cde0cdc05d2e92",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.185641+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "58af40808b95e589c8f5b327180fd651c6083d01020b4c02d4cde0cdc05d2e92",
+    "normalizedCodeHash": "ba8876ebdc743200e43ebd31819a08616a2fbf060199b8886b5db599eaff19ab",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.185641+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

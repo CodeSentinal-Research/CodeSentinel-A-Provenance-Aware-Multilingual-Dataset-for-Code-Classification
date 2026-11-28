@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000577",
+  "problemId": "P000577",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000577",
+    "title": "Binary Tree Bottom View",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, return the bottom view of the tree. For every vertical column, the bottommost visible node should be included in the result. If multiple nodes occupy the same position, the node encountered later during level order traversal should be considered visible.",
+    "input": "The root of a binary tree.",
+    "output": "A list representing the bottom view from leftmost column to rightmost column.",
+    "constraints": "Number of nodes is in the range [0, 10^5]"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0500-0599/0543.Diameter of Binary Tree/Solution.c",
+    "fileSHA": "120361ad899e8acb8fc235b74a2d660b95571c21",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0500-0599/0543.Diameter of Binary Tree/Solution.c",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0500-0599/0543.Diameter of Binary Tree/Solution.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "168641d18d583cd659c71fdd2c439806d428e466a1d667ed4da225239f6e2840",
+    "normalizedCodeHash": "168641d18d583cd659c71fdd2c439806d428e466a1d667ed4da225239f6e2840",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:58.877090+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

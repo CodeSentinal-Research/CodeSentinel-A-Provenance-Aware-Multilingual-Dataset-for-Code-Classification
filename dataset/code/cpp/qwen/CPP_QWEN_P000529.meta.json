@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000529",
+  "problemId": "P000529",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000529",
+    "title": "Implement Queue Using Arrays",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Implement a queue using a fixed-size array. The queue should support the following operations: enqueue(x) \u2014 Insert an element at the rear. dequeue() \u2014 Remove and return the front element. front() \u2014 Return the front element without removing it. isEmpty() \u2014 Return whether the queue is empty. Process a sequence of operations and print the result of every dequeue(), front(), and isEmpty() operation.",
+    "input": "Integer capacity Integer q Next q lines each contain one operation.",
+    "output": "Print the output for every dequeue(), front(), and isEmpty() operation.",
+    "constraints": "1 <= capacity <= 10^5 1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000529",
+    "fileSHA": "c54d325a73ab327fc6e5b1c979721ad7f1572c8fbd7d479cf5cf1962a6be7aa2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.449Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c5c95ae12f5d67798a49e14e06eb7f608c5afd7f84b03e8d3975275fb902d90c",
+    "normalizedCodeHash": "86d23e50712b227d39fce5cfda4456d041d8cef2f6862e087338e4566ebf495b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.449Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

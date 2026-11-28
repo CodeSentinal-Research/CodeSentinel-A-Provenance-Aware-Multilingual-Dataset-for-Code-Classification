@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000623",
+  "problemId": "P000623",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000623",
+    "title": "Reverse Alternate K Nodes in Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list and an integer k, reverse the first k nodes, leave the next k nodes unchanged, then reverse the following k nodes, and continue this pattern until the end of the list. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer k",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000623",
+    "fileSHA": "fc1cb9d38f6313748c37b45887656fd3f26d23fa2194a4d38c8775417e93d898",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.336Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "718096f809523765515754fc20d17004b3f16de407c5e18d6f670f51b47fe151",
+    "normalizedCodeHash": "73fd4cb6b65c01c6bf73d4a1cd4252a31fc6946d4b90337ec415dfe187a3c72f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.336Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

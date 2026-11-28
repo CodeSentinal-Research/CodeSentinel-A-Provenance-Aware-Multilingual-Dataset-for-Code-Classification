@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P000814",
+  "problemId": "P000814",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000814",
+    "title": "First Bad Version",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given n versions labeled from 1 to n. There exists a version after which every version is bad. You are provided with an API: isBadVersion(version) Return the first bad version using binary search.",
+    "input": "Integer n",
+    "output": "The first bad version.",
+    "constraints": "1 <= n <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P000814",
+    "fileSHA": "61c35c438a114c6f24ae7e7b400970a8be39c4edf3bf5c8d8baf4772f6ee278d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:28:02.287835+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "61c35c438a114c6f24ae7e7b400970a8be39c4edf3bf5c8d8baf4772f6ee278d",
+    "normalizedCodeHash": "61c35c438a114c6f24ae7e7b400970a8be39c4edf3bf5c8d8baf4772f6ee278d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:28:02.287874+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

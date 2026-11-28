@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001443",
+  "problemId": "P001443",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001443",
+    "title": "Count Words Obtained After Adding a Letter",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given two lists of lowercase words, determine how many words in the second list can be obtained by adding exactly one letter to any word in the first list and rearranging the characters.",
+    "input": "• First line contains integers N and M. • Next N lines contain the first list. • Next M lines contain the second list.",
+    "output": "Print the count of obtainable words.",
+    "constraints": "• 1 ≤ N, M ≤ 5×10^4 • Word length ≤ 26"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001443.js",
+    "fileSHA": "5534938dc498f44ba35b55370cc840390d5a4229d80ca78d8955f4acf4017e6f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5534938dc498f44ba35b55370cc840390d5a4229d80ca78d8955f4acf4017e6f",
+    "normalizedCodeHash": "5534938dc498f44ba35b55370cc840390d5a4229d80ca78d8955f4acf4017e6f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

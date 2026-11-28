@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001836",
+  "problemId": "P001836",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001836",
+    "title": "Implement an Inorder Iterator for a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Design an iterator for a Binary Search Tree that supports retrieving the next smallest element in amortized O(1) time using O(h) auxiliary space, where h is the height of the tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The following line contains Q operations. \u2022 Each operation is either NEXT or HASNEXT.",
+    "output": "\u2022 For each operation, print the corresponding result.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 Q \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "licaige/workFlow_G6-licaige",
+    "owner": "licaige",
+    "url": "https://github.com/licaige/workFlow_G6-licaige",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "gold-diggings-master-master/leetcode/leetcode-javascript-master_2/leetcode-javascript-master/173 Binary Search Tree Iterator.js",
+    "fileSHA": "08de1f2e4dbca25cfd4e42dda8913e01a12bf9fc",
+    "url": "https://github.com/licaige/workFlow_G6-licaige/blob/6030e45af181977dad36cbe490d221a4e35a0d74/gold-diggings-master-master/leetcode/leetcode-javascript-master_2/leetcode-javascript-master/173 Binary Search Tree Iterator.js",
+    "rawUrl": "https://raw.githubusercontent.com/licaige/workFlow_G6-licaige/main/gold-diggings-master-master/leetcode/leetcode-javascript-master_2/leetcode-javascript-master/173 Binary Search Tree Iterator.js"
+  },
+  "matching": {
+    "relevanceScore": 84.4
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "aea2387f84249402f69c5bec725333c792a54293145e8656711164bfd4fb8117",
+    "normalizedCodeHash": "aea2387f84249402f69c5bec725333c792a54293145e8656711164bfd4fb8117",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T01:04:01.864499+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

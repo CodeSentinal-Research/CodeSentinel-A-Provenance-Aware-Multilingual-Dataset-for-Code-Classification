@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001388",
+  "problemId": "P001388",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001388",
+    "title": "Count Distinct Elements in Every Window",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and a window size K, determine the number of distinct elements in every contiguous subarray of size K.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the distinct element count for each window.",
+    "constraints": "\u2022 1 \u2264 K \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/slidingwindow/CountDistinctElementsInWindow.java",
+    "fileSHA": "19e573437f6d5bc89c53b44649f69efd17c5538a",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/slidingwindow/CountDistinctElementsInWindow.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/slidingwindow/CountDistinctElementsInWindow.java"
+  },
+  "matching": {
+    "relevanceScore": 78.75
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "654faefa59d27b051942785529ac0ae35c0e2a09bf258af471eaf18e3aec1263",
+    "normalizedCodeHash": "654faefa59d27b051942785529ac0ae35c0e2a09bf258af471eaf18e3aec1263",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:20.654669+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

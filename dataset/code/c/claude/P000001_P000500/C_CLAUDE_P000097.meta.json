@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P000097",
+  "problemId": "P000097",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000097",
+    "title": "Check Duck Number",
+    "category": "Basic",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that checks whether a given number is a duck number (contains zero in it but does not start with zero).",
+    "input": "A positive integer n.",
+    "output": "Print \"Duck\" or \"Not Duck\".",
+    "constraints": "1 \u2264 n \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000097",
+    "fileSHA": "20a41b55e5990a4e374b6bcde120b37bc45ec0158147bdca80e121d81a9e110a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-3.7-sonnet",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:56:05.514780+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f1d41014a0f6b6928b3826005797b032efda89c4bb9ebeeb641abdccf58303ac",
+    "normalizedCodeHash": "20a41b55e5990a4e374b6bcde120b37bc45ec0158147bdca80e121d81a9e110a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:56:05.514799+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

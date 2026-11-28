@@ -1,0 +1,11 @@
+public class Solution {
+    public int[][] upperTriangular(int[][] matrix) {
+        int n = matrix.length;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i; j++) {
+                matrix[i][j] = 0;
+            }
+        }
+        return matrix;
+    }
+}

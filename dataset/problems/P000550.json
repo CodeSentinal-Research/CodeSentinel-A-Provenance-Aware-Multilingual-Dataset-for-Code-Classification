@@ -1,0 +1,10 @@
+{
+  "problemId": "P000550",
+  "title": "Circular Tour",
+  "category": "Queue",
+  "difficulty": "Easy",
+  "problemStatement": "There are n petrol pumps arranged in a circle. Each petrol pump provides a certain amount of petrol and requires a certain amount of petrol to travel to the next pump. Determine the first petrol pump from which a truck can complete the entire circular tour. If no such starting point exists, return -1.",
+  "input": "Integer n Array petrol Array distance",
+  "output": "The starting pump index, or -1 if impossible.",
+  "constraints": "1 <= n <= 10^5 0 <= petrol[i], distance[i] <= 10^9"
+}

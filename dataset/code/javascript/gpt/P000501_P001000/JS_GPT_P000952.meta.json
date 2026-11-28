@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000952",
+  "problemId": "P000952",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000952",
+    "title": "Count Coprime Numbers in Range",
+    "category": "Mathematics - Euler Totient Function",
+    "difficulty": "Medium",
+    "problemStatement": "Given integers N, L, and R, count how many integers in the range [L, R] are coprime with N.",
+    "input": "Integer N Integer L Integer R",
+    "output": "The count of integers coprime with N.",
+    "constraints": "1 <= N <= 10^12 1 <= L <= R <= 10^12"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000952.js",
+    "fileSHA": "d576d509cf83ce8b5c929bb75e816a804d9bd1db8431a591e59e265f97e9236e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d576d509cf83ce8b5c929bb75e816a804d9bd1db8431a591e59e265f97e9236e",
+    "normalizedCodeHash": "d576d509cf83ce8b5c929bb75e816a804d9bd1db8431a591e59e265f97e9236e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

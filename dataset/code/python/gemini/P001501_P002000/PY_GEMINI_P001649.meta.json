@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001649",
+  "problemId": "P001649",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001649",
+    "title": "Construct a Binary Tree from Preorder and Inorder Traversals",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the preorder traversal and inorder traversal of a binary tree containing unique values, reconstruct the original binary tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the preorder traversal. \u2022 The third line contains the inorder traversal.",
+    "output": "\u2022 Print the reconstructed tree in the required traversal format.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5 \u2022 All node values are unique.________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001649",
+    "fileSHA": "c8fddfd0505d002c203dd2e8eb6691fb4674306139d857237fbb419307479a59",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:34:05.079980+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c8fddfd0505d002c203dd2e8eb6691fb4674306139d857237fbb419307479a59",
+    "normalizedCodeHash": "c8fddfd0505d002c203dd2e8eb6691fb4674306139d857237fbb419307479a59",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:34:05.080011+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

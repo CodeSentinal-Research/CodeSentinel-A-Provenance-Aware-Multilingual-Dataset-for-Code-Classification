@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001734",
+  "problemId": "P001734",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001734",
+    "title": "Convert a Binary Tree into a Sum Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, replace every node value with the sum of all values in its left and right subtrees. Leaf nodes become zero.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the transformed tree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "kamyu104/LintCode",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LintCode",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "C++/binary-tree-maximum-path-sum.cpp",
+    "fileSHA": "35ceec05a028db5695cd39ccb86d91728a4ba313",
+    "url": "https://github.com/kamyu104/LintCode/blob/master/C++/binary-tree-maximum-path-sum.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LintCode/master/C++/binary-tree-maximum-path-sum.cpp"
+  },
+  "matching": {
+    "relevanceScore": 65.46
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0bc7a6f9af0b98f9442a4c264278f7ddaaba8fd8ab479da3fe110071018533d4",
+    "normalizedCodeHash": "0bc7a6f9af0b98f9442a4c264278f7ddaaba8fd8ab479da3fe110071018533d4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (C++ Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:56:06.690515+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

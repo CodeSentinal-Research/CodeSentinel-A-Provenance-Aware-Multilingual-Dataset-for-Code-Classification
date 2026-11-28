@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001319",
+  "problemId": "P001319",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001319",
+    "title": "Word Search II",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given a character grid and a dictionary of words, determine all dictionary words that can be formed using adjacent cells without reusing any cell.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines contain the grid. \u2022 Next line contains integer N. \u2022 Next N lines contain dictionary words.",
+    "output": "Print all discovered words in lexicographical order.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 20 \u2022 1 \u2264 N \u2264 10^4"
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/cpp/addAndSearchWord/AddAndSearchWord.cpp",
+    "fileSHA": "0ac56440925d51d43b5976407c96556680e6dbc4",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/cpp/addAndSearchWord/AddAndSearchWord.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/cpp/addAndSearchWord/AddAndSearchWord.cpp"
+  },
+  "matching": {
+    "relevanceScore": 76.54
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "968525b2c050c1037b8adaa23a9fab4975ee804db81c3821d7f112d94a5398c7",
+    "normalizedCodeHash": "968525b2c050c1037b8adaa23a9fab4975ee804db81c3821d7f112d94a5398c7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:48:40.715253+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001075",
+  "problemId": "P001075",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001075",
+    "title": "Bellman-Ford Algorithm",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a weighted directed graph that may contain negative edge weights, determine the shortest distance from a source vertex to every other vertex. If a negative weight cycle exists, report it.",
+    "input": "\u2022 First line contains integers N, M, and S. \u2022 Next M lines contain three integers u, v, and w.",
+    "output": "Print NEGATIVE CYCLE if one exists; otherwise print the shortest distances.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001075",
+    "fileSHA": "3649fc2bbf81c92a8de09fa44cbae0eaff38a942e9df14dfbbf30cddaf4712d2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:43:32.789856+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3649fc2bbf81c92a8de09fa44cbae0eaff38a942e9df14dfbbf30cddaf4712d2",
+    "normalizedCodeHash": "3649fc2bbf81c92a8de09fa44cbae0eaff38a942e9df14dfbbf30cddaf4712d2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:43:32.789885+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

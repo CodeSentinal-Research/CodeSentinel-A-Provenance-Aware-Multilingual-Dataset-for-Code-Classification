@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_GPT_P001591",
+  "problemId": "P001591",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001591",
+    "title": "Range Sum Query",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, each consisting of two indices L and R, determine the sum of elements from index L to R (inclusive).",
+    "input": "• First line contains N. • Second line contains N integers. • Third line contains Q. • Next Q lines each contain L and R.",
+    "output": "• For each query, print the required sum.",
+    "constraints": "• 1 ≤ N, Q ≤ 2 × 10^5 • -10^9 ≤ Ai ≤ 10^9 • 0 ≤ L ≤ R < N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001501_P002000/PY_GPT_P001591.py",
+    "fileSHA": "c8cb78aef899a6d81c5a27cf3f135355940108d0746446c592d3242d6dd7c7bd",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-26T13:09:03.610085+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c8cb78aef899a6d81c5a27cf3f135355940108d0746446c592d3242d6dd7c7bd",
+    "normalizedCodeHash": "8ba8bce797adcd88542a823983ef63cb27150f94a2222c78af86e3ed7f99252f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-26T13:09:03.610085+00:00",
+    "pipelineVersion": "1.0.0"
+  },
+  "sha256": "d5584c51d2c9569563da95acb690b7c2395ed63299cd20ab48294738fb995ba1"
+}

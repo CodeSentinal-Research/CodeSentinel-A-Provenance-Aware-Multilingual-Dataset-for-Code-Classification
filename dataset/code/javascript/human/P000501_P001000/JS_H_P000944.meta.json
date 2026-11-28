@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P000944",
+  "problemId": "P000944",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000944",
+    "title": "Divisor Game",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Easy",
+    "problemStatement": "Starting with an integer N, players alternate choosing a divisor x such that 0 < x < N and N % x == 0, then replacing N with N - x. The player unable to make a move loses. Determine whether the first player wins.",
+    "input": "Integer N",
+    "output": "Print true if the first player wins; otherwise, print false.",
+    "constraints": "1 <= N <= 1000"
+  },
+  "repository": {
+    "name": "zhufuge/leetcode-js",
+    "owner": "zhufuge",
+    "url": "https://github.com/zhufuge/leetcode-js",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P000501_P001000/JS_H_P000944.js",
+    "fileSHA": "063838003e2e35ab145191eeae46dad02e6f1d52",
+    "url": "https://github.com/zhufuge/leetcode-js/blob/dc286c433edf6ce607d0f8a46046384ad72400de/problems/1025-divisor-game.js",
+    "rawUrl": "https://raw.githubusercontent.com/zhufuge/leetcode-js/main/problems/1025-divisor-game.js"
+  },
+  "matching": {
+    "relevanceScore": 78.61
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2020-03-13T06:42:29Z",
+    "lastCommitDate": "2020-03-13T06:42:29Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "zhufuge"
+    ],
+    "firstKnownAuthor": "zhufuge",
+    "latestKnownAuthor": "zhufuge"
+  },
+  "deduplication": {
+    "rawCodeHash": "938307d0c72afd8aa962ef2acf1c61ffc42a5e11c4fe4916e0005a9862d3e459",
+    "normalizedCodeHash": "938307d0c72afd8aa962ef2acf1c61ffc42a5e11c4fe4916e0005a9862d3e459",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T05:56:00.005929+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

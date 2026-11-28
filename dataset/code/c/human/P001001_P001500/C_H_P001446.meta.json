@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001446",
+  "problemId": "P001446",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001446",
+    "title": "Sentence Similarity",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given two sentences and a list of similar word pairs, determine whether the two sentences are similar.",
+    "input": "\u2022 First line contains the first sentence. \u2022 Second line contains the second sentence. \u2022 Third line contains integer P. \u2022 Next P lines contain pairs of similar words.",
+    "output": "Print YES if the sentences are similar; otherwise print NO.",
+    "constraints": "\u2022 Sentence length \u2264 10^5 \u2022 1 \u2264 P \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "Xieyiiiiii/agent_bench",
+    "owner": "Xieyiiiiii",
+    "url": "https://github.com/Xieyiiiiii/agent_bench",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/haystack_lexrank.c",
+    "fileSHA": "b0b466ef77bcbfc22161a2cbee65780edcfd597b",
+    "url": "https://github.com/Xieyiiiiii/agent_bench/blob/3002c3e96509523e97a12ac01edafc0e71c20a2c/src/haystack_lexrank.c",
+    "rawUrl": "https://raw.githubusercontent.com/Xieyiiiiii/agent_bench/main/src/haystack_lexrank.c"
+  },
+  "matching": {
+    "relevanceScore": 70.0
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "360b70b6bc0800efb2509709ab57c280b7a60a7cd4bddc88a5cc91ccb348eb15",
+    "normalizedCodeHash": "360b70b6bc0800efb2509709ab57c280b7a60a7cd4bddc88a5cc91ccb348eb15",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Header fallback)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:49:12.418642+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

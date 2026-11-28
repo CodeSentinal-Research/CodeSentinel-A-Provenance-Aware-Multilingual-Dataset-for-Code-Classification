@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001510",
+  "problemId": "P001510",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001510",
+    "title": "Longest Repeating Character Replacement",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given an uppercase English string and an integer K, determine the length of the longest substring that can be made of the same character after replacing at most K characters.",
+    "input": "\u2022 First line contains string S. \u2022 Second line contains integer K.",
+    "output": "Print the maximum possible length.",
+    "constraints": "\u2022 1 \u2264 Length \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "tnt1626/dsa-problems",
+    "owner": "tnt1626",
+    "url": "https://github.com/tnt1626/dsa-problems",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "sliding_window/longest_repeating_character_replacement.c",
+    "fileSHA": "1971e591618f8d28c7cc89ef35b71e4ff0175903",
+    "url": "https://github.com/tnt1626/dsa-problems/blob/fbba532045592f8141d7ba436e8214af270005cc/sliding_window/longest_repeating_character_replacement.c",
+    "rawUrl": "https://raw.githubusercontent.com/tnt1626/dsa-problems/main/sliding_window/longest_repeating_character_replacement.c"
+  },
+  "matching": {
+    "relevanceScore": 83.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1078d0e88974c6b678e947d7460f896e8cee7a6550531d06d7ea4ef1c2dcf841",
+    "normalizedCodeHash": "1078d0e88974c6b678e947d7460f896e8cee7a6550531d06d7ea4ef1c2dcf841",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T15:44:45.704373+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

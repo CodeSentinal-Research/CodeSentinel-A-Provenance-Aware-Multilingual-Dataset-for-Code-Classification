@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000524",
+  "problemId": "P000524",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000524",
+    "title": "Beautiful Towers I",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "You are given the maximum possible height for each tower in a row. Construct tower heights such that: Each tower's height is at least 1. No tower exceeds its maximum height. Heights are non-increasing as you move away from a chosen peak. Find the maximum possible sum of tower heights.",
+    "input": "Integer n Array maxHeights",
+    "output": "A single integer representing the maximum total height.",
+    "constraints": "1 <= n <= 10^3 1 <= maxHeights[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000524",
+    "fileSHA": "59773ef69dcd79ea33c14c6ad15d66cd30df22c54f88196a6a7a5021953476b9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "59773ef69dcd79ea33c14c6ad15d66cd30df22c54f88196a6a7a5021953476b9",
+    "normalizedCodeHash": "59773ef69dcd79ea33c14c6ad15d66cd30df22c54f88196a6a7a5021953476b9",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000524: Beautiful Towers I"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

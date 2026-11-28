@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000769",
+  "problemId": "P000769",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000769",
+    "title": "Scramble String",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given two strings s1 and s2 of equal length, determine whether s2 is a scrambled version of s1. A scrambled string is produced by recursively partitioning a string into two non-empty substrings and optionally swapping the left and right children at any partition. Return true if s2 is a scrambled string of s1; otherwise return false.",
+    "input": "String s1 String s2",
+    "output": "true if s2 is a scrambled string of s1, otherwise false.",
+    "constraints": "1 <= |s1|, |s2| <= 30"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000769",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P001019",
+  "problemId": "P001019",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001019",
+    "title": "K Closest Points to the Origin",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given the coordinates of N points in a two-dimensional plane and an integer K, determine the K points closest to the origin based on Euclidean distance.",
+    "input": "• First line contains integers N and K. • Next N lines contain two integers representing the coordinates of a point.",
+    "output": "Print the K closest points in any order.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P001019",
+    "fileSHA": "34da88ecff538201662566e5e86fab6ccbbe1d7365d48ad19988caecdf08b453",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "34da88ecff538201662566e5e86fab6ccbbe1d7365d48ad19988caecdf08b453",
+    "normalizedCodeHash": "34da88ecff538201662566e5e86fab6ccbbe1d7365d48ad19988caecdf08b453",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P001019"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

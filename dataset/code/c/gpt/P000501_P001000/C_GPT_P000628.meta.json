@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000628",
+  "problemId": "P000628",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000628",
+    "title": "Text Editor Using Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a text editor supporting the following operations: addText(text) — Insert text at the cursor position. deleteText(k) — Delete up to k characters to the left of the cursor. cursorLeft(k) — Move the cursor left by at most k positions and return up to the last 10 characters to the left of the cursor. cursorRight(k) — Move the cursor right by at most k positions and return up to the last 10 characters to the left of the cursor. Process a sequence of operations and print the results for query operations.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result of every deleteText(), cursorLeft(), and cursorRight() operation.",
+    "constraints": "1 <= q <= 2 × 10^5 Total length of inserted text does not exceed 2 × 10^6"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000628.c",
+    "fileSHA": "a1b4ba3cd439e06fa63f0836a4cd052580885facc0c31d2afaef310d4d1fb835",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a1b4ba3cd439e06fa63f0836a4cd052580885facc0c31d2afaef310d4d1fb835",
+    "normalizedCodeHash": "a1b4ba3cd439e06fa63f0836a4cd052580885facc0c31d2afaef310d4d1fb835",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

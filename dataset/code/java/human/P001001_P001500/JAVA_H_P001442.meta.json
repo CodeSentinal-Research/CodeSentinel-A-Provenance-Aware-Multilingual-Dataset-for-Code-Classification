@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001442",
+  "problemId": "P001442",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001442",
+    "title": "Find Duplicate Files by Content",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "You are given file paths along with their contents. Group together all files that have identical contents.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain a file path followed by its content.",
+    "output": "Print each group of duplicate file paths.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "heyrmi/sdet-prep",
+    "owner": "heyrmi",
+    "url": "https://github.com/heyrmi/sdet-prep",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "sdet/src/main/java/ra/hul/sdet/fileops/Ques6_FindDuplicateFiles.java",
+    "fileSHA": "b06bae7d676d0763b755919c47b1ebc3be19bdea",
+    "url": "https://github.com/heyrmi/sdet-prep/blob/1bad9ed7a0521c167dedd8e776523216492e2826/sdet/src/main/java/ra/hul/sdet/fileops/Ques6_FindDuplicateFiles.java",
+    "rawUrl": "https://raw.githubusercontent.com/heyrmi/sdet-prep/main/sdet/src/main/java/ra/hul/sdet/fileops/Ques6_FindDuplicateFiles.java"
+  },
+  "matching": {
+    "relevanceScore": 83.33
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9a246351036ca1e12b65a74fff77986c0b4643c9d7e206e8dda8f0349b74a3f2",
+    "normalizedCodeHash": "9a246351036ca1e12b65a74fff77986c0b4643c9d7e206e8dda8f0349b74a3f2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:07:21.913749+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

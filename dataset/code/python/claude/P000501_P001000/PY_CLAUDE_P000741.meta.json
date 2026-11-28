@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_CLAUDE_P000741",
+  "problemId": "P000741",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000741",
+    "title": "Flood Fill All Paths",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × M grid where 0 represents blocked cells and 1 represents open cells, generate all possible paths from the top-left cell to the bottom-right cell. The traveler may move Up, Down, Left, and Right, but cannot visit the same cell more than once in a path. Print all valid paths in lexicographical order.",
+    "input": "Integer N Integer M Matrix grid",
+    "output": "All valid paths.",
+    "constraints": "1 <= N, M <= 10"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000741",
+    "fileSHA": "a8e4cc03289d7b9c759bc8f4e8c31c19d943565ab718ba34c76bfcd9899b0b8e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "76652233eebe8788ac878e058c509d616197b6481d0a03558faf7230128450ac",
+    "normalizedCodeHash": "a8e4cc03289d7b9c759bc8f4e8c31c19d943565ab718ba34c76bfcd9899b0b8e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

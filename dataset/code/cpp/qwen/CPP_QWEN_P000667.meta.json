@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000667",
+  "problemId": "P000667",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000667",
+    "title": "Design Circular Deque Using Doubly Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a circular deque using a doubly linked list. Support the following operations: insertFront(value) insertLast(value) deleteFront() deleteLast() getFront() getRear() isEmpty() size() Process a sequence of operations and print the result for query operations.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result of every query operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000667",
+    "fileSHA": "2b7522682fccd5079bee5ac9db9e7a8e068fb0bf0636e70cf5fc6162e97a1f0c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.377Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "588d511ca6e968764173522eab5a011b328664b7c749ee8d909b5f1d1a324398",
+    "normalizedCodeHash": "2ca6b7bbe264556f964ea341b1dac2b08e64c6a8219d5775313ed3090270496c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.377Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001635",
+  "problemId": "P001635",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001635",
+    "title": "Count Submatrices With Equal Number of Zeros and Ones",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary matrix, determine the number of rectangular submatrices containing an equal number of 0s and 1s.",
+    "input": "\u2022 First line contains N and M. \u2022 Next N lines each contain M binary integers.",
+    "output": "\u2022 Print the required count.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 300 \u2022 Matrix elements are either 0 or 1."
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001635",
+    "fileSHA": "c639b523a621fccdd3d470f845b9661c30954852b1de460311a7ccbf5c752fdc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:58.388610+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c639b523a621fccdd3d470f845b9661c30954852b1de460311a7ccbf5c752fdc",
+    "normalizedCodeHash": "c639b523a621fccdd3d470f845b9661c30954852b1de460311a7ccbf5c752fdc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:58.388634+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

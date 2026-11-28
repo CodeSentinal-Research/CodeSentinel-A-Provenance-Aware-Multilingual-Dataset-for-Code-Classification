@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000221",
+  "problemId": "P000221",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000221",
+    "title": "Maximum Length Chain of Pairs",
+    "category": "Arrays",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that finds the longest chain of pairs that can be formed where a pair (c, d) can follow (a, b) only if b < c.",
+    "input": "First line contains N. Next N lines contain pairs.",
+    "output": "Length of the longest chain.",
+    "constraints": "1 ≤ N ≤ 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000221",
+    "fileSHA": "cef6bc52513107003faa2a1d8588a2f57450a659404720c8a3b2ffe43bfbe248",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cef6bc52513107003faa2a1d8588a2f57450a659404720c8a3b2ffe43bfbe248",
+    "normalizedCodeHash": "cef6bc52513107003faa2a1d8588a2f57450a659404720c8a3b2ffe43bfbe248",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000221: Maximum Length Chain of Pairs"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000458",
+  "problemId": "P000458",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000458",
+    "title": "Split Array Largest Sum",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that splits an array into M non-empty continuous subarrays such that the largest sum among them is minimized.",
+    "input": "First line contains N and M. Second line contains N integers.",
+    "output": "The minimized largest sum.",
+    "constraints": "1 ≤ N ≤ 1000, 1 ≤ M ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000458",
+    "fileSHA": "55d1814b6f28137c9eb762ccb0dda79b16a014bb1306db4b9808419614f54181",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "55d1814b6f28137c9eb762ccb0dda79b16a014bb1306db4b9808419614f54181",
+    "normalizedCodeHash": "55d1814b6f28137c9eb762ccb0dda79b16a014bb1306db4b9808419614f54181",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000458: Split Array Largest Sum"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

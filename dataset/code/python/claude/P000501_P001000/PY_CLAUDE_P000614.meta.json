@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000614",
+  "problemId": "P000614",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000614",
+    "title": "Swap Kth Node from Beginning with Kth Node from End",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list and an integer k, swap the values of the k-th node from the beginning and the k-th node from the end. Return the modified linked list.",
+    "input": "Integer n Linked list Integer k",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000614",
+    "fileSHA": "166e45574a3963577ace309f7f60414387102b8823d4a82298082fb6392d642f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "166e45574a3963577ace309f7f60414387102b8823d4a82298082fb6392d642f",
+    "normalizedCodeHash": "166e45574a3963577ace309f7f60414387102b8823d4a82298082fb6392d642f",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique py P000614: Swap Kth Node from Beginning with Kth Node from End"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

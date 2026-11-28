@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001306",
+  "problemId": "P001306",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001306",
+    "title": "Optimal File Merge Pattern",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given the sizes of N files, repeatedly merge two files at a time. The cost of each merge equals the sum of the merged file sizes. Determine the minimum total merging cost.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing file sizes.",
+    "output": "Print the minimum total merge cost.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/greedyalgorithms/OptimalFileMerging.java",
+    "fileSHA": "7a1f2edf81804d4f214168b145fe88e795282710",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/greedyalgorithms/OptimalFileMerging.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/greedyalgorithms/OptimalFileMerging.java"
+  },
+  "matching": {
+    "relevanceScore": 68.19
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "210313f027e5c86169d8c66fe410e7f871cad177ac339f5bdde2145fc0559674",
+    "normalizedCodeHash": "210313f027e5c86169d8c66fe410e7f871cad177ac339f5bdde2145fc0559674",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:14.742532+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

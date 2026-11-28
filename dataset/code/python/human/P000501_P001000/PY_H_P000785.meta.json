@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000785",
+  "problemId": "P000785",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000785",
+    "title": "Find Pivot Index",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array, return the leftmost pivot index where the sum of all elements to the left equals the sum of all elements to the right. If no such index exists, return -1.",
+    "input": "Integer n Array nums",
+    "output": "The pivot index or -1.",
+    "constraints": "1 <= n <= 10^5 -1000 <= nums[i] <= 1000"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/find-pivot-index.py",
+    "fileSHA": "f9327b8c3291306288cc9fe2d048533064f59a6e",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/find-pivot-index.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/find-pivot-index.py"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c99265bab3db67b3d579475a55ead5b845b7f4d04c5929dcc4aec8280e7e312f",
+    "normalizedCodeHash": "c99265bab3db67b3d579475a55ead5b845b7f4d04c5929dcc4aec8280e7e312f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:12:37.868619+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,26 @@
+// Helper function to evaluate countsquares for problem constraints.
+function countSquares(matrix) {
+    const m = matrix.length, n = matrix[0].length;
+    // dp[i] stores optimal answer for prefix of length i
+    const dp = Array.from({ length: m }, () => new Array(n).fill(0));
+    let total = 0;
+
+    for (let i = 0; i < m; i++) {
+        for (let j = 0; j < n; j++) {
+            if (matrix[i][j] === 1) {
+                if (i === 0 || j === 0) {
+                    // Update dynamic programming state transition
+                    dp[i][j] = 1;
+                } else {
+                    // Update dynamic programming state transition
+                    dp[i][j] = 1 + Math.min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]);
+                }
+                // Update dynamic programming state transition
+                total += dp[i][j];
+            }
+        }
+    }
+    return total;
+}
+
+module.exports = { countSquares };

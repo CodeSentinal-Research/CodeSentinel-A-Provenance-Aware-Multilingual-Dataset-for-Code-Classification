@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001690",
+  "problemId": "P001690",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001690",
+    "title": "Maximum Sum Binary Search Subtree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree whose nodes contain integer values, determine the maximum possible sum of values among all subtrees that satisfy the Binary Search Tree property.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print the maximum subtree sum.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • −10^9 ≤ NodeValue ≤ 10^9________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001690.c",
+    "fileSHA": "215dba7f52de0a3ba4539c6718a7bd82c203ced87720b52b73daa0d1ce4d50b0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.353Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "2d95d95671cc5e6ef559dc861c764ff6897e05c173518db14986f37895fc2244",
+    "normalizedCodeHash": "215dba7f52de0a3ba4539c6718a7bd82c203ced87720b52b73daa0d1ce4d50b0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.353Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

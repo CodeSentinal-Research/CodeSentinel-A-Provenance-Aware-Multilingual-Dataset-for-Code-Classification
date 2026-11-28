@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000832",
+  "problemId": "P000832",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000832",
+    "title": "Split Array Largest Sum",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array and an integer k, split the array into exactly k non-empty continuous subarrays. Minimize the largest subarray sum. Return the minimized largest sum.",
+    "input": "Integer n Array nums Integer k",
+    "output": "The minimum possible largest subarray sum.",
+    "constraints": "1 <= n <= 1000 1 <= nums[i] <= 10^6"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000832.py",
+    "fileSHA": "9b33cdd837f68a15a9c5a04ec469e8f0accc4a56f1e52fe07d38264cbb244880",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.231927+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9b33cdd837f68a15a9c5a04ec469e8f0accc4a56f1e52fe07d38264cbb244880",
+    "normalizedCodeHash": "e8c5aaf925bbba5a34b91f1994d155628af9b330cb42af9222e5b465345cf084",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.231927+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

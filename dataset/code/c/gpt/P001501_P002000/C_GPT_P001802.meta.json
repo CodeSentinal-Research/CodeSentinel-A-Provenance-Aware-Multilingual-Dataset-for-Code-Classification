@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001802",
+  "problemId": "P001802",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001802",
+    "title": "Convert a Sorted Doubly Linked List into a Height-Balanced Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a sorted doubly linked list, construct a height-balanced Binary Search Tree.",
+    "input": "• The first line contains an integer N. • The second line contains the sorted doubly linked list.",
+    "output": "• Print the constructed BST.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001802.c",
+    "fileSHA": "2dfffa0b7ccd14b1ee619e61bdadf241d8e602181d9c53d481e7e781ff3380d0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.702Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "794c7c41acf1162a001ac783ace1c8801a1b55734e4ee5babcf8628749da9cac",
+    "normalizedCodeHash": "2dfffa0b7ccd14b1ee619e61bdadf241d8e602181d9c53d481e7e781ff3380d0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.702Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

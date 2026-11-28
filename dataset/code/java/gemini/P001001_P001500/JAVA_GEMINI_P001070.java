@@ -1,0 +1,28 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Solution {
+    public boolean isBipartite(int[][] graph) {
+        int n = graph.length;
+        int[] color = new int[n];
+        for (int i = 0; i < n; i++) {
+            if (color[i] == 0) {
+                Queue<Integer> q = new LinkedList<>();
+                q.offer(i);
+                color[i] = 1;
+                while (!q.isEmpty()) {
+                    int u = q.poll();
+                    for (int v : graph[u]) {
+                        if (color[v] == 0) {
+                            color[v] = -color[u];
+                            q.offer(v);
+                        } else if (color[v] == color[u]) {
+                            return false;
+                        }
+                    }
+                }
+            }
+        }
+        return true;
+    }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001707",
+  "problemId": "P001707",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001707",
+    "title": "Insert an Entire Level into a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree, a value X, and a depth D, insert a complete new level of nodes having value X at depth D while preserving the existing subtree structure.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains X and D.",
+    "output": "\u2022 Print the modified tree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "lcci/05.01.Insert Into Bits/Solution.ts",
+    "fileSHA": "288717a4accca21d50d408dcb72843e103569648",
+    "url": "https://github.com/doocs/leetcode/blob/main/lcci/05.01.Insert Into Bits/Solution.ts",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/lcci/05.01.Insert Into Bits/Solution.ts"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c624070bc6b05eea538151580005bc51f7eb41070ab3c499d69ef79e3cba8cc1",
+    "normalizedCodeHash": "c624070bc6b05eea538151580005bc51f7eb41070ab3c499d69ef79e3cba8cc1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:17.005383+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

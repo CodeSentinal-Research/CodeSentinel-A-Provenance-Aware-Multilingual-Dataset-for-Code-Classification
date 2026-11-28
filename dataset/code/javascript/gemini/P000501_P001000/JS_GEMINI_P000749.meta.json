@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000749",
+  "problemId": "P000749",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000749",
+    "title": "Generate All Paths with Variable Length Jumps",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M grid, generate all possible paths from the top-left cell to the bottom-right cell. From any cell, you may move: Horizontally right by any positive number of cells (Hk) Vertically down by any positive number of cells (Vk) Diagonally down-right by any positive number of cells (Dk) where k denotes the jump length. Print all valid paths in lexicographical order.",
+    "input": "Integer N Integer M",
+    "output": "All valid paths.",
+    "constraints": "1 <= N, M <= 10"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "javascript/gemini/JS_GEMINI_P000749",
+    "fileSHA": "6b4a441022ec6063c5fbb6b8159c6cf1594800bdc478584cfb1f9b9a32fe48af",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T17:13:50.758224+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6b4a441022ec6063c5fbb6b8159c6cf1594800bdc478584cfb1f9b9a32fe48af",
+    "normalizedCodeHash": "6b4a441022ec6063c5fbb6b8159c6cf1594800bdc478584cfb1f9b9a32fe48af",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T17:13:50.758251+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

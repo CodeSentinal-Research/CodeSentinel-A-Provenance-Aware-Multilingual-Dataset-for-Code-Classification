@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000426",
+  "problemId": "P000426",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000426",
+    "title": "Search Highest Rated Restaurants",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find every restaurant whose rating is greater than or equal to the specified minimum rating.",
+    "input": "Restaurant records and a rating threshold.",
+    "output": "Matching restaurants.",
+    "constraints": "1 ≤ Number of Restaurants ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000426.py",
+    "fileSHA": "4da55e3f1510d053ab63ca57d06af985ebcd6ed345a9b2adde0ef9a855647249",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:03.706374+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4da55e3f1510d053ab63ca57d06af985ebcd6ed345a9b2adde0ef9a855647249",
+    "normalizedCodeHash": "a9e0c08ee08ddf9a312f9021a2a29e5f9a69a39e8da6a1f38a529734ba1b511c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:03.706374+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

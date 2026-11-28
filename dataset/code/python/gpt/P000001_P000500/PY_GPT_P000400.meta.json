@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000400",
+  "problemId": "P000400",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000400",
+    "title": "Search Employees by Salary Range",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Retrieve all employees whose salaries fall within the specified range.",
+    "input": "Employee records, minimum salary, maximum salary.",
+    "output": "Matching employee records.",
+    "constraints": "1 ≤ Number of Employees ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000400.py",
+    "fileSHA": "4f4f9f23bcf19337e352625e7e28331b327574d3479822b015cf9c44ceecbc02",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:02.224491+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4f4f9f23bcf19337e352625e7e28331b327574d3479822b015cf9c44ceecbc02",
+    "normalizedCodeHash": "ab4cefc1fe651459d0d77a75fba2901c0ec19d292c5ababe7863175f88fa7501",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:02.224491+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

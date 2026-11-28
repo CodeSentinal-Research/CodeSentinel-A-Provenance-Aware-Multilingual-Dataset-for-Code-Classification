@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000826",
+  "problemId": "P000826",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000826",
+    "title": "Arranging Coins",
+    "category": "Binary Search",
+    "difficulty": "Easy",
+    "problemStatement": "You have n coins. Arrange them into a staircase where the i-th row contains exactly i coins. Return the number of complete rows that can be formed.",
+    "input": "Integer n",
+    "output": "The number of complete staircase rows.",
+    "constraints": "0 <= n <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000826.c",
+    "fileSHA": "d876bceb60792fe9ed165ba6cbbf9b1b2ec0528618945af632e74306f659ab44",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d876bceb60792fe9ed165ba6cbbf9b1b2ec0528618945af632e74306f659ab44",
+    "normalizedCodeHash": "d876bceb60792fe9ed165ba6cbbf9b1b2ec0528618945af632e74306f659ab44",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

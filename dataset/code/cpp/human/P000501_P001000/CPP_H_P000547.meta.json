@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000547",
+  "problemId": "P000547",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000547",
+    "title": "Escape the Spreading Fire",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an m \u00d7 n grid containing: 0 for empty land 1 for fire 2 for walls You start at the top-left cell and want to reach the bottom-right cell. Each minute: You may move to an adjacent empty cell. Fire simultaneously spreads to adjacent non-wall cells. Determine the maximum number of minutes you can wait before starting your journey while still being able to safely reach the destination. Return -1 if reaching the destination is impossible.",
+    "input": "Integers m and n An m \u00d7 n grid",
+    "output": "A single integer.",
+    "constraints": "1 <= m, n <= 300"
+  },
+  "repository": {
+    "name": "shikhar-mutta/Leetcode-Practice",
+    "owner": "shikhar-mutta",
+    "url": "https://github.com/shikhar-mutta/Leetcode-Practice",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "All Codes/All LC 1 - 4017/2258.cpp",
+    "fileSHA": "c612417998e0ab12425dfcdb3e03f60b03fc7080",
+    "url": "https://github.com/shikhar-mutta/Leetcode-Practice/blob/d4c02337064de7b90173f522805de98e537cdaff/All Codes/All LC 1 - 4017/2258.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/shikhar-mutta/Leetcode-Practice/main/All Codes/All LC 1 - 4017/2258.cpp"
+  },
+  "matching": {
+    "relevanceScore": 80.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "566b3be83f7ccb022c00d47b5c2701d3caf248218eab6bc8eaec7295b713f96f",
+    "normalizedCodeHash": "566b3be83f7ccb022c00d47b5c2701d3caf248218eab6bc8eaec7295b713f96f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T07:01:31.092178+00:00",
+    "pipelineVersion": "22.0.0-hyperdeep"
+  }
+}

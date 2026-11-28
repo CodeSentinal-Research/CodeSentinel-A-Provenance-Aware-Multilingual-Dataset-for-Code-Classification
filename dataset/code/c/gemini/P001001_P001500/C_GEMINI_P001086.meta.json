@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001086",
+  "problemId": "P001086",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001086",
+    "title": "Multi-Source Shortest Distance",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an unweighted graph and multiple source vertices, determine the shortest distance from the nearest source to every vertex.",
+    "input": "\u2022 First line contains integers N, M, and K. \u2022 Next M lines contain graph edges. \u2022 Last line contains K source vertices.",
+    "output": "Print the minimum distance to every vertex.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001086",
+    "fileSHA": "e461a69c72deafb72899cda48af241f69f2d61ddcc8b506b64140f9f9376f20d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:43:33.807516+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e461a69c72deafb72899cda48af241f69f2d61ddcc8b506b64140f9f9376f20d",
+    "normalizedCodeHash": "e461a69c72deafb72899cda48af241f69f2d61ddcc8b506b64140f9f9376f20d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:43:33.807546+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

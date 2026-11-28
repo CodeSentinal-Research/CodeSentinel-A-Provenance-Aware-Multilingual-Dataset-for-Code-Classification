@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001708",
+  "problemId": "P001708",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001708",
+    "title": "Count Pseudo-Palindromic Root-to-Leaf Paths",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree whose node values represent digits, determine the number of root-to-leaf paths whose node values can be rearranged to form a palindrome.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print the number of pseudo-palindromic paths.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001708.c",
+    "fileSHA": "0084c2acf4657e11e56f6645b9758a61df9076cf70b4724949af6e925fe460f1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.409Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "bff396a095d804b410086d0dd6be13aa7237863035f384ecd3b24e70135b3841",
+    "normalizedCodeHash": "0084c2acf4657e11e56f6645b9758a61df9076cf70b4724949af6e925fe460f1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.409Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

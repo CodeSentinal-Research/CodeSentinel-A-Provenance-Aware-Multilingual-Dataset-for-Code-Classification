@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001557",
+  "problemId": "P001557",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001557",
+    "title": "Longest Repeating Character Replacement",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string consisting of uppercase English letters and an integer K, you may replace at most K characters. Determine the length of the longest substring that can be made to contain only one distinct character.",
+    "input": "\u2022 First line contains string S. \u2022 Second line contains integer K.",
+    "output": "\u2022 Print the maximum possible length.",
+    "constraints": "\u2022 1 \u2264 |S| \u2264 2 \u00d7 10^5 \u2022 0 \u2264 K \u2264 |S|"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001557",
+    "fileSHA": "887abaec5f999d13cacf02c8d64726733dbd27fef32e15c5b359b2f04ecf29d5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:30:36.507614+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "887abaec5f999d13cacf02c8d64726733dbd27fef32e15c5b359b2f04ecf29d5",
+    "normalizedCodeHash": "887abaec5f999d13cacf02c8d64726733dbd27fef32e15c5b359b2f04ecf29d5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:30:36.507657+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

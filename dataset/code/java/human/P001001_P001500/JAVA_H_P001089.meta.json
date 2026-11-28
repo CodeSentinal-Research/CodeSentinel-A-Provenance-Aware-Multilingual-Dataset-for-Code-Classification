@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001089",
+  "problemId": "P001089",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001089",
+    "title": "Find the Center of a Tree",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given an undirected tree with N vertices, determine all center vertices. A center is a vertex that minimizes the maximum distance to every other vertex.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N\u22121 lines contain tree edges.",
+    "output": "Print all center vertices in ascending order.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "williamfiset/Algorithms",
+    "owner": "williamfiset",
+    "url": "https://github.com/williamfiset/Algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/williamfiset/algorithms/graphtheory/treealgorithms/TreeCenter.java",
+    "fileSHA": "5eb60093c40c6e87bc0f65081cecabfbf3280746",
+    "url": "https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/williamfiset/algorithms/graphtheory/treealgorithms/TreeCenter.java",
+    "rawUrl": "https://raw.githubusercontent.com/williamfiset/Algorithms/master/src/main/java/com/williamfiset/algorithms/graphtheory/treealgorithms/TreeCenter.java"
+  },
+  "matching": {
+    "relevanceScore": 79.58
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4bb767619981f418694c1e7313e982d8c874fe96170c5197a612a7b64fdc6906",
+    "normalizedCodeHash": "4bb767619981f418694c1e7313e982d8c874fe96170c5197a612a7b64fdc6906",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:47:25.665679+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001228",
+  "problemId": "P001228",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001228",
+    "title": "Dice Throw Problem",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given D dice, each having F faces numbered from 1 to F, determine the number of ways to obtain a target sum S.",
+    "input": "\u2022 First line contains integers D, F, and S.",
+    "output": "Print the total number of possible ways.",
+    "constraints": "\u2022 1 \u2264 D \u2264 50 \u2022 2 \u2264 F \u2264 30 \u2022 1 \u2264 S \u2264 1000"
+  },
+  "repository": {
+    "name": "mission-peace/interview",
+    "owner": "mission-peace",
+    "url": "https://github.com/mission-peace/interview",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/com/interview/dynamic/DiceThrowWays.java",
+    "fileSHA": "6b9f85a7aaf3e5a674ef7e54f008bb7cd965a6c1",
+    "url": "https://github.com/mission-peace/interview/blob/master/src/com/interview/dynamic/DiceThrowWays.java",
+    "rawUrl": "https://raw.githubusercontent.com/mission-peace/interview/master/src/com/interview/dynamic/DiceThrowWays.java"
+  },
+  "matching": {
+    "relevanceScore": 68.81
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "71948d0b765d57cd90ec4cd9536557aa40de187b919654eba8f77bdc09d99692",
+    "normalizedCodeHash": "71948d0b765d57cd90ec4cd9536557aa40de187b919654eba8f77bdc09d99692",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T02:06:06.993254+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

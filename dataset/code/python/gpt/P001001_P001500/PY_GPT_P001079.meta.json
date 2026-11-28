@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001079",
+  "problemId": "P001079",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001079",
+    "title": "Find All Bridges in a Graph",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a connected undirected graph, determine all bridge edges. A bridge is an edge whose removal increases the number of connected components.",
+    "input": "• First line contains integers N and M. • Next M lines contain graph edges.",
+    "output": "Print all bridge edges in ascending order. If none exist, print NONE.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001079.py",
+    "fileSHA": "768e2e9590019b0e30bd28131ea7d98f2850af733ab4134c5382e55e57f5cf84",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.268353+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "768e2e9590019b0e30bd28131ea7d98f2850af733ab4134c5382e55e57f5cf84",
+    "normalizedCodeHash": "ce40737b366bb3efcd55b2780177310e63876d317997ae6d7e232274411e5503",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.268353+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

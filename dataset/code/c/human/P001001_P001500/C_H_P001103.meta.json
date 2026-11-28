@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001103",
+  "problemId": "P001103",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001103",
+    "title": "Critical Connections in a Network",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected network of servers, determine all critical connections whose removal disconnects the network.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print all critical connections in lexicographical order. If none exist, print NONE.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2\u00d710^5 \u2022 1 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "Akshh-bhardwaj/dsa",
+    "owner": "Akshh-bhardwaj",
+    "url": "https://github.com/Akshh-bhardwaj/dsa",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/Graphs/kosaraju_scc.c",
+    "fileSHA": "5536e4ea4413a4a7ef504f456f0e937ee3e358e8",
+    "url": "https://github.com/Akshh-bhardwaj/dsa/blob/7708b0c02a550d4bfe26926c276e12b30e5b3a25/c/Graphs/kosaraju_scc.c",
+    "rawUrl": "https://raw.githubusercontent.com/Akshh-bhardwaj/dsa/main/c/Graphs/kosaraju_scc.c"
+  },
+  "matching": {
+    "relevanceScore": 61.11
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f9a61909f4f51b0a58d5e6c0d1d5613ba79d35fc65e3a44d9d24a433084290c4",
+    "normalizedCodeHash": "f9a61909f4f51b0a58d5e6c0d1d5613ba79d35fc65e3a44d9d24a433084290c4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:39:38.400536+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

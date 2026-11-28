@@ -1,0 +1,2 @@
+// Search Odd Number
+const fs=require("fs");const a=fs.readFileSync(0,"utf8").trim().split(/\s+/).map(Number),n=a[0];let ans=-1;for(let i=0;i<n;i++)if(Math.abs(a[i+1])%2===1){ans=i;break;}console.log(ans);

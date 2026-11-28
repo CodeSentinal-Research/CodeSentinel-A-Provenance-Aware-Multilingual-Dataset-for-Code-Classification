@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001181",
+  "problemId": "P001181",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001181",
+    "title": "Jump Game",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array where each element represents the maximum jump length from that position, determine whether it is possible to reach the last index starting from the first index.",
+    "input": "• First line contains integer N. • Second line contains N integers.",
+    "output": "Print YES if the last index is reachable; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001181.c",
+    "fileSHA": "017fa02ab3bf79e0827c0de506b8cb47650affdc3161a7e6a9c7a9b44abe284d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.209Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "2f62760d36a975735a51e76ec63709f3ca26c48d0dd6e2ff1b5c86819841826b",
+    "normalizedCodeHash": "017fa02ab3bf79e0827c0de506b8cb47650affdc3161a7e6a9c7a9b44abe284d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.209Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

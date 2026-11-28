@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001575",
+  "problemId": "P001575",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001575",
+    "title": "Minimum Element in the First Window",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and a window size K, determine the minimum element in the first contiguous subarray of size K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the minimum element.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "sktime/sktime",
+    "owner": "sktime",
+    "url": "https://github.com/sktime/sktime",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "sktime/split/slidingwindow.py",
+    "fileSHA": "88373ef5ab13461b95933402111b689a311c5e81",
+    "url": "https://github.com/sktime/sktime/blob/e9aa17dc4dd7528dd0bd759cc5fd2d9b0aa8826c/sktime/split/slidingwindow.py",
+    "rawUrl": "https://raw.githubusercontent.com/sktime/sktime/main/sktime/split/slidingwindow.py"
+  },
+  "matching": {
+    "relevanceScore": 88.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "36f0f844564366328918a0cada60fe433771419120cbd13686a60fb8678a601f",
+    "normalizedCodeHash": "36f0f844564366328918a0cada60fe433771419120cbd13686a60fb8678a601f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T06:17:36.184241+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

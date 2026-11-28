@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001777",
+  "problemId": "P001777",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001777",
+    "title": "Find the Longest Alternating Even-Odd Path",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the length of the longest downward path in which adjacent node values alternate between even and odd.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print the length of the longest alternating path.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001777.c",
+    "fileSHA": "c4eb6b1797b623ef13c28153457515eb6bfa05bd4ac8240471ce31f815a5b459",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.629Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "6e1f9c621340634e43ce8fa9f4557b3e1f70609e4771c287b66ce71fe47af17c",
+    "normalizedCodeHash": "c4eb6b1797b623ef13c28153457515eb6bfa05bd4ac8240471ce31f815a5b459",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.629Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

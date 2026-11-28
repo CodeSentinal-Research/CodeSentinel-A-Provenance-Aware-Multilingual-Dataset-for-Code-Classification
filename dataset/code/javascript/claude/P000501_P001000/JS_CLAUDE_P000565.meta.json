@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_CLAUDE_P000565",
+  "problemId": "P000565",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000565",
+    "title": "Matrix Cells in Distance Order",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given the dimensions of a matrix and the coordinates of a starting cell, return all matrix cells ordered by their Manhattan distance from the starting cell. If multiple cells have the same distance, they may appear in any order.",
+    "input": "Integers rows and cols Integers rCenter and cCenter",
+    "output": "A list of all cell coordinates ordered by increasing Manhattan distance.",
+    "constraints": "1 <= rows, cols <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000565",
+    "fileSHA": "1f20db082ee2f692fb8deae184ff0c6ce201cdc9bcab0ca4a88ffd7c3c5aa368",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "309b803ab9fa65cc239fba166991da319fc03e348bc6c4eda550e7ccbdf5d0eb",
+    "normalizedCodeHash": "1f20db082ee2f692fb8deae184ff0c6ce201cdc9bcab0ca4a88ffd7c3c5aa368",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

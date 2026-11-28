@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001096",
+  "problemId": "P001096",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001096",
+    "title": "Minimum Cut",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a directed graph with edge capacities, determine the capacity of the minimum S-T cut.",
+    "input": "\u2022 First line contains integers N, M, S, and T. \u2022 Next M lines contain integers u, v, and capacity.",
+    "output": "Print the minimum cut capacity.",
+    "constraints": "\u2022 2 \u2264 N \u2264 500 \u2022 1 \u2264 M \u2264 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001096",
+    "fileSHA": "23306d19fe4b7c5427d2f665e9e7c4b23becce0eeca3d7cab0cc4288c27737da",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.604Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "2547c7731a78f0d3db3c7b31ee81677f7a18391df6819c4c5cdec973b4b7c92e",
+    "normalizedCodeHash": "e503e5d99373b18bc784f4b17ed66d099048127e293b3deadd2e983051547add",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.604Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

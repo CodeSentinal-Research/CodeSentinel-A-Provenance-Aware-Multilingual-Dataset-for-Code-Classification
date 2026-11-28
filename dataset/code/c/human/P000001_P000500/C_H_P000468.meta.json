@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000468",
+  "problemId": "P000468",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000468",
+    "title": "Find Kth Element of Two Sorted Arrays",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that finds the kth element in the merged version of two sorted arrays.",
+    "input": "First line contains M, N and K. Next two lines contain the sorted arrays.",
+    "output": "The kth element.",
+    "constraints": "1 \u2264 M, N \u2264 500, 1 \u2264 K \u2264 M+N"
+  },
+  "repository": {
+    "name": "Generative-Program-Analysis/GenSym",
+    "owner": "Generative-Program-Analysis",
+    "url": "https://github.com/Generative-Program-Analysis/GenSym",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "benchmarks/demo-benchmarks/kth.c",
+    "fileSHA": "7f82619d9e852b9f84ba74d010d1b14408375bef",
+    "url": "https://github.com/Generative-Program-Analysis/GenSym/blob/1c94c7bac12e298a2b43fa11be9cb96e46fb09a7/benchmarks/demo-benchmarks/kth.c",
+    "rawUrl": "https://raw.githubusercontent.com/Generative-Program-Analysis/GenSym/main/benchmarks/demo-benchmarks/kth.c"
+  },
+  "matching": {
+    "relevanceScore": 88.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e4dbca82bb53be5ab05a68b956ce011fcac9530e62ed5cef3d8b32227adb9876",
+    "normalizedCodeHash": "e4dbca82bb53be5ab05a68b956ce011fcac9530e62ed5cef3d8b32227adb9876",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T17:33:56.267755+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

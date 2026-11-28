@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000598",
+  "problemId": "P000598",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000598",
+    "title": "Reverse Linked List II",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and two integers left and right, reverse the nodes from position left to position right (1-indexed). The remaining nodes outside this range must remain unchanged. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer left Integer right",
+    "output": "The linked list after reversing the specified sublist.",
+    "constraints": "1 <= n <= 500 1 <= left <= right <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000598.js",
+    "fileSHA": "66b7b8c836fe868fdccbd8d32385ebc23d86f0d999f925e47b2f532a165e77c9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "66b7b8c836fe868fdccbd8d32385ebc23d86f0d999f925e47b2f532a165e77c9",
+    "normalizedCodeHash": "66b7b8c836fe868fdccbd8d32385ebc23d86f0d999f925e47b2f532a165e77c9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

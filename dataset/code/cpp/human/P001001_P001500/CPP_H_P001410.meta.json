@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001410",
+  "problemId": "P001410",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001410",
+    "title": "Count Bad Pairs",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array, count the number of pairs (i, j) where i < j and j - i \u2260 nums[j] - nums[i].",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the number of bad pairs.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "C++/count-number-of-bad-pairs.cpp",
+    "fileSHA": "7f14c9c9e071ff0457247c7bae36d4a08e8c74dc",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/count-number-of-bad-pairs.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/C++/count-number-of-bad-pairs.cpp"
+  },
+  "matching": {
+    "relevanceScore": 90.0
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "78ea54817927f753a7f5fa3cb35290f1afcd4d87169c549a4bee165d5a7e8827",
+    "normalizedCodeHash": "78ea54817927f753a7f5fa3cb35290f1afcd4d87169c549a4bee165d5a7e8827",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (C++ Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:22.474210+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

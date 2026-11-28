@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001089",
+  "problemId": "P001089",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001089",
+    "title": "Find the Center of a Tree",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given an undirected tree with N vertices, determine all center vertices. A center is a vertex that minimizes the maximum distance to every other vertex.",
+    "input": "• First line contains integer N. • Next N−1 lines contain tree edges.",
+    "output": "Print all center vertices in ascending order.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001089.js",
+    "fileSHA": "18e1a2a6d12f0c36f3c03443a558d42ce41653eb31538257d6078a968a478631",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T09:30:51.258473+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "18e1a2a6d12f0c36f3c03443a558d42ce41653eb31538257d6078a968a478631",
+    "normalizedCodeHash": "18e1a2a6d12f0c36f3c03443a558d42ce41653eb31538257d6078a968a478631",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T09:30:51.258473+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

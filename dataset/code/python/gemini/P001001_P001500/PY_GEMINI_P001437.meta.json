@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001437",
+  "problemId": "P001437",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001437",
+    "title": "Check If N and Its Double Exist",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array, determine whether there exist two distinct indices i and j such that nums[i] = 2 \u00d7 nums[j].",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print YES if such a pair exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001437",
+    "fileSHA": "2cf8c7ea57c6e1c92f19630e5886c4e977565d084824782698d711eec560a846",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:26:13.290795+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2cf8c7ea57c6e1c92f19630e5886c4e977565d084824782698d711eec560a846",
+    "normalizedCodeHash": "2cf8c7ea57c6e1c92f19630e5886c4e977565d084824782698d711eec560a846",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:26:13.290817+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

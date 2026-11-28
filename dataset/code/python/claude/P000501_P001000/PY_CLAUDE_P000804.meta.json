@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000804",
+  "problemId": "P000804",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000804",
+    "title": "Count Subarrays with XOR Equal to K",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array nums and an integer K, return the number of contiguous subarrays whose bitwise XOR equals K.",
+    "input": "Integer n Array nums Integer K",
+    "output": "The number of valid subarrays.",
+    "constraints": "1 <= n <= 2 × 10^5 0 <= nums[i], K <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000804",
+    "fileSHA": "ff597f60d397e55886ce5872c36061c20a170e327af776a4f1a220761540f761",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ff597f60d397e55886ce5872c36061c20a170e327af776a4f1a220761540f761",
+    "normalizedCodeHash": "ff597f60d397e55886ce5872c36061c20a170e327af776a4f1a220761540f761",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique solution P000804: Count Subarrays with XOR Equal to K"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

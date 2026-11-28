@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001733",
+  "problemId": "P001733",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001733",
+    "title": "Check Whether a Binary Tree is a Sum Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, determine whether every non-leaf node stores the sum of all values present in its left and right subtrees.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print YES if the tree is a Sum Tree; otherwise print NO.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001733.c",
+    "fileSHA": "81856bad9973408336fc9645477adbfebad7148c92f503f69d395a830d07f9a5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.483Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "67bcc734184250a8a9f5592c08a503db2dc7e16e394615d879bc3fba90d15df1",
+    "normalizedCodeHash": "81856bad9973408336fc9645477adbfebad7148c92f503f69d395a830d07f9a5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.484Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

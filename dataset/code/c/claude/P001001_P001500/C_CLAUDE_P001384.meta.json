@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P001384",
+  "problemId": "P001384",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001384",
+    "title": "Find All Duplicates in an Array",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers where every integer is in the range [1, N], some numbers appear twice and others appear once. Find all duplicated numbers.",
+    "input": "• First line contains integer N. • Second line contains N integers.",
+    "output": "Print all duplicated numbers in ascending order.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P001384",
+    "fileSHA": "a577a114d60dd7f49b75697f167afe729ae327b8e2ce222d7dd811bb220e8814",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "155e1fec5a30141296b3f532f7447f787bb448c96fe41bbdc676b2000569f9e4",
+    "normalizedCodeHash": "a577a114d60dd7f49b75697f167afe729ae327b8e2ce222d7dd811bb220e8814",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001609",
+  "problemId": "P001609",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001609",
+    "title": "Count Pivot Indices",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers, determine the number of pivot indices. A pivot index is an index where the sum of elements to its left equals the sum of elements to its right.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the number of pivot indices.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001609",
+    "fileSHA": "80c3da6414b00180d5d501adfa79d17dc438e54d8ec949e6863084d8b582f5a4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:50.765542+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "80c3da6414b00180d5d501adfa79d17dc438e54d8ec949e6863084d8b582f5a4",
+    "normalizedCodeHash": "80c3da6414b00180d5d501adfa79d17dc438e54d8ec949e6863084d8b582f5a4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:50.765565+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

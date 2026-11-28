@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001174",
+  "problemId": "P001174",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001174",
+    "title": "Triangle Minimum Path Sum",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given a triangle of integers, determine the minimum path sum from the top to the bottom. At each step, you may move only to one of the two adjacent numbers in the next row.",
+    "input": "• First line contains integer N. • Next N lines contain the triangle.",
+    "output": "Print the minimum path sum.",
+    "constraints": "• 1 ≤ N ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001174.c",
+    "fileSHA": "4ce1c8885eafae5e0a794d2fbee657fbc03031340a39e61c499849eb6e56539a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.189Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "fea772d3193d1e47392a1b47d29947829ee36cdc461a8bf74e9fa1b8ee3db365",
+    "normalizedCodeHash": "4ce1c8885eafae5e0a794d2fbee657fbc03031340a39e61c499849eb6e56539a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.189Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

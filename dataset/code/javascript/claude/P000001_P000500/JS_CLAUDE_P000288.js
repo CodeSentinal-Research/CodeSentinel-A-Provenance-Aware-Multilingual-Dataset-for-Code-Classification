@@ -1,0 +1,1 @@
+const s=require("fs").readFileSync("/dev/stdin","utf8").trim();const pal=(s,l,r)=>{while(l<r)if(s[l++]!==s[r--])return false;return true;};let l=0,r=s.length-1;while(l<r&&s[l]===s[r]){l++;r--;}console.log(l>=r||pal(s,l+1,r)||pal(s,l,r-1)?"Yes":"No");

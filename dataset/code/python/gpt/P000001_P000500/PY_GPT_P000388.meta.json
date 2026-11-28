@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000388",
+  "problemId": "P000388",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000388",
+    "title": "Search Passport by Passport Number",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Search for a passport record using the passport number.",
+    "input": "Passport records and a passport number.",
+    "output": "Passport details or \"Passport Not Found\".",
+    "constraints": "1 ≤ Number of Records ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000388.py",
+    "fileSHA": "c457ccd25457da6cf202c88e4def3012480ab792427ecaea125e066e2ed5b0c0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:01.912971+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c457ccd25457da6cf202c88e4def3012480ab792427ecaea125e066e2ed5b0c0",
+    "normalizedCodeHash": "e0d73a51979765cbd6132bab5f531c31f744d96f765deee3a9ada4b9f5d5f550",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:01.912971+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

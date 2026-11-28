@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000491",
+  "problemId": "P000491",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000491",
+    "title": "Build Array With Stack Operations",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "Given a strictly increasing target array and an integer n, construct the target array starting from an empty array by reading numbers from 1 to n. For each number read: You may perform a \"Push\" operation. If the number should not remain in the array, immediately perform a \"Pop\". Return the sequence of operations required to build the target array.",
+    "input": "Integer m Target array Integer n",
+    "output": "A list of operations (Push and Pop).",
+    "constraints": "1 <= m <= 100 1 <= target[i] <= n <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000001_P000500/JS_GPT_P000491.js",
+    "fileSHA": "7a5b503cc82ac8990fdce27f8b447b64cc5f3594e994bfdb664928ebeea1293a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7a5b503cc82ac8990fdce27f8b447b64cc5f3594e994bfdb664928ebeea1293a",
+    "normalizedCodeHash": "7a5b503cc82ac8990fdce27f8b447b64cc5f3594e994bfdb664928ebeea1293a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

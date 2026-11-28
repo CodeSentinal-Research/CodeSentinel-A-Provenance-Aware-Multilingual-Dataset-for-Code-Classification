@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000633",
+  "problemId": "P000633",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000633",
+    "title": "Detect and Remove Loop in Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list, determine whether the list contains a cycle. If a cycle exists, remove the loop without losing any nodes and return the head of the modified linked list. If no loop exists, return the original linked list.",
+    "input": "A linked list. The testing system may internally create a cycle.",
+    "output": "The linked list after removing the loop.",
+    "constraints": "Number of nodes is in the range [0, 10^5]"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000633",
+    "fileSHA": "509a8aff57dd34a5dd8aa2223273ea90775edddc98d27a2ca0e569708e33681b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "509a8aff57dd34a5dd8aa2223273ea90775edddc98d27a2ca0e569708e33681b",
+    "normalizedCodeHash": "509a8aff57dd34a5dd8aa2223273ea90775edddc98d27a2ca0e569708e33681b",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000633"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

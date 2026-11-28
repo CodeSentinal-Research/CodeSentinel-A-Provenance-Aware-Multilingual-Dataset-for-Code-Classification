@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000930",
+  "problemId": "P000930",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000930",
+    "title": "Matrix Multiplication",
+    "category": "Mathematics - Matrix Mathematics",
+    "difficulty": "Easy",
+    "problemStatement": "Given two matrices A of size N × M and B of size M × P, compute their matrix product.",
+    "input": "Integers N, M, P Matrix A Matrix B",
+    "output": "The product matrix.",
+    "constraints": "1 <= N, M, P <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000930.c",
+    "fileSHA": "0eb4cfd0c6a3dfdbe281c875ff1b2fdcd079c4b49f470c7a22dc34811e1af0d8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0eb4cfd0c6a3dfdbe281c875ff1b2fdcd079c4b49f470c7a22dc34811e1af0d8",
+    "normalizedCodeHash": "0eb4cfd0c6a3dfdbe281c875ff1b2fdcd079c4b49f470c7a22dc34811e1af0d8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

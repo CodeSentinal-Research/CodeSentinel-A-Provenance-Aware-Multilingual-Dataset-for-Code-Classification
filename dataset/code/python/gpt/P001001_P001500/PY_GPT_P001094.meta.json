@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001094",
+  "problemId": "P001094",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001094",
+    "title": "Maximum Bipartite Matching",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a bipartite graph with left and right partitions, determine the maximum number of matched vertex pairs such that no vertex belongs to more than one pair.",
+    "input": "• First line contains integers L, R, and M. • Next M lines contain edges between the left and right partitions.",
+    "output": "Print the size of the maximum matching.",
+    "constraints": "• 1 ≤ L, R ≤ 2000 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001094.py",
+    "fileSHA": "cbcb87b2f57ee8590ec49f26a969ccb0980cd7d33bc781b0a52f8ea0b22d8c71",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.335107+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cbcb87b2f57ee8590ec49f26a969ccb0980cd7d33bc781b0a52f8ea0b22d8c71",
+    "normalizedCodeHash": "0f66bde79b4a1e38e23e10d71847226835c4e81b4bc3b574c0d872c585a22af5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.335107+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000539",
+  "problemId": "P000539",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000539",
+    "title": "First Unique Number",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Design a data structure that maintains a queue of integers and supports the following operations: showFirstUnique() \u2014 Return the first unique integer in the queue. If no unique integer exists, return -1. add(value) \u2014 Add an integer to the end of the queue. Initially, the queue is populated with a given list of integers. Process a sequence of operations and print the result for every showFirstUnique() operation.",
+    "input": "Integer n Array of n integers Integer q Next q operations",
+    "output": "Print the result for every showFirstUnique() operation.",
+    "constraints": "1 <= n, q <= 10^5 1 <= value <= 10^8"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/first-unique-number.py",
+    "fileSHA": "6b2e9158c85485534d449a6e40d43eb359b17ac2",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/first-unique-number.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/first-unique-number.py"
+  },
+  "matching": {
+    "relevanceScore": 74.09
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b0ccc2a706daf1b83868e7b7caccfc6b0ab7701195d5bb702663d49c711c7077",
+    "normalizedCodeHash": "b0ccc2a706daf1b83868e7b7caccfc6b0ab7701195d5bb702663d49c711c7077",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:10:21.326584+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001545",
+  "problemId": "P001545",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001545",
+    "title": "Minimum Difference Between Maximum and Minimum in Every Window",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and an integer K, determine the minimum value of (maximum element \u2212 minimum element) among all contiguous subarrays of size exactly K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the minimum difference.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K \u2264 N \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0300-0399/0321.Create Maximum Number/Solution.cpp",
+    "fileSHA": "ac8491c94bc297c292d6758953ff266d786cd293",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0300-0399/0321.Create Maximum Number/Solution.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0300-0399/0321.Create Maximum Number/Solution.cpp"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a4d6d5a5620ca940f7fd77e6b70ae03e36e1c3b4857f5396ab976e1a614c10fd",
+    "normalizedCodeHash": "a4d6d5a5620ca940f7fd77e6b70ae03e36e1c3b4857f5396ab976e1a614c10fd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:48.227062+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

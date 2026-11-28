@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001711",
+  "problemId": "P001711",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001711",
+    "title": "Verify Whether a Binary Tree Satisfies the Children Sum Property",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given a binary tree, determine whether every non-leaf node has a value equal to the sum of the values of its immediate children.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print YES if the tree satisfies the property; otherwise print NO.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001711.c",
+    "fileSHA": "afc295d5c40d45ac51723bdeee0c23803492bb69d37cd7cb0e3e13f6e583d288",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.420Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "dda6c036bf956ed3e14778d685339451857e61ad6c39901f37fe7509b4385ac0",
+    "normalizedCodeHash": "afc295d5c40d45ac51723bdeee0c23803492bb69d37cd7cb0e3e13f6e583d288",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.420Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

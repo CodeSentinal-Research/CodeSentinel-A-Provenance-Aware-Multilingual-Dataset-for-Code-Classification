@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000723",
+  "problemId": "P000723",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000723",
+    "title": "Partition Array into K Equal Sum Subsets",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array and an integer k, determine whether the array can be partitioned into k non-empty subsets having equal sums. Return true if possible; otherwise return false.",
+    "input": "Integer n Array nums Integer k",
+    "output": "true if such a partition exists, otherwise false.",
+    "constraints": "1 <= n <= 16 1 <= nums[i] <= 10^4 1 <= k <= n"
+  },
+  "repository": {
+    "name": "careermonk/data-structures-and-algorithmic-thinking-with-python",
+    "owner": "careermonk",
+    "url": "https://github.com/careermonk/data-structures-and-algorithmic-thinking-with-python",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/chapter11searching/PartitionSetWithEqualNotEfficient.py",
+    "fileSHA": "7803e7d10989e47882912c49d189553afdc225e8",
+    "url": "https://github.com/careermonk/data-structures-and-algorithmic-thinking-with-python/blob/master/src/chapter11searching/PartitionSetWithEqualNotEfficient.py",
+    "rawUrl": "https://raw.githubusercontent.com/careermonk/data-structures-and-algorithmic-thinking-with-python/master/src/chapter11searching/PartitionSetWithEqualNotEfficient.py"
+  },
+  "matching": {
+    "relevanceScore": 69.86
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6de9c7bf3ea8fe8a93ed0f5a476434b14a6104e6c1d3eb137be97c507405ba89",
+    "normalizedCodeHash": "6de9c7bf3ea8fe8a93ed0f5a476434b14a6104e6c1d3eb137be97c507405ba89",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (AST Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T06:36:15.142934+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

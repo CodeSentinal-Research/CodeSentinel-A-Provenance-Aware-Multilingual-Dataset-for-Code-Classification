@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001136",
+  "problemId": "P001136",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001136",
+    "title": "Tribonacci Number",
+    "category": "Dynamic Programming",
+    "difficulty": "Easy",
+    "problemStatement": "The Tribonacci sequence is defined as: \u2022 T(0)=0 \u2022 T(1)=1 \u2022 T(2)=1 \u2022 T(n)=T(n\u22121)+T(n\u22122)+T(n\u22123) Given N, determine T(N).",
+    "input": "\u2022 First line contains integer N.",
+    "output": "Print T(N).",
+    "constraints": "\u2022 0 \u2264 N \u2264 37"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/dynamicprogramming/Tribonacci.java",
+    "fileSHA": "3ff6cc620236d94555846658a890c2ac52756146",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/dynamicprogramming/Tribonacci.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/dynamicprogramming/Tribonacci.java"
+  },
+  "matching": {
+    "relevanceScore": 81.67
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7b2595caed5517458b84141defcedd6cf4c2d42a23dcd41892b747bc0de3f5b0",
+    "normalizedCodeHash": "7b2595caed5517458b84141defcedd6cf4c2d42a23dcd41892b747bc0de3f5b0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:03.105720+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

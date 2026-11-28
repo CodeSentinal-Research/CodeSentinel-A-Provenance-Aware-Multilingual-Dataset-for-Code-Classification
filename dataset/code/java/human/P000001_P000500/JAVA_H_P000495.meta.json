@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000495",
+  "problemId": "P000495",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000495",
+    "title": "Online Stock Span",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Design a data structure that processes a stream of stock prices. For each incoming stock price, return its span, defined as the maximum number of consecutive days (including today) for which the stock price has been less than or equal to today's price. Process all queries efficiently.",
+    "input": "Integer q Next q lines each contain one stock price.",
+    "output": "For each stock price, print its span.",
+    "constraints": "1 <= q <= 10^5 1 <= price <= 10^5"
+  },
+  "repository": {
+    "name": "mission-peace/interview",
+    "owner": "mission-peace",
+    "url": "https://github.com/mission-peace/interview",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/com/interview/stackqueue/StockSpanProblem.java",
+    "fileSHA": "794599c5f95aa926623af5a68d4d3954c3ed01ae",
+    "url": "https://github.com/mission-peace/interview/blob/master/src/com/interview/stackqueue/StockSpanProblem.java",
+    "rawUrl": "https://raw.githubusercontent.com/mission-peace/interview/master/src/com/interview/stackqueue/StockSpanProblem.java"
+  },
+  "matching": {
+    "relevanceScore": 66.79
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "95b88816992cf08808399046956f38cc097f27eb7f696b3f1cbb836aa379316f",
+    "normalizedCodeHash": "95b88816992cf08808399046956f38cc097f27eb7f696b3f1cbb836aa379316f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:43:30.279082+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001023",
+  "problemId": "P001023",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001023",
+    "title": "Parent of a Heap Node",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a heap represented as an array and the index of a node, determine the value of its parent. If the node is the root, print -1.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers. \u2022 Third line contains integer i.",
+    "output": "Print the parent value or -1.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 i < N"
+  },
+  "repository": {
+    "name": "nodejs/node",
+    "owner": "nodejs",
+    "url": "https://github.com/nodejs/node",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/node_worker.h",
+    "fileSHA": "5bd0719da2db2706dbbd460c114503c5d01105a1",
+    "url": "https://github.com/nodejs/node/blob/045ff95365c8a65f8abc0a33efb055b6d9d93c03/src/node_worker.h",
+    "rawUrl": "https://raw.githubusercontent.com/nodejs/node/main/src/node_worker.h"
+  },
+  "matching": {
+    "relevanceScore": 88.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "92f351236f657a60d6bcd6276b7ae47e16779b7fa3295e34913027a02eeb0d2d",
+    "normalizedCodeHash": "92f351236f657a60d6bcd6276b7ae47e16779b7fa3295e34913027a02eeb0d2d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T01:00:38.990478+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

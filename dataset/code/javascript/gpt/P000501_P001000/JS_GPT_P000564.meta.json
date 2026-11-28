@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000564",
+  "problemId": "P000564",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000564",
+    "title": "Word Ladder II",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Given beginWord, endWord, and a dictionary of valid words, return all shortest transformation sequences from beginWord to endWord. Each transformation changes exactly one character, and every intermediate word must exist in the dictionary. Return all shortest sequences in any order.",
+    "input": "String beginWord String endWord Integer n List of n words",
+    "output": "A list of all shortest transformation sequences.",
+    "constraints": "1 <= word length <= 10 1 <= n <= 5000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000564.js",
+    "fileSHA": "8441cbd53c9f0a73c4d2a2fa9c46ecbd780f07ec4cf9104c2c1516fd71e0a80b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8441cbd53c9f0a73c4d2a2fa9c46ecbd780f07ec4cf9104c2c1516fd71e0a80b",
+    "normalizedCodeHash": "8441cbd53c9f0a73c4d2a2fa9c46ecbd780f07ec4cf9104c2c1516fd71e0a80b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

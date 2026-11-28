@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001839",
+  "problemId": "P001839",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001839",
+    "title": "Determine Whether Three Keys in a Binary Search Tree Sum to a Given Value",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a Binary Search Tree and an integer K, determine whether there exist three distinct nodes whose values sum to K.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The last line contains K.",
+    "output": "\u2022 Print YES if such a triplet exists; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001839",
+    "fileSHA": "333c8b8ea70987b2b7b6e71f6cb3e1a402db030e62d351696e756dc738a46d44",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:30.289175+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "333c8b8ea70987b2b7b6e71f6cb3e1a402db030e62d351696e756dc738a46d44",
+    "normalizedCodeHash": "333c8b8ea70987b2b7b6e71f6cb3e1a402db030e62d351696e756dc738a46d44",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:30.289194+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

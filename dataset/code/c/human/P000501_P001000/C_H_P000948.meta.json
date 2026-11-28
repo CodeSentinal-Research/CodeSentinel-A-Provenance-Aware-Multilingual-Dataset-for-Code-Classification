@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000948",
+  "problemId": "P000948",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000948",
+    "title": "Chessboard Game",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Hard",
+    "problemStatement": "A token is placed on an N \u00d7 N chessboard at position (x, y). On each turn, a player may move the token only to one of the allowed positions defined by the game's movement rules. A player who cannot make a move loses. Determine whether the starting player has a winning strategy.",
+    "input": "Integer N Starting coordinates (x, y)",
+    "output": "Print \"First\" if the starting player wins; otherwise, print \"Second\".",
+    "constraints": "1 <= N <= 200 1 <= x, y <= N"
+  },
+  "repository": {
+    "name": "0xkonsti/flakes",
+    "owner": "0xkonsti",
+    "url": "https://github.com/0xkonsti/flakes",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "libs/core/include/board.h",
+    "fileSHA": "43693fd88a8ce6cefd4c838d1ed503ab1825df15",
+    "url": "https://github.com/0xkonsti/flakes/blob/3f4060b1f95e7da39cad960580a14cada9ef64b7/libs/core/include/board.h",
+    "rawUrl": "https://raw.githubusercontent.com/0xkonsti/flakes/main/libs/core/include/board.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6bbed064c40701f75efd0a560857d02e5ce7a0da9c58dd1e5575122501797bb2",
+    "normalizedCodeHash": "6bbed064c40701f75efd0a560857d02e5ce7a0da9c58dd1e5575122501797bb2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T18:32:27.133324+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

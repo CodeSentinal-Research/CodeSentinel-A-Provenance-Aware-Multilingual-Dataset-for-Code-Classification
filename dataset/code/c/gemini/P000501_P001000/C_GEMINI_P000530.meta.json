@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000530",
+  "problemId": "P000530",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000530",
+    "title": "Circular Queue Design",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Design a circular queue of fixed capacity. Support the following operations: enQueue(x) deQueue() Front() Rear() isEmpty() isFull() Process a sequence of operations and print the result for query operations.",
+    "input": "Integer capacity Integer q Next q operations.",
+    "output": "Print the result for every query operation.",
+    "constraints": "1 <= capacity <= 1000 1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000530",
+    "fileSHA": "b3c5a401893371e31f495b22875cdc25a979e6472a2c9d167d36a41d0e5489c6",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:43:26.516794+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b3c5a401893371e31f495b22875cdc25a979e6472a2c9d167d36a41d0e5489c6",
+    "normalizedCodeHash": "b3c5a401893371e31f495b22875cdc25a979e6472a2c9d167d36a41d0e5489c6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:43:26.516820+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001770",
+  "problemId": "P001770",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001770",
+    "title": "Replace Every Node with the Sum of Nodes at the Same Level",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, replace the value of every node with the sum of the values of all other nodes at the same level.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the transformed tree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0024_swap_nodes_in_pairs/swap_nodes.c",
+    "fileSHA": "dea96219d8dddcc77e006e98608077e4d8a6536f",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0024_swap_nodes_in_pairs/swap_nodes.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0024_swap_nodes_in_pairs/swap_nodes.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "42450fc736fa0ee00f92a72e100cc6c121be60f93a205d6443316991b1908cd1",
+    "normalizedCodeHash": "42450fc736fa0ee00f92a72e100cc6c121be60f93a205d6443316991b1908cd1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:45:55.846508+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

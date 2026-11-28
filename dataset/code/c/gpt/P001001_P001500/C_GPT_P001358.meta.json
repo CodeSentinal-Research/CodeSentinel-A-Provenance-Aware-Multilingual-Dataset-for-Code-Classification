@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001358",
+  "problemId": "P001358",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001358",
+    "title": "Generate Generalized Abbreviations",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a word, generate all possible generalized abbreviations by replacing any number of non-adjacent character groups with their counts.",
+    "input": "• First line contains a word.",
+    "output": "Print all generalized abbreviations in lexicographical order.",
+    "constraints": "• 1 ≤ Length ≤ 15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001358.c",
+    "fileSHA": "5ad45f3433d41a5fbd82cc1a9a7fd47204c361c7840579924568e5a36652727c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.046Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "0e9e251f052dabb6fef3836f7b25e626c39a32d775fa99cc80b92c70871e8803",
+    "normalizedCodeHash": "5ad45f3433d41a5fbd82cc1a9a7fd47204c361c7840579924568e5a36652727c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.046Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

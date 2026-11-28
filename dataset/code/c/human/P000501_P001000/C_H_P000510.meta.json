@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P000510",
+  "problemId": "P000510",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000510",
+    "title": "Final Prices With a Special Discount in a Shop",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an array where prices[i] is the price of the i-th item. For each item, find the first item to its right whose price is less than or equal to the current item's price. Use that value as a discount. If no such item exists, no discount is applied. Return the final price of every item after applying the discount.",
+    "input": "Integer n Array prices",
+    "output": "An array representing the final prices.",
+    "constraints": "1 <= n <= 500 1 <= prices[i] <= 1000"
+  },
+  "repository": {
+    "name": "Nivedita967/Data-Structure-and-Algorithms",
+    "owner": "Nivedita967",
+    "url": "https://github.com/Nivedita967/Data-Structure-and-Algorithms",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P000501_P001000/C_H_P000510.c",
+    "fileSHA": "3a5c3d8fe23a0d15fec93e0760fa3ee9839eaefe",
+    "url": "https://github.com/Nivedita967/Data-Structure-and-Algorithms/blob/b9e558371d70254ef143a144b96e5ac48a8d9715/Leetcode/Final Prices With a Special Discount in a Shop/Final Prices With a Special Discount in a Shop.c",
+    "rawUrl": "https://raw.githubusercontent.com/Nivedita967/Data-Structure-and-Algorithms/main/Leetcode/Final Prices With a Special Discount in a Shop/Final Prices With a Special Discount in a Shop.c"
+  },
+  "matching": {
+    "relevanceScore": 56.08
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2021-03-26T17:09:23Z",
+    "lastCommitDate": "2021-03-26T17:09:23Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Amit kumar mishra"
+    ],
+    "firstKnownAuthor": "Amit kumar mishra",
+    "latestKnownAuthor": "Amit kumar mishra"
+  },
+  "deduplication": {
+    "rawCodeHash": "1069fcb1eacdb48508a45a0927f907df89c57a606f831a99aef9875f39440942",
+    "normalizedCodeHash": "1069fcb1eacdb48508a45a0927f907df89c57a606f831a99aef9875f39440942",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:05:27.707384+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

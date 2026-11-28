@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001489",
+  "problemId": "P001489",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001489",
+    "title": "Number of Subsequences That Satisfy the Given Sum Condition",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer Target, count the number of non-empty subsequences such that the sum of the minimum and maximum element in the subsequence is less than or equal to Target.",
+    "input": "\u2022 First line contains integers N and Target. \u2022 Second line contains N integers.",
+    "output": "Print the number of valid subsequences modulo 10^9 + 7.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "sorenhoang/Leetcode",
+    "owner": "sorenhoang",
+    "url": "https://github.com/sorenhoang/Leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Solves/1xxx/14xx/1498.cpp",
+    "fileSHA": "4e5fa1ff05862dcb329e01fe1c27346a4e30b3c9",
+    "url": "https://github.com/sorenhoang/Leetcode/blob/72df1dc49d09fc7ba774eefdd87a6fb03f21bf4e/Solves/1xxx/14xx/1498.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/sorenhoang/Leetcode/main/Solves/1xxx/14xx/1498.cpp"
+  },
+  "matching": {
+    "relevanceScore": 81.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d0b517bf5b82168570762d541196d36f4974ac37ec88c058e3183fc8d8027ad8",
+    "normalizedCodeHash": "d0b517bf5b82168570762d541196d36f4974ac37ec88c058e3183fc8d8027ad8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T17:14:39.179115+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

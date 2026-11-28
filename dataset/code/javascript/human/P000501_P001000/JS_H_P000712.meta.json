@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000712",
+  "problemId": "P000712",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000712",
+    "title": "Combination Sum",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of distinct positive integers and a target value, return all unique combinations where the chosen numbers sum to the target. A number may be chosen multiple times. Print the combinations in lexicographical order.",
+    "input": "Integer n Array candidates Integer target",
+    "output": "All valid combinations.",
+    "constraints": "1 <= n <= 30 1 <= candidates[i] <= 40 1 <= target <= 500"
+  },
+  "repository": {
+    "name": "trekhleb/javascript-algorithms",
+    "owner": "trekhleb",
+    "url": "https://github.com/trekhleb/javascript-algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/algorithms/sets/combination-sum/__test__/combinationSum.test.js",
+    "fileSHA": "7b196bf2a2afcc790b6c02c30b4b05658bc12207",
+    "url": "https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/sets/combination-sum/__test__/combinationSum.test.js",
+    "rawUrl": "https://raw.githubusercontent.com/trekhleb/javascript-algorithms/master/src/algorithms/sets/combination-sum/__test__/combinationSum.test.js"
+  },
+  "matching": {
+    "relevanceScore": 70.0
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ec11b1367a7e519d1bcbf7c6865d3fecd6d84a3e06a81978d959bd225f489de3",
+    "normalizedCodeHash": "ec11b1367a7e519d1bcbf7c6865d3fecd6d84a3e06a81978d959bd225f489de3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:45:21.676418+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001191",
+  "problemId": "P001191",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001191",
+    "title": "Best Time to Buy and Sell Stock with Transaction Fee",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given the daily prices of a stock and a transaction fee, determine the maximum profit obtainable by performing any number of buy-sell transactions. Every completed transaction incurs the given fee.",
+    "input": "• First line contains integers N and Fee. • Second line contains N integers representing stock prices.",
+    "output": "Print the maximum achievable profit.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5 • 0 ≤ Fee ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001191.c",
+    "fileSHA": "fc331e56e7413d04c23815c8f9255d966a7a14366bb8a8e5ffaa056854af37a8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.231Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "5e845b26f59f69d83f6f0236346caffba7cc1ca54a339133eb3a105406e58957",
+    "normalizedCodeHash": "fc331e56e7413d04c23815c8f9255d966a7a14366bb8a8e5ffaa056854af37a8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.231Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000941",
+  "problemId": "P000941",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000941",
+    "title": "Standard Nim Game",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Easy",
+    "problemStatement": "Given multiple piles of stones, players may remove any positive number of stones from a single pile during each turn. Determine whether the first player has a winning strategy.",
+    "input": "Integer N Array piles",
+    "output": "Print \"First\" if the first player wins; otherwise, print \"Second\".",
+    "constraints": "1 <= N <= 2 \u00d7 10^5 1 <= piles[i] <= 10^9"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/maths/StandardScore.java",
+    "fileSHA": "22a9f550e114076d1fc59a435c32432cf04205ed",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/maths/StandardScore.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/maths/StandardScore.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6d78dbc7b583869155e0eb13310822b4344f701b5ee8a613f6ee92e0fb5001bf",
+    "normalizedCodeHash": "6d78dbc7b583869155e0eb13310822b4344f701b5ee8a613f6ee92e0fb5001bf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:12.872265+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

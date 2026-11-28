@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000603",
+  "problemId": "P000603",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000603",
+    "title": "Partition Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a linked list and an integer x, partition the list so that all nodes with values less than x come before nodes with values greater than or equal to x. The original relative order of nodes in each partition must be preserved. Return the head of the partitioned linked list.",
+    "input": "Integer n Linked list Integer x",
+    "output": "The partitioned linked list.",
+    "constraints": "0 <= n <= 200 -100 <= node.value <= 100"
+  },
+  "repository": {
+    "name": "keon/algorithms",
+    "owner": "keon",
+    "url": "https://github.com/keon/algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/linkedlist/partition.py",
+    "fileSHA": "8078f33214e16d5c6e9a9e46c2c0b87c2df5bab5",
+    "url": "https://github.com/keon/algorithms/blob/master/algorithms/linkedlist/partition.py",
+    "rawUrl": "https://raw.githubusercontent.com/keon/algorithms/master/algorithms/linkedlist/partition.py"
+  },
+  "matching": {
+    "relevanceScore": 93.18
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ad910af1fdb75941e039b277306652ab63a455c7149a0849f7afe36382003fb3",
+    "normalizedCodeHash": "ad910af1fdb75941e039b277306652ab63a455c7149a0849f7afe36382003fb3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T01:56:09.460522+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

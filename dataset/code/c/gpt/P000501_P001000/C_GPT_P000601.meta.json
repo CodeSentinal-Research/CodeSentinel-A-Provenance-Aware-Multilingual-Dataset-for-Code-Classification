@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000601",
+  "problemId": "P000601",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000601",
+    "title": "Split Linked List into Parts",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a singly linked list and an integer k, split the linked list into k consecutive parts. The sizes of the parts should differ by at most one node, and earlier parts should not be smaller than later parts. Return the heads of the k parts.",
+    "input": "Integer n Linked list Integer k",
+    "output": "The k linked list parts.",
+    "constraints": "0 <= n <= 1000 1 <= k <= 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000601.c",
+    "fileSHA": "39a7b467eac6f97ba8a9ecf5a4d7a8d40becfc04ee7bb2dd0c493cb458f8d716",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "39a7b467eac6f97ba8a9ecf5a4d7a8d40becfc04ee7bb2dd0c493cb458f8d716",
+    "normalizedCodeHash": "39a7b467eac6f97ba8a9ecf5a4d7a8d40becfc04ee7bb2dd0c493cb458f8d716",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001095",
+  "problemId": "P001095",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001095",
+    "title": "Maximum Flow",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a directed graph with capacities assigned to each edge, determine the maximum possible flow from a source vertex S to a sink vertex T.",
+    "input": "\u2022 First line contains integers N, M, S, and T. \u2022 Next M lines contain integers u, v, and capacity.",
+    "output": "Print the maximum flow.",
+    "constraints": "\u2022 2 \u2264 N \u2264 500 \u2022 1 \u2264 M \u2264 10^4"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/graph_algorithms/src/ford_fulkerson_maximum_flow/ford_fulkerson_maximum_flow_using_bfs.java",
+    "fileSHA": "3a25b45249762b0f156c329ba6afb86f2a317719",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/graph_algorithms/src/ford_fulkerson_maximum_flow/ford_fulkerson_maximum_flow_using_bfs.java",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/graph_algorithms/src/ford_fulkerson_maximum_flow/ford_fulkerson_maximum_flow_using_bfs.java"
+  },
+  "matching": {
+    "relevanceScore": 85.83
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ebb15524bbb6bcfe516afd1701ff974f7124a129ba3181f84799ecb910c69695",
+    "normalizedCodeHash": "ebb15524bbb6bcfe516afd1701ff974f7124a129ba3181f84799ecb910c69695",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:14:17.923499+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

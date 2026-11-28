@@ -1,0 +1,75 @@
+{
+  "solutionId": "PY_H_P000544",
+  "problemId": "P000544",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000544",
+    "title": "Open the Lock",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You have a lock with four circular wheels, each displaying a digit from 0 to 9. Initially, the lock displays \"0000\". In one move, you may rotate any one wheel one position forward or backward. Some combinations are deadends. If the lock reaches a deadend, it can no longer be used. Given the list of deadends and a target combination, determine the minimum number of moves required to reach the target. Return -1 if it is impossible.",
+    "input": "Integer d Array of deadend strings Target string",
+    "output": "A single integer.",
+    "constraints": "1 <= d <= 500 Every combination has exactly four digits."
+  },
+  "repository": {
+    "name": "UdayKiranPadhy/DS-And-Algo",
+    "owner": "UdayKiranPadhy",
+    "url": "https://github.com/UdayKiranPadhy/DS-And-Algo",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000544.py",
+    "fileSHA": "cd86ac03e24400194d5f2787f47dea2cb89d70c9",
+    "url": "https://github.com/UdayKiranPadhy/DS-And-Algo/blob/14b1044d4d68ddab444880c523e03e4944188a4b/Data Structures/Graphs/10-Open Lock.py",
+    "rawUrl": "https://raw.githubusercontent.com/UdayKiranPadhy/DS-And-Algo/main/Data Structures/Graphs/10-Open Lock.py"
+  },
+  "matching": {
+    "relevanceScore": 84.77
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2021-06-20T05:53:00Z",
+    "lastCommitDate": "2024-03-27T21:14:13Z",
+    "commitCount": 2,
+    "authorCount": 2,
+    "authors": [
+      "Uday Kiran Padhy",
+      "Uday Kiran"
+    ],
+    "firstKnownAuthor": "Uday Kiran",
+    "latestKnownAuthor": "Uday Kiran Padhy"
+  },
+  "deduplication": {
+    "rawCodeHash": "90818041b0992324db45b765ecb95cc2612fb77976824c80791f292f9eea024a",
+    "normalizedCodeHash": "90818041b0992324db45b765ecb95cc2612fb77976824c80791f292f9eea024a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:17:36.430657+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

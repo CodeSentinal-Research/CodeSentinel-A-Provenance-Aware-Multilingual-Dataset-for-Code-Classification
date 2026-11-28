@@ -1,0 +1,1 @@
+const s=require("fs").readFileSync("/dev/stdin","utf8").trim();const pos={};let l=0,best=0;for(let r=0;r<s.length;r++){if(pos[s[r]]>=l)l=pos[s[r]]+1;pos[s[r]]=r;best=Math.max(best,r-l+1);}console.log(best);

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000614",
+  "problemId": "P000614",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000614",
+    "title": "Swap Kth Node from Beginning with Kth Node from End",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list and an integer k, swap the values of the k-th node from the beginning and the k-th node from the end. Return the modified linked list.",
+    "input": "Integer n Linked list Integer k",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000614.c",
+    "fileSHA": "df9b2421f0c77f86215f459e6ae8744831bbc5673f270ac7bc2b6f8e41ab833a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "df9b2421f0c77f86215f459e6ae8744831bbc5673f270ac7bc2b6f8e41ab833a",
+    "normalizedCodeHash": "df9b2421f0c77f86215f459e6ae8744831bbc5673f270ac7bc2b6f8e41ab833a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

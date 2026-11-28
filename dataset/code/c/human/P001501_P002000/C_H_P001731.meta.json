@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001731",
+  "problemId": "P001731",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001731",
+    "title": "Convert a Binary Tree into a Threaded Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, convert it into an inorder threaded binary tree by replacing every null right pointer with a thread to its inorder successor.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the threaded binary tree in the required format.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "cheebinhoh/Coding",
+    "owner": "cheebinhoh",
+    "url": "https://github.com/cheebinhoh/Coding",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "btree.h",
+    "fileSHA": "66893dc8497455c5f5b8a4f78cd202bf4152054d",
+    "url": "https://github.com/cheebinhoh/Coding/blob/16127c3a9fd5d93f04372fff39f8822fdf9ddf12/btree.h",
+    "rawUrl": "https://raw.githubusercontent.com/cheebinhoh/Coding/main/btree.h"
+  },
+  "matching": {
+    "relevanceScore": 69.17
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "96b29308ff1010725bf55630da75831ba3f7791a1f04d0872fce3565ad130d5c",
+    "normalizedCodeHash": "96b29308ff1010725bf55630da75831ba3f7791a1f04d0872fce3565ad130d5c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:35:37.635416+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

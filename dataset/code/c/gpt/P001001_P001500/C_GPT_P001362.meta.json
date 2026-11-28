@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001362",
+  "problemId": "P001362",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001362",
+    "title": "Can Partition into K Palindromes",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string and an integer K, determine whether all characters can be partitioned into exactly K non-empty palindrome strings.",
+    "input": "• First line contains the string. • Second line contains integer K.",
+    "output": "Print YES if possible; otherwise print NO.",
+    "constraints": "• 1 ≤ Length ≤ 10^5 • 1 ≤ K ≤ Length"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001362.c",
+    "fileSHA": "5f82ea811d632288c7637ec7bfc369de484aa8eabe05bc60af096c541021b434",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.070Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "e8de9fce9e8cf8e0eeb49305d0fe90f7aac7d1995a0a4b931a3dc4641edc4f80",
+    "normalizedCodeHash": "5f82ea811d632288c7637ec7bfc369de484aa8eabe05bc60af096c541021b434",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.070Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

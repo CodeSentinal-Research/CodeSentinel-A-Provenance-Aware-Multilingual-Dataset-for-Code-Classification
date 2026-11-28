@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000603",
+  "problemId": "P000603",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000603",
+    "title": "Partition Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a linked list and an integer x, partition the list so that all nodes with values less than x come before nodes with values greater than or equal to x. The original relative order of nodes in each partition must be preserved. Return the head of the partitioned linked list.",
+    "input": "Integer n Linked list Integer x",
+    "output": "The partitioned linked list.",
+    "constraints": "0 <= n <= 200 -100 <= node.value <= 100"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/languages/c/linear_search/linear_search_linked_list.c",
+    "fileSHA": "ea8d500881c457dfb71aacb520b55a26e8acacc9",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/languages/c/linear_search/linear_search_linked_list.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/languages/c/linear_search/linear_search_linked_list.c"
+  },
+  "matching": {
+    "relevanceScore": 61.29
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "50a3029750195270c3c9a709a62584406f8016c1f7ff90634115cf83adef3141",
+    "normalizedCodeHash": "50a3029750195270c3c9a709a62584406f8016c1f7ff90634115cf83adef3141",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:13:52.360982+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

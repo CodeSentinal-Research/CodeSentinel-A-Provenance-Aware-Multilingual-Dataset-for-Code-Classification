@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000531",
+  "problemId": "P000531",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000531",
+    "title": "Number of Recent Calls",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Design a class RecentCounter that counts the number of requests received in the last 3000 milliseconds. For each incoming request at time t, return the number of requests that occurred in the inclusive range [t - 3000, t]. Process all requests in chronological order.",
+    "input": "Integer n n increasing timestamps.",
+    "output": "Print the number of recent requests after each timestamp.",
+    "constraints": "1 <= n <= 10^5 1 <= t <= 10^9 Timestamps are strictly increasing."
+  },
+  "repository": {
+    "name": "priyanshi1399/DSAPractice",
+    "owner": "priyanshi1399",
+    "url": "https://github.com/priyanshi1399/DSAPractice",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "RecentCalls.java",
+    "fileSHA": "6c68c10083588abb91a9b5653650e8b222699e01",
+    "url": "https://github.com/priyanshi1399/DSAPractice/blob/789b44e6903c96a0dce6f98dc3959adef85336e2/RecentCalls.java",
+    "rawUrl": "https://raw.githubusercontent.com/priyanshi1399/DSAPractice/main/RecentCalls.java"
+  },
+  "matching": {
+    "relevanceScore": 78.57
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "074540f3dfefb3681a8554cc315bde01041b487809875547628eb5822588fc6f",
+    "normalizedCodeHash": "074540f3dfefb3681a8554cc315bde01041b487809875547628eb5822588fc6f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:36:53.249277+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

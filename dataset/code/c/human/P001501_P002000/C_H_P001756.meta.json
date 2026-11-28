@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001756",
+  "problemId": "P001756",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001756",
+    "title": "Check Whether Every Leaf Has a Sibling",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given a binary tree, determine whether every leaf node has a sibling.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print YES if every leaf has a sibling; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "pvachon/wavl_tree",
+    "owner": "pvachon",
+    "url": "https://github.com/pvachon/wavl_tree",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "wavltree_test.c",
+    "fileSHA": "cd12bc193eaba53048c62754946a3bf3de566073",
+    "url": "https://github.com/pvachon/wavl_tree/blob/32eeff3d0484321515977f80972992157639af21/wavltree_test.c",
+    "rawUrl": "https://raw.githubusercontent.com/pvachon/wavl_tree/main/wavltree_test.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "70c5e974b0cfab4145656b04aee98a25e185afd10ea0157bef1357560d7294ba",
+    "normalizedCodeHash": "70c5e974b0cfab4145656b04aee98a25e185afd10ea0157bef1357560d7294ba",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T18:48:46.361896+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

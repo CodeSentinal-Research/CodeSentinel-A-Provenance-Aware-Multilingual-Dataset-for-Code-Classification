@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001350",
+  "problemId": "P001350",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001350",
+    "title": "K-th Lexicographical Happy String",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "A happy string consists only of the characters 'a', 'b', and 'c', with no two adjacent characters being equal. Given integers N and K, determine the K-th lexicographically smallest happy string of length N. If fewer than K happy strings exist, print an empty string.",
+    "input": "• First line contains integers N and K.",
+    "output": "Print the required happy string.",
+    "constraints": "• 1 ≤ N ≤ 10 • 1 ≤ K ≤ 3 × 2^(N−1)"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001350.js",
+    "fileSHA": "af101137238fda73ebdc7070ec086eecb13af15692da3e5034ee3bdb5a396014",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T10:11:26.401164+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "af101137238fda73ebdc7070ec086eecb13af15692da3e5034ee3bdb5a396014",
+    "normalizedCodeHash": "af101137238fda73ebdc7070ec086eecb13af15692da3e5034ee3bdb5a396014",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T10:11:26.401164+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

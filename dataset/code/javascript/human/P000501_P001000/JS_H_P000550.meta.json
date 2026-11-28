@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000550",
+  "problemId": "P000550",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000550",
+    "title": "Circular Tour",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "There are n petrol pumps arranged in a circle. Each petrol pump provides a certain amount of petrol and requires a certain amount of petrol to travel to the next pump. Determine the first petrol pump from which a truck can complete the entire circular tour. If no such starting point exists, return -1.",
+    "input": "Integer n Array petrol Array distance",
+    "output": "The starting pump index, or -1 if impossible.",
+    "constraints": "1 <= n <= 10^5 0 <= petrol[i], distance[i] <= 10^9"
+  },
+  "repository": {
+    "name": "SoumyaDey1994/DSA",
+    "owner": "SoumyaDey1994",
+    "url": "https://github.com/SoumyaDey1994/DSA",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Round13/gasStation.js",
+    "fileSHA": "544f3a8596468fce76641114b4899095d585082f",
+    "url": "https://github.com/SoumyaDey1994/DSA/blob/8731f61e49ba5fd3706702dbe3109395e2213a1e/Round13/gasStation.js",
+    "rawUrl": "https://raw.githubusercontent.com/SoumyaDey1994/DSA/main/Round13/gasStation.js"
+  },
+  "matching": {
+    "relevanceScore": 63.21
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "03a9748738560f5fb3dff9c9a010d48058487202a546cf13ea9ab8b7cd7bfc14",
+    "normalizedCodeHash": "03a9748738560f5fb3dff9c9a010d48058487202a546cf13ea9ab8b7cd7bfc14",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:36:52.623131+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

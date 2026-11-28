@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000508",
+  "problemId": "P000508",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000508",
+    "title": "Number of Visible People in a Queue",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "There are n people standing in a queue, each having a distinct height. For every person, determine how many people to their right are visible. A person j is visible to person i if: j > i Every person between i and j has a height smaller than both person i and person j. Return an array where the i-th element is the number of people visible to the right of person i.",
+    "input": "Integer n Array heights",
+    "output": "An array of n integers.",
+    "constraints": "1 <= n <= 10^5 1 <= heights[i] <= 10^5 All heights are distinct."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000508",
+    "fileSHA": "908a776aedb415f4378b436af503c97adb50c981cda7f7f370a373ce085fed02",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "908a776aedb415f4378b436af503c97adb50c981cda7f7f370a373ce085fed02",
+    "normalizedCodeHash": "908a776aedb415f4378b436af503c97adb50c981cda7f7f370a373ce085fed02",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000508: Number of Visible People in a Queue"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

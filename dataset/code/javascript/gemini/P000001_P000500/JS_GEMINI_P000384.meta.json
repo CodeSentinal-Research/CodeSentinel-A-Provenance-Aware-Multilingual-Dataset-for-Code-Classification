@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000384",
+  "problemId": "P000384",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000384",
+    "title": "Search Invoice by Invoice Number",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find an invoice using its invoice number.",
+    "input": "Invoice records and an invoice number.",
+    "output": "Invoice details or \"Invoice Not Found\".",
+    "constraints": "1 \u2264 Number of Invoices \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "javascript/gemini/JS_GEMINI_P000384",
+    "fileSHA": "e113b10f9170e8b106458a237091a098fc193a059e4155236d74aace393311b9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:33:55.846479+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e113b10f9170e8b106458a237091a098fc193a059e4155236d74aace393311b9",
+    "normalizedCodeHash": "e113b10f9170e8b106458a237091a098fc193a059e4155236d74aace393311b9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:33:55.846508+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

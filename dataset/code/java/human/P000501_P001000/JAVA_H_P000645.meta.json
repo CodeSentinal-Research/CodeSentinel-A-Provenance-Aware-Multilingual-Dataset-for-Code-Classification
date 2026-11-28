@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000645",
+  "problemId": "P000645",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000645",
+    "title": "Reverse Doubly Linked List in Pairs",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a doubly linked list, reverse every adjacent pair of nodes by modifying only the links. If the list contains an odd number of nodes, leave the last node unchanged. Return the head of the modified doubly linked list.",
+    "input": "Integer n Doubly linked list",
+    "output": "The modified doubly linked list.",
+    "constraints": "0 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/data_structures/src/list/doubly_linked_list/doubly_linked_list.java",
+    "fileSHA": "dc4f68d6c1b1e8ba1c6023ac2491c73486237a4c",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/data_structures/src/list/doubly_linked_list/doubly_linked_list.java",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/data_structures/src/list/doubly_linked_list/doubly_linked_list.java"
+  },
+  "matching": {
+    "relevanceScore": 72.42
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "42584aef5a8e54f0194ac2ec42f62c363f721db8cbd17e81bba68c81e179842d",
+    "normalizedCodeHash": "42584aef5a8e54f0194ac2ec42f62c363f721db8cbd17e81bba68c81e179842d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:13:55.418553+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

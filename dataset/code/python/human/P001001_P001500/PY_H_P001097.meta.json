@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001097",
+  "problemId": "P001097",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001097",
+    "title": "Union-Find Operations",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "You are given N initially disconnected vertices and Q operations. Each operation is either: \u2022 UNION u v: Merge the sets containing vertices u and v. \u2022 FIND u v: Determine whether u and v belong to the same connected component. Process all operations.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Next Q lines each contain an operation.",
+    "output": "For every FIND operation, print YES if both vertices belong to the same set; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "paiml/depyler",
+    "owner": "paiml",
+    "url": "https://github.com/paiml/depyler",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "examples/hard_ds_disjoint_set.py",
+    "fileSHA": "dd81df866ae9dba3a92738cbb49b05f74e601fc2",
+    "url": "https://github.com/paiml/depyler/blob/5d664cda8d54d52c0810a485dd93bbf747054ba8/examples/hard_ds_disjoint_set.py",
+    "rawUrl": "https://raw.githubusercontent.com/paiml/depyler/main/examples/hard_ds_disjoint_set.py"
+  },
+  "matching": {
+    "relevanceScore": 61.32
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ce77b4f1f3fecaca72869dceeb416b31f7248370a7d5e71f0a86b77a8702c770",
+    "normalizedCodeHash": "ce77b4f1f3fecaca72869dceeb416b31f7248370a7d5e71f0a86b77a8702c770",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:41:55.299848+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

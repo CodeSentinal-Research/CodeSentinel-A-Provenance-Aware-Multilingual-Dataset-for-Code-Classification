@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001094",
+  "problemId": "P001094",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001094",
+    "title": "Maximum Bipartite Matching",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a bipartite graph with left and right partitions, determine the maximum number of matched vertex pairs such that no vertex belongs to more than one pair.",
+    "input": "\u2022 First line contains integers L, R, and M. \u2022 Next M lines contain edges between the left and right partitions.",
+    "output": "Print the size of the maximum matching.",
+    "constraints": "\u2022 1 \u2264 L, R \u2264 2000 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/graph_algorithms/src/kuhn_maximum_matching/kuhn_maximum_matching.cpp",
+    "fileSHA": "09c6a397a3ebb60d545c9b8d35e1a5d5bd00a0b8",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/graph_algorithms/src/kuhn_maximum_matching/kuhn_maximum_matching.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/graph_algorithms/src/kuhn_maximum_matching/kuhn_maximum_matching.cpp"
+  },
+  "matching": {
+    "relevanceScore": 62.44
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a3dd0fcfde366fa5bbad08add13caf44ea0ba4d7a8ad0d93203c8c6afc797728",
+    "normalizedCodeHash": "a3dd0fcfde366fa5bbad08add13caf44ea0ba4d7a8ad0d93203c8c6afc797728",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:14:17.515303+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

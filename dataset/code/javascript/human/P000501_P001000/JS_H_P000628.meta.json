@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000628",
+  "problemId": "P000628",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000628",
+    "title": "Text Editor Using Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a text editor supporting the following operations: addText(text) \u2014 Insert text at the cursor position. deleteText(k) \u2014 Delete up to k characters to the left of the cursor. cursorLeft(k) \u2014 Move the cursor left by at most k positions and return up to the last 10 characters to the left of the cursor. cursorRight(k) \u2014 Move the cursor right by at most k positions and return up to the last 10 characters to the left of the cursor. Process a sequence of operations and print the results for query operations.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result of every deleteText(), cursorLeft(), and cursorRight() operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5 Total length of inserted text does not exceed 2 \u00d7 10^6"
+  },
+  "repository": {
+    "name": "NagaPravallika05/Pravallika-developer-portfolio",
+    "owner": "NagaPravallika05",
+    "url": "https://github.com/NagaPravallika05/Pravallika-developer-portfolio",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "admin.js",
+    "fileSHA": "1307f189c93f5ae37dad6740626aa5e765dd2bba",
+    "url": "https://github.com/NagaPravallika05/Pravallika-developer-portfolio/blob/e39abbb74379add01830d39b19c1b977205df682/admin.js",
+    "rawUrl": "https://raw.githubusercontent.com/NagaPravallika05/Pravallika-developer-portfolio/main/admin.js"
+  },
+  "matching": {
+    "relevanceScore": 61.81
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "160cbebf6e788d304158e8667fcaaf69f1a70d8fe13405f4e9a4ce3b3a5eacb5",
+    "normalizedCodeHash": "160cbebf6e788d304158e8667fcaaf69f1a70d8fe13405f4e9a4ce3b3a5eacb5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T14:42:21.511320+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

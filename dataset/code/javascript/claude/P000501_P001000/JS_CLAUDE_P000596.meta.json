@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000596",
+  "problemId": "P000596",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000596",
+    "title": "Sort Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list, sort the list in ascending order and return its head. The solution should achieve O(n log n) time complexity.",
+    "input": "Integer n Linked list",
+    "output": "The sorted linked list.",
+    "constraints": "0 <= n <= 5 × 10^4 -10^5 <= node.value <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000596",
+    "fileSHA": "72961dfa179f6133d78dfb80cc15384c797779a1fdda228ff6d8f948268da46d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "72961dfa179f6133d78dfb80cc15384c797779a1fdda228ff6d8f948268da46d",
+    "normalizedCodeHash": "72961dfa179f6133d78dfb80cc15384c797779a1fdda228ff6d8f948268da46d",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000596: Sort Linked List"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

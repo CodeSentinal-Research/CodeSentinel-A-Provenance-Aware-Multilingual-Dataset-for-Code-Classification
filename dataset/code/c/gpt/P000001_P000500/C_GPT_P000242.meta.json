@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000242",
+  "problemId": "P000242",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000242",
+    "title": "Count Zeros in a Sorted Matrix",
+    "category": "Arrays",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that counts the number of zeros in a matrix where each row is sorted.",
+    "input": "First line contains N. Next N lines contain the N x N matrix.",
+    "output": "Number of zeros.",
+    "constraints": "1 ≤ N ≤ 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000242.c",
+    "fileSHA": "9986047ae3018c135e0c3cca6a80d235eccf3e6ae24f928e48288eb6209b3378",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9986047ae3018c135e0c3cca6a80d235eccf3e6ae24f928e48288eb6209b3378",
+    "normalizedCodeHash": "9986047ae3018c135e0c3cca6a80d235eccf3e6ae24f928e48288eb6209b3378",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

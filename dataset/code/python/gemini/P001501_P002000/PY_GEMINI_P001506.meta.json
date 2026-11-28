@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001506",
+  "problemId": "P001506",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001506",
+    "title": "Minimum Window Subsequence",
+    "category": "Two Pointers",
+    "difficulty": "Hard",
+    "problemStatement": "Given two strings S and T, determine the shortest substring of S in which T appears as a subsequence.",
+    "input": "\u2022 First line contains string S. \u2022 Second line contains string T.",
+    "output": "Print the shortest valid substring. If none exists, print an empty string.",
+    "constraints": "\u2022 1 \u2264 Length of S, T \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001506",
+    "fileSHA": "bbdb3535310aba9b050ac8620c161f36d85d03c639301417bc0106f2e1a4bd42",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:28:45.275964+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "bbdb3535310aba9b050ac8620c161f36d85d03c639301417bc0106f2e1a4bd42",
+    "normalizedCodeHash": "bbdb3535310aba9b050ac8620c161f36d85d03c639301417bc0106f2e1a4bd42",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:28:45.275987+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

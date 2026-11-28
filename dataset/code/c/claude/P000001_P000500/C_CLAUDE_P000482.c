@@ -1,0 +1,2 @@
+#include<stdio.h>
+int main(){int n;scanf("%d",&n);int nums1[n];for(int i=0;i<n;i++)scanf("%d",&nums1[i]);int m;scanf("%d",&m);int nums2[m],stk[m],top=0;int nxt[10001];for(int i=0;i<m;i++)scanf("%d",&nums2[i]);for(int i=0;i<=10000;i++)nxt[i]=-1;for(int i=0;i<m;i++){while(top>0&&stk[top-1]<nums2[i]){nxt[stk[--top]]=nums2[i];}stk[top++]=nums2[i];}for(int i=0;i<n;i++)printf("%d%c",nxt[nums1[i]],i<n-1?' ':'\n');}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000629",
+  "problemId": "P000629",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000629",
+    "title": "Delete Every Kth Node in Linked List",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a singly linked list and an integer k, delete every k-th node from the linked list. If k is 1, the resulting linked list is empty. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer k",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000629.c",
+    "fileSHA": "a5c053ab635a8c55222ac8ff20bdbb92d7fe564ba668440c8e892c004714566d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a5c053ab635a8c55222ac8ff20bdbb92d7fe564ba668440c8e892c004714566d",
+    "normalizedCodeHash": "a5c053ab635a8c55222ac8ff20bdbb92d7fe564ba668440c8e892c004714566d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000606",
+  "problemId": "P000606",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000606",
+    "title": "LRU Cache",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design and implement an LRU (Least Recently Used) cache that supports the following operations in O(1) average time: get(key) put(key, value) If the cache reaches its capacity, evict the least recently used item before inserting a new one. Process a sequence of operations and print the result of every get() operation.",
+    "input": "Integer capacity Integer q Next q operations",
+    "output": "Print the result of every get() operation.",
+    "constraints": "1 <= capacity <= 3000 1 <= q <= 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000606.c",
+    "fileSHA": "85bf856edc1504731240c574d513a4eefc19832cc8f3be7a9a5013db306397d2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "85bf856edc1504731240c574d513a4eefc19832cc8f3be7a9a5013db306397d2",
+    "normalizedCodeHash": "85bf856edc1504731240c574d513a4eefc19832cc8f3be7a9a5013db306397d2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

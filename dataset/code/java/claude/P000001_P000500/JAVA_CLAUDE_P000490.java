@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{static String proc(String s){Deque<Character>stk=new ArrayDeque<>();for(char c:s.toCharArray()){if(c=='#'){if(!stk.isEmpty())stk.pop();}else stk.push(c);}StringBuilder sb=new StringBuilder();for(char c:stk)sb.append(c);return sb.reverse().toString();}public static void main(String[]a){Scanner sc=new Scanner(System.in);String s=sc.next(),t=sc.next();System.out.println(proc(s).equals(proc(t))?"true":"false");}}

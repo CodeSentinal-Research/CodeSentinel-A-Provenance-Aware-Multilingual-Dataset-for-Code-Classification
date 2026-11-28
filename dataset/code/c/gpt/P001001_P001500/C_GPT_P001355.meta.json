@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001355",
+  "problemId": "P001355",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001355",
+    "title": "Construct Distanced Sequence",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Construct a sequence of length 2N−1 using the integers 1 to N such that: • Integer 1 appears exactly once. • Every integer 2...N appears exactly twice. • The two occurrences of integer i are exactly i positions apart. Return the lexicographically largest valid sequence.",
+    "input": "• First line contains integer N.",
+    "output": "Print the required sequence.",
+    "constraints": "• 1 ≤ N ≤ 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001355.c",
+    "fileSHA": "48b622975db1e7a0f43b410c15cca811f71b0a16a0dae99e595d4d63241fb382",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.025Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "873448ae1fe47ab2d51b7576a18a6571c347295ffc2945ecbff93196f5372e39",
+    "normalizedCodeHash": "48b622975db1e7a0f43b410c15cca811f71b0a16a0dae99e595d4d63241fb382",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.025Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

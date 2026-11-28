@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000927",
+  "problemId": "P000927",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000927",
+    "title": "Convert Between Arbitrary Bases",
+    "category": "Mathematics - Base Conversion",
+    "difficulty": "Medium",
+    "problemStatement": "Given a number represented as a string in base A, convert it to its representation in base B. Bases range from 2 to 36, where digits beyond 9 are represented using uppercase English letters.",
+    "input": "String number Integer A Integer B",
+    "output": "The representation of the number in base B.",
+    "constraints": "2 <= A, B <= 36 1 <= |number| <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000927",
+    "fileSHA": "535cf3b158449e63bf1f0584639e59995a8442080f9e139aedd3e47a90b7c3c4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "535cf3b158449e63bf1f0584639e59995a8442080f9e139aedd3e47a90b7c3c4",
+    "normalizedCodeHash": "535cf3b158449e63bf1f0584639e59995a8442080f9e139aedd3e47a90b7c3c4",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique P000927: Convert Between Arbitrary Bases"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

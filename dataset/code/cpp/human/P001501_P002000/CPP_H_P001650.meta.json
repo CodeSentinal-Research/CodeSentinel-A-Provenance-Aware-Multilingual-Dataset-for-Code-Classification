@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001650",
+  "problemId": "P001650",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001650",
+    "title": "Construct a Binary Tree from Inorder and Postorder Traversals",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the inorder traversal and postorder traversal of a binary tree containing unique values, reconstruct the original binary tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the inorder traversal. \u2022 The third line contains the postorder traversal.",
+    "output": "\u2022 Print the reconstructed tree in the required traversal format.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5 \u2022 All node values are unique.________________________________________"
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/cpp/constructBinaryTreeFromInorderAndPostorderTraversal/constructBinaryTreeFromInorderAndPostorderTraversal.cpp",
+    "fileSHA": "9beddad8e0b6c3450833418538528b2cbd5d2f8a",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/cpp/constructBinaryTreeFromInorderAndPostorderTraversal/constructBinaryTreeFromInorderAndPostorderTraversal.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/cpp/constructBinaryTreeFromInorderAndPostorderTraversal/constructBinaryTreeFromInorderAndPostorderTraversal.cpp"
+  },
+  "matching": {
+    "relevanceScore": 70.83
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "202aba8c878959a175ce92daed2979ac70c7d7b370350ab7b8ddad2c20242bd8",
+    "normalizedCodeHash": "202aba8c878959a175ce92daed2979ac70c7d7b370350ab7b8ddad2c20242bd8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:50:21.799813+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

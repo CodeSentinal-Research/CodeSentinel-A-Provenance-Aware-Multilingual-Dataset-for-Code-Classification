@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000821",
+  "problemId": "P000821",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000821",
+    "title": "Single Element in a Sorted Array",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given a sorted array where every element appears exactly twice except for one element that appears only once, find that single element. Your solution must run in O(log n) time and O(1) space.",
+    "input": "Integer n Sorted array nums",
+    "output": "The single element.",
+    "constraints": "1 <= n <= 10^5 n is odd."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000821",
+    "fileSHA": "84257374b63d0e5d00271a2d4b61e68556dba552912c530732fd17d97cc0bcb5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "84257374b63d0e5d00271a2d4b61e68556dba552912c530732fd17d97cc0bcb5",
+    "normalizedCodeHash": "84257374b63d0e5d00271a2d4b61e68556dba552912c530732fd17d97cc0bcb5",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000821"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P000565",
+  "problemId": "P000565",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000565",
+    "title": "Matrix Cells in Distance Order",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given the dimensions of a matrix and the coordinates of a starting cell, return all matrix cells ordered by their Manhattan distance from the starting cell. If multiple cells have the same distance, they may appear in any order.",
+    "input": "Integers rows and cols Integers rCenter and cCenter",
+    "output": "A list of all cell coordinates ordered by increasing Manhattan distance.",
+    "constraints": "1 <= rows, cols <= 100"
+  },
+  "repository": {
+    "name": "jzman353/Leetcode",
+    "owner": "jzman353",
+    "url": "https://github.com/jzman353/Leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000565.py",
+    "fileSHA": "512e17a21a44248f24650bcfa8de694bc9241361",
+    "url": "https://github.com/jzman353/Leetcode/blob/59c6952cf08740aff228e66bc96d00fda4fc5a4f/Array/2D/Matrix Cells in Distance Order.py",
+    "rawUrl": "https://raw.githubusercontent.com/jzman353/Leetcode/main/Array/2D/Matrix Cells in Distance Order.py"
+  },
+  "matching": {
+    "relevanceScore": 74.51
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2021-09-27T23:16:34Z",
+    "lastCommitDate": "2021-09-27T23:16:34Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "jzman353"
+    ],
+    "firstKnownAuthor": "jzman353",
+    "latestKnownAuthor": "jzman353"
+  },
+  "deduplication": {
+    "rawCodeHash": "fc47d2694515ac2a1e417d8cdc598fde4eab2794a092117910b977d2d568bfac",
+    "normalizedCodeHash": "fc47d2694515ac2a1e417d8cdc598fde4eab2794a092117910b977d2d568bfac",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:25:44.804505+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

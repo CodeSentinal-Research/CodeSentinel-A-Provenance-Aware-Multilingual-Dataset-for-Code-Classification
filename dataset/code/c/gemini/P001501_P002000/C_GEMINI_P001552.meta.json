@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001552",
+  "problemId": "P001552",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001552",
+    "title": "Smallest Subarray With Sum Greater Than X",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of positive integers and an integer X, find the length of the smallest contiguous subarray whose sum is strictly greater than X. If no such subarray exists, print -1.",
+    "input": "\u2022 First line contains N and X. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the minimum length or -1.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 Ai \u2264 10^5 \u2022 1 \u2264 X \u2264 10^15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001552",
+    "fileSHA": "6fe6a06db405ae779ef9adeaed3af56c85f44282dca96e3e3104d93633e943ea",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:30:36.096815+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6fe6a06db405ae779ef9adeaed3af56c85f44282dca96e3e3104d93633e943ea",
+    "normalizedCodeHash": "6fe6a06db405ae779ef9adeaed3af56c85f44282dca96e3e3104d93633e943ea",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:30:36.096840+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

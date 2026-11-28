@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001100",
+  "problemId": "P001100",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001100",
+    "title": "Dynamic Connectivity Queries",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "You are given N vertices and Q online operations. Each operation is one of the following: \u2022 Add an edge between two vertices. \u2022 Determine whether two specified vertices are currently connected. Process all queries efficiently.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Next Q lines describe the operations.",
+    "output": "For every connectivity query, print YES or NO.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001100",
+    "fileSHA": "18638b22d28a18bf8714d7b74cc31418a85f216534ff563134074de743f5cf11",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:45:01.072480+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "18638b22d28a18bf8714d7b74cc31418a85f216534ff563134074de743f5cf11",
+    "normalizedCodeHash": "18638b22d28a18bf8714d7b74cc31418a85f216534ff563134074de743f5cf11",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:45:01.072509+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

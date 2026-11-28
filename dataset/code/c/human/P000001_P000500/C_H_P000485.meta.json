@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000485",
+  "problemId": "P000485",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000485",
+    "title": "Asteroid Collision",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an array of integers representing asteroids moving along a straight line. Positive values move right. Negative values move left. When two asteroids moving in opposite directions collide: The smaller one explodes. If both have the same size, both explode. Asteroids moving in the same direction never collide. Return the final state of the asteroids.",
+    "input": "Integer n Array of integers.",
+    "output": "The remaining asteroids after all collisions.",
+    "constraints": "1 <= n <= 10^5 -1000 <= asteroid[i] <= 1000"
+  },
+  "repository": {
+    "name": "jnarin/lc_c_cplusplus",
+    "owner": "jnarin",
+    "url": "https://github.com/jnarin/lc_c_cplusplus",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "735. Asteroid Collision.c",
+    "fileSHA": "d8a70c8c7653d4987b240060c8595dde813d6f15",
+    "url": "https://github.com/jnarin/lc_c_cplusplus/blob/b1d267f3cde123ca2c0907bf72ebad097a42337a/735. Asteroid Collision.c",
+    "rawUrl": "https://raw.githubusercontent.com/jnarin/lc_c_cplusplus/main/735. Asteroid Collision.c"
+  },
+  "matching": {
+    "relevanceScore": 69.03
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "017c4e47dd53ee3147a859ae03bd2a4837845835b79c8af8d5448bcd0dddfaa6",
+    "normalizedCodeHash": "017c4e47dd53ee3147a859ae03bd2a4837845835b79c8af8d5448bcd0dddfaa6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:35:49.774130+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

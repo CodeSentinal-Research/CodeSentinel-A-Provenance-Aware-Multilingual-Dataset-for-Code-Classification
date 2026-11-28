@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001099",
+  "problemId": "P001099",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001099",
+    "title": "Detect Cycle Using Union-Find",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given an undirected graph, determine whether it contains a cycle using the Disjoint Set Union (Union-Find) algorithm.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print YES if the graph contains a cycle; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/C",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/C",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "searching/floyd_cycle_detection_algorithm.c",
+    "fileSHA": "285a72c6373e0b2c88dc0e1a5bfc4f11522a9537",
+    "url": "https://github.com/TheAlgorithms/C/blob/master/searching/floyd_cycle_detection_algorithm.c",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/C/master/searching/floyd_cycle_detection_algorithm.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "14135268a1c1b6cbf97bb3bfb1a81b766981045ab56e2e4ae7a42283d29f8d4b",
+    "normalizedCodeHash": "14135268a1c1b6cbf97bb3bfb1a81b766981045ab56e2e4ae7a42283d29f8d4b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:52:44.424276+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001172",
+  "problemId": "P001172",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001172",
+    "title": "Unique Paths with Obstacles",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an R \u00d7 C grid containing obstacles, determine the number of distinct paths from the top-left corner to the bottom-right corner. You may move only right or down.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines each contain C integers (0 = free cell, 1 = obstacle).",
+    "output": "Print the number of unique paths.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001172",
+    "fileSHA": "86fab8fe851bfe02c3f00f600e15e402b0db097eda3d1d7a45417a98b32c09d0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:14:15.633889+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "86fab8fe851bfe02c3f00f600e15e402b0db097eda3d1d7a45417a98b32c09d0",
+    "normalizedCodeHash": "86fab8fe851bfe02c3f00f600e15e402b0db097eda3d1d7a45417a98b32c09d0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:14:15.633905+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

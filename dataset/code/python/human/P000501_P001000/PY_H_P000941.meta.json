@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000941",
+  "problemId": "P000941",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000941",
+    "title": "Standard Nim Game",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Easy",
+    "problemStatement": "Given multiple piles of stones, players may remove any positive number of stones from a single pile during each turn. Determine whether the first player has a winning strategy.",
+    "input": "Integer N Array piles",
+    "output": "Print \"First\" if the first player wins; otherwise, print \"Second\".",
+    "constraints": "1 <= N <= 2 \u00d7 10^5 1 <= piles[i] <= 10^9"
+  },
+  "repository": {
+    "name": "zeshuochen/Nim_Game",
+    "owner": "zeshuochen",
+    "url": "https://github.com/zeshuochen/Nim_Game",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "game_logic.py",
+    "fileSHA": "41a8cf4e9871951ebc6bccb7a4abd5ba5414b555",
+    "url": "https://github.com/zeshuochen/Nim_Game/blob/0bb90cea83f9bb057a92695f7cb3bd0d2e1273bf/game_logic.py",
+    "rawUrl": "https://raw.githubusercontent.com/zeshuochen/Nim_Game/main/game_logic.py"
+  },
+  "matching": {
+    "relevanceScore": 62.6
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "24f05e8cedc1d74dd33ad48207d3b46027372b1333586b0d4c1dd08e89418f38",
+    "normalizedCodeHash": "24f05e8cedc1d74dd33ad48207d3b46027372b1333586b0d4c1dd08e89418f38",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:08:37.270375+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

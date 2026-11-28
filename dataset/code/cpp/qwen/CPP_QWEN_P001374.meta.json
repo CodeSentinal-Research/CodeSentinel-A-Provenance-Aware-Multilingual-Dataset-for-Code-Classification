@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001374",
+  "problemId": "P001374",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001374",
+    "title": "Happy Number",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Starting with a positive integer, repeatedly replace the number by the sum of the squares of its digits. Determine whether the process eventually reaches 1 or enters a cycle.",
+    "input": "\u2022 First line contains integer N.",
+    "output": "Print YES if N is a happy number; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2^31\u22121"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001374",
+    "fileSHA": "de50bfe09a5a4a068babc234504b1b0efc96d6cdfff2dce7299d22001f569163",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T04:46:17.171Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "b5ffaeadc4eb54afca1a398235cd4ee072aec40218088683019a2b0ce4043f5a",
+    "normalizedCodeHash": "0b24993b9b9fd76715fb309e189e7095c3bd3ee4c8baa0effcc51c34434556e5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T04:46:17.171Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

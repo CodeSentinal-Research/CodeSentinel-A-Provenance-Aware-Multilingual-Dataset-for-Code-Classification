@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001044",
+  "problemId": "P001044",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001044",
+    "title": "Level of a Heap Node",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a binary heap represented as an array and an index of a node, determine the level of the node where the root is at level 0.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers. \u2022 Third line contains integer i.",
+    "output": "Print the level of the node.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 i < N"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001044",
+    "fileSHA": "ca429be45d8d4be7acf9b1fd47f2f2abe3ff2052389eacf1346fb632babb3abf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.582Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "462e63558eea951bd8c17dd29f076805986d39b02d53e6634a8b8e6fafa6cdf5",
+    "normalizedCodeHash": "4e784d69e547c33d8aa9af8aa18d1c7e3146091c41f3c47a2bb2c280bdca70ab",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.582Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

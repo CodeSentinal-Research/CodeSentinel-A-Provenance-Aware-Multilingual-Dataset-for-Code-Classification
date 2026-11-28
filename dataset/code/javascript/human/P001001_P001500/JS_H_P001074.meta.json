@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001074",
+  "problemId": "P001074",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001074",
+    "title": "Dijkstra's Shortest Path",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a weighted graph with non-negative edge weights and a source vertex S, determine the shortest distance from S to every other vertex.",
+    "input": "\u2022 First line contains integers N, M, and S. \u2022 Next M lines contain three integers u, v, and w.",
+    "output": "Print the shortest distance from the source to every vertex.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5 \u2022 0 \u2264 w \u2264 10^9"
+  },
+  "repository": {
+    "name": "trekhleb/javascript-algorithms",
+    "owner": "trekhleb",
+    "url": "https://github.com/trekhleb/javascript-algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/algorithms/graph/dijkstra/dijkstra.js",
+    "fileSHA": "c5b47b08d3f2b0feb60fce7ee02a594e3e2e15bb",
+    "url": "https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/graph/dijkstra/dijkstra.js",
+    "rawUrl": "https://raw.githubusercontent.com/trekhleb/javascript-algorithms/master/src/algorithms/graph/dijkstra/dijkstra.js"
+  },
+  "matching": {
+    "relevanceScore": 62.92
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3bd01aca24f51a681b9e59cd0ef4c2ee0b691c26a41049751449066ac8f0b7c2",
+    "normalizedCodeHash": "3bd01aca24f51a681b9e59cd0ef4c2ee0b691c26a41049751449066ac8f0b7c2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T10:33:32.971656+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

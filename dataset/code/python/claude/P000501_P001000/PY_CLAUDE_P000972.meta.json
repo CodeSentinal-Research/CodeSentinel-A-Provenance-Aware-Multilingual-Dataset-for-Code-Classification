@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000972",
+  "problemId": "P000972",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000972",
+    "title": "Probability of Getting Exactly K Heads",
+    "category": "Mathematics - Probability",
+    "difficulty": "Medium",
+    "problemStatement": "A fair coin is tossed N times. Determine the probability of obtaining exactly K heads.",
+    "input": "Integer N Integer K",
+    "output": "The probability as a floating-point number.",
+    "constraints": "1 <= N <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000972",
+    "fileSHA": "65969560df58778ad2357300fa769bd241d8393da93aeac86b28aa220b0b8cde",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "65969560df58778ad2357300fa769bd241d8393da93aeac86b28aa220b0b8cde",
+    "normalizedCodeHash": "65969560df58778ad2357300fa769bd241d8393da93aeac86b28aa220b0b8cde",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique P000972: Probability of Getting Exactly K Heads"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

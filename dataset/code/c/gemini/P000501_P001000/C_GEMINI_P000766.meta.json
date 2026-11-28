@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000766",
+  "problemId": "P000766",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000766",
+    "title": "Boolean Parenthesization Count",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a boolean expression consisting of: 'T' (True) 'F' (False) Operators &, |, and ^ Count the number of ways to parenthesize the expression so that it evaluates to True.",
+    "input": "String expression",
+    "output": "The number of valid parenthesizations.",
+    "constraints": "1 <= |expression| <= 200"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000766",
+    "fileSHA": "b9669126252b38436e744085021a71c401c757cf6b9c395e96b88b81b1f34e40",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T17:15:01.146754+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b9669126252b38436e744085021a71c401c757cf6b9c395e96b88b81b1f34e40",
+    "normalizedCodeHash": "b9669126252b38436e744085021a71c401c757cf6b9c395e96b88b81b1f34e40",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T17:15:01.146773+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

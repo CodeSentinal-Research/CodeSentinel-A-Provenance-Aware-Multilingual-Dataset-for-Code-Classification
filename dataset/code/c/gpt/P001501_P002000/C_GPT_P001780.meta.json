@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001780",
+  "problemId": "P001780",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001780",
+    "title": "Find the Longest Decreasing Root-to-Leaf Path",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the longest root-to-leaf path whose values are strictly decreasing.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print the nodes of the longest decreasing path.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001780.c",
+    "fileSHA": "469809fbd486b5e2e4de6134dbba941fa9182bf309d3749f6e2d3e6f371bbfbb",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.638Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "acb629e63aa2b6bc9337bfcba3aa1f0043428233a35b7b558d93cd9452454097",
+    "normalizedCodeHash": "469809fbd486b5e2e4de6134dbba941fa9182bf309d3749f6e2d3e6f371bbfbb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.638Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

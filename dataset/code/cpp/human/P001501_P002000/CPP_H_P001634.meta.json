@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001634",
+  "problemId": "P001634",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001634",
+    "title": "Maximum Sum Submatrix No Larger Than K",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M matrix of integers and an integer K, determine the maximum possible sum of any rectangular submatrix that does not exceed K.",
+    "input": "\u2022 First line contains N, M, and K. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the maximum valid sum.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 300 \u2022 -10^5 \u2264 Aij \u2264 10^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/mathematical_algorithms/src/next_larger_number/next_larger_number.cpp",
+    "fileSHA": "26ee4d75419ab4594a02c2170ec92a53b55515aa",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/mathematical_algorithms/src/next_larger_number/next_larger_number.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/mathematical_algorithms/src/next_larger_number/next_larger_number.cpp"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5a472bb6f98f3130d9121ed4b9d4fb62e4a88748c658398724818375506b4b82",
+    "normalizedCodeHash": "5a472bb6f98f3130d9121ed4b9d4fb62e4a88748c658398724818375506b4b82",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:08.395643+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

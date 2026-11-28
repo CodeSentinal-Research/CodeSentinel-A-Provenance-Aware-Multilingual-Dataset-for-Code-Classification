@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P001061",
+  "problemId": "P001061",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001061",
+    "title": "Detect Cycle in a Directed Graph",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given a directed graph with N vertices and M directed edges, determine whether the graph contains at least one cycle.",
+    "input": "\u2022 First line contains two integers N and M. \u2022 The next M lines each contain two integers u and v, representing a directed edge from u to v.",
+    "output": "Print YES if the graph contains a cycle; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5 \u2022 1 \u2264 u, v \u2264 N"
+  },
+  "repository": {
+    "name": "jonatan2m/codelab",
+    "owner": "jonatan2m",
+    "url": "https://github.com/jonatan2m/codelab",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P001001_P001500/JS_H_P001061.js",
+    "fileSHA": "bb92a7494b26a4a90e3cec3b7fe6abaf7a30275d",
+    "url": "https://github.com/jonatan2m/codelab/blob/e9338002f4dcd936062019d81e27ab3739b85644/algorithm/graph/detect-cycle-directed-graph.js",
+    "rawUrl": "https://raw.githubusercontent.com/jonatan2m/codelab/main/algorithm/graph/detect-cycle-directed-graph.js"
+  },
+  "matching": {
+    "relevanceScore": 75.06
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2017-04-18T02:31:49Z",
+    "lastCommitDate": "2017-04-18T02:31:49Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Jonatan Machado"
+    ],
+    "firstKnownAuthor": "Jonatan Machado",
+    "latestKnownAuthor": "Jonatan Machado"
+  },
+  "deduplication": {
+    "rawCodeHash": "8878304879243b2a9141dac21b92133a1d54f12b3328f26a35161f0a8f8fe850",
+    "normalizedCodeHash": "8878304879243b2a9141dac21b92133a1d54f12b3328f26a35161f0a8f8fe850",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T07:22:57.011516+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000495",
+  "problemId": "P000495",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000495",
+    "title": "Online Stock Span",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Design a data structure that processes a stream of stock prices. For each incoming stock price, return its span, defined as the maximum number of consecutive days (including today) for which the stock price has been less than or equal to today's price. Process all queries efficiently.",
+    "input": "Integer q Next q lines each contain one stock price.",
+    "output": "For each stock price, print its span.",
+    "constraints": "1 <= q <= 10^5 1 <= price <= 10^5"
+  },
+  "repository": {
+    "name": "xDevanshu-Garg/SDE-Sheet-By-Striver",
+    "owner": "xDevanshu-Garg",
+    "url": "https://github.com/xDevanshu-Garg/SDE-Sheet-By-Striver",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "14Stack and Queues/89_Online Stock Span.cpp",
+    "fileSHA": "983c1671a463ed14bfac1cf636158b2de26661dd",
+    "url": "https://github.com/xDevanshu-Garg/SDE-Sheet-By-Striver/blob/dadf0232393dc0eeb6a0a51869328ec042f58ebc/14Stack and Queues/89_Online Stock Span.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/xDevanshu-Garg/SDE-Sheet-By-Striver/main/14Stack and Queues/89_Online Stock Span.cpp"
+  },
+  "matching": {
+    "relevanceScore": 82.69
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "51138ba018a2caeb58071b0c078be0e7c8f25bb1c84d8268b35bc230bfff6b14",
+    "normalizedCodeHash": "51138ba018a2caeb58071b0c078be0e7c8f25bb1c84d8268b35bc230bfff6b14",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:21:16.158734+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000968",
+  "problemId": "P000968",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000968",
+    "title": "Merge Two Congruence Equations",
+    "category": "Mathematics - Chinese Remainder Theorem",
+    "difficulty": "Medium",
+    "problemStatement": "Given two congruence equations: X \u2261 A (mod M) X \u2261 B (mod N) Determine whether they can be merged into a single congruence. If possible, output the merged congruence with the smallest non-negative solution.",
+    "input": "Integers A, M Integers B, N",
+    "output": "The merged congruence or -1 if no solution exists.",
+    "constraints": "1 <= M, N <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P000968",
+    "fileSHA": "c59dbba1d6737cc4087b2717a5391ec601a33f2a9af0f5fff820164db10f6e29",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:36:58.549687+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c59dbba1d6737cc4087b2717a5391ec601a33f2a9af0f5fff820164db10f6e29",
+    "normalizedCodeHash": "c59dbba1d6737cc4087b2717a5391ec601a33f2a9af0f5fff820164db10f6e29",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:36:58.549714+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

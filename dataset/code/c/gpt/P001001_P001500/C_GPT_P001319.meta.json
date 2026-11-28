@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001319",
+  "problemId": "P001319",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001319",
+    "title": "Word Search II",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given a character grid and a dictionary of words, determine all dictionary words that can be formed using adjacent cells without reusing any cell.",
+    "input": "• First line contains integers R and C. • Next R lines contain the grid. • Next line contains integer N. • Next N lines contain dictionary words.",
+    "output": "Print all discovered words in lexicographical order.",
+    "constraints": "• 1 ≤ R, C ≤ 20 • 1 ≤ N ≤ 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001319.c",
+    "fileSHA": "aa6957ac5d05cdbe459f9ea9d96e92b201a2c9c51bc9ffabeafbdc234fe80580",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.796Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "77fd8492e4d0f94160d4b2e6b9b1e345c3bb37f03c37f623b09c1d13e3a91dac",
+    "normalizedCodeHash": "aa6957ac5d05cdbe459f9ea9d96e92b201a2c9c51bc9ffabeafbdc234fe80580",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.796Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

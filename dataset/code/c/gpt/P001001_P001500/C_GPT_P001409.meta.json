@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001409",
+  "problemId": "P001409",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001409",
+    "title": "Count Equal and Divisible Pairs",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and an integer K, count pairs (i, j) such that i < j, nums[i] = nums[j], and (i × j) is divisible by K.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print the total number of valid pairs.",
+    "constraints": "• 1 ≤ N ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001409.c",
+    "fileSHA": "140f7622ac6ac9c2976fcb012b576b24c9c36cf6a98de959ae798b2d18fc2154",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.281Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c228b92a4e16e05465994e1a92cc88c4a894095a14812295b58c863c8dbc976e",
+    "normalizedCodeHash": "140f7622ac6ac9c2976fcb012b576b24c9c36cf6a98de959ae798b2d18fc2154",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.281Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

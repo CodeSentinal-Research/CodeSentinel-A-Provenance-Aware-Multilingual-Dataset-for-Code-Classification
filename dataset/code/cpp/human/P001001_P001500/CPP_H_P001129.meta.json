@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001129",
+  "problemId": "P001129",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001129",
+    "title": "Remove Maximum Number of Edges While Keeping Graph Fully Traversable",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "A graph contains three types of edges: \u2022 Type 1: Usable only by Alice. \u2022 Type 2: Usable only by Bob. \u2022 Type 3: Usable by both Alice and Bob. Determine the maximum number of edges that can be removed while ensuring both Alice and Bob can still traverse the entire graph. If impossible, print -1.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines each contain type, u, and v.",
+    "output": "Print the maximum number of removable edges.",
+    "constraints": "\u2022 2 \u2264 N \u2264 10^5 \u2022 1 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "JITESH-KUMAR05/cpp-begin",
+    "owner": "JITESH-KUMAR05",
+    "url": "https://github.com/JITESH-KUMAR05/cpp-begin",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "DSA/Graphs/RemoveMaximumEdges.cpp",
+    "fileSHA": "b33ecc4cb1dbe7ea3b19f12255ea34f3c41f8663",
+    "url": "https://github.com/JITESH-KUMAR05/cpp-begin/blob/867b50322d5acdea32b6c496bd8a6a08edd22024/DSA/Graphs/RemoveMaximumEdges.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/JITESH-KUMAR05/cpp-begin/main/DSA/Graphs/RemoveMaximumEdges.cpp"
+  },
+  "matching": {
+    "relevanceScore": 63.27
+  },
+  "provenance": {
+    "score": 85.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "452090f92d2b37cfeea13703d82ef805919b17712c72fd18c76d3baa713e0add",
+    "normalizedCodeHash": "452090f92d2b37cfeea13703d82ef805919b17712c72fd18c76d3baa713e0add",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:57:19.236797+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

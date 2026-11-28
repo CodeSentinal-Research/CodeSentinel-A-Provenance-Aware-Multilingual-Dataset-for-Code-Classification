@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001125",
+  "problemId": "P001125",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001125",
+    "title": "Network Delay Time",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a directed weighted network and a starting node, determine the minimum time required for a signal to reach every node. If any node cannot be reached, print -1.",
+    "input": "\u2022 First line contains integers N, M, and S. \u2022 Next M lines contain integers u, v, and w.",
+    "output": "Print the required network delay time.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "kaiser-x/Cpp",
+    "owner": "kaiser-x",
+    "url": "https://github.com/kaiser-x/Cpp",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": true,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Leetcode/Graph/743_network_delay_time.cpp",
+    "fileSHA": "27fe2029c94758e9b2b25f2fcc1cbddbfb12cb7e",
+    "url": "https://github.com/kaiser-x/Cpp/blob/bf662d1d31da886eb6a988307455986761a9fd0a/Leetcode/Graph/743_network_delay_time.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/kaiser-x/Cpp/main/Leetcode/Graph/743_network_delay_time.cpp"
+  },
+  "matching": {
+    "relevanceScore": 87.1
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a843458b6afde054c8c9911424473a4fbf71b5be5f8deb208c8992f6d218aae4",
+    "normalizedCodeHash": "a843458b6afde054c8c9911424473a4fbf71b5be5f8deb208c8992f6d218aae4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:29:21.929597+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

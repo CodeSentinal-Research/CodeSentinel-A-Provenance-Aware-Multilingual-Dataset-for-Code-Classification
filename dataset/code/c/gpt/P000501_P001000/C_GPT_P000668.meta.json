@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000668",
+  "problemId": "P000668",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000668",
+    "title": "Skip M Nodes Delete N Nodes",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and two integers M and N, repeatedly skip the next M nodes and then delete the following N nodes until the end of the list is reached. Return the head of the modified linked list.",
+    "input": "Integer size Linked list Integer M Integer N",
+    "output": "The modified linked list.",
+    "constraints": "0 <= size <= 10^5 0 <= M, N <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000668.c",
+    "fileSHA": "d8b8bd29043e0a2c8ca65b8abe32ab52115f69eb1ad75310e3116d3039a710d2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d8b8bd29043e0a2c8ca65b8abe32ab52115f69eb1ad75310e3116d3039a710d2",
+    "normalizedCodeHash": "d8b8bd29043e0a2c8ca65b8abe32ab52115f69eb1ad75310e3116d3039a710d2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000560",
+  "problemId": "P000560",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000560",
+    "title": "Interleave the First Half of Queue",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Given a queue containing an even number of integers, interleave the first half of the queue with the second half. For example, if the queue is: 1 2 3 4 the result should be: 1 3 2 4 Return the modified queue.",
+    "input": "Integer N (always even) Queue elements",
+    "output": "The interleaved queue.",
+    "constraints": "2 <= N <= 10^5 N is even."
+  },
+  "repository": {
+    "name": "freebsd/freebsd-src",
+    "owner": "freebsd",
+    "url": "https://github.com/freebsd/freebsd-src",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "contrib/llvm-project/llvm/include/llvm/CodeGen/InterleavedAccess.h",
+    "fileSHA": "31bd19a3191a273e7baef4d34f38100e4b4bef39",
+    "url": "https://github.com/freebsd/freebsd-src/blob/main/contrib/llvm-project/llvm/include/llvm/CodeGen/InterleavedAccess.h",
+    "rawUrl": "https://raw.githubusercontent.com/freebsd/freebsd-src/main/contrib/llvm-project/llvm/include/llvm/CodeGen/InterleavedAccess.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e035ce1367f3368d1fb6c65d5e442ced7670aed4a86d1be29236a09f60a5c23c",
+    "normalizedCodeHash": "e035ce1367f3368d1fb6c65d5e442ced7670aed4a86d1be29236a09f60a5c23c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:44:09.572830+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

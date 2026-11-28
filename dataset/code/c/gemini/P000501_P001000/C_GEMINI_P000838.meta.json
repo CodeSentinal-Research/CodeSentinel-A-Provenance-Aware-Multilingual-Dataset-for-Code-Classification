@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000838",
+  "problemId": "P000838",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000838",
+    "title": "Median of Two Sorted Arrays",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Given two sorted arrays of sizes m and n, return the median of the combined sorted array. The overall time complexity must be O(log(min(m, n))).",
+    "input": "Integer m Array nums1 Integer n Array nums2",
+    "output": "The median of the merged sorted array.",
+    "constraints": "0 <= m, n <= 1000 1 <= m + n <= 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P000838",
+    "fileSHA": "948c7d5c33bb8713290ff48eefb99c0209074a20455c76ba0f9141b20079bbac",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:29:13.841932+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c896a7f5926a6e830ceecb0f8ca6d87fa6a82aa3cb73ae9e47acdb2b0a83d7ae",
+    "normalizedCodeHash": "948c7d5c33bb8713290ff48eefb99c0209074a20455c76ba0f9141b20079bbac",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:29:13.841969+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001470",
+  "problemId": "P001470",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001470",
+    "title": "Merge Two Sorted Arrays Without Extra Space",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given two sorted arrays, merge them so that the first array contains the smallest elements and the second array contains the remaining elements, without using extra space.",
+    "input": "• First line contains integers N and M. • Second line contains N sorted integers. • Third line contains M sorted integers.",
+    "output": "Print both modified arrays.",
+    "constraints": "• 1 ≤ N, M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001470.c",
+    "fileSHA": "104ae2a153fc8495ffe9d599661b6cfd9ff973cfbf93321f1729a20e880650d0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.482Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "0fcedef60677e96c36eb10e04b03d21e5bc0434b92865f693ed1ec4d10fb9c94",
+    "normalizedCodeHash": "104ae2a153fc8495ffe9d599661b6cfd9ff973cfbf93321f1729a20e880650d0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.482Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

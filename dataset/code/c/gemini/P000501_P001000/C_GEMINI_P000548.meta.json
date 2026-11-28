@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000548",
+  "problemId": "P000548",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000548",
+    "title": "Bus Routes",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given several bus routes where each route is represented as a list of bus stops visited repeatedly in a cycle. Starting from the source stop, determine the minimum number of buses you must take to reach the target stop. If it is impossible to reach the destination, return -1.",
+    "input": "Integer r r arrays representing bus routes Integer source Integer target",
+    "output": "A single integer representing the minimum number of buses required.",
+    "constraints": "1 <= r <= 500 Total number of bus stops across all routes does not exceed 10^5 0 <= source, target <= 10^6"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000548",
+    "fileSHA": "1b9b209cfd81d65ad3ca12b1d5a98b9bb961d3f754917ac7c14ca6693c101f64",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:44:53.010838+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1b9b209cfd81d65ad3ca12b1d5a98b9bb961d3f754917ac7c14ca6693c101f64",
+    "normalizedCodeHash": "1b9b209cfd81d65ad3ca12b1d5a98b9bb961d3f754917ac7c14ca6693c101f64",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:44:53.010860+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

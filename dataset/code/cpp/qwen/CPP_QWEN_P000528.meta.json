@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000528",
+  "problemId": "P000528",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000528",
+    "title": "Count Collisions on a Road",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "There are n cars on a road. Each car is initially moving: Left ('L') Right ('R') Stationary ('S') Whenever moving cars collide: Two moving cars become stationary. A moving car colliding with a stationary car also becomes stationary. Determine the total number of collisions that occur after all movements have finished.",
+    "input": "A string of length n consisting only of 'L', 'R', and 'S'.",
+    "output": "A single integer representing the total number of collisions.",
+    "constraints": "1 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000528",
+    "fileSHA": "080e081d453f82346627ce8b540c46f8c837f2aaf5bfa89123859807de3707c8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.447Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "22f58ce328790420902d242b0a71927fd382f66222c82dfd9572215ba357aed6",
+    "normalizedCodeHash": "e60e78709b4d762b50b81619fb188ee5b3d0781b0f198d4db10fd0ec1d01d7a1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.447Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

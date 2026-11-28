@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001583",
+  "problemId": "P001583",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001583",
+    "title": "Count Subarrays With At Most K Distinct Integers",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and an integer K, count the number of contiguous subarrays containing at most K distinct integers.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the count.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "lrmsspace/Knowledge-Augmented-Codegen",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "evaluation/S0/c/Hard/1936-subarrays-with-k-different-integers.c",
+    "fileSHA": "415a001608d5b6e923c06b7bd09628793227dc64",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen/blob/aa02d0f7c87de0b9a725c85dfb03746289785175/evaluation/S0/c/Hard/1936-subarrays-with-k-different-integers.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/Knowledge-Augmented-Codegen/main/evaluation/S0/c/Hard/1936-subarrays-with-k-different-integers.c"
+  },
+  "matching": {
+    "relevanceScore": 94.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6cef1273d1e95781d510f97282b86254c35c85540b13838a42a643d4df9fb6f9",
+    "normalizedCodeHash": "6cef1273d1e95781d510f97282b86254c35c85540b13838a42a643d4df9fb6f9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T00:12:30.173815+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001552",
+  "problemId": "P001552",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001552",
+    "title": "Smallest Subarray With Sum Greater Than X",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of positive integers and an integer X, find the length of the smallest contiguous subarray whose sum is strictly greater than X. If no such subarray exists, print -1.",
+    "input": "• First line contains N and X. • Second line contains N integers.",
+    "output": "• Print the minimum length or -1.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 1 ≤ Ai ≤ 10^5 • 1 ≤ X ≤ 10^15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001501_P002000/JS_GPT_P001552.js",
+    "fileSHA": "ff30942de2f58961754266e2cf0ff44c23b9e7c518f98c5a09ee7f97e73bab4f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ff30942de2f58961754266e2cf0ff44c23b9e7c518f98c5a09ee7f97e73bab4f",
+    "normalizedCodeHash": "ff30942de2f58961754266e2cf0ff44c23b9e7c518f98c5a09ee7f97e73bab4f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

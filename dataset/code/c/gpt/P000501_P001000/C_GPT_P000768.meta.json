@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000768",
+  "problemId": "P000768",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000768",
+    "title": "Count Unique Binary Search Trees",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer N, determine the number of structurally unique Binary Search Trees that can be formed using values from 1 to N. Solve the problem recursively.",
+    "input": "Integer N",
+    "output": "The number of unique Binary Search Trees.",
+    "constraints": "1 <= N <= 19"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000768.c",
+    "fileSHA": "5380dd6b8b15a86c5dac34310fc0372419b29a1e3fa9f2d1bd846ea205c320ec",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5380dd6b8b15a86c5dac34310fc0372419b29a1e3fa9f2d1bd846ea205c320ec",
+    "normalizedCodeHash": "5380dd6b8b15a86c5dac34310fc0372419b29a1e3fa9f2d1bd846ea205c320ec",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

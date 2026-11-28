@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000610",
+  "problemId": "P000610",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000610",
+    "title": "Merge Nodes Between Zeros",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a linked list whose first and last nodes contain the value 0. Between every pair of consecutive zero-valued nodes, replace all nodes with a single node whose value is the sum of the values between those zeros. Return the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The transformed linked list.",
+    "constraints": "3 <= n <= 2 \u00d7 10^5 The first and last node values are 0."
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000610",
+    "fileSHA": "3f7e9da70c012122d097fe4f8c6e3639b2432469a0d3a49dfd4d1693ebc5b796",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.320Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "38dc499b846515af78e7b3add6956507e252671404d1005603d1764fd614cd54",
+    "normalizedCodeHash": "5696a6211f8946cc5997248e09179cb1bba4d2eae71054e05f556a828cd1403b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.320Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

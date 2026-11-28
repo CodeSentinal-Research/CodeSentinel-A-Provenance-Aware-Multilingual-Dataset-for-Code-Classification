@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000546",
+  "problemId": "P000546",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000546",
+    "title": "Jump Game VII",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a binary string s and two integers minJump and maxJump. Starting at index 0, determine whether it is possible to reach the last index. From index i, you may jump to any index j satisfying: i + minJump <= j <= min(i + maxJump, n - 1) s[j] == '0' Return true if the last index can be reached; otherwise return false.",
+    "input": "Binary string s Integer minJump Integer maxJump",
+    "output": "true if the last index is reachable, otherwise false.",
+    "constraints": "2 <= s.length <= 10^5 s[0] == s[n-1] == '0'"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000546.js",
+    "fileSHA": "2da1f9ae2c61e263461570028e7468e998416d9e019d27858df4aea0a81940e9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2da1f9ae2c61e263461570028e7468e998416d9e019d27858df4aea0a81940e9",
+    "normalizedCodeHash": "2da1f9ae2c61e263461570028e7468e998416d9e019d27858df4aea0a81940e9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

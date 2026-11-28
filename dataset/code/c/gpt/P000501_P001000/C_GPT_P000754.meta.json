@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000754",
+  "problemId": "P000754",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000754",
+    "title": "Generate All Case Permutations of a String",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an alphanumeric string, generate all possible strings obtained by independently changing the case of every alphabetic character. Print the generated strings in lexicographical order.",
+    "input": "String s",
+    "output": "All valid case permutations.",
+    "constraints": "1 <= |s| <= 15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000754.c",
+    "fileSHA": "15cce611bd8db764cd090f72b39ffc941c100845aacf99644fcb2b5f09ce9f51",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "15cce611bd8db764cd090f72b39ffc941c100845aacf99644fcb2b5f09ce9f51",
+    "normalizedCodeHash": "15cce611bd8db764cd090f72b39ffc941c100845aacf99644fcb2b5f09ce9f51",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

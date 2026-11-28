@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001492",
+  "problemId": "P001492",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001492",
+    "title": "Find K Closest Elements",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a sorted array, an integer K, and a value X, find the K closest elements to X. If there is a tie, prefer the smaller element.",
+    "input": "\u2022 First line contains integers N, K, and X. \u2022 Second line contains N sorted integers.",
+    "output": "Print the K closest elements in ascending order.",
+    "constraints": "\u2022 1 \u2264 K \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/0973-k-closest-points-to-origin.c",
+    "fileSHA": "dff361e47ff61873a081e3acd9b27560b450f7f0",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/c/0973-k-closest-points-to-origin.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/0973-k-closest-points-to-origin.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "18a06943c07afbb305de37a50f8a88775ae70fde746aa4665a167aab23ab809a",
+    "normalizedCodeHash": "18a06943c07afbb305de37a50f8a88775ae70fde746aa4665a167aab23ab809a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:08.247075+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

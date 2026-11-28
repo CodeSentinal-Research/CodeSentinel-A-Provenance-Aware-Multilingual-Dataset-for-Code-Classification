@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000930",
+  "problemId": "P000930",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000930",
+    "title": "Matrix Multiplication",
+    "category": "Mathematics - Matrix Mathematics",
+    "difficulty": "Easy",
+    "problemStatement": "Given two matrices A of size N × M and B of size M × P, compute their matrix product.",
+    "input": "Integers N, M, P Matrix A Matrix B",
+    "output": "The product matrix.",
+    "constraints": "1 <= N, M, P <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000930",
+    "fileSHA": "8aaeaef5417af9c8641051857036482f438ec040902e8e0811f86db5ac99c3dc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8aaeaef5417af9c8641051857036482f438ec040902e8e0811f86db5ac99c3dc",
+    "normalizedCodeHash": "8aaeaef5417af9c8641051857036482f438ec040902e8e0811f86db5ac99c3dc",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique P000930: Matrix Multiplication"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001610",
+  "problemId": "P001610",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001610",
+    "title": "Product Except Self",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers, construct an output array where each element is equal to the product of all elements of the input array except itself. Division is not allowed.",
+    "input": "• First line contains N. • Second line contains N integers.",
+    "output": "• Print the resulting array.",
+    "constraints": "• 2 ≤ N ≤ 2 × 10^5 • -30 ≤ Ai ≤ 30"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001610.c",
+    "fileSHA": "9287aedd4fe427203fac1d5114bb4b90cb059fe3e898958d6ebcac908a8771df",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.993Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "4d664080c7114d85cb6fc958948436fb424a9cfb8fc636d9550c2d2b757a11f9",
+    "normalizedCodeHash": "9287aedd4fe427203fac1d5114bb4b90cb059fe3e898958d6ebcac908a8771df",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.993Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

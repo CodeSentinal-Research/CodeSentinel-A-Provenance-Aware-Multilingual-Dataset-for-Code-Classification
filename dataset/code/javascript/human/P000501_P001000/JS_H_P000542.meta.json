@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000542",
+  "problemId": "P000542",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000542",
+    "title": "Design Front Middle Back Queue",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Design a queue that supports insertion and deletion at the front, middle, and back. The queue must support: pushFront(x) pushMiddle(x) pushBack(x) popFront() popMiddle() popBack() If the queue is empty, every pop operation returns -1. Process a sequence of operations and print the results of every pop operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result of every pop operation.",
+    "constraints": "1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "cool-tien/leetcode",
+    "owner": "cool-tien",
+    "url": "https://github.com/cool-tien/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "1670. Design Front Middle Back Queue/solution1.js",
+    "fileSHA": "1f8c4f13190be0f1b558198c3a170660b3253485",
+    "url": "https://github.com/cool-tien/leetcode/blob/622f644e079e15c6047990e4acfd187714f61311/1670. Design Front Middle Back Queue/solution1.js",
+    "rawUrl": "https://raw.githubusercontent.com/cool-tien/leetcode/main/1670. Design Front Middle Back Queue/solution1.js"
+  },
+  "matching": {
+    "relevanceScore": 90.71
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a79989728d40adec813747c4fe5f1622b77478cbc191c7728998218da56fe5fd",
+    "normalizedCodeHash": "a79989728d40adec813747c4fe5f1622b77478cbc191c7728998218da56fe5fd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:23:01.437524+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000842",
+  "problemId": "P000842",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000842",
+    "title": "Maximum Value at a Given Index in a Bounded Array",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Construct an array of length n consisting of positive integers such that: Adjacent elements differ by at most 1. The sum of all elements does not exceed maxSum. Return the maximum possible value at the given index.",
+    "input": "Integer n Integer index Integer maxSum",
+    "output": "The maximum possible value.",
+    "constraints": "1 <= n <= 10^9 0 <= index < n n <= maxSum <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000842.js",
+    "fileSHA": "aef9e9cd4fbdecdc3852e022208e4dbdfb88bf5e147cf0a2a4c5ada2284cd16f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "aef9e9cd4fbdecdc3852e022208e4dbdfb88bf5e147cf0a2a4c5ada2284cd16f",
+    "normalizedCodeHash": "aef9e9cd4fbdecdc3852e022208e4dbdfb88bf5e147cf0a2a4c5ada2284cd16f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000785",
+  "problemId": "P000785",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000785",
+    "title": "Find Pivot Index",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array, return the leftmost pivot index where the sum of all elements to the left equals the sum of all elements to the right. If no such index exists, return -1.",
+    "input": "Integer n Array nums",
+    "output": "The pivot index or -1.",
+    "constraints": "1 <= n <= 10^5 -1000 <= nums[i] <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000785.py",
+    "fileSHA": "8977c3a63c9d0bd9533bd6e52e9ea51ae1e61ef958721ca5de44ae2d86e302a3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.047811+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8977c3a63c9d0bd9533bd6e52e9ea51ae1e61ef958721ca5de44ae2d86e302a3",
+    "normalizedCodeHash": "18c2ec1f93078d486792ab2c2ae974ea2fdee9953537193a9c7c064ef377a013",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.047811+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

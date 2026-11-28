@@ -1,0 +1,10 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');
+const n=+l[0];const A=[];for(let i=0;i<n;i++)A.push(l[i+1].split(' ').map(Number));
+const sm=Array.from({length:n},()=>new Array(n).fill(0));
+sm[n-1][n-1]=A[n-1][n-1];
+for(let j=n-2;j>=0;j--)sm[n-1][j]=Math.max(A[n-1][j],sm[n-1][j+1]);
+for(let i=n-2;i>=0;i--)sm[i][n-1]=Math.max(A[i][n-1],sm[i+1][n-1]);
+for(let i=n-2;i>=0;i--)for(let j=n-2;j>=0;j--)sm[i][j]=Math.max(A[i][j],Math.max(sm[i+1][j],sm[i][j+1]));
+let ans=-Infinity;
+for(let i=0;i<n-1;i++)for(let j=0;j<n-1;j++)ans=Math.max(ans,sm[i+1][j+1]-A[i][j]);
+console.log(ans);

@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000385",
+  "problemId": "P000385",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000385",
+    "title": "Search Order by Order ID",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Locate an order using the given order ID.",
+    "input": "Order records and an order ID.",
+    "output": "Order details or \"Order Not Found\".",
+    "constraints": "1 ≤ Number of Orders ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000385",
+    "fileSHA": "1b6c8bae9c99636ff9f9e9a8606c2ce67c9c64d2fad4b847a97f39b365e67a66",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1b6c8bae9c99636ff9f9e9a8606c2ce67c9c64d2fad4b847a97f39b365e67a66",
+    "normalizedCodeHash": "1b6c8bae9c99636ff9f9e9a8606c2ce67c9c64d2fad4b847a97f39b365e67a66",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000385: Search Order by Order ID"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

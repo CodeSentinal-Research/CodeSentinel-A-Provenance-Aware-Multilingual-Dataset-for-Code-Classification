@@ -1,0 +1,1 @@
+const d=require("fs").readFileSync("/dev/stdin","utf8").trim();if(!d){console.log("");process.exit();}const keys=["","","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"];let res=[""];for(const c of d){const tmp=[];for(const x of res)for(const ch of keys[+c])tmp.push(x+ch);res=tmp;}console.log(res.join(" "));

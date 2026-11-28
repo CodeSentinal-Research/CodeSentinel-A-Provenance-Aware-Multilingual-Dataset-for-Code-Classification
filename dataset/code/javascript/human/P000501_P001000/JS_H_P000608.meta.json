@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000608",
+  "problemId": "P000608",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000608",
+    "title": "Linked List in Binary Tree",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and the root of a binary tree, determine whether the linked list exists as a downward path in the binary tree. A downward path starts at any node and proceeds only through child pointers. Return true if such a path exists; otherwise return false.",
+    "input": "Linked list Binary tree",
+    "output": "true if the linked list appears as a downward path, otherwise false.",
+    "constraints": "Number of linked list nodes is in the range [1, 100] Number of tree nodes is in the range [1, 2500] -100 <= node.value <= 100"
+  },
+  "repository": {
+    "name": "azl397985856/leetcode",
+    "owner": "azl397985856",
+    "url": "https://github.com/azl397985856/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "daily/answers/114.flatten-binary-tree-to-linked-list.js",
+    "fileSHA": "ec572fbd8dfda5637b612e707ef1d31ffffd3dfe",
+    "url": "https://github.com/azl397985856/leetcode/blob/master/daily/answers/114.flatten-binary-tree-to-linked-list.js",
+    "rawUrl": "https://raw.githubusercontent.com/azl397985856/leetcode/master/daily/answers/114.flatten-binary-tree-to-linked-list.js"
+  },
+  "matching": {
+    "relevanceScore": 85.0
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3242925bf719bdd171a158f4e73e912b3453ab6d5c7ac9d5d22ed7f10e51bd9d",
+    "normalizedCodeHash": "3242925bf719bdd171a158f4e73e912b3453ab6d5c7ac9d5d22ed7f10e51bd9d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:44:16.761545+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

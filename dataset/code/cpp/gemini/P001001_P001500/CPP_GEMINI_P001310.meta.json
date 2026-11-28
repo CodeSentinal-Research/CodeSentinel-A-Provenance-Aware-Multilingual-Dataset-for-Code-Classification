@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001310",
+  "problemId": "P001310",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001310",
+    "title": "Minimum Cost of Connecting Sticks",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Given the lengths of N sticks, repeatedly connect any two sticks into one. The cost of each connection equals the sum of the lengths of the two sticks. Determine the minimum total connection cost.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing stick lengths.",
+    "output": "Print the minimum total cost.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001310",
+    "fileSHA": "c249175470837a5a4fb504ce4491a2c6168221fcee1491efe3319c621c211bcb",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:20:55.066473+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c249175470837a5a4fb504ce4491a2c6168221fcee1491efe3319c621c211bcb",
+    "normalizedCodeHash": "c249175470837a5a4fb504ce4491a2c6168221fcee1491efe3319c621c211bcb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:20:55.066496+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

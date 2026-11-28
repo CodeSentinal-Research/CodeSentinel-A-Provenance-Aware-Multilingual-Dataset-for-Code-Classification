@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001028",
+  "problemId": "P001028",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001028",
+    "title": "Delete an Arbitrary Element from a Heap",
+    "category": "Heap",
+    "difficulty": "Medium",
+    "problemStatement": "Given a valid binary heap and the index of an element, delete that element while maintaining the heap property.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers. \u2022 Third line contains integer i.",
+    "output": "Print the updated heap.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 i < N"
+  },
+  "repository": {
+    "name": "UdaykiranReddy-1/DSA",
+    "owner": "UdaykiranReddy-1",
+    "url": "https://github.com/UdaykiranReddy-1/DSA",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "tree/maxdelete_heap.c",
+    "fileSHA": "9532444c73e6ac98fd52e5e4b4772209b209da73",
+    "url": "https://github.com/UdaykiranReddy-1/DSA/blob/b29ae3c2b14a179968df0aba01f5794deb7cf86a/tree/maxdelete_heap.c",
+    "rawUrl": "https://raw.githubusercontent.com/UdaykiranReddy-1/DSA/main/tree/maxdelete_heap.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "29c1e941a9136a6f1216251494cdd8ad07f1d2d60d5ee24c4cd46f4b900f2737",
+    "normalizedCodeHash": "29c1e941a9136a6f1216251494cdd8ad07f1d2d60d5ee24c4cd46f4b900f2737",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T18:32:40.260736+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

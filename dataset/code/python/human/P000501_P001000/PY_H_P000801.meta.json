@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000801",
+  "problemId": "P000801",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000801",
+    "title": "Matrix Block Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N \u00d7 M matrix and an integer K, construct another matrix where each cell contains the sum of all elements whose row and column distances from the current cell are at most K. Use a 2D prefix sum to compute the result efficiently.",
+    "input": "Integer N Integer M Matrix grid Integer K",
+    "output": "The resulting matrix.",
+    "constraints": "1 <= N, M <= 1000"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/matrix-block-sum.py",
+    "fileSHA": "d037f98635fec2164becdcf9ad67b5564d360546",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/matrix-block-sum.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/matrix-block-sum.py"
+  },
+  "matching": {
+    "relevanceScore": 76.25
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ce63ac0c1f493932bd4ecb9de8ff5cfb6f03dda27c22fd27ba4e4c8e277165d2",
+    "normalizedCodeHash": "ce63ac0c1f493932bd4ecb9de8ff5cfb6f03dda27c22fd27ba4e4c8e277165d2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T15:55:05.267548+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

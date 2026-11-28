@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001536",
+  "problemId": "P001536",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001536",
+    "title": "Minimum Window Substring",
+    "category": "Two Pointers",
+    "difficulty": "Hard",
+    "problemStatement": "Given two strings S and T, determine the smallest substring of S containing every character of T, including duplicate occurrences.",
+    "input": "• First line contains string S. • Second line contains string T.",
+    "output": "Print the minimum window substring. If none exists, print an empty string.",
+    "constraints": "• 1 ≤ Length of S, T ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001536.c",
+    "fileSHA": "9f49be5a2d2ba3dbb41660fb4e58160de1e677876de2e19bbc1a34e49c3cec1a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.695Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a2928d24ca9158d5de9d10cbcc7ceaa3a1731d4ae1598517c8d028a093594c00",
+    "normalizedCodeHash": "9f49be5a2d2ba3dbb41660fb4e58160de1e677876de2e19bbc1a34e49c3cec1a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.695Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

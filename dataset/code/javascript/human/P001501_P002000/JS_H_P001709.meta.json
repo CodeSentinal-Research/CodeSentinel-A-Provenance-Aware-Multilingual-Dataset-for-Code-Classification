@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001709",
+  "problemId": "P001709",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001709",
+    "title": "Merge Two Binary Trees",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given two binary trees, create a new binary tree by merging overlapping nodes. When two nodes overlap, the new node's value is obtained by combining the corresponding node values according to the specified rule.",
+    "input": "\u2022 The first line contains N\u2081. \u2022 The next N\u2081 lines describe the first tree. \u2022 The following line contains N\u2082. \u2022 The next N\u2082 lines describe the second tree.",
+    "output": "\u2022 Print the merged tree.",
+    "constraints": "\u2022 0 \u2264 N\u2081, N\u2082 \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/0617-merge-two-binary-trees.js",
+    "fileSHA": "76d3709b05488ba06019f774a9634e8c6610c6a8",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/javascript/0617-merge-two-binary-trees.js",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/javascript/0617-merge-two-binary-trees.js"
+  },
+  "matching": {
+    "relevanceScore": 61.82
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "543b3257a058cd77e8fd3c2debd262babea556faf9b735788daff33e42732d8e",
+    "normalizedCodeHash": "543b3257a058cd77e8fd3c2debd262babea556faf9b735788daff33e42732d8e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:28:31.756896+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

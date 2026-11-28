@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000785",
+  "problemId": "P000785",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000785",
+    "title": "Find Pivot Index",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array, return the leftmost pivot index where the sum of all elements to the left equals the sum of all elements to the right. If no such index exists, return -1.",
+    "input": "Integer n Array nums",
+    "output": "The pivot index or -1.",
+    "constraints": "1 <= n <= 10^5 -1000 <= nums[i] <= 1000"
+  },
+  "repository": {
+    "name": "dev-bhaveshye/LEETCODE",
+    "owner": "dev-bhaveshye",
+    "url": "https://github.com/dev-bhaveshye/LEETCODE",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "PivotIndex.java",
+    "fileSHA": "3b4f6ecf20ecce39867879e6689e2cd9c8eebedf",
+    "url": "https://github.com/dev-bhaveshye/LEETCODE/blob/4afca9fe439f33705a358fe66bcff5c1e296ce2c/PivotIndex.java",
+    "rawUrl": "https://raw.githubusercontent.com/dev-bhaveshye/LEETCODE/main/PivotIndex.java"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a194e80a9b98413c3c792adcf70b3640163dd606a905193868e2cbe857294b8a",
+    "normalizedCodeHash": "a194e80a9b98413c3c792adcf70b3640163dd606a905193868e2cbe857294b8a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:36:03.813372+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

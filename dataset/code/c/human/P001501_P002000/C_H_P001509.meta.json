@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001509",
+  "problemId": "P001509",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001509",
+    "title": "Longest Subarray of Ones After Deleting One Element",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary array, delete exactly one element and determine the length of the longest contiguous subarray containing only ones.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N binary integers.",
+    "output": "Print the maximum possible length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "lrmsspace/Knowledge-Augmented-Codegen",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "evaluation/S1/c/Medium/1264-longest-subarray-of-1s-after-deleting-one-element.c",
+    "fileSHA": "2f0f987ca1adc94c8f8841d27691fac2dd71d5b3",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen/blob/aa02d0f7c87de0b9a725c85dfb03746289785175/evaluation/S1/c/Medium/1264-longest-subarray-of-1s-after-deleting-one-element.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/Knowledge-Augmented-Codegen/main/evaluation/S1/c/Medium/1264-longest-subarray-of-1s-after-deleting-one-element.c"
+  },
+  "matching": {
+    "relevanceScore": 90.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7a177a3ae06b6bf0ff7a9543c49b86645c823bea7a2be354465b7432b8f4de05",
+    "normalizedCodeHash": "7a177a3ae06b6bf0ff7a9543c49b86645c823bea7a2be354465b7432b8f4de05",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T00:10:25.370713+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

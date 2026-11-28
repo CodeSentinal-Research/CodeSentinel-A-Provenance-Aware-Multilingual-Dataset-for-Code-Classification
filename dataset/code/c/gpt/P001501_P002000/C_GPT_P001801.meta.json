@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001801",
+  "problemId": "P001801",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001801",
+    "title": "Convert a Binary Search Tree into a Sorted Doubly Linked List",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree, convert it into a sorted doubly linked list by reusing the existing nodes.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST.",
+    "output": "• Print the resulting doubly linked list.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001801.c",
+    "fileSHA": "abb253e3a11777b2de28295ce736542bfe7125f4e329113a226b645a3f36f5db",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.699Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "ed773d560f0d08c71fd8fc5c5264ab69c805ff3f6aa8c6b03ef80f2c63fd5b71",
+    "normalizedCodeHash": "abb253e3a11777b2de28295ce736542bfe7125f4e329113a226b645a3f36f5db",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.699Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

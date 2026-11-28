@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000842",
+  "problemId": "P000842",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000842",
+    "title": "Maximum Value at a Given Index in a Bounded Array",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Construct an array of length n consisting of positive integers such that: Adjacent elements differ by at most 1. The sum of all elements does not exceed maxSum. Return the maximum possible value at the given index.",
+    "input": "Integer n Integer index Integer maxSum",
+    "output": "The maximum possible value.",
+    "constraints": "1 <= n <= 10^9 0 <= index < n n <= maxSum <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000842.py",
+    "fileSHA": "a80a161de0e8eb7f85b1b6bb8bbad5972b671cec0610137ffe8929034b1f4c1b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.254936+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a80a161de0e8eb7f85b1b6bb8bbad5972b671cec0610137ffe8929034b1f4c1b",
+    "normalizedCodeHash": "f73b0a86593332a79f89031c17aee00ad7ba0f4f3ef2fe5fc8bfb5463de1da16",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.254936+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

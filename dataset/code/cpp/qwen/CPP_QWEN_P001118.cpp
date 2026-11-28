@@ -1,0 +1,3 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){int n;cin>>n;vector<string>w(n);for(int i=0;i<n;i++)cin>>w[i];unordered_map<char,unordered_set<char>>adj;unordered_map<char,int>in;for(int i=0;i<n-1;i++){for(int j=0;j<min(w[i].size(),w[i+1].size());j++){if(w[i][j]!=w[i+1][j]){if(!adj[w[i][j]].count(w[i+1][j])){adj[w[i][j]].insert(w[i+1][j]);in[w[i+1][j]]++;}break;}}}string res="";queue<char>q;for(char c='a';c<='z';c++)if(in[c]==0&&(!adj.empty()||in.count(c)))q.push(c);while(!q.empty()){char u=q.front();q.pop();res+=u;for(char v:adj[u])if(--in[v]==0)q.push(v);}cout<<(res.size()==in.size()?res:"IMPOSSIBLE")<<endl;return 0;}

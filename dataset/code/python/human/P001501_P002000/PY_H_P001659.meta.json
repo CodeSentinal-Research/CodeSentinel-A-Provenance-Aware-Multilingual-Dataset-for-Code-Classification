@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001659",
+  "problemId": "P001659",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001659",
+    "title": "Populate Next Right Pointers in Each Node",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, connect every node to its immediate neighbor on the same level using a next pointer. If no such neighbor exists, the next pointer must be set to null.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the value of the next pointer for every node in level order.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5________________________________________"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0100-0199/0116.Populating Next Right Pointers in Each Node/Solution.py",
+    "fileSHA": "36296bdc60a9a49b81b6cb25dda4e323d675c4fd",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0100-0199/0116.Populating Next Right Pointers in Each Node/Solution.py",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0100-0199/0116.Populating Next Right Pointers in Each Node/Solution.py"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d181e081e32eb38dbde8b5f98ed497541178a4db2e1e91740ceafb400c767b2b",
+    "normalizedCodeHash": "d181e081e32eb38dbde8b5f98ed497541178a4db2e1e91740ceafb400c767b2b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:37.971243+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

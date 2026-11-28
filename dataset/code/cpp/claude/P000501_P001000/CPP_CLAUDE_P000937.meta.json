@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000937",
+  "problemId": "P000937",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000937",
+    "title": "Matrix Exponentiation",
+    "category": "Mathematics - Matrix Mathematics",
+    "difficulty": "Hard",
+    "problemStatement": "Given a square matrix A of size N × N and a non-negative integer K, compute A^K.",
+    "input": "Integer N Integer K Matrix A",
+    "output": "The matrix A raised to the power K.",
+    "constraints": "1 <= N <= 50 0 <= K <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000937",
+    "fileSHA": "77bf463ded5cfed2b0bbef012462a00ddc4c729257a79d2ffe0c864117fc2258",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "77bf463ded5cfed2b0bbef012462a00ddc4c729257a79d2ffe0c864117fc2258",
+    "normalizedCodeHash": "77bf463ded5cfed2b0bbef012462a00ddc4c729257a79d2ffe0c864117fc2258",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000937"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

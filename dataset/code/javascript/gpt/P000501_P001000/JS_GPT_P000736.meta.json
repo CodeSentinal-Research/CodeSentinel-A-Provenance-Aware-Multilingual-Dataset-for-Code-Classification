@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000736",
+  "problemId": "P000736",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000736",
+    "title": "K-th Symbol in Grammar",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "The first row contains a single symbol 0. Each 0 generates 01, and each 1 generates 10 in the next row. Given integers N and K, return the K-th symbol in the N-th row.",
+    "input": "Integer N Integer K",
+    "output": "The K-th symbol.",
+    "constraints": "1 <= N <= 30 1 <= K <= 2^(N-1)"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000736.js",
+    "fileSHA": "8cb50059b6a3aa172499fd536d51a207d16ff9304d28098d384c2fc08381850a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8cb50059b6a3aa172499fd536d51a207d16ff9304d28098d384c2fc08381850a",
+    "normalizedCodeHash": "8cb50059b6a3aa172499fd536d51a207d16ff9304d28098d384c2fc08381850a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

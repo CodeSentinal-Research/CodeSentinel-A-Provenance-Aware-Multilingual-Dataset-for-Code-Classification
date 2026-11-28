@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001563",
+  "problemId": "P001563",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001563",
+    "title": "Longest Subarray With Absolute Difference Within Limit",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and an integer Limit, determine the length of the longest contiguous subarray such that the absolute difference between the maximum and minimum elements in the subarray does not exceed Limit.",
+    "input": "• First line contains N and Limit. • Second line contains N integers.",
+    "output": "• Print the maximum length.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • -10^9 ≤ Ai ≤ 10^9 • 0 ≤ Limit ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001501_P002000/JS_GPT_P001563.js",
+    "fileSHA": "f70c05e4232f0fdfdafea0e92f0f901cffc7c8249c8f2af371cbbd8bc9b37431",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f70c05e4232f0fdfdafea0e92f0f901cffc7c8249c8f2af371cbbd8bc9b37431",
+    "normalizedCodeHash": "f70c05e4232f0fdfdafea0e92f0f901cffc7c8249c8f2af371cbbd8bc9b37431",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

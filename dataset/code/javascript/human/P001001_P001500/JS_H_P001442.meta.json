@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001442",
+  "problemId": "P001442",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001442",
+    "title": "Find Duplicate Files by Content",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "You are given file paths along with their contents. Group together all files that have identical contents.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain a file path followed by its content.",
+    "output": "Print each group of duplicate file paths.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "stonewolfpc/SWEObeyMe",
+    "owner": "stonewolfpc",
+    "url": "https://github.com/stonewolfpc/SWEObeyMe",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "lib/file-registry/file-duplicate-detector.js",
+    "fileSHA": "190c5fac589c0ac06b024621f9fee4b5b2014286",
+    "url": "https://github.com/stonewolfpc/SWEObeyMe/blob/e1a63a56f552921934c3f92e7f4a65cc19e2f80f/lib/file-registry/file-duplicate-detector.js",
+    "rawUrl": "https://raw.githubusercontent.com/stonewolfpc/SWEObeyMe/main/lib/file-registry/file-duplicate-detector.js"
+  },
+  "matching": {
+    "relevanceScore": 65.0
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "edce75d0334ff259505fd1428ce8ad3cc9e47f1a7946664fe4eb2999e801f9ec",
+    "normalizedCodeHash": "edce75d0334ff259505fd1428ce8ad3cc9e47f1a7946664fe4eb2999e801f9ec",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:14:45.442341+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

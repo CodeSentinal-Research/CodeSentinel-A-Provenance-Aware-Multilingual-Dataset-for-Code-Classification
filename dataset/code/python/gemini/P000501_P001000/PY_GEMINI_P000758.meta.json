@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000758",
+  "problemId": "P000758",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000758",
+    "title": "Count Inversions Using Recursive Merge Sort",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers, count the number of inversions in the array using a recursive Merge Sort approach. An inversion is a pair of indices (i, j) such that: i < j nums[i] > nums[j]",
+    "input": "Integer n Array nums",
+    "output": "The total number of inversions.",
+    "constraints": "1 <= n <= 2 \u00d7 10^5 -10^9 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000758",
+    "fileSHA": "1590c436dee1d7276f7065470f9c22d720d0c1174f838785fa49d69b05faaec6",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T17:13:51.321880+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1590c436dee1d7276f7065470f9c22d720d0c1174f838785fa49d69b05faaec6",
+    "normalizedCodeHash": "1590c436dee1d7276f7065470f9c22d720d0c1174f838785fa49d69b05faaec6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T17:13:51.321899+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

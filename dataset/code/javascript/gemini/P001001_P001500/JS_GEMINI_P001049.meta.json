@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001049",
+  "problemId": "P001049",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001049",
+    "title": "Replace Multiple Keys in a Heap",
+    "category": "Heap",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary heap and Q update operations, replace the specified keys and restore the heap property after each operation.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Second line contains N integers. \u2022 Next Q lines contain an index and a new value.",
+    "output": "Print the final heap.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001049",
+    "fileSHA": "a26b8706b53a5f0f5324ba2cec9ff9784654b33de5249a8b0a56592e775137ff",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:39:42.469200+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a26b8706b53a5f0f5324ba2cec9ff9784654b33de5249a8b0a56592e775137ff",
+    "normalizedCodeHash": "a26b8706b53a5f0f5324ba2cec9ff9784654b33de5249a8b0a56592e775137ff",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:39:42.469243+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000232",
+  "problemId": "P000232",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000232",
+    "title": "Find Median in Row-wise Sorted Matrix",
+    "category": "Arrays",
+    "difficulty": "Hard",
+    "problemStatement": "Write a program that finds the median of a row-wise sorted matrix of odd dimensions.",
+    "input": "First line contains rows and cols (both odd). Next rows lines contain the matrix.",
+    "output": "The median.",
+    "constraints": "1 ≤ rows, cols ≤ 50 (odd)"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000232.c",
+    "fileSHA": "d83666877c6935e357b78a8fd506efe33f93dd5b66d01882d174201b24bfc041",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d83666877c6935e357b78a8fd506efe33f93dd5b66d01882d174201b24bfc041",
+    "normalizedCodeHash": "d83666877c6935e357b78a8fd506efe33f93dd5b66d01882d174201b24bfc041",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

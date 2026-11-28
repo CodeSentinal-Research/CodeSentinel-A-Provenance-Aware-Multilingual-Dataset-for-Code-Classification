@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000529",
+  "problemId": "P000529",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000529",
+    "title": "Implement Queue Using Arrays",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Implement a queue using a fixed-size array. The queue should support the following operations: enqueue(x) \u2014 Insert an element at the rear. dequeue() \u2014 Remove and return the front element. front() \u2014 Return the front element without removing it. isEmpty() \u2014 Return whether the queue is empty. Process a sequence of operations and print the result of every dequeue(), front(), and isEmpty() operation.",
+    "input": "Integer capacity Integer q Next q lines each contain one operation.",
+    "output": "Print the output for every dequeue(), front(), and isEmpty() operation.",
+    "constraints": "1 <= capacity <= 10^5 1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "anirudhuuu/dsa",
+    "owner": "anirudhuuu",
+    "url": "https://github.com/anirudhuuu/dsa",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "stacks_queues/implementation/ArrayQueue02.java",
+    "fileSHA": "c5908b098f66688e1779a41122a9f6792722853c",
+    "url": "https://github.com/anirudhuuu/dsa/blob/cdaab67d8e02bbe9c42f276a86e4834de4f25599/stacks_queues/implementation/ArrayQueue02.java",
+    "rawUrl": "https://raw.githubusercontent.com/anirudhuuu/dsa/main/stacks_queues/implementation/ArrayQueue02.java"
+  },
+  "matching": {
+    "relevanceScore": 67.14
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "679a12f74798ebe2b200fde20945c11703aef57f07e3b0588e982bde15ede9bc",
+    "normalizedCodeHash": "679a12f74798ebe2b200fde20945c11703aef57f07e3b0588e982bde15ede9bc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:23:03.066189+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

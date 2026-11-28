@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000813",
+  "problemId": "P000813",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000813",
+    "title": "Integer Square Root",
+    "category": "Binary Search",
+    "difficulty": "Easy",
+    "problemStatement": "Given a non-negative integer x, return the integer part of its square root. The returned value should be the largest integer whose square is less than or equal to x.",
+    "input": "Integer x",
+    "output": "The integer square root.",
+    "constraints": "0 <= x <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000813",
+    "fileSHA": "82ac10a9a08f8c84f6f6b8b9a077c16989e39dc510a50453a820930667bd6805",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "82ac10a9a08f8c84f6f6b8b9a077c16989e39dc510a50453a820930667bd6805",
+    "normalizedCodeHash": "82ac10a9a08f8c84f6f6b8b9a077c16989e39dc510a50453a820930667bd6805",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique solution P000813: Integer Square Root"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

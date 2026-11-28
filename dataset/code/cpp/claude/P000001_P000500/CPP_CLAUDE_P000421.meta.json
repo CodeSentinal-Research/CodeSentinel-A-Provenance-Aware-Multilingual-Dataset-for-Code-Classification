@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000421",
+  "problemId": "P000421",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000421",
+    "title": "Search Expired Memberships",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find all memberships whose expiry date has already passed.",
+    "input": "Membership records and the current date.",
+    "output": "Expired memberships.",
+    "constraints": "1 ≤ Number of Memberships ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000421",
+    "fileSHA": "cc19862c3a956e0a587f50c84aeafb346b4c37a0f30581a0b5b353b19f29821a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cc19862c3a956e0a587f50c84aeafb346b4c37a0f30581a0b5b353b19f29821a",
+    "normalizedCodeHash": "cc19862c3a956e0a587f50c84aeafb346b4c37a0f30581a0b5b353b19f29821a",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000421: Search Expired Memberships"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

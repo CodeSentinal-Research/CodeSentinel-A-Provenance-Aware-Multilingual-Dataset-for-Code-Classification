@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001361",
+  "problemId": "P001361",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001361",
+    "title": "Stickers to Spell Word",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given a collection of stickers containing lowercase English letters and a target word, determine the minimum number of stickers required to form the target word. Each sticker may be used multiple times.",
+    "input": "• First line contains integer N. • Next N lines contain sticker strings. • Last line contains the target word.",
+    "output": "Print the minimum number of stickers required, or -1 if impossible.",
+    "constraints": "• 1 ≤ N ≤ 50 • Sticker length ≤ 15 • Target length ≤ 15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001361.py",
+    "fileSHA": "40abc70adf83279e8e3b2386b1301eb0b62855c49e6bc5a31d43663cd9aa583d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.440030+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "40abc70adf83279e8e3b2386b1301eb0b62855c49e6bc5a31d43663cd9aa583d",
+    "normalizedCodeHash": "afefea40ca8f5aecd56169884292eb2e809a453963e0018c65d600b88f1c9eac",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.440030+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

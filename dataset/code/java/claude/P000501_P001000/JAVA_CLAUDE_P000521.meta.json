@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000521",
+  "problemId": "P000521",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000521",
+    "title": "Increasing Order Removal",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an array of integers. Repeatedly remove elements from left to right while maintaining a strictly increasing sequence in the current pass. Elements that cannot be removed in the current pass remain for the next pass. Determine the minimum number of passes required to remove all elements.",
+    "input": "Integer n Array nums",
+    "output": "A single integer representing the minimum number of passes.",
+    "constraints": "1 <= n <= 2 × 10^5 1 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000521",
+    "fileSHA": "17c5a3f058ea42edef4bb0177ca986db208be976bcecf06159be09e6d77279c4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "17c5a3f058ea42edef4bb0177ca986db208be976bcecf06159be09e6d77279c4",
+    "normalizedCodeHash": "17c5a3f058ea42edef4bb0177ca986db208be976bcecf06159be09e6d77279c4",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000521: Increasing Order Removal"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000492",
+  "problemId": "P000492",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000492",
+    "title": "Simplify Unix Path",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given an absolute Unix-style file path, simplify it according to the following rules: \".\" refers to the current directory. \"..\" moves to the parent directory. Multiple consecutive slashes are treated as a single slash. The simplified path must start with a single slash and contain no trailing slash unless it is the root directory. Return the canonical path.",
+    "input": "A string representing the absolute path.",
+    "output": "The simplified path.",
+    "constraints": "1 <= path.length <= 3000"
+  },
+  "repository": {
+    "name": "pezy/LeetCode",
+    "owner": "pezy",
+    "url": "https://github.com/pezy/LeetCode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "070. Simplify Path/solution.h",
+    "fileSHA": "fbf6bdc5887eb3fa841fd8037636f2c2c3096d19",
+    "url": "https://github.com/pezy/LeetCode/blob/master/070. Simplify Path/solution.h",
+    "rawUrl": "https://raw.githubusercontent.com/pezy/LeetCode/master/070. Simplify Path/solution.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "bb6b859f5168334f3ffe13d362336d16744f77eea58ca88c22fefdb8a4338493",
+    "normalizedCodeHash": "bb6b859f5168334f3ffe13d362336d16744f77eea58ca88c22fefdb8a4338493",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:20.982301+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

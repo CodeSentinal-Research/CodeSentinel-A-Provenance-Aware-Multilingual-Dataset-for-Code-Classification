@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001626",
+  "problemId": "P001626",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001626",
+    "title": "Maximum Side Length of Square With Sum Less Than Threshold",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M matrix of non-negative integers and an integer Threshold, determine the side length of the largest square submatrix whose sum is less than or equal to Threshold.",
+    "input": "\u2022 First line contains N, M, and Threshold. \u2022 Next N lines each contain M non-negative integers.",
+    "output": "\u2022 Print the maximum side length.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 1000 \u2022 0 \u2264 Aij \u2264 10^4 \u2022 0 \u2264 Threshold \u2264 10^15"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/0279-perfect-squares.c",
+    "fileSHA": "2a0d8d4ff92a8d8d47bcc53371c554ae956e2be3",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/c/0279-perfect-squares.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/0279-perfect-squares.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ed46c65750ade5433fd41df559fd4cdd25dcf87b0f81fe8e7edc1f468ebb605a",
+    "normalizedCodeHash": "ed46c65750ade5433fd41df559fd4cdd25dcf87b0f81fe8e7edc1f468ebb605a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:29:12.156265+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000621",
+  "problemId": "P000621",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000621",
+    "title": "Remove Elements Greater Than Threshold",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a singly linked list and an integer threshold, remove every node whose value is greater than threshold. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer threshold",
+    "output": "The modified linked list.",
+    "constraints": "0 <= n <= 10^5 -10^9 <= node.value <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000621.py",
+    "fileSHA": "c67107ac6f01a4510b88065a81a33e5cf4b9d96091d03e43649aac98465b6730",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.454230+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c67107ac6f01a4510b88065a81a33e5cf4b9d96091d03e43649aac98465b6730",
+    "normalizedCodeHash": "7d66b64cb94c1ba1640b9d9d3eb562cce8b4be24f88a99fda7f1d8920ea2187b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.454230+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

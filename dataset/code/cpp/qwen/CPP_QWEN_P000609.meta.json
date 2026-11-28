@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000609",
+  "problemId": "P000609",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000609",
+    "title": "Remove Zero Sum Consecutive Nodes from Linked List",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a singly linked list, repeatedly remove every consecutive sequence of nodes whose values sum to zero. Continue this process until no such sequence exists. Return the head of the resulting linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 1000 -1000 <= node.value <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000609",
+    "fileSHA": "200a82bc928912d6acdec766c0ae009e65d1b96a1199f4a2306318fea65cfb92",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.319Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a6024bb156582c586bb4f7591c7474f719ff5cb6b467f7a3db0dbf42e72cf65a",
+    "normalizedCodeHash": "ba3bcd1451eeac10d5eda02465ef9b4e5ab6a195c15ae814930d5a14483454c9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.319Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

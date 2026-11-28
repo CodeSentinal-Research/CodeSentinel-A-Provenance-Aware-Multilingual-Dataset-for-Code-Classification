@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001671",
+  "problemId": "P001671",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001671",
+    "title": "Morris Inorder Traversal",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, perform an inorder traversal without using recursion, an explicit stack, or modifying the final structure of the tree. The algorithm must restore the original tree after traversal.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the inorder traversal.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001671.c",
+    "fileSHA": "1acb52ffda94fa4d29c6e526949e94702f45a82e8c1300324995720dffff526a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.189Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "b3432732300c61c5d4109785710042be659b0a769730f01dd177caff38018291",
+    "normalizedCodeHash": "1acb52ffda94fa4d29c6e526949e94702f45a82e8c1300324995720dffff526a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.189Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

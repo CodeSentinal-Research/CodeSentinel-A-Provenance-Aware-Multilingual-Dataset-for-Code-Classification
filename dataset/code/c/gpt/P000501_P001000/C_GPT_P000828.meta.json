@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000828",
+  "problemId": "P000828",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000828",
+    "title": "Find Right Interval",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given a list of intervals. For each interval, find another interval whose start point is the smallest value greater than or equal to the current interval's end point. If no such interval exists, return -1 for that interval.",
+    "input": "Integer n Array intervals, where each interval is represented as [start, end]",
+    "output": "An array of indices representing the right interval for every interval.",
+    "constraints": "1 <= n <= 2 × 10^5 All interval start values are unique."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000828.c",
+    "fileSHA": "51da8c3aff860f43d814944a14aa6a52959f94789c52db45139cbe14ba2f9f8e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "51da8c3aff860f43d814944a14aa6a52959f94789c52db45139cbe14ba2f9f8e",
+    "normalizedCodeHash": "51da8c3aff860f43d814944a14aa6a52959f94789c52db45139cbe14ba2f9f8e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

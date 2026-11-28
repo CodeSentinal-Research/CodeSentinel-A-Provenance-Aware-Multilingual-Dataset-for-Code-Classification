@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000755",
+  "problemId": "P000755",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000755",
+    "title": "Generate All Valid Abbreviations of a Word",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a word, generate all generalized abbreviations by replacing any number of consecutive characters with their count. Print all valid abbreviations in lexicographical order.",
+    "input": "String word",
+    "output": "All valid abbreviations.",
+    "constraints": "1 <= |word| <= 15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000755.c",
+    "fileSHA": "e66583edb30f65703ff85b1943947ab1c20be194db44e26b8882b87e46ea4e6d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e66583edb30f65703ff85b1943947ab1c20be194db44e26b8882b87e46ea4e6d",
+    "normalizedCodeHash": "e66583edb30f65703ff85b1943947ab1c20be194db44e26b8882b87e46ea4e6d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

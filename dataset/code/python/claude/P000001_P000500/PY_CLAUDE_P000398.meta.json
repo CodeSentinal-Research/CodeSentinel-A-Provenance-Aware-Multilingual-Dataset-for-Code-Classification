@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000398",
+  "problemId": "P000398",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000398",
+    "title": "Search Vehicles by Manufacturer",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find all vehicles manufactured by the specified company.",
+    "input": "Vehicle records and a manufacturer name.",
+    "output": "Matching vehicle records.",
+    "constraints": "1 ≤ Number of Vehicles ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000398",
+    "fileSHA": "9930c6774fbda0b828b5fd86e0036daf95d7d195b8e3279214167e59723de6f1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9930c6774fbda0b828b5fd86e0036daf95d7d195b8e3279214167e59723de6f1",
+    "normalizedCodeHash": "9930c6774fbda0b828b5fd86e0036daf95d7d195b8e3279214167e59723de6f1",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000398: Search Vehicles by Manufacturer"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

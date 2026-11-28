@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000493",
+  "problemId": "P000493",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000493",
+    "title": "Remove K Digits",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given a non-negative integer represented as a string num and an integer k, remove exactly k digits so that the remaining number is the smallest possible. Return the resulting number as a string. If the result is empty, return \"0\".",
+    "input": "String num Integer k",
+    "output": "The smallest possible number after removing exactly k digits.",
+    "constraints": "1 <= num.length <= 10^5 0 <= k <= num.length"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/mathematical_algorithms/src/sum_of_digits/sum_of_digits_with_recursion.c",
+    "fileSHA": "884e3ba9af7d02776eafec9cd57ea888b52b2b1c",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/mathematical_algorithms/src/sum_of_digits/sum_of_digits_with_recursion.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/mathematical_algorithms/src/sum_of_digits/sum_of_digits_with_recursion.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2e08705fdd97cfabe5bdf2df1bc6b925edce288d515772db95920b6d8363c388",
+    "normalizedCodeHash": "2e08705fdd97cfabe5bdf2df1bc6b925edce288d515772db95920b6d8363c388",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:08.558812+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

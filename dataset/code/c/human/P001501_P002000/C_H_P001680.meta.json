@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001680",
+  "problemId": "P001680",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001680",
+    "title": "Largest Value in Every Tree Row",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the largest value present at every level of the tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the largest value for each level from top to bottom.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 \u221210^9 \u2264 NodeValue \u2264 10^9________________________________________"
+  },
+  "repository": {
+    "name": "php/php-src",
+    "owner": "php",
+    "url": "https://github.com/php/php-src",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "ext/lexbor/lexbor/html/tree/insertion_mode/in_row.c",
+    "fileSHA": "e53e9bb0ce9d3fe3e9a80beb8a84d69f1fe56bb1",
+    "url": "https://github.com/php/php-src/blob/master/ext/lexbor/lexbor/html/tree/insertion_mode/in_row.c",
+    "rawUrl": "https://raw.githubusercontent.com/php/php-src/master/ext/lexbor/lexbor/html/tree/insertion_mode/in_row.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "bf28a428a54a4bb49ffc3ada4d8120f4a8387b292b8bfd284d84565482ca7ce6",
+    "normalizedCodeHash": "bf28a428a54a4bb49ffc3ada4d8120f4a8387b292b8bfd284d84565482ca7ce6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T18:12:00.891775+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

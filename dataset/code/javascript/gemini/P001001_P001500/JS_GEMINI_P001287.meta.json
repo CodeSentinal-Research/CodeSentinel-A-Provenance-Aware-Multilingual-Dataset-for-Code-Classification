@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001287",
+  "problemId": "P001287",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001287",
+    "title": "Divide Chocolate",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "A chocolate bar is represented by an array of sweetness values. Divide it into K+1 contiguous pieces by making exactly K cuts. Maximize the minimum sweetness among all pieces.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers representing sweetness values.",
+    "output": "Print the maximum possible minimum sweetness.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001287",
+    "fileSHA": "1d867fa64fc3595463598bce219d2e17311bee48bc7f37f85a8a7355d0211792",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:19:59.395428+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1d867fa64fc3595463598bce219d2e17311bee48bc7f37f85a8a7355d0211792",
+    "normalizedCodeHash": "1d867fa64fc3595463598bce219d2e17311bee48bc7f37f85a8a7355d0211792",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:19:59.395461+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000627",
+  "problemId": "P000627",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000627",
+    "title": "Reverse a Doubly Linked List in Groups of K",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a doubly linked list and an integer k, reverse the nodes of the list in groups of size k. If the number of remaining nodes is less than k, leave them unchanged. Return the head of the modified doubly linked list.",
+    "input": "Integer n Doubly linked list Integer k",
+    "output": "The modified doubly linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000627",
+    "fileSHA": "83f0c90f221fcd4fc7570fb97853b1d7e4079a8d81a9e138e99bb2fc2c469eba",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "83f0c90f221fcd4fc7570fb97853b1d7e4079a8d81a9e138e99bb2fc2c469eba",
+    "normalizedCodeHash": "83f0c90f221fcd4fc7570fb97853b1d7e4079a8d81a9e138e99bb2fc2c469eba",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000627"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001442",
+  "problemId": "P001442",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001442",
+    "title": "Find Duplicate Files by Content",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "You are given file paths along with their contents. Group together all files that have identical contents.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain a file path followed by its content.",
+    "output": "Print each group of duplicate file paths.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001442",
+    "fileSHA": "4da05d6469b4df1846297f8da33ea03b7f70e6836d1848038076d16c86c41feb",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:26:13.714727+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4da05d6469b4df1846297f8da33ea03b7f70e6836d1848038076d16c86c41feb",
+    "normalizedCodeHash": "4da05d6469b4df1846297f8da33ea03b7f70e6836d1848038076d16c86c41feb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:26:13.714751+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

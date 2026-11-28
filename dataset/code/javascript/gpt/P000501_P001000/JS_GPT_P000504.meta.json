@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000504",
+  "problemId": "P000504",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000504",
+    "title": "Exclusive Time of Functions",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "A single-threaded CPU executes n functions identified by IDs from 0 to n-1. Execution logs are provided in the format: function_id:start_or_end:timestamp A function may call another function before finishing. Return the exclusive execution time of each function, excluding the time spent executing child functions.",
+    "input": "Integer n Integer m Array of m log strings.",
+    "output": "An array of n integers representing the exclusive execution time of each function.",
+    "constraints": "1 <= n <= 100 1 <= m <= 500 Logs are valid and sorted by timestamp."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000504.js",
+    "fileSHA": "3941bd3ac4ab6ea7693e69757f7ac494f3cb4e0f445090167ffaec80a645cc74",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3941bd3ac4ab6ea7693e69757f7ac494f3cb4e0f445090167ffaec80a645cc74",
+    "normalizedCodeHash": "3941bd3ac4ab6ea7693e69757f7ac494f3cb4e0f445090167ffaec80a645cc74",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

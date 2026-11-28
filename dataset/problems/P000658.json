@@ -1,0 +1,10 @@
+{
+  "problemId": "P000658",
+  "title": "Browser History with Multiple Windows",
+  "category": "Linked List",
+  "difficulty": "Hard",
+  "problemStatement": "Design a browser system that supports multiple independent browser windows. Each window maintains its own browsing history and supports: visit(windowId, url) back(windowId, steps) forward(windowId, steps) newWindow(homepage) closeWindow(windowId) currentPage(windowId) Process a sequence of operations and print the result for every currentPage(), back(), and forward() operation.",
+  "input": "Integer q Next q operations",
+  "output": "Print the required results after each query operation.",
+  "constraints": "1 <= q <= 2 \u00d7 10^5 Total number of simultaneously open windows does not exceed 10^5"
+}

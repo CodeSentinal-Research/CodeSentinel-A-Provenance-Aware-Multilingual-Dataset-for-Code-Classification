@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000585",
+  "problemId": "P000585",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000585",
+    "title": "Reorder Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given a singly linked list: L0 \u2192 L1 \u2192 \u2026 \u2192 Ln Reorder it into: L0 \u2192 Ln \u2192 L1 \u2192 Ln-1 \u2192 L2 \u2192 Ln-2 \u2192 ... Modify the list in-place.",
+    "input": "Integer n Linked list",
+    "output": "The reordered linked list.",
+    "constraints": "1 <= n <= 5 \u00d7 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000585",
+    "fileSHA": "2b5e7920765f77364785cd62ed247f1f1accc585f6b3970301b0c17836c2b6da",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:25:40.053Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "13cefbb700b24bf469eb8f86bfcb68897e27cabbddca26414f7de7af1eeef11d",
+    "normalizedCodeHash": "f139198ec5a24208788ae6bfaf33da7f3c20cac52675c36c8d362c061c1aec94",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:25:40.053Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

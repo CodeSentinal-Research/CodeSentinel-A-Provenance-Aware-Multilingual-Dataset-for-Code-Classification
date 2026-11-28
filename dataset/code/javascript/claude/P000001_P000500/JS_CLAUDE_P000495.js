@@ -1,0 +1,1 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const n=+l[0];const stk=[];for(let i=1;i<=n;i++){const p=+l[i];let span=1;while(stk.length&&stk[stk.length-1][0]<=p)span+=stk.pop()[1];stk.push([p,span]);console.log(span);}

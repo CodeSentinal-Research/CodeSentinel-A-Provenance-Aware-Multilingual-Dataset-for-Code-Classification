@@ -1,0 +1,59 @@
+{
+  "solutionId": "Java_QWEN_P001687",
+  "problemId": "P001687",
+  "language": "java",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001687",
+    "title": "Flip Equivalent Binary Trees",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the roots of two binary trees, determine whether one tree can be transformed into the other by repeatedly swapping the left and right children of any number of nodes.",
+    "input": "\u2022 The first line contains N\u2081. \u2022 The next N\u2081 lines describe the first binary tree. \u2022 The following line contains N\u2082. \u2022 The next N\u2082 lines describe the second binary tree.",
+    "output": "\u2022 Print YES if the two trees are flip equivalent; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N\u2081, N\u2082 \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/Java_QWEN_P001687",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

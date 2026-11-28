@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001212",
+  "problemId": "P001212",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001212",
+    "title": "Boolean Parenthesization",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given a boolean expression consisting of T, F, and the operators &, |, ^, determine the number of ways to parenthesize the expression so that it evaluates to True.",
+    "input": "\u2022 First line contains the boolean expression.",
+    "output": "Print the number of valid parenthesizations.",
+    "constraints": "\u2022 1 \u2264 Length of expression \u2264 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001212",
+    "fileSHA": "a441ac4b186057c5e105337a2bed27d606d86b4c784665dc6c27eda9c5e5785d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:15:25.114792+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a441ac4b186057c5e105337a2bed27d606d86b4c784665dc6c27eda9c5e5785d",
+    "normalizedCodeHash": "a441ac4b186057c5e105337a2bed27d606d86b4c784665dc6c27eda9c5e5785d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:15:25.114816+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000804",
+  "problemId": "P000804",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000804",
+    "title": "Count Subarrays with XOR Equal to K",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array nums and an integer K, return the number of contiguous subarrays whose bitwise XOR equals K.",
+    "input": "Integer n Array nums Integer K",
+    "output": "The number of valid subarrays.",
+    "constraints": "1 <= n <= 2 × 10^5 0 <= nums[i], K <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000804.py",
+    "fileSHA": "35527b85aae28b93aee419dbfb2977abeb7872f6d461ec06dcebe87dfeedbcf9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.111155+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "35527b85aae28b93aee419dbfb2977abeb7872f6d461ec06dcebe87dfeedbcf9",
+    "normalizedCodeHash": "ad3a9c0b4bfeae68404df7dd4c306b3dea529050af38320fb48f7709e10995fb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.111155+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

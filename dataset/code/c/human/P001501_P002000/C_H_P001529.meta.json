@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001529",
+  "problemId": "P001529",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001529",
+    "title": "Count Subarrays With Exactly K Distinct Elements",
+    "category": "Two Pointers",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array and an integer K, count the number of contiguous subarrays containing exactly K distinct elements.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the total number of valid subarrays.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "eakarsu/ccompiler",
+    "owner": "eakarsu",
+    "url": "https://github.com/eakarsu/ccompiler",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "tests/integration/test_080_sliding_window.c",
+    "fileSHA": "7c9d77fa0f4a67a2194a905ba4336b75728519a3",
+    "url": "https://github.com/eakarsu/ccompiler/blob/e9ffd444ba77cbcbdfacadd4df564536db769af8/tests/integration/test_080_sliding_window.c",
+    "rawUrl": "https://raw.githubusercontent.com/eakarsu/ccompiler/main/tests/integration/test_080_sliding_window.c"
+  },
+  "matching": {
+    "relevanceScore": 65.18
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "af24e609cb55debe15b748d0af1e5caab5c0bd81c62bca661f11d4df6458a4cb",
+    "normalizedCodeHash": "af24e609cb55debe15b748d0af1e5caab5c0bd81c62bca661f11d4df6458a4cb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T19:13:47.799542+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "solutionId": "JAVA_H_P000508",
+  "problemId": "P000508",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000508",
+    "title": "Number of Visible People in a Queue",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "There are n people standing in a queue, each having a distinct height. For every person, determine how many people to their right are visible. A person j is visible to person i if: j > i Every person between i and j has a height smaller than both person i and person j. Return an array where the i-th element is the number of people visible to the right of person i.",
+    "input": "Integer n Array heights",
+    "output": "An array of n integers.",
+    "constraints": "1 <= n <= 10^5 1 <= heights[i] <= 10^5 All heights are distinct."
+  },
+  "repository": {
+    "name": "ttma1046/Algorithms-CC",
+    "owner": "ttma1046",
+    "url": "https://github.com/ttma1046/Algorithms-CC",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "java/human/P000501_P001000/JAVA_H_P000508.java",
+    "fileSHA": "a82ae947d037a3c5ce3fb48b9dbb67d1c2b9601f",
+    "url": "https://github.com/ttma1046/Algorithms-CC/blob/dc80f3ec9c68a8296232ee8cd26555730d13499c/src/monotonicstack/Number_of_Visible_People_in_a_Queue_1944.java",
+    "rawUrl": "https://raw.githubusercontent.com/ttma1046/Algorithms-CC/main/src/monotonicstack/Number_of_Visible_People_in_a_Queue_1944.java"
+  },
+  "matching": {
+    "relevanceScore": 82.6
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2022-05-29T10:00:14Z",
+    "lastCommitDate": "2022-05-29T10:00:14Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Chandler"
+    ],
+    "firstKnownAuthor": "Chandler",
+    "latestKnownAuthor": "Chandler"
+  },
+  "deduplication": {
+    "rawCodeHash": "458d49b9d281c92e505447e164a38c52c84490dd1441b197721aeae5ca352871",
+    "normalizedCodeHash": "458d49b9d281c92e505447e164a38c52c84490dd1441b197721aeae5ca352871",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:03:29.529173+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

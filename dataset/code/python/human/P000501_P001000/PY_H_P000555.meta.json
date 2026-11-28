@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P000555",
+  "problemId": "P000555",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000555",
+    "title": "Minimum Reverse Operations",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given: An integer n A starting index p A list of banned indices An integer k Initially, a token is placed at index p. In one operation, you may reverse any contiguous subarray of length k containing the token. The token moves to its new position after the reversal. Determine the minimum number of operations required to reach every index. Return -1 for unreachable indices or banned indices.",
+    "input": "Integer n Integer p Integer b Array banned Integer k",
+    "output": "An array of length n where the i-th element is the minimum number of operations required to reach index i.",
+    "constraints": "1 <= n <= 10^5 0 <= p < n 1 <= k <= n"
+  },
+  "repository": {
+    "name": "joric/oneliners",
+    "owner": "joric",
+    "url": "https://github.com/joric/oneliners",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000555.py",
+    "fileSHA": "e7a626c0a8aa17cf5c675b8496e514365a2af6a9",
+    "url": "https://github.com/joric/oneliners/blob/75596d9c555bf700fac663aa7b2963e8a5a4f2be/leetcode/2612.minimum-reverse-operations.py",
+    "rawUrl": "https://raw.githubusercontent.com/joric/oneliners/main/leetcode/2612.minimum-reverse-operations.py"
+  },
+  "matching": {
+    "relevanceScore": 79.63
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2024-09-05T23:09:34Z",
+    "lastCommitDate": "2024-09-05T23:09:34Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "joric"
+    ],
+    "firstKnownAuthor": "joric",
+    "latestKnownAuthor": "joric"
+  },
+  "deduplication": {
+    "rawCodeHash": "6597cef20b3f7f2a53c3b767b430d35501e7510d3d56bfefafbc06e8a365163a",
+    "normalizedCodeHash": "6597cef20b3f7f2a53c3b767b430d35501e7510d3d56bfefafbc06e8a365163a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:21:40.866113+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

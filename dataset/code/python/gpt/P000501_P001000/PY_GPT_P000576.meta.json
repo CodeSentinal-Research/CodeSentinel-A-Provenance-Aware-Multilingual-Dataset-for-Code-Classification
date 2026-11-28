@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000576",
+  "problemId": "P000576",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000576",
+    "title": "Binary Tree Vertical Order Traversal",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, return its vertical order traversal. Nodes are grouped by their vertical column from left to right. If multiple nodes share the same row and column, they should be reported from left to right.",
+    "input": "The root of a binary tree.",
+    "output": "A list of vertical columns.",
+    "constraints": "Number of nodes is in the range [0, 1000]"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000576.py",
+    "fileSHA": "50c5596764a97e64a4b00ed89ef294b37ec65aa7d7fd5b2a36e7bd0829d8130a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.288716+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "50c5596764a97e64a4b00ed89ef294b37ec65aa7d7fd5b2a36e7bd0829d8130a",
+    "normalizedCodeHash": "eaccb3790c879d1b473cc3e3edc20759d8869a84b522f8942b8abe88124010f0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.288716+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

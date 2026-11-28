@@ -1,0 +1,3 @@
+// Valid Word Abbreviation
+const fs=require("fs");
+const [word,abbr]=fs.readFileSync(0,"utf8").split(/\r?\n/);let i=0,j=0,ok=true;while(i<word.length&&j<abbr.length){if(/[A-Za-z]/.test(abbr[j])){if(word[i++]!==abbr[j++])ok=false;}else{if(abbr[j]==="0"){ok=false;break;}let n=0;while(j<abbr.length&&/\d/.test(abbr[j]))n=n*10+Number(abbr[j++]);i+=n;}}console.log(ok&&i===word.length&&j===abbr.length?"Yes":"No");

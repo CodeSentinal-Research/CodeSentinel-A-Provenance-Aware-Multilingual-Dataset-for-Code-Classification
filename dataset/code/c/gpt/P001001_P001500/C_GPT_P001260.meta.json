@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001260",
+  "problemId": "P001260",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001260",
+    "title": "Construct String Without Three Consecutive Characters",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given three integers representing the counts of characters 'a', 'b', and 'c', construct the longest possible string such that no character appears three times consecutively.",
+    "input": "• First line contains three integers A, B, and C.",
+    "output": "Print any valid longest string satisfying the condition.",
+    "constraints": "• 0 ≤ A, B, C ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001260.c",
+    "fileSHA": "0acba0dc9a03af9fa189e7f7ccf5e7ffab07541d8c1f8dfe13b9edbd12583a6e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.480Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "bf9b557f792e8a576db2d946c64257bd7eb511797bd43266334da9c468da8151",
+    "normalizedCodeHash": "0acba0dc9a03af9fa189e7f7ccf5e7ffab07541d8c1f8dfe13b9edbd12583a6e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.480Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000733",
+  "problemId": "P000733",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000733",
+    "title": "M-Coloring Problem",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph with V vertices and M colors, determine whether the graph can be colored so that no two adjacent vertices share the same color. Return true if such a coloring exists; otherwise return false.",
+    "input": "Integer V Integer E List of edges Integer M",
+    "output": "true if a valid coloring exists, otherwise false.",
+    "constraints": "1 <= V <= 20 0 <= E <= V × (V - 1) / 2 1 <= M <= V"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000733.py",
+    "fileSHA": "fb34a0c34968bf3bd8169bfe8ab287ada8e1a842e8df664f27ef38600f9594fc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.831430+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fb34a0c34968bf3bd8169bfe8ab287ada8e1a842e8df664f27ef38600f9594fc",
+    "normalizedCodeHash": "7b421119a3d4d438fae5dd8545d5ac5484de807af39a0eac443eb691a5dba7d0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.831430+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);String s=sc.next(),t=sc.next();if(s.length()!=t.length()){System.out.println("No");return;}Map<Character,Character>ms=new HashMap<>(),mt=new HashMap<>();for(int i=0;i<s.length();i++){char si=s.charAt(i),ti=t.charAt(i);if(!ms.containsKey(si))ms.put(si,ti);if(!mt.containsKey(ti))mt.put(ti,si);if(ms.get(si)!=ti||mt.get(ti)!=si){System.out.println("No");return;}}System.out.println("Yes");}}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001342",
+  "problemId": "P001342",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001342",
+    "title": "Count Increasing Subsequences of Length K",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of distinct integers and an integer K, generate all increasing subsequences of length exactly K.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N distinct integers.",
+    "output": "Print all increasing subsequences in lexicographical order.",
+    "constraints": "\u2022 1 \u2264 N \u2264 20 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001342",
+    "fileSHA": "a47ca2fc1f0e62d8f8249f0f845332ba5c115c1f051033f8a44c6ae1f2fd4a1f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:22:54.178077+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a47ca2fc1f0e62d8f8249f0f845332ba5c115c1f051033f8a44c6ae1f2fd4a1f",
+    "normalizedCodeHash": "a47ca2fc1f0e62d8f8249f0f845332ba5c115c1f051033f8a44c6ae1f2fd4a1f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:22:54.178106+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

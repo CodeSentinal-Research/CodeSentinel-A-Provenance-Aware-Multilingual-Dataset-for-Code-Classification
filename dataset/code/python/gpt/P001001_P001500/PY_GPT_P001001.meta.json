@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001001",
+  "problemId": "P001001",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001001",
+    "title": "Find the Kth Largest Element",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given an unsorted array of N integers and an integer K, determine the Kth largest element in the array. Duplicate values should be considered while determining the order.",
+    "input": "• First line contains two integers N and K. • Second line contains N space-separated integers.",
+    "output": "Print the Kth largest element.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 1 ≤ K ≤ N • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001001.py",
+    "fileSHA": "cd73bd94b6a793c8a084b96b397aaa911a14307aa6f704c8d4cdbd6fc7f9a3a9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.044216+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cd73bd94b6a793c8a084b96b397aaa911a14307aa6f704c8d4cdbd6fc7f9a3a9",
+    "normalizedCodeHash": "b61c059f79864b8a1ff0b264bf91af4ecb99df4c20a8a1e45bbb3a8bee068b8e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.044216+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

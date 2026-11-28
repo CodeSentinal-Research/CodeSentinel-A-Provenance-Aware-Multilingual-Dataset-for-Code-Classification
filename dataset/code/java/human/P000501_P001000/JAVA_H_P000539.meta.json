@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000539",
+  "problemId": "P000539",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000539",
+    "title": "First Unique Number",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Design a data structure that maintains a queue of integers and supports the following operations: showFirstUnique() \u2014 Return the first unique integer in the queue. If no unique integer exists, return -1. add(value) \u2014 Add an integer to the end of the queue. Initially, the queue is populated with a given list of integers. Process a sequence of operations and print the result for every showFirstUnique() operation.",
+    "input": "Integer n Array of n integers Integer q Next q operations",
+    "output": "Print the result for every showFirstUnique() operation.",
+    "constraints": "1 <= n, q <= 10^5 1 <= value <= 10^8"
+  },
+  "repository": {
+    "name": "williamwang1/dsa",
+    "owner": "williamwang1",
+    "url": "https://github.com/williamwang1/dsa",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/DS_Unique_Number_II.java",
+    "fileSHA": "7efbfe7725786652164fe0a7eeb5774b1def5dec",
+    "url": "https://github.com/williamwang1/dsa/blob/b06e6a8bbf5eb2f352880a32d75002e2d259cfc3/src/DS_Unique_Number_II.java",
+    "rawUrl": "https://raw.githubusercontent.com/williamwang1/dsa/main/src/DS_Unique_Number_II.java"
+  },
+  "matching": {
+    "relevanceScore": 87.88
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ebd6973a41692ec68c35b2a37d66285ffdcf566ff9854653da892e4f99eb92a5",
+    "normalizedCodeHash": "ebd6973a41692ec68c35b2a37d66285ffdcf566ff9854653da892e4f99eb92a5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:37:26.108670+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

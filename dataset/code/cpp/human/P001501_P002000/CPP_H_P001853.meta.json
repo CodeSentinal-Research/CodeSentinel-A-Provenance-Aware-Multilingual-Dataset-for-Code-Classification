@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001853",
+  "problemId": "P001853",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001853",
+    "title": "Determine Whether Every Internal Node Has Exactly One Child from Preorder Traversal",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the preorder traversal of a Binary Search Tree with distinct keys, determine whether every internal node has exactly one child without reconstructing the tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the preorder traversal.",
+    "output": "\u2022 Print YES if every internal node has exactly one child; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/1000-1099/1028.Recover a Tree From Preorder Traversal/Solution.cpp",
+    "fileSHA": "e2dd575a9d8cdbeadb849701e2fb5f893a63b239",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/1000-1099/1028.Recover a Tree From Preorder Traversal/Solution.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/1000-1099/1028.Recover a Tree From Preorder Traversal/Solution.cpp"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "82af63ff4a5ef203ebc01013c8b5bec47ee6bf705725a4219c269c30244b309f",
+    "normalizedCodeHash": "82af63ff4a5ef203ebc01013c8b5bec47ee6bf705725a4219c269c30244b309f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:11.724089+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

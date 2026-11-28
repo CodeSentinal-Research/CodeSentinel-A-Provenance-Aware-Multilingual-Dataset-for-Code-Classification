@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000554",
+  "problemId": "P000554",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000554",
+    "title": "Nearest Exit from Maze",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an m × n maze consisting of: '.' for empty cells. '+' for walls. You are also given the coordinates of the entrance. Find the minimum number of steps required to reach the nearest exit. An exit is any empty cell on the boundary of the maze other than the entrance itself.",
+    "input": "Integers m and n Maze Entrance row and column.",
+    "output": "A single integer representing the minimum number of steps, or -1 if no exit exists.",
+    "constraints": "1 <= m, n <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000554.js",
+    "fileSHA": "7e916207ca65a460ed75ac0bf9879a037d38b443afb2c9183610399aed9a56e9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7e916207ca65a460ed75ac0bf9879a037d38b443afb2c9183610399aed9a56e9",
+    "normalizedCodeHash": "7e916207ca65a460ed75ac0bf9879a037d38b443afb2c9183610399aed9a56e9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

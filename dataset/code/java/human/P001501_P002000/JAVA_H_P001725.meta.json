@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001725",
+  "problemId": "P001725",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001725",
+    "title": "Count Root-to-Leaf Paths with Sum K",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree whose nodes contain integer values and an integer K, determine the number of root-to-leaf paths whose node values sum to exactly K.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree. \u2022 The last line contains K.",
+    "output": "\u2022 Print the number of qualifying paths.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 \u221210^9 \u2264 NodeValue \u2264 10^9"
+  },
+  "repository": {
+    "name": "rishijha235/Java-DSA",
+    "owner": "rishijha235",
+    "url": "https://github.com/rishijha235/Java-DSA",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Trees/Problems/CountPaths.java",
+    "fileSHA": "52b037c42244694bcbf386c7ff629969e42f63b7",
+    "url": "https://github.com/rishijha235/Java-DSA/blob/8a7a10433bf5d139a6907060538ab15e8d9f2f32/Trees/Problems/CountPaths.java",
+    "rawUrl": "https://raw.githubusercontent.com/rishijha235/Java-DSA/main/Trees/Problems/CountPaths.java"
+  },
+  "matching": {
+    "relevanceScore": 81.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f8594250d6b9ea38670fb2902497928ef158e7c0b5fd817c328a99a52a20d4d8",
+    "normalizedCodeHash": "f8594250d6b9ea38670fb2902497928ef158e7c0b5fd817c328a99a52a20d4d8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T16:41:15.038292+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

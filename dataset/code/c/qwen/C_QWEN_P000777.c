@@ -1,0 +1,5 @@
+#include <stdio.h>
+#include <string.h>
+int n, w;
+int solve(char grid[20][20], char **words, int i, int used[20]) { if(i==w) return 1; for(int r=0;r<n;r++) for(int c=0;c<n;c++) { int len=strlen(words[i]); int ok=1; if(c+len<=n) { for(int j=0;j<len;j++) if(grid[r][c+j]!='.' && grid[r][c+j]!=words[i][j]) ok=0; if(ok) { for(int j=0;j<len;j++) grid[r][c+j]=words[i][j]; used[i]=1; if(solve(grid,words,i+1,used)) return 1; for(int j=0;j<len;j++) grid[r][c+j]='.'; used[i]=0; } } ok=1; if(r+len<=n) { for(int j=0;j<len;j++) if(grid[r+j][c]!='.' && grid[r+j][c]!=words[i][j]) ok=0; if(ok) { for(int j=0;j<len;j++) grid[r+j][c]=words[i][j]; used[i]=1; if(solve(grid,words,i+1,used)) return 1; for(int j=0;j<len;j++) grid[r+j][c]='.'; used[i]=0; } } } return 0; }
+int main() { char grid[20][20]; scanf("%d",&n); for(int i=0;i<n;i++) for(int j=0;j<n;j++) scanf(" %c",&grid[i][j]); scanf("%d",&w); char *words[w]; for(int i=0;i<w;i++) { words[i]=malloc(21); scanf("%s",words[i]); } int used[20]={0}; solve(grid,words,0,used); for(int i=0;i<n;i++) { for(int j=0;j<n;j++) printf("%c",grid[i][j]); printf("\n"); } return 0; }

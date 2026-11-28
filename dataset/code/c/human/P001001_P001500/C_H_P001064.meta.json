@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001064",
+  "problemId": "P001064",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001064",
+    "title": "Check Whether an Edge Exists",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given a graph and Q queries, determine whether a specified edge exists in the graph.",
+    "input": "\u2022 First line contains integers N, M, and Q. \u2022 Next M lines contain graph edges. \u2022 Next Q lines contain pairs of vertices.",
+    "output": "For each query, print YES if the edge exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "lucaslimaromero/Grafos",
+    "owner": "lucaslimaromero",
+    "url": "https://github.com/lucaslimaromero/Grafos",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "main_final/main.c",
+    "fileSHA": "866b5566171e6ebc1e9f7d3599d0dab7009ea2e0",
+    "url": "https://github.com/lucaslimaromero/Grafos/blob/19c502668f72d22114863807b4c9ad9a76928737/main_final/main.c",
+    "rawUrl": "https://raw.githubusercontent.com/lucaslimaromero/Grafos/main/main_final/main.c"
+  },
+  "matching": {
+    "relevanceScore": 69.76
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9ebf692c6bc923ae1c594780bcc439525a62332c6577553fe9e2e8a8e83358ea",
+    "normalizedCodeHash": "9ebf692c6bc923ae1c594780bcc439525a62332c6577553fe9e2e8a8e83358ea",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:11:07.170345+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

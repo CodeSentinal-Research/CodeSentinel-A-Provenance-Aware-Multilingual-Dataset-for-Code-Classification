@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001170",
+  "problemId": "P001170",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001170",
+    "title": "Cherry Pickup",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 N grid containing cherries, empty cells, and blocked cells, determine the maximum number of cherries that can be collected by traveling from the top-left corner to the bottom-right corner and then returning to the starting cell without collecting the same cherry more than once.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain N integers representing the grid.",
+    "output": "Print the maximum number of cherries that can be collected.",
+    "constraints": "\u2022 1 \u2264 N \u2264 200"
+  },
+  "repository": {
+    "name": "cherryljr/LeetCode",
+    "owner": "cherryljr",
+    "url": "https://github.com/cherryljr/LeetCode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Cherry Pickup.java",
+    "fileSHA": "d0073f14d4d4f3ac0540a3df56a95a18d831af7a",
+    "url": "https://github.com/cherryljr/LeetCode/blob/master/Cherry Pickup.java",
+    "rawUrl": "https://raw.githubusercontent.com/cherryljr/LeetCode/master/Cherry Pickup.java"
+  },
+  "matching": {
+    "relevanceScore": 81.3
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4cc48b41209c8ef1946b6533830ffab63180b3e2b59e9cf4f97df77781029178",
+    "normalizedCodeHash": "4cc48b41209c8ef1946b6533830ffab63180b3e2b59e9cf4f97df77781029178",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:52:01.322210+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001450",
+  "problemId": "P001450",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001450",
+    "title": "Rank Teams by Votes",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Several voters rank teams from best to worst. Determine the final ranking by comparing vote frequencies at every position. Break remaining ties alphabetically.",
+    "input": "\u2022 First line contains integer V. \u2022 Next V lines contain one ranking string.",
+    "output": "Print the final ranking string.",
+    "constraints": "\u2022 1 \u2264 V \u2264 10^5 \u2022 Number of teams \u2264 26"
+  },
+  "repository": {
+    "name": "vanshambansal/uca_2026",
+    "owner": "vanshambansal",
+    "url": "https://github.com/vanshambansal/uca_2026",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "java/class_ques/rankingVotes.java",
+    "fileSHA": "62be7e857f156370cf1ed6235e1e9b12377628e9",
+    "url": "https://github.com/vanshambansal/uca_2026/blob/3453caa14147077c374822858b49ac55190ea399/java/class_ques/rankingVotes.java",
+    "rawUrl": "https://raw.githubusercontent.com/vanshambansal/uca_2026/main/java/class_ques/rankingVotes.java"
+  },
+  "matching": {
+    "relevanceScore": 60.1
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f2de37b83afd7d7c4031bdf8397d6b9213aa7cc00b9467bbbdee38750eb687cc",
+    "normalizedCodeHash": "f2de37b83afd7d7c4031bdf8397d6b9213aa7cc00b9467bbbdee38750eb687cc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:53:30.516197+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

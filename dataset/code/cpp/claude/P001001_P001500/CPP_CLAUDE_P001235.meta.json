@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_CLAUDE_P001235",
+  "problemId": "P001235",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001235",
+    "title": "Job Sequencing with Deadlines",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given jobs with deadlines and profits, schedule jobs such that each job takes one unit of time and the total profit is maximized.",
+    "input": "• First line contains integer N. • Next N lines contain deadline and profit.",
+    "output": "Print the maximum obtainable profit.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P001235",
+    "fileSHA": "172013dd17d37821dcaf6c6f0d61fdd919d86d238e9e05497f34371ea336a22c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5bf6168fa65337419333a9e5a255216d091419ee784e3d47c56f98ffb18641d0",
+    "normalizedCodeHash": "172013dd17d37821dcaf6c6f0d61fdd919d86d238e9e05497f34371ea336a22c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

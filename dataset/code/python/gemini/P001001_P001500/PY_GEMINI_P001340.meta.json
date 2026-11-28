@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001340",
+  "problemId": "P001340",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001340",
+    "title": "Fair Distribution of Cookies",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array representing cookie bags and an integer K representing the number of children, distribute every bag to exactly one child so that the maximum number of cookies received by any child is minimized.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers representing the number of cookies in each bag.",
+    "output": "Print the minimum possible unfairness.",
+    "constraints": "\u2022 1 \u2264 N \u2264 8 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001340",
+    "fileSHA": "f04eb24aac8d4507ec82f3b745c13c01eb04c8289e0e1a82bba19e42065e1393",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:22:53.961490+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f04eb24aac8d4507ec82f3b745c13c01eb04c8289e0e1a82bba19e42065e1393",
+    "normalizedCodeHash": "f04eb24aac8d4507ec82f3b745c13c01eb04c8289e0e1a82bba19e42065e1393",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:22:53.961521+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000859",
+  "problemId": "P000859",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000859",
+    "title": "Reverse Bits",
+    "category": "Bit Manipulation",
+    "difficulty": "Medium",
+    "problemStatement": "Given a 32-bit unsigned integer, reverse its bits and return the resulting integer.",
+    "input": "Integer N",
+    "output": "The reversed integer.",
+    "constraints": "0 <= N <= 2^32 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000859.c",
+    "fileSHA": "2deec3fc9e5fd994dfee3d3abb9d254dd5f55db1a1d0dbecca147a0405383f9b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2deec3fc9e5fd994dfee3d3abb9d254dd5f55db1a1d0dbecca147a0405383f9b",
+    "normalizedCodeHash": "2deec3fc9e5fd994dfee3d3abb9d254dd5f55db1a1d0dbecca147a0405383f9b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

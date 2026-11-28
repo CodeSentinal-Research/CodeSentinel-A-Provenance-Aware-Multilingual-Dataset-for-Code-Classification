@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001286",
+  "problemId": "P001286",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001286",
+    "title": "Bag Filling with Additional Rocks",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "There are N bags, each with a capacity and an initial number of rocks. You are given additional rocks that may be distributed arbitrarily. Determine the maximum number of bags that can become completely full.",
+    "input": "\u2022 First line contains integers N and AdditionalRocks. \u2022 Second line contains N integers representing capacities. \u2022 Third line contains N integers representing current rocks.",
+    "output": "Print the maximum number of completely filled bags.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/C",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/C",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "leetcode/src/2279.c",
+    "fileSHA": "8dc05d981e2ed7efc3daca8ba0a18728163657b2",
+    "url": "https://github.com/TheAlgorithms/C/blob/master/leetcode/src/2279.c",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/C/master/leetcode/src/2279.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "25a46fa78983f38c83438bc75580d5d9dde90a23d4c89ff09240979a4911dc27",
+    "normalizedCodeHash": "25a46fa78983f38c83438bc75580d5d9dde90a23d4c89ff09240979a4911dc27",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T18:31:29.268674+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

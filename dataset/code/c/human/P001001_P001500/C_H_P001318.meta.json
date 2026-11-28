@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001318",
+  "problemId": "P001318",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001318",
+    "title": "Word Search",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a character grid and a target word, determine whether the word can be formed by sequentially adjacent cells. A cell may be used at most once.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines contain the grid. \u2022 Last line contains the target word.",
+    "output": "Print YES if the word exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 20"
+  },
+  "repository": {
+    "name": "quanhua92/interview-prep",
+    "owner": "quanhua92",
+    "url": "https://github.com/quanhua92/interview-prep",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "tier3_advanced/trie/problems/p212_word_search_ii.c",
+    "fileSHA": "dc3dfb6ee295ace84853621d8aaebc99141744a7",
+    "url": "https://github.com/quanhua92/interview-prep/blob/ec5eb413f91784736b372095b0d5b1c9fa8d066d/tier3_advanced/trie/problems/p212_word_search_ii.c",
+    "rawUrl": "https://raw.githubusercontent.com/quanhua92/interview-prep/main/tier3_advanced/trie/problems/p212_word_search_ii.c"
+  },
+  "matching": {
+    "relevanceScore": 83.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f157a9b42f0c31289906124fb9acb8772095373b3d937b9839ae84482a7983d9",
+    "normalizedCodeHash": "f157a9b42f0c31289906124fb9acb8772095373b3d937b9839ae84482a7983d9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T17:48:17.721809+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

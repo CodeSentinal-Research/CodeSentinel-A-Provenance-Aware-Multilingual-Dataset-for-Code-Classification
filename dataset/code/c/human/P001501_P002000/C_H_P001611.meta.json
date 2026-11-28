@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001611",
+  "problemId": "P001611",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001611",
+    "title": "Shortest Subarray With Sum At Least K",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and an integer K, determine the length of the shortest non-empty contiguous subarray whose sum is at least K. If no such subarray exists, print -1.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the minimum length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "eaglemox/LeetCode-Writeups",
+    "owner": "eaglemox",
+    "url": "https://github.com/eaglemox/LeetCode-Writeups",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "array/862.shortest-subarray-with-sum-at-least-k/solution_1.c",
+    "fileSHA": "00fd1938001e8adb254cb0025838dd3a5b64bcb9",
+    "url": "https://github.com/eaglemox/LeetCode-Writeups/blob/8f08fad6a7ca196447bb47b928f2f951421203ab/array/862.shortest-subarray-with-sum-at-least-k/solution_1.c",
+    "rawUrl": "https://raw.githubusercontent.com/eaglemox/LeetCode-Writeups/main/array/862.shortest-subarray-with-sum-at-least-k/solution_1.c"
+  },
+  "matching": {
+    "relevanceScore": 87.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2a71c9ff092884dde03cd0f2dbfd2925b89fad3ce68e7769f438b967995371d4",
+    "normalizedCodeHash": "2a71c9ff092884dde03cd0f2dbfd2925b89fad3ce68e7769f438b967995371d4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:45:15.886231+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

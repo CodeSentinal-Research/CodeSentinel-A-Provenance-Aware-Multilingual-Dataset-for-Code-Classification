@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001658",
+  "problemId": "P001658",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001658",
+    "title": "Find All Nodes at Distance K from a Target Node",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, a target node, and an integer K, determine all nodes whose shortest distance from the target node is exactly K edges.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree. • The last line contains the target node value and the integer K.",
+    "output": "• Print the values of all qualifying nodes in the required order.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • 0 ≤ K ≤ N________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001658.c",
+    "fileSHA": "f7341cad7433426740794f3f1aa113ad5322ef7e337392f754d4d041e3d10077",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.133Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "7f3f0c8dc65adb7ccad5188bb008cbd0e0c637b1e5e82c27b197c69ace85edb8",
+    "normalizedCodeHash": "f7341cad7433426740794f3f1aa113ad5322ef7e337392f754d4d041e3d10077",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.133Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

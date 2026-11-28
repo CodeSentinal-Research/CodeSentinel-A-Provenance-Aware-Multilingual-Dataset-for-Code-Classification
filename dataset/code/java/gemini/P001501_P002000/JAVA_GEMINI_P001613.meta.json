@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001613",
+  "problemId": "P001613",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001613",
+    "title": "Matrix Block Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M matrix of integers and an integer K, construct a matrix where each cell contains the sum of all elements within a distance of K rows and K columns from that cell.",
+    "input": "\u2022 First line contains N, M, and K. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the resulting matrix.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 1000 \u2022 0 \u2264 K \u2264 max(N, M)"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001613",
+    "fileSHA": "43b97c14b8cda4d3bf50af08eb7ed76973726e6bb153d774e81cbd6c4e299700",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:51.127812+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "43b97c14b8cda4d3bf50af08eb7ed76973726e6bb153d774e81cbd6c4e299700",
+    "normalizedCodeHash": "43b97c14b8cda4d3bf50af08eb7ed76973726e6bb153d774e81cbd6c4e299700",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:51.127837+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

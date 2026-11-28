@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001758",
+  "problemId": "P001758",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001758",
+    "title": "Determine Whether a Binary Tree Contains Duplicate Values",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given a binary tree, determine whether any value appears more than once.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print YES if duplicate values exist; otherwise print NO.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001758.c",
+    "fileSHA": "09f92d3547aa635dc63b564c4ab716bfa430298bef80cfbfcfba6ce8eba67370",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.562Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "e009f5be34d8c13ce590eea9f09891672c7d22e18f578a40519b18c9d6962553",
+    "normalizedCodeHash": "09f92d3547aa635dc63b564c4ab716bfa430298bef80cfbfcfba6ce8eba67370",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.562Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

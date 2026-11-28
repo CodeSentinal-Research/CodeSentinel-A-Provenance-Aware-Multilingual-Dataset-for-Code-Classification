@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001784",
+  "problemId": "P001784",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001784",
+    "title": "Reconstruct a Binary Tree from Level Order and Inorder Traversals",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the level order traversal and inorder traversal of a binary tree containing unique values, reconstruct the original binary tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the level order traversal. \u2022 The third line contains the inorder traversal.",
+    "output": "\u2022 Print the reconstructed tree in the required traversal format.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5 \u2022 All node values are unique."
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "lcci/04.05.Legal Binary Search Tree/Solution.ts",
+    "fileSHA": "037c83d3b1872f3c6adecb1df3fccdb1cef018c2",
+    "url": "https://github.com/doocs/leetcode/blob/main/lcci/04.05.Legal Binary Search Tree/Solution.ts",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/lcci/04.05.Legal Binary Search Tree/Solution.ts"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6089d4e449e60b26f46071ba23368c9898ce04dc3b87563eb4ac94abe9f8800c",
+    "normalizedCodeHash": "6089d4e449e60b26f46071ba23368c9898ce04dc3b87563eb4ac94abe9f8800c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T19:12:57.156997+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

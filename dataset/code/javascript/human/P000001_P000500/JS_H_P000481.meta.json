@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000481",
+  "problemId": "P000481",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000481",
+    "title": "Baseball Game Score",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a list of operations representing scores in a baseball game. Each operation is one of the following: An integer: Record a new score. \"+\": Record the sum of the previous two valid scores. \"D\": Record double the previous valid score. \"C\": Remove the previous valid score. Return the total score after processing all operations.",
+    "input": "Integer n n strings representing operations.",
+    "output": "A single integer representing the total score.",
+    "constraints": "1 <= n <= 1000 Each operation is valid."
+  },
+  "repository": {
+    "name": "aisoundz/stats",
+    "owner": "aisoundz",
+    "url": "https://github.com/aisoundz/stats",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "host/marquee.js",
+    "fileSHA": "21b71dde526213c9a0a5eed79222a465a1322ff7",
+    "url": "https://github.com/aisoundz/stats/blob/d7148d67ae22abe75aa6fb74bf9105624d935bb1/host/marquee.js",
+    "rawUrl": "https://raw.githubusercontent.com/aisoundz/stats/main/host/marquee.js"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2d0e435f816c70deff3f776d857566da5ad71320aad4e5d4f194283feac5d762",
+    "normalizedCodeHash": "2d0e435f816c70deff3f776d857566da5ad71320aad4e5d4f194283feac5d762",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T00:55:38.091353+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

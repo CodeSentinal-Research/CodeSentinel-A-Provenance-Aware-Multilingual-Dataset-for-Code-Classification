@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001576",
+  "problemId": "P001576",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001576",
+    "title": "Count Windows Containing Zero",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and a window size K, count the number of contiguous subarrays of size K that contain at least one zero.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the count.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001576.c",
+    "fileSHA": "8e9ff2f562e924382305a6052b8ea31b24c4200e7887c44657caddacd4b017fc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.821Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "298c875026528702450ff3b4c413752fc97c03c0dcc54b39efc7b2d387886e6d",
+    "normalizedCodeHash": "8e9ff2f562e924382305a6052b8ea31b24c4200e7887c44657caddacd4b017fc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.821Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

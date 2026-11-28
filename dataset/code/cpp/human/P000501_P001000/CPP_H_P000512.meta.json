@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000512",
+  "problemId": "P000512",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000512",
+    "title": "Validate Stack Sequences",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given two integer arrays pushed and popped, determine whether they could represent the push and pop order of a stack. Initially, the stack is empty. Return true if the sequences are valid; otherwise return false.",
+    "input": "Integer n Array pushed Array popped",
+    "output": "true if the sequences are valid, otherwise false.",
+    "constraints": "1 <= n <= 10^5 pushed.length == popped.length All elements are distinct."
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "C++/validate-stack-sequences.cpp",
+    "fileSHA": "aaa6c21c35a9dc2504924a84e86581843cd8c579",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/validate-stack-sequences.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/C++/validate-stack-sequences.cpp"
+  },
+  "matching": {
+    "relevanceScore": 85.94
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "664a7149312672669e9c414a78a0d1559278afd06dbd9a4a1cf20bc6d0912243",
+    "normalizedCodeHash": "664a7149312672669e9c414a78a0d1559278afd06dbd9a4a1cf20bc6d0912243",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (C++ Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:54:17.813321+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

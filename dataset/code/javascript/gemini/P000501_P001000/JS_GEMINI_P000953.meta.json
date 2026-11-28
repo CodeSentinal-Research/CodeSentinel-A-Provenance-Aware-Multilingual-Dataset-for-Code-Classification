@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000953",
+  "problemId": "P000953",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000953",
+    "title": "Euler's Theorem Evaluation",
+    "category": "Mathematics - Euler Totient Function",
+    "difficulty": "Hard",
+    "problemStatement": "Given integers A and N such that gcd(A, N) = 1, compute A^\u03c6(N) mod N.",
+    "input": "Integer A Integer N",
+    "output": "The computed value.",
+    "constraints": "1 <= A, N <= 10^12"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P000953",
+    "fileSHA": "b12ee9f816568bb1e9d7797f96f615a34efba5b82057ea24bfe927932c87fab3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:36:07.621390+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b12ee9f816568bb1e9d7797f96f615a34efba5b82057ea24bfe927932c87fab3",
+    "normalizedCodeHash": "b12ee9f816568bb1e9d7797f96f615a34efba5b82057ea24bfe927932c87fab3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:36:07.621431+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

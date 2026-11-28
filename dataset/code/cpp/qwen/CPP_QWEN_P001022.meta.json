@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001022",
+  "problemId": "P001022",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001022",
+    "title": "Decrease Key in a Min Heap",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a valid Min Heap represented as an array, an index i, and a new value smaller than or equal to the current value, update the key and restore the Min Heap property. Print the updated heap.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N space-separated integers. \u2022 Third line contains integers i and newValue.",
+    "output": "Print the updated Min Heap.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 i < N"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001022",
+    "fileSHA": "7fb5e42d566ee04edefa3b12e3d13687ee67f6e566999eb52e1e2e096be09728",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.569Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "f291af1f4643c3c4035de93dcfaa256f1bc707fab8a227efe95795088f22eadb",
+    "normalizedCodeHash": "e0c2829b014f5c4166881d55d5dedf4b81b68b15e9a2b570a5b23b8dee5813e6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.569Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

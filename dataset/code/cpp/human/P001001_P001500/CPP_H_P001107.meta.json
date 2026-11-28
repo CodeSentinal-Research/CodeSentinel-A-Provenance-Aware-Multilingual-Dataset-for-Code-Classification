@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001107",
+  "problemId": "P001107",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001107",
+    "title": "Transitive Closure of a Directed Graph",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a directed graph with N vertices, determine whether every vertex is reachable from every other vertex. Output the complete reachability matrix.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain directed edges.",
+    "output": "Print an N \u00d7 N matrix where the value at row i and column j is 1 if vertex j is reachable from i, otherwise 0.",
+    "constraints": "\u2022 1 \u2264 N \u2264 500 \u2022 0 \u2264 M \u2264 N(N\u22121)"
+  },
+  "repository": {
+    "name": "EmcsiCodes/Competitive-Programming",
+    "owner": "EmcsiCodes",
+    "url": "https://github.com/EmcsiCodes/Competitive-Programming",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Contests/Concurs de UTCN/clica/main.cpp",
+    "fileSHA": "bbbc121b23f39e3d777989fa08042eb8c9e22e96",
+    "url": "https://github.com/EmcsiCodes/Competitive-Programming/blob/4a2680487c7a1a650f7d903ef1223162f33dc08c/Contests/Concurs de UTCN/clica/main.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/EmcsiCodes/Competitive-Programming/main/Contests/Concurs de UTCN/clica/main.cpp"
+  },
+  "matching": {
+    "relevanceScore": 86.4
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e3bea4f3dfeddfce185666bc72b8dc7b6f23f8e161fb9cbeaac238828e7b978c",
+    "normalizedCodeHash": "e3bea4f3dfeddfce185666bc72b8dc7b6f23f8e161fb9cbeaac238828e7b978c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T04:50:52.740280+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

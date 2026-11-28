@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001450",
+  "problemId": "P001450",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001450",
+    "title": "Rank Teams by Votes",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Several voters rank teams from best to worst. Determine the final ranking by comparing vote frequencies at every position. Break remaining ties alphabetically.",
+    "input": "• First line contains integer V. • Next V lines contain one ranking string.",
+    "output": "Print the final ranking string.",
+    "constraints": "• 1 ≤ V ≤ 10^5 • Number of teams ≤ 26"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001450.c",
+    "fileSHA": "6d24920816be30b737fc95e42dad562fbfc773f78505260d5e756e6c01a43b9d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.424Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "f9ec7072eb98469a47bc55877e13297573f2a8d34378653b5dfd4891a3392460",
+    "normalizedCodeHash": "6d24920816be30b737fc95e42dad562fbfc773f78505260d5e756e6c01a43b9d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.424Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

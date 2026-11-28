@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000544",
+  "problemId": "P000544",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000544",
+    "title": "Open the Lock",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You have a lock with four circular wheels, each displaying a digit from 0 to 9. Initially, the lock displays \"0000\". In one move, you may rotate any one wheel one position forward or backward. Some combinations are deadends. If the lock reaches a deadend, it can no longer be used. Given the list of deadends and a target combination, determine the minimum number of moves required to reach the target. Return -1 if it is impossible.",
+    "input": "Integer d Array of deadend strings Target string",
+    "output": "A single integer.",
+    "constraints": "1 <= d <= 500 Every combination has exactly four digits."
+  },
+  "repository": {
+    "name": "kishanraj427/Leetcode-Solved-Questions",
+    "owner": "kishanraj427",
+    "url": "https://github.com/kishanraj427/Leetcode-Solved-Questions",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "leetcode752 Open the Lock.java",
+    "fileSHA": "4e096ffa7f831fd6fc43da6b27466b8d3f9d8a01",
+    "url": "https://github.com/kishanraj427/Leetcode-Solved-Questions/blob/1089158d429dd37b661ded74da89f92f05c175f9/leetcode752 Open the Lock.java",
+    "rawUrl": "https://raw.githubusercontent.com/kishanraj427/Leetcode-Solved-Questions/main/leetcode752 Open the Lock.java"
+  },
+  "matching": {
+    "relevanceScore": 83.78
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "cf083f6859245e7607ca44435e8b4c7eee51fdfda8bcdc33844634dbc86884b0",
+    "normalizedCodeHash": "cf083f6859245e7607ca44435e8b4c7eee51fdfda8bcdc33844634dbc86884b0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:23:21.249166+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

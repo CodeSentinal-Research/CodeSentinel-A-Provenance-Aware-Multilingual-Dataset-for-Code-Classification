@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001655",
+  "problemId": "P001655",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001655",
+    "title": "Convert a Binary Tree into a Doubly Linked List",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree, convert it into a doubly linked list following the inorder traversal sequence. The conversion must reuse the existing tree nodes.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the nodes of the resulting doubly linked list from head to tail.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001655",
+    "fileSHA": "cfd805d9a9d9c37bd175a078649d979d7143f2dfcc2a96ad974be19d7023c789",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:34:05.699527+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cfd805d9a9d9c37bd175a078649d979d7143f2dfcc2a96ad974be19d7023c789",
+    "normalizedCodeHash": "cfd805d9a9d9c37bd175a078649d979d7143f2dfcc2a96ad974be19d7023c789",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:34:05.699551+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

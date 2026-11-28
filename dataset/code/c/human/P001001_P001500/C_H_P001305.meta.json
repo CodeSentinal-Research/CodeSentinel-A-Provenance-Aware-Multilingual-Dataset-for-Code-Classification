@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001305",
+  "problemId": "P001305",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001305",
+    "title": "Huffman Encoding Cost",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given the frequencies of N characters, construct an optimal Huffman tree and determine the total weighted path length of the encoded message.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing character frequencies.",
+    "output": "Print the minimum encoding cost.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/cryptography/src/huffman_encoding/huffman_encoding.c",
+    "fileSHA": "4d8564df9cb1304127eb97e4b1d609da3bb249ea",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/cryptography/src/huffman_encoding/huffman_encoding.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/cryptography/src/huffman_encoding/huffman_encoding.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ccf78678861580837ca05730361dc0c5e4980429fc4c4d86ef6e7e5f70aa8601",
+    "normalizedCodeHash": "ccf78678861580837ca05730361dc0c5e4980429fc4c4d86ef6e7e5f70aa8601",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:02.279119+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

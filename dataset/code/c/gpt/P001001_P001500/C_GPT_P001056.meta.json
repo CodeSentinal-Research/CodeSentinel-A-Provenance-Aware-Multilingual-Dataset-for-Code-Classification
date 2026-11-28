@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001056",
+  "problemId": "P001056",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001056",
+    "title": "Smallest Infinite Set Operations",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Design a data structure that initially contains all positive integers. Support removing and returning the smallest integer, and adding previously removed integers back into the set.",
+    "input": "• First line contains integer Q. • Next Q lines contain operations.",
+    "output": "Print the result of each removal operation.",
+    "constraints": "• 1 ≤ Q ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001056.c",
+    "fileSHA": "07c258094b2e6e69ceb12b15043920105d0c925c1599198880b34b965afeec6c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:32.896Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "6082f1d44c62c97a380db70c8b2b0b24682e4096807cf518f571476a6d83cf62",
+    "normalizedCodeHash": "07c258094b2e6e69ceb12b15043920105d0c925c1599198880b34b965afeec6c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:32.896Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

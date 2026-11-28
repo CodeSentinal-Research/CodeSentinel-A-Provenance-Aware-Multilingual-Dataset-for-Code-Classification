@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001116",
+  "problemId": "P001116",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001116",
+    "title": "Surrounded Regions",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a grid of characters containing 'X' and 'O', replace every region of 'O' that is completely surrounded by 'X' with 'X'.",
+    "input": "• First line contains integers R and C. • Next R lines contain the grid.",
+    "output": "Print the modified grid.",
+    "constraints": "• 1 ≤ R, C ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001116.c",
+    "fileSHA": "a996015b5f7e4858ae891f0b9d72ce1fb67f4ded2d233a354083def8de6bb7f8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.052Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "5bc766ccf6559f1e6a0fd8971a44f652febcda789b92eced015c620f2a5b6eba",
+    "normalizedCodeHash": "a996015b5f7e4858ae891f0b9d72ce1fb67f4ded2d233a354083def8de6bb7f8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.052Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

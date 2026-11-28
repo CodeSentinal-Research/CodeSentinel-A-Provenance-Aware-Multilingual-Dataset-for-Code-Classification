@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001337",
+  "problemId": "P001337",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001337",
+    "title": "Beautiful Arrangement",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "For an integer N, count the number of beautiful arrangements such that for every position i, either the number at position i is divisible by i, or i is divisible by the number.",
+    "input": "\u2022 First line contains integer N.",
+    "output": "Print the total number of beautiful arrangements.",
+    "constraints": "\u2022 1 \u2264 N \u2264 15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001337",
+    "fileSHA": "b4031b80f85507c8c89a347730a03d9beeff4ba9ae5c7ca58cb7b13afc21e105",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:21:56.741820+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b4031b80f85507c8c89a347730a03d9beeff4ba9ae5c7ca58cb7b13afc21e105",
+    "normalizedCodeHash": "b4031b80f85507c8c89a347730a03d9beeff4ba9ae5c7ca58cb7b13afc21e105",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:21:56.741861+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_CLAUDE_P001561",
+  "problemId": "P001561",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001561",
+    "title": "Substring With Concatenation of All Words",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a string S and an array of words, where every word has the same length. Find all starting indices of substrings in S that are formed by concatenating every word exactly once and without any intervening characters. The words may appear in any order.",
+    "input": "• First line contains string S. • Second line contains integer M. • Third line contains M space-separated words.",
+    "output": "• Print all valid starting indices in increasing order. If none exist, print -1.",
+    "constraints": "• 1 ≤ |S| ≤ 2 × 10^5 • 1 ≤ M ≤ 5000 • All words have equal length."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P001561",
+    "fileSHA": "2da699150f2c5f5ec3fc3d068cfb411d43c40dda74f5586dbfc99beff91bf2af",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8f4c2823526d635c81811e0568e9274e7037f8929d6022c05518d0df3cbaaa6f",
+    "normalizedCodeHash": "2da699150f2c5f5ec3fc3d068cfb411d43c40dda74f5586dbfc99beff91bf2af",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

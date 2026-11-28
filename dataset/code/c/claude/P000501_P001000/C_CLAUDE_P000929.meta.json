@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P000929",
+  "problemId": "P000929",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000929",
+    "title": "Matrix Addition",
+    "category": "Mathematics - Matrix Mathematics",
+    "difficulty": "Easy",
+    "problemStatement": "Given two matrices of the same dimensions, compute their sum.",
+    "input": "Integers N and M Matrix A Matrix B",
+    "output": "The resulting matrix after addition.",
+    "constraints": "1 <= N, M <= 200 -10^9 <= A[i][j], B[i][j] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000929",
+    "fileSHA": "13b6c299151db64b24bf2c670401553badcef9e74fecb6154128173e92fb347a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f7d941c646b42257712fe90d929bd40baa4460b6f4bc525722c60b33f9f7825d",
+    "normalizedCodeHash": "13b6c299151db64b24bf2c670401553badcef9e74fecb6154128173e92fb347a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

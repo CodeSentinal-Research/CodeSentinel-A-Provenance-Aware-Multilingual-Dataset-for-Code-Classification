@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000571",
+  "problemId": "P000571",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000571",
+    "title": "Hot Potato Game",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "There are N players standing in a circle, numbered from 1 to N. Starting from player 1, a token is passed clockwise exactly K times. The player holding the token after the K-th pass is eliminated. The process continues with the next player until only one player remains. Return the number of the winning player.",
+    "input": "Integer N Integer K",
+    "output": "The winning player's number.",
+    "constraints": "1 <= N <= 10^5 1 <= K <= 10^5"
+  },
+  "repository": {
+    "name": "hppy7/Leetcode-problem",
+    "owner": "hppy7",
+    "url": "https://github.com/hppy7/Leetcode-problem",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "hotpotato.c",
+    "fileSHA": "4fc5b0106faa2883cea6939a6f59b280607db526",
+    "url": "https://github.com/hppy7/Leetcode-problem/blob/cc79250a97e472e12b281ae0d2197d7eb26908b7/hotpotato.c",
+    "rawUrl": "https://raw.githubusercontent.com/hppy7/Leetcode-problem/main/hotpotato.c"
+  },
+  "matching": {
+    "relevanceScore": 76.67
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "fad4dd251649976a73595eef4392776eae4950b4f7310b964d95b9233f0544b5",
+    "normalizedCodeHash": "fad4dd251649976a73595eef4392776eae4950b4f7310b964d95b9233f0544b5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:23:41.248949+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

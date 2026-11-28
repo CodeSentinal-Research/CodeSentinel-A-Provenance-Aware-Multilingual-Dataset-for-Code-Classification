@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001236",
+  "problemId": "P001236",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001236",
+    "title": "Minimum Number of Arrows to Burst Balloons",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Each balloon is represented by an interval on a number line. One arrow shot vertically bursts every balloon intersecting that point. Determine the minimum number of arrows required to burst all balloons.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain the start and end coordinates of each balloon.",
+    "output": "Print the minimum number of arrows.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001236",
+    "fileSHA": "6cb718592a7b7fd1fb5c017c9b0520fc16900aa984bd93b39ed6123710cda321",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:16:22.291111+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6cb718592a7b7fd1fb5c017c9b0520fc16900aa984bd93b39ed6123710cda321",
+    "normalizedCodeHash": "6cb718592a7b7fd1fb5c017c9b0520fc16900aa984bd93b39ed6123710cda321",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:16:22.291136+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P000495",
+  "problemId": "P000495",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000495",
+    "title": "Online Stock Span",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Design a data structure that processes a stream of stock prices. For each incoming stock price, return its span, defined as the maximum number of consecutive days (including today) for which the stock price has been less than or equal to today's price. Process all queries efficiently.",
+    "input": "Integer q Next q lines each contain one stock price.",
+    "output": "For each stock price, print its span.",
+    "constraints": "1 <= q <= 10^5 1 <= price <= 10^5"
+  },
+  "repository": {
+    "name": "victorplusc/Algorithms",
+    "owner": "victorplusc",
+    "url": "https://github.com/victorplusc/Algorithms",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000001_P000500/PY_H_P000495.py",
+    "fileSHA": "e7442d2e76531a38d7165585b1aced568bb463fb",
+    "url": "https://github.com/victorplusc/Algorithms/blob/096e693fb490a00abc5f3d7282a73f0a1dd7b3a7/Leetcode/901. Online Stock Span.py",
+    "rawUrl": "https://raw.githubusercontent.com/victorplusc/Algorithms/main/Leetcode/901. Online Stock Span.py"
+  },
+  "matching": {
+    "relevanceScore": 75.3
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2020-05-20T03:17:20Z",
+    "lastCommitDate": "2020-05-20T03:17:20Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Victor"
+    ],
+    "firstKnownAuthor": "Victor",
+    "latestKnownAuthor": "Victor"
+  },
+  "deduplication": {
+    "rawCodeHash": "a834defea2fb6f5fb0d7d1aff911c2261f33f0c98692db82ad4651b2c90a1b0b",
+    "normalizedCodeHash": "a834defea2fb6f5fb0d7d1aff911c2261f33f0c98692db82ad4651b2c90a1b0b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T02:58:43.642721+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001585",
+  "problemId": "P001585",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001585",
+    "title": "Maximum Frequency After At Most K Increments",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and an integer K, you may increment any element by 1 in one operation. Determine the maximum possible frequency of any element after performing at most K operations.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the maximum frequency.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • 0 ≤ K ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001501_P002000/JS_GPT_P001585.js",
+    "fileSHA": "a7ee0f49cf5be98db06a06278235feea49abcf2dd2d93431941f8f58c5932f04",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a7ee0f49cf5be98db06a06278235feea49abcf2dd2d93431941f8f58c5932f04",
+    "normalizedCodeHash": "a7ee0f49cf5be98db06a06278235feea49abcf2dd2d93431941f8f58c5932f04",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

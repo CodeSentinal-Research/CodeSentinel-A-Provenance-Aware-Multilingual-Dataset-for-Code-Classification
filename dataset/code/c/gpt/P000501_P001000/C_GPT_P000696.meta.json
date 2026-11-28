@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000696",
+  "problemId": "P000696",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000696",
+    "title": "Last Occurrence Using Recursive Binary Search",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given a sorted array of integers that may contain duplicates and a target value, return the index of its last occurrence using recursion. If the target is not present, return -1.",
+    "input": "Integer n Sorted array nums Integer target",
+    "output": "The index of the last occurrence, or -1.",
+    "constraints": "1 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000696.c",
+    "fileSHA": "c2959bc0345122ddfd0052bd2302f3a8de23cc635fe13ee608b1f32498f8601b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c2959bc0345122ddfd0052bd2302f3a8de23cc635fe13ee608b1f32498f8601b",
+    "normalizedCodeHash": "c2959bc0345122ddfd0052bd2302f3a8de23cc635fe13ee608b1f32498f8601b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

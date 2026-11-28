@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P001591",
+  "problemId": "P001591",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001591",
+    "title": "Range Sum Query",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, each consisting of two indices L and R, determine the sum of elements from index L to R (inclusive).",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Next Q lines each contain L and R.",
+    "output": "\u2022 For each query, print the required sum.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9 \u2022 0 \u2264 L \u2264 R < N"
+  },
+  "repository": {
+    "name": "kakack/crush-in-leetcode",
+    "owner": "kakack",
+    "url": "https://github.com/kakack/crush-in-leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P001501_P002000/C_H_P001591.c",
+    "fileSHA": "e4aafcb01c1cdb7ba0eb9c38d85d643a0e4cb000",
+    "url": "https://github.com/kakack/crush-in-leetcode/blob/ae9e3e290f70da36b2e690b80426baae021cd79b/code/307-Range Sum Query - Mutable/307-Range Sum Query - Mutable.c",
+    "rawUrl": "https://raw.githubusercontent.com/kakack/crush-in-leetcode/main/code/307-Range Sum Query - Mutable/307-Range Sum Query - Mutable.c"
+  },
+  "matching": {
+    "relevanceScore": 70.55
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2022-04-04T06:54:42Z",
+    "lastCommitDate": "2026-03-10T16:26:47Z",
+    "commitCount": 2,
+    "authorCount": 1,
+    "authors": [
+      "kakack"
+    ],
+    "firstKnownAuthor": "kakack",
+    "latestKnownAuthor": "kakack"
+  },
+  "deduplication": {
+    "rawCodeHash": "7b305fba3e2d747f2afc822c4e6d30e06b864d65d8406681f5a74e1664cd7ffc",
+    "normalizedCodeHash": "7b305fba3e2d747f2afc822c4e6d30e06b864d65d8406681f5a74e1664cd7ffc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T11:11:18.992596+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

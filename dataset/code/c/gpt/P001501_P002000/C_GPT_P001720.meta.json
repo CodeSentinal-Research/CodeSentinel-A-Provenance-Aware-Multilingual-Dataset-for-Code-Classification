@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001720",
+  "problemId": "P001720",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001720",
+    "title": "Sum of Nodes at the Deepest Level",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the sum of all nodes located at the maximum depth.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print the sum of the deepest-level nodes.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • −10^9 ≤ NodeValue ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001720.c",
+    "fileSHA": "501a7aa922073197df87a2191ec2787381ac3b823c7f2bc92cd14ed232ac42d5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.445Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "00567bd063e1943fa9dd9e987dec498c0b1e3a865a2bf875c5300dabe0e38e7d",
+    "normalizedCodeHash": "501a7aa922073197df87a2191ec2787381ac3b823c7f2bc92cd14ed232ac42d5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.445Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

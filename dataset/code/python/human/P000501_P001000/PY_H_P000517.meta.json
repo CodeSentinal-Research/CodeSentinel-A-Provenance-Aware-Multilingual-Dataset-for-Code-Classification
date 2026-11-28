@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000517",
+  "problemId": "P000517",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000517",
+    "title": "Maximum Width Ramp",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "A ramp is a pair of indices (i, j) such that i < j and nums[i] <= nums[j]. Find the maximum width of a ramp in the array, where the width is j - i. Return the maximum possible width.",
+    "input": "Integer n Array nums",
+    "output": "A single integer representing the maximum width.",
+    "constraints": "2 <= n <= 5 \u00d7 10^4 0 <= nums[i] <= 5 \u00d7 10^4"
+  },
+  "repository": {
+    "name": "wisdompeak/LeetCode",
+    "owner": "wisdompeak",
+    "url": "https://github.com/wisdompeak/LeetCode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Stack/962.Maximum-Width-Ramp/962.Maximum-Width-Ramp.py",
+    "fileSHA": "79c7c4c5c106a61279c7b60d2da75d249d428906",
+    "url": "https://github.com/wisdompeak/LeetCode/blob/master/Stack/962.Maximum-Width-Ramp/962.Maximum-Width-Ramp.py",
+    "rawUrl": "https://raw.githubusercontent.com/wisdompeak/LeetCode/master/Stack/962.Maximum-Width-Ramp/962.Maximum-Width-Ramp.py"
+  },
+  "matching": {
+    "relevanceScore": 72.08
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1f33afd3ce522afcfe092a127fdea65c504e36eedbd99fc938e6afda285d5db1",
+    "normalizedCodeHash": "1f33afd3ce522afcfe092a127fdea65c504e36eedbd99fc938e6afda285d5db1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:41:39.567927+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

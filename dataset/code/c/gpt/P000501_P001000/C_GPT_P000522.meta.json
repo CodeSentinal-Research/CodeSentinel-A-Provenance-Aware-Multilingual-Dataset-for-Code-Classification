@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000522",
+  "problemId": "P000522",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000522",
+    "title": "Design Browser History",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Design a browser history manager that supports the following operations: visit(url) — Visit a new webpage. back(steps) — Move back by at most steps pages. forward(steps) — Move forward by at most steps pages. Initially, the browser starts at the homepage. Process a sequence of operations and print the current page after every back() and forward() operation.",
+    "input": "A homepage URL. Integer q. Next q operations.",
+    "output": "Print the current page after every back() and forward() operation.",
+    "constraints": "1 <= q <= 5 × 10^4 URL length does not exceed 100 characters."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000522.c",
+    "fileSHA": "cd20c0ca50f700552349e1a40d4aae28dfe4cec7f00d93ed46b7cab2238f59e2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cd20c0ca50f700552349e1a40d4aae28dfe4cec7f00d93ed46b7cab2238f59e2",
+    "normalizedCodeHash": "cd20c0ca50f700552349e1a40d4aae28dfe4cec7f00d93ed46b7cab2238f59e2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

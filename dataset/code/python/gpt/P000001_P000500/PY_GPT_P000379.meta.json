@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000379",
+  "problemId": "P000379",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000379",
+    "title": "Search Train by Train Number",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Locate a train using its train number and display the available information.",
+    "input": "Train records and a train number.",
+    "output": "Matching train details or \"Train Not Found\".",
+    "constraints": "1 ≤ Number of Trains ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000379.py",
+    "fileSHA": "8488957742e0af6c9d1472b7a34abef97813fcf2ee4552652675eb8a193a4982",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:01.681220+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8488957742e0af6c9d1472b7a34abef97813fcf2ee4552652675eb8a193a4982",
+    "normalizedCodeHash": "55044878c9721d96ac2112c3ea0fa006625e3eca8680f94e232764bd97c45948",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:01.681220+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

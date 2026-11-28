@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000489",
+  "problemId": "P000489",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000489",
+    "title": "Min Stack",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "Design a stack that supports the following operations in constant time: push(x) pop() top() getMin() Initially, the stack is empty. Process a sequence of operations and print the result of every top() and getMin() query.",
+    "input": "Integer q representing the number of operations. Next q lines each contain one operation.",
+    "output": "For every top() and getMin() operation, print the corresponding result.",
+    "constraints": "1 <= q <= 10^5 All queried operations are valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000489",
+    "fileSHA": "84c22973bbffa3b29e356540dfb0d886cb10c7fb1c0cfc8b7ae229c5370901b4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "84c22973bbffa3b29e356540dfb0d886cb10c7fb1c0cfc8b7ae229c5370901b4",
+    "normalizedCodeHash": "84c22973bbffa3b29e356540dfb0d886cb10c7fb1c0cfc8b7ae229c5370901b4",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000489: Min Stack"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

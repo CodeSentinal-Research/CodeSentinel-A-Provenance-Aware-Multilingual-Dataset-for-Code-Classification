@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000956",
+  "problemId": "P000956",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000956",
+    "title": "Linear Congruence Solver",
+    "category": "Mathematics - Extended Euclidean Algorithm",
+    "difficulty": "Hard",
+    "problemStatement": "Given integers A, B, and M, solve the congruence: A \u00d7 X \u2261 B (mod M) Return the smallest non-negative solution if one exists; otherwise return -1.",
+    "input": "Integer A Integer B Integer M",
+    "output": "The smallest valid solution or -1.",
+    "constraints": "1 <= A, B, M <= 10^18"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/backtracking/src/sudoku_solve/sudoku_solver.java",
+    "fileSHA": "6794ee3ad40807305b7fcad8be375cf8cf44bf1b",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/backtracking/src/sudoku_solve/sudoku_solver.java",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/backtracking/src/sudoku_solve/sudoku_solver.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "878948308f646bf4cbab683637a8c23508ffb8b568955f875bf09dd083b437ee",
+    "normalizedCodeHash": "878948308f646bf4cbab683637a8c23508ffb8b568955f875bf09dd083b437ee",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:02.732075+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

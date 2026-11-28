@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001575",
+  "problemId": "P001575",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001575",
+    "title": "Minimum Element in the First Window",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and a window size K, determine the minimum element in the first contiguous subarray of size K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the minimum element.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "rebroad/staden",
+    "owner": "rebroad",
+    "url": "https://github.com/rebroad/staden",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "seq_utils/open_reading_frames.c",
+    "fileSHA": "144e5982e21a410dbc30735daf2345132089acea",
+    "url": "https://github.com/rebroad/staden/blob/18b2349ddd068ff3b5421ee2f992f9d71922529e/seq_utils/open_reading_frames.c",
+    "rawUrl": "https://raw.githubusercontent.com/rebroad/staden/main/seq_utils/open_reading_frames.c"
+  },
+  "matching": {
+    "relevanceScore": 70.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a0861b9e6aca070b2d095b0bc36d891924affdbe1035d3d130ce62ee05fbaca9",
+    "normalizedCodeHash": "a0861b9e6aca070b2d095b0bc36d891924affdbe1035d3d130ce62ee05fbaca9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T18:11:26.042213+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

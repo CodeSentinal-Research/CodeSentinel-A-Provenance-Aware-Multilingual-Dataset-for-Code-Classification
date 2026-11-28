@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000482",
+  "problemId": "P000482",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000482",
+    "title": "Next Greater Element I",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given two arrays nums1 and nums2 where all elements are unique and nums1 is a subset of nums2. For each element in nums1, find the first greater element to its right in nums2. If no such element exists, return -1 for that element.",
+    "input": "Integer n Array nums1 Integer m Array nums2",
+    "output": "An array containing the next greater element for every element in nums1.",
+    "constraints": "1 <= n <= m <= 1000 All elements are unique."
+  },
+  "repository": {
+    "name": "toanpi/leetcode",
+    "owner": "toanpi",
+    "url": "https://github.com/toanpi/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "496.next-greater-element-i.c",
+    "fileSHA": "fb0fc580e3f1673f92d8d7bdd2e0369e664daeea",
+    "url": "https://github.com/toanpi/leetcode/blob/0d45eb40f718a0708d4042aaa7551c5281b6f05d/496.next-greater-element-i.c",
+    "rawUrl": "https://raw.githubusercontent.com/toanpi/leetcode/main/496.next-greater-element-i.c"
+  },
+  "matching": {
+    "relevanceScore": 79.47
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3097018a207f953cff6662b53f571c2879bb7602673e55b0dcbfae62d14c2bc6",
+    "normalizedCodeHash": "3097018a207f953cff6662b53f571c2879bb7602673e55b0dcbfae62d14c2bc6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:35:49.315819+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

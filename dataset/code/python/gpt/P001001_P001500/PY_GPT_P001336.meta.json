@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001336",
+  "problemId": "P001336",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001336",
+    "title": "Partition into K Equal Sum Subsets",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array and an integer K, determine whether it can be partitioned into exactly K non-empty subsets having equal sums.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print YES if possible; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 16"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001336.py",
+    "fileSHA": "ca9419c2bbd693b8338dec1d5e2fc47277cf13721d77b252fcc7ffd142e1de16",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.359119+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ca9419c2bbd693b8338dec1d5e2fc47277cf13721d77b252fcc7ffd142e1de16",
+    "normalizedCodeHash": "8d729e24cba93b318f37ef232f0462cfd3542f0f33f358779182ca6b9c7ab509",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.359119+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001690",
+  "problemId": "P001690",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001690",
+    "title": "Maximum Sum Binary Search Subtree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree whose nodes contain integer values, determine the maximum possible sum of values among all subtrees that satisfy the Binary Search Tree property.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the maximum subtree sum.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 \u221210^9 \u2264 NodeValue \u2264 10^9________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001690",
+    "fileSHA": "fa91a680f77cfd43df70c3b11f2f3cd284e64e3008d0ed9f2b2736f34964133d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:37:16.579823+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fa91a680f77cfd43df70c3b11f2f3cd284e64e3008d0ed9f2b2736f34964133d",
+    "normalizedCodeHash": "fa91a680f77cfd43df70c3b11f2f3cd284e64e3008d0ed9f2b2736f34964133d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:37:16.579858+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

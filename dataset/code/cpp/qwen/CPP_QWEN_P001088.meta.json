@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001088",
+  "problemId": "P001088",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001088",
+    "title": "Count Vertices at Distance K",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given an unweighted graph, a source vertex S, and an integer K, determine the number of vertices that are exactly K edges away from S.",
+    "input": "\u2022 First line contains integers N, M, S, and K. \u2022 Next M lines contain graph edges.",
+    "output": "Print the number of vertices at distance K.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001088",
+    "fileSHA": "72a6b6aec2355f1b5aaf81c263af95e76f7cef08837a001532a975c73adc9d77",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.600Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "6e98f0adaa566e008f4ebd3099be1384e19df7e01f9267e787a58dfa3b13fab4",
+    "normalizedCodeHash": "1337750e08231cafc16e6c21f14b04438e82b245cd5f04d42b3ef344a2667c17",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.600Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

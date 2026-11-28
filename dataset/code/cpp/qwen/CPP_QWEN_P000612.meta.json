@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000612",
+  "problemId": "P000612",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000612",
+    "title": "Insert Greatest Common Divisors in Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a linked list of integers, insert a new node between every pair of adjacent nodes. The value of each inserted node should be the greatest common divisor (GCD) of the values of the adjacent nodes. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 5000 1 <= node.value <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000612",
+    "fileSHA": "ecb2504a21622861078a04c5c9d3b61f7d66db1f5d1ab985a0414a3a621c4464",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.323Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "1b5555d071b8b63bca3748f8b70acca0b29dedb0a3ea228ac0cb6a652a1710a9",
+    "normalizedCodeHash": "a0fc9f761a73185911e451996d357172fe849209fb7bd9fcb1269ebc61184aa1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.323Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

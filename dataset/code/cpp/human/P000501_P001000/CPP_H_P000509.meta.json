@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000509",
+  "problemId": "P000509",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000509",
+    "title": "Clear Digits from String",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a string consisting of lowercase English letters and digits. Process the string from left to right: If the current character is a lowercase letter, keep it. If the current character is a digit, remove the closest lowercase letter to its left that has not already been removed, and discard the digit itself. Return the final string after processing all characters.",
+    "input": "A single string s.",
+    "output": "The resulting string.",
+    "constraints": "1 <= s.length <= 10^5 s consists only of lowercase English letters and digits. Every digit has at least one removable letter to its left."
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "C++/clear-digits.cpp",
+    "fileSHA": "ed9d646aae1634fed9bbc157f393b5188ef3a222",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/clear-digits.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/C++/clear-digits.cpp"
+  },
+  "matching": {
+    "relevanceScore": 75.89
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1c668434f65c761366b7c308c4854ead25c8b19610791394e9169debd6e1f376",
+    "normalizedCodeHash": "1c668434f65c761366b7c308c4854ead25c8b19610791394e9169debd6e1f376",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (C++ Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:54:17.850026+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

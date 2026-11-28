@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000907",
+  "problemId": "P000907",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000907",
+    "title": "Fast Modular Exponentiation",
+    "category": "Mathematics - Modular Arithmetic",
+    "difficulty": "Medium",
+    "problemStatement": "Given integers A, B, and M, compute (A^B) mod M efficiently.",
+    "input": "Integer A Integer B Integer M",
+    "output": "The value of (A^B) mod M.",
+    "constraints": "1 <= M <= 10^18 0 <= A <= 10^18 0 <= B <= 10^18"
+  },
+  "repository": {
+    "name": "recongamer/Hacktoberfest2021",
+    "owner": "recongamer",
+    "url": "https://github.com/recongamer/Hacktoberfest2021",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "modularExponentiation.cpp",
+    "fileSHA": "7f3d5c575539450848759efc63cbe424a3375b39",
+    "url": "https://github.com/recongamer/Hacktoberfest2021/blob/b123bce3014ec58c85eaf8ba13d9788dec9b2c61/modularExponentiation.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/recongamer/Hacktoberfest2021/main/modularExponentiation.cpp"
+  },
+  "matching": {
+    "relevanceScore": 68.33
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3370c248c9d0572a6cc4f3b8d956f3a5fa07d9926ad6dc58697b2c38f75053ca",
+    "normalizedCodeHash": "3370c248c9d0572a6cc4f3b8d956f3a5fa07d9926ad6dc58697b2c38f75053ca",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:38:48.805918+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

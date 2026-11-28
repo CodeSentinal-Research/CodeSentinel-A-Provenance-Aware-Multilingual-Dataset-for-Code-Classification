@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000709",
+  "problemId": "P000709",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000709",
+    "title": "Generate All Permutations of a String",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string s containing distinct characters, generate all possible permutations using recursion. Print the permutations in lexicographical order.",
+    "input": "String s",
+    "output": "All possible permutations, one per line.",
+    "constraints": "1 <= |s| <= 9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000709.c",
+    "fileSHA": "430779d5fd3d3e54366751b528c4629b8789cca53da5d95174c1f5da1aee2e70",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "430779d5fd3d3e54366751b528c4629b8789cca53da5d95174c1f5da1aee2e70",
+    "normalizedCodeHash": "430779d5fd3d3e54366751b528c4629b8789cca53da5d95174c1f5da1aee2e70",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

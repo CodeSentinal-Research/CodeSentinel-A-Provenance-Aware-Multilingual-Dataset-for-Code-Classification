@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001398",
+  "problemId": "P001398",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001398",
+    "title": "Find Common Characters",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given N lowercase strings, determine all characters that appear in every string, including duplicate occurrences.",
+    "input": "• First line contains integer N. • Next N lines contain one lowercase string.",
+    "output": "Print all common characters in sorted order.",
+    "constraints": "• 1 ≤ N ≤ 1000 • String length ≤ 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001398.c",
+    "fileSHA": "180cf50ab1a477f35fa3142544220b9adee0310e5f343fa001797064d7d7b184",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.246Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "f500765d341f01c647e2f6f78362700b675b9d0ca8e160b399a87f5ca40da1e7",
+    "normalizedCodeHash": "180cf50ab1a477f35fa3142544220b9adee0310e5f343fa001797064d7d7b184",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.246Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

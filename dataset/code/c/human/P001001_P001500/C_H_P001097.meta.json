@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001097",
+  "problemId": "P001097",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001097",
+    "title": "Union-Find Operations",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "You are given N initially disconnected vertices and Q operations. Each operation is either: \u2022 UNION u v: Merge the sets containing vertices u and v. \u2022 FIND u v: Determine whether u and v belong to the same connected component. Process all operations.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Next Q lines each contain an operation.",
+    "output": "For every FIND operation, print YES if both vertices belong to the same set; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "beriamegha8/DSAcodes",
+    "owner": "beriamegha8",
+    "url": "https://github.com/beriamegha8/DSAcodes",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "KruskalsAlgInC.c",
+    "fileSHA": "dc0c64315f4be77a359a957e04977d4d5390fb7a",
+    "url": "https://github.com/beriamegha8/DSAcodes/blob/ca7a24b8784fe2c6ff1260fed6bd3978d9aa69c6/KruskalsAlgInC.c",
+    "rawUrl": "https://raw.githubusercontent.com/beriamegha8/DSAcodes/main/KruskalsAlgInC.c"
+  },
+  "matching": {
+    "relevanceScore": 61.32
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2637f24846583136a0aade144fc632e7f5a55c2f74da69e4d160ff27e1c8047a",
+    "normalizedCodeHash": "2637f24846583136a0aade144fc632e7f5a55c2f74da69e4d160ff27e1c8047a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:48:18.298290+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000796",
+  "problemId": "P000796",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000796",
+    "title": "Make Sum Divisible by P",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array nums and an integer p, remove the shortest non-empty subarray such that the sum of the remaining elements is divisible by p. Return the length of the shortest such subarray, or -1 if impossible.",
+    "input": "Integer n Array nums Integer p",
+    "output": "The minimum length of the removed subarray.",
+    "constraints": "1 <= n <= 10^5 1 <= nums[i] <= 10^9 1 <= p <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000796.js",
+    "fileSHA": "a2dd47357a6e0aa4ff9dd3eba145c7dfa0db78d6b73d83c9a9bba54d42880b46",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a2dd47357a6e0aa4ff9dd3eba145c7dfa0db78d6b73d83c9a9bba54d42880b46",
+    "normalizedCodeHash": "a2dd47357a6e0aa4ff9dd3eba145c7dfa0db78d6b73d83c9a9bba54d42880b46",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

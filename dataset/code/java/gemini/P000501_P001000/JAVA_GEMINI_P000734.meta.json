@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000734",
+  "problemId": "P000734",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000734",
+    "title": "Knight's Tour",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 N chessboard and a starting position, determine a sequence of knight moves that visits every square exactly once. If a tour exists, output one valid tour; otherwise output -1.",
+    "input": "Integer N Starting row Starting column",
+    "output": "A valid Knight's Tour or -1 if none exists.",
+    "constraints": "1 <= N <= 8"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "java/gemini/JAVA_GEMINI_P000734",
+    "fileSHA": "5380dea51d3f4cdb81ed19399642a7eeafca27572aacdf8424b98e6d282619bb",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T17:08:23.742982+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5380dea51d3f4cdb81ed19399642a7eeafca27572aacdf8424b98e6d282619bb",
+    "normalizedCodeHash": "5380dea51d3f4cdb81ed19399642a7eeafca27572aacdf8424b98e6d282619bb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T17:08:23.743004+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

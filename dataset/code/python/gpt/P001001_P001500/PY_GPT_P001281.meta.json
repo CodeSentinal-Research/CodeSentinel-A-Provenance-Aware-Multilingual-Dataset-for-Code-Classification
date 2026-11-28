@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001281",
+  "problemId": "P001281",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001281",
+    "title": "Remove K Digits",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given a non-negative integer represented as a string and an integer K, remove exactly K digits so that the resulting number is the smallest possible.",
+    "input": "• First line contains a numeric string. • Second line contains integer K.",
+    "output": "Print the smallest possible number after removing K digits.",
+    "constraints": "• 1 ≤ Length ≤ 2×10^5 • 0 ≤ K ≤ Length"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001281.py",
+    "fileSHA": "d88dadef0524781c9465c5ea17bc0858e4030adce0dc837a9673dfde78ce19ad",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.093023+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d88dadef0524781c9465c5ea17bc0858e4030adce0dc837a9673dfde78ce19ad",
+    "normalizedCodeHash": "6bca2702aa47ea22b7a80a49513a698ff6e480961676b3a8741d69c122407288",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.093023+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

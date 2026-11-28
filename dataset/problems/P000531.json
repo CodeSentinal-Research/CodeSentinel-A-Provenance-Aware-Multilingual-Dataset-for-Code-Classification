@@ -1,0 +1,10 @@
+{
+  "problemId": "P000531",
+  "title": "Number of Recent Calls",
+  "category": "Queue",
+  "difficulty": "Easy",
+  "problemStatement": "Design a class RecentCounter that counts the number of requests received in the last 3000 milliseconds. For each incoming request at time t, return the number of requests that occurred in the inclusive range [t - 3000, t]. Process all requests in chronological order.",
+  "input": "Integer n n increasing timestamps.",
+  "output": "Print the number of recent requests after each timestamp.",
+  "constraints": "1 <= n <= 10^5 1 <= t <= 10^9 Timestamps are strictly increasing."
+}

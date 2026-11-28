@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000413",
+  "problemId": "P000413",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000413",
+    "title": "Search Active Employees in a Department",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Find all employees who belong to the specified department and are currently active.",
+    "input": "Employee records, department name.",
+    "output": "Matching employee records.",
+    "constraints": "1 ≤ Number of Employees ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000413.c",
+    "fileSHA": "2e247fd3bd3a4c5da1392a0e9e96ec67ae1748e6a74f5e513777fd5fce3e29fc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2e247fd3bd3a4c5da1392a0e9e96ec67ae1748e6a74f5e513777fd5fce3e29fc",
+    "normalizedCodeHash": "2e247fd3bd3a4c5da1392a0e9e96ec67ae1748e6a74f5e513777fd5fce3e29fc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

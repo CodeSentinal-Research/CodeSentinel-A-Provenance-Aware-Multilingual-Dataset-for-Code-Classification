@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P000840",
+  "problemId": "P000840",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000840",
+    "title": "Minimum Limit of Balls in a Bag",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given bags containing balls. In one operation, you may split a bag into two non-empty bags. Return the minimum possible maximum number of balls in any bag after performing at most maxOperations operations.",
+    "input": "Integer n Array nums Integer maxOperations",
+    "output": "The minimum possible penalty.",
+    "constraints": "1 <= n <= 10^5 1 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P000840",
+    "fileSHA": "26c410a3263b0185d1c31f60d146bd0fee3366cd7d4d5cffc5d234d873b7f6de",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:29:14.055542+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "26c410a3263b0185d1c31f60d146bd0fee3366cd7d4d5cffc5d234d873b7f6de",
+    "normalizedCodeHash": "26c410a3263b0185d1c31f60d146bd0fee3366cd7d4d5cffc5d234d873b7f6de",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:29:14.055597+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

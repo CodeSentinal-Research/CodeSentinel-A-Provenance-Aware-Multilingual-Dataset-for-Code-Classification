@@ -1,0 +1,23 @@
+#include <vector>
+#include <algorithm>
+
+class Solution {
+public:
+    int findMinArrowShots(std::vector<std::vector<int>>& points) {
+        if (points.empty()) return 0;
+        std::sort(points.begin(), points.end(), [](const auto& a, const auto& b) {
+            return a[1] < b[1];
+        });
+
+        int arrows = 1;
+        int lastEnd = points[0][1];
+
+        for (size_t i = 1; i < points.size(); i++) {
+            if (points[i][0] > lastEnd) {
+                arrows++;
+                lastEnd = points[i][1];
+            }
+        }
+        return arrows;
+    }
+};

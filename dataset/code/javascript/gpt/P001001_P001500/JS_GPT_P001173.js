@@ -1,0 +1,26 @@
+// P001173 - Minimum Path Sum
+const fs = require("fs");
+
+function main() {
+    const input = fs.readFileSync(0, "utf8").trim().split(/\s+/);
+    if (!input || input.length < 2) return;
+    const r = parseInt(input[0], 10);
+    const c = parseInt(input[1], 10);
+    let ptr = 2;
+    const grid = [];
+    for (let i = 0; i < r; i++) {
+        const row = [];
+        for (let j = 0; j < c; j++) row.push(parseInt(input[ptr++], 10));
+        grid.push(row);
+    }
+    for (let i = 1; i < r; i++) grid[i][0] += grid[i - 1][0];
+    for (let j = 1; j < c; j++) grid[0][j] += grid[0][j - 1];
+    for (let i = 1; i < r; i++) {
+        for (let j = 1; j < c; j++) {
+            grid[i][j] += Math.min(grid[i - 1][j], grid[i][j - 1]);
+        }
+    }
+    console.log(grid[r - 1][c - 1]);
+}
+
+main();

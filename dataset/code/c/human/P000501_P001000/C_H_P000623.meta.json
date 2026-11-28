@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000623",
+  "problemId": "P000623",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000623",
+    "title": "Reverse Alternate K Nodes in Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list and an integer k, reverse the first k nodes, leave the next k nodes unchanged, then reverse the following k nodes, and continue this pattern until the end of the list. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer k",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= n"
+  },
+  "repository": {
+    "name": "UdaykiranReddy-1/DSA",
+    "owner": "UdaykiranReddy-1",
+    "url": "https://github.com/UdaykiranReddy-1/DSA",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "linkedlist/list.c",
+    "fileSHA": "dd2a0e48446600725a669e297557840942ff4690",
+    "url": "https://github.com/UdaykiranReddy-1/DSA/blob/b29ae3c2b14a179968df0aba01f5794deb7cf86a/linkedlist/list.c",
+    "rawUrl": "https://raw.githubusercontent.com/UdaykiranReddy-1/DSA/main/linkedlist/list.c"
+  },
+  "matching": {
+    "relevanceScore": 88.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3a967ed161304b60f571eb0811b0807cf33e166ed6f140fa043a883c0fe65640",
+    "normalizedCodeHash": "3a967ed161304b60f571eb0811b0807cf33e166ed6f140fa043a883c0fe65640",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T19:14:47.467403+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

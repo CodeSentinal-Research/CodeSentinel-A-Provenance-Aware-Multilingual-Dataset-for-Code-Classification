@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000375",
+  "problemId": "P000375",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000375",
+    "title": "Search Patient by Patient ID",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Search for a patient using a unique patient ID.",
+    "input": "Patient records and a patient ID.",
+    "output": "Patient details or \"Patient Not Found\".",
+    "constraints": "1 ≤ Number of Patients ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000375.py",
+    "fileSHA": "1b9d6ee2080bff2fd8aad2b944b6d027ffca4dc8c764668066c72094cc5892e2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:01.598461+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1b9d6ee2080bff2fd8aad2b944b6d027ffca4dc8c764668066c72094cc5892e2",
+    "normalizedCodeHash": "9d94d3200a76213b0737731ab2495eeb16f8bc36bb8c35cc410165880546d1ff",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:01.598461+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

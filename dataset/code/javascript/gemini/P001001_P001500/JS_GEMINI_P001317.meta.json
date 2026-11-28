@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001317",
+  "problemId": "P001317",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001317",
+    "title": "Knight's Tour",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 N chessboard, determine one valid Knight's Tour that visits every square exactly once starting from the specified position.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains starting row and column.",
+    "output": "Print one valid Knight's Tour or IMPOSSIBLE if no tour exists.",
+    "constraints": "\u2022 1 \u2264 N \u2264 8"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001317",
+    "fileSHA": "5652c7aaddc13c5a526bc83ad03a7af8fb2355c1c5418bae89b11cd53fcf5105",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:21:54.789643+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5652c7aaddc13c5a526bc83ad03a7af8fb2355c1c5418bae89b11cd53fcf5105",
+    "normalizedCodeHash": "5652c7aaddc13c5a526bc83ad03a7af8fb2355c1c5418bae89b11cd53fcf5105",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:21:54.789672+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

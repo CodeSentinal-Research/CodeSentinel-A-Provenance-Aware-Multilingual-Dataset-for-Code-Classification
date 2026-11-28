@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000554",
+  "problemId": "P000554",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000554",
+    "title": "Nearest Exit from Maze",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an m × n maze consisting of: '.' for empty cells. '+' for walls. You are also given the coordinates of the entrance. Find the minimum number of steps required to reach the nearest exit. An exit is any empty cell on the boundary of the maze other than the entrance itself.",
+    "input": "Integers m and n Maze Entrance row and column.",
+    "output": "A single integer representing the minimum number of steps, or -1 if no exit exists.",
+    "constraints": "1 <= m, n <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000554.py",
+    "fileSHA": "d39701844476c9cf9e063e6a819e850646e44140a6dd5711ebb624614717f9ec",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.226422+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d39701844476c9cf9e063e6a819e850646e44140a6dd5711ebb624614717f9ec",
+    "normalizedCodeHash": "feaf6109e46200a28e75aab972cab033d061e4d00ded34f996331572de5abfa1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.226422+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

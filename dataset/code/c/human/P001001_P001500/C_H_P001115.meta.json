@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001115",
+  "problemId": "P001115",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001115",
+    "title": "Shortest Path in a Binary Matrix",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 N binary matrix, determine the length of the shortest path from the top-left cell to the bottom-right cell by moving in all eight directions through cells containing 0.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain the binary matrix.",
+    "output": "Print the shortest path length, or -1 if no path exists.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "TheAlgorithms/C",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/C",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "sorting/binary_insertion_sort.c",
+    "fileSHA": "a111e2843e5bd0acdf5785513b160a3efbef141b",
+    "url": "https://github.com/TheAlgorithms/C/blob/master/sorting/binary_insertion_sort.c",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/C/master/sorting/binary_insertion_sort.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c6932c777da5e48e0b41fb326dbfb3c39111651f55f4255398ac654ccd6c02fa",
+    "normalizedCodeHash": "c6932c777da5e48e0b41fb326dbfb3c39111651f55f4255398ac654ccd6c02fa",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:15.324847+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001511",
+  "problemId": "P001511",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001511",
+    "title": "Max Consecutive Answers",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string consisting of 'T' and 'F' and an integer K, determine the maximum length of consecutive identical answers after changing at most K characters.",
+    "input": "\u2022 First line contains the answer string. \u2022 Second line contains integer K.",
+    "output": "Print the maximum possible length.",
+    "constraints": "\u2022 1 \u2264 Length \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0128_longest_consecutive_sequence/consec_seq.c",
+    "fileSHA": "d42b664597e28f8a70e73110f5aaa02a8d84fb86",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0128_longest_consecutive_sequence/consec_seq.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0128_longest_consecutive_sequence/consec_seq.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "72ed2e4594847fb17273a1c563339e8d9844436f12bb7350e3778927e1f0d3e8",
+    "normalizedCodeHash": "72ed2e4594847fb17273a1c563339e8d9844436f12bb7350e3778927e1f0d3e8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T16:06:27.138394+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

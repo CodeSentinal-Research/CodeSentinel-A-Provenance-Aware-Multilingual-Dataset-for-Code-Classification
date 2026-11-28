@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001506",
+  "problemId": "P001506",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001506",
+    "title": "Minimum Window Subsequence",
+    "category": "Two Pointers",
+    "difficulty": "Hard",
+    "problemStatement": "Given two strings S and T, determine the shortest substring of S in which T appears as a subsequence.",
+    "input": "• First line contains string S. • Second line contains string T.",
+    "output": "Print the shortest valid substring. If none exists, print an empty string.",
+    "constraints": "• 1 ≤ Length of S, T ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001506.c",
+    "fileSHA": "6671c8f2224044cea79ba186c89957a0e3aa299d640544c669aaab83ed8d9d9d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.592Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "e1f60345cbd8af7f73f129b9e9c1ef6edacb7edf424d52233434dcf82927431f",
+    "normalizedCodeHash": "6671c8f2224044cea79ba186c89957a0e3aa299d640544c669aaab83ed8d9d9d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.592Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000668",
+  "problemId": "P000668",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000668",
+    "title": "Skip M Nodes Delete N Nodes",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and two integers M and N, repeatedly skip the next M nodes and then delete the following N nodes until the end of the list is reached. Return the head of the modified linked list.",
+    "input": "Integer size Linked list Integer M Integer N",
+    "output": "The modified linked list.",
+    "constraints": "0 <= size <= 10^5 0 <= M, N <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "java/gemini/JAVA_GEMINI_P000668",
+    "fileSHA": "5a45d347790f8647c3090f6c8d56b1b536f296121b0c78b7a32f695f70f2b07d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:51:54.024948+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5a45d347790f8647c3090f6c8d56b1b536f296121b0c78b7a32f695f70f2b07d",
+    "normalizedCodeHash": "5a45d347790f8647c3090f6c8d56b1b536f296121b0c78b7a32f695f70f2b07d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:51:54.024978+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

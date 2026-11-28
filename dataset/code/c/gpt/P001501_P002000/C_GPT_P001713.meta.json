@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001713",
+  "problemId": "P001713",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001713",
+    "title": "Remove All Half Nodes from a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, remove every node having exactly one child by connecting its parent directly to its child.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the resulting tree.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001713.c",
+    "fileSHA": "d94881cac9661eef94a81b8224275f0f1838b2a198a65ce0550d0d10d2c01580",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.426Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "6f982956776ca59fb780c804bfd60dada1178200dfbe4300fb1416ce6fe419ee",
+    "normalizedCodeHash": "d94881cac9661eef94a81b8224275f0f1838b2a198a65ce0550d0d10d2c01580",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.426Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

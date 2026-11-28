@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001309",
+  "problemId": "P001309",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001309",
+    "title": "Survival on an Island",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "A person must survive for S days on an island. Food can only be purchased on certain days, and there is a daily purchase limit. Determine the minimum number of days on which food must be purchased to survive, or print -1 if survival is impossible.",
+    "input": "• First line contains integers S, N, and M, where N is the maximum units purchasable per day and M is the daily food requirement.",
+    "output": "Print the minimum number of purchase days, or -1 if impossible.",
+    "constraints": "• 1 ≤ S ≤ 10^9 • 1 ≤ M ≤ N ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001309.py",
+    "fileSHA": "9a8ebf357e843b2fa316768352668d2dce0047f7fc11264e68e097d6f5996457",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.240554+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9a8ebf357e843b2fa316768352668d2dce0047f7fc11264e68e097d6f5996457",
+    "normalizedCodeHash": "387d3b26e2bc28f6bacbac9409c90777958c92c79e0b76b212245f979fd7b70f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.240554+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

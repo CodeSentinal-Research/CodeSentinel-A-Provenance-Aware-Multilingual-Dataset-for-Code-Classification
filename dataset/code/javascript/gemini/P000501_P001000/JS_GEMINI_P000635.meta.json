@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000635",
+  "problemId": "P000635",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000635",
+    "title": "Reverse Nodes in Variable Sized Groups",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and an array groups representing group sizes, reverse the nodes according to the given group sizes in order. If the remaining number of nodes is smaller than the current group size, leave those nodes unchanged. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer g Array groups",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= g <= n 1 <= groups[i] <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "javascript/gemini/JS_GEMINI_P000635",
+    "fileSHA": "604f668addaa3316c38f82a4b2642cc5ceb7fd2ff3f4501c0a608ec0896b54cb",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:49:57.552716+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "604f668addaa3316c38f82a4b2642cc5ceb7fd2ff3f4501c0a608ec0896b54cb",
+    "normalizedCodeHash": "604f668addaa3316c38f82a4b2642cc5ceb7fd2ff3f4501c0a608ec0896b54cb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:49:57.552745+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

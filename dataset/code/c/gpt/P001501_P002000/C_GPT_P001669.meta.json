@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001669",
+  "problemId": "P001669",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001669",
+    "title": "Verify Preorder Serialization of a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a preorder serialization of a binary tree where null children are explicitly represented, determine whether the serialization corresponds to a valid binary tree.",
+    "input": "• The first line contains the serialized preorder representation.",
+    "output": "• Print YES if the serialization is valid; otherwise print NO.",
+    "constraints": "• The serialization contains at most 2 × 10^5 tokens.________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001669.c",
+    "fileSHA": "afeda7105f1cd269c48b386aab785444fd99ca1ff908e9287969ff9988677dae",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.179Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a714ec3d358ac3c39686ac9778325975208bf6511344c984fbb952fa056d6509",
+    "normalizedCodeHash": "afeda7105f1cd269c48b386aab785444fd99ca1ff908e9287969ff9988677dae",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.180Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

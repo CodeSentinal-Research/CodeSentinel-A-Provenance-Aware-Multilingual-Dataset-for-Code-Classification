@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000509",
+  "problemId": "P000509",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000509",
+    "title": "Clear Digits from String",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a string consisting of lowercase English letters and digits. Process the string from left to right: If the current character is a lowercase letter, keep it. If the current character is a digit, remove the closest lowercase letter to its left that has not already been removed, and discard the digit itself. Return the final string after processing all characters.",
+    "input": "A single string s.",
+    "output": "The resulting string.",
+    "constraints": "1 <= s.length <= 10^5 s consists only of lowercase English letters and digits. Every digit has at least one removable letter to its left."
+  },
+  "repository": {
+    "name": "zzqsld/TCM-Constitution-Assessment",
+    "owner": "zzqsld",
+    "url": "https://github.com/zzqsld/TCM-Constitution-Assessment",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "app.js",
+    "fileSHA": "263b43115f7856ddbd4bb397f973a6ec4af201ea",
+    "url": "https://github.com/zzqsld/TCM-Constitution-Assessment/blob/3f8b5f3894b04c893bb1e15c2e458bfaf2aee2fe/app.js",
+    "rawUrl": "https://raw.githubusercontent.com/zzqsld/TCM-Constitution-Assessment/main/app.js"
+  },
+  "matching": {
+    "relevanceScore": 80.7
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a0d1998f8d6e9aa9a62bb531a8e5265e492e1fc703a99e62b36aa5fa97b10a4f",
+    "normalizedCodeHash": "a0d1998f8d6e9aa9a62bb531a8e5265e492e1fc703a99e62b36aa5fa97b10a4f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T22:29:16.455004+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

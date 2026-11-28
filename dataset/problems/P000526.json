@@ -1,0 +1,10 @@
+{
+  "problemId": "P000526",
+  "title": "Number of Atoms",
+  "category": "Stack",
+  "difficulty": "Hard",
+  "problemStatement": "Given a valid chemical formula, return the count of each atom in lexicographical order. Rules: Element names begin with an uppercase letter and may be followed by lowercase letters. A number following an element or a closing parenthesis indicates its multiplicity. Parentheses may be nested. Output the formula in its canonical form.",
+  "input": "A string representing the chemical formula.",
+  "output": "A string representing the canonical atom count.",
+  "constraints": "1 <= formula.length <= 1000 The formula is valid."
+}

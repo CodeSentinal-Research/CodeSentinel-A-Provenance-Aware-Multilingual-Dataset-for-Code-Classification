@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001272",
+  "problemId": "P001272",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001272",
+    "title": "Jump Game VI",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array and an integer K, start at index 0 and reach the last index. From position i, you may jump to any index in the range [i+1, i+K]. Each visited element contributes to the score. Determine the maximum obtainable score.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print the maximum score.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001272.c",
+    "fileSHA": "ca5a3c71e20d21e00b2176503b72d67fa11c2d4cf340ac0d322c249d81ef2992",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.545Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "d70be22ba9ad0f227a74edfa1954db2faed2a88e07aa5c03c896a9c52c9f4226",
+    "normalizedCodeHash": "ca5a3c71e20d21e00b2176503b72d67fa11c2d4cf340ac0d322c249d81ef2992",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.545Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001551",
+  "problemId": "P001551",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001551",
+    "title": "Longest Subarray With Sum Less Than or Equal to K",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of non-negative integers and an integer K, determine the length of the longest contiguous subarray whose sum is less than or equal to K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N space-separated integers.",
+    "output": "\u2022 Print the length of the longest valid subarray.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 Ai \u2264 10^5 \u2022 0 \u2264 K \u2264 10^15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001551",
+    "fileSHA": "bfa42507e57c8a0ca74fb14381d2ee4e71b3801f50aad84de51bc7b6e2095a33",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:30:36.028394+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "bfa42507e57c8a0ca74fb14381d2ee4e71b3801f50aad84de51bc7b6e2095a33",
+    "normalizedCodeHash": "bfa42507e57c8a0ca74fb14381d2ee4e71b3801f50aad84de51bc7b6e2095a33",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:30:36.028418+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

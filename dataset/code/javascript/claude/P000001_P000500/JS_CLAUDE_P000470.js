@@ -1,0 +1,1 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const[n,x]=l[0].split(' ').map(Number);const a=l[1].split(' ').map(Number);let lo=0,hi=n-1;while(lo<hi){const m=(lo+hi)>>1;if(a[m]<x)lo=m+1;else hi=m;}if(lo>0&&Math.abs(a[lo-1]-x)<Math.abs(a[lo]-x))lo--;console.log(a[lo]);

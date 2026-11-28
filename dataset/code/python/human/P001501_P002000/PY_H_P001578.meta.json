@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001578",
+  "problemId": "P001578",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001578",
+    "title": "Count Windows With All Distinct Elements",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and an integer K, count the number of contiguous subarrays of size K in which every element is distinct.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the count.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "pytorch/pytorch",
+    "owner": "pytorch",
+    "url": "https://github.com/pytorch/pytorch",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "torchgen/dest/native_functions.py",
+    "fileSHA": "4d27ce25d1c9d7d90792f627ea3e85eb6b397571",
+    "url": "https://github.com/pytorch/pytorch/blob/460948b96a67002b7257ac4f3d6a192f70d61d27/torchgen/dest/native_functions.py",
+    "rawUrl": "https://raw.githubusercontent.com/pytorch/pytorch/main/torchgen/dest/native_functions.py"
+  },
+  "matching": {
+    "relevanceScore": 80.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "26b45cbdd7224b37c625f297bf6166f94b458a921090f4420fda76a14c6fa4b6",
+    "normalizedCodeHash": "26b45cbdd7224b37c625f297bf6166f94b458a921090f4420fda76a14c6fa4b6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T06:17:44.583987+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

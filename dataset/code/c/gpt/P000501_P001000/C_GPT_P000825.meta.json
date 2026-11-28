@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000825",
+  "problemId": "P000825",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000825",
+    "title": "Search a 2D Matrix II",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N × M matrix where: Each row is sorted in ascending order. Each column is sorted in ascending order. Determine whether a target value exists in the matrix.",
+    "input": "Integer N Integer M Matrix matrix Integer target",
+    "output": "true if the target exists, otherwise false.",
+    "constraints": "1 <= N, M <= 300"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000825.c",
+    "fileSHA": "e2957bf9309f09d23a0380d4dd59632bb3b2f6a7b0f9d3f7dbc214dbb18aca83",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e2957bf9309f09d23a0380d4dd59632bb3b2f6a7b0f9d3f7dbc214dbb18aca83",
+    "normalizedCodeHash": "e2957bf9309f09d23a0380d4dd59632bb3b2f6a7b0f9d3f7dbc214dbb18aca83",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

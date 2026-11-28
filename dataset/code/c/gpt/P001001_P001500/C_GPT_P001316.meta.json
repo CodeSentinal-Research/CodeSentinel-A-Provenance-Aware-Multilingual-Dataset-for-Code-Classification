@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001316",
+  "problemId": "P001316",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001316",
+    "title": "M-Coloring Problem",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph and M colors, determine whether every vertex can be colored such that no two adjacent vertices share the same color.",
+    "input": "• First line contains integers V, E, and M. • Next E lines contain edges.",
+    "output": "Print YES if coloring is possible; otherwise print NO.",
+    "constraints": "• 1 ≤ V ≤ 30"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001316.c",
+    "fileSHA": "5d564fe45bb6ba9a6c87e064c2d805b0e43eccecf1c41ce856cc9aa708f01d7c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.779Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "2e62b0c90007a5fd50d97719e183baa7cca4c8ffe2a4f6060972d0818484624d",
+    "normalizedCodeHash": "5d564fe45bb6ba9a6c87e064c2d805b0e43eccecf1c41ce856cc9aa708f01d7c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.779Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

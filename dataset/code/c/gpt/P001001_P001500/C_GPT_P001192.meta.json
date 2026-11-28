@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001192",
+  "problemId": "P001192",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001192",
+    "title": "House Robber II",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "There are N houses arranged in a circle. Adjacent houses cannot both be robbed, and the first and last houses are also adjacent. Determine the maximum amount that can be robbed.",
+    "input": "• First line contains integer N. • Second line contains N integers representing money in each house.",
+    "output": "Print the maximum obtainable amount.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001192.c",
+    "fileSHA": "dccbd96b16a6f2e8cddb89cb75285976c1cb9426f289f8777cb595cf21557d5a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.234Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "e06aeb0ac162786e8e2c388c89c3b03080f3604ee13a57aef29326f094ce90dd",
+    "normalizedCodeHash": "dccbd96b16a6f2e8cddb89cb75285976c1cb9426f289f8777cb595cf21557d5a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.234Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

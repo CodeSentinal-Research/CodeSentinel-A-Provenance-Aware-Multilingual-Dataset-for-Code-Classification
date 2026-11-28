@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000961",
+  "problemId": "P000961",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000961",
+    "title": "Count Diophantine Solutions in Range",
+    "category": "Mathematics - Diophantine Equations",
+    "difficulty": "Hard",
+    "problemStatement": "Given integers A, B, C and ranges for X and Y, count the number of integer solutions satisfying: AX + BY = C within the specified ranges.",
+    "input": "Integers A, B, C Ranges for X and Y",
+    "output": "The number of valid solutions.",
+    "constraints": "|A|, |B|, |C| <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000961",
+    "fileSHA": "ff64b9e018ebfa09fbecd0ead9a7217dac8d03b5e6f8d6f449c09261a96b3e45",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ff64b9e018ebfa09fbecd0ead9a7217dac8d03b5e6f8d6f449c09261a96b3e45",
+    "normalizedCodeHash": "ff64b9e018ebfa09fbecd0ead9a7217dac8d03b5e6f8d6f449c09261a96b3e45",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000961"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P000567",
+  "problemId": "P000567",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000567",
+    "title": "Cut Off Trees for Golf Event",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a forest represented as a grid. 0 represents an obstacle. 1 represents empty ground. Values greater than 1 represent trees with unique heights. Starting from the top-left cell, cut all trees in increasing order of height. Return the minimum total number of steps required to cut every tree, or -1 if any tree cannot be reached.",
+    "input": "Integers m and n An m \u00d7 n grid",
+    "output": "A single integer representing the minimum number of steps.",
+    "constraints": "1 <= m, n <= 50"
+  },
+  "repository": {
+    "name": "CS3219-AY2223S1/cs3219-project-ay2223s1-g24",
+    "owner": "CS3219-AY2223S1",
+    "url": "https://github.com/CS3219-AY2223S1/cs3219-project-ay2223s1-g24",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P000501_P001000/JS_H_P000567.js",
+    "fileSHA": "efdfac1f2e74ee4cc76114b30575095e4ffe4ba8",
+    "url": "https://github.com/CS3219-AY2223S1/cs3219-project-ay2223s1-g24/blob/86409cf8f05f25a45e97745e4ffb1751ca1f6afc/frontend/src/questions/hard/q91.js",
+    "rawUrl": "https://raw.githubusercontent.com/CS3219-AY2223S1/cs3219-project-ay2223s1-g24/main/frontend/src/questions/hard/q91.js"
+  },
+  "matching": {
+    "relevanceScore": 65.38
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2022-09-26T10:34:10Z",
+    "lastCommitDate": "2022-09-26T10:34:10Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "David"
+    ],
+    "firstKnownAuthor": "David",
+    "latestKnownAuthor": "David"
+  },
+  "deduplication": {
+    "rawCodeHash": "dd6c574b9df1bc035ff4034021c6c18986addc9478a94746d645d43a6f68cc0c",
+    "normalizedCodeHash": "dd6c574b9df1bc035ff4034021c6c18986addc9478a94746d645d43a6f68cc0c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:27:14.087678+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

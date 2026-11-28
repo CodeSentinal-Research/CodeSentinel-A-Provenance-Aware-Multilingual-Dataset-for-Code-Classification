@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000544",
+  "problemId": "P000544",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000544",
+    "title": "Open the Lock",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You have a lock with four circular wheels, each displaying a digit from 0 to 9. Initially, the lock displays \"0000\". In one move, you may rotate any one wheel one position forward or backward. Some combinations are deadends. If the lock reaches a deadend, it can no longer be used. Given the list of deadends and a target combination, determine the minimum number of moves required to reach the target. Return -1 if it is impossible.",
+    "input": "Integer d Array of deadend strings Target string",
+    "output": "A single integer.",
+    "constraints": "1 <= d <= 500 Every combination has exactly four digits."
+  },
+  "repository": {
+    "name": "dyiko/Lets_code_leetcode",
+    "owner": "dyiko",
+    "url": "https://github.com/dyiko/Lets_code_leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "752. Open the Lock.js",
+    "fileSHA": "64794a6b765f5c789acb4053fa30f733b1df2a1a",
+    "url": "https://github.com/dyiko/Lets_code_leetcode/blob/c42eebc6565ba5368e46afca88bafde86061cc65/752. Open the Lock.js",
+    "rawUrl": "https://raw.githubusercontent.com/dyiko/Lets_code_leetcode/main/752. Open the Lock.js"
+  },
+  "matching": {
+    "relevanceScore": 70.41
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f42c0cff9404f27e474ccc548fadf21c20279e2ca0497ced29d0bb3f3cd3d7b4",
+    "normalizedCodeHash": "f42c0cff9404f27e474ccc548fadf21c20279e2ca0497ced29d0bb3f3cd3d7b4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:24:43.995631+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

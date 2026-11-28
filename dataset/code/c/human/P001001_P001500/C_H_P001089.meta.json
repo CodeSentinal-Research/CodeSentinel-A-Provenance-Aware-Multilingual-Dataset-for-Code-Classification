@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001089",
+  "problemId": "P001089",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001089",
+    "title": "Find the Center of a Tree",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given an undirected tree with N vertices, determine all center vertices. A center is a vertex that minimizes the maximum distance to every other vertex.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N\u22121 lines contain tree edges.",
+    "output": "Print all center vertices in ascending order.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "FloyedLin/MyCodes",
+    "owner": "FloyedLin",
+    "url": "https://github.com/FloyedLin/MyCodes",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "hw_findcenter.c",
+    "fileSHA": "b10b17ab3ca042bd1eda9bb23f8bc39e7be2f3ed",
+    "url": "https://github.com/FloyedLin/MyCodes/blob/a990237b9b9dd1e837d6d104b84b61439a497794/hw_findcenter.c",
+    "rawUrl": "https://raw.githubusercontent.com/FloyedLin/MyCodes/main/hw_findcenter.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "39c79d688388a7492518294e1cfbd29c985ab9b5b10a06f44dc4fb7d25806169",
+    "normalizedCodeHash": "39c79d688388a7492518294e1cfbd29c985ab9b5b10a06f44dc4fb7d25806169",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T18:33:15.918186+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

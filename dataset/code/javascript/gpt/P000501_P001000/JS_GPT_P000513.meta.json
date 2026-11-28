@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000513",
+  "problemId": "P000513",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000513",
+    "title": "Flatten Nested List Iterator",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "A nested list contains integers or other nested lists. Design an iterator that supports the following operations: next() — returns the next integer. hasNext() — returns whether there are more integers remaining. Process a sequence of iterator operations on the given nested list.",
+    "input": "A nested list of integers. A sequence of iterator operations.",
+    "output": "For each next() operation, print the returned integer. For each hasNext() operation, print true or false.",
+    "constraints": "The total number of integers does not exceed 10^5."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000513.js",
+    "fileSHA": "b266cdf2bd62084a39b57368f2a0ebf7256f7f3e0200cf218135d168cb870fae",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b266cdf2bd62084a39b57368f2a0ebf7256f7f3e0200cf218135d168cb870fae",
+    "normalizedCodeHash": "b266cdf2bd62084a39b57368f2a0ebf7256f7f3e0200cf218135d168cb870fae",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

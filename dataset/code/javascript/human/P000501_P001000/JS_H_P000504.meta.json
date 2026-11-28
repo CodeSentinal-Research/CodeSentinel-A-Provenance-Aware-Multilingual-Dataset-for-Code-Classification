@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P000504",
+  "problemId": "P000504",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000504",
+    "title": "Exclusive Time of Functions",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "A single-threaded CPU executes n functions identified by IDs from 0 to n-1. Execution logs are provided in the format: function_id:start_or_end:timestamp A function may call another function before finishing. Return the exclusive execution time of each function, excluding the time spent executing child functions.",
+    "input": "Integer n Integer m Array of m log strings.",
+    "output": "An array of n integers representing the exclusive execution time of each function.",
+    "constraints": "1 <= n <= 100 1 <= m <= 500 Logs are valid and sorted by timestamp."
+  },
+  "repository": {
+    "name": "charlesbuczel/leetcode.js",
+    "owner": "charlesbuczel",
+    "url": "https://github.com/charlesbuczel/leetcode.js",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P000501_P001000/JS_H_P000504.js",
+    "fileSHA": "7fc58af76aae8826513a60f91beb0cd282d48b75",
+    "url": "https://github.com/charlesbuczel/leetcode.js/blob/0f5917ea146e94c1981a1aa977734d3424347354/0636_exclusiveTimeOfFunctions.js",
+    "rawUrl": "https://raw.githubusercontent.com/charlesbuczel/leetcode.js/main/0636_exclusiveTimeOfFunctions.js"
+  },
+  "matching": {
+    "relevanceScore": 56.59
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2020-08-02T16:01:12Z",
+    "lastCommitDate": "2020-08-02T16:01:12Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Charles Buczel"
+    ],
+    "firstKnownAuthor": "Charles Buczel",
+    "latestKnownAuthor": "Charles Buczel"
+  },
+  "deduplication": {
+    "rawCodeHash": "7375f23efa2736a54e2e30aae2ef214a00aff8ceb74915f9a42687a91632d2fa",
+    "normalizedCodeHash": "7375f23efa2736a54e2e30aae2ef214a00aff8ceb74915f9a42687a91632d2fa",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:02:17.017532+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

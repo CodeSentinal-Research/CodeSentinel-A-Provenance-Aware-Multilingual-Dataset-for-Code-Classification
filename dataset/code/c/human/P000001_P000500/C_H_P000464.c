@@ -1,0 +1,252 @@
+// getos.c
+// Tries to fingerprint the operating system of a remote host using the TTL reply of ping.
+// Requires ping and traceroute installed.
+// The results are valid only if default TTL value has not been changed.
+// Athanasios Emmanouilidis - 2023 - MIT License. Code to find closest element by Smitha Dinesh Semwal.
+// Use at your own risk.
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h> // for access()
+#include <ctype.h>
+
+void print_usage_instructions()
+{
+    printf("Tries to guess the operating system of the IP given using the TTL reply of ping.\n");
+    printf("The results are valid only if default TTL value has not been changed.\n\n");
+    printf("Requires ping and traceroute installed.\n");
+    printf("Use at your own risk. ");
+    printf("Run it like this: ./getos www.google.com\n");
+}
+
+void print_ascii_art()
+{
+    printf("            _                  \n");
+    printf("           | |                 \n");
+    printf("  __ _  ___| |_ ___  ___   ___ \n");
+    printf(" / _` |/ _ \\ __/ _ \\/ __| / __|\n");
+    printf("| (_| |  __/ || (_) \\__ \\| (__ \n");
+    printf(" \\__, |\\___|\\__\\___/|___(_)___|\n");
+    printf("  __/ |                        \n");
+    printf(" |___/                         \n");
+    printf("-=== getos.c by Athanasios Emmanouilidis ===-\n\n");
+}
+
+int find_executable(const char *name)
+{
+    const char *path_env = getenv("PATH");
+    if (path_env == NULL)
+        return 0;
+
+    char path_copy[4096];
+    strncpy(path_copy, path_env, sizeof(path_copy) - 1);
+    path_copy[sizeof(path_copy) - 1] = '\0';
+
+    char candidate[4096];
+    char *dir = strtok(path_copy, ":");
+    while (dir != NULL)
+    {
+        snprintf(candidate, sizeof(candidate), "%s/%s", dir, name);
+        if (access(candidate, X_OK) == 0)
+            return 1;
+        dir = strtok(NULL, ":");
+    }
+    return 0;
+}
+
+int is_valid_host(const char *host)
+{
+    for (const char *p = host; *p != '\0'; p++)
+    {
+        if (!isalnum((unsigned char)*p) && *p != '.' && *p != '-' && *p != ':' && *p != '_')
+            return 0;
+    }
+    return 1;
+}
+
+int getClosest(int val1, int val2, int target)
+{
+    if (target - val1 >= val2 - target)
+        return val2;
+    else
+        return val1;
+}
+
+// Returns element closest to target in arr[]
+int findClosest(const int arr[], int n, int target)
+{
+    // Corner cases
+    // left-side case
+    if (target <= arr[0])
+        return arr[0];
+    // right-side case
+    if (target >= arr[n - 1])
+        return arr[n - 1];
+
+    // Doing binary search
+    int i = 0, j = n, mid = 0;
+    while (i < j)
+    {
+        mid = (i + j) / 2;
+
+        if (arr[mid] == target)
+            return arr[mid];
+
+        /* If target is less than array element,
+            then search in left */
+        if (target < arr[mid])
+        {
+
+            // If target is greater than previous
+            // to mid, return closest of two
+            if (mid > 0 && target > arr[mid - 1])
+                return getClosest(arr[mid - 1],
+                                  arr[mid], target);
+            j = mid;
+        }
+        /* Repeat for left half */
+
+        // If target is greater than mid
+        else
+        {
+            if (mid < n - 1 && target < arr[mid + 1])
+                return getClosest(arr[mid],
+                                  arr[mid + 1], target);
+            // update i
+            i = mid + 1;
+        }
+    }
+
+    // Only single element left after search
+    return arr[mid];
+}
+
+int get_ping_ttl(char *host)
+{
+    char pingTtl[4];
+    char pingCommand[320];
+
+    if (snprintf(pingCommand, sizeof(pingCommand), "%s%s%s", "ping -c1 ", host, " | grep ttl | sed 's/.*ttl=\\([[:digit:]]*\\).*/\\1/' ") >= (int)sizeof(pingCommand))
+    {
+        fprintf(stderr, "Error: host name too long.\n");
+        exit(EXIT_FAILURE);
+    }
+
+    FILE *pingcmd;
+    if (NULL == (pingcmd = popen(pingCommand, "r")))
+    {
+        perror("popen");
+        exit(EXIT_FAILURE);
+    }
+
+    if (fgets(pingTtl, 4, pingcmd) == NULL)
+    {
+        pclose(pingcmd);
+        return 0;
+    }
+    pclose(pingcmd);
+
+    char *endptr;
+    long val = strtol(pingTtl, &endptr, 10);
+    if (endptr == pingTtl)
+        return 0;
+    return (int)val;
+}
+
+int get_traceroute_ttl(char *host)
+{
+    char tracerouteTtl[4];
+    char tracerouteCommand[320];
+
+    if (snprintf(tracerouteCommand, sizeof(tracerouteCommand), "%s%s%s", "traceroute ", host, " | tail -1 | awk '{print $1}' ") >= (int)sizeof(tracerouteCommand))
+    {
+        fprintf(stderr, "Error: host name too long.\n");
+        exit(EXIT_FAILURE);
+    }
+
+    FILE *traceroutecmd;
+    if (NULL == (traceroutecmd = popen(tracerouteCommand, "r")))
+    {
+        perror("popen");
+        exit(EXIT_FAILURE);
+    }
+
+    if (fgets(tracerouteTtl, 4, traceroutecmd) == NULL)
+    {
+        pclose(traceroutecmd);
+        return 0;
+    }
+    pclose(traceroutecmd);
+
+    char *endptr;
+    long val = strtol(tracerouteTtl, &endptr, 10);
+    if (endptr == tracerouteTtl)
+        return 0;
+    return (int)val - 1;
+}
+
+enum os
+{
+    Windows_Vista_7_Server2008_10_11,
+    Windows_95_98_ME,
+    Unix_Linux_FreeBSD_MacOSX,
+    Solaris_AIX_Cisco
+};
+
+static const char *operatingSystemNames[] = {"Windows Vista / Windows 7 / Windows Server 2008 / Windows 10 / Windows 11", "Windows 95 / Windows 98 / Windows ME", "Unix / Linux / FreeBSD / MacOSX", "Solaris / AIX / Cisco"};
+static const int ttlValuesArray[] = {32, 64, 128, 255};
+
+#ifndef TESTING
+int main(int argc, char *argv[])
+{
+
+    if (!find_executable("ping") || !find_executable("traceroute"))
+    {
+        printf("Error: ping or traceroute not found. Please ensure that these dependencies are installed.\n");
+        return 1;
+    }
+
+    print_ascii_art();
+
+    if (argc != 2)
+    {
+        print_usage_instructions();
+        return 0;
+    }
+
+    if (!is_valid_host(argv[1]))
+    {
+        printf("Error: invalid host '%s'. Only alphanumeric characters, '.', '-', ':', and '_' are allowed.\n", argv[1]);
+        return 1;
+    }
+
+    printf("Script is running. Please wait for results.\n");
+
+    enum os operatingSystem = Unix_Linux_FreeBSD_MacOSX;
+
+    int pingTtl = get_ping_ttl(argv[1]);
+    int tracerouteTtl = get_traceroute_ttl(argv[1]);
+    int finalTtl = pingTtl + tracerouteTtl;
+    int closestTtl = (findClosest(ttlValuesArray, sizeof(ttlValuesArray) / sizeof(ttlValuesArray[0]), finalTtl));
+
+    if (closestTtl == 32)
+        operatingSystem = Windows_95_98_ME;
+    else if (closestTtl == 64)
+        operatingSystem = Unix_Linux_FreeBSD_MacOSX;
+    else if (closestTtl == 128)
+        operatingSystem = Windows_Vista_7_Server2008_10_11;
+    else if (closestTtl == 255)
+        operatingSystem = Solaris_AIX_Cisco;
+
+    if (pingTtl != 0)
+    {
+        printf("Observed TTL: %i  Hops: %i  Reconstructed TTL: %i\n", pingTtl, tracerouteTtl, finalTtl);
+        printf("Script finished. %s is probably running %s.\n", argv[1], operatingSystemNames[operatingSystem]);
+    }
+    else
+        printf("An error occurred. The machine is probably blocking our pings.\n");
+
+    return 0;
+}
+#endif /* TESTING */

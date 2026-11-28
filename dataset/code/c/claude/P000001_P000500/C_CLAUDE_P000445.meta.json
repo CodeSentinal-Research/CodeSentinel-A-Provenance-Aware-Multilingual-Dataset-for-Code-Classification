@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000445",
+  "problemId": "P000445",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000445",
+    "title": "Search in 2D Matrix",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that searches for a target value in a sorted 2D matrix (rows and columns sorted).",
+    "input": "First line contains rows, cols and target. Next rows lines contain the matrix.",
+    "output": "Print \"Found\" or \"Not Found\".",
+    "constraints": "1 ≤ rows, cols ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000445",
+    "fileSHA": "9527b6f899b0a22cbf035c75256aaab397c96a939fe5b57eec478f2800e1acea",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9527b6f899b0a22cbf035c75256aaab397c96a939fe5b57eec478f2800e1acea",
+    "normalizedCodeHash": "9527b6f899b0a22cbf035c75256aaab397c96a939fe5b57eec478f2800e1acea",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000445: Search in 2D Matrix"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

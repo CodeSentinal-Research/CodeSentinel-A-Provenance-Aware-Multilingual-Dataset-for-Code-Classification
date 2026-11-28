@@ -1,0 +1,10 @@
+{
+  "problemId": "P001075",
+  "title": "Bellman-Ford Algorithm",
+  "category": "Graphs",
+  "difficulty": "Hard",
+  "problemStatement": "Given a weighted directed graph that may contain negative edge weights, determine the shortest distance from a source vertex to every other vertex. If a negative weight cycle exists, report it.",
+  "input": "\u2022 First line contains integers N, M, and S. \u2022 Next M lines contain three integers u, v, and w.",
+  "output": "Print NEGATIVE CYCLE if one exists; otherwise print the shortest distances.",
+  "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+}

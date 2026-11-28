@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001808",
+  "problemId": "P001808",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001808",
+    "title": "Join Two Binary Search Trees",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given two Binary Search Trees where every key in the first tree is smaller than every key in the second tree, combine them into a single valid Binary Search Tree.",
+    "input": "\u2022 The first line contains N\u2081. \u2022 The next N\u2081 lines describe the first BST. \u2022 The following line contains N\u2082. \u2022 The next N\u2082 lines describe the second BST.",
+    "output": "\u2022 Print the merged BST.",
+    "constraints": "\u2022 0 \u2264 N\u2081, N\u2082 \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/C",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/C",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "data_structures/binary_trees/threaded_binary_trees.c",
+    "fileSHA": "6ef5f7280e6980b557173666825d8ef142836145",
+    "url": "https://github.com/TheAlgorithms/C/blob/master/data_structures/binary_trees/threaded_binary_trees.c",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/C/master/data_structures/binary_trees/threaded_binary_trees.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8ff27e7e6e6204b8852ede00e43cc4fcbe49f8037e6845666e882fd3b1c02456",
+    "normalizedCodeHash": "8ff27e7e6e6204b8852ede00e43cc4fcbe49f8037e6845666e882fd3b1c02456",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T16:54:24.676598+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

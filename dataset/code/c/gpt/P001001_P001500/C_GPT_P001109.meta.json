@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001109",
+  "problemId": "P001109",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001109",
+    "title": "Graph Coloring Verification",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an undirected graph and a color assigned to every vertex. Determine whether the coloring is valid such that no two adjacent vertices share the same color.",
+    "input": "• First line contains integers N and M. • Next M lines contain graph edges. • Last line contains N integers representing vertex colors.",
+    "output": "Print VALID or INVALID.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001109.c",
+    "fileSHA": "6e9cd64172f9fecc987d1aec0a97340c9a6988490bacae3adeb1e1dafa0e2678",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.033Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "23aaf71b8f0cdfcbd8e1d03b355931ddf650a6b76d3d299a13224a668ea71b2f",
+    "normalizedCodeHash": "6e9cd64172f9fecc987d1aec0a97340c9a6988490bacae3adeb1e1dafa0e2678",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.033Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

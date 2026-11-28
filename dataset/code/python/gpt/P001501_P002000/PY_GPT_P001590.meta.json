@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_GPT_P001590",
+  "problemId": "P001590",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001590",
+    "title": "Maximum Robots Within Budget",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "You are given two arrays representing the charge times and running costs of robots, along with a budget. Determine the maximum number of consecutive robots that can be operated without exceeding the budget.",
+    "input": "• First line contains N and Budget. • Second line contains N integers representing charge times. • Third line contains N integers representing running costs.",
+    "output": "• Print the maximum number of consecutive robots that can be operated.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • 1 ≤ Budget ≤ 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001501_P002000/PY_GPT_P001590.py",
+    "fileSHA": "e71ef715bd9fca3cc90d414a78324cef86572e44adf14a0666c157cba6f43aa4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-26T13:09:03.591782+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e71ef715bd9fca3cc90d414a78324cef86572e44adf14a0666c157cba6f43aa4",
+    "normalizedCodeHash": "8a8fa5030eab08491b439fdcff599d99feab709527aa766d815f70d964073d16",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-26T13:09:03.591782+00:00",
+    "pipelineVersion": "1.0.0"
+  },
+  "sha256": "e803076459a78c13a9f69d6890bbbb3a414de15d7c1d4a8c1a045e6a29251f67"
+}

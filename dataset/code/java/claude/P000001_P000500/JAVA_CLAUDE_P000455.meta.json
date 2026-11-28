@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000455",
+  "problemId": "P000455",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000455",
+    "title": "Capacity to Ship Packages",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that finds the least weight capacity of a ship to ship all packages within D days.",
+    "input": "First line contains N and D. Second line contains N package weights.",
+    "output": "Least capacity required.",
+    "constraints": "1 ≤ N ≤ 1000, 1 ≤ D ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000455",
+    "fileSHA": "8e487db67285deee9e710711eb19b50cdae9e974cbaf0f9bb343083b8f905eec",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8e487db67285deee9e710711eb19b50cdae9e974cbaf0f9bb343083b8f905eec",
+    "normalizedCodeHash": "8e487db67285deee9e710711eb19b50cdae9e974cbaf0f9bb343083b8f905eec",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000455: Capacity to Ship Packages"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001183",
+  "problemId": "P001183",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001183",
+    "title": "Frog Jump",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "A frog stands on the first stone and wants to reach the last stone. Each stone has a height. The frog may jump to the next stone or skip one stone. The energy cost of a jump is the absolute difference between the heights of the two stones. Determine the minimum total energy required.",
+    "input": "• First line contains integer N. • Second line contains N integers representing stone heights.",
+    "output": "Print the minimum total energy.",
+    "constraints": "• 2 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001183.py",
+    "fileSHA": "c592d00da530f18aada78d585b6f73fc718b8a2a6a81102416fec5b872321be9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.690667+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c592d00da530f18aada78d585b6f73fc718b8a2a6a81102416fec5b872321be9",
+    "normalizedCodeHash": "a88d9dba3132586c5ca9a4b67bb3af7f97155d5ac3d3a2f25088a68da9cbe816",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.690667+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

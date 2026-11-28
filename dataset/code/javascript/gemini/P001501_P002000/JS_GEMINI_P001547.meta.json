@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001547",
+  "problemId": "P001547",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001547",
+    "title": "Maximum Number of Odd Elements in a Window",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and a window size K, find the maximum number of odd integers in any contiguous subarray of size K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the answer.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001547",
+    "fileSHA": "569431ef832bcb89a85ea60926a12e97a284623072c44c83bcf2aa276c959c49",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:30:35.592977+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "569431ef832bcb89a85ea60926a12e97a284623072c44c83bcf2aa276c959c49",
+    "normalizedCodeHash": "569431ef832bcb89a85ea60926a12e97a284623072c44c83bcf2aa276c959c49",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:30:35.593005+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

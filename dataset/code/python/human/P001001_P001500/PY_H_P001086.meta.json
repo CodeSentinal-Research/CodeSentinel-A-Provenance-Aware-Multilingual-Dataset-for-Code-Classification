@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P001086",
+  "problemId": "P001086",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001086",
+    "title": "Multi-Source Shortest Distance",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an unweighted graph and multiple source vertices, determine the shortest distance from the nearest source to every vertex.",
+    "input": "\u2022 First line contains integers N, M, and K. \u2022 Next M lines contain graph edges. \u2022 Last line contains K source vertices.",
+    "output": "Print the minimum distance to every vertex.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "deepanshu-rawat6/AlgoAtlas",
+    "owner": "deepanshu-rawat6",
+    "url": "https://github.com/deepanshu-rawat6/AlgoAtlas",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P001001_P001500/PY_H_P001086.py",
+    "fileSHA": "66711a10714402ea68b3b008bf7d0f65e92b622e",
+    "url": "https://github.com/deepanshu-rawat6/AlgoAtlas/blob/40de0dd14f14bc5f65939941e9cc8fbb2d06611e/algorithms/graphs/bfs.py",
+    "rawUrl": "https://raw.githubusercontent.com/deepanshu-rawat6/AlgoAtlas/main/algorithms/graphs/bfs.py"
+  },
+  "matching": {
+    "relevanceScore": 57.37
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2026-06-06T18:14:35Z",
+    "lastCommitDate": "2026-06-06T18:14:35Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Deepanshu Rawat"
+    ],
+    "firstKnownAuthor": "Deepanshu Rawat",
+    "latestKnownAuthor": "Deepanshu Rawat"
+  },
+  "deduplication": {
+    "rawCodeHash": "59e7771dd0776b0e657e560933923bb6cab5d5d15ce513bc2ae847d8399dcd0e",
+    "normalizedCodeHash": "59e7771dd0776b0e657e560933923bb6cab5d5d15ce513bc2ae847d8399dcd0e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T07:31:45.294341+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

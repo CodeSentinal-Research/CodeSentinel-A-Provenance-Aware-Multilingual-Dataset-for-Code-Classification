@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_CLAUDE_P001707",
+  "problemId": "P001707",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001707",
+    "title": "Insert an Entire Level into a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree, a value X, and a depth D, insert a complete new level of nodes having value X at depth D while preserving the existing subtree structure.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree. • The last line contains X and D.",
+    "output": "• Print the modified tree.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P001707",
+    "fileSHA": "6342c81006c508835c7e362e1fa8319d5cedf3184497c59f9a5a10b8fee777ef",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "76029b9c7ef6cf3541eff1be651aa4ea214eb16039fffb98233b107cdea29cf1",
+    "normalizedCodeHash": "6342c81006c508835c7e362e1fa8319d5cedf3184497c59f9a5a10b8fee777ef",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

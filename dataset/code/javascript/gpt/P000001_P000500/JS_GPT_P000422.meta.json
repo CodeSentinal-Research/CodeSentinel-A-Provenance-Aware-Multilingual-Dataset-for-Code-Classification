@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000422",
+  "problemId": "P000422",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000422",
+    "title": "Search Students Eligible for Scholarship",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Retrieve every student who satisfies the scholarship eligibility criteria based on CGPA and annual family income.",
+    "input": "Student records, minimum CGPA, maximum family income.",
+    "output": "Eligible students.",
+    "constraints": "1 ≤ Number of Students ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000001_P000500/JS_GPT_P000422.js",
+    "fileSHA": "16af10134f1e9a1a6ef6d668391f6d53e10959070eb7e03ab5dae0b0f9a1db6d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "16af10134f1e9a1a6ef6d668391f6d53e10959070eb7e03ab5dae0b0f9a1db6d",
+    "normalizedCodeHash": "16af10134f1e9a1a6ef6d668391f6d53e10959070eb7e03ab5dae0b0f9a1db6d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001626",
+  "problemId": "P001626",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001626",
+    "title": "Maximum Side Length of Square With Sum Less Than Threshold",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M matrix of non-negative integers and an integer Threshold, determine the side length of the largest square submatrix whose sum is less than or equal to Threshold.",
+    "input": "\u2022 First line contains N, M, and Threshold. \u2022 Next N lines each contain M non-negative integers.",
+    "output": "\u2022 Print the maximum side length.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 1000 \u2022 0 \u2264 Aij \u2264 10^4 \u2022 0 \u2264 Threshold \u2264 10^15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001626",
+    "fileSHA": "b9ca0c6122c6cbf9e8490fa19e77bb475932db40d77c8dc1f443c43414d7ce4c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:57.536174+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b9ca0c6122c6cbf9e8490fa19e77bb475932db40d77c8dc1f443c43414d7ce4c",
+    "normalizedCodeHash": "b9ca0c6122c6cbf9e8490fa19e77bb475932db40d77c8dc1f443c43414d7ce4c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:57.536197+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000503",
+  "problemId": "P000503",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000503",
+    "title": "Score of Parentheses",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "The score of a balanced parentheses string is defined as follows: \"()\" has score 1. \"AB\" has score A + B, where A and B are balanced parentheses strings. \"(A)\" has score 2 \u00d7 A. Given a balanced parentheses string, compute its score.",
+    "input": "A balanced parentheses string.",
+    "output": "A single integer representing its score.",
+    "constraints": "2 <= s.length <= 50 s is balanced."
+  },
+  "repository": {
+    "name": "JacobLinCool/LeetCode-Solutions",
+    "owner": "JacobLinCool",
+    "url": "https://github.com/JacobLinCool/LeetCode-Solutions",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "856. Score of Parentheses/score-of-parentheses.c",
+    "fileSHA": "c3c1caa5b35c37e29805ae50838e11d389c70e62",
+    "url": "https://github.com/JacobLinCool/LeetCode-Solutions/blob/47d66ca0786ef5ced40319b5ad35d3e67961b2e0/856. Score of Parentheses/score-of-parentheses.c",
+    "rawUrl": "https://raw.githubusercontent.com/JacobLinCool/LeetCode-Solutions/main/856. Score of Parentheses/score-of-parentheses.c"
+  },
+  "matching": {
+    "relevanceScore": 79.29
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "51afb9bf8df8f4fca9237dc9748948b62bd78982f62d669e86ac5f53811e7a12",
+    "normalizedCodeHash": "51afb9bf8df8f4fca9237dc9748948b62bd78982f62d669e86ac5f53811e7a12",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:35:55.797507+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001292",
+  "problemId": "P001292",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001292",
+    "title": "Eliminate Maximum Number of Monsters",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Each monster starts at a certain distance from the city and moves toward it at a constant speed. Every minute, you may eliminate exactly one monster before any monster reaches the city. Determine the maximum number of monsters that can be eliminated.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing distances. \u2022 Third line contains N integers representing speeds.",
+    "output": "Print the maximum number of monsters that can be eliminated.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001292",
+    "fileSHA": "1d35dbbc30a4cbfdff239c922795ef3500bbc9615184c6ade99fab475fdc8176",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:20:53.276749+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1d35dbbc30a4cbfdff239c922795ef3500bbc9615184c6ade99fab475fdc8176",
+    "normalizedCodeHash": "1d35dbbc30a4cbfdff239c922795ef3500bbc9615184c6ade99fab475fdc8176",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:20:53.276777+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

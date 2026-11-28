@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001100",
+  "problemId": "P001100",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001100",
+    "title": "Dynamic Connectivity Queries",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "You are given N vertices and Q online operations. Each operation is one of the following: • Add an edge between two vertices. • Determine whether two specified vertices are currently connected. Process all queries efficiently.",
+    "input": "• First line contains integers N and Q. • Next Q lines describe the operations.",
+    "output": "For every connectivity query, print YES or NO.",
+    "constraints": "• 1 ≤ N, Q ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001100.c",
+    "fileSHA": "698e5f74374d0fbc67478f8435ccdf32ecbea7371a0dcfb9541838a7ff915a9b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.010Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "f5b25a4775ee81abb26ddc1c89f106e8e7347922954e06c84322791d81f88b54",
+    "normalizedCodeHash": "698e5f74374d0fbc67478f8435ccdf32ecbea7371a0dcfb9541838a7ff915a9b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.010Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

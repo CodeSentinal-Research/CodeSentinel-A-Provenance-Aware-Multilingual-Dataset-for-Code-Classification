@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001167",
+  "problemId": "P001167",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001167",
+    "title": "Paint House",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "There are N houses and three colors. Painting the i-th house with each color incurs a specified cost. Adjacent houses cannot have the same color. Determine the minimum total painting cost.",
+    "input": "• First line contains integer N. • Next N lines each contain three integers representing the painting costs.",
+    "output": "Print the minimum total cost.",
+    "constraints": "• 1 ≤ N ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001167.py",
+    "fileSHA": "0dd88910b085ab426266437b71d27399f45fbf38f89a8a8f19b9c79c61fa9dd7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.619923+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0dd88910b085ab426266437b71d27399f45fbf38f89a8a8f19b9c79c61fa9dd7",
+    "normalizedCodeHash": "95ee757ddc168fa329bf28b8c4de2b37258631f544a4061a5fd8f5881257dfbc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.619923+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

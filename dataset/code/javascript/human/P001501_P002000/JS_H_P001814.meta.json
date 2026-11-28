@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001814",
+  "problemId": "P001814",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001814",
+    "title": "Find the Closest Pair of Keys from Two Binary Search Trees",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the roots of two Binary Search Trees and a target value X, determine one key from each tree whose sum is closest to X.",
+    "input": "\u2022 The first line contains N\u2081. \u2022 The next N\u2081 lines describe the first BST. \u2022 The following line contains N\u2082. \u2022 The next N\u2082 lines describe the second BST. \u2022 The last line contains X.",
+    "output": "\u2022 Print the required pair of keys.",
+    "constraints": "\u2022 1 \u2264 N\u2081, N\u2082 \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0000-0099/0016.3Sum Closest/Solution.ts",
+    "fileSHA": "f569596ea9ee4509b1f9a40a9bcaca72ff6e1822",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0000-0099/0016.3Sum Closest/Solution.ts",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0000-0099/0016.3Sum Closest/Solution.ts"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "04d82e090f0f13b58d269f97cf03d85a4ab0a862d3ab038bb5790a466aca9b19",
+    "normalizedCodeHash": "04d82e090f0f13b58d269f97cf03d85a4ab0a862d3ab038bb5790a466aca9b19",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:28.984399+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

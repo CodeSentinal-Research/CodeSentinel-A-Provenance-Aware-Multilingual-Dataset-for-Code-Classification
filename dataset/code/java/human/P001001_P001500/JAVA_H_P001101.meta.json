@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001101",
+  "problemId": "P001101",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001101",
+    "title": "Redundant Connection",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "A graph originally forms a tree with N vertices. One additional edge is added. Determine the redundant edge whose removal restores the graph to a tree.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain an edge.",
+    "output": "Print the redundant edge.",
+    "constraints": "\u2022 2 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "cherryljr/LeetCode",
+    "owner": "cherryljr",
+    "url": "https://github.com/cherryljr/LeetCode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Redundant Connection II.java",
+    "fileSHA": "80ddf55396d907fdb26818077592d6fb407261e0",
+    "url": "https://github.com/cherryljr/LeetCode/blob/master/Redundant Connection II.java",
+    "rawUrl": "https://raw.githubusercontent.com/cherryljr/LeetCode/master/Redundant Connection II.java"
+  },
+  "matching": {
+    "relevanceScore": 82.19
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ead7ba09a75a5c8410d07a8368a4a0be9a99bea878916ca9f052a2861f04c9e3",
+    "normalizedCodeHash": "ead7ba09a75a5c8410d07a8368a4a0be9a99bea878916ca9f052a2861f04c9e3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:51:52.844046+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001688",
+  "problemId": "P001688",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001688",
+    "title": "Maximum Product of Splitting a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, remove exactly one edge so that the tree is divided into two subtrees. Determine the maximum possible product of the sums of the two resulting subtrees.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the maximum product.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2 \u00d7 10^5 \u2022 \u221210^9 \u2264 NodeValue \u2264 10^9"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0200-0299/0238.Product of Array Except Self/Solution.java",
+    "fileSHA": "743103195804d5fe35ec24572b2e83c065b3d37b",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0200-0299/0238.Product of Array Except Self/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0200-0299/0238.Product of Array Except Self/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8bd77a25fbe0f5194b1a8cd9870c580c88fcad316424b7aa7773da7b64e2516e",
+    "normalizedCodeHash": "8bd77a25fbe0f5194b1a8cd9870c580c88fcad316424b7aa7773da7b64e2516e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:44.987389+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

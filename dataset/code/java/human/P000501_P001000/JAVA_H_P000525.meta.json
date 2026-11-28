@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000525",
+  "problemId": "P000525",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000525",
+    "title": "Beautiful Towers II",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "You are given the maximum allowed heights of n towers. Construct the heights of all towers such that: Each height is at least 1. Each height does not exceed its maximum allowed height. Heights are non-increasing as you move away from a chosen peak. Return the maximum possible sum of all tower heights. Unlike the previous version, this problem requires an efficient solution for much larger input sizes.",
+    "input": "Integer n Array maxHeights",
+    "output": "A single integer.",
+    "constraints": "1 <= n <= 2 \u00d7 10^5 1 <= maxHeights[i] <= 10^9"
+  },
+  "repository": {
+    "name": "NazmulHasan7/LeetCode",
+    "owner": "NazmulHasan7",
+    "url": "https://github.com/NazmulHasan7/LeetCode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/Medium/Medium_2866_Beautiful_Towers_II.java",
+    "fileSHA": "478511f1f8d1f7b3f4d1e4988284afba65860f5e",
+    "url": "https://github.com/NazmulHasan7/LeetCode/blob/c3c8f83c39dd4205f475ccefbf40b55670b04dd3/src/Medium/Medium_2866_Beautiful_Towers_II.java",
+    "rawUrl": "https://raw.githubusercontent.com/NazmulHasan7/LeetCode/main/src/Medium/Medium_2866_Beautiful_Towers_II.java"
+  },
+  "matching": {
+    "relevanceScore": 82.86
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "106e58792c6030921c5a6a378026513d0488bf7c78b0de9a37add0b24211062a",
+    "normalizedCodeHash": "106e58792c6030921c5a6a378026513d0488bf7c78b0de9a37add0b24211062a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:27:03.929742+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

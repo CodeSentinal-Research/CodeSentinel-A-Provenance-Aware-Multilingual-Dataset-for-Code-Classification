@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001087",
+  "problemId": "P001087",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001087",
+    "title": "Check if an Undirected Graph is a Tree",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given an undirected graph with N vertices and M edges, determine whether the graph forms a tree. A graph is a tree if it is connected and contains exactly N−1 edges.",
+    "input": "• First line contains integers N and M. • Next M lines contain two integers u and v.",
+    "output": "Print YES if the graph is a tree; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001087.js",
+    "fileSHA": "aa3c9703ec36776f84d96fd313231e215e4d340e4692bef2f63bfa44415a314d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T09:30:51.258473+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "aa3c9703ec36776f84d96fd313231e215e4d340e4692bef2f63bfa44415a314d",
+    "normalizedCodeHash": "aa3c9703ec36776f84d96fd313231e215e4d340e4692bef2f63bfa44415a314d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T09:30:51.258473+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

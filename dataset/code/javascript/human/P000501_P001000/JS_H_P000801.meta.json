@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000801",
+  "problemId": "P000801",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000801",
+    "title": "Matrix Block Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N \u00d7 M matrix and an integer K, construct another matrix where each cell contains the sum of all elements whose row and column distances from the current cell are at most K. Use a 2D prefix sum to compute the result efficiently.",
+    "input": "Integer N Integer M Matrix grid Integer K",
+    "output": "The resulting matrix.",
+    "constraints": "1 <= N, M <= 1000"
+  },
+  "repository": {
+    "name": "bagusvalentinoo/leetcode-journey",
+    "owner": "bagusvalentinoo",
+    "url": "https://github.com/bagusvalentinoo/leetcode-journey",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "01314. Matrix Block Sum/solution.js",
+    "fileSHA": "baeb32a921aebd238c5570320b92f3c2e06101c8",
+    "url": "https://github.com/bagusvalentinoo/leetcode-journey/blob/c4580585829bd92cae2df1d7ae95ccafd1f4217d/01314. Matrix Block Sum/solution.js",
+    "rawUrl": "https://raw.githubusercontent.com/bagusvalentinoo/leetcode-journey/main/01314. Matrix Block Sum/solution.js"
+  },
+  "matching": {
+    "relevanceScore": 90.0
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "366533a66e6c4d3ae1eab7d9bb32a36b7859e64b9897cf7b22563462b13fb4e4",
+    "normalizedCodeHash": "366533a66e6c4d3ae1eab7d9bb32a36b7859e64b9897cf7b22563462b13fb4e4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:38:20.964849+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001350",
+  "problemId": "P001350",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001350",
+    "title": "K-th Lexicographical Happy String",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "A happy string consists only of the characters 'a', 'b', and 'c', with no two adjacent characters being equal. Given integers N and K, determine the K-th lexicographically smallest happy string of length N. If fewer than K happy strings exist, print an empty string.",
+    "input": "\u2022 First line contains integers N and K.",
+    "output": "Print the required happy string.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10 \u2022 1 \u2264 K \u2264 3 \u00d7 2^(N\u22121)"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001350",
+    "fileSHA": "2631501496fdbf98462e3f3a0dc05fed6eca24a209e091609370d2ca8240bdb2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:22:54.897294+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2631501496fdbf98462e3f3a0dc05fed6eca24a209e091609370d2ca8240bdb2",
+    "normalizedCodeHash": "2631501496fdbf98462e3f3a0dc05fed6eca24a209e091609370d2ca8240bdb2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:22:54.897320+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

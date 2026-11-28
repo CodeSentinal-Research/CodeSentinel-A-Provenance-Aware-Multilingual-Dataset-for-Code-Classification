@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000903",
+  "problemId": "P000903",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000903",
+    "title": "Largest Divisible Subset",
+    "category": "Mathematics - Divisibility",
+    "difficulty": "Medium",
+    "problemStatement": "Given a set of distinct positive integers, return the largest subset such that for every pair (a, b) in the subset, either a divides b or b divides a.",
+    "input": "Integer N Array nums",
+    "output": "The largest divisible subset.",
+    "constraints": "1 <= N <= 1000 1 <= nums[i] <= 2 × 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000903.js",
+    "fileSHA": "4d5ed231d4473838d4024d2a6ec890edd780f84498e8911cd27517182936dc5d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4d5ed231d4473838d4024d2a6ec890edd780f84498e8911cd27517182936dc5d",
+    "normalizedCodeHash": "4d5ed231d4473838d4024d2a6ec890edd780f84498e8911cd27517182936dc5d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

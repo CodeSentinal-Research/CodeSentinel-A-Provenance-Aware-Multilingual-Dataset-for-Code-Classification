@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P000678",
+  "problemId": "P000678",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000678",
+    "title": "Josephus Problem Using Circular Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "There are n people standing in a circle numbered from 1 to n. Starting from the first person, every k-th remaining person is eliminated until only one person remains. Simulate the process using a circular linked list and return the label of the survivor.",
+    "input": "Integer n Integer k",
+    "output": "The label of the last remaining person.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= 10^5"
+  },
+  "repository": {
+    "name": "swaekaa/C_programs",
+    "owner": "swaekaa",
+    "url": "https://github.com/swaekaa/C_programs",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P000501_P001000/C_H_P000678.c",
+    "fileSHA": "4b72a9e2a01a9acddbc0a39c1bf095d02b9f2b75",
+    "url": "https://github.com/swaekaa/C_programs/blob/934c5e61d547bad547fa1334c8a67065aace0bbc/linked_list/josephus.c",
+    "rawUrl": "https://raw.githubusercontent.com/swaekaa/C_programs/main/linked_list/josephus.c"
+  },
+  "matching": {
+    "relevanceScore": 67.4
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2025-12-16T07:31:32Z",
+    "lastCommitDate": "2025-12-16T07:31:32Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "swaekaa"
+    ],
+    "firstKnownAuthor": "swaekaa",
+    "latestKnownAuthor": "swaekaa"
+  },
+  "deduplication": {
+    "rawCodeHash": "217a6d200def16f6545a0f0c8ca1439ed59b5743d0d9eed81af2a4c1cc46fb3c",
+    "normalizedCodeHash": "217a6d200def16f6545a0f0c8ca1439ed59b5743d0d9eed81af2a4c1cc46fb3c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T06:47:37.822767+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

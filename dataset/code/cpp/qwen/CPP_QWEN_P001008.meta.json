@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001008",
+  "problemId": "P001008",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001008",
+    "title": "Insert an Element into a Min Heap",
+    "category": "Heap",
+    "difficulty": "Medium",
+    "problemStatement": "Given a valid Min Heap represented as an array and a new integer, insert the element while maintaining the Min Heap property. Print the resulting heap.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N space-separated integers. \u2022 Third line contains the value to insert.",
+    "output": "Print the updated heap.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001008",
+    "fileSHA": "58294be4ec196b62e249b6187ce8b8ffeefa2f62b98bcc558d09f3b09db5b95a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.555Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "499b02645d70fb5a955011127e2fc971fc9420ca40c7ed7bb4313b5871be5b5e",
+    "normalizedCodeHash": "a8ece20484612c3c8047f547ee171136648a9d4872f32665cc4b9d72e75fff76",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.555Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

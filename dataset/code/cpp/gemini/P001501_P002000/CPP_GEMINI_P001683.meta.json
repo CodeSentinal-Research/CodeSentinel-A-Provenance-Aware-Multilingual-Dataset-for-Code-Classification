@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001683",
+  "problemId": "P001683",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001683",
+    "title": "Find the Deepest Left Leaf",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree, determine the deepest leaf that is a left child of its parent. If multiple such leaves exist at the same depth, return the leftmost one.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the value of the deepest left leaf. If no left leaf exists, print NONE.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001683",
+    "fileSHA": "cad821db2d9dbc1d1bfd9d5748307253c022784482d2043538e27d91f84841b2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:35:05.340028+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cad821db2d9dbc1d1bfd9d5748307253c022784482d2043538e27d91f84841b2",
+    "normalizedCodeHash": "cad821db2d9dbc1d1bfd9d5748307253c022784482d2043538e27d91f84841b2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:35:05.340059+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

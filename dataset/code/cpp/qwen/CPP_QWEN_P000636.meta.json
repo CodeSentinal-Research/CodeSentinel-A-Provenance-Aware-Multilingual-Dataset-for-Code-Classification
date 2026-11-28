@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000636",
+  "problemId": "P000636",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000636",
+    "title": "Design Browser Tabs Manager",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a browser tab manager supporting the following operations: open(url) \u2014 Open a new tab. close(index) \u2014 Close the specified tab. switch(index) \u2014 Make the specified tab active. moveLeft(index) \u2014 Move the specified tab one position to the left. moveRight(index) \u2014 Move the specified tab one position to the right. current() \u2014 Return the currently active tab. Implement all operations efficiently using an appropriate linked list structure.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result of every current() operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000636",
+    "fileSHA": "05f0f9b78813d6f04ff251a0326c55b8cd37d5bd729b67f58e86b4407236c39f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.349Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "7ee1124755e083e5e90447400f2a26db9e644b47a075896ffe17a9a4657dc98c",
+    "normalizedCodeHash": "3fb1fe873737ec2452594e64ff62bbda8eaaf942f3d0a7ba981982d2387f92c1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.349Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

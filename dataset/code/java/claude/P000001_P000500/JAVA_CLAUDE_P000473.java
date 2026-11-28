@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);int n=sc.nextInt(),x=sc.nextInt();int[]arr=new int[n];for(int i=0;i<n;i++)arr[i]=sc.nextInt();int lo=0,hi=n-1;while(lo<=hi){int m=(lo+hi)/2;if(arr[m]==x){System.out.println(m);return;}if(m>lo&&arr[m-1]==x){System.out.println(m-1);return;}if(m<hi&&arr[m+1]==x){System.out.println(m+1);return;}if(arr[m]<x)lo=m+2;else hi=m-2;}System.out.println(-1);}}

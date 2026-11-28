@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000430",
+  "problemId": "P000430",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000430",
+    "title": "Linear Search from End",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that performs linear search from the end of the array and returns the last occurrence index of the target.",
+    "input": "First line contains N and target. Second line contains N integers.",
+    "output": "Last index of the target or -1 if not found.",
+    "constraints": "1 ≤ N ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000430",
+    "fileSHA": "341d68e29ff6124ddb59d506421f89973c1ce9fc2fbf04dcbc307b37994fdef9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "341d68e29ff6124ddb59d506421f89973c1ce9fc2fbf04dcbc307b37994fdef9",
+    "normalizedCodeHash": "341d68e29ff6124ddb59d506421f89973c1ce9fc2fbf04dcbc307b37994fdef9",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000430: Linear Search from End"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

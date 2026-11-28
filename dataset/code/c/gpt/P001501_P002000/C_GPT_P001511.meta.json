@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001511",
+  "problemId": "P001511",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001511",
+    "title": "Max Consecutive Answers",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string consisting of 'T' and 'F' and an integer K, determine the maximum length of consecutive identical answers after changing at most K characters.",
+    "input": "• First line contains the answer string. • Second line contains integer K.",
+    "output": "Print the maximum possible length.",
+    "constraints": "• 1 ≤ Length ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001511.c",
+    "fileSHA": "58ff5974faa9284d550a4f212803b84482a4a7f3b8bd4828a1b359d48c490327",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.607Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a1d9afbcd5bc07ad7c50a69d4c38fd91332fea0c7fd0c41eb1443bdea0b4b519",
+    "normalizedCodeHash": "58ff5974faa9284d550a4f212803b84482a4a7f3b8bd4828a1b359d48c490327",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.607Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

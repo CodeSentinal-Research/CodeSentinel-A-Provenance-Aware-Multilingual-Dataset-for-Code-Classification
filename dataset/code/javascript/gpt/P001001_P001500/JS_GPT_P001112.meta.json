@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001112",
+  "problemId": "P001112",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001112",
+    "title": "Word Ladder Length",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a start word, an end word, and a dictionary of valid words, determine the minimum number of single-character transformations needed to convert the start word into the end word.",
+    "input": "• First line contains integer N. • Next N lines contain dictionary words. • Last line contains the start and target words.",
+    "output": "Print the minimum transformation length. Print 0 if impossible.",
+    "constraints": "• 1 ≤ N ≤ 5000 • Word length ≤ 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001112.js",
+    "fileSHA": "9676b9298b2566782ce2f99c58f76eb1d9e8f3a1bb5c9fa72c73ada9d6b4f97b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T09:30:51.258473+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9676b9298b2566782ce2f99c58f76eb1d9e8f3a1bb5c9fa72c73ada9d6b4f97b",
+    "normalizedCodeHash": "9676b9298b2566782ce2f99c58f76eb1d9e8f3a1bb5c9fa72c73ada9d6b4f97b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T09:30:51.258473+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

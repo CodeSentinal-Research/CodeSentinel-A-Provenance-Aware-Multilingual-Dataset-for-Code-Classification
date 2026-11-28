@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001448",
+  "problemId": "P001448",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001448",
+    "title": "Verify Alien Dictionary",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given a list of words and the ordering of letters in an alien language, determine whether the words are sorted according to the alien dictionary.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain one word each. \u2022 Last line contains the alien alphabet order.",
+    "output": "Print YES if the words are correctly sorted; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 Word length \u2264 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001448",
+    "fileSHA": "e954c9be71819f7485814d86d411a56a81559bbbc59cae6055ca0cf07866876c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:26:49.634889+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e954c9be71819f7485814d86d411a56a81559bbbc59cae6055ca0cf07866876c",
+    "normalizedCodeHash": "e954c9be71819f7485814d86d411a56a81559bbbc59cae6055ca0cf07866876c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:26:49.634918+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

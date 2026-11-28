@@ -1,0 +1,17 @@
+# problem title : Valid Perfect Square
+# Solve the stated task using standard input and standard output.
+class Solution:
+    def isPerfectSquare(self, num: int) -> bool:
+        if num < 1:
+            return False
+        left, right = 1, num
+        while left <= right:
+            mid = left + (right - left) // 2
+            sq = mid * mid
+            if sq == num:
+                return True
+            elif sq < num:
+                left = mid + 1
+            else:
+                right = mid - 1
+        return False

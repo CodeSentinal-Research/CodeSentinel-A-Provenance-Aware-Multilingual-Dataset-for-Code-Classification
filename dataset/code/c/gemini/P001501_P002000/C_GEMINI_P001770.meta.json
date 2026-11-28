@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001770",
+  "problemId": "P001770",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001770",
+    "title": "Replace Every Node with the Sum of Nodes at the Same Level",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, replace the value of every node with the sum of the values of all other nodes at the same level.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the transformed tree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001770",
+    "fileSHA": "0e67812eb0df5b092c91dcc03e8f149892e87acb2f17353a86e645ebef90bdeb",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:09.149428+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0e67812eb0df5b092c91dcc03e8f149892e87acb2f17353a86e645ebef90bdeb",
+    "normalizedCodeHash": "0e67812eb0df5b092c91dcc03e8f149892e87acb2f17353a86e645ebef90bdeb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:09.149447+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

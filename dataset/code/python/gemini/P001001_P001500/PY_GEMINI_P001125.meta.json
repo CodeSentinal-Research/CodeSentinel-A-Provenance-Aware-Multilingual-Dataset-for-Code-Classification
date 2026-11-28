@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001125",
+  "problemId": "P001125",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001125",
+    "title": "Network Delay Time",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a directed weighted network and a starting node, determine the minimum time required for a signal to reach every node. If any node cannot be reached, print -1.",
+    "input": "\u2022 First line contains integers N, M, and S. \u2022 Next M lines contain integers u, v, and w.",
+    "output": "Print the required network delay time.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001125",
+    "fileSHA": "65ccca986d537468feb097986a8abba69287da2d7e79f15d807a33b749a2e94e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:47:36.119689+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "65ccca986d537468feb097986a8abba69287da2d7e79f15d807a33b749a2e94e",
+    "normalizedCodeHash": "65ccca986d537468feb097986a8abba69287da2d7e79f15d807a33b749a2e94e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:47:36.119711+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

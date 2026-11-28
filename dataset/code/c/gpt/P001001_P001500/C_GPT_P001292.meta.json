@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001292",
+  "problemId": "P001292",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001292",
+    "title": "Eliminate Maximum Number of Monsters",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Each monster starts at a certain distance from the city and moves toward it at a constant speed. Every minute, you may eliminate exactly one monster before any monster reaches the city. Determine the maximum number of monsters that can be eliminated.",
+    "input": "• First line contains integer N. • Second line contains N integers representing distances. • Third line contains N integers representing speeds.",
+    "output": "Print the maximum number of monsters that can be eliminated.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001292.c",
+    "fileSHA": "60ef69b5ee70cada16b900b278d2b630e545d11693cb79a32c4ef53e1294bf0e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.660Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "3984cab0d1f5b87bb38b964ba4c2d38c2025eda65486b22dd6d18bb98bdaf747",
+    "normalizedCodeHash": "60ef69b5ee70cada16b900b278d2b630e545d11693cb79a32c4ef53e1294bf0e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.660Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

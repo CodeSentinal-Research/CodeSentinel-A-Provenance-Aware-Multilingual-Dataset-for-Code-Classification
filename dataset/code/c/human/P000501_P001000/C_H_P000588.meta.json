@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000588",
+  "problemId": "P000588",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000588",
+    "title": "Copy List with Random Pointer",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "A linked list consists of nodes containing: value next pointer random pointer, which may point to any node in the list or be null. Create a deep copy of the linked list and return the head of the copied list.",
+    "input": "A linked list with next and random pointers.",
+    "output": "The head of the deep-copied linked list.",
+    "constraints": "Number of nodes is in the range [0, 1000]."
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0138_copy_list_with_random_pointer/copy_list.c",
+    "fileSHA": "39c762d5bd51ec1d32d36db4348b7a1c37e00e70",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0138_copy_list_with_random_pointer/copy_list.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0138_copy_list_with_random_pointer/copy_list.c"
+  },
+  "matching": {
+    "relevanceScore": 83.1
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "31d25e76d20660ca3f20a79b5b5cbbd6c5b0eab9b9dbcd84b72e2f92b139d1dc",
+    "normalizedCodeHash": "31d25e76d20660ca3f20a79b5b5cbbd6c5b0eab9b9dbcd84b72e2f92b139d1dc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:41:45.361107+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001300",
+  "problemId": "P001300",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001300",
+    "title": "Minimum Number of Rescue Boats with Variable Capacity",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given the weights of people and the capacities of available boats, where each boat can carry at most two people and has its own weight limit, determine the minimum number of boats required to rescue everyone. If it is impossible to rescue all people, print -1.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Second line contains N integers representing people's weights. \u2022 Third line contains M integers representing boat capacities.",
+    "output": "Print the minimum number of boats required, or -1 if impossible.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0800-0899/0801.Minimum Swaps To Make Sequences Increasing/Solution.ts",
+    "fileSHA": "7f1453d8d43b9ad1df8d3d358aacf9d41bc653e3",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0800-0899/0801.Minimum Swaps To Make Sequences Increasing/Solution.ts",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0800-0899/0801.Minimum Swaps To Make Sequences Increasing/Solution.ts"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8ca0f05ae388811eb186bc3e7e42f6b423ea4400312d170306eb2df132b9cc2b",
+    "normalizedCodeHash": "8ca0f05ae388811eb186bc3e7e42f6b423ea4400312d170306eb2df132b9cc2b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:05.916028+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

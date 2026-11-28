@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001268",
+  "problemId": "P001268",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001268",
+    "title": "Maximum Number of Events That Can Be Attended",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Each event has a start day and an end day. You may attend at most one event per day. Determine the maximum number of events that can be attended.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain start day and end day.",
+    "output": "Print the maximum number of attendable events.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001268",
+    "fileSHA": "a1c6de6204fd5afcea36c30703acd71b755b7cf757632349e617b4b50242db8f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:19:57.538432+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a1c6de6204fd5afcea36c30703acd71b755b7cf757632349e617b4b50242db8f",
+    "normalizedCodeHash": "a1c6de6204fd5afcea36c30703acd71b755b7cf757632349e617b4b50242db8f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:19:57.538458+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

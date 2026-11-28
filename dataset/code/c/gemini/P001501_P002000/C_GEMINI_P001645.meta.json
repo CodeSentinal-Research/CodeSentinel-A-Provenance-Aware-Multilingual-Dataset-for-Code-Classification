@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001645",
+  "problemId": "P001645",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001645",
+    "title": "Vertical Order Traversal of a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, group the nodes according to their vertical columns from leftmost to rightmost. Nodes sharing the same row and column should follow the required ordering.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the vertical order traversal.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001645",
+    "fileSHA": "423a877426b01705f3781b4a6cff87503423268cb5509ea68cc2abe79e31577a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:34:04.762944+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "423a877426b01705f3781b4a6cff87503423268cb5509ea68cc2abe79e31577a",
+    "normalizedCodeHash": "423a877426b01705f3781b4a6cff87503423268cb5509ea68cc2abe79e31577a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:34:04.762967+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

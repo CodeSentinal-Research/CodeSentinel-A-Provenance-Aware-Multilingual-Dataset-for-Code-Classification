@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000636",
+  "problemId": "P000636",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000636",
+    "title": "Design Browser Tabs Manager",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a browser tab manager supporting the following operations: open(url) — Open a new tab. close(index) — Close the specified tab. switch(index) — Make the specified tab active. moveLeft(index) — Move the specified tab one position to the left. moveRight(index) — Move the specified tab one position to the right. current() — Return the currently active tab. Implement all operations efficiently using an appropriate linked list structure.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result of every current() operation.",
+    "constraints": "1 <= q <= 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000636.py",
+    "fileSHA": "6d53c70c032d50041f26e9321916924fa28d47a08e5d81e7502e6a182f50f608",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.507882+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6d53c70c032d50041f26e9321916924fa28d47a08e5d81e7502e6a182f50f608",
+    "normalizedCodeHash": "075ccd1fbdb1bd9304b2159e70553bd0510f9ad89b0ccce2257b836ebbf25c5b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.507882+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

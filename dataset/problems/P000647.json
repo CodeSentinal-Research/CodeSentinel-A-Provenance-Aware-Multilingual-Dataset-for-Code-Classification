@@ -1,0 +1,10 @@
+{
+  "problemId": "P000647",
+  "title": "Dynamic Music Playlist Manager",
+  "category": "Linked List",
+  "difficulty": "Hard",
+  "problemStatement": "Design a music playlist manager using a doubly linked list. The playlist supports the following operations: addSong(title) removeSong(title) playNext() playPrevious() moveSong(title, position) currentSong() Initially, the playlist is empty. Process a sequence of operations and print the result for every playNext(), playPrevious(), and currentSong() operation.",
+  "input": "Integer q Next q operations",
+  "output": "Print the result for every query operation.",
+  "constraints": "1 <= q <= 2 \u00d7 10^5 Song titles contain printable ASCII characters."
+}

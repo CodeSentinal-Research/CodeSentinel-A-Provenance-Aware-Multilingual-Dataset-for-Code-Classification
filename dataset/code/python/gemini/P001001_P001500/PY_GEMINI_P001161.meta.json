@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001161",
+  "problemId": "P001161",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001161",
+    "title": "Wildcard Pattern Matching",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given a text string and a pattern containing the wildcard characters '?' and '*', determine whether the pattern matches the entire text. The character '?' matches any single character, while '*' matches any sequence of characters (including an empty sequence).",
+    "input": "\u2022 First line contains the text string. \u2022 Second line contains the pattern string.",
+    "output": "Print YES if the pattern matches; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 Length of text, pattern \u2264 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001161",
+    "fileSHA": "ece5115b2b854d781ce2eb4b133aad58e5157f0800bbfe58115ba63197000a4f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:50:20.816596+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ece5115b2b854d781ce2eb4b133aad58e5157f0800bbfe58115ba63197000a4f",
+    "normalizedCodeHash": "ece5115b2b854d781ce2eb4b133aad58e5157f0800bbfe58115ba63197000a4f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:50:20.816618+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

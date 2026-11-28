@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000947",
+  "problemId": "P000947",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000947",
+    "title": "Can I Win",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Hard",
+    "problemStatement": "Two players alternately choose distinct integers from 1 to maxChoosableInteger. The chosen numbers are accumulated, and the player whose total first reaches or exceeds desiredTotal wins. Determine whether the first player can force a win.",
+    "input": "Integer maxChoosableInteger Integer desiredTotal",
+    "output": "Print true if the first player can force a win; otherwise, print false.",
+    "constraints": "1 <= maxChoosableInteger <= 20 0 <= desiredTotal <= 300"
+  },
+  "repository": {
+    "name": "nitin17777/DailyProblemSolving",
+    "owner": "nitin17777",
+    "url": "https://github.com/nitin17777/DailyProblemSolving",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "canIWin.cpp",
+    "fileSHA": "a51d45ed953e63f8a3b459dd671d549d1b77c4e8",
+    "url": "https://github.com/nitin17777/DailyProblemSolving/blob/afaf7d3bd710424e5126a3039175c5fe7ac6de91/canIWin.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/nitin17777/DailyProblemSolving/main/canIWin.cpp"
+  },
+  "matching": {
+    "relevanceScore": 83.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "bf28336e34daa43801fd0c912608c1e8018bd4e984ce66bbc4169b5a695597ae",
+    "normalizedCodeHash": "bf28336e34daa43801fd0c912608c1e8018bd4e984ce66bbc4169b5a695597ae",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T16:16:40.534100+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

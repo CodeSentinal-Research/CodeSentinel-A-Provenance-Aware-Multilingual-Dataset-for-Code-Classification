@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000526",
+  "problemId": "P000526",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000526",
+    "title": "Number of Atoms",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Given a valid chemical formula, return the count of each atom in lexicographical order. Rules: Element names begin with an uppercase letter and may be followed by lowercase letters. A number following an element or a closing parenthesis indicates its multiplicity. Parentheses may be nested. Output the formula in its canonical form.",
+    "input": "A string representing the chemical formula.",
+    "output": "A string representing the canonical atom count.",
+    "constraints": "1 <= formula.length <= 1000 The formula is valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000526.js",
+    "fileSHA": "d7ed7251760a0d8a3fb885f57d0f4928d8c99b15849d8c7799b4718d05c5a29e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d7ed7251760a0d8a3fb885f57d0f4928d8c99b15849d8c7799b4718d05c5a29e",
+    "normalizedCodeHash": "d7ed7251760a0d8a3fb885f57d0f4928d8c99b15849d8c7799b4718d05c5a29e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

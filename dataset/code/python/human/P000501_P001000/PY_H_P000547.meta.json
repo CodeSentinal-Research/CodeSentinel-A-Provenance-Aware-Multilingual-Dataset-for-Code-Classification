@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000547",
+  "problemId": "P000547",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000547",
+    "title": "Escape the Spreading Fire",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an m \u00d7 n grid containing: 0 for empty land 1 for fire 2 for walls You start at the top-left cell and want to reach the bottom-right cell. Each minute: You may move to an adjacent empty cell. Fire simultaneously spreads to adjacent non-wall cells. Determine the maximum number of minutes you can wait before starting your journey while still being able to safely reach the destination. Return -1 if reaching the destination is impossible.",
+    "input": "Integers m and n An m \u00d7 n grid",
+    "output": "A single integer.",
+    "constraints": "1 <= m, n <= 300"
+  },
+  "repository": {
+    "name": "Praveenkumar-av/DataStructures-practice-programs",
+    "owner": "Praveenkumar-av",
+    "url": "https://github.com/Praveenkumar-av/DataStructures-practice-programs",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Escape_spreading_fire.py",
+    "fileSHA": "1896197cd4c7bf4b39458819ff90518871b4732d",
+    "url": "https://github.com/Praveenkumar-av/DataStructures-practice-programs/blob/5cb5dadcbeafe4b3f7c05cac70e7016fadbe9a13/Escape_spreading_fire.py",
+    "rawUrl": "https://raw.githubusercontent.com/Praveenkumar-av/DataStructures-practice-programs/main/Escape_spreading_fire.py"
+  },
+  "matching": {
+    "relevanceScore": 70.49
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3834d2f644a791e5534cdd72fc02ba3642158725664ec07f231b34a4989c0824",
+    "normalizedCodeHash": "3834d2f644a791e5534cdd72fc02ba3642158725664ec07f231b34a4989c0824",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:36:49.352704+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

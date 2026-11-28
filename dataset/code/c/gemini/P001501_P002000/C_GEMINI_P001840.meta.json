@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001840",
+  "problemId": "P001840",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001840",
+    "title": "Serialize and Deserialize a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Design algorithms to serialize a Binary Search Tree into a compact representation and reconstruct the identical BST from that representation without storing null markers.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST.",
+    "output": "\u2022 Print the serialized representation followed by the reconstructed BST.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001840",
+    "fileSHA": "1e92efe18e77effe11e8401c6717c536639fad264af87329ced14ccb62c411f9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:30.356008+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1e92efe18e77effe11e8401c6717c536639fad264af87329ced14ccb62c411f9",
+    "normalizedCodeHash": "1e92efe18e77effe11e8401c6717c536639fad264af87329ced14ccb62c411f9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:30.356027+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

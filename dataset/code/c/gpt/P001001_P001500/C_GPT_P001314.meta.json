@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001314",
+  "problemId": "P001314",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001314",
+    "title": "Validate Sudoku Solution",
+    "category": "Backtracking",
+    "difficulty": "Easy",
+    "problemStatement": "Given a completed 9 × 9 Sudoku grid, determine whether it represents a valid Sudoku solution.",
+    "input": "• Nine lines each containing nine integers.",
+    "output": "Print YES if the grid is valid; otherwise print NO.",
+    "constraints": "• Grid size is fixed at 9 × 9."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001314.c",
+    "fileSHA": "1f4e013f24a694f35ea6eb2ffb3635d0716665b9e364cc20fa76c68ce4bd84c7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.771Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "d5b16e3334c3f16cf42a310db9323f4d69dcca1fa433a6f569f3f2c95231abc3",
+    "normalizedCodeHash": "1f4e013f24a694f35ea6eb2ffb3635d0716665b9e364cc20fa76c68ce4bd84c7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.771Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

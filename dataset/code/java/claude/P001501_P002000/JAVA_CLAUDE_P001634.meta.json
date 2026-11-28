@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_CLAUDE_P001634",
+  "problemId": "P001634",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001634",
+    "title": "Maximum Sum Submatrix No Larger Than K",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × M matrix of integers and an integer K, determine the maximum possible sum of any rectangular submatrix that does not exceed K.",
+    "input": "• First line contains N, M, and K. • Next N lines each contain M integers.",
+    "output": "• Print the maximum valid sum.",
+    "constraints": "• 1 ≤ N, M ≤ 300 • -10^5 ≤ Aij ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P001634",
+    "fileSHA": "028d08ef68bfea56906403f01050f5085a22123644554cbf6026c1638bf8309a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6eaf1e5e4a8768afce5619e130db599b5109aac8095fd24a5401c0a1f816a3eb",
+    "normalizedCodeHash": "028d08ef68bfea56906403f01050f5085a22123644554cbf6026c1638bf8309a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

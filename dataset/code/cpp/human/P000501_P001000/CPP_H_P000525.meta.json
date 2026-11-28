@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000525",
+  "problemId": "P000525",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000525",
+    "title": "Beautiful Towers II",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "You are given the maximum allowed heights of n towers. Construct the heights of all towers such that: Each height is at least 1. Each height does not exceed its maximum allowed height. Heights are non-increasing as you move away from a chosen peak. Return the maximum possible sum of all tower heights. Unlike the previous version, this problem requires an efficient solution for much larger input sizes.",
+    "input": "Integer n Array maxHeights",
+    "output": "A single integer.",
+    "constraints": "1 <= n <= 2 \u00d7 10^5 1 <= maxHeights[i] <= 10^9"
+  },
+  "repository": {
+    "name": "mirinta/leet_code",
+    "owner": "mirinta",
+    "url": "https://github.com/mirinta/leet_code",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "monotonic_stack/2866_beautiful_towers_II.cpp",
+    "fileSHA": "5e217ee7945de87c3c2640e094d1c7246348fc50",
+    "url": "https://github.com/mirinta/leet_code/blob/55dd41527349f495a655f2560ae490ffeeb838df/monotonic_stack/2866_beautiful_towers_II.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/mirinta/leet_code/main/monotonic_stack/2866_beautiful_towers_II.cpp"
+  },
+  "matching": {
+    "relevanceScore": 81.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b39ea443498d60c9906761d5e8ec5b035b0ad48e5837ef291f51e07ffe50f982",
+    "normalizedCodeHash": "b39ea443498d60c9906761d5e8ec5b035b0ad48e5837ef291f51e07ffe50f982",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T00:37:38.492432+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

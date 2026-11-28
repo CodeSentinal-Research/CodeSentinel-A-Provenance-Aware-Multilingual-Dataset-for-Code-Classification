@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000273",
+  "problemId": "P000273",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000273",
+    "title": "Valid Parentheses",
+    "category": "Strings",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that checks whether a string of parentheses is valid.",
+    "input": "A string S consisting of (), {}, and [].",
+    "output": "Print \"Valid\" or \"Invalid\".",
+    "constraints": "1 ≤ |S| ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000273",
+    "fileSHA": "3bd8c34f3c7390377d200bcca1f55cd4ea69ba0e7e4336961801deb743d07fef",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3bd8c34f3c7390377d200bcca1f55cd4ea69ba0e7e4336961801deb743d07fef",
+    "normalizedCodeHash": "3bd8c34f3c7390377d200bcca1f55cd4ea69ba0e7e4336961801deb743d07fef",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000273: Valid Parentheses"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

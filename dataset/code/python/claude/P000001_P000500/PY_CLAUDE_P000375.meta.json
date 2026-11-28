@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000375",
+  "problemId": "P000375",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000375",
+    "title": "Search Patient by Patient ID",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Search for a patient using a unique patient ID.",
+    "input": "Patient records and a patient ID.",
+    "output": "Patient details or \"Patient Not Found\".",
+    "constraints": "1 ≤ Number of Patients ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000375",
+    "fileSHA": "a8245e901f490073927f4b722128cac0a7418eee361d6dffe30e2f515f9801bf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a8245e901f490073927f4b722128cac0a7418eee361d6dffe30e2f515f9801bf",
+    "normalizedCodeHash": "a8245e901f490073927f4b722128cac0a7418eee361d6dffe30e2f515f9801bf",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000375: Search Patient by Patient ID"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

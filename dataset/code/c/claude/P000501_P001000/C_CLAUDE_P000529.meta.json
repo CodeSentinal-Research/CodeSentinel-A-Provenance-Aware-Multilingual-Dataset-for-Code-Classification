@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000529",
+  "problemId": "P000529",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000529",
+    "title": "Implement Queue Using Arrays",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Implement a queue using a fixed-size array. The queue should support the following operations: enqueue(x) — Insert an element at the rear. dequeue() — Remove and return the front element. front() — Return the front element without removing it. isEmpty() — Return whether the queue is empty. Process a sequence of operations and print the result of every dequeue(), front(), and isEmpty() operation.",
+    "input": "Integer capacity Integer q Next q lines each contain one operation.",
+    "output": "Print the output for every dequeue(), front(), and isEmpty() operation.",
+    "constraints": "1 <= capacity <= 10^5 1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000529",
+    "fileSHA": "77985a8584a877a61caca85cdcbdffb5007f0cf7e36296507510f21b104b8120",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "77985a8584a877a61caca85cdcbdffb5007f0cf7e36296507510f21b104b8120",
+    "normalizedCodeHash": "77985a8584a877a61caca85cdcbdffb5007f0cf7e36296507510f21b104b8120",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000529: Implement Queue Using Arrays"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

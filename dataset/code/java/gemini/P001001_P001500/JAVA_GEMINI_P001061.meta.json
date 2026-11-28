@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001061",
+  "problemId": "P001061",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001061",
+    "title": "Detect Cycle in a Directed Graph",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given a directed graph with N vertices and M directed edges, determine whether the graph contains at least one cycle.",
+    "input": "\u2022 First line contains two integers N and M. \u2022 The next M lines each contain two integers u and v, representing a directed edge from u to v.",
+    "output": "Print YES if the graph contains a cycle; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5 \u2022 1 \u2264 u, v \u2264 N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001061",
+    "fileSHA": "072c2caa538a1791aaa8cd424cc4ce5fa77a848f1c3a246049864071197f5caa",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:39:43.643174+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "072c2caa538a1791aaa8cd424cc4ce5fa77a848f1c3a246049864071197f5caa",
+    "normalizedCodeHash": "072c2caa538a1791aaa8cd424cc4ce5fa77a848f1c3a246049864071197f5caa",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:39:43.643205+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

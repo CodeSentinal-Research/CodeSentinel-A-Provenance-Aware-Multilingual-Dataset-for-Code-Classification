@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000762",
+  "problemId": "P000762",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000762",
+    "title": "Wildcard Pattern Matching",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string s and a pattern p containing lowercase letters, '?', and '*': '?' matches exactly one character. '*' matches any sequence of characters (including the empty sequence). Determine whether the entire string matches the pattern using recursion.",
+    "input": "String s String p",
+    "output": "true if the pattern matches the string, otherwise false.",
+    "constraints": "1 <= |s|, |p| <= 200"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000762",
+    "fileSHA": "2b93c48e25a6b45a87a7fe16bdf3a2592b3f0349ee4c80a0a38e5bab9d1ac16e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T17:13:51.609495+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2b93c48e25a6b45a87a7fe16bdf3a2592b3f0349ee4c80a0a38e5bab9d1ac16e",
+    "normalizedCodeHash": "2b93c48e25a6b45a87a7fe16bdf3a2592b3f0349ee4c80a0a38e5bab9d1ac16e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T17:13:51.609521+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

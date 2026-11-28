@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001170",
+  "problemId": "P001170",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001170",
+    "title": "Cherry Pickup",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × N grid containing cherries, empty cells, and blocked cells, determine the maximum number of cherries that can be collected by traveling from the top-left corner to the bottom-right corner and then returning to the starting cell without collecting the same cherry more than once.",
+    "input": "• First line contains integer N. • Next N lines each contain N integers representing the grid.",
+    "output": "Print the maximum number of cherries that can be collected.",
+    "constraints": "• 1 ≤ N ≤ 200"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001170.js",
+    "fileSHA": "abda61188803dd81897f4190a9ec600cf1fbe37e74f3af39bdbe660d9e72bcdd",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T09:30:51.258473+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "abda61188803dd81897f4190a9ec600cf1fbe37e74f3af39bdbe660d9e72bcdd",
+    "normalizedCodeHash": "abda61188803dd81897f4190a9ec600cf1fbe37e74f3af39bdbe660d9e72bcdd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T09:30:51.258473+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

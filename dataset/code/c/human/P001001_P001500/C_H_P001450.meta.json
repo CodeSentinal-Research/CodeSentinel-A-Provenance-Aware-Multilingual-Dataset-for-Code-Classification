@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001450",
+  "problemId": "P001450",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001450",
+    "title": "Rank Teams by Votes",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Several voters rank teams from best to worst. Determine the final ranking by comparing vote frequencies at every position. Break remaining ties alphabetically.",
+    "input": "\u2022 First line contains integer V. \u2022 Next V lines contain one ranking string.",
+    "output": "Print the final ranking string.",
+    "constraints": "\u2022 1 \u2264 V \u2264 10^5 \u2022 Number of teams \u2264 26"
+  },
+  "repository": {
+    "name": "lrmsspace/LLM-CodeQualityEval",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Output/output_CodeWhisperer/c/Medium/1212-rank-teams-by-votes.c",
+    "fileSHA": "b537fa2db8d633bd877bd0bd77e72e6288b34468",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval/blob/a2817bbe913c51ab32afeb6f6d0ad97b92c45075/Output/output_CodeWhisperer/c/Medium/1212-rank-teams-by-votes.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/LLM-CodeQualityEval/main/Output/output_CodeWhisperer/c/Medium/1212-rank-teams-by-votes.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a42c76b4956f60292094af4c7e6c9c89db17e90b73f18a27091ce11a747517f1",
+    "normalizedCodeHash": "a42c76b4956f60292094af4c7e6c9c89db17e90b73f18a27091ce11a747517f1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T18:34:25.847879+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

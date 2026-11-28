@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000695",
+  "problemId": "P000695",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000695",
+    "title": "First Occurrence Using Recursive Binary Search",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given a sorted array of integers that may contain duplicates and a target value, return the index of its first occurrence using recursion. If the target is not present, return -1.",
+    "input": "Integer n Sorted array nums Integer target",
+    "output": "The index of the first occurrence, or -1.",
+    "constraints": "1 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000695.c",
+    "fileSHA": "272d9a0911d14f8424d7e7df127a77b0b670764fe9fa932ff53494f94f95d626",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "272d9a0911d14f8424d7e7df127a77b0b670764fe9fa932ff53494f94f95d626",
+    "normalizedCodeHash": "272d9a0911d14f8424d7e7df127a77b0b670764fe9fa932ff53494f94f95d626",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "solutionId": "JS_H_P001107",
+  "problemId": "P001107",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001107",
+    "title": "Transitive Closure of a Directed Graph",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a directed graph with N vertices, determine whether every vertex is reachable from every other vertex. Output the complete reachability matrix.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain directed edges.",
+    "output": "Print an N \u00d7 N matrix where the value at row i and column j is 1 if vertex j is reachable from i, otherwise 0.",
+    "constraints": "\u2022 1 \u2264 N \u2264 500 \u2022 0 \u2264 M \u2264 N(N\u22121)"
+  },
+  "repository": {
+    "name": "algorithms-in-action/algorithms-in-action.github.io",
+    "owner": "algorithms-in-action",
+    "url": "https://github.com/algorithms-in-action/algorithms-in-action.github.io",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P001001_P001500/JS_H_P001107.js",
+    "fileSHA": "e2e842c81a04eb51d9190dedf2822e3b35c9a0c4",
+    "url": "https://github.com/algorithms-in-action/algorithms-in-action.github.io/blob/8a285448cd46293e307728fcedd8d5fb00c29592/src/algorithms/pseudocode/transitiveClosure.js",
+    "rawUrl": "https://raw.githubusercontent.com/algorithms-in-action/algorithms-in-action.github.io/main/src/algorithms/pseudocode/transitiveClosure.js"
+  },
+  "matching": {
+    "relevanceScore": 58.6
+  },
+  "provenance": {
+    "score": 92.5,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2020-09-23T03:00:14Z",
+    "lastCommitDate": "2024-06-11T04:14:09Z",
+    "commitCount": 19,
+    "authorCount": 7,
+    "authors": [
+      "huimin5",
+      "ZIYIZHANG2",
+      "Sanjana Ratan",
+      "lee-naish",
+      "IPADVAL",
+      "Zihan ZHANG",
+      "Sanjana"
+    ],
+    "firstKnownAuthor": "Zihan ZHANG",
+    "latestKnownAuthor": "lee-naish"
+  },
+  "deduplication": {
+    "rawCodeHash": "2fb5b4e5829d9f126839d420e93aa84c8f4ac25e4d32395312e727a3ab24f72a",
+    "normalizedCodeHash": "2fb5b4e5829d9f126839d420e93aa84c8f4ac25e4d32395312e727a3ab24f72a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T08:31:47.842311+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,326 @@
+import type {ParseSelector} from 'typed-query-selector/parser.js';
+
+// WARNING: Overloads have to repeated in that fashion because the actual function’s signature is discarded; Only the 2 overloads are brought into the .d.ts file. Tests pass because `tsd` reads from this file instead of `.d.ts`
+
+// ParentNode is inherited by Element, Document, DocumentFragment
+type BaseElements = ParentNode | Iterable<ParentNode>;
+
+// Type predicate for TypeScript
+function isQueryable(object: BaseElements): object is ParentNode {
+	return typeof (object as any).querySelectorAll === 'function';
+}
+
+/**
+ * @param selectors      One or more CSS selectors separated by commas
+ * @param [baseElement]  The element to look inside of
+ * @return               The element found, if any
+ */
+function $optional<Selector extends string, Selected extends Element = ParseSelector<Selector, HTMLElement>>(
+	selectors: Selector | readonly Selector[],
+	baseElement?: ParentNode
+): Selected | undefined;
+function $optional<Selected extends Element = HTMLElement>(
+	selectors: string | readonly string[],
+	baseElement?: ParentNode
+): Selected | undefined;
+function $optional<Selected extends Element>(
+	selectors: string | readonly string[],
+	baseElement?: ParentNode,
+): Selected | undefined {
+	// Shortcut with specified-but-null baseElement
+	if (arguments.length === 2 && !baseElement) {
+		return;
+	}
+
+	return (baseElement ?? document).querySelector<Selected>(String(selectors)) ?? undefined;
+}
+
+export class ElementNotFoundError extends Error {
+	override name = 'ElementNotFoundError';
+}
+
+/**
+ * @param selectors      One or more CSS selectors separated by commas
+ * @param [baseElement]  The element to look inside of
+ * @return               The element found, or an error
+ */
+function $<Selector extends string, Selected extends Element = ParseSelector<Selector, HTMLElement>>(
+	selectors: Selector | readonly Selector[],
+	baseElement?: ParentNode
+): Selected;
+function $<Selected extends Element = HTMLElement>(
+	selectors: string | readonly string[],
+	baseElement?: ParentNode
+): Selected;
+function $<Selected extends Element>(
+	selectors: string | readonly string[],
+	baseElement?: ParentNode,
+): Selected {
+	// Shortcut with specified-but-null baseElement
+	if (arguments.length === 2 && !baseElement) {
+		throw new ElementNotFoundError('Expected element not found because the base is specified but null');
+	}
+
+	const element = (baseElement ?? document).querySelector<Selected>(String(selectors));
+	if (element) {
+		return element;
+	}
+
+	throw new ElementNotFoundError(`Expected element not found: ${String(selectors)}`);
+}
+
+/**
+ * @param selectors      One or more CSS selectors separated by commas
+ * @param [baseElement]  The element to look inside of
+ * @return               The element found, if any
+ */
+function lastElementOptional<Selector extends string, Selected extends Element = ParseSelector<Selector, HTMLElement>>(
+	selectors: Selector | readonly Selector[],
+	baseElement?: ParentNode
+): Selected | undefined;
+function lastElementOptional<Selected extends Element = HTMLElement>(
+	selectors: string | readonly string[],
+	baseElement?: ParentNode
+): Selected | undefined;
+function lastElementOptional<Selected extends Element>(
+	selectors: string | readonly string[],
+	baseElement?: ParentNode,
+): Selected | undefined {
+	// Shortcut with specified-but-null baseElement
+	if (arguments.length === 2 && !baseElement) {
+		return undefined;
+	}
+
+	const all = (baseElement ?? document).querySelectorAll<Selected>(String(selectors));
+	// eslint-disable-next-line unicorn/prefer-at -- Not an Array, not worth converting it
+	return all[all.length - 1];
+}
+
+/**
+ * @param selectors      One or more CSS selectors separated by commas
+ * @param [baseElement]  The element to look inside of
+ * @return               Whether it's been found
+ */
+function elementExists(
+	selectors: string | readonly string[],
+	baseElement?: ParentNode,
+): boolean {
+	// Shortcut with specified-but-null baseElement
+	if (arguments.length === 2 && !baseElement) {
+		return false;
+	}
+
+	return Boolean((baseElement ?? document).querySelector(String(selectors)));
+}
+
+/**
+ * @param selectors      One or more CSS selectors separated by commas
+ * @param [baseElement]  The element to look inside of
+ * @return               void or throws an error
+ */
+function assertElementExists(
+	selectors: string | readonly string[],
+	baseElement?: ParentNode,
+): void {
+	// Shortcut with specified-but-null baseElement
+	if (arguments.length === 2 && !baseElement) {
+		throw new ElementNotFoundError('Element not found because the base is specified but null');
+	}
+
+	if (!((baseElement ?? document).querySelector(String(selectors)))) {
+		throw new ElementNotFoundError(`Element not found: ${String(selectors)}`);
+	}
+}
+
+/**
+ * @param selectors      One or more CSS selectors separated by commas
+ * @param [baseElement]  The element to look inside of
+ * @return               The number of elements found
+ */
+function countElements(
+	selectors: string | readonly string[],
+	baseElement?: ParentNode,
+): number {
+	// Shortcut with specified-but-null baseElement
+	if (arguments.length === 2 && !baseElement) {
+		return 0;
+	}
+
+	return (baseElement ?? document).querySelectorAll(String(selectors)).length;
+}
+
+/**
+ * @param selectors       One or more CSS selectors separated by commas
+ * @param [baseElements]  The element or list of elements to look inside of
+ * @return                An array of elements found
+ */
+function $$optional<Selector extends string, Selected extends Element = ParseSelector<Selector, HTMLElement>>(
+	selectors: Selector | readonly Selector[],
+	baseElements?: BaseElements
+): Selected[];
+function $$optional<Selected extends Element = HTMLElement>(
+	selectors: string | readonly string[],
+	baseElements?: BaseElements
+): Selected[];
+function $$optional<Selected extends Element>(
+	selectors: string | readonly string[],
+	baseElements?: BaseElements,
+): Selected[] {
+	// Shortcut with specified-but-null baseElements
+	if (arguments.length === 2 && !baseElements) {
+		return [];
+	}
+
+	// Can be: select.all('selectors') or select.all('selectors', singleElementOrDocument)
+	if (!baseElements || isQueryable(baseElements)) {
+		const elements = (baseElements ?? document).querySelectorAll<Selected>(String(selectors));
+		return Array.prototype.slice.call(elements) as Selected[];
+	}
+
+	const elements = new Set<Selected>();
+	for (const baseElement of baseElements) {
+		for (const element of baseElement.querySelectorAll<Selected>(String(selectors))) {
+			elements.add(element);
+		}
+	}
+
+	return [...elements]; // Convert to array
+}
+
+/**
+ * @param selectors       One or more CSS selectors separated by commas
+ * @param [baseElements]  The element or list of elements to look inside of
+ * @return                An array of elements found
+ */
+function $$<Selector extends string, Selected extends Element = ParseSelector<Selector, HTMLElement>>(
+	selectors: Selector | readonly Selector[],
+	baseElements?: BaseElements
+): Selected[];
+function $$<Selected extends Element = HTMLElement>(
+	selectors: string | readonly string[],
+	baseElements?: BaseElements
+): Selected[];
+function $$<Selected extends Element>(
+	selectors: string | readonly string[],
+	baseElements?: BaseElements,
+): Selected[] {
+	// Shortcut with specified-but-null baseElements
+	if (arguments.length === 2 && !baseElements) {
+		throw new ElementNotFoundError('Expected elements not found because the base is specified but null');
+	}
+
+	const elements = arguments.length === 2 ? $$optional<Selected>(selectors, baseElements) : $$optional<Selected>(selectors);
+	if (elements.length > 0) {
+		return elements;
+	}
+
+	throw new ElementNotFoundError(`Expected elements not found: ${String(selectors)}`);
+}
+
+/**
+ * @param selectors   One or more CSS selectors separated by commas
+ * @param baseElement The element to start searching from (text nodes are supported)
+ * @return            The closest matching element (including self) found, if any
+ */
+function closestElementOptional<Selector extends string, Selected extends Element = ParseSelector<Selector, HTMLElement>>(
+	selectors: Selector | readonly Selector[],
+	baseElement?: Node
+): Selected | undefined;
+function closestElementOptional<Selected extends Element = HTMLElement>(
+	selectors: string | readonly string[],
+	baseElement?: Node
+): Selected | undefined;
+function closestElementOptional<Selected extends Element>(
+	selectors: string | readonly string[],
+	baseElement?: Node,
+): Selected | undefined {
+	if (!baseElement) {
+		return undefined;
+	}
+
+	const element = baseElement instanceof Element ? baseElement : baseElement.parentElement;
+	return element?.closest<Selected>(String(selectors)) ?? undefined;
+}
+
+/**
+ * @param selectors   One or more CSS selectors separated by commas
+ * @param baseElement The element to start searching from (text nodes are supported)
+ * @return            The closest matching element (including self) found, or an error
+ */
+function closestElement<Selector extends string, Selected extends Element = ParseSelector<Selector, HTMLElement>>(
+	selectors: Selector | readonly Selector[],
+	baseElement?: Node
+): Selected;
+function closestElement<Selected extends Element = HTMLElement>(
+	selectors: string | readonly string[],
+	baseElement?: Node
+): Selected;
+function closestElement<Selected extends Element>(
+	selectors: string | readonly string[],
+	baseElement?: Node,
+): Selected {
+	if (!baseElement) {
+		throw new ElementNotFoundError('Expected closest element not found: base element is null or undefined');
+	}
+
+	const element = baseElement instanceof Element ? baseElement : baseElement.parentElement;
+	const found = element?.closest<Selected>(String(selectors));
+	if (found) {
+		return found;
+	}
+
+	throw new ElementNotFoundError(`Expected closest element not found: ${String(selectors)}`);
+}
+
+/** @deprecated Use `closestElement` instead. */
+const $closest = closestElement;
+
+/** @deprecated Use `closestElementOptional` instead. */
+const $closestOptional = closestElementOptional;
+
+/**
+ * @param selectors      One or more CSS selectors separated by commas
+ * @param [baseElement]  The element to look inside of
+ * @return               The element found, or an error
+ */
+function lastElement<Selector extends string, Selected extends Element = ParseSelector<Selector, HTMLElement>>(
+	selectors: Selector | readonly Selector[],
+	baseElement?: ParentNode
+): Selected;
+function lastElement<Selected extends Element = HTMLElement>(
+	selectors: string | readonly string[],
+	baseElement?: ParentNode
+): Selected;
+function lastElement<Selected extends Element>(
+	selectors: string | readonly string[],
+	baseElement?: ParentNode,
+): Selected {
+	// Shortcut with specified-but-null baseElements
+	if (arguments.length === 2 && !baseElement) {
+		throw new ElementNotFoundError('Expected element not found because the base is specified but null');
+	}
+
+	const all = (baseElement ?? document).querySelectorAll<Selected>(String(selectors));
+	if (all.length > 0) {
+		// eslint-disable-next-line unicorn/prefer-at -- Not an Array, not worth converting it
+		return all[all.length - 1]!;
+	}
+
+	throw new ElementNotFoundError(`Expected element not found: ${String(selectors)}`);
+}
+
+export {
+	$,
+	$$,
+	closestElement,
+	lastElement,
+	$optional,
+	$$optional,
+	closestElementOptional,
+	lastElementOptional,
+	elementExists,
+	assertElementExists,
+	countElements,
+	$closest,
+	$closestOptional,
+};

@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001559",
+  "problemId": "P001559",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001559",
+    "title": "Count Subarrays With Product Less Than K",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of positive integers and an integer K, count the number of contiguous subarrays whose product is strictly less than K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the count.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 Ai \u2264 1000 \u2022 0 \u2264 K \u2264 10^15"
+  },
+  "repository": {
+    "name": "sarvex/python-leetcode",
+    "owner": "sarvex",
+    "url": "https://github.com/sarvex/python-leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0713.Subarray Product Less Than K.py",
+    "fileSHA": "2d9d39995f3cf13d0f06bc24fdde64cf0afb7ad2",
+    "url": "https://github.com/sarvex/python-leetcode/blob/c3b6b061ab1029cd44a7f4afb5e019534733da5a/0713.Subarray Product Less Than K.py",
+    "rawUrl": "https://raw.githubusercontent.com/sarvex/python-leetcode/main/0713.Subarray Product Less Than K.py"
+  },
+  "matching": {
+    "relevanceScore": 75.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b3948943e860a09a4d561536fae4d61c592555979221504618d55bfa8da7b609",
+    "normalizedCodeHash": "b3948943e860a09a4d561536fae4d61c592555979221504618d55bfa8da7b609",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:41:39.193119+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

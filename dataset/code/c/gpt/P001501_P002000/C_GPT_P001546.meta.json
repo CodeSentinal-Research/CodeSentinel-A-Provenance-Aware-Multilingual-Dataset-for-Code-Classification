@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001546",
+  "problemId": "P001546",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001546",
+    "title": "Longest Alternating Even-Odd Subarray",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers, determine the maximum length of a contiguous subarray in which the parity of adjacent elements alternates.",
+    "input": "• First line contains N. • Second line contains N integers.",
+    "output": "• Print the maximum length.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001546.c",
+    "fileSHA": "ad0101a7d3ff55ed7e17e690e171bf44ddae36facd8af7cf1a21ff35ce3e4515",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.729Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "5b51c97f2f704e97e1af9482338a741a1f2c5f1c6f2b6cd9d5e4838790978ab8",
+    "normalizedCodeHash": "ad0101a7d3ff55ed7e17e690e171bf44ddae36facd8af7cf1a21ff35ce3e4515",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.729Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

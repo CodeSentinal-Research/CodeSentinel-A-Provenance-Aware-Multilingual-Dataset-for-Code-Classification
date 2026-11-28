@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001066",
+  "problemId": "P001066",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001066",
+    "title": "Find All Neighbors of a Vertex",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given an undirected graph and a vertex V, print all vertices directly connected to V in ascending order.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges. \u2022 Last line contains integer V.",
+    "output": "Print all neighboring vertices.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "ghostmkg/dsa-code",
+    "owner": "ghostmkg",
+    "url": "https://github.com/ghostmkg/dsa-code",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/dfs.js",
+    "fileSHA": "c51c26f8cb0fd72d6c4d1f2513bb74fb082966a9",
+    "url": "https://github.com/ghostmkg/dsa-code/blob/6e6f6da6ba53eb1e59116394051c8d4f0ed47ef0/javascript/dfs.js",
+    "rawUrl": "https://raw.githubusercontent.com/ghostmkg/dsa-code/main/javascript/dfs.js"
+  },
+  "matching": {
+    "relevanceScore": 86.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ae27cf1d6a10df6ddcb8f7acce0620b228524cbd63e55116cc4fc0dbab2ea3f3",
+    "normalizedCodeHash": "ae27cf1d6a10df6ddcb8f7acce0620b228524cbd63e55116cc4fc0dbab2ea3f3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:40:45.490998+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

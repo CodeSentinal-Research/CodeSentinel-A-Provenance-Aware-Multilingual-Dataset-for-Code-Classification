@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001014",
+  "problemId": "P001014",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001014",
+    "title": "Merge K Sorted Arrays",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given K sorted arrays, merge them into a single sorted array using an efficient heap-based algorithm.",
+    "input": "\u2022 First line contains integers K and N. \u2022 Next K lines each contain a sorted array.",
+    "output": "Print the merged sorted array.",
+    "constraints": "\u2022 1 \u2264 K \u2264 10^3 \u2022 Total elements \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/datastructures/heaps/MergeKSortedArrays.java",
+    "fileSHA": "e41711f05914be9bf35698a26e289a30d16b4e0b",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/heaps/MergeKSortedArrays.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/datastructures/heaps/MergeKSortedArrays.java"
+  },
+  "matching": {
+    "relevanceScore": 84.17
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "52a339f51ef8d33b54ac83758324394e737e624daa7ab62500712bd22596f1a5",
+    "normalizedCodeHash": "52a339f51ef8d33b54ac83758324394e737e624daa7ab62500712bd22596f1a5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:54:54.752793+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

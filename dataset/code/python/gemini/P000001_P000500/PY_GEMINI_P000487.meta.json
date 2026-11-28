@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000487",
+  "problemId": "P000487",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000487",
+    "title": "Trapping Rain Water",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array representing the elevation map where the width of each bar is 1, compute how much rainwater can be trapped after raining.",
+    "input": "Integer n Array height",
+    "output": "A single integer representing the total trapped water.",
+    "constraints": "1 <= n <= 2 \u00d7 10^5 0 <= height[i] <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000487",
+    "fileSHA": "063779029cda02198c092fa38b0ce3850238d469123bec48e7a4b7e9f69c23d2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:39:49.024668+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "063779029cda02198c092fa38b0ce3850238d469123bec48e7a4b7e9f69c23d2",
+    "normalizedCodeHash": "063779029cda02198c092fa38b0ce3850238d469123bec48e7a4b7e9f69c23d2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:39:49.024728+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

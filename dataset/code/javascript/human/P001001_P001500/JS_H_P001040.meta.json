@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001040",
+  "problemId": "P001040",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001040",
+    "title": "Maximize Performance of a Team",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given the speed and efficiency of N engineers, choose at most K engineers to maximize the team's performance, where performance is defined as the sum of selected speeds multiplied by the minimum efficiency among the selected engineers.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N speeds. \u2022 Third line contains N efficiencies.",
+    "output": "Print the maximum possible performance.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/1383-maximum-performance-of-a-team.js",
+    "fileSHA": "364b5a2a3629611a2af2e2be8af22501779858f2",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/javascript/1383-maximum-performance-of-a-team.js",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/javascript/1383-maximum-performance-of-a-team.js"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "514f6cbf2d5e3e73a70208e725cb4f83a966421edeec9b76f9b69a5a0a1d5e5d",
+    "normalizedCodeHash": "514f6cbf2d5e3e73a70208e725cb4f83a966421edeec9b76f9b69a5a0a1d5e5d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T19:13:11.391941+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

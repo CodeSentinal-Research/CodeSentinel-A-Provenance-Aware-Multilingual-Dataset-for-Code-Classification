@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001304",
+  "problemId": "P001304",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001304",
+    "title": "Minimum Cost to Cut a Board",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "A rectangular board must be cut into 1 × 1 squares. Each horizontal and vertical cut has an associated cost. Determine the minimum total cost required to cut the entire board.",
+    "input": "• First line contains integers R and C. • Second line contains R−1 integers representing horizontal cut costs. • Third line contains C−1 integers representing vertical cut costs.",
+    "output": "Print the minimum total cutting cost.",
+    "constraints": "• 2 ≤ R, C ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001304.c",
+    "fileSHA": "55efa0a9ce19861a2f6f3462380e0e1bb3742e01bc0dd16ebc8e30f63f746d0c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.726Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "21d4e52750ea265fba6f826368d6243418fb0a2d54074f5b254d546aab1a1505",
+    "normalizedCodeHash": "55efa0a9ce19861a2f6f3462380e0e1bb3742e01bc0dd16ebc8e30f63f746d0c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.726Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

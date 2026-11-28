@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001684",
+  "problemId": "P001684",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001684",
+    "title": "Check Whether Two Nodes are Siblings",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given the root of a binary tree and two distinct node values, determine whether both nodes share the same parent.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree. • The last line contains two node values.",
+    "output": "• Print YES if the nodes are siblings; otherwise print NO.",
+    "constraints": "• 2 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001684.c",
+    "fileSHA": "7beb2dde8de52a505298c7c32dcf4fe7e46f8ea5121cf3587edde64ae43c92a1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.338Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c0c77718c99f0596dfdb5c2f91a05c0e6bd233cbb24e5dbe794d2733a03dc803",
+    "normalizedCodeHash": "7beb2dde8de52a505298c7c32dcf4fe7e46f8ea5121cf3587edde64ae43c92a1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.338Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

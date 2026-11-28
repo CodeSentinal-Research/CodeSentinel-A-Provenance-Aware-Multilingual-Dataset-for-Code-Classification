@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P000839",
+  "problemId": "P000839",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000839",
+    "title": "Find the Smallest Divisor Given a Threshold",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array nums and an integer threshold, choose a positive integer divisor such that the sum of ceil(nums[i] / divisor) over all elements is less than or equal to threshold. Return the smallest possible divisor.",
+    "input": "Integer n Array nums Integer threshold",
+    "output": "The smallest valid divisor.",
+    "constraints": "1 <= n <= 5 \u00d7 10^4 1 <= nums[i] <= 10^6 n <= threshold <= 10^6"
+  },
+  "repository": {
+    "name": "Wolf-Fivousix/CodeChallenges",
+    "owner": "Wolf-Fivousix",
+    "url": "https://github.com/Wolf-Fivousix/CodeChallenges",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P000501_P001000/JS_H_P000839.js",
+    "fileSHA": "d47006556b42508097053b0f1a0b5ed8cdef7fe5",
+    "url": "https://github.com/Wolf-Fivousix/CodeChallenges/blob/0e4f90eb285fb5433716f6b12dbe562f11e023ea/LeetCode/1283. Find the Smallest Divisor Given a Threshold.js",
+    "rawUrl": "https://raw.githubusercontent.com/Wolf-Fivousix/CodeChallenges/main/LeetCode/1283. Find the Smallest Divisor Given a Threshold.js"
+  },
+  "matching": {
+    "relevanceScore": 95.65
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2021-04-01T22:33:09Z",
+    "lastCommitDate": "2021-04-01T22:53:08Z",
+    "commitCount": 2,
+    "authorCount": 1,
+    "authors": [
+      "Wolf-Fivousix"
+    ],
+    "firstKnownAuthor": "Wolf-Fivousix",
+    "latestKnownAuthor": "Wolf-Fivousix"
+  },
+  "deduplication": {
+    "rawCodeHash": "7bd50e704475d4a1e2b27835a411b83bf803e5638d9ff3a925671a19656880d9",
+    "normalizedCodeHash": "7bd50e704475d4a1e2b27835a411b83bf803e5638d9ff3a925671a19656880d9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T05:14:50.728947+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

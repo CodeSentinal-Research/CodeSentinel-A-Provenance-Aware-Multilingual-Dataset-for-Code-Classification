@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000678",
+  "problemId": "P000678",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000678",
+    "title": "Josephus Problem Using Circular Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "There are n people standing in a circle numbered from 1 to n. Starting from the first person, every k-th remaining person is eliminated until only one person remains. Simulate the process using a circular linked list and return the label of the survivor.",
+    "input": "Integer n Integer k",
+    "output": "The label of the last remaining person.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000678.py",
+    "fileSHA": "48fe604cc9a3252c41a9c8908b1f3be6d41e75df118b1426a30cf9306874c77f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.643523+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "48fe604cc9a3252c41a9c8908b1f3be6d41e75df118b1426a30cf9306874c77f",
+    "normalizedCodeHash": "0adcea52707ce0e79532fb5328e8eaaef92cc08b601af94fcd384309d79762be",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.643523+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000975",
+  "problemId": "P000975",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000975",
+    "title": "Midpoint of a Line Segment",
+    "category": "Mathematics - Geometry",
+    "difficulty": "Easy",
+    "problemStatement": "Given the endpoints of a line segment, compute the coordinates of its midpoint.",
+    "input": "Integers x1, y1 Integers x2, y2",
+    "output": "The midpoint coordinates.",
+    "constraints": "-10^9 <= coordinates <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000975.c",
+    "fileSHA": "ac2a838a2ede1c6891f439bed09a458d2d1bd724bb359f69d53cd8b63de0e289",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ac2a838a2ede1c6891f439bed09a458d2d1bd724bb359f69d53cd8b63de0e289",
+    "normalizedCodeHash": "ac2a838a2ede1c6891f439bed09a458d2d1bd724bb359f69d53cd8b63de0e289",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

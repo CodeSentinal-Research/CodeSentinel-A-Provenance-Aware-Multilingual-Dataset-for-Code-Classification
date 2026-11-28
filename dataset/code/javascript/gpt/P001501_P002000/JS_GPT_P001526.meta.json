@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001526",
+  "problemId": "P001526",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001526",
+    "title": "Minimum Size Subarray Sum",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of positive integers and an integer Target, determine the minimum length of a contiguous subarray whose sum is at least Target.",
+    "input": "• First line contains integers N and Target. • Second line contains N positive integers.",
+    "output": "Print the minimum length. If no such subarray exists, print 0.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001501_P002000/JS_GPT_P001526.js",
+    "fileSHA": "c86a04f8dfa573314cb77954ffd9bafb411b98490df942f724b7e2fb6185b9c7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c86a04f8dfa573314cb77954ffd9bafb411b98490df942f724b7e2fb6185b9c7",
+    "normalizedCodeHash": "c86a04f8dfa573314cb77954ffd9bafb411b98490df942f724b7e2fb6185b9c7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

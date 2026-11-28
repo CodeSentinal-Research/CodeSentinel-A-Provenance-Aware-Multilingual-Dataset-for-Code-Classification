@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001218",
+  "problemId": "P001218",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001218",
+    "title": "Word Break",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string and a dictionary of valid words, determine whether the string can be segmented into a sequence of dictionary words.",
+    "input": "\u2022 First line contains the string. \u2022 Second line contains integer N. \u2022 Next N lines each contain one dictionary word.",
+    "output": "Print YES if segmentation is possible; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 Length of string \u2264 5000 \u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001218",
+    "fileSHA": "57d29777728671c5e3c2889bf03627c8499170a9c76a9fca7009fe6c2d1cceb3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:16:20.754209+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "57d29777728671c5e3c2889bf03627c8499170a9c76a9fca7009fe6c2d1cceb3",
+    "normalizedCodeHash": "57d29777728671c5e3c2889bf03627c8499170a9c76a9fca7009fe6c2d1cceb3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:16:20.754236+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001085",
+  "problemId": "P001085",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001085",
+    "title": "Number of Distinct Paths in a DAG",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a Directed Acyclic Graph and two vertices S and T, determine the number of distinct paths from S to T.",
+    "input": "\u2022 First line contains integers N, M, S, and T. \u2022 Next M lines contain directed edges.",
+    "output": "Print the total number of distinct paths.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "ceangar/Graph_ASSIGNMENT",
+    "owner": "ceangar",
+    "url": "https://github.com/ceangar/Graph_ASSIGNMENT",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "DAG/NumberOfDistinctPaths.py",
+    "fileSHA": "86e74671946b616d574c8c36c95edc0c244ed8db",
+    "url": "https://github.com/ceangar/Graph_ASSIGNMENT/blob/64c7a0e3c91438d84fbb74fe3c20246d8671f31d/DAG/NumberOfDistinctPaths.py",
+    "rawUrl": "https://raw.githubusercontent.com/ceangar/Graph_ASSIGNMENT/main/DAG/NumberOfDistinctPaths.py"
+  },
+  "matching": {
+    "relevanceScore": 62.38
+  },
+  "provenance": {
+    "score": 85.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "211965fc719d586e62e6b0639c7457db134c3de56fac5cb79d28aa293cd47791",
+    "normalizedCodeHash": "211965fc719d586e62e6b0639c7457db134c3de56fac5cb79d28aa293cd47791",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:57:14.336066+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,27 @@
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        if (sc.hasNextInt()) {
+            int n = sc.nextInt();
+            int[][] intervals = new int[n][2];
+            for (int i = 0; i < n; i++) {
+                intervals[i][0] = sc.nextInt();
+                intervals[i][1] = sc.nextInt();
+            }
+
+            Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+            PriorityQueue<Integer> pq = new PriorityQueue<>();
+
+            for (int[] inv : intervals) {
+                if (!pq.isEmpty() && pq.peek() <= inv[0]) {
+                    pq.poll();
+                }
+                pq.offer(inv[1]);
+            }
+            System.out.println(pq.size());
+        }
+        sc.close();
+    }
+}

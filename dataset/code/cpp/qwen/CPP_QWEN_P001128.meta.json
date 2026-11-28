@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001128",
+  "problemId": "P001128",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001128",
+    "title": "Accounts Merge",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given multiple user accounts where each account contains a user's name followed by email addresses, merge all accounts belonging to the same person. Two accounts belong to the same person if they share at least one common email address.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain an account with a name followed by email addresses.",
+    "output": "Print the merged accounts sorted lexicographically by email.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^4 \u2022 Total emails \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001128",
+    "fileSHA": "45a5bc7fb8788a6ed155d27a90b441688aa0b36c5400c6cb7cffab49ad5daeea",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.837Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "a802e4a15b1803a18fe898b71a9919a267c480f403fe97669e461342b50c5ca0",
+    "normalizedCodeHash": "c8f75c53d68dbcf31b908ce1ecbb3c4a96ff9f7c35d22642550ff5060cea147d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.837Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

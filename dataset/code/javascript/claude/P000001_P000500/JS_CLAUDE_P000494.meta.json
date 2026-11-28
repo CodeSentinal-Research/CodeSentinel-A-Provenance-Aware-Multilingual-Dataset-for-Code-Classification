@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_CLAUDE_P000494",
+  "problemId": "P000494",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000494",
+    "title": "Daily Temperatures",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of daily temperatures, return an array such that each element indicates how many days must be waited until a warmer temperature occurs. If no warmer day exists, store 0 for that day.",
+    "input": "Integer n Array temperatures",
+    "output": "An array of integers.",
+    "constraints": "1 <= n <= 10^5 30 <= temperatures[i] <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000494",
+    "fileSHA": "2222e81aef0d1c92da8a07ffe5e301e4de3ba48503068c76e10f7b020088b37d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4926b831afd7b39329421a0ee9d27ba39ac547f6e561311cdb37894d3e7d8232",
+    "normalizedCodeHash": "2222e81aef0d1c92da8a07ffe5e301e4de3ba48503068c76e10f7b020088b37d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

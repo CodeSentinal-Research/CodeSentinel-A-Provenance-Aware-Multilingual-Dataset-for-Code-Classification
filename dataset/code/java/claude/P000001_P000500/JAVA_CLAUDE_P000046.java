@@ -1,0 +1,6 @@
+public class Solution {
+    public boolean isDivisible(int a, int b) {
+        if (b == 0) return false;
+        return a % b == 0;
+    }
+}

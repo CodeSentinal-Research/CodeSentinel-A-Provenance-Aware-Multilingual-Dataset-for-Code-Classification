@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001063",
+  "problemId": "P001063",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001063",
+    "title": "Count Vertices with Zero Out-Degree",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given a directed graph, determine the number of vertices having an out-degree of zero.",
+    "input": "\u2022 First line contains two integers N and M. \u2022 The next M lines contain directed edges.",
+    "output": "Print the number of vertices with zero out-degree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/greedy_algorithms/src/activity_selection/activity_selection.c",
+    "fileSHA": "cc5280931f396d36373f21e7b9542d9ed1aa9508",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/greedy_algorithms/src/activity_selection/activity_selection.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/greedy_algorithms/src/activity_selection/activity_selection.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e4a24405feb1141f476a6a7f079a94b6a8e43bdf470857df528da268310a0396",
+    "normalizedCodeHash": "e4a24405feb1141f476a6a7f079a94b6a8e43bdf470857df528da268310a0396",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:28:43.462757+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

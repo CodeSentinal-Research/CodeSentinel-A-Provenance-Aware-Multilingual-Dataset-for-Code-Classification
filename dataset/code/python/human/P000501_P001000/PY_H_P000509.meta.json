@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P000509",
+  "problemId": "P000509",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000509",
+    "title": "Clear Digits from String",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a string consisting of lowercase English letters and digits. Process the string from left to right: If the current character is a lowercase letter, keep it. If the current character is a digit, remove the closest lowercase letter to its left that has not already been removed, and discard the digit itself. Return the final string after processing all characters.",
+    "input": "A single string s.",
+    "output": "The resulting string.",
+    "constraints": "1 <= s.length <= 10^5 s consists only of lowercase English letters and digits. Every digit has at least one removable letter to its left."
+  },
+  "repository": {
+    "name": "ivgnk/Pyton-Codewars-Leetcode",
+    "owner": "ivgnk",
+    "url": "https://github.com/ivgnk/Pyton-Codewars-Leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000509.py",
+    "fileSHA": "3c2e9d44941b8033199cacfe4dc9264e14c87efc",
+    "url": "https://github.com/ivgnk/Pyton-Codewars-Leetcode/blob/a38c8cba0702ba190337913b7e0b167a98e7d490/Leetcode/3174_easy_Clear Digits.py",
+    "rawUrl": "https://raw.githubusercontent.com/ivgnk/Pyton-Codewars-Leetcode/main/Leetcode/3174_easy_Clear Digits.py"
+  },
+  "matching": {
+    "relevanceScore": 66.17
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2024-06-23T11:32:40Z",
+    "lastCommitDate": "2024-06-23T11:32:40Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Ivan Genik"
+    ],
+    "firstKnownAuthor": "Ivan Genik",
+    "latestKnownAuthor": "Ivan Genik"
+  },
+  "deduplication": {
+    "rawCodeHash": "64ae65e2867e4697f1c7bcfeb67cb2e3165906d03881df4a8ea56d4cddf35f3a",
+    "normalizedCodeHash": "64ae65e2867e4697f1c7bcfeb67cb2e3165906d03881df4a8ea56d4cddf35f3a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:03:46.912761+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

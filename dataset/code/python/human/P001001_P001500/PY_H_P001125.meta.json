@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001125",
+  "problemId": "P001125",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001125",
+    "title": "Network Delay Time",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a directed weighted network and a starting node, determine the minimum time required for a signal to reach every node. If any node cannot be reached, print -1.",
+    "input": "\u2022 First line contains integers N, M, and S. \u2022 Next M lines contain integers u, v, and w.",
+    "output": "Print the required network delay time.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/network-delay-time.py",
+    "fileSHA": "f68416e8c0b3480086579a92269705acafd30e52",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/network-delay-time.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/network-delay-time.py"
+  },
+  "matching": {
+    "relevanceScore": 68.57
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d79d898ccadbe29793264f629e428dbe22dc980c26151d11419f5f1f87855ca4",
+    "normalizedCodeHash": "d79d898ccadbe29793264f629e428dbe22dc980c26151d11419f5f1f87855ca4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:14:21.198135+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001564",
+  "problemId": "P001564",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001564",
+    "title": "Sliding Window Median",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and a window size K, compute the median of every contiguous subarray of size K. For an even-sized window, the median is defined as the average of the two middle values after sorting.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the median of every window in order.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K \u2264 N \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "Sampritakoley/LEET-DSA-HUB",
+    "owner": "Sampritakoley",
+    "url": "https://github.com/Sampritakoley/LEET-DSA-HUB",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0480-sliding-window-median/0480-sliding-window-median.java",
+    "fileSHA": "2bb225916fd0f082a49d1a97ec80f2d99ced04b6",
+    "url": "https://github.com/Sampritakoley/LEET-DSA-HUB/blob/0921a9bcae0aeb69d576456d3009f0a25b807916/0480-sliding-window-median/0480-sliding-window-median.java",
+    "rawUrl": "https://raw.githubusercontent.com/Sampritakoley/LEET-DSA-HUB/main/0480-sliding-window-median/0480-sliding-window-median.java"
+  },
+  "matching": {
+    "relevanceScore": 80.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6bc8b662be1ef06985e87884da61786fc5e2435fde80e3b2c44ddcd51a96c8e2",
+    "normalizedCodeHash": "6bc8b662be1ef06985e87884da61786fc5e2435fde80e3b2c44ddcd51a96c8e2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T11:42:51.907346+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

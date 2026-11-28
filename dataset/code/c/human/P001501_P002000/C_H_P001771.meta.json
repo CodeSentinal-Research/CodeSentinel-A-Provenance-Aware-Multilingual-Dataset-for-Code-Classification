@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001771",
+  "problemId": "P001771",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001771",
+    "title": "Find the Vertical Sum of a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree whose nodes contain integer values, determine the sum of node values in every vertical column.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the vertical sums from the leftmost column to the rightmost column.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "cheebinhoh/Coding",
+    "owner": "cheebinhoh",
+    "url": "https://github.com/cheebinhoh/Coding",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "btreeverticalsum.c",
+    "fileSHA": "0f3bb650f695a3d055baf70dc263cb1397d57009",
+    "url": "https://github.com/cheebinhoh/Coding/blob/16127c3a9fd5d93f04372fff39f8822fdf9ddf12/btreeverticalsum.c",
+    "rawUrl": "https://raw.githubusercontent.com/cheebinhoh/Coding/main/btreeverticalsum.c"
+  },
+  "matching": {
+    "relevanceScore": 72.39
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8dee50e0f25f25dcda5303e2f9ec55610789fbc5f3046caf5d352753e9462771",
+    "normalizedCodeHash": "8dee50e0f25f25dcda5303e2f9ec55610789fbc5f3046caf5d352753e9462771",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:35:40.428194+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

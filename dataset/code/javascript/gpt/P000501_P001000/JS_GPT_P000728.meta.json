@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000728",
+  "problemId": "P000728",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000728",
+    "title": "Remove Invalid Parentheses",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string containing letters and parentheses, remove the minimum number of invalid parentheses so that the resulting strings are valid. Return all possible valid strings.",
+    "input": "String s",
+    "output": "All valid strings after the minimum removals, in lexicographical order.",
+    "constraints": "1 <= |s| <= 25"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000728.js",
+    "fileSHA": "1cb6415d3388eb7b267d3ebd4df35b6924677d88ca8f5f4aaec4e6a5b5fd7c8c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1cb6415d3388eb7b267d3ebd4df35b6924677d88ca8f5f4aaec4e6a5b5fd7c8c",
+    "normalizedCodeHash": "1cb6415d3388eb7b267d3ebd4df35b6924677d88ca8f5f4aaec4e6a5b5fd7c8c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

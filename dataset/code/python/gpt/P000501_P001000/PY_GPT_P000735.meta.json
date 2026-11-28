@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000735",
+  "problemId": "P000735",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000735",
+    "title": "Generate All K-Length Strings from Given Characters",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given a set of distinct characters and an integer K, generate all strings of length K. Characters may be reused any number of times. Print the strings in lexicographical order.",
+    "input": "Integer n Array characters Integer K",
+    "output": "All possible strings.",
+    "constraints": "1 <= n <= 26 1 <= K <= 10"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000735.py",
+    "fileSHA": "9efd89c1a6e852e6cc85028aeea94af48f1d5f833d281c18e3675656763570a0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.838398+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9efd89c1a6e852e6cc85028aeea94af48f1d5f833d281c18e3675656763570a0",
+    "normalizedCodeHash": "3283c1f133819d441029a97c84fe1ef695a7a20d5903962b8364c7da46af38ff",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.838398+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000727",
+  "problemId": "P000727",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000727",
+    "title": "Word Break II",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string s and a dictionary of valid words, return all possible sentences formed by inserting spaces into s such that every word belongs to the dictionary. Print the sentences in lexicographical order.",
+    "input": "String s Integer m Array dictionary",
+    "output": "All valid sentences.",
+    "constraints": "1 <= |s| <= 20 1 <= m <= 1000"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0140_word_break_ii/word_break.c",
+    "fileSHA": "588bc1e74df2d630ecf7c317c1d7764972666764",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0140_word_break_ii/word_break.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0140_word_break_ii/word_break.c"
+  },
+  "matching": {
+    "relevanceScore": 73.33
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "db2097b0bb704c3d552bdebb1a3459a66a6e1ed9c2c2e1e40de9364eff6afcc6",
+    "normalizedCodeHash": "db2097b0bb704c3d552bdebb1a3459a66a6e1ed9c2c2e1e40de9364eff6afcc6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:42:09.663897+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

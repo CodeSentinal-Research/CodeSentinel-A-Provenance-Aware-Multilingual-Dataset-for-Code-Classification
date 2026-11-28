@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000638",
+  "problemId": "P000638",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000638",
+    "title": "Design Polynomial Using Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "A polynomial is represented as a linked list where each node contains: Coefficient Exponent The terms are stored in descending order of exponents. Process a sequence of operations on the polynomial: insert(coefficient, exponent) delete(exponent) evaluate(x) display() When inserting a term with an existing exponent, combine the coefficients. Print the result for every evaluate() and display() operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for every evaluate() and display() operation.",
+    "constraints": "1 <= q <= 10^5 |coefficient| <= 10^6 0 <= exponent <= 10^6"
+  },
+  "repository": {
+    "name": "sugeerth/llm-router",
+    "owner": "sugeerth",
+    "url": "https://github.com/sugeerth/llm-router",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "js/analyzer.js",
+    "fileSHA": "9980cd7316c318811e574f8e1db4b305e5ff15c3",
+    "url": "https://github.com/sugeerth/llm-router/blob/faa2a03d54b806a17e19db04caea8370d9add622/js/analyzer.js",
+    "rawUrl": "https://raw.githubusercontent.com/sugeerth/llm-router/main/js/analyzer.js"
+  },
+  "matching": {
+    "relevanceScore": 57.86
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d9c1018c36b299a082371ce7ae9647ec094eb64d073480e1e8a1ebf00fb193a9",
+    "normalizedCodeHash": "d9c1018c36b299a082371ce7ae9647ec094eb64d073480e1e8a1ebf00fb193a9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T14:43:05.888013+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

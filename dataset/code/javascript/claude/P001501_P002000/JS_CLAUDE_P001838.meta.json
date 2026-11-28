@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_CLAUDE_P001838",
+  "problemId": "P001838",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001838",
+    "title": "Determine Whether a Binary Search Tree Contains Two Keys with a Given Sum",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree and an integer K, determine whether there exist two distinct nodes whose values sum to K.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST. • The last line contains K.",
+    "output": "• Print YES if such a pair exists; otherwise print NO.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P001838",
+    "fileSHA": "48959ed99ef75abfe963070c75d705f659ce28320108befcaf52bb45b6a89de4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fee182c40e1decca124fe53095f475932f2c4d1b735d4c2d6520930466c6eced",
+    "normalizedCodeHash": "48959ed99ef75abfe963070c75d705f659ce28320108befcaf52bb45b6a89de4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001104",
+  "problemId": "P001104",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001104",
+    "title": "Clone an Undirected Graph",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given the adjacency list representation of a connected undirected graph, create an exact deep copy of the graph while preserving all vertex labels and edge relationships.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines describe the adjacency list of each vertex.",
+    "output": "Print the adjacency list of the cloned graph.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^4"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0133_clone_graph/clone_graph.c",
+    "fileSHA": "1c183891d67777e59fe5149ffc15f3b17820da98",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0133_clone_graph/clone_graph.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0133_clone_graph/clone_graph.c"
+  },
+  "matching": {
+    "relevanceScore": 71.25
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "615afce1395ffcb4b6959f7a76092f9e70b4c861c3905271bc67738d83d7d88b",
+    "normalizedCodeHash": "615afce1395ffcb4b6959f7a76092f9e70b4c861c3905271bc67738d83d7d88b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:43:11.159267+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

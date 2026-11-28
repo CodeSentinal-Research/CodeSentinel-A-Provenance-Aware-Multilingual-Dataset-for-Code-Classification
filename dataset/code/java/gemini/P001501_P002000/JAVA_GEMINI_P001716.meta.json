@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001716",
+  "problemId": "P001716",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001716",
+    "title": "Find the Lowest Leaf in a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, determine the leaf node located at the greatest depth. If multiple leaves exist at the same depth, return the leftmost one.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the value of the required leaf.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001716",
+    "fileSHA": "d096c6bfe794d742aa53b6b59389da941649dbc4a184c6c6d648fc4c853ddf18",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:37:23.077658+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d096c6bfe794d742aa53b6b59389da941649dbc4a184c6c6d648fc4c853ddf18",
+    "normalizedCodeHash": "d096c6bfe794d742aa53b6b59389da941649dbc4a184c6c6d648fc4c853ddf18",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:37:23.077677+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

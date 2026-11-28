@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001180",
+  "problemId": "P001180",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001180",
+    "title": "Vacation Planning",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "For N days, three vacation activities are available, each providing a happiness value. The same activity cannot be selected on consecutive days. Determine the maximum total happiness.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain three integers representing happiness values.",
+    "output": "Print the maximum achievable happiness.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001180",
+    "fileSHA": "2fb4b756c7c3dde49b0b1bd6a167ad3780a063cea74a5358f7751b4f8e928a65",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.868Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "3a3385e1587ac18630a702537d6c8c95d6c24e49857a84ca9d0bc182e37ba964",
+    "normalizedCodeHash": "5209bfe2f101958806457c4768d507361a303eec03dc14fe64a2a9cd41756aff",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.868Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

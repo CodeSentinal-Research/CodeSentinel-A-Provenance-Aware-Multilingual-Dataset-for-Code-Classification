@@ -1,0 +1,18 @@
+# problem title : Partition Labels
+# Solve the stated task using standard input and standard output.
+from typing import List
+
+class Solution:
+    def partitionLabels(self, s: str) -> List[int]:
+        last = {c: i for i, c in enumerate(s)}
+        res = []
+        anchor = 0
+        j = 0
+
+        for i, c in enumerate(s):
+            j = max(j, last[c])
+            if i == j:
+                res.append(i - anchor + 1)
+                anchor = i + 1
+
+        return res

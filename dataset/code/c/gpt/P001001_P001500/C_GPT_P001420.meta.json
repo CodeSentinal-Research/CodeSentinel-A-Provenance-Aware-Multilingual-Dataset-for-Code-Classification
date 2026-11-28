@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001420",
+  "problemId": "P001420",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001420",
+    "title": "Longest Arithmetic Subsequence With Given Difference",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer Difference, determine the length of the longest subsequence where the difference between adjacent elements equals Difference.",
+    "input": "• First line contains integers N and Difference. • Second line contains N integers.",
+    "output": "Print the maximum length.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001420.c",
+    "fileSHA": "b05a49b46d295b6fbe10344d1875dd53a14f9b315a4cec27a41017ed034d3eb9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.319Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "120657ebe475650a68f44af5f0d344f873e05dd2f23a07fd57ef4010d65c3c5f",
+    "normalizedCodeHash": "b05a49b46d295b6fbe10344d1875dd53a14f9b315a4cec27a41017ed034d3eb9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.319Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

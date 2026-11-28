@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001001",
+  "problemId": "P001001",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001001",
+    "title": "Find the Kth Largest Element",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given an unsorted array of N integers and an integer K, determine the Kth largest element in the array. Duplicate values should be considered while determining the order.",
+    "input": "\u2022 First line contains two integers N and K. \u2022 Second line contains N space-separated integers.",
+    "output": "Print the Kth largest element.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001001",
+    "fileSHA": "7b8f40aec9140dcdbe7db7b01bc8433478d07ea56cc6e393380faf68bbfcab98",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.545Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "9f32e8d90a3d158bb82619a4d1c1c6c65c24e46d40854dbcee77d6bd36ff71b4",
+    "normalizedCodeHash": "7c76d1b8edd93c95b1dd8f76daf05d7eb752eef6bd5708a1a286cf1f284ef965",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.545Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

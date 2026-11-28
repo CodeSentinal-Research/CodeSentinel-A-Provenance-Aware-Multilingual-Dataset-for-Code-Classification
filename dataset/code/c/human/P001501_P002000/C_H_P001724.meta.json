@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001724",
+  "problemId": "P001724",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001724",
+    "title": "Minimum Root-to-Leaf Sum",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the minimum possible sum along any path from the root to a leaf.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the minimum root-to-leaf sum.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 \u221210^9 \u2264 NodeValue \u2264 10^9"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0064_minumum_path_sum/minimum_path_sum.c",
+    "fileSHA": "ad807c54d06488b9421c4ebf6ce64582b2a1edba",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0064_minumum_path_sum/minimum_path_sum.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0064_minumum_path_sum/minimum_path_sum.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "93440686c6ac792ea34780c7307dc5dbadd2e09a85d0e9303ef4d2311fbffd1d",
+    "normalizedCodeHash": "93440686c6ac792ea34780c7307dc5dbadd2e09a85d0e9303ef4d2311fbffd1d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:45:56.776012+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

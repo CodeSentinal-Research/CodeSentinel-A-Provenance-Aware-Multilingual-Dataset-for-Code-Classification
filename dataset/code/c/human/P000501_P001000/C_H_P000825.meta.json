@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000825",
+  "problemId": "P000825",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000825",
+    "title": "Search a 2D Matrix II",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N \u00d7 M matrix where: Each row is sorted in ascending order. Each column is sorted in ascending order. Determine whether a target value exists in the matrix.",
+    "input": "Integer N Integer M Matrix matrix Integer target",
+    "output": "true if the target exists, otherwise false.",
+    "constraints": "1 <= N, M <= 300"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0074_search_a_2d_matrix/matrix_search.c",
+    "fileSHA": "c759b0bb377fb674c5528526982b1799a56b192c",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0074_search_a_2d_matrix/matrix_search.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0074_search_a_2d_matrix/matrix_search.c"
+  },
+  "matching": {
+    "relevanceScore": 82.69
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9b110583296b461837f3ece1becb415b6319f88fa02706230502339b6ab0d2d6",
+    "normalizedCodeHash": "9b110583296b461837f3ece1becb415b6319f88fa02706230502339b6ab0d2d6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:42:28.410567+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

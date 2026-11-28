@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000782",
+  "problemId": "P000782",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000782",
+    "title": "Count Elements in Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and multiple queries [L, R], return the number of elements lying within the specified index range. Preprocess the array using prefix sums.",
+    "input": "Integer n Array nums Integer q Queries (L, R)",
+    "output": "For each query, print the count of elements.",
+    "constraints": "1 <= n, q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/2100-2199/2148.Count Elements With Strictly Smaller and Greater Elements/Solution.ts",
+    "fileSHA": "44d66887226c65b8987f341b4f4a70756ac3a0dc",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/2100-2199/2148.Count Elements With Strictly Smaller and Greater Elements/Solution.ts",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/2100-2199/2148.Count Elements With Strictly Smaller and Greater Elements/Solution.ts"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e560c535c21d3c1988726710957d3cea3ebb2cb57b47d8a12e99a57053ef39bb",
+    "normalizedCodeHash": "e560c535c21d3c1988726710957d3cea3ebb2cb57b47d8a12e99a57053ef39bb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:27.978179+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

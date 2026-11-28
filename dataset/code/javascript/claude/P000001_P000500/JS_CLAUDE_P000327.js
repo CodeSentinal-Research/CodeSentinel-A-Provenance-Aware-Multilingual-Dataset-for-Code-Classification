@@ -1,0 +1,1 @@
+const line=require('fs').readFileSync('/dev/stdin','utf8').trim();const sp=line.indexOf(' ');const note=line.slice(0,sp),mag=line.slice(sp+1);const fn={},fm={};for(const c of note)fn[c]=(fn[c]||0)+1;for(const c of mag)fm[c]=(fm[c]||0)+1;console.log(Object.keys(fn).every(c=>(fn[c]||0)<=(fm[c]||0))?'Yes':'No');

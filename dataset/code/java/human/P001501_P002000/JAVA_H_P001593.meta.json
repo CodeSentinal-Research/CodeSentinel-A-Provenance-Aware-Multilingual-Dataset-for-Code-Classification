@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001593",
+  "problemId": "P001593",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001593",
+    "title": "Shortest Prefix With Sum Greater Than X",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and an integer X, determine the minimum prefix length whose sum is strictly greater than X. Print -1 if no such prefix exists.",
+    "input": "\u2022 First line contains N and X. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the minimum length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "changlinzeng/AlgoDiary",
+    "owner": "changlinzeng",
+    "url": "https://github.com/changlinzeng/AlgoDiary",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/algo/prefixSum/ShortestSubarrayWithSumAtLeastK_862.java",
+    "fileSHA": "31a1eb2f9948573db74b801abe6e92f827d70655",
+    "url": "https://github.com/changlinzeng/AlgoDiary/blob/a791504226c4f4a1f4598bd9ab33c731a128e55a/src/main/java/algo/prefixSum/ShortestSubarrayWithSumAtLeastK_862.java",
+    "rawUrl": "https://raw.githubusercontent.com/changlinzeng/AlgoDiary/main/src/main/java/algo/prefixSum/ShortestSubarrayWithSumAtLeastK_862.java"
+  },
+  "matching": {
+    "relevanceScore": 69.86
+  },
+  "provenance": {
+    "score": 85.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c7ea29c724fc448c2cc6c44aa8e77abbc265802f6259aa66c3a3980808c097bd",
+    "normalizedCodeHash": "c7ea29c724fc448c2cc6c44aa8e77abbc265802f6259aa66c3a3980808c097bd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:58:22.531562+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001723",
+  "problemId": "P001723",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001723",
+    "title": "Maximum Root-to-Leaf Sum",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the maximum possible sum along any path from the root to a leaf.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print the maximum root-to-leaf sum.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • −10^9 ≤ NodeValue ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001723.c",
+    "fileSHA": "1a3f7d3dd98eb5f340c16f14096bdb23fb589193c42f9e5928003f11acf257ce",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.454Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c4ff015ff9f9ac669df17204e6815bb45892fd35b6a359ce0535fcb7b479a3c5",
+    "normalizedCodeHash": "1a3f7d3dd98eb5f340c16f14096bdb23fb589193c42f9e5928003f11acf257ce",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.454Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

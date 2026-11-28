@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000557",
+  "problemId": "P000557",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000557",
+    "title": "Race Car",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "A car starts at position 0 with speed 1. You are given a target position. The car supports two instructions: A (Accelerate): Position increases by current speed, then speed doubles. R (Reverse): Reverse direction. Speed becomes 1 if moving backward, or -1 if moving forward. Return the minimum number of instructions needed to reach the target position.",
+    "input": "A single integer target.",
+    "output": "A single integer representing the minimum number of instructions.",
+    "constraints": "1 <= target <= 10^4"
+  },
+  "repository": {
+    "name": "amoghvyas/race-simulator-c",
+    "owner": "amoghvyas",
+    "url": "https://github.com/amoghvyas/race-simulator-c",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "race.c",
+    "fileSHA": "6c2af05c0292a1bc9df3ed9f124688e1ddd1173c",
+    "url": "https://github.com/amoghvyas/race-simulator-c/blob/1c7359892a02414e41f71e248195eb9fcac4d76e/race.c",
+    "rawUrl": "https://raw.githubusercontent.com/amoghvyas/race-simulator-c/main/race.c"
+  },
+  "matching": {
+    "relevanceScore": 71.06
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c91a1fd7963b6f4ca439185c6baeea537333732d3bde7c59c1ee05daaca688c6",
+    "normalizedCodeHash": "c91a1fd7963b6f4ca439185c6baeea537333732d3bde7c59c1ee05daaca688c6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:13:05.082715+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

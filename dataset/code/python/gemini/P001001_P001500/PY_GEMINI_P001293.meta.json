@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001293",
+  "problemId": "P001293",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001293",
+    "title": "Maximum Product After K Increments",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of non-negative integers and an integer K, perform exactly K operations where each operation increments one array element by one. Determine the maximum possible product of all elements after the operations.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the maximum possible product.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 K \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001293",
+    "fileSHA": "2f1ad463a0acdad01ade20a23774551de053e1862f51ae6b7cd0283e191e8f3d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:20:53.296312+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2f1ad463a0acdad01ade20a23774551de053e1862f51ae6b7cd0283e191e8f3d",
+    "normalizedCodeHash": "2f1ad463a0acdad01ade20a23774551de053e1862f51ae6b7cd0283e191e8f3d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:20:53.296338+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

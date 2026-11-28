@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000537",
+  "problemId": "P000537",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000537",
+    "title": "Sliding Window Maximum",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array nums and an integer k, find the maximum element in every contiguous subarray of size k. Return an array containing the maximum value for each window.",
+    "input": "Integer n Array nums Integer k",
+    "output": "An array of window maximums.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= n -10^4 <= nums[i] <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000537.py",
+    "fileSHA": "70d95a6221c8f43eff4618263b39d652f9182cebdd4dc43820f6986222c17bda",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.178206+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "70d95a6221c8f43eff4618263b39d652f9182cebdd4dc43820f6986222c17bda",
+    "normalizedCodeHash": "02702e84a56ac7b294ee3c00f9c57bc2100f32212c0406ea9929539eb03b672f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.178206+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

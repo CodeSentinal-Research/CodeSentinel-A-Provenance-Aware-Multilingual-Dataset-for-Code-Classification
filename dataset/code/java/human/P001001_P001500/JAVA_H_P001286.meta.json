@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001286",
+  "problemId": "P001286",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001286",
+    "title": "Bag Filling with Additional Rocks",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "There are N bags, each with a capacity and an initial number of rocks. You are given additional rocks that may be distributed arbitrarily. Determine the maximum number of bags that can become completely full.",
+    "input": "\u2022 First line contains integers N and AdditionalRocks. \u2022 Second line contains N integers representing capacities. \u2022 Third line contains N integers representing current rocks.",
+    "output": "Print the maximum number of completely filled bags.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "shricodev/Infinite-DS-Algorithm",
+    "owner": "shricodev",
+    "url": "https://github.com/shricodev/Infinite-DS-Algorithm",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/LeetcodeDaily/MaxmBagsWithFullCapacityRocks.java",
+    "fileSHA": "eb2dc4a2e18a5e3072dc8af8ae648e7164f8a66b",
+    "url": "https://github.com/shricodev/Infinite-DS-Algorithm/blob/e5e24a56227e7a1b0a13e9bb03ca4699f5f57bda/src/LeetcodeDaily/MaxmBagsWithFullCapacityRocks.java",
+    "rawUrl": "https://raw.githubusercontent.com/shricodev/Infinite-DS-Algorithm/main/src/LeetcodeDaily/MaxmBagsWithFullCapacityRocks.java"
+  },
+  "matching": {
+    "relevanceScore": 83.4
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "38feb4546254a3241e22043ccecfe27182fde4c2acc65325739e0b114bab8d97",
+    "normalizedCodeHash": "38feb4546254a3241e22043ccecfe27182fde4c2acc65325739e0b114bab8d97",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T23:31:33.683210+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

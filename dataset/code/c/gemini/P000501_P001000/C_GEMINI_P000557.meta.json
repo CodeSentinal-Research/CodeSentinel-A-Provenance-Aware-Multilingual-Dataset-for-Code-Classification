@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000557",
+  "problemId": "P000557",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000557",
+    "title": "Race Car",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "A car starts at position 0 with speed 1. You are given a target position. The car supports two instructions: A (Accelerate): Position increases by current speed, then speed doubles. R (Reverse): Reverse direction. Speed becomes 1 if moving backward, or -1 if moving forward. Return the minimum number of instructions needed to reach the target position.",
+    "input": "A single integer target.",
+    "output": "A single integer representing the minimum number of instructions.",
+    "constraints": "1 <= target <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000557",
+    "fileSHA": "ffd9e695fa72c8656f3a10833b53fc76aad1eb44c14235d23e003ae9701a9ded",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:44:53.751639+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ffd9e695fa72c8656f3a10833b53fc76aad1eb44c14235d23e003ae9701a9ded",
+    "normalizedCodeHash": "ffd9e695fa72c8656f3a10833b53fc76aad1eb44c14235d23e003ae9701a9ded",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:44:53.751666+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

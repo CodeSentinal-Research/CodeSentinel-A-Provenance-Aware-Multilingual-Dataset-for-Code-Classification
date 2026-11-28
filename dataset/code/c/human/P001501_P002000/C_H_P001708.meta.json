@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001708",
+  "problemId": "P001708",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001708",
+    "title": "Count Pseudo-Palindromic Root-to-Leaf Paths",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree whose node values represent digits, determine the number of root-to-leaf paths whose node values can be rearranged to form a palindrome.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the number of pseudo-palindromic paths.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "lrmsspace/LLM-CodeQualityEval",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Output/output_Copilot/c/Medium/1250-pseudo-palindromic-paths-in-a-binary-tree.c",
+    "fileSHA": "1f22cdfa2e79c14a55f6966c7b31f65f6d0ef35a",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval/blob/a2817bbe913c51ab32afeb6f6d0ad97b92c45075/Output/output_Copilot/c/Medium/1250-pseudo-palindromic-paths-in-a-binary-tree.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/LLM-CodeQualityEval/main/Output/output_Copilot/c/Medium/1250-pseudo-palindromic-paths-in-a-binary-tree.c"
+  },
+  "matching": {
+    "relevanceScore": 90.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f0d7874741fa41a946ca8dd38b23fc599097b0ec04bdbab57a321b278d7d213d",
+    "normalizedCodeHash": "f0d7874741fa41a946ca8dd38b23fc599097b0ec04bdbab57a321b278d7d213d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T05:49:34.838267+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

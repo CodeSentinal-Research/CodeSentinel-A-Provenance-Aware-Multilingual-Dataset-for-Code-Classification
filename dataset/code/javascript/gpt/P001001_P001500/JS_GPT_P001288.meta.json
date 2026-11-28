@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001288",
+  "problemId": "P001288",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001288",
+    "title": "Maximum Equal Sum After K Negations",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and an integer K, negate the sign of one element in each operation. Determine the maximum possible array sum after exactly K negations.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print the maximum possible sum.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001288.js",
+    "fileSHA": "79ce0159c5cd125dd9426fc19e972d12c3908c3af0df2db92e92df9031f1ac5f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T10:11:26.401164+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "79ce0159c5cd125dd9426fc19e972d12c3908c3af0df2db92e92df9031f1ac5f",
+    "normalizedCodeHash": "79ce0159c5cd125dd9426fc19e972d12c3908c3af0df2db92e92df9031f1ac5f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T10:11:26.401164+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

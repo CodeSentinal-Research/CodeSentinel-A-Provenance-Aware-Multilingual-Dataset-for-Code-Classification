@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000960",
+  "problemId": "P000960",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000960",
+    "title": "Find One Diophantine Solution",
+    "category": "Mathematics - Diophantine Equations",
+    "difficulty": "Medium",
+    "problemStatement": "Given integers A, B, and C, find one integer solution (X, Y) satisfying: AX + BY = C If no solution exists, output -1.",
+    "input": "Integer A Integer B Integer C",
+    "output": "One valid solution or -1.",
+    "constraints": "|A|, |B|, |C| <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P000960",
+    "fileSHA": "5fd0e9212d040c5ac78068f5361e0361d0d0d1893a0eab9e6ced5da613ca6049",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:36:08.289682+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5fd0e9212d040c5ac78068f5361e0361d0d0d1893a0eab9e6ced5da613ca6049",
+    "normalizedCodeHash": "5fd0e9212d040c5ac78068f5361e0361d0d0d1893a0eab9e6ced5da613ca6049",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:36:08.289706+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

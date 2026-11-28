@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001119",
+  "problemId": "P001119",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001119",
+    "title": "Evaluate Division",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given equations of the form A / B = value and several queries, determine the result of each query. If the result cannot be determined, print -1.0.",
+    "input": "\u2022 First line contains integer E. \u2022 Next E lines contain two variable names and a floating-point value. \u2022 Next line contains integer Q. \u2022 Next Q lines contain query pairs.",
+    "output": "Print the answer for each query.",
+    "constraints": "\u2022 1 \u2264 E \u2264 10^4 \u2022 1 \u2264 Q \u2264 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001119",
+    "fileSHA": "87560585dbbb8d7f2fa688e2ee0c737ac57865801fb2d5325c96982a25cd9466",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:47:35.573666+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "87560585dbbb8d7f2fa688e2ee0c737ac57865801fb2d5325c96982a25cd9466",
+    "normalizedCodeHash": "87560585dbbb8d7f2fa688e2ee0c737ac57865801fb2d5325c96982a25cd9466",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:47:35.573695+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

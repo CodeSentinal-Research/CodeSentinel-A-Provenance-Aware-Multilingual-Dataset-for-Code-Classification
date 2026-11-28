@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000643",
+  "problemId": "P000643",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000643",
+    "title": "Delete First Occurrence of a Value",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list and an integer value, delete the first node whose value equals value. If the value does not exist, return the original linked list. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer value",
+    "output": "The modified linked list.",
+    "constraints": "0 <= n <= 10^5 -10^9 <= node.value <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000643.c",
+    "fileSHA": "af4b1d5b13e416373fe1d79c78960fd516019bfd79279eba6eb7069860de3f04",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "af4b1d5b13e416373fe1d79c78960fd516019bfd79279eba6eb7069860de3f04",
+    "normalizedCodeHash": "af4b1d5b13e416373fe1d79c78960fd516019bfd79279eba6eb7069860de3f04",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

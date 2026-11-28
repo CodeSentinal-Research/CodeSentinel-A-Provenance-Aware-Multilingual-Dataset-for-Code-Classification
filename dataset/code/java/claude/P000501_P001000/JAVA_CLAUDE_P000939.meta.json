@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000939",
+  "problemId": "P000939",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000939",
+    "title": "Nim Game Winner",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Easy",
+    "problemStatement": "There is a single pile containing N stones. Two players take turns removing 1, 2, or 3 stones. The player who removes the last stone wins. Determine whether the first player has a winning strategy assuming both players play optimally.",
+    "input": "Integer N",
+    "output": "Print true if the first player wins; otherwise, print false.",
+    "constraints": "1 <= N <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000939",
+    "fileSHA": "84356f1e918b3610fd86626c8d7503c3c7b531f90a42aaef59817f3ecbfc1b40",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "84356f1e918b3610fd86626c8d7503c3c7b531f90a42aaef59817f3ecbfc1b40",
+    "normalizedCodeHash": "84356f1e918b3610fd86626c8d7503c3c7b531f90a42aaef59817f3ecbfc1b40",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000939"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

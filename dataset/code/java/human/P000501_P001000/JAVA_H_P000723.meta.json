@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000723",
+  "problemId": "P000723",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000723",
+    "title": "Partition Array into K Equal Sum Subsets",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array and an integer k, determine whether the array can be partitioned into k non-empty subsets having equal sums. Return true if possible; otherwise return false.",
+    "input": "Integer n Array nums Integer k",
+    "output": "true if such a partition exists, otherwise false.",
+    "constraints": "1 <= n <= 16 1 <= nums[i] <= 10^4 1 <= k <= n"
+  },
+  "repository": {
+    "name": "cherryljr/LeetCode",
+    "owner": "cherryljr",
+    "url": "https://github.com/cherryljr/LeetCode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Partition Equal Subset Sum.java",
+    "fileSHA": "1331b78f03c4b17561a3370f243645e5f99d6490",
+    "url": "https://github.com/cherryljr/LeetCode/blob/master/Partition Equal Subset Sum.java",
+    "rawUrl": "https://raw.githubusercontent.com/cherryljr/LeetCode/master/Partition Equal Subset Sum.java"
+  },
+  "matching": {
+    "relevanceScore": 72.64
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "393bc1813c19025a526649551e2ae0636de165a4bc7bcc6aa2ff523effeaca6a",
+    "normalizedCodeHash": "393bc1813c19025a526649551e2ae0636de165a4bc7bcc6aa2ff523effeaca6a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:50:44.953551+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

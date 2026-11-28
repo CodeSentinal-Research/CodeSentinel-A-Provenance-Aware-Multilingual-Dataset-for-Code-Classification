@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001557",
+  "problemId": "P001557",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001557",
+    "title": "Longest Repeating Character Replacement",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string consisting of uppercase English letters and an integer K, you may replace at most K characters. Determine the length of the longest substring that can be made to contain only one distinct character.",
+    "input": "\u2022 First line contains string S. \u2022 Second line contains integer K.",
+    "output": "\u2022 Print the maximum possible length.",
+    "constraints": "\u2022 1 \u2264 |S| \u2264 2 \u00d7 10^5 \u2022 0 \u2264 K \u2264 |S|"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/0424-longest-repeating-character-replacement.c",
+    "fileSHA": "5b6ea100bcf1fa2bd9fbb7342a50cd710d369f45",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/c/0424-longest-repeating-character-replacement.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/0424-longest-repeating-character-replacement.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4fca1465dc8da960c2b4c8e2203130e6589c7222e6914a2061e9fe23e66ce1e2",
+    "normalizedCodeHash": "4fca1465dc8da960c2b4c8e2203130e6589c7222e6914a2061e9fe23e66ce1e2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T14:39:14.064108+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

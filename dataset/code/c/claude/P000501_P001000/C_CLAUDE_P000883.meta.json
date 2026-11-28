@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000883",
+  "problemId": "P000883",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000883",
+    "title": "Product of Digits",
+    "category": "Mathematics - Basic Arithmetic",
+    "difficulty": "Easy",
+    "problemStatement": "Given a non-negative integer N, compute the product of its decimal digits.",
+    "input": "Integer N",
+    "output": "The product of digits.",
+    "constraints": "0 <= N <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000883",
+    "fileSHA": "3dd9c188c0fcc259fd033a10bc43666c882f1e2ef829c35c70f6d4c2159079eb",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3dd9c188c0fcc259fd033a10bc43666c882f1e2ef829c35c70f6d4c2159079eb",
+    "normalizedCodeHash": "3dd9c188c0fcc259fd033a10bc43666c882f1e2ef829c35c70f6d4c2159079eb",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000883"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

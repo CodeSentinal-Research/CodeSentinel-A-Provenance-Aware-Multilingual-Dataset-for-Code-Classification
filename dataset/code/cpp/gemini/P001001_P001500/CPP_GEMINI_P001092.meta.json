@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001092",
+  "problemId": "P001092",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001092",
+    "title": "Kth Ancestor of a Node",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a rooted tree and Q queries, determine the Kth ancestor of the specified node. If no such ancestor exists, print -1.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Next N\u22121 lines contain tree edges. \u2022 Next Q lines contain a node and integer K.",
+    "output": "Print the answer for each query.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001092",
+    "fileSHA": "3ac312f18d29a172b50b963eeb582d4a5a7db97000e93a766cea8073f8a487a1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:45:00.346891+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3ac312f18d29a172b50b963eeb582d4a5a7db97000e93a766cea8073f8a487a1",
+    "normalizedCodeHash": "3ac312f18d29a172b50b963eeb582d4a5a7db97000e93a766cea8073f8a487a1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:45:00.346915+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

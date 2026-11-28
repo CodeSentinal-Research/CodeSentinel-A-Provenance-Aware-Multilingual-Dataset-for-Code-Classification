@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000504",
+  "problemId": "P000504",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000504",
+    "title": "Exclusive Time of Functions",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "A single-threaded CPU executes n functions identified by IDs from 0 to n-1. Execution logs are provided in the format: function_id:start_or_end:timestamp A function may call another function before finishing. Return the exclusive execution time of each function, excluding the time spent executing child functions.",
+    "input": "Integer n Integer m Array of m log strings.",
+    "output": "An array of n integers representing the exclusive execution time of each function.",
+    "constraints": "1 <= n <= 100 1 <= m <= 500 Logs are valid and sorted by timestamp."
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000504",
+    "fileSHA": "7fb84c1c4960b458857ed6b664771df462e3389aad7f58ea63fcbf6d9e01bdac",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.411Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "ea9df03f3565b6f22d5359ddd58f91a7271bfc816a20131a779448f9633a5853",
+    "normalizedCodeHash": "d4965c99bcb8e3ae0ea1bf6f6669c3378aa4ef9557c8ba650a99ca28c0faa828",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.411Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

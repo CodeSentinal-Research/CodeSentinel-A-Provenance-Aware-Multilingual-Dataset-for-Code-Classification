@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000591",
+  "problemId": "P000591",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000591",
+    "title": "Intersection of Two Linked Lists",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Two singly linked lists may intersect at a common node. Given the heads of both linked lists, determine the node where they intersect. If they do not intersect, return null.",
+    "input": "Two linked lists. The testing system may internally create an intersection.",
+    "output": "The value of the intersection node, or null if there is no intersection.",
+    "constraints": "Number of nodes in both lists is in the range [0, 10^5]."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000591.c",
+    "fileSHA": "fb5053bb491bf1687c424f74c1cc55707dabfce6297090511756154ccb49e033",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fb5053bb491bf1687c424f74c1cc55707dabfce6297090511756154ccb49e033",
+    "normalizedCodeHash": "fb5053bb491bf1687c424f74c1cc55707dabfce6297090511756154ccb49e033",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

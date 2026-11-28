@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001632",
+  "problemId": "P001632",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001632",
+    "title": "Largest Square With Sum Not Exceeding K",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M matrix of integers and an integer K, determine the side length of the largest square submatrix whose sum does not exceed K.",
+    "input": "\u2022 First line contains N, M, and K. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the maximum possible side length.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 1000 \u2022 -10^4 \u2264 Aij \u2264 10^4"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "lcci/17.23.Max Black Square/Solution.ts",
+    "fileSHA": "893e6c06eade4c02c4655acb3f05ca86c82d38a3",
+    "url": "https://github.com/doocs/leetcode/blob/main/lcci/17.23.Max Black Square/Solution.ts",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/lcci/17.23.Max Black Square/Solution.ts"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "db2f5aad64dc0a2867c42d372428fc9cd812798e71d714fb0b8e7afc6d8defcb",
+    "normalizedCodeHash": "db2f5aad64dc0a2867c42d372428fc9cd812798e71d714fb0b8e7afc6d8defcb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:23.360934+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P001670",
+  "problemId": "P001670",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001670",
+    "title": "Recover a Binary Tree from Depth-Encoded Preorder Traversal",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a preorder traversal of a binary tree where the depth of each node is encoded in the traversal, reconstruct the original binary tree.",
+    "input": "• The first line contains the depth-encoded preorder traversal.",
+    "output": "• Print the reconstructed tree in the required traversal format.",
+    "constraints": "• The traversal contains at most 2 × 10^5 nodes.________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P001670",
+    "fileSHA": "1f701495159b576e77542298685ac5ca7bc3176953e385acd40564115e803ce4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3aa8bb110436b80e59e3392429f3260d37e42010446b08ce376075c76211f86a",
+    "normalizedCodeHash": "1f701495159b576e77542298685ac5ca7bc3176953e385acd40564115e803ce4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

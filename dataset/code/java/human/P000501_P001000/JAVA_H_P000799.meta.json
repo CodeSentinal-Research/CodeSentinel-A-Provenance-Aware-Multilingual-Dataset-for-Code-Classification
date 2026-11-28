@@ -1,0 +1,74 @@
+{
+  "solutionId": "JAVA_H_P000799",
+  "problemId": "P000799",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000799",
+    "title": "2D Prefix Sum Matrix",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an N \u00d7 M integer matrix, construct its 2D prefix sum matrix. Each cell (i, j) in the prefix matrix should store the sum of all elements in the rectangle from (0,0) to (i,j).",
+    "input": "Integer N Integer M Matrix grid",
+    "output": "The 2D prefix sum matrix.",
+    "constraints": "1 <= N, M <= 1000"
+  },
+  "repository": {
+    "name": "bhargavtumati/dsa-heycoach",
+    "owner": "bhargavtumati",
+    "url": "https://github.com/bhargavtumati/dsa-heycoach",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "java/human/P000501_P001000/JAVA_H_P000799.java",
+    "fileSHA": "1c807dd8d9ee8285df964cf7ca6c84a920ea22c3",
+    "url": "https://github.com/bhargavtumati/dsa-heycoach/blob/102446a6467a8cf585dfb3819d5bc25c4c787e92/matrixBlockSum.java",
+    "rawUrl": "https://raw.githubusercontent.com/bhargavtumati/dsa-heycoach/main/matrixBlockSum.java"
+  },
+  "matching": {
+    "relevanceScore": 76.06
+  },
+  "provenance": {
+    "score": 64.5,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2024-05-12T16:49:42Z",
+    "lastCommitDate": "2026-07-20T09:09:36Z",
+    "commitCount": 3,
+    "authorCount": 1,
+    "authors": [
+      "Bhargav Tumati"
+    ],
+    "firstKnownAuthor": "Bhargav Tumati",
+    "latestKnownAuthor": "Bhargav Tumati"
+  },
+  "deduplication": {
+    "rawCodeHash": "32829cd9fd197543a9c2ab3c005798ee9285df9f0872909f5104322ed91b7a96",
+    "normalizedCodeHash": "32829cd9fd197543a9c2ab3c005798ee9285df9f0872909f5104322ed91b7a96",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T05:00:35.269489+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

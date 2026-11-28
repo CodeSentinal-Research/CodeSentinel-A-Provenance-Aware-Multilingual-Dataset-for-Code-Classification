@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P000510",
+  "problemId": "P000510",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000510",
+    "title": "Final Prices With a Special Discount in a Shop",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an array where prices[i] is the price of the i-th item. For each item, find the first item to its right whose price is less than or equal to the current item's price. Use that value as a discount. If no such item exists, no discount is applied. Return the final price of every item after applying the discount.",
+    "input": "Integer n Array prices",
+    "output": "An array representing the final prices.",
+    "constraints": "1 <= n <= 500 1 <= prices[i] <= 1000"
+  },
+  "repository": {
+    "name": "JoshCrozier/leetcode-javascript",
+    "owner": "JoshCrozier",
+    "url": "https://github.com/JoshCrozier/leetcode-javascript",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P000501_P001000/JS_H_P000510.js",
+    "fileSHA": "02d9aed0daf15a0dc514b7e425a64a5d39995add",
+    "url": "https://github.com/JoshCrozier/leetcode-javascript/blob/399017ccbed8f4c7c1b10cb173336f670c8c25e1/solutions/1475-final-prices-with-a-special-discount-in-a-shop.js",
+    "rawUrl": "https://raw.githubusercontent.com/JoshCrozier/leetcode-javascript/main/solutions/1475-final-prices-with-a-special-discount-in-a-shop.js"
+  },
+  "matching": {
+    "relevanceScore": 67.72
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2021-12-02T00:56:41Z",
+    "lastCommitDate": "2021-12-02T00:56:41Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Josh Crozier"
+    ],
+    "firstKnownAuthor": "Josh Crozier",
+    "latestKnownAuthor": "Josh Crozier"
+  },
+  "deduplication": {
+    "rawCodeHash": "4ab6e5a8d78980ced4752830e986b1d4557e1760597ef20aec83ae953fee0709",
+    "normalizedCodeHash": "4ab6e5a8d78980ced4752830e986b1d4557e1760597ef20aec83ae953fee0709",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:04:59.908067+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

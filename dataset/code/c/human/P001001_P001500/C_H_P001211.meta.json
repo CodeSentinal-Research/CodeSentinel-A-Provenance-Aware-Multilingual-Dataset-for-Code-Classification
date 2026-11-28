@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001211",
+  "problemId": "P001211",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001211",
+    "title": "Partition to K Equal Sum Subsets",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of positive integers and an integer K, determine whether the array can be partitioned into exactly K non-empty subsets having equal sums.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print YES if such a partition exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 16 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "TheAlgorithms/C",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/C",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "sorting/partition_sort.c",
+    "fileSHA": "fc7a3430cbf7185b9faad105d9eb669442362b9c",
+    "url": "https://github.com/TheAlgorithms/C/blob/master/sorting/partition_sort.c",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/C/master/sorting/partition_sort.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f237d23c3bd4d59578892330add9f63a81964f2797735e7236adf2384839838b",
+    "normalizedCodeHash": "f237d23c3bd4d59578892330add9f63a81964f2797735e7236adf2384839838b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:15.292615+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);String s=sc.next(),c=sc.next();int n=s.length();int[]res=new int[n];int prev=-n;for(int i=0;i<n;i++){if(s.charAt(i)==c.charAt(0))prev=i;res[i]=i-prev;}prev=2*n;for(int i=n-1;i>=0;i--){if(s.charAt(i)==c.charAt(0))prev=i;res[i]=Math.min(res[i],prev-i);}StringJoiner sj=new StringJoiner(" ");for(int v:res)sj.add(String.valueOf(v));System.out.println(sj);}}

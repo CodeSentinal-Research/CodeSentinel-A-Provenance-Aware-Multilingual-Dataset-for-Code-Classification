@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000719",
+  "problemId": "P000719",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000719",
+    "title": "Restore IP Addresses",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string containing only digits, restore all possible valid IPv4 addresses by inserting three dots into the string. Each segment must be between 0 and 255 and cannot contain leading zeros unless the segment itself is 0. Return all valid IP addresses in lexicographical order.",
+    "input": "String s",
+    "output": "All valid IPv4 addresses.",
+    "constraints": "1 <= |s| <= 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000719.py",
+    "fileSHA": "490efb0a870c02706e0f407bdfa6bfd328ddc6df66555a98cf44acde0d120e2f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.788556+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "490efb0a870c02706e0f407bdfa6bfd328ddc6df66555a98cf44acde0d120e2f",
+    "normalizedCodeHash": "ca11b25aa7aed5b349d94354e567a635a0121eba4786370e0a3b63bccf06ff25",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.788556+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

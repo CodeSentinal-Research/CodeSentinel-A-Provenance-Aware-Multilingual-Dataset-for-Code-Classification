@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001281",
+  "problemId": "P001281",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001281",
+    "title": "Remove K Digits",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given a non-negative integer represented as a string and an integer K, remove exactly K digits so that the resulting number is the smallest possible.",
+    "input": "\u2022 First line contains a numeric string. \u2022 Second line contains integer K.",
+    "output": "Print the smallest possible number after removing K digits.",
+    "constraints": "\u2022 1 \u2264 Length \u2264 2\u00d710^5 \u2022 0 \u2264 K \u2264 Length"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001281",
+    "fileSHA": "11fb54bd57967cd2bdf388a4ddcdc7bfad57ae4ae8a1d5c88e17b0425c627ecf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:19:58.733392+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "11fb54bd57967cd2bdf388a4ddcdc7bfad57ae4ae8a1d5c88e17b0425c627ecf",
+    "normalizedCodeHash": "11fb54bd57967cd2bdf388a4ddcdc7bfad57ae4ae8a1d5c88e17b0425c627ecf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:19:58.733426+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

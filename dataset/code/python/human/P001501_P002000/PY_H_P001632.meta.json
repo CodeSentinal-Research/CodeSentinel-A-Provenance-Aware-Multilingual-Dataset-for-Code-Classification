@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001632",
+  "problemId": "P001632",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001632",
+    "title": "Largest Square With Sum Not Exceeding K",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 M matrix of integers and an integer K, determine the side length of the largest square submatrix whose sum does not exceed K.",
+    "input": "\u2022 First line contains N, M, and K. \u2022 Next N lines each contain M integers.",
+    "output": "\u2022 Print the maximum possible side length.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 1000 \u2022 -10^4 \u2264 Aij \u2264 10^4"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/largest-magic-square.py",
+    "fileSHA": "a76c7f250be95bf9ecbe084b603b55590b391814",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/largest-magic-square.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/largest-magic-square.py"
+  },
+  "matching": {
+    "relevanceScore": 67.08
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ecb83981eef0f354b380402a5e9697da420a038ca8c5e75dcf55ab15758a491b",
+    "normalizedCodeHash": "ecb83981eef0f354b380402a5e9697da420a038ca8c5e75dcf55ab15758a491b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:16:54.036859+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

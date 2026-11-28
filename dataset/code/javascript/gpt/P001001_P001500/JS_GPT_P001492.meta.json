@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001492",
+  "problemId": "P001492",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001492",
+    "title": "Find K Closest Elements",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a sorted array, an integer K, and a value X, find the K closest elements to X. If there is a tie, prefer the smaller element.",
+    "input": "• First line contains integers N, K, and X. • Second line contains N sorted integers.",
+    "output": "Print the K closest elements in ascending order.",
+    "constraints": "• 1 ≤ K ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001492.js",
+    "fileSHA": "e40b8ed183c0422c9a99e5bcbbe89427663bf8bf746c514ac3acb62f06749383",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e40b8ed183c0422c9a99e5bcbbe89427663bf8bf746c514ac3acb62f06749383",
+    "normalizedCodeHash": "e40b8ed183c0422c9a99e5bcbbe89427663bf8bf746c514ac3acb62f06749383",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001250",
+  "problemId": "P001250",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001250",
+    "title": "Split Array into Consecutive Subsequences",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given a sorted integer array, determine whether it can be partitioned into one or more consecutive subsequences, each having a length of at least three.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N sorted integers.",
+    "output": "Print YES if such a partition is possible; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/0128-longest-consecutive-sequence.c",
+    "fileSHA": "a750ba4b5276c665d56f7e83b1ed9e560ec6058c",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/c/0128-longest-consecutive-sequence.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/0128-longest-consecutive-sequence.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a0d33c20d93f53b4e76b27a1204119e8afe4f9069adcb7bb97718f77cb766a37",
+    "normalizedCodeHash": "a0d33c20d93f53b4e76b27a1204119e8afe4f9069adcb7bb97718f77cb766a37",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:06.167487+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

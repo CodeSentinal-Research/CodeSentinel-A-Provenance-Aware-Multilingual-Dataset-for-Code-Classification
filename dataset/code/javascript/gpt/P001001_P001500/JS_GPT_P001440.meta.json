@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001440",
+  "problemId": "P001440",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001440",
+    "title": "Longest Word Through Deleting",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string and a dictionary of words, determine the longest dictionary word that can be obtained by deleting some characters from the string. If multiple answers exist, return the lexicographically smallest one.",
+    "input": "• First line contains the source string. • Second line contains integer N. • Next N lines contain dictionary words.",
+    "output": "Print the required word or an empty string if none exists.",
+    "constraints": "• 1 ≤ Length of source string ≤ 2×10^5 • 1 ≤ N ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001440.js",
+    "fileSHA": "9be65010a5c3b7fa1feb715db26dccf60cd616687c8856bbdc20cff4f42e9893",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9be65010a5c3b7fa1feb715db26dccf60cd616687c8856bbdc20cff4f42e9893",
+    "normalizedCodeHash": "9be65010a5c3b7fa1feb715db26dccf60cd616687c8856bbdc20cff4f42e9893",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000736",
+  "problemId": "P000736",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000736",
+    "title": "K-th Symbol in Grammar",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "The first row contains a single symbol 0. Each 0 generates 01, and each 1 generates 10 in the next row. Given integers N and K, return the K-th symbol in the N-th row.",
+    "input": "Integer N Integer K",
+    "output": "The K-th symbol.",
+    "constraints": "1 <= N <= 30 1 <= K <= 2^(N-1)"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "java/gemini/JAVA_GEMINI_P000736",
+    "fileSHA": "bae4cc750507f429d3766dc8564fbf1bf61a4a3d69b07ee9dded38dd4921567d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T17:08:23.879832+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "bae4cc750507f429d3766dc8564fbf1bf61a4a3d69b07ee9dded38dd4921567d",
+    "normalizedCodeHash": "bae4cc750507f429d3766dc8564fbf1bf61a4a3d69b07ee9dded38dd4921567d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T17:08:23.879855+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

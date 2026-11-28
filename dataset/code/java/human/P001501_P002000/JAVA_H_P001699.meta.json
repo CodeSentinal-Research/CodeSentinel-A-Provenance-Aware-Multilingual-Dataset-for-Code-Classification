@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001699",
+  "problemId": "P001699",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001699",
+    "title": "Even-Odd Tree Validation",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, determine whether it satisfies the Even-Odd Tree property. Nodes at even-indexed levels must contain strictly increasing odd values, while nodes at odd-indexed levels must contain strictly decreasing even values.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print YES if the tree satisfies the property; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "ItsAniketSingh/Tree",
+    "owner": "ItsAniketSingh",
+    "url": "https://github.com/ItsAniketSingh/Tree",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "EvenOddTree.java",
+    "fileSHA": "b9c28459e4c6cea113a89b7f678fedc15c31767d",
+    "url": "https://github.com/ItsAniketSingh/Tree/blob/9e1eed6fd3150f5ffa447b559902193ed604b478/EvenOddTree.java",
+    "rawUrl": "https://raw.githubusercontent.com/ItsAniketSingh/Tree/main/EvenOddTree.java"
+  },
+  "matching": {
+    "relevanceScore": 68.94
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "30cbadb502286b4a4df91ac3e0ba61c65a8b7f87ebfb1c49ae105a02bf05e6c8",
+    "normalizedCodeHash": "30cbadb502286b4a4df91ac3e0ba61c65a8b7f87ebfb1c49ae105a02bf05e6c8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:25:08.072150+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

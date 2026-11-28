@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001564",
+  "problemId": "P001564",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001564",
+    "title": "Sliding Window Median",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and a window size K, compute the median of every contiguous subarray of size K. For an even-sized window, the median is defined as the average of the two middle values after sorting.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the median of every window in order.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K \u2264 N \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "Annahcj/javascript-algorithms-and-data-structures",
+    "owner": "Annahcj",
+    "url": "https://github.com/Annahcj/javascript-algorithms-and-data-structures",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Heap/480.sliding-window-median.js",
+    "fileSHA": "521d70924dc08f6e6c86fc1e7a80ec8db3bb0d3a",
+    "url": "https://github.com/Annahcj/javascript-algorithms-and-data-structures/blob/c55b896d4296ae80d7d448fe3a571644d71e919c/Heap/480.sliding-window-median.js",
+    "rawUrl": "https://raw.githubusercontent.com/Annahcj/javascript-algorithms-and-data-structures/main/Heap/480.sliding-window-median.js"
+  },
+  "matching": {
+    "relevanceScore": 88.24
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b17e6237c421d883c7e5204cf9a73e3330466e78743d76aef800a51619828e59",
+    "normalizedCodeHash": "b17e6237c421d883c7e5204cf9a73e3330466e78743d76aef800a51619828e59",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:50:07.663481+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

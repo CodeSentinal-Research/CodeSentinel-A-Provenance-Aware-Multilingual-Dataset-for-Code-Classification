@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001549",
+  "problemId": "P001549",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001549",
+    "title": "Count Windows With All Positive Numbers",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and a window size K, count the number of contiguous subarrays of size K in which every element is positive.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the count.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "llvm/llvm-project",
+    "owner": "llvm",
+    "url": "https://github.com/llvm/llvm-project",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "llvm/utils/lit/lit/run.py",
+    "fileSHA": "fdf974d7e4f0565d2c12c513ef6b0c1f54916e0f",
+    "url": "https://github.com/llvm/llvm-project/blob/9bda6c459a0b2839c732d56f256e259ab2407c03/llvm/utils/lit/lit/run.py",
+    "rawUrl": "https://raw.githubusercontent.com/llvm/llvm-project/main/llvm/utils/lit/lit/run.py"
+  },
+  "matching": {
+    "relevanceScore": 92.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d81df232957a6affc82fca320f35f77c741094876294d7b446e68dc43bf7123e",
+    "normalizedCodeHash": "d81df232957a6affc82fca320f35f77c741094876294d7b446e68dc43bf7123e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T06:16:39.645116+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_CLAUDE_P001840",
+  "problemId": "P001840",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001840",
+    "title": "Serialize and Deserialize a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Design algorithms to serialize a Binary Search Tree into a compact representation and reconstruct the identical BST from that representation without storing null markers.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST.",
+    "output": "• Print the serialized representation followed by the reconstructed BST.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P001840",
+    "fileSHA": "86e9cf0277db1f1390ed19c57f19bfad6639bb46511e08130f4c0e58d0ac9516",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "93b820af5b65bb44f938073b4c010cbb702adca40aabc77b2ba9d364eac78a0e",
+    "normalizedCodeHash": "86e9cf0277db1f1390ed19c57f19bfad6639bb46511e08130f4c0e58d0ac9516",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

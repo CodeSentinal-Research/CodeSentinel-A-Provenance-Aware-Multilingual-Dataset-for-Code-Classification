@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001740",
+  "problemId": "P001740",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001740",
+    "title": "Iteratively Remove Leaves Until the Tree Becomes Empty",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, repeatedly remove all leaf nodes in rounds until the tree becomes empty. Report the nodes removed during each round.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the nodes removed in each round.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001740",
+    "fileSHA": "f1b7a9e13babfad51837335fbf8f8be4c48e49c92d4c64edccfdb6bd776b4940",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:37:30.114234+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f1b7a9e13babfad51837335fbf8f8be4c48e49c92d4c64edccfdb6bd776b4940",
+    "normalizedCodeHash": "f1b7a9e13babfad51837335fbf8f8be4c48e49c92d4c64edccfdb6bd776b4940",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:37:30.114255+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000533",
+  "problemId": "P000533",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000533",
+    "title": "Moving Average from Data Stream",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Design a data structure that calculates the moving average of the last size values from a stream of integers. For each incoming value, return the average of the most recent size elements currently in the window.",
+    "input": "Integer size Integer q Next q integers representing the stream.",
+    "output": "For each inserted value, print the current moving average.",
+    "constraints": "1 <= size <= 10^5 1 <= q <= 10^5"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/moving-average-from-data-stream.py",
+    "fileSHA": "a563d86590f6e083d23190ab95479efaa6288199",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/moving-average-from-data-stream.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/moving-average-from-data-stream.py"
+  },
+  "matching": {
+    "relevanceScore": 65.94
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1618c3c6ab43390af359a7cd29a9ca70d3c518d544ff6f1d346d4695922617b9",
+    "normalizedCodeHash": "1618c3c6ab43390af359a7cd29a9ca70d3c518d544ff6f1d346d4695922617b9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:10:19.825178+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

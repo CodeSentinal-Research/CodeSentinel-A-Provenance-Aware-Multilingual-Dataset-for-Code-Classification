@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001566",
+  "problemId": "P001566",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001566",
+    "title": "Sliding Window Minimum",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and a window size K, determine the minimum element in every contiguous subarray of size K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the minimum element for every window.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K \u2264 N \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "ghostmkg/dsa-code",
+    "owner": "ghostmkg",
+    "url": "https://github.com/ghostmkg/dsa-code",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "java/MinimumWindowSubstring.java",
+    "fileSHA": "04f86c0141a9d541da0707c218dc8067f50a3a4d",
+    "url": "https://github.com/ghostmkg/dsa-code/blob/6e6f6da6ba53eb1e59116394051c8d4f0ed47ef0/java/MinimumWindowSubstring.java",
+    "rawUrl": "https://raw.githubusercontent.com/ghostmkg/dsa-code/main/java/MinimumWindowSubstring.java"
+  },
+  "matching": {
+    "relevanceScore": 84.1
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "de76b56377dbac606dada203a52ff61c389b52e60a0950900c962ffdcd58321a",
+    "normalizedCodeHash": "de76b56377dbac606dada203a52ff61c389b52e60a0950900c962ffdcd58321a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:01:02.757325+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

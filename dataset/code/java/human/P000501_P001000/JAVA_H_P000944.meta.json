@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000944",
+  "problemId": "P000944",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000944",
+    "title": "Divisor Game",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Easy",
+    "problemStatement": "Starting with an integer N, players alternate choosing a divisor x such that 0 < x < N and N % x == 0, then replacing N with N - x. The player unable to make a move loses. Determine whether the first player wins.",
+    "input": "Integer N",
+    "output": "Print true if the first player wins; otherwise, print false.",
+    "constraints": "1 <= N <= 1000"
+  },
+  "repository": {
+    "name": "gaureshpai/dump",
+    "owner": "gaureshpai",
+    "url": "https://github.com/gaureshpai/dump",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "leetcode/1025-DivisorGame.java",
+    "fileSHA": "94bef02a19b0b80a90d868a082569e6b385d533c",
+    "url": "https://github.com/gaureshpai/dump/blob/aacd94d8542e74b3f83853aa594a0ab40bcee9bd/leetcode/1025-DivisorGame.java",
+    "rawUrl": "https://raw.githubusercontent.com/gaureshpai/dump/main/leetcode/1025-DivisorGame.java"
+  },
+  "matching": {
+    "relevanceScore": 90.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6cf35146adebe50599fc24f54c38d12063ac9db4cec17d6dcd6a967e842e5065",
+    "normalizedCodeHash": "6cf35146adebe50599fc24f54c38d12063ac9db4cec17d6dcd6a967e842e5065",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T16:16:43.386819+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

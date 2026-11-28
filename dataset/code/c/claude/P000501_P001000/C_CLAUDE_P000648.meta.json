@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000648",
+  "problemId": "P000648",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000648",
+    "title": "Design Undo Redo Editor",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a text editor that supports the following operations: type(text) — Append text to the document. undo() — Undo the most recent typing operation. redo() — Reapply the most recently undone operation. print() — Print the current document. Implement the editor efficiently using a linked-list-based history mechanism. Process all operations and print the document for every print() operation.",
+    "input": "Integer q Next q operations.",
+    "output": "Print the current document after every print() operation.",
+    "constraints": "1 <= q <= 2 × 10^5 Total length of all inserted text does not exceed 10^6"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000648",
+    "fileSHA": "a9575af2476b470de13b67bba12fb43dbce78f0b7eb87a55d556accdd8e1590a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a9575af2476b470de13b67bba12fb43dbce78f0b7eb87a55d556accdd8e1590a",
+    "normalizedCodeHash": "a9575af2476b470de13b67bba12fb43dbce78f0b7eb87a55d556accdd8e1590a",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000648"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

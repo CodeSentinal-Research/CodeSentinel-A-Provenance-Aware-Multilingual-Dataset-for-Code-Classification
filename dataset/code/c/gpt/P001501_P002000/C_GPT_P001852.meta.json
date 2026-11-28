@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001852",
+  "problemId": "P001852",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001852",
+    "title": "Count All Valid Insertion Sequences for a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a Binary Search Tree with distinct keys, determine the total number of distinct insertion sequences that reconstruct exactly the same Binary Search Tree.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST.",
+    "output": "• Print the number of valid insertion sequences.",
+    "constraints": "• 0 ≤ N ≤ 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001852.c",
+    "fileSHA": "98a694e0c8ad78b1edb58709ac2aa5898aa07d1be7197ae622094d3046a3e031",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:36.162Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "47e6049dc73b97320350d078ec5a2dfa432537dc34e95f15e7478ddd6b7a16d4",
+    "normalizedCodeHash": "98a694e0c8ad78b1edb58709ac2aa5898aa07d1be7197ae622094d3046a3e031",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:36.162Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

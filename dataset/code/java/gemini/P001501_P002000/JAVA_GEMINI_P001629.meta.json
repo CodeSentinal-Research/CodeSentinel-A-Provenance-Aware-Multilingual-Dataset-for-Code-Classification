@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001629",
+  "problemId": "P001629",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001629",
+    "title": "Longest Prefix With Negative Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers, determine the length of the longest prefix whose sum is strictly less than zero.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the required length. If no such prefix exists, print 0.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001629",
+    "fileSHA": "48351ef1aeb168f299db20ab395e2282f77f00f47f78271ef4b16c7cc51ffecf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:57.812115+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "48351ef1aeb168f299db20ab395e2282f77f00f47f78271ef4b16c7cc51ffecf",
+    "normalizedCodeHash": "48351ef1aeb168f299db20ab395e2282f77f00f47f78271ef4b16c7cc51ffecf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:57.812139+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

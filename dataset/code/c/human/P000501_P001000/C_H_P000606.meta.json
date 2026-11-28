@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000606",
+  "problemId": "P000606",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000606",
+    "title": "LRU Cache",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design and implement an LRU (Least Recently Used) cache that supports the following operations in O(1) average time: get(key) put(key, value) If the cache reaches its capacity, evict the least recently used item before inserting a new one. Process a sequence of operations and print the result of every get() operation.",
+    "input": "Integer capacity Integer q Next q operations",
+    "output": "Print the result of every get() operation.",
+    "constraints": "1 <= capacity <= 3000 1 <= q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "arunimabarik75/FrequentlyContacted",
+    "owner": "arunimabarik75",
+    "url": "https://github.com/arunimabarik75/FrequentlyContacted",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "LRU Cache.c",
+    "fileSHA": "a8125d75361fbea5473d511a41a1031edee38993",
+    "url": "https://github.com/arunimabarik75/FrequentlyContacted/blob/bc3cb5e1a3bb65a112a5c4cd597683eec50248d2/LRU Cache.c",
+    "rawUrl": "https://raw.githubusercontent.com/arunimabarik75/FrequentlyContacted/main/LRU Cache.c"
+  },
+  "matching": {
+    "relevanceScore": 83.82
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9b860fc2d09db7085cfa5134464cb9ae27b14e36cbcc12d6858d44923957dcf0",
+    "normalizedCodeHash": "9b860fc2d09db7085cfa5134464cb9ae27b14e36cbcc12d6858d44923957dcf0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:24:47.652014+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

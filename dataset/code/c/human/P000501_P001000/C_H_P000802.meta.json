@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000802",
+  "problemId": "P000802",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000802",
+    "title": "Maximum Side Length of a Square with Sum at Most Threshold",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N \u00d7 M matrix of non-negative integers and an integer threshold, determine the maximum side length of a square whose sum of elements is at most threshold.",
+    "input": "Integer N Integer M Matrix grid Integer threshold",
+    "output": "The maximum possible side length.",
+    "constraints": "1 <= N, M <= 300 0 <= grid[i][j] <= 10^4"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/2100-2199/2114.Maximum Number of Words Found in Sentences/Solution.c",
+    "fileSHA": "64341dca91c2847db9b56d4114dcfa56e6deb7fd",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/2100-2199/2114.Maximum Number of Words Found in Sentences/Solution.c",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/2100-2199/2114.Maximum Number of Words Found in Sentences/Solution.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d298da501504d05f3abeeaa30f23eea8d9ab57742eae91f2a7b1c8cce34b3e40",
+    "normalizedCodeHash": "d298da501504d05f3abeeaa30f23eea8d9ab57742eae91f2a7b1c8cce34b3e40",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:26.816991+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

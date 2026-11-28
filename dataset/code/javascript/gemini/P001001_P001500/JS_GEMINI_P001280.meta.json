@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001280",
+  "problemId": "P001280",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001280",
+    "title": "Patch Array",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given a sorted array of positive integers and an integer N, determine the minimum number of additional numbers that must be inserted so that every number in the range [1, N] can be formed as the sum of some subset of the array.",
+    "input": "\u2022 First line contains integers M and N. \u2022 Second line contains M sorted positive integers.",
+    "output": "Print the minimum number of inserted elements.",
+    "constraints": "\u2022 1 \u2264 M \u2264 10^5 \u2022 1 \u2264 N \u2264 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001280",
+    "fileSHA": "552aea477b95b84409b2b45629389a3ebefd470f431e4e96576c923ed7d2a0b7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:19:58.682415+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "552aea477b95b84409b2b45629389a3ebefd470f431e4e96576c923ed7d2a0b7",
+    "normalizedCodeHash": "552aea477b95b84409b2b45629389a3ebefd470f431e4e96576c923ed7d2a0b7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:19:58.682443+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

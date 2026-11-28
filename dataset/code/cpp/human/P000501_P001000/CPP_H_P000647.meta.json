@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000647",
+  "problemId": "P000647",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000647",
+    "title": "Dynamic Music Playlist Manager",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a music playlist manager using a doubly linked list. The playlist supports the following operations: addSong(title) removeSong(title) playNext() playPrevious() moveSong(title, position) currentSong() Initially, the playlist is empty. Process a sequence of operations and print the result for every playNext(), playPrevious(), and currentSong() operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for every query operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5 Song titles contain printable ASCII characters."
+  },
+  "repository": {
+    "name": "MishraShardendu22/Spotify-LLD",
+    "owner": "MishraShardendu22",
+    "url": "https://github.com/MishraShardendu22/Spotify-LLD",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "main.cpp",
+    "fileSHA": "73f4f2146b8268690fdec7f624ade0bc958965e0",
+    "url": "https://github.com/MishraShardendu22/Spotify-LLD/blob/5d116c1a6331a30c63edf460b6b918336d6b455a/main.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/MishraShardendu22/Spotify-LLD/main/main.cpp"
+  },
+  "matching": {
+    "relevanceScore": 81.7
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5b4576368e7f5ca204372a43accf9c1395492d96ade5d951208832a6eecae39e",
+    "normalizedCodeHash": "5b4576368e7f5ca204372a43accf9c1395492d96ade5d951208832a6eecae39e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T02:06:24.303338+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

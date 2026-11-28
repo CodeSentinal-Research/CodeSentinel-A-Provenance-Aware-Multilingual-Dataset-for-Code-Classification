@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000778",
+  "problemId": "P000778",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000778",
+    "title": "Tug of War Partition",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of N integers, divide it into two subsets such that: The sizes of the two subsets differ by at most one. The absolute difference between the sums of the two subsets is minimized. Return the minimum possible absolute difference and one corresponding partition.",
+    "input": "Integer N Array nums",
+    "output": "The minimum absolute difference. One optimal partition of the array.",
+    "constraints": "1 <= N <= 30 -10^6 <= nums[i] <= 10^6"
+  },
+  "repository": {
+    "name": "saikomalgkvs/-CrackYourInternship",
+    "owner": "saikomalgkvs",
+    "url": "https://github.com/saikomalgkvs/-CrackYourInternship",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Backtracking/TugOfWar.java",
+    "fileSHA": "9dbfbe1ae873fdeb8ec3c40840b33bd5d4e349d1",
+    "url": "https://github.com/saikomalgkvs/-CrackYourInternship/blob/befb0db1719f17781d9ec5ba35799fa06ef7589e/Backtracking/TugOfWar.java",
+    "rawUrl": "https://raw.githubusercontent.com/saikomalgkvs/-CrackYourInternship/main/Backtracking/TugOfWar.java"
+  },
+  "matching": {
+    "relevanceScore": 83.1
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "bfeb2c0ee521f6a74c468d0a40004d38a38903fd3ff2962ce1e2bad285af9d27",
+    "normalizedCodeHash": "bfeb2c0ee521f6a74c468d0a40004d38a38903fd3ff2962ce1e2bad285af9d27",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T19:18:48.655861+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

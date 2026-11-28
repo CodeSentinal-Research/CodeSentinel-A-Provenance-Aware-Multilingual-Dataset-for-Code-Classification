@@ -1,0 +1,5 @@
+public class Solution {
+    public double celsiusToFahrenheit(double c) {
+        return (c * 9.0 / 5.0) + 32.0;
+    }
+}

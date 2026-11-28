@@ -1,0 +1,3 @@
+#include<stdio.h>
+#include<string.h>
+int main(){char s1[10001],s2[10001];scanf("%s %s",s1,s2);int m=strlen(s1),n=strlen(s2);if(m>n){printf("No\n");return 0;}int need[26]={},win[26]={};for(int i=0;i<m;i++){need[s1[i]-'a']++;win[s2[i]-'a']++;}int matched=0;for(int i=0;i<26;i++)if(win[i]==need[i])matched++;if(matched==26){printf("Yes\n");return 0;}for(int i=m;i<n;i++){int in=s2[i]-'a',out=s2[i-m]-'a';if(win[in]==need[in])matched--;win[in]++;if(win[in]==need[in])matched++;if(win[out]==need[out])matched--;win[out]--;if(win[out]==need[out])matched++;if(matched==26){printf("Yes\n");return 0;}}printf("No\n");}

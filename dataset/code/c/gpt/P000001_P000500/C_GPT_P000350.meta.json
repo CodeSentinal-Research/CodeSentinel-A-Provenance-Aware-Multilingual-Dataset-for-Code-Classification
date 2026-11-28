@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000350",
+  "problemId": "P000350",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000350",
+    "title": "Remove All Adjacent Duplicates in String II",
+    "category": "Strings",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that removes K adjacent duplicate characters from a string repeatedly until no more removals are possible.",
+    "input": "A string S and an integer K.",
+    "output": "The final string after removals.",
+    "constraints": "1 ≤ |S| ≤ 1000, 2 ≤ K ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000350.c",
+    "fileSHA": "a21a2e678e2b68ab587138e8288f621d4963e7e2ce1047a9a6ee01ce8b82c98a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a21a2e678e2b68ab587138e8288f621d4963e7e2ce1047a9a6ee01ce8b82c98a",
+    "normalizedCodeHash": "a21a2e678e2b68ab587138e8288f621d4963e7e2ce1047a9a6ee01ce8b82c98a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

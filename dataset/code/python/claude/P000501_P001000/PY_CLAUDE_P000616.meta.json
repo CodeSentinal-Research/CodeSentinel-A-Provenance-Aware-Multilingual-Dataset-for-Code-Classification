@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000616",
+  "problemId": "P000616",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000616",
+    "title": "Reverse Nodes in Even Positions",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list, remove all nodes at even positions, reverse their order, and merge them back into the original list by placing them again at the even positions. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 -10^9 <= node.value <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000616",
+    "fileSHA": "c7936aaa1308714afc1b170874e078d23d0890ec8b8a645a1774a72bc2da42ef",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c7936aaa1308714afc1b170874e078d23d0890ec8b8a645a1774a72bc2da42ef",
+    "normalizedCodeHash": "c7936aaa1308714afc1b170874e078d23d0890ec8b8a645a1774a72bc2da42ef",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000616: Reverse Nodes in Even Positions"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

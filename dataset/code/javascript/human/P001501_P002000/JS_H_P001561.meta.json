@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P001561",
+  "problemId": "P001561",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001561",
+    "title": "Substring With Concatenation of All Words",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a string S and an array of words, where every word has the same length. Find all starting indices of substrings in S that are formed by concatenating every word exactly once and without any intervening characters. The words may appear in any order.",
+    "input": "\u2022 First line contains string S. \u2022 Second line contains integer M. \u2022 Third line contains M space-separated words.",
+    "output": "\u2022 Print all valid starting indices in increasing order. If none exist, print -1.",
+    "constraints": "\u2022 1 \u2264 |S| \u2264 2 \u00d7 10^5 \u2022 1 \u2264 M \u2264 5000 \u2022 All words have equal length."
+  },
+  "repository": {
+    "name": "zhufuge/leetcode-js",
+    "owner": "zhufuge",
+    "url": "https://github.com/zhufuge/leetcode-js",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P001501_P002000/JS_H_P001561.js",
+    "fileSHA": "1a3211a86e6a75f5a1199419a1ac1338dbf9549c",
+    "url": "https://github.com/zhufuge/leetcode-js/blob/dc286c433edf6ce607d0f8a46046384ad72400de/problems/0030-substring-with-concatenation-of-all-words.js",
+    "rawUrl": "https://raw.githubusercontent.com/zhufuge/leetcode-js/main/problems/0030-substring-with-concatenation-of-all-words.js"
+  },
+  "matching": {
+    "relevanceScore": 76.33
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2020-01-15T06:26:59Z",
+    "lastCommitDate": "2020-01-15T06:26:59Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "zhufuge"
+    ],
+    "firstKnownAuthor": "zhufuge",
+    "latestKnownAuthor": "zhufuge"
+  },
+  "deduplication": {
+    "rawCodeHash": "72c5986f4c46bae58d32afb1813e9bb3cb2300346c9b284d159168164ffcb4f5",
+    "normalizedCodeHash": "72c5986f4c46bae58d32afb1813e9bb3cb2300346c9b284d159168164ffcb4f5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T11:00:58.131449+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

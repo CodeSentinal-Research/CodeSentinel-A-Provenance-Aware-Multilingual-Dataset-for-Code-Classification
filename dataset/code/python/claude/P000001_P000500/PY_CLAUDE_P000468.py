@@ -1,0 +1,6 @@
+
+m,n,k=map(int,input().split())
+a=list(map(int,input().split()))
+b=list(map(int,input().split()))
+merged=sorted(a+b)
+print(merged[k-1])

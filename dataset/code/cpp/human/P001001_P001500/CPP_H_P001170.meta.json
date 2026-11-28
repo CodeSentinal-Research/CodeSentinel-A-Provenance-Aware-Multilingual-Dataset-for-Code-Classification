@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001170",
+  "problemId": "P001170",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001170",
+    "title": "Cherry Pickup",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 N grid containing cherries, empty cells, and blocked cells, determine the maximum number of cherries that can be collected by traveling from the top-left corner to the bottom-right corner and then returning to the starting cell without collecting the same cherry more than once.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain N integers representing the grid.",
+    "output": "Print the maximum number of cherries that can be collected.",
+    "constraints": "\u2022 1 \u2264 N \u2264 200"
+  },
+  "repository": {
+    "name": "srinathdivate123/DSA",
+    "owner": "srinathdivate123",
+    "url": "https://github.com/srinathdivate123/DSA",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "DP/S_13_Cherry_Pickup.cpp",
+    "fileSHA": "8ee251ed7ad9ff6022e79fdff9e2f0126ee38516",
+    "url": "https://github.com/srinathdivate123/DSA/blob/8b61a5283de1d2587f40808ecf1a1e243957b3ad/DP/S_13_Cherry_Pickup.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/srinathdivate123/DSA/main/DP/S_13_Cherry_Pickup.cpp"
+  },
+  "matching": {
+    "relevanceScore": 84.4
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ca6ba8245978d7cc809037c42dda0420d97887825a8b69a460bdc8c4fbb12e1e",
+    "normalizedCodeHash": "ca6ba8245978d7cc809037c42dda0420d97887825a8b69a460bdc8c4fbb12e1e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T08:56:02.667747+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

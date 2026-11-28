@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000945",
+  "problemId": "P000945",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000945",
+    "title": "Predict the Winner",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Medium",
+    "problemStatement": "Two players alternately pick a number from either end of an integer array. Determine whether the first player can guarantee a score greater than or equal to the second player's score.",
+    "input": "Integer N Array nums",
+    "output": "Print true if the first player can win or tie; otherwise, print false.",
+    "constraints": "1 <= N <= 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000945.js",
+    "fileSHA": "f895c59e50484ba75c4cec34e300937291f1fb79a1411cbc5172cc136c8fdc8b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f895c59e50484ba75c4cec34e300937291f1fb79a1411cbc5172cc136c8fdc8b",
+    "normalizedCodeHash": "f895c59e50484ba75c4cec34e300937291f1fb79a1411cbc5172cc136c8fdc8b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001219",
+  "problemId": "P001219",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001219",
+    "title": "Word Break II",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string and a dictionary of valid words, print all possible sentences formed by inserting spaces into the string such that every word belongs to the dictionary.",
+    "input": "\u2022 First line contains the string. \u2022 Second line contains integer N. \u2022 Next N lines each contain one dictionary word.",
+    "output": "Print all valid sentences in lexicographical order.",
+    "constraints": "\u2022 1 \u2264 Length of string \u2264 100 \u2022 1 \u2264 N \u2264 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001219",
+    "fileSHA": "e69c799c8ad9ee01ab36e7723c86ef1d233e63c5a300323e20c7fd0639ef0350",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:16:20.818829+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e69c799c8ad9ee01ab36e7723c86ef1d233e63c5a300323e20c7fd0639ef0350",
+    "normalizedCodeHash": "e69c799c8ad9ee01ab36e7723c86ef1d233e63c5a300323e20c7fd0639ef0350",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:16:20.818852+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

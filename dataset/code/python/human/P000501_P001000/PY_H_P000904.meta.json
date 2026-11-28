@@ -1,0 +1,78 @@
+{
+  "solutionId": "PY_H_P000904",
+  "problemId": "P000904",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000904",
+    "title": "Modular Addition",
+    "category": "Mathematics - Modular Arithmetic",
+    "difficulty": "Easy",
+    "problemStatement": "Given integers A, B, and M, compute (A + B) mod M.",
+    "input": "Integer A Integer B Integer M",
+    "output": "The result of modular addition.",
+    "constraints": "1 <= M <= 10^18 0 <= A, B <= 10^18"
+  },
+  "repository": {
+    "name": "pyca/pynacl",
+    "owner": "pyca",
+    "url": "https://github.com/pyca/pynacl",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000904.py",
+    "fileSHA": "0ff22e34fc05b37cf4b1b667154949b519d72056",
+    "url": "https://github.com/pyca/pynacl/blob/e539eca13a26028b20e70522448d965960f1dfaf/src/nacl/bindings/utils.py",
+    "rawUrl": "https://raw.githubusercontent.com/pyca/pynacl/main/src/nacl/bindings/utils.py"
+  },
+  "matching": {
+    "relevanceScore": 80.0
+  },
+  "provenance": {
+    "score": 86.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2017-01-07T03:50:18Z",
+    "lastCommitDate": "2021-12-06T21:11:05Z",
+    "commitCount": 8,
+    "authorCount": 5,
+    "authors": [
+      "lmctv",
+      "Hugo van Kemenade",
+      "Alex Gaynor",
+      "Benjamin Peterson",
+      "David Robertson"
+    ],
+    "firstKnownAuthor": "lmctv",
+    "latestKnownAuthor": "David Robertson"
+  },
+  "deduplication": {
+    "rawCodeHash": "283c109da75778d31ba840354a6a4dc82568e64f0c89441ad3b40ceba5737d73",
+    "normalizedCodeHash": "283c109da75778d31ba840354a6a4dc82568e64f0c89441ad3b40ceba5737d73",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T05:40:02.509605+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

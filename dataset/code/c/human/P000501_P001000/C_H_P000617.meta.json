@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000617",
+  "problemId": "P000617",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000617",
+    "title": "Design Skip List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a Skip List data structure supporting the following operations with expected logarithmic time complexity: search(target) add(num) erase(num) Process a sequence of operations and print the result of every search() and erase() operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for each search() and erase() operation.",
+    "constraints": "1 <= q <= 5 \u00d7 10^4 0 <= num, target <= 2 \u00d7 10^4"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/data_structures/src/list/skip_list/skip_list.c",
+    "fileSHA": "28d35b379cfbf3f5ca5c88aac40f9bdaaccf2225",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/data_structures/src/list/skip_list/skip_list.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/data_structures/src/list/skip_list/skip_list.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d639fb07c934e0190687aea8f7754aa1455a774c84332941579efd594c17370d",
+    "normalizedCodeHash": "d639fb07c934e0190687aea8f7754aa1455a774c84332941579efd594c17370d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:03.510423+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

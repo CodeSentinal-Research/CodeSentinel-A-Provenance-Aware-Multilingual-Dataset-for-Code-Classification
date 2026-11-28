@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000597",
+  "problemId": "P000597",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000597",
+    "title": "Flatten a Multilevel Doubly Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "A doubly linked list may contain child pointers that point to separate doubly linked lists. Flatten the multilevel structure into a single-level doubly linked list. The child lists should appear immediately after their parent nodes, and all child pointers must become null. Return the head of the flattened list.",
+    "input": "A multilevel doubly linked list.",
+    "output": "The flattened doubly linked list.",
+    "constraints": "Number of nodes is in the range [0, 1000]."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000597.js",
+    "fileSHA": "01c52d6caac14d2408ed72c7c53146d59b618a202250acda93da6376cfe09c95",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "01c52d6caac14d2408ed72c7c53146d59b618a202250acda93da6376cfe09c95",
+    "normalizedCodeHash": "01c52d6caac14d2408ed72c7c53146d59b618a202250acda93da6376cfe09c95",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

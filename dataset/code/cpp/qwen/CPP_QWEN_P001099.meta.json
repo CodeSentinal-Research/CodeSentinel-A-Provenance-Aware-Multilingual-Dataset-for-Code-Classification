@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001099",
+  "problemId": "P001099",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001099",
+    "title": "Detect Cycle Using Union-Find",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given an undirected graph, determine whether it contains a cycle using the Disjoint Set Union (Union-Find) algorithm.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print YES if the graph contains a cycle; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001099",
+    "fileSHA": "35db9a1c4a5120c8b082c4f6fca2a3ab0337a906eb0171d87e9a1a1a22ca20c9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.605Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "624d471ef431dee6b30818daa8d12db0af8ba12331b22292a8c5720af299605d",
+    "normalizedCodeHash": "c356bf3e047baabe229a1b3b21cce15f9ef5e194a281f12ed35904cd521fa2a9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.605Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

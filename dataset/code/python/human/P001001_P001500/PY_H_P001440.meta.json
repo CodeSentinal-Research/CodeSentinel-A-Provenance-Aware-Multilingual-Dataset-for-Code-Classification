@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001440",
+  "problemId": "P001440",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001440",
+    "title": "Longest Word Through Deleting",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string and a dictionary of words, determine the longest dictionary word that can be obtained by deleting some characters from the string. If multiple answers exist, return the lexicographically smallest one.",
+    "input": "\u2022 First line contains the source string. \u2022 Second line contains integer N. \u2022 Next N lines contain dictionary words.",
+    "output": "Print the required word or an empty string if none exists.",
+    "constraints": "\u2022 1 \u2264 Length of source string \u2264 2\u00d710^5 \u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "pedrohcgs/claude-code-my-workflow",
+    "owner": "pedrohcgs",
+    "url": "https://github.com/pedrohcgs/claude-code-my-workflow",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "scripts/check-derived-counts.py",
+    "fileSHA": "b6814746b68c0e101a8a88dcc6fe8308d0745515",
+    "url": "https://github.com/pedrohcgs/claude-code-my-workflow/blob/9d371f0bf8a8bc99569feca3210ef5133af28d33/scripts/check-derived-counts.py",
+    "rawUrl": "https://raw.githubusercontent.com/pedrohcgs/claude-code-my-workflow/main/scripts/check-derived-counts.py"
+  },
+  "matching": {
+    "relevanceScore": 80.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1dba83f4df0e02e74ba1de04595294559010f2331d724c9172df01825735443b",
+    "normalizedCodeHash": "1dba83f4df0e02e74ba1de04595294559010f2331d724c9172df01825735443b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T12:47:30.956484+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

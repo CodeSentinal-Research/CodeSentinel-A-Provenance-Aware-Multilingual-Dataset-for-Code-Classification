@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);int n=sc.nextInt();Deque<Integer>stk=new ArrayDeque<>();while(n-->0){String op=sc.next();if(op.equals("+")){int a2=stk.pop(),a1=stk.pop();stk.push(a1);stk.push(a2);stk.push(a1+a2);}else if(op.equals("D"))stk.push(stk.peek()*2);else if(op.equals("C"))stk.pop();else stk.push(Integer.parseInt(op));}long s=0;for(int v:stk)s+=v;System.out.println(s);}}

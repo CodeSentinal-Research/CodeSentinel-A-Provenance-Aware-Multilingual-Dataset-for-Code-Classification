@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001270",
+  "problemId": "P001270",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001270",
+    "title": "Minimum Operations to Reduce Array to Zero",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of non-negative integers, in one operation you may choose a positive value x and subtract x from every positive element in the array. Determine the minimum number of operations required to make every element zero.",
+    "input": "• First line contains integer N. • Second line contains N non-negative integers.",
+    "output": "Print the minimum number of operations.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001270.py",
+    "fileSHA": "a7a4822302c96354c92630f7f87b534943d9def9b7b72dec80feee7ba59dbd37",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.027399+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a7a4822302c96354c92630f7f87b534943d9def9b7b72dec80feee7ba59dbd37",
+    "normalizedCodeHash": "c5e028e3a58f1b00cfbf359872ca60b587b3d520f35a9871693a71202cbd2c43",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.027399+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

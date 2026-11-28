@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001857",
+  "problemId": "P001857",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001857",
+    "title": "Determine Whether a Sequence Can Represent the Level Order Traversal of a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a sequence of distinct integers, determine whether it can represent the level order traversal of a Binary Search Tree.",
+    "input": "• The first line contains an integer N. • The second line contains the sequence.",
+    "output": "• Print YES if the sequence is valid; otherwise print NO.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001857.c",
+    "fileSHA": "77797fc59681cd422e84017df32d97f432bb6c7f9b9f7221e343fbca50fcf4f1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:36.202Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "8d917432b1db0ff0a7b708d2b262176c6b6d490cacbdeb1ec81d5356c9250595",
+    "normalizedCodeHash": "77797fc59681cd422e84017df32d97f432bb6c7f9b9f7221e343fbca50fcf4f1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:36.202Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

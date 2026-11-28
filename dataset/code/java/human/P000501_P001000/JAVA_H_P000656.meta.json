@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000656",
+  "problemId": "P000656",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000656",
+    "title": "Flatten Linked List with Bottom Pointers",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a linked list where each node contains: next pointer bottom pointer Each bottom list is individually sorted. Flatten the entire structure into a single sorted linked list using only the bottom pointers. Return the head of the flattened list.",
+    "input": "A linked list with next and bottom pointers.",
+    "output": "The head of the flattened sorted linked list.",
+    "constraints": "Total number of nodes is in the range [0, 10^5]"
+  },
+  "repository": {
+    "name": "Abhishek109062/ms_2024",
+    "owner": "Abhishek109062",
+    "url": "https://github.com/Abhishek109062/ms_2024",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "day6_abhi/flatten_linked_list.java",
+    "fileSHA": "6beb8f7bbdd5b895a060933875136b74f6d68b3a",
+    "url": "https://github.com/Abhishek109062/ms_2024/blob/ab559646a9790649e1a31efe746fa0c26ed2c54a/day6_abhi/flatten_linked_list.java",
+    "rawUrl": "https://raw.githubusercontent.com/Abhishek109062/ms_2024/main/day6_abhi/flatten_linked_list.java"
+  },
+  "matching": {
+    "relevanceScore": 70.0
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e9f95a82b78bbb98249b0ac4e1ef50e68be9d4d977bfb431d1980675d9ece2f9",
+    "normalizedCodeHash": "e9f95a82b78bbb98249b0ac4e1ef50e68be9d4d977bfb431d1980675d9ece2f9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:05:35.408701+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

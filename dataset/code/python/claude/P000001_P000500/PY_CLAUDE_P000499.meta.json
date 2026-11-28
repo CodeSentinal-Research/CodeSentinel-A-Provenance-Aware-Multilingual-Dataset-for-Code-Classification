@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000499",
+  "problemId": "P000499",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000499",
+    "title": "Make The String Great",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "A string is considered good if it does not contain two adjacent characters that are the same letter but in different cases (for example, 'aA' or 'Bb'). Given a string s, repeatedly remove such adjacent pairs until no more can be removed. Return the final good string.",
+    "input": "A single string s.",
+    "output": "The resulting good string.",
+    "constraints": "1 <= s.length <= 10^5 s consists of uppercase and lowercase English letters."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000499",
+    "fileSHA": "fe31d6f292eddd3882e3125d075c147a9cef421e9e5fe203c4c2154756535a07",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fe31d6f292eddd3882e3125d075c147a9cef421e9e5fe203c4c2154756535a07",
+    "normalizedCodeHash": "fe31d6f292eddd3882e3125d075c147a9cef421e9e5fe203c4c2154756535a07",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000499: Make The String Great"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

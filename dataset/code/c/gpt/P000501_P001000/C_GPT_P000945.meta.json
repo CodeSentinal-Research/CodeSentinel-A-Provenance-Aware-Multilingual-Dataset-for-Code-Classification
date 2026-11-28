@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000945",
+  "problemId": "P000945",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000945",
+    "title": "Predict the Winner",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Medium",
+    "problemStatement": "Two players alternately pick a number from either end of an integer array. Determine whether the first player can guarantee a score greater than or equal to the second player's score.",
+    "input": "Integer N Array nums",
+    "output": "Print true if the first player can win or tie; otherwise, print false.",
+    "constraints": "1 <= N <= 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000945.c",
+    "fileSHA": "fb2c11aca2b89ef6561a3b10dee4554ec37b9020b26d58deac931e8084bb9290",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fb2c11aca2b89ef6561a3b10dee4554ec37b9020b26d58deac931e8084bb9290",
+    "normalizedCodeHash": "fb2c11aca2b89ef6561a3b10dee4554ec37b9020b26d58deac931e8084bb9290",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

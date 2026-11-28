@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000678",
+  "problemId": "P000678",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000678",
+    "title": "Josephus Problem Using Circular Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "There are n people standing in a circle numbered from 1 to n. Starting from the first person, every k-th remaining person is eliminated until only one person remains. Simulate the process using a circular linked list and return the label of the survivor.",
+    "input": "Integer n Integer k",
+    "output": "The label of the last remaining person.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000678",
+    "fileSHA": "de14096ea16a02ef848e86fe792a1fc508ea4a68ac1bb940ae4149bde33673fc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.383Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "18cf4c6bf89d94a35d71495472b19efb74727c21178527fdbcd0488bcaba8714",
+    "normalizedCodeHash": "46575bf41c0dd0ef0d40cde013aa602530fa3caef488ea53c8df83f2574607e9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.383Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000766",
+  "problemId": "P000766",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000766",
+    "title": "Boolean Parenthesization Count",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a boolean expression consisting of: 'T' (True) 'F' (False) Operators &, |, and ^ Count the number of ways to parenthesize the expression so that it evaluates to True.",
+    "input": "String expression",
+    "output": "The number of valid parenthesizations.",
+    "constraints": "1 <= |expression| <= 200"
+  },
+  "repository": {
+    "name": "NovikovIE/c-compute-bench",
+    "owner": "NovikovIE",
+    "url": "https://github.com/NovikovIE/c-compute-bench",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "benchmarks/Dynamic_Programming_Algorithms/boolean_parenthesization/boolean_parenthesization.c",
+    "fileSHA": "3463d05176b25cf744e2d0d4243938102e30bd80",
+    "url": "https://github.com/NovikovIE/c-compute-bench/blob/5acbcf1662207c71337c465f132d5a8d08596541/benchmarks/Dynamic_Programming_Algorithms/boolean_parenthesization/boolean_parenthesization.c",
+    "rawUrl": "https://raw.githubusercontent.com/NovikovIE/c-compute-bench/main/benchmarks/Dynamic_Programming_Algorithms/boolean_parenthesization/boolean_parenthesization.c"
+  },
+  "matching": {
+    "relevanceScore": 60.64
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "19ba89bdfd9dd7894218410c5b93ce86d94c7f5152728371a3541d3b21d81540",
+    "normalizedCodeHash": "19ba89bdfd9dd7894218410c5b93ce86d94c7f5152728371a3541d3b21d81540",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:15:39.482664+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

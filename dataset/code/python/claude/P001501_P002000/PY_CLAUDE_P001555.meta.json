@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_CLAUDE_P001555",
+  "problemId": "P001555",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001555",
+    "title": "Maximum Number of Vowels in a Substring of Length K",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string and an integer K, determine the maximum number of vowels present in any substring of length exactly K.",
+    "input": "• First line contains string S. • Second line contains integer K.",
+    "output": "• Print the maximum number of vowels.",
+    "constraints": "• 1 ≤ |S| ≤ 2 × 10^5 • 1 ≤ K ≤ |S|"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P001555",
+    "fileSHA": "e253f976367106e385fcfbeac53fb479143067c333b10bce910113e3910c8a8a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3b14c12399ea7565f1b8e71b3fb32734500a5dd0368b6130ca7df06104eddaaa",
+    "normalizedCodeHash": "e253f976367106e385fcfbeac53fb479143067c333b10bce910113e3910c8a8a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

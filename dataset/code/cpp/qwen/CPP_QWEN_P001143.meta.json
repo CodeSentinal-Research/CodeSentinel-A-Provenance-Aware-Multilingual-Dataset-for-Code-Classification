@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001143",
+  "problemId": "P001143",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001143",
+    "title": "Target Sum Expressions",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and a target value, determine the number of ways to assign either a '+' or '-' sign before every element such that the resulting expression equals the target.",
+    "input": "\u2022 First line contains integers N and Target. \u2022 Second line contains N integers.",
+    "output": "Print the number of valid expressions.",
+    "constraints": "\u2022 1 \u2264 N \u2264 20 \u2022 0 \u2264 Element \u2264 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001143",
+    "fileSHA": "2dec4945ea6d03f01da1374a18fb35cbb9e4b2fcf386c8e1d77e90089711ef52",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:26.848Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "bc1153705eca361890aaa6e03bdd0134fb692f597a2d889947a280384f40dc95",
+    "normalizedCodeHash": "74bd7134dde9381cdcc027f05fa78fed026ceece99c54d044ca1b274c33756a4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:26.848Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

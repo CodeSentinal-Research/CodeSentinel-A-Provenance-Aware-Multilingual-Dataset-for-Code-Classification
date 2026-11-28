@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000649",
+  "problemId": "P000649",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000649",
+    "title": "Compare Two Linked Lists",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the heads of two singly linked lists, determine whether both lists are identical. Two linked lists are identical if they have the same number of nodes and the corresponding nodes contain equal values. Return true if the lists are identical; otherwise return false.",
+    "input": "Integer n First linked list Integer m Second linked list",
+    "output": "true if both linked lists are identical, otherwise false.",
+    "constraints": "0 <= n, m <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000649.c",
+    "fileSHA": "3f14ed4285ce9fcec3b7634d01c4cd6360280c703f677136e9f8d5ea4dae80c3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3f14ed4285ce9fcec3b7634d01c4cd6360280c703f677136e9f8d5ea4dae80c3",
+    "normalizedCodeHash": "3f14ed4285ce9fcec3b7634d01c4cd6360280c703f677136e9f8d5ea4dae80c3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

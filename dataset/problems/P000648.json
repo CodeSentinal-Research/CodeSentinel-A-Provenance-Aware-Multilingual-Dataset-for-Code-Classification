@@ -1,0 +1,10 @@
+{
+  "problemId": "P000648",
+  "title": "Design Undo Redo Editor",
+  "category": "Linked List",
+  "difficulty": "Hard",
+  "problemStatement": "Design a text editor that supports the following operations: type(text) \u2014 Append text to the document. undo() \u2014 Undo the most recent typing operation. redo() \u2014 Reapply the most recently undone operation. print() \u2014 Print the current document. Implement the editor efficiently using a linked-list-based history mechanism. Process all operations and print the document for every print() operation.",
+  "input": "Integer q Next q operations.",
+  "output": "Print the current document after every print() operation.",
+  "constraints": "1 <= q <= 2 \u00d7 10^5 Total length of all inserted text does not exceed 10^6"
+}

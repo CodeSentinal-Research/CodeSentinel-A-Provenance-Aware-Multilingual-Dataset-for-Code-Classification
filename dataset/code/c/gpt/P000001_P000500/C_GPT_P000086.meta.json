@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000086",
+  "problemId": "P000086",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000086",
+    "title": "Calculate Electricity Bill",
+    "category": "Basic",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that calculates electricity bill based on units consumed (simple slab rates).",
+    "input": "A non-negative integer units.",
+    "output": "The total bill amount.",
+    "constraints": "0 ≤ units ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000086.c",
+    "fileSHA": "18b71236a9ccd1201bc3a42d3eaeafed49f4a0c4ab464352af758a506675037d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:23:08.716982+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "18b71236a9ccd1201bc3a42d3eaeafed49f4a0c4ab464352af758a506675037d",
+    "normalizedCodeHash": "18b71236a9ccd1201bc3a42d3eaeafed49f4a0c4ab464352af758a506675037d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:23:08.716982+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

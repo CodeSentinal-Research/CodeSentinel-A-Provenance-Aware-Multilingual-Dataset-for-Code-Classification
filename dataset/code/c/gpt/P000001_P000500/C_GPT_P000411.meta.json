@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000411",
+  "problemId": "P000411",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000411",
+    "title": "Search Records Containing a Keyword",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Retrieve every record whose description contains the specified keyword.",
+    "input": "A collection of records and a keyword.",
+    "output": "All matching records.",
+    "constraints": "1 ≤ Number of Records ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000411.c",
+    "fileSHA": "362a872392b00aaa01d82c353754e58f8b64b2f71ae1ea2537ed1eec823ce9bf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "362a872392b00aaa01d82c353754e58f8b64b2f71ae1ea2537ed1eec823ce9bf",
+    "normalizedCodeHash": "362a872392b00aaa01d82c353754e58f8b64b2f71ae1ea2537ed1eec823ce9bf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

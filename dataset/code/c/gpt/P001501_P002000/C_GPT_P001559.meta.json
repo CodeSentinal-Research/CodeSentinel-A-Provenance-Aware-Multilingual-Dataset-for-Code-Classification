@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001559",
+  "problemId": "P001559",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001559",
+    "title": "Count Subarrays With Product Less Than K",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of positive integers and an integer K, count the number of contiguous subarrays whose product is strictly less than K.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the count.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 1 ≤ Ai ≤ 1000 • 0 ≤ K ≤ 10^15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001559.c",
+    "fileSHA": "a8114a4165c703a4d7846fb816d14f3c381e6a5c96fd514d3ebdd3605f2404e4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.768Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "129a025bde3743df2a70f0570b168f3ea3b5c77c644e8880054040dc796d96c9",
+    "normalizedCodeHash": "a8114a4165c703a4d7846fb816d14f3c381e6a5c96fd514d3ebdd3605f2404e4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.768Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

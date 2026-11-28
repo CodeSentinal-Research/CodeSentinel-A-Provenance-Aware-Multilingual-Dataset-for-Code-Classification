@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001848",
+  "problemId": "P001848",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001848",
+    "title": "Convert a Binary Search Tree into its Preorder Insertion Sequence",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a Binary Search Tree, determine a valid insertion sequence that reconstructs exactly the same Binary Search Tree when inserted into an initially empty tree.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST.",
+    "output": "• Print one valid insertion sequence.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001848.c",
+    "fileSHA": "7891af9ef9ba0ad59c035d33e94212bf21739603208b8447781371b4b014d8e3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:36.130Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "d3c72159d4bd99a7180c08d0ab2ebd74c373aff5e5bb687f55a35a915f920ca4",
+    "normalizedCodeHash": "7891af9ef9ba0ad59c035d33e94212bf21739603208b8447781371b4b014d8e3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:36.130Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

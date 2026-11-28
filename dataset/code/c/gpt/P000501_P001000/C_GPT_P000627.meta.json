@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000627",
+  "problemId": "P000627",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000627",
+    "title": "Reverse a Doubly Linked List in Groups of K",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a doubly linked list and an integer k, reverse the nodes of the list in groups of size k. If the number of remaining nodes is less than k, leave them unchanged. Return the head of the modified doubly linked list.",
+    "input": "Integer n Doubly linked list Integer k",
+    "output": "The modified doubly linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000627.c",
+    "fileSHA": "d9b40647b81c6e52f0c6069ec790872d0a1f83dd409bee694973d13f8a263fee",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d9b40647b81c6e52f0c6069ec790872d0a1f83dd409bee694973d13f8a263fee",
+    "normalizedCodeHash": "d9b40647b81c6e52f0c6069ec790872d0a1f83dd409bee694973d13f8a263fee",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

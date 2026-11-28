@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001081",
+  "problemId": "P001081",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001081",
+    "title": "Find Eulerian Circuit",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph, determine whether it contains an Eulerian Circuit. If it exists, print one valid circuit; otherwise print IMPOSSIBLE.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print one Eulerian Circuit or IMPOSSIBLE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001081",
+    "fileSHA": "b8bfb83d32001f6129c6770e5ca0d9c351c52d86ea50c9bc07ccc1acb3fef816",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:43:33.301549+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b8bfb83d32001f6129c6770e5ca0d9c351c52d86ea50c9bc07ccc1acb3fef816",
+    "normalizedCodeHash": "b8bfb83d32001f6129c6770e5ca0d9c351c52d86ea50c9bc07ccc1acb3fef816",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:43:33.301724+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

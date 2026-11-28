@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001096",
+  "problemId": "P001096",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001096",
+    "title": "Minimum Cut",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a directed graph with edge capacities, determine the capacity of the minimum S-T cut.",
+    "input": "\u2022 First line contains integers N, M, S, and T. \u2022 Next M lines contain integers u, v, and capacity.",
+    "output": "Print the minimum cut capacity.",
+    "constraints": "\u2022 2 \u2264 N \u2264 500 \u2022 1 \u2264 M \u2264 10^4"
+  },
+  "repository": {
+    "name": "pointblank-club/IRIS",
+    "owner": "pointblank-club",
+    "url": "https://github.com/pointblank-club/IRIS",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "training_programs/67_stoer_wagner_mincut.c",
+    "fileSHA": "66a4180173f48de676e9b7547824a23bb5969e70",
+    "url": "https://github.com/pointblank-club/IRIS/blob/d8c0cf9ca47099fb849fd7ca4e2aeb156da89d7e/training_programs/67_stoer_wagner_mincut.c",
+    "rawUrl": "https://raw.githubusercontent.com/pointblank-club/IRIS/main/training_programs/67_stoer_wagner_mincut.c"
+  },
+  "matching": {
+    "relevanceScore": 84.1
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2eb84306677bb580ee2b5e90136d7d33f6ba5ed01bf06ee62205880409980652",
+    "normalizedCodeHash": "2eb84306677bb580ee2b5e90136d7d33f6ba5ed01bf06ee62205880409980652",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T15:34:15.889572+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

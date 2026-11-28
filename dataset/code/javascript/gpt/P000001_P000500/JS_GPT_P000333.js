@@ -1,0 +1,3 @@
+// Number of Matching Subsequences
+const fs=require("fs");
+const lines=fs.readFileSync(0,"utf8").split(/\r?\n/),s=lines[0]||"",n=Number(lines[1]),words=lines.slice(2,2+n),pos=new Map();for(let i=0;i<s.length;i++){if(!pos.has(s[i]))pos.set(s[i],[]);pos.get(s[i]).push(i);}function lb(a,x){let l=0,r=a.length;while(l<r){let m=(l+r)>>1;if(a[m]<x)l=m+1;else r=m;}return l;}let ans=0;for(const w of words){let at=0,ok=true;for(const c of w){const a=pos.get(c);if(!a){ok=false;break;}const k=lb(a,at);if(k===a.length){ok=false;break;}at=a[k]+1;}if(ok)ans++;}console.log(ans);

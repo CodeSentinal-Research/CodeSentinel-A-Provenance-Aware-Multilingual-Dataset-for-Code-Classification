@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001679",
+  "problemId": "P001679",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001679",
+    "title": "Find the Level Having Maximum Sum",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the level whose nodes have the maximum total sum. If multiple levels have the same sum, report the smallest level number.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the required level number.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 \u221210^9 \u2264 NodeValue \u2264 10^9"
+  },
+  "repository": {
+    "name": "facebook/rocksdb",
+    "owner": "facebook",
+    "url": "https://github.com/facebook/rocksdb",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "java/src/main/java/org/rocksdb/MutableDBOptionsInterface.java",
+    "fileSHA": "f747a509f9046e897c00e69dbdea301d340ff2c8",
+    "url": "https://github.com/facebook/rocksdb/blob/82dfd6a5100e29dc315b71bd38331a2902fd3b3e/java/src/main/java/org/rocksdb/MutableDBOptionsInterface.java",
+    "rawUrl": "https://raw.githubusercontent.com/facebook/rocksdb/main/java/src/main/java/org/rocksdb/MutableDBOptionsInterface.java"
+  },
+  "matching": {
+    "relevanceScore": 80.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3cf13f4b15753997de108548da1ca2f847e1a335b26e2e15b4e77dab4a68f6ce",
+    "normalizedCodeHash": "3cf13f4b15753997de108548da1ca2f847e1a335b26e2e15b4e77dab4a68f6ce",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T09:04:12.806905+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

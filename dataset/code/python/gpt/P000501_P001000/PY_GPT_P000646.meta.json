@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000646",
+  "problemId": "P000646",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000646",
+    "title": "Merge K Sorted Doubly Linked Lists",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "You are given the heads of k sorted doubly linked lists. Merge all the lists into a single sorted doubly linked list while maintaining both next and prev pointers correctly. Return the head of the merged list.",
+    "input": "Integer k For each list: o Integer size o Sorted doubly linked list",
+    "output": "The merged sorted doubly linked list.",
+    "constraints": "0 <= k <= 10^4 Total number of nodes across all lists does not exceed 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000646.py",
+    "fileSHA": "326fa4048991a3438e953371d9dcf635ca9b512b1d72a5608073374d450c6eee",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.540194+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "326fa4048991a3438e953371d9dcf635ca9b512b1d72a5608073374d450c6eee",
+    "normalizedCodeHash": "d62369f54cdb296160c556ecde091e91d8c688cab91ac10e601cb6c3b1879a3e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.540194+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

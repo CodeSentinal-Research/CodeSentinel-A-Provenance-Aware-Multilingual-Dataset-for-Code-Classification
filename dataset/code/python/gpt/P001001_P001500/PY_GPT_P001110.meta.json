@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001110",
+  "problemId": "P001110",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001110",
+    "title": "M-Coloring Problem",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph and an integer M, determine whether the graph can be colored using at most M colors so that adjacent vertices have different colors.",
+    "input": "• First line contains integers N, E, and M. • Next E lines contain graph edges.",
+    "output": "Print YES if such a coloring exists; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 20 • 0 ≤ E ≤ N(N−1)/2"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001110.py",
+    "fileSHA": "0b9b3af8d3b4a05865c8dcc3dbd0e5bf4e852961bb7ee867432b8a9dba02f73d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.398284+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0b9b3af8d3b4a05865c8dcc3dbd0e5bf4e852961bb7ee867432b8a9dba02f73d",
+    "normalizedCodeHash": "0ed6dbea1efd438d2fda25154f866259b63a71ea9a84fc37e8da6196abffcdcf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.398284+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

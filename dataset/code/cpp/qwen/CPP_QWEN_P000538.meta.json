@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000538",
+  "problemId": "P000538",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000538",
+    "title": "Shortest Subarray with Sum at Least K",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array nums and an integer k, find the length of the shortest non-empty contiguous subarray whose sum is at least k. If no such subarray exists, return -1.",
+    "input": "Integer n Array nums Integer k",
+    "output": "A single integer representing the minimum subarray length, or -1 if no valid subarray exists.",
+    "constraints": "1 <= n <= 10^5 -10^5 <= nums[i] <= 10^5 1 <= k <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000538",
+    "fileSHA": "1bb95e724d08d51d002ea57e0343be1efcc755c85ed4304cf31aca6b1af591b1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.461Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "ab80a5f17d9d7abc4542d66fb440c8b20b8d84b42a903e80def11276f1547bb7",
+    "normalizedCodeHash": "6fe429c850a4f7a832eed3279df12582d41f23160791098eb2dcbaf43b0604fc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.461Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

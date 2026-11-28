@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_CLAUDE_P001283",
+  "problemId": "P001283",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001283",
+    "title": "Queue Reconstruction by Increasing Height",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Each person is represented by two integers: height and the number of people behind having height less than or equal to theirs. Reconstruct one valid queue satisfying all constraints.",
+    "input": "• First line contains integer N. • Next N lines each contain height and count.",
+    "output": "Print the reconstructed queue.",
+    "constraints": "• 1 ≤ N ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P001283",
+    "fileSHA": "2b07f660783b24137eb74e507e65cb1088ad601874ad236b8101b951f49f7b66",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2c32fa259d883f3e5541d4d1a9b24d3a7d153a798022695d06e7ba17e6d9f74e",
+    "normalizedCodeHash": "2b07f660783b24137eb74e507e65cb1088ad601874ad236b8101b951f49f7b66",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001336",
+  "problemId": "P001336",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001336",
+    "title": "Partition into K Equal Sum Subsets",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array and an integer K, determine whether it can be partitioned into exactly K non-empty subsets having equal sums.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print YES if possible; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 16"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001336",
+    "fileSHA": "7755fc8492831ad35b22166239fb5633c01472c016739bb6b4df97ace87fa84f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:21:56.653200+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7755fc8492831ad35b22166239fb5633c01472c016739bb6b4df97ace87fa84f",
+    "normalizedCodeHash": "7755fc8492831ad35b22166239fb5633c01472c016739bb6b4df97ace87fa84f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:21:56.653232+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

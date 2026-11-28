@@ -1,0 +1,1 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const[m,n]=l[0].split(' ').map(Number);const a=l[1].split(' ').map(Number),b=l[2].split(' ').map(Number);const c=[...a,...b].sort((x,y)=>x-y);const t=m+n;if(t%2)console.log(c[t>>1]);else console.log((c[t/2-1]+c[t/2])/2);

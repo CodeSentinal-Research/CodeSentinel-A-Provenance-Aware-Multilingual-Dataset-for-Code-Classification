@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P000536",
+  "problemId": "P000536",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000536",
+    "title": "Jump Game VI",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an integer array nums and an integer k. Starting from index 0, you may jump to any index in the range [i + 1, min(i + k, n - 1)]. The score of a path is the sum of all visited elements. Return the maximum possible score upon reaching the last index.",
+    "input": "Integer n Array nums Integer k",
+    "output": "A single integer representing the maximum score.",
+    "constraints": "1 <= n, k <= 10^5 -10^4 <= nums[i] <= 10^4"
+  },
+  "repository": {
+    "name": "victorplusc/Algorithms",
+    "owner": "victorplusc",
+    "url": "https://github.com/victorplusc/Algorithms",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000536.py",
+    "fileSHA": "70baf33dd3fd3368ab6ea5cc3754dddfbcac0e23",
+    "url": "https://github.com/victorplusc/Algorithms/blob/096e693fb490a00abc5f3d7282a73f0a1dd7b3a7/Leetcode/1696. Jump Game VI.py",
+    "rawUrl": "https://raw.githubusercontent.com/victorplusc/Algorithms/main/Leetcode/1696. Jump Game VI.py"
+  },
+  "matching": {
+    "relevanceScore": 78.94
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2021-06-10T04:03:06Z",
+    "lastCommitDate": "2021-06-10T04:03:06Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Victor"
+    ],
+    "firstKnownAuthor": "Victor",
+    "latestKnownAuthor": "Victor"
+  },
+  "deduplication": {
+    "rawCodeHash": "28891b3c47dc4047935716a9b6c00779a6d31dbbd492cfd9fdfd9adafcaf8800",
+    "normalizedCodeHash": "28891b3c47dc4047935716a9b6c00779a6d31dbbd492cfd9fdfd9adafcaf8800",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T06:36:57.805715+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

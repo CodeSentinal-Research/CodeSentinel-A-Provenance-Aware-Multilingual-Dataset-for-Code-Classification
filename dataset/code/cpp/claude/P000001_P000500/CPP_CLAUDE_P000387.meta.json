@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000387",
+  "problemId": "P000387",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000387",
+    "title": "Search Transaction by Transaction ID",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Locate a financial transaction using its transaction ID.",
+    "input": "Transaction records and a transaction ID.",
+    "output": "Transaction details or \"Transaction Not Found\".",
+    "constraints": "1 ≤ Number of Transactions ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000387",
+    "fileSHA": "2f022b9a2f790574c152f940972432778073023dd211972501042258f59b6127",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2f022b9a2f790574c152f940972432778073023dd211972501042258f59b6127",
+    "normalizedCodeHash": "2f022b9a2f790574c152f940972432778073023dd211972501042258f59b6127",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000387: Search Transaction by Transaction ID"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000592",
+  "problemId": "P000592",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000592",
+    "title": "Remove Linked List Elements",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a linked list and an integer val, remove all nodes whose value is equal to val. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer val",
+    "output": "The linked list after removing all occurrences of val.",
+    "constraints": "0 <= n <= 10^5 -50 <= node.value, val <= 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000592",
+    "fileSHA": "62f7a9ad3db7b7ffb8b65f71162c2558a7827f63666092fc19db02ec0f776149",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:46:49.521145+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "62f7a9ad3db7b7ffb8b65f71162c2558a7827f63666092fc19db02ec0f776149",
+    "normalizedCodeHash": "62f7a9ad3db7b7ffb8b65f71162c2558a7827f63666092fc19db02ec0f776149",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:46:49.521176+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

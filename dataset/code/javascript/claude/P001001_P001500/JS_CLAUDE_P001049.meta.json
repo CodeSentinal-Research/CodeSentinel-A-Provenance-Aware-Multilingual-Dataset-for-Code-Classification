@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P001049",
+  "problemId": "P001049",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001049",
+    "title": "Replace Multiple Keys in a Heap",
+    "category": "Heap",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary heap and Q update operations, replace the specified keys and restore the heap property after each operation.",
+    "input": "• First line contains integers N and Q. • Second line contains N integers. • Next Q lines contain an index and a new value.",
+    "output": "Print the final heap.",
+    "constraints": "• 1 ≤ N, Q ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P001049",
+    "fileSHA": "12ec1c12951b81d0e8f85e22d07c10651ac2f190f9cba08aee2c75b02b85f7c2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "12ec1c12951b81d0e8f85e22d07c10651ac2f190f9cba08aee2c75b02b85f7c2",
+    "normalizedCodeHash": "12ec1c12951b81d0e8f85e22d07c10651ac2f190f9cba08aee2c75b02b85f7c2",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P001049"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

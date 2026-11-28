@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000755",
+  "problemId": "P000755",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000755",
+    "title": "Generate All Valid Abbreviations of a Word",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a word, generate all generalized abbreviations by replacing any number of consecutive characters with their count. Print all valid abbreviations in lexicographical order.",
+    "input": "String word",
+    "output": "All valid abbreviations.",
+    "constraints": "1 <= |word| <= 15"
+  },
+  "repository": {
+    "name": "facebook/zstd",
+    "owner": "facebook",
+    "url": "https://github.com/facebook/zstd",
+    "defaultBranch": "dev",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "tests/fuzz/generate_sequences.c",
+    "fileSHA": "1cc57e844c7ea1379363a1ee4300bea46e5ffe94",
+    "url": "https://github.com/facebook/zstd/blob/dev/tests/fuzz/generate_sequences.c",
+    "rawUrl": "https://raw.githubusercontent.com/facebook/zstd/dev/tests/fuzz/generate_sequences.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "90198f6007f93d4cced982689ef80bac05e37b767a7d3957d2780a5e3d8a741e",
+    "normalizedCodeHash": "90198f6007f93d4cced982689ef80bac05e37b767a7d3957d2780a5e3d8a741e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:43:09.284078+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

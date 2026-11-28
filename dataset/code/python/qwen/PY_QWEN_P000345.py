@@ -1,0 +1,4 @@
+s1 = input().strip()
+s2 = input().strip()
+from collections import Counter
+print("Yes" if Counter(s1) == Counter(s2) else "No")

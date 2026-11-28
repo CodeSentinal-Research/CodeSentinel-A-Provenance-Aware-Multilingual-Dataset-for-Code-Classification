@@ -1,0 +1,1 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const n=+l[0];const a=l[1].split(' ').map(Number);let lo=0,hi=n-1;while(hi-lo>2){const m1=lo+Math.floor((hi-lo)/3),m2=hi-Math.floor((hi-lo)/3);if(a[m1]<a[m2])lo=m1+1;else hi=m2-1;}console.log(Math.max(...a.slice(lo,hi+1)));

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000553",
+  "problemId": "P000553",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000553",
+    "title": "Snakes and Ladders",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an n \u00d7 n Snakes and Ladders board. Starting from square 1, each move consists of rolling a six-sided die and moving accordingly. If the destination square contains the start of a ladder or the head of a snake, immediately move to its destination. Return the minimum number of moves required to reach the final square. Return -1 if it is impossible.",
+    "input": "Integer n An n \u00d7 n board.",
+    "output": "A single integer representing the minimum number of moves.",
+    "constraints": "2 <= n <= 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "java/gemini/JAVA_GEMINI_P000553",
+    "fileSHA": "26b4811f49aee19798d74b87e1c4cc57fd2d6324fb40038b06e68b6420ff1e69",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:44:53.413640+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "26b4811f49aee19798d74b87e1c4cc57fd2d6324fb40038b06e68b6420ff1e69",
+    "normalizedCodeHash": "26b4811f49aee19798d74b87e1c4cc57fd2d6324fb40038b06e68b6420ff1e69",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:44:53.413671+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

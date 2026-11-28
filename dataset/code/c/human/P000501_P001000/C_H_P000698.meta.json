@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000698",
+  "problemId": "P000698",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000698",
+    "title": "Fast Modular Exponentiation Using Recursion",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given three integers base, exponent, and mod, compute (base^exponent) mod mod using recursive exponentiation by squaring.",
+    "input": "Integer base Integer exponent Integer mod",
+    "output": "The value of (base^exponent) mod mod.",
+    "constraints": "1 <= base, exponent <= 10^18 2 <= mod <= 10^18"
+  },
+  "repository": {
+    "name": "NDXDeveloper/reverse-engineering-gcc-gpp-training",
+    "owner": "NDXDeveloper",
+    "url": "https://github.com/NDXDeveloper/reverse-engineering-gcc-gpp-training",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "binaries/ch16-optimisations/tail_call.c",
+    "fileSHA": "fdae6706e94a2c60ba937a8da17ce7ba8e4e00da",
+    "url": "https://github.com/NDXDeveloper/reverse-engineering-gcc-gpp-training/blob/322297b25693cf552a8a9015c2402dd568684d0a/binaries/ch16-optimisations/tail_call.c",
+    "rawUrl": "https://raw.githubusercontent.com/NDXDeveloper/reverse-engineering-gcc-gpp-training/main/binaries/ch16-optimisations/tail_call.c"
+  },
+  "matching": {
+    "relevanceScore": 86.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "cb30ce3fb9860095cb3852554046c0b16ac5454188b80edd47dcde74611c3499",
+    "normalizedCodeHash": "cb30ce3fb9860095cb3852554046c0b16ac5454188b80edd47dcde74611c3499",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T23:25:10.164239+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

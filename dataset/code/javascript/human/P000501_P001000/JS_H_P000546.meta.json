@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000546",
+  "problemId": "P000546",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000546",
+    "title": "Jump Game VII",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a binary string s and two integers minJump and maxJump. Starting at index 0, determine whether it is possible to reach the last index. From index i, you may jump to any index j satisfying: i + minJump <= j <= min(i + maxJump, n - 1) s[j] == '0' Return true if the last index can be reached; otherwise return false.",
+    "input": "Binary string s Integer minJump Integer maxJump",
+    "output": "true if the last index is reachable, otherwise false.",
+    "constraints": "2 <= s.length <= 10^5 s[0] == s[n-1] == '0'"
+  },
+  "repository": {
+    "name": "rickvian/leetcode-javascript-practice-playground",
+    "owner": "rickvian",
+    "url": "https://github.com/rickvian/leetcode-javascript-practice-playground",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "leetcode-solutions/1871-jump-game-vii.js",
+    "fileSHA": "92a47cc2cbb63375cab4914934141dc31b5c27df",
+    "url": "https://github.com/rickvian/leetcode-javascript-practice-playground/blob/b1643cd7ee773ea62b0c83cb9707ccc6525af1c3/leetcode-solutions/1871-jump-game-vii.js",
+    "rawUrl": "https://raw.githubusercontent.com/rickvian/leetcode-javascript-practice-playground/main/leetcode-solutions/1871-jump-game-vii.js"
+  },
+  "matching": {
+    "relevanceScore": 92.59
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e26780648559f26468a25c4698748e2f593385a46bca5bfe9d69a9d6744eb917",
+    "normalizedCodeHash": "e26780648559f26468a25c4698748e2f593385a46bca5bfe9d69a9d6744eb917",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:30:56.817370+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

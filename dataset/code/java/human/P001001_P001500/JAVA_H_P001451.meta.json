@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001451",
+  "problemId": "P001451",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001451",
+    "title": "Count Pairs With XOR Equal to K",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer K, determine the number of pairs (i, j) such that i < j and nums[i] XOR nums[j] = K.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the total number of valid pairs.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 0 \u2264 nums[i], K \u2264 10^9"
+  },
+  "repository": {
+    "name": "James781004/CodingPractice",
+    "owner": "James781004",
+    "url": "https://github.com/James781004/CodingPractice",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/WeeklyContest/Week_444.java",
+    "fileSHA": "bcb16c0c3706d7d68b417a3f33179fce014c5f06",
+    "url": "https://github.com/James781004/CodingPractice/blob/93375c2ca6c50bc204619c34f9c1f22875e76106/src/WeeklyContest/Week_444.java",
+    "rawUrl": "https://raw.githubusercontent.com/James781004/CodingPractice/main/src/WeeklyContest/Week_444.java"
+  },
+  "matching": {
+    "relevanceScore": 86.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "97cc485a7f7b9c76571908e8ad74f81cb5f5e95c67eb10f03f5d1394c41cdf14",
+    "normalizedCodeHash": "97cc485a7f7b9c76571908e8ad74f81cb5f5e95c67eb10f03f5d1394c41cdf14",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T17:13:59.739838+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

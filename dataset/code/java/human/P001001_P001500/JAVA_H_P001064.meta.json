@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001064",
+  "problemId": "P001064",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001064",
+    "title": "Check Whether an Edge Exists",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given a graph and Q queries, determine whether a specified edge exists in the graph.",
+    "input": "\u2022 First line contains integers N, M, and Q. \u2022 Next M lines contain graph edges. \u2022 Next Q lines contain pairs of vertices.",
+    "output": "For each query, print YES if the edge exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "adv11/Graph",
+    "owner": "adv11",
+    "url": "https://github.com/adv11/Graph",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "AdjacencyMatrixRepresentation.java",
+    "fileSHA": "0ad898b041b8f6d19936a6a19d6b8ef061a5be20",
+    "url": "https://github.com/adv11/Graph/blob/c2e067865f05a0712b7fe661ffa88da834873053/AdjacencyMatrixRepresentation.java",
+    "rawUrl": "https://raw.githubusercontent.com/adv11/Graph/main/AdjacencyMatrixRepresentation.java"
+  },
+  "matching": {
+    "relevanceScore": 76.19
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "31d73af3a6eff1f771de8383c6666d8b876d0292a2b7b211a28b7ebe27482d96",
+    "normalizedCodeHash": "31d73af3a6eff1f771de8383c6666d8b876d0292a2b7b211a28b7ebe27482d96",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:17:10.017950+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

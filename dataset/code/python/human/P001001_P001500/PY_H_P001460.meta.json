@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001460",
+  "problemId": "P001460",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001460",
+    "title": "Count Equal XOR Prefix Pairs",
+    "category": "Hashing",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array, count the number of pairs of indices (i, j) such that the XOR of the prefix ending at i is equal to the XOR of the prefix ending at j, where i < j.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the total number of valid pairs.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 0 \u2264 nums[i] \u2264 10^9"
+  },
+  "repository": {
+    "name": "Gbhanuteja22/Smart_Interviews",
+    "owner": "Gbhanuteja22",
+    "url": "https://github.com/Gbhanuteja22/Smart_Interviews",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Count_Equal_XOR_Pairs.py",
+    "fileSHA": "022d61e67d9fe70e3662954eadc093f057638345",
+    "url": "https://github.com/Gbhanuteja22/Smart_Interviews/blob/c12da3a903cce94812318bccd396b30419113337/Count_Equal_XOR_Pairs.py",
+    "rawUrl": "https://raw.githubusercontent.com/Gbhanuteja22/Smart_Interviews/main/Count_Equal_XOR_Pairs.py"
+  },
+  "matching": {
+    "relevanceScore": 61.62
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4d72a4595bd661beed250135c6f63dd5b4cfd66b74d7b71cc57d438d1945ba67",
+    "normalizedCodeHash": "4d72a4595bd661beed250135c6f63dd5b4cfd66b74d7b71cc57d438d1945ba67",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:07:30.895593+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

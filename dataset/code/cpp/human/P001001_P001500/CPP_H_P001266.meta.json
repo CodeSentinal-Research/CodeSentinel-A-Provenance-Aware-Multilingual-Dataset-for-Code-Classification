@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001266",
+  "problemId": "P001266",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001266",
+    "title": "IPO Project Selection",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an initial capital and a set of projects, each requiring a minimum capital and providing a profit. Complete at most K projects to maximize the final capital.",
+    "input": "\u2022 First line contains integers N, K, and InitialCapital. \u2022 Next N lines each contain required capital and profit.",
+    "output": "Print the maximum final capital.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/selection_algorithms/src/quickselect.cpp",
+    "fileSHA": "4c4dede71b3d4d357136d24ecece78fcdae9a1a8",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/selection_algorithms/src/quickselect.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/selection_algorithms/src/quickselect.cpp"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "643f9be4419ec15fd0e27938f540af94d48ac11dc7b86dcdb202da43e3a2ed64",
+    "normalizedCodeHash": "643f9be4419ec15fd0e27938f540af94d48ac11dc7b86dcdb202da43e3a2ed64",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:09.972282+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

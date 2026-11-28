@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001865",
+  "problemId": "P001865",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001865",
+    "title": "Construct a Binary Search Tree from Search Access Frequencies",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a set of distinct keys and their search access frequencies, construct a Binary Search Tree that minimizes the weighted search cost.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the keys. \u2022 The third line contains the corresponding search frequencies.",
+    "output": "\u2022 Print the constructed Binary Search Tree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000 Topic Start Problem ID End Problem ID Total Sliding Window P001656 P001705 50 Prefix Sum P001706 P001805 100 Trees P001806 P001955 150 Binary Search Trees (BST) P001956 P002035 80 Total P001656 P002035 380"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001865",
+    "fileSHA": "3c8354fb3c66bdea2a54259b435d97540c80feb256c2fc00da60115f5f487fe2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:45:54.501188+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3c8354fb3c66bdea2a54259b435d97540c80feb256c2fc00da60115f5f487fe2",
+    "normalizedCodeHash": "3c8354fb3c66bdea2a54259b435d97540c80feb256c2fc00da60115f5f487fe2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:45:54.501207+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

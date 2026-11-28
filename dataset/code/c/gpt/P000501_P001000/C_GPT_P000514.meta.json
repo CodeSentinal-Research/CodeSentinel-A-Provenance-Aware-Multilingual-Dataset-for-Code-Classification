@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000514",
+  "problemId": "P000514",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000514",
+    "title": "Ternary Expression Parser",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given a ternary expression consisting of: Digits (0-9) Characters (T and F) Operators ? and : Evaluate the expression and return its result. The ternary operator groups from right to left.",
+    "input": "A valid ternary expression.",
+    "output": "A single character representing the evaluation result.",
+    "constraints": "1 <= expression.length <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000514.c",
+    "fileSHA": "b4f2e4442894ac4defc0d725217dfcfb88ab472cbb191d5f7defb1e1ddb57fd2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b4f2e4442894ac4defc0d725217dfcfb88ab472cbb191d5f7defb1e1ddb57fd2",
+    "normalizedCodeHash": "b4f2e4442894ac4defc0d725217dfcfb88ab472cbb191d5f7defb1e1ddb57fd2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

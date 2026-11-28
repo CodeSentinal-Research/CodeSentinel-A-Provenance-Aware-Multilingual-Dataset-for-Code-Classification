@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001374",
+  "problemId": "P001374",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001374",
+    "title": "Happy Number",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Starting with a positive integer, repeatedly replace the number by the sum of the squares of its digits. Determine whether the process eventually reaches 1 or enters a cycle.",
+    "input": "• First line contains integer N.",
+    "output": "Print YES if N is a happy number; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 2^31−1"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001374.py",
+    "fileSHA": "9ed8e5a1ee366c4ad0182097e5ad846669511af5fca4c9821f32216531b045b1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.479509+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9ed8e5a1ee366c4ad0182097e5ad846669511af5fca4c9821f32216531b045b1",
+    "normalizedCodeHash": "8a207dceba9dcd53411e22c823f9f6b71c60a6dd84284c6bdaf77af8d84c524b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.479509+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

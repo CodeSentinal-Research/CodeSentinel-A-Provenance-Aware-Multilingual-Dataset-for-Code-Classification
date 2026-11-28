@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001727",
+  "problemId": "P001727",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001727",
+    "title": "Print Every Root-to-Leaf Path",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given the root of a binary tree, print every distinct path from the root to each leaf.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print every root-to-leaf path, one path per line.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001727.c",
+    "fileSHA": "50f6b3b1fa39eda291009a6a228b266f2e64cf79819829f38ac9b9be32ba5744",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.464Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "fb431ab2f16141851a8a50b42787ef77f1672c2e2f42d656c5a18f6706c1e70a",
+    "normalizedCodeHash": "50f6b3b1fa39eda291009a6a228b266f2e64cf79819829f38ac9b9be32ba5744",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.464Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

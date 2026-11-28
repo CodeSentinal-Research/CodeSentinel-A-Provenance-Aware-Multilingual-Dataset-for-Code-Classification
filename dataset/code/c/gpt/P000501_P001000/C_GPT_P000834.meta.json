@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000834",
+  "problemId": "P000834",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000834",
+    "title": "Painter's Partition Problem",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array representing board lengths and an integer painters, assign contiguous boards to painters. Each painter paints one unit length per unit time. Return the minimum time required to paint all boards.",
+    "input": "Integer n Array boards Integer painters",
+    "output": "The minimum painting time.",
+    "constraints": "1 <= n <= 10^5 1 <= boards[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000834.c",
+    "fileSHA": "78b0a9661c492fc1076282d510c2d335101d57eccb819ea0799c38da54b15d1f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "78b0a9661c492fc1076282d510c2d335101d57eccb819ea0799c38da54b15d1f",
+    "normalizedCodeHash": "78b0a9661c492fc1076282d510c2d335101d57eccb819ea0799c38da54b15d1f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001819",
+  "problemId": "P001819",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001819",
+    "title": "Determine the Rank of a Key in a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree and a key X, determine the number of keys strictly smaller than X.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The last line contains X.",
+    "output": "\u2022 Print the rank of X.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0800-0899/0863.All Nodes Distance K in Binary Tree/Solution.java",
+    "fileSHA": "1d0fc332313a516121b9a0b64be35ceac10f2720",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0800-0899/0863.All Nodes Distance K in Binary Tree/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0800-0899/0863.All Nodes Distance K in Binary Tree/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e929866bf784fc4ecb393367783c377c376eb9e0351bcfba4a2b9d51dff72a78",
+    "normalizedCodeHash": "e929866bf784fc4ecb393367783c377c376eb9e0351bcfba4a2b9d51dff72a78",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:06.984441+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

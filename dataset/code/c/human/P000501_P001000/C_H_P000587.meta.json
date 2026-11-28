@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000587",
+  "problemId": "P000587",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000587",
+    "title": "Merge K Sorted Linked Lists",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "You are given the heads of k sorted linked lists. Merge all the linked lists into a single sorted linked list and return its head.",
+    "input": "Integer k For each list: o Integer size o Sorted linked list",
+    "output": "The merged sorted linked list.",
+    "constraints": "0 <= k <= 10^4 Total number of nodes across all lists does not exceed 10^5"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0023_merge_k_sorted_lists/merge_lists.c",
+    "fileSHA": "5695b91f46325727e0209f3d376d17901c43f5af",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0023_merge_k_sorted_lists/merge_lists.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0023_merge_k_sorted_lists/merge_lists.c"
+  },
+  "matching": {
+    "relevanceScore": 87.5
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "fe1ce57ef5b4faf39e1818ca2e8e4565a5daa6489bec207724245f9137311364",
+    "normalizedCodeHash": "fe1ce57ef5b4faf39e1818ca2e8e4565a5daa6489bec207724245f9137311364",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:50:04.540269+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

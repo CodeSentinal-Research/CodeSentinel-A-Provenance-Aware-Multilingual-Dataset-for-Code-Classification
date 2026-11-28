@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000739",
+  "problemId": "P000739",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000739",
+    "title": "Count All Paths in a Maze",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N × M grid where 0 represents a blocked cell and 1 represents an open cell, count the total number of distinct paths from the top-left cell to the bottom-right cell. You may move only Right and Down through open cells.",
+    "input": "Integer N Integer M Matrix grid",
+    "output": "The total number of valid paths.",
+    "constraints": "1 <= N, M <= 15"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000739",
+    "fileSHA": "315b74c2b1ac628c5e17a87404811ae773cc061534244509842b83d493723391",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "315b74c2b1ac628c5e17a87404811ae773cc061534244509842b83d493723391",
+    "normalizedCodeHash": "315b74c2b1ac628c5e17a87404811ae773cc061534244509842b83d493723391",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000739"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

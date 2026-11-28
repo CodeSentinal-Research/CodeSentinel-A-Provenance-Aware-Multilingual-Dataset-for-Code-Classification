@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000567",
+  "problemId": "P000567",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000567",
+    "title": "Cut Off Trees for Golf Event",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a forest represented as a grid. 0 represents an obstacle. 1 represents empty ground. Values greater than 1 represent trees with unique heights. Starting from the top-left cell, cut all trees in increasing order of height. Return the minimum total number of steps required to cut every tree, or -1 if any tree cannot be reached.",
+    "input": "Integers m and n An m \u00d7 n grid",
+    "output": "A single integer representing the minimum number of steps.",
+    "constraints": "1 <= m, n <= 50"
+  },
+  "repository": {
+    "name": "Pandit98himanshu/SwitchJob",
+    "owner": "Pandit98himanshu",
+    "url": "https://github.com/Pandit98himanshu/SwitchJob",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "leetcode/CutOffTreesForGolfEvent.java",
+    "fileSHA": "b3030039b1ec3409b9896950887725d8dea481f0",
+    "url": "https://github.com/Pandit98himanshu/SwitchJob/blob/743c3e22a8a58e85a814a54fa53938b5e37ff3ec/leetcode/CutOffTreesForGolfEvent.java",
+    "rawUrl": "https://raw.githubusercontent.com/Pandit98himanshu/SwitchJob/main/leetcode/CutOffTreesForGolfEvent.java"
+  },
+  "matching": {
+    "relevanceScore": 88.71
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "52adfcd51017f0a137216a6513ad5fe7075099ac40ab1fd65f9e9b557c40e6af",
+    "normalizedCodeHash": "52adfcd51017f0a137216a6513ad5fe7075099ac40ab1fd65f9e9b557c40e6af",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:35:38.202621+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

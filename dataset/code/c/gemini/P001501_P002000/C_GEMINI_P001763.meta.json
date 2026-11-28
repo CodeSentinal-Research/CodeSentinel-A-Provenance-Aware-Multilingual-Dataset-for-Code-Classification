@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001763",
+  "problemId": "P001763",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001763",
+    "title": "Count Univalue Subtrees",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree, determine the number of subtrees in which every node contains the same value.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the number of univalue subtrees.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001763",
+    "fileSHA": "e66efc5eb861a41f44d6f4ab6dc77d9f3924da5d69a928f94fd2d0ba12f8a501",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:37:31.914124+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8501fef7e37f532c290bb4adbf5871bb40fede5de08f4d000f6b27062a4f4923",
+    "normalizedCodeHash": "e66efc5eb861a41f44d6f4ab6dc77d9f3924da5d69a928f94fd2d0ba12f8a501",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:37:31.914144+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

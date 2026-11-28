@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001280",
+  "problemId": "P001280",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001280",
+    "title": "Patch Array",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given a sorted array of positive integers and an integer N, determine the minimum number of additional numbers that must be inserted so that every number in the range [1, N] can be formed as the sum of some subset of the array.",
+    "input": "\u2022 First line contains integers M and N. \u2022 Second line contains M sorted positive integers.",
+    "output": "Print the minimum number of inserted elements.",
+    "constraints": "\u2022 1 \u2264 M \u2264 10^5 \u2022 1 \u2264 N \u2264 10^18"
+  },
+  "repository": {
+    "name": "poojaverma-me/LeetCode-100-Days-of-Code",
+    "owner": "poojaverma-me",
+    "url": "https://github.com/poojaverma-me/LeetCode-100-Days-of-Code",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Day156.java",
+    "fileSHA": "59f688129a23cf354aa7dc2277892d4bef012d5e",
+    "url": "https://github.com/poojaverma-me/LeetCode-100-Days-of-Code/blob/32fe3e7a01560f8f72c206168a383ba744e2bda2/Day156.java",
+    "rawUrl": "https://raw.githubusercontent.com/poojaverma-me/LeetCode-100-Days-of-Code/main/Day156.java"
+  },
+  "matching": {
+    "relevanceScore": 80.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "10fb15efbdbdae1239bdb3ff743f2b064ba64615ca045f5a8e5285154e7de893",
+    "normalizedCodeHash": "10fb15efbdbdae1239bdb3ff743f2b064ba64615ca045f5a8e5285154e7de893",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T02:59:58.827041+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

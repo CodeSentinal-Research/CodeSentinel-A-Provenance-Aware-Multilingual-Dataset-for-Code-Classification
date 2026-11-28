@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001083",
+  "problemId": "P001083",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001083",
+    "title": "Hamiltonian Path",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph, determine whether it contains a Hamiltonian Path that visits every vertex exactly once.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print YES if a Hamiltonian Path exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 20 \u2022 0 \u2264 M \u2264 N(N\u22121)/2"
+  },
+  "repository": {
+    "name": "nikita-salunke4578/emi",
+    "owner": "nikita-salunke4578",
+    "url": "https://github.com/nikita-salunke4578/emi",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "HamiltonianPathBacktracking.java",
+    "fileSHA": "c947193ba98b08567f0deb98d06f95e18ecf04f0",
+    "url": "https://github.com/nikita-salunke4578/emi/blob/7ceeb4ee557be019f982ac78358542b867c3d627/HamiltonianPathBacktracking.java",
+    "rawUrl": "https://raw.githubusercontent.com/nikita-salunke4578/emi/main/HamiltonianPathBacktracking.java"
+  },
+  "matching": {
+    "relevanceScore": 75.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "38590c1b64cac2ddf10198028a3c473c224eb7377ddb0f360b8b3b5ddf59d26b",
+    "normalizedCodeHash": "38590c1b64cac2ddf10198028a3c473c224eb7377ddb0f360b8b3b5ddf59d26b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:33:25.623115+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

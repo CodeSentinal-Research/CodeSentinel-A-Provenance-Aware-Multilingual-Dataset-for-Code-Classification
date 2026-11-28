@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001451",
+  "problemId": "P001451",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001451",
+    "title": "Count Pairs With XOR Equal to K",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer K, determine the number of pairs (i, j) such that i < j and nums[i] XOR nums[j] = K.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print the total number of valid pairs.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5 • 0 ≤ nums[i], K ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001451.py",
+    "fileSHA": "7acd5bd538ede7dd652606b6813656f9c47afb3ce0b850c473a72ec6c4face65",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.933592+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "7acd5bd538ede7dd652606b6813656f9c47afb3ce0b850c473a72ec6c4face65",
+    "normalizedCodeHash": "4fb68113b4cd8fb17ad6aad75132d4f55d9c61a7799535917808fa7baa4eee2d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.933592+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

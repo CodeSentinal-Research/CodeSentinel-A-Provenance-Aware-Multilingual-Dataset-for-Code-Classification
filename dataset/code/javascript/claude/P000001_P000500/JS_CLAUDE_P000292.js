@@ -1,0 +1,1 @@
+const s=require("fs").readFileSync("/dev/stdin","utf8").trim();const ss=[],ns=[];let cur="",num=0;for(const c of s){if(c>="0"&&c<="9")num=num*10+parseInt(c);else if(c==="["){ss.push(cur);ns.push(num);cur="";num=0;}else if(c==="]"){const k=ns.pop();const prev=ss.pop();cur=prev+cur.repeat(k);}else cur+=c;}console.log(cur);

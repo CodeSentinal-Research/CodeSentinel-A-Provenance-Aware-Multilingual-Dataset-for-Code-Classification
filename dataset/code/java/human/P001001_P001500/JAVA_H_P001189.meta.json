@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001189",
+  "problemId": "P001189",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001189",
+    "title": "Best Time to Buy and Sell Stock IV",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given daily stock prices and an integer K, determine the maximum profit obtainable using at most K buy-sell transactions.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the maximum profit.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 1 \u2264 K \u2264 100"
+  },
+  "repository": {
+    "name": "mission-peace/interview",
+    "owner": "mission-peace",
+    "url": "https://github.com/mission-peace/interview",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/com/interview/dynamic/StockBuySellKTransactions.java",
+    "fileSHA": "6068014a6fe337da81608b20e4b292410fc1e653",
+    "url": "https://github.com/mission-peace/interview/blob/master/src/com/interview/dynamic/StockBuySellKTransactions.java",
+    "rawUrl": "https://raw.githubusercontent.com/mission-peace/interview/master/src/com/interview/dynamic/StockBuySellKTransactions.java"
+  },
+  "matching": {
+    "relevanceScore": 72.0
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "841921390c34ba55da8b71619c913d3b87d6d0e67c83dae9d481988ba3beecb3",
+    "normalizedCodeHash": "841921390c34ba55da8b71619c913d3b87d6d0e67c83dae9d481988ba3beecb3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:48:16.413268+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

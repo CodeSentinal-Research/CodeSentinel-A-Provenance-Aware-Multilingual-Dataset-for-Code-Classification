@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001593",
+  "problemId": "P001593",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001593",
+    "title": "Shortest Prefix With Sum Greater Than X",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and an integer X, determine the minimum prefix length whose sum is strictly greater than X. Print -1 if no such prefix exists.",
+    "input": "\u2022 First line contains N and X. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the minimum length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0214_shortest_palindrome/shortest_palindrome.c",
+    "fileSHA": "34404880a20ddc8723d44c776b793885fc5299bc",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0214_shortest_palindrome/shortest_palindrome.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0214_shortest_palindrome/shortest_palindrome.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a3e35e7c8f6058b910955453c127fef020401ff5b740d25ff90e875a5589011d",
+    "normalizedCodeHash": "a3e35e7c8f6058b910955453c127fef020401ff5b740d25ff90e875a5589011d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T16:06:26.839618+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

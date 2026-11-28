@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001128",
+  "problemId": "P001128",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001128",
+    "title": "Accounts Merge",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given multiple user accounts where each account contains a user's name followed by email addresses, merge all accounts belonging to the same person. Two accounts belong to the same person if they share at least one common email address.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain an account with a name followed by email addresses.",
+    "output": "Print the merged accounts sorted lexicographically by email.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^4 \u2022 Total emails \u2264 10^5"
+  },
+  "repository": {
+    "name": "vibhavp6/Vibhav-Leetcode-GeeksForGeeks-HackerRank",
+    "owner": "vibhavp6",
+    "url": "https://github.com/vibhavp6/Vibhav-Leetcode-GeeksForGeeks-HackerRank",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Hard/Account Merge/account-merge.java",
+    "fileSHA": "b66dcbfca6484e9d569440572bcb80274cc7d922",
+    "url": "https://github.com/vibhavp6/Vibhav-Leetcode-GeeksForGeeks-HackerRank/blob/7b976b31b6c79a1694c11a1f9e53f9b1a50b7761/Hard/Account Merge/account-merge.java",
+    "rawUrl": "https://raw.githubusercontent.com/vibhavp6/Vibhav-Leetcode-GeeksForGeeks-HackerRank/main/Hard/Account Merge/account-merge.java"
+  },
+  "matching": {
+    "relevanceScore": 80.7
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3d374514bb314f85d713a9cd84cdbc501e180d5214e7e9734ade4b8141fc9edc",
+    "normalizedCodeHash": "3d374514bb314f85d713a9cd84cdbc501e180d5214e7e9734ade4b8141fc9edc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T13:53:26.548336+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

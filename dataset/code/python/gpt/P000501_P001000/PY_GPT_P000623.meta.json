@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000623",
+  "problemId": "P000623",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000623",
+    "title": "Reverse Alternate K Nodes in Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list and an integer k, reverse the first k nodes, leave the next k nodes unchanged, then reverse the following k nodes, and continue this pattern until the end of the list. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer k",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000623.py",
+    "fileSHA": "c31db90e625538b500a199a53dcbe794c65eb5d7f43e2996f9e80a136b4cfef2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.462876+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c31db90e625538b500a199a53dcbe794c65eb5d7f43e2996f9e80a136b4cfef2",
+    "normalizedCodeHash": "044281a08291eb5c28a929defc4bbb501990a1b1ee1155bfca8fd5912b8a3264",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.462876+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

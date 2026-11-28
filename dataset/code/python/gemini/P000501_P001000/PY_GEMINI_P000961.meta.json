@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000961",
+  "problemId": "P000961",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000961",
+    "title": "Count Diophantine Solutions in Range",
+    "category": "Mathematics - Diophantine Equations",
+    "difficulty": "Hard",
+    "problemStatement": "Given integers A, B, C and ranges for X and Y, count the number of integer solutions satisfying: AX + BY = C within the specified ranges.",
+    "input": "Integers A, B, C Ranges for X and Y",
+    "output": "The number of valid solutions.",
+    "constraints": "|A|, |B|, |C| <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P000961",
+    "fileSHA": "f829f178511eed8c2ea93ce00635a456c9093141c1c97125439ebe027402b518",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:36:08.319966+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f829f178511eed8c2ea93ce00635a456c9093141c1c97125439ebe027402b518",
+    "normalizedCodeHash": "f829f178511eed8c2ea93ce00635a456c9093141c1c97125439ebe027402b518",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:36:08.319999+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

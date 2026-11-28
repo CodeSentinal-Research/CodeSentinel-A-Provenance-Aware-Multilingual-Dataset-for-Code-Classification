@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000636",
+  "problemId": "P000636",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000636",
+    "title": "Design Browser Tabs Manager",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a browser tab manager supporting the following operations: open(url) \u2014 Open a new tab. close(index) \u2014 Close the specified tab. switch(index) \u2014 Make the specified tab active. moveLeft(index) \u2014 Move the specified tab one position to the left. moveRight(index) \u2014 Move the specified tab one position to the right. current() \u2014 Return the currently active tab. Implement all operations efficiently using an appropriate linked list structure.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result of every current() operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/1400-1499/1472.Design Browser History/Solution.java",
+    "fileSHA": "483552155421a31bdb2491a8d4d9996e43fadddd",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/1400-1499/1472.Design Browser History/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/1400-1499/1472.Design Browser History/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8388c5c5ef9c74b530acb990e7896ca26b5bd80ff650589cbc50122ce1cea1e1",
+    "normalizedCodeHash": "8388c5c5ef9c74b530acb990e7896ca26b5bd80ff650589cbc50122ce1cea1e1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T16:53:59.321962+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

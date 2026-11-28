@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001365",
+  "problemId": "P001365",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001365",
+    "title": "Gold Mine Path",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a grid where each cell contains a certain amount of gold or is blocked, find the maximum amount of gold that can be collected by starting from any gold cell. You may move up, down, left, or right, and each cell can be visited at most once.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines each contain C integers.",
+    "output": "Print the maximum gold collectible.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001365",
+    "fileSHA": "64c09ef292a1e5bdd6cfd6025f09ec7c0ece14cad866d35668329abd6c81718c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:24:04.794992+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "64c09ef292a1e5bdd6cfd6025f09ec7c0ece14cad866d35668329abd6c81718c",
+    "normalizedCodeHash": "64c09ef292a1e5bdd6cfd6025f09ec7c0ece14cad866d35668329abd6c81718c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:24:04.795040+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

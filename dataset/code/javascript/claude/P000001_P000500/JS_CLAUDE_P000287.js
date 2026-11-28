@@ -1,0 +1,1 @@
+const vow="aeiouAEIOU";let s=[...require("fs").readFileSync("/dev/stdin","utf8").trim()];let i=0,j=s.length-1;while(i<j){while(i<j&&!vow.includes(s[i]))i++;while(i<j&&!vow.includes(s[j]))j--;if(i<j){[s[i],s[j]]=[s[j],s[i]];i++;j--;}}console.log(s.join(""));

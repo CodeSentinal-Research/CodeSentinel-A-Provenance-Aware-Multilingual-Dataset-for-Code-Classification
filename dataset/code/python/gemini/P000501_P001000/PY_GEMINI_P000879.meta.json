@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000879",
+  "problemId": "P000879",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000879",
+    "title": "Reverse Integer",
+    "category": "Mathematics - Basic Arithmetic",
+    "difficulty": "Easy",
+    "problemStatement": "Given a signed 32-bit integer x, reverse its digits. If reversing the integer causes it to overflow the signed 32-bit integer range, return 0.",
+    "input": "Integer x",
+    "output": "The reversed integer, or 0 if overflow occurs.",
+    "constraints": "-2^31 <= x <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P000879",
+    "fileSHA": "056358f631943a48750ebf1ca81cc7efc182b8c906a9347043ed6e642db3d644",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:31:35.211041+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "056358f631943a48750ebf1ca81cc7efc182b8c906a9347043ed6e642db3d644",
+    "normalizedCodeHash": "056358f631943a48750ebf1ca81cc7efc182b8c906a9347043ed6e642db3d644",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:31:35.211066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

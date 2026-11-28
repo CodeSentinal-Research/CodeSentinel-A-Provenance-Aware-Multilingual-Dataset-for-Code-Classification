@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000562",
+  "problemId": "P000562",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000562",
+    "title": "Keys and Rooms",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "There are n rooms labeled from 0 to n-1. Initially, only room 0 is unlocked. Each room may contain keys to other rooms. Determine whether it is possible to visit every room.",
+    "input": "Integer n A list where the i-th list contains the keys found in room i.",
+    "output": "Print true if every room can be visited; otherwise print false.",
+    "constraints": "1 <= n <= 1000 Total number of keys does not exceed 3000."
+  },
+  "repository": {
+    "name": "garima2007/100_Days_Challenge_DSA",
+    "owner": "garima2007",
+    "url": "https://github.com/garima2007/100_Days_Challenge_DSA",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "DAY_62/Q_2.c",
+    "fileSHA": "d51894c881c1b68b720cf55d9c679c1ce6d44221",
+    "url": "https://github.com/garima2007/100_Days_Challenge_DSA/blob/5dead4df7f95e85ec40c3323b87ec72ecb450700/DAY_62/Q_2.c",
+    "rawUrl": "https://raw.githubusercontent.com/garima2007/100_Days_Challenge_DSA/main/DAY_62/Q_2.c"
+  },
+  "matching": {
+    "relevanceScore": 65.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "de0ed2f11708db7af2d0fa7a925cc80ab181ce7e2400e0457953fa998816273f",
+    "normalizedCodeHash": "de0ed2f11708db7af2d0fa7a925cc80ab181ce7e2400e0457953fa998816273f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T18:09:55.176130+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001627",
+  "problemId": "P001627",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001627",
+    "title": "Count Prefixes Divisible by K",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and an integer K, determine how many prefixes have a sum divisible by K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the number of valid prefixes.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 K \u2264 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Python/count-valid-prefixes.py",
+    "fileSHA": "ac98542d79ea68c417069bb3095d7689c3c1f37e",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/Python/count-valid-prefixes.py",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/Python/count-valid-prefixes.py"
+  },
+  "matching": {
+    "relevanceScore": 65.83
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b025bd02b5ab37d22444c67ae24d590ef72932fa1b6d92a1722deffd065ca13c",
+    "normalizedCodeHash": "b025bd02b5ab37d22444c67ae24d590ef72932fa1b6d92a1722deffd065ca13c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:16:51.952582+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

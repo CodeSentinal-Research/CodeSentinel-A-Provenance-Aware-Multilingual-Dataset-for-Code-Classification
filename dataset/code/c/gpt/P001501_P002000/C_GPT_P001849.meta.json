@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001849",
+  "problemId": "P001849",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001849",
+    "title": "Determine the Height of a Binary Search Tree Without Constructing It",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the insertion order of distinct keys, determine the height of the resulting Binary Search Tree without explicitly constructing the tree.",
+    "input": "• The first line contains an integer N. • The second line contains the insertion sequence.",
+    "output": "• Print the height of the resulting BST.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001849.c",
+    "fileSHA": "33c90eadbba2abe20b671e99be6e610d3e04b0c5d4133273e1e4e635f7036fa0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:36.138Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "5d96939e7aedca9005e089246b8a6e29dcb25f0b0743717344a5e236501934bb",
+    "normalizedCodeHash": "33c90eadbba2abe20b671e99be6e610d3e04b0c5d4133273e1e4e635f7036fa0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:36.138Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

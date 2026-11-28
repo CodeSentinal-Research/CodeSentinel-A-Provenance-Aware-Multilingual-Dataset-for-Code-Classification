@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000964",
+  "problemId": "P000964",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000964",
+    "title": "Chinese Remainder Theorem Solver",
+    "category": "Mathematics - Chinese Remainder Theorem",
+    "difficulty": "Hard",
+    "problemStatement": "Given pairwise coprime moduli and their corresponding remainders, find the smallest non-negative integer satisfying all congruences.",
+    "input": "Integer N Arrays remainder[] Arrays modulus[]",
+    "output": "The smallest solution.",
+    "constraints": "1 <= N <= 15 2 <= modulus[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000964.js",
+    "fileSHA": "e91f40364f14b1a252fa719cb4770018ee572891c10b5da87f4f6c64d9ce8277",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e91f40364f14b1a252fa719cb4770018ee572891c10b5da87f4f6c64d9ce8277",
+    "normalizedCodeHash": "e91f40364f14b1a252fa719cb4770018ee572891c10b5da87f4f6c64d9ce8277",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

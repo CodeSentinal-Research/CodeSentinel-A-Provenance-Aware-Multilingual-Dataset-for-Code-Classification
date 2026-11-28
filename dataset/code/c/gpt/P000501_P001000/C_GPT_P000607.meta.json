@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000607",
+  "problemId": "P000607",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000607",
+    "title": "LFU Cache",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design and implement an LFU (Least Frequently Used) cache. The cache supports: get(key) put(key, value) If the cache is full, remove the key with the lowest access frequency. If multiple keys have the same frequency, remove the least recently used among them. Both operations should run in O(1) average time.",
+    "input": "Integer capacity Integer q Next q operations",
+    "output": "Print the result of every get() operation.",
+    "constraints": "0 <= capacity <= 10^4 1 <= q <= 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000607.c",
+    "fileSHA": "27c56361b6e9fe20a0260aee786cc72cd2d36a8410b2690f38824a237d5a9d9f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "27c56361b6e9fe20a0260aee786cc72cd2d36a8410b2690f38824a237d5a9d9f",
+    "normalizedCodeHash": "27c56361b6e9fe20a0260aee786cc72cd2d36a8410b2690f38824a237d5a9d9f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

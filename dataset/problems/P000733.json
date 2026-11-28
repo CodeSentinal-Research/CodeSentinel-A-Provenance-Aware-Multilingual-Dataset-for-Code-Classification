@@ -1,0 +1,10 @@
+{
+  "problemId": "P000733",
+  "title": "M-Coloring Problem",
+  "category": "Recursion",
+  "difficulty": "Hard",
+  "problemStatement": "Given an undirected graph with V vertices and M colors, determine whether the graph can be colored so that no two adjacent vertices share the same color. Return true if such a coloring exists; otherwise return false.",
+  "input": "Integer V Integer E List of edges Integer M",
+  "output": "true if a valid coloring exists, otherwise false.",
+  "constraints": "1 <= V <= 20 0 <= E <= V \u00d7 (V - 1) / 2 1 <= M <= V"
+}

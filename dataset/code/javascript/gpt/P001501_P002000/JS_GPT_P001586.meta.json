@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001586",
+  "problemId": "P001586",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001586",
+    "title": "Maximum White Tiles Covered by a Carpet",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given intervals representing white tiles on a number line and the length of a carpet, determine the maximum number of white tiles that can be covered by placing the carpet optimally.",
+    "input": "• First line contains N and CarpetLength. • Next N lines each contain the start and end of an interval.",
+    "output": "• Print the maximum number of covered white tiles.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001501_P002000/JS_GPT_P001586.js",
+    "fileSHA": "a914eea7864961eee7942a1ca33e5ba86deebd6c9bdb440e63f2d9e5c3cb6638",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a914eea7864961eee7942a1ca33e5ba86deebd6c9bdb440e63f2d9e5c3cb6638",
+    "normalizedCodeHash": "a914eea7864961eee7942a1ca33e5ba86deebd6c9bdb440e63f2d9e5c3cb6638",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

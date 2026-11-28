@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001191",
+  "problemId": "P001191",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001191",
+    "title": "Best Time to Buy and Sell Stock with Transaction Fee",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given the daily prices of a stock and a transaction fee, determine the maximum profit obtainable by performing any number of buy-sell transactions. Every completed transaction incurs the given fee.",
+    "input": "\u2022 First line contains integers N and Fee. \u2022 Second line contains N integers representing stock prices.",
+    "output": "Print the maximum achievable profit.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 0 \u2264 Fee \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001191",
+    "fileSHA": "20d3928feb9efddb5dd68db5247c8f360ef3263a4a3ca76ec314459a38e85297",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:15:23.167402+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "20d3928feb9efddb5dd68db5247c8f360ef3263a4a3ca76ec314459a38e85297",
+    "normalizedCodeHash": "20d3928feb9efddb5dd68db5247c8f360ef3263a4a3ca76ec314459a38e85297",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:15:23.167430+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

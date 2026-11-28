@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001086",
+  "problemId": "P001086",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001086",
+    "title": "Multi-Source Shortest Distance",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an unweighted graph and multiple source vertices, determine the shortest distance from the nearest source to every vertex.",
+    "input": "\u2022 First line contains integers N, M, and K. \u2022 Next M lines contain graph edges. \u2022 Last line contains K source vertices.",
+    "output": "Print the minimum distance to every vertex.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "NextGenGk/DSA-Bootcamp",
+    "owner": "NextGenGk",
+    "url": "https://github.com/NextGenGk/DSA-Bootcamp",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Graph/Distance_of_Nearest_Cell_Having_1.java",
+    "fileSHA": "90fffb57afc9d821177c186ba74ea40c814f20ec",
+    "url": "https://github.com/NextGenGk/DSA-Bootcamp/blob/eecb25591bf2ee855d14b542bbfdf67232458481/Graph/Distance_of_Nearest_Cell_Having_1.java",
+    "rawUrl": "https://raw.githubusercontent.com/NextGenGk/DSA-Bootcamp/main/Graph/Distance_of_Nearest_Cell_Having_1.java"
+  },
+  "matching": {
+    "relevanceScore": 86.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "cbc97edc0c05e3979106e76daad1c2ddf8a0fe3a6e239e23871cf78c8c45d249",
+    "normalizedCodeHash": "cbc97edc0c05e3979106e76daad1c2ddf8a0fe3a6e239e23871cf78c8c45d249",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T02:53:48.379004+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

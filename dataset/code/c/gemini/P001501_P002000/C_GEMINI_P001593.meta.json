@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001593",
+  "problemId": "P001593",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001593",
+    "title": "Shortest Prefix With Sum Greater Than X",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and an integer X, determine the minimum prefix length whose sum is strictly greater than X. Print -1 if no such prefix exists.",
+    "input": "\u2022 First line contains N and X. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the minimum length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001593",
+    "fileSHA": "56c4ae49d6fbc5d831a7cfc8fca5e489a64ffbe3f9e4d6d2c9557fa6c145db28",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:49.387500+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "56c4ae49d6fbc5d831a7cfc8fca5e489a64ffbe3f9e4d6d2c9557fa6c145db28",
+    "normalizedCodeHash": "56c4ae49d6fbc5d831a7cfc8fca5e489a64ffbe3f9e4d6d2c9557fa6c145db28",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:49.387524+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

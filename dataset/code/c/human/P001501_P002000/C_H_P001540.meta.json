@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001540",
+  "problemId": "P001540",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001540",
+    "title": "Count Complete Vowel Substrings",
+    "category": "Two Pointers",
+    "difficulty": "Hard",
+    "problemStatement": "Given a lowercase English string, count all contiguous substrings that consist only of vowels and contain all five vowels at least once.",
+    "input": "\u2022 First line contains the string.",
+    "output": "Print the total number of valid substrings.",
+    "constraints": "\u2022 1 \u2264 Length \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "sqlite/sqlite",
+    "owner": "sqlite",
+    "url": "https://github.com/sqlite/sqlite",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/complete.c",
+    "fileSHA": "d69c98996b187d11807828443521d92100c04f64",
+    "url": "https://github.com/sqlite/sqlite/blob/master/src/complete.c",
+    "rawUrl": "https://raw.githubusercontent.com/sqlite/sqlite/master/src/complete.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d83082fcc1e790004c224ab3ceafcf66461b2757ee3a4f54939c28a7c3603d6d",
+    "normalizedCodeHash": "d83082fcc1e790004c224ab3ceafcf66461b2757ee3a4f54939c28a7c3603d6d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:13:46.725514+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

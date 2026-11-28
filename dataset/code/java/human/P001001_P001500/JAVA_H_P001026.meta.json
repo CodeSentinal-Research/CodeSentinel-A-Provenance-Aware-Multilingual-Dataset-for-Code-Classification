@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001026",
+  "problemId": "P001026",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001026",
+    "title": "Verify Complete Binary Heap Structure",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given the parent index of every node in a tree, determine whether the tree can represent a complete binary heap.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N parent indices.",
+    "output": "Print YES if the structure is a complete binary heap; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/data_structures/src/hashs/bloom_filter/bloom_filter.java",
+    "fileSHA": "3ed3cbd8653a59f4556c09222f11d2c7b13b94c1",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/data_structures/src/hashs/bloom_filter/bloom_filter.java",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/data_structures/src/hashs/bloom_filter/bloom_filter.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f0c6a8ea4eb54a3272a43a3e1c3488ad4aecc76a9527025133d29c9f388dc0e4",
+    "normalizedCodeHash": "f0c6a8ea4eb54a3272a43a3e1c3488ad4aecc76a9527025133d29c9f388dc0e4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:02.923691+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

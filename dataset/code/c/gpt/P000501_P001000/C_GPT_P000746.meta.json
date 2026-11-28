@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000746",
+  "problemId": "P000746",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000746",
+    "title": "Josephus Problem Using Recursion",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "There are N people standing in a circle numbered from 1 to N. Starting from the first person, every K-th remaining person is eliminated until only one person remains. Solve the problem recursively and return the position of the survivor.",
+    "input": "Integer N Integer K",
+    "output": "The position of the surviving person.",
+    "constraints": "1 <= N <= 10^5 1 <= K <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000746.c",
+    "fileSHA": "ace95d319cf0320de2e97a4332239315a1afaf0453437e999cffe48a2608bd37",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ace95d319cf0320de2e97a4332239315a1afaf0453437e999cffe48a2608bd37",
+    "normalizedCodeHash": "ace95d319cf0320de2e97a4332239315a1afaf0453437e999cffe48a2608bd37",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

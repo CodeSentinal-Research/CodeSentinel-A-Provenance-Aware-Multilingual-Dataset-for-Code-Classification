@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001331",
+  "problemId": "P001331",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001331",
+    "title": "Restore IP Addresses",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string containing only digits, generate all possible valid IPv4 addresses by inserting three dots. Each segment must be between 0 and 255 and cannot contain leading zeros unless the segment is exactly 0.",
+    "input": "\u2022 First line contains a digit string.",
+    "output": "Print all valid IPv4 addresses in lexicographical order.",
+    "constraints": "\u2022 1 \u2264 Length \u2264 12"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/0093-restore-ip-addresses.js",
+    "fileSHA": "0133cb31f362ca056bb246059b7f11e717cd25e5",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/javascript/0093-restore-ip-addresses.js",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/javascript/0093-restore-ip-addresses.js"
+  },
+  "matching": {
+    "relevanceScore": 77.63
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "384b59b47e1cf486e126ac6e2ef5796380f97fc268f2781997d5808cc749a0ce",
+    "normalizedCodeHash": "384b59b47e1cf486e126ac6e2ef5796380f97fc268f2781997d5808cc749a0ce",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:28:31.607839+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

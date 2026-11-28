@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001617",
+  "problemId": "P001617",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001617",
+    "title": "Count Prefixes With Even Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers, determine the number of prefixes whose sum is even.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the count.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "sqlite/sqlite",
+    "owner": "sqlite",
+    "url": "https://github.com/sqlite/sqlite",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "ext/misc/prefixes.c",
+    "fileSHA": "ab60a22a908668cb004806ac9c42d1c054973b1f",
+    "url": "https://github.com/sqlite/sqlite/blob/master/ext/misc/prefixes.c",
+    "rawUrl": "https://raw.githubusercontent.com/sqlite/sqlite/master/ext/misc/prefixes.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "068500ba445998ae7da2ffce768533bce56e79e886d1e591062dfcf35a3750ca",
+    "normalizedCodeHash": "068500ba445998ae7da2ffce768533bce56e79e886d1e591062dfcf35a3750ca",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:13:46.588460+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

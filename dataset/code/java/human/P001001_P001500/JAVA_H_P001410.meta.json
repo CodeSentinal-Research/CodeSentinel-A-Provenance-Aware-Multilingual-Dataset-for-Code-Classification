@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001410",
+  "problemId": "P001410",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001410",
+    "title": "Count Bad Pairs",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array, count the number of pairs (i, j) where i < j and j - i \u2260 nums[j] - nums[i].",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the number of bad pairs.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "NaveenV-27/Leetcode-solutions",
+    "owner": "NaveenV-27",
+    "url": "https://github.com/NaveenV-27/Leetcode-solutions",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solutions/2448-count-number-of-bad-pairs/solution.java",
+    "fileSHA": "a5cbac1372a70c4850be32be0e826f3b346f5233",
+    "url": "https://github.com/NaveenV-27/Leetcode-solutions/blob/c8eae751cf29a4b1c5eeba3f041b57cbfb9830d5/solutions/2448-count-number-of-bad-pairs/solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/NaveenV-27/Leetcode-solutions/main/solutions/2448-count-number-of-bad-pairs/solution.java"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b9da371f68dbae652c69691791296c8a4e78e0e6e585518429bb58279579e56e",
+    "normalizedCodeHash": "b9da371f68dbae652c69691791296c8a4e78e0e6e585518429bb58279579e56e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T02:47:18.944699+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

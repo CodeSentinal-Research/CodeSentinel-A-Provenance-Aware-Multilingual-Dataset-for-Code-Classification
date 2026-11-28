@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000414",
+  "problemId": "P000414",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000414",
+    "title": "Search Available Flights Within Budget",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Retrieve every available flight whose ticket price does not exceed the specified budget.",
+    "input": "Flight records and a maximum budget.",
+    "output": "Matching flights.",
+    "constraints": "1 ≤ Number of Flights ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000001_P000500/JS_GPT_P000414.js",
+    "fileSHA": "4f451849bec523e02eb82b4442c123ecacc3f1ae070ca32d9ebb89018a5eaf32",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4f451849bec523e02eb82b4442c123ecacc3f1ae070ca32d9ebb89018a5eaf32",
+    "normalizedCodeHash": "4f451849bec523e02eb82b4442c123ecacc3f1ae070ca32d9ebb89018a5eaf32",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

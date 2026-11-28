@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000597",
+  "problemId": "P000597",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000597",
+    "title": "Flatten a Multilevel Doubly Linked List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "A doubly linked list may contain child pointers that point to separate doubly linked lists. Flatten the multilevel structure into a single-level doubly linked list. The child lists should appear immediately after their parent nodes, and all child pointers must become null. Return the head of the flattened list.",
+    "input": "A multilevel doubly linked list.",
+    "output": "The flattened doubly linked list.",
+    "constraints": "Number of nodes is in the range [0, 1000]."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000597",
+    "fileSHA": "c9df40fc6085d36ed23e22e032e8e88047dac4f561487e0451ccec2d85203ba5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c9df40fc6085d36ed23e22e032e8e88047dac4f561487e0451ccec2d85203ba5",
+    "normalizedCodeHash": "c9df40fc6085d36ed23e22e032e8e88047dac4f561487e0451ccec2d85203ba5",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000597: Flatten a Multilevel Doubly Linked List"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

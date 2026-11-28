@@ -1,0 +1,10 @@
+{
+  "problemId": "P000495",
+  "title": "Online Stock Span",
+  "category": "Stack",
+  "difficulty": "Hard",
+  "problemStatement": "Design a data structure that processes a stream of stock prices. For each incoming stock price, return its span, defined as the maximum number of consecutive days (including today) for which the stock price has been less than or equal to today's price. Process all queries efficiently.",
+  "input": "Integer q Next q lines each contain one stock price.",
+  "output": "For each stock price, print its span.",
+  "constraints": "1 <= q <= 10^5 1 <= price <= 10^5"
+}

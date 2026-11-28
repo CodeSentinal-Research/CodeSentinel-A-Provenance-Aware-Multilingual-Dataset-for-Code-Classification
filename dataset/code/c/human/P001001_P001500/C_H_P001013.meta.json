@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001013",
+  "problemId": "P001013",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001013",
+    "title": "Running Median of a Data Stream",
+    "category": "Heap",
+    "difficulty": "Medium",
+    "problemStatement": "Given a sequence of integers arriving one by one, determine the median after each insertion using an efficient heap-based approach.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N space-separated integers.",
+    "output": "Print the median after each insertion.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/selection_algorithms/src/median_of_medians/median_of_medians.c",
+    "fileSHA": "7969801f848107431bf5fe9d95ed65202a677e76",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/selection_algorithms/src/median_of_medians/median_of_medians.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/selection_algorithms/src/median_of_medians/median_of_medians.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b15771dbe737417b0714cb9738aaee0fa06acfcf1140bd0877b215b7eb2d3a1d",
+    "normalizedCodeHash": "b15771dbe737417b0714cb9738aaee0fa06acfcf1140bd0877b215b7eb2d3a1d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:09.949236+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

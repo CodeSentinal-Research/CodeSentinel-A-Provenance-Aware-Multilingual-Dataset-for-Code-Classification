@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000204",
+  "problemId": "P000204",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000204",
+    "title": "Sort Array in Wave Form",
+    "category": "Arrays",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that sorts an array into wave form such that arr[0] >= arr[1] <= arr[2] >= arr[3] ...",
+    "input": "First line contains N. Second line contains N integers.",
+    "output": "The wave-form array.",
+    "constraints": "1 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "playcanvas/engine",
+    "owner": "playcanvas",
+    "url": "https://github.com/playcanvas/engine",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/scene/shader-lib/wgsl/chunks/radix-sort/onesweep-binning.js",
+    "fileSHA": "11cede1cf46e09dcdc758255464f941ea9330212",
+    "url": "https://github.com/playcanvas/engine/blob/5307f6b8a30145d4dd4e593cc6b7e11c49cf20a6/src/scene/shader-lib/wgsl/chunks/radix-sort/onesweep-binning.js",
+    "rawUrl": "https://raw.githubusercontent.com/playcanvas/engine/main/src/scene/shader-lib/wgsl/chunks/radix-sort/onesweep-binning.js"
+  },
+  "matching": {
+    "relevanceScore": 80.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2270335d8b09563de22c4206e26cf7f2a9c056daa47e809ad82b193120cec5b2",
+    "normalizedCodeHash": "2270335d8b09563de22c4206e26cf7f2a9c056daa47e809ad82b193120cec5b2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:27:20.274699+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

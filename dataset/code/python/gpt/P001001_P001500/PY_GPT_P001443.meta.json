@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001443",
+  "problemId": "P001443",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001443",
+    "title": "Count Words Obtained After Adding a Letter",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given two lists of lowercase words, determine how many words in the second list can be obtained by adding exactly one letter to any word in the first list and rearranging the characters.",
+    "input": "• First line contains integers N and M. • Next N lines contain the first list. • Next M lines contain the second list.",
+    "output": "Print the count of obtainable words.",
+    "constraints": "• 1 ≤ N, M ≤ 5×10^4 • Word length ≤ 26"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001443.py",
+    "fileSHA": "70cd0c175e5d38c2361d97dcde81140cb4a24a4d3a7a552cb229e7af27f97672",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:51.906765+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "70cd0c175e5d38c2361d97dcde81140cb4a24a4d3a7a552cb229e7af27f97672",
+    "normalizedCodeHash": "d899f9676cd1546a69b1223fa2af574bf909247db44bcda21472dae8816ec4c2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:51.906765+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

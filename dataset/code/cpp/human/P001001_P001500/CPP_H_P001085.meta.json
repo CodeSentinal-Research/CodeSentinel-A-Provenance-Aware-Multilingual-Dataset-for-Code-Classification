@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001085",
+  "problemId": "P001085",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001085",
+    "title": "Number of Distinct Paths in a DAG",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a Directed Acyclic Graph and two vertices S and T, determine the number of distinct paths from S to T.",
+    "input": "\u2022 First line contains integers N, M, S, and T. \u2022 Next M lines contain directed edges.",
+    "output": "Print the total number of distinct paths.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "ViXiC-36/USTC_Algorithm_2024_fall_lxy_ths",
+    "owner": "ViXiC-36",
+    "url": "https://github.com/ViXiC-36/USTC_Algorithm_2024_fall_lxy_ths",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "contest4/5_dag_path_counting_acc.cc",
+    "fileSHA": "54a915c0b96e3c1c7d4f35d17a30405436d23ea5",
+    "url": "https://github.com/ViXiC-36/USTC_Algorithm_2024_fall_lxy_ths/blob/7d3a813c7000414baf3770aa3a059b27383e74f2/contest4/5_dag_path_counting_acc.cc",
+    "rawUrl": "https://raw.githubusercontent.com/ViXiC-36/USTC_Algorithm_2024_fall_lxy_ths/main/contest4/5_dag_path_counting_acc.cc"
+  },
+  "matching": {
+    "relevanceScore": 96.8
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1254abb76b6c1b54d1cbba74b9239e475b1773869b1a6e63fcb5d3a41971d5b1",
+    "normalizedCodeHash": "1254abb76b6c1b54d1cbba74b9239e475b1773869b1a6e63fcb5d3a41971d5b1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T17:04:40.740502+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

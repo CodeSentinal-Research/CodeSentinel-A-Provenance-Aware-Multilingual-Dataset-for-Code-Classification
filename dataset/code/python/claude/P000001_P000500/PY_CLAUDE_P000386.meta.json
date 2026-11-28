@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000386",
+  "problemId": "P000386",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000386",
+    "title": "Search Bank Account by Account Number",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find a bank account using the account number.",
+    "input": "Bank account records and an account number.",
+    "output": "Account details or \"Account Not Found\".",
+    "constraints": "1 ≤ Number of Accounts ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000386",
+    "fileSHA": "53b46eebfc875e11d4df19c36c4f55c03d88a34e9618845101499b3bd5503e33",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "53b46eebfc875e11d4df19c36c4f55c03d88a34e9618845101499b3bd5503e33",
+    "normalizedCodeHash": "53b46eebfc875e11d4df19c36c4f55c03d88a34e9618845101499b3bd5503e33",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000386: Search Bank Account by Account Number"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

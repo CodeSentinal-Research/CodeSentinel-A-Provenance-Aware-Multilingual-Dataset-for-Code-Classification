@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001366",
+  "problemId": "P001366",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001366",
+    "title": "Find Unique Paths III",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given a grid containing one starting square, one ending square, empty squares, and obstacles, determine the number of paths from the start to the end that visit every non-obstacle square exactly once.",
+    "input": "• First line contains integers R and C. • Next R lines contain the grid.",
+    "output": "Print the total number of valid paths.",
+    "constraints": "• 1 ≤ R, C ≤ 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001366.c",
+    "fileSHA": "9b376caeb9a59f6dd75e4612b2db740dc6741479aadc922c26627a81633c96e9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.089Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "141e47e77d9480821e9f8135b0f5001c8c82853028ca0b3c39d2414bca6a796b",
+    "normalizedCodeHash": "9b376caeb9a59f6dd75e4612b2db740dc6741479aadc922c26627a81633c96e9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.089Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

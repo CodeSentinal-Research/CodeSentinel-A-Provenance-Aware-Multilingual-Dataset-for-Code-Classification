@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001561",
+  "problemId": "P001561",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001561",
+    "title": "Substring With Concatenation of All Words",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a string S and an array of words, where every word has the same length. Find all starting indices of substrings in S that are formed by concatenating every word exactly once and without any intervening characters. The words may appear in any order.",
+    "input": "\u2022 First line contains string S. \u2022 Second line contains integer M. \u2022 Third line contains M space-separated words.",
+    "output": "\u2022 Print all valid starting indices in increasing order. If none exist, print -1.",
+    "constraints": "\u2022 1 \u2264 |S| \u2264 2 \u00d7 10^5 \u2022 1 \u2264 M \u2264 5000 \u2022 All words have equal length."
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/cpp/substringWithConcatenationOfAllWords/substringWithConcatenationOfAllWords.cpp",
+    "fileSHA": "a28ceb81e93fd9596222b194fa1c999b235a56e1",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/cpp/substringWithConcatenationOfAllWords/substringWithConcatenationOfAllWords.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/cpp/substringWithConcatenationOfAllWords/substringWithConcatenationOfAllWords.cpp"
+  },
+  "matching": {
+    "relevanceScore": 80.79
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f46424c0cf4959f157649c394be0b991dd42e28746e970feed1c2bff760d6c07",
+    "normalizedCodeHash": "f46424c0cf4959f157649c394be0b991dd42e28746e970feed1c2bff760d6c07",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:49:51.396613+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

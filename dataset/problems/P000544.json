@@ -1,0 +1,10 @@
+{
+  "problemId": "P000544",
+  "title": "Open the Lock",
+  "category": "Queue",
+  "difficulty": "Medium",
+  "problemStatement": "You have a lock with four circular wheels, each displaying a digit from 0 to 9. Initially, the lock displays \"0000\". In one move, you may rotate any one wheel one position forward or backward. Some combinations are deadends. If the lock reaches a deadend, it can no longer be used. Given the list of deadends and a target combination, determine the minimum number of moves required to reach the target. Return -1 if it is impossible.",
+  "input": "Integer d Array of deadend strings Target string",
+  "output": "A single integer.",
+  "constraints": "1 <= d <= 500 Every combination has exactly four digits."
+}

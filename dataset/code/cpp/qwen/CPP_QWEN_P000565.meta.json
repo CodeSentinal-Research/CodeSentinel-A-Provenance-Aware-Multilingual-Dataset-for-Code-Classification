@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000565",
+  "problemId": "P000565",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000565",
+    "title": "Matrix Cells in Distance Order",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given the dimensions of a matrix and the coordinates of a starting cell, return all matrix cells ordered by their Manhattan distance from the starting cell. If multiple cells have the same distance, they may appear in any order.",
+    "input": "Integers rows and cols Integers rCenter and cCenter",
+    "output": "A list of all cell coordinates ordered by increasing Manhattan distance.",
+    "constraints": "1 <= rows, cols <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000565",
+    "fileSHA": "3b66a986124e5d698579ea05a175a75f1db4ca0f4dc006285f958e8e92c88eaf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:25:40.038Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "02eaced5362534b85cff118bb2f2dfd310cefdbe77d804d5a48bd7a96e0ad532",
+    "normalizedCodeHash": "e9693583bf10c729fa7278cce5f090bba94244690a9bf3d898a8c486c62a8fc7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:25:40.038Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

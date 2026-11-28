@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P000811",
+  "problemId": "P000811",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000811",
+    "title": "Guess Number Higher or Lower",
+    "category": "Binary Search",
+    "difficulty": "Easy",
+    "problemStatement": "A hidden number is chosen between 1 and n. You are provided with an API: guess(num) returns: o -1 if the hidden number is lower. o 1 if the hidden number is higher. o 0 if the guess is correct. Find the hidden number using binary search.",
+    "input": "Integer n",
+    "output": "The hidden number.",
+    "constraints": "1 <= n <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P000811",
+    "fileSHA": "3ce3703f8a7dbdfb90d09ef55ba042d4db21bc0425b5762fbf3989d5bdc10f2c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:27:33.780162+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3ce3703f8a7dbdfb90d09ef55ba042d4db21bc0425b5762fbf3989d5bdc10f2c",
+    "normalizedCodeHash": "3ce3703f8a7dbdfb90d09ef55ba042d4db21bc0425b5762fbf3989d5bdc10f2c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:27:33.780189+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

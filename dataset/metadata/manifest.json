@@ -1,0 +1,93 @@
+{
+  "datasetVersion": "1.0.0",
+  "collectionDate": "2026-08-12T13:03:21.572305+00:00",
+  "totalProblems": 1843,
+  "problemsProcessed": 1760,
+  "problemsWithCandidates": 1760,
+  "totalSolutions": 6832,
+  "solutionsByLanguage": {
+    "c": 1433,
+    "cpp": 1493,
+    "java": 1446,
+    "javascript": 1503,
+    "python": 1483
+  },
+  "solutionsByProvenanceLevel": {
+    "AI_GENERATED": 492,
+    "HIGH": 5627,
+    "LOW": 643,
+    "MEDIUM": 596
+  },
+  "repositoriesUsed": 3766,
+  "duplicatesRemoved": 150,
+  "errors": 0,
+  "configurationUsed": {
+    "github_token_env": "GITHUB_TOKEN",
+    "languages": [
+      "python",
+      "java",
+      "javascript",
+      "c",
+      "cpp"
+    ],
+    "search_queries_per_problem": 2,
+    "max_search_results": 15,
+    "candidate_pool_size": 15,
+    "minimum_relevance_score": 50.0,
+    "minimum_provenance_score": 0.0,
+    "target_solutions": {
+      "min": 1,
+      "preferred": 1,
+      "max": 1
+    },
+    "max_solutions_per_problem_language": 1,
+    "max_solutions_per_repository": 500,
+    "max_source_size": 1048576,
+    "concurrency": 3,
+    "request_timeout": 15,
+    "retry_count": 3,
+    "historical_cutoff_date": "2022-11-30",
+    "output_directory": "sample_ai_code_dataset",
+    "path_exclusions": [
+      "node_modules/",
+      "vendor/",
+      "__pycache__/",
+      ".git/",
+      "dist/",
+      "build/",
+      "docs/"
+    ],
+    "language_extensions": {
+      "python": [
+        ".py"
+      ],
+      "java": [
+        ".java"
+      ],
+      "c": [
+        ".c",
+        ".h"
+      ],
+      "cpp": [
+        ".cpp",
+        ".hpp",
+        ".cc",
+        ".cxx"
+      ],
+      "javascript": [
+        ".js",
+        ".jsx"
+      ],
+      "typescript": [
+        ".ts",
+        ".tsx"
+      ],
+      "go": [
+        ".go"
+      ],
+      "rust": [
+        ".rs"
+      ]
+    }
+  }
+}

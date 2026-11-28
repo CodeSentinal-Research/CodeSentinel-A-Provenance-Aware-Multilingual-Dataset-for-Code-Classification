@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000763",
+  "problemId": "P000763",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000763",
+    "title": "Regular Expression Matching",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string s and a pattern p containing lowercase letters, '.', and '*': '.' matches any single character. '*' matches zero or more occurrences of the preceding element. Determine whether the entire string matches the pattern using recursion.",
+    "input": "String s String p",
+    "output": "true if the pattern matches the string, otherwise false.",
+    "constraints": "1 <= |s|, |p| <= 20"
+  },
+  "repository": {
+    "name": "HexCore8/javascript-algorithms",
+    "owner": "HexCore8",
+    "url": "https://github.com/HexCore8/javascript-algorithms",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/algorithms/string/regular-expression-matching/regularExpressionMatching.js",
+    "fileSHA": "a08bb8e03658d2a950da3fe482376a34f2fd401a",
+    "url": "https://github.com/HexCore8/javascript-algorithms/blob/b6b1a0fc0fdfb9b84d927e1086a690896f899708/src/algorithms/string/regular-expression-matching/regularExpressionMatching.js",
+    "rawUrl": "https://raw.githubusercontent.com/HexCore8/javascript-algorithms/main/src/algorithms/string/regular-expression-matching/regularExpressionMatching.js"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0d2689f458db6f274111b3503f9db580848cb63b91467b627a06d7ef455ee0b7",
+    "normalizedCodeHash": "0d2689f458db6f274111b3503f9db580848cb63b91467b627a06d7ef455ee0b7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T07:25:22.789331+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

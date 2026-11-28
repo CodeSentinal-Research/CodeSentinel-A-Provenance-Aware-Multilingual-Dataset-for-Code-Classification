@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001344",
+  "problemId": "P001344",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001344",
+    "title": "All Paths from Source to Target",
+    "category": "Backtracking",
+    "difficulty": "Medium",
+    "problemStatement": "Given a Directed Acyclic Graph (DAG), generate all possible paths from vertex 0 to vertex N−1.",
+    "input": "• First line contains integers V and E. • Next E lines contain directed edges.",
+    "output": "Print all valid paths in lexicographical order.",
+    "constraints": "• 2 ≤ V ≤ 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001344.c",
+    "fileSHA": "d07f79c44683e61306ef20e18098eb1e0be569dce61ea39cedf245d981771e0d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.927Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "5e2d4f6bac12da4c5e4cb5718239c6575e536826689a2e82ae2bda634255fdf2",
+    "normalizedCodeHash": "d07f79c44683e61306ef20e18098eb1e0be569dce61ea39cedf245d981771e0d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.927Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

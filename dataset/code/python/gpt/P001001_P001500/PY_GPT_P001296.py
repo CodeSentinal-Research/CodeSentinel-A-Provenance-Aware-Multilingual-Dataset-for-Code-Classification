@@ -1,0 +1,15 @@
+# problem title : Earliest Full Bloom
+# Solve the stated task using standard input and standard output.
+from typing import List
+
+class Solution:
+    def earliestFullBloom(self, plantTime: List[int], growTime: List[int]) -> int:
+        flowers = sorted(zip(growTime, plantTime), reverse=True)
+        cur_plant_time = 0
+        max_bloom_time = 0
+
+        for grow, plant in flowers:
+            cur_plant_time += plant
+            max_bloom_time = max(max_bloom_time, cur_plant_time + grow)
+
+        return max_bloom_time

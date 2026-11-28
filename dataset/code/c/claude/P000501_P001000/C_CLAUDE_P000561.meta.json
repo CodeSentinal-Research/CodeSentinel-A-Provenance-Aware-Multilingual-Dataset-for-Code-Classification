@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000561",
+  "problemId": "P000561",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000561",
+    "title": "First Non-Repeating Character in a Stream",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a stream of lowercase English letters arriving one by one. After processing each character, output the first character that has appeared exactly once so far. If no such character exists, output '#'.",
+    "input": "A string representing the stream.",
+    "output": "A string where the i-th character represents the first non-repeating character after processing the first i input characters.",
+    "constraints": "1 <= s.length <= 10^5 s contains only lowercase English letters."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000561",
+    "fileSHA": "4cc947994881066ddfafb8edae845e7f24c64a133a237f3198b4e69139823465",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4cc947994881066ddfafb8edae845e7f24c64a133a237f3198b4e69139823465",
+    "normalizedCodeHash": "4cc947994881066ddfafb8edae845e7f24c64a133a237f3198b4e69139823465",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000561: First Non-Repeating Character in a Stream"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

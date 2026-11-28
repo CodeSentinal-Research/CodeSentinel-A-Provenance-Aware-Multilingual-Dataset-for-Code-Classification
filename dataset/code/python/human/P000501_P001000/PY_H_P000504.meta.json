@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P000504",
+  "problemId": "P000504",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000504",
+    "title": "Exclusive Time of Functions",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "A single-threaded CPU executes n functions identified by IDs from 0 to n-1. Execution logs are provided in the format: function_id:start_or_end:timestamp A function may call another function before finishing. Return the exclusive execution time of each function, excluding the time spent executing child functions.",
+    "input": "Integer n Integer m Array of m log strings.",
+    "output": "An array of n integers representing the exclusive execution time of each function.",
+    "constraints": "1 <= n <= 100 1 <= m <= 500 Logs are valid and sorted by timestamp."
+  },
+  "repository": {
+    "name": "victorplusc/Algorithms",
+    "owner": "victorplusc",
+    "url": "https://github.com/victorplusc/Algorithms",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000504.py",
+    "fileSHA": "fd668f26eb22121fd19eb978f095b4eed096c0b4",
+    "url": "https://github.com/victorplusc/Algorithms/blob/096e693fb490a00abc5f3d7282a73f0a1dd7b3a7/Leetcode/636. Exclusive Time of Functions.py",
+    "rawUrl": "https://raw.githubusercontent.com/victorplusc/Algorithms/main/Leetcode/636. Exclusive Time of Functions.py"
+  },
+  "matching": {
+    "relevanceScore": 79.45
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2020-10-10T23:38:42Z",
+    "lastCommitDate": "2020-10-10T23:38:42Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Victor"
+    ],
+    "firstKnownAuthor": "Victor",
+    "latestKnownAuthor": "Victor"
+  },
+  "deduplication": {
+    "rawCodeHash": "bd396a428c9754eaa8efbf84d0d801c7c7924ce668ee08156ed3665105e59676",
+    "normalizedCodeHash": "bd396a428c9754eaa8efbf84d0d801c7c7924ce668ee08156ed3665105e59676",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:02:06.214300+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000428",
+  "problemId": "P000428",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000428",
+    "title": "Search Events Happening Today",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find all events scheduled for the given date.",
+    "input": "Event records and a date.",
+    "output": "Events occurring on that date.",
+    "constraints": "1 ≤ Number of Events ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000428",
+    "fileSHA": "0c21f08ed3bae5af1352806c926ff921c18e4ba9904f18d64057f9fdd4b7779e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0c21f08ed3bae5af1352806c926ff921c18e4ba9904f18d64057f9fdd4b7779e",
+    "normalizedCodeHash": "0c21f08ed3bae5af1352806c926ff921c18e4ba9904f18d64057f9fdd4b7779e",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000428: Search Events Happening Today"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

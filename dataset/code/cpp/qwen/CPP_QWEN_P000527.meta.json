@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000527",
+  "problemId": "P000527",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000527",
+    "title": "Parse Boolean Expression",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Given a boolean expression containing: t (true) f (false) ! (NOT) & (AND) | (OR) Parentheses and commas Evaluate the expression and return its boolean value.",
+    "input": "A valid boolean expression.",
+    "output": "Print true if the expression evaluates to true; otherwise print false.",
+    "constraints": "1 <= expression.length <= 2 \u00d7 10^4 The expression is valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000527",
+    "fileSHA": "1f5c750e0ca4ac0b600ea080d4167b64bb0f09f63217118c495bc6f2e1e80159",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.446Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "0a3b86b0ad9c2b3cd77938c5690fee7ca5354c6c2032d482fe242cb07562a779",
+    "normalizedCodeHash": "8944ab00954bb63cf83c986f249a95c459ab8261797dd53c761e8607e999b96b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.446Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

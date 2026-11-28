@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001136",
+  "problemId": "P001136",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001136",
+    "title": "Tribonacci Number",
+    "category": "Dynamic Programming",
+    "difficulty": "Easy",
+    "problemStatement": "The Tribonacci sequence is defined as: • T(0)=0 • T(1)=1 • T(2)=1 • T(n)=T(n−1)+T(n−2)+T(n−3) Given N, determine T(N).",
+    "input": "• First line contains integer N.",
+    "output": "Print T(N).",
+    "constraints": "• 0 ≤ N ≤ 37"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001136.py",
+    "fileSHA": "47080201bbb52c5ddfd6f4f72230bb83aa84204fed108ca46942a4c24d0e8660",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.473148+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "47080201bbb52c5ddfd6f4f72230bb83aa84204fed108ca46942a4c24d0e8660",
+    "normalizedCodeHash": "da0ed526890faed7448b0d2a048962c7cbdbdc6dea3443b7cd4549b3a91b9213",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.473148+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

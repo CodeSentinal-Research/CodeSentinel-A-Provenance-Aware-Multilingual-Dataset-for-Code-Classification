@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001136",
+  "problemId": "P001136",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001136",
+    "title": "Tribonacci Number",
+    "category": "Dynamic Programming",
+    "difficulty": "Easy",
+    "problemStatement": "The Tribonacci sequence is defined as: \u2022 T(0)=0 \u2022 T(1)=1 \u2022 T(2)=1 \u2022 T(n)=T(n\u22121)+T(n\u22122)+T(n\u22123) Given N, determine T(N).",
+    "input": "\u2022 First line contains integer N.",
+    "output": "Print T(N).",
+    "constraints": "\u2022 0 \u2264 N \u2264 37"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001136",
+    "fileSHA": "48fd5edbc6390f8e50ed61bdd7306e57ce1d004c93055fb446586bebf74b1085",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:47:37.120916+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "48fd5edbc6390f8e50ed61bdd7306e57ce1d004c93055fb446586bebf74b1085",
+    "normalizedCodeHash": "48fd5edbc6390f8e50ed61bdd7306e57ce1d004c93055fb446586bebf74b1085",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:47:37.120950+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

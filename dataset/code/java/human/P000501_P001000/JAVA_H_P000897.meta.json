@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000897",
+  "problemId": "P000897",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000897",
+    "title": "LCM of an Array",
+    "category": "Mathematics - GCD & LCM",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of positive integers, compute the least common multiple (LCM) of all the elements. If the result exceeds the range of a signed 64-bit integer, output the result modulo 10^9 + 7.",
+    "input": "Integer N Array nums",
+    "output": "The LCM of the array.",
+    "constraints": "1 <= N <= 10^5 1 <= nums[i] <= 10^6"
+  },
+  "repository": {
+    "name": "williamfiset/Algorithms",
+    "owner": "williamfiset",
+    "url": "https://github.com/williamfiset/Algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/williamfiset/algorithms/math/Lcm.java",
+    "fileSHA": "9024f36dfe1b3a930f20fce9cc1febd90e6f9fef",
+    "url": "https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/williamfiset/algorithms/math/Lcm.java",
+    "rawUrl": "https://raw.githubusercontent.com/williamfiset/Algorithms/master/src/main/java/com/williamfiset/algorithms/math/Lcm.java"
+  },
+  "matching": {
+    "relevanceScore": 81.28
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "78baef09cd7c792db299d698808e8f6f3a71e9660fbed016a17fdde24a64f054",
+    "normalizedCodeHash": "78baef09cd7c792db299d698808e8f6f3a71e9660fbed016a17fdde24a64f054",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T07:06:25.345142+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

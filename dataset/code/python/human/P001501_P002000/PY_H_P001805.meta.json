@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001805",
+  "problemId": "P001805",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001805",
+    "title": "Find the Median of a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a Binary Search Tree, determine the median of all stored keys using only O(1) auxiliary space whenever possible.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST.",
+    "output": "\u2022 Print the median value.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "anonymous-conf-medians/dp-medians",
+    "owner": "anonymous-conf-medians",
+    "url": "https://github.com/anonymous-conf-medians/dp-medians",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "binary_search_median.py",
+    "fileSHA": "ad21308e148f04c12fbddab41ac511ca33cc313c",
+    "url": "https://github.com/anonymous-conf-medians/dp-medians/blob/9c0afc08a0bc7f0a105b5e4534dac0b4910af2c5/binary_search_median.py",
+    "rawUrl": "https://raw.githubusercontent.com/anonymous-conf-medians/dp-medians/main/binary_search_median.py"
+  },
+  "matching": {
+    "relevanceScore": 77.92
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3284dfec8b026e153dc5554703acfdeb7158ca2b12feb2f42cd16b011e65fc58",
+    "normalizedCodeHash": "3284dfec8b026e153dc5554703acfdeb7158ca2b12feb2f42cd16b011e65fc58",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:36:28.155271+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

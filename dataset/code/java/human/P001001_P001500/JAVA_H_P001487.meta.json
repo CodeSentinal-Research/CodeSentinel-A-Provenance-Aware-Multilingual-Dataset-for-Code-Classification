@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001487",
+  "problemId": "P001487",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001487",
+    "title": "Camelcase Matching",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a pattern and a list of query strings, determine for each query whether it matches the pattern under camel-case matching rules.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain query strings. \u2022 Last line contains the pattern.",
+    "output": "Print YES or NO for each query.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 Query length \u2264 100"
+  },
+  "repository": {
+    "name": "LeetCode-in-Java/LeetCode-in-Java",
+    "owner": "LeetCode-in-Java",
+    "url": "https://github.com/LeetCode-in-Java/LeetCode-in-Java",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": true,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/g1001_1100/s1023_camelcase_matching/Solution.java",
+    "fileSHA": "5012c705cd3821c116ba74033df246d73ecf989a",
+    "url": "https://github.com/LeetCode-in-Java/LeetCode-in-Java/blob/b2b3536e7cc37090f136267e173cc43ff2e82965/src/main/java/g1001_1100/s1023_camelcase_matching/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/LeetCode-in-Java/LeetCode-in-Java/main/src/main/java/g1001_1100/s1023_camelcase_matching/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 89.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8397c5f078f558415bdc0eccd092a7acc3b862fc4fb42f9a2f4bcec0f973505c",
+    "normalizedCodeHash": "8397c5f078f558415bdc0eccd092a7acc3b862fc4fb42f9a2f4bcec0f973505c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T14:39:26.557236+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

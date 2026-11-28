@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000635",
+  "problemId": "P000635",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000635",
+    "title": "Reverse Nodes in Variable Sized Groups",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and an array groups representing group sizes, reverse the nodes according to the given group sizes in order. If the remaining number of nodes is smaller than the current group size, leave those nodes unchanged. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer g Array groups",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= g <= n 1 <= groups[i] <= n"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/languages/python/static-class-variable/StaticClassVariable.py",
+    "fileSHA": "ce231bf106961d019d534e1a4a5f32d3c0fc2c1b",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/languages/python/static-class-variable/StaticClassVariable.py",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/languages/python/static-class-variable/StaticClassVariable.py"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ee49fc49352ae59953f6dc56a2b548cd8a57af9e32994440344b13e8ca47bde1",
+    "normalizedCodeHash": "ee49fc49352ae59953f6dc56a2b548cd8a57af9e32994440344b13e8ca47bde1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:06.709194+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

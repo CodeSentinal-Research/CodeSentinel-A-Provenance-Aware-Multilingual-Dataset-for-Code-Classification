@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001603",
+  "problemId": "P001603",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001603",
+    "title": "Smallest Prefix Whose Sum Is At Least X",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and an integer X, determine the minimum prefix length whose sum is at least X. If no such prefix exists, print -1.",
+    "input": "\u2022 First line contains N and X. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the required length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "bqi343/USACO",
+    "owner": "bqi343",
+    "url": "https://github.com/bqi343/USACO",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Implementations/content/number-theory (11.1)/Primality/MultiplicativePrefixSums.h",
+    "fileSHA": "7b236041ecf49e426c71d6b98b3f008c06dbce2c",
+    "url": "https://github.com/bqi343/USACO/blob/master/Implementations/content/number-theory (11.1)/Primality/MultiplicativePrefixSums.h",
+    "rawUrl": "https://raw.githubusercontent.com/bqi343/USACO/master/Implementations/content/number-theory (11.1)/Primality/MultiplicativePrefixSums.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "91efc83564c6544eeabe96777d2cea27ef2b7efbb1c730eaac3931b033ab37db",
+    "normalizedCodeHash": "91efc83564c6544eeabe96777d2cea27ef2b7efbb1c730eaac3931b033ab37db",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T16:12:20.624973+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

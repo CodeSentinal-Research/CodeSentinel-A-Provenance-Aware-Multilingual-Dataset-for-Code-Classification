@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001859",
+  "problemId": "P001859",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001859",
+    "title": "Find the Largest Perfect Binary Search Tree Subtree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree, determine the size of the largest subtree that is both a Binary Search Tree and a perfect binary tree.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the size of the largest qualifying subtree.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001859.c",
+    "fileSHA": "7224c11d3fc3003111cdad2662988739ac74025ee0e5317e35ff4a6a53eda862",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:36.252Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "cf703758354c816fd1e538b8b732b7a7f6d70f207fd6f47938d1dc04f6424736",
+    "normalizedCodeHash": "7224c11d3fc3003111cdad2662988739ac74025ee0e5317e35ff4a6a53eda862",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:36.252Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

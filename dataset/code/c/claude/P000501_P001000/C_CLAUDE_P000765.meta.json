@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P000765",
+  "problemId": "P000765",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000765",
+    "title": "Recursive Heap Sort Verification",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers, recursively verify whether it satisfies the max-heap property. Return true if the array represents a valid max-heap; otherwise return false.",
+    "input": "Integer n Array nums",
+    "output": "true if the array is a max-heap, otherwise false.",
+    "constraints": "1 <= n <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000765",
+    "fileSHA": "10fe92b043597bfac8053ec93cadc1185709061abb6690e4d1d5407bd201cd9b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "94b82b258509a4e845bf4a481cbf543c0c886425a9e8266b0f7de4b0f8722d56",
+    "normalizedCodeHash": "10fe92b043597bfac8053ec93cadc1185709061abb6690e4d1d5407bd201cd9b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

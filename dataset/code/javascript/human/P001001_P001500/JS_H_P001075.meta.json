@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P001075",
+  "problemId": "P001075",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001075",
+    "title": "Bellman-Ford Algorithm",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a weighted directed graph that may contain negative edge weights, determine the shortest distance from a source vertex to every other vertex. If a negative weight cycle exists, report it.",
+    "input": "\u2022 First line contains integers N, M, and S. \u2022 Next M lines contain three integers u, v, and w.",
+    "output": "Print NEGATIVE CYCLE if one exists; otherwise print the shortest distances.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "saalikmubeen/datastructures-and-algorithms",
+    "owner": "saalikmubeen",
+    "url": "https://github.com/saalikmubeen/datastructures-and-algorithms",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P001001_P001500/JS_H_P001075.js",
+    "fileSHA": "bce2d73a6ab8cc36d3f34b8e8ac60acad54d6d35",
+    "url": "https://github.com/saalikmubeen/datastructures-and-algorithms/blob/fef8ddcfb3982157d7bf2bf7a9902802f5cf597a/21.Bellman-FordAlgorithm.js",
+    "rawUrl": "https://raw.githubusercontent.com/saalikmubeen/datastructures-and-algorithms/main/21.Bellman-FordAlgorithm.js"
+  },
+  "matching": {
+    "relevanceScore": 66.39
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2022-04-28T16:03:49Z",
+    "lastCommitDate": "2022-04-28T16:03:49Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "saalik123"
+    ],
+    "firstKnownAuthor": "saalik123",
+    "latestKnownAuthor": "saalik123"
+  },
+  "deduplication": {
+    "rawCodeHash": "350a7208e44125042f9e5e57d983c28a8dff6b22270f5f61f71e0d49c742712e",
+    "normalizedCodeHash": "350a7208e44125042f9e5e57d983c28a8dff6b22270f5f61f71e0d49c742712e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T07:28:11.067316+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

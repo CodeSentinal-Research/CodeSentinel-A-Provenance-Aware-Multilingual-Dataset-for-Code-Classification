@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000491",
+  "problemId": "P000491",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000491",
+    "title": "Build Array With Stack Operations",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "Given a strictly increasing target array and an integer n, construct the target array starting from an empty array by reading numbers from 1 to n. For each number read: You may perform a \"Push\" operation. If the number should not remain in the array, immediately perform a \"Pop\". Return the sequence of operations required to build the target array.",
+    "input": "Integer m Target array Integer n",
+    "output": "A list of operations (Push and Pop).",
+    "constraints": "1 <= m <= 100 1 <= target[i] <= n <= 100"
+  },
+  "repository": {
+    "name": "Narotam-Mishra/problem_solving",
+    "owner": "Narotam-Mishra",
+    "url": "https://github.com/Narotam-Mishra/problem_solving",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Stack_Problems/BuildArrayWithStackOperations.java",
+    "fileSHA": "b7476e5a3291e11a24fd6b5abe595bf971a61654",
+    "url": "https://github.com/Narotam-Mishra/problem_solving/blob/main/Stack_Problems/BuildArrayWithStackOperations.java",
+    "rawUrl": "https://raw.githubusercontent.com/Narotam-Mishra/problem_solving/main/Stack_Problems/BuildArrayWithStackOperations.java"
+  },
+  "matching": {
+    "relevanceScore": 81.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "092ce559dc2fce656a63d073d8cbd4a2fd720533fa01961e7209a67f818e7323",
+    "normalizedCodeHash": "092ce559dc2fce656a63d073d8cbd4a2fd720533fa01961e7209a67f818e7323",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T16:09:33.105630+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

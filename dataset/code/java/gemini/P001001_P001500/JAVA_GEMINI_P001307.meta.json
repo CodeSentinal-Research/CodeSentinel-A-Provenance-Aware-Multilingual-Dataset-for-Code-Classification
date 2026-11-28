@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001307",
+  "problemId": "P001307",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001307",
+    "title": "Police and Thieves",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "A street is represented as an array containing police ('P') and thieves ('T'). A police officer can catch at most one thief within a distance K. Determine the maximum number of thieves that can be caught.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains a string of length N consisting of 'P' and 'T'.",
+    "output": "Print the maximum number of thieves caught.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001307",
+    "fileSHA": "9d1a351f723ddc82918db310ad1566b9b0ee2cac065e9cd8d4ff4de7f39799f0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:20:54.697461+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9d1a351f723ddc82918db310ad1566b9b0ee2cac065e9cd8d4ff4de7f39799f0",
+    "normalizedCodeHash": "9d1a351f723ddc82918db310ad1566b9b0ee2cac065e9cd8d4ff4de7f39799f0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:20:54.697492+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

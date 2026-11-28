@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001078",
+  "problemId": "P001078",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001078",
+    "title": "Prim's Minimum Spanning Tree",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a connected weighted undirected graph, construct its Minimum Spanning Tree using Prim's algorithm and determine its total weight.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain integers u, v, and w.",
+    "output": "Print the total weight of the Minimum Spanning Tree.",
+    "constraints": "\u2022 2 \u2264 N \u2264 10^5 \u2022 N\u22121 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Python",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "graphs/minimum_spanning_tree_prims2.py",
+    "fileSHA": "d22111289a48f30d3f911064f06837fe312c4e05",
+    "url": "https://github.com/TheAlgorithms/Python/blob/master/graphs/minimum_spanning_tree_prims2.py",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Python/master/graphs/minimum_spanning_tree_prims2.py"
+  },
+  "matching": {
+    "relevanceScore": 77.98
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f22a3d85bcbc18a39e430cdfbf16ba31c26a68c6f5c291382b3ebab76849fcf6",
+    "normalizedCodeHash": "f22a3d85bcbc18a39e430cdfbf16ba31c26a68c6f5c291382b3ebab76849fcf6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T01:57:06.540375+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

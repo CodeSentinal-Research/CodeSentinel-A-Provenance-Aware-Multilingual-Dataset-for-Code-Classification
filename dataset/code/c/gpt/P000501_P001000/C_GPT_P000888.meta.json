@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000888",
+  "problemId": "P000888",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000888",
+    "title": "Automorphic Number",
+    "category": "Mathematics - Number Theory",
+    "difficulty": "Easy",
+    "problemStatement": "An Automorphic number is a number whose square ends with the same digits as the number itself. Given an integer N, determine whether it is an Automorphic number.",
+    "input": "Integer N",
+    "output": "true if N is an Automorphic number, otherwise false.",
+    "constraints": "0 <= N <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000888.c",
+    "fileSHA": "2a897cda70d1973b79c815a66243be4206707690f1edf81c123d2ddf10f66937",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2a897cda70d1973b79c815a66243be4206707690f1edf81c123d2ddf10f66937",
+    "normalizedCodeHash": "2a897cda70d1973b79c815a66243be4206707690f1edf81c123d2ddf10f66937",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

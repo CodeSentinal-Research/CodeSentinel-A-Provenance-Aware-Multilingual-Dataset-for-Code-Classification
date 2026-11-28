@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001122",
+  "problemId": "P001122",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001122",
+    "title": "Eventual Safe States",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a directed graph, determine all vertices from which every possible path eventually terminates without entering a cycle.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain directed edges.",
+    "output": "Print all safe vertices in ascending order.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "srinathdivate123/DSA",
+    "owner": "srinathdivate123",
+    "url": "https://github.com/srinathdivate123/DSA",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Graphs/S_G20_Find_Eventual_Safe_States_DFS.cpp",
+    "fileSHA": "c092d272cf6340a15e34c1631e6f473ecfbf5095",
+    "url": "https://github.com/srinathdivate123/DSA/blob/8b61a5283de1d2587f40808ecf1a1e243957b3ad/Graphs/S_G20_Find_Eventual_Safe_States_DFS.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/srinathdivate123/DSA/main/Graphs/S_G20_Find_Eventual_Safe_States_DFS.cpp"
+  },
+  "matching": {
+    "relevanceScore": 89.1
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4d0a964d74d73536272e9ae5c7b1d7d078fe4d7a802366697711f70d2b1f58fa",
+    "normalizedCodeHash": "4d0a964d74d73536272e9ae5c7b1d7d078fe4d7a802366697711f70d2b1f58fa",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T17:43:55.338374+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

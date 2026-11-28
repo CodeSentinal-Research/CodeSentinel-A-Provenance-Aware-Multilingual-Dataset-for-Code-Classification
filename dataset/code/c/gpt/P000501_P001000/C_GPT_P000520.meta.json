@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000520",
+  "problemId": "P000520",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000520",
+    "title": "Remove Stars From a String",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a string containing lowercase English letters and the character '*'. Each '*' removes itself and the closest non-removed character immediately to its left. Return the final string after processing all stars.",
+    "input": "A single string s.",
+    "output": "The resulting string.",
+    "constraints": "1 <= s.length <= 10^5 The input is guaranteed to be valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000520.c",
+    "fileSHA": "aaec2ecaef89dc29e9f9771ccfc92e64e0ecf2ddb9694b9c1542dcf2ae2448b8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "aaec2ecaef89dc29e9f9771ccfc92e64e0ecf2ddb9694b9c1542dcf2ae2448b8",
+    "normalizedCodeHash": "aaec2ecaef89dc29e9f9771ccfc92e64e0ecf2ddb9694b9c1542dcf2ae2448b8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "problemId": "P001123",
+  "title": "Find the City with the Smallest Number of Reachable Neighbors",
+  "category": "Graphs",
+  "difficulty": "Hard",
+  "problemStatement": "Given a weighted undirected graph and a distance threshold, determine the city having the smallest number of reachable neighboring cities within the threshold distance. If multiple cities satisfy the condition, print the largest indexed city.",
+  "input": "\u2022 First line contains integers N, M, and T. \u2022 Next M lines contain integers u, v, and w.",
+  "output": "Print the required city index.",
+  "constraints": "\u2022 2 \u2264 N \u2264 100 \u2022 1 \u2264 M \u2264 N(N\u22121)/2"
+}

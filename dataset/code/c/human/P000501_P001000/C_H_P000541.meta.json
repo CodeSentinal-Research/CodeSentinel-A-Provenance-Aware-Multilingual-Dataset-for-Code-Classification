@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P000541",
+  "problemId": "P000541",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000541",
+    "title": "Rotting Oranges",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an m \u00d7 n grid where: 0 represents an empty cell. 1 represents a fresh orange. 2 represents a rotten orange. Every minute, any fresh orange adjacent (up, down, left, or right) to a rotten orange also becomes rotten. Return the minimum number of minutes required until no fresh oranges remain. If it is impossible, return -1.",
+    "input": "Integers m and n An m \u00d7 n integer grid",
+    "output": "A single integer representing the required minutes.",
+    "constraints": "1 <= m, n <= 100"
+  },
+  "repository": {
+    "name": "atulraut/atclib",
+    "owner": "atulraut",
+    "url": "https://github.com/atulraut/atclib",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P000501_P001000/C_H_P000541.c",
+    "fileSHA": "acc24d4073bc415075e51fb0ec7a9c9d2e6708a7",
+    "url": "https://github.com/atulraut/atclib/blob/41fddd65299c1fe3a5c756e1901a4dff804ffd63/stack_queue/leetcode/orangesRotting.c",
+    "rawUrl": "https://raw.githubusercontent.com/atulraut/atclib/main/stack_queue/leetcode/orangesRotting.c"
+  },
+  "matching": {
+    "relevanceScore": 70.0
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2021-10-29T04:01:19Z",
+    "lastCommitDate": "2021-10-29T04:01:19Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Atul Raut"
+    ],
+    "firstKnownAuthor": "Atul Raut",
+    "latestKnownAuthor": "Atul Raut"
+  },
+  "deduplication": {
+    "rawCodeHash": "98b0f581f55240db1d06c18faf597a52c6990c782f12aa89f5e7e277a869f53f",
+    "normalizedCodeHash": "98b0f581f55240db1d06c18faf597a52c6990c782f12aa89f5e7e277a869f53f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:16:58.792678+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

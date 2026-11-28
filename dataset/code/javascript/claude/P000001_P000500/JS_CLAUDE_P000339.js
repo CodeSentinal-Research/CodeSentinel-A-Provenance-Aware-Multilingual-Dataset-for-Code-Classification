@@ -1,0 +1,1 @@
+const s=require('fs').readFileSync('/dev/stdin','utf8').trim().toLowerCase();const v='aeiou',n=s.length;let a=0,b=0;for(let i=0;i<n/2;i++)if(v.includes(s[i]))a++;for(let i=n/2;i<n;i++)if(v.includes(s[i]))b++;console.log(a===b?'Yes':'No');

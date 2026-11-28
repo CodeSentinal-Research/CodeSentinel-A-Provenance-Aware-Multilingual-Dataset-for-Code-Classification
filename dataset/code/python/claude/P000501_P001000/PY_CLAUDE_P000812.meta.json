@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000812",
+  "problemId": "P000812",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000812",
+    "title": "Valid Perfect Square",
+    "category": "Binary Search",
+    "difficulty": "Easy",
+    "problemStatement": "Given a positive integer num, determine whether it is a perfect square without using any built-in square root function.",
+    "input": "Integer num",
+    "output": "true if num is a perfect square, otherwise false.",
+    "constraints": "1 <= num <= 2^31 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000812",
+    "fileSHA": "f19594126975609bb10896d038f9cd3d2b98d2c44792c6f42781cf9f013b6e6f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f19594126975609bb10896d038f9cd3d2b98d2c44792c6f42781cf9f013b6e6f",
+    "normalizedCodeHash": "f19594126975609bb10896d038f9cd3d2b98d2c44792c6f42781cf9f013b6e6f",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique solution P000812: Valid Perfect Square"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

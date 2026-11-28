@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000414",
+  "problemId": "P000414",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000414",
+    "title": "Search Available Flights Within Budget",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Retrieve every available flight whose ticket price does not exceed the specified budget.",
+    "input": "Flight records and a maximum budget.",
+    "output": "Matching flights.",
+    "constraints": "1 \u2264 Number of Flights \u2264 10^5"
+  },
+  "repository": {
+    "name": "mrig-ai/ai-engineering-group",
+    "owner": "mrig-ai",
+    "url": "https://github.com/mrig-ai/ai-engineering-group",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "ai-travel-planner/src/agents/budget_agent.py",
+    "fileSHA": "0d903f66f6f0ff605a95b3f0f165c486127a9671",
+    "url": "https://github.com/mrig-ai/ai-engineering-group/blob/b71fb89b5e1cd7d2827a0c79b8e84fbacde7f09c/ai-travel-planner/src/agents/budget_agent.py",
+    "rawUrl": "https://raw.githubusercontent.com/mrig-ai/ai-engineering-group/main/ai-travel-planner/src/agents/budget_agent.py"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c450f9f1326c42f7f6aa81f6b10c2a41708e5d59cbb05b3ce887fecbe0c9c206",
+    "normalizedCodeHash": "c450f9f1326c42f7f6aa81f6b10c2a41708e5d59cbb05b3ce887fecbe0c9c206",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T19:43:14.193306+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

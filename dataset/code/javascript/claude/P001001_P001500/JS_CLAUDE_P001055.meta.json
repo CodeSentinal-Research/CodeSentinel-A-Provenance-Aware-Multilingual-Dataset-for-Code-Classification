@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P001055",
+  "problemId": "P001055",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001055",
+    "title": "Minimum Refueling Stops",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "A vehicle starts with an initial amount of fuel and must reach a destination. Fuel stations are located along the route, each providing a specific amount of fuel. Determine the minimum number of refueling stops required to reach the destination.",
+    "input": "• Distance to destination. • Initial fuel. • Number of fuel stations. • Position and fuel available at each station.",
+    "output": "Print the minimum number of refueling stops, or -1 if the destination cannot be reached.",
+    "constraints": "• 1 ≤ Number of stations ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P001055",
+    "fileSHA": "0cd520b895c4cdda872014c48459923c7257b6825f9aae08a9fdd8e74df19296",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0cd520b895c4cdda872014c48459923c7257b6825f9aae08a9fdd8e74df19296",
+    "normalizedCodeHash": "0cd520b895c4cdda872014c48459923c7257b6825f9aae08a9fdd8e74df19296",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P001055"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

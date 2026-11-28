@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001141",
+  "problemId": "P001141",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001141",
+    "title": "Subset Sum Problem",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of positive integers and a target sum S, determine whether there exists a subset whose sum is exactly S.",
+    "input": "\u2022 First line contains integers N and S. \u2022 Second line contains N integers.",
+    "output": "Print YES if such a subset exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 200 \u2022 1 \u2264 S \u2264 10^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/C-Plus-Plus",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/C-Plus-Plus",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "dynamic_programming/subset_sum_dynamic.cpp",
+    "fileSHA": "ef3953a82869a84b4cf37f6f0affece36e3a03fe",
+    "url": "https://github.com/TheAlgorithms/C-Plus-Plus/blob/master/dynamic_programming/subset_sum_dynamic.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/C-Plus-Plus/master/dynamic_programming/subset_sum_dynamic.cpp"
+  },
+  "matching": {
+    "relevanceScore": 94.44
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ef125d33b0ea4b36f129076bb4c44b6ef680d23e8023b459d096e725576b1d9e",
+    "normalizedCodeHash": "ef125d33b0ea4b36f129076bb4c44b6ef680d23e8023b459d096e725576b1d9e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:47:42.915331+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

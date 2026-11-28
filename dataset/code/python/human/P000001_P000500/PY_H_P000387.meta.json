@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000387",
+  "problemId": "P000387",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000387",
+    "title": "Search Transaction by Transaction ID",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Locate a financial transaction using its transaction ID.",
+    "input": "Transaction records and a transaction ID.",
+    "output": "Transaction details or \"Transaction Not Found\".",
+    "constraints": "1 \u2264 Number of Transactions \u2264 10^5"
+  },
+  "repository": {
+    "name": "zisaa-a11y/chamberonebackend",
+    "owner": "zisaa-a11y",
+    "url": "https://github.com/zisaa-a11y/chamberonebackend",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "payments/services/bkash.py",
+    "fileSHA": "10f86a7bd340d90f072540042f6b63df035a959c",
+    "url": "https://github.com/zisaa-a11y/chamberonebackend/blob/e4194a2a25d23a3fcb0ba6ff7eadc50ce6627300/payments/services/bkash.py",
+    "rawUrl": "https://raw.githubusercontent.com/zisaa-a11y/chamberonebackend/main/payments/services/bkash.py"
+  },
+  "matching": {
+    "relevanceScore": 80.0
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "946befa562bbb7ea56cabfdb1eaa30a84ed2091b16eadc254cd63ec1ae434791",
+    "normalizedCodeHash": "946befa562bbb7ea56cabfdb1eaa30a84ed2091b16eadc254cd63ec1ae434791",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (AST Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T06:59:53.911982+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

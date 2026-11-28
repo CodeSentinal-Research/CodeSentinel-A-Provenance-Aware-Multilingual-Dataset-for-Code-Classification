@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){String s=new Scanner(System.in).next();Deque<String>ss=new ArrayDeque<>();Deque<Integer>ns=new ArrayDeque<>();String cur="";int num=0;for(char c:s.toCharArray()){if(Character.isDigit(c))num=num*10+(c-'0');else if(c=='['){ss.push(cur);ns.push(num);cur="";num=0;}else if(c==']'){int k=ns.pop();String prev=ss.pop();StringBuilder sb=new StringBuilder(prev);for(int i=0;i<k;i++)sb.append(cur);cur=sb.toString();}else cur+=c;}System.out.println(cur);}}

@@ -1,0 +1,74 @@
+{
+  "solutionId": "CPP_H_P000607",
+  "problemId": "P000607",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000607",
+    "title": "LFU Cache",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design and implement an LFU (Least Frequently Used) cache. The cache supports: get(key) put(key, value) If the cache is full, remove the key with the lowest access frequency. If multiple keys have the same frequency, remove the least recently used among them. Both operations should run in O(1) average time.",
+    "input": "Integer capacity Integer q Next q operations",
+    "output": "Print the result of every get() operation.",
+    "constraints": "0 <= capacity <= 10^4 1 <= q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "778477/LeetCode",
+    "owner": "778477",
+    "url": "https://github.com/778477/LeetCode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "cpp/human/P000501_P001000/CPP_H_P000607.cpp",
+    "fileSHA": "a1e84a8f43773e73fd1217538001c0e43978930e",
+    "url": "https://github.com/778477/LeetCode/blob/d0cf03fcd6525ceeee231ba7efe40955eec4314d/00460. LFU Cache.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/778477/LeetCode/main/00460. LFU Cache.cpp"
+  },
+  "matching": {
+    "relevanceScore": 75.71
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2016-12-04T09:48:14Z",
+    "lastCommitDate": "2016-12-04T09:48:14Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "\u79bb\u592e"
+    ],
+    "firstKnownAuthor": "\u79bb\u592e",
+    "latestKnownAuthor": "\u79bb\u592e"
+  },
+  "deduplication": {
+    "rawCodeHash": "3725357f6aa6a4a01f09001436ada1381ce0c7d243096e7ca5de3f3816b9bca0",
+    "normalizedCodeHash": "3725357f6aa6a4a01f09001436ada1381ce0c7d243096e7ca5de3f3816b9bca0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:43:54.019933+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

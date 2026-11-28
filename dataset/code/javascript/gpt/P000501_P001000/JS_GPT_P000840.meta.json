@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000840",
+  "problemId": "P000840",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000840",
+    "title": "Minimum Limit of Balls in a Bag",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given bags containing balls. In one operation, you may split a bag into two non-empty bags. Return the minimum possible maximum number of balls in any bag after performing at most maxOperations operations.",
+    "input": "Integer n Array nums Integer maxOperations",
+    "output": "The minimum possible penalty.",
+    "constraints": "1 <= n <= 10^5 1 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000840.js",
+    "fileSHA": "2963be166374bab6393dbdf5f508982ea1ff3ae3ddf1d41b39e2f87cc7577e68",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2963be166374bab6393dbdf5f508982ea1ff3ae3ddf1d41b39e2f87cc7577e68",
+    "normalizedCodeHash": "2963be166374bab6393dbdf5f508982ea1ff3ae3ddf1d41b39e2f87cc7577e68",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

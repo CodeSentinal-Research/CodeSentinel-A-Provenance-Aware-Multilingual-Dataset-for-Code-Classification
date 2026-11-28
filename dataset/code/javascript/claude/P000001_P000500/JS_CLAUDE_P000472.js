@@ -1,0 +1,1 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const[r,c]=l[0].split(' ').map(Number);const mat=[];for(let i=0;i<r;i++)mat.push(l[i+1].split(' ').map(Number));for(let i=0;i<r;i++)for(let j=0;j<c;j++){const v=mat[i][j];if((i===0||v>mat[i-1][j])&&(i===r-1||v>mat[i+1][j])&&(j===0||v>mat[i][j-1])&&(j===c-1||v>mat[i][j+1])){console.log(v);process.exit();}}

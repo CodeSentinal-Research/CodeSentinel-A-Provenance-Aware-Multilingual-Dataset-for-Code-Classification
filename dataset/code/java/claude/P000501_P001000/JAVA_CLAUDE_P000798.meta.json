@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000798",
+  "problemId": "P000798",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000798",
+    "title": "Maximum Length of Contiguous Array with Equal 0s and 1s",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary array, return the maximum length of a contiguous subarray containing an equal number of 0s and 1s.",
+    "input": "Integer n Binary array nums",
+    "output": "The maximum length of a valid subarray.",
+    "constraints": "1 <= n <= 10^5 nums[i] ∈ {0,1}"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000798",
+    "fileSHA": "4074717e2ceee2ad144fae71ce92abdaa038b84e61545a53f3ca0696e812917e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4074717e2ceee2ad144fae71ce92abdaa038b84e61545a53f3ca0696e812917e",
+    "normalizedCodeHash": "4074717e2ceee2ad144fae71ce92abdaa038b84e61545a53f3ca0696e812917e",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000798: Maximum Length of Contiguous Array with Equal 0s and 1s"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

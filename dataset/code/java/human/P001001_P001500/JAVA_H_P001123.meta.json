@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001123",
+  "problemId": "P001123",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001123",
+    "title": "Find the City with the Smallest Number of Reachable Neighbors",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a weighted undirected graph and a distance threshold, determine the city having the smallest number of reachable neighboring cities within the threshold distance. If multiple cities satisfy the condition, print the largest indexed city.",
+    "input": "\u2022 First line contains integers N, M, and T. \u2022 Next M lines contain integers u, v, and w.",
+    "output": "Print the required city index.",
+    "constraints": "\u2022 2 \u2264 N \u2264 100 \u2022 1 \u2264 M \u2264 N(N\u22121)/2"
+  },
+  "repository": {
+    "name": "CodeSahil21/java-Questions",
+    "owner": "CodeSahil21",
+    "url": "https://github.com/CodeSahil21/java-Questions",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/Revise/Graphs/ShortestPath/Quest15.java",
+    "fileSHA": "dc4f0b4502ecd6a3c2af15682f398766d0f3031a",
+    "url": "https://github.com/CodeSahil21/java-Questions/blob/1b4a3702d0ccd15627baef78e13260d31411c06d/src/Revise/Graphs/ShortestPath/Quest15.java",
+    "rawUrl": "https://raw.githubusercontent.com/CodeSahil21/java-Questions/main/src/Revise/Graphs/ShortestPath/Quest15.java"
+  },
+  "matching": {
+    "relevanceScore": 68.75
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "334e0b631c391125e2850dfdd7caacebff4d4ae21140b1ac78493dd0b0d5e731",
+    "normalizedCodeHash": "334e0b631c391125e2850dfdd7caacebff4d4ae21140b1ac78493dd0b0d5e731",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:54:57.515338+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

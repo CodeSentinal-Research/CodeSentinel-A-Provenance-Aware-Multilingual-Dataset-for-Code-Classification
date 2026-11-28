@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001063",
+  "problemId": "P001063",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001063",
+    "title": "Count Vertices with Zero Out-Degree",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given a directed graph, determine the number of vertices having an out-degree of zero.",
+    "input": "\u2022 First line contains two integers N and M. \u2022 The next M lines contain directed edges.",
+    "output": "Print the number of vertices with zero out-degree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001063",
+    "fileSHA": "89a3b31ee90b30584c8fa4794eda81fd74fb9c8982b3d63e639654dd07ecec2f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.590Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "8c2007706f54389e04870f1aec4d3cb426164195e14d000d1d86f93e2b887100",
+    "normalizedCodeHash": "c4631ef0e8f1e87b6e92c9709d8735e537e4b3a09260ce1f93ab95cb39b4546b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.590Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

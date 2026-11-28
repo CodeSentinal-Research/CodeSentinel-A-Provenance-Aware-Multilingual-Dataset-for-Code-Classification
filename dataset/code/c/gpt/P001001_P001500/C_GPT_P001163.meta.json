@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001163",
+  "problemId": "P001163",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001163",
+    "title": "Interleaving Strings",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given three strings A, B, and C, determine whether C can be formed by interleaving the characters of A and B while preserving the relative order of characters in both strings.",
+    "input": "• First line contains string A. • Second line contains string B. • Third line contains string C.",
+    "output": "Print YES if possible; otherwise print NO.",
+    "constraints": "• 1 ≤ Length of each string ≤ 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001163.c",
+    "fileSHA": "f709eb27c13773d5097e8252003cbc860387311822d27d1e5d44ea95127f8f02",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.160Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "5a3bafc36da8e8251737ade2c4a99565ec2129459f3c7a978ca718dda43093ca",
+    "normalizedCodeHash": "f709eb27c13773d5097e8252003cbc860387311822d27d1e5d44ea95127f8f02",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.160Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

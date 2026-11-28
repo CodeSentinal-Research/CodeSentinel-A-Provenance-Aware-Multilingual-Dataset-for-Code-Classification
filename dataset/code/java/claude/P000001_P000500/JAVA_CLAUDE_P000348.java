@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){int n=new Scanner(System.in).nextInt();long MOD=1000000007;long[][]dp=new long[2][3];dp[0][0]=1;for(int i=0;i<n;i++){long[][]nd=new long[2][3];for(int aa=0;aa<2;aa++)for(int l=0;l<3;l++){if(dp[aa][l]==0)continue;nd[aa][0]=(nd[aa][0]+dp[aa][l])%MOD;if(l<2)nd[aa][l+1]=(nd[aa][l+1]+dp[aa][l])%MOD;if(aa==0)nd[1][0]=(nd[1][0]+dp[aa][l])%MOD;}dp=nd;}long res=0;for(long[]row:dp)for(long v:row)res=(res+v)%MOD;System.out.println(res);}}

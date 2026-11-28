@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000455",
+  "problemId": "P000455",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000455",
+    "title": "Capacity to Ship Packages",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program that finds the least weight capacity of a ship to ship all packages within D days.",
+    "input": "First line contains N and D. Second line contains N package weights.",
+    "output": "Least capacity required.",
+    "constraints": "1 ≤ N ≤ 1000, 1 ≤ D ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000455.c",
+    "fileSHA": "5e11720b75c81cdb15d1629a348c4c52f232523f4e8db2c433270623619b54ac",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "5e11720b75c81cdb15d1629a348c4c52f232523f4e8db2c433270623619b54ac",
+    "normalizedCodeHash": "5e11720b75c81cdb15d1629a348c4c52f232523f4e8db2c433270623619b54ac",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

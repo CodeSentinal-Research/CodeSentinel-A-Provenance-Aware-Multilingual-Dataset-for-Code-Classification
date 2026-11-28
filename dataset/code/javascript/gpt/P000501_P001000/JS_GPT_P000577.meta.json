@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000577",
+  "problemId": "P000577",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000577",
+    "title": "Binary Tree Bottom View",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, return the bottom view of the tree. For every vertical column, the bottommost visible node should be included in the result. If multiple nodes occupy the same position, the node encountered later during level order traversal should be considered visible.",
+    "input": "The root of a binary tree.",
+    "output": "A list representing the bottom view from leftmost column to rightmost column.",
+    "constraints": "Number of nodes is in the range [0, 10^5]"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000577.js",
+    "fileSHA": "d399b5339f20bff1a1405cc0dd5a78b28ecf1d2a89b2e491a1e39d94fdaa48ec",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d399b5339f20bff1a1405cc0dd5a78b28ecf1d2a89b2e491a1e39d94fdaa48ec",
+    "normalizedCodeHash": "d399b5339f20bff1a1405cc0dd5a78b28ecf1d2a89b2e491a1e39d94fdaa48ec",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

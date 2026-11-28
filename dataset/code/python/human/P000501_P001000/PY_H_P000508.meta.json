@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P000508",
+  "problemId": "P000508",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000508",
+    "title": "Number of Visible People in a Queue",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "There are n people standing in a queue, each having a distinct height. For every person, determine how many people to their right are visible. A person j is visible to person i if: j > i Every person between i and j has a height smaller than both person i and person j. Return an array where the i-th element is the number of people visible to the right of person i.",
+    "input": "Integer n Array heights",
+    "output": "An array of n integers.",
+    "constraints": "1 <= n <= 10^5 1 <= heights[i] <= 10^5 All heights are distinct."
+  },
+  "repository": {
+    "name": "Saima-Chaity/Leetcode",
+    "owner": "Saima-Chaity",
+    "url": "https://github.com/Saima-Chaity/Leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000508.py",
+    "fileSHA": "f89fd9dc961bdf3622af903b9b89866e51dac9ae",
+    "url": "https://github.com/Saima-Chaity/Leetcode/blob/4b0c97e2fea66fca4c2a7b8038d9acba4beb9106/Monotonic_Queue_Or_Stack/Number of Visible People in a Queue.py",
+    "rawUrl": "https://raw.githubusercontent.com/Saima-Chaity/Leetcode/main/Monotonic_Queue_Or_Stack/Number of Visible People in a Queue.py"
+  },
+  "matching": {
+    "relevanceScore": 79.74
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2022-03-21T03:59:03Z",
+    "lastCommitDate": "2022-03-21T03:59:03Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Saima Chaity"
+    ],
+    "firstKnownAuthor": "Saima Chaity",
+    "latestKnownAuthor": "Saima Chaity"
+  },
+  "deduplication": {
+    "rawCodeHash": "f82afd0b98fca2342bde7d12c089bd480940a11ef9bb39c5a2fb3184910ddab7",
+    "normalizedCodeHash": "f82afd0b98fca2342bde7d12c089bd480940a11ef9bb39c5a2fb3184910ddab7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:03:15.077148+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001172",
+  "problemId": "P001172",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001172",
+    "title": "Unique Paths with Obstacles",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an R × C grid containing obstacles, determine the number of distinct paths from the top-left corner to the bottom-right corner. You may move only right or down.",
+    "input": "• First line contains integers R and C. • Next R lines each contain C integers (0 = free cell, 1 = obstacle).",
+    "output": "Print the number of unique paths.",
+    "constraints": "• 1 ≤ R, C ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001172.py",
+    "fileSHA": "0b84783eaf1fd740ff495bde2c932e59e87c1a0f62801561c72f7cac72256695",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.644784+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0b84783eaf1fd740ff495bde2c932e59e87c1a0f62801561c72f7cac72256695",
+    "normalizedCodeHash": "c36b3a42835b3794ef6e2289ce41338cce98dc0063249d9cfa92239550bf7513",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.644784+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

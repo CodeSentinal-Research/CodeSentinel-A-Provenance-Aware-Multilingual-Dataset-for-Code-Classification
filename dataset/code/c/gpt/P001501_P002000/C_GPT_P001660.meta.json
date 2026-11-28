@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001660",
+  "problemId": "P001660",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001660",
+    "title": "Detect Duplicate Subtrees",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, identify all distinct subtrees that appear more than once. Two subtrees are considered duplicates if they have identical structure and node values.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the root values of all duplicate subtrees in the required order. If no duplicate subtree exists, print NONE.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001660.c",
+    "fileSHA": "4b4bcc878254bd022276b26d92f7c7fea4870f724f2a83897144525523f07c86",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.143Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "4e9bd53bb2221d5e9dbfc185c8ad96f44f71bbcafeae880aad2e75d1b1962a5d",
+    "normalizedCodeHash": "4b4bcc878254bd022276b26d92f7c7fea4870f724f2a83897144525523f07c86",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.143Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

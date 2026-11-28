@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001105",
+  "problemId": "P001105",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001105",
+    "title": "Course Schedule",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "There are N courses labeled from 1 to N and a list of prerequisite pairs. Determine whether it is possible to complete all courses.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain prerequisite pairs u and v, indicating that u must be completed before v.",
+    "output": "Print YES if all courses can be completed; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "josh24311/c_practice",
+    "owner": "josh24311",
+    "url": "https://github.com/josh24311/c_practice",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "207. Course Schedule.c",
+    "fileSHA": "2415405d2984fceb264ab585a674f51be1b0e69b",
+    "url": "https://github.com/josh24311/c_practice/blob/9e25e7b4e38550a7bba051186674a342440d7f00/207. Course Schedule.c",
+    "rawUrl": "https://raw.githubusercontent.com/josh24311/c_practice/main/207. Course Schedule.c"
+  },
+  "matching": {
+    "relevanceScore": 81.67
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "38701abad9449d62e71bae5979ef2a8503c74a806816546b1c3552d12a1f6a96",
+    "normalizedCodeHash": "38701abad9449d62e71bae5979ef2a8503c74a806816546b1c3552d12a1f6a96",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:50:46.212165+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

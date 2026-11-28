@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001119",
+  "problemId": "P001119",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001119",
+    "title": "Evaluate Division",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given equations of the form A / B = value and several queries, determine the result of each query. If the result cannot be determined, print -1.0.",
+    "input": "• First line contains integer E. • Next E lines contain two variable names and a floating-point value. • Next line contains integer Q. • Next Q lines contain query pairs.",
+    "output": "Print the answer for each query.",
+    "constraints": "• 1 ≤ E ≤ 10^4 • 1 ≤ Q ≤ 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001119.c",
+    "fileSHA": "87889dbec268a3e9127d1aec3316385d23c458efb4c21e479cf570fd961f31ed",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.058Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "4a8812f62cdddc4a5b5f525ac018617f88b98f9c01a64f8bfb034beff96ec848",
+    "normalizedCodeHash": "87889dbec268a3e9127d1aec3316385d23c458efb4c21e479cf570fd961f31ed",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.058Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

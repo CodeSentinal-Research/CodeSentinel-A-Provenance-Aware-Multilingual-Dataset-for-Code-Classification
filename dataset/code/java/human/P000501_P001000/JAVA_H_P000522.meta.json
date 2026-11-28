@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000522",
+  "problemId": "P000522",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000522",
+    "title": "Design Browser History",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Design a browser history manager that supports the following operations: visit(url) \u2014 Visit a new webpage. back(steps) \u2014 Move back by at most steps pages. forward(steps) \u2014 Move forward by at most steps pages. Initially, the browser starts at the homepage. Process a sequence of operations and print the current page after every back() and forward() operation.",
+    "input": "A homepage URL. Integer q. Next q operations.",
+    "output": "Print the current page after every back() and forward() operation.",
+    "constraints": "1 <= q <= 5 \u00d7 10^4 URL length does not exceed 100 characters."
+  },
+  "repository": {
+    "name": "gopalakrishnan-anbumani/DSAVault",
+    "owner": "gopalakrishnan-anbumani",
+    "url": "https://github.com/gopalakrishnan-anbumani/DSAVault",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "leetcode-practise/Design Browser History.java",
+    "fileSHA": "943f91c7575fcd81d50d248ea6effeb9b957560c",
+    "url": "https://github.com/gopalakrishnan-anbumani/DSAVault/blob/f1d90b73eaa8247ab0dcd71d85dfb48d7b9bc533/leetcode-practise/Design Browser History.java",
+    "rawUrl": "https://raw.githubusercontent.com/gopalakrishnan-anbumani/DSAVault/main/leetcode-practise/Design Browser History.java"
+  },
+  "matching": {
+    "relevanceScore": 77.84
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "278c405a2145b4a68329391183986a721989fc968865cee92431ae9f0356d0fb",
+    "normalizedCodeHash": "278c405a2145b4a68329391183986a721989fc968865cee92431ae9f0356d0fb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:23:03.427755+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001310",
+  "problemId": "P001310",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001310",
+    "title": "Minimum Cost of Connecting Sticks",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Given the lengths of N sticks, repeatedly connect any two sticks into one. The cost of each connection equals the sum of the lengths of the two sticks. Determine the minimum total connection cost.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing stick lengths.",
+    "output": "Print the minimum total cost.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "mirinta/leet_code",
+    "owner": "mirinta",
+    "url": "https://github.com/mirinta/leet_code",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "priority_queue/1167_minimum_cost_to_connect_sticks.cpp",
+    "fileSHA": "c065e6a6a379d76170eafeaec06f15f63b976f2b",
+    "url": "https://github.com/mirinta/leet_code/blob/55dd41527349f495a655f2560ae490ffeeb838df/priority_queue/1167_minimum_cost_to_connect_sticks.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/mirinta/leet_code/main/priority_queue/1167_minimum_cost_to_connect_sticks.cpp"
+  },
+  "matching": {
+    "relevanceScore": 87.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e1a9032af823f7cbb7ea829345f5aee6e9b9ccc1c058ab59a1199835b4ecdc36",
+    "normalizedCodeHash": "e1a9032af823f7cbb7ea829345f5aee6e9b9ccc1c058ab59a1199835b4ecdc36",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T00:08:29.679807+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

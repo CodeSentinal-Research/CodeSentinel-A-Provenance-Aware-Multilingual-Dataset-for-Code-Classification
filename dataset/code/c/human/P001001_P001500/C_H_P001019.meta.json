@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P001019",
+  "problemId": "P001019",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001019",
+    "title": "K Closest Points to the Origin",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given the coordinates of N points in a two-dimensional plane and an integer K, determine the K points closest to the origin based on Euclidean distance.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Next N lines contain two integers representing the coordinates of a point.",
+    "output": "Print the K closest points in any order.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "vli02/leetcode",
+    "owner": "vli02",
+    "url": "https://github.com/vli02/leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P001001_P001500/C_H_P001019.c",
+    "fileSHA": "4f02184b07dda2638eacb7743c362bc5f9039a94",
+    "url": "https://github.com/vli02/leetcode/blob/41c42562bbde6e700c450a594dc93b7134229926/973. K Closest Points to Origin.c",
+    "rawUrl": "https://raw.githubusercontent.com/vli02/leetcode/main/973. K Closest Points to Origin.c"
+  },
+  "matching": {
+    "relevanceScore": 72.85
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2019-04-24T05:55:47Z",
+    "lastCommitDate": "2019-05-28T05:29:50Z",
+    "commitCount": 2,
+    "authorCount": 1,
+    "authors": [
+      "Victor"
+    ],
+    "firstKnownAuthor": "Victor",
+    "latestKnownAuthor": "Victor"
+  },
+  "deduplication": {
+    "rawCodeHash": "4e36906c8510b09477a706e0bdec09d7cd95bc163f2f2a0d813c865d2fca8681",
+    "normalizedCodeHash": "4e36906c8510b09477a706e0bdec09d7cd95bc163f2f2a0d813c865d2fca8681",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T07:09:18.913597+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

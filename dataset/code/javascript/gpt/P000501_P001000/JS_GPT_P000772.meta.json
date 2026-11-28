@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000772",
+  "problemId": "P000772",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000772",
+    "title": "Recursive Egg Dropping Problem",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given E identical eggs and a building with F floors, determine the minimum number of attempts required in the worst case to find the highest floor from which an egg can be dropped without breaking. Solve the problem recursively.",
+    "input": "Integer E Integer F",
+    "output": "The minimum number of attempts.",
+    "constraints": "1 <= E <= 20 1 <= F <= 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000772.js",
+    "fileSHA": "03b39047bcace42efc6d4c3c323435024f8e00035107f30a774a94714b5a90f0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "03b39047bcace42efc6d4c3c323435024f8e00035107f30a774a94714b5a90f0",
+    "normalizedCodeHash": "03b39047bcace42efc6d4c3c323435024f8e00035107f30a774a94714b5a90f0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

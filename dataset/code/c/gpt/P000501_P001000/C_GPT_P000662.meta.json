@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000662",
+  "problemId": "P000662",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000662",
+    "title": "Reverse First K Nodes of Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list and an integer k, reverse only the first k nodes of the list. The remaining nodes must remain unchanged. If k is greater than the length of the list, reverse the entire list. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer k",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000662.c",
+    "fileSHA": "0bcc7a3b3ee445d07eb24fc315e8480543d7b2b040a64825287fd796b0c87033",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0bcc7a3b3ee445d07eb24fc315e8480543d7b2b040a64825287fd796b0c87033",
+    "normalizedCodeHash": "0bcc7a3b3ee445d07eb24fc315e8480543d7b2b040a64825287fd796b0c87033",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

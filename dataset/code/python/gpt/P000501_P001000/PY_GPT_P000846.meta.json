@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000846",
+  "problemId": "P000846",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000846",
+    "title": "Minimized Maximum of Products Distributed to Any Store",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given n stores and quantities of different product types. Distribute the products so that every product of the same type goes to one or more stores, and each store receives products of only one type. Return the minimum possible maximum number of products assigned to any store.",
+    "input": "Integer n Integer m Array quantities",
+    "output": "The minimized maximum products per store.",
+    "constraints": "1 <= m <= n <= 10^5 1 <= quantities[i] <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000846.py",
+    "fileSHA": "ebd182317bd57544bfd2f9756ba593f8fb71c15eadd363b5dcc005eafc64d192",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.265943+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ebd182317bd57544bfd2f9756ba593f8fb71c15eadd363b5dcc005eafc64d192",
+    "normalizedCodeHash": "ec4d0f7d3b5bb0081e75b1982b0d4d6b82854e2b9b7ac2951301e806051e13dd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.265943+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

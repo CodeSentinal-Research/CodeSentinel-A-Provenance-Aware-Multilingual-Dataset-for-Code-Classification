@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001560",
+  "problemId": "P001560",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001560",
+    "title": "Minimum Window Substring",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given two strings S and T, find the smallest substring of S that contains every character of T (including duplicates). If no such substring exists, print an empty string.",
+    "input": "\u2022 First line contains string S. \u2022 Second line contains string T.",
+    "output": "\u2022 Print the minimum window substring. If no valid substring exists, print an empty line.",
+    "constraints": "\u2022 1 \u2264 |T| \u2264 |S| \u2264 2 \u00d7 10^5 \u2022 Strings contain ASCII characters"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001560",
+    "fileSHA": "2c7209198385bd01f79a4d21f406e09543a87b1cfe50715fad07d3d97c89f709",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:30:36.789181+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2c7209198385bd01f79a4d21f406e09543a87b1cfe50715fad07d3d97c89f709",
+    "normalizedCodeHash": "2c7209198385bd01f79a4d21f406e09543a87b1cfe50715fad07d3d97c89f709",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:30:36.789215+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

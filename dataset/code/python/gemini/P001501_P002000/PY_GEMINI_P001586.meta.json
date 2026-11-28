@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001586",
+  "problemId": "P001586",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001586",
+    "title": "Maximum White Tiles Covered by a Carpet",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given intervals representing white tiles on a number line and the length of a carpet, determine the maximum number of white tiles that can be covered by placing the carpet optimally.",
+    "input": "\u2022 First line contains N and CarpetLength. \u2022 Next N lines each contain the start and end of an interval.",
+    "output": "\u2022 Print the maximum number of covered white tiles.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001586",
+    "fileSHA": "d2c3c2b6d9cd4b68b769e54dd7536fb835db9b815eeff9ea14a38a58e6a6af79",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:43.551912+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d2c3c2b6d9cd4b68b769e54dd7536fb835db9b815eeff9ea14a38a58e6a6af79",
+    "normalizedCodeHash": "d2c3c2b6d9cd4b68b769e54dd7536fb835db9b815eeff9ea14a38a58e6a6af79",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:43.551938+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

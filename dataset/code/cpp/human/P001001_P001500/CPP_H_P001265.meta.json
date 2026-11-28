@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001265",
+  "problemId": "P001265",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001265",
+    "title": "Maximum Performance of a Team",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given N engineers, each having a speed and an efficiency, select at most K engineers to maximize the team's performance, defined as the sum of selected speeds multiplied by the minimum efficiency among them.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers representing speeds. \u2022 Third line contains N integers representing efficiencies.",
+    "output": "Print the maximum achievable performance.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "pritamnikam/leetcode-daily-challenge",
+    "owner": "pritamnikam",
+    "url": "https://github.com/pritamnikam/leetcode-daily-challenge",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "2022/september/Maximum Performance of a Team.cpp",
+    "fileSHA": "206af1624a0102b8f03fc8414bcbcb94e9a190e3",
+    "url": "https://github.com/pritamnikam/leetcode-daily-challenge/blob/0747d6e07f0618bb089bfe320c2e13f9245c12fc/2022/september/Maximum Performance of a Team.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/pritamnikam/leetcode-daily-challenge/main/2022/september/Maximum Performance of a Team.cpp"
+  },
+  "matching": {
+    "relevanceScore": 85.31
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9a0c1519fdb3afd8ad27c8a507cc0d42b9c744efd4cb40a8c877ef98d1e16afb",
+    "normalizedCodeHash": "9a0c1519fdb3afd8ad27c8a507cc0d42b9c744efd4cb40a8c877ef98d1e16afb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:53:01.744812+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

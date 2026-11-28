@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000606",
+  "problemId": "P000606",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000606",
+    "title": "LRU Cache",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design and implement an LRU (Least Recently Used) cache that supports the following operations in O(1) average time: get(key) put(key, value) If the cache reaches its capacity, evict the least recently used item before inserting a new one. Process a sequence of operations and print the result of every get() operation.",
+    "input": "Integer capacity Integer q Next q operations",
+    "output": "Print the result of every get() operation.",
+    "constraints": "1 <= capacity <= 3000 1 <= q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Python",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "other/lru_cache.py",
+    "fileSHA": "058b03b021bc4a5e5e946145e39439357a4bd692",
+    "url": "https://github.com/TheAlgorithms/Python/blob/master/other/lru_cache.py",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Python/master/other/lru_cache.py"
+  },
+  "matching": {
+    "relevanceScore": 83.82
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8a2bca381c194044eb0eea518f133a103ae344ccbe7110e18a1b322b456fdbb6",
+    "normalizedCodeHash": "8a2bca381c194044eb0eea518f133a103ae344ccbe7110e18a1b322b456fdbb6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T01:56:10.010535+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

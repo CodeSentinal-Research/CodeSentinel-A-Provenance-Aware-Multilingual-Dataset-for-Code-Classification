@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001630",
+  "problemId": "P001630",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001630",
+    "title": "Minimum Operations to Equalize Prefix Sums",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given two arrays of equal length, determine the minimum number of increment operations required so that the prefix sum at every index of the first array is at least the corresponding prefix sum of the second array. In one operation, you may increase any element of the first array by 1.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers representing the first array. \u2022 Third line contains N integers representing the second array.",
+    "output": "\u2022 Print the minimum number of operations.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 0 \u2264 Ai, Bi \u2264 10^9"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/data_structures/src/list/singly_linked_list/operations/nth_node_linked_list/nth_node_linked_list.c",
+    "fileSHA": "01f229ef130636c96861f2471e4a0f90014b8fc0",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/data_structures/src/list/singly_linked_list/operations/nth_node_linked_list/nth_node_linked_list.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/data_structures/src/list/singly_linked_list/operations/nth_node_linked_list/nth_node_linked_list.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0788d2e067c260bb5d43fac7c26e605e58974b41885ec700d932f030cb61e31f",
+    "normalizedCodeHash": "0788d2e067c260bb5d43fac7c26e605e58974b41885ec700d932f030cb61e31f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:37:34.996405+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

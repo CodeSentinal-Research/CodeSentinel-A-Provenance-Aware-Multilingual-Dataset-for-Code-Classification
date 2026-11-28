@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001287",
+  "problemId": "P001287",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001287",
+    "title": "Divide Chocolate",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "A chocolate bar is represented by an array of sweetness values. Divide it into K+1 contiguous pieces by making exactly K cuts. Maximize the minimum sweetness among all pieces.",
+    "input": "• First line contains integers N and K. • Second line contains N integers representing sweetness values.",
+    "output": "Print the maximum possible minimum sweetness.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001287.c",
+    "fileSHA": "33d5257cf04b48c5edb9d7bef267ade62d5309506f9e9cfcd9a4bbdae852b71b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.631Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "435742f7f970a4198d931ae5633562e9c0d02a2c8af60a2317d2610746affc08",
+    "normalizedCodeHash": "33d5257cf04b48c5edb9d7bef267ade62d5309506f9e9cfcd9a4bbdae852b71b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.631Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

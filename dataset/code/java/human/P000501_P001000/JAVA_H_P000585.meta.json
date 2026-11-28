@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000585",
+  "problemId": "P000585",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000585",
+    "title": "Reorder Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given a singly linked list: L0 \u2192 L1 \u2192 \u2026 \u2192 Ln Reorder it into: L0 \u2192 Ln \u2192 L1 \u2192 Ln-1 \u2192 L2 \u2192 Ln-2 \u2192 ... Modify the list in-place.",
+    "input": "Integer n Linked list",
+    "output": "The reordered linked list.",
+    "constraints": "1 <= n <= 5 \u00d7 10^4"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/datastructures/lists/CircleLinkedList.java",
+    "fileSHA": "72a12cd5840144edc3e20e083c12167bae95c450",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/datastructures/lists/CircleLinkedList.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/datastructures/lists/CircleLinkedList.java"
+  },
+  "matching": {
+    "relevanceScore": 67.62
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "359adb15b44b7cf21179de4109b4146e0c3a9e2c80bdb7201b048d98de90f7e2",
+    "normalizedCodeHash": "359adb15b44b7cf21179de4109b4146e0c3a9e2c80bdb7201b048d98de90f7e2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:41:46.245569+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

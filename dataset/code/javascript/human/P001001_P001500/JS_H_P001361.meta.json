@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001361",
+  "problemId": "P001361",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001361",
+    "title": "Stickers to Spell Word",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given a collection of stickers containing lowercase English letters and a target word, determine the minimum number of stickers required to form the target word. Each sticker may be used multiple times.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain sticker strings. \u2022 Last line contains the target word.",
+    "output": "Print the minimum number of stickers required, or -1 if impossible.",
+    "constraints": "\u2022 1 \u2264 N \u2264 50 \u2022 Sticker length \u2264 15 \u2022 Target length \u2264 15"
+  },
+  "repository": {
+    "name": "Annahcj/javascript-algorithms-and-data-structures",
+    "owner": "Annahcj",
+    "url": "https://github.com/Annahcj/javascript-algorithms-and-data-structures",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Dynamic Programming/691.stickers-to-spell-word.js",
+    "fileSHA": "96ece85985d1a291efecc0aa65edad13021bd193",
+    "url": "https://github.com/Annahcj/javascript-algorithms-and-data-structures/blob/c55b896d4296ae80d7d448fe3a571644d71e919c/Dynamic Programming/691.stickers-to-spell-word.js",
+    "rawUrl": "https://raw.githubusercontent.com/Annahcj/javascript-algorithms-and-data-structures/main/Dynamic Programming/691.stickers-to-spell-word.js"
+  },
+  "matching": {
+    "relevanceScore": 82.11
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ee7493ddc79acc2c311fb50913e450d0a802d753771dbdc651861325ebcca7e4",
+    "normalizedCodeHash": "ee7493ddc79acc2c311fb50913e450d0a802d753771dbdc651861325ebcca7e4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:03:03.687866+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

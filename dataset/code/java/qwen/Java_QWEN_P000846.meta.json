@@ -1,0 +1,59 @@
+{
+  "solutionId": "Java_QWEN_P000846",
+  "problemId": "P000846",
+  "language": "java",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000846",
+    "title": "Minimized Maximum of Products Distributed to Any Store",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given n stores and quantities of different product types. Distribute the products so that every product of the same type goes to one or more stores, and each store receives products of only one type. Return the minimum possible maximum number of products assigned to any store.",
+    "input": "Integer n Integer m Array quantities",
+    "output": "The minimized maximum products per store.",
+    "constraints": "1 <= m <= n <= 10^5 1 <= quantities[i] <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/Java_QWEN_P000846",
+    "fileSHA": "N/A",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-20T12:00:00Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "N/A",
+    "normalizedCodeHash": "N/A",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-20T12:00:00Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

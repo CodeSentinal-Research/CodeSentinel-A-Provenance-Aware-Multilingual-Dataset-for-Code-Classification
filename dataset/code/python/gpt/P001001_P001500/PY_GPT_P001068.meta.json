@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001068",
+  "problemId": "P001068",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001068",
+    "title": "Topological Sorting",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a Directed Acyclic Graph (DAG), produce one valid topological ordering of its vertices.",
+    "input": "• First line contains integers N and M. • Next M lines contain directed edges.",
+    "output": "Print any valid topological ordering. If the graph is not a DAG, print IMPOSSIBLE.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001068.py",
+    "fileSHA": "300facdac8a7a1aef79488ef6b04fabab02ad87b747f79290e1e43e433acf852",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.231205+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "300facdac8a7a1aef79488ef6b04fabab02ad87b747f79290e1e43e433acf852",
+    "normalizedCodeHash": "c43ed9b4db79c2bfc236495f3cc8fdd7c13e8fa454b5197571f22f7dc57dcd6b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.231205+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001022",
+  "problemId": "P001022",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001022",
+    "title": "Decrease Key in a Min Heap",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a valid Min Heap represented as an array, an index i, and a new value smaller than or equal to the current value, update the key and restore the Min Heap property. Print the updated heap.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N space-separated integers. \u2022 Third line contains integers i and newValue.",
+    "output": "Print the updated Min Heap.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 i < N"
+  },
+  "repository": {
+    "name": "neocollege/sem-3-DSA",
+    "owner": "neocollege",
+    "url": "https://github.com/neocollege/sem-3-DSA",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "priority-queue.c",
+    "fileSHA": "88cabfdf0a0f6b5059d7c0d6b04e9cbe9225b4e7",
+    "url": "https://github.com/neocollege/sem-3-DSA/blob/f0b97153608ccecd7795e8beabb997aaaa8fefc1/priority-queue.c",
+    "rawUrl": "https://raw.githubusercontent.com/neocollege/sem-3-DSA/main/priority-queue.c"
+  },
+  "matching": {
+    "relevanceScore": 86.76
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ac258c4c9cf434f8bb09c6246d3dcf97d3f3af5c2561c5efd77db8af25004a7c",
+    "normalizedCodeHash": "ac258c4c9cf434f8bb09c6246d3dcf97d3f3af5c2561c5efd77db8af25004a7c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:32:33.170539+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

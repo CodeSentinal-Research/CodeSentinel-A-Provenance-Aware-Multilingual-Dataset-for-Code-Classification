@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000805",
+  "problemId": "P000805",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000805",
+    "title": "Count Subarrays with Equal Number of Positive and Negative Elements",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array containing positive and negative numbers (no zeros), count the number of contiguous subarrays containing an equal number of positive and negative elements.",
+    "input": "Integer n Array nums",
+    "output": "The number of valid subarrays.",
+    "constraints": "1 <= n <= 2 \u00d7 10^5 nums[i] != 0"
+  },
+  "repository": {
+    "name": "lrmsspace/Knowledge-Augmented-Codegen",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "evaluation/S3/c/Medium/1634-number-of-subarrays-with-lcm-equal-to-k.c",
+    "fileSHA": "230c9c1fbb031b90ed3e6a1a97b972486ba83b4e",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen/blob/aa02d0f7c87de0b9a725c85dfb03746289785175/evaluation/S3/c/Medium/1634-number-of-subarrays-with-lcm-equal-to-k.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/Knowledge-Augmented-Codegen/main/evaluation/S3/c/Medium/1634-number-of-subarrays-with-lcm-equal-to-k.c"
+  },
+  "matching": {
+    "relevanceScore": 89.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "12f0e1ae16dba063018f2b75fea531077e178562c6837de4d4823b8532430926",
+    "normalizedCodeHash": "12f0e1ae16dba063018f2b75fea531077e178562c6837de4d4823b8532430926",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T02:30:46.213422+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

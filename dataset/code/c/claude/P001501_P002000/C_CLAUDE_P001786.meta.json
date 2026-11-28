@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P001786",
+  "problemId": "P001786",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001786",
+    "title": "Search for a Key in a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given the root of a Binary Search Tree and a key, determine whether the key exists in the tree.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST. • The last line contains the key.",
+    "output": "• Print YES if the key exists; otherwise print NO.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P001786",
+    "fileSHA": "374e65c3562051f65a760ee57e5eeab0817b615b5ef2b29db2d75ffd00ede8d7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a5095cd2155b286d48e6a261159558c5b3cdaf8c7105413d9bcf3462df753b99",
+    "normalizedCodeHash": "374e65c3562051f65a760ee57e5eeab0817b615b5ef2b29db2d75ffd00ede8d7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

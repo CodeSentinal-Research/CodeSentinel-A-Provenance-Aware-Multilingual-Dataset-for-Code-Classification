@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_CLAUDE_P001837",
+  "problemId": "P001837",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001837",
+    "title": "Implement a Reverse Inorder Iterator for a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Design an iterator for a Binary Search Tree that supports retrieving the next largest element in amortized O(1) time using O(h) auxiliary space.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST. • The following line contains Q operations. • Each operation is either PREV or HASPREV.",
+    "output": "• For each operation, print the corresponding result.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5 • 1 ≤ Q ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P001837",
+    "fileSHA": "6665893fadb295e57833032067db3aec69dd4e0278bfba9e73a00058290c8b30",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "82e60af2443d5e9201dacb7033b36f3b5479d7337521d219d7613ab63549c3a5",
+    "normalizedCodeHash": "6665893fadb295e57833032067db3aec69dd4e0278bfba9e73a00058290c8b30",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001016",
+  "problemId": "P001016",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001016",
+    "title": "Sliding Window Maximum Using Heap",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and a window size K, determine the maximum element in every contiguous subarray of size K using a heap-based approach.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the maximum of every window.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/1189-Maximum-Number-of-Balloons.c",
+    "fileSHA": "14770d81c315e1869c96549115eead9e80e26b33",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/c/1189-Maximum-Number-of-Balloons.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/1189-Maximum-Number-of-Balloons.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1ac2d136e56986d8b6a4040bc5c53cc8e42034da066f48bd74b04d9a740c623e",
+    "normalizedCodeHash": "1ac2d136e56986d8b6a4040bc5c53cc8e42034da066f48bd74b04d9a740c623e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:08.154664+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

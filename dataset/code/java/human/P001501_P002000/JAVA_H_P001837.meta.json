@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001837",
+  "problemId": "P001837",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001837",
+    "title": "Implement a Reverse Inorder Iterator for a Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Design an iterator for a Binary Search Tree that supports retrieving the next largest element in amortized O(1) time using O(h) auxiliary space.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST. \u2022 The following line contains Q operations. \u2022 Each operation is either PREV or HASPREV.",
+    "output": "\u2022 For each operation, print the corresponding result.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 Q \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/mathematical_algorithms/src/reverse_factorial/reverse_factorial.java",
+    "fileSHA": "f073cdae4201e8ef3c3a3dbb75809ca686d05703",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/mathematical_algorithms/src/reverse_factorial/reverse_factorial.java",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/mathematical_algorithms/src/reverse_factorial/reverse_factorial.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e1bbee214f42b777c91ad3bf68cb36385b8f46469d84cd1c466340197c360627",
+    "normalizedCodeHash": "e1bbee214f42b777c91ad3bf68cb36385b8f46469d84cd1c466340197c360627",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:08.274680+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

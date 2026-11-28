@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000666",
+  "problemId": "P000666",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000666",
+    "title": "Merge Nodes with Bottom Pointers",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "You are given two sorted linked lists where each node is connected using bottom pointers instead of next pointers. Merge the two lists into a single sorted list using only the bottom pointers. Return the head of the merged list.",
+    "input": "Two linked lists connected using bottom pointers.",
+    "output": "The head of the merged linked list.",
+    "constraints": "Total number of nodes is in the range [0, 10^5]"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000666",
+    "fileSHA": "75077351600cace575c187e14b94fe55415f8b51beb44bb397c6f0e6b3d2846d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "75077351600cace575c187e14b94fe55415f8b51beb44bb397c6f0e6b3d2846d",
+    "normalizedCodeHash": "75077351600cace575c187e14b94fe55415f8b51beb44bb397c6f0e6b3d2846d",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000666: Merge Nodes with Bottom Pointers"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000834",
+  "problemId": "P000834",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000834",
+    "title": "Painter's Partition Problem",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array representing board lengths and an integer painters, assign contiguous boards to painters. Each painter paints one unit length per unit time. Return the minimum time required to paint all boards.",
+    "input": "Integer n Array boards Integer painters",
+    "output": "The minimum painting time.",
+    "constraints": "1 <= n <= 10^5 1 <= boards[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P000834",
+    "fileSHA": "9a9cf75923e7aa68a1211c88859f275e992c9e17e3bb802439e1b49288abed02",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:29:13.430319+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9a9cf75923e7aa68a1211c88859f275e992c9e17e3bb802439e1b49288abed02",
+    "normalizedCodeHash": "9a9cf75923e7aa68a1211c88859f275e992c9e17e3bb802439e1b49288abed02",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:29:13.430348+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

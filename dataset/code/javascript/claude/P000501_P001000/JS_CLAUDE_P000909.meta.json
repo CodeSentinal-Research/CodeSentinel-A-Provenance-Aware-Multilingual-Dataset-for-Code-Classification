@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000909",
+  "problemId": "P000909",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000909",
+    "title": "Compute Binomial Coefficient (nCr)",
+    "category": "Mathematics - Combinatorics",
+    "difficulty": "Easy",
+    "problemStatement": "Given two integers n and r, compute the binomial coefficient nCr, representing the number of ways to choose r objects from n distinct objects.",
+    "input": "Integer n Integer r",
+    "output": "The value of nCr.",
+    "constraints": "0 <= r <= n <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000909",
+    "fileSHA": "d4e309c379070f58ff1f9c1a03e1264be0419c6cedf5193a1c4b73b6ff727528",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d4e309c379070f58ff1f9c1a03e1264be0419c6cedf5193a1c4b73b6ff727528",
+    "normalizedCodeHash": "d4e309c379070f58ff1f9c1a03e1264be0419c6cedf5193a1c4b73b6ff727528",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000909"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

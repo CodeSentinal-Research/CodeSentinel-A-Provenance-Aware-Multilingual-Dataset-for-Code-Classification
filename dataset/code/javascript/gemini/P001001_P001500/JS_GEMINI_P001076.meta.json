@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001076",
+  "problemId": "P001076",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001076",
+    "title": "Floyd-Warshall All-Pairs Shortest Path",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a weighted graph, determine the shortest distance between every pair of vertices.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain weighted edges.",
+    "output": "Print the shortest distance matrix.",
+    "constraints": "\u2022 1 \u2264 N \u2264 500 \u2022 0 \u2264 M \u2264 N(N\u22121)/2"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001076",
+    "fileSHA": "819bdf7b2cb5ce4456cbbf36ce5702a2ff878960c028d561a8289bb37511a2e8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:43:32.874193+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "819bdf7b2cb5ce4456cbbf36ce5702a2ff878960c028d561a8289bb37511a2e8",
+    "normalizedCodeHash": "819bdf7b2cb5ce4456cbbf36ce5702a2ff878960c028d561a8289bb37511a2e8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:43:32.874219+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

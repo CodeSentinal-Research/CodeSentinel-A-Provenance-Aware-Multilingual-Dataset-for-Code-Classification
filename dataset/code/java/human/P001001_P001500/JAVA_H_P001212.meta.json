@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001212",
+  "problemId": "P001212",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001212",
+    "title": "Boolean Parenthesization",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given a boolean expression consisting of T, F, and the operators &, |, ^, determine the number of ways to parenthesize the expression so that it evaluates to True.",
+    "input": "\u2022 First line contains the boolean expression.",
+    "output": "Print the number of valid parenthesizations.",
+    "constraints": "\u2022 1 \u2264 Length of expression \u2264 500"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/dynamic_programming/src/boolean_parenthesization/boolean_parenthesization.java",
+    "fileSHA": "2452a58b2fa6e7199be0bcb93f0a2fde3cc33112",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/dynamic_programming/src/boolean_parenthesization/boolean_parenthesization.java",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/dynamic_programming/src/boolean_parenthesization/boolean_parenthesization.java"
+  },
+  "matching": {
+    "relevanceScore": 81.25
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2b3a1c8f6e826a206687fb5a210ebaaac9db49e2d5ab116c2b4f3c8293cb050e",
+    "normalizedCodeHash": "2b3a1c8f6e826a206687fb5a210ebaaac9db49e2d5ab116c2b4f3c8293cb050e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:14:22.238627+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

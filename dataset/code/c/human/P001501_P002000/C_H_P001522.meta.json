@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001522",
+  "problemId": "P001522",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001522",
+    "title": "Minimum Operations to Reduce X to Zero",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer X, remove elements only from the beginning or the end of the array until the sum of the removed elements equals X. Determine the minimum number of operations required.",
+    "input": "\u2022 First line contains integers N and X. \u2022 Second line contains N integers.",
+    "output": "Print the minimum number of operations, or -1 if impossible.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "lrmsspace/LLM-CodeQualityEval",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Output/output_TY/c/Medium/1324-minimum-operations-to-reduce-x-to-zero.c",
+    "fileSHA": "15f16de0d2e13bcb3edc118412719e53da4b5ced",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval/blob/a2817bbe913c51ab32afeb6f6d0ad97b92c45075/Output/output_TY/c/Medium/1324-minimum-operations-to-reduce-x-to-zero.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/LLM-CodeQualityEval/main/Output/output_TY/c/Medium/1324-minimum-operations-to-reduce-x-to-zero.c"
+  },
+  "matching": {
+    "relevanceScore": 81.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2f557dbcad39473f82617e63af132821bf7156503aeeaedb401401af5995bc5a",
+    "normalizedCodeHash": "2f557dbcad39473f82617e63af132821bf7156503aeeaedb401401af5995bc5a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T03:41:42.325853+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001784",
+  "problemId": "P001784",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001784",
+    "title": "Reconstruct a Binary Tree from Level Order and Inorder Traversals",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the level order traversal and inorder traversal of a binary tree containing unique values, reconstruct the original binary tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the level order traversal. \u2022 The third line contains the inorder traversal.",
+    "output": "\u2022 Print the reconstructed tree in the required traversal format.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5 \u2022 All node values are unique."
+  },
+  "repository": {
+    "name": "pezy/LeetCode",
+    "owner": "pezy",
+    "url": "https://github.com/pezy/LeetCode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "103. Maximum Depth of Binary Tree/solution.h",
+    "fileSHA": "54832240081eb455c6ea602a0f4003377afdc4c5",
+    "url": "https://github.com/pezy/LeetCode/blob/master/103. Maximum Depth of Binary Tree/solution.h",
+    "rawUrl": "https://raw.githubusercontent.com/pezy/LeetCode/master/103. Maximum Depth of Binary Tree/solution.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4f057ade927b824435d390e6fd1e7e4362552744c40addd781091fee230b8c6c",
+    "normalizedCodeHash": "4f057ade927b824435d390e6fd1e7e4362552744c40addd781091fee230b8c6c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T16:19:55.238027+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

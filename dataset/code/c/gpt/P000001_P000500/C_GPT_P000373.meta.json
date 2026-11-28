@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000373",
+  "problemId": "P000373",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000373",
+    "title": "Search Product by Product Code",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find a product using its unique product code and display its information.",
+    "input": "A collection of product records and a product code.",
+    "output": "Matching product details or \"Product Not Found\".",
+    "constraints": "1 ≤ Number of Products ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000373.c",
+    "fileSHA": "abd9166c7004cc924cacd6910f956596a43eb77a9d33501cbb0f226755c2287a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "abd9166c7004cc924cacd6910f956596a43eb77a9d33501cbb0f226755c2287a",
+    "normalizedCodeHash": "abd9166c7004cc924cacd6910f956596a43eb77a9d33501cbb0f226755c2287a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

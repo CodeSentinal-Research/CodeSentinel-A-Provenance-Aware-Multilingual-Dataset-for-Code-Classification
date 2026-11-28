@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000521",
+  "problemId": "P000521",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000521",
+    "title": "Increasing Order Removal",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an array of integers. Repeatedly remove elements from left to right while maintaining a strictly increasing sequence in the current pass. Elements that cannot be removed in the current pass remain for the next pass. Determine the minimum number of passes required to remove all elements.",
+    "input": "Integer n Array nums",
+    "output": "A single integer representing the minimum number of passes.",
+    "constraints": "1 <= n <= 2 \u00d7 10^5 1 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "dabhivaibhav/dsa",
+    "owner": "dabhivaibhav",
+    "url": "https://github.com/dabhivaibhav/dsa",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "collection/stack/RemoveKDigits.java",
+    "fileSHA": "5e6ae4e4fe7c469379834858c426d76ea5c57f08",
+    "url": "https://github.com/dabhivaibhav/dsa/blob/b6376d0c16906a85dcdf74645160b5ab347a6c87/collection/stack/RemoveKDigits.java",
+    "rawUrl": "https://raw.githubusercontent.com/dabhivaibhav/dsa/main/collection/stack/RemoveKDigits.java"
+  },
+  "matching": {
+    "relevanceScore": 85.4
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "dd2cfde4eb74b44c0b4a66a723668adb4416fd6a49fc26f0195b5210767f89ba",
+    "normalizedCodeHash": "dd2cfde4eb74b44c0b4a66a723668adb4416fd6a49fc26f0195b5210767f89ba",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T00:28:44.919367+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

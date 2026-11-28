@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001712",
+  "problemId": "P001712",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001712",
+    "title": "Convert a Binary Tree to Satisfy the Children Sum Property",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, modify the node values so that every non-leaf node satisfies the children sum property while preserving the tree structure.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the modified tree.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001712.c",
+    "fileSHA": "2f9bda32a00ce573a20d0a4b882f5d296f7bf6643d3d25577cbb8df5ef2f2816",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.423Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "86bda5ad0cb46ba5b1d944c16da794212ca4495226bef4c69835757b132c24f9",
+    "normalizedCodeHash": "2f9bda32a00ce573a20d0a4b882f5d296f7bf6643d3d25577cbb8df5ef2f2816",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.423Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

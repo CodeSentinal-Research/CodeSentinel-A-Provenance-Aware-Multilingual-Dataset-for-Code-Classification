@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001100",
+  "problemId": "P001100",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001100",
+    "title": "Dynamic Connectivity Queries",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "You are given N vertices and Q online operations. Each operation is one of the following: \u2022 Add an edge between two vertices. \u2022 Determine whether two specified vertices are currently connected. Process all queries efficiently.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Next Q lines describe the operations.",
+    "output": "For every connectivity query, print YES or NO.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001100",
+    "fileSHA": "f6fc10369fe86d8718651e11d6cb0db8b6fa1d83da414fbaf699feeeeb83a33a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.605Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "b41a98bf3abbbaa2f3d86ece5c297ca26a66f1482fd93cb45975a170cab678f1",
+    "normalizedCodeHash": "df8ed704b3380eb65ceaf63480cf83b5fae3e4d46eda23d2a0dda5d53c98d817",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.605Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

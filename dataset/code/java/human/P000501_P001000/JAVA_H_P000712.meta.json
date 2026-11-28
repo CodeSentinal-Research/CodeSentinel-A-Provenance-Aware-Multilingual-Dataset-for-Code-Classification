@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000712",
+  "problemId": "P000712",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000712",
+    "title": "Combination Sum",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of distinct positive integers and a target value, return all unique combinations where the chosen numbers sum to the target. A number may be chosen multiple times. Print the combinations in lexicographical order.",
+    "input": "Integer n Array candidates Integer target",
+    "output": "All valid combinations.",
+    "constraints": "1 <= n <= 30 1 <= candidates[i] <= 40 1 <= target <= 500"
+  },
+  "repository": {
+    "name": "mission-peace/interview",
+    "owner": "mission-peace",
+    "url": "https://github.com/mission-peace/interview",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/com/interview/recursion/PrintSumCombination.java",
+    "fileSHA": "0c9ee7e774203287a07f8d264908d71b60f61aff",
+    "url": "https://github.com/mission-peace/interview/blob/master/src/com/interview/recursion/PrintSumCombination.java",
+    "rawUrl": "https://raw.githubusercontent.com/mission-peace/interview/master/src/com/interview/recursion/PrintSumCombination.java"
+  },
+  "matching": {
+    "relevanceScore": 83.33
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "59d8988623409c8039bc23879713bcb96440ec869c21edf3ee15d97f69558c4a",
+    "normalizedCodeHash": "59d8988623409c8039bc23879713bcb96440ec869c21edf3ee15d97f69558c4a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:45:26.070063+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

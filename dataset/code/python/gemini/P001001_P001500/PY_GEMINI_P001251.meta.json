@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001251",
+  "problemId": "P001251",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001251",
+    "title": "Maximum Units on a Truck",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "A truck can carry at most T boxes. Each box type has a number of boxes and a number of units per box. Determine the maximum total units that can be loaded onto the truck.",
+    "input": "\u2022 First line contains integers N and T. \u2022 Next N lines contain the number of boxes and units per box.",
+    "output": "Print the maximum total units.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 T \u2264 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001251",
+    "fileSHA": "b8af05f39ea71cbfae1e527f0a9e8d9eec228bc154f91cc3f01f4f089f948406",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:17:18.002936+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b8af05f39ea71cbfae1e527f0a9e8d9eec228bc154f91cc3f01f4f089f948406",
+    "normalizedCodeHash": "b8af05f39ea71cbfae1e527f0a9e8d9eec228bc154f91cc3f01f4f089f948406",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:17:18.002981+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

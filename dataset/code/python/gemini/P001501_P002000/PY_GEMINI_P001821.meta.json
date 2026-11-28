@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001821",
+  "problemId": "P001821",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001821",
+    "title": "Convert a Binary Search Tree into a Min-Heap Without Changing Its Structure",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a Binary Search Tree, modify only the node values so that the resulting tree satisfies the Min-Heap property while preserving the original tree structure.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the BST.",
+    "output": "\u2022 Print the transformed tree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001821",
+    "fileSHA": "cf961f0c08ee99dae331361a5dc5bcf4582fa1f1fa783cf59d54bf56ce7c7f04",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:23.579422+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "cf961f0c08ee99dae331361a5dc5bcf4582fa1f1fa783cf59d54bf56ce7c7f04",
+    "normalizedCodeHash": "cf961f0c08ee99dae331361a5dc5bcf4582fa1f1fa783cf59d54bf56ce7c7f04",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:23.579443+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

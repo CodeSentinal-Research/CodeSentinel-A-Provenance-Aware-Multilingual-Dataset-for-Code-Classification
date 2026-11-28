@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000398",
+  "problemId": "P000398",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000398",
+    "title": "Search Vehicles by Manufacturer",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find all vehicles manufactured by the specified company.",
+    "input": "Vehicle records and a manufacturer name.",
+    "output": "Matching vehicle records.",
+    "constraints": "1 ≤ Number of Vehicles ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000398.py",
+    "fileSHA": "28d2baba87719a20ae41f6f8c8e5067f150e3ef4c88926448051768b89ee85bc",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:02.203128+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "28d2baba87719a20ae41f6f8c8e5067f150e3ef4c88926448051768b89ee85bc",
+    "normalizedCodeHash": "f63a01393972fb404f8fed36ab6af09177a4f1243e4e72b8c7a28b20dce4740a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:02.203128+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

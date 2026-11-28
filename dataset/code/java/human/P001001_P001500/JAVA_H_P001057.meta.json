@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001057",
+  "problemId": "P001057",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001057",
+    "title": "Maximum Distinct Elements After K Removals",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers and an integer K, remove exactly K elements such that the number of distinct elements remaining in the array is maximized.",
+    "input": "\u2022 First line contains integers N and K. \u2022 Second line contains N integers.",
+    "output": "Print the maximum possible number of distinct elements.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "Noah-wu0819/LC",
+    "owner": "Noah-wu0819",
+    "url": "https://github.com/Noah-wu0819/LC",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c15_TOP_K_Elements.java",
+    "fileSHA": "00d54718bfd1e8f2b610bb9cb8ff82fd3b99fbeb",
+    "url": "https://github.com/Noah-wu0819/LC/blob/5e0c19d49f34a879a55627f08341f336be581ab9/c15_TOP_K_Elements.java",
+    "rawUrl": "https://raw.githubusercontent.com/Noah-wu0819/LC/main/c15_TOP_K_Elements.java"
+  },
+  "matching": {
+    "relevanceScore": 73.04
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a35874f2aca340e4f60d818c6d3d70e641e222bbc85d231e0f2ea504b34df054",
+    "normalizedCodeHash": "a35874f2aca340e4f60d818c6d3d70e641e222bbc85d231e0f2ea504b34df054",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:38:56.654279+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

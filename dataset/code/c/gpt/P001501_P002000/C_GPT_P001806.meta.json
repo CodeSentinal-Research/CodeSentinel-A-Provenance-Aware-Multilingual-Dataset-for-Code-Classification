@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001806",
+  "problemId": "P001806",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001806",
+    "title": "Trim a Binary Search Tree to a Given Range",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a Binary Search Tree and two values L and R, remove all nodes whose values lie outside the range [L, R] while preserving the Binary Search Tree property.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST. • The last line contains L and R.",
+    "output": "• Print the resulting BST.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001806.c",
+    "fileSHA": "fb7e122883104cde4ac79cf13b59d44ee5e33796c933ecff5b13d80de845d2a9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.712Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "10117bef260f1c1de6eadae452de2b4b35b7a882918f4e94fb42d5f60d8113fa",
+    "normalizedCodeHash": "fb7e122883104cde4ac79cf13b59d44ee5e33796c933ecff5b13d80de845d2a9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.712Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

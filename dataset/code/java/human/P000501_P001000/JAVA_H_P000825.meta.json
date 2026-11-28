@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000825",
+  "problemId": "P000825",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000825",
+    "title": "Search a 2D Matrix II",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N \u00d7 M matrix where: Each row is sorted in ascending order. Each column is sorted in ascending order. Determine whether a target value exists in the matrix.",
+    "input": "Integer N Integer M Matrix matrix Integer target",
+    "output": "true if the target exists, otherwise false.",
+    "constraints": "1 <= N, M <= 300"
+  },
+  "repository": {
+    "name": "ghostmkg/dsa-code",
+    "owner": "ghostmkg",
+    "url": "https://github.com/ghostmkg/dsa-code",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "java/RowColumnSearchInMatrix.java",
+    "fileSHA": "7f9109eb499fb42de127ff6bfb97d55d72b747e3",
+    "url": "https://github.com/ghostmkg/dsa-code/blob/6e6f6da6ba53eb1e59116394051c8d4f0ed47ef0/java/RowColumnSearchInMatrix.java",
+    "rawUrl": "https://raw.githubusercontent.com/ghostmkg/dsa-code/main/java/RowColumnSearchInMatrix.java"
+  },
+  "matching": {
+    "relevanceScore": 91.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "cfd6698f8d7f88758fbc05cb1a4d37559cc71a2b363488e48ead185007caf81d",
+    "normalizedCodeHash": "cfd6698f8d7f88758fbc05cb1a4d37559cc71a2b363488e48ead185007caf81d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:36:48.514040+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

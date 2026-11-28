@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000527",
+  "problemId": "P000527",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000527",
+    "title": "Parse Boolean Expression",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Given a boolean expression containing: t (true) f (false) ! (NOT) & (AND) | (OR) Parentheses and commas Evaluate the expression and return its boolean value.",
+    "input": "A valid boolean expression.",
+    "output": "Print true if the expression evaluates to true; otherwise print false.",
+    "constraints": "1 <= expression.length <= 2 × 10^4 The expression is valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000527",
+    "fileSHA": "1711d0d7f258a6a7f79311bc91aff04a09d761a982d60f7fc66f20c21bd5fdc3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1711d0d7f258a6a7f79311bc91aff04a09d761a982d60f7fc66f20c21bd5fdc3",
+    "normalizedCodeHash": "1711d0d7f258a6a7f79311bc91aff04a09d761a982d60f7fc66f20c21bd5fdc3",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000527: Parse Boolean Expression"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

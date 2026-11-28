@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P001629",
+  "problemId": "P001629",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001629",
+    "title": "Longest Prefix With Negative Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers, determine the length of the longest prefix whose sum is strictly less than zero.",
+    "input": "• First line contains N. • Second line contains N integers.",
+    "output": "• Print the required length. If no such prefix exists, print 0.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P001629",
+    "fileSHA": "15218a83dfc76203b38086965a024ef62ba6e27e7e58dabd332b829b7b7fb67d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "951fe1f41a549f6b5cd382d36dad8bfa7a1f5f6e6f94cb4f2c19965a445ce8a4",
+    "normalizedCodeHash": "15218a83dfc76203b38086965a024ef62ba6e27e7e58dabd332b829b7b7fb67d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

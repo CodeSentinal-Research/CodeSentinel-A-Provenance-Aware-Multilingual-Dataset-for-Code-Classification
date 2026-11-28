@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001441",
+  "problemId": "P001441",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001441",
+    "title": "Count Number of Pairs With Absolute Difference K",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and an integer K, determine the number of unique pairs whose absolute difference equals K.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print the number of unique pairs.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5 • 0 ≤ K ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001441.c",
+    "fileSHA": "ca4db2b157232dff7e68dd39a2212e1601f49324683c5cf9d336382b92c010c3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.384Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "dc8b0e56d2f5a334d577f2c498717346bba194601d7f8e40302fb3e62f0ea4b6",
+    "normalizedCodeHash": "ca4db2b157232dff7e68dd39a2212e1601f49324683c5cf9d336382b92c010c3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.384Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

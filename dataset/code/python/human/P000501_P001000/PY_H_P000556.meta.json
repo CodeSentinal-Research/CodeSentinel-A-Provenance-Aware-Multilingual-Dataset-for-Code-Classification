@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P000556",
+  "problemId": "P000556",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000556",
+    "title": "Minimum Number of Visited Cells in a Grid",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an m \u00d7 n grid of non-negative integers. Starting from the top-left cell, you may move: Right by at most grid[i][j] cells. Down by at most grid[i][j] cells. Return the minimum number of visited cells needed to reach the bottom-right cell. If the destination cannot be reached, return -1.",
+    "input": "Integers m and n Grid of integers.",
+    "output": "A single integer.",
+    "constraints": "1 <= m, n <= 10^5 m \u00d7 n <= 10^5 0 <= grid[i][j] <= 10^5"
+  },
+  "repository": {
+    "name": "RamananVr/Leetcodepython",
+    "owner": "RamananVr",
+    "url": "https://github.com/RamananVr/Leetcodepython",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000556.py",
+    "fileSHA": "c9e04395b7b9e35d3cb1e2afb053f35582fb6cb9",
+    "url": "https://github.com/RamananVr/Leetcodepython/blob/4daab91eef3c2e8c7aac1d0190394a7cc278d542/breadth_first_search_bfs_/2617_minimum_number_of_visited_cells_in_a_grid.py",
+    "rawUrl": "https://raw.githubusercontent.com/RamananVr/Leetcodepython/main/breadth_first_search_bfs_/2617_minimum_number_of_visited_cells_in_a_grid.py"
+  },
+  "matching": {
+    "relevanceScore": 80.23
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2025-04-28T18:44:39Z",
+    "lastCommitDate": "2025-04-28T18:44:39Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Ramanan Vellore Ramesh "
+    ],
+    "firstKnownAuthor": "Ramanan Vellore Ramesh ",
+    "latestKnownAuthor": "Ramanan Vellore Ramesh "
+  },
+  "deduplication": {
+    "rawCodeHash": "e5473fdbbed37350ddca38799a8151ad8583d7b0035c5a674e93196cd06f16da",
+    "normalizedCodeHash": "e5473fdbbed37350ddca38799a8151ad8583d7b0035c5a674e93196cd06f16da",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:22:30.090659+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

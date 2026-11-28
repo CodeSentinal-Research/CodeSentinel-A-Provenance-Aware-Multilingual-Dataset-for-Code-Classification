@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000758",
+  "problemId": "P000758",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000758",
+    "title": "Count Inversions Using Recursive Merge Sort",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of integers, count the number of inversions in the array using a recursive Merge Sort approach. An inversion is a pair of indices (i, j) such that: i < j nums[i] > nums[j]",
+    "input": "Integer n Array nums",
+    "output": "The total number of inversions.",
+    "constraints": "1 <= n <= 2 × 10^5 -10^9 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000758",
+    "fileSHA": "9fe1ad4d95303a58440c10b174bb609be085d1db18e8479e3f8d879c9f32e1d0",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9fe1ad4d95303a58440c10b174bb609be085d1db18e8479e3f8d879c9f32e1d0",
+    "normalizedCodeHash": "9fe1ad4d95303a58440c10b174bb609be085d1db18e8479e3f8d879c9f32e1d0",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000758"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000521",
+  "problemId": "P000521",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000521",
+    "title": "Increasing Order Removal",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an array of integers. Repeatedly remove elements from left to right while maintaining a strictly increasing sequence in the current pass. Elements that cannot be removed in the current pass remain for the next pass. Determine the minimum number of passes required to remove all elements.",
+    "input": "Integer n Array nums",
+    "output": "A single integer representing the minimum number of passes.",
+    "constraints": "1 <= n <= 2 \u00d7 10^5 1 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/dynamic_programming/src/longest_common_increasing_subsequence/longest_common_increasing_subsequence.cpp",
+    "fileSHA": "f0d090c275a0573cd5dc74d1ba2f52bcf0cf61fb",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/dynamic_programming/src/longest_common_increasing_subsequence/longest_common_increasing_subsequence.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/dynamic_programming/src/longest_common_increasing_subsequence/longest_common_increasing_subsequence.cpp"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a4505ca321d71f19b9d6823e3c0abae20d37ae9970253db742bc134e5aa8a812",
+    "normalizedCodeHash": "a4505ca321d71f19b9d6823e3c0abae20d37ae9970253db742bc134e5aa8a812",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:05.432520+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

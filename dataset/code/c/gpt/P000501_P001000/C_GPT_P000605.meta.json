@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000605",
+  "problemId": "P000605",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000605",
+    "title": "Delete Nodes Having Greater Value on Right",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list, delete every node that has a node with a greater value somewhere to its right. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= node.value <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000605.c",
+    "fileSHA": "d9a33e3c2be6dd7624b5e254710d1576a676a12a58035074fba3d1f85640f5e6",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d9a33e3c2be6dd7624b5e254710d1576a676a12a58035074fba3d1f85640f5e6",
+    "normalizedCodeHash": "d9a33e3c2be6dd7624b5e254710d1576a676a12a58035074fba3d1f85640f5e6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

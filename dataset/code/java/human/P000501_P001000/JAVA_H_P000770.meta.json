@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000770",
+  "problemId": "P000770",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000770",
+    "title": "Recursive Matrix Chain Multiplication",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array dims where matrix Ai has dimensions dims[i-1] \u00d7 dims[i], determine the minimum number of scalar multiplications required to multiply the entire chain. Solve the problem recursively.",
+    "input": "Integer n Array dims",
+    "output": "The minimum number of scalar multiplications.",
+    "constraints": "2 <= n <= 100"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/dynamicprogramming/MatrixChainRecursiveTopDownMemoisation.java",
+    "fileSHA": "0c1031c6805cbafe2c7ff96d3631aa064f6060da",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/dynamicprogramming/MatrixChainRecursiveTopDownMemoisation.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/dynamicprogramming/MatrixChainRecursiveTopDownMemoisation.java"
+  },
+  "matching": {
+    "relevanceScore": 73.75
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "81c42177d967296fac03c99e6e8e18335a1491e4ac311d19235f7d8ddc66b184",
+    "normalizedCodeHash": "81c42177d967296fac03c99e6e8e18335a1491e4ac311d19235f7d8ddc66b184",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:54:38.276875+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000946",
+  "problemId": "P000946",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000946",
+    "title": "Flip Game II",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string containing only '+' and '-', players take turns replacing any occurrence of \"++\" with \"--\". Determine whether the starting player can force a win.",
+    "input": "String state",
+    "output": "Print true if the first player can guarantee a win; otherwise, print false.",
+    "constraints": "1 <= |state| <= 60"
+  },
+  "repository": {
+    "name": "pret/pokeheartgold",
+    "owner": "pret",
+    "url": "https://github.com/pret/pokeheartgold",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "include/voltorb_flip/voltorb_flip_game.h",
+    "fileSHA": "9eb3061349d381dc8ecd0d6cdef0909e33eb0d81",
+    "url": "https://github.com/pret/pokeheartgold/blob/f45f4fd1368e8809515540404408fd2bc71974a8/include/voltorb_flip/voltorb_flip_game.h",
+    "rawUrl": "https://raw.githubusercontent.com/pret/pokeheartgold/main/include/voltorb_flip/voltorb_flip_game.h"
+  },
+  "matching": {
+    "relevanceScore": 68.33
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e4057590b16698ab1ff10390a9aff8a9763b936b063973dea26e264e4acd4e65",
+    "normalizedCodeHash": "e4057590b16698ab1ff10390a9aff8a9763b936b063973dea26e264e4acd4e65",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:38:47.920888+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

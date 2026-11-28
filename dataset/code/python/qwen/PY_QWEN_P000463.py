@@ -1,0 +1,8 @@
+s1 = int(input())
+a1 = list(map(int, input().split()))
+s2 = int(input())
+a2 = list(map(int, input().split()))
+s3 = int(input())
+a3 = list(map(int, input().split()))
+res = sorted(list(set(a1) & set(a2) & set(a3)))
+print(" ".join(map(str, res)))

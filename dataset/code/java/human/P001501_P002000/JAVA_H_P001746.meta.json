@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001746",
+  "problemId": "P001746",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001746",
+    "title": "Find the Depth of Every Node",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given the root of a binary tree, determine the depth of every node, where the depth of a node is the number of edges from the root.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the depth of every node.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "sirixdb/sirix",
+    "owner": "sirixdb",
+    "url": "https://github.com/sirixdb/sirix",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "bundles/sirix-core/src/main/java/io/sirix/access/trx/node/AfterCommitState.java",
+    "fileSHA": "8cfd4f6a4a049cbf381e3de6cd2ee5b26d16e4c9",
+    "url": "https://github.com/sirixdb/sirix/blob/257430dd83f910e5044077e58ed3cdc084502510/bundles/sirix-core/src/main/java/io/sirix/access/trx/node/AfterCommitState.java",
+    "rawUrl": "https://raw.githubusercontent.com/sirixdb/sirix/main/bundles/sirix-core/src/main/java/io/sirix/access/trx/node/AfterCommitState.java"
+  },
+  "matching": {
+    "relevanceScore": 85.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0f2f30a5d73b1e1ead7a7efe3d3e4479be5b4bb72eeaa2e55684725104a3d8e0",
+    "normalizedCodeHash": "0f2f30a5d73b1e1ead7a7efe3d3e4479be5b4bb72eeaa2e55684725104a3d8e0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T15:47:29.804824+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

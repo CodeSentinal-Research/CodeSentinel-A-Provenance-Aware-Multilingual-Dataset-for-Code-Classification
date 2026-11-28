@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000408",
+  "problemId": "P000408",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000408",
+    "title": "Search Emails by Domain",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find all email addresses belonging to the specified domain.",
+    "input": "Email records and a domain name.",
+    "output": "Matching email addresses.",
+    "constraints": "1 \u2264 Number of Email Records \u2264 10^5"
+  },
+  "repository": {
+    "name": "TryGhost/Ghost",
+    "owner": "TryGhost",
+    "url": "https://github.com/TryGhost/Ghost",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "ghost/core/core/server/services/email-service/email-service.js",
+    "fileSHA": "d31a559c3ad7cb7a39fa3c283f176c0fad8a4757",
+    "url": "https://github.com/TryGhost/Ghost/blob/73612b18663c0145dcca8611904b7f21b5f84552/ghost/core/core/server/services/email-service/email-service.js",
+    "rawUrl": "https://raw.githubusercontent.com/TryGhost/Ghost/main/ghost/core/core/server/services/email-service/email-service.js"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "df805b595a3635b77a0d9e8c4d4e573297698d47ca023baf2c981fc394106d36",
+    "normalizedCodeHash": "df805b595a3635b77a0d9e8c4d4e573297698d47ca023baf2c981fc394106d36",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T16:59:41.890998+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

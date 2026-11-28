@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001219",
+  "problemId": "P001219",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001219",
+    "title": "Word Break II",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given a string and a dictionary of valid words, print all possible sentences formed by inserting spaces into the string such that every word belongs to the dictionary.",
+    "input": "\u2022 First line contains the string. \u2022 Second line contains integer N. \u2022 Next N lines each contain one dictionary word.",
+    "output": "Print all valid sentences in lexicographical order.",
+    "constraints": "\u2022 1 \u2264 Length of string \u2264 100 \u2022 1 \u2264 N \u2264 10^4"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/0139-word-break.js",
+    "fileSHA": "24e095ac87de1ef4e729cd946027296751e6adce",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/javascript/0139-word-break.js",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/javascript/0139-word-break.js"
+  },
+  "matching": {
+    "relevanceScore": 67.08
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f74ee194d016fb411253249ee7a9a24c7de40c8faa96d4f12bebd1566a7a3a69",
+    "normalizedCodeHash": "f74ee194d016fb411253249ee7a9a24c7de40c8faa96d4f12bebd1566a7a3a69",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:28:31.744850+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

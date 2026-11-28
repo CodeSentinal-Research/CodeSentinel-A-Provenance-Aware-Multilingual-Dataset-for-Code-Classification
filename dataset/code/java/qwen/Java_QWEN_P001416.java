@@ -1,0 +1,20 @@
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int[] nums = new int[n];
+        for(int i=0; i<n; i++) nums[i] = sc.nextInt();
+        
+        Map<Integer, Integer> freq = new HashMap<>();
+        for(int num : nums) freq.put(num, freq.getOrDefault(num, 0) + 1);
+        
+        int maxLen = 0;
+        for(int num : freq.keySet()) {
+            if(freq.containsKey(num + 1)) {
+                maxLen = Math.max(maxLen, freq.get(num) + freq.get(num + 1));
+            }
+        }
+        System.out.println(maxLen);
+    }
+}

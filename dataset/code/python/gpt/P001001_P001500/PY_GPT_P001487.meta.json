@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001487",
+  "problemId": "P001487",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001487",
+    "title": "Camelcase Matching",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a pattern and a list of query strings, determine for each query whether it matches the pattern under camel-case matching rules.",
+    "input": "• First line contains integer N. • Next N lines contain query strings. • Last line contains the pattern.",
+    "output": "Print YES or NO for each query.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • Query length ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001487.py",
+    "fileSHA": "09c077e35d743ebdc0087782e6656a1476d35ef68644cf96649a8bbe997d9764",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:52.172275+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "09c077e35d743ebdc0087782e6656a1476d35ef68644cf96649a8bbe997d9764",
+    "normalizedCodeHash": "50c03dedb44c219644529741f5aa71c1547f87e592abd83a836a6cffc29d997c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:52.172275+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

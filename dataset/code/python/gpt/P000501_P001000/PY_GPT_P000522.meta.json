@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000522",
+  "problemId": "P000522",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000522",
+    "title": "Design Browser History",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Design a browser history manager that supports the following operations: visit(url) — Visit a new webpage. back(steps) — Move back by at most steps pages. forward(steps) — Move forward by at most steps pages. Initially, the browser starts at the homepage. Process a sequence of operations and print the current page after every back() and forward() operation.",
+    "input": "A homepage URL. Integer q. Next q operations.",
+    "output": "Print the current page after every back() and forward() operation.",
+    "constraints": "1 <= q <= 5 × 10^4 URL length does not exceed 100 characters."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000522.py",
+    "fileSHA": "85e0157e8a3aa7990d6f3c2a34c73b01536df2b205fd20942d994fa9953e91e8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.128696+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "85e0157e8a3aa7990d6f3c2a34c73b01536df2b205fd20942d994fa9953e91e8",
+    "normalizedCodeHash": "cd47a103d33f3c03d233c75693c4cdd0744edbe4369b90a4ef94fd8e879e3ad7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.128696+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

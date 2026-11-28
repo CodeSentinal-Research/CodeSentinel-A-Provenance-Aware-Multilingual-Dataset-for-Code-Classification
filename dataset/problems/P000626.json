@@ -1,0 +1,10 @@
+{
+  "problemId": "P000626",
+  "title": "All One Data Structure",
+  "category": "Linked List",
+  "difficulty": "Hard",
+  "problemStatement": "Design a data structure that supports the following operations in constant time: inc(key) \u2014 Increment the count of the given key. dec(key) \u2014 Decrement the count of the given key. Remove the key if its count becomes zero. getMaxKey() \u2014 Return any key with the maximum count. getMinKey() \u2014 Return any key with the minimum count. Process a sequence of operations and print the results of every getMaxKey() and getMinKey() query.",
+  "input": "Integer q Next q operations",
+  "output": "Print the result for every getMaxKey() and getMinKey() operation.",
+  "constraints": "1 <= q <= 5 \u00d7 10^4 Keys consist of lowercase English letters."
+}

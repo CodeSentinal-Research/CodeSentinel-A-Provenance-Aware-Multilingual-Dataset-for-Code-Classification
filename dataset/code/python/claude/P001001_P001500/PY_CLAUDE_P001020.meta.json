@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P001020",
+  "problemId": "P001020",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001020",
+    "title": "Smallest Range Covering K Sorted Lists",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given K sorted lists of integers, determine the smallest inclusive range that contains at least one element from every list.",
+    "input": "• First line contains integer K. • For each list, the number of elements followed by the sorted elements.",
+    "output": "Print the starting and ending values of the smallest range.",
+    "constraints": "• 1 ≤ K ≤ 500 • Total number of elements ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P001020",
+    "fileSHA": "fe4b2845fbd17e17d7efeefd818b234ca7ba82dc019f781e12cd15d4675b2647",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fe4b2845fbd17e17d7efeefd818b234ca7ba82dc019f781e12cd15d4675b2647",
+    "normalizedCodeHash": "fe4b2845fbd17e17d7efeefd818b234ca7ba82dc019f781e12cd15d4675b2647",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique P001020: Smallest Range Covering K Sorted Lists"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

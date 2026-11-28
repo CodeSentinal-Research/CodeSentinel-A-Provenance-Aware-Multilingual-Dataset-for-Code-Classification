@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000777",
+  "problemId": "P000777",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000777",
+    "title": "Crossword Puzzle Solver",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a crossword grid containing blocked cells and empty slots, along with a list of words, fill the crossword so that every word is placed exactly once either horizontally or vertically. If multiple solutions exist, print any one valid completed crossword.",
+    "input": "Integer N Character matrix grid Integer W Array words",
+    "output": "The completed crossword grid.",
+    "constraints": "1 <= N <= 20 1 <= W <= 20"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Java",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Java",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/thealgorithms/backtracking/CrosswordSolver.java",
+    "fileSHA": "6bfb026c7de9417f7a626c9bb7e2d10719d86768",
+    "url": "https://github.com/TheAlgorithms/Java/blob/master/src/main/java/com/thealgorithms/backtracking/CrosswordSolver.java",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Java/master/src/main/java/com/thealgorithms/backtracking/CrosswordSolver.java"
+  },
+  "matching": {
+    "relevanceScore": 66.28
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c5900c740b54c5e6f98aa70e2f53ea5fac17d88c22304d8d52048d29b0f7c27d",
+    "normalizedCodeHash": "c5900c740b54c5e6f98aa70e2f53ea5fac17d88c22304d8d52048d29b0f7c27d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:54:38.999670+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

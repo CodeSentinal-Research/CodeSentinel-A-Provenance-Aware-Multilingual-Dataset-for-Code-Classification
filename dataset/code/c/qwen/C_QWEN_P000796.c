@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main() { int n,p; scanf("%d%d",&n,&p); long long a[n], prefix[n+1]; prefix[0]=0; long long total=0; for(int i=0;i<n;i++) { scanf("%lld",&a[i]); total+=a[i]; prefix[i+1]=total%p; } long long rem=total%p; if(rem==0) { printf("0\n"); return 0; } int minLen=n; for(int i=0;i<=n;i++) for(int j=i+1;j<=n;j++) if((prefix[j]-prefix[i]+p)%p==rem) { if(j-i<minLen) minLen=j-i; break; } printf("%d\n",minLen==n?-1:minLen); return 0; }

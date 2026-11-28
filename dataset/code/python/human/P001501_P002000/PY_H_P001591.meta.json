@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001591",
+  "problemId": "P001591",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001591",
+    "title": "Range Sum Query",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, each consisting of two indices L and R, determine the sum of elements from index L to R (inclusive).",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Next Q lines each contain L and R.",
+    "output": "\u2022 For each query, print the required sum.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9 \u2022 0 \u2264 L \u2264 R < N"
+  },
+  "repository": {
+    "name": "Shantanugupta1118/200-Days-Code-Challenge",
+    "owner": "Shantanugupta1118",
+    "url": "https://github.com/Shantanugupta1118/200-Days-Code-Challenge",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Day 38/range sum query - Mutable.py",
+    "fileSHA": "c92e5ef54cf0ae5015198ba2242052b6cefa6a8d",
+    "url": "https://github.com/Shantanugupta1118/200-Days-Code-Challenge/blob/792c03d494e62167e1e21dc730a4c924598e209b/Day 38/range sum query - Mutable.py",
+    "rawUrl": "https://raw.githubusercontent.com/Shantanugupta1118/200-Days-Code-Challenge/main/Day 38/range sum query - Mutable.py"
+  },
+  "matching": {
+    "relevanceScore": 75.56
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "afd41788acf0e54a65aaa4c3f110796b8992e3df12c1691633fff0f8930c6a3f",
+    "normalizedCodeHash": "afd41788acf0e54a65aaa4c3f110796b8992e3df12c1691633fff0f8930c6a3f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:42:57.048045+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

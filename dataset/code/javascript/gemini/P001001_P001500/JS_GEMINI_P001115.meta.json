@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001115",
+  "problemId": "P001115",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001115",
+    "title": "Shortest Path in a Binary Matrix",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N \u00d7 N binary matrix, determine the length of the shortest path from the top-left cell to the bottom-right cell by moving in all eight directions through cells containing 0.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain the binary matrix.",
+    "output": "Print the shortest path length, or -1 if no path exists.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001115",
+    "fileSHA": "49d3c9f4582a51fafb29044e4733c0298f68c7444145deb852b1c8d90ec0a676",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:47:35.184308+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "49d3c9f4582a51fafb29044e4733c0298f68c7444145deb852b1c8d90ec0a676",
+    "normalizedCodeHash": "49d3c9f4582a51fafb29044e4733c0298f68c7444145deb852b1c8d90ec0a676",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:47:35.184350+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

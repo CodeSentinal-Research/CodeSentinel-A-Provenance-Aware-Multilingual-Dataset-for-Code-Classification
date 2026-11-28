@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001174",
+  "problemId": "P001174",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001174",
+    "title": "Triangle Minimum Path Sum",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given a triangle of integers, determine the minimum path sum from the top to the bottom. At each step, you may move only to one of the two adjacent numbers in the next row.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain the triangle.",
+    "output": "Print the minimum path sum.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "networkx/networkx",
+    "owner": "networkx",
+    "url": "https://github.com/networkx/networkx",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "networkx/algorithms/bipartite/cluster.py",
+    "fileSHA": "5f6cb6cbc123bae6c3932de991069b01070de3b6",
+    "url": "https://github.com/networkx/networkx/blob/c279073cc33dab38777e701370210d0a7a98849a/networkx/algorithms/bipartite/cluster.py",
+    "rawUrl": "https://raw.githubusercontent.com/networkx/networkx/main/networkx/algorithms/bipartite/cluster.py"
+  },
+  "matching": {
+    "relevanceScore": 86.4
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b6793297e86d6d6300ba2f66ec835ba9925f8056df36af071a957578b0390d16",
+    "normalizedCodeHash": "b6793297e86d6d6300ba2f66ec835ba9925f8056df36af071a957578b0390d16",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T06:07:32.275266+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

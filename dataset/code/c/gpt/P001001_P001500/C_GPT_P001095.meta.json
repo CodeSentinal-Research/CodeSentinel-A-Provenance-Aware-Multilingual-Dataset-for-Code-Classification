@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001095",
+  "problemId": "P001095",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001095",
+    "title": "Maximum Flow",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a directed graph with capacities assigned to each edge, determine the maximum possible flow from a source vertex S to a sink vertex T.",
+    "input": "• First line contains integers N, M, S, and T. • Next M lines contain integers u, v, and capacity.",
+    "output": "Print the maximum flow.",
+    "constraints": "• 2 ≤ N ≤ 500 • 1 ≤ M ≤ 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001095.c",
+    "fileSHA": "cb8e6b873c1b88fb0b4ebe7adcbf9b5ed91f33c6f822c4e26092d51e7f76180a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:32.995Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "e7b684926a4fd90820571db53e06f65a2bab0291bed3ae4a42454e9bcdf89159",
+    "normalizedCodeHash": "cb8e6b873c1b88fb0b4ebe7adcbf9b5ed91f33c6f822c4e26092d51e7f76180a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:32.995Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

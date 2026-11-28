@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001519",
+  "problemId": "P001519",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001519",
+    "title": "Longest Continuous Increasing Subsequence",
+    "category": "Two Pointers",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array, determine the length of the longest contiguous strictly increasing subsequence.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the maximum length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "trekhleb/javascript-algorithms",
+    "owner": "trekhleb",
+    "url": "https://github.com/trekhleb/javascript-algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/algorithms/sets/longest-increasing-subsequence/__test__/dpLongestIncreasingSubsequence.test.js",
+    "fileSHA": "13160b6192d02ac84253b4e3580a3a9ad390d4e9",
+    "url": "https://github.com/trekhleb/javascript-algorithms/blob/master/src/algorithms/sets/longest-increasing-subsequence/__test__/dpLongestIncreasingSubsequence.test.js",
+    "rawUrl": "https://raw.githubusercontent.com/trekhleb/javascript-algorithms/master/src/algorithms/sets/longest-increasing-subsequence/__test__/dpLongestIncreasingSubsequence.test.js"
+  },
+  "matching": {
+    "relevanceScore": 65.42
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7a4a7bfcf032d58aff904bd5edf91e8de997dcceaf65b16f579837b993b38524",
+    "normalizedCodeHash": "7a4a7bfcf032d58aff904bd5edf91e8de997dcceaf65b16f579837b993b38524",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:49:38.146719+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

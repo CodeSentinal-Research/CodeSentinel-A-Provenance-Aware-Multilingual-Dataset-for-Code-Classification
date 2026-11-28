@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000504",
+  "problemId": "P000504",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000504",
+    "title": "Exclusive Time of Functions",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "A single-threaded CPU executes n functions identified by IDs from 0 to n-1. Execution logs are provided in the format: function_id:start_or_end:timestamp A function may call another function before finishing. Return the exclusive execution time of each function, excluding the time spent executing child functions.",
+    "input": "Integer n Integer m Array of m log strings.",
+    "output": "An array of n integers representing the exclusive execution time of each function.",
+    "constraints": "1 <= n <= 100 1 <= m <= 500 Logs are valid and sorted by timestamp."
+  },
+  "repository": {
+    "name": "NazmulHasan7/LeetCode",
+    "owner": "NazmulHasan7",
+    "url": "https://github.com/NazmulHasan7/LeetCode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/Medium/Medium_636_Exclusive_Time_of_Functions.java",
+    "fileSHA": "8ee66c428fee7aa662daf0e041b854d2cea0bb8a",
+    "url": "https://github.com/NazmulHasan7/LeetCode/blob/c3c8f83c39dd4205f475ccefbf40b55670b04dd3/src/Medium/Medium_636_Exclusive_Time_of_Functions.java",
+    "rawUrl": "https://raw.githubusercontent.com/NazmulHasan7/LeetCode/main/src/Medium/Medium_636_Exclusive_Time_of_Functions.java"
+  },
+  "matching": {
+    "relevanceScore": 81.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "acdf307e9525168329b85efac6e6b96e7c60a137ddb304f5d0c79562e0541393",
+    "normalizedCodeHash": "acdf307e9525168329b85efac6e6b96e7c60a137ddb304f5d0c79562e0541393",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T17:34:59.803526+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

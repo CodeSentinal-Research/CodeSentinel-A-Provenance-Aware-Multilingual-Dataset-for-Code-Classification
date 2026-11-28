@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P000943",
+  "problemId": "P000943",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000943",
+    "title": "Stone Game II",
+    "category": "Mathematics - Game Theory",
+    "difficulty": "Hard",
+    "problemStatement": "Alice and Bob play a game on an array of stone piles. On each turn, a player may take the first X remaining piles where 1 <= X <= 2M, and M is updated accordingly. Return the maximum number of stones Alice can collect assuming both players play optimally.",
+    "input": "Integer N Array piles",
+    "output": "The maximum stones Alice can obtain.",
+    "constraints": "1 <= N <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P000943",
+    "fileSHA": "6bee37a4fabc0dd8d445b7117910bfda04887d437289e16c12e21c3f6fde243c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:36:06.568528+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6bee37a4fabc0dd8d445b7117910bfda04887d437289e16c12e21c3f6fde243c",
+    "normalizedCodeHash": "6bee37a4fabc0dd8d445b7117910bfda04887d437289e16c12e21c3f6fde243c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:36:06.568565+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

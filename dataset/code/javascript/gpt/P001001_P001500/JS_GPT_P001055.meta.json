@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P001055",
+  "problemId": "P001055",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001055",
+    "title": "Minimum Refueling Stops",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "A vehicle starts with an initial amount of fuel and must reach a destination. Fuel stations are located along the route, each providing a specific amount of fuel. Determine the minimum number of refueling stops required to reach the destination.",
+    "input": "• Distance to destination. • Initial fuel. • Number of fuel stations. • Position and fuel available at each station.",
+    "output": "Print the minimum number of refueling stops, or -1 if the destination cannot be reached.",
+    "constraints": "• 1 ≤ Number of stations ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001001_P001500/JS_GPT_P001055.js",
+    "fileSHA": "e3cc50b00c8d97eb635d1675e68a5c6a204f2d2abf473cbb05505fe0d6b356a3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T09:30:51.258473+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e3cc50b00c8d97eb635d1675e68a5c6a204f2d2abf473cbb05505fe0d6b356a3",
+    "normalizedCodeHash": "e3cc50b00c8d97eb635d1675e68a5c6a204f2d2abf473cbb05505fe0d6b356a3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T09:30:51.258473+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

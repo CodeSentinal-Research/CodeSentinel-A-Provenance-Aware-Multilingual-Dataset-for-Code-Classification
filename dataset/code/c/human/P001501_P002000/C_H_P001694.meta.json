@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001694",
+  "problemId": "P001694",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001694",
+    "title": "Closest Leaf to a Given Node",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree and a target node, determine the leaf node whose shortest distance from the target is minimum.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree. \u2022 The last line contains the target node value.",
+    "output": "\u2022 Print the value of the closest leaf.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "PRBEM/IRBEM-extras",
+    "owner": "PRBEM",
+    "url": "https://github.com/PRBEM/IRBEM-extras",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "kdtree/kdtree.c",
+    "fileSHA": "f9e6bee015038584cce6eda9de2b045a59654e3c",
+    "url": "https://github.com/PRBEM/IRBEM-extras/blob/f9bd18dc0f24e58ed6a0df2dc31c6a874ac0c4f4/kdtree/kdtree.c",
+    "rawUrl": "https://raw.githubusercontent.com/PRBEM/IRBEM-extras/main/kdtree/kdtree.c"
+  },
+  "matching": {
+    "relevanceScore": 60.83
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "05714b916a8af1434cf3822dc151924983e964121a4be0bc1f1d3a3757205afa",
+    "normalizedCodeHash": "05714b916a8af1434cf3822dc151924983e964121a4be0bc1f1d3a3757205afa",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:59:09.039799+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

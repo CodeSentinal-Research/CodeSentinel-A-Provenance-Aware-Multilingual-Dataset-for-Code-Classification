@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000386",
+  "problemId": "P000386",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000386",
+    "title": "Search Bank Account by Account Number",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find a bank account using the account number.",
+    "input": "Bank account records and an account number.",
+    "output": "Account details or \"Account Not Found\".",
+    "constraints": "1 ≤ Number of Accounts ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000386.py",
+    "fileSHA": "a98285fafdc58c4270a39874c3048566cf5ccdaa47cb582c3ddf40d4302cfb46",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:01.837308+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a98285fafdc58c4270a39874c3048566cf5ccdaa47cb582c3ddf40d4302cfb46",
+    "normalizedCodeHash": "2b0eed27aae8371f1465ff4e856230124c5be6a54fe27fb76132b7a468264c75",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:01.837308+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

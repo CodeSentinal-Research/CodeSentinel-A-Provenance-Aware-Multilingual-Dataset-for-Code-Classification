@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001112",
+  "problemId": "P001112",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001112",
+    "title": "Word Ladder Length",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a start word, an end word, and a dictionary of valid words, determine the minimum number of single-character transformations needed to convert the start word into the end word.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain dictionary words. \u2022 Last line contains the start and target words.",
+    "output": "Print the minimum transformation length. Print 0 if impossible.",
+    "constraints": "\u2022 1 \u2264 N \u2264 5000 \u2022 Word length \u2264 20"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0127_word_ladder/word_ladder.c",
+    "fileSHA": "f057487c0f344d0cb38d7bdff532c0ea2840c309",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0127_word_ladder/word_ladder.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0127_word_ladder/word_ladder.c"
+  },
+  "matching": {
+    "relevanceScore": 73.82
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8d80a7b45ffac8b7ba94de2526abc6b310dad5cb5befc3956a65fc8e5c2bf364",
+    "normalizedCodeHash": "8d80a7b45ffac8b7ba94de2526abc6b310dad5cb5befc3956a65fc8e5c2bf364",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:43:12.399713+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000738",
+  "problemId": "P000738",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000738",
+    "title": "Beautiful Arrangement",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Suppose you have the integers from 1 to N. A permutation is called a beautiful arrangement if for every position i (1-indexed), either: The number at position i is divisible by i, or i is divisible by the number. Return the total number of beautiful arrangements.",
+    "input": "Integer N",
+    "output": "The number of beautiful arrangements.",
+    "constraints": "1 <= N <= 15"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000738",
+    "fileSHA": "045374bcade4413329f93a735d70dbfe85118c23b39293992848ae1ef19a1b8d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T17:08:23.978745+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "045374bcade4413329f93a735d70dbfe85118c23b39293992848ae1ef19a1b8d",
+    "normalizedCodeHash": "045374bcade4413329f93a735d70dbfe85118c23b39293992848ae1ef19a1b8d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T17:08:23.978770+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

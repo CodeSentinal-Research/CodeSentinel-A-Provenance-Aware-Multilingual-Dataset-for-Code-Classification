@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000609",
+  "problemId": "P000609",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000609",
+    "title": "Remove Zero Sum Consecutive Nodes from Linked List",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a singly linked list, repeatedly remove every consecutive sequence of nodes whose values sum to zero. Continue this process until no such sequence exists. Return the head of the resulting linked list.",
+    "input": "Integer n Linked list",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 1000 -1000 <= node.value <= 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000609.py",
+    "fileSHA": "1ebdc2ac065b81f282a5bac46cef34c5b50666ddbffe03860474680154d9f508",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.412203+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1ebdc2ac065b81f282a5bac46cef34c5b50666ddbffe03860474680154d9f508",
+    "normalizedCodeHash": "8fe40eb5a44971e2784f67de70b9db2d099c09bd82e7e8931182c7ddb0fe69e9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.412203+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

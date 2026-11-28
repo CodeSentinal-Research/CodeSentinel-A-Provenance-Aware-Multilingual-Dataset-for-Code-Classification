@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000957",
+  "problemId": "P000957",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000957",
+    "title": "Verify Bézout's Identity",
+    "category": "Mathematics - Extended Euclidean Algorithm",
+    "difficulty": "Easy",
+    "problemStatement": "Given integers A, B, X, and Y, determine whether the pair (X, Y) satisfies Bézout's Identity: AX + BY = gcd(A, B)",
+    "input": "Integer A Integer B Integer X Integer Y",
+    "output": "Print true if the identity holds; otherwise, print false.",
+    "constraints": "1 <= |A|, |B|, |X|, |Y| <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000957.py",
+    "fileSHA": "11555612e680e0978065a9b05c8e002eb2c8399bd0a04fb550840b8e467a0492",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.701536+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "11555612e680e0978065a9b05c8e002eb2c8399bd0a04fb550840b8e467a0492",
+    "normalizedCodeHash": "8df87e86eb121f0ed7b2edc1ae5de5414898d84c32e3def067dd6cae6f0c4370",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.701536+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

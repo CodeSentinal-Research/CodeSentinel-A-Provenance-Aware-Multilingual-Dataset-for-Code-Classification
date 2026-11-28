@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000977",
+  "problemId": "P000977",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000977",
+    "title": "Check Collinearity of Three Points",
+    "category": "Mathematics - Geometry",
+    "difficulty": "Easy",
+    "problemStatement": "Given the coordinates of three points, determine whether they are collinear.",
+    "input": "Three coordinate pairs",
+    "output": "Print true if the points are collinear; otherwise, print false.",
+    "constraints": "-10^9 <= coordinates <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000977.c",
+    "fileSHA": "45f9cdfd6f760cbbb19ef8e9a7302b69de9c3ee3f342e22e8e11e0d5c9a6c4f3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "45f9cdfd6f760cbbb19ef8e9a7302b69de9c3ee3f342e22e8e11e0d5c9a6c4f3",
+    "normalizedCodeHash": "45f9cdfd6f760cbbb19ef8e9a7302b69de9c3ee3f342e22e8e11e0d5c9a6c4f3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000543",
+  "problemId": "P000543",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000543",
+    "title": "Data Stream as Disjoint Intervals",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Design a data structure that receives a stream of non-negative integers. After each insertion, maintain the numbers as a list of disjoint sorted intervals. Support the following operations: addNum(value) getIntervals() Process a sequence of operations and print the intervals whenever getIntervals() is called.",
+    "input": "Integer q Next q operations",
+    "output": "For every getIntervals() operation, print the current list of intervals.",
+    "constraints": "0 <= value <= 10^4 1 <= q <= 3 \u00d7 10^4"
+  },
+  "repository": {
+    "name": "BharathSubu/100daysofCoding",
+    "owner": "BharathSubu",
+    "url": "https://github.com/BharathSubu/100daysofCoding",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "LeetcodeDaily/DataStreamAsDisjointIntervals.java",
+    "fileSHA": "e0c922983bc79b5c12b3b646ffc719ea419d8d92",
+    "url": "https://github.com/BharathSubu/100daysofCoding/blob/f825c3f49fbd48057c9caab0422c4045cc1b2836/LeetcodeDaily/DataStreamAsDisjointIntervals.java",
+    "rawUrl": "https://raw.githubusercontent.com/BharathSubu/100daysofCoding/main/LeetcodeDaily/DataStreamAsDisjointIntervals.java"
+  },
+  "matching": {
+    "relevanceScore": 81.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7d6b2e619bfa43f32b28e014adc033ce9e960bd43b3bb6fe4fe8d1efac998357",
+    "normalizedCodeHash": "7d6b2e619bfa43f32b28e014adc033ce9e960bd43b3bb6fe4fe8d1efac998357",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T15:15:54.807612+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001397",
+  "problemId": "P001397",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001397",
+    "title": "Brick Wall",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "A wall is represented by rows of bricks with varying widths. Draw one vertical line crossing the minimum number of bricks.",
+    "input": "\u2022 First line contains integer R. \u2022 For each row: o First integer denotes the number of bricks. o Followed by the widths of the bricks.",
+    "output": "Print the minimum number of bricks crossed.",
+    "constraints": "\u2022 1 \u2264 Total Bricks \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001397",
+    "fileSHA": "67a3fb7f670c48c8511acaa7584e15c09b0405afd5b6e07009347261822c7900",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:24:58.412481+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "67a3fb7f670c48c8511acaa7584e15c09b0405afd5b6e07009347261822c7900",
+    "normalizedCodeHash": "67a3fb7f670c48c8511acaa7584e15c09b0405afd5b6e07009347261822c7900",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:24:58.412513+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

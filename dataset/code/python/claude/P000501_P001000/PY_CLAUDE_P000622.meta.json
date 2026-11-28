@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000622",
+  "problemId": "P000622",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000622",
+    "title": "Find the Length of a Linked List Cycle",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list, determine whether the list contains a cycle. If a cycle exists, return the number of nodes in the cycle. Otherwise, return 0.",
+    "input": "A linked list. The testing system may internally create a cycle.",
+    "output": "The length of the cycle, or 0 if no cycle exists.",
+    "constraints": "Number of nodes is in the range [0, 10^5]."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000622",
+    "fileSHA": "6a8234d1215c5de84532208277a446a7d4b744b908486974337c381e5c5ef942",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6a8234d1215c5de84532208277a446a7d4b744b908486974337c381e5c5ef942",
+    "normalizedCodeHash": "6a8234d1215c5de84532208277a446a7d4b744b908486974337c381e5c5ef942",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000622: Find the Length of a Linked List Cycle"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

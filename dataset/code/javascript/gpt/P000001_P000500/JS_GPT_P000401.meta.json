@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000401",
+  "problemId": "P000401",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000401",
+    "title": "Search Products with Low Stock",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find all products whose available quantity is less than the specified threshold.",
+    "input": "Product records and a stock threshold.",
+    "output": "Matching products.",
+    "constraints": "1 ≤ Number of Products ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000001_P000500/JS_GPT_P000401.js",
+    "fileSHA": "20be0105d5565134196fe9e342aac4aed06c4428d79f38a2f26ed8df3fe5933c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "20be0105d5565134196fe9e342aac4aed06c4428d79f38a2f26ed8df3fe5933c",
+    "normalizedCodeHash": "20be0105d5565134196fe9e342aac4aed06c4428d79f38a2f26ed8df3fe5933c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

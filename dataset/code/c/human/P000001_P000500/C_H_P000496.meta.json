@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000496",
+  "problemId": "P000496",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000496",
+    "title": "Sum of Subarray Minimums",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array, find the sum of the minimum element of every contiguous subarray. Since the answer may be very large, return it modulo 10^9 + 7.",
+    "input": "Integer n Array arr",
+    "output": "A single integer representing the required sum.",
+    "constraints": "1 <= n <= 3 \u00d7 10^4 1 <= arr[i] <= 3 \u00d7 10^4"
+  },
+  "repository": {
+    "name": "quanhua92/interview-prep",
+    "owner": "quanhua92",
+    "url": "https://github.com/quanhua92/interview-prep",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "tier4_expert/monotonic_stack/problems/p907_sum_of_subarray_minimums.c",
+    "fileSHA": "6867a0901e28c94e199c6e492aed77d09fbac104",
+    "url": "https://github.com/quanhua92/interview-prep/blob/ec5eb413f91784736b372095b0d5b1c9fa8d066d/tier4_expert/monotonic_stack/problems/p907_sum_of_subarray_minimums.c",
+    "rawUrl": "https://raw.githubusercontent.com/quanhua92/interview-prep/main/tier4_expert/monotonic_stack/problems/p907_sum_of_subarray_minimums.c"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "b3ce840df68c28f943deaa37e16925ed6fd83c9e134c6bf0188f6440defa7d3a",
+    "normalizedCodeHash": "b3ce840df68c28f943deaa37e16925ed6fd83c9e134c6bf0188f6440defa7d3a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:41:25.862537+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

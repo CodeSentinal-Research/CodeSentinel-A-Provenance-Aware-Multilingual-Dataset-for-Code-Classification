@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001129",
+  "problemId": "P001129",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001129",
+    "title": "Remove Maximum Number of Edges While Keeping Graph Fully Traversable",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "A graph contains three types of edges: • Type 1: Usable only by Alice. • Type 2: Usable only by Bob. • Type 3: Usable by both Alice and Bob. Determine the maximum number of edges that can be removed while ensuring both Alice and Bob can still traverse the entire graph. If impossible, print -1.",
+    "input": "• First line contains integers N and M. • Next M lines each contain type, u, and v.",
+    "output": "Print the maximum number of removable edges.",
+    "constraints": "• 2 ≤ N ≤ 10^5 • 1 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001129.c",
+    "fileSHA": "0f3aa9f571a380c538c9b42dc3c987e1a5e34e51703d49615a0c8adfbc21e203",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.080Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "0113bf49f8c29fc077aed6ebc5aafa8dbb91da52d774137167f3fab51f699372",
+    "normalizedCodeHash": "0f3aa9f571a380c538c9b42dc3c987e1a5e34e51703d49615a0c8adfbc21e203",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.080Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_GPT_P001522",
+  "problemId": "P001522",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001522",
+    "title": "Minimum Operations to Reduce X to Zero",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer X, remove elements only from the beginning or the end of the array until the sum of the removed elements equals X. Determine the minimum number of operations required.",
+    "input": "• First line contains integers N and X. • Second line contains N integers.",
+    "output": "Print the minimum number of operations, or -1 if impossible.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001501_P002000/PY_GPT_P001522.py",
+    "fileSHA": "eb821bab7cc270cefc4690f2bababe468ca9abe5286cc106f82ffe193b8733ac",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-26T13:09:01.808668+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "eb821bab7cc270cefc4690f2bababe468ca9abe5286cc106f82ffe193b8733ac",
+    "normalizedCodeHash": "a36621cc79ca5c095d1efc4af4bb6c3489e0f44075eb9d0cfef701132bd6ea35",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-26T13:09:01.808668+00:00",
+    "pipelineVersion": "1.0.0"
+  },
+  "sha256": "3a95192470708fab538bdd53553c0eb2bd3c00731b88a7544c6e7047cc1a65dd"
+}

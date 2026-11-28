@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001071",
+  "problemId": "P001071",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001071",
+    "title": "Find the Mother Vertex",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a directed graph, determine whether there exists a vertex from which every other vertex is reachable. If such a vertex exists, print it; otherwise print -1.",
+    "input": "• First line contains integers N and M. • Next M lines contain directed edges.",
+    "output": "Print the mother vertex or -1.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001071.py",
+    "fileSHA": "0cc2b011ce817bd341c30182515182b576aa7bef206ddb8321ba49e12b557133",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.240653+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0cc2b011ce817bd341c30182515182b576aa7bef206ddb8321ba49e12b557133",
+    "normalizedCodeHash": "27e501a8578cb5f990373751c786ec48abdee89fddcf4940aa10d7ef32f551ca",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.240653+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

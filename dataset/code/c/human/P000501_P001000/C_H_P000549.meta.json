@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000549",
+  "problemId": "P000549",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000549",
+    "title": "Stack Permutation Check",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Given two integer arrays input and output of equal length, determine whether the output sequence can be obtained from the input sequence using a single stack. Simulate the process using a queue for the input sequence and a stack for intermediate storage. Return true if the transformation is possible; otherwise return false.",
+    "input": "Integer n Array input Array output",
+    "output": "true if the output sequence is valid, otherwise false.",
+    "constraints": "1 <= n <= 10^5 All elements are distinct."
+  },
+  "repository": {
+    "name": "KoroneListener/bored",
+    "owner": "KoroneListener",
+    "url": "https://github.com/KoroneListener/bored",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "stack.c",
+    "fileSHA": "e0989c446605fa2c3bb0f01c347747a740433914",
+    "url": "https://github.com/KoroneListener/bored/blob/82c7f5418884bbd3924f0d3ca36bb4f1656067ae/stack.c",
+    "rawUrl": "https://raw.githubusercontent.com/KoroneListener/bored/main/stack.c"
+  },
+  "matching": {
+    "relevanceScore": 67.27
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2236a86915a179b9c4882939ed80c40dc415189c56f1fd0208ffda3f5614bd76",
+    "normalizedCodeHash": "2236a86915a179b9c4882939ed80c40dc415189c56f1fd0208ffda3f5614bd76",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:30:27.533762+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

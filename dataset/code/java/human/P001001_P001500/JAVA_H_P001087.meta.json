@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001087",
+  "problemId": "P001087",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001087",
+    "title": "Check if an Undirected Graph is a Tree",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given an undirected graph with N vertices and M edges, determine whether the graph forms a tree. A graph is a tree if it is connected and contains exactly N\u22121 edges.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain two integers u and v.",
+    "output": "Print YES if the graph is a tree; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/graph_algorithms/src/cycle_undirected_graph/cycle_undirected_graph_check.java",
+    "fileSHA": "a851e54094d8a5b7806bfa43c5b655a4e7d8871c",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/graph_algorithms/src/cycle_undirected_graph/cycle_undirected_graph_check.java",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/graph_algorithms/src/cycle_undirected_graph/cycle_undirected_graph_check.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "6c898ef6ef9093f66d4c2d3f1f97b16d47bf6d8447db1e34b6c6712233c7e96a",
+    "normalizedCodeHash": "6c898ef6ef9093f66d4c2d3f1f97b16d47bf6d8447db1e34b6c6712233c7e96a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:05.725592+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

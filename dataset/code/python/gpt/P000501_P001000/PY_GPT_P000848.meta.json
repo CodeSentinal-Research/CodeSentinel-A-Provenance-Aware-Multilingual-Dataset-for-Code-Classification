@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000848",
+  "problemId": "P000848",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000848",
+    "title": "Minimize the Maximum Array Value",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Given a non-negative integer array, in one operation you may move one unit from an element to its previous element. Return the minimum possible value of the maximum element after performing any number of operations.",
+    "input": "Integer n Array nums",
+    "output": "The minimum possible maximum value.",
+    "constraints": "2 <= n <= 10^5 0 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000848.py",
+    "fileSHA": "13cc59a08afbdb8ff1d296e5b203d39f205182dc1ce0e36b12e163b56f419760",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.269934+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "13cc59a08afbdb8ff1d296e5b203d39f205182dc1ce0e36b12e163b56f419760",
+    "normalizedCodeHash": "6fc4637f3e96686674efc408e14080a64fccb7b922d9c736d5db7f454fdae21a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.269934+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001814",
+  "problemId": "P001814",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001814",
+    "title": "Find the Closest Pair of Keys from Two Binary Search Trees",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the roots of two Binary Search Trees and a target value X, determine one key from each tree whose sum is closest to X.",
+    "input": "• The first line contains N₁. • The next N₁ lines describe the first BST. • The following line contains N₂. • The next N₂ lines describe the second BST. • The last line contains X.",
+    "output": "• Print the required pair of keys.",
+    "constraints": "• 1 ≤ N₁, N₂ ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001814.c",
+    "fileSHA": "cb3ff851a1ccd0ade5a4de3c0144d6fbf2dd7e6b8471a59273fd7855ab6ea291",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.742Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "1cfdf1ae5e74f433f6a37162a52d1a086dca00bc7874d62c37b19939c2e5961d",
+    "normalizedCodeHash": "cb3ff851a1ccd0ade5a4de3c0144d6fbf2dd7e6b8471a59273fd7855ab6ea291",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.742Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

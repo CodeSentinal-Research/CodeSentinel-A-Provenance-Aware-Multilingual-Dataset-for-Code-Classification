@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000558",
+  "problemId": "P000558",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000558",
+    "title": "Minimum Moves to Reach Target with Rotations",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an n \u00d7 n binary grid representing obstacles. A snake occupies two adjacent cells and initially starts horizontally at the top-left corner. In one move, the snake may: Move right. Move down. Rotate clockwise. Rotate counterclockwise. A move is valid only if all required cells are within the grid and free of obstacles. Determine the minimum number of moves required for the snake to reach the target position. Return -1 if it is impossible.",
+    "input": "Integer n An n \u00d7 n binary grid.",
+    "output": "A single integer representing the minimum number of moves, or -1 if no valid path exists.",
+    "constraints": "2 <= n <= 100 Grid contains only 0 and 1."
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/1200-1299/1210.Minimum Moves to Reach Target with Rotations/Solution.js",
+    "fileSHA": "75e9a03d2dc6bcadd596b0c5a12c4a405279b3f0",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/1200-1299/1210.Minimum Moves to Reach Target with Rotations/Solution.js",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/1200-1299/1210.Minimum Moves to Reach Target with Rotations/Solution.js"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1512a1e7ca6ecd2b8ec374eb175f001cb376ef1644045538a3715180f15b86e2",
+    "normalizedCodeHash": "1512a1e7ca6ecd2b8ec374eb175f001cb376ef1644045538a3715180f15b86e2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T14:38:55.931126+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

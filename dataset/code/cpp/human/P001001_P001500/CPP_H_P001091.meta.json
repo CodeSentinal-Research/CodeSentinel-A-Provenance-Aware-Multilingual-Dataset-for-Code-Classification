@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001091",
+  "problemId": "P001091",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001091",
+    "title": "Lowest Common Ancestor Queries",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a rooted tree and Q queries, determine the Lowest Common Ancestor (LCA) for each pair of queried vertices.",
+    "input": "\u2022 First line contains integers N and Q. \u2022 Next N\u22121 lines contain tree edges. \u2022 Next Q lines contain two vertices.",
+    "output": "Print the LCA for each query.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/graph_algorithms/src/lowest_common_ancestor/lowest_common_ancestor.cpp",
+    "fileSHA": "ef2ff835231b07c27ebef650ea4d56b4893e674e",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/graph_algorithms/src/lowest_common_ancestor/lowest_common_ancestor.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/graph_algorithms/src/lowest_common_ancestor/lowest_common_ancestor.cpp"
+  },
+  "matching": {
+    "relevanceScore": 76.25
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "1e7f4408ef5705b8c65ea2e7333a943f1f92cd540ed9caa094be2e4a55ab32ee",
+    "normalizedCodeHash": "1e7f4408ef5705b8c65ea2e7333a943f1f92cd540ed9caa094be2e4a55ab32ee",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:14:19.971256+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

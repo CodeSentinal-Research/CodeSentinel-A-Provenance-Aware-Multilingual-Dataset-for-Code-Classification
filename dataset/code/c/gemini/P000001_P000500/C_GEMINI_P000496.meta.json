@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000496",
+  "problemId": "P000496",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000496",
+    "title": "Sum of Subarray Minimums",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array, find the sum of the minimum element of every contiguous subarray. Since the answer may be very large, return it modulo 10^9 + 7.",
+    "input": "Integer n Array arr",
+    "output": "A single integer representing the required sum.",
+    "constraints": "1 <= n <= 3 \u00d7 10^4 1 <= arr[i] <= 3 \u00d7 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000496",
+    "fileSHA": "24ceedecba38902d9a9c89ec7d9397076aa3edb245bf915a771ce47002fd6885",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:39:49.771637+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "24ceedecba38902d9a9c89ec7d9397076aa3edb245bf915a771ce47002fd6885",
+    "normalizedCodeHash": "24ceedecba38902d9a9c89ec7d9397076aa3edb245bf915a771ce47002fd6885",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:39:49.771679+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

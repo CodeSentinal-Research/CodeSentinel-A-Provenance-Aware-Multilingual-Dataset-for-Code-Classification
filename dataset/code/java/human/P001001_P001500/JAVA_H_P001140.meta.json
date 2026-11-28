@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001140",
+  "problemId": "P001140",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001140",
+    "title": "Unbounded Knapsack",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given N items, each with a weight and value, determine the maximum obtainable value when each item may be selected an unlimited number of times without exceeding the knapsack capacity.",
+    "input": "\u2022 First line contains integers N and W. \u2022 Next N lines contain weight and value.",
+    "output": "Print the maximum obtainable value.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000 \u2022 1 \u2264 W \u2264 10^5"
+  },
+  "repository": {
+    "name": "williamfiset/Algorithms",
+    "owner": "williamfiset",
+    "url": "https://github.com/williamfiset/Algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/williamfiset/algorithms/dp/KnapsackUnbounded.java",
+    "fileSHA": "e985d6c6ffead73b05abbfa983ddecdd0108619f",
+    "url": "https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/williamfiset/algorithms/dp/KnapsackUnbounded.java",
+    "rawUrl": "https://raw.githubusercontent.com/williamfiset/Algorithms/master/src/main/java/com/williamfiset/algorithms/dp/KnapsackUnbounded.java"
+  },
+  "matching": {
+    "relevanceScore": 94.23
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d67be7a1f33f8ab59b56960839d322223a3db8dffea6da6ebd8b71503a4630b4",
+    "normalizedCodeHash": "d67be7a1f33f8ab59b56960839d322223a3db8dffea6da6ebd8b71503a4630b4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:47:42.843091+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

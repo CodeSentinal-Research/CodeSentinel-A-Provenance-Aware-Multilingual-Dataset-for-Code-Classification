@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001021",
+  "problemId": "P001021",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001021",
+    "title": "Increase Key in a Max Heap",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a valid Max Heap represented as an array, an index i, and a new value greater than or equal to the current value, update the key at index i and restore the Max Heap property. Print the updated heap.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N space-separated integers. \u2022 Third line contains integers i and newValue.",
+    "output": "Print the updated Max Heap.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 i < N \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0800-0899/0807.Max Increase to Keep City Skyline/Solution.py",
+    "fileSHA": "f3946d503561c1dd608a44f8b29a65a09cf5f582",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0800-0899/0807.Max Increase to Keep City Skyline/Solution.py",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0800-0899/0807.Max Increase to Keep City Skyline/Solution.py"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "fd3d28766d358a0143f32267c0a9743a003165937b29b0c2652cc41dd7b226b1",
+    "normalizedCodeHash": "fd3d28766d358a0143f32267c0a9743a003165937b29b0c2652cc41dd7b226b1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:06.104055+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

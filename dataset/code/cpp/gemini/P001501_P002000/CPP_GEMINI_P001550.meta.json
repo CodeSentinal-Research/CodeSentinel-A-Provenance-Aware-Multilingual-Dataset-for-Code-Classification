@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001550",
+  "problemId": "P001550",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001550",
+    "title": "Sum of Absolute Differences in Each Window",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and a window size K, for every contiguous subarray of size K, compute the sum of absolute differences between consecutive elements.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the computed value for every window.",
+    "constraints": "\u2022 2 \u2264 K \u2264 N \u2264 10^5 \u2022 -10^5 \u2264 Ai \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001550",
+    "fileSHA": "2d176f9fcc95ecea32c6bac74488634eda0811b66a1cd06e43502dcb08a35fb8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:30:35.914741+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2d176f9fcc95ecea32c6bac74488634eda0811b66a1cd06e43502dcb08a35fb8",
+    "normalizedCodeHash": "2d176f9fcc95ecea32c6bac74488634eda0811b66a1cd06e43502dcb08a35fb8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:30:35.914775+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

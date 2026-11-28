@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000598",
+  "problemId": "P000598",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000598",
+    "title": "Reverse Linked List II",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a singly linked list and two integers left and right, reverse the nodes from position left to position right (1-indexed). The remaining nodes outside this range must remain unchanged. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer left Integer right",
+    "output": "The linked list after reversing the specified sublist.",
+    "constraints": "1 <= n <= 500 1 <= left <= right <= n"
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/cpp/reverseLinkedList/reverseLinkedList.II.cpp",
+    "fileSHA": "002f2af9e28277db5020d1e8f449a8d9d09af8ea",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/cpp/reverseLinkedList/reverseLinkedList.II.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/cpp/reverseLinkedList/reverseLinkedList.II.cpp"
+  },
+  "matching": {
+    "relevanceScore": 84.0
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5aace3cb218e5400ef3df6ad56b456608fe3694d51165b7c68ee32b840de4a2b",
+    "normalizedCodeHash": "5aace3cb218e5400ef3df6ad56b456608fe3694d51165b7c68ee32b840de4a2b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:44:10.243981+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

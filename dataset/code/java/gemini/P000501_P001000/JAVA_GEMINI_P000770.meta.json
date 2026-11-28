@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000770",
+  "problemId": "P000770",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000770",
+    "title": "Recursive Matrix Chain Multiplication",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array dims where matrix Ai has dimensions dims[i-1] \u00d7 dims[i], determine the minimum number of scalar multiplications required to multiply the entire chain. Solve the problem recursively.",
+    "input": "Integer n Array dims",
+    "output": "The minimum number of scalar multiplications.",
+    "constraints": "2 <= n <= 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "java/gemini/JAVA_GEMINI_P000770",
+    "fileSHA": "616e7d4bd095182bbabd6a20ccbcf2720a49c5dd636d81097240955685da6aaf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T17:15:01.362289+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "616e7d4bd095182bbabd6a20ccbcf2720a49c5dd636d81097240955685da6aaf",
+    "normalizedCodeHash": "616e7d4bd095182bbabd6a20ccbcf2720a49c5dd636d81097240955685da6aaf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T17:15:01.362307+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

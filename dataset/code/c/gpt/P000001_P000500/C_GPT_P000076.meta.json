@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000076",
+  "problemId": "P000076",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000076",
+    "title": "Find Roots of Quadratic Equation",
+    "category": "Basic",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that finds the roots of a quadratic equation ax² + bx + c = 0.",
+    "input": "Three numbers a, b, and c.",
+    "output": "The roots of the equation.",
+    "constraints": "a ≠ 0, -100 ≤ a, b, c ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000076.c",
+    "fileSHA": "592c86b63efc8d8117b92c40a38413ab0f1afa680a39aa96558e87168a004443",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:23:08.716982+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "592c86b63efc8d8117b92c40a38413ab0f1afa680a39aa96558e87168a004443",
+    "normalizedCodeHash": "592c86b63efc8d8117b92c40a38413ab0f1afa680a39aa96558e87168a004443",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:23:08.716982+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

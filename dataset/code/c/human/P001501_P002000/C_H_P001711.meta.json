@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001711",
+  "problemId": "P001711",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001711",
+    "title": "Verify Whether a Binary Tree Satisfies the Children Sum Property",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given a binary tree, determine whether every non-leaf node has a value equal to the sum of the values of its immediate children.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print YES if the tree satisfies the property; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/data_structures/src/tree/binary_tree/binary_tree/path_sum/sum_left/sum_left.c",
+    "fileSHA": "6fca5831fd5ec0aacf992b5406e11f619b4c9deb",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/data_structures/src/tree/binary_tree/binary_tree/path_sum/sum_left/sum_left.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/data_structures/src/tree/binary_tree/binary_tree/path_sum/sum_left/sum_left.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d84169f0375ec9c73faa5502330fe4b4aab5ef844f68e15a2afafcb1a37ca960",
+    "normalizedCodeHash": "d84169f0375ec9c73faa5502330fe4b4aab5ef844f68e15a2afafcb1a37ca960",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T16:05:54.245964+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

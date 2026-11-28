@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000603",
+  "problemId": "P000603",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000603",
+    "title": "Partition Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a linked list and an integer x, partition the list so that all nodes with values less than x come before nodes with values greater than or equal to x. The original relative order of nodes in each partition must be preserved. Return the head of the partitioned linked list.",
+    "input": "Integer n Linked list Integer x",
+    "output": "The partitioned linked list.",
+    "constraints": "0 <= n <= 200 -100 <= node.value <= 100"
+  },
+  "repository": {
+    "name": "kamyu104/LeetCode-Solutions",
+    "owner": "kamyu104",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions",
+    "defaultBranch": "master",
+    "license": "Apache-2.0",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "C++/partition-list.cpp",
+    "fileSHA": "b3a38a9126db406b610d21524ea66192ffc08bea",
+    "url": "https://github.com/kamyu104/LeetCode-Solutions/blob/master/C++/partition-list.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/kamyu104/LeetCode-Solutions/master/C++/partition-list.cpp"
+  },
+  "matching": {
+    "relevanceScore": 76.89
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "bd4e02ad120f13b81212e6b4994f02958c6c1d45a38ed0f426d93c36ea7528ab",
+    "normalizedCodeHash": "bd4e02ad120f13b81212e6b4994f02958c6c1d45a38ed0f426d93c36ea7528ab",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (C++ Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:54:26.813397+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

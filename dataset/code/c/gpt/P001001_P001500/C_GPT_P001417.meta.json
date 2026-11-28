@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001417",
+  "problemId": "P001417",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001417",
+    "title": "Relative Sort Array",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Given two arrays, reorder the first array so that elements appearing in the second array come first in the same relative order. The remaining elements should appear in ascending order.",
+    "input": "• First line contains integers N and M. • Second line contains N integers. • Third line contains M integers.",
+    "output": "Print the reordered array.",
+    "constraints": "• 1 ≤ N, M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001417.c",
+    "fileSHA": "00ab3f76bcf8739ddf2139bba9732cd3bf9e788ff155ca5e977394ab4ff496c3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.308Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "fe539b7e599058d55f462bfd7eda7631281783dbbfdf8b91f838deeed480b124",
+    "normalizedCodeHash": "00ab3f76bcf8739ddf2139bba9732cd3bf9e788ff155ca5e977394ab4ff496c3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.308Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

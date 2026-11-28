@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P001068",
+  "problemId": "P001068",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001068",
+    "title": "Topological Sorting",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a Directed Acyclic Graph (DAG), produce one valid topological ordering of its vertices.",
+    "input": "• First line contains integers N and M. • Next M lines contain directed edges.",
+    "output": "Print any valid topological ordering. If the graph is not a DAG, print IMPOSSIBLE.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P001068",
+    "fileSHA": "11b08d7849e86fe7edc92faa605f8701623a62a9274c4e7523be30dfca07e43b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "11b08d7849e86fe7edc92faa605f8701623a62a9274c4e7523be30dfca07e43b",
+    "normalizedCodeHash": "11b08d7849e86fe7edc92faa605f8701623a62a9274c4e7523be30dfca07e43b",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P001068"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

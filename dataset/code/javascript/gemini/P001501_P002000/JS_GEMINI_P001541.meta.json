@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GEMINI_P001541",
+  "problemId": "P001541",
+  "language": "javascript",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001541",
+    "title": "Maximum Sum of K Consecutive Elements",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and an integer K, find the maximum possible sum of any contiguous subarray of size exactly K.",
+    "input": "\u2022 First line contains two integers N and K. \u2022 Second line contains N space-separated integers.",
+    "output": "\u2022 Print the maximum sum among all contiguous subarrays of size K.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N \u2022 -10^4 \u2264 Ai \u2264 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JS_GEMINI_P001541",
+    "fileSHA": "60b7b20c426ce0bc4c682d9bf215d02214cd4d5fae8ddfd97de59f40b444d2f1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:30:35.035817+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "60b7b20c426ce0bc4c682d9bf215d02214cd4d5fae8ddfd97de59f40b444d2f1",
+    "normalizedCodeHash": "60b7b20c426ce0bc4c682d9bf215d02214cd4d5fae8ddfd97de59f40b444d2f1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:30:35.035839+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001549",
+  "problemId": "P001549",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001549",
+    "title": "Count Windows With All Positive Numbers",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and a window size K, count the number of contiguous subarrays of size K in which every element is positive.",
+    "input": "• First line contains N and K. • Second line contains N integers.",
+    "output": "• Print the count.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 1 ≤ K ≤ N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001549.c",
+    "fileSHA": "6ce6bd0837276446c0ca2c6d2de714097167c215881e3a9006a1ee786a6f1252",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.738Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "fad65dbd54723a5390c48059cd733f5eaf9a4a7998f5f7f1108ff5de625755c5",
+    "normalizedCodeHash": "6ce6bd0837276446c0ca2c6d2de714097167c215881e3a9006a1ee786a6f1252",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.738Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

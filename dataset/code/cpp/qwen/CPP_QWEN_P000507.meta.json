@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000507",
+  "problemId": "P000507",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000507",
+    "title": "Verify Preorder Serialization of a Binary Tree",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "A binary tree is serialized using preorder traversal. Each node is represented by its value, and null nodes are represented by '#'. Given the serialization string, determine whether it represents a valid binary tree without reconstructing the tree.",
+    "input": "A comma-separated serialization string.",
+    "output": "Print true if the serialization is valid; otherwise print false.",
+    "constraints": "1 <= serialization.length <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000507",
+    "fileSHA": "2af1c4934f80b9efc2a0b0dd70ea60499f563827641cfeb7315a0f5200ae7ed7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.415Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "e09b4c82d615238629a807374265a872754fe48f29682e41bcc540d843112787",
+    "normalizedCodeHash": "f0c3b056d7ebb2471c1f0f7c91113c94e0617bab798433eb5184e88a300d5cb9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.415Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

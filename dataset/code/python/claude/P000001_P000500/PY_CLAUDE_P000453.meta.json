@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000453",
+  "problemId": "P000453",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000453",
+    "title": "Find Fixed Point",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Write a program that finds a fixed point in an array (index where arr[i] == i) using binary search if possible.",
+    "input": "First line contains N. Second line contains N distinct sorted integers.",
+    "output": "Any fixed point or -1 if none exists.",
+    "constraints": "1 ≤ N ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000453",
+    "fileSHA": "d85ac3e0ee83721a43c4d3d8f5d4dce1ded7469dc6a0702fef5ebdcea7f6bd34",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d85ac3e0ee83721a43c4d3d8f5d4dce1ded7469dc6a0702fef5ebdcea7f6bd34",
+    "normalizedCodeHash": "d85ac3e0ee83721a43c4d3d8f5d4dce1ded7469dc6a0702fef5ebdcea7f6bd34",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000453: Find Fixed Point"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

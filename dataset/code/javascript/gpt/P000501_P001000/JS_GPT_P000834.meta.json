@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000834",
+  "problemId": "P000834",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000834",
+    "title": "Painter's Partition Problem",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array representing board lengths and an integer painters, assign contiguous boards to painters. Each painter paints one unit length per unit time. Return the minimum time required to paint all boards.",
+    "input": "Integer n Array boards Integer painters",
+    "output": "The minimum painting time.",
+    "constraints": "1 <= n <= 10^5 1 <= boards[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000834.js",
+    "fileSHA": "4b7501f8a7c84fecdde10ce22ffe24ea919b7d466ac4f4fa74d8d43de1ddd779",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4b7501f8a7c84fecdde10ce22ffe24ea919b7d466ac4f4fa74d8d43de1ddd779",
+    "normalizedCodeHash": "4b7501f8a7c84fecdde10ce22ffe24ea919b7d466ac4f4fa74d8d43de1ddd779",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

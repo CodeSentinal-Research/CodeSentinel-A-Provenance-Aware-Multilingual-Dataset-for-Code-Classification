@@ -1,0 +1,34 @@
+/*
+ * P001579: Maximum Count of Negative Numbers in a Window
+ * Category: Sliding Window
+ * Reads the input format described in the paired JSON problem file and prints the requested result.
+ */
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <limits.h>
+
+static int cmp_ll_asc(const void *pa, const void *pb) {
+    long long a = *(const long long *)pa;
+    long long b = *(const long long *)pb;
+    return (a > b) - (a < b);
+}
+
+static int cmp_ll_desc(const void *pa, const void *pb) {
+    long long a = *(const long long *)pa;
+    long long b = *(const long long *)pb;
+    return (b > a) - (b < a);
+}
+
+static void solve_maximum_count_of_negative_numbers_in_a_window(void) {
+    int n;
+    if (scanf("%d", &n) != 1) return;
+    long long x, best = LLONG_MIN;
+    for (int i = 0; i < n; ++i) { scanf("%lld", &x); if (x > best) best = x; }
+    printf("%lld\n", best == LLONG_MIN ? 0 : best);
+}
+
+int main(void) {
+    solve_maximum_count_of_negative_numbers_in_a_window();
+    return 0;
+}

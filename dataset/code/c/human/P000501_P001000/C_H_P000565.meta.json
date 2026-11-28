@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000565",
+  "problemId": "P000565",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000565",
+    "title": "Matrix Cells in Distance Order",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given the dimensions of a matrix and the coordinates of a starting cell, return all matrix cells ordered by their Manhattan distance from the starting cell. If multiple cells have the same distance, they may appear in any order.",
+    "input": "Integers rows and cols Integers rCenter and cCenter",
+    "output": "A list of all cell coordinates ordered by increasing Manhattan distance.",
+    "constraints": "1 <= rows, cols <= 100"
+  },
+  "repository": {
+    "name": "ourhouchmohamed97/LeetCode_in_C",
+    "owner": "ourhouchmohamed97",
+    "url": "https://github.com/ourhouchmohamed97/LeetCode_in_C",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "easy/allCellsDistOrder.c",
+    "fileSHA": "5b5cdf2ffe9b975089928f69cd061840b0de9111",
+    "url": "https://github.com/ourhouchmohamed97/LeetCode_in_C/blob/a1242bdb2110bb17b5fb41fc70fb519dfdedff04/easy/allCellsDistOrder.c",
+    "rawUrl": "https://raw.githubusercontent.com/ourhouchmohamed97/LeetCode_in_C/main/easy/allCellsDistOrder.c"
+  },
+  "matching": {
+    "relevanceScore": 62.22
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ca2a304f4cd9b2d163299a3ce6369f2648eaa2fa96dd336e04962c138ee3d705",
+    "normalizedCodeHash": "ca2a304f4cd9b2d163299a3ce6369f2648eaa2fa96dd336e04962c138ee3d705",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:36:54.306682+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

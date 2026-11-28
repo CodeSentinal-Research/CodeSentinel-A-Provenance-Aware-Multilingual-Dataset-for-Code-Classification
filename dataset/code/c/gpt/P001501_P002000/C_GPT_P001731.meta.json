@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001731",
+  "problemId": "P001731",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001731",
+    "title": "Convert a Binary Tree into a Threaded Binary Tree",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, convert it into an inorder threaded binary tree by replacing every null right pointer with a thread to its inorder successor.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the threaded binary tree in the required format.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001731.c",
+    "fileSHA": "0ac1e961fe832fa2ab18edab23bcb8b1743f1e0ac29c3838d4bba515e3add43c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.477Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "82ad1dd2b91765f8309661d7166f45ba74b2041e866d7471c84a5088408c0fd1",
+    "normalizedCodeHash": "0ac1e961fe832fa2ab18edab23bcb8b1743f1e0ac29c3838d4bba515e3add43c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.477Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

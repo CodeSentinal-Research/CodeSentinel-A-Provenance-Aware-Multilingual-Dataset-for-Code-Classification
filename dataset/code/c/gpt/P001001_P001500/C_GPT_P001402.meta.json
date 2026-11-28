@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001402",
+  "problemId": "P001402",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001402",
+    "title": "Check If Array Pairs Are Divisible by K",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of even length and an integer K, determine whether the array can be partitioned into pairs such that the sum of every pair is divisible by K.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print YES if such a pairing exists; otherwise print NO.",
+    "constraints": "• 2 ≤ N ≤ 2×10^5 • N is even"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001402.c",
+    "fileSHA": "36e19247020f9cf17aaf8564ffdd884cf00ae0c8fe1f9a4bb153b4d591c36c4f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.262Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "aa882c81e664b3674ea3ccc1b5ba11ad2835fc89a8024f5f32441a5748311820",
+    "normalizedCodeHash": "36e19247020f9cf17aaf8564ffdd884cf00ae0c8fe1f9a4bb153b4d591c36c4f",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.262Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

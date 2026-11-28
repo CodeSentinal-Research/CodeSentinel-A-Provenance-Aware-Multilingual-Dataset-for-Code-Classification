@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_GPT_P001560",
+  "problemId": "P001560",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001560",
+    "title": "Minimum Window Substring",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "Given two strings S and T, find the smallest substring of S that contains every character of T (including duplicates). If no such substring exists, print an empty string.",
+    "input": "• First line contains string S. • Second line contains string T.",
+    "output": "• Print the minimum window substring. If no valid substring exists, print an empty line.",
+    "constraints": "• 1 ≤ |T| ≤ |S| ≤ 2 × 10^5 • Strings contain ASCII characters"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001501_P002000/PY_GPT_P001560.py",
+    "fileSHA": "c46b792922d3b1394503db8ee58ef276fc2d58c4a9c1f405b127f981b0519813",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-26T13:09:03.029556+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c46b792922d3b1394503db8ee58ef276fc2d58c4a9c1f405b127f981b0519813",
+    "normalizedCodeHash": "6938f508bc693053f4a9474819d39f5d73bc88aecead7e55340ea0ef5c664ebc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-26T13:09:03.029556+00:00",
+    "pipelineVersion": "1.0.0"
+  },
+  "sha256": "6bd3ee4f3752b873092019ec31698cc8ea71c1467b64f39869ce02cbb95a4e22"
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P000479",
+  "problemId": "P000479",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000479",
+    "title": "Valid Parentheses",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "Given a string s containing only the characters '(', ')', '{', '}', '[', and ']', determine whether the input string is valid. A string is valid if: Every opening bracket has a corresponding closing bracket of the same type. Brackets are closed in the correct order. Every closing bracket has a matching opening bracket. Return \"true\" if the string is valid; otherwise return \"false\".",
+    "input": "A single string s.",
+    "output": "true if the string is valid, otherwise false.",
+    "constraints": "1 <= s.length <= 10^4 s consists only of '(', ')', '{', '}', '[', ']'."
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "java/gemini/JAVA_GEMINI_P000479",
+    "fileSHA": "6bd6d9a818e0bb8eb839c4b31f6e120a961472ed6a95eaeecbb266c65a31a857",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:38:50.862559+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6bd6d9a818e0bb8eb839c4b31f6e120a961472ed6a95eaeecbb266c65a31a857",
+    "normalizedCodeHash": "6bd6d9a818e0bb8eb839c4b31f6e120a961472ed6a95eaeecbb266c65a31a857",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:38:50.862598+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

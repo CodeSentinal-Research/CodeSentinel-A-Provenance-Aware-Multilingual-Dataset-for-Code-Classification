@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001175",
+  "problemId": "P001175",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001175",
+    "title": "Falling Path Minimum Sum",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N × N matrix, determine the minimum sum of any falling path. A falling path starts at any element in the first row and moves to the directly below, diagonally left, or diagonally right cell in the next row.",
+    "input": "• First line contains integer N. • Next N lines each contain N integers.",
+    "output": "Print the minimum falling path sum.",
+    "constraints": "• 1 ≤ N ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001175.py",
+    "fileSHA": "2c2df1ba411ab69945f86cda763ce1cb06aa6bb57f784cc0269090a943335d52",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.657881+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2c2df1ba411ab69945f86cda763ce1cb06aa6bb57f784cc0269090a943335d52",
+    "normalizedCodeHash": "a623efde5f0519dfebd10acc912815158e0f400259d7af6945fd21a8c27cb9ba",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.657881+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

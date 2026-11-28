@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000837",
+  "problemId": "P000837",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000837",
+    "title": "Minimize Maximum Distance to Gas Station",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Given the positions of existing gas stations and an integer k, add exactly k new gas stations. Return the minimum possible value of the maximum distance between adjacent gas stations. Your answer should be accurate within 10^-6.",
+    "input": "Integer n Sorted array stations Integer k",
+    "output": "The minimized maximum distance.",
+    "constraints": "2 <= n <= 2000"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/bit_manipulation/src/hamming_distance/hamming_distance.c",
+    "fileSHA": "177d01f742b5a8df2e3f607f6a4e6a3e39655484",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/bit_manipulation/src/hamming_distance/hamming_distance.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/bit_manipulation/src/hamming_distance/hamming_distance.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "beeb3d3ca0cd360317eeb4956c8eadccf12e316692a0e4f61b2f6421eaa0acad",
+    "normalizedCodeHash": "beeb3d3ca0cd360317eeb4956c8eadccf12e316692a0e4f61b2f6421eaa0acad",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:02.160286+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

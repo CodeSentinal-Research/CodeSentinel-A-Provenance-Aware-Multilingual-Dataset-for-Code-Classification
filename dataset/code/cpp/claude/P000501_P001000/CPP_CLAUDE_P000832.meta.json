@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000832",
+  "problemId": "P000832",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000832",
+    "title": "Split Array Largest Sum",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array and an integer k, split the array into exactly k non-empty continuous subarrays. Minimize the largest subarray sum. Return the minimized largest sum.",
+    "input": "Integer n Array nums Integer k",
+    "output": "The minimum possible largest subarray sum.",
+    "constraints": "1 <= n <= 1000 1 <= nums[i] <= 10^6"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000832",
+    "fileSHA": "e8d73091a8134de0fcb154c00e3fc3739cddfa87b0f2d4f7a0ae62313b699fd6",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e8d73091a8134de0fcb154c00e3fc3739cddfa87b0f2d4f7a0ae62313b699fd6",
+    "normalizedCodeHash": "e8d73091a8134de0fcb154c00e3fc3739cddfa87b0f2d4f7a0ae62313b699fd6",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000832"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

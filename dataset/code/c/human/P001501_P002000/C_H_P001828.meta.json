@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001828",
+  "problemId": "P001828",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001828",
+    "title": "Determine Whether One Binary Search Tree is a Subtree of Another",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given two Binary Search Trees, determine whether the second tree occurs as a subtree of the first.",
+    "input": "\u2022 The first line contains N\u2081. \u2022 The next N\u2081 lines describe the first BST. \u2022 The following line contains N\u2082. \u2022 The next N\u2082 lines describe the second BST.",
+    "output": "\u2022 Print YES if the second tree is a subtree of the first; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N\u2081, N\u2082 \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "begeekmyfriend/leetcode",
+    "owner": "begeekmyfriend",
+    "url": "https://github.com/begeekmyfriend/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "0199_binary_tree_right_side_view/bst_right.c",
+    "fileSHA": "2be03cdcab7ce95171eb75fa866d25999b4e7115",
+    "url": "https://github.com/begeekmyfriend/leetcode/blob/master/0199_binary_tree_right_side_view/bst_right.c",
+    "rawUrl": "https://raw.githubusercontent.com/begeekmyfriend/leetcode/master/0199_binary_tree_right_side_view/bst_right.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "80bf78246ba856dfb0f69a6d8713e7c8dde33eea65d4e47438641fdda42af48c",
+    "normalizedCodeHash": "80bf78246ba856dfb0f69a6d8713e7c8dde33eea65d4e47438641fdda42af48c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T17:13:23.583344+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

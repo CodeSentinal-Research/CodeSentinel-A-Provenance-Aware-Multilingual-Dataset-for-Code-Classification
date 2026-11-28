@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000570",
+  "problemId": "P000570",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000570",
+    "title": "Queue Rearrangement by Rotation",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "Given a queue containing N integers and an integer K, rotate the queue to the left by K positions. Return the modified queue.",
+    "input": "Integer N Queue elements Integer K",
+    "output": "The queue after rotation.",
+    "constraints": "1 <= N <= 10^5 0 <= K <= N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000570.c",
+    "fileSHA": "244560e1626c1dfd16ef7e8b53bb61e8c27482faa5d29a1d4917f8741c66cc7a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "244560e1626c1dfd16ef7e8b53bb61e8c27482faa5d29a1d4917f8741c66cc7a",
+    "normalizedCodeHash": "244560e1626c1dfd16ef7e8b53bb61e8c27482faa5d29a1d4917f8741c66cc7a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

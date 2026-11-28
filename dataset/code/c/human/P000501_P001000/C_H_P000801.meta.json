@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000801",
+  "problemId": "P000801",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000801",
+    "title": "Matrix Block Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N \u00d7 M matrix and an integer K, construct another matrix where each cell contains the sum of all elements whose row and column distances from the current cell are at most K. Use a 2D prefix sum to compute the result efficiently.",
+    "input": "Integer N Integer M Matrix grid Integer K",
+    "output": "The resulting matrix.",
+    "constraints": "1 <= N, M <= 1000"
+  },
+  "repository": {
+    "name": "asdf93074/qwen.c",
+    "owner": "asdf93074",
+    "url": "https://github.com/asdf93074/qwen.c",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "qwen.h",
+    "fileSHA": "ee70dd4987b8c38d8d569891294f176f72c4b1ef",
+    "url": "https://github.com/asdf93074/qwen.c/blob/8c13c0349be93e7bece043aa58c403fbc388ed19/qwen.h",
+    "rawUrl": "https://raw.githubusercontent.com/asdf93074/qwen.c/main/qwen.h"
+  },
+  "matching": {
+    "relevanceScore": 67.92
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ac42a32cd93608c149fe815ac6ede8c8e58ede927d392f125bb67f2852fa2274",
+    "normalizedCodeHash": "ac42a32cd93608c149fe815ac6ede8c8e58ede927d392f125bb67f2852fa2274",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:37:56.875848+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

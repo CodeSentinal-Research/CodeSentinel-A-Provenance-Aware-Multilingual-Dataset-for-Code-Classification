@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000613",
+  "problemId": "P000613",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000613",
+    "title": "Remove Duplicates from Unsorted Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of an unsorted singly linked list, remove all duplicate nodes while keeping the first occurrence of every value. Return the head of the modified linked list.",
+    "input": "Integer n Linked list",
+    "output": "The linked list after removing duplicate values.",
+    "constraints": "0 <= n <= 10^5 -10^9 <= node.value <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000613",
+    "fileSHA": "1cad6c29751bc8eef6fb4aeb4fc7b7854ff7aeb96bd8650961a25525474a3549",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.324Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "cbdeb1e0ba9785ff8afcb3cf57741a3353d8a5a6479877e887152271e695fd11",
+    "normalizedCodeHash": "df091ef9c5904a305abad0c5a8e11a65688805e2d2a5355fc053b80668a6d4fd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.324Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

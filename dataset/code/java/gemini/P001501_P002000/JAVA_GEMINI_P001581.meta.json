@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001581",
+  "problemId": "P001581",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001581",
+    "title": "Longest Subarray With At Most K Negative Numbers",
+    "category": "Sliding Window",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and an integer K, determine the maximum length of a contiguous subarray containing at most K negative numbers.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the maximum length.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 0 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001581",
+    "fileSHA": "a1fcd4f89093880a98bb81237a69bb556f4737f5458520e2c1488cf47294e311",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:43.127476+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a1fcd4f89093880a98bb81237a69bb556f4737f5458520e2c1488cf47294e311",
+    "normalizedCodeHash": "a1fcd4f89093880a98bb81237a69bb556f4737f5458520e2c1488cf47294e311",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:43.127500+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P001590",
+  "problemId": "P001590",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001590",
+    "title": "Maximum Robots Within Budget",
+    "category": "Sliding Window",
+    "difficulty": "Hard",
+    "problemStatement": "You are given two arrays representing the charge times and running costs of robots, along with a budget. Determine the maximum number of consecutive robots that can be operated without exceeding the budget.",
+    "input": "\u2022 First line contains N and Budget. \u2022 Second line contains N integers representing charge times. \u2022 Third line contains N integers representing running costs.",
+    "output": "\u2022 Print the maximum number of consecutive robots that can be operated.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 1 \u2264 Budget \u2264 10^18"
+  },
+  "repository": {
+    "name": "lrmsspace/Knowledge-Augmented-Codegen",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P001501_P002000/C_H_P001590.c",
+    "fileSHA": "789ff542067bf578952331b61d5b2ab985af3f47",
+    "url": "https://github.com/lrmsspace/Knowledge-Augmented-Codegen/blob/aa02d0f7c87de0b9a725c85dfb03746289785175/evaluation/S0/c/Hard/2191-maximum-number-of-robots-within-budget.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/Knowledge-Augmented-Codegen/main/evaluation/S0/c/Hard/2191-maximum-number-of-robots-within-budget.c"
+  },
+  "matching": {
+    "relevanceScore": 79.45
+  },
+  "provenance": {
+    "score": 64.5,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2026-03-16T12:26:38Z",
+    "lastCommitDate": "2026-03-16T13:24:11Z",
+    "commitCount": 3,
+    "authorCount": 1,
+    "authors": [
+      "RUIMENG LI"
+    ],
+    "firstKnownAuthor": "RUIMENG LI",
+    "latestKnownAuthor": "RUIMENG LI"
+  },
+  "deduplication": {
+    "rawCodeHash": "fe72fb564c954fdc99b70538d6243adb1692cd5f51bb292ec3306a3bb8115b57",
+    "normalizedCodeHash": "fe72fb564c954fdc99b70538d6243adb1692cd5f51bb292ec3306a3bb8115b57",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T11:10:10.644252+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

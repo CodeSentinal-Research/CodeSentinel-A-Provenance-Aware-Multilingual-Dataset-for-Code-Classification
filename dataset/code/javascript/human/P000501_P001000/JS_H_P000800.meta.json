@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P000800",
+  "problemId": "P000800",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000800",
+    "title": "Range Sum Query 2D - Immutable",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N \u00d7 M matrix and multiple queries, return the sum of all elements inside the rectangle defined by: Top-left corner (r1, c1) Bottom-right corner (r2, c2) Preprocess the matrix using a 2D prefix sum.",
+    "input": "Integer N Integer M Matrix grid Integer Q Q rectangle queries",
+    "output": "For each query, print the rectangle sum.",
+    "constraints": "1 <= N, M <= 1000 1 <= Q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "vovaushenko/CodeWars",
+    "owner": "vovaushenko",
+    "url": "https://github.com/vovaushenko/CodeWars",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P000501_P001000/JS_H_P000800.js",
+    "fileSHA": "bd63be39e6b567213937373d7e32efa498adcf01",
+    "url": "https://github.com/vovaushenko/CodeWars/blob/3598786ede358f1c6b8244510984afd7d21bff5b/leetcode/304. Range Sum Query 2D - Immutable.js",
+    "rawUrl": "https://raw.githubusercontent.com/vovaushenko/CodeWars/main/leetcode/304. Range Sum Query 2D - Immutable.js"
+  },
+  "matching": {
+    "relevanceScore": 81.57
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2022-03-04T14:16:16Z",
+    "lastCommitDate": "2022-03-04T14:16:16Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "vova_ushenko"
+    ],
+    "firstKnownAuthor": "vova_ushenko",
+    "latestKnownAuthor": "vova_ushenko"
+  },
+  "deduplication": {
+    "rawCodeHash": "19ee3995dcb1c3d6fb2a6f0d362cbc142051d10f4350563be80c8fd2915fa7f1",
+    "normalizedCodeHash": "19ee3995dcb1c3d6fb2a6f0d362cbc142051d10f4350563be80c8fd2915fa7f1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T05:01:28.611018+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

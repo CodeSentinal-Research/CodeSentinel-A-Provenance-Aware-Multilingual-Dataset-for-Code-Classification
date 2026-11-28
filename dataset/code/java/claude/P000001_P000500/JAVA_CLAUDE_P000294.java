@@ -1,0 +1,2 @@
+import java.util.*;
+public class Solution{public static void main(String[]a){Scanner sc=new Scanner(System.in);String s=sc.next();int rows=sc.nextInt();if(rows==1){System.out.println(s);return;}StringBuilder[]v=new StringBuilder[rows];for(int i=0;i<rows;i++)v[i]=new StringBuilder();int row=0;boolean down=true;for(char c:s.toCharArray()){v[row].append(c);if(row==rows-1)down=false;else if(row==0)down=true;row+=down?1:-1;}StringBuilder sb=new StringBuilder();for(StringBuilder x:v)sb.append(x);System.out.println(sb);}}

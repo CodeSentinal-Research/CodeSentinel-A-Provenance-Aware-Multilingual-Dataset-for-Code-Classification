@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000513",
+  "problemId": "P000513",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000513",
+    "title": "Flatten Nested List Iterator",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "A nested list contains integers or other nested lists. Design an iterator that supports the following operations: next() — returns the next integer. hasNext() — returns whether there are more integers remaining. Process a sequence of iterator operations on the given nested list.",
+    "input": "A nested list of integers. A sequence of iterator operations.",
+    "output": "For each next() operation, print the returned integer. For each hasNext() operation, print true or false.",
+    "constraints": "The total number of integers does not exceed 10^5."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000513",
+    "fileSHA": "bde70fb61577d6c456c70b9f7feb8725a8e501d7858a3920de6ff851b213c73f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "bde70fb61577d6c456c70b9f7feb8725a8e501d7858a3920de6ff851b213c73f",
+    "normalizedCodeHash": "bde70fb61577d6c456c70b9f7feb8725a8e501d7858a3920de6ff851b213c73f",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000513: Flatten Nested List Iterator"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

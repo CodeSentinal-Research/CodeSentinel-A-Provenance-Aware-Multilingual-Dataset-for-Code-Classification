@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_GPT_P001520",
+  "problemId": "P001520",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001520",
+    "title": "Max Chunks to Make Sorted",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a permutation of integers from 0 to N−1, determine the maximum number of chunks into which the array can be divided so that sorting each chunk individually results in the entire array being sorted.",
+    "input": "• First line contains integer N. • Second line contains N integers.",
+    "output": "Print the maximum number of chunks.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P001501_P002000/JS_GPT_P001520.js",
+    "fileSHA": "885fe0bb38d05167344bca3715cf72969c06af6d362a21a2d5b046a80f177d93",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-15T11:37:06.707316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "885fe0bb38d05167344bca3715cf72969c06af6d362a21a2d5b046a80f177d93",
+    "normalizedCodeHash": "885fe0bb38d05167344bca3715cf72969c06af6d362a21a2d5b046a80f177d93",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "pythonLeakage": [],
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-15T11:37:06.707316+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

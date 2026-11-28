@@ -1,0 +1,16 @@
+# problem title : Sparse Matrix Multiplication
+# Solve the stated task using standard input and standard output.
+from typing import List
+
+class Solution:
+    def multiply(self, mat1: List[List[int]], mat2: List[List[int]]) -> List[List[int]]:
+        r1, c1 = len(mat1), len(mat1[0])
+        c2 = len(mat2[0])
+        res = [[0] * c2 for _ in range(r1)]
+        for i in range(r1):
+            for k in range(c1):
+                if mat1[i][k] != 0:
+                    for j in range(c2):
+                        if mat2[k][j] != 0:
+                            res[i][j] += mat1[i][k] * mat2[k][j]
+        return res

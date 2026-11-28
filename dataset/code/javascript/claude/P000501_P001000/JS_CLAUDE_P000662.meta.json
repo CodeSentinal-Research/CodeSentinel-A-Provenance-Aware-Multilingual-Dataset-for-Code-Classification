@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000662",
+  "problemId": "P000662",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000662",
+    "title": "Reverse First K Nodes of Linked List",
+    "category": "Linked List",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list and an integer k, reverse only the first k nodes of the list. The remaining nodes must remain unchanged. If k is greater than the length of the list, reverse the entire list. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer k",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= k <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000662",
+    "fileSHA": "ba1f1915d3c944fb71e6396aa8a2157cd91208e9f6415728bd764cd3adabec3f",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "ba1f1915d3c944fb71e6396aa8a2157cd91208e9f6415728bd764cd3adabec3f",
+    "normalizedCodeHash": "ba1f1915d3c944fb71e6396aa8a2157cd91208e9f6415728bd764cd3adabec3f",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000662"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

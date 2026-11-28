@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001347",
+  "problemId": "P001347",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001347",
+    "title": "Cryptarithmetic Puzzle",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given three uppercase words representing an equation of the form WORD1 + WORD2 = WORD3, assign distinct digits to letters so that the equation holds.",
+    "input": "\u2022 First line contains WORD1. \u2022 Second line contains WORD2. \u2022 Third line contains WORD3.",
+    "output": "Print one valid digit assignment or IMPOSSIBLE if none exists.",
+    "constraints": "\u2022 Total distinct letters \u2264 10"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001347",
+    "fileSHA": "dee91abf98afb388f3fdcbdf7213df162328a74e4ae5a8180b590124a4a540a7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:22:54.635138+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "dee91abf98afb388f3fdcbdf7213df162328a74e4ae5a8180b590124a4a540a7",
+    "normalizedCodeHash": "dee91abf98afb388f3fdcbdf7213df162328a74e4ae5a8180b590124a4a540a7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:22:54.635166+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

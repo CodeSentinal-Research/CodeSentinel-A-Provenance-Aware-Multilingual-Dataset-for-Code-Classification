@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001652",
+  "problemId": "P001652",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001652",
+    "title": "Lowest Common Ancestor in a Binary Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree and two distinct nodes, determine their lowest common ancestor. The lowest common ancestor is the deepest node that has both given nodes as descendants.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree. • The last line contains two node values.",
+    "output": "• Print the value of the lowest common ancestor.",
+    "constraints": "• 2 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001652.c",
+    "fileSHA": "9664e914e3053717aa238e8e9c119b94a4d83106d30cb6158325b1945b1b66f7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.113Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "634039fb03550804ac4a78d00b0e79698bad79cf105bc1906b4ddbacb877bbe0",
+    "normalizedCodeHash": "9664e914e3053717aa238e8e9c119b94a4d83106d30cb6158325b1945b1b66f7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.113Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

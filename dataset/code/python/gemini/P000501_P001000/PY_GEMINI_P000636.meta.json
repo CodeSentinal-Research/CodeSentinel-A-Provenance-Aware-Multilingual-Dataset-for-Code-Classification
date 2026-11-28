@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P000636",
+  "problemId": "P000636",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000636",
+    "title": "Design Browser Tabs Manager",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a browser tab manager supporting the following operations: open(url) \u2014 Open a new tab. close(index) \u2014 Close the specified tab. switch(index) \u2014 Make the specified tab active. moveLeft(index) \u2014 Move the specified tab one position to the left. moveRight(index) \u2014 Move the specified tab one position to the right. current() \u2014 Return the currently active tab. Implement all operations efficiently using an appropriate linked list structure.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result of every current() operation.",
+    "constraints": "1 <= q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "python/gemini/PY_GEMINI_P000636",
+    "fileSHA": "e79e703628bd32992a980a860a36f887927bb40d6e558e2e92da01bf01b401bf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:49:57.576578+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e79e703628bd32992a980a860a36f887927bb40d6e558e2e92da01bf01b401bf",
+    "normalizedCodeHash": "e79e703628bd32992a980a860a36f887927bb40d6e558e2e92da01bf01b401bf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:49:57.576599+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

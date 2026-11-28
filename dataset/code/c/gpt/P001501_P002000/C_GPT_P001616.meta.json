@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001616",
+  "problemId": "P001616",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001616",
+    "title": "Two-Dimensional Range Sum Query",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given an N × M matrix and multiple queries, each specifying two opposite corners of a rectangle, determine the sum of all elements inside each rectangle.",
+    "input": "• First line contains N and M. • Next N lines each contain M integers. • Next line contains Q. • Next Q lines contain r1 c1 r2 c2.",
+    "output": "• Print the answer for every query.",
+    "constraints": "• 1 ≤ N,M ≤ 1000 • 1 ≤ Q ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001616.c",
+    "fileSHA": "6c4466a0efe643db53a75f88ffa25791f44264f104fdbe9271e973be4621dcaa",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.010Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "168087d4d6f36df58e31ab089570e812caf7f4b82593cabd9f3582c01ab21dfa",
+    "normalizedCodeHash": "6c4466a0efe643db53a75f88ffa25791f44264f104fdbe9271e973be4621dcaa",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.010Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

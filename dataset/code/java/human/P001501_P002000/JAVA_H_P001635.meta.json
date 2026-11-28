@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001635",
+  "problemId": "P001635",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001635",
+    "title": "Count Submatrices With Equal Number of Zeros and Ones",
+    "category": "Prefix Sum",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary matrix, determine the number of rectangular submatrices containing an equal number of 0s and 1s.",
+    "input": "\u2022 First line contains N and M. \u2022 Next N lines each contain M binary integers.",
+    "output": "\u2022 Print the required count.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 300 \u2022 Matrix elements are either 0 or 1."
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/1000-1099/1074.Number of Submatrices That Sum to Target/Solution.java",
+    "fileSHA": "c26f4565b04d7733532950c60b6d385a30572233",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/1000-1099/1074.Number of Submatrices That Sum to Target/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/1000-1099/1074.Number of Submatrices That Sum to Target/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "df14d82dd58be23e23a8ee312ed3d89c08d9443e38ec3ecba218c884a1188322",
+    "normalizedCodeHash": "df14d82dd58be23e23a8ee312ed3d89c08d9443e38ec3ecba218c884a1188322",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:12.625745+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

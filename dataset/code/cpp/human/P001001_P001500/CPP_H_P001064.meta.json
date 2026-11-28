@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001064",
+  "problemId": "P001064",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001064",
+    "title": "Check Whether an Edge Exists",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given a graph and Q queries, determine whether a specified edge exists in the graph.",
+    "input": "\u2022 First line contains integers N, M, and Q. \u2022 Next M lines contain graph edges. \u2022 Next Q lines contain pairs of vertices.",
+    "output": "For each query, print YES if the edge exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "daisybio/data-leakage-ppi-prediction",
+    "owner": "daisybio",
+    "url": "https://github.com/daisybio/data-leakage-ppi-prediction",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "snap/snap-core/graphmp.h",
+    "fileSHA": "798793da7ee15b5c58c167b6d3a170bac3a67f32",
+    "url": "https://github.com/daisybio/data-leakage-ppi-prediction/blob/227ea4cbb1c50fca5fa322e15c526da57a77bf2d/snap/snap-core/graphmp.h",
+    "rawUrl": "https://raw.githubusercontent.com/daisybio/data-leakage-ppi-prediction/main/snap/snap-core/graphmp.h"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f9fd8d83ef56388339404170313b3df49aa9fb552f8fd8f6a22d145ca751b385",
+    "normalizedCodeHash": "f9fd8d83ef56388339404170313b3df49aa9fb552f8fd8f6a22d145ca751b385",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T17:33:08.345251+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

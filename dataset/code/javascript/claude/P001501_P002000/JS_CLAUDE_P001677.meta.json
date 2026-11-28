@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_CLAUDE_P001677",
+  "problemId": "P001677",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001677",
+    "title": "Find the Cousins of a Given Node",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of a binary tree and a target node, determine all cousin nodes of the target. Two nodes are cousins if they are at the same depth but have different parents.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree. • The last line contains the target node.",
+    "output": "• Print all cousin nodes in the required order. If none exist, print NONE.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P001677",
+    "fileSHA": "4204eaf6358ece54c818238525bd29143e30a0fcddccec5d2d84d6ceaeab01e8",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6a0851f9033b641fcd2468d77391de65adf12858cefa4e29a5c196a01289ecc8",
+    "normalizedCodeHash": "4204eaf6358ece54c818238525bd29143e30a0fcddccec5d2d84d6ceaeab01e8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

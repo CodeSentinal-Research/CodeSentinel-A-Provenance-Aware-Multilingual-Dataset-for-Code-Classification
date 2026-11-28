@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000723",
+  "problemId": "P000723",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000723",
+    "title": "Partition Array into K Equal Sum Subsets",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an integer array and an integer k, determine whether the array can be partitioned into k non-empty subsets having equal sums. Return true if possible; otherwise return false.",
+    "input": "Integer n Array nums Integer k",
+    "output": "true if such a partition exists, otherwise false.",
+    "constraints": "1 <= n <= 16 1 <= nums[i] <= 10^4 1 <= k <= n"
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/cpp/partitionEqualSubsetSum/PartitionEqualSubsetSum.cpp",
+    "fileSHA": "1ed6b55159909568371a6960607a1c30b1fa2ee4",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/cpp/partitionEqualSubsetSum/PartitionEqualSubsetSum.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/cpp/partitionEqualSubsetSum/PartitionEqualSubsetSum.cpp"
+  },
+  "matching": {
+    "relevanceScore": 72.64
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d18fecc306f467a8051d4bc77c60db2931bf2c992293d35ec03054391eb84a49",
+    "normalizedCodeHash": "d18fecc306f467a8051d4bc77c60db2931bf2c992293d35ec03054391eb84a49",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (C++ Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:54:37.526063+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

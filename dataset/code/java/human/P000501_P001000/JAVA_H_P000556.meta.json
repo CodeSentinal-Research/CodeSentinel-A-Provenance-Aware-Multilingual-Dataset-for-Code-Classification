@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000556",
+  "problemId": "P000556",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000556",
+    "title": "Minimum Number of Visited Cells in a Grid",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given an m \u00d7 n grid of non-negative integers. Starting from the top-left cell, you may move: Right by at most grid[i][j] cells. Down by at most grid[i][j] cells. Return the minimum number of visited cells needed to reach the bottom-right cell. If the destination cannot be reached, return -1.",
+    "input": "Integers m and n Grid of integers.",
+    "output": "A single integer.",
+    "constraints": "1 <= m, n <= 10^5 m \u00d7 n <= 10^5 0 <= grid[i][j] <= 10^5"
+  },
+  "repository": {
+    "name": "daoway/empty-leetcode",
+    "owner": "daoway",
+    "url": "https://github.com/daoway/empty-leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/test/java/com/blogspot/ostas/leetcode/all/hard/minimum_number_of_visited_cells_in_a_grid/Solution.java",
+    "fileSHA": "86e3e1282b7e0317cce9fd8936820f2a962e1052",
+    "url": "https://github.com/daoway/empty-leetcode/blob/2ec4146c7ae779c273a16283fb413cb0b18fc675/src/test/java/com/blogspot/ostas/leetcode/all/hard/minimum_number_of_visited_cells_in_a_grid/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/daoway/empty-leetcode/main/src/test/java/com/blogspot/ostas/leetcode/all/hard/minimum_number_of_visited_cells_in_a_grid/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 91.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "882a102ecd8ced57ce9d134231fc0788e64b8dd3778ca4cae38409a4accee2e2",
+    "normalizedCodeHash": "882a102ecd8ced57ce9d134231fc0788e64b8dd3778ca4cae38409a4accee2e2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T15:15:38.599600+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

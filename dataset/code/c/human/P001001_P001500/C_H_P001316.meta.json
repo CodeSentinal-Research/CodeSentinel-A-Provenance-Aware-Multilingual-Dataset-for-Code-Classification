@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001316",
+  "problemId": "P001316",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001316",
+    "title": "M-Coloring Problem",
+    "category": "Backtracking",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph and M colors, determine whether every vertex can be colored such that no two adjacent vertices share the same color.",
+    "input": "\u2022 First line contains integers V, E, and M. \u2022 Next E lines contain edges.",
+    "output": "Print YES if coloring is possible; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 V \u2264 30"
+  },
+  "repository": {
+    "name": "CSI-SCT-SB/Extra-Mile",
+    "owner": "CSI-SCT-SB",
+    "url": "https://github.com/CSI-SCT-SB/Extra-Mile",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "C/m_coloring_problem.c",
+    "fileSHA": "22246a8ff57dc1fbf02fcd5d6b44877671d2d9d6",
+    "url": "https://github.com/CSI-SCT-SB/Extra-Mile/blob/9146b1a2fe85ebe42c4425579130707c550c108c/C/m_coloring_problem.c",
+    "rawUrl": "https://raw.githubusercontent.com/CSI-SCT-SB/Extra-Mile/main/C/m_coloring_problem.c"
+  },
+  "matching": {
+    "relevanceScore": 78.64
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5de4cdf117b15ba86d321256303068fa82ecf830966d09c39c9fe136861cb8e8",
+    "normalizedCodeHash": "5de4cdf117b15ba86d321256303068fa82ecf830966d09c39c9fe136861cb8e8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:28:48.838568+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

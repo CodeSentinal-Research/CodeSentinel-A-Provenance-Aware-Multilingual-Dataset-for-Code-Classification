@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000376",
+  "problemId": "P000376",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000376",
+    "title": "Search Customer by Mobile Number",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find a customer using the registered mobile number.",
+    "input": "Customer records and a mobile number.",
+    "output": "Matching customer details or \"Customer Not Found\".",
+    "constraints": "1 ≤ Number of Customers ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000376",
+    "fileSHA": "9435dfa8c90e8d25ac773af8e6a9e9920e392f0fa5ba5bfffe1d3301c3a691fa",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9435dfa8c90e8d25ac773af8e6a9e9920e392f0fa5ba5bfffe1d3301c3a691fa",
+    "normalizedCodeHash": "9435dfa8c90e8d25ac773af8e6a9e9920e392f0fa5ba5bfffe1d3301c3a691fa",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000376: Search Customer by Mobile Number"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

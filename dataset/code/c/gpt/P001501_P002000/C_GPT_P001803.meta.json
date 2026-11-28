@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001803",
+  "problemId": "P001803",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001803",
+    "title": "Merge Two Binary Search Trees into a Balanced Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the roots of two Binary Search Trees, merge them into a single height-balanced Binary Search Tree containing all keys.",
+    "input": "• The first line contains N₁. • The next N₁ lines describe the first BST. • The following line contains N₂. • The next N₂ lines describe the second BST.",
+    "output": "• Print the merged balanced BST.",
+    "constraints": "• 0 ≤ N₁, N₂ ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001803.c",
+    "fileSHA": "dc1d66e91120f99137201f267af0bf51b9d1c7cc926d6b016aeb7d6b2d56a926",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.705Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "661589ffbfd9f5f0606572958158470a192dba5c9dba0e84b43dd14186690e96",
+    "normalizedCodeHash": "dc1d66e91120f99137201f267af0bf51b9d1c7cc926d6b016aeb7d6b2d56a926",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.705Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

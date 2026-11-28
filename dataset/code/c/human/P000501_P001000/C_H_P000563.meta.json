@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P000563",
+  "problemId": "P000563",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000563",
+    "title": "Word Ladder",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Given two words, beginWord and endWord, and a dictionary of valid words, find the length of the shortest transformation sequence from beginWord to endWord. A transformation consists of changing exactly one character, and every intermediate word must exist in the dictionary. Return 0 if no transformation exists.",
+    "input": "String beginWord String endWord Integer n List of n words",
+    "output": "A single integer representing the length of the shortest transformation sequence.",
+    "constraints": "1 <= word length <= 10 1 <= n <= 5000"
+  },
+  "repository": {
+    "name": "vli02/leetcode",
+    "owner": "vli02",
+    "url": "https://github.com/vli02/leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P000501_P001000/C_H_P000563.c",
+    "fileSHA": "f31d9b67822a29858bd3cc49dea258f50a760edb",
+    "url": "https://github.com/vli02/leetcode/blob/41c42562bbde6e700c450a594dc93b7134229926/127. Word Ladder.c",
+    "rawUrl": "https://raw.githubusercontent.com/vli02/leetcode/main/127. Word Ladder.c"
+  },
+  "matching": {
+    "relevanceScore": 79.42
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2017-08-20T05:39:47Z",
+    "lastCommitDate": "2017-10-07T06:15:29Z",
+    "commitCount": 2,
+    "authorCount": 1,
+    "authors": [
+      "Victor"
+    ],
+    "firstKnownAuthor": "Victor",
+    "latestKnownAuthor": "Victor"
+  },
+  "deduplication": {
+    "rawCodeHash": "59f1667cc2a7ded2c5d66a3cd48138cef3ef600b044c569e889b282f1f16f0d5",
+    "normalizedCodeHash": "59f1667cc2a7ded2c5d66a3cd48138cef3ef600b044c569e889b282f1f16f0d5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:25:57.517077+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

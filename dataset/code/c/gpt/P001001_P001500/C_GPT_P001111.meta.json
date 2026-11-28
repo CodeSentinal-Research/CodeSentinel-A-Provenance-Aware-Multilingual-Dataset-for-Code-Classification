@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001111",
+  "problemId": "P001111",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001111",
+    "title": "Snake and Ladder Minimum Dice Throws",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given the positions of snakes and ladders on a game board numbered from 1 to N, determine the minimum number of dice throws required to reach the last cell.",
+    "input": "• First line contains integer N. • Second line contains integer L. • Next L lines contain ladder start and end positions. • Next line contains integer S. • Next S lines contain snake head and tail positions.",
+    "output": "Print the minimum number of dice throws.",
+    "constraints": "• 2 ≤ N ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001111.c",
+    "fileSHA": "508422b1f8e8f13c1286d41754a685e5a10aad0decc033efb08a9827d0c0d6d3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.041Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "587c501e8509ca3a0668918904ab2731993fa459491f93b728436212e67abab1",
+    "normalizedCodeHash": "508422b1f8e8f13c1286d41754a685e5a10aad0decc033efb08a9827d0c0d6d3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.041Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

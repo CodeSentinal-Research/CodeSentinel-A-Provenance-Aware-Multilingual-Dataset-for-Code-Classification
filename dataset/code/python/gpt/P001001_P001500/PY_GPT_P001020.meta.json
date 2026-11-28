@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001020",
+  "problemId": "P001020",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001020",
+    "title": "Smallest Range Covering K Sorted Lists",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given K sorted lists of integers, determine the smallest inclusive range that contains at least one element from every list.",
+    "input": "• First line contains integer K. • For each list, the number of elements followed by the sorted elements.",
+    "output": "Print the starting and ending values of the smallest range.",
+    "constraints": "• 1 ≤ K ≤ 500 • Total number of elements ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001020.py",
+    "fileSHA": "3fb4c0a1545809e5b053b8a6f7feeb60168c69616adfda1a4465f77dc2ce2cad",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.101791+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "3fb4c0a1545809e5b053b8a6f7feeb60168c69616adfda1a4465f77dc2ce2cad",
+    "normalizedCodeHash": "21648220b13c2a032ef9871ac572bf87f50a46f6720deb2875ee37822bc964b8",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.101791+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

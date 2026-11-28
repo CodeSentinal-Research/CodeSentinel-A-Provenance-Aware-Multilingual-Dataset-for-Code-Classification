@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001021",
+  "problemId": "P001021",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001021",
+    "title": "Increase Key in a Max Heap",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a valid Max Heap represented as an array, an index i, and a new value greater than or equal to the current value, update the key at index i and restore the Max Heap property. Print the updated heap.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N space-separated integers. \u2022 Third line contains integers i and newValue.",
+    "output": "Print the updated Max Heap.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 i < N \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "BALLISTICrobin/c-plus-plus-and-dsa",
+    "owner": "BALLISTICrobin",
+    "url": "https://github.com/BALLISTICrobin/c-plus-plus-and-dsa",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "heap.hpp",
+    "fileSHA": "76829c7a7637e08dc7967837c70b7788f1f13c12",
+    "url": "https://github.com/BALLISTICrobin/c-plus-plus-and-dsa/blob/6419a93cfeb6ac857075b7ee51bd1fa63b367a82/heap.hpp",
+    "rawUrl": "https://raw.githubusercontent.com/BALLISTICrobin/c-plus-plus-and-dsa/main/heap.hpp"
+  },
+  "matching": {
+    "relevanceScore": 83.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f71f6f483c185122a929e1073b9111619d8a4449173b0bc3b1afa52232e665eb",
+    "normalizedCodeHash": "f71f6f483c185122a929e1073b9111619d8a4449173b0bc3b1afa52232e665eb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T04:48:46.111022+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

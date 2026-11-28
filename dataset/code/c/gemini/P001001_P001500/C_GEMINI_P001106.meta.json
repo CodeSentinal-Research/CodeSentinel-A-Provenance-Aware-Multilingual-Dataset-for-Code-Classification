@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001106",
+  "problemId": "P001106",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001106",
+    "title": "Course Schedule Ordering",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given N courses and prerequisite relationships, determine one valid order in which all courses can be completed. If no such ordering exists, print IMPOSSIBLE.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain prerequisite pairs.",
+    "output": "Print one valid course ordering or IMPOSSIBLE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001106",
+    "fileSHA": "e60f6140df7ef5f903f6b211c09f3438341a3a39b316df770fc0e2ac0f18db44",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:45:01.604588+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e60f6140df7ef5f903f6b211c09f3438341a3a39b316df770fc0e2ac0f18db44",
+    "normalizedCodeHash": "e60f6140df7ef5f903f6b211c09f3438341a3a39b316df770fc0e2ac0f18db44",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:45:01.604613+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

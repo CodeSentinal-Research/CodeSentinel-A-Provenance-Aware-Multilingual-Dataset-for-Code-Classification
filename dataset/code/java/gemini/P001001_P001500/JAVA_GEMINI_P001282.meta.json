@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001282",
+  "problemId": "P001282",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001282",
+    "title": "Create Maximum Number",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given two arrays of digits and an integer K, create the largest possible number of length K by selecting digits from both arrays while preserving the relative order within each array.",
+    "input": "\u2022 First line contains integers N, M, and K. \u2022 Second line contains N digits. \u2022 Third line contains M digits.",
+    "output": "Print the maximum possible number.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 500 \u2022 1 \u2264 K \u2264 N + M"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001282",
+    "fileSHA": "316a6429711e88cdac31aff560b466908cca414b823fab9fc1496a1f46da8307",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:19:58.865442+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "316a6429711e88cdac31aff560b466908cca414b823fab9fc1496a1f46da8307",
+    "normalizedCodeHash": "316a6429711e88cdac31aff560b466908cca414b823fab9fc1496a1f46da8307",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:19:58.865475+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

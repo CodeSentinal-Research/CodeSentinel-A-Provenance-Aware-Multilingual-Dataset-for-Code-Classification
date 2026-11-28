@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001488",
+  "problemId": "P001488",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001488",
+    "title": "Minimum Length After Deleting Similar Ends",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given a string, repeatedly remove matching non-empty prefixes and suffixes consisting of the same character until no more removals are possible. Determine the minimum remaining length.",
+    "input": "\u2022 First line contains a string.",
+    "output": "Print the minimum remaining length.",
+    "constraints": "\u2022 1 \u2264 Length \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "beakerandjake/leetcode",
+    "owner": "beakerandjake",
+    "url": "https://github.com/beakerandjake/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/1750.js",
+    "fileSHA": "40a2d4ae8e5149c12eeba0ab5633d555352e620a",
+    "url": "https://github.com/beakerandjake/leetcode/blob/b140c0a2e6f05c88faaf8d28adc9bcdceafaed7b/src/1750.js",
+    "rawUrl": "https://raw.githubusercontent.com/beakerandjake/leetcode/main/src/1750.js"
+  },
+  "matching": {
+    "relevanceScore": 80.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3e479d5cdfe838d3829526ea8d7be26e4c45ba8896502d51f182dd46dee937e3",
+    "normalizedCodeHash": "3e479d5cdfe838d3829526ea8d7be26e4c45ba8896502d51f182dd46dee937e3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T03:26:09.972681+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001086",
+  "problemId": "P001086",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001086",
+    "title": "Multi-Source Shortest Distance",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an unweighted graph and multiple source vertices, determine the shortest distance from the nearest source to every vertex.",
+    "input": "\u2022 First line contains integers N, M, and K. \u2022 Next M lines contain graph edges. \u2022 Last line contains K source vertices.",
+    "output": "Print the minimum distance to every vertex.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5 \u2022 1 \u2264 K \u2264 N"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/operating_system/src/scheduling/shortest_seek_time_first/shortest_seek_time_first.c",
+    "fileSHA": "327769e9d73f878266d7e2823099f6d2d11ff2ad",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/operating_system/src/scheduling/shortest_seek_time_first/shortest_seek_time_first.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/operating_system/src/scheduling/shortest_seek_time_first/shortest_seek_time_first.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "898e99d6706c6273d010f33ede3f780e51e1b21df013754de96758459628162c",
+    "normalizedCodeHash": "898e99d6706c6273d010f33ede3f780e51e1b21df013754de96758459628162c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:17:09.892785+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

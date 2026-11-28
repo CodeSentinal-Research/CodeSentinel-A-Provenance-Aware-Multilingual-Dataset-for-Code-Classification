@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001178",
+  "problemId": "P001178",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001178",
+    "title": "Gold Mine Problem",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "A miner starts from any cell in the first column of a grid and moves only to the right, right-up, or right-down. Determine the maximum amount of gold that can be collected.",
+    "input": "\u2022 First line contains integers R and C. \u2022 Next R lines each contain C integers representing gold values.",
+    "output": "Print the maximum gold collectible.",
+    "constraints": "\u2022 1 \u2264 R, C \u2264 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001178",
+    "fileSHA": "9ca287167c4502464d20a867a1ae7906a475858b6f7fe369079f791b3e37b901",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:14:15.976598+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9ca287167c4502464d20a867a1ae7906a475858b6f7fe369079f791b3e37b901",
+    "normalizedCodeHash": "9ca287167c4502464d20a867a1ae7906a475858b6f7fe369079f791b3e37b901",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:14:15.976614+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

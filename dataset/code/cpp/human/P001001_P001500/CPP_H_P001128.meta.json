@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001128",
+  "problemId": "P001128",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001128",
+    "title": "Accounts Merge",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given multiple user accounts where each account contains a user's name followed by email addresses, merge all accounts belonging to the same person. Two accounts belong to the same person if they share at least one common email address.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain an account with a name followed by email addresses.",
+    "output": "Print the merged accounts sorted lexicographically by email.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^4 \u2022 Total emails \u2264 10^5"
+  },
+  "repository": {
+    "name": "yusifaliyevpro/Competitive-Programming",
+    "owner": "yusifaliyevpro",
+    "url": "https://github.com/yusifaliyevpro/Competitive-Programming",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "LeetCode/Medium/721. Accounts Merge.cpp",
+    "fileSHA": "178e985912c1d90680252ca82e0a069ef43a120d",
+    "url": "https://github.com/yusifaliyevpro/Competitive-Programming/blob/0684555c6a3c925941217ad17cab7e3fcfc65e54/LeetCode/Medium/721. Accounts Merge.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/yusifaliyevpro/Competitive-Programming/main/LeetCode/Medium/721. Accounts Merge.cpp"
+  },
+  "matching": {
+    "relevanceScore": 69.17
+  },
+  "provenance": {
+    "score": 75.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "681c3f763c20dd19bd6adb72a8c6453df73c286af08e3f8a612b1f0c8e767206",
+    "normalizedCodeHash": "681c3f763c20dd19bd6adb72a8c6453df73c286af08e3f8a612b1f0c8e767206",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T14:38:55.455811+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

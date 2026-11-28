@@ -1,0 +1,59 @@
+{
+  "solutionId": "JS_CLAUDE_P001860",
+  "problemId": "P001860",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001860",
+    "title": "Construct a Binary Search Tree from an Ancestor Matrix",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given an ancestor matrix corresponding to a Binary Search Tree with distinct keys, reconstruct the original Binary Search Tree if it exists.",
+    "input": "• The first line contains an integer N. • The next N lines contain the ancestor matrix.",
+    "output": "• Print the reconstructed BST, or IMPOSSIBLE if no such BST exists.",
+    "constraints": "• 1 ≤ N ≤ 2000"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P001860",
+    "fileSHA": "48959ed99ef75abfe963070c75d705f659ce28320108befcaf52bb45b6a89de4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "fee182c40e1decca124fe53095f475932f2c4d1b735d4c2d6520930466c6eced",
+    "normalizedCodeHash": "48959ed99ef75abfe963070c75d705f659ce28320108befcaf52bb45b6a89de4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

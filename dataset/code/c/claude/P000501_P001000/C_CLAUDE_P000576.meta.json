@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000576",
+  "problemId": "P000576",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000576",
+    "title": "Binary Tree Vertical Order Traversal",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, return its vertical order traversal. Nodes are grouped by their vertical column from left to right. If multiple nodes share the same row and column, they should be reported from left to right.",
+    "input": "The root of a binary tree.",
+    "output": "A list of vertical columns.",
+    "constraints": "Number of nodes is in the range [0, 1000]"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000576",
+    "fileSHA": "6117d5e802a2918641a62e3e9854772621431d76d25b1ed806dc3389990d12ff",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6117d5e802a2918641a62e3e9854772621431d76d25b1ed806dc3389990d12ff",
+    "normalizedCodeHash": "6117d5e802a2918641a62e3e9854772621431d76d25b1ed806dc3389990d12ff",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000576: Binary Tree Vertical Order Traversal"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,3 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){int r,c;cin>>r>>c;vector<vector<int>>g(r,vector<int>(c));for(int i=0;i<r;i++)for(int j=0;j<c;j++)cin>>g[i][j];vector<vector<int>>dist(r,vector<int>(c,1e9));dist[0][0]=0;priority_queue<tuple<int,int,int>,vector<tuple<int,int,int>>,greater<>>pq;pq.push({0,0,0});int dx[]={-1,1,0,0},dy[]={0,0,-1,1};while(!pq.empty()){auto[d,i,j]=pq.top();pq.pop();if(i==r-1&&j==c-1){cout<<d<<endl;return 0;}for(int k=0;k<4;k++){int ni=i+dx[k],nj=j+dy[k];if(ni>=0&&ni<r&&nj>=0&&nj<c){int nd=max(d,abs(g[i][j]-g[ni][nj]));if(nd<dist[ni][nj]){dist[ni][nj]=nd;pq.push({nd,ni,nj});}}}}cout<<-1<<endl;return 0;}

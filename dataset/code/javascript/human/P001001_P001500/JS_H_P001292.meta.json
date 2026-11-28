@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P001292",
+  "problemId": "P001292",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001292",
+    "title": "Eliminate Maximum Number of Monsters",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Each monster starts at a certain distance from the city and moves toward it at a constant speed. Every minute, you may eliminate exactly one monster before any monster reaches the city. Determine the maximum number of monsters that can be eliminated.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing distances. \u2022 Third line contains N integers representing speeds.",
+    "output": "Print the maximum number of monsters that can be eliminated.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "savely/leetcode",
+    "owner": "savely",
+    "url": "https://github.com/savely/leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P001001_P001500/JS_H_P001292.js",
+    "fileSHA": "22fc4f758ce6cb6280feb0c020c05334ef2aaaa9",
+    "url": "https://github.com/savely/leetcode/blob/d37c52e90192b41cfc21bf49fb8b4a6337c0b4d1/eliminateMaxMonsters.js",
+    "rawUrl": "https://raw.githubusercontent.com/savely/leetcode/main/eliminateMaxMonsters.js"
+  },
+  "matching": {
+    "relevanceScore": 73.4
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2021-07-05T10:44:54Z",
+    "lastCommitDate": "2021-07-05T10:44:54Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "savely"
+    ],
+    "firstKnownAuthor": "savely",
+    "latestKnownAuthor": "savely"
+  },
+  "deduplication": {
+    "rawCodeHash": "c13253e64418546cb2b58f75a4e6a4909487fa1e27ab8d838658cd5e6f457b78",
+    "normalizedCodeHash": "c13253e64418546cb2b58f75a4e6a4909487fa1e27ab8d838658cd5e6f457b78",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T09:14:45.146362+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

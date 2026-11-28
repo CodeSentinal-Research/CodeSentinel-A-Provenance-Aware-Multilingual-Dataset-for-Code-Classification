@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000777",
+  "problemId": "P000777",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000777",
+    "title": "Crossword Puzzle Solver",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a crossword grid containing blocked cells and empty slots, along with a list of words, fill the crossword so that every word is placed exactly once either horizontally or vertically. If multiple solutions exist, print any one valid completed crossword.",
+    "input": "Integer N Character matrix grid Integer W Array words",
+    "output": "The completed crossword grid.",
+    "constraints": "1 <= N <= 20 1 <= W <= 20"
+  },
+  "repository": {
+    "name": "microsoft/PyRIT",
+    "owner": "microsoft",
+    "url": "https://github.com/microsoft/PyRIT",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "pyrit/converter/puzzled/puzzle_builders.py",
+    "fileSHA": "090496838ed63876727ed715ebdc93144033e582",
+    "url": "https://github.com/microsoft/PyRIT/blob/0899b2144056a41aea22996ed086c8617262e8ea/pyrit/converter/puzzled/puzzle_builders.py",
+    "rawUrl": "https://raw.githubusercontent.com/microsoft/PyRIT/main/pyrit/converter/puzzled/puzzle_builders.py"
+  },
+  "matching": {
+    "relevanceScore": 83.1
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "291cf9ace23d78700a6205ece733192fa95e5e58dad22d418d3049d3e0671164",
+    "normalizedCodeHash": "291cf9ace23d78700a6205ece733192fa95e5e58dad22d418d3049d3e0671164",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T16:41:06.863320+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

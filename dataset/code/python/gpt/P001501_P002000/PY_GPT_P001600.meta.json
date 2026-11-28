@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_GPT_P001600",
+  "problemId": "P001600",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001600",
+    "title": "Range Average Query",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, compute the average value of elements in each specified range.",
+    "input": "• First line contains N. • Second line contains N integers. • Third line contains Q. • Next Q lines contain L and R.",
+    "output": "• Print the average for each query.",
+    "constraints": "• 1 ≤ N, Q ≤ 2 × 10^5 • 0 ≤ L ≤ R < N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001501_P002000/PY_GPT_P001600.py",
+    "fileSHA": "d1ce61a7ca5062d4eb266a53fa06e267e1533b9c2fa0ef27f14246a2b0452490",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-26T13:09:03.961681+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d1ce61a7ca5062d4eb266a53fa06e267e1533b9c2fa0ef27f14246a2b0452490",
+    "normalizedCodeHash": "bedec731bc90e4a92c21f7795f431efad365f0e18c4e2dad33ae2e4fc1484487",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-26T13:09:03.961681+00:00",
+    "pipelineVersion": "1.0.0"
+  },
+  "sha256": "077a8b61d0962e5523a14c48a27d85cf81b4a14275fd2aba999a4433c08c34e5"
+}

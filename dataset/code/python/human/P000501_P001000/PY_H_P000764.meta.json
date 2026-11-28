@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000764",
+  "problemId": "P000764",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000764",
+    "title": "Decode String at Index",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "An encoded string follows the rule: Letters are appended directly. A digit d means the entire current decoded string is repeated d times. Given an encoded string s and an integer K, return the K-th character in the decoded string without explicitly constructing the decoded string. Solve the problem recursively.",
+    "input": "String s Integer K",
+    "output": "The K-th character.",
+    "constraints": "2 <= |s| <= 100 1 <= K <= 10^18"
+  },
+  "repository": {
+    "name": "covert-encryption/covert",
+    "owner": "covert-encryption",
+    "url": "https://github.com/covert-encryption/covert",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "covert/archive.py",
+    "fileSHA": "6dc12d41eb11d8e8bd838b61a9038daabeb8e1b0",
+    "url": "https://github.com/covert-encryption/covert/blob/96658bb4921af06293000ff2109d954efbf317b1/covert/archive.py",
+    "rawUrl": "https://raw.githubusercontent.com/covert-encryption/covert/main/covert/archive.py"
+  },
+  "matching": {
+    "relevanceScore": 66.09
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "717b4afa30ef5acbdb9f1ca6992e01e5efa1fe7ab8ba7eeb7b24867b6d10427e",
+    "normalizedCodeHash": "717b4afa30ef5acbdb9f1ca6992e01e5efa1fe7ab8ba7eeb7b24867b6d10427e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:28:45.881070+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000617",
+  "problemId": "P000617",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000617",
+    "title": "Design Skip List",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design a Skip List data structure supporting the following operations with expected logarithmic time complexity: search(target) add(num) erase(num) Process a sequence of operations and print the result of every search() and erase() operation.",
+    "input": "Integer q Next q operations",
+    "output": "Print the result for each search() and erase() operation.",
+    "constraints": "1 <= q <= 5 × 10^4 0 <= num, target <= 2 × 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000617.c",
+    "fileSHA": "c6c26ebba88ab1ac7c0fca47855f74d09fc5f7accfd8a76dc6694baa4393e8ec",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c6c26ebba88ab1ac7c0fca47855f74d09fc5f7accfd8a76dc6694baa4393e8ec",
+    "normalizedCodeHash": "c6c26ebba88ab1ac7c0fca47855f74d09fc5f7accfd8a76dc6694baa4393e8ec",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

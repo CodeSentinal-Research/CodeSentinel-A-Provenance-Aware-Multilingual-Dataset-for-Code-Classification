@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001279",
+  "problemId": "P001279",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001279",
+    "title": "Smallest String with Given Numeric Value",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Construct the lexicographically smallest string of length N whose characters have a total numeric value K, where a = 1, b = 2, ..., z = 26.",
+    "input": "\u2022 First line contains integers N and K.",
+    "output": "Print the required string.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 N \u2264 K \u2264 26N"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001279",
+    "fileSHA": "d8e180db6aa3a535101972dd73abea3b938944a0823f84294d8d45de908d1fff",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:19:58.560316+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "d8e180db6aa3a535101972dd73abea3b938944a0823f84294d8d45de908d1fff",
+    "normalizedCodeHash": "d8e180db6aa3a535101972dd73abea3b938944a0823f84294d8d45de908d1fff",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:19:58.560365+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

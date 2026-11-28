@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000423",
+  "problemId": "P000423",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000423",
+    "title": "Search Orders Pending for More Than N Days",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Find all customer orders that have remained pending for more than the specified number of days.",
+    "input": "Order records and N.",
+    "output": "Matching orders.",
+    "constraints": "1 \u2264 Number of Orders \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000423",
+    "fileSHA": "f42835dac7c934969ba9b04f80c48b72ba82e03a0040d8d8cbd6bec0ba197514",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:37:14.293940+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f42835dac7c934969ba9b04f80c48b72ba82e03a0040d8d8cbd6bec0ba197514",
+    "normalizedCodeHash": "f42835dac7c934969ba9b04f80c48b72ba82e03a0040d8d8cbd6bec0ba197514",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:37:14.293967+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

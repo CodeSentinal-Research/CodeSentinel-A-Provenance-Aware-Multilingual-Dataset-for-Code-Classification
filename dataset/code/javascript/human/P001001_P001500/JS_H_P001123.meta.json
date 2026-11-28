@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P001123",
+  "problemId": "P001123",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001123",
+    "title": "Find the City with the Smallest Number of Reachable Neighbors",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a weighted undirected graph and a distance threshold, determine the city having the smallest number of reachable neighboring cities within the threshold distance. If multiple cities satisfy the condition, print the largest indexed city.",
+    "input": "\u2022 First line contains integers N, M, and T. \u2022 Next M lines contain integers u, v, and w.",
+    "output": "Print the required city index.",
+    "constraints": "\u2022 2 \u2264 N \u2264 100 \u2022 1 \u2264 M \u2264 N(N\u22121)/2"
+  },
+  "repository": {
+    "name": "IrfanSaeednarejo/Pattern-Wise-DSA-Techniques",
+    "owner": "IrfanSaeednarejo",
+    "url": "https://github.com/IrfanSaeednarejo/Pattern-Wise-DSA-Techniques",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/data/patterns/floyd-warshall.js",
+    "fileSHA": "2061091f3cb180aca5efebaa703f5ed078fa5c20",
+    "url": "https://github.com/IrfanSaeednarejo/Pattern-Wise-DSA-Techniques/blob/d8b51a7b63ca78c66c8710cede1a00b9bcea1e7f/src/data/patterns/floyd-warshall.js",
+    "rawUrl": "https://raw.githubusercontent.com/IrfanSaeednarejo/Pattern-Wise-DSA-Techniques/main/src/data/patterns/floyd-warshall.js"
+  },
+  "matching": {
+    "relevanceScore": 88.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8a1f11ccf5b86464aca1f556f23a079924ad566e7a501df246eea1c6363b2397",
+    "normalizedCodeHash": "8a1f11ccf5b86464aca1f556f23a079924ad566e7a501df246eea1c6363b2397",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T22:38:57.445916+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

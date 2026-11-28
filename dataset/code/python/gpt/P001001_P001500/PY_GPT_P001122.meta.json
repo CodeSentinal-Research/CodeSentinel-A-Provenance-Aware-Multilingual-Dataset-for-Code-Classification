@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001122",
+  "problemId": "P001122",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001122",
+    "title": "Eventual Safe States",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a directed graph, determine all vertices from which every possible path eventually terminates without entering a cycle.",
+    "input": "• First line contains integers N and M. • Next M lines contain directed edges.",
+    "output": "Print all safe vertices in ascending order.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001122.py",
+    "fileSHA": "a215b67c7d976f7f9aa9bec00b45e0b22494bd3a0168ecedefbe170d0546d255",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.433733+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a215b67c7d976f7f9aa9bec00b45e0b22494bd3a0168ecedefbe170d0546d255",
+    "normalizedCodeHash": "b3f72dc969dfef46898662fea2c48474df10b7dbdfecc7970d904b80afc5098c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.433733+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

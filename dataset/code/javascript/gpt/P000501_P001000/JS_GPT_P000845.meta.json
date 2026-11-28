@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000845",
+  "problemId": "P000845",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000845",
+    "title": "House Robber IV",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array nums representing money in houses and an integer k, rob at least k non-adjacent houses. The capability of a robbery plan is the maximum money stolen from any robbed house. Return the minimum possible capability.",
+    "input": "Integer n Array nums Integer k",
+    "output": "The minimum capability.",
+    "constraints": "1 <= n <= 10^5 1 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000845.js",
+    "fileSHA": "9597f56bb530d9ebe8db8f1c47a02a408ee7186e69381b2174ae1cb647968d00",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9597f56bb530d9ebe8db8f1c47a02a408ee7186e69381b2174ae1cb647968d00",
+    "normalizedCodeHash": "9597f56bb530d9ebe8db8f1c47a02a408ee7186e69381b2174ae1cb647968d00",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

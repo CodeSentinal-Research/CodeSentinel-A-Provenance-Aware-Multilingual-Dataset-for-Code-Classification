@@ -1,0 +1,75 @@
+{
+  "solutionId": "PY_H_P000485",
+  "problemId": "P000485",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000485",
+    "title": "Asteroid Collision",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "You are given an array of integers representing asteroids moving along a straight line. Positive values move right. Negative values move left. When two asteroids moving in opposite directions collide: The smaller one explodes. If both have the same size, both explode. Asteroids moving in the same direction never collide. Return the final state of the asteroids.",
+    "input": "Integer n Array of integers.",
+    "output": "The remaining asteroids after all collisions.",
+    "constraints": "1 <= n <= 10^5 -1000 <= asteroid[i] <= 1000"
+  },
+  "repository": {
+    "name": "jz33/LeetCodeSolutions",
+    "owner": "jz33",
+    "url": "https://github.com/jz33/LeetCodeSolutions",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000001_P000500/PY_H_P000485.py",
+    "fileSHA": "ed9f2a4d3cdaba6013834f56bce9a2f1e88107f8",
+    "url": "https://github.com/jz33/LeetCodeSolutions/blob/86c869ff3bc611042c79007bfbaa9163f335fecf/735 Asteroid Collision.py",
+    "rawUrl": "https://raw.githubusercontent.com/jz33/LeetCodeSolutions/main/735 Asteroid Collision.py"
+  },
+  "matching": {
+    "relevanceScore": 80.43
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2020-06-16T17:17:08Z",
+    "lastCommitDate": "2024-01-29T22:12:58Z",
+    "commitCount": 2,
+    "authorCount": 2,
+    "authors": [
+      "Jun",
+      "junzheng2023"
+    ],
+    "firstKnownAuthor": "Jun",
+    "latestKnownAuthor": "junzheng2023"
+  },
+  "deduplication": {
+    "rawCodeHash": "6cd422d6e1c38854a3a1ab9f80fe14b40c7e84682b39cc6eb82d3f6a08f887af",
+    "normalizedCodeHash": "6cd422d6e1c38854a3a1ab9f80fe14b40c7e84682b39cc6eb82d3f6a08f887af",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T02:55:43.267793+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

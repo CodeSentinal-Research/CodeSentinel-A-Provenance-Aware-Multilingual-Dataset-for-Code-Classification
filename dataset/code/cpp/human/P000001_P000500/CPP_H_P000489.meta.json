@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P000489",
+  "problemId": "P000489",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000489",
+    "title": "Min Stack",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "Design a stack that supports the following operations in constant time: push(x) pop() top() getMin() Initially, the stack is empty. Process a sequence of operations and print the result of every top() and getMin() query.",
+    "input": "Integer q representing the number of operations. Next q lines each contain one operation.",
+    "output": "For every top() and getMin() operation, print the corresponding result.",
+    "constraints": "1 <= q <= 10^5 All queried operations are valid."
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/cpp/minStack/minStack.cpp",
+    "fileSHA": "5a259caf92d87a39f7b90e74570d40d47368e418",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/cpp/minStack/minStack.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/cpp/minStack/minStack.cpp"
+  },
+  "matching": {
+    "relevanceScore": 91.67
+  },
+  "provenance": {
+    "score": 95.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d7394424b23c1e3ecfef51b9a22290d5f854b7d357269fec67755333bf7ff42e",
+    "normalizedCodeHash": "d7394424b23c1e3ecfef51b9a22290d5f854b7d357269fec67755333bf7ff42e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T16:43:25.622843+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

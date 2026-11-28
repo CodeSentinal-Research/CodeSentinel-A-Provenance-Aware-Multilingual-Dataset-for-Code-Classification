@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000546",
+  "problemId": "P000546",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000546",
+    "title": "Jump Game VII",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "You are given a binary string s and two integers minJump and maxJump. Starting at index 0, determine whether it is possible to reach the last index. From index i, you may jump to any index j satisfying: i + minJump <= j <= min(i + maxJump, n - 1) s[j] == '0' Return true if the last index can be reached; otherwise return false.",
+    "input": "Binary string s Integer minJump Integer maxJump",
+    "output": "true if the last index is reachable, otherwise false.",
+    "constraints": "2 <= s.length <= 10^5 s[0] == s[n-1] == '0'"
+  },
+  "repository": {
+    "name": "HarshitGupta3017/LeetCode-Daily",
+    "owner": "HarshitGupta3017",
+    "url": "https://github.com/HarshitGupta3017/LeetCode-Daily",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Jump Game VII/Jump Game VII.py",
+    "fileSHA": "6addfad784195f1cb7df9a76b185170c5b50685c",
+    "url": "https://github.com/HarshitGupta3017/LeetCode-Daily/blob/b95527fb1d3a7b0e7d4d0411bba57bde46b02119/Jump Game VII/Jump Game VII.py",
+    "rawUrl": "https://raw.githubusercontent.com/HarshitGupta3017/LeetCode-Daily/main/Jump Game VII/Jump Game VII.py"
+  },
+  "matching": {
+    "relevanceScore": 75.19
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8e079d6f538f29f050b1df5ef32a274cf6c25af8b47111c0a1df5af8c3ba0015",
+    "normalizedCodeHash": "8e079d6f538f29f050b1df5ef32a274cf6c25af8b47111c0a1df5af8c3ba0015",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T04:35:41.123360+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

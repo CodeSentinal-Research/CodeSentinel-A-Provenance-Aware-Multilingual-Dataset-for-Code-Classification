@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001123",
+  "problemId": "P001123",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001123",
+    "title": "Find the City with the Smallest Number of Reachable Neighbors",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a weighted undirected graph and a distance threshold, determine the city having the smallest number of reachable neighboring cities within the threshold distance. If multiple cities satisfy the condition, print the largest indexed city.",
+    "input": "\u2022 First line contains integers N, M, and T. \u2022 Next M lines contain integers u, v, and w.",
+    "output": "Print the required city index.",
+    "constraints": "\u2022 2 \u2264 N \u2264 100 \u2022 1 \u2264 M \u2264 N(N\u22121)/2"
+  },
+  "repository": {
+    "name": "RamananVr/Leetcodepython",
+    "owner": "RamananVr",
+    "url": "https://github.com/RamananVr/Leetcodepython",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "graphs/1334_Find_the_City_With_the_Smallest_Number_of_Neighbors_at_a_Threshold_Distance.py",
+    "fileSHA": "7e40d91a270239708c88ca1f17a96577af050fc6",
+    "url": "https://github.com/RamananVr/Leetcodepython/blob/4daab91eef3c2e8c7aac1d0190394a7cc278d542/graphs/1334_Find_the_City_With_the_Smallest_Number_of_Neighbors_at_a_Threshold_Distance.py",
+    "rawUrl": "https://raw.githubusercontent.com/RamananVr/Leetcodepython/main/graphs/1334_Find_the_City_With_the_Smallest_Number_of_Neighbors_at_a_Threshold_Distance.py"
+  },
+  "matching": {
+    "relevanceScore": 83.75
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "346b18f5f8fa8ae39141dec2c768722efc32ee481dae535b9693a5e3f84a46ef",
+    "normalizedCodeHash": "346b18f5f8fa8ae39141dec2c768722efc32ee481dae535b9693a5e3f84a46ef",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:10:49.584715+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

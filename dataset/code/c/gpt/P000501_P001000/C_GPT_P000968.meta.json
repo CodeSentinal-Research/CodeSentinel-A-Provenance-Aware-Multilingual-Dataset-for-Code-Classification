@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000968",
+  "problemId": "P000968",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000968",
+    "title": "Merge Two Congruence Equations",
+    "category": "Mathematics - Chinese Remainder Theorem",
+    "difficulty": "Medium",
+    "problemStatement": "Given two congruence equations: X ≡ A (mod M) X ≡ B (mod N) Determine whether they can be merged into a single congruence. If possible, output the merged congruence with the smallest non-negative solution.",
+    "input": "Integers A, M Integers B, N",
+    "output": "The merged congruence or -1 if no solution exists.",
+    "constraints": "1 <= M, N <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000968.c",
+    "fileSHA": "b73c48aeb97e123b659311affb99b68cd724cc5e071a136cd1970168a72200b2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b73c48aeb97e123b659311affb99b68cd724cc5e071a136cd1970168a72200b2",
+    "normalizedCodeHash": "b73c48aeb97e123b659311affb99b68cd724cc5e071a136cd1970168a72200b2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

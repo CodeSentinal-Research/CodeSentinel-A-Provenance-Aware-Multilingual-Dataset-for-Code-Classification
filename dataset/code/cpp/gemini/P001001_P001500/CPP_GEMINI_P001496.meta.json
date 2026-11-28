@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001496",
+  "problemId": "P001496",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001496",
+    "title": "Apply Operations to an Array",
+    "category": "Two Pointers",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array, repeatedly merge adjacent equal values by doubling the left value and setting the right value to zero. After processing, move all zeroes to the end.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers.",
+    "output": "Print the transformed array.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001496",
+    "fileSHA": "c22b12506940ded856434c31b0318daf2a92bc0ef0eb0963b3afd7f246283c82",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:28:44.337466+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c22b12506940ded856434c31b0318daf2a92bc0ef0eb0963b3afd7f246283c82",
+    "normalizedCodeHash": "c22b12506940ded856434c31b0318daf2a92bc0ef0eb0963b3afd7f246283c82",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:28:44.337493+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

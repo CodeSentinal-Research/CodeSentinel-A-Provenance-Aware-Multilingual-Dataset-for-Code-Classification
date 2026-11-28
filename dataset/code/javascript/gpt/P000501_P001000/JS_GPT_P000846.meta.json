@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000846",
+  "problemId": "P000846",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000846",
+    "title": "Minimized Maximum of Products Distributed to Any Store",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given n stores and quantities of different product types. Distribute the products so that every product of the same type goes to one or more stores, and each store receives products of only one type. Return the minimum possible maximum number of products assigned to any store.",
+    "input": "Integer n Integer m Array quantities",
+    "output": "The minimized maximum products per store.",
+    "constraints": "1 <= m <= n <= 10^5 1 <= quantities[i] <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000501_P001000/JS_GPT_P000846.js",
+    "fileSHA": "17ffb597bbf34dcbfd6e9a8adca31245752c5c0e1bad264fa60d6d068c551ce1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "17ffb597bbf34dcbfd6e9a8adca31245752c5c0e1bad264fa60d6d068c551ce1",
+    "normalizedCodeHash": "17ffb597bbf34dcbfd6e9a8adca31245752c5c0e1bad264fa60d6d068c551ce1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

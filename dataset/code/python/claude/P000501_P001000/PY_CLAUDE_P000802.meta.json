@@ -1,0 +1,60 @@
+{
+  "solutionId": "PY_CLAUDE_P000802",
+  "problemId": "P000802",
+  "language": "python",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000802",
+    "title": "Maximum Side Length of a Square with Sum at Most Threshold",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N × M matrix of non-negative integers and an integer threshold, determine the maximum side length of a square whose sum of elements is at most threshold.",
+    "input": "Integer N Integer M Matrix grid Integer threshold",
+    "output": "The maximum possible side length.",
+    "constraints": "1 <= N, M <= 300 0 <= grid[i][j] <= 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/PY_CLAUDE_P000802",
+    "fileSHA": "513bc6eb79ed1d6eec075656b99d426702b415479aa0a2571c7f8c8ba57e7baf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "513bc6eb79ed1d6eec075656b99d426702b415479aa0a2571c7f8c8ba57e7baf",
+    "normalizedCodeHash": "513bc6eb79ed1d6eec075656b99d426702b415479aa0a2571c7f8c8ba57e7baf",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique solution P000802: Maximum Side Length of a Square with Sum at Most Threshold"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

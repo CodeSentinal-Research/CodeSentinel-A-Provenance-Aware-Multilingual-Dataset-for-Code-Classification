@@ -1,0 +1,3 @@
+// Different Ways to Add Parentheses
+const fs=require("fs");
+const e=fs.readFileSync(0,"utf8").trim(),memo=new Map();function solve(x){if(memo.has(x))return memo.get(x);let r=[],found=false;for(let i=0;i<x.length;i++)if("+-*".includes(x[i])){found=true;for(const a of solve(x.slice(0,i)))for(const b of solve(x.slice(i+1)))r.push(x[i]==="+"?a+b:x[i]==="-"?a-b:a*b);}if(!found)r=[Number(x)];memo.set(x,r);return r;}console.log(solve(e).join("\n"));

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001210",
+  "problemId": "P001210",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001210",
+    "title": "Optimal Strategy for a Game",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given a row of coins, two players alternately pick either the leftmost or rightmost coin. Both play optimally. Determine the maximum value the first player can guarantee to collect.",
+    "input": "• First line contains integer N. • Second line contains N integers representing coin values.",
+    "output": "Print the maximum value obtainable by the first player.",
+    "constraints": "• 2 ≤ N ≤ 5000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001210.c",
+    "fileSHA": "a19324dd8a69ef6ec524850c20be0a673ab79709234749cf27e453787c3c8cae",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.291Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c8aa0e1775196b189b1bf0557ee2e66b1973318f830ec1938bfde8d34a62fc97",
+    "normalizedCodeHash": "a19324dd8a69ef6ec524850c20be0a673ab79709234749cf27e453787c3c8cae",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.291Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

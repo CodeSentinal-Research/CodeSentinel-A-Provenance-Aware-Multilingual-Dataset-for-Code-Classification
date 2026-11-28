@@ -1,0 +1,20 @@
+import java.util.Scanner;
+import java.util.LinkedHashSet;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();
+        
+        LinkedHashSet<Character> set = new LinkedHashSet<>();
+        for (char c : s.toCharArray()) {
+            set.add(c);
+        }
+        
+        StringBuilder sb = new StringBuilder();
+        for (char c : set) {
+            sb.append(c);
+        }
+        System.out.println(sb.toString());
+    }
+}

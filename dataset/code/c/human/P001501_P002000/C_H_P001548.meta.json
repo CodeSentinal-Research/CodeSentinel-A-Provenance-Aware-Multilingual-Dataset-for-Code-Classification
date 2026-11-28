@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001548",
+  "problemId": "P001548",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001548",
+    "title": "Window With Highest Product (Positive Numbers)",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array containing only positive integers and a window size K, find the maximum product among all contiguous subarrays of size K.",
+    "input": "\u2022 First line contains N and K. \u2022 Second line contains N positive integers.",
+    "output": "\u2022 Print the maximum product.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^4 \u2022 1 \u2264 K \u2264 N \u2022 1 \u2264 Ai \u2264 20"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/1700-1799/1732.Find the Highest Altitude/Solution.c",
+    "fileSHA": "b32d46c386cb075d78297ed08168e6d4c5102a8b",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/1700-1799/1732.Find the Highest Altitude/Solution.c",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/1700-1799/1732.Find the Highest Altitude/Solution.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "13d23f0b70ec9528233eba4473aeef2f0ded757f6c9c7a111cba3c613c6c7002",
+    "normalizedCodeHash": "13d23f0b70ec9528233eba4473aeef2f0ded757f6c9c7a111cba3c613c6c7002",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:22.890148+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "solutionId": "JS_H_P001022",
+  "problemId": "P001022",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001022",
+    "title": "Decrease Key in a Min Heap",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a valid Min Heap represented as an array, an index i, and a new value smaller than or equal to the current value, update the key and restore the Min Heap property. Print the updated heap.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N space-separated integers. \u2022 Third line contains integers i and newValue.",
+    "output": "Print the updated Min Heap.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 i < N"
+  },
+  "repository": {
+    "name": "josdejong/mathjs",
+    "owner": "josdejong",
+    "url": "https://github.com/josdejong/mathjs",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P001001_P001500/JS_H_P001022.js",
+    "fileSHA": "f9bd9bf86bb4f4a132ef260a2071ee8d9977f747",
+    "url": "https://github.com/josdejong/mathjs/blob/8d214e050a0acb9f132405d55a96b683fa7b6324/src/type/matrix/FibonacciHeap.js",
+    "rawUrl": "https://raw.githubusercontent.com/josdejong/mathjs/main/src/type/matrix/FibonacciHeap.js"
+  },
+  "matching": {
+    "relevanceScore": 59.24
+  },
+  "provenance": {
+    "score": 92.5,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2018-06-06T12:37:37Z",
+    "lastCommitDate": "2022-04-29T10:04:01Z",
+    "commitCount": 10,
+    "authorCount": 3,
+    "authors": [
+      "Jos de Jong",
+      "Chris Chudzicki",
+      "jos"
+    ],
+    "firstKnownAuthor": "jos",
+    "latestKnownAuthor": "Chris Chudzicki"
+  },
+  "deduplication": {
+    "rawCodeHash": "21039421f238438ee58b8713a4db920dc4e41b6d27280872950a1e4b7ce65c4d",
+    "normalizedCodeHash": "21039421f238438ee58b8713a4db920dc4e41b6d27280872950a1e4b7ce65c4d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T07:10:39.860252+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

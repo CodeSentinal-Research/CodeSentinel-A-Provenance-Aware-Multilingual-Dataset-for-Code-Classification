@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000949",
+  "problemId": "P000949",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000949",
+    "title": "Euler Totient Function",
+    "category": "Mathematics - Euler Totient Function",
+    "difficulty": "Medium",
+    "problemStatement": "Given a positive integer N, compute Euler's Totient Function φ(N), the number of integers in the range [1, N] that are coprime with N.",
+    "input": "Integer N",
+    "output": "The value of φ(N).",
+    "constraints": "1 <= N <= 10^12"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000949",
+    "fileSHA": "40d547fa533233af14b6d9a72c88a2205c44e1b7b1298934dd4b789a8d53d838",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "40d547fa533233af14b6d9a72c88a2205c44e1b7b1298934dd4b789a8d53d838",
+    "normalizedCodeHash": "40d547fa533233af14b6d9a72c88a2205c44e1b7b1298934dd4b789a8d53d838",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000949"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

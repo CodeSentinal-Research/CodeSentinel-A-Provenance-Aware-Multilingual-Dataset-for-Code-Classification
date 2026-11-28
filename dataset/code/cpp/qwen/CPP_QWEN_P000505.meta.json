@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000505",
+  "problemId": "P000505",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000505",
+    "title": "Basic Calculator II",
+    "category": "Stack",
+    "difficulty": "Hard",
+    "problemStatement": "Implement a calculator that evaluates an arithmetic expression containing: Non-negative integers '+' '-' '*' '/' Spaces The expression does not contain parentheses. Multiplication and division have higher precedence than addition and subtraction.",
+    "input": "A string representing the arithmetic expression.",
+    "output": "A single integer representing the evaluated result.",
+    "constraints": "1 <= expression.length <= 3 \u00d7 10^5 The expression is valid."
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000505",
+    "fileSHA": "c0adab724b51abeb678059ed4d86cd7bdd14184dfa37d153dbed18661a23bd25",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:10:56.413Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "fdb9153173291e4fd020c769348d3ab27aba38a03fc67daf966eb02b05df9f1b",
+    "normalizedCodeHash": "1e22bea6fe382b8f681784b08d9e42db930703c6461a51022c1d6b751ce939ad",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:10:56.413Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000842",
+  "problemId": "P000842",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000842",
+    "title": "Maximum Value at a Given Index in a Bounded Array",
+    "category": "Binary Search",
+    "difficulty": "Hard",
+    "problemStatement": "Construct an array of length n consisting of positive integers such that: Adjacent elements differ by at most 1. The sum of all elements does not exceed maxSum. Return the maximum possible value at the given index.",
+    "input": "Integer n Integer index Integer maxSum",
+    "output": "The maximum possible value.",
+    "constraints": "1 <= n <= 10^9 0 <= index < n n <= maxSum <= 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000842",
+    "fileSHA": "99414931dda9b774dffee6ab332f3428dad927321e751fb4b1e3a8252aa1e1d5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "99414931dda9b774dffee6ab332f3428dad927321e751fb4b1e3a8252aa1e1d5",
+    "normalizedCodeHash": "99414931dda9b774dffee6ab332f3428dad927321e751fb4b1e3a8252aa1e1d5",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000842"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P001044",
+  "problemId": "P001044",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001044",
+    "title": "Level of a Heap Node",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given a binary heap represented as an array and an index of a node, determine the level of the node where the root is at level 0.",
+    "input": "• First line contains integer N. • Second line contains N integers. • Third line contains integer i.",
+    "output": "Print the level of the node.",
+    "constraints": "• 1 ≤ N ≤ 10^5 • 0 ≤ i < N"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P001044",
+    "fileSHA": "1d33ec4401509cd65537a1d5baa764f3b59db088f627aab647f689646f0ad53a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "1d33ec4401509cd65537a1d5baa764f3b59db088f627aab647f689646f0ad53a",
+    "normalizedCodeHash": "1d33ec4401509cd65537a1d5baa764f3b59db088f627aab647f689646f0ad53a",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P001044"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

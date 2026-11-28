@@ -1,0 +1,1 @@
+const s=require("fs").readFileSync("/dev/stdin","utf8").trim();const n=s.length;function exp(l,r){while(l>=0&&r<n&&s[l]===s[r]){l--;r++;}return s.slice(l+1,r);}let best="";for(let i=0;i<n;i++){for(const p of[exp(i,i),exp(i,i+1)])if(p.length>best.length)best=p;}console.log(best);

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001842",
+  "problemId": "P001842",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001842",
+    "title": "Find the Union of Two Binary Search Trees",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the roots of two Binary Search Trees, determine the sorted union of all distinct keys present in either tree.",
+    "input": "\u2022 The first line contains N\u2081. \u2022 The next N\u2081 lines describe the first BST. \u2022 The following line contains N\u2082. \u2022 The next N\u2082 lines describe the second BST.",
+    "output": "\u2022 Print the sorted union of keys.",
+    "constraints": "\u2022 0 \u2264 N\u2081, N\u2082 \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001842",
+    "fileSHA": "df697415c5fcd4cc54c19f706bfe25f8c22f2faea5bc9d31ea379f268c286bbf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:30.464771+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "df697415c5fcd4cc54c19f706bfe25f8c22f2faea5bc9d31ea379f268c286bbf",
+    "normalizedCodeHash": "df697415c5fcd4cc54c19f706bfe25f8c22f2faea5bc9d31ea379f268c286bbf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:30.464843+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

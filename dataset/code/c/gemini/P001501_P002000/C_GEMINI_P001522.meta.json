@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001522",
+  "problemId": "P001522",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001522",
+    "title": "Minimum Operations to Reduce X to Zero",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given an integer array and an integer X, remove elements only from the beginning or the end of the array until the sum of the removed elements equals X. Determine the minimum number of operations required.",
+    "input": "\u2022 First line contains integers N and X. \u2022 Second line contains N integers.",
+    "output": "Print the minimum number of operations, or -1 if impossible.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001522",
+    "fileSHA": "18c683b8ec72e6a4858e48d7a6d5477269072c12388e1dec9ec616ab4d6c375d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:29:38.035300+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "18c683b8ec72e6a4858e48d7a6d5477269072c12388e1dec9ec616ab4d6c375d",
+    "normalizedCodeHash": "18c683b8ec72e6a4858e48d7a6d5477269072c12388e1dec9ec616ab4d6c375d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:29:38.035329+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

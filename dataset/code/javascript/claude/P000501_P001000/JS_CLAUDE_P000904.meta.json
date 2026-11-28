@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000904",
+  "problemId": "P000904",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000904",
+    "title": "Modular Addition",
+    "category": "Mathematics - Modular Arithmetic",
+    "difficulty": "Easy",
+    "problemStatement": "Given integers A, B, and M, compute (A + B) mod M.",
+    "input": "Integer A Integer B Integer M",
+    "output": "The result of modular addition.",
+    "constraints": "1 <= M <= 10^18 0 <= A, B <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000904",
+    "fileSHA": "f0f4ee54cb074c53dce262effed52101322ef9ed1ec072c19380900feded6aa1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "f0f4ee54cb074c53dce262effed52101322ef9ed1ec072c19380900feded6aa1",
+    "normalizedCodeHash": "f0f4ee54cb074c53dce262effed52101322ef9ed1ec072c19380900feded6aa1",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000904"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

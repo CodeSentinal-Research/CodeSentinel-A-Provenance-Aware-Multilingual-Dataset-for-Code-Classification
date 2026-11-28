@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000500",
+  "problemId": "P000500",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000500",
+    "title": "Crawler Log Folder",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "A file system starts at the main folder. You are given a sequence of folder operations: \"../\" : Move to the parent folder (if already at the main folder, stay there). \"./\" : Stay in the current folder. \"x/\" : Move into a child folder named x. Determine the minimum number of operations needed to return to the main folder after performing all operations.",
+    "input": "Integer n Array of n folder operations.",
+    "output": "A single integer representing the required number of operations.",
+    "constraints": "1 <= n <= 10^3"
+  },
+  "repository": {
+    "name": "DivyanshiChouksey/Data-Structure-Algorithm",
+    "owner": "DivyanshiChouksey",
+    "url": "https://github.com/DivyanshiChouksey/Data-Structure-Algorithm",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "866.Crawler Log Folder.py",
+    "fileSHA": "9c57936f4cf7e80423ecebd07e02305ebad61517",
+    "url": "https://github.com/DivyanshiChouksey/Data-Structure-Algorithm/blob/4c7bed38ad821704f1e80c5f5b7a107b170a5868/866.Crawler Log Folder.py",
+    "rawUrl": "https://raw.githubusercontent.com/DivyanshiChouksey/Data-Structure-Algorithm/main/866.Crawler Log Folder.py"
+  },
+  "matching": {
+    "relevanceScore": 77.5
+  },
+  "provenance": {
+    "score": 85.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e6285c77acc87bf211eeb88baf910ca5ad84d554e80dc53f32cfe0aea68201c9",
+    "normalizedCodeHash": "e6285c77acc87bf211eeb88baf910ca5ad84d554e80dc53f32cfe0aea68201c9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:01:39.064804+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

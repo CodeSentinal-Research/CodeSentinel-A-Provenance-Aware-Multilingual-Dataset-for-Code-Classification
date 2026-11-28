@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000954",
+  "problemId": "P000954",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000954",
+    "title": "Extended Euclidean Algorithm",
+    "category": "Mathematics - Extended Euclidean Algorithm",
+    "difficulty": "Medium",
+    "problemStatement": "Given two integers A and B, compute integers X and Y such that: AX + BY = gcd(A, B)",
+    "input": "Integer A Integer B",
+    "output": "The values X, Y, and gcd(A, B).",
+    "constraints": "1 <= A, B <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000954",
+    "fileSHA": "06a72801663d6ab12465ec1eba6c241729fdd8f23fd32d8772d1fa355f4adf43",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "06a72801663d6ab12465ec1eba6c241729fdd8f23fd32d8772d1fa355f4adf43",
+    "normalizedCodeHash": "06a72801663d6ab12465ec1eba6c241729fdd8f23fd32d8772d1fa355f4adf43",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000954"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

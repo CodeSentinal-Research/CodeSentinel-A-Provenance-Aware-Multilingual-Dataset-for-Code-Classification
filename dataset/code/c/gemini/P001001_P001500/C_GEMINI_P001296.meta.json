@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P001296",
+  "problemId": "P001296",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001296",
+    "title": "Earliest Full Bloom",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Each plant requires a planting time and a growing time. Only one plant can be planted at a time. Determine the earliest day when all flowers will be in full bloom.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing planting times. \u2022 Third line contains N integers representing growing times.",
+    "output": "Print the earliest possible full bloom day.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/C_GEMINI_P001296",
+    "fileSHA": "368c989a68a749a9dda204742dab180fc2d4fa2f764942fbe08a0589ce8e6803",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:20:53.641461+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "368c989a68a749a9dda204742dab180fc2d4fa2f764942fbe08a0589ce8e6803",
+    "normalizedCodeHash": "368c989a68a749a9dda204742dab180fc2d4fa2f764942fbe08a0589ce8e6803",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:20:53.641497+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

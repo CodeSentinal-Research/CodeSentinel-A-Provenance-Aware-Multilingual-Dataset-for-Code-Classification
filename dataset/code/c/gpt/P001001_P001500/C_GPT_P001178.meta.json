@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001178",
+  "problemId": "P001178",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001178",
+    "title": "Gold Mine Problem",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "A miner starts from any cell in the first column of a grid and moves only to the right, right-up, or right-down. Determine the maximum amount of gold that can be collected.",
+    "input": "• First line contains integers R and C. • Next R lines each contain C integers representing gold values.",
+    "output": "Print the maximum gold collectible.",
+    "constraints": "• 1 ≤ R, C ≤ 500"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001178.c",
+    "fileSHA": "2a25618c1bec91205e94e8472b55b53e32098c30da4cb6e7ecd32797b41c3b01",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.201Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "37f2a3d7218fde70204751cd2bc6dcfa792218733a82b541b9ac6ed2a7da099c",
+    "normalizedCodeHash": "2a25618c1bec91205e94e8472b55b53e32098c30da4cb6e7ecd32797b41c3b01",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.201Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

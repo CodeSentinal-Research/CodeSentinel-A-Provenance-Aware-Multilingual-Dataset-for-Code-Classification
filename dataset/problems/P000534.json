@@ -1,0 +1,10 @@
+{
+  "problemId": "P000534",
+  "title": "Dota2 Senate",
+  "category": "Queue",
+  "difficulty": "Medium",
+  "problemStatement": "In the Dota2 senate, senators belong to one of two parties: 'R' (Radiant) 'D' (Dire) The voting proceeds in rounds. During each round, senators act in their current order. A senator who still has voting rights may ban one senator from the opposing party. A banned senator loses all future rights. Assuming every senator acts optimally for their party, determine which party will eventually win.",
+  "input": "A string representing the initial senate order.",
+  "output": "Print \"Radiant\" or \"Dire\".",
+  "constraints": "1 <= senate.length <= 10^4"
+}

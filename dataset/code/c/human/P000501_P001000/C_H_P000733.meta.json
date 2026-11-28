@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000733",
+  "problemId": "P000733",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000733",
+    "title": "M-Coloring Problem",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph with V vertices and M colors, determine whether the graph can be colored so that no two adjacent vertices share the same color. Return true if such a coloring exists; otherwise return false.",
+    "input": "Integer V Integer E List of edges Integer M",
+    "output": "true if a valid coloring exists, otherwise false.",
+    "constraints": "1 <= V <= 20 0 <= E <= V \u00d7 (V - 1) / 2 1 <= M <= V"
+  },
+  "repository": {
+    "name": "lp-solve/lp_solve",
+    "owner": "lp-solve",
+    "url": "https://github.com/lp-solve/lp_solve",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "xli/xli_ZIMPL/ziboptVS10/zibopt/scip/examples/Coloring/doc/xternal.c",
+    "fileSHA": "d621bbd5b0b03112c2c56b7eb3cdb68b02206fd3",
+    "url": "https://github.com/lp-solve/lp_solve/blob/06f93964cd62c790faf2bd3cd759825eb3744e44/xli/xli_ZIMPL/ziboptVS10/zibopt/scip/examples/Coloring/doc/xternal.c",
+    "rawUrl": "https://raw.githubusercontent.com/lp-solve/lp_solve/main/xli/xli_ZIMPL/ziboptVS10/zibopt/scip/examples/Coloring/doc/xternal.c"
+  },
+  "matching": {
+    "relevanceScore": 81.6
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5e183e42bd7c38ea8e277a86e013d1d15e157e8d425d9bf01d478527cb1cc8ac",
+    "normalizedCodeHash": "5e183e42bd7c38ea8e277a86e013d1d15e157e8d425d9bf01d478527cb1cc8ac",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:34:44.825529+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

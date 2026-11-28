@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001804",
+  "problemId": "P001804",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001804",
+    "title": "Check Whether Two Insertion Sequences Produce the Same Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given two sequences of distinct keys inserted into initially empty Binary Search Trees, determine whether both insertion sequences produce identical Binary Search Trees without explicitly constructing both trees.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the first insertion sequence. \u2022 The third line contains the second insertion sequence.",
+    "output": "\u2022 Print YES if both sequences generate identical BSTs; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/2000-2099/2068.Check Whether Two Strings are Almost Equivalent/Solution.java",
+    "fileSHA": "cfb96b8939ba2201f5c4963d157337106a6d8fb3",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/2000-2099/2068.Check Whether Two Strings are Almost Equivalent/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/2000-2099/2068.Check Whether Two Strings are Almost Equivalent/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4f5af61e8e9c3981399e2694013df80f251337325207a619c29babf3593a1065",
+    "normalizedCodeHash": "4f5af61e8e9c3981399e2694013df80f251337325207a619c29babf3593a1065",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T14:38:58.832501+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

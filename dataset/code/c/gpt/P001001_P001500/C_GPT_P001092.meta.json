@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001092",
+  "problemId": "P001092",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001092",
+    "title": "Kth Ancestor of a Node",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a rooted tree and Q queries, determine the Kth ancestor of the specified node. If no such ancestor exists, print -1.",
+    "input": "• First line contains integers N and Q. • Next N−1 lines contain tree edges. • Next Q lines contain a node and integer K.",
+    "output": "Print the answer for each query.",
+    "constraints": "• 1 ≤ N, Q ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001092.c",
+    "fileSHA": "e8416977e39669aa2a34156b1fb2aabf51adc78c28c31e7159660a57b39170f3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:32.986Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "6be9a786f42ea0d2c0657c52d017d7c54c6f63ff22c8e8bff5f048692f91386d",
+    "normalizedCodeHash": "e8416977e39669aa2a34156b1fb2aabf51adc78c28c31e7159660a57b39170f3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:32.986Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

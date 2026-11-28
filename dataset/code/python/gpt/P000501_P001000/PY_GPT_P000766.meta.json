@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000766",
+  "problemId": "P000766",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000766",
+    "title": "Boolean Parenthesization Count",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given a boolean expression consisting of: 'T' (True) 'F' (False) Operators &, |, and ^ Count the number of ways to parenthesize the expression so that it evaluates to True.",
+    "input": "String expression",
+    "output": "The number of valid parenthesizations.",
+    "constraints": "1 <= |expression| <= 200"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000766.py",
+    "fileSHA": "4e88dd59a6d56ca054c276c1dcdfbb1c099678c5f0124ac8f297e76e59b62707",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.943182+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "4e88dd59a6d56ca054c276c1dcdfbb1c099678c5f0124ac8f297e76e59b62707",
+    "normalizedCodeHash": "86b05273ba12cf14e7faa3ba361f83662eb9cdc556ec1762bd7f3ef84eba1b1e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.943182+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001241",
+  "problemId": "P001241",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001241",
+    "title": "Gas Station Circuit",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "There are N gas stations arranged in a circle. Each station provides a certain amount of gas, and traveling to the next station consumes a certain amount of gas. Determine the starting station index from which the entire circuit can be completed. If impossible, print -1.",
+    "input": "• First line contains integer N. • Second line contains N integers representing gas available. • Third line contains N integers representing travel cost.",
+    "output": "Print the starting station index or -1.",
+    "constraints": "• 1 ≤ N ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001241.c",
+    "fileSHA": "a50d1afc86b2272ac1f9d441dfac04d582368a83892bb0a062b2db0b74adcce1",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.398Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "3b22df357ffbca57862fed073a95cd29223f6f4b0154b3b696358eaf4f2c2028",
+    "normalizedCodeHash": "a50d1afc86b2272ac1f9d441dfac04d582368a83892bb0a062b2db0b74adcce1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.398Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

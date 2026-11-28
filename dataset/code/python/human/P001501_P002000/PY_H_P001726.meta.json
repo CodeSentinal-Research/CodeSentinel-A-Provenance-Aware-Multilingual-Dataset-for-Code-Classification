@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001726",
+  "problemId": "P001726",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001726",
+    "title": "Count Downward Paths with Sum K",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree whose nodes contain integer values and an integer K, determine the number of downward paths whose node values sum to exactly K. A path may start and end at any nodes but must always move from parent to child.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree. \u2022 The last line contains K.",
+    "output": "\u2022 Print the number of qualifying paths.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 \u221210^9 \u2264 NodeValue \u2264 10^9"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/2700-2799/2791.Count Paths That Can Form a Palindrome in a Tree/Solution.py",
+    "fileSHA": "956f3c153c17bdf7f0e6b6049a2926f64d258592",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/2700-2799/2791.Count Paths That Can Form a Palindrome in a Tree/Solution.py",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/2700-2799/2791.Count Paths That Can Form a Palindrome in a Tree/Solution.py"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "be6ebdaf5d8cc6745dbc7b7a2806b7c0e269795700d9c5cd560fad9351132b19",
+    "normalizedCodeHash": "be6ebdaf5d8cc6745dbc7b7a2806b7c0e269795700d9c5cd560fad9351132b19",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:33.090007+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

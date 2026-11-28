@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000764",
+  "problemId": "P000764",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000764",
+    "title": "Decode String at Index",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "An encoded string follows the rule: Letters are appended directly. A digit d means the entire current decoded string is repeated d times. Given an encoded string s and an integer K, return the K-th character in the decoded string without explicitly constructing the decoded string. Solve the problem recursively.",
+    "input": "String s Integer K",
+    "output": "The K-th character.",
+    "constraints": "2 <= |s| <= 100 1 <= K <= 10^18"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000764.c",
+    "fileSHA": "2de8b200bf00ab00e634246f47c0e9a07f4beb2d11df0f67c123d2358894b5f5",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2de8b200bf00ab00e634246f47c0e9a07f4beb2d11df0f67c123d2358894b5f5",
+    "normalizedCodeHash": "2de8b200bf00ab00e634246f47c0e9a07f4beb2d11df0f67c123d2358894b5f5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

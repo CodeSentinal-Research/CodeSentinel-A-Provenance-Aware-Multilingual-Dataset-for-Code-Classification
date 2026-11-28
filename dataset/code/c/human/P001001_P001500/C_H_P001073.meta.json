@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001073",
+  "problemId": "P001073",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001073",
+    "title": "Minimum Spanning Tree Weight",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a connected weighted undirected graph, determine the total weight of its Minimum Spanning Tree.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain three integers u, v, and w.",
+    "output": "Print the total weight of the Minimum Spanning Tree.",
+    "constraints": "\u2022 2 \u2264 N \u2264 10^5 \u2022 N\u22121 \u2264 M \u2264 2\u00d710^5 \u2022 -10^6 \u2264 w \u2264 10^6"
+  },
+  "repository": {
+    "name": "OpenGenus/cosmos",
+    "owner": "OpenGenus",
+    "url": "https://github.com/OpenGenus/cosmos",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "code/graph_algorithms/src/kruskal_minimum_spanning_tree/kruskal_minimum_spanning_tree.c",
+    "fileSHA": "c0262926ec8d9ef0a6e604e81097b0f29a347b30",
+    "url": "https://github.com/OpenGenus/cosmos/blob/master/code/graph_algorithms/src/kruskal_minimum_spanning_tree/kruskal_minimum_spanning_tree.c",
+    "rawUrl": "https://raw.githubusercontent.com/OpenGenus/cosmos/master/code/graph_algorithms/src/kruskal_minimum_spanning_tree/kruskal_minimum_spanning_tree.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "212c8b53b8bbea5f4876519b431b9577570e52ac9ed98357037ae7f08b5a343e",
+    "normalizedCodeHash": "212c8b53b8bbea5f4876519b431b9577570e52ac9ed98357037ae7f08b5a343e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:07:59.462740+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

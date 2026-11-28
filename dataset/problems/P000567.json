@@ -1,0 +1,10 @@
+{
+  "problemId": "P000567",
+  "title": "Cut Off Trees for Golf Event",
+  "category": "Queue",
+  "difficulty": "Hard",
+  "problemStatement": "You are given a forest represented as a grid. 0 represents an obstacle. 1 represents empty ground. Values greater than 1 represent trees with unique heights. Starting from the top-left cell, cut all trees in increasing order of height. Return the minimum total number of steps required to cut every tree, or -1 if any tree cannot be reached.",
+  "input": "Integers m and n An m \u00d7 n grid",
+  "output": "A single integer representing the minimum number of steps.",
+  "constraints": "1 <= m, n <= 50"
+}

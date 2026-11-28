@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000378",
+  "problemId": "P000378",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000378",
+    "title": "Search Flight by Flight Number",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find the flight information corresponding to the given flight number.",
+    "input": "Flight records and a flight number.",
+    "output": "Matching flight details or \"Flight Not Found\".",
+    "constraints": "1 ≤ Number of Flights ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000378.py",
+    "fileSHA": "68cdbdb43c000b5cd6e2ce0832d1e3a0757fa0722a978c36852712374cc2f353",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:01.652939+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "68cdbdb43c000b5cd6e2ce0832d1e3a0757fa0722a978c36852712374cc2f353",
+    "normalizedCodeHash": "f7d9e52f0649307c8863c5bfcf8f25c360b6474f601b378343370fed9e4916cb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:01.652939+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

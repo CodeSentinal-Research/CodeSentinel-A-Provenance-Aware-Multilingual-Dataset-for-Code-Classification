@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001701",
+  "problemId": "P001701",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001701",
+    "title": "Replace Every Node with Sum of Cousins",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the root of a binary tree, replace the value of every node with the sum of the values of all its cousin nodes. The root node must be assigned the value 0.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the modified tree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001701",
+    "fileSHA": "a7a23c1b4d1c95df6e2ba28c533ea086010cd4739996ec8f41ef45cf27f345c7",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:37:17.358596+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a7a23c1b4d1c95df6e2ba28c533ea086010cd4739996ec8f41ef45cf27f345c7",
+    "normalizedCodeHash": "a7a23c1b4d1c95df6e2ba28c533ea086010cd4739996ec8f41ef45cf27f345c7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:37:17.358615+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

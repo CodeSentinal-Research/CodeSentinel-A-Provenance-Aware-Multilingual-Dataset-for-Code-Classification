@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001705",
+  "problemId": "P001705",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001705",
+    "title": "Find the Maximum Width Using Indexed Positions",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree, compute its maximum width by assigning array-style indices to nodes, where missing nodes between the leftmost and rightmost non-null nodes are included in the width calculation.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print the maximum width.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001705.c",
+    "fileSHA": "b9cd2dae8e246eea2b26c23daaaa70739ce6b08e244aaa5a1b71f060016cc3bd",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.401Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "2dab42e1a4b0cb454107238845221e9abc9ac962506d2a12a763811e5d522fd0",
+    "normalizedCodeHash": "b9cd2dae8e246eea2b26c23daaaa70739ce6b08e244aaa5a1b71f060016cc3bd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.401Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

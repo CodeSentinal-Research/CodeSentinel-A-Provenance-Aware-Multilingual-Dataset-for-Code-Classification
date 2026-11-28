@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001126",
+  "problemId": "P001126",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001126",
+    "title": "Path With Minimum Effort",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a grid of heights, determine a path from the top-left cell to the bottom-right cell such that the maximum absolute difference between adjacent cells along the path is minimized.",
+    "input": "• First line contains integers R and C. • Next R lines each contain C integers representing cell heights.",
+    "output": "Print the minimum effort required.",
+    "constraints": "• 1 ≤ R, C ≤ 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001126.c",
+    "fileSHA": "3e62cce7fff49785bed3132684c7730a166f921a3dbb1d20c8290059bba2667b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.073Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "af2a73249941bf6c6145bdbfd9a48d8090b2d5685d90b75534db256d991e59dc",
+    "normalizedCodeHash": "3e62cce7fff49785bed3132684c7730a166f921a3dbb1d20c8290059bba2667b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.073Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

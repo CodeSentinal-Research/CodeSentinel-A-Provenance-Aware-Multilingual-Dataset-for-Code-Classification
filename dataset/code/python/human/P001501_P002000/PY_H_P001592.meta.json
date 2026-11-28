@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001592",
+  "problemId": "P001592",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001592",
+    "title": "Earliest Prefix With Sum At Least X",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and an integer X, determine the smallest index such that the prefix sum is greater than or equal to X. If no such prefix exists, print -1.",
+    "input": "\u2022 First line contains N and X. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the required index or -1.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "PaulSayantan/algo-dsa.py",
+    "owner": "PaulSayantan",
+    "url": "https://github.com/PaulSayantan/algo-dsa.py",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "problems/hashing/intermediate/prefix-sum-earliest-index/problem-03-longest-zero-sum-subarray/solution.py",
+    "fileSHA": "cf557db8bf78a7a272852204116ad68dffc34017",
+    "url": "https://github.com/PaulSayantan/algo-dsa.py/blob/a7b85f362f44a65c9e8afa8b3cec497cc76643eb/problems/hashing/intermediate/prefix-sum-earliest-index/problem-03-longest-zero-sum-subarray/solution.py",
+    "rawUrl": "https://raw.githubusercontent.com/PaulSayantan/algo-dsa.py/main/problems/hashing/intermediate/prefix-sum-earliest-index/problem-03-longest-zero-sum-subarray/solution.py"
+  },
+  "matching": {
+    "relevanceScore": 74.38
+  },
+  "provenance": {
+    "score": 85.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "83f481b3fc0280c61697271a66249286da8117dbec19e39706c563dc98a3803d",
+    "normalizedCodeHash": "83f481b3fc0280c61697271a66249286da8117dbec19e39706c563dc98a3803d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:58:12.990881+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

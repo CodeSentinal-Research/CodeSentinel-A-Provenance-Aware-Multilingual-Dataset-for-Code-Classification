@@ -1,0 +1,75 @@
+{
+  "solutionId": "PY_H_P000541",
+  "problemId": "P000541",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000541",
+    "title": "Rotting Oranges",
+    "category": "Queue",
+    "difficulty": "Easy",
+    "problemStatement": "You are given an m \u00d7 n grid where: 0 represents an empty cell. 1 represents a fresh orange. 2 represents a rotten orange. Every minute, any fresh orange adjacent (up, down, left, or right) to a rotten orange also becomes rotten. Return the minimum number of minutes required until no fresh oranges remain. If it is impossible, return -1.",
+    "input": "Integers m and n An m \u00d7 n integer grid",
+    "output": "A single integer representing the required minutes.",
+    "constraints": "1 <= m, n <= 100"
+  },
+  "repository": {
+    "name": "jz33/LeetCodeSolutions",
+    "owner": "jz33",
+    "url": "https://github.com/jz33/LeetCodeSolutions",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000541.py",
+    "fileSHA": "a01c7145174e4070f95ac0506585cfe6a54ce3d5",
+    "url": "https://github.com/jz33/LeetCodeSolutions/blob/86c869ff3bc611042c79007bfbaa9163f335fecf/994 Rotting Oranges.py",
+    "rawUrl": "https://raw.githubusercontent.com/jz33/LeetCodeSolutions/main/994 Rotting Oranges.py"
+  },
+  "matching": {
+    "relevanceScore": 77.78
+  },
+  "provenance": {
+    "score": 82.5,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2020-06-02T21:03:39Z",
+    "lastCommitDate": "2023-12-24T18:49:20Z",
+    "commitCount": 6,
+    "authorCount": 2,
+    "authors": [
+      "Jun",
+      "jz33"
+    ],
+    "firstKnownAuthor": "Jun",
+    "latestKnownAuthor": "jz33"
+  },
+  "deduplication": {
+    "rawCodeHash": "066c355d4cfd7e7c6f1ec074a684e576ee75a45031921700fee2459570019f03",
+    "normalizedCodeHash": "066c355d4cfd7e7c6f1ec074a684e576ee75a45031921700fee2459570019f03",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:15:58.666495+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

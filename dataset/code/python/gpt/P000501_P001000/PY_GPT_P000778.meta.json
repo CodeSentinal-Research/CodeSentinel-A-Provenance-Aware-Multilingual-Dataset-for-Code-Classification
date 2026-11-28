@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000778",
+  "problemId": "P000778",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000778",
+    "title": "Tug of War Partition",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given an array of N integers, divide it into two subsets such that: The sizes of the two subsets differ by at most one. The absolute difference between the sums of the two subsets is minimized. Return the minimum possible absolute difference and one corresponding partition.",
+    "input": "Integer N Array nums",
+    "output": "The minimum absolute difference. One optimal partition of the array.",
+    "constraints": "1 <= N <= 30 -10^6 <= nums[i] <= 10^6"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000778.py",
+    "fileSHA": "838e6d384e73f2c6d395e0cb0de6e088661a9f027f4fbc0cd5feed1ee518dd05",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:57.018077+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "838e6d384e73f2c6d395e0cb0de6e088661a9f027f4fbc0cd5feed1ee518dd05",
+    "normalizedCodeHash": "2bf44ab074471d7ed5ff1fd54f478a4fafb2e3a71407914a55f34d352599f8df",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:57.018077+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "problemId": "P000944",
+  "title": "Divisor Game",
+  "category": "Mathematics - Game Theory",
+  "difficulty": "Easy",
+  "problemStatement": "Starting with an integer N, players alternate choosing a divisor x such that 0 < x < N and N % x == 0, then replacing N with N - x. The player unable to make a move loses. Determine whether the first player wins.",
+  "input": "Integer N",
+  "output": "Print true if the first player wins; otherwise, print false.",
+  "constraints": "1 <= N <= 1000"
+}

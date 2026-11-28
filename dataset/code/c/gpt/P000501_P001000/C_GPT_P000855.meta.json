@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000855",
+  "problemId": "P000855",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000855",
+    "title": "Count Leading Zeros",
+    "category": "Bit Manipulation",
+    "difficulty": "Easy",
+    "problemStatement": "Given a 32-bit unsigned integer, return the number of leading zeros in its binary representation.",
+    "input": "Integer N",
+    "output": "The number of leading zeros.",
+    "constraints": "0 <= N <= 2^32 - 1"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000501_P001000/C_GPT_P000855.c",
+    "fileSHA": "b6cbe644124f0aa6665aa82d0cee3b58e4f21f412af75712c40932ea563e20bd",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-23T08:32:41.748066+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "b6cbe644124f0aa6665aa82d0cee3b58e4f21f412af75712c40932ea563e20bd",
+    "normalizedCodeHash": "b6cbe644124f0aa6665aa82d0cee3b58e4f21f412af75712c40932ea563e20bd",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T08:32:41.748066+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

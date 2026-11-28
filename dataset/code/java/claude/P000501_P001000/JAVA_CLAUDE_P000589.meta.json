@@ -1,0 +1,60 @@
+{
+  "solutionId": "JAVA_CLAUDE_P000589",
+  "problemId": "P000589",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000589",
+    "title": "Delete Node in a Linked List",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a reference to a node in a singly linked list. The given node is not the last node of the list. Delete the given node from the linked list without access to the head of the list.",
+    "input": "A reference to the node to be deleted.",
+    "output": "The modified linked list after deletion.",
+    "constraints": "The given node is guaranteed not to be the last node. Number of nodes is in the range [2, 1000]."
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P000589",
+    "fileSHA": "a6c6b8fd58054dc943af1024f7e781ddc5397c5d6d2cbb1bf5c13337a26c842d",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a6c6b8fd58054dc943af1024f7e781ddc5397c5d6d2cbb1bf5c13337a26c842d",
+    "normalizedCodeHash": "a6c6b8fd58054dc943af1024f7e781ddc5397c5d6d2cbb1bf5c13337a26c842d",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000589: Delete Node in a Linked List"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

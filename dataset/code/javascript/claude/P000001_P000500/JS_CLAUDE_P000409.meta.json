@@ -1,0 +1,60 @@
+{
+  "solutionId": "JS_CLAUDE_P000409",
+  "problemId": "P000409",
+  "language": "javascript",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000409",
+    "title": "Search Users by Username Prefix",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Write a program to find all users whose usernames start with the given prefix.",
+    "input": "A collection of user records and a prefix string.",
+    "output": "All matching usernames in their original order.",
+    "constraints": "1 ≤ Number of Users ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JS_CLAUDE_P000409",
+    "fileSHA": "0c255ba042d9a84e1faf3b52f01ad79e920d6fe76a9781a3e94e822a3a5f8579",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0c255ba042d9a84e1faf3b52f01ad79e920d6fe76a9781a3e94e822a3a5f8579",
+    "normalizedCodeHash": "0c255ba042d9a84e1faf3b52f01ad79e920d6fe76a9781a3e94e822a3a5f8579",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution for P000409: Search Users by Username Prefix"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

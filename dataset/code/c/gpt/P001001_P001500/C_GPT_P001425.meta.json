@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001425",
+  "problemId": "P001425",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001425",
+    "title": "Destination City",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a list of direct travel paths represented as source and destination cities. Determine the city that has no outgoing path.",
+    "input": "• First line contains integer N. • Next N lines each contain two strings representing source and destination.",
+    "output": "Print the destination city.",
+    "constraints": "• 1 ≤ N ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001425.c",
+    "fileSHA": "fc21775476c38e9b67a8fbcd4868bb70ca5b008830db2e5d655542cb9c2c7e8e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.335Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "c349736ebd03a2f8b03fdfa9ee0ddc60a80962256c19727509ea02cd95fec960",
+    "normalizedCodeHash": "fc21775476c38e9b67a8fbcd4868bb70ca5b008830db2e5d655542cb9c2c7e8e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.335Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001726",
+  "problemId": "P001726",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001726",
+    "title": "Count Downward Paths with Sum K",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree whose nodes contain integer values and an integer K, determine the number of downward paths whose node values sum to exactly K. A path may start and end at any nodes but must always move from parent to child.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree. \u2022 The last line contains K.",
+    "output": "\u2022 Print the number of qualifying paths.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 \u221210^9 \u2264 NodeValue \u2264 10^9"
+  },
+  "repository": {
+    "name": "freebsd/freebsd-src",
+    "owner": "freebsd",
+    "url": "https://github.com/freebsd/freebsd-src",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "contrib/llvm-project/clang/include/clang/StaticAnalyzer/Core/PathSensitive/FunctionSummary.h",
+    "fileSHA": "761395260a0cf0fa2a7216ad167fa82c2c4116ac",
+    "url": "https://github.com/freebsd/freebsd-src/blob/main/contrib/llvm-project/clang/include/clang/StaticAnalyzer/Core/PathSensitive/FunctionSummary.h",
+    "rawUrl": "https://raw.githubusercontent.com/freebsd/freebsd-src/main/contrib/llvm-project/clang/include/clang/StaticAnalyzer/Core/PathSensitive/FunctionSummary.h"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "e9b328cbc014384b29b0b3b619cf0a20d214488ee545c81588053e37074c2fbc",
+    "normalizedCodeHash": "e9b328cbc014384b29b0b3b619cf0a20d214488ee545c81588053e37074c2fbc",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T18:14:41.389776+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001061",
+  "problemId": "P001061",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001061",
+    "title": "Detect Cycle in a Directed Graph",
+    "category": "Graphs",
+    "difficulty": "Easy",
+    "problemStatement": "Given a directed graph with N vertices and M directed edges, determine whether the graph contains at least one cycle.",
+    "input": "\u2022 First line contains two integers N and M. \u2022 The next M lines each contain two integers u and v, representing a directed edge from u to v.",
+    "output": "Print YES if the graph contains a cycle; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5 \u2022 1 \u2264 u, v \u2264 N"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Python",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "graphs/directed_and_undirected_weighted_graph.py",
+    "fileSHA": "8ca645fdace8d8406338c36b43c9df2b61492a92",
+    "url": "https://github.com/TheAlgorithms/Python/blob/master/graphs/directed_and_undirected_weighted_graph.py",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Python/master/graphs/directed_and_undirected_weighted_graph.py"
+  },
+  "matching": {
+    "relevanceScore": 66.93
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "84d18b3531f33768c5445e2bf1db6148731222bd54d9acec07e2bb1cfe5e8733",
+    "normalizedCodeHash": "84d18b3531f33768c5445e2bf1db6148731222bd54d9acec07e2bb1cfe5e8733",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T10:33:32.758712+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

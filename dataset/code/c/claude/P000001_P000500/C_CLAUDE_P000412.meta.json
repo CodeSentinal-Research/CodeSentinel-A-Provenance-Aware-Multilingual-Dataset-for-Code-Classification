@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_CLAUDE_P000412",
+  "problemId": "P000412",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000412",
+    "title": "Case-Insensitive Contact Search",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Search a contact list ignoring uppercase and lowercase differences.",
+    "input": "Contact records and a search name.",
+    "output": "Matching contact records.",
+    "constraints": "1 ≤ Number of Contacts ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000412",
+    "fileSHA": "f351897ac995f4539e08d765ca1c588338824339364f835ee18595a29a30dd6e",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8eca46a08ae2483b66946214bc188452a86fae6544f9bf8c5dea501c4744d874",
+    "normalizedCodeHash": "f351897ac995f4539e08d765ca1c588338824339364f835ee18595a29a30dd6e",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000586",
+  "problemId": "P000586",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000586",
+    "title": "Reverse Nodes in K-Group",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Given the head of a linked list and an integer k, reverse the nodes of the list k at a time. If the number of remaining nodes is less than k, leave them unchanged. Return the modified linked list.",
+    "input": "Integer n Linked list Integer k",
+    "output": "The linked list after reversing every group of k nodes.",
+    "constraints": "1 <= n <= 5000 1 <= k <= n"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000586",
+    "fileSHA": "7d00dd000f7a68306e3ebb46dc11f993ed568b57b2359d631163d288a1d5b404",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:25:40.053Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "98ca8e8c41fb6cc741cf58e26a7e1e2ecaa541622ac43d2d29f129f649d1d659",
+    "normalizedCodeHash": "1c61065f7422a502ae776837e459fea6b83a9de0d405d729b870511cf64bd69b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:25:40.053Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

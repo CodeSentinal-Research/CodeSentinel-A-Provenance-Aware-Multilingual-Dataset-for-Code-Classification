@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P000840",
+  "problemId": "P000840",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000840",
+    "title": "Minimum Limit of Balls in a Bag",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "You are given bags containing balls. In one operation, you may split a bag into two non-empty bags. Return the minimum possible maximum number of balls in any bag after performing at most maxOperations operations.",
+    "input": "Integer n Array nums Integer maxOperations",
+    "output": "The minimum possible penalty.",
+    "constraints": "1 <= n <= 10^5 1 <= nums[i] <= 10^9"
+  },
+  "repository": {
+    "name": "eaglemox/LeetCode-Writeups",
+    "owner": "eaglemox",
+    "url": "https://github.com/eaglemox/LeetCode-Writeups",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "array/1760.minimum-limit-of-balls-in-a-bag/solution_1.c",
+    "fileSHA": "6f8e75379a29593a0d00f96be7f2042c137e3409",
+    "url": "https://github.com/eaglemox/LeetCode-Writeups/blob/8f08fad6a7ca196447bb47b928f2f951421203ab/array/1760.minimum-limit-of-balls-in-a-bag/solution_1.c",
+    "rawUrl": "https://raw.githubusercontent.com/eaglemox/LeetCode-Writeups/main/array/1760.minimum-limit-of-balls-in-a-bag/solution_1.c"
+  },
+  "matching": {
+    "relevanceScore": 85.71
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "a8558b7282d7fdd46338f5445c56bb58d3d65eb1591055c49cb138473c6e335b",
+    "normalizedCodeHash": "a8558b7282d7fdd46338f5445c56bb58d3d65eb1591055c49cb138473c6e335b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T11:44:10.971999+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

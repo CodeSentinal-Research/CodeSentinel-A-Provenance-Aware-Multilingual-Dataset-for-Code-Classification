@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001123",
+  "problemId": "P001123",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001123",
+    "title": "Find the City with the Smallest Number of Reachable Neighbors",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a weighted undirected graph and a distance threshold, determine the city having the smallest number of reachable neighboring cities within the threshold distance. If multiple cities satisfy the condition, print the largest indexed city.",
+    "input": "\u2022 First line contains integers N, M, and T. \u2022 Next M lines contain integers u, v, and w.",
+    "output": "Print the required city index.",
+    "constraints": "\u2022 2 \u2264 N \u2264 100 \u2022 1 \u2264 M \u2264 N(N\u22121)/2"
+  },
+  "repository": {
+    "name": "AmanQureshi0111/Graph",
+    "owner": "AmanQureshi0111",
+    "url": "https://github.com/AmanQureshi0111/Graph",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "Shortest Path Algorithms/G43 reachable cities.cpp",
+    "fileSHA": "bc442612a4a428b96f005f6414d0b83c98d58cc8",
+    "url": "https://github.com/AmanQureshi0111/Graph/blob/be92cf8c024f3f7f77be5f6611c5624ec2f20097/Shortest Path Algorithms/G43 reachable cities.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/AmanQureshi0111/Graph/main/Shortest Path Algorithms/G43 reachable cities.cpp"
+  },
+  "matching": {
+    "relevanceScore": 72.5
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f7b9bdb5aa060bd6defab7616b041735174d1f8db388df06f62cd9fb9eecd0c1",
+    "normalizedCodeHash": "f7b9bdb5aa060bd6defab7616b041735174d1f8db388df06f62cd9fb9eecd0c1",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:04:29.081955+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

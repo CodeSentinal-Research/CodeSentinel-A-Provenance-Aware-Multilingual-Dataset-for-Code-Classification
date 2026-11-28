@@ -1,0 +1,60 @@
+{
+  "solutionId": "C_CLAUDE_P000784",
+  "problemId": "P000784",
+  "language": "c",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000784",
+    "title": "Count Odd Numbers in Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an integer array and multiple queries [L, R], determine how many odd numbers lie within each range. Use prefix sums to answer each query efficiently.",
+    "input": "Integer n Array nums Integer q Queries (L, R)",
+    "output": "For each query, print the count of odd numbers.",
+    "constraints": "1 <= n, q <= 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/C_CLAUDE_P000784",
+    "fileSHA": "9d26edb636c50d8da6773c8b56dd3d3edd5ce50ab809acf87d421004ba5d397c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9d26edb636c50d8da6773c8b56dd3d3edd5ce50ab809acf87d421004ba5d397c",
+    "normalizedCodeHash": "9d26edb636c50d8da6773c8b56dd3d3edd5ce50ab809acf87d421004ba5d397c",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique solution P000784: Count Odd Numbers in Range"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

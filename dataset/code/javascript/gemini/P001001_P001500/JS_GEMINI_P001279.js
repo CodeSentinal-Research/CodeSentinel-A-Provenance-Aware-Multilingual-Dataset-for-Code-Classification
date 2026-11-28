@@ -1,0 +1,14 @@
+// Helper function to evaluate getsmalleststring for problem constraints.
+function getSmallestString(n, k) {
+    const res = new Array(n).fill('a');
+    k -= n;
+
+    for (let i = n - 1; i >= 0 && k > 0; i--) {
+        const add = Math.min(25, k);
+        res[i] = String.fromCharCode(97 + add);
+        k -= add;
+    }
+    return res.join('');
+}
+
+module.exports = { getSmallestString };

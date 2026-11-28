@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001397",
+  "problemId": "P001397",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001397",
+    "title": "Brick Wall",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "A wall is represented by rows of bricks with varying widths. Draw one vertical line crossing the minimum number of bricks.",
+    "input": "• First line contains integer R. • For each row: o First integer denotes the number of bricks. o Followed by the widths of the bricks.",
+    "output": "Print the minimum number of bricks crossed.",
+    "constraints": "• 1 ≤ Total Bricks ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001397.c",
+    "fileSHA": "1283fe3b126301c94951c167ac77959e1c65e18b3a1943c93541d69e3e3288d3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.236Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "6db39c73b6baf96abc940a181faa8bc8e1078fdb59bcd570043943881f496f2a",
+    "normalizedCodeHash": "1283fe3b126301c94951c167ac77959e1c65e18b3a1943c93541d69e3e3288d3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.236Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

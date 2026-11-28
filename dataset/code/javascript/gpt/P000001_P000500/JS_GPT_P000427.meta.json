@@ -1,0 +1,58 @@
+{
+  "solutionId": "JS_GPT_P000427",
+  "problemId": "P000427",
+  "language": "javascript",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000427",
+    "title": "Search Products Eligible for Free Shipping",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Retrieve all products that satisfy the minimum price required for free shipping.",
+    "input": "Product records and the minimum qualifying price.",
+    "output": "Matching products.",
+    "constraints": "1 ≤ Number of Products ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/javascript/gpt/P000001_P000500/JS_GPT_P000427.js",
+    "fileSHA": "9ff3b9b9a944790b5c29e9babbc4b810030409f1c7f2408de7859be5de791f08",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-09-01T14:11:20.668520+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "9ff3b9b9a944790b5c29e9babbc4b810030409f1c7f2408de7859be5de791f08",
+    "normalizedCodeHash": "9ff3b9b9a944790b5c29e9babbc4b810030409f1c7f2408de7859be5de791f08",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T14:11:20.668520+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

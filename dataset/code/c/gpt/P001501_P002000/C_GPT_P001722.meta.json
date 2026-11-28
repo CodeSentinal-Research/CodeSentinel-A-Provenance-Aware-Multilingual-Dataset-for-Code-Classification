@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001722",
+  "problemId": "P001722",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001722",
+    "title": "Sum of Nodes at Even Levels",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the sum of the values of all nodes present at even-numbered levels.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print the required sum.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001722.c",
+    "fileSHA": "06a352f10bd8ae841efdf6121f9cb5fad0e7c63a517006bd5fe597e2966ad1bb",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.451Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "f445cd4d4b6d7e286f463cbfbc461406758f6a4c089e2ddd91a650aaaca70289",
+    "normalizedCodeHash": "06a352f10bd8ae841efdf6121f9cb5fad0e7c63a517006bd5fe597e2966ad1bb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.451Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

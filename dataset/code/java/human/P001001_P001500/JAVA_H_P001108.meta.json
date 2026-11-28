@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001108",
+  "problemId": "P001108",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001108",
+    "title": "Reachability Queries",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given a directed graph and Q queries, determine whether there exists a path from vertex u to vertex v for each query.",
+    "input": "\u2022 First line contains integers N, M, and Q. \u2022 Next M lines contain directed edges. \u2022 Next Q lines contain two integers u and v.",
+    "output": "For each query, print YES if a path exists; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M, Q \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/0900-0999/0985.Sum of Even Numbers After Queries/Solution.java",
+    "fileSHA": "c0441eb860b19ba17c4af8b344e1334fea2fd2b9",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/0900-0999/0985.Sum of Even Numbers After Queries/Solution.java",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/0900-0999/0985.Sum of Even Numbers After Queries/Solution.java"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "c2c7e44e8ae0ccc425f6e13b5d22e2cf515bba669b0065fa59198fe9876c4bf3",
+    "normalizedCodeHash": "c2c7e44e8ae0ccc425f6e13b5d22e2cf515bba669b0065fa59198fe9876c4bf3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:18:10.289200+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

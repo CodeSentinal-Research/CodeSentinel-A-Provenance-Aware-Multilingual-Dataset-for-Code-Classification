@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P000955",
+  "problemId": "P000955",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000955",
+    "title": "Modular Inverse Using Extended Euclid",
+    "category": "Mathematics - Extended Euclidean Algorithm",
+    "difficulty": "Medium",
+    "problemStatement": "Given integers A and M, compute the modular multiplicative inverse of A modulo M using the Extended Euclidean Algorithm. If no inverse exists, output -1.",
+    "input": "Integer A Integer M",
+    "output": "The modular inverse or -1.",
+    "constraints": "1 <= A, M <= 10^18"
+  },
+  "repository": {
+    "name": "williamfiset/Algorithms",
+    "owner": "williamfiset",
+    "url": "https://github.com/williamfiset/Algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/com/williamfiset/algorithms/math/ModularInverse.java",
+    "fileSHA": "6929e0b02da1183c1479a2ac792e6fd7d29167c7",
+    "url": "https://github.com/williamfiset/Algorithms/blob/master/src/main/java/com/williamfiset/algorithms/math/ModularInverse.java",
+    "rawUrl": "https://raw.githubusercontent.com/williamfiset/Algorithms/master/src/main/java/com/williamfiset/algorithms/math/ModularInverse.java"
+  },
+  "matching": {
+    "relevanceScore": 67.0
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "4047f3aea582bcccf683d28f8ddf66aef5626dfdbd6cb2bb59e2c0dc44fca1e0",
+    "normalizedCodeHash": "4047f3aea582bcccf683d28f8ddf66aef5626dfdbd6cb2bb59e2c0dc44fca1e0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (Java Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T07:06:25.741114+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

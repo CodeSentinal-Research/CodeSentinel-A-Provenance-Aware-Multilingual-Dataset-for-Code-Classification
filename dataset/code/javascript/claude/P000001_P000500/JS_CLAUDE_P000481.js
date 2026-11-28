@@ -1,0 +1,1 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const n=+l[0];const stk=[];for(let i=1;i<=n;i++){const op=l[i].trim();if(op==='+')stk.push(stk[stk.length-1]+stk[stk.length-2]);else if(op==='D')stk.push(stk[stk.length-1]*2);else if(op==='C')stk.pop();else stk.push(+op);}console.log(stk.reduce((a,b)=>a+b,0));

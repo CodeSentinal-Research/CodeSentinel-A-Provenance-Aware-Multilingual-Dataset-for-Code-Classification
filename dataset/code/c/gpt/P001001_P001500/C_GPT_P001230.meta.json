@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001230",
+  "problemId": "P001230",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001230",
+    "title": "Out of Boundary Paths",
+    "category": "Dynamic Programming",
+    "difficulty": "Hard",
+    "problemStatement": "Given an R × C grid and a starting cell, determine the number of paths that move outside the grid in at most K moves. At each move, movement is allowed in the four cardinal directions.",
+    "input": "• First line contains integers R, C, and K. • Second line contains starting cell coordinates.",
+    "output": "Print the total number of valid paths.",
+    "constraints": "• 1 ≤ R, C ≤ 50 • 0 ≤ K ≤ 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001001_P001500/C_GPT_P001230.c",
+    "fileSHA": "48ee13072d886314fd9fc1e70c85e931e2ac4f7ca1eb19eb26e35b3e55cd7e39",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:33.355Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "31608c60c44b0c4e74ab0a5a88df6321d00c84b111dceb4c60334fa41b2fffbe",
+    "normalizedCodeHash": "48ee13072d886314fd9fc1e70c85e931e2ac4f7ca1eb19eb26e35b3e55cd7e39",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:33.355Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

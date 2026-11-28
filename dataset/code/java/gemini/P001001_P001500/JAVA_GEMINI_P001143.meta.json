@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001143",
+  "problemId": "P001143",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001143",
+    "title": "Target Sum Expressions",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and a target value, determine the number of ways to assign either a '+' or '-' sign before every element such that the resulting expression equals the target.",
+    "input": "\u2022 First line contains integers N and Target. \u2022 Second line contains N integers.",
+    "output": "Print the number of valid expressions.",
+    "constraints": "\u2022 1 \u2264 N \u2264 20 \u2022 0 \u2264 Element \u2264 1000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001143",
+    "fileSHA": "8c2011449b8cdd287892ed8cb3de271ffee4d7534bf1fad9445dc956819f3af3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-17T23:50:19.100190+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "8c2011449b8cdd287892ed8cb3de271ffee4d7534bf1fad9445dc956819f3af3",
+    "normalizedCodeHash": "8c2011449b8cdd287892ed8cb3de271ffee4d7534bf1fad9445dc956819f3af3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T23:50:19.100214+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "solutionId": "JAVA_H_P000565",
+  "problemId": "P000565",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000565",
+    "title": "Matrix Cells in Distance Order",
+    "category": "Queue",
+    "difficulty": "Hard",
+    "problemStatement": "Given the dimensions of a matrix and the coordinates of a starting cell, return all matrix cells ordered by their Manhattan distance from the starting cell. If multiple cells have the same distance, they may appear in any order.",
+    "input": "Integers rows and cols Integers rCenter and cCenter",
+    "output": "A list of all cell coordinates ordered by increasing Manhattan distance.",
+    "constraints": "1 <= rows, cols <= 100"
+  },
+  "repository": {
+    "name": "zofun/leetcode-solution",
+    "owner": "zofun",
+    "url": "https://github.com/zofun/leetcode-solution",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "java/human/P000501_P001000/JAVA_H_P000565.java",
+    "fileSHA": "a61a17d3e69b7588f03097f56cee94f8c8aa650a",
+    "url": "https://github.com/zofun/leetcode-solution/blob/5c9f4cf1f7816f559f1b9a7af9c520d1b65450c1/1030.matrix-cells-in-distance-order.java",
+    "rawUrl": "https://raw.githubusercontent.com/zofun/leetcode-solution/main/1030.matrix-cells-in-distance-order.java"
+  },
+  "matching": {
+    "relevanceScore": 71.53
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2019-09-27T09:19:37Z",
+    "lastCommitDate": "2019-09-27T09:19:37Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "tcw"
+    ],
+    "firstKnownAuthor": "tcw",
+    "latestKnownAuthor": "tcw"
+  },
+  "deduplication": {
+    "rawCodeHash": "fbfa6e2836a40997c591a510405cc67ab9a4cd4ce03846c2ddd75a4b21a372ba",
+    "normalizedCodeHash": "fbfa6e2836a40997c591a510405cc67ab9a4cd4ce03846c2ddd75a4b21a372ba",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:26:03.835649+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

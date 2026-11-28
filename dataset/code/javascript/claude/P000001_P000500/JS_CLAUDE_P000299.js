@@ -1,0 +1,1 @@
+const n=+require("fs").readFileSync("/dev/stdin","utf8").trim();const res=[];function gen(o,c,s){if(o===n&&c===n){res.push(s);return;}if(o<n)gen(o+1,c,s+"(");if(c<o)gen(o,c+1,s+")");}gen(0,0,"");console.log(res.join(" "));

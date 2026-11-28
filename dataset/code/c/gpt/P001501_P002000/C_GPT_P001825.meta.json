@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001825",
+  "problemId": "P001825",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001825",
+    "title": "Rebalance an Unbalanced Binary Search Tree",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the root of an unbalanced Binary Search Tree, reconstruct it into a height-balanced Binary Search Tree containing the same keys.",
+    "input": "• The first line contains an integer N. • The next N lines describe the BST.",
+    "output": "• Print the balanced BST.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001825.c",
+    "fileSHA": "58f556359f33ab87dbbc3ab8d42debda76cf64ed794cd30d1ffc66c7d28a1a9c",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.773Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "cb456505c0c8f5177b8f02da29cc5909eb7710c2200e3ea78866599422c24502",
+    "normalizedCodeHash": "58f556359f33ab87dbbc3ab8d42debda76cf64ed794cd30d1ffc66c7d28a1a9c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.773Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

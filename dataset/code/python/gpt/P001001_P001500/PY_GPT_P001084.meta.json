@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001084",
+  "problemId": "P001084",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001084",
+    "title": "Hamiltonian Cycle",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given an undirected graph, determine whether it contains a Hamiltonian Cycle.",
+    "input": "• First line contains integers N and M. • Next M lines contain graph edges.",
+    "output": "Print YES if a Hamiltonian Cycle exists; otherwise print NO.",
+    "constraints": "• 1 ≤ N ≤ 20 • 0 ≤ M ≤ N(N−1)/2"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001084.py",
+    "fileSHA": "94e5aa7ac2cafddec54459f5fd8fb684309d7323c703b7103db6e324d0b57f47",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.294680+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "94e5aa7ac2cafddec54459f5fd8fb684309d7323c703b7103db6e324d0b57f47",
+    "normalizedCodeHash": "a0ddc174f52ee67bb64d88ec77d84de318c58b2ece697b0185b411aceb463171",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.294680+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001651",
+  "problemId": "P001651",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001651",
+    "title": "Construct a Binary Tree from Preorder and Postorder Traversals",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given the preorder traversal and postorder traversal of a full binary tree containing unique values, reconstruct the original binary tree.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the preorder traversal. \u2022 The third line contains the postorder traversal.",
+    "output": "\u2022 Print the reconstructed tree in the required traversal format.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5 \u2022 The binary tree is full. \u2022 All node values are unique.________________________________________"
+  },
+  "repository": {
+    "name": "keon/algorithms",
+    "owner": "keon",
+    "url": "https://github.com/keon/algorithms",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/tree/construct_tree_postorder_preorder.py",
+    "fileSHA": "90d109a048dd7b7cd11cdffa5a2fcba6f55dc3c7",
+    "url": "https://github.com/keon/algorithms/blob/master/algorithms/tree/construct_tree_postorder_preorder.py",
+    "rawUrl": "https://raw.githubusercontent.com/keon/algorithms/master/algorithms/tree/construct_tree_postorder_preorder.py"
+  },
+  "matching": {
+    "relevanceScore": 67.31
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ad2f7dabf3f89e19171f0fb695432e29276c7505d2dd326118d7a2b6c8c52ad2",
+    "normalizedCodeHash": "ad2f7dabf3f89e19171f0fb695432e29276c7505d2dd326118d7a2b6c8c52ad2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T02:06:56.313132+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

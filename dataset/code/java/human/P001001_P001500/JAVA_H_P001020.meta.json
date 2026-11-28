@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001020",
+  "problemId": "P001020",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001020",
+    "title": "Smallest Range Covering K Sorted Lists",
+    "category": "Heap",
+    "difficulty": "Hard",
+    "problemStatement": "Given K sorted lists of integers, determine the smallest inclusive range that contains at least one element from every list.",
+    "input": "\u2022 First line contains integer K. \u2022 For each list, the number of elements followed by the sorted elements.",
+    "output": "Print the starting and ending values of the smallest range.",
+    "constraints": "\u2022 1 \u2264 K \u2264 500 \u2022 Total number of elements \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "Wang-dongyu123/CopilotCodeQuality",
+    "owner": "Wang-dongyu123",
+    "url": "https://github.com/Wang-dongyu123/CopilotCodeQuality",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "ScanProject/JavaAnalysis/SonarJava/src/main/java/Hard/1857-smallest-range-covering-elements-from-k-lists.java",
+    "fileSHA": "4e0ceb05960cb6b4aeac6706f60e6862d4748701",
+    "url": "https://github.com/Wang-dongyu123/CopilotCodeQuality/blob/dae92e516fb21dcea238c8f0af37845d419c58db/ScanProject/JavaAnalysis/SonarJava/src/main/java/Hard/1857-smallest-range-covering-elements-from-k-lists.java",
+    "rawUrl": "https://raw.githubusercontent.com/Wang-dongyu123/CopilotCodeQuality/main/ScanProject/JavaAnalysis/SonarJava/src/main/java/Hard/1857-smallest-range-covering-elements-from-k-lists.java"
+  },
+  "matching": {
+    "relevanceScore": 86.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "fa8d8b6a058539bdd05ba70f497ef4e56149a51e581ce7088e551cd6fd9ab8b2",
+    "normalizedCodeHash": "fa8d8b6a058539bdd05ba70f497ef4e56149a51e581ce7088e551cd6fd9ab8b2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-09-01T04:54:16.421637+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

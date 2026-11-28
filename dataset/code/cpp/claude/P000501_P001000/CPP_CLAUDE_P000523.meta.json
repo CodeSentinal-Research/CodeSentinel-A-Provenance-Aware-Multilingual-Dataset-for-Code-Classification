@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000523",
+  "problemId": "P000523",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000523",
+    "title": "Remove Nodes From Linked List",
+    "category": "Stack",
+    "difficulty": "Medium",
+    "problemStatement": "Given the head of a singly linked list, remove every node that has a node with a greater value somewhere to its right. Return the head of the modified linked list.",
+    "input": "Integer n Values of the linked list.",
+    "output": "The modified linked list.",
+    "constraints": "1 <= n <= 10^5 1 <= node.value <= 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000523",
+    "fileSHA": "453635bb6b33874ba0be00828d652864c2f2b1fdeaa051e3e0e4038a936ee308",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "453635bb6b33874ba0be00828d652864c2f2b1fdeaa051e3e0e4038a936ee308",
+    "normalizedCodeHash": "453635bb6b33874ba0be00828d652864c2f2b1fdeaa051e3e0e4038a936ee308",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-02: unique stub P000523: Remove Nodes From Linked List"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

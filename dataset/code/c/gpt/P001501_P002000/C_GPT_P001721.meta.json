@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001721",
+  "problemId": "P001721",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001721",
+    "title": "Sum of Nodes at Odd Levels",
+    "category": "Trees",
+    "difficulty": "Easy",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the sum of the values of all nodes present at odd-numbered levels.",
+    "input": "• The first line contains an integer N. • The second line contains the node values. • The next N lines describe the binary tree.",
+    "output": "• Print the required sum.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001721.c",
+    "fileSHA": "8e6066e63bf08d3530f637081f8ce3ec9e8aeff485629cd834cd8a6addff74ab",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.448Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "0cd010f59452c04cc7980cd82c4c2e4d149ad2d6f9219c31e3c020e15f3d801b",
+    "normalizedCodeHash": "8e6066e63bf08d3530f637081f8ce3ec9e8aeff485629cd834cd8a6addff74ab",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.448Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

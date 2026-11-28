@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001735",
+  "problemId": "P001735",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001735",
+    "title": "Check Whether a Binary Tree is a Subtree of Itself After Mirroring",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree, determine whether its mirror image exists as a subtree within the original tree.",
+    "input": "• The first line contains an integer N. • The next N lines describe the binary tree.",
+    "output": "• Print YES if the mirrored tree appears as a subtree; otherwise print NO.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001735.c",
+    "fileSHA": "6fd922b737a4c7e6bd6cbab82c0a2ab9ad61b7b9f8ab4f4ae32d0922deb3e816",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.491Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "8a933608373a1fc1ef7fd2889931044078e34c8ab29350db26ea7dc1b80769b3",
+    "normalizedCodeHash": "6fd922b737a4c7e6bd6cbab82c0a2ab9ad61b7b9f8ab4f4ae32d0922deb3e816",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.491Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

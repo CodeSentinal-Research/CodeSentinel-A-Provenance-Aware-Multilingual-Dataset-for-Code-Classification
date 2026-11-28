@@ -1,0 +1,72 @@
+{
+  "solutionId": "CPP_H_P001241",
+  "problemId": "P001241",
+  "language": "cpp",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001241",
+    "title": "Gas Station Circuit",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "There are N gas stations arranged in a circle. Each station provides a certain amount of gas, and traveling to the next station consumes a certain amount of gas. Determine the starting station index from which the entire circuit can be completed. If impossible, print -1.",
+    "input": "\u2022 First line contains integer N. \u2022 Second line contains N integers representing gas available. \u2022 Third line contains N integers representing travel cost.",
+    "output": "Print the starting station index or -1.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "haoel/leetcode",
+    "owner": "haoel",
+    "url": "https://github.com/haoel/leetcode",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Cpp",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "algorithms/cpp/gasStation/gasStation.cpp",
+    "fileSHA": "b2e6129b66e4a34b54b07fa7456f3efa970df1b3",
+    "url": "https://github.com/haoel/leetcode/blob/master/algorithms/cpp/gasStation/gasStation.cpp",
+    "rawUrl": "https://raw.githubusercontent.com/haoel/leetcode/master/algorithms/cpp/gasStation/gasStation.cpp"
+  },
+  "matching": {
+    "relevanceScore": 79.13
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f2080907c775fd90527796a85702e1b74a115caac600f96131a60dbe81c424ed",
+    "normalizedCodeHash": "f2080907c775fd90527796a85702e1b74a115caac600f96131a60dbe81c424ed",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK (C++ Structure Validated)"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T05:55:10.280054+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "solutionId": "JS_H_P001591",
+  "problemId": "P001591",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001591",
+    "title": "Range Sum Query",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, each consisting of two indices L and R, determine the sum of elements from index L to R (inclusive).",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Next Q lines each contain L and R.",
+    "output": "\u2022 For each query, print the required sum.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2 \u00d7 10^5 \u2022 -10^9 \u2264 Ai \u2264 10^9 \u2022 0 \u2264 L \u2264 R < N"
+  },
+  "repository": {
+    "name": "Henrik-Xu/leetcode",
+    "owner": "Henrik-Xu",
+    "url": "https://github.com/Henrik-Xu/leetcode",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "javascript/human/P001501_P002000/JS_H_P001591.js",
+    "fileSHA": "f5dbffc122e7b61c452ff86f013f6f242c2c6856",
+    "url": "https://github.com/Henrik-Xu/leetcode/blob/2edf8c1b76d1d9a898193bd63f26d763e57d6c92/Array/303/Range Sum Query - Immutable.js",
+    "rawUrl": "https://raw.githubusercontent.com/Henrik-Xu/leetcode/main/Array/303/Range Sum Query - Immutable.js"
+  },
+  "matching": {
+    "relevanceScore": 67.47
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2021-12-13T11:29:03Z",
+    "lastCommitDate": "2021-12-13T11:29:03Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "Damon-Salvatore"
+    ],
+    "firstKnownAuthor": "Damon-Salvatore",
+    "latestKnownAuthor": "Damon-Salvatore"
+  },
+  "deduplication": {
+    "rawCodeHash": "a8ffa9d0441bed5ed8c03eb84c5aa153244bc792977979745c88537dc28be7ef",
+    "normalizedCodeHash": "a8ffa9d0441bed5ed8c03eb84c5aa153244bc792977979745c88537dc28be7ef",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T11:11:08.138661+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

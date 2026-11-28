@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P000543",
+  "problemId": "P000543",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000543",
+    "title": "Data Stream as Disjoint Intervals",
+    "category": "Queue",
+    "difficulty": "Medium",
+    "problemStatement": "Design a data structure that receives a stream of non-negative integers. After each insertion, maintain the numbers as a list of disjoint sorted intervals. Support the following operations: addNum(value) getIntervals() Process a sequence of operations and print the intervals whenever getIntervals() is called.",
+    "input": "Integer q Next q operations",
+    "output": "For every getIntervals() operation, print the current list of intervals.",
+    "constraints": "0 <= value <= 10^4 1 <= q <= 3 \u00d7 10^4"
+  },
+  "repository": {
+    "name": "quanhua92/interview-prep",
+    "owner": "quanhua92",
+    "url": "https://github.com/quanhua92/interview-prep",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P000501_P001000/C_H_P000543.c",
+    "fileSHA": "9a7d4f322e79db0e64f604aaecbffcb56dae764a",
+    "url": "https://github.com/quanhua92/interview-prep/blob/ec5eb413f91784736b372095b0d5b1c9fa8d066d/tier2_intermediate/binary_search/problems/p352_data_stream_as_disjoint_intervals.c",
+    "rawUrl": "https://raw.githubusercontent.com/quanhua92/interview-prep/main/tier2_intermediate/binary_search/problems/p352_data_stream_as_disjoint_intervals.c"
+  },
+  "matching": {
+    "relevanceScore": 71.78
+  },
+  "provenance": {
+    "score": 64.5,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2026-05-25T07:28:36Z",
+    "lastCommitDate": "2026-06-30T11:38:29Z",
+    "commitCount": 6,
+    "authorCount": 1,
+    "authors": [
+      "Quan Hua"
+    ],
+    "firstKnownAuthor": "Quan Hua",
+    "latestKnownAuthor": "Quan Hua"
+  },
+  "deduplication": {
+    "rawCodeHash": "d1bdfbcb3e053a5d171d14205fcfe61cabffd124eca34803e4a3a47e438d27d2",
+    "normalizedCodeHash": "d1bdfbcb3e053a5d171d14205fcfe61cabffd124eca34803e4a3a47e438d27d2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T03:18:13.385355+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

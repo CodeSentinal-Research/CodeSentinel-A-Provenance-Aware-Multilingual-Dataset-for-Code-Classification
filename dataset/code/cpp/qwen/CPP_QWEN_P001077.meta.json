@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P001077",
+  "problemId": "P001077",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P001077",
+    "title": "Kruskal's Minimum Spanning Tree",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a connected weighted undirected graph, construct its Minimum Spanning Tree using Kruskal's algorithm and determine its total weight.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines each contain integers u, v, and w.",
+    "output": "Print the total weight of the Minimum Spanning Tree.",
+    "constraints": "\u2022 2 \u2264 N \u2264 10^5 \u2022 N\u22121 \u2264 M \u2264 2\u00d710^5 \u2022 \u221210^6 \u2264 w \u2264 10^6"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P001077",
+    "fileSHA": "0125a5e5e01ecadc875b21f8487a69ee9b20a7d4c85ac5bb8715131ed0835657",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-21T17:17:33.596Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "0719d7f24175a0d9838e03fc86c96a53c0367e682c814518280524efc9668c15",
+    "normalizedCodeHash": "ff629ad6b54b509904c323e1b92a86b2b18c77d87970590db56ad19b5ce7b407",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-21T17:17:33.596Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

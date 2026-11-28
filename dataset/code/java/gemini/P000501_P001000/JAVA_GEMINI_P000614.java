@@ -1,0 +1,16 @@
+import java.util.*;
+public class Solution {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        if (scanner.hasNextInt()) {
+            int n = scanner.nextInt();
+            int[] vals = new int[n];
+            for (int i = 0; i < n; i++) vals[i] = scanner.nextInt();
+            int k = scanner.nextInt();
+            int tmp = vals[k - 1]; vals[k - 1] = vals[n - k]; vals[n - k] = tmp;
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < n; i++) sb.append(vals[i]).append(i == n - 1 ? "" : " ");
+            System.out.println(sb.toString());
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GEMINI_P001234",
+  "problemId": "P001234",
+  "language": "python",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001234",
+    "title": "Minimum Number of Platforms",
+    "category": "Greedy",
+    "difficulty": "Medium",
+    "problemStatement": "Given arrival and departure times of trains, determine the minimum number of railway platforms required so that no train waits.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain arrival and departure times.",
+    "output": "Print the minimum number of platforms.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/PY_GEMINI_P001234",
+    "fileSHA": "418abe9cc987ad6db82bc807033ed87b4f28e055e68660c725b684199329ac4a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:16:22.070381+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "418abe9cc987ad6db82bc807033ed87b4f28e055e68660c725b684199329ac4a",
+    "normalizedCodeHash": "418abe9cc987ad6db82bc807033ed87b4f28e055e68660c725b684199329ac4a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:16:22.070405+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

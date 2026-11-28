@@ -1,0 +1,3 @@
+// Basic Calculator II
+const fs=require("fs");
+const s=fs.readFileSync(0,"utf8").trim();let result=0,term=0,num=0,op="+";for(let i=0;i<=s.length;i++){const c=s[i]||"+";if(c===" ")continue;if(/\d/.test(c))num=num*10+Number(c);else{if(op==="+")term+=num;else if(op==="-")term-=num;else if(op==="*")term*=num;else if(op==="/")term=Math.trunc(term/num);if(c==="+"||c==="-"){result+=term;term=0;}op=c;num=0;}}console.log(result+term);

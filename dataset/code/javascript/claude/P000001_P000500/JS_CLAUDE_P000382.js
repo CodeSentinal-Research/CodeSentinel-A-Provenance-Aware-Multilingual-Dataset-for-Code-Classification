@@ -1,0 +1,1 @@
+const l=require('fs').readFileSync('/dev/stdin','utf8').trim().split('\n');const n=+l[0];const recs=l.slice(1,n+1);const q=l[n+1].trim();for(const r of recs){const f=r.split(' ');if(f[0]===q){console.log(r);process.exit();}}console.log('User Not Found');

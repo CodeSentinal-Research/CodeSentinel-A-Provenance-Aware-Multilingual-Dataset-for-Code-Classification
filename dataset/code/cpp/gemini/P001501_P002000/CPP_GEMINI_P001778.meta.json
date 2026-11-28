@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_GEMINI_P001778",
+  "problemId": "P001778",
+  "language": "cpp",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001778",
+    "title": "Count Monotonic Root-to-Leaf Paths",
+    "category": "Trees",
+    "difficulty": "Hard",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the number of root-to-leaf paths whose values are strictly increasing or strictly decreasing.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the number of qualifying paths.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/CPP_GEMINI_P001778",
+    "fileSHA": "334698c01b29d4dcf60bc9a5125401c6922eb550c18d8e2df2e643ba909c8c8b",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:41:09.765368+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "334698c01b29d4dcf60bc9a5125401c6922eb550c18d8e2df2e643ba909c8c8b",
+    "normalizedCodeHash": "334698c01b29d4dcf60bc9a5125401c6922eb550c18d8e2df2e643ba909c8c8b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:41:09.765387+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

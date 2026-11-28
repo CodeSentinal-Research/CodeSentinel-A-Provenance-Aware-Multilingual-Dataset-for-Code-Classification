@@ -1,0 +1,72 @@
+{
+  "solutionId": "JAVA_H_P001762",
+  "problemId": "P001762",
+  "language": "java",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001762",
+    "title": "Find the Subtree with the Minimum Sum",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree whose nodes contain integer values, determine the root of the subtree having the minimum sum of node values.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print the value of the root of the required subtree.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2 \u00d7 10^5 \u2022 \u221210^9 \u2264 NodeValue \u2264 10^9"
+  },
+  "repository": {
+    "name": "junrsr/warwick-plus",
+    "owner": "junrsr",
+    "url": "https://github.com/junrsr/warwick-plus",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Java",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/main/java/structures/MyAVLTree.java",
+    "fileSHA": "b21566a17d0b294d0f93cd1262e1ff98d8e84f26",
+    "url": "https://github.com/junrsr/warwick-plus/blob/51bb38a56ffc05aad432c4e972e1f8134227cbf9/src/main/java/structures/MyAVLTree.java",
+    "rawUrl": "https://raw.githubusercontent.com/junrsr/warwick-plus/main/src/main/java/structures/MyAVLTree.java"
+  },
+  "matching": {
+    "relevanceScore": 87.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "9a4f5669c09c4e6e6ecdfe8ea0ee409f0dd1377be30f7d89d4ed77c1482a9747",
+    "normalizedCodeHash": "9a4f5669c09c4e6e6ecdfe8ea0ee409f0dd1377be30f7d89d4ed77c1482a9747",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T18:00:38.963248+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

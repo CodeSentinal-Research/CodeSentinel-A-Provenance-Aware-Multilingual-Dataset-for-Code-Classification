@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000424",
+  "problemId": "P000424",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000424",
+    "title": "Search Duplicate Email Addresses",
+    "category": "Searching",
+    "difficulty": "Medium",
+    "problemStatement": "Identify every email address that appears more than once in the database.",
+    "input": "A collection of email records.",
+    "output": "All duplicated email addresses.",
+    "constraints": "1 ≤ Number of Records ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000001_P000500/PY_GPT_P000424.py",
+    "fileSHA": "a4e962bfde01e99c6a4beb9a2b256323d5ebb082aaf2f8c996857dc7e470af96",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T09:23:03.612905+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "a4e962bfde01e99c6a4beb9a2b256323d5ebb082aaf2f8c996857dc7e470af96",
+    "normalizedCodeHash": "9ba4d7667e29ef47847d46ec7df3d1a91a9e5065009fea161a8e56391eb0a7aa",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "Record input/output serialization is underspecified in the source problem; JSON records are assumed for this sample."
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T09:23:03.612905+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

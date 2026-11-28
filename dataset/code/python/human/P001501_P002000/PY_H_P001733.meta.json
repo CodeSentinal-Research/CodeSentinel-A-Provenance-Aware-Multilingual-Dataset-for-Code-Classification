@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001733",
+  "problemId": "P001733",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001733",
+    "title": "Check Whether a Binary Tree is a Sum Tree",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a binary tree, determine whether every non-leaf node stores the sum of all values present in its left and right subtrees.",
+    "input": "\u2022 The first line contains an integer N. \u2022 The second line contains the node values. \u2022 The next N lines describe the binary tree.",
+    "output": "\u2022 Print YES if the tree is a Sum Tree; otherwise print NO.",
+    "constraints": "\u2022 0 \u2264 N \u2264 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "yasakei/neutron",
+    "owner": "yasakei",
+    "url": "https://github.com/yasakei/neutron",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "benchmarks/python/binary_trees.py",
+    "fileSHA": "b4fce0f5cfdceb0ff6a77c5c3008e23602e26033",
+    "url": "https://github.com/yasakei/neutron/blob/0d5209b19567a89a7da2f349feb7da098c1c86ec/benchmarks/python/binary_trees.py",
+    "rawUrl": "https://raw.githubusercontent.com/yasakei/neutron/main/benchmarks/python/binary_trees.py"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "ee8904464343679c0e153d5b2ae57edb00e8bbc3e602055bae5a91b89462eef2",
+    "normalizedCodeHash": "ee8904464343679c0e153d5b2ae57edb00e8bbc3e602055bae5a91b89462eef2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T07:57:29.527831+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

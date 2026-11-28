@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GEMINI_P000408",
+  "problemId": "P000408",
+  "language": "c",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P000408",
+    "title": "Search Emails by Domain",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Find all email addresses belonging to the specified domain.",
+    "input": "Email records and a domain name.",
+    "output": "Matching email addresses.",
+    "constraints": "1 \u2264 Number of Email Records \u2264 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://antigravity.google.internal"
+  },
+  "source": {
+    "path": "c/gemini/C_GEMINI_P000408",
+    "fileSHA": "93c2e8b76b88e6d72563a27442cb0ddcc1bb3af8bfce407f5474218c79f508c3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "antigravity_agent_direct",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.1,
+    "generatedAt": "2026-08-17T16:36:29.900069+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "93c2e8b76b88e6d72563a27442cb0ddcc1bb3af8bfce407f5474218c79f508c3",
+    "normalizedCodeHash": "93c2e8b76b88e6d72563a27442cb0ddcc1bb3af8bfce407f5474218c79f508c3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-17T16:36:29.900092+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

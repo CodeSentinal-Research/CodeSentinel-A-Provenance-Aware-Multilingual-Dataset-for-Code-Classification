@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001641",
+  "problemId": "P001641",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001641",
+    "title": "Determine Whether One Tree is a Subtree of Another",
+    "category": "Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given the roots of two binary trees, determine whether the second tree is a subtree of the first tree. A subtree consists of a node and all of its descendants.",
+    "input": "• The first line contains N₁. • The next N₁ lines describe the first tree. • The following line contains N₂. • The next N₂ lines describe the second tree.",
+    "output": "• Print YES if the second tree is a subtree of the first; otherwise print NO.",
+    "constraints": "• 0 ≤ N₁, N₂ ≤ 2 × 10^5________________________________________"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001641.c",
+    "fileSHA": "6941cc641d8e185eda92322ed81a6563b1492d0de91f27cb1b42208a633176f9",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.075Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "edf9315e198d7db3dd14d0b3d8a3a4eee40c2ba5dc75360eac7d80f7dcafcae0",
+    "normalizedCodeHash": "6941cc641d8e185eda92322ed81a6563b1492d0de91f27cb1b42208a633176f9",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.075Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

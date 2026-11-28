@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001207",
+  "problemId": "P001207",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001207",
+    "title": "Stone Game",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Two players alternately remove an entire pile of stones from either end of a row of piles. Both play optimally. Determine whether the first player wins.",
+    "input": "• First line contains integer N. • Second line contains N integers representing pile sizes.",
+    "output": "Print YES if the first player wins; otherwise print NO.",
+    "constraints": "• 2 ≤ N ≤ 5000"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001207.py",
+    "fileSHA": "0bd9b195725ee1412e78f43618b2ce578ec594083adfd789596c41f002fefff6",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.790086+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "0bd9b195725ee1412e78f43618b2ce578ec594083adfd789596c41f002fefff6",
+    "normalizedCodeHash": "f3f8936c2e3c71aec4186fc60ee4914648148a52ac1c06c109057d58a6b17801",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.790086+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

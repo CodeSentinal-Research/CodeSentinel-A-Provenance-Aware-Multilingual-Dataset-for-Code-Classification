@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_CLAUDE_P001603",
+  "problemId": "P001603",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001603",
+    "title": "Smallest Prefix Whose Sum Is At Least X",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers and an integer X, determine the minimum prefix length whose sum is at least X. If no such prefix exists, print -1.",
+    "input": "• First line contains N and X. • Second line contains N integers.",
+    "output": "• Print the required length.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P001603",
+    "fileSHA": "203529175da668e75fcb2686f652b562f6fc583c621f3332389815c725a09cbf",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c58ddd1c2f3a322c5817adc233087e999bb6ca2e18760adc6dd8f7f7423ede7a",
+    "normalizedCodeHash": "203529175da668e75fcb2686f652b562f6fc583c621f3332389815c725a09cbf",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

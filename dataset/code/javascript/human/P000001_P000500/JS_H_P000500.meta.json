@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000500",
+  "problemId": "P000500",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000500",
+    "title": "Crawler Log Folder",
+    "category": "Stack",
+    "difficulty": "Easy",
+    "problemStatement": "A file system starts at the main folder. You are given a sequence of folder operations: \"../\" : Move to the parent folder (if already at the main folder, stay there). \"./\" : Stay in the current folder. \"x/\" : Move into a child folder named x. Determine the minimum number of operations needed to return to the main folder after performing all operations.",
+    "input": "Integer n Array of n folder operations.",
+    "output": "A single integer representing the required number of operations.",
+    "constraints": "1 <= n <= 10^3"
+  },
+  "repository": {
+    "name": "nirholas/three.ws",
+    "owner": "nirholas",
+    "url": "https://github.com/nirholas/three.ws",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "scripts/audit-docs.mjs",
+    "fileSHA": "674134e7cacac980606b630b810c8d0822553399",
+    "url": "https://github.com/nirholas/three.ws/blob/7a73da13ab987ad016f25dd592682ce95cee7f05/scripts/audit-docs.mjs",
+    "rawUrl": "https://raw.githubusercontent.com/nirholas/three.ws/main/scripts/audit-docs.mjs"
+  },
+  "matching": {
+    "relevanceScore": 83.7
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "5163a4a0f4182d284c8aee6e6e581fca1b4a22144e522d024378f61a1d2af63c",
+    "normalizedCodeHash": "5163a4a0f4182d284c8aee6e6e581fca1b4a22144e522d024378f61a1d2af63c",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T16:38:17.012537+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

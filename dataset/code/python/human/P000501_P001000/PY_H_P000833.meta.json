@@ -1,0 +1,74 @@
+{
+  "solutionId": "PY_H_P000833",
+  "problemId": "P000833",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000833",
+    "title": "Allocate Minimum Number of Pages",
+    "category": "Binary Search",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array where each element represents the number of pages in a book and an integer students, allocate books such that: Each student receives at least one book. Books assigned to a student must be contiguous. Minimize the maximum number of pages assigned to any student. Return the minimum possible maximum.",
+    "input": "Integer n Array pages Integer students",
+    "output": "The minimum possible maximum pages.",
+    "constraints": "1 <= n <= 10^5 1 <= pages[i] <= 10^9"
+  },
+  "repository": {
+    "name": "SamirPaulb/DSAlgo",
+    "owner": "SamirPaulb",
+    "url": "https://github.com/SamirPaulb/DSAlgo",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "python/human/P000501_P001000/PY_H_P000833.py",
+    "fileSHA": "c58fc74be080cce948a75f272d72fee3190ed3d0",
+    "url": "https://github.com/SamirPaulb/DSAlgo/blob/12db170b6df61ab699a511ac74ec7789b2a06b99/11_Binary-Search/02. Split Array Largest Sum.py",
+    "rawUrl": "https://raw.githubusercontent.com/SamirPaulb/DSAlgo/main/11_Binary-Search/02. Split Array Largest Sum.py"
+  },
+  "matching": {
+    "relevanceScore": 58.33
+  },
+  "provenance": {
+    "score": 76.25,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": "2022-01-17T16:16:52Z",
+    "lastCommitDate": "2022-01-18T06:42:49Z",
+    "commitCount": 2,
+    "authorCount": 1,
+    "authors": [
+      "SamirPaulb"
+    ],
+    "firstKnownAuthor": "SamirPaulb",
+    "latestKnownAuthor": "SamirPaulb"
+  },
+  "deduplication": {
+    "rawCodeHash": "b7786baabd0890c1739024c6904146b02480f62d02602816e39ccf3b96fc672b",
+    "normalizedCodeHash": "b7786baabd0890c1739024c6904146b02480f62d02602816e39ccf3b96fc672b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T05:11:57.265390+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

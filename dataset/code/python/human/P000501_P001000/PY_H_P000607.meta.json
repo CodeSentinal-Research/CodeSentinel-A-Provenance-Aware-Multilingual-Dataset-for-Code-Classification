@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P000607",
+  "problemId": "P000607",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000607",
+    "title": "LFU Cache",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "Design and implement an LFU (Least Frequently Used) cache. The cache supports: get(key) put(key, value) If the cache is full, remove the key with the lowest access frequency. If multiple keys have the same frequency, remove the least recently used among them. Both operations should run in O(1) average time.",
+    "input": "Integer capacity Integer q Next q operations",
+    "output": "Print the result of every get() operation.",
+    "constraints": "0 <= capacity <= 10^4 1 <= q <= 2 \u00d7 10^5"
+  },
+  "repository": {
+    "name": "TheAlgorithms/Python",
+    "owner": "TheAlgorithms",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "defaultBranch": "master",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "other/lfu_cache.py",
+    "fileSHA": "6eaacff2966ad169e9a47b702bf8e2960353dd46",
+    "url": "https://github.com/TheAlgorithms/Python/blob/master/other/lfu_cache.py",
+    "rawUrl": "https://raw.githubusercontent.com/TheAlgorithms/Python/master/other/lfu_cache.py"
+  },
+  "matching": {
+    "relevanceScore": 85.94
+  },
+  "provenance": {
+    "score": 92.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "f58a796131bbd3d29f7a98af02a4db266d89e67b7aa38eedfd5bd05eb87de07d",
+    "normalizedCodeHash": "f58a796131bbd3d29f7a98af02a4db266d89e67b7aa38eedfd5bd05eb87de07d",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T01:56:10.432819+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

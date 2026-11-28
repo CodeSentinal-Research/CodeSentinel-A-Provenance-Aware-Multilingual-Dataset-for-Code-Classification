@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001622",
+  "problemId": "P001622",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001622",
+    "title": "Count Prefixes With Positive Sum",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers, determine how many prefixes have a sum greater than zero.",
+    "input": "• First line contains N. • Second line contains N integers.",
+    "output": "• Print the count.",
+    "constraints": "• 1 ≤ N ≤ 2 × 10^5 • -10^9 ≤ Ai ≤ 10^9"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001622.c",
+    "fileSHA": "23cba348867498c82d9e674ac3c09fbd1ec77f8aed1c975eb1528b07d6b5fcb2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.025Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "b54b9ecb9713539a78cf6c4b082aed08fcdb6b10fc74406bc46c4414ceb147fb",
+    "normalizedCodeHash": "23cba348867498c82d9e674ac3c09fbd1ec77f8aed1c975eb1528b07d6b5fcb2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.025Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

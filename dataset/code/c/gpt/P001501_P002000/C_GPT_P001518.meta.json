@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001518",
+  "problemId": "P001518",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001518",
+    "title": "Successful Pairs of Spells and Potions",
+    "category": "Two Pointers",
+    "difficulty": "Medium",
+    "problemStatement": "Given arrays of spells and potions along with a success threshold, determine for each spell the number of potions that form a successful pair.",
+    "input": "• First line contains integers N, M, and Success. • Second line contains N spell values. • Third line contains M potion values.",
+    "output": "Print the number of successful pairs for each spell.",
+    "constraints": "• 1 ≤ N, M ≤ 2×10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001518.c",
+    "fileSHA": "cacfd52a73466a153c5391dc18f45146f1fb6ff0b21d29c1851a41112786aa56",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:34.630Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "467162f42e27a7bc7d6519f0678dd63db2d9a9e0480f58436d23ec0ffc84f68c",
+    "normalizedCodeHash": "cacfd52a73466a153c5391dc18f45146f1fb6ff0b21d29c1851a41112786aa56",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:34.630Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

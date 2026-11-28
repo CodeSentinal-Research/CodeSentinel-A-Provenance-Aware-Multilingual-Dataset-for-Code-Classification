@@ -1,0 +1,58 @@
+{
+  "solutionId": "C_GPT_P001795",
+  "problemId": "P001795",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001795",
+    "title": "Construct a Height-Balanced Binary Search Tree from a Sorted Array",
+    "category": "Binary Search Trees",
+    "difficulty": "Medium",
+    "problemStatement": "Given a sorted array of distinct integers, construct a height-balanced Binary Search Tree.",
+    "input": "• The first line contains an integer N. • The second line contains the sorted array.",
+    "output": "• Print the constructed BST.",
+    "constraints": "• 0 ≤ N ≤ 2 × 10^5 • All values are distinct."
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "openai",
+    "url": "https://openai.com/"
+  },
+  "source": {
+    "path": "code/c/gpt/P001501_P002000/C_GPT_P001795.c",
+    "fileSHA": "6443104eb3661b31ae0ba2b6dec3f6a48013b1c2cadd6e54a54b9475ad4cbd85",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100
+  },
+  "provenance": {
+    "score": 100,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "gpt-5-codex",
+    "promptTemplate": "json_problem_statement_to_standalone_solution",
+    "temperature": 0.2,
+    "generatedAt": "2026-08-23T09:10:35.685Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "b9389312555e33f34d9b2131d6fd41e0a806a29efd245ca11fbec47ea846c69f",
+    "normalizedCodeHash": "6443104eb3661b31ae0ba2b6dec3f6a48013b1c2cadd6e54a54b9475ad4cbd85",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-23T09:10:35.685Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

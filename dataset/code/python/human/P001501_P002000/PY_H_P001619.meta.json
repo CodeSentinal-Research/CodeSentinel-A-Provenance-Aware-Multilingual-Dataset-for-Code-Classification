@@ -1,0 +1,72 @@
+{
+  "solutionId": "PY_H_P001619",
+  "problemId": "P001619",
+  "language": "python",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001619",
+    "title": "XOR of a Range",
+    "category": "Prefix Sum",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and multiple queries, each containing indices L and R, determine the XOR of all elements in the range [L, R].",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers. \u2022 Third line contains Q. \u2022 Next Q lines each contain L and R.",
+    "output": "\u2022 For each query, print the XOR of the specified range.",
+    "constraints": "\u2022 1 \u2264 N, Q \u2264 2 \u00d7 10^5 \u2022 0 \u2264 Ai \u2264 10^9"
+  },
+  "repository": {
+    "name": "Schulze-M/DPIM",
+    "owner": "Schulze-M",
+    "url": "https://github.com/Schulze-M/DPIM",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Python",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "utils/cut_detection.py",
+    "fileSHA": "cae77f0ae6b9c95811042067ce612313d996a141",
+    "url": "https://github.com/Schulze-M/DPIM/blob/d99a1609d1b0e422a70c3dd70cdc3372bda6cf6b/utils/cut_detection.py",
+    "rawUrl": "https://raw.githubusercontent.com/Schulze-M/DPIM/main/utils/cut_detection.py"
+  },
+  "matching": {
+    "relevanceScore": 87.3
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3da805e72d1be97d52b9de3299990012e983011d41fa362edf8bc5b3e4041dcb",
+    "normalizedCodeHash": "3da805e72d1be97d52b9de3299990012e983011d41fa362edf8bc5b3e4041dcb",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-30T21:22:39.983288+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

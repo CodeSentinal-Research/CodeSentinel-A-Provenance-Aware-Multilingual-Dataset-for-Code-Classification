@@ -1,0 +1,59 @@
+{
+  "solutionId": "C_GPT_P000427",
+  "problemId": "P000427",
+  "language": "c",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000427",
+    "title": "Search Products Eligible for Free Shipping",
+    "category": "Searching",
+    "difficulty": "Easy",
+    "problemStatement": "Retrieve all products that satisfy the minimum price required for free shipping.",
+    "input": "Product records and the minimum qualifying price.",
+    "output": "Matching products.",
+    "constraints": "1 ≤ Number of Products ≤ 10^5"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://openrouter.ai/models"
+  },
+  "source": {
+    "path": "c/gpt/P000001_P000500/C_GPT_P000427.c",
+    "fileSHA": "2613e21ae91420e18cbc84a40cd1c2aec3f371259a909ad5879409070d18f9f4",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gpt",
+    "model": "openai/gpt-4o-mini",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 2.5,
+    "generatedAt": "2026-08-22T10:47:33.289180+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "2613e21ae91420e18cbc84a40cd1c2aec3f371259a909ad5879409070d18f9f4",
+    "normalizedCodeHash": "2613e21ae91420e18cbc84a40cd1c2aec3f371259a909ad5879409070d18f9f4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T10:47:33.289180+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

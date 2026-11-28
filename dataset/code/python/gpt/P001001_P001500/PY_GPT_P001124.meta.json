@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001124",
+  "problemId": "P001124",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001124",
+    "title": "Cheapest Flight Within K Stops",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given a list of flights between cities with ticket costs, determine the minimum cost of traveling from a source city to a destination city using at most K intermediate stops.",
+    "input": "• First line contains integers N, M, S, D, and K. • Next M lines contain integers u, v, and cost.",
+    "output": "Print the minimum travel cost. If no such route exists, print -1.",
+    "constraints": "• 2 ≤ N ≤ 100 • 1 ≤ M ≤ 10^4"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001124.py",
+    "fileSHA": "82977646ee333b09b4c5469da71bc9347ed1ca06d2779a312e524c745ec837b2",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.439714+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "82977646ee333b09b4c5469da71bc9347ed1ca06d2779a312e524c745ec837b2",
+    "normalizedCodeHash": "ca64726c49b98d527ace92535773d1dabb1c133b20bef0f7c01e430cfe45f8a4",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.439714+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

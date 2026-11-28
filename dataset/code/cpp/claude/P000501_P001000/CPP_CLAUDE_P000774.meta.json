@@ -1,0 +1,60 @@
+{
+  "solutionId": "CPP_CLAUDE_P000774",
+  "problemId": "P000774",
+  "language": "cpp",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P000774",
+    "title": "Recursive Word Search",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N × M grid of characters and a target word, determine whether the word can be formed by traversing adjacent cells. Adjacent cells are horizontally or vertically neighboring. A cell may not be used more than once in a path. Solve the problem recursively.",
+    "input": "Integer N Integer M Character matrix board String word",
+    "output": "true if the word exists in the grid, otherwise false.",
+    "constraints": "1 <= N, M <= 10 1 <= |word| <= N × M"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/CPP_CLAUDE_P000774",
+    "fileSHA": "e4d88eff86030c9667c485087c76e6a13e26af62071b19dfcc2ce65fa4577e70",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "e4d88eff86030c9667c485087c76e6a13e26af62071b19dfcc2ce65fa4577e70",
+    "normalizedCodeHash": "e4d88eff86030c9667c485087c76e6a13e26af62071b19dfcc2ce65fa4577e70",
+    "duplicate": false,
+    "duplicateOf": null,
+    "note": "Fixed 2026-09-03: unique stub P000774"
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

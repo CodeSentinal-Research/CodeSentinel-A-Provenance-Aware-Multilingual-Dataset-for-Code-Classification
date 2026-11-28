@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_CLAUDE_P001450",
+  "problemId": "P001450",
+  "language": "java",
+  "label": "claude_generated",
+  "problem": {
+    "problemId": "P001450",
+    "title": "Rank Teams by Votes",
+    "category": "Hashing",
+    "difficulty": "Medium",
+    "problemStatement": "Several voters rank teams from best to worst. Determine the final ranking by comparing vote frequencies at every position. Break remaining ties alphabetically.",
+    "input": "• First line contains integer V. • Next V lines contain one ranking string.",
+    "output": "Print the final ranking string.",
+    "constraints": "• 1 ≤ V ≤ 10^5 • Number of teams ≤ 26"
+  },
+  "repository": {
+    "name": "AI_MODEL_CLAUDE",
+    "owner": "claude",
+    "url": "https://anthropic.com/claude"
+  },
+  "source": {
+    "path": "AI_GENERATED/claude/JAVA_CLAUDE_P001450",
+    "fileSHA": "c021725428d1f3ba845c8e2141fc0e0d3959535453bd6f0cb99722f970acd7a3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "claude",
+    "model": "claude-sonnet-4-6",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T09:45:00.000000+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "045668035a0cb974a22f3130b354cf9485d88dcf9a4cb122b9a68728ac719a1a",
+    "normalizedCodeHash": "c021725428d1f3ba845c8e2141fc0e0d3959535453bd6f0cb99722f970acd7a3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T09:45:00.000000+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000592",
+  "problemId": "P000592",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000592",
+    "title": "Remove Linked List Elements",
+    "category": "Linked List",
+    "difficulty": "Easy",
+    "problemStatement": "Given the head of a linked list and an integer val, remove all nodes whose value is equal to val. Return the head of the modified linked list.",
+    "input": "Integer n Linked list Integer val",
+    "output": "The linked list after removing all occurrences of val.",
+    "constraints": "0 <= n <= 10^5 -50 <= node.value, val <= 50"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000592",
+    "fileSHA": "6702773d2a8cfce896024394484835de1992d1a9cea5aa15bec8d10c54f432de",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:25:40.059Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "e8494f2511d34fe4588767536b3191678001f0bd35d2f3adc23359e4c607613b",
+    "normalizedCodeHash": "91035bbe72e5d73dc4ba81e403803e095315d370c377d0775947df37a750a2e3",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:25:40.059Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

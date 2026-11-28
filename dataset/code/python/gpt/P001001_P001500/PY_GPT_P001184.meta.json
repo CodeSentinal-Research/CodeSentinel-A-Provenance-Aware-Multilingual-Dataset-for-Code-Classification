@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P001184",
+  "problemId": "P001184",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P001184",
+    "title": "Frog Jump with K Distance",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "A frog stands on the first stone and may jump forward up to K stones at a time. The energy cost of a jump is the absolute difference between the heights of the starting and destination stones. Determine the minimum total energy required to reach the last stone.",
+    "input": "• First line contains integers N and K. • Second line contains N integers.",
+    "output": "Print the minimum energy required.",
+    "constraints": "• 2 ≤ N ≤ 10^5 • 1 ≤ K ≤ 100"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P001001_P001500/PY_GPT_P001184.py",
+    "fileSHA": "6bf2c056afd8853aa5c3b819c8f908384cd93b854d77c9db521e1c7a46ca9ec3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T19:09:50.693351+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "6bf2c056afd8853aa5c3b819c8f908384cd93b854d77c9db521e1c7a46ca9ec3",
+    "normalizedCodeHash": "7926a4406fdaff1d85d375029136b33116b1166c196ec935f5f81dabf15a7686",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T19:09:50.693351+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

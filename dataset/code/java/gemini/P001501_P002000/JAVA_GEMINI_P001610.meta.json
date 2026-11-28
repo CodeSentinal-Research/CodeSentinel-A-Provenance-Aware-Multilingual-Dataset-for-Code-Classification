@@ -1,0 +1,59 @@
+{
+  "solutionId": "JAVA_GEMINI_P001610",
+  "problemId": "P001610",
+  "language": "java",
+  "label": "gemini_generated",
+  "problem": {
+    "problemId": "P001610",
+    "title": "Product Except Self",
+    "category": "Prefix Sum",
+    "difficulty": "Medium",
+    "problemStatement": "Given an array of integers, construct an output array where each element is equal to the product of all elements of the input array except itself. Division is not allowed.",
+    "input": "\u2022 First line contains N. \u2022 Second line contains N integers.",
+    "output": "\u2022 Print the resulting array.",
+    "constraints": "\u2022 2 \u2264 N \u2264 2 \u00d7 10^5 \u2022 -30 \u2264 Ai \u2264 30"
+  },
+  "repository": {
+    "name": "AI_MODEL_GEMINI",
+    "owner": "gemini",
+    "url": "https://deepmind.google/technologies/gemini/"
+  },
+  "source": {
+    "path": "AI_GENERATED/gemini/JAVA_GEMINI_P001610",
+    "fileSHA": "c708b5d8165db7138920f509668ba5e0fe310ae92245c82ec66f504f39cf1d2a",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "gemini",
+    "model": "gemini-3.7-flash",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-18T01:33:50.864436+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "c708b5d8165db7138920f509668ba5e0fe310ae92245c82ec66f504f39cf1d2a",
+    "normalizedCodeHash": "c708b5d8165db7138920f509668ba5e0fe310ae92245c82ec66f504f39cf1d2a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-18T01:33:50.864459+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

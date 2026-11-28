@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001439",
+  "problemId": "P001439",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001439",
+    "title": "Unique Morse Code Words",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "Each lowercase English letter has a Morse code representation. Given a list of words, determine the number of distinct Morse code transformations.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain one lowercase word each.",
+    "output": "Print the number of distinct transformations.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 Word length \u2264 20"
+  },
+  "repository": {
+    "name": "toanpi/leetcode",
+    "owner": "toanpi",
+    "url": "https://github.com/toanpi/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "804.unique-morse-code-words.c",
+    "fileSHA": "1992dd07383c8bfb2663a41452cb01d9fc9a996c",
+    "url": "https://github.com/toanpi/leetcode/blob/0d45eb40f718a0708d4042aaa7551c5281b6f05d/804.unique-morse-code-words.c",
+    "rawUrl": "https://raw.githubusercontent.com/toanpi/leetcode/main/804.unique-morse-code-words.c"
+  },
+  "matching": {
+    "relevanceScore": 72.5
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "8fd8ad6d5dbe1436ee2f424117e661c7e6016aa8d538969fe27fb7edb1019756",
+    "normalizedCodeHash": "8fd8ad6d5dbe1436ee2f424117e661c7e6016aa8d538969fe27fb7edb1019756",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:26:18.845950+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

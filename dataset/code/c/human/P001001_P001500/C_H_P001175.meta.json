@@ -1,0 +1,74 @@
+{
+  "solutionId": "C_H_P001175",
+  "problemId": "P001175",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001175",
+    "title": "Falling Path Minimum Sum",
+    "category": "Dynamic Programming",
+    "difficulty": "Medium",
+    "problemStatement": "Given an N \u00d7 N matrix, determine the minimum sum of any falling path. A falling path starts at any element in the first row and moves to the directly below, diagonally left, or diagonally right cell in the next row.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain N integers.",
+    "output": "Print the minimum falling path sum.",
+    "constraints": "\u2022 1 \u2264 N \u2264 1000"
+  },
+  "repository": {
+    "name": "lrmsspace/LLM-CodeQualityEval",
+    "owner": "lrmsspace",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval",
+    "defaultBranch": "main",
+    "license": "None",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "",
+    "updatedAt": "",
+    "pushedAt": "",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/human/P001001_P001500/C_H_P001175.c",
+    "fileSHA": "e86404c6eb5fd522039406641f1f0ef59d824f4f",
+    "url": "https://github.com/lrmsspace/LLM-CodeQualityEval/blob/a2817bbe913c51ab32afeb6f6d0ad97b92c45075/Output/output_TY/c/Medium/1028-minimum-falling-path-sum.c",
+    "rawUrl": "https://raw.githubusercontent.com/lrmsspace/LLM-CodeQualityEval/main/Output/output_TY/c/Medium/1028-minimum-falling-path-sum.c"
+  },
+  "matching": {
+    "relevanceScore": 84.0
+  },
+  "provenance": {
+    "score": 58.25,
+    "level": "LOW",
+    "preCutoffEvidence": false,
+    "firstCommitDate": "2025-09-14T06:31:11Z",
+    "lastCommitDate": "2025-09-14T06:31:11Z",
+    "commitCount": 1,
+    "authorCount": 1,
+    "authors": [
+      "RUIMENG LI"
+    ],
+    "firstKnownAuthor": "RUIMENG LI",
+    "latestKnownAuthor": "RUIMENG LI"
+  },
+  "deduplication": {
+    "rawCodeHash": "827e3d1f642bbdcb9bc690c3ed38c9487920cb8d57b3e3c147367dbc41422dd0",
+    "normalizedCodeHash": "827e3d1f642bbdcb9bc690c3ed38c9487920cb8d57b3e3c147367dbc41422dd0",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-12T08:05:07.429876+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "solutionId": "JS_H_P000764",
+  "problemId": "P000764",
+  "language": "javascript",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P000764",
+    "title": "Decode String at Index",
+    "category": "Recursion",
+    "difficulty": "Medium",
+    "problemStatement": "An encoded string follows the rule: Letters are appended directly. A digit d means the entire current decoded string is repeated d times. Given an encoded string s and an integer K, return the K-th character in the decoded string without explicitly constructing the decoded string. Solve the problem recursively.",
+    "input": "String s Integer K",
+    "output": "The K-th character.",
+    "constraints": "2 <= |s| <= 100 1 <= K <= 10^18"
+  },
+  "repository": {
+    "name": "magcius/meshopt_decoder_reference",
+    "owner": "magcius",
+    "url": "https://github.com/magcius/meshopt_decoder_reference",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "Javascript",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "decoder.js",
+    "fileSHA": "fbbccda6413d072cdbe6a7e51b8210927d82d68c",
+    "url": "https://github.com/magcius/meshopt_decoder_reference/blob/c5618885be33694422d17f6d326321baf44e90e0/decoder.js",
+    "rawUrl": "https://raw.githubusercontent.com/magcius/meshopt_decoder_reference/main/decoder.js"
+  },
+  "matching": {
+    "relevanceScore": 67.17
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "7969e819aa5e745abecab5cbbcbf9469ca95825b5514c8404e025616bcb2fde5",
+    "normalizedCodeHash": "7969e819aa5e745abecab5cbbcbf9469ca95825b5514c8404e025616bcb2fde5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T13:31:46.688373+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

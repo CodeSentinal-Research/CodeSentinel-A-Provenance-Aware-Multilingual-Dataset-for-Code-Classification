@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001541",
+  "problemId": "P001541",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001541",
+    "title": "Maximum Sum of K Consecutive Elements",
+    "category": "Sliding Window",
+    "difficulty": "Easy",
+    "problemStatement": "Given an array of integers and an integer K, find the maximum possible sum of any contiguous subarray of size exactly K.",
+    "input": "\u2022 First line contains two integers N and K. \u2022 Second line contains N space-separated integers.",
+    "output": "\u2022 Print the maximum sum among all contiguous subarrays of size K.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 1 \u2264 K \u2264 N \u2022 -10^4 \u2264 Ai \u2264 10^4"
+  },
+  "repository": {
+    "name": "vanshi80/DSAPractice",
+    "owner": "vanshi80",
+    "url": "https://github.com/vanshi80/DSAPractice",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "dsa_array/maxsumofkconselemSlidWin.c",
+    "fileSHA": "88987bd6d2cfcf8a743ca238728242334a074ed8",
+    "url": "https://github.com/vanshi80/DSAPractice/blob/f2878d1ea55d852d20f2b4739bc560ce55032000/dsa_array/maxsumofkconselemSlidWin.c",
+    "rawUrl": "https://raw.githubusercontent.com/vanshi80/DSAPractice/main/dsa_array/maxsumofkconselemSlidWin.c"
+  },
+  "matching": {
+    "relevanceScore": 81.2
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "cc88bf2e68999515ac2eda7c331e250412e0d81b4ae18058d18f75504a12c2ed",
+    "normalizedCodeHash": "cc88bf2e68999515ac2eda7c331e250412e0d81b4ae18058d18f75504a12c2ed",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T21:23:50.861987+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

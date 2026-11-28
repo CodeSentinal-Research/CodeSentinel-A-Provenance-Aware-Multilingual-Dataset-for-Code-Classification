@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001045",
+  "problemId": "P001045",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001045",
+    "title": "Check Whether Two Heaps are Identical",
+    "category": "Heap",
+    "difficulty": "Easy",
+    "problemStatement": "Given two binary heaps represented as arrays, determine whether they are identical.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Second line contains N integers. \u2022 Third line contains M integers.",
+    "output": "Print YES if both heaps are identical; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 10^5"
+  },
+  "repository": {
+    "name": "refault-artifacts/memtest",
+    "owner": "refault-artifacts",
+    "url": "https://github.com/refault-artifacts/memtest",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "system/heap.h",
+    "fileSHA": "e85cce0ee2f2c94b4ca8a6654a19f493c1239e16",
+    "url": "https://github.com/refault-artifacts/memtest/blob/b2f82db670a3a68e0c68d568e1a27b6adf73be3a/system/heap.h",
+    "rawUrl": "https://raw.githubusercontent.com/refault-artifacts/memtest/main/system/heap.h"
+  },
+  "matching": {
+    "relevanceScore": 82.5
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "2825fc596218b4384aa7ff7670965e3a7c47232a65cfabdf3faa9e52f2533d7a",
+    "normalizedCodeHash": "2825fc596218b4384aa7ff7670965e3a7c47232a65cfabdf3faa9e52f2533d7a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-31T17:06:19.774470+00:00",
+    "pipelineVersion": "20.0.0-ultradeep"
+  }
+}

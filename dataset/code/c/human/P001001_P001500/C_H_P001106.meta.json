@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001106",
+  "problemId": "P001106",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001106",
+    "title": "Course Schedule Ordering",
+    "category": "Graphs",
+    "difficulty": "Hard",
+    "problemStatement": "Given N courses and prerequisite relationships, determine one valid order in which all courses can be completed. If no such ordering exists, print IMPOSSIBLE.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain prerequisite pairs.",
+    "output": "Print one valid course ordering or IMPOSSIBLE.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/0621-task-scheduler.c",
+    "fileSHA": "9afa014ce344d8f42b97614c8b572b8311c8391a",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/c/0621-task-scheduler.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/0621-task-scheduler.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "3dd46911455790d3bbeb97d84f4e86c628cc04bebfd07a3fa4809110453aa16a",
+    "normalizedCodeHash": "3dd46911455790d3bbeb97d84f4e86c628cc04bebfd07a3fa4809110453aa16a",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:07.939794+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

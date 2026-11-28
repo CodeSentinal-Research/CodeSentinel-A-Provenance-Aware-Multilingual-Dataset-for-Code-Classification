@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001300",
+  "problemId": "P001300",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001300",
+    "title": "Minimum Number of Rescue Boats with Variable Capacity",
+    "category": "Greedy",
+    "difficulty": "Hard",
+    "problemStatement": "Given the weights of people and the capacities of available boats, where each boat can carry at most two people and has its own weight limit, determine the minimum number of boats required to rescue everyone. If it is impossible to rescue all people, print -1.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Second line contains N integers representing people's weights. \u2022 Third line contains M integers representing boat capacities.",
+    "output": "Print the minimum number of boats required, or -1 if impossible.",
+    "constraints": "\u2022 1 \u2264 N, M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "doocs/leetcode",
+    "owner": "doocs",
+    "url": "https://github.com/doocs/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "solution/1700-1799/1785.Minimum Elements to Add to Form a Given Sum/Solution.c",
+    "fileSHA": "8e2203bdbc94c5a2e9ac964b6fce49bc35e123a4",
+    "url": "https://github.com/doocs/leetcode/blob/main/solution/1700-1799/1785.Minimum Elements to Add to Form a Given Sum/Solution.c",
+    "rawUrl": "https://raw.githubusercontent.com/doocs/leetcode/main/solution/1700-1799/1785.Minimum Elements to Add to Form a Given Sum/Solution.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d7a95f772aa39263b350769ace603fc2b0bc28210c35bcea8870b7c14ff1fbc2",
+    "normalizedCodeHash": "d7a95f772aa39263b350769ace603fc2b0bc28210c35bcea8870b7c14ff1fbc2",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:37:44.576357+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

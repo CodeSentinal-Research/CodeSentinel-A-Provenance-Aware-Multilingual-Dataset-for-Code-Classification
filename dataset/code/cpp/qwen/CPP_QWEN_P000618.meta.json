@@ -1,0 +1,59 @@
+{
+  "solutionId": "CPP_QWEN_P000618",
+  "problemId": "P000618",
+  "language": "cpp",
+  "label": "qwen_generated",
+  "problem": {
+    "problemId": "P000618",
+    "title": "Clone Doubly Linked List with Random Pointer",
+    "category": "Linked List",
+    "difficulty": "Hard",
+    "problemStatement": "A doubly linked list contains the following pointers: prev next random The random pointer may point to any node in the list or be null. Create a deep copy of the entire doubly linked list and return the head of the copied list.",
+    "input": "A doubly linked list with prev, next, and random pointers.",
+    "output": "The head of the deep-copied doubly linked list.",
+    "constraints": "Number of nodes is in the range [0, 1000]"
+  },
+  "repository": {
+    "name": "AI_MODEL_QWEN",
+    "owner": "qwen",
+    "url": "https://qwen.ai/"
+  },
+  "source": {
+    "path": "AI_GENERATED/qwen/CPP_QWEN_P000618",
+    "fileSHA": "a78e95c867829cb8f95d8a27b629a47db006809b8d0b59fb0f81b88381f99286",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "qwen",
+    "model": "qwen-3.7",
+    "promptTemplate": "standard_zero_shot",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.5,
+    "generatedAt": "2026-08-22T05:41:25.330Z"
+  },
+  "deduplication": {
+    "rawCodeHash": "063f6c6c80720794c4b924ea599e2fcf8c07e0af799857bbdaacc15c88d9ff9d",
+    "normalizedCodeHash": "866101e0f89eb54446edba0659c768a7ce8b6283e855884e43a7fc847b56080b",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-22T05:41:25.330Z",
+    "pipelineVersion": "1.0.0"
+  }
+}

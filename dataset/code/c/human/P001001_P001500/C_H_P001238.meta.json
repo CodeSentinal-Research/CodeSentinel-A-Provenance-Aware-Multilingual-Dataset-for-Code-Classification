@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001238",
+  "problemId": "P001238",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001238",
+    "title": "Merge Overlapping Intervals",
+    "category": "Greedy",
+    "difficulty": "Easy",
+    "problemStatement": "Given a collection of intervals, merge all overlapping intervals and print the resulting intervals sorted by starting position.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines contain interval endpoints.",
+    "output": "Print all merged intervals.",
+    "constraints": "\u2022 1 \u2264 N \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "neetcode-gh/leetcode",
+    "owner": "neetcode-gh",
+    "url": "https://github.com/neetcode-gh/leetcode",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 15000,
+    "forks": 3500,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "c/0056-merge-intervals.c",
+    "fileSHA": "975958c2aa37a6ccc12357acc2d62a0d97baf190",
+    "url": "https://github.com/neetcode-gh/leetcode/blob/main/c/0056-merge-intervals.c",
+    "rawUrl": "https://raw.githubusercontent.com/neetcode-gh/leetcode/main/c/0056-merge-intervals.c"
+  },
+  "matching": {
+    "relevanceScore": 88.0
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "d1372da03cc25e0361bfb7c3fe45ef2e5dd4de87eb0c556f16bcd6ce1668bee7",
+    "normalizedCodeHash": "d1372da03cc25e0361bfb7c3fe45ef2e5dd4de87eb0c556f16bcd6ce1668bee7",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T15:19:05.990934+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

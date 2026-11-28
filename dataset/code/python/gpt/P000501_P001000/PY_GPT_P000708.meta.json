@@ -1,0 +1,59 @@
+{
+  "solutionId": "PY_GPT_P000708",
+  "problemId": "P000708",
+  "language": "python",
+  "label": "gpt_generated",
+  "problem": {
+    "problemId": "P000708",
+    "title": "Tower of Hanoi",
+    "category": "Recursion",
+    "difficulty": "Hard",
+    "problemStatement": "Given N disks placed on the source rod, move all disks to the destination rod using the auxiliary rod. Only one disk may be moved at a time, and a larger disk may never be placed on top of a smaller disk. Print the sequence of moves and the total number of moves.",
+    "input": "Integer N",
+    "output": "The sequence of valid moves. The total number of moves.",
+    "constraints": "1 <= N <= 20"
+  },
+  "repository": {
+    "name": "AI_MODEL_GPT",
+    "owner": "gpt",
+    "url": "https://platform.openai.com/"
+  },
+  "source": {
+    "path": "python/gpt/P000501_P001000/PY_GPT_P000708.py",
+    "fileSHA": "53a8ebf8ed53908a340c583b08c316a0c6ffe0701bc222602f49891b985afcd3",
+    "commitSHA": "AI_GENERATED",
+    "url": "N/A",
+    "rawUrl": "N/A"
+  },
+  "matching": {
+    "relevanceScore": 100.0
+  },
+  "provenance": {
+    "score": 100.0,
+    "level": "AI_GENERATED",
+    "provider": "openai",
+    "model": "GPT_OFFLINE_EMBEDDED",
+    "promptTemplate": "dataset_solution_generation",
+    "temperature": 0.2,
+    "generationTimeSeconds": 0.0,
+    "generatedAt": "2026-08-24T18:58:56.748177+00:00"
+  },
+  "deduplication": {
+    "rawCodeHash": "53a8ebf8ed53908a340c583b08c316a0c6ffe0701bc222602f49891b985afcd3",
+    "normalizedCodeHash": "9b5ebe35841737b483c11a46c8da792d1376e0cc42d2dfd21e2e1a3358121930",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": null
+  },
+  "collection": {
+    "collectedAt": "2026-08-24T18:58:56.748177+00:00",
+    "pipelineVersion": "1.0.0"
+  }
+}

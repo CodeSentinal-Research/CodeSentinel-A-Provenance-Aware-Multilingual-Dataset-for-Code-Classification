@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001425",
+  "problemId": "P001425",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001425",
+    "title": "Destination City",
+    "category": "Hashing",
+    "difficulty": "Easy",
+    "problemStatement": "You are given a list of direct travel paths represented as source and destination cities. Determine the city that has no outgoing path.",
+    "input": "\u2022 First line contains integer N. \u2022 Next N lines each contain two strings representing source and destination.",
+    "output": "Print the destination city.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5"
+  },
+  "repository": {
+    "name": "Muzzammil777/ROUTE_PLANNING_SYSTEM",
+    "owner": "Muzzammil777",
+    "url": "https://github.com/Muzzammil777/ROUTE_PLANNING_SYSTEM",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/dijkstra.c",
+    "fileSHA": "3ddc09fff19d891aa7b3566bb7ed94347874d2cd",
+    "url": "https://github.com/Muzzammil777/ROUTE_PLANNING_SYSTEM/blob/dbac48a3f6a39c0b2506dedd3a2af1ff1d70cb9b/src/dijkstra.c",
+    "rawUrl": "https://raw.githubusercontent.com/Muzzammil777/ROUTE_PLANNING_SYSTEM/main/src/dijkstra.c"
+  },
+  "matching": {
+    "relevanceScore": 63.86
+  },
+  "provenance": {
+    "score": 80.0,
+    "level": "MEDIUM",
+    "preCutoffEvidence": false,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "91836aa649974f5c2b70c686564797ba9c7086fb05c18e93f0fafa0b927d4eb5",
+    "normalizedCodeHash": "91836aa649974f5c2b70c686564797ba9c7086fb05c18e93f0fafa0b927d4eb5",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-19T12:15:57.705224+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}

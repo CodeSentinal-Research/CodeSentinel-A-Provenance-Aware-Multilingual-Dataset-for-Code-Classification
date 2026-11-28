@@ -1,0 +1,72 @@
+{
+  "solutionId": "C_H_P001070",
+  "problemId": "P001070",
+  "language": "c",
+  "label": "human_candidate",
+  "problem": {
+    "problemId": "P001070",
+    "title": "Check Whether a Graph is Bipartite",
+    "category": "Graphs",
+    "difficulty": "Medium",
+    "problemStatement": "Given an undirected graph, determine whether it is bipartite.",
+    "input": "\u2022 First line contains integers N and M. \u2022 Next M lines contain graph edges.",
+    "output": "Print YES if the graph is bipartite; otherwise print NO.",
+    "constraints": "\u2022 1 \u2264 N \u2264 10^5 \u2022 0 \u2264 M \u2264 2\u00d710^5"
+  },
+  "repository": {
+    "name": "skaiworldwide-oss/agensgraph",
+    "owner": "skaiworldwide-oss",
+    "url": "https://github.com/skaiworldwide-oss/agensgraph",
+    "defaultBranch": "main",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "fork": false,
+    "createdAt": "2020-01-01T00:00:00Z",
+    "updatedAt": "2022-01-01T00:00:00Z",
+    "pushedAt": "2022-01-01T00:00:00Z",
+    "language": "C",
+    "disabled": false,
+    "archived": false,
+    "private": false
+  },
+  "source": {
+    "path": "src/include/lib/bipartite_match.h",
+    "fileSHA": "4d7dc1000124bb3f06d09850ebfeadd6004a596c",
+    "url": "https://github.com/skaiworldwide-oss/agensgraph/blob/ae6953e8be13a75f23f478188d7c68303b6fd0c8/src/include/lib/bipartite_match.h",
+    "rawUrl": "https://raw.githubusercontent.com/skaiworldwide-oss/agensgraph/main/src/include/lib/bipartite_match.h"
+  },
+  "matching": {
+    "relevanceScore": 86.9
+  },
+  "provenance": {
+    "score": 88.0,
+    "level": "HIGH",
+    "preCutoffEvidence": true,
+    "firstCommitDate": null,
+    "lastCommitDate": null,
+    "commitCount": 0,
+    "authorCount": 0,
+    "authors": [],
+    "firstKnownAuthor": null,
+    "latestKnownAuthor": null
+  },
+  "deduplication": {
+    "rawCodeHash": "0cfd6b27bdd61e1b1558d0c2a57af5ada0f568718bd3fb50b70c7e2085bff4a6",
+    "normalizedCodeHash": "0cfd6b27bdd61e1b1558d0c2a57af5ada0f568718bd3fb50b70c7e2085bff4a6",
+    "duplicate": false,
+    "duplicateOf": null
+  },
+  "validation": {
+    "syntaxValid": true,
+    "utf8Valid": true,
+    "nonEmpty": true,
+    "isText": true,
+    "hasGeneratedMarkers": false,
+    "reason": "OK"
+  },
+  "collection": {
+    "collectedAt": "2026-08-29T15:40:49.746976+00:00",
+    "pipelineVersion": "19.0.0-highyield"
+  }
+}
